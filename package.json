@@ -1,0 +1,34 @@
+{
+  "name": "black-history-room-reels",
+  "version": "1.0.0",
+  "description": "Vertical Reels for The Black History Room, built on the MathDoc pipeline (copied from Youtube-Automation)",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "lint": "eslint src && tsc",
+    "reel:images": "python3 scripts/fetch_pd_images.py",
+    "reel:tts": "python3 scripts/tts_mathdoc.py",
+    "reel:music": "python3 scripts/make_music.py",
+    "reel:mix": "python3 scripts/mix_mathdoc.py",
+    "reel:qc": "python3 scripts/qc_reel.py"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "4.0.529",
+    "@remotion/media": "4.0.529",
+    "remotion": "4.0.529",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.529",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  }
+}

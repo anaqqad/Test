@@ -36,3 +36,11 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - Never print, log or commit API keys; secrets come from environment variables.
 - Ask before any paid API usage.
 - Don't touch unrelated projects or folders on this machine.
+
+## Reels for The Black History Room (added 2026-10-03)
+- Vertical 1080x1920 Remotion format at the repo root; see README.md. Pilot: `data/reel-robert-smalls.json`.
+- Pipeline copied from anaqqad/Youtube-Automation (MathDoc), same file names. The owner chose to keep it here.
+- ElevenLabs "Andrew" is paid: ask before every `tts_mathdoc.py` run on an elevenlabs spec, and give the
+  character count (pilot: ~910 characters). Kokoro scratch takes are free.
+- Never commit `voices/`. Images: public domain / CC0 only, credits in `public/pd/<id>/credits.json`.
+- Measured on the cloud VM (4 CPU, no GPU): Reel render 212 s for 62.6 s of video; safe-zone QC ~70 s.
