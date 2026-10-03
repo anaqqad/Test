@@ -1,0 +1,967 @@
+{
+ "fps": 30,
+ "durationInFrames": 1754,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 159,
+ "wpm": 163.1,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 4.015,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.3,
+     "end": 0.428
+    },
+    {
+     "text": "1862,",
+     "start": 0.463,
+     "end": 1.415
+    },
+    {
+     "text": "an",
+     "start": 1.531,
+     "end": 1.658
+    },
+    {
+     "text": "enslaved",
+     "start": 1.716,
+     "end": 2.169
+    },
+    {
+     "text": "man",
+     "start": 2.216,
+     "end": 2.425
+    },
+    {
+     "text": "stole",
+     "start": 2.483,
+     "end": 2.726
+    },
+    {
+     "text": "a",
+     "start": 2.75,
+     "end": 2.773
+    },
+    {
+     "text": "Confederate",
+     "start": 2.819,
+     "end": 3.261
+    },
+    {
+     "text": "warship.",
+     "start": 3.284,
+     "end": 4.015
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 132
+  },
+  {
+   "id": "name",
+   "speechEnd": 6.013,
+   "words": [
+    {
+     "text": "His",
+     "start": 4.515,
+     "end": 4.701
+    },
+    {
+     "text": "name",
+     "start": 4.759,
+     "end": 4.921
+    },
+    {
+     "text": "was",
+     "start": 4.945,
+     "end": 5.049
+    },
+    {
+     "text": "Robert",
+     "start": 5.119,
+     "end": 5.386
+    },
+    {
+     "text": "Smalls.",
+     "start": 5.421,
+     "end": 6.013
+    }
+   ],
+   "cues": {},
+   "startFrame": 132,
+   "endFrame": 197
+  },
+  {
+   "id": "born",
+   "speechEnd": 8.892,
+   "words": [
+    {
+     "text": "Born",
+     "start": 6.674,
+     "end": 6.941
+    },
+    {
+     "text": "enslaved",
+     "start": 6.988,
+     "end": 7.429
+    },
+    {
+     "text": "in",
+     "start": 7.464,
+     "end": 7.51
+    },
+    {
+     "text": "Beaufort,",
+     "start": 7.568,
+     "end": 7.94
+    },
+    {
+     "text": "South",
+     "start": 7.963,
+     "end": 8.184
+    },
+    {
+     "text": "Carolina,",
+     "start": 8.219,
+     "end": 8.892
+    }
+   ],
+   "cues": {},
+   "startFrame": 197,
+   "endFrame": 271
+  },
+  {
+   "id": "docks",
+   "speechEnd": 11.423,
+   "words": [
+    {
+     "text": "he",
+     "start": 9.124,
+     "end": 9.182
+    },
+    {
+     "text": "was",
+     "start": 9.229,
+     "end": 9.322
+    },
+    {
+     "text": "hired",
+     "start": 9.391,
+     "end": 9.681
+    },
+    {
+     "text": "out",
+     "start": 9.716,
+     "end": 9.844
+    },
+    {
+     "text": "to",
+     "start": 9.879,
+     "end": 9.937
+    },
+    {
+     "text": "work",
+     "start": 9.995,
+     "end": 10.181
+    },
+    {
+     "text": "on",
+     "start": 10.227,
+     "end": 10.285
+    },
+    {
+     "text": "the",
+     "start": 10.308,
+     "end": 10.378
+    },
+    {
+     "text": "Charleston",
+     "start": 10.413,
+     "end": 10.854
+    },
+    {
+     "text": "waterfront",
+     "start": 10.9,
+     "end": 11.423
+    }
+   ],
+   "cues": {},
+   "startFrame": 271,
+   "endFrame": 344
+  },
+  {
+   "id": "steered",
+   "speechEnd": 14.964,
+   "words": [
+    {
+     "text": "and",
+     "start": 11.562,
+     "end": 11.806
+    },
+    {
+     "text": "steered",
+     "start": 11.864,
+     "end": 12.166
+    },
+    {
+     "text": "a",
+     "start": 12.189,
+     "end": 12.212
+    },
+    {
+     "text": "Confederate",
+     "start": 12.259,
+     "end": 12.735
+    },
+    {
+     "text": "steamer",
+     "start": 12.77,
+     "end": 13.072
+    },
+    {
+     "text": "called",
+     "start": 13.13,
+     "end": 13.35
+    },
+    {
+     "text": "the",
+     "start": 13.373,
+     "end": 13.443
+    },
+    {
+     "text": "Planter.",
+     "start": 13.478,
+     "end": 14.964
+    }
+   ],
+   "cues": {},
+   "startFrame": 344,
+   "endFrame": 461
+  },
+  {
+   "id": "ashore",
+   "speechEnd": 19.493,
+   "words": [
+    {
+     "text": "On",
+     "start": 15.464,
+     "end": 15.661
+    },
+    {
+     "text": "May",
+     "start": 15.708,
+     "end": 15.859
+    },
+    {
+     "text": "12,",
+     "start": 15.917,
+     "end": 16.277
+    },
+    {
+     "text": "1862,",
+     "start": 16.3,
+     "end": 17.298
+    },
+    {
+     "text": "its",
+     "start": 17.461,
+     "end": 17.623
+    },
+    {
+     "text": "white",
+     "start": 17.67,
+     "end": 17.902
+    },
+    {
+     "text": "officers",
+     "start": 17.949,
+     "end": 18.39
+    },
+    {
+     "text": "spent",
+     "start": 18.425,
+     "end": 18.657
+    },
+    {
+     "text": "the",
+     "start": 18.68,
+     "end": 18.75
+    },
+    {
+     "text": "night",
+     "start": 18.796,
+     "end": 18.959
+    },
+    {
+     "text": "ashore.",
+     "start": 18.993,
+     "end": 19.493
+    }
+   ],
+   "cues": {},
+   "startFrame": 461,
+   "endFrame": 599
+  },
+  {
+   "id": "castoff",
+   "speechEnd": 23.382,
+   "words": [
+    {
+     "text": "Before",
+     "start": 20.073,
+     "end": 20.445
+    },
+    {
+     "text": "dawn,",
+     "start": 20.503,
+     "end": 20.956
+    },
+    {
+     "text": "Smalls",
+     "start": 21.118,
+     "end": 21.571
+    },
+    {
+     "text": "and",
+     "start": 21.606,
+     "end": 21.687
+    },
+    {
+     "text": "the",
+     "start": 21.722,
+     "end": 21.791
+    },
+    {
+     "text": "enslaved",
+     "start": 21.838,
+     "end": 22.279
+    },
+    {
+     "text": "crew",
+     "start": 22.325,
+     "end": 22.546
+    },
+    {
+     "text": "cast",
+     "start": 22.616,
+     "end": 22.941
+    },
+    {
+     "text": "off.",
+     "start": 22.999,
+     "end": 23.382
+    }
+   ],
+   "cues": {},
+   "startFrame": 599,
+   "endFrame": 711
+  },
+  {
+   "id": "families",
+   "speechEnd": 25.518,
+   "words": [
+    {
+     "text": "They",
+     "start": 23.8,
+     "end": 23.951
+    },
+    {
+     "text": "picked",
+     "start": 23.986,
+     "end": 24.206
+    },
+    {
+     "text": "up",
+     "start": 24.241,
+     "end": 24.322
+    },
+    {
+     "text": "their",
+     "start": 24.357,
+     "end": 24.497
+    },
+    {
+     "text": "wives",
+     "start": 24.543,
+     "end": 24.856
+    },
+    {
+     "text": "and",
+     "start": 24.891,
+     "end": 24.961
+    },
+    {
+     "text": "children.",
+     "start": 25.007,
+     "end": 25.518
+    }
+   ],
+   "cues": {},
+   "startFrame": 711,
+   "endFrame": 775
+  },
+  {
+   "id": "sixteen",
+   "speechEnd": 28.038,
+   "words": [
+    {
+     "text": "Sixteen",
+     "start": 25.936,
+     "end": 26.424
+    },
+    {
+     "text": "people",
+     "start": 26.482,
+     "end": 26.784
+    },
+    {
+     "text": "on",
+     "start": 26.83,
+     "end": 26.923
+    },
+    {
+     "text": "one",
+     "start": 27.004,
+     "end": 27.178
+    },
+    {
+     "text": "stolen",
+     "start": 27.225,
+     "end": 27.585
+    },
+    {
+     "text": "ship.",
+     "start": 27.643,
+     "end": 28.038
+    }
+   ],
+   "cues": {},
+   "startFrame": 775,
+   "endFrame": 856
+  },
+  {
+   "id": "hat",
+   "speechEnd": 30.487,
+   "words": [
+    {
+     "text": "Smalls",
+     "start": 28.618,
+     "end": 29.025
+    },
+    {
+     "text": "wore",
+     "start": 29.059,
+     "end": 29.222
+    },
+    {
+     "text": "the",
+     "start": 29.257,
+     "end": 29.326
+    },
+    {
+     "text": "captain's",
+     "start": 29.361,
+     "end": 29.756
+    },
+    {
+     "text": "straw",
+     "start": 29.779,
+     "end": 30.046
+    },
+    {
+     "text": "hat,",
+     "start": 30.116,
+     "end": 30.487
+    }
+   ],
+   "cues": {},
+   "startFrame": 856,
+   "endFrame": 915
+  },
+  {
+   "id": "signals",
+   "speechEnd": 32.728,
+   "words": [
+    {
+     "text": "and",
+     "start": 30.604,
+     "end": 30.755
+    },
+    {
+     "text": "gave",
+     "start": 30.813,
+     "end": 31.01
+    },
+    {
+     "text": "the",
+     "start": 31.045,
+     "end": 31.114
+    },
+    {
+     "text": "right",
+     "start": 31.172,
+     "end": 31.347
+    },
+    {
+     "text": "whistle",
+     "start": 31.381,
+     "end": 31.648
+    },
+    {
+     "text": "signals",
+     "start": 31.683,
+     "end": 32.008
+    },
+    {
+     "text": "at",
+     "start": 32.043,
+     "end": 32.101
+    },
+    {
+     "text": "each",
+     "start": 32.148,
+     "end": 32.287
+    },
+    {
+     "text": "fort.",
+     "start": 32.345,
+     "end": 32.728
+    }
+   ],
+   "cues": {},
+   "startFrame": 915,
+   "endFrame": 991
+  },
+  {
+   "id": "sumter",
+   "speechEnd": 35.433,
+   "words": [
+    {
+     "text": "Then",
+     "start": 33.146,
+     "end": 33.355
+    },
+    {
+     "text": "he",
+     "start": 33.425,
+     "end": 33.494
+    },
+    {
+     "text": "steamed",
+     "start": 33.564,
+     "end": 33.936
+    },
+    {
+     "text": "right",
+     "start": 34.052,
+     "end": 34.284
+    },
+    {
+     "text": "past",
+     "start": 34.342,
+     "end": 34.621
+    },
+    {
+     "text": "Fort",
+     "start": 34.679,
+     "end": 34.899
+    },
+    {
+     "text": "Sumter.",
+     "start": 34.957,
+     "end": 35.433
+    }
+   ],
+   "cues": {},
+   "startFrame": 991,
+   "endFrame": 1077
+  },
+  {
+   "id": "flag",
+   "speechEnd": 39.926,
+   "words": [
+    {
+     "text": "Out",
+     "start": 36.014,
+     "end": 36.188
+    },
+    {
+     "text": "of",
+     "start": 36.223,
+     "end": 36.281
+    },
+    {
+     "text": "range,",
+     "start": 36.351,
+     "end": 36.745
+    },
+    {
+     "text": "they",
+     "start": 36.861,
+     "end": 37.012
+    },
+    {
+     "text": "lowered",
+     "start": 37.082,
+     "end": 37.349
+    },
+    {
+     "text": "the",
+     "start": 37.372,
+     "end": 37.442
+    },
+    {
+     "text": "Confederate",
+     "start": 37.488,
+     "end": 37.953
+    },
+    {
+     "text": "flag",
+     "start": 37.976,
+     "end": 38.336
+    },
+    {
+     "text": "and",
+     "start": 38.498,
+     "end": 38.696
+    },
+    {
+     "text": "raised",
+     "start": 38.765,
+     "end": 39.032
+    },
+    {
+     "text": "a",
+     "start": 39.067,
+     "end": 39.09
+    },
+    {
+     "text": "white",
+     "start": 39.149,
+     "end": 39.358
+    },
+    {
+     "text": "bedsheet,",
+     "start": 39.404,
+     "end": 39.926
+    }
+   ],
+   "cues": {},
+   "startFrame": 1077,
+   "endFrame": 1197
+  },
+  {
+   "id": "handed",
+   "speechEnd": 42.492,
+   "words": [
+    {
+     "text": "and",
+     "start": 39.984,
+     "end": 40.135
+    },
+    {
+     "text": "handed",
+     "start": 40.205,
+     "end": 40.472
+    },
+    {
+     "text": "the",
+     "start": 40.507,
+     "end": 40.577
+    },
+    {
+     "text": "ship",
+     "start": 40.623,
+     "end": 40.832
+    },
+    {
+     "text": "to",
+     "start": 40.878,
+     "end": 40.925
+    },
+    {
+     "text": "the",
+     "start": 40.983,
+     "end": 41.053
+    },
+    {
+     "text": "Union",
+     "start": 41.122,
+     "end": 41.331
+    },
+    {
+     "text": "blockade.",
+     "start": 41.366,
+     "end": 42.492
+    }
+   ],
+   "cues": {},
+   "startFrame": 1197,
+   "endFrame": 1287
+  },
+  {
+   "id": "house",
+   "speechEnd": 46.173,
+   "words": [
+    {
+     "text": "Later,",
+     "start": 42.992,
+     "end": 43.48
+    },
+    {
+     "text": "Smalls",
+     "start": 43.642,
+     "end": 43.99
+    },
+    {
+     "text": "bought",
+     "start": 44.025,
+     "end": 44.223
+    },
+    {
+     "text": "the",
+     "start": 44.257,
+     "end": 44.327
+    },
+    {
+     "text": "very",
+     "start": 44.385,
+     "end": 44.629
+    },
+    {
+     "text": "house",
+     "start": 44.699,
+     "end": 44.966
+    },
+    {
+     "text": "where",
+     "start": 44.989,
+     "end": 45.151
+    },
+    {
+     "text": "he",
+     "start": 45.186,
+     "end": 45.233
+    },
+    {
+     "text": "had",
+     "start": 45.268,
+     "end": 45.337
+    },
+    {
+     "text": "been",
+     "start": 45.372,
+     "end": 45.488
+    },
+    {
+     "text": "enslaved.",
+     "start": 45.523,
+     "end": 46.173
+    }
+   ],
+   "cues": {},
+   "startFrame": 1287,
+   "endFrame": 1392
+  },
+  {
+   "id": "congress",
+   "speechEnd": 49.912,
+   "words": [
+    {
+     "text": "And",
+     "start": 46.487,
+     "end": 46.649
+    },
+    {
+     "text": "he",
+     "start": 46.696,
+     "end": 46.754
+    },
+    {
+     "text": "served",
+     "start": 46.812,
+     "end": 47.079
+    },
+    {
+     "text": "five",
+     "start": 47.137,
+     "end": 47.427
+    },
+    {
+     "text": "terms",
+     "start": 47.473,
+     "end": 47.81
+    },
+    {
+     "text": "in",
+     "start": 47.857,
+     "end": 47.915
+    },
+    {
+     "text": "the",
+     "start": 47.949,
+     "end": 48.019
+    },
+    {
+     "text": "United",
+     "start": 48.066,
+     "end": 48.367
+    },
+    {
+     "text": "States",
+     "start": 48.402,
+     "end": 48.669
+    },
+    {
+     "text": "Congress.",
+     "start": 48.716,
+     "end": 49.912
+    }
+   ],
+   "cues": {},
+   "startFrame": 1392,
+   "endFrame": 1509
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 54.267,
+   "words": [
+    {
+     "text": "He",
+     "start": 50.412,
+     "end": 50.551
+    },
+    {
+     "text": "freed",
+     "start": 50.621,
+     "end": 50.865
+    },
+    {
+     "text": "his",
+     "start": 50.9,
+     "end": 50.992
+    },
+    {
+     "text": "family",
+     "start": 51.051,
+     "end": 51.364
+    },
+    {
+     "text": "in",
+     "start": 51.41,
+     "end": 51.48
+    },
+    {
+     "text": "one",
+     "start": 51.561,
+     "end": 51.747
+    },
+    {
+     "text": "night,",
+     "start": 51.794,
+     "end": 52.107
+    },
+    {
+     "text": "then",
+     "start": 52.27,
+     "end": 52.432
+    },
+    {
+     "text": "gave",
+     "start": 52.49,
+     "end": 52.653
+    },
+    {
+     "text": "his",
+     "start": 52.688,
+     "end": 52.769
+    },
+    {
+     "text": "life",
+     "start": 52.827,
+     "end": 53.013
+    },
+    {
+     "text": "to",
+     "start": 53.047,
+     "end": 53.094
+    },
+    {
+     "text": "public",
+     "start": 53.152,
+     "end": 53.419
+    },
+    {
+     "text": "service.",
+     "start": 53.465,
+     "end": 54.267
+    }
+   ],
+   "cues": {},
+   "startFrame": 1509,
+   "endFrame": 1640
+  },
+  {
+   "id": "cta",
+   "speechEnd": 57.274,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 54.766,
+     "end": 55.103
+    },
+    {
+     "text": "The",
+     "start": 55.149,
+     "end": 55.219
+    },
+    {
+     "text": "Black",
+     "start": 55.254,
+     "end": 55.439
+    },
+    {
+     "text": "History",
+     "start": 55.486,
+     "end": 55.776
+    },
+    {
+     "text": "Room",
+     "start": 55.834,
+     "end": 56.008
+    },
+    {
+     "text": "for",
+     "start": 56.066,
+     "end": 56.171
+    },
+    {
+     "text": "one",
+     "start": 56.24,
+     "end": 56.38
+    },
+    {
+     "text": "story",
+     "start": 56.415,
+     "end": 56.682
+    },
+    {
+     "text": "a",
+     "start": 56.728,
+     "end": 56.751
+    },
+    {
+     "text": "day.",
+     "start": 56.798,
+     "end": 57.274
+    }
+   ],
+   "cues": {},
+   "startFrame": 1640,
+   "endFrame": 1754
+  }
+ ]
+}

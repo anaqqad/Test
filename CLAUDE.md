@@ -43,4 +43,4 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - ElevenLabs "Andrew" is paid: ask before every `tts_mathdoc.py` run on an elevenlabs spec, and give the
   character count (pilot: ~910 characters). Kokoro scratch takes are free.
 - Never commit `voices/`. Images: public domain / CC0 only, credits in `public/pd/<id>/credits.json`.
-- Measured on the cloud VM (4 CPU, no GPU): Reel render 212 s for 62.6 s of video; safe-zone QC ~70 s.
+- Measured on the cloud VM (4 CPU, no GPU): final Reel render 174 s for 58.5 s of video (Kokoro scratch: 212 s for 62.6 s); safe-zone QC ~70 s. Pilot narration: 904 ElevenLabs characters, 6 requests, 163 wpm.

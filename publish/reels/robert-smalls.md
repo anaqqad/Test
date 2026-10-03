@@ -32,7 +32,7 @@ All public domain.
 Use frame 0 (the opening frame): a tight sepia crop of the Brady-Handy portrait with the hook
 "In 1862, an enslaved man stole a Confederate warship." in large cream serif, "stole" and "warship" in gold.
 The reel is built so frame 0 is complete (no fade-in) and the end card dissolves back into it, so the
-cover, the first frame and the loop point are the same picture. Still: `out/reel-robert-smalls.hook.jpg`.
+cover, the first frame and the loop point are the same picture. Still: `publish/reels/robert-smalls.hook.jpg`.
 
 ## Notes before posting
 
