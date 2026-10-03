@@ -1,0 +1,927 @@
+{
+ "fps": 30,
+ "durationInFrames": 1975,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 160,
+ "wpm": 145.8,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 4.433,
+   "words": [
+    {
+     "text": "Boston's",
+     "start": 0.3,
+     "end": 0.776
+    },
+    {
+     "text": "Black",
+     "start": 0.811,
+     "end": 1.031
+    },
+    {
+     "text": "history",
+     "start": 1.089,
+     "end": 1.403
+    },
+    {
+     "text": "is",
+     "start": 1.449,
+     "end": 1.507
+    },
+    {
+     "text": "still",
+     "start": 1.542,
+     "end": 1.728
+    },
+    {
+     "text": "standing.",
+     "start": 1.786,
+     "end": 2.297
+    },
+    {
+     "text": "You",
+     "start": 2.61,
+     "end": 2.726
+    },
+    {
+     "text": "just",
+     "start": 2.796,
+     "end": 2.947
+    },
+    {
+     "text": "have",
+     "start": 2.982,
+     "end": 3.121
+    },
+    {
+     "text": "to",
+     "start": 3.144,
+     "end": 3.191
+    },
+    {
+     "text": "know",
+     "start": 3.237,
+     "end": 3.33
+    },
+    {
+     "text": "where",
+     "start": 3.365,
+     "end": 3.516
+    },
+    {
+     "text": "to",
+     "start": 3.539,
+     "end": 3.586
+    },
+    {
+     "text": "look.",
+     "start": 3.644,
+     "end": 4.433
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 145
+  },
+  {
+   "id": "massacre",
+   "speechEnd": 10.018,
+   "words": [
+    {
+     "text": "In",
+     "start": 4.933,
+     "end": 5.096
+    },
+    {
+     "text": "1770,",
+     "start": 5.142,
+     "end": 6.024
+    },
+    {
+     "text": "outside",
+     "start": 6.082,
+     "end": 6.477
+    },
+    {
+     "text": "this",
+     "start": 6.5,
+     "end": 6.616
+    },
+    {
+     "text": "building,",
+     "start": 6.663,
+     "end": 7.034
+    },
+    {
+     "text": "British",
+     "start": 7.151,
+     "end": 7.487
+    },
+    {
+     "text": "soldiers",
+     "start": 7.534,
+     "end": 7.905
+    },
+    {
+     "text": "killed",
+     "start": 7.963,
+     "end": 8.184
+    },
+    {
+     "text": "five",
+     "start": 8.253,
+     "end": 8.602
+    },
+    {
+     "text": "men",
+     "start": 8.66,
+     "end": 8.834
+    },
+    {
+     "text": "in",
+     "start": 8.88,
+     "end": 8.927
+    },
+    {
+     "text": "the",
+     "start": 8.962,
+     "end": 9.031
+    },
+    {
+     "text": "Boston",
+     "start": 9.066,
+     "end": 9.426
+    },
+    {
+     "text": "Massacre.",
+     "start": 9.484,
+     "end": 10.018
+    }
+   ],
+   "cues": {},
+   "startFrame": 145,
+   "endFrame": 308
+  },
+  {
+   "id": "attucks",
+   "speechEnd": 14.546,
+   "words": [
+    {
+     "text": "One",
+     "start": 10.378,
+     "end": 10.61
+    },
+    {
+     "text": "was",
+     "start": 10.645,
+     "end": 10.761
+    },
+    {
+     "text": "Crispus",
+     "start": 10.831,
+     "end": 11.226
+    },
+    {
+     "text": "Attucks,",
+     "start": 11.295,
+     "end": 11.794
+    },
+    {
+     "text": "a",
+     "start": 11.911,
+     "end": 11.98
+    },
+    {
+     "text": "sailor",
+     "start": 12.062,
+     "end": 12.352
+    },
+    {
+     "text": "of",
+     "start": 12.41,
+     "end": 12.456
+    },
+    {
+     "text": "African",
+     "start": 12.549,
+     "end": 12.944
+    },
+    {
+     "text": "and",
+     "start": 12.99,
+     "end": 13.06
+    },
+    {
+     "text": "Indigenous",
+     "start": 13.106,
+     "end": 13.571
+    },
+    {
+     "text": "descent.",
+     "start": 13.617,
+     "end": 14.546
+    }
+   ],
+   "cues": {},
+   "startFrame": 308,
+   "endFrame": 448
+  },
+  {
+   "id": "amh",
+   "speechEnd": 19.051,
+   "words": [
+    {
+     "text": "On",
+     "start": 15.046,
+     "end": 15.255
+    },
+    {
+     "text": "Beacon",
+     "start": 15.313,
+     "end": 15.592
+    },
+    {
+     "text": "Hill,",
+     "start": 15.638,
+     "end": 15.998
+    },
+    {
+     "text": "Black",
+     "start": 16.114,
+     "end": 16.37
+    },
+    {
+     "text": "Bostonians",
+     "start": 16.428,
+     "end": 17.043
+    },
+    {
+     "text": "built",
+     "start": 17.101,
+     "end": 17.275
+    },
+    {
+     "text": "this",
+     "start": 17.31,
+     "end": 17.438
+    },
+    {
+     "text": "meeting",
+     "start": 17.496,
+     "end": 17.728
+    },
+    {
+     "text": "house",
+     "start": 17.763,
+     "end": 17.96
+    },
+    {
+     "text": "in",
+     "start": 17.995,
+     "end": 18.053
+    },
+    {
+     "text": "1806.",
+     "start": 18.099,
+     "end": 19.051
+    }
+   ],
+   "cues": {},
+   "startFrame": 448,
+   "endFrame": 583
+  },
+  {
+   "id": "oldest",
+   "speechEnd": 22.964,
+   "words": [
+    {
+     "text": "It's",
+     "start": 19.539,
+     "end": 19.725
+    },
+    {
+     "text": "considered",
+     "start": 19.771,
+     "end": 20.154
+    },
+    {
+     "text": "the",
+     "start": 20.178,
+     "end": 20.247
+    },
+    {
+     "text": "oldest",
+     "start": 20.329,
+     "end": 20.7
+    },
+    {
+     "text": "Black",
+     "start": 20.77,
+     "end": 21.002
+    },
+    {
+     "text": "church",
+     "start": 21.048,
+     "end": 21.292
+    },
+    {
+     "text": "building",
+     "start": 21.339,
+     "end": 21.606
+    },
+    {
+     "text": "still",
+     "start": 21.664,
+     "end": 21.884
+    },
+    {
+     "text": "standing",
+     "start": 21.942,
+     "end": 22.256
+    },
+    {
+     "text": "in",
+     "start": 22.291,
+     "end": 22.337
+    },
+    {
+     "text": "America.",
+     "start": 22.372,
+     "end": 22.964
+    }
+   ],
+   "cues": {},
+   "startFrame": 583,
+   "endFrame": 706
+  },
+  {
+   "id": "douglass",
+   "speechEnd": 30.092,
+   "words": [
+    {
+     "text": "Frederick",
+     "start": 23.626,
+     "end": 23.974
+    },
+    {
+     "text": "Douglass",
+     "start": 24.021,
+     "end": 24.334
+    },
+    {
+     "text": "spoke",
+     "start": 24.369,
+     "end": 24.613
+    },
+    {
+     "text": "here.",
+     "start": 24.647,
+     "end": 24.961
+    },
+    {
+     "text": "In",
+     "start": 25.541,
+     "end": 25.669
+    },
+    {
+     "text": "1863,",
+     "start": 25.716,
+     "end": 26.981
+    },
+    {
+     "text": "men",
+     "start": 27.248,
+     "end": 27.445
+    },
+    {
+     "text": "signed",
+     "start": 27.527,
+     "end": 27.782
+    },
+    {
+     "text": "up",
+     "start": 27.817,
+     "end": 27.898
+    },
+    {
+     "text": "here",
+     "start": 27.956,
+     "end": 28.107
+    },
+    {
+     "text": "for",
+     "start": 28.154,
+     "end": 28.258
+    },
+    {
+     "text": "the",
+     "start": 28.293,
+     "end": 28.363
+    },
+    {
+     "text": "54th",
+     "start": 28.421,
+     "end": 29.001
+    },
+    {
+     "text": "Massachusetts.",
+     "start": 29.059,
+     "end": 30.092
+    }
+   ],
+   "cues": {},
+   "startFrame": 706,
+   "endFrame": 915
+  },
+  {
+   "id": "school",
+   "speechEnd": 35.016,
+   "words": [
+    {
+     "text": "Next",
+     "start": 30.593,
+     "end": 30.895
+    },
+    {
+     "text": "door,",
+     "start": 30.93,
+     "end": 31.232
+    },
+    {
+     "text": "in",
+     "start": 31.255,
+     "end": 31.359
+    },
+    {
+     "text": "1835,",
+     "start": 31.394,
+     "end": 32.276
+    },
+    {
+     "text": "Boston",
+     "start": 32.509,
+     "end": 32.95
+    },
+    {
+     "text": "opened",
+     "start": 33.019,
+     "end": 33.298
+    },
+    {
+     "text": "a",
+     "start": 33.333,
+     "end": 33.356
+    },
+    {
+     "text": "school",
+     "start": 33.403,
+     "end": 33.681
+    },
+    {
+     "text": "for",
+     "start": 33.739,
+     "end": 33.844
+    },
+    {
+     "text": "Black",
+     "start": 33.902,
+     "end": 34.146
+    },
+    {
+     "text": "children",
+     "start": 34.192,
+     "end": 34.506
+    },
+    {
+     "text": "only.",
+     "start": 34.564,
+     "end": 35.016
+    }
+   ],
+   "cues": {},
+   "startFrame": 915,
+   "endFrame": 1060
+  },
+  {
+   "id": "fight",
+   "speechEnd": 39.649,
+   "words": [
+    {
+     "text": "Black",
+     "start": 35.434,
+     "end": 35.713
+    },
+    {
+     "text": "families",
+     "start": 35.759,
+     "end": 36.096
+    },
+    {
+     "text": "fought",
+     "start": 36.143,
+     "end": 36.363
+    },
+    {
+     "text": "back,",
+     "start": 36.398,
+     "end": 36.816
+    },
+    {
+     "text": "with",
+     "start": 36.932,
+     "end": 37.106
+    },
+    {
+     "text": "petitions,",
+     "start": 37.153,
+     "end": 37.849
+    },
+    {
+     "text": "a",
+     "start": 37.942,
+     "end": 38.012
+    },
+    {
+     "text": "boycott,",
+     "start": 38.081,
+     "end": 38.662
+    },
+    {
+     "text": "and",
+     "start": 38.778,
+     "end": 38.917
+    },
+    {
+     "text": "a",
+     "start": 38.975,
+     "end": 38.999
+    },
+    {
+     "text": "lawsuit.",
+     "start": 39.057,
+     "end": 39.649
+    }
+   ],
+   "cues": {},
+   "startFrame": 1060,
+   "endFrame": 1197
+  },
+  {
+   "id": "ban",
+   "speechEnd": 44.386,
+   "words": [
+    {
+     "text": "In",
+     "start": 40.009,
+     "end": 40.136
+    },
+    {
+     "text": "1855,",
+     "start": 40.171,
+     "end": 41.158
+    },
+    {
+     "text": "Massachusetts",
+     "start": 41.39,
+     "end": 42.098
+    },
+    {
+     "text": "banned",
+     "start": 42.157,
+     "end": 42.447
+    },
+    {
+     "text": "segregated",
+     "start": 42.516,
+     "end": 43.039
+    },
+    {
+     "text": "public",
+     "start": 43.085,
+     "end": 43.387
+    },
+    {
+     "text": "schools.",
+     "start": 43.422,
+     "end": 44.386
+    }
+   ],
+   "cues": {},
+   "startFrame": 1197,
+   "endFrame": 1344
+  },
+  {
+   "id": "hayden",
+   "speechEnd": 50.736,
+   "words": [
+    {
+     "text": "Nearby,",
+     "start": 44.885,
+     "end": 45.489
+    },
+    {
+     "text": "Lewis",
+     "start": 45.605,
+     "end": 45.93
+    },
+    {
+     "text": "and",
+     "start": 45.976,
+     "end": 46.058
+    },
+    {
+     "text": "Harriet",
+     "start": 46.127,
+     "end": 46.441
+    },
+    {
+     "text": "Hayden,",
+     "start": 46.476,
+     "end": 46.882
+    },
+    {
+     "text": "who",
+     "start": 46.905,
+     "end": 47.056
+    },
+    {
+     "text": "had",
+     "start": 47.103,
+     "end": 47.195
+    },
+    {
+     "text": "escaped",
+     "start": 47.242,
+     "end": 47.579
+    },
+    {
+     "text": "slavery,",
+     "start": 47.602,
+     "end": 48.171
+    },
+    {
+     "text": "sheltered",
+     "start": 48.484,
+     "end": 48.902
+    },
+    {
+     "text": "freedom",
+     "start": 48.948,
+     "end": 49.239
+    },
+    {
+     "text": "seekers",
+     "start": 49.297,
+     "end": 49.61
+    },
+    {
+     "text": "in",
+     "start": 49.645,
+     "end": 49.703
+    },
+    {
+     "text": "this",
+     "start": 49.738,
+     "end": 49.854
+    },
+    {
+     "text": "house.",
+     "start": 49.901,
+     "end": 50.736
+    }
+   ],
+   "cues": {},
+   "startFrame": 1344,
+   "endFrame": 1534
+  },
+  {
+   "id": "shaw",
+   "speechEnd": 57.692,
+   "words": [
+    {
+     "text": "And",
+     "start": 51.237,
+     "end": 51.423
+    },
+    {
+     "text": "facing",
+     "start": 51.492,
+     "end": 51.806
+    },
+    {
+     "text": "the",
+     "start": 51.852,
+     "end": 51.922
+    },
+    {
+     "text": "State",
+     "start": 51.957,
+     "end": 52.201
+    },
+    {
+     "text": "House,",
+     "start": 52.224,
+     "end": 52.584
+    },
+    {
+     "text": "this",
+     "start": 52.746,
+     "end": 52.92
+    },
+    {
+     "text": "memorial",
+     "start": 52.99,
+     "end": 53.443
+    },
+    {
+     "text": "honors",
+     "start": 53.513,
+     "end": 53.78
+    },
+    {
+     "text": "the",
+     "start": 53.826,
+     "end": 53.896
+    },
+    {
+     "text": "54th,",
+     "start": 53.965,
+     "end": 54.72
+    },
+    {
+     "text": "one",
+     "start": 54.883,
+     "end": 55.033
+    },
+    {
+     "text": "of",
+     "start": 55.057,
+     "end": 55.115
+    },
+    {
+     "text": "the",
+     "start": 55.15,
+     "end": 55.219
+    },
+    {
+     "text": "first",
+     "start": 55.289,
+     "end": 55.568
+    },
+    {
+     "text": "Black",
+     "start": 55.626,
+     "end": 55.858
+    },
+    {
+     "text": "regiments",
+     "start": 55.927,
+     "end": 56.334
+    },
+    {
+     "text": "of",
+     "start": 56.369,
+     "end": 56.427
+    },
+    {
+     "text": "the",
+     "start": 56.473,
+     "end": 56.543
+    },
+    {
+     "text": "Civil",
+     "start": 56.589,
+     "end": 56.821
+    },
+    {
+     "text": "War.",
+     "start": 56.879,
+     "end": 57.692
+    }
+   ],
+   "cues": {},
+   "startFrame": 1534,
+   "endFrame": 1743
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 61.629,
+   "words": [
+    {
+     "text": "The",
+     "start": 58.192,
+     "end": 58.331
+    },
+    {
+     "text": "city",
+     "start": 58.378,
+     "end": 58.587
+    },
+    {
+     "text": "changed",
+     "start": 58.633,
+     "end": 58.935
+    },
+    {
+     "text": "around",
+     "start": 58.97,
+     "end": 59.237
+    },
+    {
+     "text": "them.",
+     "start": 59.272,
+     "end": 59.562
+    },
+    {
+     "text": "The",
+     "start": 59.922,
+     "end": 60.038
+    },
+    {
+     "text": "history",
+     "start": 60.096,
+     "end": 60.398
+    },
+    {
+     "text": "is",
+     "start": 60.444,
+     "end": 60.514
+    },
+    {
+     "text": "still",
+     "start": 60.549,
+     "end": 60.746
+    },
+    {
+     "text": "here.",
+     "start": 60.816,
+     "end": 61.629
+    }
+   ],
+   "cues": {},
+   "startFrame": 1743,
+   "endFrame": 1861
+  },
+  {
+   "id": "cta",
+   "speechEnd": 64.637,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 62.129,
+     "end": 62.489
+    },
+    {
+     "text": "The",
+     "start": 62.535,
+     "end": 62.605
+    },
+    {
+     "text": "Black",
+     "start": 62.64,
+     "end": 62.86
+    },
+    {
+     "text": "History",
+     "start": 62.907,
+     "end": 63.197
+    },
+    {
+     "text": "Room",
+     "start": 63.255,
+     "end": 63.406
+    },
+    {
+     "text": "for",
+     "start": 63.464,
+     "end": 63.58
+    },
+    {
+     "text": "one",
+     "start": 63.65,
+     "end": 63.812
+    },
+    {
+     "text": "story",
+     "start": 63.847,
+     "end": 64.138
+    },
+    {
+     "text": "a",
+     "start": 64.184,
+     "end": 64.207
+    },
+    {
+     "text": "day.",
+     "start": 64.265,
+     "end": 64.637
+    }
+   ],
+   "cues": {},
+   "startFrame": 1861,
+   "endFrame": 1975
+  }
+ ]
+}
