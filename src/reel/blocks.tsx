@@ -307,7 +307,7 @@ export const HarborMap: React.FC<{ step: keyof typeof STEP_END; duration: number
 
 /* ------------------------------------------------------------- overlays */
 
-/** Bold hook line. Fully visible on frame 0 so the first frame works as the cover. */
+/** Bold hook line, *starred* words in gold. Fully visible on frame 0 so the first frame works as the cover. */
 export const HookText: React.FC<{ text: string; animate?: boolean }> = ({ text, animate = true }) => {
   const frame = useCurrentFrame();
   const words = text.split(" ");
@@ -324,8 +324,10 @@ export const HookText: React.FC<{ text: string; animate?: boolean }> = ({ text, 
           textShadow: "0 4px 24px rgba(0,0,0,0.85)",
         }}
       >
-        {words.map((w, i) => {
-          const gold = /warship|stole/i.test(w);
+        {words.map((raw, i) => {
+          // *word* = gold
+          const gold = /^\*.*\*[.,!?]?$/.test(raw);
+          const w = raw.replace(/\*/g, "");
           // no fade on frame 0: the words settle in place, they never start invisible
           const y = animate ? interpolate(frame, [i * 1.5, i * 1.5 + 8], [14, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_OUT }) : 0;
           return (
@@ -406,6 +408,35 @@ export const Stamp: React.FC<{ text: string }> = ({ text }) => {
         {text}
       </Critical>
     </div>
+  );
+};
+
+/* ----------------------------------------------------------- title card */
+
+/**
+ * Typographic card for beats with no fitting picture: a big gold line (a year, a date) and a cream
+ * sub-line, on black with a faint gold glow. Used instead of re-using a photo.
+ */
+export const TitleCard: React.FC<{ title: string; sub?: string }> = ({ title, sub }) => {
+  const frame = useCurrentFrame();
+  const qc = useContext(QCContext);
+  const a = reveal(frame, 0, 12);
+  const b = reveal(frame, 8, 12);
+  return (
+    <AbsoluteFill style={{ backgroundColor: qc ? "transparent" : B.black }}>
+      {qc ? null : <AbsoluteFill style={{ background: "radial-gradient(ellipse at 45% 38%, rgba(226,178,74,0.14) 0%, rgba(14,12,10,0) 62%)" }} />}
+      <div style={{ position: "absolute", left: SAFE.left, width: SAFE_W, top: 470, display: "flex", flexDirection: "column", alignItems: "center", gap: 28, textAlign: "center" }}>
+        <Critical style={{ fontFamily: serif, fontWeight: 900, fontSize: title.length > 6 ? 150 : 230, lineHeight: 1, color: B.gold, opacity: a, transform: `translateY(${(1 - a) * 24}px)` }}>
+          {title}
+        </Critical>
+        <Critical style={{ height: 6, width: 160, background: B.gold, opacity: b }}>{""}</Critical>
+        {sub ? (
+          <Critical style={{ fontFamily: serif, fontStyle: "italic", fontSize: 58, lineHeight: 1.15, color: B.cream, opacity: b, maxWidth: SAFE_W }}>
+            {sub}
+          </Critical>
+        ) : null}
+      </div>
+    </AbsoluteFill>
   );
 };
 

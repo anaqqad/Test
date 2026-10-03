@@ -1,0 +1,580 @@
+{
+  "id": "reel-bessie-coleman",
+  "title": "She Learned French to Learn to Fly",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "assets": {
+    "p1923": {
+      "commons": "File:Bessie Coleman in 1923.jpg"
+    },
+    "p1922": {
+      "commons": "File:Bessie Coleman, c1922.jpg"
+    },
+    "p1920s": {
+      "commons": "File:Bessie Coleman, 1920s.jpg"
+    },
+    "nasa": {
+      "commons": "File:Bessie Coleman, First African American Pilot - GPN-2004-00027.jpg"
+    },
+    "plane": {
+      "commons": "File:Bessie Coleman and her plane (1922).jpg"
+    },
+    "licence": {
+      "commons": "File:Coleman-licens.jpg"
+    },
+    "crotoy": {
+      "commons": "File:Capitaine Fresnay , école d'aviation militaire Le Crotoy (1916).gif"
+    },
+    "caudron": {
+      "commons": "File:800th Aero Squadron - Caudron G.3.jpg"
+    },
+    "jenny1": {
+      "commons": "File:Curtiss JN-4D Jenny - DPLA - c36e23802b98aeb9f5231ca9dcf6c9f1 (page 1).jpg"
+    },
+    "jenny4": {
+      "commons": "File:Curtiss JN-4D Jenny - DPLA - c36e23802b98aeb9f5231ca9dcf6c9f1 (page 4).jpg"
+    },
+    "jenny6": {
+      "commons": "File:Curtiss JN-4D Jenny - DPLA - c36e23802b98aeb9f5231ca9dcf6c9f1 (page 6).jpg"
+    },
+    "wingwalk": {
+      "commons": "File:Ormer Locklear Wing Walking.jpg"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "American flight schools wouldn't teach her. So she learned French.",
+      "visual": {
+        "kind": "photo",
+        "image": "p1923",
+        "focus": [
+          0.47,
+          0.33
+        ],
+        "zoom": [
+          1.18,
+          1.2
+        ],
+        "anchor": [
+          0.42,
+          0.27
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "American flight schools wouldn't teach her. So she learned *French.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "Her name was Bessie Coleman.",
+      "visual": {
+        "kind": "photo",
+        "image": "p1922",
+        "focus": [
+          0.45,
+          0.3
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.45,
+          0.35
+        ]
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Bessie Coleman",
+          "sub": "Aviator · 1892 – 1926"
+        }
+      }
+    },
+    {
+      "id": "born",
+      "text": "Born in Texas in 1892, she was one of thirteen children.",
+      "visual": {
+        "kind": "title",
+        "title": "1892",
+        "sub": "one of thirteen children"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Texas",
+          "sub": "Born 1892"
+        }
+      }
+    },
+    {
+      "id": "chicago",
+      "text": "She was working as a manicurist in Chicago when she decided to fly.",
+      "visual": {
+        "kind": "photo",
+        "image": "p1920s",
+        "focus": [
+          0.48,
+          0.35
+        ],
+        "zoom": [
+          1.0,
+          1.05
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      },
+      "overlays": {
+        "pin": {
+          "label": "Chicago",
+          "sub": "Illinois"
+        }
+      }
+    },
+    {
+      "id": "refused",
+      "text": "Flight schools there turned her down, because she was Black and a woman.",
+      "visual": {
+        "kind": "photo",
+        "image": "jenny1",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          1.0,
+          1.05
+        ],
+        "anchor": [
+          0.5,
+          0.42
+        ],
+        "motion": "panRight"
+      },
+      "overlays": {
+        "stamp": "Refused"
+      }
+    },
+    {
+      "id": "french",
+      "text": "So she learned French and sailed to France.",
+      "visual": {
+        "kind": "card",
+        "image": "crotoy",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "The flying school at Le Crotoy, France, 1916"
+      },
+      "section": "france",
+      "overlays": {
+        "pin": {
+          "label": "Le Crotoy",
+          "sub": "France"
+        }
+      }
+    },
+    {
+      "id": "trained",
+      "text": "At the Caudron brothers' school, she trained in fragile biplanes,",
+      "visual": {
+        "kind": "card",
+        "image": "caudron",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "A Caudron G.3, the kind of biplane French schools trained on"
+      }
+    },
+    {
+      "id": "license",
+      "text": "and on June 15, 1921, she earned her pilot's license,",
+      "visual": {
+        "kind": "card",
+        "image": "licence",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Her license from the Fédération Aéronautique Internationale",
+        "clipping": true
+      },
+      "overlays": {
+        "stamp": "June 15, 1921"
+      }
+    },
+    {
+      "id": "first",
+      "text": "the first African American woman ever to do it.",
+      "visual": {
+        "kind": "card",
+        "image": "nasa",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Bessie Coleman in her flying helmet"
+      }
+    },
+    {
+      "id": "shows",
+      "text": "Back home, she flew loops and figure eights at air shows.",
+      "visual": {
+        "kind": "card",
+        "image": "wingwalk",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "A 1920s air show stunt (not Coleman)"
+      },
+      "section": "shows"
+    },
+    {
+      "id": "queen",
+      "text": "They called her Queen Bess.",
+      "visual": {
+        "kind": "photo",
+        "image": "plane",
+        "focus": [
+          0.47,
+          0.3
+        ],
+        "zoom": [
+          1.0,
+          1.05
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "jimcrow",
+      "text": "In Jim Crow America, she pushed back against segregated audiences.",
+      "visual": {
+        "kind": "photo",
+        "image": "jenny6",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          1.0,
+          1.05
+        ],
+        "anchor": [
+          0.5,
+          0.45
+        ],
+        "motion": "panLeft"
+      }
+    },
+    {
+      "id": "crash",
+      "text": "A crash in 1923 broke her leg. She healed, and flew again.",
+      "visual": {
+        "kind": "title",
+        "title": "1923",
+        "sub": "a broken leg, and back in the air"
+      },
+      "section": "cost",
+      "overlays": {
+        "pin": {
+          "label": "Santa Monica",
+          "sub": "California"
+        }
+      }
+    },
+    {
+      "id": "death",
+      "text": "In 1926, she died in a crash while rehearsing for an air show.",
+      "visual": {
+        "kind": "title",
+        "title": "1892 – 1926",
+        "sub": "Bessie Coleman"
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "She never got to open her flight school for Black pilots. But she opened the sky.",
+      "visual": {
+        "kind": "photo",
+        "image": "jenny4",
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "zoom": [
+          1.0,
+          1.05
+        ],
+        "anchor": [
+          0.5,
+          0.45
+        ],
+        "motion": "panLeft"
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "voice": {
+    "engine": "elevenlabs",
+    "voiceId": "gUABw7pXQjhjt0kNFBTF",
+    "voiceName": "Andrew - Smooth audio books",
+    "model": "eleven_multilingual_v2",
+    "stability": 0.6,
+    "similarity": 0.75,
+    "style": 0.0,
+    "speed": 1.05,
+    "seed": 1234,
+    "leadInSeconds": 0.3,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day."
+  },
+  "faces": {
+    "p1923": [
+      [
+        0.22,
+        0.12,
+        0.72,
+        0.6
+      ]
+    ],
+    "p1922": [
+      [
+        0.33,
+        0.05,
+        0.53,
+        0.21
+      ]
+    ],
+    "p1920s": [
+      [
+        0.18,
+        0.08,
+        0.8,
+        0.65
+      ]
+    ],
+    "nasa": [
+      [
+        0.25,
+        0.15,
+        0.72,
+        0.66
+      ]
+    ],
+    "plane": [
+      [
+        0.42,
+        0.0,
+        0.52,
+        0.14
+      ]
+    ],
+    "licence": [
+      [
+        0.63,
+        0.2,
+        0.85,
+        0.5
+      ]
+    ]
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "US flight schools would not train her, so she learned French (to apply to French schools).",
+      "sources": [
+        "NASM",
+        "NWHM",
+        "SI"
+      ]
+    },
+    {
+      "beat": "born",
+      "claim": "Born in Texas in 1892, one of 13 children.",
+      "sources": [
+        "NASM",
+        "NWHM"
+      ],
+      "note": "Town differs: NWHM says Waxahachie; other sources Atlanta, Texas (also on her licence). The script says only 'Texas'. Her licence gives 1896 as birth year; historians give 1892."
+    },
+    {
+      "beat": "chicago",
+      "claim": "Worked as a manicurist in Chicago before learning to fly.",
+      "sources": [
+        "NASM",
+        "NWHM"
+      ]
+    },
+    {
+      "beat": "refused",
+      "claim": "US flight schools rejected her because she was Black and a woman.",
+      "sources": [
+        "NWHM",
+        "NASM"
+      ],
+      "note": "NASM: getting a licence in the US 'proved impossible' for an African American woman."
+    },
+    {
+      "beat": "french",
+      "claim": "Learned French and sailed to France (November 1920).",
+      "sources": [
+        "NWHM",
+        "SI"
+      ]
+    },
+    {
+      "beat": "trained",
+      "claim": "Trained at the Caudron brothers' school at Le Crotoy.",
+      "sources": [
+        "NWHM",
+        "SI"
+      ]
+    },
+    {
+      "beat": "license",
+      "claim": "Licence from the FAI dated 15 June 1921.",
+      "sources": [
+        "NASM",
+        "SI",
+        "LIC"
+      ]
+    },
+    {
+      "beat": "first",
+      "claim": "First African American woman to earn a pilot's licence.",
+      "sources": [
+        "NASM",
+        "NWHM",
+        "SI"
+      ],
+      "note": "NWHM also calls her the first American of any race or gender awarded the FAI licence directly; that wider claim is not used."
+    },
+    {
+      "beat": "shows",
+      "claim": "Stunt flying: loops and figure eights at air shows.",
+      "sources": [
+        "NASM",
+        "NWHM"
+      ]
+    },
+    {
+      "beat": "queen",
+      "claim": "Known as 'Queen Bess'.",
+      "sources": [
+        "NWHM",
+        "RICH"
+      ]
+    },
+    {
+      "beat": "jimcrow",
+      "claim": "Refused / resisted segregated crowds at her shows.",
+      "sources": [
+        "NASM",
+        "NWHM"
+      ],
+      "note": "NASM: 'would only perform in exhibition shows if the crowds were desegregated'. NWHM gives a case (Waxahachie) where she demanded one entrance and had to accept a compromise. Script says 'pushed back against', which both support."
+    },
+    {
+      "beat": "crash",
+      "claim": "1923 crash in California, broken leg; she recovered and flew again.",
+      "sources": [
+        "NASM",
+        "NWHM"
+      ]
+    },
+    {
+      "beat": "death",
+      "claim": "Died 30 April 1926 in a crash while rehearsing for an air show.",
+      "sources": [
+        "NASM",
+        "NWHM"
+      ],
+      "note": "Place (Jacksonville, Florida) not used on screen."
+    },
+    {
+      "beat": "legacy",
+      "claim": "She never opened the flight school for Black pilots she was saving for.",
+      "sources": [
+        "NASM",
+        "NWHM"
+      ],
+      "note": "'She opened the sky' is a closing line, not a factual claim."
+    }
+  ],
+  "sources": {
+    "NASM": {
+      "name": "Smithsonian National Air and Space Museum: How Bessie Coleman Broke Barriers to Make History",
+      "url": "https://airandspace.si.edu/stories/editorial/bessie-coleman",
+      "kind": "Smithsonian"
+    },
+    "NWHM": {
+      "name": "National Women's History Museum: Bessie Coleman (biography, citing Doris L. Rich, Queen Bess, Smithsonian Institution Press, 1993)",
+      "url": "https://www.womenshistory.org/education-resources/biographies/bessie-coleman",
+      "kind": "museum biography citing a scholarly biography"
+    },
+    "SI": {
+      "name": "Smithsonian Institution (si.edu) Bessie Coleman page, read via search excerpt (page returned 403)",
+      "url": "https://www.si.edu/es/node/562030",
+      "kind": "Smithsonian"
+    },
+    "RICH": {
+      "name": "Doris L. Rich, Queen Bess: Daredevil Aviator, Smithsonian Institution Press, 1993",
+      "url": "https://penguinrandomhouse.com/books/206477/queen-bess-by-doris-l-rich",
+      "kind": "scholarly biography"
+    },
+    "LIC": {
+      "name": "FAI licence, 15 June 1921 (Smithsonian NASM neg. 99-15416), primary source",
+      "url": "https://commons.wikimedia.org/wiki/File:Coleman-licens.jpg",
+      "kind": "primary document"
+    }
+  },
+  "notUsed": [
+    "Telegram quote 'As soon as I can walk I'm going to fly' (single source, via Rich): not used.",
+    "Chicago Defender 1921 quote (single source): not used.",
+    "'First Native American woman pilot' (contested heritage claim): not used."
+  ]
+}

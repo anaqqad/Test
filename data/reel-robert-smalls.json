@@ -59,7 +59,7 @@
       },
       "section": "hook",
       "overlays": {
-        "hook": "In 1862, an enslaved man stole a Confederate warship."
+        "hook": "In 1862, an enslaved man *stole* a Confederate *warship.*"
       },
       "captions": false
     },

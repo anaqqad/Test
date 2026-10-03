@@ -2,7 +2,7 @@ import React from "react";
 import { Audio } from "@remotion/media";
 import { AbsoluteFill, type CalculateMetadataFunction, Freeze, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { type MathDocTimeline, timelineSchema } from "../mathdoc/schema";
-import { CardBeat, EndCard, HarborMap, HookText, LowerThird, PhotoBeat, PinChip, QCContext, Stamp, YearCounter } from "./blocks";
+import { CardBeat, EndCard, HarborMap, TitleCard, HookText, LowerThird, PhotoBeat, PinChip, QCContext, Stamp, YearCounter } from "./blocks";
 import { Captions } from "./Captions";
 import { type ReelBeat, type ReelSpec, reelSpecSchema } from "./schema";
 import { B } from "./style";
@@ -69,6 +69,7 @@ const Visual: React.FC<{ beat: ReelBeat; spec: ReelSpec; duration: number }> = (
   if (v.kind === "photo") return <PhotoBeat beat={beat} spec={spec} duration={duration} />;
   if (v.kind === "card") return <CardBeat beat={beat} spec={spec} duration={duration} />;
   if (v.kind === "map") return <HarborMap step={v.step ?? "wharf"} duration={duration} />;
+  if (v.kind === "title") return <TitleCard title={v.title ?? ""} sub={v.sub} />;
   return <EndCard page={spec.brand.page} />;
 };
 
