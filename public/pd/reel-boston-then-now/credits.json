@@ -1,0 +1,101 @@
+{
+  "osh_then": {
+    "title": "File:Old State House, Boston, Massachusetts, 1900.jpg",
+    "artist": "Detroit Publishing Co.",
+    "date": "1900",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_State_House,_Boston,_Massachusetts,_1900.jpg",
+    "width": 1920,
+    "height": 2596
+  },
+  "osh_now": {
+    "title": "File:The Old State House was the center of political activity of the Massachusetts Bay Colony. Boston, Massachusetts LCCN2011632400.tif",
+    "artist": "Carol M. Highsmith",
+    "date": "between 1980 and 2006",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Old_State_House_was_the_center_of_political_activity_of_the_Massachusetts_Bay_Colony._Boston,_Massachusetts_LCCN2011632400.tif",
+    "width": 1920,
+    "height": 2468
+  },
+  "amh_then": {
+    "title": "File:Historic American Buildings Survey, Arthur C. Haskell, Photographer. April, 1937. (b) Ext- General view from Northeast. - Abolition Church, 8 Smith Court, Boston, Suffolk County HABS MASS,13-BOST,42-1.tif",
+    "artist": "Arthur Cushman Haskell",
+    "date": "Taken in April 1937",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey,_Arthur_C._Haskell,_Photographer._April,_1937._(b)_Ext-_General_view_from_Northeast._-_Abolition_Church,_8_Smith_Court,_Boston,_Suffolk_County_HABS_MASS,13-BOST,42-1.tif",
+    "width": 1920,
+    "height": 2391
+  },
+  "amh_now": {
+    "title": "File:Exterior of the African Meeting House (0e4c6a56-d24f-4bb5-89eb-a6bd6d997c38).JPG",
+    "artist": "NPS Photo",
+    "date": "Taken on 31 May 2018",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_African_Meeting_House_(0e4c6a56-d24f-4bb5-89eb-a6bd6d997c38).JPG",
+    "width": 1920,
+    "height": 1280
+  },
+  "amh_inside": {
+    "title": "File:Interior of the African meeting house.jpg",
+    "artist": "Carol M. Highsmith",
+    "date": "between 1980 and 2006",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_African_meeting_house.jpg",
+    "width": 1920,
+    "height": 1502
+  },
+  "school_then": {
+    "title": "File:SmithSchool BelknapSt Boston HomansSketches1851.jpg",
+    "artist": "Homans",
+    "date": "1851",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:SmithSchool_BelknapSt_Boston_HomansSketches1851.jpg",
+    "width": 500,
+    "height": 456
+  },
+  "school_now": {
+    "title": "File:The Abiel Smith School is a site along the Black Heritage Trail and a site of segregated education for African American (4ae4fe08-0306-4dc1-b058-f2a1c6f2a708).JPG",
+    "artist": "NPS Photo",
+    "date": "Taken on 31 May 2018",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Abiel_Smith_School_is_a_site_along_the_Black_Heritage_Trail_and_a_site_of_segregated_education_for_African_American_(4ae4fe08-0306-4dc1-b058-f2a1c6f2a708).JPG",
+    "width": 1920,
+    "height": 2880
+  },
+  "hayden_now": {
+    "title": "File:The Lewis and Harriet Hayden House (9e36840c-79fe-4faf-bae4-7f712033c51e).JPG",
+    "artist": "NPS Photo",
+    "date": "Taken on 31 May 2018",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Lewis_and_Harriet_Hayden_House_(9e36840c-79fe-4faf-bae4-7f712033c51e).JPG",
+    "width": 1920,
+    "height": 1657
+  },
+  "shaw_then": {
+    "title": "File:Shaw Memorial, Boston, Mass (NYPL b12647398-68836).tiff",
+    "artist": "Scan by NYPL",
+    "date": "after 1898",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Shaw_Memorial,_Boston,_Mass_(NYPL_b12647398-68836).tiff",
+    "width": 1920,
+    "height": 1275
+  },
+  "shaw_now": {
+    "title": "File:Robert Gould Shaw Memorial.jpg",
+    "artist": "United States National Park Service",
+    "date": "circa 1999-2002",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Gould_Shaw_Memorial.jpg",
+    "width": 500,
+    "height": 424
+  },
+  "attucks": {
+    "title": "File:Crispus Attucks statue. Boston Common - DPLA - 17ad5a637fe28ad50f4b5f3c2cf85262.jpg",
+    "artist": "",
+    "date": "",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Crispus_Attucks_statue._Boston_Common_-_DPLA_-_17ad5a637fe28ad50f4b5f3c2cf85262.jpg",
+    "width": 1280,
+    "height": 1785
+  }
+}

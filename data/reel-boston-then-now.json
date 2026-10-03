@@ -1,0 +1,22 @@
+{
+  "id": "reel-boston-then-now",
+  "title": "Black Boston, Then and Now",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "assets": {
+    "osh_then": { "commons": "File:Old State House, Boston, Massachusetts, 1900.jpg" },
+    "osh_now": { "commons": "File:The Old State House was the center of political activity of the Massachusetts Bay Colony. Boston, Massachusetts LCCN2011632400.tif" },
+    "amh_then": { "commons": "File:Historic American Buildings Survey, Arthur C. Haskell, Photographer. April, 1937. (b) Ext- General view from Northeast. - Abolition Church, 8 Smith Court, Boston, Suffolk County HABS MASS,13-BOST,42-1.tif" },
+    "amh_now": { "commons": "File:Exterior of the African Meeting House (0e4c6a56-d24f-4bb5-89eb-a6bd6d997c38).JPG" },
+    "amh_inside": { "commons": "File:Interior of the African meeting house.jpg" },
+    "school_then": { "commons": "File:SmithSchool BelknapSt Boston HomansSketches1851.jpg" },
+    "school_now": { "commons": "File:The Abiel Smith School is a site along the Black Heritage Trail and a site of segregated education for African American (4ae4fe08-0306-4dc1-b058-f2a1c6f2a708).JPG" },
+    "hayden_now": { "commons": "File:The Lewis and Harriet Hayden House (9e36840c-79fe-4faf-bae4-7f712033c51e).JPG" },
+    "shaw_then": { "commons": "File:Shaw Memorial, Boston, Mass (NYPL b12647398-68836).tiff" },
+    "shaw_now": { "commons": "File:Robert Gould Shaw Memorial.jpg" },
+    "attucks": { "commons": "File:Crispus Attucks statue. Boston Common - DPLA - 17ad5a637fe28ad50f4b5f3c2cf85262.jpg" }
+  },
+  "beats": []
+}
