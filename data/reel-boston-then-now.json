@@ -6,17 +6,463 @@
   "width": 1080,
   "height": 1920,
   "assets": {
-    "osh_then": { "commons": "File:Old State House, Boston, Massachusetts, 1900.jpg" },
-    "osh_now": { "commons": "File:The Old State House was the center of political activity of the Massachusetts Bay Colony. Boston, Massachusetts LCCN2011632400.tif" },
-    "amh_then": { "commons": "File:Historic American Buildings Survey, Arthur C. Haskell, Photographer. April, 1937. (b) Ext- General view from Northeast. - Abolition Church, 8 Smith Court, Boston, Suffolk County HABS MASS,13-BOST,42-1.tif" },
-    "amh_now": { "commons": "File:Exterior of the African Meeting House (0e4c6a56-d24f-4bb5-89eb-a6bd6d997c38).JPG" },
-    "amh_inside": { "commons": "File:Interior of the African meeting house.jpg" },
-    "school_then": { "commons": "File:SmithSchool BelknapSt Boston HomansSketches1851.jpg" },
-    "school_now": { "commons": "File:The Abiel Smith School is a site along the Black Heritage Trail and a site of segregated education for African American (4ae4fe08-0306-4dc1-b058-f2a1c6f2a708).JPG" },
-    "hayden_now": { "commons": "File:The Lewis and Harriet Hayden House (9e36840c-79fe-4faf-bae4-7f712033c51e).JPG" },
-    "shaw_then": { "commons": "File:Shaw Memorial, Boston, Mass (NYPL b12647398-68836).tiff" },
-    "shaw_now": { "commons": "File:Robert Gould Shaw Memorial.jpg" },
-    "attucks": { "commons": "File:Crispus Attucks statue. Boston Common - DPLA - 17ad5a637fe28ad50f4b5f3c2cf85262.jpg" }
+    "osh_then": {
+      "commons": "File:Old State House, Boston, Massachusetts, 1900.jpg"
+    },
+    "osh_now": {
+      "commons": "File:The Old State House was the center of political activity of the Massachusetts Bay Colony. Boston, Massachusetts LCCN2011632400.tif"
+    },
+    "amh_then": {
+      "commons": "File:Historic American Buildings Survey, Arthur C. Haskell, Photographer. April, 1937. (b) Ext- General view from Northeast. - Abolition Church, 8 Smith Court, Boston, Suffolk County HABS MASS,13-BOST,42-1.tif"
+    },
+    "amh_now": {
+      "commons": "File:Exterior of the African Meeting House (0e4c6a56-d24f-4bb5-89eb-a6bd6d997c38).JPG"
+    },
+    "amh_inside": {
+      "commons": "File:Interior of the African meeting house.jpg"
+    },
+    "school_then": {
+      "commons": "File:SmithSchool BelknapSt Boston HomansSketches1851.jpg"
+    },
+    "school_now": {
+      "commons": "File:The Abiel Smith School is a site along the Black Heritage Trail and a site of segregated education for African American (4ae4fe08-0306-4dc1-b058-f2a1c6f2a708).JPG"
+    },
+    "hayden_now": {
+      "commons": "File:The Lewis and Harriet Hayden House (9e36840c-79fe-4faf-bae4-7f712033c51e).JPG"
+    },
+    "shaw_then": {
+      "commons": "File:Shaw Memorial, Boston, Mass (NYPL b12647398-68836).tiff"
+    },
+    "shaw_now": {
+      "commons": "File:Robert Gould Shaw Memorial.jpg"
+    },
+    "attucks": {
+      "commons": "File:Crispus Attucks statue. Boston Common - DPLA - 17ad5a637fe28ad50f4b5f3c2cf85262.jpg"
+    }
   },
-  "beats": []
+  "beats": [
+    {
+      "id": "hook",
+      "text": "Boston's Black history is still standing. You just have to know where to look.",
+      "visual": {
+        "kind": "photo",
+        "image": "osh_then",
+        "focus": [
+          0.5,
+          0.4
+        ],
+        "zoom": [
+          1.0,
+          1.03
+        ],
+        "anchor": [
+          0.5,
+          0.38
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "Boston's Black history is *still standing.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "massacre",
+      "text": "In 1770, outside this building, British soldiers killed five men in the Boston Massacre.",
+      "visual": {
+        "kind": "thennow",
+        "then": "osh_then",
+        "now": "osh_now",
+        "thenFocus": [
+          0.5,
+          0.4
+        ],
+        "nowFocus": [
+          0.5,
+          0.35
+        ],
+        "thenLabel": "1900",
+        "nowLabel": "Today"
+      },
+      "section": "osh",
+      "overlays": {
+        "pin": {
+          "label": "Old State House",
+          "sub": "Boston"
+        }
+      }
+    },
+    {
+      "id": "attucks",
+      "text": "One was Crispus Attucks, a sailor of African and Indigenous descent.",
+      "visual": {
+        "kind": "photo",
+        "image": "attucks",
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.5,
+          0.42
+        ]
+      },
+      "overlays": {
+        "lowerThird": {
+          "name": "Crispus Attucks",
+          "sub": "Killed March 5, 1770"
+        }
+      }
+    },
+    {
+      "id": "amh",
+      "text": "On Beacon Hill, Black Bostonians built this meeting house in 1806.",
+      "visual": {
+        "kind": "thennow",
+        "then": "amh_then",
+        "now": "amh_now",
+        "thenFocus": [
+          0.5,
+          0.45
+        ],
+        "nowFocus": [
+          0.4,
+          0.45
+        ],
+        "thenLabel": "1937",
+        "nowLabel": "Today"
+      },
+      "section": "amh",
+      "overlays": {
+        "pin": {
+          "label": "African Meeting House",
+          "sub": "Built 1806"
+        }
+      }
+    },
+    {
+      "id": "oldest",
+      "text": "It's considered the oldest Black church building still standing in America.",
+      "visual": {
+        "kind": "photo",
+        "image": "amh_inside",
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.5,
+          0.42
+        ]
+      }
+    },
+    {
+      "id": "douglass",
+      "text": "Frederick Douglass spoke here. In 1863, men signed up here for the 54th Massachusetts.",
+      "visual": {
+        "kind": "title",
+        "title": "1863",
+        "sub": "recruiting the 54th Massachusetts"
+      }
+    },
+    {
+      "id": "school",
+      "text": "Next door, in 1835, Boston opened a school for Black children only.",
+      "visual": {
+        "kind": "thennow",
+        "then": "school_then",
+        "now": "school_now",
+        "thenFocus": [
+          0.55,
+          0.5
+        ],
+        "nowFocus": [
+          0.5,
+          0.5
+        ],
+        "thenLabel": "1851",
+        "nowLabel": "Today"
+      },
+      "section": "school",
+      "overlays": {
+        "pin": {
+          "label": "Abiel Smith School",
+          "sub": "Opened 1835"
+        }
+      }
+    },
+    {
+      "id": "fight",
+      "text": "Black families fought back, with petitions, a boycott, and a lawsuit.",
+      "visual": {
+        "kind": "title",
+        "title": "Equal schools",
+        "sub": "petitions, a boycott, a lawsuit"
+      }
+    },
+    {
+      "id": "ban",
+      "text": "In 1855, Massachusetts banned segregated public schools.",
+      "visual": {
+        "kind": "title",
+        "title": "1855",
+        "sub": "segregated schools banned in Massachusetts"
+      }
+    },
+    {
+      "id": "hayden",
+      "text": "Nearby, Lewis and Harriet Hayden, who had escaped slavery, sheltered freedom seekers in this house.",
+      "visual": {
+        "kind": "photo",
+        "image": "hayden_now",
+        "focus": [
+          0.4,
+          0.5
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.45,
+          0.45
+        ]
+      },
+      "section": "hayden",
+      "overlays": {
+        "pin": {
+          "label": "Hayden House",
+          "sub": "66 Phillips Street"
+        }
+      }
+    },
+    {
+      "id": "shaw",
+      "text": "And facing the State House, this memorial honors the 54th, one of the first Black regiments of the Civil War.",
+      "visual": {
+        "kind": "thennow",
+        "then": "shaw_then",
+        "now": "shaw_now",
+        "thenFocus": [
+          0.5,
+          0.45
+        ],
+        "nowFocus": [
+          0.5,
+          0.45
+        ],
+        "thenLabel": "1898",
+        "nowLabel": "Today"
+      },
+      "section": "shaw",
+      "overlays": {
+        "pin": {
+          "label": "Shaw / 54th Memorial",
+          "sub": "Unveiled 1897"
+        }
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "The city changed around them. The history is still here.",
+      "visual": {
+        "kind": "title",
+        "title": "Still here",
+        "sub": "Boston's Black Heritage Trail"
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "voice": {
+    "engine": "elevenlabs",
+    "voiceId": "gUABw7pXQjhjt0kNFBTF",
+    "voiceName": "Andrew - Smooth audio books",
+    "model": "eleven_multilingual_v2",
+    "stability": 0.6,
+    "similarity": 0.75,
+    "style": 0.0,
+    "speed": 1.05,
+    "seed": 1234,
+    "leadInSeconds": 0.3,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day."
+  },
+  "faces": {},
+  "facts": [
+    {
+      "beat": "massacre",
+      "claim": "On 5 March 1770 British soldiers killed five men outside the Old State House (King Street).",
+      "sources": [
+        "NPS_ATT",
+        "WHE",
+        "BPL"
+      ]
+    },
+    {
+      "beat": "attucks",
+      "claim": "Crispus Attucks, a sailor of African and Indigenous ancestry, was one of them.",
+      "sources": [
+        "NPS_ATT",
+        "WHE"
+      ],
+      "note": "Often called 'the first' killed; that ranking is traditional, so the script doesn't use it."
+    },
+    {
+      "beat": "amh",
+      "claim": "African Meeting House built 1806, by Black Bostonians (funds raised by Cato Gardner and others; mostly Black craftsmen).",
+      "sources": [
+        "NPS_AMH",
+        "NRHP_AMH"
+      ]
+    },
+    {
+      "beat": "oldest",
+      "claim": "Considered the oldest Black church building still standing in the US.",
+      "sources": [
+        "NPS_AMH",
+        "NRHP_AMH"
+      ],
+      "note": "NPS wording: 'considered the oldest extant Black church building in America'. Script keeps 'considered'."
+    },
+    {
+      "beat": "douglass",
+      "claim": "Frederick Douglass spoke there; 1863 recruitment post for the 54th Massachusetts.",
+      "sources": [
+        "NPS_AMH",
+        "ACHP",
+        "NEHGS"
+      ]
+    },
+    {
+      "beat": "school",
+      "claim": "Abiel Smith School opened 1835 for Black children (segregated).",
+      "sources": [
+        "NPS_SMITH",
+        "NPS_EDU"
+      ]
+    },
+    {
+      "beat": "fight",
+      "claim": "Petitions, a boycott and a lawsuit (Roberts) against segregated schools.",
+      "sources": [
+        "NPS_SMITH",
+        "NELL"
+      ]
+    },
+    {
+      "beat": "ban",
+      "claim": "Massachusetts banned segregated public schools in 1855.",
+      "sources": [
+        "NPS_SMITH",
+        "NELL"
+      ]
+    },
+    {
+      "beat": "hayden",
+      "claim": "Lewis and Harriet Hayden escaped slavery and sheltered freedom seekers at 66 Phillips Street.",
+      "sources": [
+        "NPS_HAY",
+        "BOS"
+      ]
+    },
+    {
+      "beat": "shaw",
+      "claim": "Shaw / 54th Memorial on Boston Common facing the State House, unveiled 31 May 1897; the 54th was one of the first Black regiments of the Civil War.",
+      "sources": [
+        "NPS_SHAW",
+        "MHS"
+      ]
+    }
+  ],
+  "sources": {
+    "NPS_ATT": {
+      "name": "National Park Service: Crispus Attucks",
+      "url": "https://www.nps.gov/people/crispus-attucks.htm"
+    },
+    "WHE": {
+      "name": "World History Encyclopedia: Crispus Attucks",
+      "url": "https://www.worldhistory.org/Crispus_Attucks"
+    },
+    "BPL": {
+      "name": "Boston Public Library via DPLA/Commons: 'Old State House and the site of the Boston Massacre'",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_State_House_and_the_site_of_the_Boston_Massacre_-_DPLA_-_5819614ddf08a834ba98d5af716463f1.jpg"
+    },
+    "NPS_AMH": {
+      "name": "National Park Service: African Meeting House",
+      "url": "https://www.nps.gov/boaf/learn/historyculture/amh.htm"
+    },
+    "NRHP_AMH": {
+      "name": "National Register / NPGallery: African Meeting House",
+      "url": "https://npgallery.nps.gov/GetAsset/9cee824a-2435-4a2b-a6ce-c6b8aca1d4c4"
+    },
+    "NPS_SMITH": {
+      "name": "National Park Service: Abiel Smith School",
+      "url": "https://www.nps.gov/boaf/learn/historyculture/abiel-smith-school.htm"
+    },
+    "NPS_EDU": {
+      "name": "National Park Service: The Struggle for Equal Education",
+      "url": "https://www.nps.gov/articles/000/the-struggle-for-equal-education.htm"
+    },
+    "NELL": {
+      "name": "William C. Nell, 'The Triumph of Equal School Rights in Boston' (1855), via BlackPast",
+      "url": "https://new.blackpast.org/?p=30938"
+    },
+    "NPS_HAY": {
+      "name": "National Park Service: Lewis and Harriet Hayden House",
+      "url": "https://www.nps.gov/boaf/learn/historyculture/lewis-and-harriet-hayden-house.htm"
+    },
+    "BOS": {
+      "name": "City of Boston: Lewis and Harriet Hayden House",
+      "url": "https://www.boston.gov/node/11561481"
+    },
+    "NPS_SHAW": {
+      "name": "National Park Service: Robert Gould Shaw and the 54th Regiment",
+      "url": "https://www.nps.gov/boaf/learn/historyculture/shaw.htm"
+    },
+    "MHS": {
+      "name": "Massachusetts Historical Society: Dedication of the Shaw Memorial, 31 May 1897",
+      "url": "https://www.masshist.org/database/2525"
+    },
+    "ACHP": {
+      "name": "Advisory Council on Historic Preservation: African Meeting House",
+      "url": "https://www.achp.gov/sites/default/files/2018-09/African%20Meeting%20House4.pdf"
+    },
+    "NEHGS": {
+      "name": "American Ancestors (NEHGS), Vita Brevis: Boston's African Meeting House",
+      "url": "https://vitabrevis.americanancestors.org/2019/08/bostons-african-meeting-house"
+    }
+  },
+  "notUsed": [
+    "Quote 'Good bye forever colored school!' (single source): not used.",
+    "Paul Revere's Boston Massacre engraving: not used (depicts the shooting)."
+  ]
 }

@@ -411,6 +411,63 @@ export const Stamp: React.FC<{ text: string }> = ({ text }) => {
   );
 };
 
+/* ------------------------------------------------------------- then / now */
+
+/**
+ * Then and now: the old photo (sepia) fills the frame, then a gold line sweeps left to right and
+ * reveals today's photo (in colour) of the same place. The year chip switches when the line passes
+ * the middle. Both photos hold still apart from a very slow push, so the wipe is the only motion.
+ */
+export const ThenNowBeat: React.FC<{ beat: ReelBeat; spec: ReelSpec; duration: number }> = ({ beat, spec, duration }) => {
+  const frame = useCurrentFrame();
+  const { width: W, height: H } = useVideoConfig();
+  const qc = useContext(QCContext);
+  const v = beat.visual;
+  const thenKey = v.then ?? "";
+  const nowKey = v.now ?? "";
+  const push = interpolate(frame, [0, duration], [1.0, 1.03], { extrapolateRight: "clamp" });
+  const tSize = imgSize(spec, thenKey);
+  const nSize = imgSize(spec, nowKey);
+  const anchor: [number, number] = v.anchor ?? [0.5, 0.42];
+  const tRect = coverLayout(tSize.width, tSize.height, W, H, v.thenFocus ?? v.focus ?? [0.5, 0.45], anchor, push);
+  const nRect = coverLayout(nSize.width, nSize.height, W, H, v.nowFocus ?? v.focus ?? [0.5, 0.45], anchor, push);
+  // the wipe runs through the middle of the beat, so each picture is seen on its own first
+  const p = interpolate(frame, [duration * 0.32, duration * 0.68], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_IN_OUT });
+  const x = p * W;
+  const label = p < 0.5 ? v.thenLabel ?? "Then" : v.nowLabel ?? "Today";
+  const chip = (
+    <div style={{ position: "absolute", left: SAFE.left, top: 190 }}>
+      <Critical
+        style={{
+          fontFamily: serif,
+          fontWeight: 900,
+          fontSize: 96,
+          lineHeight: 1,
+          color: p < 0.5 ? B.gold : B.cream,
+          textShadow: "0 6px 30px rgba(0,0,0,0.85)",
+          textTransform: "uppercase",
+        }}
+      >
+        {label}
+      </Critical>
+    </div>
+  );
+  if (qc) return <AbsoluteFill>{chip}</AbsoluteFill>;
+  return (
+    <AbsoluteFill style={{ backgroundColor: B.black, overflow: "hidden" }}>
+      <Img src={staticFile(`pd/${spec.id}/${thenKey}.jpg`)} style={{ position: "absolute", ...toCss(tRect), filter: SEPIA }} />
+      <AbsoluteFill style={{ clipPath: `inset(0 ${W - x}px 0 0)` }}>
+        <Img src={staticFile(`pd/${spec.id}/${nowKey}.jpg`)} style={{ position: "absolute", ...toCss(nRect), filter: "saturate(0.9) contrast(1.04)" }} />
+      </AbsoluteFill>
+      {p > 0 && p < 1 ? (
+        <div style={{ position: "absolute", left: x - 4, top: 0, width: 8, height: H, background: B.gold, boxShadow: "0 0 24px rgba(226,178,74,0.8)" }} />
+      ) : null}
+      <Grade />
+      {chip}
+    </AbsoluteFill>
+  );
+};
+
 /* ----------------------------------------------------------- title card */
 
 /**

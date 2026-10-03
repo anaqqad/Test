@@ -2,7 +2,7 @@ import React from "react";
 import { Audio } from "@remotion/media";
 import { AbsoluteFill, type CalculateMetadataFunction, Freeze, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { type MathDocTimeline, timelineSchema } from "../mathdoc/schema";
-import { CardBeat, EndCard, HarborMap, TitleCard, HookText, LowerThird, PhotoBeat, PinChip, QCContext, Stamp, YearCounter } from "./blocks";
+import { CardBeat, EndCard, HarborMap, ThenNowBeat, TitleCard, HookText, LowerThird, PhotoBeat, PinChip, QCContext, Stamp, YearCounter } from "./blocks";
 import { Captions } from "./Captions";
 import { type ReelBeat, type ReelSpec, reelSpecSchema } from "./schema";
 import { B } from "./style";
@@ -70,6 +70,7 @@ const Visual: React.FC<{ beat: ReelBeat; spec: ReelSpec; duration: number }> = (
   if (v.kind === "card") return <CardBeat beat={beat} spec={spec} duration={duration} />;
   if (v.kind === "map") return <HarborMap step={v.step ?? "wharf"} duration={duration} />;
   if (v.kind === "title") return <TitleCard title={v.title ?? ""} sub={v.sub} />;
+  if (v.kind === "thennow") return <ThenNowBeat beat={beat} spec={spec} duration={duration} />;
   return <EndCard page={spec.brand.page} />;
 };
 
@@ -79,7 +80,7 @@ const Overlays: React.FC<{ beat: ReelBeat; duration: number }> = ({ beat, durati
     <>
       {o.year ? <YearCounter from={o.year.from} to={o.year.to} duration={duration} /> : null}
       {o.stamp ? <Stamp text={o.stamp} /> : null}
-      {o.pin ? <PinChip label={o.pin.label} sub={o.pin.sub} top={o.year || o.stamp ? 380 : 190} /> : null}
+      {o.pin ? <PinChip label={o.pin.label} sub={o.pin.sub} top={o.year || o.stamp || beat.visual.kind === "thennow" ? 330 : 190} /> : null}
       {o.lowerThird ? <LowerThird name={o.lowerThird.name} sub={o.lowerThird.sub} /> : null}
       {o.hook ? <HookText text={o.hook} /> : null}
     </>

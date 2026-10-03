@@ -10,7 +10,7 @@ Usage:
    ("qc": true): every caption, title and label is painted solid magenta and every face box cyan, on black, at
    1/4 scale, every frame. Any masked pixel in the bottom 20 % or right 15 %, or text touching the left/top edge, is a failure, reported
    per beat with the first offending time.
-2. Cover frame: frame 0 must already carry the hook text and a face (it is the cover still).
+2. Cover frame: frame 0 must already carry the hook text, and a face when the opening picture has one\n   (it is the cover still).
 3. Captions: 2-4 words on screen at a time (same chunking as src/reel/Captions.tsx).
 4. Script: 140-170 words; length 45-75 s (from timeline.json).
 5. With a rendered video: integrated loudness (target -14 LUFS +/- 1) and true peak (<= -1 dBTP),
@@ -158,7 +158,9 @@ def main() -> None:
                 v["maxPixelsRight"] = max(v["maxPixelsRight"], right)
                 v["maxPixelsAtEdge"] = max(v["maxPixelsAtEdge"], edge)
         checks["safeZones"] = {"ok": not violations, "framesChecked": len(frames), "scale": SCALE, "violations": violations}
-        checks["coverFrame"] = {"ok": cover_text and cover_face, "hookText": cover_text, "face": cover_face}
+        v0 = spec["beats"][0]["visual"]
+        needs_face = bool(spec.get("faces", {}).get(v0.get("image") or v0.get("then") or ""))
+        checks["coverFrame"] = {"ok": cover_text and (cover_face or not needs_face), "hookText": cover_text, "face": cover_face, "faceExpected": needs_face}
 
     # 3 + 4: captions, script and length
     words = sum(len(b["text"].split()) for b in spec["beats"])

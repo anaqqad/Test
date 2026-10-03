@@ -12,7 +12,7 @@ import { timelineSchema } from "../mathdoc/schema";
 const box = z.tuple([z.number(), z.number(), z.number(), z.number()]);
 
 export const reelVisualSchema = z.object({
-  kind: z.enum(["photo", "card", "map", "title", "endcard"]),
+  kind: z.enum(["photo", "card", "map", "title", "thennow", "endcard"]),
   /** asset key (public/pd/<id>/<key>.jpg) */
   image: z.string().optional(),
   /** photo: image point (0..1) the camera holds on, and where on screen (0..1) it sits */
@@ -29,6 +29,13 @@ export const reelVisualSchema = z.object({
   /** title: typographic card for beats with no fitting picture (a year, a date, a short line) */
   title: z.string().optional(),
   sub: z.string().optional(),
+  /** thennow: old and current photo of the same place; a gold line wipes from then to now */
+  then: z.string().optional(),
+  now: z.string().optional(),
+  thenFocus: z.tuple([z.number(), z.number()]).optional(),
+  nowFocus: z.tuple([z.number(), z.number()]).optional(),
+  thenLabel: z.string().optional(),
+  nowLabel: z.string().optional(),
   /** map: which leg of the route this beat shows */
   step: z.enum(["wharf", "forts", "sumter", "fleet"]).optional(),
 });
