@@ -5,7 +5,7 @@ import { type MathDocTimeline, timelineSchema } from "../mathdoc/schema";
 import { CardBeat, EndCard, HarborMap, ThenNowBeat, TitleCard, HookText, LowerThird, PhotoBeat, PinChip, QCContext, Stamp, YearCounter } from "./blocks";
 import { Captions } from "./Captions";
 import { type ReelBeat, type ReelSpec, reelSpecSchema } from "./schema";
-import { B } from "./style";
+import { applyTheme, B } from "./style";
 
 const LOOP_FRAMES = 12;
 
@@ -71,7 +71,7 @@ const Visual: React.FC<{ beat: ReelBeat; spec: ReelSpec; duration: number }> = (
   if (v.kind === "map") return <HarborMap step={v.step ?? "wharf"} duration={duration} />;
   if (v.kind === "title") return <TitleCard title={v.title ?? ""} sub={v.sub} />;
   if (v.kind === "thennow") return <ThenNowBeat beat={beat} spec={spec} duration={duration} />;
-  return <EndCard page={spec.brand.page} />;
+  return <EndCard page={spec.brand.page} line={spec.brand.ctaLine} />;
 };
 
 const Overlays: React.FC<{ beat: ReelBeat; duration: number }> = ({ beat, duration }) => {
@@ -105,6 +105,7 @@ const CoverFrame: React.FC<{ spec: ReelSpec }> = ({ spec }) => {
  * top, and a dissolve at the end back into the opening frame so the reel loops cleanly.
  */
 export const Reel: React.FC<ReelSpec> = (spec) => {
+  applyTheme(spec.brand.theme);
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const tl = spec.timeline ?? estimateTimeline(spec);

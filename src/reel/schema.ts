@@ -35,6 +35,9 @@ export const reelVisualSchema = z.object({
   thenFocus: z.tuple([z.number(), z.number()]).optional(),
   nowFocus: z.tuple([z.number(), z.number()]).optional(),
   thenLabel: z.string().optional(),
+  /** thennow: crop of the old / new image to use (e.g. an etching on a large mount) */
+  thenCrop: box.optional(),
+  nowCrop: box.optional(),
   nowLabel: z.string().optional(),
   /** map: which leg of the route this beat shows */
   step: z.enum(["wharf", "forts", "sumter", "fleet"]).optional(),
@@ -75,7 +78,13 @@ export const reelSpecSchema = z.object({
   voice: z.object({ engine: z.string() }).passthrough(),
   music: z.object({ volume: z.number() }).optional(),
   mix: z.record(z.string(), z.number()).optional(),
-  brand: z.object({ page: z.string(), cta: z.string() }),
+  /** page branding: end card text and colour theme (bhr = The Black History Room, bbu = Boston Before Us) */
+  brand: z.object({
+    page: z.string(),
+    cta: z.string(),
+    ctaLine: z.string().default("for one story a day."),
+    theme: z.enum(["bhr", "bbu"]).default("bhr"),
+  }),
   assets: z.record(z.string(), z.object({ commons: z.string() })).default({}),
   /** face boxes per asset key, [x0,y0,x1,y1] in 0..1 image coordinates (safe-zone QC) */
   faces: z.record(z.string(), z.array(box)).default({}),

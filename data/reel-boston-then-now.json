@@ -82,7 +82,7 @@
           0.35
         ],
         "thenLabel": "1900",
-        "nowLabel": "Today"
+        "nowLabel": "TODAY"
       },
       "section": "osh",
       "overlays": {
@@ -134,7 +134,7 @@
           0.45
         ],
         "thenLabel": "1937",
-        "nowLabel": "Today"
+        "nowLabel": "TODAY"
       },
       "section": "amh",
       "overlays": {
@@ -189,7 +189,7 @@
           0.5
         ],
         "thenLabel": "1851",
-        "nowLabel": "Today"
+        "nowLabel": "TODAY"
       },
       "section": "school",
       "overlays": {
@@ -260,7 +260,7 @@
           0.45
         ],
         "thenLabel": "1898",
-        "nowLabel": "Today"
+        "nowLabel": "TODAY"
       },
       "section": "shaw",
       "overlays": {

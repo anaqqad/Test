@@ -41,3 +41,24 @@ export const fitCrop = (iw: number, ih: number, crop: [number, number, number, n
     crop: cropRect,
   };
 };
+
+/**
+ * coverLayout for a crop of the image: the crop [x0,y0,x1,y1] (0..1) covers the frame, and the
+ * returned rect is where the whole image must be drawn (the parent clips the rest).
+ */
+export const coverCrop = (
+  iw: number,
+  ih: number,
+  W: number,
+  H: number,
+  crop: [number, number, number, number],
+  focus: [number, number],
+  anchor: [number, number],
+  zoom: number,
+): Rect => {
+  const cw = (crop[2] - crop[0]) * iw;
+  const ch = (crop[3] - crop[1]) * ih;
+  const r = coverLayout(cw, ch, W, H, focus, anchor, zoom);
+  const s = r.w / cw;
+  return { x: r.x - crop[0] * iw * s, y: r.y - crop[1] * ih * s, w: iw * s, h: ih * s };
+};

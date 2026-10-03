@@ -2,7 +2,7 @@ import { loadFont } from "@remotion/fonts";
 import { Easing, interpolate, staticFile } from "remotion";
 
 /** The Black History Room: black, cream and gold. */
-export const B = {
+const BHR = {
   black: "#0E0C0A",
   ink: "#1A1612",
   cream: "#F4EAD5",
@@ -13,7 +13,31 @@ export const B = {
   paperInk: "#2A2119",
   water: "#231E17",
   land: "#C9B58E",
-} as const;
+};
+
+/** Boston Before Us: night navy, lamplight gold, cream (matches the page's banner and avatar). */
+const BBU: typeof BHR = {
+  black: "#0D1522",
+  ink: "#16223A",
+  cream: "#F2EBDD",
+  creamDim: "rgba(242,235,221,0.78)",
+  gold: "#D9A84E",
+  goldDeep: "#A57A2B",
+  paper: "#E6DCC6",
+  paperInk: "#1E2533",
+  water: "#18233A",
+  land: "#BFB08F",
+};
+
+export const THEMES = { bhr: BHR, bbu: BBU } as const;
+export type ThemeName = keyof typeof THEMES;
+
+/**
+ * Current palette. A render shows one page's reel, so Reel sets it once from spec.brand.theme
+ * (applyTheme) before any block reads it.
+ */
+export const B: typeof BHR = { ...BHR };
+export const applyTheme = (name: ThemeName = "bhr") => Object.assign(B, THEMES[name]);
 
 /** Colour of the safe-zone QC mask (scripts/qc_reel.py looks for it). */
 export const QC_MAGENTA = "#FF00FF";

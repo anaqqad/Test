@@ -1,6 +1,6 @@
 import React, { createContext, useContext } from "react";
 import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { coverLayout, fitCrop, mapBox, type Rect } from "./layout";
+import { coverCrop, coverLayout, fitCrop, mapBox, type Rect } from "./layout";
 import type { ReelBeat, ReelSpec } from "./schema";
 import { B, EASE_IN_OUT, EASE_OUT, QC_CYAN, QC_MAGENTA, reveal, SAFE, SAFE_CX, SAFE_W, SEPIA, sans, serif } from "./style";
 
@@ -66,7 +66,9 @@ export const PhotoBeat: React.FC<{ beat: ReelBeat; spec: ReelSpec; duration: num
   const focus = v.focus ?? [0.5, 0.5];
   const pan = v.motion === "panLeft" ? 0.08 : v.motion === "panRight" ? -0.08 : 0;
   const f: [number, number] = [focus[0] - pan / 2 + pan * p, focus[1]];
-  const rect = coverLayout(iw, ih, W, H, f, v.anchor ?? [0.5, 0.4], z0 + (z1 - z0) * p);
+  const rect = v.crop
+    ? coverCrop(iw, ih, W, H, v.crop, f, v.anchor ?? [0.5, 0.4], z0 + (z1 - z0) * p)
+    : coverLayout(iw, ih, W, H, f, v.anchor ?? [0.5, 0.4], z0 + (z1 - z0) * p);
   if (qc) return <FaceMasks boxes={spec.faces[key] ?? []} rect={rect} />;
   return (
     <AbsoluteFill style={{ backgroundColor: B.black, overflow: "hidden" }}>
@@ -429,12 +431,12 @@ export const ThenNowBeat: React.FC<{ beat: ReelBeat; spec: ReelSpec; duration: n
   const tSize = imgSize(spec, thenKey);
   const nSize = imgSize(spec, nowKey);
   const anchor: [number, number] = v.anchor ?? [0.5, 0.42];
-  const tRect = coverLayout(tSize.width, tSize.height, W, H, v.thenFocus ?? v.focus ?? [0.5, 0.45], anchor, push);
-  const nRect = coverLayout(nSize.width, nSize.height, W, H, v.nowFocus ?? v.focus ?? [0.5, 0.45], anchor, push);
+  const tRect = coverCrop(tSize.width, tSize.height, W, H, v.thenCrop ?? [0, 0, 1, 1], v.thenFocus ?? v.focus ?? [0.5, 0.45], anchor, push);
+  const nRect = coverCrop(nSize.width, nSize.height, W, H, v.nowCrop ?? [0, 0, 1, 1], v.nowFocus ?? v.focus ?? [0.5, 0.45], anchor, push);
   // the wipe runs through the middle of the beat, so each picture is seen on its own first
   const p = interpolate(frame, [duration * 0.32, duration * 0.68], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_IN_OUT });
   const x = p * W;
-  const label = p < 0.5 ? v.thenLabel ?? "Then" : v.nowLabel ?? "Today";
+  const label = p < 0.5 ? v.thenLabel ?? "THEN" : v.nowLabel ?? "TODAY";
   const chip = (
     <div style={{ position: "absolute", left: SAFE.left, top: 190 }}>
       <Critical
@@ -445,7 +447,6 @@ export const ThenNowBeat: React.FC<{ beat: ReelBeat; spec: ReelSpec; duration: n
           lineHeight: 1,
           color: p < 0.5 ? B.gold : B.cream,
           textShadow: "0 6px 30px rgba(0,0,0,0.85)",
-          textTransform: "uppercase",
         }}
       >
         {label}
@@ -499,7 +500,7 @@ export const TitleCard: React.FC<{ title: string; sub?: string }> = ({ title, su
 
 /* -------------------------------------------------------------- end card */
 
-export const EndCard: React.FC<{ page: string }> = ({ page }) => {
+export const EndCard: React.FC<{ page: string; line: string }> = ({ page, line }) => {
   const frame = useCurrentFrame();
   const qc = useContext(QCContext);
   const a = reveal(frame, 0, 10);
@@ -513,7 +514,7 @@ export const EndCard: React.FC<{ page: string }> = ({ page }) => {
           {page}
         </Critical>
         <Critical style={{ height: 6, width: 160, background: B.gold, opacity: b }}>{""}</Critical>
-        <Critical style={{ fontFamily: serif, fontStyle: "italic", fontSize: 60, color: B.cream, opacity: b }}>for one story a day.</Critical>
+        <Critical style={{ fontFamily: serif, fontStyle: "italic", fontSize: 60, color: B.cream, opacity: b }}>{line}</Critical>
       </div>
     </AbsoluteFill>
   );
