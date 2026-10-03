@@ -1,0 +1,984 @@
+{
+ "fps": 30,
+ "durationInFrames": 1797,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 166,
+ "wpm": 166.3,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 3.829,
+   "words": [
+    {
+     "text": "American",
+     "start": 0.3,
+     "end": 0.776
+    },
+    {
+     "text": "flight",
+     "start": 0.822,
+     "end": 1.066
+    },
+    {
+     "text": "schools",
+     "start": 1.089,
+     "end": 1.391
+    },
+    {
+     "text": "wouldn't",
+     "start": 1.426,
+     "end": 1.67
+    },
+    {
+     "text": "teach",
+     "start": 1.705,
+     "end": 1.914
+    },
+    {
+     "text": "her.",
+     "start": 1.949,
+     "end": 2.158
+    },
+    {
+     "text": "So",
+     "start": 2.518,
+     "end": 2.657
+    },
+    {
+     "text": "she",
+     "start": 2.703,
+     "end": 2.796
+    },
+    {
+     "text": "learned",
+     "start": 2.854,
+     "end": 3.063
+    },
+    {
+     "text": "French.",
+     "start": 3.098,
+     "end": 3.829
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 127
+  },
+  {
+   "id": "name",
+   "speechEnd": 5.722,
+   "words": [
+    {
+     "text": "Her",
+     "start": 4.329,
+     "end": 4.492
+    },
+    {
+     "text": "name",
+     "start": 4.526,
+     "end": 4.666
+    },
+    {
+     "text": "was",
+     "start": 4.689,
+     "end": 4.782
+    },
+    {
+     "text": "Bessie",
+     "start": 4.84,
+     "end": 5.084
+    },
+    {
+     "text": "Coleman.",
+     "start": 5.13,
+     "end": 5.722
+    }
+   ],
+   "cues": {},
+   "startFrame": 127,
+   "endFrame": 186
+  },
+  {
+   "id": "born",
+   "speechEnd": 9.948,
+   "words": [
+    {
+     "text": "Born",
+     "start": 6.303,
+     "end": 6.547
+    },
+    {
+     "text": "in",
+     "start": 6.581,
+     "end": 6.639
+    },
+    {
+     "text": "Texas",
+     "start": 6.686,
+     "end": 7.023
+    },
+    {
+     "text": "in",
+     "start": 7.069,
+     "end": 7.127
+    },
+    {
+     "text": "1892,",
+     "start": 7.162,
+     "end": 8.125
+    },
+    {
+     "text": "she",
+     "start": 8.392,
+     "end": 8.509
+    },
+    {
+     "text": "was",
+     "start": 8.555,
+     "end": 8.66
+    },
+    {
+     "text": "one",
+     "start": 8.706,
+     "end": 8.822
+    },
+    {
+     "text": "of",
+     "start": 8.845,
+     "end": 8.903
+    },
+    {
+     "text": "thirteen",
+     "start": 8.961,
+     "end": 9.345
+    },
+    {
+     "text": "children.",
+     "start": 9.403,
+     "end": 9.948
+    }
+   ],
+   "cues": {},
+   "startFrame": 186,
+   "endFrame": 313
+  },
+  {
+   "id": "chicago",
+   "speechEnd": 13.768,
+   "words": [
+    {
+     "text": "She",
+     "start": 10.529,
+     "end": 10.656
+    },
+    {
+     "text": "was",
+     "start": 10.703,
+     "end": 10.807
+    },
+    {
+     "text": "working",
+     "start": 10.865,
+     "end": 11.144
+    },
+    {
+     "text": "as",
+     "start": 11.19,
+     "end": 11.26
+    },
+    {
+     "text": "a",
+     "start": 11.295,
+     "end": 11.318
+    },
+    {
+     "text": "manicurist",
+     "start": 11.376,
+     "end": 11.899
+    },
+    {
+     "text": "in",
+     "start": 11.945,
+     "end": 12.003
+    },
+    {
+     "text": "Chicago",
+     "start": 12.05,
+     "end": 12.456
+    },
+    {
+     "text": "when",
+     "start": 12.502,
+     "end": 12.619
+    },
+    {
+     "text": "she",
+     "start": 12.653,
+     "end": 12.735
+    },
+    {
+     "text": "decided",
+     "start": 12.793,
+     "end": 13.153
+    },
+    {
+     "text": "to",
+     "start": 13.187,
+     "end": 13.234
+    },
+    {
+     "text": "fly.",
+     "start": 13.28,
+     "end": 13.768
+    }
+   ],
+   "cues": {},
+   "startFrame": 313,
+   "endFrame": 427
+  },
+  {
+   "id": "refused",
+   "speechEnd": 17.751,
+   "words": [
+    {
+     "text": "Flight",
+     "start": 14.348,
+     "end": 14.615
+    },
+    {
+     "text": "schools",
+     "start": 14.65,
+     "end": 14.917
+    },
+    {
+     "text": "there",
+     "start": 14.952,
+     "end": 15.115
+    },
+    {
+     "text": "turned",
+     "start": 15.149,
+     "end": 15.358
+    },
+    {
+     "text": "her",
+     "start": 15.393,
+     "end": 15.463
+    },
+    {
+     "text": "down,",
+     "start": 15.51,
+     "end": 15.951
+    },
+    {
+     "text": "because",
+     "start": 16.265,
+     "end": 16.508
+    },
+    {
+     "text": "she",
+     "start": 16.532,
+     "end": 16.601
+    },
+    {
+     "text": "was",
+     "start": 16.648,
+     "end": 16.752
+    },
+    {
+     "text": "Black",
+     "start": 16.81,
+     "end": 17.042
+    },
+    {
+     "text": "and",
+     "start": 17.089,
+     "end": 17.158
+    },
+    {
+     "text": "a",
+     "start": 17.193,
+     "end": 17.217
+    },
+    {
+     "text": "woman.",
+     "start": 17.251,
+     "end": 17.751
+    }
+   ],
+   "cues": {},
+   "startFrame": 427,
+   "endFrame": 545
+  },
+  {
+   "id": "french",
+   "speechEnd": 20.492,
+   "words": [
+    {
+     "text": "So",
+     "start": 18.251,
+     "end": 18.414
+    },
+    {
+     "text": "she",
+     "start": 18.472,
+     "end": 18.564
+    },
+    {
+     "text": "learned",
+     "start": 18.634,
+     "end": 18.855
+    },
+    {
+     "text": "French",
+     "start": 18.913,
+     "end": 19.249
+    },
+    {
+     "text": "and",
+     "start": 19.342,
+     "end": 19.493
+    },
+    {
+     "text": "sailed",
+     "start": 19.563,
+     "end": 19.842
+    },
+    {
+     "text": "to",
+     "start": 19.865,
+     "end": 19.911
+    },
+    {
+     "text": "France.",
+     "start": 19.981,
+     "end": 20.492
+    }
+   ],
+   "cues": {},
+   "startFrame": 545,
+   "endFrame": 624
+  },
+  {
+   "id": "trained",
+   "speechEnd": 24.137,
+   "words": [
+    {
+     "text": "At",
+     "start": 20.91,
+     "end": 21.037
+    },
+    {
+     "text": "the",
+     "start": 21.072,
+     "end": 21.142
+    },
+    {
+     "text": "Caudron",
+     "start": 21.188,
+     "end": 21.537
+    },
+    {
+     "text": "brothers'",
+     "start": 21.583,
+     "end": 21.908
+    },
+    {
+     "text": "school,",
+     "start": 21.931,
+     "end": 22.314
+    },
+    {
+     "text": "she",
+     "start": 22.349,
+     "end": 22.489
+    },
+    {
+     "text": "trained",
+     "start": 22.547,
+     "end": 22.872
+    },
+    {
+     "text": "in",
+     "start": 22.907,
+     "end": 22.965
+    },
+    {
+     "text": "fragile",
+     "start": 23.034,
+     "end": 23.394
+    },
+    {
+     "text": "biplanes,",
+     "start": 23.429,
+     "end": 24.137
+    }
+   ],
+   "cues": {},
+   "startFrame": 624,
+   "endFrame": 727
+  },
+  {
+   "id": "license",
+   "speechEnd": 28.27,
+   "words": [
+    {
+     "text": "and",
+     "start": 24.335,
+     "end": 24.474
+    },
+    {
+     "text": "on",
+     "start": 24.532,
+     "end": 24.613
+    },
+    {
+     "text": "June",
+     "start": 24.683,
+     "end": 24.95
+    },
+    {
+     "text": "15,",
+     "start": 24.973,
+     "end": 25.426
+    },
+    {
+     "text": "1921,",
+     "start": 25.472,
+     "end": 26.517
+    },
+    {
+     "text": "she",
+     "start": 26.75,
+     "end": 26.889
+    },
+    {
+     "text": "earned",
+     "start": 26.958,
+     "end": 27.167
+    },
+    {
+     "text": "her",
+     "start": 27.202,
+     "end": 27.272
+    },
+    {
+     "text": "pilot's",
+     "start": 27.33,
+     "end": 27.725
+    },
+    {
+     "text": "license,",
+     "start": 27.771,
+     "end": 28.27
+    }
+   ],
+   "cues": {},
+   "startFrame": 727,
+   "endFrame": 848
+  },
+  {
+   "id": "first",
+   "speechEnd": 31.301,
+   "words": [
+    {
+     "text": "the",
+     "start": 28.363,
+     "end": 28.456
+    },
+    {
+     "text": "first",
+     "start": 28.526,
+     "end": 28.804
+    },
+    {
+     "text": "African",
+     "start": 28.874,
+     "end": 29.246
+    },
+    {
+     "text": "American",
+     "start": 29.281,
+     "end": 29.675
+    },
+    {
+     "text": "woman",
+     "start": 29.722,
+     "end": 29.966
+    },
+    {
+     "text": "ever",
+     "start": 30.035,
+     "end": 30.268
+    },
+    {
+     "text": "to",
+     "start": 30.326,
+     "end": 30.384
+    },
+    {
+     "text": "do",
+     "start": 30.442,
+     "end": 30.546
+    },
+    {
+     "text": "it.",
+     "start": 30.616,
+     "end": 31.301
+    }
+   ],
+   "cues": {},
+   "startFrame": 848,
+   "endFrame": 951
+  },
+  {
+   "id": "shows",
+   "speechEnd": 34.702,
+   "words": [
+    {
+     "text": "Back",
+     "start": 31.8,
+     "end": 32.067
+    },
+    {
+     "text": "home,",
+     "start": 32.137,
+     "end": 32.38
+    },
+    {
+     "text": "she",
+     "start": 32.404,
+     "end": 32.508
+    },
+    {
+     "text": "flew",
+     "start": 32.566,
+     "end": 32.752
+    },
+    {
+     "text": "loops",
+     "start": 32.81,
+     "end": 33.112
+    },
+    {
+     "text": "and",
+     "start": 33.158,
+     "end": 33.263
+    },
+    {
+     "text": "figure",
+     "start": 33.333,
+     "end": 33.623
+    },
+    {
+     "text": "eights",
+     "start": 33.681,
+     "end": 33.901
+    },
+    {
+     "text": "at",
+     "start": 33.936,
+     "end": 34.006
+    },
+    {
+     "text": "air",
+     "start": 34.041,
+     "end": 34.192
+    },
+    {
+     "text": "shows.",
+     "start": 34.238,
+     "end": 34.702
+    }
+   ],
+   "cues": {},
+   "startFrame": 951,
+   "endFrame": 1049
+  },
+  {
+   "id": "queen",
+   "speechEnd": 36.502,
+   "words": [
+    {
+     "text": "They",
+     "start": 35.062,
+     "end": 35.213
+    },
+    {
+     "text": "called",
+     "start": 35.248,
+     "end": 35.48
+    },
+    {
+     "text": "her",
+     "start": 35.515,
+     "end": 35.596
+    },
+    {
+     "text": "Queen",
+     "start": 35.666,
+     "end": 35.91
+    },
+    {
+     "text": "Bess.",
+     "start": 35.98,
+     "end": 36.502
+    }
+   ],
+   "cues": {},
+   "startFrame": 1049,
+   "endFrame": 1107
+  },
+  {
+   "id": "jimcrow",
+   "speechEnd": 41.134,
+   "words": [
+    {
+     "text": "In",
+     "start": 36.99,
+     "end": 37.141
+    },
+    {
+     "text": "Jim",
+     "start": 37.199,
+     "end": 37.361
+    },
+    {
+     "text": "Crow",
+     "start": 37.431,
+     "end": 37.628
+    },
+    {
+     "text": "America,",
+     "start": 37.675,
+     "end": 38.255
+    },
+    {
+     "text": "she",
+     "start": 38.394,
+     "end": 38.522
+    },
+    {
+     "text": "pushed",
+     "start": 38.592,
+     "end": 38.847
+    },
+    {
+     "text": "back",
+     "start": 38.894,
+     "end": 39.114
+    },
+    {
+     "text": "against",
+     "start": 39.161,
+     "end": 39.405
+    },
+    {
+     "text": "segregated",
+     "start": 39.451,
+     "end": 39.962
+    },
+    {
+     "text": "audiences.",
+     "start": 40.008,
+     "end": 41.134
+    }
+   ],
+   "cues": {},
+   "startFrame": 1107,
+   "endFrame": 1246
+  },
+  {
+   "id": "crash",
+   "speechEnd": 45.78,
+   "words": [
+    {
+     "text": "A",
+     "start": 41.635,
+     "end": 41.751
+    },
+    {
+     "text": "crash",
+     "start": 41.832,
+     "end": 42.157
+    },
+    {
+     "text": "in",
+     "start": 42.204,
+     "end": 42.262
+    },
+    {
+     "text": "1923",
+     "start": 42.308,
+     "end": 43.017
+    },
+    {
+     "text": "broke",
+     "start": 43.098,
+     "end": 43.318
+    },
+    {
+     "text": "her",
+     "start": 43.353,
+     "end": 43.435
+    },
+    {
+     "text": "leg.",
+     "start": 43.493,
+     "end": 43.864
+    },
+    {
+     "text": "She",
+     "start": 44.282,
+     "end": 44.433
+    },
+    {
+     "text": "healed,",
+     "start": 44.503,
+     "end": 44.886
+    },
+    {
+     "text": "and",
+     "start": 44.909,
+     "end": 45.06
+    },
+    {
+     "text": "flew",
+     "start": 45.118,
+     "end": 45.304
+    },
+    {
+     "text": "again.",
+     "start": 45.35,
+     "end": 45.78
+    }
+   ],
+   "cues": {},
+   "startFrame": 1246,
+   "endFrame": 1385
+  },
+  {
+   "id": "death",
+   "speechEnd": 50.459,
+   "words": [
+    {
+     "text": "In",
+     "start": 46.267,
+     "end": 46.395
+    },
+    {
+     "text": "1926,",
+     "start": 46.43,
+     "end": 47.463
+    },
+    {
+     "text": "she",
+     "start": 47.579,
+     "end": 47.719
+    },
+    {
+     "text": "died",
+     "start": 47.788,
+     "end": 48.009
+    },
+    {
+     "text": "in",
+     "start": 48.044,
+     "end": 48.09
+    },
+    {
+     "text": "a",
+     "start": 48.125,
+     "end": 48.16
+    },
+    {
+     "text": "crash",
+     "start": 48.206,
+     "end": 48.531
+    },
+    {
+     "text": "while",
+     "start": 48.578,
+     "end": 48.764
+    },
+    {
+     "text": "rehearsing",
+     "start": 48.798,
+     "end": 49.181
+    },
+    {
+     "text": "for",
+     "start": 49.24,
+     "end": 49.332
+    },
+    {
+     "text": "an",
+     "start": 49.379,
+     "end": 49.437
+    },
+    {
+     "text": "air",
+     "start": 49.472,
+     "end": 49.588
+    },
+    {
+     "text": "show.",
+     "start": 49.634,
+     "end": 50.459
+    }
+   ],
+   "cues": {},
+   "startFrame": 1385,
+   "endFrame": 1526
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 55.741,
+   "words": [
+    {
+     "text": "She",
+     "start": 50.958,
+     "end": 51.121
+    },
+    {
+     "text": "never",
+     "start": 51.19,
+     "end": 51.364
+    },
+    {
+     "text": "got",
+     "start": 51.411,
+     "end": 51.55
+    },
+    {
+     "text": "to",
+     "start": 51.585,
+     "end": 51.631
+    },
+    {
+     "text": "open",
+     "start": 51.689,
+     "end": 51.898
+    },
+    {
+     "text": "her",
+     "start": 51.933,
+     "end": 52.003
+    },
+    {
+     "text": "flight",
+     "start": 52.049,
+     "end": 52.293
+    },
+    {
+     "text": "school",
+     "start": 52.316,
+     "end": 52.537
+    },
+    {
+     "text": "for",
+     "start": 52.583,
+     "end": 52.676
+    },
+    {
+     "text": "Black",
+     "start": 52.723,
+     "end": 52.932
+    },
+    {
+     "text": "pilots.",
+     "start": 52.99,
+     "end": 53.593
+    },
+    {
+     "text": "But",
+     "start": 53.907,
+     "end": 54.058
+    },
+    {
+     "text": "she",
+     "start": 54.093,
+     "end": 54.186
+    },
+    {
+     "text": "opened",
+     "start": 54.255,
+     "end": 54.511
+    },
+    {
+     "text": "the",
+     "start": 54.534,
+     "end": 54.604
+    },
+    {
+     "text": "sky.",
+     "start": 54.627,
+     "end": 55.741
+    }
+   ],
+   "cues": {},
+   "startFrame": 1526,
+   "endFrame": 1684
+  },
+  {
+   "id": "cta",
+   "speechEnd": 58.702,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 56.241,
+     "end": 56.566
+    },
+    {
+     "text": "The",
+     "start": 56.613,
+     "end": 56.682
+    },
+    {
+     "text": "Black",
+     "start": 56.717,
+     "end": 56.903
+    },
+    {
+     "text": "History",
+     "start": 56.949,
+     "end": 57.228
+    },
+    {
+     "text": "Room",
+     "start": 57.274,
+     "end": 57.437
+    },
+    {
+     "text": "for",
+     "start": 57.495,
+     "end": 57.599
+    },
+    {
+     "text": "one",
+     "start": 57.669,
+     "end": 57.808
+    },
+    {
+     "text": "story",
+     "start": 57.843,
+     "end": 58.122
+    },
+    {
+     "text": "a",
+     "start": 58.168,
+     "end": 58.191
+    },
+    {
+     "text": "day.",
+     "start": 58.238,
+     "end": 58.702
+    }
+   ],
+   "cues": {},
+   "startFrame": 1684,
+   "endFrame": 1797
+  }
+ ]
+}

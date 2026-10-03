@@ -41,6 +41,6 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - Vertical 1080x1920 Remotion format at the repo root; see README.md. Pilot: `data/reel-robert-smalls.json`.
 - Pipeline copied from anaqqad/Youtube-Automation (MathDoc), same file names. The owner chose to keep it here.
 - ElevenLabs "Andrew" is paid: ask before every `tts_mathdoc.py` run on an elevenlabs spec, and give the
-  character count (pilot: ~910 characters). Kokoro scratch takes are free.
+  character count (Smalls: 904 characters; Coleman: 914). Kokoro scratch takes are free.
 - Never commit `voices/`. Images: public domain / CC0 only, credits in `public/pd/<id>/credits.json`.
 - Measured on the cloud VM (4 CPU, no GPU): final Reel render 174 s for 58.5 s of video (Kokoro scratch: 212 s for 62.6 s); safe-zone QC ~70 s. Pilot narration: 904 ElevenLabs characters, 6 requests, 163 wpm.
