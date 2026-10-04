@@ -9,3 +9,6 @@ video/*/out/*.mp4
 video/*/build/
 video/*/audio/*.wav
 video/*/remotion/out/
+video/*/thumbnail/*.tif
+video/*/thumbnail/preview_*
+video/*/thumbnail/*.png
