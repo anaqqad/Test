@@ -12,7 +12,7 @@ let t = INTRO;
 const chapters = ["0:00 Intro"];
 for (const it of items) {
   if (tl[it.name]) t = tl[it.name].start;
-  const extra = v.layout === "ranking" ? `${it.score}/10` : it.speakers ? (/^[~<\d][\d,.~<kM–]*$/.test(it.speakers) ? `${clean(it.speakers)} speakers` : `speakers: ${clean(it.speakers)}`) : "";
+  const extra = v.layout === "ranking" ? `${it.score}/10` : it.speakers ? (/^[~<\d][\d,.~<kM–]*$/.test(it.speakers) ? `${clean(it.speakers)} ${/^~?1$/.test(it.speakers) ? "speaker" : "speakers"}` : it.speakers === "revival" ? "revival" : `speakers: ${clean(it.speakers)}`) : "";
   chapters.push(`${ts(t)} ${it.name}${extra ? ` (${extra})` : ""}`);
   t += tl[it.name] ? tl[it.name].dur : seg(it);
 }
@@ -27,6 +27,7 @@ for (const it of items) for (const c of man[it.name].credits || []) {
   else if (/BY 2.5/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/2.5/");
 }
 const intro = {
+  extinct: "Some of these languages have only a handful of speakers left. Some are being brought back from the brink. Every voice you hear is a real recording of the language.",
   niche: "Languages you've probably never heard of, with real speakers you can hear. Every voice in this video is a real recording of the language.",
   sounds: "Clicks, whistles, tones and words with no vowels. Every sound you hear is a real recording of the language.",
   conlangs: "Languages that somebody simply invented, and the people who actually speak them. Every voice you hear is a real recording.",
@@ -34,6 +35,7 @@ const intro = {
   hardest: "How hard is each language for an English speaker? Based on the US Foreign Service Institute's estimates of class time. Every voice you hear is a real recording.",
 }[k] || "";
 const tags = {
+  extinct: "nearly extinct languages, endangered languages, extinct languages, languages be like, rare languages, dying languages, last speakers, language isolate, Wymysorys, Kusunda, Nuxalk, Cherokee language, Vepsian, Lakota language, Yugambeh, Ladino, Boruca, linguistics, Wikitongues, LingoDude",
   niche: "niche languages, rare languages, minority languages, languages be like, Romansh, Faroese, North Frisian, Siwi, Mingrelian, Tuvan, Gagauz, Jerriais, Mirandese, Greenlandic, Luxembourgish, linguistics, LingoDude",
   sounds: "weird languages, click languages, whistled language, tonal languages, languages be like, Xhosa, Taa, Silbo Gomero, Hmong, Yoruba, Piraha, Cantonese, Georgian, Czech, Danish, Welsh, Hawaiian, linguistics, LingoDude",
   conlangs: "constructed languages, conlangs, invented languages, Esperanto, Toki Pona, Klingon, Volapuk, Lojban, Ido, languages be like, linguistics, LingoDude",

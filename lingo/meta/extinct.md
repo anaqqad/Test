@@ -4,18 +4,18 @@
 Nearly Extinct Languages be like…
 
 ## Description
-
+Some of these languages have only a handful of speakers left. Some are being brought back from the brink. Every voice you hear is a real recording of the language.
 
 Which language should we cover next? Tell us in the comments 👇
 
 0:00 Intro
 0:03 Wymysorys (~20 speakers)
-0:20 Kusunda (~1 speakers)
+0:20 Kusunda (~1 speaker)
 0:38 Nuxalk (under 20 speakers)
 0:45 Cherokee (~2,000 speakers)
 1:03 Vepsian (~1,600 speakers)
 1:20 Lakota (~2,000 speakers)
-1:38 Yugambeh (speakers: revival)
+1:38 Yugambeh (revival)
 1:56 Ladino (under 100,000 speakers)
 2:13 Boruca (under 10 speakers)
 
@@ -35,7 +35,7 @@ Speaker counts are estimates; sources disagree for many small languages.
 #languages #linguistics #languagesbelike
 
 ## Tags
-
+nearly extinct languages, endangered languages, extinct languages, languages be like, rare languages, dying languages, last speakers, language isolate, Wymysorys, Kusunda, Nuxalk, Cherokee language, Vepsian, Lakota language, Yugambeh, Ladino, Boruca, linguistics, Wikitongues, LingoDude
 
 ## Settings
 - Category: Education
