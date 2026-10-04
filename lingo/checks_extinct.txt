@@ -1,9 +1,0 @@
-extinct/boruca.wav                   ru 0.32 |  Я мула-рара и бабуки кури-не, кури-не, кури-не.  Мой!  Огахни!  Ялка!  Огахни, дин-дин!
-extinct/cherokee.wav                 sw 0.23 |  Hale, yo negu, chan deska, hale,  kala nae ye,  sko, digu taksa, kala nae ye i'i cha,  sko, digu taksa, i'i.
-extinct/kusunda.wav                  ne 0.52 |  रह मिक금ता का नंोतना Garage  कुलीम भ Shellapse  कुलीम कऄल कुलील  यर ल vitamालі
-extinct/ladino.wav                   es 0.78 |  el uniforme cuando arribaran en Marsilla.  Mi padre se echó y comió con ellos durante el viaje a Marsilla.  Cuando arribaron, rogó a los soldados que le den ba
-extinct/lakota.wav                   sw 0.41 |  Junior Garcia, Emma Cia, Belov,  Chinchakizenas Paola nasi changula kota  wichasha, Emma Cia, Belov,  nahana ku wana, wichchenna nu pas,  orece tušni, wana wic
-extinct/nuxalk.wav                   en 0.65 |  I have the money baseless.  I have the money baseless.  I have the money baseless.
-extinct/vepsian.wav                  yi 0.29 |  או'ש דעופן'ון ובסונק  אינג'ו כיגה נפר'ד פגשט'איי G'yns  מידה ריגשנ'ון דעה ריגשון' מפאו  חיגה  מאלאופן'ון ארת'איגיגיגיגיגיגיגיגיגיגיגיגיגיגיגיגi  יכאי ובסונק'אי
-extinct/wymysorys.wav                is 0.16 |  Það jürsaktað jürg, ginkja við edu genáum við er hot  Zúfetaðja á ájgekuðs, Jérðið, Jérbannðettað.
-extinct/yugambeh.wav                 my 0.35 | 
