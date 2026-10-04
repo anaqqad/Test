@@ -21,7 +21,7 @@ const fileUrl = (p) => pathToFileURL(p).href;
 const nm = (p) => path.join(HERE, "node_modules", p);
 
 // ---------------- shared bits ----------------
-const FONT_CSS = [600, 700, 800].map((w) => `<link rel="stylesheet" href="${fileUrl(nm(`@fontsource/montserrat/${w}.css`))}">`).join("");
+export const FONT_CSS = [600, 700, 800].map((w) => `<link rel="stylesheet" href="${fileUrl(nm(`@fontsource/montserrat/${w}.css`))}">`).join("");
 const world = JSON.parse(fs.readFileSync(nm("world-atlas/land-110m.json")));
 const land = topo.feature(world, world.objects.land);
 
@@ -60,7 +60,7 @@ const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
 // bold numbers and quoted words so cards scan quickly
 const rich = (s) => esc(s).replace(/('[^']{2,60}'|\b\d[\d,.]*\b(?:\s?(?:million|years|consonants|vowels|letters|sounds|tones|speakers|cases|words))?)/g, "<b>$1</b>");
 
-const BASE_CSS = `
+export const BASE_CSS = `
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1920px;height:1080px;overflow:hidden;background:#000;font-family:Montserrat,"DejaVu Sans",sans-serif;-webkit-font-smoothing:antialiased}
 .abs{position:absolute}
@@ -255,7 +255,7 @@ export function segDuration(video, item, an) {
   return +Math.min(full, Math.max(an.end + 0.8, floor)).toFixed(2);
 }
 
-async function renderClip(browser, html, dur, outFile, stills) {
+export async function renderClip(browser, html, dur, outFile, stills) {
   const pageFile = path.join(CACHE, "pages", path.basename(outFile).replace(/\.\w+$/, ".html"));
   fs.writeFileSync(pageFile, html);
   const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
