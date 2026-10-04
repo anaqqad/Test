@@ -10,7 +10,7 @@ import json, os, random, re, subprocess, sys, time, html, urllib.error, urllib.p
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, "cache")
-UA = {"User-Agent": "LingoLoreVideoBot/0.1 (educational videos; https://github.com/anaqqad/Test)"}
+UA = {"User-Agent": "LingoDudeVideoBot/0.1 (educational videos; https://github.com/anaqqad/Test)"}
 SR = 48000
 
 

@@ -40,7 +40,7 @@ Uploaded copies were 640x360, 30 fps.
 - Every recording is real, free-licensed and credited (`out/*_credits.txt` → video description).
 
 ## Channel name
-**LingoDude** (owner's choice). Other names I'd considered: LingoLore, Lingo Atlas, LangLore, Lingoverse.
+**LingoDude**.
 Check that the @handle is free on YouTube before creating the channel.
 
 ## Publishing tips
