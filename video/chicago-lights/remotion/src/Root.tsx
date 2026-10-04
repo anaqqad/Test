@@ -1,19 +1,21 @@
 import React from "react";
 import { AbsoluteFill, Composition } from "remotion";
-import { ContextLabel, DocumentCard, LowerThirdCard, RouteMapCard, TimelineCard } from "./cards";
+import { ContextTag, Slug } from "./overlays";
+import { PhotoCard } from "./photo";
+import { LedgerBars, LedgerClipping, LedgerMap, LedgerQuote, LedgerTimeline } from "./ledger";
 
-// One overlay = one card from storyboard.json, rendered on its own with alpha and laid over the
-// footage track by tools/assemble.py. `frames` is the card's length.
-type Props = { card: Record<string, any>; frames: number };
-
-const Overlay: React.FC<Props> = ({ card }) => {
-  const c = card as any;
+// One overlay = one entry of build/storyboard.json, rendered alone (ProRes 4444 with alpha) and laid
+// over the footage track by tools/assemble.py.
+const Overlay: React.FC<{ card: Record<string, any>; frames: number }> = ({ card: c }) => {
   switch (c.type) {
-    case "ContextLabel": return <ContextLabel text={c.text} />;
-    case "LowerThird": return <LowerThirdCard title={c.title} subtitle={c.subtitle} source={c.source} width={c.width} />;
-    case "TimelineCard": return <TimelineCard title={c.title} points={c.points} source={c.source} />;
-    case "DocumentCard": return <DocumentCard doc={c.doc} title={c.title} subtitle={c.subtitle} source={c.source} />;
-    case "RouteMapCard": return <RouteMapCard title={c.title} subtitle={c.subtitle} stops={c.stops} legs={c.legs} source={c.source} extra={c.extra} />;
+    case "ContextTag": return <ContextTag text={c.text} />;
+    case "Slug": return <Slug title={c.title} subtitle={c.subtitle} />;
+    case "PhotoCard": return <PhotoCard {...(c as any)} />;
+    case "LedgerTimeline": return <LedgerTimeline file={c.file} head={c.head} rows={c.rows} source={c.source} />;
+    case "LedgerBars": return <LedgerBars file={c.file} head={c.head} bars={c.bars} max={c.max} source={c.source} />;
+    case "LedgerQuote": return <LedgerQuote file={c.file} head={c.head} before={c.before} key_={c.key} after={c.after} who={c.who} source={c.source} />;
+    case "LedgerClipping": return <LedgerClipping file={c.file} head={c.head} kicker={c.kicker} headline={c.headline} dateline={c.dateline} body={c.body} source={c.source} />;
+    case "LedgerMap": return <LedgerMap file={c.file} head={c.head} stops={c.stops} legs={c.legs} extra={c.extra} source={c.source} />;
     default: return <AbsoluteFill />;
   }
 };
@@ -26,7 +28,7 @@ export const Root: React.FC = () => (
     height={1080}
     fps={30}
     durationInFrames={150}
-    defaultProps={{ card: { type: "LowerThird", title: "May 12, 1943", subtitle: "Surrender on Cap Bon, Tunisia" }, frames: 150 }}
+    defaultProps={{ card: { type: "Slug", title: "January 2, 1944", subtitle: "Norfolk, Virginia" }, frames: 150 }}
     calculateMetadata={({ props }) => ({ durationInFrames: props.frames })}
   />
 );

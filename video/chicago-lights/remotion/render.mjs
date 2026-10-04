@@ -6,11 +6,14 @@ import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
 
 const root = path.resolve(import.meta.dirname, "..");
-const sb = JSON.parse(fs.readFileSync(path.join(root, "build/storyboard.json"), "utf8"));
-const outDir = path.join(root, "build/overlays");
+const sb = JSON.parse(fs.readFileSync(process.env.SB || path.join(root, "build/storyboard.json"), "utf8"));
+const outDir = process.env.OUT || path.join(root, "build/overlays");
 fs.mkdirSync(outDir, { recursive: true });
 const only = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const stills = process.argv.includes("--stills");
+// stills are served from public/stills (gitignored); copy them from assets/stills
+fs.mkdirSync(path.join(import.meta.dirname, "public/stills"), { recursive: true });
+for (const f of fs.readdirSync(path.join(root, "assets/stills"))) fs.copyFileSync(path.join(root, "assets/stills", f), path.join(import.meta.dirname, "public/stills", f));
 const browserExecutable = "/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell";
 const serveUrl = await bundle({ entryPoint: path.join(import.meta.dirname, "src/index.ts") });
 for (const card of sb.overlays) {
@@ -20,7 +23,7 @@ for (const card of sb.overlays) {
   const composition = await selectComposition({ serveUrl, id: "Overlay", inputProps, browserExecutable });
   if (stills) {
     const out = path.join(outDir, `${card.id}.png`);
-    await renderStill({ composition, serveUrl, output: out, frame: Math.min(frames - 15, 75), inputProps, browserExecutable });
+    await renderStill({ composition, serveUrl, output: out, frame: Math.max(0, frames - 22), inputProps, browserExecutable });
     console.log("still", out);
     continue;
   }

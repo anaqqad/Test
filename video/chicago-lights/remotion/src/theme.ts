@@ -1,20 +1,30 @@
-// Card design system from VIDEO_STYLE_BLUEPRINT.md section 4 (measured on the reference, scaled to 1080p).
-import "@fontsource/libre-baskerville/400.css";
-import "@fontsource/inter/400.css";
-import "@fontsource/inter/500.css";
+// House style "Darkroom & Ledger" — see HOUSE_STYLE.md at the repo root.
+// Photos live on a light table as frames of a black 35 mm strip, marked up in grease pencil.
+// Data and documents live on field-ledger graph paper, marked up in the same grease pencil.
+import "@fontsource/barlow-condensed/500.css";
+import "@fontsource/barlow-condensed/700.css";
+import "@fontsource/ibm-plex-mono/400.css";
+import "@fontsource/ibm-plex-mono/500.css";
+import "@fontsource/ibm-plex-serif/400.css";
+import "@fontsource/ibm-plex-serif/400-italic.css";
 
 export const C = {
-  panel: "rgba(20, 28, 46, 0.92)",
-  panelSolid: "#141c2e",
-  gold: "#d4a537",
-  title: "#f2efe6",
-  body: "#c9ccd3",
-  source: "#9aa0aa",
-  paper: "#f1ebdc",
-  ink: "#23201b",
+  table: "#121212", // light table, switched off
+  tableGlow: "#202020",
+  rebate: "#050505", // film border
+  edge: "#8a7a58", // edge print on film
+  paper: "#f1eee6", // ledger paper
+  gridMinor: "#d5dcd7",
+  gridMajor: "#b4c3bc",
+  ink: "#171717",
+  inkSoft: "#5f5b54",
+  grease: "#e0442e", // grease pencil: the only accent colour
+  light: "#ece9e1", // text on dark
+  lightSoft: "#9a968e",
 };
 
-export const SERIF = "'Libre Baskerville', Georgia, serif";
-export const SANS = "Inter, 'DejaVu Sans', sans-serif";
+export const HEAD = "'Barlow Condensed', 'Arial Narrow', sans-serif"; // headlines, figures: uppercase
+export const MONO = "'IBM Plex Mono', 'DejaVu Sans Mono', monospace"; // dates, sources, labels
+export const QUOTE = "'IBM Plex Serif', Georgia, serif"; // quoted words only
 
-export const FADE = 10; // frames for card fade in/out (~0.33 s at 30 fps)
+export const FADE = 9;

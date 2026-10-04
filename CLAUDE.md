@@ -27,6 +27,11 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
   frame (8 samples ~20 s/frame). EEVEE/Workbench on Linux without a GPU need `libegl1` or Blender aborts.
 - A 3090 Ti should be far faster; measure and note it here.
 
+## Documentary videos (Remotion)
+- `VIDEO_STYLE_BLUEPRINT.md`: the reference format (structure, pacing, narration). `HOUSE_STYLE.md`: our own look
+  (contact frames for photos, field-ledger cards for data). Never reuse the reference's visual design.
+- `video/chicago-lights/`: first episode (Reinhold Pabel); pipeline in its README.
+
 ## Next ideas (not started)
 - Photoreal Earth from space (NASA Blue Marble + clouds + night lights), real-terrain flyovers from
   elevation data, museum-style artefact close-ups, smoke/fire, collapsing walls.

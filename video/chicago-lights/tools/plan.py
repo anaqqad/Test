@@ -47,12 +47,9 @@ P = [
      ("a million lights", "BL", T(6, 47)), ("everywhere", "BL", T(0, 49))],
     # 3
     [("His name was", "CHI", T(12, 30)),
-     ("#", "His name was", "A single lit skyline", {"type": "DocumentCard", "title": "A million lights", "subtitle": "Pabel's own account of reaching Chicago",
-        "source": "Reinhold Pabel, Enemies Are Human (1955), ch. 9 “Operation Vapor”",
-        "doc": {"kind": "book", "head": "ENEMIES ARE HUMAN", "chapter": "OPERATION VAPOR", "page": "",
-                "paras": [{"text": "“With every mile this coach eats up, I will get one mile closer to …”"},
-                          {"text": "“These must be some of Chicago’s suburbs. A million lights pop up everywhere.”", "hl": True},
-                          {"text": "“Brightly colored lights and pompous window displays. So this is my new home.”"}]}}),
+     ("#", "His name was", "A single lit skyline", {"type": "LedgerQuote", "file": "FILE 01 — THE MEMOIR", "head": "What he saw",
+        "before": "These must be some of Chicago’s suburbs. ", "key": "A million lights pop up everywhere.", "after": "",
+        "who": "Reinhold Pabel, Enemies Are Human, 1955", "source": "Pabel, Enemies Are Human (1955), ch. 9 “Operation Vapor”"}),
      ("A single lit skyline", "CHI", T(12, 40)), ("But Pabel had been watching", "TT", T(6, 29)), ("and that night", "FH", T(6, 57))],
     # 4
     [("Pabel was born", "HAM", T(1, 12)), ("@", "Pabel was born", "Hamburg — aerial view, 1943"),
@@ -69,7 +66,7 @@ P = [
     [("By the end of November", "NAP", T(1, 27)), ("@", "By the end of November", "German prisoners — Naples, 1943"),
      ("Then came a ship", "CON", T(1, 10)), ("@", "Then came a ship", "Atlantic convoy — 1942"),
      ("On the morning of January", "NN", T(2, 12)), ("went ashore", "NN", T(1, 4)),
-     ("#", "On the morning of January", None, {"type": "LowerThird", "title": "January 2, 1944", "subtitle": "The prisoners go ashore at Norfolk, Virginia", "width": 1000})],
+     ("#", "On the morning of January", None, {"type": "Slug", "title": "January 2, 1944", "subtitle": "The prisoners go ashore at Norfolk, Virginia"})],
     # 7
     [("The guards put them", "TT", T(6, 11)), ("@", "The guards put them", "Train travel context — United States, 1943"),
      ("Pabel wrote that, crossing", "TT", T(6, 29.5)), ("the men pressed", "TT", T(8, 54)),
@@ -78,11 +75,9 @@ P = [
      ("mile after mile", "ASL", T(3, 1))],
     # 8
     [("When a porter", "TT", T(9, 48)),
-     ("#", "Pabel wrote that most", None, {"type": "DocumentCard", "title": "Coffee and sandwiches", "subtitle": "The train from Norfolk, January 1944",
-        "source": "Reinhold Pabel, Enemies Are Human (1955), ch. 8 “Prisonerland, U.S.A.”",
-        "doc": {"kind": "book", "head": "ENEMIES ARE HUMAN", "chapter": "PRISONERLAND, U.S.A.", "page": "",
-                "paras": [{"text": "“En route through Virginia and Kentucky we pressed our noses against the windowpanes to take in the sights. The first impression we had was the abundance of automobiles everywhere.”"},
-                          {"text": "“… when the … porter came through with coffee and sandwiches and politely offered them to us as though we were human beings, most of us forgot … those anti-American feelings …”", "hl": True}]}}),
+     ("#", "Pabel wrote that most", None, {"type": "LedgerQuote", "file": "FILE 03 — THE TRAIN FROM NORFOLK", "head": "Coffee and sandwiches",
+        "before": "… the porter came through with coffee and sandwiches and politely offered them to us ", "key": "as though we were human beings", "after": " …",
+        "who": "Reinhold Pabel, on the train west, January 1944", "source": "Pabel, Enemies Are Human (1955), ch. 8 “Prisonerland, U.S.A.”"}),
      ("Pabel wrote that most", "TT", T(9, 30))],
     # 9
     [("Their destination", "POW", T(14, 40)), ("@", "Their destination", "Prisoner of war camp context — 1944"),
@@ -98,21 +93,20 @@ P = [
     # 12
     [("America had its own", "ART", T(2, 29)), ("@", "America had its own", "American coast — 1941"),
      ("In nineteen forty-two the coastal", "CON", T(2, 47)),
-     ("#", "In nineteen forty-two the coastal", None, {"type": "TimelineCard", "title": "Darkness by law",
-        "points": [{"label": "September 1939", "sub": "Blackout across Germany"}, {"label": "1942", "sub": "US coastal dim-out against U-boats"},
-                   {"label": "Early 1945", "sub": "National dim-out to save fuel"}, {"label": "May 8, 1945", "sub": "V-E Day: the dim-out ends"}],
-        "source": "Deutsches Historisches Museum (LeMO) · EBSCO Research Starters, “Dim-out of 1945”"}),
      ("In early nineteen forty-five", "ART", T(5, 23))],
     # 13
     [("But a dim-out", "BL", T(0, 49)), ("Nobody in Illinois", "CITY", T(1, 36)),
      ("And on V E Day", "GGU", T(0, 51)), ("even the dim-out", "GGU", T(5, 1)),
-     ("#", "And on V E Day", None, {"type": "LowerThird", "title": "May 8, 1945", "subtitle": "V-E Day: the national dim-out ends", "width": 1000})],
+     ("#", "But a dim-out", None, {"type": "LedgerBars", "file": "FILE 04 — DARKNESS BY LAW", "head": "How long the lights stayed off", "max": 68,
+        "bars": [{"label": "Germany — total blackout", "value": 68, "figure": "68 MONTHS", "note": "1 September 1939 – 8 May 1945"},
+                 {"label": "United States — national dim-out", "value": 3.8, "figure": "< 4 MONTHS", "note": "15 January – 8 May 1945 · neon off, streetlights reduced"}],
+        "source": "DHM LeMO · EBSCO Research Starters, “Dim-out of 1945”"})],
     # 14
     [("The war in Europe", "NP", T(2, 5.5)), ("but the prisoners", "POW", T(11, 7)), ("After May", "POW", T(10, 9)),
      ("In the first week", "CAN", T(15, 17)), ("@", "In the first week", "Canning crop harvest — 1950"),
-     ("#", "In the first week", None, {"type": "TimelineCard", "title": "Prisonerland, U.S.A.",
-        "points": [{"label": "January 1944", "sub": "Ashore at Norfolk, Virginia"}, {"label": "1944", "sub": "Camp Grant, Rockford, Illinois"},
-                   {"label": "1945", "sub": "Camp Ellis, Illinois"}, {"label": "September 1945", "sub": "Branch camp, Washington, Illinois"}],
+     ("#", "In the first week", None, {"type": "LedgerTimeline", "file": "FILE 05 — PRISONERLAND, U.S.A.", "head": "Twenty months in custody",
+        "rows": [{"date": "2 JAN 1944", "text": "Ashore at Norfolk, Virginia"}, {"date": "1944", "text": "Camp Grant, Rockford, Illinois"},
+                 {"date": "1945", "text": "Camp Ellis, Illinois"}, {"date": "SEPT 1945", "text": "Branch camp, Washington, Illinois"}],
         "source": "Reinhold Pabel, Enemies Are Human (1955), ch. 8–9"}),
      ("where a cannery", "CAN", T(16, 47))],
     # 15
@@ -121,17 +115,16 @@ P = [
      ("During the change", "CITY", T(13, 0)), ("he walked away", "XM", T(25, 35))],
     # 16
     [("An Associated Press", "XM", T(46, 4)),
-     ("#", "An Associated Press", "By then Pabel", {"type": "DocumentCard", "title": "The escape makes the wire", "subtitle": "Associated Press, September 11, 1945",
-        "source": "AP report as quoted in Reinhold Pabel, Enemies Are Human (1955), ch. 9",
-        "doc": {"kind": "clip", "kicker": "ASSOCIATED PRESS · SEPTEMBER 11, 1945", "headline": "War Prisoner Flees Camp Near Peoria",
-                "dateline": "CAMP ELLIS, Ill., Sept. 11 (AP).—",
-                "body": "A German prisoner … last night from an army branch camp at Washington, Ill., 19 miles east of Peoria, Col. C. P. Evers, Camp Ellis commander, announced today."}}),
-     ("By then Pabel", "XM", T(25, 40))],
+     ("#", "An Associated Press", "By then Pabel", {"type": "LedgerClipping", "file": "FILE 06 — THE WIRE", "head": "The escape is reported",
+        "kicker": "ASSOCIATED PRESS · SEPTEMBER 11, 1945", "headline": "War Prisoner Flees Camp Near Peoria", "dateline": "CAMP ELLIS, Ill., Sept. 11 (AP).—",
+        "body": "A German prisoner … last night from an army branch camp at Washington, Ill., 19 miles east of Peoria, Col. C. P. Evers, Camp Ellis commander, announced today.",
+        "source": "AP report as quoted in Pabel, Enemies Are Human (1955), ch. 9"}),
+     ("By then Pabel", "XM", T(25, 40)),
+     ("#", "By then Pabel", None, {"type": "LedgerMap", "file": "FILE 07 — OPERATION VAPOR", "head": "One night, two rides",
+        "stops": ["Washington, Ill.", "Peoria", "Chicago"], "legs": ["19 miles by car", "bus, overnight"], "extra": ["Camp Ellis", "Camp Grant"],
+        "source": "Route as described in Pabel, Enemies Are Human (1955)"}),],
     # 17
     [("A driver gave him", "ART", T(8, 1)),
-     ("#", "A driver gave him", "At two o'clock", {"type": "RouteMapCard", "title": "Operation Vapor", "subtitle": "September 10–11, 1945",
-        "stops": ["Washington, Ill.", "Peoria", "Chicago"], "legs": ["19 miles by car", "by bus, overnight"], "extra": ["Camp Ellis", "Camp Grant"],
-        "source": "Route as described in Reinhold Pabel, Enemies Are Human (1955)"}),
      ("he waited", "FH", T(7, 9)), ("@", "he waited", "Bus terminal context — 1950s"),
      ("At two o'clock", "FH", T(7, 31)), ("It cost more", "FH", T(8, 6)),
      ("While he waited", "XM", T(2, 11)), ("He called it", "XM", T(0, 44))],
@@ -148,7 +141,7 @@ P = [
     # 21
     [("Freedom did not", "CHI", T(3, 10)), ("An escaped prisoner had no papers", "POW", T(8, 32)),
      ("Pabel took a new name", "XM", T(12, 26)),
-     ("#", "Pabel took a new name", "He washed dishes", {"type": "LowerThird", "title": "Phil Brick", "subtitle": "The name Pabel lived under in Chicago, 1945–1953", "width": 1060}),
+     ("#", "Pabel took a new name", "He washed dishes", {"type": "Slug", "title": "“Phil Brick”", "subtitle": "The name Pabel lived under in Chicago, 1945–1953"}),
      ("He washed dishes", "CITY", T(11, 38)), ("@", "He washed dishes", "Kitchen context — 1939"),
      ("one of them on North Clark", "CITY", T(15, 17)), ("and saved what he could", "CITY", T(15, 44))],
     # 22
@@ -157,7 +150,7 @@ P = [
      ("He married", "FH", T(17, 31)), ("They had a child", "TUE", T(14, 53))],
     # 23
     [("On the morning of March", "TUE", T(1, 39)),
-     ("#", "On the morning of March", None, {"type": "LowerThird", "title": "March 9, 1953", "subtitle": "Chicago Book Mart, North Side", "width": 900}),
+     ("#", "On the morning of March", None, {"type": "Slug", "title": "March 9, 1953", "subtitle": "Chicago Book Mart, North Side"}),
      ("a customer walked", "XM", T(9, 30)), ("The customer was", "XM", T(6, 35)), ("After almost eight", "XM", T(10, 58))],
     # 24
     [("The case became", "XM", T(16, 49)), ("The government wanted", "TUE", T(9, 41)),
@@ -168,11 +161,47 @@ P = [
      ("and the view from a bus", "FH", T(3, 44.5))],
     # 26 comment CTA
     [("If you know", "TUE", T(15, 49)),
-     ("#", "If you know", None, {"type": "LowerThird", "title": "If you know another prisoner account we should look into, put it in the comments.", "subtitle": "PRISONER OF WAR ACCOUNTS", "width": 1500})],
+     ("#", "If you know", None, {"type": "Slug", "title": "Know another prisoner account?", "subtitle": "Tell us in the comments"})],
     # 27 echo close
     [("A blackout can hide", "LON", T(2, 51)), ("It can also hide", "GGU", T(2, 56.5)),
      ("Reinhold Pabel came", "HAM", T(2, 50)), ("At the edge of Chicago", "CHI", T(12, 26.5)), ("and nobody bothered", "BL", T(6, 47.5))],
 ]
+
+
+# Archive photographs shown as contact frames: (paragraph, start anchor, end anchor | None, still, frame no, title, caption, source, extras)
+LOC = "Library of Congress"
+PHOTOS = [
+    (0, "Nobody on the bus", None, "bus_passenger_1943.jpg", "02", "A night bus", "Greyhound bus between Cincinnati and Chicago, September 1943", f"Esther Bubley · {LOC} · LC-USW3-037808-E", {"focus": [0.45, 0.4]}),
+    (6, "By the end of November", "Then came a ship", "axis_pows_tunis_1943.jpg", "05", "Prisoners of the Axis", "Axis prisoners marched out of Tunis, May 1943", f"Nick Parrino · {LOC} · LC-USW3-029246-E", {"focus": [0.5, 0.45]}),
+    (9, "Their destination", "barracks, wire", "camp_grant_1942.jpg", "09", "Camp Grant, Illinois", "Army camp near Rockford, June 1942 — before the prisoners came", f"{LOC} · PAN US MILITARY - Army no. 229", {"focus": [0.35, 0.35]}),
+    (15, "Peoria was nineteen", "He asked to switch", "peoria_courthouse_1938.jpg", "14", "Peoria", "Street opposite the courthouse, Peoria, Illinois, May 1938", f"Arthur Rothstein · {LOC} · LC-USF33-002794-M2", {"focus": [0.5, 0.45]}),
+    (17, "At the bus depot", "trying not to look", "bus_terminal_chicago_1943.jpg", "21", "Waiting for the bus", "Passengers at a Greyhound terminal, September 1943", f"Esther Bubley · {LOC} · LC-USW3-037675-E", {"focus": [0.4, 0.6], "circle": [0.4, 0.62, 0.13, 0.2]}),
+    (17, "trying not to look", "At two o'clock", "bus_tickets_chicago_1943.jpg", "22", "One ticket", "A driver collecting tickets, Greyhound terminal, September 1943", f"Esther Bubley · {LOC} · LC-USW3-037784-E", {"focus": [0.5, 0.55]}),
+    (17, "At two o'clock", "While he waited", "bus_lounge_4am_1943.jpg", "23", "Small hours", "Between buses at four in the morning, Greyhound terminal, Chicago, 1943", f"Esther Bubley · {LOC} · LC-USW3-037670-E", {"focus": [0.45, 0.5], "circle": [0.43, 0.42, 0.33, 0.2]}),
+    (18, "Then came the suburbs", None, "freight_terminal_night_1943.jpg", "24", "Chicago at night", "Illinois Central freight terminal and the Loop, May 1943", f"Jack Delano · {LOC} · LC-USW36-606", {"focus": [0.6, 0.4], "circle": [0.68, 0.34, 0.2, 0.2]}),
+    (19, "Nobody was hiding", None, "times_square_1942.jpg", "25", "Nothing to hide", "“No blackout” at Times Square, New York, winter 1941–42", f"Alfred T. Palmer · {LOC} · LC-USE6-D-001369", {"focus": [0.5, 0.35]}),
+    (20, "Bewildered", None, "union_station_night_1943.jpg", "27", "A city awake", "Chicago Union Station on a Sunday night, February 1943", f"Jack Delano · {LOC} · LC-USW3-015945-D", {"focus": [0.5, 0.55]}),
+    (21, "one of them on North Clark", None, "thompsons_restaurant_chicago_1941.jpg", "29", "Behind the counter", "Thompson’s Restaurant, Chicago, July 1941", f"John Vachon · {LOC} · LC-USF33-016151-M1", {"focus": [0.5, 0.5]}),
+]
+
+
+def photo_items():
+    import json as _j, subprocess as _sp
+    crops = _j.load(open(ROOT / "tools/crops.json"))
+    for k, (pi, a, b, img, no, title, cap, src, extra) in enumerate(PHOTOS):
+        W, H = map(int, _sp.check_output(["identify", "-format", "%w %h", str(ROOT / f"assets/stills/{img}")]).split())
+        x, y, w, h = crops[img]
+        card = {"type": "PhotoCard", "image": img, "aspect": round(w * W / (h * H), 3), "crop": crops[img], "frameNo": no,
+                "title": title, "caption": cap, "source": src, "side": "left" if k % 2 == 0 else "right", **extra}
+        P[pi].append(("#", a, b, card))
+
+
+def tag(t):
+    """'Bus travel context — United States, 1950s' -> 'Stand-in · bus travel, United States, 1950s'."""
+    if " context — " in t:
+        what, where = t.split(" context — ", 1)
+        return f"Stand-in · {what.lower()}, {where}"
+    return t.replace(" — ", " · ")
 
 
 def norm(w):
@@ -180,6 +209,7 @@ def norm(w):
 
 
 def main():
+    photo_items()
     paras = json.load(open(ROOT / "audio/paragraphs.json"))
     words = json.load(open(ROOT / "audio/words.json"))  # per paragraph: [{text, start, end}] (spoken form)
     total = max(p["end"] for p in paras) + 1.5
@@ -198,13 +228,15 @@ def main():
     for pi, items in enumerate(P):
         for it in items:
             if it[0] == "@":
-                overlays.append({"type": "ContextLabel", "text": it[2], "start": at(pi, it[1]) + 0.4, "dur": 4.5})
+                overlays.append({"type": "ContextTag", "text": tag(it[2]), "start": at(pi, it[1]) + 0.4, "dur": 4.5})
             elif it[0] == "#":
                 card = dict(it[3]); card["start"] = at(pi, it[1])
                 if it[2]:
                     card["end"] = at(pi, it[2]) + 0.35
-                elif card["type"] == "LowerThird":
+                elif card["type"] == "Slug":
                     card["dur"] = 5.5
+                elif card["type"] == "PhotoCard":
+                    card["dur"] = 6.5
                 else:  # full card runs to the end of its paragraph (7-12 s)
                     card["end"] = min(card["start"] + 12.0, max(card["start"] + 7.0, paras[pi]["end"] + 0.3))
                 overlays.append(card)
@@ -235,13 +267,13 @@ def main():
         o["start"], o["end"] = round(o["start"], 3), round(o["end"], 3)
     # subscribe card at ~36 % of the runtime (silent, as in the reference), on footage between cards
     sub_t = total * 0.36
-    busy = [(o["start"], o["end"]) for o in overlays if o["type"] != "ContextLabel"]
+    busy = [(o["start"], o["end"]) for o in overlays if o["type"] != "ContextTag"]
     while any(a - 1 < sub_t < b + 1 or a - 1 < sub_t + 5 < b + 1 for a, b in busy):
         sub_t += 1.0
-    overlays.append({"type": "LowerThird", "title": CHANNEL["subscribe"], "subtitle": CHANNEL["tagline"], "width": 760, "start": round(sub_t, 3), "end": round(sub_t + 4.5, 3)})
+    overlays.append({"type": "Slug", "title": CHANNEL["subscribe"], "subtitle": CHANNEL["tagline"], "start": round(sub_t, 3), "end": round(sub_t + 4.5, 3)})
     # context labels never sit under a full-frame card or lower third
-    cards = [(o["start"], o["end"]) for o in overlays if o["type"] != "ContextLabel"]
-    overlays = [o for o in overlays if o["type"] != "ContextLabel" or not any(a - 0.5 < o["start"] < b or a < o["end"] < b + 0.5 for a, b in cards)]
+    cards = [(o["start"], o["end"]) for o in overlays if o["type"] != "ContextTag"]
+    overlays = [o for o in overlays if o["type"] != "ContextTag" or not any(a - 0.5 < o["start"] < b or a < o["end"] < b + 0.5 for a, b in cards)]
     overlays.sort(key=lambda o: o["start"])
     for i, o in enumerate(overlays):
         o["id"] = f"o{i:02d}_{o['type']}"

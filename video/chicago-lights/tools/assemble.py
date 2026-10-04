@@ -65,7 +65,7 @@ fc.append("[2:a]volume=-27dB[mus]")
 fc.append(f"[nar][mus]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000[aout]")
 (ROOT / "out").mkdir(exist_ok=True)
 cmd += ["-filter_complex", ";".join(fc), "-map", "[vout]", "-map", "[aout]", "-t", f"{sb['duration']:.3f}",
-        "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
+        "-c:v", "libx264", "-preset", "fast", "-crf", "20", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
         str(ROOT / f"out/{name}.mp4")]
 subprocess.run(cmd, check=True)
 print("wrote", ROOT / f"out/{name}.mp4")

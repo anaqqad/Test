@@ -6,6 +6,11 @@ Kept Moving."* (channel name on screen: **WWII Box: Documented Wartime Histories
 
 This file describes the **formula**, not that video. Use it to make original videos on new topics.
 
+> **Visual identity:** sections 4–5 and 7 record how the *reference* looks so the formula is understood.
+> Do not reuse its colours, fonts or card designs. Our own look is defined in **`HOUSE_STYLE.md`**
+> (contact frames for photos, field-ledger cards for data). Keep the structure, pacing and narration
+> rules from this file, and take the look from the house style.
+
 ---
 
 ## 0. How the reference was measured

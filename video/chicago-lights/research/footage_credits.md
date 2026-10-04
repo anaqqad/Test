@@ -31,10 +31,29 @@ Prelinger Archives items are released into the public domain by the archive. Dow
 | tuesday_in_november_1945.mp4 | Tuesdayi1945 | *Tuesday in November* (Office of War Information, 1945) | Public domain |
 | news_of_the_day_1943.mp4 | NewsOfTheDay1943 | *News of the Day* newsreels (1943) | Public Domain Mark |
 
-Narration: CosyVoice-300M-SFT, built-in speaker "英文男" (English male), generated locally.
+Narration: draft with Kokoro-82M (bm_george); final pass planned with CosyVoice-300M-SFT (see README).
 Music: original ambient bed synthesized by `tools/make_music.py` (no samples).
 Map: US state outlines from us-atlas (Natural Earth / US Census, public domain).
 
 Footage that stands in for something it doesn't literally show (London blackout scenes, generic bus,
 diner, kitchen and shop scenes, 1950s colour films turned black and white) carries an on-screen
-context label, as the reference style does.
+context tag (house style, see HOUSE_STYLE.md).
+
+## Photographs (contact frames)
+All from the Library of Congress Prints & Photographs Division, U.S. Farm Security Administration /
+Office of War Information collections, "No known restrictions on publication". Files are in
+`assets/stills/` (committed). Scan borders are trimmed via `tools/crops.json`.
+
+| File | Photographer | Description | Call no. |
+|---|---|---|---|
+| bus_passenger_1943.jpg | Esther Bubley | Greyhound bus between Cincinnati and Chicago, Sept. 1943 | LC-USW3-037808-E |
+| axis_pows_tunis_1943.jpg | Nick Parrino | Axis prisoners marched out of Tunis, May 1943 | LC-USW3-029246-E |
+| camp_grant_1942.jpg | — | 36th Medical Training Battalion, Camp Grant, Ill., June 1942 | PAN US MILITARY - Army no. 229 |
+| peoria_courthouse_1938.jpg | Arthur Rothstein | Street opposite courthouse, Peoria, May 1938 | LC-USF33-002794-M2 |
+| bus_terminal_chicago_1943.jpg | Esther Bubley | Passengers waiting to board, Greyhound terminal, Chicago, Sept. 1943 | LC-USW3-037675-E |
+| bus_tickets_chicago_1943.jpg | Esther Bubley | Bus driver collecting tickets, Greyhound terminal, Chicago, Sept. 1943 | LC-USW3-037784-E |
+| bus_lounge_4am_1943.jpg | Esther Bubley | Waiting between buses at 4 a.m., Greyhound terminal, Chicago, Sept. 1943 | LC-USW3-037670-E |
+| freight_terminal_night_1943.jpg | Jack Delano | Night view, Illinois Central South Water St. terminal, Chicago, May 1943 | LC-USW36-606 |
+| times_square_1942.jpg | Alfred T. Palmer | "No blackout at New York's famous Times Square", 1941–42 | LC-USE6-D-001369 |
+| union_station_night_1943.jpg | Jack Delano | Union Station, Chicago, Sunday night, Feb. 1943 | LC-USW3-015945-D |
+| thompsons_restaurant_chicago_1941.jpg | John Vachon | Thompson's Restaurant, Chicago, July 1941 | LC-USF33-016151-M1 |
