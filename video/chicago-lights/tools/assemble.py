@@ -15,6 +15,8 @@ sb = json.load(open(ROOT / "build/storyboard.json"))
 FPS = sb["fps"]
 name = sys.argv[sys.argv.index("--name") + 1] if "--name" in sys.argv else "chicago-lights"
 clips = ROOT / "build/clips"; clips.mkdir(parents=True, exist_ok=True)
+# per-film corrections (washed-out prints)
+GRADE = {"pow_control_1944": "eq=gamma=0.72:contrast=1.18:brightness=-0.03,"}
 
 def run(cmd):
     r = subprocess.run(cmd, capture_output=True, text=True)
@@ -27,10 +29,10 @@ for i, s in enumerate(sb["shots"]):
     n = f1 - f0
     if n <= 0: continue
     out = clips / f"{i:03d}.mp4"
-    key = f"{s['file']}|{s['in']}|{n}|{s['keep']}"
+    key = f"{s['file']}|{s['in']}|{n}|{s['keep']}|{GRADE.get(s['file'], '')}"
     tag = out.with_suffix(".key")
     if not (out.exists() and tag.exists() and tag.read_text() == key):
-        vf = (f"crop=iw:ih*{s['keep']}:0:0,hue=s=0,scale=1920:1080:force_original_aspect_ratio=decrease:flags=lanczos,"
+        vf = (f"crop=iw:ih*{s['keep']}:0:0,hue=s=0,{GRADE.get(s['file'], '')}scale=1920:1080:force_original_aspect_ratio=decrease:flags=lanczos,"
               f"pad=1920:1080:(ow-iw)/2:(oh-ih)/2:black,eq=contrast=1.06:brightness=-0.01,noise=alls=4:allf=t,fps={FPS},format=yuv420p")
         run(["ffmpeg", "-v", "error", "-y", "-ss", f"{s['in']:.3f}", "-i", str(ROOT / f"assets/footage/{s['file']}.mp4"),
              "-vf", vf, "-frames:v", str(n), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-r", str(FPS), str(out)])

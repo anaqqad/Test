@@ -124,7 +124,7 @@ P = [
         "stops": ["Washington, Ill.", "Peoria", "Chicago"], "legs": ["19 miles by car", "bus, overnight"], "extra": ["Camp Ellis", "Camp Grant"],
         "source": "Route as described in Pabel, Enemies Are Human (1955)"}),],
     # 17
-    [("A driver gave him", "ART", T(8, 1)),
+    [("A driver gave him", "FH", T(12, 17.6)),
      ("he waited", "FH", T(7, 9)), ("@", "he waited", "Bus terminal context — 1950s"),
      ("At two o'clock", "FH", T(7, 31)), ("It cost more", "FH", T(8, 6)),
      ("While he waited", "XM", T(2, 11)), ("He called it", "XM", T(0, 44))],
@@ -178,7 +178,7 @@ PHOTOS = [
     (17, "At the bus depot", "trying not to look", "bus_terminal_chicago_1943.jpg", "21", "Waiting for the bus", "Passengers at a Greyhound terminal, September 1943", f"Esther Bubley · {LOC} · LC-USW3-037675-E", {"focus": [0.4, 0.6], "circle": [0.4, 0.62, 0.13, 0.2]}),
     (17, "trying not to look", "At two o'clock", "bus_tickets_chicago_1943.jpg", "22", "One ticket", "A driver collecting tickets, Greyhound terminal, September 1943", f"Esther Bubley · {LOC} · LC-USW3-037784-E", {"focus": [0.5, 0.55]}),
     (17, "At two o'clock", "While he waited", "bus_lounge_4am_1943.jpg", "23", "Small hours", "Between buses at four in the morning, Greyhound terminal, Chicago, 1943", f"Esther Bubley · {LOC} · LC-USW3-037670-E", {"focus": [0.45, 0.5], "circle": [0.43, 0.42, 0.33, 0.2]}),
-    (18, "Then came the suburbs", None, "freight_terminal_night_1943.jpg", "24", "Chicago at night", "Illinois Central freight terminal and the Loop, May 1943", f"Jack Delano · {LOC} · LC-USW36-606", {"focus": [0.6, 0.4], "circle": [0.68, 0.34, 0.2, 0.2]}),
+    (18, "Then came the suburbs", None, "freight_terminal_night_1943.jpg", "24", "Chicago at night", "Illinois Central freight terminal and the Loop, May 1943", f"Jack Delano · {LOC} · LC-USW36-606", {"focus": [0.6, 0.4], "circle": [0.8, 0.42, 0.17, 0.2]}),
     (19, "Nobody was hiding", None, "times_square_1942.jpg", "25", "Nothing to hide", "“No blackout” at Times Square, New York, winter 1941–42", f"Alfred T. Palmer · {LOC} · LC-USE6-D-001369", {"focus": [0.5, 0.35]}),
     (20, "Bewildered", None, "union_station_night_1943.jpg", "27", "A city awake", "Chicago Union Station on a Sunday night, February 1943", f"Jack Delano · {LOC} · LC-USW3-015945-D", {"focus": [0.5, 0.55]}),
     (21, "one of them on North Clark", None, "thompsons_restaurant_chicago_1941.jpg", "29", "Behind the counter", "Thompson’s Restaurant, Chicago, July 1941", f"John Vachon · {LOC} · LC-USF33-016151-M1", {"focus": [0.5, 0.5]}),
