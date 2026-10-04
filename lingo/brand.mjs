@@ -23,7 +23,7 @@ const pages = {
     <div class="abs" style="left:0;width:2560px;top:560px;text-align:center">${logoSvg(150)}<div style="color:#fff;font-weight:700;font-size:44px;margin-top:18px;letter-spacing:1px">Rare, endangered &amp; weird languages of the world</div></div></body>`],
 };
 const thumbs = {
-  extinct: ["NEARLY EXTINCT", "ALMOST GONE", 1, "#d1495b"],
+  extinct: ["NEARLY EXTINCT", "HEAR THEM NOW", 1, "#d1495b"],
   niche: ["INSANELY NICHE", "WHO SPEAKS THIS?", 5, "#2a9d8f"],
   hardest: ["HARDEST LANGUAGES", "RANKED", 17, "#ff9500"],
   sounds: ["WEIRDEST SOUNDS", "😳", 0, "#8e44ad"],
@@ -38,7 +38,7 @@ for (const [k, [t1, t2, i, col]] of Object.entries(thumbs)) {
     <div class="abs" style="left:-10px;top:80px;width:560px;height:806px">${character(it.char, "t")}</div>
     <div class="abs" style="left:560px;top:120px;width:690px;text-align:center">
       <div style="margin-bottom:22px">${flag(it.flag, 80)}</div>
-      <div style="font-weight:800;font-size:92px;line-height:.98;color:#fff;-webkit-text-stroke:3px #000;text-shadow:0 8px 0 #000,0 0 40px rgba(0,0,0,.6)">${t1}</div>
+      <div style="font-weight:800;font-size:92px;line-height:.98;color:#fff;text-shadow:-4px -4px 0 #000,-4px 0px 0 #000,-4px 4px 0 #000,0px -4px 0 #000,0px 4px 0 #000,4px -4px 0 #000,4px 0px 0 #000,4px 4px 0 #000,0 9px 0 #000,0 0 40px rgba(0,0,0,.6)">${t1}</div>
       <div style="display:inline-block;margin-top:26px;background:${col};color:#fff;font-weight:800;font-size:64px;padding:8px 34px;border-radius:18px;box-shadow:0 8px 0 rgba(0,0,0,.5)">${t2}</div></div>
     <div class="abs" style="right:24px;bottom:18px">${logoSvg(54)}</div></body>`];
 }
