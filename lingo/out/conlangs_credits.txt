@@ -1,7 +1,7 @@
 Audio credits (Constructed Languages be like… )
 
 Esperanto: "Stela Speaks Esperanto.webm" by Wikitongues, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AStela_Speaks_Esperanto.webm
-Toki Pona: "Tobiah - toki pona.mp3" by tobiah, CC BY-SA 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ATobiah_-_toki_pona.mp3
+Toki Pona: "WIKITONGUES- Koishi speaking Toki Pona.webm" by Wikitongues, Koishi Weaver, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Koishi_speaking_Toki_Pona.webm
 Klingon: "Tlh-Qapla'.oga" by Adamsa123, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ATlh-Qapla%27.oga
 Klingon: "Tlh-Qu'vatlh.oga" by No machine-readable author provided. Bluefoxicy assumed (based on copyright claims)., Public domain, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ATlh-Qu%27vatlh.oga
 Klingon: "NukneH 01.ogg" by No machine-readable author provided. Bluefoxicy assumed (based on copyright claims)., Public domain, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ANukneH_01.ogg
@@ -9,4 +9,5 @@ Volapük: "Vo-Volapük.ogg" by Martelkapo, CC0, via Wikimedia Commons, https://c
 Volapük: "Vo-falajelöm.ogg" by Martelkapo, CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AVo-falajel%C3%B6m.ogg
 Volapük: "Vo-gudükumön.ogg" by Martelkapo, CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AVo-gud%C3%BCkum%C3%B6n.ogg
 Volapük: "Vo-dilamamalül.ogg" by Martelkapo, CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AVo-dilamamal%C3%BCl.ogg
+Lojban: "WIKITONGUES- John speaking Lojban.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_John_speaking_Lojban.webm
 Ido: "Ido pronunciation Beaufront Jespersen La maxim bona.wav" by Louis de Beaufront, Otto Jespersen, Public domain, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AIdo_pronunciation_Beaufront_Jespersen_La_maxim_bona.wav

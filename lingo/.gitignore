@@ -9,3 +9,6 @@ out/*.mp4
 out/needed.json
 out/links.json
 incoming/
+go*.log
+render_*.log
+pipeline.log
