@@ -111,6 +111,34 @@ def make_split(name, line1, line2, left_tag, right_tag, arrow_pts):
     print("wrote", T / f"{name}.jpg")
 
 
+def from_image(src, name, line1, line2, small, arrow_pts, text_x=None):
+    """Thumbnail from a generated/supplied image (e.g. made in ChatGPT): fit to 1280x720, B&W except the
+    warm lights, caps question on the window side, red grease arrow, house tag."""
+    im = Image.open(src).convert("RGB")
+    r = max(W / im.width, H / im.height)
+    im = im.resize((round(im.width * r), round(im.height * r)), Image.LANCZOS)
+    im = im.crop(((im.width - W) // 2, (im.height - H) // 2, (im.width - W) // 2 + W, (im.height - H) // 2 + H))
+    a = np.asarray(im).astype(np.float32) / 255
+    lum = a @ np.array([0.299, 0.587, 0.114])
+    m = np.clip((lum - 0.55) / 0.3, 0, 1)[..., None]  # only bright lights keep a warm tint
+    warm = np.clip(np.repeat(lum[..., None], 3, 2) * np.array([1.25, 1.05, 0.7]), 0, 1)
+    out = np.repeat(lum[..., None], 3, 2) * (1 - m) + warm * m
+    img = Image.fromarray((np.clip(out, 0, 1) * 255).astype(np.uint8))
+    d = ImageDraw.Draw(img)
+    x = text_x if text_x is not None else 700
+    text(d, (x, 26), line1, 128)
+    text(d, (x, 146), line2, 128)
+    arrow(img, arrow_pts)
+    tag(ImageDraw.Draw(img), (52, H - 98), small)
+    img.save(T / f"{name}.jpg", quality=92)
+    print("wrote", T / f"{name}.jpg")
+
+
 if __name__ == "__main__":
-    make_split("thumbnail_A", "CAPTURED.", "THEN THIS?", "GERMAN POWs · 1944", "CHICAGO · 1945", [(760, 275), (820, 420), (1060, 360)])
-    make_split("thumbnail_B", "NO", "BLACKOUT?", "GERMAN POWs · 1944", "CHICAGO · 1945", [(760, 275), (820, 420), (1060, 360)])
+    import sys
+    if len(sys.argv) > 1:  # python3 tools/thumbnail.py <image from ChatGPT>
+        from_image(sys.argv[1], "thumbnail_C", "NO", "BLACKOUT?", "ESCAPED POW · CHICAGO 1945", [(820, 290), (760, 400), (900, 450)])
+        from_image(sys.argv[1], "thumbnail_D", "WHY ISN'T IT", "DARK?", "ESCAPED POW · CHICAGO 1945", [(820, 290), (760, 400), (900, 450)])
+    else:
+        make_split("thumbnail_A", "CAPTURED.", "THEN THIS?", "GERMAN POWs · 1944", "CHICAGO · 1945", [(760, 275), (820, 420), (1060, 360)])
+        make_split("thumbnail_B", "NO", "BLACKOUT?", "GERMAN POWs · 1944", "CHICAGO · 1945", [(760, 275), (820, 420), (1060, 360)])
