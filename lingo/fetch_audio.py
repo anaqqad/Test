@@ -58,20 +58,27 @@ UPLOADS = [os.path.expanduser("~/.claude/uploads"), os.path.join(HERE, "incoming
 
 def _norm(x):
     x = urllib.parse.unquote(x).lower()
+    x = re.sub(r"\.ogx$", "", x)
     x = re.sub(r"\.(240p|360p|480p)\.(vp9\.)?webm$", "", x)
     return re.sub(r"[^a-z0-9]", "", x)
 
 
-def find_uploaded(title):
-    """Files the owner downloaded on their own connection and sent back (chat uploads or lingo/incoming/)."""
+def find_uploaded(title, size=None):
+    """Files the owner downloaded on their own connection and sent back (chat uploads or lingo/incoming/).
+    Uploads lose non-Latin characters (Hebrew, Devanagari, ...), so when the size is known it must match too."""
     want = _norm(title[5:] if title.startswith("File:") else title)
+    hits = []
     for root in UPLOADS:
         for dp, _, fs in os.walk(root):
             for f in fs:
                 n = _norm(f)
-                if n == want or n.endswith(want) or n.endswith(_norm(f"{title[5:]}")):
-                    return os.path.join(dp, f)
-    return None
+                if want and (n == want or n.endswith(want)):
+                    hits.append(os.path.join(dp, f))
+    if size:
+        sized = [h for h in hits if os.path.getsize(h) == size]
+        if sized or len(hits) != 1:
+            return sized[0] if sized else None
+    return hits[0] if hits else None
 
 
 def download(meta):
@@ -79,11 +86,13 @@ def download(meta):
     ext = os.path.splitext(urllib.parse.urlparse(meta["url"]).path)[1]
     path = os.path.join(CACHE, "raw", re.sub(r"[^\w.-]", "_", meta["title"][5:])[:80] + ext)
     if not os.path.exists(path):
-        local = find_uploaded(meta["title"])
+        local = find_uploaded(meta["title"], meta.get("size"))
         if local:
             print("    using uploaded file", os.path.basename(local))
             import shutil
             shutil.copy(local, path)
+    if not os.path.exists(path) and os.environ.get("NO_NET"):
+        raise RuntimeError("not uploaded yet: " + meta["title"])
     if not os.path.exists(path):
         for i in range(8):
             try:
