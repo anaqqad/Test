@@ -11,15 +11,15 @@ Which language should we cover next? Tell us in the comments 👇
 0:00 Intro
 0:03 Romansh (~40,000 speakers)
 0:20 Faroese (~70,000 speakers)
-0:38 North Frisian (~10,000 speakers)
-0:56 Siwi (~30,000 speakers)
-1:13 Mingrelian (~340,000 speakers)
-1:31 Tuvan (~280,000 speakers)
-1:48 Gagauz (~150,000 speakers)
-2:06 Jèrriais (under 3,000 speakers)
-2:24 Mirandese (~15,000 speakers)
-2:41 Greenlandic (~57,000 speakers)
-2:59 Luxembourgish (~400,000 speakers)
+0:28 North Frisian (~10,000 speakers)
+0:45 Siwi (~30,000 speakers)
+0:56 Mingrelian (~340,000 speakers)
+1:13 Tuvan (~280,000 speakers)
+1:31 Gagauz (~150,000 speakers)
+1:48 Jèrriais (under 3,000 speakers)
+2:06 Mirandese (~15,000 speakers)
+2:24 Greenlandic (~57,000 speakers)
+2:41 Luxembourgish (~400,000 speakers)
 
 Audio credits (all via Wikimedia Commons):
 Romansh: "Romansh (Wikitongues)" by Wikitongues, CC BY 3.0
