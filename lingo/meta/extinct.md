@@ -1,7 +1,7 @@
 # YouTube metadata: Nearly Extinct Languages be like…
 
 ## Title
-Nearly Extinct Languages be like…
+Hear These Languages Before They Disappear
 
 ## Description
 Some of these languages have only a handful of speakers left. Some are being brought back from the brink. Every voice you hear is a real recording of the language.

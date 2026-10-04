@@ -1,7 +1,7 @@
 # YouTube metadata: Revived Languages be like…
 
 ## Title
-Revived Languages be like…
+Languages That Came Back From the Dead
 
 ## Description
 Languages that died, or nearly did, and came back. Every voice you hear is a real recording of the language.

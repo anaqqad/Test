@@ -1,7 +1,7 @@
 # YouTube metadata: Languages with the weirdest sounds be like…
 
 ## Title
-Languages with the weirdest sounds be like…
+These Languages Sound Impossible (Clicks, Whistles, No Vowels)
 
 ## Description
 Clicks, whistles, tones and words with no vowels. Every sound you hear is a real recording of the language.

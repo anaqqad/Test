@@ -1,7 +1,7 @@
 # YouTube metadata: Insanely Niche Languages be like…
 
 ## Title
-Insanely Niche Languages be like…
+Languages You Didn't Know Existed (Real Speakers)
 
 ## Description
 Languages you've probably never heard of, with real speakers you can hear. Every voice in this video is a real recording of the language.
