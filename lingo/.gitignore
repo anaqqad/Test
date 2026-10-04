@@ -3,3 +3,5 @@ cache/
 out/*.png
 out/clips/
 *.log
+checks_*.txt
+cache_fetch*.log
