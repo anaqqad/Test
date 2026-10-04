@@ -12,9 +12,9 @@ Which language should we cover next? Tell us in the comments 👇
 0:03 Esperanto (speakers: 100k–2M?)
 0:20 Toki Pona (speakers: 1,000s)
 0:38 Klingon (speakers: a few dozen)
-0:56 Volapük (speakers: a handful)
-1:13 Lojban (speakers: a few dozen)
-1:31 Ido (speakers: a few hundred)
+0:46 Volapük (speakers: a handful)
+0:58 Lojban (speakers: a few dozen)
+1:15 Ido (speakers: a few hundred)
 
 Audio credits (all via Wikimedia Commons):
 Esperanto: "Stela Speaks Esperanto" by Wikitongues, CC BY-SA 4.0
