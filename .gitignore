@@ -1,2 +1,11 @@
 blender/out/
 __pycache__/
+video/*/assets/footage/
+video/*/assets/music/
+video/*/remotion/node_modules/
+video/*/remotion/public/
+video/*/build/
+video/*/out/*.mp4
+video/*/build/
+video/*/audio/*.wav
+video/*/remotion/out/
