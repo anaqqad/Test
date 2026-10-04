@@ -198,7 +198,35 @@ def build_sequence(metas, dst, need, repeat=1, gap=0.55):
     return caps
 
 
+SCRIPT = {"ara": "\u0600-\u06FF", "heb": "\u0590-\u05FF", "hin": "\u0900-\u097F", "san": "\u0900-\u097F", "rus": "\u0400-\u04FF",
+          "kor": "\uAC00-\uD7AF", "jpn": "\u3040-\u30FF\u4E00-\u9FFF", "cmn": "\u4E00-\u9FFF", "yue": "\u4E00-\u9FFF", "kat": "\u10A0-\u10FF"}
+
+
+def ll_word(title):
+    m = re.match(r"^File:LL-Q\d+ \(\w+\)-[^-]+-(.+)\.\w+$", title)
+    return m.group(1) if m else ""
+
+
+def pick_ll(titles, seed, code, n):
+    """n clean single words (no digits, hyphens or brackets, in the language's own script), same picks every run."""
+    if n <= 0:
+        return []
+    rx = re.compile(f"^[{SCRIPT[code]}]{{1,10}}$") if code in SCRIPT else re.compile(r"^[^\W\d_][^\W\d_' ]{2,11}$")
+    pool = sorted(t for t in titles if rx.match(ll_word(t)))
+    rnd = random.Random(seed)
+    return [pool.pop(rnd.randrange(len(pool))) for _ in range(min(n, len(pool)))]
+
+
 def ll_titles(code):
+    cache = os.path.join(CACHE, f"ll_{code}.json")
+    if os.path.exists(cache):
+        return json.load(open(cache))
+    titles = _ll_titles(code)
+    json.dump(titles, open(cache, "w"), ensure_ascii=False)
+    return titles
+
+
+def _ll_titles(code):
     titles, cont = [], {}
     while True:
         d = api(action="query", list="categorymembers", cmtitle=f"Category:Lingua Libre pronunciation-{code}", cmlimit=500, cmtype="file", **cont)
@@ -249,11 +277,7 @@ def process(vkey, video):
                             hit = [t for t in titles if t.rsplit("-", 1)[-1].rsplit(".", 1)[0].lower() == w.lower()]
                             if hit:
                                 chosen.append(hit[0])
-                    rnd = random.Random(item["name"])
-                    pool = [t for t in titles if len(t.rsplit("-", 1)[-1]) < 18 and not re.search(r"\d", t.rsplit("-", 1)[-1])]
-                    while len(chosen) < a.get("n", 6) and pool:
-                        chosen.append(pool.pop(rnd.randrange(len(pool))))
-                    titles = chosen
+                    titles = chosen + pick_ll(titles, item["name"], a["ll"], a.get("n", 6) - len(chosen))
                 else:
                     titles = a["seq"]
                 metas = [m for m in (info(t) for t in titles) if m]
