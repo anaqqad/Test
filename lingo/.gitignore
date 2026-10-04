@@ -6,3 +6,6 @@ out/clips/
 checks_*.txt
 cache_fetch*.log
 out/*.mp4
+out/needed.json
+out/links.json
+incoming/
