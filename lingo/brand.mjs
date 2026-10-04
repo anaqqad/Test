@@ -23,7 +23,7 @@ const pages = {
     <div class="abs" style="left:0;width:2560px;top:560px;text-align:center">${logoSvg(150)}<div style="color:#fff;font-weight:700;font-size:44px;margin-top:18px;letter-spacing:1px">Rare, endangered &amp; weird languages of the world</div></div></body>`],
 };
 const thumbs = {
-  extinct: ["NEARLY EXTINCT", "1 SPEAKER LEFT", 1, "#d1495b"],
+  extinct: ["NEARLY EXTINCT", "ALMOST GONE", 1, "#d1495b"],
   niche: ["INSANELY NICHE", "WHO SPEAKS THIS?", 5, "#2a9d8f"],
   hardest: ["HARDEST LANGUAGES", "RANKED", 17, "#ff9500"],
   sounds: ["WEIRDEST SOUNDS", "😳", 0, "#8e44ad"],
