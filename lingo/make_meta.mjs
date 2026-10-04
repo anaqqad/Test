@@ -10,14 +10,14 @@ const items = v.items.filter((it) => man[it.name]);
 let t = INTRO;
 const chapters = ["0:00 Intro"];
 for (const it of items) {
-  const extra = v.layout === "ranking" ? `${it.score}/10` : it.speakers ? `${clean(it.speakers)} speakers` : "";
+  const extra = v.layout === "ranking" ? `${it.score}/10` : it.speakers ? (/^[~<\d][\d,.~<kM–]*$/.test(it.speakers) ? `${clean(it.speakers)} speakers` : `speakers: ${clean(it.speakers)}`) : "";
   chapters.push(`${ts(t)} ${it.name}${extra ? ` (${extra})` : ""}`);
   t += seg(it);
 }
 const credits = [];
 const lic = new Set();
 for (const it of items) for (const c of man[it.name].credits || []) {
-  credits.push(`${it.name}: "${c.title.slice(5).replace(/\.\w+$/, "")}" by ${c.artist}, ${c.license}`);
+  credits.push(`${it.name}: "${c.title.slice(5).replace(/\.\w+$/, "")}" by ${c.artist.replace(/^No machine-readable author provided\. (\S+) assumed.*$/, "$1")}, ${c.license}`);
   if (/BY-SA 4/.test(c.license)) lic.add("https://creativecommons.org/licenses/by-sa/4.0/");
   else if (/BY-SA 3/.test(c.license)) lic.add("https://creativecommons.org/licenses/by-sa/3.0/");
   else if (/BY 4/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/4.0/");
