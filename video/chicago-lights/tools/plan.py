@@ -98,7 +98,7 @@ P = [
     # 12
     [("America had its own", "ART", T(2, 29)), ("@", "America had its own", "American coast — 1941"),
      ("In nineteen forty-two the coastal", "CON", T(2, 47)),
-     ("#", "In nineteen forty-two the coastal", "But a dim-out", {"type": "TimelineCard", "title": "Darkness by law",
+     ("#", "In nineteen forty-two the coastal", None, {"type": "TimelineCard", "title": "Darkness by law",
         "points": [{"label": "September 1939", "sub": "Blackout across Germany"}, {"label": "1942", "sub": "US coastal dim-out against U-boats"},
                    {"label": "Early 1945", "sub": "National dim-out to save fuel"}, {"label": "May 8, 1945", "sub": "V-E Day: the dim-out ends"}],
         "source": "Deutsches Historisches Museum (LeMO) · EBSCO Research Starters, “Dim-out of 1945”"}),
@@ -129,7 +129,7 @@ P = [
      ("By then Pabel", "XM", T(25, 40))],
     # 17
     [("A driver gave him", "ART", T(8, 1)),
-     ("#", "A driver gave him", "he waited", {"type": "RouteMapCard", "title": "Operation Vapor", "subtitle": "September 10–11, 1945",
+     ("#", "A driver gave him", "At two o'clock", {"type": "RouteMapCard", "title": "Operation Vapor", "subtitle": "September 10–11, 1945",
         "stops": ["Washington, Ill.", "Peoria", "Chicago"], "legs": ["19 miles by car", "by bus, overnight"], "extra": ["Camp Ellis", "Camp Grant"],
         "source": "Route as described in Reinhold Pabel, Enemies Are Human (1955)"}),
      ("he waited", "FH", T(7, 9)), ("@", "he waited", "Bus terminal context — 1950s"),
@@ -165,7 +165,7 @@ P = [
      ("Old friends spoke", "XM", T(37, 17)), ("Pabel left for Germany", "CON", T(6, 12)), ("and then returned", "CHI", T(6, 45))],
     # 25
     [("In his memoir", "WO", T(11, 24)), ("What changed his mind", "TT", T(9, 48.5)),
-     ("a library", "ASL", T(7, 44)), ("and the view from a bus", "FH", T(3, 44.5))],
+     ("and the view from a bus", "FH", T(3, 44.5))],
     # 26 comment CTA
     [("If you know", "TUE", T(15, 49)),
      ("#", "If you know", None, {"type": "LowerThird", "title": "If you know another prisoner account we should look into, put it in the comments.", "subtitle": "PRISONER OF WAR ACCOUNTS", "width": 1500})],
@@ -202,11 +202,11 @@ def main():
             elif it[0] == "#":
                 card = dict(it[3]); card["start"] = at(pi, it[1])
                 if it[2]:
-                    card["end"] = at(pi if card["type"] != "TimelineCard" or it[2] not in ("But a dim-out",) else pi + 1, it[2]) + 0.35
+                    card["end"] = at(pi, it[2]) + 0.35
                 elif card["type"] == "LowerThird":
                     card["dur"] = 5.5
-                else:  # full card runs to the end of its paragraph (at least 7 s)
-                    card["end"] = max(card["start"] + 7.0, paras[pi]["end"] + 0.3)
+                else:  # full card runs to the end of its paragraph (7-12 s)
+                    card["end"] = min(card["start"] + 12.0, max(card["start"] + 7.0, paras[pi]["end"] + 0.3))
                 overlays.append(card)
             else:
                 t = 0.0 if (pi == 0 and it is items[0]) else at(pi, it[0])
