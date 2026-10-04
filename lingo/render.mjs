@@ -42,6 +42,8 @@ function globe([lat, lon], size = 250) {
 }
 
 const FLAGS = {
+  eo: `<svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#009933"/><rect width="1" height="1" fill="#fff"/><path transform="translate(.5 .5) scale(.4)" d="M0 -1 L.29 -.4 L.95 -.31 L.48 .15 L.59 .81 L0 .5 L-.59 .81 L-.48 .15 L-.95 -.31 L-.29 -.4Z" fill="#009933"/></svg>`,
+  kernow: `<svg viewBox="0 0 5 3"><rect width="5" height="3" fill="#111"/><rect x="2.1" width=".8" height="3" fill="#fff"/><rect y="1.1" width="5" height=".8" fill="#fff"/></svg>`,
   liv: `<svg viewBox="0 0 5 3"><rect width="5" height="3" fill="#2f7d3a"/><rect y="1.2" width="5" height=".6" fill="#fff"/><rect y="1.8" width="5" height="1.2" fill="#2f5fa8"/></svg>`,
   nfris: `<svg viewBox="0 0 5 3"><rect width="5" height="1" fill="#f2c200"/><rect y="1" width="5" height="1" fill="#c8102e"/><rect y="2" width="5" height="1" fill="#1f4fa0"/></svg>`,
   gag: `<svg viewBox="0 0 5 3"><rect width="5" height="1.8" fill="#1f5fbf"/><rect y="1.8" width="5" height=".6" fill="#fff"/><rect y="2.4" width="5" height=".6" fill="#d52b1e"/>${[1.4, 2.5, 3.6].map((x) => `<path transform="translate(${x} ${x === 2.5 ? 0.7 : 0.95}) scale(.28)" d="M0 -1 L.29 -.4 L.95 -.31 L.48 .15 L.59 .81 L0 .5 L-.59 .81 L-.48 .15 L-.95 -.31 L-.29 -.4Z" fill="#f2c200"/>`).join("")}</svg>`,
@@ -72,7 +74,7 @@ function storyPage(video, item, idx, dur, audio) {
   const accent = video.accent || "#d1495b";
   const times = item.cards.map((_, i) => 1.1 + i * 5.0);
   const caps = audio?.captions || [];
-  const listen = audio ? (caps.length ? "" : `<div id="listen" class="abs pill"><span class="eq"><i></i><i></i><i></i><i></i></span>Listen</div>`) : `<div id="listen" class="abs pill muted">🔇 No free recording available</div>`;
+  const listen = caps.length ? "" : `<div id="listen" class="abs pill"><span class="eq"><i></i><i></i><i></i><i></i></span>Listen</div>`;
   return `<!doctype html><html><head><meta charset="utf-8">${FONT_CSS}<style>${BASE_CSS}
   :root{--accent:${accent}}
   #bg{left:-40px;top:-40px;width:2000px;height:1160px;transform-origin:60% 40%}
@@ -297,7 +299,8 @@ async function main() {
     jobs.push({ name: "intro", dur: INTRO, html: titlePage(video, INTRO) });
   }
   for (const i of sel) {
-    const item = video.items[i], dur = segDuration(video, item), audio = manifest[String(i)];
+    const item = video.items[i], dur = segDuration(video, item), audio = manifest[item.name];
+    if (!audio && !stills) { console.log(`  skipping ${item.name}: no recording`); continue; }
     const html = video.layout === "ranking" ? rankingPage(video, video.items, i, dur, audio) : storyPage(video, item, i, dur, audio);
     jobs.push({ name: String(i).padStart(2, "0"), dur, html, i });
   }
@@ -333,29 +336,22 @@ async function main() {
   const silent = path.join(dir, "video.mp4");
   execFileSync("ffmpeg", ["-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", list, "-c", "copy", silent]);
 
-  // ---- audio: language clips at their offsets over a music bed
+  // ---- audio: language clips at their segment offsets
   let t = 0;
   const inputs = [], filters = [], mixes = [];
   const offsets = [];
   for (const j of jobs) { offsets.push(t); t += j.dur; }
   const total = t;
-  const music = path.join(CACHE, "music.wav");
-  if (!fs.existsSync(music)) execFileSync("python3", [path.join(HERE, "music.py"), music, "400"]);
-  inputs.push("-i", music);
-  // music louder when there's no language audio
-  const vol = [];
+  // only real recordings found on Wikimedia Commons; no generated music. Silence under intro/outro.
+  inputs.push("-f", "lavfi", "-t", total.toFixed(3), "-i", "anullsrc=r=48000:cl=stereo");
+  mixes.push("[0]");
+  let nIn = 1;
   jobs.forEach((j, k) => {
-    const has = j.i !== undefined && manifest[String(j.i)];
-    vol.push(`between(t,${offsets[k].toFixed(3)},${(offsets[k] + j.dur).toFixed(3)})*${has ? 0.16 : 0.55}`);
-  });
-  filters.push(`[0]atrim=0:${total.toFixed(3)},volume='${vol.join("+")}':eval=frame,afade=t=out:st=${(total - 2).toFixed(3)}:d=2[m]`);
-  mixes.push("[m]");
-  jobs.forEach((j, k) => {
-    if (j.i === undefined || !manifest[String(j.i)]) return;
-    const wav = path.join(CACHE, "audio", vkey, `${j.i}.wav`);
+    if (j.i === undefined || !manifest[video.items[j.i].name]) return;
+    const wav = path.join(CACHE, "audio", vkey, video.items[j.i].name.replace(/[^\p{L}\p{N}_]+/gu, "_").replace(/^_+|_+$/g, "").toLowerCase() + ".wav");
     if (!fs.existsSync(wav)) return;
     inputs.push("-i", wav);
-    const n = inputs.length / 2 - 1, ms = Math.round((offsets[k] + 0.25) * 1000);
+    const n = nIn++, ms = Math.round((offsets[k] + 0.25) * 1000);
     filters.push(`[${n}]atrim=0:${(j.dur - 0.4).toFixed(3)},afade=t=out:st=${(j.dur - 1.0).toFixed(3)}:d=0.6,adelay=${ms}|${ms}[a${n}]`);
     mixes.push(`[a${n}]`);
   });

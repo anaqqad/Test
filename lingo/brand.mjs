@@ -23,10 +23,12 @@ const pages = {
     <div class="abs" style="left:0;width:2560px;top:560px;text-align:center">${logoSvg(150)}<div style="color:#fff;font-weight:700;font-size:44px;margin-top:18px;letter-spacing:1px">Rare, endangered &amp; weird languages of the world</div></div></body>`],
 };
 const thumbs = {
-  extinct2: ["NEARLY EXTINCT", "PART 2", 7, "#d1495b"],
+  extinct2: ["NEARLY EXTINCT", "PART 2", 4, "#d1495b"],
   niche2: ["INSANELY NICHE", "PART 2", 5, "#2a9d8f"],
   hardest: ["HARDEST LANGUAGES", "RANKED", 17, "#ff9500"],
-  sounds: ["WEIRDEST SOUNDS", "😳", 3, "#8e44ad"],
+  sounds: ["WEIRDEST SOUNDS", "😳", 0, "#8e44ad"],
+  conlangs: ["MADE-UP LANGUAGES", "REAL SPEAKERS", 2, "#6c5ce7"],
+  revived: ["BACK FROM THE DEAD", "REVIVED", 0, "#2a9d8f"],
 };
 for (const [k, [t1, t2, i, col]] of Object.entries(thumbs)) {
   const it = VIDEOS[k].items[i];

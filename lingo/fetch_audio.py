@@ -72,7 +72,7 @@ def download(meta):
                 time.sleep(10 * (i + 1))
         else:
             raise RuntimeError("download failed: " + meta["url"])
-        time.sleep(3)
+        time.sleep(8)
     return path
 
 
@@ -90,6 +90,10 @@ def duration(path):
 
 
 _model = None
+
+
+def slug(name):
+    return re.sub(r"[^\w]+", "_", name).strip("_").lower()
 
 
 def pick_start(path, need):
@@ -174,12 +178,12 @@ def process(vkey, video):
     manifest_path = os.path.join(outdir, "manifest.json")
     manifest = json.load(open(manifest_path)) if os.path.exists(manifest_path) else {}
     for i, item in enumerate(video["items"]):
-        a, need, key = item.get("audio"), seg_duration(video, item), str(i)
+        a, need, key = item.get("audio"), seg_duration(video, item), item["name"]
         if not a:
             manifest[key] = None
             continue
         sig = json.dumps(a, sort_keys=True, ensure_ascii=False) + f"|{need}"
-        dst = os.path.join(outdir, f"{i}.wav")
+        dst = os.path.join(outdir, slug(item["name"]) + ".wav")
         if manifest.get(key, {}) and manifest[key].get("sig") == sig and os.path.exists(dst):
             continue
         print(f"[{vkey}] {item['name']}")
@@ -223,7 +227,7 @@ def process(vkey, video):
     os.makedirs(os.path.join(HERE, "out"), exist_ok=True)
     lines = [f"Audio credits ({video['title']} {video.get('part', '')})", ""]
     for i, item in enumerate(video["items"]):
-        e = manifest.get(str(i))
+        e = manifest.get(item["name"])
         for c in (e or {}).get("credits", []):
             lines.append(f"{item['name']}: \"{c['title'][5:]}\" by {c['artist']}, {c['license']}, via Wikimedia Commons, {c['page']}")
     open(os.path.join(HERE, "out", f"{vkey}_credits.txt"), "w").write("\n".join(lines) + "\n")

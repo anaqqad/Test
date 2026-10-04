@@ -36,26 +36,6 @@ export const VIDEOS = {
         audio: { file: "Gyani Maiya Sen Kusunda - how Mihaq (Kusunda) language should be brought to the next generation.webm", start: "auto", search: "Gyani Maiya Sen Kusunda" },
       },
       {
-        name: "Dalmatian", flag: "hr", speakers: "0", scene: "adriatic", loc: [45.1, 14.6, "Krk island, Croatia"],
-        char: { skin: "light", hair: "bald", hairColor: "white", beard: true, beardColor: "white", outfit: { type: "coat", color: "#4a3b32", inner: "#e8e0d0" }, hat: { type: "beret", color: "#2f2f2f" }, expression: "sad" },
-        cards: [
-          "Dalmatian was a Romance language, a cousin of Italian, spoken along the coast of Croatia. Its last dialect survived on the island of Krk.",
-          "Its last speaker, Tuone Udaina, was interviewed by a linguist even though he was nearly deaf, had no teeth and hadn't spoken it in 20 years.",
-          "He died in 1898 in an explosion during road works, and the language died with him.",
-        ],
-        audio: null,
-      },
-      {
-        name: "Eyak", flag: "us", speakers: "0", scene: "alaska", loc: [60.5, -145.5, "Copper River, Alaska"],
-        char: F({ skin: "olive", hair: "bob", hairColor: "grey", outfit: { type: "parka", color: "#5b3a29", fur: "#efe3cf", trim: "#2a9d8f" }, glasses: true, expression: "smile" }),
-        cards: [
-          "Eyak was spoken around the Copper River delta in southern Alaska. It is a distant relative of the Athabaskan languages and Navajo.",
-          "Its last native speaker, Marie Smith Jones, died in 2008. She spent years working with linguist Michael Krauss to record it.",
-          "Amazingly, a teenager in France, Guillaume Leduey, taught himself Eyak from those records and now helps teach it to others.",
-        ],
-        audio: null,
-      },
-      {
         name: "Nuxalk", flag: "ca", speakers: "<20", scene: "bella", loc: [52.37, -126.75, "Bella Coola, Canada"],
         char: { skin: "brown", hair: "long", hairColor: "black", hat: { type: "headband", color: "#b5302a", color2: "#1d1d1d" }, outfit: { type: "wrap", color: "#1d1d1d", color2: "#b5302a", trim: "#f4f1e8" }, expression: "neutral" },
         cards: [
@@ -66,14 +46,44 @@ export const VIDEOS = {
         audio: { seq: ["Xłp̓x̣ʷłtłpłłskʷc̓.ogg"], repeat: 3 },
       },
       {
-        name: "Livonian", flag: "liv", speakers: "0 native", scene: "baltic", loc: [57.6, 22.0, "Livonian Coast, Latvia"],
-        char: F({ skin: "pale", hair: "long", hairColor: "blonde", hat: { type: "bonnet", color: "#f4f1e8", color2: "#2a6fa5" }, outfit: { type: "dress", color: "#2e6b4f", color2: "#f4f1e8", trim: "#f4f1e8" }, expression: "sad" }),
+        name: "Cherokee", flag: "us", speakers: "~2,000", scene: "forest", loc: [35.9, -94.97, "Oklahoma & North Carolina"],
+        char: { skin: "tan", hair: "short", hairColor: "grey", outfit: { type: "shirt", color: "#8c2b2b", vest: "#2b2b2b" }, hat: { type: "widehat", color: "#2b2b2b", color2: "#c0392b" }, expression: "smile" },
         cards: [
-          "Livonian is a Finnic language, related to Estonian and Finnish, from a strip of fishing villages on the coast of Latvia.",
-          "Its last native speaker, Grizelda Kristiņa, died in 2013 in Canada at the age of 103.",
-          "A small group of people have since learned it, and Latvia protects the Livonian Coast as a cultural area.",
+          "Cherokee is an Iroquoian language of the Cherokee people, spoken today mainly in Oklahoma and North Carolina.",
+          "In the 1820s a Cherokee man named Sequoyah, who couldn't read any language, invented a complete writing system for it on his own.",
+          "Only around 2,000 fluent speakers remain, most of them elderly, and the Cherokee Nation has declared a language emergency.",
         ],
-        audio: null,
+        audio: { file: "Wikitongues Jerry speaking Cherokee.mp3", start: "auto" },
+      },
+      {
+        name: "Kensiu", flag: "my", speakers: "<500", scene: "amazon", loc: [5.9, 100.9, "Kedah, Malaysia"],
+        char: F({ skin: "dark", hair: "curly", hairColor: "black", outfit: { type: "wrap", color: "#2a9d8f", color2: "#e9c46a", trim: "#c0392b" }, expression: "smile" }),
+        cards: [
+          "Kensiu is an Aslian language spoken by a small Orang Asli community in the rainforests of northern Malaysia and southern Thailand.",
+          "It belongs to the Austroasiatic family, which makes it a distant relative of Vietnamese and Khmer, not of Malay.",
+          "Only a few hundred people speak it, and young people increasingly switch to Malay for school and work.",
+        ],
+        audio: { file: "Iskandar cakap Kensiu.webm", start: "auto" },
+      },
+      {
+        name: "Lakota", flag: "us", speakers: "~2,000", scene: "oklahoma", loc: [43.5, -101.5, "South & North Dakota"],
+        char: { skin: "brown", hair: "braids", hairColor: "black", hat: { type: "headband", color: "#1f4e8c", color2: "#f4f1e8" }, outfit: { type: "shirt", color: "#f4f1e8", vest: "#7a4a2a" }, expression: "neutral" },
+        cards: [
+          "Lakota is a Siouan language of the Great Plains. It was the language of famous leaders like Sitting Bull and Crazy Horse.",
+          "The English word 'tipi' comes from Lakota, where 'thípi' means a house or dwelling.",
+          "Only around 2,000 fluent speakers are left, but immersion schools on the reservations are raising a new generation of speakers.",
+        ],
+        audio: { file: "WIKITONGUES- Junior speaking Lakota.webm", start: "auto" },
+      },
+      {
+        name: "Yugambeh", flag: "au", speakers: "revival", scene: "hawaii", loc: [-28.0, 153.2, "Gold Coast, Australia"],
+        char: { skin: "deep", hair: "curly", hairColor: "black", beard: true, outfit: { type: "tunic", color: "#c8553d", trim: "#f2c94c" }, facepaint: "lines", paintColor: "#f4f1e8", expression: "smile" },
+        cards: [
+          "Yugambeh is an Aboriginal language from the area around today's Gold Coast and Logan in Queensland, Australia.",
+          "After colonisation it was nearly wiped out, and for decades almost no one spoke it fluently.",
+          "Today the Yugambeh community is bringing it back with classes, songs and dictionaries, and many local place names still come from it.",
+        ],
+        audio: { file: "Wikitongues - Shaun speaking Yugambeh Aboriginal Australians and Torres Strait Islanders .webm", start: "auto" },
       },
       {
         name: "Ladino", flag: null, speakers: "<100,000", scene: "istanbul", loc: [41.0, 28.97, "Turkey, Israel, Balkans"],
@@ -86,16 +96,6 @@ export const VIDEOS = {
         audio: { file: "Isaac 20210219 Lad.webm", start: "auto" },
       },
       {
-        name: "Yaghan", flag: "cl", speakers: "0 native", scene: "fuego", loc: [-55.0, -67.6, "Navarino Island, Chile"],
-        char: F({ skin: "brown", hair: "short", hairColor: "white", outfit: { type: "wrap", color: "#5b4636", color2: "#8a6a4f", trim: "#d9c7a7" }, expression: "smile" }),
-        cards: [
-          "Yaghan was spoken at the very bottom of the world, in Tierra del Fuego. The Yaghan people paddled canoes around Cape Horn.",
-          "It is known for 'mamihlapinatapai', once listed by Guinness as the most succinct word: a look shared by two people who each hope the other will do something.",
-          "Its last native speaker, Cristina Calderón, died in 2022 aged 93. She left behind a dictionary written with her granddaughter.",
-        ],
-        audio: null,
-      },
-      {
         name: "Boruca", flag: "cr", speakers: "<10", scene: "amazon", loc: [9.0, -83.3, "Southern Costa Rica"],
         char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#f4f1e8", vest: "#7a2e2e" }, hat: { type: "widehat", color: "#d9b26f", color2: "#7a2e2e" }, expression: "smile" },
         cards: [
@@ -104,16 +104,6 @@ export const VIDEOS = {
           "Community members are now working to teach the language, and its songs, to younger generations.",
         ],
         audio: { file: "Anonymous speaking Boruca.webm", start: "auto" },
-      },
-      {
-        name: "Aka-Bo", flag: "in", speakers: "0", scene: "andaman", loc: [12.6, 92.8, "Andaman Islands, India"],
-        char: F({ skin: "deep", hair: "curly", hairColor: "grey", outfit: { type: "wrap", color: "#c8553d", color2: "#e9c46a", trim: "#2a9d8f" }, necklace: "#f4f1e8", expression: "sad" }),
-        cards: [
-          "Aka-Bo was one of the Great Andamanese languages, spoken on the Andaman Islands in the Bay of Bengal.",
-          "Its last speaker, Boa Sr, died in 2010. For decades she had no one left to talk to in her own language.",
-          "She told linguist Anvita Abbi that she often spoke to the birds instead, because they were the only ones who seemed to understand.",
-        ],
-        audio: null,
       },
     ],
   },
@@ -226,16 +216,6 @@ export const VIDEOS = {
         audio: { file: "WIKITONGUES- Mark speaking Greenlandic.webm", start: "auto" },
       },
       {
-        name: "Toki Pona", flag: null, speakers: "1,000s", scene: "abstract", loc: null,
-        char: F({ skin: "light", hair: "bob", hairColor: "#6c5ce7", outfit: { type: "tunic", color: "#00b894", trim: "#fdcb6e" }, glasses: true, expression: "grin" }),
-        cards: [
-          "Toki Pona is a constructed language invented by Sonja Lang in 2001. Its name means 'good language' or 'simple language'.",
-          "It has only around 120 core words. Everything else is built from them: a 'friend' is 'jan pona', literally 'good person'.",
-          "Its tiny vocabulary makes it one of the fastest languages to learn, and its fans have written whole books in it.",
-        ],
-        audio: { file: "Tobiah - toki pona.mp3", start: "auto" },
-      },
-      {
         name: "Luxembourgish", flag: "lu", speakers: "~400,000", scene: "forest", loc: [49.6, 6.13, "Luxembourg"],
         char: { skin: "pale", hair: "short", hairColor: "brown", outfit: { type: "shirt", color: "#1f3a5f", tie: "#c0392b", vest: "#2b2b2b" }, glasses: true, expression: "smug" },
         cards: [
@@ -255,24 +235,24 @@ export const VIDEOS = {
     layout: "ranking",
     scoreLabel: "difficulty",
     items: [
-      { name: "Norwegian", flag: "no", score: 2, weeks: 24, char: { skin: "pale", hair: "short", hairColor: "blonde", beard: true, beardColor: "blonde", outfit: { type: "tunic", color: "#1f3a6b", pattern: "diamonds", color2: "#f4f1e8", trim: "#f4f1e8" }, hat: { type: "beanie", color: "#c0392b", color2: "#f4f1e8" }, expression: "grin" }, cards: ["Very close to English in grammar and word order. Verbs don't even change for 'I', 'you' or 'she'. The trickiest part is its sing-song pitch accent."], audio: { ll: "nor", n: 6 } },
-      { name: "Spanish", flag: "es", score: 2.5, weeks: 24, char: F({ skin: "olive", hair: "bun", hairColor: "black", hat: { type: "flower", color: "#c0392b", color2: "#f2c94c" }, outfit: { type: "dress", color: "#c0392b", color2: "#1d1d1d", trim: "#1d1d1d" }, earrings: "#e9c46a", expression: "smile" }), cards: ["Spelled almost exactly how it sounds, with thousands of words shared with English. Verb endings and the subjunctive take practice, but most learners get going quickly."], audio: { ll: "spa", n: 6 } },
-      { name: "Dutch", flag: "nl", score: 3, weeks: 24, char: { skin: "pale", hair: "short", hairColor: "blonde", outfit: { type: "shirt", color: "#e67e22", vest: "#1f3a6b" }, glasses: true, expression: "smile" }, cards: ["Sits between English and German. Lots of words look familiar, but the throaty 'g' and word order in longer sentences trip people up."], audio: { ll: "nld", n: 6 } },
-      { name: "Italian", flag: "it", score: 3, weeks: 24, char: { skin: "light", hair: "short", hairColor: "black", mustache: true, outfit: { type: "shirt", color: "#f4f1e8", vest: "#2c3e50", tie: "#27ae60" }, expression: "grin" }, cards: ["Phonetic spelling, lots of Latin vocabulary English already uses, and very clear vowels. Verb conjugations are the main hurdle."], audio: { ll: "ita", n: 6 } },
-      { name: "French", flag: "fr", score: 3.5, weeks: 30, char: F({ skin: "pale", hair: "bob", hairColor: "brown", hat: { type: "beret", color: "#1d1d1d" }, outfit: { type: "tunic", color: "#f4f1e8", pattern: "stripes", color2: "#1f3a6b", trim: "#1f3a6b" }, expression: "smug" }), cards: ["A third of English vocabulary comes from French, but the spelling is full of silent letters and the pronunciation is famously hard to get right."], audio: { ll: "fra", n: 6 } },
+      { name: "Norwegian", flag: "no", score: 2, weeks: 24, char: { skin: "pale", hair: "short", hairColor: "blonde", beard: true, beardColor: "blonde", outfit: { type: "tunic", color: "#1f3a6b", pattern: "diamonds", color2: "#f4f1e8", trim: "#f4f1e8" }, hat: { type: "beanie", color: "#c0392b", color2: "#f4f1e8" }, expression: "grin" }, cards: ["Very close to English in grammar and word order. Verbs don't even change for 'I', 'you' or 'she'. The trickiest part is its sing-song pitch accent."], audio: { ll: "nor", n: 5 } },
+      { name: "Spanish", flag: "es", score: 2.5, weeks: 24, char: F({ skin: "olive", hair: "bun", hairColor: "black", hat: { type: "flower", color: "#c0392b", color2: "#f2c94c" }, outfit: { type: "dress", color: "#c0392b", color2: "#1d1d1d", trim: "#1d1d1d" }, earrings: "#e9c46a", expression: "smile" }), cards: ["Spelled almost exactly how it sounds, with thousands of words shared with English. Verb endings and the subjunctive take practice, but most learners get going quickly."], audio: { ll: "spa", n: 5 } },
+      { name: "Dutch", flag: "nl", score: 3, weeks: 24, char: { skin: "pale", hair: "short", hairColor: "blonde", outfit: { type: "shirt", color: "#e67e22", vest: "#1f3a6b" }, glasses: true, expression: "smile" }, cards: ["Sits between English and German. Lots of words look familiar, but the throaty 'g' and word order in longer sentences trip people up."], audio: { ll: "nld", n: 5 } },
+      { name: "Italian", flag: "it", score: 3, weeks: 24, char: { skin: "light", hair: "short", hairColor: "black", mustache: true, outfit: { type: "shirt", color: "#f4f1e8", vest: "#2c3e50", tie: "#27ae60" }, expression: "grin" }, cards: ["Phonetic spelling, lots of Latin vocabulary English already uses, and very clear vowels. Verb conjugations are the main hurdle."], audio: { ll: "ita", n: 5 } },
+      { name: "French", flag: "fr", score: 3.5, weeks: 30, char: F({ skin: "pale", hair: "bob", hairColor: "brown", hat: { type: "beret", color: "#1d1d1d" }, outfit: { type: "tunic", color: "#f4f1e8", pattern: "stripes", color2: "#1f3a6b", trim: "#1f3a6b" }, expression: "smug" }), cards: ["A third of English vocabulary comes from French, but the spelling is full of silent letters and the pronunciation is famously hard to get right."], audio: { ll: "fra", n: 5 } },
       { name: "Swahili", flag: "tz", score: 4.5, weeks: 36, char: F({ skin: "dark", hair: "bun", hairColor: "black", hat: { type: "headscarf", color: "#f2a541", color2: "#2a9d8f" }, outfit: { type: "wrap", color: "#2a9d8f", color2: "#f2a541", trim: "#c0392b" }, earrings: "#e9c46a", expression: "grin" }), cards: ["Easy pronunciation and no tones, but nouns fall into many 'noun classes', and the prefixes on every word must agree with them."], audio: { file: "WIKITONGUES- Iddy speaking Swahili.webm", start: "auto" } },
-      { name: "Indonesian", flag: "id", score: 4.5, weeks: 36, char: { skin: "tan", hair: "short", hairColor: "black", hat: { type: "fez", color: "#1d1d1d", color2: "#1d1d1d" }, outfit: { type: "shirt", color: "#8e5a2b", vest: "#5a3a1f" }, expression: "smile" }, cards: ["No verb tenses, no gender and no plurals (you just say the word twice). The hard part is the vocabulary and its many prefixes and suffixes."], audio: { ll: "ind", n: 6 } },
-      { name: "German", flag: "de", score: 5, weeks: 36, char: { skin: "pale", hair: "short", hairColor: "blonde", mustache: true, hat: { type: "widehat", color: "#2f4a2f", color2: "#7a5a3a" }, outfit: { type: "shirt", color: "#f4f1e8", vest: "#3a5a2f" }, expression: "neutral" }, cards: ["English's close cousin, but with three genders, four cases, and verbs that jump to the end of the sentence. Spelling, at least, is very regular."], audio: { ll: "deu", n: 6 } },
-      { name: "Russian", flag: "ru", score: 6.5, weeks: 44, char: F({ skin: "pale", hair: "braids", hairColor: "blonde", hat: { type: "kokoshnik", color: "#c0392b", color2: "#f2c94c" }, outfit: { type: "dress", color: "#c0392b", color2: "#f2c94c", trim: "#f2c94c" }, expression: "neutral" }), cards: ["A new alphabet (easier than it looks), six grammatical cases, and verbs that come in pairs depending on whether an action is finished."], audio: { ll: "rus", n: 6 } },
-      { name: "Hindi", flag: "in", score: 6.5, weeks: 44, char: F({ skin: "brown", hair: "long", hairColor: "black", outfit: { type: "wrap", color: "#d35400", color2: "#f1c40f", trim: "#8e44ad" }, earrings: "#e9c46a", necklace: "#e9c46a", expression: "smile" }), cards: ["Written in the Devanagari script, with sounds English doesn't separate, like four different kinds of 't'. Grammar is fairly regular once you're used to it."], audio: { ll: "hin", n: 6 } },
-      { name: "Polish", flag: "pl", score: 7, weeks: 44, char: { skin: "pale", hair: "short", hairColor: "brown", mustache: true, outfit: { type: "coat", color: "#7a1f1f", inner: "#f4f1e8" }, hat: { type: "flatcap", color: "#3a3a3a" }, expression: "smug" }, cards: ["Seven cases, three genders and consonant clusters like 'szcz' in words like 'Szczebrzeszyn'. Thankfully, the spelling is consistent."], audio: { ll: "pol", n: 6 } },
-      { name: "Finnish", flag: "fi", score: 7, weeks: 44, char: F({ skin: "pale", hair: "long", hairColor: "blonde", hat: { type: "beanie", color: "#1f4e8c", color2: "#f4f1e8" }, outfit: { type: "parka", color: "#1f4e8c", fur: "#f4f1e8", trim: "#f4f1e8" }, expression: "neutral" }), cards: ["Not related to English at all. It has around 15 cases and very long words, but it's spelled exactly as it's pronounced."], audio: { ll: "fin", n: 6 } },
-      { name: "Hungarian", flag: "hu", score: 7.5, weeks: 44, char: { skin: "light", hair: "short", hairColor: "black", mustache: true, outfit: { type: "shirt", color: "#f4f1e8", vest: "#1d1d1d" }, hat: { type: "widehat", color: "#1d1d1d", color2: "#c0392b" }, expression: "neutral" }, cards: ["Another language with no link to English: around 18 cases, vowel harmony and verbs that change depending on whether the object is definite."], audio: { ll: "hun", n: 6 } },
-      { name: "Vietnamese", flag: "vn", score: 7.5, weeks: 44, char: F({ skin: "light", hair: "long", hairColor: "black", hat: { type: "conical", color: "#e9d8a6" }, outfit: { type: "robe", color: "#f4f1e8", trim: "#e9c46a" }, expression: "smile" }), cards: ["Uses the Latin alphabet and has simple grammar, but six tones mean 'ma' can be 'ghost', 'mother', 'horse' or 'rice seedling'."], audio: { ll: "vie", n: 6 } },
-      { name: "Korean", flag: "kr", score: 8.5, weeks: 88, char: F({ skin: "pale", hair: "bun", hairColor: "black", outfit: { type: "robe", color: "#e84393", trim: "#fdcb6e" }, expression: "smile" }), cards: ["Hangul can be learned in a day, but grammar is very different from English and speech levels change depending on who you're talking to."], audio: { ll: "kor", n: 6 } },
-      { name: "Arabic", flag: "sa", score: 9, weeks: 88, char: { skin: "olive", hair: "short", hairColor: "black", beard: true, hat: { type: "headscarf", color: "#f4f1e8", color2: "#c0392b" }, outfit: { type: "robe", color: "#f4f1e8", trim: "#d9cbb0" }, expression: "neutral" }, cards: ["Right-to-left script, sounds made deep in the throat, and a big gap between Modern Standard Arabic and the dialects people actually speak at home."], audio: { ll: "ara", n: 6 } },
-      { name: "Mandarin", flag: "cn", score: 9.5, weeks: 88, char: F({ skin: "light", hair: "bun", hairColor: "black", outfit: { type: "robe", color: "#c0392b", trim: "#f2c94c" }, earrings: "#e9c46a", expression: "neutral" }), cards: ["Grammar is surprisingly simple, but you need thousands of characters to read a newspaper, and four tones to be understood."], audio: { ll: "cmn", n: 6 } },
-      { name: "Japanese", flag: "jp", score: 10, weeks: 88, char: { skin: "light", hair: "spiky", hairColor: "black", outfit: { type: "robe", color: "#1f2a44", trim: "#c0392b" }, hat: { type: "headband", color: "#f4f1e8", color2: "#c0392b" }, expression: "angry" }, cards: ["Three writing systems at once (hiragana, katakana and kanji), verbs at the end, and different politeness levels. The FSI marks it as usually harder than others in its group."], audio: { ll: "jpn", n: 6 } },
+      { name: "Indonesian", flag: "id", score: 4.5, weeks: 36, char: { skin: "tan", hair: "short", hairColor: "black", hat: { type: "fez", color: "#1d1d1d", color2: "#1d1d1d" }, outfit: { type: "shirt", color: "#8e5a2b", vest: "#5a3a1f" }, expression: "smile" }, cards: ["No verb tenses, no gender and no plurals (you just say the word twice). The hard part is the vocabulary and its many prefixes and suffixes."], audio: { ll: "ind", n: 5 } },
+      { name: "German", flag: "de", score: 5, weeks: 36, char: { skin: "pale", hair: "short", hairColor: "blonde", mustache: true, hat: { type: "widehat", color: "#2f4a2f", color2: "#7a5a3a" }, outfit: { type: "shirt", color: "#f4f1e8", vest: "#3a5a2f" }, expression: "neutral" }, cards: ["English's close cousin, but with three genders, four cases, and verbs that jump to the end of the sentence. Spelling, at least, is very regular."], audio: { ll: "deu", n: 5 } },
+      { name: "Russian", flag: "ru", score: 6.5, weeks: 44, char: F({ skin: "pale", hair: "braids", hairColor: "blonde", hat: { type: "kokoshnik", color: "#c0392b", color2: "#f2c94c" }, outfit: { type: "dress", color: "#c0392b", color2: "#f2c94c", trim: "#f2c94c" }, expression: "neutral" }), cards: ["A new alphabet (easier than it looks), six grammatical cases, and verbs that come in pairs depending on whether an action is finished."], audio: { ll: "rus", n: 5 } },
+      { name: "Hindi", flag: "in", score: 6.5, weeks: 44, char: F({ skin: "brown", hair: "long", hairColor: "black", outfit: { type: "wrap", color: "#d35400", color2: "#f1c40f", trim: "#8e44ad" }, earrings: "#e9c46a", necklace: "#e9c46a", expression: "smile" }), cards: ["Written in the Devanagari script, with sounds English doesn't separate, like four different kinds of 't'. Grammar is fairly regular once you're used to it."], audio: { ll: "hin", n: 5 } },
+      { name: "Polish", flag: "pl", score: 7, weeks: 44, char: { skin: "pale", hair: "short", hairColor: "brown", mustache: true, outfit: { type: "coat", color: "#7a1f1f", inner: "#f4f1e8" }, hat: { type: "flatcap", color: "#3a3a3a" }, expression: "smug" }, cards: ["Seven cases, three genders and consonant clusters like 'szcz' in words like 'Szczebrzeszyn'. Thankfully, the spelling is consistent."], audio: { ll: "pol", n: 5 } },
+      { name: "Finnish", flag: "fi", score: 7, weeks: 44, char: F({ skin: "pale", hair: "long", hairColor: "blonde", hat: { type: "beanie", color: "#1f4e8c", color2: "#f4f1e8" }, outfit: { type: "parka", color: "#1f4e8c", fur: "#f4f1e8", trim: "#f4f1e8" }, expression: "neutral" }), cards: ["Not related to English at all. It has around 15 cases and very long words, but it's spelled exactly as it's pronounced."], audio: { ll: "fin", n: 5 } },
+      { name: "Hungarian", flag: "hu", score: 7.5, weeks: 44, char: { skin: "light", hair: "short", hairColor: "black", mustache: true, outfit: { type: "shirt", color: "#f4f1e8", vest: "#1d1d1d" }, hat: { type: "widehat", color: "#1d1d1d", color2: "#c0392b" }, expression: "neutral" }, cards: ["Another language with no link to English: around 18 cases, vowel harmony and verbs that change depending on whether the object is definite."], audio: { ll: "hun", n: 5 } },
+      { name: "Vietnamese", flag: "vn", score: 7.5, weeks: 44, char: F({ skin: "light", hair: "long", hairColor: "black", hat: { type: "conical", color: "#e9d8a6" }, outfit: { type: "robe", color: "#f4f1e8", trim: "#e9c46a" }, expression: "smile" }), cards: ["Uses the Latin alphabet and has simple grammar, but six tones mean 'ma' can be 'ghost', 'mother', 'horse' or 'rice seedling'."], audio: { ll: "vie", n: 5 } },
+      { name: "Korean", flag: "kr", score: 8.5, weeks: 88, char: F({ skin: "pale", hair: "bun", hairColor: "black", outfit: { type: "robe", color: "#e84393", trim: "#fdcb6e" }, expression: "smile" }), cards: ["Hangul can be learned in a day, but grammar is very different from English and speech levels change depending on who you're talking to."], audio: { ll: "kor", n: 5 } },
+      { name: "Arabic", flag: "sa", score: 9, weeks: 88, char: { skin: "olive", hair: "short", hairColor: "black", beard: true, hat: { type: "headscarf", color: "#f4f1e8", color2: "#c0392b" }, outfit: { type: "robe", color: "#f4f1e8", trim: "#d9cbb0" }, expression: "neutral" }, cards: ["Right-to-left script, sounds made deep in the throat, and a big gap between Modern Standard Arabic and the dialects people actually speak at home."], audio: { ll: "ara", n: 5 } },
+      { name: "Mandarin", flag: "cn", score: 9.5, weeks: 88, char: F({ skin: "light", hair: "bun", hairColor: "black", outfit: { type: "robe", color: "#c0392b", trim: "#f2c94c" }, earrings: "#e9c46a", expression: "neutral" }), cards: ["Grammar is surprisingly simple, but you need thousands of characters to read a newspaper, and four tones to be understood."], audio: { ll: "cmn", n: 5 } },
+      { name: "Japanese", flag: "jp", score: 10, weeks: 88, char: { skin: "light", hair: "spiky", hairColor: "black", outfit: { type: "robe", color: "#1f2a44", trim: "#c0392b" }, hat: { type: "headband", color: "#f4f1e8", color2: "#c0392b" }, expression: "angry" }, cards: ["Three writing systems at once (hiragana, katakana and kanji), verbs at the end, and different politeness levels. The FSI marks it as usually harder than others in its group."], audio: { ll: "jpn", n: 5 } },
     ],
   },
 
@@ -314,24 +294,24 @@ export const VIDEOS = {
         audio: { file: "Silbo.ogg", start: 0 },
       },
       {
-        name: "Ubykh", flag: "tr", speakers: "0", scene: "caucasus", loc: [43.6, 39.7, "Caucasus → Turkey"],
-        char: { skin: "light", hair: "bald", hairColor: "white", mustache: true, beardColor: "white", outfit: { type: "coat", color: "#3a3a3a", inner: "#f4f1e8" }, glasses: true, expression: "sad" },
+        name: "Hmong", flag: "la", speakers: "millions", scene: "himalaya", loc: [20.0, 103.0, "Laos, Vietnam, China"],
+        char: F({ skin: "light", hair: "long", hairColor: "black", hat: { type: "headband", color: "#1d1d1d", color2: "#e84393" }, outfit: { type: "dress", color: "#1d1d1d", color2: "#e84393", trim: "#e84393", pattern: "zigzag" }, necklace: "#d9d9d9", expression: "smile" }),
         cards: [
-          "Ubykh was spoken on the Black Sea coast of the Caucasus until the Ubykh people were forced into the Ottoman Empire in 1864.",
-          "It had around 80 consonants but only two or three vowels, one of the most extreme sound systems ever recorded.",
-          "Its last speaker, Tevfik Esenç, died in Turkey in 1992. He asked that his gravestone say he was the last person who could speak it.",
+          "Hmong is spoken in the mountains of southern China, Laos, Vietnam and Thailand, and by large communities in the USA.",
+          "It has around seven or eight tones. In its Latin alphabet, the last letter of a word shows the tone, so 'Hmoob' ends in 'b' for a high tone.",
+          "Its tones are so important that the qeej, a bamboo pipe instrument, can 'speak' Hmong phrases by playing their tone melodies.",
         ],
-        audio: null,
+        audio: { file: "May speaking Hmong Don.webm", start: "auto" },
       },
       {
-        name: "Rotokas", flag: "pg", speakers: "~4,000", scene: "bougainville", loc: [-6.1, 155.2, "Bougainville, Papua New Guinea"],
-        char: { skin: "dark", hair: "curly", hairColor: "black", outfit: { type: "bare", color: "#2a9d8f" }, necklace: "#f4f1e8", expression: "grin" },
+        name: "Yoruba", flag: "ng", speakers: "~45M", scene: "savanna", loc: [7.4, 3.9, "Nigeria & Benin"],
+        char: { skin: "dark", hair: "short", hairColor: "black", hat: { type: "fez", color: "#2a6fa5", color2: "#2a6fa5" }, outfit: { type: "robe", color: "#2a6fa5", trim: "#f2c94c" }, expression: "grin" },
         cards: [
-          "Rotokas, from the island of Bougainville in Papua New Guinea, goes the other way: it has one of the smallest sound systems in the world.",
-          "Its central dialect uses only 11 sounds: 6 consonants and 5 vowels. English has more than 40.",
-          "Its alphabet has just 12 letters: A, E, G, I, K, O, P, R, S, T, U and V.",
+          "Yoruba is spoken by tens of millions of people in Nigeria and Benin. It has three tones: high, mid and low.",
+          "Tone changes meaning completely: 'ọkọ' can mean husband, hoe or vehicle depending on the pitch of each syllable.",
+          "Because words have melodies, the 'talking drum' (dùndún) can imitate speech, and listeners can understand the messages.",
         ],
-        audio: null,
+        audio: { file: "Dorcas speaking Yoruba.webm", start: "auto" },
       },
       {
         name: "Pirahã", flag: "br", speakers: "~400", scene: "amazon", loc: [-7.3, -62.0, "Maici River, Brazil"],
@@ -402,6 +382,148 @@ export const VIDEOS = {
           "After being banned in schools in 1896 it nearly vanished, but immersion schools since the 1980s have brought it back.",
         ],
         audio: { ll: "haw", n: 7 },
+      },
+    ],
+  },
+
+  // ------------------------------------------------------------------ 5
+  conlangs: {
+    title: "Constructed Languages be like…",
+    part: "",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#6c5ce7",
+    items: [
+      {
+        name: "Esperanto", flag: "eo", speakers: "100k–2M?", scene: "village", loc: null,
+        char: { skin: "pale", hair: "short", hairColor: "grey", beard: true, beardColor: "grey", glasses: true, outfit: { type: "coat", color: "#2b2b2b", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Esperanto was published in 1887 by L. L. Zamenhof, an eye doctor in Warsaw who dreamed of one easy second language for the whole world.",
+          "Its grammar has almost no exceptions: every noun ends in -o and every adjective in -a. 'Esperanto' itself means 'one who hopes'.",
+          "Estimates of speakers range from 100,000 to 2 million, and around a thousand people grew up speaking it, including billionaire George Soros.",
+        ],
+        audio: { file: "Stela Speaks Esperanto.webm", start: "auto" },
+      },
+      {
+        name: "Toki Pona", flag: null, speakers: "1,000s", scene: "abstract", loc: null,
+        char: F({ skin: "light", hair: "bob", hairColor: "#6c5ce7", outfit: { type: "tunic", color: "#00b894", trim: "#fdcb6e" }, glasses: true, expression: "grin" }),
+        cards: [
+          "Toki Pona was invented by Sonja Lang in 2001. Its name means 'good language' or 'simple language'.",
+          "It has only around 120 core words. Everything else is built from them: a 'friend' is 'jan pona', literally 'good person'.",
+          "Its tiny vocabulary makes it one of the fastest languages to learn, and fans have written whole books in it.",
+        ],
+        audio: { file: "Tobiah - toki pona.mp3", start: "auto" },
+      },
+      {
+        name: "Klingon", flag: null, speakers: "a few dozen", scene: "abstract", loc: null,
+        char: { skin: "olive", hair: "long", hairColor: "black", beard: true, outfit: { type: "coat", color: "#3a2a22", inner: "#7a1f1f" }, expression: "angry" },
+        cards: [
+          "Klingon was created by linguist Marc Okrand for the Star Trek films, and it has a full grammar and dictionary.",
+          "It puts the object first and the subject last, a word order that almost no natural language uses. 'Qapla'' means 'success!'.",
+          "Fans have translated Shakespeare's Hamlet into Klingon, but only a few dozen people are thought to speak it fluently.",
+        ],
+        audio: { seq: ["Tlh-Qapla'.oga", "Tlh-Qu'vatlh.oga", "NukneH 01.ogg"], repeat: 2 },
+      },
+      {
+        name: "Volapük", flag: null, speakers: "a handful", scene: "forest", loc: null,
+        char: { skin: "pale", hair: "bald", hairColor: "white", beard: true, beardColor: "white", outfit: { type: "robe", color: "#1d1d1d", trim: "#1d1d1d" }, glasses: true, expression: "smug" },
+        cards: [
+          "Volapük was created around 1880 by Johann Martin Schleyer, a German Catholic priest who said the idea came to him in a dream.",
+          "Its name means 'world speech', from English 'world' and 'speak', squeezed until they're barely recognisable.",
+          "It briefly had hundreds of thousands of learners, then collapsed when Schleyer refused any changes. In Dutch, 'Volapük' now means gibberish.",
+        ],
+        audio: { seq: ["Vo-Volapük.ogg", "Vo-binön.ogg", "Vo-falajelöm.ogg", "Vo-gudükumön.ogg", "Vo-dilamamalül.ogg"], repeat: 2 },
+      },
+      {
+        name: "Lojban", flag: null, speakers: "a few dozen", scene: "abstract", loc: null,
+        char: { skin: "light", hair: "spiky", hairColor: "brown", glasses: true, outfit: { type: "shirt", color: "#2d3436", tie: "#00b894" }, expression: "smug" },
+        cards: [
+          "Lojban, launched in 1987, is built on formal logic, and its grammar is designed so that a sentence can only be parsed one way.",
+          "Its root words were blended from six big languages: Mandarin, English, Hindi, Spanish, Russian and Arabic.",
+          "It's used for experiments in logic and computing, and only a few dozen people speak it conversationally.",
+        ],
+        audio: { file: "WIKITONGUES- John speaking Lojban.webm", start: "auto" },
+      },
+      {
+        name: "Ido", flag: null, speakers: "a few hundred", scene: "grassland", loc: null,
+        char: { skin: "pale", hair: "short", hairColor: "brown", mustache: true, outfit: { type: "shirt", color: "#f4f1e8", vest: "#1d1d1d", tie: "#1d1d1d" }, hat: { type: "tophat", color: "#1d1d1d", color2: "#1d1d1d" }, expression: "neutral" },
+        cards: [
+          "Ido is a reformed Esperanto from 1907. Its name means 'offspring' in Esperanto.",
+          "It dropped Esperanto's accented letters like ĉ and ĝ, and tried to look more familiar to speakers of European languages.",
+          "The split caused a bitter feud between the two movements. Ido is still spoken today, by a few hundred enthusiasts.",
+        ],
+        audio: { file: "Ido pronunciation Beaufront Jespersen La maxim bona.wav", start: 0 },
+      },
+    ],
+  },
+
+  // ------------------------------------------------------------------ 6
+  revived: {
+    title: "Revived Languages be like…",
+    part: "Back from the dead",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#2a9d8f",
+    items: [
+      {
+        name: "Hebrew", flag: "il", speakers: "~9M", scene: "arabia", loc: [31.8, 35.2, "Israel"],
+        char: { skin: "light", hair: "short", hairColor: "brown", beard: true, outfit: { type: "shirt", color: "#f4f1e8", vest: "#1f3a6b" }, glasses: true, expression: "smile" },
+        cards: [
+          "For around 1,700 years, Hebrew was used for prayer and writing, but nobody spoke it as their everyday mother tongue.",
+          "In the late 1800s Eliezer Ben-Yehuda insisted on speaking only Hebrew at home, and his son became the first native speaker in modern times.",
+          "Today around 9 million people speak it, the only known case of a language revived all the way to a national language.",
+        ],
+        audio: { ll: "heb", n: 7 },
+      },
+      {
+        name: "Cornish", flag: "kernow", speakers: "~600", scene: "jersey", loc: [50.3, -5.0, "Cornwall, England"],
+        char: F({ skin: "pale", hair: "long", hairColor: "auburn", outfit: { type: "dress", color: "#1d1d1d", color2: "#f4f1e8", trim: "#f2c94c" }, expression: "smile" }),
+        cards: [
+          "Cornish, a Celtic cousin of Welsh and Breton, stopped being spoken as a community language around 1800.",
+          "In 1904 Henry Jenner published a handbook to bring it back, and enthusiasts slowly started speaking it again.",
+          "In 2010 UNESCO changed its status from 'extinct' to 'critically endangered', and today there are even children raised in Cornish.",
+        ],
+        audio: { file: "WIKITONGUES- Elizabeth speaking Cornish.webm", start: "auto" },
+      },
+      {
+        name: "Manx", flag: "im", speakers: "~2,000", scene: "faroe", loc: [54.2, -4.5, "Isle of Man"],
+        char: { skin: "pale", hair: "short", hairColor: "red", beard: true, beardColor: "red", outfit: { type: "tunic", color: "#2e6b4f", trim: "#f2c94c" }, hat: { type: "flatcap", color: "#3a3a3a" }, expression: "grin" },
+        cards: [
+          "Manx is the Gaelic language of the Isle of Man. Its last native speaker, Ned Maddrell, died in 1974.",
+          "Luckily he and other elders had been recorded, and learners used those tapes to rebuild the language.",
+          "Today there is a Manx-medium primary school, and a new generation of children speaks Manx again.",
+        ],
+        audio: { file: "WIKITONGUES- Owen speaking Manx.webm", start: "auto" },
+      },
+      {
+        name: "Māori", flag: "nz", speakers: "~185,000", scene: "bougainville", loc: [-38.5, 176.0, "Aotearoa New Zealand"],
+        char: { skin: "tan", hair: "bun", hairColor: "black", tattoo: true, outfit: { type: "wrap", color: "#7a4a2a", color2: "#c8955a", trim: "#1d1d1d" }, necklace: "#2a9d8f", expression: "smile" },
+        cards: [
+          "By the 1970s Māori was in serious trouble: children had been punished for speaking it at school, and few young people could.",
+          "In 1982 the first 'kōhanga reo' (language nests) opened, preschools where elders spoke only Māori with the children.",
+          "Māori became an official language in 1987, and today it's heard everywhere, from the news to the national anthem.",
+        ],
+        audio: { file: "Māori waiata from Waiheke Island.ogg", start: "auto" },
+      },
+      {
+        name: "Latin", flag: "va", speakers: "0 native", scene: "tuscany", loc: [41.9, 12.45, "Vatican City"],
+        char: { skin: "light", hair: "short", hairColor: "grey", outfit: { type: "wrap", color: "#f4f1e8", color2: "#8c2b2b", trim: "#e9c46a" }, hat: { type: "crown", color: "#2e6b4f", color2: "#7a9a3a" }, expression: "smug" },
+        cards: [
+          "Latin has had no native speakers for over a thousand years, but it never fully went away.",
+          "It's still an official language of the Vatican, which even had cash machines with instructions in Latin.",
+          "A 'living Latin' movement now holds courses and summer camps where people speak it fluently, like the speaker you're hearing.",
+        ],
+        audio: { file: "WIKITONGUES- Titus speaking Latin.webm", start: "auto" },
+      },
+      {
+        name: "Sanskrit", flag: "in", speakers: "~25,000", scene: "himalaya", loc: [13.9, 75.6, "Mattur, India"],
+        char: { skin: "brown", hair: "bald", hairColor: "black", outfit: { type: "wrap", color: "#f4f1e8", color2: "#e67e22", trim: "#c0392b" }, facepaint: "brow", paintColor: "#c0392b", expression: "smile" },
+        cards: [
+          "Sanskrit is over 3,000 years old, the classical language of Hinduism, Buddhism and Jainism and a cousin of Latin and Greek.",
+          "For centuries it was mostly used for scripture and scholarship, not for chatting at home.",
+          "In India's 2011 census about 25,000 people listed it as their mother tongue, and in villages like Mattur it's used in everyday life.",
+        ],
+        audio: { ll: "san", n: 7 },
       },
     ],
   },

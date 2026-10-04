@@ -384,5 +384,8 @@ export const PRESETS = {
   wales: { sky: "overcast", clouds: 7, layers: [["mountains", { y: 680, h: 260, color: "#6a7a6a", far: 0.3, n: 6 }], ["hills", { y: 830, h: 120, color: "#5a9a4a" }], ["stonewall", { y: 930 }], ["grass", { y: 950, color: "#4f8f3a" }]] },
   hawaii: { sky: "tropical", water: "#1a9ec0", sunX: 1550, layers: [["mountains", { y: 680, h: 320, color: "#3a7a4a", far: 0.25, n: 6 }], ["sea", { y: 740 }], ["beach", { y: 950 }], ["trees", { kind: "palm", n: 4, y: 960, color: "#2a8a3a", s: 1.5 }]] },
   arabia: { sky: "desert", sunX: 1550, layers: [["dunes", { y: 740, color: "#e3b26e" }], ["houses", { y: 880, n: 4, cols: ["#e9d4a8", "#dcc394"], roof: "#c9a874", s: 1 }], ["trees", { kind: "palm", n: 4, y: 920, color: "#3a7a3a", s: 1.1 }]] },
+  zagros: { sky: "day", layers: [["mountains", { y: 640, h: 420, color: "#9a7d62", far: 0.3, n: 8 }], ["hills", { y: 820, h: 140, color: "#b39a6a" }], ["ground", { y: 900, color: "#a8925f" }], ["tipis", { y: 960, n: 2 }], ["grass", { y: 920, color: "#9a8a4a", n: 90 }]] },
+  caspian: { sky: "overcast", water: "#4a7a8a", clouds: 7, layers: [["mountains", { y: 640, h: 300, color: "#4f7a5a", far: 0.3, n: 7 }], ["trees", { kind: "round", n: 26, y: 720, s: 0.8, color: "#3a6b3f", far: 0.15, spread: 30 }], ["sea", { y: 760 }], ["beach", { y: 960, color: "#d9cba6" }]] },
+  tuscany: { sky: "morning", layers: [["hills", { y: 700, h: 160, color: "#a7b77a", far: 0.35 }], ["hills", { y: 820, h: 120, color: "#8fae5a" }], ["trees", { kind: "cypress", n: 12, y: 860, color: "#2f5a35", s: 1.1, spread: 60 }], ["temple", { x: 1500, y: 860 }], ["grass", { y: 950, color: "#7a9a4a" }]] },
   // ranking backdrop is a CSS gradient, not a scene
 };

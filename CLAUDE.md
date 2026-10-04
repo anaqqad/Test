@@ -36,3 +36,24 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - Never print, log or commit API keys; secrets come from environment variables.
 - Ask before any paid API usage.
 - Don't touch unrelated projects or folders on this machine.
+
+# LingoDude (YouTube channel about languages): `lingo/`
+Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Extinct Languages be like" style
+(reference channel: youtube.com/@thatsquiteinteresting). Details: `lingo/README.md`, analysis: `lingo/ANALYSIS.md`.
+
+## Owner rules for these videos
+- Build **6 videos** around the same idea (keys in `lingo/videos.mjs`: extinct2, niche2, hardest, sounds, conlangs, revived).
+- Topics must match the reference channel's style: meme-category titles ("X Languages be like…", rankings) + interesting
+  facts. **Not** videos about one country or region (owner rejected "Italy's languages" and "Middle East").
+- **Only use sounds that were actually found**: real recordings from Wikimedia Commons. No synthesized speech or
+  generated music. A language with no recording found gets replaced or dropped, never faked.
+- Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).
+
+## Continue from here
+1. `cd lingo && npm i && pip install faster-whisper`
+2. `python3 fetch_audio.py` (resumable; cached clips are skipped. Commons answers HTTP 429 when downloading fast;
+   the script waits as long as Retry-After asks)
+3. `node render.mjs <video>` for each of the 6 → `lingo/out/<video>.mp4`; check stills first with `--still 3,12`.
+4. Look at each `out/<video>_credits.txt`; listen to the clips in `cache/audio/<video>/`, since the auto-pick
+   (Whisper language ID) can land on the wrong language in recordings that mix languages.
+5. MP4s are large: don't commit them; upload them to YouTube.
