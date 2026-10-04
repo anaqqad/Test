@@ -18,7 +18,7 @@ const pages = {
   avatar: [800, 800, `<body style="background:radial-gradient(circle at 40% 35%,#3a3f78,#0d1024)"><div class="abs" style="left:110px;top:150px">
     <svg width="580" height="500" viewBox="0 0 160 140"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffcf5c"/><stop offset="1" stop-color="#ff6b5c"/></linearGradient></defs>
     <path d="M20 10 h120 a16 16 0 0 1 16 16 v66 a16 16 0 0 1 -16 16 h-70 l-30 26 v-26 h-20 a16 16 0 0 1 -16 -16 v-66 a16 16 0 0 1 16 -16z" fill="url(#g)"/>
-    <text x="80" y="82" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="62" fill="#16182b">Ll</text></svg></div></body>`],
+    <text x="80" y="82" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="58" fill="#16182b">LD</text></svg></div></body>`],
   banner: [2560, 1440, `<body><div class="abs" style="inset:0">${scene("faroe", "banner")}</div><div class="abs" style="inset:0;background:linear-gradient(90deg,rgba(10,12,30,.15),rgba(10,12,30,.75) 30%,rgba(10,12,30,.75) 70%,rgba(10,12,30,.15))"></div>
     <div class="abs" style="left:0;width:2560px;top:560px;text-align:center">${logoSvg(150)}<div style="color:#fff;font-weight:700;font-size:44px;margin-top:18px;letter-spacing:1px">Rare, endangered &amp; weird languages of the world</div></div></body>`],
 };

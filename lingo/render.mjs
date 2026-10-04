@@ -240,7 +240,7 @@ export function logoSvg(h = 120, dark = false) {
   return `<svg height="${h}" viewBox="0 0 640 140" xmlns="http://www.w3.org/2000/svg">
   <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffcf5c"/><stop offset="1" stop-color="#ff6b5c"/></linearGradient></defs>
   <path d="M20 20 h110 a20 20 0 0 1 20 20 v56 a20 20 0 0 1 -20 20 h-58 l-30 24 v-24 h-22 a20 20 0 0 1 -20 -20 v-56 a20 20 0 0 1 20 -20z" fill="url(#lg)"/>
-  <text x="75" y="88" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="56" fill="#16182b">Ll</text>
+  <text x="75" y="88" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="50" fill="#16182b">LD</text>
   <text x="175" y="98" font-family="Montserrat" font-weight="800" font-size="78" fill="${txt}" letter-spacing="-1">Lingo<tspan fill="#ffcf5c">Dude</tspan></text></svg>`;
 }
 
