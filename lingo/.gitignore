@@ -12,3 +12,5 @@ incoming/
 go*.log
 render_*.log
 pipeline.log
+analysis.txt
+out/*_timeline.json

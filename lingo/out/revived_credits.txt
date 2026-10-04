@@ -1,6 +1,14 @@
 Audio credits (Revived Languages be like… Back from the dead)
 
+Hebrew: "LL-Q9288 (heb)-YaronSh-מעיל.wav" by Speaker: YaronSh Recorder: YaronSh, CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9288_%28heb%29-YaronSh-%D7%9E%D7%A2%D7%99%D7%9C.wav
+Hebrew: "LL-Q9288 (heb)-YaronSh-פרק.wav" by Speaker: YaronSh Recorder: YaronSh, CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9288_%28heb%29-YaronSh-%D7%A4%D7%A8%D7%A7.wav
+Hebrew: "LL-Q9288 (heb)-YaronSh-גינאה ביסאו.wav" by Speaker: YaronSh Recorder: YaronSh, CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9288_%28heb%29-YaronSh-%D7%92%D7%99%D7%A0%D7%90%D7%94_%D7%91%D7%99%D7%A1%D7%90%D7%95.wav
+Hebrew: "LL-Q9288 (heb)-YaronSh-אורך גל.wav" by Speaker: YaronSh Recorder: YaronSh, CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9288_%28heb%29-YaronSh-%D7%90%D7%95%D7%A8%D7%9A_%D7%92%D7%9C.wav
 Cornish: "WIKITONGUES- Elizabeth speaking Cornish.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Elizabeth_speaking_Cornish.webm
 Manx: "WIKITONGUES- Owen speaking Manx.webm" by Wikitongues, Owen Williams, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Owen_speaking_Manx.webm
 Māori: "Māori waiata from Waiheke Island.ogg" by Countrymike, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AM%C4%81ori_waiata_from_Waiheke_Island.ogg
 Latin: "WIKITONGUES- Titus speaking Latin.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Titus_speaking_Latin.webm
+Sanskrit: "LL-Q11059 (san)-Thesaurabhsaha-नगांवमण्डलम्.wav" by Speaker: Thesaurabhsaha Recorder: Thesaurabhsaha, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q11059_%28san%29-Thesaurabhsaha-%E0%A4%A8%E0%A4%97%E0%A4%BE%E0%A4%82%E0%A4%B5%E0%A4%AE%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A4%B2%E0%A4%AE%E0%A5%8D.wav
+Sanskrit: "LL-Q11059 (san)-Intobesa (咽頭べさ)-दुः-.wav" by Speaker: Intobesa Recorder: 咽頭べさ, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q11059_%28san%29-Intobesa_%28%E5%92%BD%E9%A0%AD%E3%81%B9%E3%81%95%29-%E0%A4%A6%E0%A5%81%E0%A4%83-.wav
+Sanskrit: "LL-Q11059 (san)-Intobesa (咽頭べさ)-मान्दार.wav" by Speaker: Intobesa Recorder: 咽頭べさ, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q11059_%28san%29-Intobesa_%28%E5%92%BD%E9%A0%AD%E3%81%B9%E3%81%95%29-%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BE%E0%A4%B0.wav
+Sanskrit: "LL-Q11059 (san)-Sriveenkat-तारा.wav" by Speaker: Sriveenkat Recorder: Sriveenkat, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q11059_%28san%29-Sriveenkat-%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE.wav
