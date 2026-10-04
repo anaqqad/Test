@@ -131,6 +131,29 @@ function hat(h, uid) {
   }
 }
 
+// Make the avatar match the speaker's voice, keeping the outfit's colours and style.
+export function withGender(spec, g) {
+  const fem = !!spec.fem;
+  if (!g || (g === "f") === fem) return spec;
+  const s = JSON.parse(JSON.stringify(spec));
+  if (g === "m") {
+    s.fem = false;
+    if (["long", "braids", "bun", "bob", "ponytail"].includes(s.hair)) s.hair = "short";
+    delete s.earrings;
+    if (s.hat && ["flower", "kokoshnik", "bonnet", "headscarf"].includes(s.hat.type)) s.hat = s.hat.type === "headscarf" ? { type: "flatcap", color: shade(s.hat.color, -0.3) } : undefined;
+    if (s.outfit && s.outfit.type === "dress") s.outfit = { ...s.outfit, type: "tunic" };
+    if (s.expression === "grin") s.expression = "smile";
+  } else {
+    s.fem = true;
+    delete s.beard; delete s.mustache;
+    if (["short", "spiky", "bald"].includes(s.hair)) s.hair = "long";
+    if (s.hat && ["flatcap", "tophat", "fez", "beret"].includes(s.hat.type)) delete s.hat;
+    if (s.outfit && s.outfit.tie) s.outfit = { ...s.outfit, tie: undefined };
+    if (s.outfit && s.outfit.type === "shirt") s.outfit = { ...s.outfit, type: "dress", color2: s.outfit.vest || s.outfit.color, trim: s.outfit.vest || "#c0392b" };
+  }
+  return s;
+}
+
 export function character(spec, uid = "c") {
   const skin = SKIN[spec.skin] || spec.skin || SKIN.light;
   const sl = shade(skin, -0.38);

@@ -23,7 +23,7 @@ export const VIDEOS = {
           "After World War II the communist authorities banned it. Speakers were punished, and families stopped passing it on to their children.",
           "Only around 20 elderly native speakers remain, but a revival led by young locals like Tymoteusz Król means kids are learning it again.",
         ],
-        audio: { file: "Helka 20120104 Wym.webm", start: "auto" },
+        audio: { file: "Helka 20120104 Wym.webm", start: "auto", voice: "f" },
       },
       {
         name: "Kusunda", flag: "np", speakers: "~1", scene: "himalaya", loc: [28.2, 82.6, "Western Nepal"],
@@ -33,7 +33,7 @@ export const VIDEOS = {
           "Gyani Maiya Sen is one of the very last people who speak it fluently. You are listening to her right now.",
           "In recent years she has helped teach classes so younger Kusunda people can learn the words of their ancestors.",
         ],
-        audio: { file: "Gyani Maiya Sen Kusunda - how Mihaq (Kusunda) language should be brought to the next generation.webm", start: "auto", search: "Gyani Maiya Sen Kusunda" },
+        audio: { file: "Gyani Maiya Sen Kusunda - how Mihaq (Kusunda) language should be brought to the next generation.webm", start: "auto", search: "Gyani Maiya Sen Kusunda", voice: "f" },
       },
       {
         name: "Nuxalk", flag: "ca", speakers: "<20", scene: "bella", loc: [52.37, -126.75, "Bella Coola, Canada"],
@@ -43,7 +43,7 @@ export const VIDEOS = {
           "It is famous for very long words with no vowels at all, like xłp̓x̣ʷłtłpłłskʷc̓, which means 'he had had a bunchberry plant'. That's the word you just heard.",
           "A local school teaches Nuxalk to children, giving the language a real chance of survival.",
         ],
-        audio: { seq: ["Xłp̓x̣ʷłtłpłłskʷc̓.ogg"], repeat: 3 },
+        audio: { seq: ["Xłp̓x̣ʷłtłpłłskʷc̓.ogg"], repeat: 3, voice: "keep" },
       },
       {
         name: "Cherokee", flag: "us", speakers: "~2,000", scene: "forest", loc: [35.9, -94.97, "Oklahoma & North Carolina"],
@@ -53,7 +53,7 @@ export const VIDEOS = {
           "In the 1820s a Cherokee man named Sequoyah, who couldn't read any language, invented a complete writing system for it on his own.",
           "Only around 2,000 fluent speakers remain, most of them elderly, and the Cherokee Nation has declared a language emergency.",
         ],
-        audio: { file: "Wikitongues Jerry speaking Cherokee.mp3", start: "auto" },
+        audio: { file: "Wikitongues Jerry speaking Cherokee.mp3", start: "auto", voice: "m" },
       },
       {
         name: "Vepsian", flag: "ru", speakers: "~1,600", scene: "dalarna", loc: [61.0, 35.5, "Lake Onega, Russia"],
@@ -73,7 +73,7 @@ export const VIDEOS = {
           "The English word 'tipi' comes from Lakota, where 'thípi' means a house or dwelling.",
           "Only around 2,000 fluent speakers are left, but immersion schools on the reservations are raising a new generation of speakers.",
         ],
-        audio: { file: "WIKITONGUES- Junior speaking Lakota.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Junior speaking Lakota.webm", start: "auto", voice: "m" },
       },
       {
         name: "Yugambeh", flag: "au", speakers: "revival", scene: "hawaii", loc: [-28.0, 153.2, "Gold Coast, Australia"],
@@ -83,7 +83,7 @@ export const VIDEOS = {
           "After colonisation it was nearly wiped out, and for decades almost no one spoke it fluently.",
           "Today the Yugambeh community is bringing it back with classes, songs and dictionaries, and many local place names still come from it.",
         ],
-        audio: { file: "Wikitongues - Shaun speaking Yugambeh Aboriginal Australians and Torres Strait Islanders .webm", ranges: [[0, 6.6], [10.8, 20.1], [26.2, 36.0]] },
+        audio: { file: "Wikitongues - Shaun speaking Yugambeh Aboriginal Australians and Torres Strait Islanders .webm", ranges: [[0, 6.6], [10.8, 20.1], [26.2, 36.0]], voice: "m" },
       },
       {
         name: "Ladino", flag: null, speakers: "<100,000", scene: "istanbul", loc: [41.0, 28.97, "Turkey, Israel, Balkans"],
@@ -93,7 +93,7 @@ export const VIDEOS = {
           "It is basically old Spanish mixed with Hebrew, Turkish and Greek, and was traditionally written in Hebrew letters.",
           "The Holocaust destroyed many Ladino-speaking communities. Today most speakers are elderly and live in Israel and Turkey.",
         ],
-        audio: { file: "Isaac 20210219 Lad.webm", start: "auto" },
+        audio: { file: "Isaac 20210219 Lad.webm", start: "auto", voice: "m" },
       },
       {
         name: "Boruca", flag: "cr", speakers: "<10", scene: "amazon", loc: [9.0, -83.3, "Southern Costa Rica"],
@@ -143,7 +143,7 @@ export const VIDEOS = {
           "Around 10,000 people speak it, yet it has about ten dialects, and speakers from different islands can struggle to understand each other.",
           "You are hearing a song in North Frisian. On islands like Föhr and Amrum, it is still taught in schools.",
         ],
-        audio: { file: "Andreas singing in Northern Frisian.webm", start: "auto" },
+        audio: { file: "Andreas singing in Northern Frisian.webm", start: "auto", voice: "m" },
       },
       {
         name: "Siwi", flag: "eg", speakers: "~30,000", scene: "arabia", loc: [29.2, 25.5, "Siwa Oasis, Egypt"],
@@ -153,7 +153,7 @@ export const VIDEOS = {
           "It is the easternmost Berber language in the world, an island of Berber surrounded by Arabic.",
           "Siwa is also home to the ancient oracle that Alexander the Great famously travelled across the desert to visit.",
         ],
-        audio: { file: "A young man from Siwa offers his greetings in the Siwan language.webm", start: 0 },
+        audio: { file: "A young man from Siwa offers his greetings in the Siwan language.webm", start: 0, voice: "m" },
       },
       {
         name: "Mingrelian", flag: "ge", speakers: "~340,000", scene: "caucasus", loc: [42.5, 41.9, "Samegrelo, Georgia"],
@@ -163,7 +163,7 @@ export const VIDEOS = {
           "It has no official status and is mostly spoken at home. When written, it uses the Georgian alphabet.",
           "Most Mingrelians are bilingual: Mingrelian at home, Georgian at school and work, which is why the language is slowly losing ground.",
         ],
-        audio: { file: "WIKITONGUES- Valerian speaking Mingrelian.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Valerian speaking Mingrelian.webm", start: "auto", voice: "m" },
       },
       {
         name: "Tuvan", flag: "ru", speakers: "~280,000", scene: "steppe", loc: [51.7, 94.4, "Tuva, Siberia"],
@@ -173,7 +173,7 @@ export const VIDEOS = {
           "Tuva is famous for throat singing, where one singer produces two or more notes at the same time.",
           "Unlike many Siberian languages, Tuvan is still spoken by most Tuvans, and it is written in the Cyrillic alphabet.",
         ],
-        audio: { file: "WIKITONGUES- Aydyn speaking Tuvan.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Aydyn speaking Tuvan.webm", start: "auto", voice: "m" },
       },
       {
         name: "Gagauz", flag: "gag", speakers: "~150,000", scene: "grassland", loc: [46.3, 28.65, "Gagauzia, Moldova"],
@@ -193,7 +193,7 @@ export const VIDEOS = {
           "Many English words came over from Norman after 1066, so Jèrriais can feel familiar to both English and French speakers.",
           "Fewer than 3,000 people speak it, mostly older islanders, but it is taught in Jersey's schools.",
         ],
-        audio: { file: "Ben Spink speaks Jèrriais and recites \"Man Bieau P'tit Jèrri\".ogg", start: 0 },
+        audio: { file: "Ben Spink speaks Jèrriais and recites \"Man Bieau P'tit Jèrri\".ogg", start: 0, voice: "m" },
       },
       {
         name: "Mirandese", flag: "pt", speakers: "~15,000", scene: "grassland", loc: [41.5, -6.27, "Miranda do Douro, Portugal"],
@@ -213,7 +213,7 @@ export const VIDEOS = {
           "It is polysynthetic: whole sentences can be packed into one enormous word by stacking suffixes.",
           "For example, 'Nalunaarasuartaatilioqateeraliorfinnialikkersaatiginngitsoq' was once cited as a single Greenlandic word.",
         ],
-        audio: { file: "WIKITONGUES- Mark speaking Greenlandic.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Mark speaking Greenlandic.webm", start: "auto", voice: "m" },
       },
       {
         name: "Luxembourgish", flag: "lu", speakers: "~400,000", scene: "forest", loc: [49.6, 6.13, "Luxembourg"],
@@ -223,7 +223,7 @@ export const VIDEOS = {
           "Most Luxembourgers also speak German and French, and often switch between all three in the same day.",
           "It says 'Moien' for hello, and the national motto, 'Mir wëlle bleiwe wat mir sinn', means 'We want to remain what we are'.",
         ],
-        audio: { file: "WIKITONGUES- Mark speaking Luxembourgish.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Mark speaking Luxembourgish.webm", start: "auto", voice: "m" },
       },
     ],
   },
@@ -271,7 +271,7 @@ export const VIDEOS = {
           "It has 15 click consonants, written with the letters c, q and x. The 'X' in Xhosa itself is a click.",
           "Singer Miriam Makeba made Xhosa clicks world famous with her song known in English as 'The Click Song'.",
         ],
-        audio: { file: "Sisters remember xhosa songs and games.ogg", start: "auto" },
+        audio: { file: "Sisters remember xhosa songs and games.ogg", start: "auto", voice: "f" },
       },
       {
         name: "Taa (!Xóõ)", flag: "bw", speakers: "~2,500", scene: "kalahari", loc: [-24.0, 21.5, "Kalahari, Botswana"],
@@ -291,7 +291,7 @@ export const VIDEOS = {
           "A strong whistle can carry for kilometres, much further than a shout. That's what you're hearing right now.",
           "It is a UNESCO Intangible Cultural Heritage, and since 1999 every child on the island learns it at school.",
         ],
-        audio: { file: "Silbo.ogg", start: 0 },
+        audio: { file: "Silbo.ogg", start: 0, voice: "keep" },
       },
       {
         name: "Hmong", flag: "la", speakers: "millions", scene: "himalaya", loc: [20.0, 103.0, "Laos, Vietnam, China"],
@@ -301,7 +301,7 @@ export const VIDEOS = {
           "It has around seven or eight tones. In its Latin alphabet, the last letter of a word shows the tone, so 'Hmoob' ends in 'b' for a high tone.",
           "Its tones are so important that the qeej, a bamboo pipe instrument, can 'speak' Hmong phrases by playing their tone melodies.",
         ],
-        audio: { file: "May speaking Hmong Don.webm", start: "auto" },
+        audio: { file: "May speaking Hmong Don.webm", start: "auto", voice: "f" },
       },
       {
         name: "Yoruba", flag: "ng", speakers: "~45M", scene: "savanna", loc: [7.4, 3.9, "Nigeria & Benin"],
@@ -311,7 +311,7 @@ export const VIDEOS = {
           "Tone changes meaning completely: 'ọkọ' can mean husband, hoe or vehicle depending on the pitch of each syllable.",
           "Because words have melodies, the 'talking drum' (dùndún) can imitate speech, and listeners can understand the messages.",
         ],
-        audio: { file: "Dorcas speaking Yoruba.webm", start: "auto" },
+        audio: { file: "Dorcas speaking Yoruba.webm", start: "auto", voice: "f" },
       },
       {
         name: "Pirahã", flag: "br", speakers: "~400", scene: "amazon", loc: [-7.3, -62.0, "Maici River, Brazil"],
@@ -341,7 +341,7 @@ export const VIDEOS = {
           "It loves stacking consonants: 'gvprtskvni', meaning 'you peel us', starts with eight consonants in a row.",
           "It also has 'ejective' sounds, popped out with a burst of air from the throat, which English doesn't have.",
         ],
-        audio: { file: "WIKITONGUES- Mariam speaking Georgian.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Mariam speaking Georgian.webm", start: "auto", voice: "f" },
       },
       {
         name: "Czech", flag: "cz", speakers: "~10M", scene: "prague", loc: [50.08, 14.43, "Czech Republic"],
@@ -351,7 +351,7 @@ export const VIDEOS = {
           "It is often one of the last sounds Czech children learn. You can hear it in the name of the composer Dvořák.",
           "Czech can also build sentences with no vowels at all, like 'Strč prst skrz krk', meaning 'stick your finger through your throat'.",
         ],
-        audio: { ll: "ces", words: ["řeka", "tři", "moře", "řeč", "Dvořák", "keř", "dobře", "příroda", "krk", "prst"], n: 4 },
+        audio: { ll: "ces", words: ["řeka", "tři", "moře", "řeč", "Dvořák", "keř", "dobře", "příroda", "krk", "prst"], n: 4, voice: "m" },
       },
       {
         name: "Danish", flag: "dk", speakers: "~6M", scene: "copenhagen", loc: [55.68, 12.57, "Denmark"],
@@ -371,7 +371,7 @@ export const VIDEOS = {
           "It is home to one of the longest place names in Europe: Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch.",
           "In Welsh, 'w' and 'y' are also vowels, which is why 'cwtch', a hug, is a perfectly normal word.",
         ],
-        audio: { file: "WIKITONGUES- Sandra speaking Welsh.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Sandra speaking Welsh.webm", start: "auto", voice: "f" },
       },
       {
         name: "Hawaiian", flag: "us", speakers: "~24,000", scene: "hawaii", loc: [20.8, -156.3, "Hawaiʻi"],
@@ -402,7 +402,7 @@ export const VIDEOS = {
           "Its grammar has almost no exceptions: every noun ends in -o and every adjective in -a. 'Esperanto' itself means 'one who hopes'.",
           "Estimates of speakers range from 100,000 to 2 million, and around a thousand people grew up speaking it, including billionaire George Soros.",
         ],
-        audio: { file: "Stela Speaks Esperanto.webm", start: "auto" },
+        audio: { file: "Stela Speaks Esperanto.webm", start: "auto", voice: "f" },
       },
       {
         name: "Toki Pona", flag: null, speakers: "1,000s", scene: "abstract", loc: null,
@@ -442,7 +442,7 @@ export const VIDEOS = {
           "Its root words were blended from six big languages: Mandarin, English, Hindi, Spanish, Russian and Arabic.",
           "It's used for experiments in logic and computing, and only a few dozen people speak it conversationally.",
         ],
-        audio: { file: "WIKITONGUES- John speaking Lojban.webm", start: 346 },
+        audio: { file: "WIKITONGUES- John speaking Lojban.webm", start: 346, voice: "m" },
       },
       {
         name: "Ido", flag: null, speakers: "a few hundred", scene: "grassland", loc: null,
@@ -473,7 +473,7 @@ export const VIDEOS = {
           "In the late 1800s Eliezer Ben-Yehuda insisted on speaking only Hebrew at home, and his son became the first native speaker in modern times.",
           "Today around 9 million people speak it, the only known case of a language revived all the way to a national language.",
         ],
-        audio: { ll: "heb", n: 4 },
+        audio: { ll: "heb", n: 4, voice: "m" },
       },
       {
         name: "Cornish", flag: "kernow", speakers: "~600", scene: "jersey", loc: [50.3, -5.0, "Cornwall, England"],
@@ -483,7 +483,7 @@ export const VIDEOS = {
           "In 1904 Henry Jenner published a handbook to bring it back, and enthusiasts slowly started speaking it again.",
           "In 2010 UNESCO changed its status from 'extinct' to 'critically endangered', and today there are even children raised in Cornish.",
         ],
-        audio: { file: "WIKITONGUES- Elizabeth speaking Cornish.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Elizabeth speaking Cornish.webm", start: "auto", voice: "f" },
       },
       {
         name: "Manx", flag: "im", speakers: "~2,000", scene: "faroe", loc: [54.2, -4.5, "Isle of Man"],
@@ -493,7 +493,7 @@ export const VIDEOS = {
           "Luckily he and other elders had been recorded, and learners used those tapes to rebuild the language.",
           "Today there is a Manx-medium primary school, and a new generation of children speaks Manx again.",
         ],
-        audio: { file: "WIKITONGUES- Owen speaking Manx.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Owen speaking Manx.webm", start: "auto", voice: "m" },
       },
       {
         name: "Māori", flag: "nz", speakers: "~185,000", scene: "bougainville", loc: [-38.5, 176.0, "Aotearoa New Zealand"],
@@ -513,7 +513,7 @@ export const VIDEOS = {
           "It's still an official language of the Vatican, which even had cash machines with instructions in Latin.",
           "A 'living Latin' movement now holds courses and summer camps where people speak it fluently, like the speaker you're hearing.",
         ],
-        audio: { file: "WIKITONGUES- Titus speaking Latin.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Titus speaking Latin.webm", start: "auto", voice: "m" },
       },
       {
         name: "Sanskrit", flag: "in", speakers: "~25,000", scene: "himalaya", loc: [13.9, 75.6, "Mattur, India"],

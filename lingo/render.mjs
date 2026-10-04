@@ -7,7 +7,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import * as d3 from "d3-geo";
 import * as topo from "topojson-client";
 import { chromium } from "playwright-core";
-import { character, scene, shade } from "./art.mjs";
+import { character, scene, shade, withGender } from "./art.mjs";
 import { VIDEOS, CHANNEL } from "./videos.mjs";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -72,7 +72,8 @@ b{font-weight:800;color:var(--accent)}
 // ---------------- page templates ----------------
 function storyPage(video, item, idx, dur, audio) {
   const accent = video.accent || "#d1495b";
-  const times = item.cards.map((_, i) => 1.1 + i * 5.0);
+  const n = item.cards.length, step = n > 1 ? Math.min(5.0, (dur - 1.1 - 2.2) / (n - 1)) : 0;
+  const times = item.cards.map((_, i) => 1.1 + i * step);
   const caps = audio?.captions || [];
   const listen = caps.length ? "" : `<div id="listen" class="abs pill"><span class="eq"><i></i><i></i><i></i><i></i></span>Listen</div>`;
   return `<!doctype html><html><head><meta charset="utf-8">${FONT_CSS}<style>${BASE_CSS}
@@ -103,7 +104,7 @@ function storyPage(video, item, idx, dur, audio) {
   #fade{left:0;top:0;width:1920px;height:1080px;background:#000;pointer-events:none}
   </style></head><body>
   <div id="bg" class="abs">${scene(item.scene, item.name)}</div>
-  <div id="char" class="abs">${character(item.char, "c" + idx)}</div>
+  <div id="char" class="abs">${character(withGender(item.char, audio && audio.voice), "c" + idx)}</div>
   <div id="cards" class="abs">${item.cards.map((c) => `<div class="card">${rich(c)}</div>`).join("")}</div>
   ${item.loc ? `<div id="globe" class="abs">${globe(item.loc)}<br><span class="lab">📍 ${esc(item.loc[2])}</span></div>` : ""}
   ${listen}
@@ -174,7 +175,7 @@ function rankingPage(video, items, idx, dur, audio) {
   <div id="grid" class="abs"></div><div id="glow" class="abs"></div>
   <div id="top" class="abs">${esc(video.title)}<small>${esc(video.part)}</small></div>
   <div id="brand" class="abs">${CHANNEL}</div><div id="rank" class="abs">#${idx + 1} of ${items.length}</div>
-  <div id="char" class="abs">${character(item.char, "r" + idx)}</div>
+  <div id="char" class="abs">${character(withGender(item.char, audio && audio.voice), "r" + idx)}</div>
   <div id="head" class="abs">${flagHtml(item.flag, 90)}<h1>${esc(item.name)}</h1></div>
   <div id="score" class="abs"><span class="n">0/10</span><span class="l">${video.scoreLabel}</span></div>
   <div id="meter" class="abs"><i></i></div>
@@ -245,8 +246,13 @@ export function logoSvg(h = 120, dark = false) {
 }
 
 // ---------------- rendering ----------------
-function segDuration(video, item) {
-  return video.layout === "ranking" ? 11.0 : +(1.4 + 5.0 * item.cards.length + 1.2).toFixed(2);
+// Segment length: the usual reading time, but cut short when the recording ends early, so the
+// screen never sits on silence ("switch as soon as the voice stops").
+export function segDuration(video, item, an) {
+  const full = video.layout === "ranking" ? 11.0 : +(1.4 + 5.0 * item.cards.length + 1.2).toFixed(2);
+  if (!an || !an.end || an.end >= full - 1.0) return full;
+  const floor = video.layout === "ranking" ? 5.0 : 1.2 + 1.6 * item.cards.length;
+  return +Math.min(full, Math.max(an.end + 0.8, floor)).toFixed(2);
 }
 
 async function renderClip(browser, html, dur, outFile, stills) {
@@ -286,6 +292,9 @@ async function main() {
   if (!vkey) throw new Error("usage: node render.mjs <" + Object.keys(VIDEOS).join("|") + ">");
   const video = VIDEOS[vkey];
   const manifest = loadAudio(vkey);
+  const anPath = path.join(CACHE, "audio", vkey, "analysis.json");
+  const analysis = fs.existsSync(anPath) ? JSON.parse(fs.readFileSync(anPath)) : {};
+  if (!fs.existsSync(anPath)) console.log("  (no analysis.json: run analyze_audio.py first for voice-matched avatars and tight timing)");
   const stills = opt("still", null);
   const itemsArg = opt("items", null);
   let sel = video.items.map((_, i) => i);
@@ -299,12 +308,18 @@ async function main() {
     jobs.push({ name: "intro", dur: INTRO, html: titlePage(video, INTRO) });
   }
   for (const i of sel) {
-    const item = video.items[i], dur = segDuration(video, item), audio = manifest[item.name];
+    const item = video.items[i], an = analysis[item.name], dur = segDuration(video, item, an);
+    const audio = manifest[item.name] && { ...manifest[item.name], voice: an && ["m", "f"].includes(an.voice) ? an.voice : null };
     if (!audio && !stills) { console.log(`  skipping ${item.name}: no recording`); continue; }
     const html = video.layout === "ranking" ? rankingPage(video, video.items, i, dur, audio) : storyPage(video, item, i, dur, audio);
     jobs.push({ name: String(i).padStart(2, "0"), dur, html, i });
   }
   if (!itemsArg) jobs.push({ name: "outro", dur: OUTRO, html: titlePage(video, OUTRO, true) });
+  if (!itemsArg && !stills) {
+    let t0 = 0;
+    const tl = jobs.map((j) => { const e = { name: j.i === undefined ? j.name : video.items[j.i].name, start: +t0.toFixed(2), dur: j.dur }; t0 += j.dur; return e; });
+    fs.writeFileSync(path.join(OUT, `${vkey}_timeline.json`), JSON.stringify(tl, null, 1));
+  }
 
   if (stills) {
     const ts = String(stills).split(",").map(Number);

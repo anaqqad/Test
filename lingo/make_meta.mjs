@@ -7,12 +7,14 @@ const INTRO = 3.2, seg = (it) => (v.layout === "ranking" ? 11.0 : +(1.4 + 5.0 * 
 const ts = (t) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
 const clean = (s) => String(s).replace(/</g, "under ").replace(/>/g, "over ").replace(/~/g, "~");
 const items = v.items.filter((it) => man[it.name]);
+const tl = fs.existsSync(`out/${k}_timeline.json`) ? Object.fromEntries(JSON.parse(fs.readFileSync(`out/${k}_timeline.json`)).map((e) => [e.name, e])) : {};
 let t = INTRO;
 const chapters = ["0:00 Intro"];
 for (const it of items) {
+  if (tl[it.name]) t = tl[it.name].start;
   const extra = v.layout === "ranking" ? `${it.score}/10` : it.speakers ? (/^[~<\d][\d,.~<kM–]*$/.test(it.speakers) ? `${clean(it.speakers)} speakers` : `speakers: ${clean(it.speakers)}`) : "";
   chapters.push(`${ts(t)} ${it.name}${extra ? ` (${extra})` : ""}`);
-  t += seg(it);
+  t += tl[it.name] ? tl[it.name].dur : seg(it);
 }
 const credits = [];
 const lic = new Set();
