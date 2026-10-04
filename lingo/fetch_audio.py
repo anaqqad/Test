@@ -17,11 +17,12 @@ SR = 48000
 def api(**p):
     p["format"] = "json"
     url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(p)
-    for i in range(6):
+    for i in range(10):
         try:
+            time.sleep(0.4)
             return json.load(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60))
         except Exception as e:
-            time.sleep(3 * (i + 1))
+            time.sleep(5 * (i + 1))
     raise RuntimeError("API failed: " + url)
 
 
@@ -52,10 +53,37 @@ def search_title(q):
     return hits[0]["title"] if hits else None
 
 
+UPLOADS = [os.path.expanduser("~/.claude/uploads"), os.path.join(HERE, "incoming")]
+
+
+def _norm(x):
+    x = urllib.parse.unquote(x).lower()
+    x = re.sub(r"\.(240p|360p|480p)\.(vp9\.)?webm$", "", x)
+    return re.sub(r"[^a-z0-9]", "", x)
+
+
+def find_uploaded(title):
+    """Files the owner downloaded on their own connection and sent back (chat uploads or lingo/incoming/)."""
+    want = _norm(title[5:] if title.startswith("File:") else title)
+    for root in UPLOADS:
+        for dp, _, fs in os.walk(root):
+            for f in fs:
+                n = _norm(f)
+                if n == want or n.endswith(want) or n.endswith(_norm(f"{title[5:]}")):
+                    return os.path.join(dp, f)
+    return None
+
+
 def download(meta):
     os.makedirs(os.path.join(CACHE, "raw"), exist_ok=True)
     ext = os.path.splitext(urllib.parse.urlparse(meta["url"]).path)[1]
     path = os.path.join(CACHE, "raw", re.sub(r"[^\w.-]", "_", meta["title"][5:])[:80] + ext)
+    if not os.path.exists(path):
+        local = find_uploaded(meta["title"])
+        if local:
+            print("    using uploaded file", os.path.basename(local))
+            import shutil
+            shutil.copy(local, path)
     if not os.path.exists(path):
         for i in range(8):
             try:
