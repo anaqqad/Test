@@ -12,19 +12,39 @@ let t = INTRO;
 const chapters = ["0:00 Intro"];
 for (const it of items) {
   if (tl[it.name]) t = tl[it.name].start;
-  const extra = v.layout === "ranking" ? `${it.score}/10` : it.speakers ? (/^[~<\d][\d,.~<kM–]*$/.test(it.speakers) ? `${clean(it.speakers)} ${/^~?1$/.test(it.speakers) ? "speaker" : "speakers"}` : it.speakers === "revival" ? "revival" : `speakers: ${clean(it.speakers)}`) : "";
+  const extra = v.layout === "ranking" ? `${it.score}/10` : it.speakers ? (/^[~<\d][\d,.~<kM–]*$/.test(it.speakers) ? `${clean(it.speakers)} ${/^~?1$/.test(it.speakers) ? "speaker" : "speakers"}` : it.speakers === "revival" ? "revival" : (/native$/.test(it.speakers) ? `${clean(it.speakers)} speakers` : `speakers: ${clean(it.speakers)}`)) : "";
   chapters.push(`${ts(t)} ${it.name}${extra ? ` (${extra})` : ""}`);
   t += tl[it.name] ? tl[it.name].dur : seg(it);
 }
 const credits = [];
 const lic = new Set();
-for (const it of items) for (const c of man[it.name].credits || []) {
-  credits.push(`${it.name}: "${c.title.slice(5).replace(/\.\w+$/, "")}" by ${c.artist.replace(/^No machine-readable author provided\. (\S+) assumed.*$/, "$1")}, ${c.license}`);
-  if (/BY-SA 4/.test(c.license)) lic.add("https://creativecommons.org/licenses/by-sa/4.0/");
-  else if (/BY-SA 3/.test(c.license)) lic.add("https://creativecommons.org/licenses/by-sa/3.0/");
-  else if (/BY 4/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/4.0/");
-  else if (/BY 3/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/3.0/");
-  else if (/BY 2.5/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/2.5/");
+const artistOf = (a) => a
+  .replace(/^Spoken by (.+?); recorded and published by (.+)$/, "$2 (speaker: $1)")
+  .replace(/^No machine-readable author provided\. (\S+) assumed.*$/, "$1")
+  .replace(/^Speaker: (.+?) Recorder: .*$/, "$1")
+  .replace(/^The original uploader was (.+?) at (.+?)\.?$/, "$1 ($2)")
+  .replace(/^https?:\/\/\S*wikitongues\S*$/i, "Wikitongues")
+  .replace(/^Max (Max Planck.*)$/, "$1")
+  .replace(/~commonswiki$/, "")
+  .replace(/^Wikitongues, Inc$/, "Wikitongues");
+for (const it of items) {
+  const groups = new Map();
+  for (const c of man[it.name].credits || []) {
+    const key = artistOf(c.artist) + "|" + c.license;
+    const word = c.title.slice(5).replace(/\.\w+$/, "").trim();
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(/^LL-Q/.test(word) ? word.split("-").slice(-1)[0] : word);
+    if (/BY-SA 4/.test(c.license)) lic.add("https://creativecommons.org/licenses/by-sa/4.0/");
+    else if (/BY-SA 3/.test(c.license)) lic.add("https://creativecommons.org/licenses/by-sa/3.0/");
+    else if (/BY 4/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/4.0/");
+    else if (/BY 3/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/3.0/");
+    else if (/BY 2.5/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/2.5/");
+  }
+  for (const [key, titles] of groups) {
+    const [artist, license] = key.split("|");
+    const isWords = (man[it.name].credits || []).some((c) => /^File:LL-Q/.test(c.title));
+    credits.push(isWords ? `${it.name}: ${titles.length > 1 ? "words" : "word"} ${titles.map((t) => `"${t}"`).join(", ")} by ${artist} (Lingua Libre), ${license}` : `${it.name}: ${titles.map((t) => `"${t}"`).join(", ")} by ${artist}, ${license}`);
+  }
 }
 const intro = {
   extinct: "Some of these languages have only a handful of speakers left. Some are being brought back from the brink. Every voice you hear is a real recording of the language.",

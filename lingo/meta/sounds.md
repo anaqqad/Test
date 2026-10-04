@@ -24,25 +24,20 @@ Which language should we cover next? Tell us in the comments 👇
 
 Audio credits (all via Wikimedia Commons):
 Xhosa: "Sisters remember xhosa songs and games" by Rebekahn, CC BY-SA 3.0
-Taa (!Xóõ): "TWa040429-0101 2 (1)" by Max Max Planck Instituut voor Psycholinguïstiek, The Language Archive, CC BY-SA 4.0
-Silbo Gomero: "Silbo" by The original uploader was Florival fr at French Wikipedia., CC BY-SA 3.0
-Hmong: "May speaking Hmong Don" by Wikitongues, Inc, CC BY-SA 4.0
-Yoruba: "Dorcas speaking Yoruba" by Wikitongues, Inc, CC BY-SA 4.0
+Taa (!Xóõ): "TWa040429-0101 2 (1)" by Max Planck Instituut voor Psycholinguïstiek, The Language Archive, CC BY-SA 4.0
+Silbo Gomero: "Silbo" by Florival fr (French Wikipedia), CC BY-SA 3.0
+Hmong: "May speaking Hmong Don" by Wikitongues, CC BY-SA 4.0
+Yoruba: "Dorcas speaking Yoruba" by Wikitongues, CC BY-SA 4.0
 Pirahã: "ʔíʙogi" by PashtoPromoter, CC BY-SA 4.0
-Cantonese: "Zero to ten in Cantonese Chinese" by Audioman~commonswiki, CC BY 2.5
-Georgian: "WIKITONGUES- Mariam speaking Georgian" by https://m.youtube.com/user/WikiTongues, CC BY 3.0
-Czech: "LL-Q9056 (ces)-Ghost4Man-moře" by Speaker: Ghost4Man Recorder: Ghost4Man, CC0
-Czech: "LL-Q9056 (ces)-Ghost4Man-keř" by Speaker: Ghost4Man Recorder: Ghost4Man, CC0
-Czech: "LL-Q9056 (ces)-Ghost4Man-dobře" by Speaker: Ghost4Man Recorder: Ghost4Man, CC0
-Danish: "LL-Q9035 (dan)-Troe2339-gås" by Speaker: Troe2339 Recorder: Troe2339, CC BY-SA 4.0
-Danish: "LL-Q9035 (dan)-EskildDood-forår" by Speaker: EskildDood Recorder: EskildDood, CC0
-Danish: "LL-Q9035 (dan)-Huggywuggyy-forseelse" by Speaker: Huggywuggyy Recorder: Huggywuggyy, CC0
-Danish: "LL-Q9035 (dan)-Huggywuggyy-byrummet" by Speaker: Huggywuggyy Recorder: Huggywuggyy, CC0
+Cantonese: "Zero to ten in Cantonese Chinese" by Audioman, CC BY 2.5
+Georgian: "WIKITONGUES- Mariam speaking Georgian" by Wikitongues, CC BY 3.0
+Czech: words "moře", "keř", "dobře" by Ghost4Man (Lingua Libre), CC0
+Danish: word "gås" by Troe2339 (Lingua Libre), CC BY-SA 4.0
+Danish: word "forår" by EskildDood (Lingua Libre), CC0
+Danish: words "forseelse", "byrummet" by Huggywuggyy (Lingua Libre), CC0
 Welsh: "WIKITONGUES- Sandra speaking Welsh" by Wikitongues, CC BY 3.0
-Hawaiian: "LL-Q33569 (haw)-Rdgscratch is back-pona" by Speaker: Rdgscratch is back Recorder: Rdgscratch is back, CC0
-Hawaiian: "LL-Q33569 (haw)-Noaius Paticus-Haleʻiwa" by Speaker: Noaius Paticus Recorder: Noaius Paticus, CC BY-SA 4.0
-Hawaiian: "LL-Q33569 (haw)-Noaius Paticus-Waimalu" by Speaker: Noaius Paticus Recorder: Noaius Paticus, CC BY-SA 4.0
-Hawaiian: "LL-Q33569 (haw)-Noaius Paticus-Wahiawā" by Speaker: Noaius Paticus Recorder: Noaius Paticus, CC BY-SA 4.0
+Hawaiian: word "pona" by Rdgscratch is back (Lingua Libre), CC0
+Hawaiian: words "Haleʻiwa", "Waimalu", "Wahiawā" by Noaius Paticus (Lingua Libre), CC BY-SA 4.0
 Licences: https://creativecommons.org/licenses/by-sa/3.0/ and https://creativecommons.org/licenses/by-sa/4.0/ and https://creativecommons.org/licenses/by/2.5/ and https://creativecommons.org/licenses/by/3.0/
 Speaker counts are estimates; sources disagree for many small languages.
 

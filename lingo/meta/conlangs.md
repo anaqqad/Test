@@ -20,12 +20,8 @@ Audio credits (all via Wikimedia Commons):
 Esperanto: "Stela Speaks Esperanto" by Wikitongues, CC BY-SA 4.0
 Toki Pona: "WIKITONGUES- Koishi speaking Toki Pona" by Wikitongues, Koishi Weaver, CC BY-SA 4.0
 Klingon: "Tlh-Qapla'" by Adamsa123, CC BY-SA 4.0
-Klingon: "Tlh-Qu'vatlh" by Bluefoxicy, Public domain
-Klingon: "NukneH 01" by Bluefoxicy, Public domain
-Volapük: "Vo-Volapük" by Martelkapo, CC0
-Volapük: "Vo-falajelöm" by Martelkapo, CC0
-Volapük: "Vo-gudükumön" by Martelkapo, CC0
-Volapük: "Vo-dilamamalül" by Martelkapo, CC0
+Klingon: "Tlh-Qu'vatlh", "NukneH 01" by Bluefoxicy, Public domain
+Volapük: "Vo-Volapük", "Vo-falajelöm", "Vo-gudükumön", "Vo-dilamamalül" by Martelkapo, CC0
 Lojban: "WIKITONGUES- John speaking Lojban" by Wikitongues, CC BY 3.0
 Ido: "Ido pronunciation Beaufront Jespersen La maxim bona" by Louis de Beaufront, Otto Jespersen, Public domain
 Licences: https://creativecommons.org/licenses/by-sa/4.0/ and https://creativecommons.org/licenses/by/3.0/

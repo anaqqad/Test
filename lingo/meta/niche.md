@@ -23,8 +23,7 @@ Which language should we cover next? Tell us in the comments 👇
 
 Audio credits (all via Wikimedia Commons):
 Romansh: "Romansh (Wikitongues)" by Wikitongues, CC BY 3.0
-Faroese: "Fo-Foroyar" by LamereTot, CC BY-SA 4.0
-Faroese: "Fo-Torshavn" by LamereTot, CC BY-SA 4.0
+Faroese: "Fo-Foroyar", "Fo-Torshavn" by LamereTot, CC BY-SA 4.0
 Faroese: "Fo-Eiði" by Efloean, Public domain
 North Frisian: "Andreas singing in Northern Frisian" by Wikitongues Inc, CC BY-SA 4.0
 Siwi: "A young man from Siwa offers his greetings in the Siwan language" by أحمد ناجي, CC BY-SA 4.0
