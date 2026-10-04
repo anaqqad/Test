@@ -33,7 +33,7 @@ for (const it of items) {
     const key = artistOf(c.artist) + "|" + c.license;
     const word = c.title.slice(5).replace(/\.\w+$/, "").trim();
     if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(/^LL-Q/.test(word) ? word.replace(/-$/, "").split(")-").slice(-1)[0].split("-").slice(1).join("-") || word : word);
+    groups.get(key).push(/^LL-Q/.test(word) ? (word.match(/^LL-Q\d+ \(\w+\)-[^-]+-(.*?)-?$/) || [0, word])[1] : word);
     if (/BY-SA 4/.test(c.license)) lic.add("https://creativecommons.org/licenses/by-sa/4.0/");
     else if (/BY-SA 3/.test(c.license)) lic.add("https://creativecommons.org/licenses/by-sa/3.0/");
     else if (/BY 4/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/4.0/");

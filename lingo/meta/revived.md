@@ -23,7 +23,7 @@ Manx: "WIKITONGUES- Owen speaking Manx" by Wikitongues, Owen Williams, CC BY-SA 
 Māori: "Māori waiata from Waiheke Island" by Countrymike, CC BY-SA 4.0
 Latin: "WIKITONGUES- Titus speaking Latin" by Wikitongues, CC BY 3.0
 Sanskrit: word "नगांवमण्डलम्" by Thesaurabhsaha (Lingua Libre), CC BY-SA 4.0
-Sanskrit: words "LL-Q11059 (san)-Intobesa (咽頭べさ)-दुः-", "LL-Q11059 (san)-Intobesa (咽頭べさ)-मान्दार" by Intobesa (Lingua Libre), CC BY-SA 4.0
+Sanskrit: words "दुः", "मान्दार" by Intobesa (Lingua Libre), CC BY-SA 4.0
 Sanskrit: word "तारा" by Sriveenkat (Lingua Libre), CC BY-SA 4.0
 Licences: https://creativecommons.org/licenses/by/3.0/ and https://creativecommons.org/licenses/by-sa/4.0/
 Speaker counts are estimates; sources disagree for many small languages.
