@@ -56,14 +56,14 @@ export const VIDEOS = {
         audio: { file: "Wikitongues Jerry speaking Cherokee.mp3", start: "auto" },
       },
       {
-        name: "Kensiu", flag: "my", speakers: "<500", scene: "amazon", loc: [5.9, 100.9, "Kedah, Malaysia"],
-        char: F({ skin: "dark", hair: "curly", hairColor: "black", outfit: { type: "wrap", color: "#2a9d8f", color2: "#e9c46a", trim: "#c0392b" }, expression: "smile" }),
+        name: "Vepsian", flag: "ru", speakers: "~1,600", scene: "dalarna", loc: [61.0, 35.5, "Lake Onega, Russia"],
+        char: F({ skin: "pale", hair: "braids", hairColor: "blonde", hat: { type: "headscarf", color: "#c0392b", color2: "#f4f1e8" }, outfit: { type: "dress", color: "#f4f1e8", color2: "#c0392b", trim: "#c0392b" }, expression: "smile" }),
         cards: [
-          "Kensiu is an Aslian language spoken by a small Orang Asli community in the rainforests of northern Malaysia and southern Thailand.",
-          "It belongs to the Austroasiatic family, which makes it a distant relative of Vietnamese and Khmer, not of Malay.",
-          "Only a few hundred people speak it, and young people increasingly switch to Malay for school and work.",
+          "Vepsian is a Finnic language, a relative of Finnish and Estonian, spoken in villages between Lake Ladoga and Lake Onega in Russia.",
+          "In the Soviet era Vepsian schools were closed and families switched to Russian. Today only around 1,600 people speak it.",
+          "In the 1990s Vepsian got a new Latin alphabet, schoolbooks and even a newspaper, as activists fought to keep it alive.",
         ],
-        audio: { file: "Iskandar cakap Kensiu.webm", start: "auto" },
+        audio: { file: "Eniisi Lisika Vep.webm", start: "auto", avoid: ["en", "ru"] },
       },
       {
         name: "Lakota", flag: "us", speakers: "~2,000", scene: "oklahoma", loc: [43.5, -101.5, "South & North Dakota"],
@@ -83,7 +83,7 @@ export const VIDEOS = {
           "After colonisation it was nearly wiped out, and for decades almost no one spoke it fluently.",
           "Today the Yugambeh community is bringing it back with classes, songs and dictionaries, and many local place names still come from it.",
         ],
-        audio: { file: "Wikitongues - Shaun speaking Yugambeh Aboriginal Australians and Torres Strait Islanders .webm", start: "auto" },
+        audio: { file: "Wikitongues - Shaun speaking Yugambeh Aboriginal Australians and Torres Strait Islanders .webm", ranges: [[0, 6.6], [10.8, 20.1], [26.2, 36.0]] },
       },
       {
         name: "Ladino", flag: null, speakers: "<100,000", scene: "istanbul", loc: [41.0, 28.97, "Turkey, Israel, Balkans"],

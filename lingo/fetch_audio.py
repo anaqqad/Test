@@ -96,9 +96,9 @@ def slug(name):
     return re.sub(r"[^\w]+", "_", name).strip("_").lower()
 
 
-def pick_start(path, need):
-    """First window of `need` seconds whose speech Whisper does not identify as English (skips the English intros
-    most Wikitongues videos start with). Falls back to 0."""
+def pick_start(path, need, avoid=("en",)):
+    """Start of the `need`-second stretch that Whisper finds least likely to be in an `avoid` language (English intros,
+    or e.g. Malay for a Kensiu speaker who also speaks Malay). Silence counts as bad too."""
     global _model
     from faster_whisper import WhisperModel
     import numpy as np
@@ -106,29 +106,23 @@ def pick_start(path, need):
         _model = WhisperModel("base", device="cpu", compute_type="int8")
     total = duration(path)
     tmp = os.path.join(CACHE, "probe.wav")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", path, "-t", "420", "-vn", "-ac", "1", "-ar", "16000", tmp], check=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", path, "-t", "600", "-vn", "-ac", "1", "-ar", "16000", tmp], check=True)
     audio = np.frombuffer(open(tmp, "rb").read()[44:], dtype=np.int16).astype(np.float32) / 32768
     step, win = 5, 10
-    res = []
-    for t in range(0, int(min(total, 420) - win), step):
+    scores = []
+    for t in range(0, max(1, int(min(total, 600) - win)), step):
         seg = audio[t * 16000:(t + win) * 16000]
-        if np.sqrt((seg ** 2).mean()) < 0.01:
-            res.append((t, "silence", 0))
+        if len(seg) < 16000 or np.sqrt((seg ** 2).mean()) < 0.01:
+            scores.append((t, 1.0, "silence"))
             continue
-        lang, prob, _ = _model.detect_language(seg)
-        res.append((t, lang, prob))
-    # want ceil(need/step) consecutive non-English, non-silent windows
-    k = max(1, int(need // step) - 1)
-    for i in range(len(res) - k + 1):
-        if all(r[1] not in ("en", "silence") for r in res[i:i + k]):
-            print(f"    auto start {res[i][0]}s ({', '.join(r[1] for r in res[i:i + k])})")
-            return res[i][0]
-    for i, r in enumerate(res):
-        if r[1] not in ("en", "silence"):
-            print(f"    auto start (short run) {r[0]}s")
-            return r[0]
-    print("    auto start: none found, using 0")
-    return 0
+        lang, prob, allp = _model.detect_language(seg)
+        bad = sum(p for l, p in allp if l in avoid)
+        scores.append((t, bad, lang))
+    k = max(1, int(round((need - win) / step)) + 1)
+    best = min(range(max(1, len(scores) - k + 1)), key=lambda i: (sum(x[1] for x in scores[i:i + k]) / len(scores[i:i + k]), scores[i][0]))
+    run = scores[best:best + k]
+    print(f"    auto start {run[0][0]}s, avoid={','.join(avoid)} score={sum(x[1] for x in run) / len(run):.2f} ({', '.join(x[2] for x in run)})")
+    return run[0][0]
 
 
 def seg_duration(video, item):
@@ -193,7 +187,14 @@ def process(vkey, video):
                 if not m:
                     raise RuntimeError("not found: " + a["file"])
                 src = download(m)
-                start = pick_start(src, need) if a.get("start") == "auto" else float(a.get("start", 0))
+                if a.get("ranges"):  # only the stretches in the language itself (skip spoken translations)
+                    parts = "".join(f"[0]atrim={x}:{y},asetpts=PTS-STARTPTS,apad=pad_dur=0.5[p{k}];" for k, (x, y) in enumerate(a["ranges"]))
+                    cat = "".join(f"[p{k}]" for k in range(len(a["ranges"]))) + f"concat=n={len(a['ranges'])}:v=0:a=1,aresample=48000,pan=stereo|c0=c0|c1=c0,apad,atrim=0:{need},afade=t=out:st={need - 0.8}:d=0.8,loudnorm=I=-18:TP=-2[o]"
+                    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", src, "-filter_complex", parts + cat, "-map", "[o]", "-ar", str(SR), dst], check=True)
+                    manifest[key] = {"sig": sig, "credits": [m], "captions": [], "ranges": a["ranges"]}
+                    json.dump(manifest, open(manifest_path, "w"), indent=1, ensure_ascii=False)
+                    continue
+                start = pick_start(src, need, tuple(a.get("avoid", ["en"]))) if a.get("start") == "auto" else float(a.get("start", 0))
                 to_wav(src, dst, start, need, extra=f"afade=t=in:d=0.4,afade=t=out:st={need - 0.8}:d=0.8,loudnorm=I=-18:TP=-2")
                 manifest[key] = {"sig": sig, "credits": [m], "captions": [], "start": start}
             else:

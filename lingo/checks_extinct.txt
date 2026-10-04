@@ -1,0 +1,2 @@
+extinct/boruca.wav                   ru 0.32 |  Я мула-рара и бабуки кури-не, кури-не, кури-не.  Мой!  Огахни!  Ялка!  Огахни, дин-дин!
+extinct/cherokee.wav                 sw 0.23 |  Hale, yo negu, chan deska, hale,  kala nae ye,  sko, digu taksa, kala nae ye i'i cha,  sko, digu taksa, i'i.
