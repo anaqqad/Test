@@ -281,7 +281,7 @@ export const VIDEOS = {
           "It may have more distinct sounds than any other language. By some counts it has over 100 consonants, most of them clicks.",
           "Linguists still argue over exactly how many sounds it has, because many clicks can combine with other sounds.",
         ],
-        audio: { file: "TWa040429-0101 2 (1).wav", start: "auto" },
+        audio: { file: "TWa040429-0101 2 (1).wav", start: 170 },
       },
       {
         name: "Silbo Gomero", flag: "es", speakers: "1,000s", scene: "canary", loc: [28.1, -17.2, "La Gomera, Canary Islands"],
@@ -442,7 +442,7 @@ export const VIDEOS = {
           "Its root words were blended from six big languages: Mandarin, English, Hindi, Spanish, Russian and Arabic.",
           "It's used for experiments in logic and computing, and only a few dozen people speak it conversationally.",
         ],
-        audio: { file: "WIKITONGUES- John speaking Lojban.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- John speaking Lojban.webm", start: 346 },
       },
       {
         name: "Ido", flag: null, speakers: "a few hundred", scene: "grassland", loc: null,
