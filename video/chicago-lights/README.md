@@ -36,5 +36,5 @@ To use a cloned voice instead, swap `inference_sft` for `inference_zero_shot` wi
 because CosyVoice reads "1945" as "one thousand nine hundred...".
 
 ## Before publishing
-- Set the channel name on the subscribe card: `CHANNEL` in `tools/plan.py`.
+- Subscribe card text (channel: WWII Frontlines) is `CHANNEL` in `tools/plan.py`.
 - Metadata and sources for the description: `youtube.md`, `research/sources.md`, `research/footage_credits.md`.

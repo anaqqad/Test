@@ -26,6 +26,8 @@ Archive. Some scenes are representative and are labelled on screen.
 
 If you know another prisoner account we should look into, put it in the comments.
 
+WWII Frontlines: prisoner of war stories, documented.
+
 **Tags**
 german pow, prisoners of war in america, ww2 home front, chicago 1945, camp ellis, camp grant, pow escape,
 blackout, world war 2 history, documentary

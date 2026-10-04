@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FPS = 30
 # Channel branding for the silent subscribe card; set to your own channel name before publishing.
-CHANNEL = {"subscribe": "Subscribe for more", "tagline": "DOCUMENTED PRISONER OF WAR HISTORIES"}
+CHANNEL = {"subscribe": "Subscribe to WWII Frontlines", "tagline": "Prisoner of war stories, documented"}
 MAX_SHOT = 6.5
 CUT_LEAD = 0.1
 
