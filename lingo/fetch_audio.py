@@ -174,7 +174,12 @@ def build_sequence(metas, dst, need, repeat=1, gap=0.55):
     os.makedirs(tmpdir, exist_ok=True)
     for i, m in enumerate(metas):
         p = os.path.join(tmpdir, f"{i}.wav")
-        to_wav(download(m), p, extra="silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse")
+        try:
+            src = download(m)
+        except RuntimeError as e:  # one missing word shouldn't sink the whole segment
+            print("    skipping", m["title"], "-", e)
+            continue
+        to_wav(src, p, extra="silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse")
         d = duration(p)
         if t + d > need - 0.4:
             break
@@ -253,6 +258,8 @@ def process(vkey, video):
                     titles = a["seq"]
                 metas = [m for m in (info(t) for t in titles) if m]
                 caps = build_sequence(metas, dst, need, a.get("repeat", 1))
+                if len(caps) < 2:
+                    raise RuntimeError("too few recordings available")
                 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", dst, "-af", "loudnorm=I=-18:TP=-2", "-ar", str(SR), dst + ".n.wav"], check=True)
                 os.replace(dst + ".n.wav", dst)
                 used = {c["text"] for c in caps}

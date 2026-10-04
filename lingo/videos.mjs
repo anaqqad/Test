@@ -133,7 +133,7 @@ export const VIDEOS = {
           "For centuries Danish was the official language, and Faroese was not written down at all until the 1800s.",
           "Around 70,000 people speak it. In 2016 the islands even strapped cameras to sheep to get onto Google Street View: 'Sheep View 360'.",
         ],
-        audio: { file: "Tú alfagra land mítt.ogg", start: 0 },
+        audio: { seq: ["Fo-Foroyar.ogg", "Fo-Torshavn.ogg", "Fo-Eiði.oga"], repeat: 2 },
       },
       {
         name: "North Frisian", flag: "nfris", speakers: "~10,000", scene: "moorland", loc: [54.7, 8.6, "North Frisian islands, Germany"],
@@ -183,7 +183,7 @@ export const VIDEOS = {
           "Unusually for Turkic peoples, the Gagauz are Orthodox Christians. Their origins are still debated by historians.",
           "In the Soviet era it was written in Cyrillic, but since the 1990s it has used a Latin alphabet very similar to Turkish.",
         ],
-        audio: { file: "Gagauzskaia pesnia 01.ogg", start: 0 },
+        audio: { file: "Gagauzskaia pesnia 01.ogg", start: 42 },
       },
       {
         name: "Jèrriais", flag: "je", speakers: "<3,000", scene: "jersey", loc: [49.2, -2.13, "Jersey, Channel Islands"],
@@ -412,7 +412,7 @@ export const VIDEOS = {
           "It has only around 120 core words. Everything else is built from them: a 'friend' is 'jan pona', literally 'good person'.",
           "Its tiny vocabulary makes it one of the fastest languages to learn, and fans have written whole books in it.",
         ],
-        audio: { file: "Tobiah - toki pona.mp3", start: "auto" },
+        audio: { file: "WIKITONGUES- Koishi speaking Toki Pona.webm", start: "auto" },
       },
       {
         name: "Klingon", flag: null, speakers: "a few dozen", scene: "abstract", loc: null,
