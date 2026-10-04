@@ -76,8 +76,41 @@ def make(name, line1, line2, small, arrow_pts):
     img.save(T / f"{name}.png")
     print("wrote", T / f"{name}.jpg")
 
+# ---- v2: split frame, so the thumbnail reads as WWII at a glance ----
+# Left: German soldiers surrendering, 1944 (LoC LOT 8754, "Fifty-six German prisoners of war come out
+# with their hands in the air", public domain). Right: Chicago at night, 1943. Red grease-pencil divider.
+
+def surrender_panel(w, h):
+    im = Image.open(T / "surrender_master.tif").convert("L")
+    s = im.width / 1024  # crop chosen on the 1024 px preview
+    x0, y0, y1 = 70 * s, 255 * s, 700 * s  # the surrendering soldiers, hands up
+    hh = y1 - y0; ww = hh * w / h
+    im = im.crop((int(x0), int(y0), int(x0 + ww), int(y1))).resize((w, h), Image.LANCZOS)
+    a = np.asarray(im).astype(np.float32) / 255
+    a = np.clip((a - 0.08) * 1.25, 0, 1) ** 1.15
+    return Image.fromarray((a * 255).astype(np.uint8)).convert("RGB")
+
+def make_split(name, line1, line2, left_tag, right_tag, arrow_pts):
+    img = base()
+    left = surrender_panel(640, H)
+    mask = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(mask).polygon([(0, 0), (650, 0), (590, H), (0, H)], fill=255)
+    canvas = img.copy()
+    canvas.paste(left, (0, 0))
+    img = Image.composite(canvas, img, mask)
+    d = ImageDraw.Draw(img)
+    for col, w in (((0, 0, 0), 22), (RED, 12)):
+        d.line([(652, -10), (590, H + 10)], fill=col, width=w)
+    text(d, (690, 22), line1, 118)
+    text(d, (690, 132), line2, 118)
+    arrow(img, arrow_pts)
+    d = ImageDraw.Draw(img)
+    tag(d, (40, H - 92), left_tag, 38)
+    tag(d, (700, H - 92), right_tag, 38)
+    img.save(T / f"{name}.jpg", quality=92)
+    print("wrote", T / f"{name}.jpg")
+
+
 if __name__ == "__main__":
-    # A: the question the title raises
-    make("thumbnail_A", "NO", "BLACKOUT?", "ESCAPED POW · CHICAGO 1945", [(700, 120), (980, 90), (1075, 255)])
-    # B: what he wrote in his memoir
-    make("thumbnail_B", "A MILLION", "LIGHTS?!", "HE ESCAPED TO SEE THIS", [(720, 120), (985, 90), (1075, 255)])
+    make_split("thumbnail_A", "CAPTURED.", "THEN THIS?", "GERMAN POWs · 1944", "CHICAGO · 1945", [(760, 275), (820, 420), (1060, 360)])
+    make_split("thumbnail_B", "NO", "BLACKOUT?", "GERMAN POWs · 1944", "CHICAGO · 1945", [(760, 275), (820, 420), (1060, 360)])

@@ -12,12 +12,14 @@ Every option stays true to the sources: Pabel rode a **bus**, and he himself is 
 Avoid "German POWs Were Told American Cities Were Blacked Out": no source says they were told that.
 
 ## Thumbnail
-- `thumbnail/thumbnail_A.jpg`: **NO BLACKOUT?** with the arrow on the lit tower, and the tag "ESCAPED POW · CHICAGO 1945". Pair it with title A or D.
-- `thumbnail/thumbnail_B.jpg`: **A MILLION LIGHTS?!** with the tag "HE ESCAPED TO SEE THIS". Pair it with title C (it echoes his own words).
+Split frame, so it reads as WWII at a glance. Left: German soldiers surrendering with their hands up, 1944. Right: Chicago lit up at night. A red grease-pencil divider runs between them, and the arrow points to the lit windows.
+- `thumbnail/thumbnail_A.jpg`: **CAPTURED. THEN THIS?** Pair it with title A or D.
+- `thumbnail/thumbnail_B.jpg`: **NO BLACKOUT?** Pair it with title B or C.
 
-Both are 1280×720, under 2 MB, and built on a real 1943 Kodachrome of Chicago at night (Jack Delano,
-Library of Congress, public domain). Regenerate them with `python3 tools/thumbnail.py`.
-Recommended: run YouTube's "Test & compare" with A vs B.
+Photos (Library of Congress, public domain): "Fifty-six German prisoners of war come out with their hands in
+the air…", 1944 (LOT 8754); Jack Delano, Chicago at night, May 1943 (LC-USW36-606). The left photo shows
+German soldiers surrendering in 1944, not Pabel himself; the tag says only "GERMAN POWs · 1944".
+Regenerate them with `python3 tools/thumbnail.py`. Recommended: run YouTube's "Test & compare" with A vs B.
 
 ## Description
 In September 1945, German prisoner of war Reinhold Pabel walked away from a small branch camp in Washington, Illinois. He caught a bus in Peoria with $3.75 left in his pocket and rode through the night toward Chicago.
