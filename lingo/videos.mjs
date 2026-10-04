@@ -9,9 +9,9 @@ const F = (o) => ({ fem: true, ...o });
 
 export const VIDEOS = {
   // ------------------------------------------------------------------ 1
-  extinct2: {
+  extinct: {
     title: "Nearly Extinct Languages be like…",
-    part: "Part 2",
+    part: "",
     layout: "story",
     counterLabel: "speakers",
     items: [
@@ -109,9 +109,9 @@ export const VIDEOS = {
   },
 
   // ------------------------------------------------------------------ 2
-  niche2: {
+  niche: {
     title: "Insanely Niche Languages be like…",
-    part: "Part 2",
+    part: "",
     layout: "story",
     counterLabel: "speakers",
     items: [

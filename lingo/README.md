@@ -5,8 +5,8 @@ with code: no image generator, no paid API, no stock footage.
 
 | key | title | languages |
 |---|---|---|
-| `extinct2` | Nearly Extinct Languages be like… Part 2 | 9 |
-| `niche2` | Insanely Niche Languages be like… Part 2 | 11 |
+| `extinct` | Nearly Extinct Languages be like… | 9 |
+| `niche` | Insanely Niche Languages be like… | 11 |
 | `hardest` | Ranking languages by how hard they are (for English speakers) | 18 |
 | `sounds` | Languages with the weirdest sounds be like… | 12 |
 | `conlangs` | Constructed Languages be like… | 6 |

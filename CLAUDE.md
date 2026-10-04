@@ -42,9 +42,9 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
 (reference channel: youtube.com/@thatsquiteinteresting). Details: `lingo/README.md`, analysis: `lingo/ANALYSIS.md`.
 
 ## Owner rules for these videos
-- Build **6 videos** around the same idea (keys in `lingo/videos.mjs`: extinct2, niche2, hardest, sounds, conlangs, revived).
+- Build **6 videos** around the same idea (keys in `lingo/videos.mjs`: extinct, niche, hardest, sounds, conlangs, revived).
 - Topics must match the reference channel's style: meme-category titles ("X Languages be like…", rankings) + interesting
-  facts. **Not** videos about one country or region (owner rejected "Italy's languages" and "Middle East").
+  facts. No "Part 2" anywhere (owner has no part 1 videos). **Not** videos about one country or region (owner rejected "Italy's languages" and "Middle East").
 - **Only use sounds that were actually found**: real recordings from Wikimedia Commons. No synthesized speech or
   generated music. A language with no recording found gets replaced or dropped, never faked.
 - Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).

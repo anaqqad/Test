@@ -21,7 +21,7 @@ Uploaded copies were 640x360, 30 fps.
 6. Ranking variant: black background, flag + name + score "9/10" and one paragraph. The order builds to a punchline
    (English 20/10).
 7. Titles are memes ("… be like"), so the topic list is endless: extinct, niche, useful, hardest, weird sounds,
-   regions, part 2, part 3…
+   regions, part 2…
 
 ## Weaknesses (where we beat it)
 - 360p upload, blurry stock photos, tiny text that's hard to read on phones.
@@ -44,7 +44,7 @@ Uploaded copies were 640x360, 30 fps.
 Check that the @handle is free on YouTube before creating the channel.
 
 ## Publishing tips
-- Same title format as the niche leader: "Nearly Extinct Languages be like… (Part 2)".
+- Same title format as the niche leader: "Nearly Extinct Languages be like…".
 - Thumbnail: one character + one flag + 2-3 huge words (see `out/brand/thumb_*.png`).
 - Also cut each language into a 15-20 s vertical Short; these formats travel well on Shorts.
-- Pin a comment asking "Which language next?" (the outro asks the same); viewer suggestions turn into Part 3.
+- Pin a comment asking "Which language next?" (the outro asks the same); viewer suggestions become the next video.
