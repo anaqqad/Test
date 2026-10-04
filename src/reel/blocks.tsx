@@ -327,8 +327,10 @@ export const HookText: React.FC<{ text: string; animate?: boolean }> = ({ text, 
         }}
       >
         {words.map((raw, i) => {
-          // *word* = gold
-          const gold = /^\*.*\*[.,!?]?$/.test(raw);
+          // *a phrase* = gold: a word is gold from the one that opens with * to the one that closes with *
+          const opens = words.slice(0, i + 1).filter((x) => x.startsWith("*")).length;
+          const closes = words.slice(0, i).filter((x) => /\*[.,!?]?$/.test(x)).length;
+          const gold = opens > closes;
           const w = raw.replace(/\*/g, "");
           // no fade on frame 0: the words settle in place, they never start invisible
           const y = animate ? interpolate(frame, [i * 1.5, i * 1.5 + 8], [14, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_OUT }) : 0;

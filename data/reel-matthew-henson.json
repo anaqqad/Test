@@ -1,0 +1,526 @@
+{
+  "id": "reel-matthew-henson",
+  "title": "The Man Peary Couldn't Do Without",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "assets": {
+    "furhat": {
+      "commons": "File:Matthew Alexander Henson, head-and-shoulders portrait, facing front, wearing fur hat and fur coat LCCN00650163.jpg"
+    },
+    "p1910": {
+      "commons": "File:Matthew Henson 1910.jpg"
+    },
+    "lc1910": {
+      "commons": "File:Matthew A. Henson LCCN2018646109.jpg"
+    },
+    "afterpole": {
+      "commons": "File:Matthew A. Henson immediately after the sledge journey to the pole and back.jpg"
+    },
+    "furs": {
+      "commons": "File:Matthew A. Henson in his North Pole furs.jpg"
+    },
+    "flags": {
+      "commons": "File:Photograph of the Robert Peary Sledge Party Posing with Flags at the North Pole - NARA - 542472.jpg"
+    },
+    "measure": {
+      "commons": "File:Age, Weight, and Measurements of the Northern Sledge Party - NARA - 304962.jpg"
+    },
+    "sledge": {
+      "commons": "File:Greenland Inuit Sledge from Robert E. Peary's Final Polar Expedition.jpg"
+    },
+    "roosevelt": {
+      "commons": "File:Peary's steamer Roosevelt, Hudson-Fulton Parade.jpg"
+    },
+    "peary": {
+      "commons": "File:Robert Edwin Peary, full-length portrait, standing on the deck of the Roosevelt.jpg"
+    },
+    "old": {
+      "commons": "File:Matthew Henson NYWTS.jpg"
+    },
+    "headstone": {
+      "commons": "File:Headstone of Matthew Alexander Henson.jpg"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "In 1909, this man stood near the top of the world, and history almost forgot him.",
+      "visual": {
+        "kind": "photo",
+        "image": "afterpole",
+        "focus": [
+          0.49,
+          0.3
+        ],
+        "zoom": [
+          1.12,
+          1.15
+        ],
+        "anchor": [
+          0.43,
+          0.28
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "In 1909, he stood near the *top of the world.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "His name was Matthew Henson.",
+      "visual": {
+        "kind": "photo",
+        "image": "p1910",
+        "focus": [
+          0.48,
+          0.4
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.45,
+          0.32
+        ]
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Matthew Henson",
+          "sub": "Explorer · 1866 – 1955"
+        }
+      }
+    },
+    {
+      "id": "born",
+      "text": "Born in Maryland in 1866, he went to sea as a cabin boy.",
+      "visual": {
+        "kind": "title",
+        "title": "1866",
+        "sub": "a cabin boy at sea"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Maryland",
+          "sub": "Born 1866"
+        }
+      }
+    },
+    {
+      "id": "read",
+      "text": "The ship's captain taught him to read and write.",
+      "visual": {
+        "kind": "title",
+        "title": "At sea",
+        "sub": "the captain taught him to read and write"
+      }
+    },
+    {
+      "id": "peary",
+      "text": "In 1887, working in a store in Washington, he met the explorer Robert Peary.",
+      "visual": {
+        "kind": "photo",
+        "image": "peary",
+        "focus": [
+          0.47,
+          0.3
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      },
+      "section": "story",
+      "overlays": {
+        "lowerThird": {
+          "name": "Robert E. Peary",
+          "sub": "Arctic explorer"
+        }
+      }
+    },
+    {
+      "id": "north",
+      "text": "Peary hired him. Together they made seven expeditions to the Arctic.",
+      "visual": {
+        "kind": "card",
+        "image": "roosevelt",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Peary's ship, the Roosevelt"
+      }
+    },
+    {
+      "id": "sledge",
+      "text": "Henson learned the Inuit language and became an expert dog-sled driver.",
+      "visual": {
+        "kind": "photo",
+        "image": "sledge",
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.5,
+          0.45
+        ],
+        "motion": "panRight"
+      }
+    },
+    {
+      "id": "pole",
+      "text": "On April 6, 1909, Peary's team said they had reached the North Pole.",
+      "visual": {
+        "kind": "card",
+        "image": "flags",
+        "crop": [
+          0.03,
+          0.02,
+          0.97,
+          0.98
+        ],
+        "caption": "The sledge party with flags, April 1909"
+      },
+      "overlays": {
+        "stamp": "April 6, 1909"
+      }
+    },
+    {
+      "id": "debate",
+      "text": "Henson was there. Whether they reached the exact Pole is still debated.",
+      "visual": {
+        "kind": "card",
+        "image": "measure",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Measurements of the sledge party, 1909 (National Archives)",
+        "clipping": true
+      }
+    },
+    {
+      "id": "clerk",
+      "text": "But Peary got the fame. Henson spent decades as a clerk in New York.",
+      "visual": {
+        "kind": "photo",
+        "image": "furhat",
+        "crop": [
+          0.12,
+          0.18,
+          0.86,
+          0.86
+        ],
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.45,
+          0.32
+        ]
+      },
+      "section": "cost"
+    },
+    {
+      "id": "club",
+      "text": "Recognition came slowly. In 1937, the Explorers Club finally made him a member.",
+      "visual": {
+        "kind": "card",
+        "image": "lc1910",
+        "crop": [
+          0.03,
+          0.02,
+          0.97,
+          0.98
+        ],
+        "caption": "Henson on a 1910 trading card"
+      }
+    },
+    {
+      "id": "arlington",
+      "text": "In 1988, he was reburied at Arlington National Cemetery, near Peary.",
+      "visual": {
+        "kind": "photo",
+        "image": "headstone",
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.5,
+          0.42
+        ]
+      },
+      "overlays": {
+        "pin": {
+          "label": "Arlington",
+          "sub": "Virginia"
+        }
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "He went to the end of the earth. It took the world almost eighty years to catch up.",
+      "visual": {
+        "kind": "card",
+        "image": "old",
+        "crop": [
+          0.03,
+          0.0,
+          0.97,
+          1.0
+        ],
+        "caption": "Henson in 1953, holding his famous Arctic portrait"
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "voice": {
+    "engine": "elevenlabs",
+    "voiceId": "gUABw7pXQjhjt0kNFBTF",
+    "voiceName": "Andrew - Smooth audio books",
+    "model": "eleven_multilingual_v2",
+    "stability": 0.6,
+    "similarity": 0.75,
+    "style": 0.0,
+    "speed": 1.05,
+    "seed": 1234,
+    "leadInSeconds": 0.3,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "faces": {
+    "afterpole": [
+      [
+        0.28,
+        0.15,
+        0.7,
+        0.48
+      ]
+    ],
+    "furhat": [
+      [
+        0.37,
+        0.33,
+        0.65,
+        0.64
+      ]
+    ],
+    "p1910": [
+      [
+        0.28,
+        0.14,
+        0.68,
+        0.62
+      ]
+    ],
+    "lc1910": [
+      [
+        0.27,
+        0.12,
+        0.63,
+        0.47
+      ]
+    ],
+    "furs": [
+      [
+        0.43,
+        0.04,
+        0.65,
+        0.17
+      ]
+    ],
+    "old": [
+      [
+        0.16,
+        0.06,
+        0.38,
+        0.42
+      ],
+      [
+        0.53,
+        0.27,
+        0.75,
+        0.6
+      ]
+    ],
+    "peary": [
+      [
+        0.38,
+        0.02,
+        0.56,
+        0.14
+      ]
+    ]
+  },
+  "facts": [
+    {
+      "beat": "born",
+      "claim": "Born in Maryland, 1866; cabin boy at sea as a boy.",
+      "sources": [
+        "BOW",
+        "NG",
+        "BP"
+      ],
+      "note": "Birth day differs (Aug 6 NG, Aug 8 BOW); script gives the year only. Age 12 (BOW, BP) or 13 (NG); script says 'as a cabin boy'."
+    },
+    {
+      "beat": "read",
+      "claim": "The ship's captain taught him to read and write.",
+      "sources": [
+        "NG",
+        "BP"
+      ]
+    },
+    {
+      "beat": "peary",
+      "claim": "Met Peary in Washington, 1887, while working in a store (hat shop / clothing store).",
+      "sources": [
+        "BOW",
+        "NG",
+        "BP"
+      ]
+    },
+    {
+      "beat": "north",
+      "claim": "Seven Arctic expeditions with Peary.",
+      "sources": [
+        "BOW",
+        "BP"
+      ]
+    },
+    {
+      "beat": "sledge",
+      "claim": "Spoke the Inuit language; expert dog-sled driver.",
+      "sources": [
+        "BOW",
+        "NG",
+        "BP"
+      ]
+    },
+    {
+      "beat": "pole",
+      "claim": "On 6 April 1909 Peary's party claimed the North Pole; Henson was with him.",
+      "sources": [
+        "BOW",
+        "NG",
+        "NARA"
+      ]
+    },
+    {
+      "beat": "debate",
+      "claim": "Whether they reached the exact Pole is disputed.",
+      "sources": [
+        "BP",
+        "NG"
+      ],
+      "note": "BP: later research shows they did not reach it; NG: 1988 article 'Did He Reach the Pole?'. Script calls it 'still debated'."
+    },
+    {
+      "beat": "clerk",
+      "claim": "Peary got the fame; Henson worked for decades as a clerk at the New York Customs House.",
+      "sources": [
+        "BOW",
+        "BP"
+      ]
+    },
+    {
+      "beat": "club",
+      "claim": "Explorers Club membership, 1937.",
+      "sources": [
+        "BOW",
+        "DART",
+        "CSMD"
+      ],
+      "note": "BOW: 'belatedly admitted'; DART and CSMD give 1937 (first African American life member)."
+    },
+    {
+      "beat": "arlington",
+      "claim": "Reinterred at Arlington National Cemetery in 1988, near Peary.",
+      "sources": [
+        "BOW",
+        "NG",
+        "BP"
+      ]
+    }
+  ],
+  "sources": {
+    "BOW": {
+      "name": "Bowdoin College, Peary-MacMillan Arctic Museum: Matthew Henson",
+      "url": "https://www.bowdoin.edu/arctic-museum/educational-resources/arctic-biographies/henson.html"
+    },
+    "NG": {
+      "name": "National Geographic: Profile, African-American North Pole Explorer Matthew Henson",
+      "url": "https://www.nationalgeographic.com/culture/article/profile-african-american-north-pole-explorer-matthew-henson"
+    },
+    "BP": {
+      "name": "BlackPast: Matthew Henson (1866-1955), by Matthew C. Whitaker",
+      "url": "https://www.blackpast.org/african-american-history/henson-matthew-1866-1955"
+    },
+    "NARA": {
+      "name": "National Archives: sledge party photograph and measurements, April 1909",
+      "url": "https://catalog.archives.gov/id/542472"
+    },
+    "DART": {
+      "name": "Dartmouth Library course exhibit: Matthew Henson",
+      "url": "https://course-exhibits.library.dartmouth.edu/s/ENVS15_24F/page/Matthew-henson"
+    },
+    "CSMD": {
+      "name": "College of Southern Maryland, Southern Maryland Studies Center: Henson, Matthew Alexander",
+      "url": "https://smsc.library.csmd.edu/agents/people/433"
+    }
+  },
+  "notUsed": [
+    "Peary quote 'I can't get along without him' (via one magazine article): not used.",
+    "Claim that Henson reached the Pole before Peary (Henson's own account only): not used."
+  ]
+}
