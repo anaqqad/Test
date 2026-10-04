@@ -11,13 +11,13 @@ Which language should we cover next? Tell us in the comments 👇
 0:00 Intro
 0:03 Wymysorys (~20 speakers)
 0:20 Kusunda (~1 speaker)
-0:38 Nuxalk (<20 speakers)
+0:38 Nuxalk (under 20 speakers)
 0:56 Cherokee (~2,000 speakers)
 1:13 Vepsian (~1,600 speakers)
 1:31 Lakota (~2,000 speakers)
 1:48 Yugambeh (revival)
-2:06 Ladino (<100,000 speakers)
-2:24 Boruca (<10 speakers)
+2:06 Ladino (under 100,000 speakers)
+2:24 Boruca (under 10 speakers)
 
 Audio credits (all via Wikimedia Commons):
 Wymysorys: "Helka 20120104 Wym" by Wikitongues, CC BY-SA 4.0
@@ -36,6 +36,9 @@ Speaker counts are estimates; sources disagree for many small languages.
 
 ## Tags
 nearly extinct languages, endangered languages, extinct languages, languages be like, rare languages, dying languages, last speakers, language isolate, Wymysorys, Kusunda, Nuxalk, Cherokee language, Vepsian, Lakota language, Yugambeh, Ladino, Boruca, linguistics, Wikitongues, LingoDude
+
+## Notes
+- YouTube descriptions can't contain angle brackets (< >), so speaker counts say "under" instead.
 
 ## Settings
 - Category: Education
