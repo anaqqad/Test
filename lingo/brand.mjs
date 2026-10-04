@@ -40,7 +40,7 @@ for (const [k, [t1, t2, i, col]] of Object.entries(thumbs)) {
       <div style="margin-bottom:22px">${flag(it.flag, 80)}</div>
       <div style="font-weight:800;font-size:92px;line-height:.98;color:#fff;text-shadow:-4px -4px 0 #000,-4px 0px 0 #000,-4px 4px 0 #000,0px -4px 0 #000,0px 4px 0 #000,4px -4px 0 #000,4px 0px 0 #000,4px 4px 0 #000,0 9px 0 #000,0 0 40px rgba(0,0,0,.6)">${t1}</div>
       <div style="display:inline-block;margin-top:26px;background:${col};color:#fff;font-weight:800;font-size:64px;padding:8px 34px;border-radius:18px;box-shadow:0 8px 0 rgba(0,0,0,.5)">${t2}</div></div>
-    <div class="abs" style="right:24px;bottom:18px">${logoSvg(54)}</div></body>`];
+    </body>`];
 }
 const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
 for (const [name, [w, h, body]] of Object.entries(pages)) {
