@@ -1,0 +1,616 @@
+{
+  "id": "reel-henry-box-brown",
+  "title": "He Mailed Himself to Freedom",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+    "engine": "elevenlabs",
+    "voiceId": "gUABw7pXQjhjt0kNFBTF",
+    "voiceName": "Andrew - Smooth audio books",
+    "model": "eleven_multilingual_v2",
+    "stability": 0.6,
+    "similarity": 0.75,
+    "style": 0.0,
+    "speed": 1.05,
+    "seed": 1234,
+    "leadInSeconds": 0.3,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "assets": {
+    "portrait": {
+      "commons": "File:NHBB D004 Henry Box Brown.jpg"
+    },
+    "titlepage": {
+      "commons": "File:NHBB D001 Title Page.jpg"
+    },
+    "boxrep": {
+      "commons": "File:NHBB D094 Representation of the Box.jpg"
+    },
+    "litho": {
+      "commons": "File:The resurrection of Henry Box Brown at Philadelphia, who escaped from Richmond Va. in a bx 3 feet long 2 1-2 ft. deep and 2 ft wide LCCN2004665363.jpg"
+    },
+    "still1872": {
+      "commons": "File:Resurrection of Henry Box Brown.png"
+    },
+    "richmond": {
+      "commons": "File:View of Richmond, Va - NARA - 526378.jpg"
+    },
+    "liberator": {
+      "commons": "File:\"New and Original Panorama!\" The Liberator, May 3, 1850.jpg"
+    },
+    "still": {
+      "commons": "File:William Still abolitionist.jpg"
+    },
+    "mckim": {
+      "commons": "File:James Miller McKim.png"
+    },
+    "poster": {
+      "commons": "File:Slave kidnap post 1851 boston.jpg"
+    }
+  },
+  "faces": {
+    "portrait": [
+      [
+        0.34,
+        0.06,
+        0.66,
+        0.38
+      ]
+    ],
+    "litho": [
+      [
+        0.4,
+        0.36,
+        0.47,
+        0.47
+      ],
+      [
+        0.19,
+        0.2,
+        0.26,
+        0.31
+      ],
+      [
+        0.27,
+        0.2,
+        0.34,
+        0.31
+      ],
+      [
+        0.52,
+        0.17,
+        0.59,
+        0.29
+      ],
+      [
+        0.69,
+        0.17,
+        0.76,
+        0.29
+      ]
+    ],
+    "still1872": [
+      [
+        0.43,
+        0.3,
+        0.52,
+        0.44
+      ],
+      [
+        0.15,
+        0.18,
+        0.22,
+        0.29
+      ],
+      [
+        0.27,
+        0.1,
+        0.35,
+        0.22
+      ],
+      [
+        0.55,
+        0.1,
+        0.62,
+        0.22
+      ],
+      [
+        0.77,
+        0.12,
+        0.84,
+        0.21
+      ]
+    ],
+    "mckim": [
+      [
+        0.25,
+        0.08,
+        0.8,
+        0.62
+      ]
+    ],
+    "still": [
+      [
+        0.3,
+        0.08,
+        0.7,
+        0.45
+      ]
+    ]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "In 1849, an enslaved man mailed himself to freedom.",
+      "visual": {
+        "kind": "photo",
+        "image": "portrait",
+        "focus": [
+          0.5,
+          0.22
+        ],
+        "zoom": [
+          1.3,
+          1.38
+        ],
+        "anchor": [
+          0.42,
+          0.24
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "In 1849, an enslaved man *mailed himself* to *freedom.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "His name was Henry Brown.",
+      "visual": {
+        "kind": "photo",
+        "image": "portrait",
+        "focus": [
+          0.5,
+          0.25
+        ],
+        "zoom": [
+          1.1,
+          1.2
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Henry \"Box\" Brown",
+          "sub": "c. 1815 – 1897"
+        }
+      }
+    },
+    {
+      "id": "richmond",
+      "text": "He worked in a tobacco factory in Richmond, Virginia.",
+      "visual": {
+        "kind": "photo",
+        "image": "richmond",
+        "focus": [
+          0.5,
+          0.62
+        ],
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "anchor": [
+          0.5,
+          0.45
+        ],
+        "motion": "panLeft"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Richmond",
+          "sub": "Virginia"
+        }
+      }
+    },
+    {
+      "id": "sold",
+      "text": "In 1848, his wife and three children were sold away to North Carolina.",
+      "visual": {
+        "kind": "title",
+        "title": "1848",
+        "sub": "his wife and children, sold away"
+      },
+      "section": "story"
+    },
+    {
+      "id": "plan",
+      "text": "So Brown planned an escape inside a box.",
+      "visual": {
+        "kind": "card",
+        "image": "boxrep",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "His box, as drawn in his 1849 narrative"
+      }
+    },
+    {
+      "id": "sealed",
+      "text": "On March 23, 1849, two helpers sealed him in a wooden crate, three feet long.",
+      "visual": {
+        "kind": "card",
+        "image": "titlepage",
+        "crop": [
+          0.06,
+          0.37,
+          0.94,
+          0.48
+        ],
+        "caption": "Narrative of Henry Box Brown, Boston, 1849",
+        "clipping": true
+      },
+      "overlays": {
+        "stamp": "March 1849"
+      }
+    },
+    {
+      "id": "label",
+      "text": "It was marked: This side up with care.",
+      "visual": {
+        "kind": "card",
+        "image": "still1872",
+        "crop": [
+          0.36,
+          0.14,
+          0.74,
+          0.56
+        ],
+        "caption": "The lid, drawn in William Still's 1872 book"
+      }
+    },
+    {
+      "id": "travel",
+      "text": "It went by wagon, train and steamboat to Philadelphia.",
+      "visual": {
+        "kind": "title",
+        "title": "On the move",
+        "sub": "by wagon, train and steamboat"
+      }
+    },
+    {
+      "id": "upside",
+      "text": "Workers turned it upside down. For miles, he rode on his head.",
+      "visual": {
+        "kind": "photo",
+        "image": "boxrep",
+        "focus": [
+          0.45,
+          0.45
+        ],
+        "zoom": [
+          1.0,
+          1.08
+        ],
+        "anchor": [
+          0.5,
+          0.42
+        ],
+        "motion": "panRight"
+      }
+    },
+    {
+      "id": "silent",
+      "text": "He stayed still and silent for more than a day.",
+      "visual": {
+        "kind": "title",
+        "title": "Over a day",
+        "sub": "inside a box three feet long"
+      }
+    },
+    {
+      "id": "opened",
+      "text": "In Philadelphia, abolitionists pried off the lid.",
+      "visual": {
+        "kind": "card",
+        "image": "mckim",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "James Miller McKim, who received the box"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Philadelphia",
+          "sub": "Pennsylvania"
+        }
+      }
+    },
+    {
+      "id": "alive",
+      "text": "Brown climbed out alive, and sang a hymn.",
+      "visual": {
+        "kind": "photo",
+        "image": "litho",
+        "focus": [
+          0.44,
+          0.42
+        ],
+        "zoom": [
+          1.2,
+          1.3
+        ],
+        "anchor": [
+          0.36,
+          0.38
+        ]
+      }
+    },
+    {
+      "id": "renamed",
+      "text": "From then on, the world called him Henry Box Brown.",
+      "visual": {
+        "kind": "card",
+        "image": "titlepage",
+        "crop": [
+          0.06,
+          0.08,
+          0.94,
+          0.3
+        ],
+        "caption": "His story in print, 1849",
+        "clipping": true
+      }
+    },
+    {
+      "id": "law",
+      "text": "But in 1850, a new Fugitive Slave Law put him at risk of capture.",
+      "visual": {
+        "kind": "card",
+        "image": "poster",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "A warning poster, Boston, 1851"
+      },
+      "section": "cost"
+    },
+    {
+      "id": "england",
+      "text": "So he sailed to England, and took his story on stage.",
+      "visual": {
+        "kind": "card",
+        "image": "liberator",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          0.42
+        ],
+        "caption": "The Liberator, May 3, 1850",
+        "clipping": true
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "He turned a shipping crate into a road to freedom.",
+      "visual": {
+        "kind": "photo",
+        "image": "still1872",
+        "focus": [
+          0.48,
+          0.4
+        ],
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "anchor": [
+          0.45,
+          0.38
+        ]
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "sources": {
+    "EV": {
+      "name": "Encyclopedia Virginia (Virginia Humanities): Henry Box Brown (1815 or 1816–1897)",
+      "url": "https://encyclopediavirginia.org/entries/brown-henry-box-1815-or-1816-1897/"
+    },
+    "BRIT": {
+      "name": "Encyclopaedia Britannica: Henry Box Brown",
+      "url": "https://www.britannica.com/biography/Henry-Box-Brown"
+    },
+    "STILL": {
+      "name": "William Still, The Underground Rail Road (Philadelphia, 1872), pp. 81–86, via Dickinson College House Divided",
+      "url": "https://housedivided.dickinson.edu/ugrr/print_recollection_boxbrown.html"
+    },
+    "PSU": {
+      "name": "Pennsylvania Center for the Book (Penn State University Libraries): Henry \"Box\" Brown",
+      "url": "https://pabook.libraries.psu.edu/literary-cultural-heritage-map-pa/bios/brown__henry_box"
+    },
+    "LOC": {
+      "name": "Library of Congress: The resurrection of Henry Box Brown at Philadelphia (lithograph, 1850)",
+      "url": "https://www.loc.gov/pictures/item/2004665363/"
+    },
+    "NHBB": {
+      "name": "Narrative of Henry Box Brown (Boston, 1849), title page and box illustration (Wikimedia Commons scans)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Narrative_of_Henry_Box_Brown_(book)"
+    }
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "In 1849 Brown, enslaved, escaped by shipping himself in a box to Philadelphia.",
+      "sources": [
+        "EV",
+        "BRIT",
+        "STILL"
+      ]
+    },
+    {
+      "beat": "name",
+      "claim": "Born Henry Brown, c. 1815/16; died 1897.",
+      "sources": [
+        "EV",
+        "BRIT"
+      ],
+      "note": "Birth year 1815 or 1816 (EV), 1815 (BRIT); lower third says c. 1815."
+    },
+    {
+      "beat": "richmond",
+      "claim": "Worked in a tobacco factory in Richmond, Virginia.",
+      "sources": [
+        "EV",
+        "PSU"
+      ]
+    },
+    {
+      "beat": "sold",
+      "claim": "In 1848 his wife Nancy and their three children were sold to an owner in North Carolina.",
+      "sources": [
+        "EV",
+        "BRIT"
+      ],
+      "note": "Nancy was pregnant with a fourth child (EV, BRIT, PSU); script says three children."
+    },
+    {
+      "beat": "sealed",
+      "claim": "On 23 March 1849 he was sealed into a wooden box about 3 ft long, 2 ft wide, 2.5 ft deep, by two helpers (James C. A. Smith and Samuel A. Smith).",
+      "sources": [
+        "EV",
+        "BRIT",
+        "LOC",
+        "NHBB"
+      ]
+    },
+    {
+      "beat": "label",
+      "claim": "The box was marked 'This side up with care.'",
+      "sources": [
+        "STILL",
+        "PSU"
+      ],
+      "note": "The 1849 narrative's drawing reads 'Right side up with care'; Still (1872) and the 1851 narrative say 'This side up with care'."
+    },
+    {
+      "beat": "travel",
+      "claim": "It travelled by wagon, railroad and steamboat to Philadelphia.",
+      "sources": [
+        "BRIT",
+        "STILL"
+      ],
+      "note": "STILL: dray to Adams' Express, then overland express; EV: shipped by train."
+    },
+    {
+      "beat": "upside",
+      "claim": "The box was turned upside down; he rode on his head for a long stretch.",
+      "sources": [
+        "EV",
+        "STILL",
+        "PSU"
+      ],
+      "note": "STILL: 'on his head for miles'; EV: head-down for several hours; PSU: about an hour and a half in the worst position."
+    },
+    {
+      "beat": "silent",
+      "claim": "He stayed still and silent; the trip took 26–27 hours.",
+      "sources": [
+        "STILL",
+        "BRIT",
+        "EV",
+        "PSU"
+      ],
+      "note": "26 hours (STILL, EV), 27 (BRIT); script says 'more than a day'."
+    },
+    {
+      "beat": "opened",
+      "claim": "In Philadelphia, at the Anti-Slavery office, abolitionists including James Miller McKim opened the box.",
+      "sources": [
+        "STILL",
+        "BRIT",
+        "PSU"
+      ]
+    },
+    {
+      "beat": "alive",
+      "claim": "He came out alive and sang a hymn (based on Psalm 40).",
+      "sources": [
+        "BRIT",
+        "STILL"
+      ]
+    },
+    {
+      "beat": "renamed",
+      "claim": "He became known as Henry 'Box' Brown.",
+      "sources": [
+        "EV",
+        "BRIT"
+      ]
+    },
+    {
+      "beat": "law",
+      "claim": "After the 1850 Fugitive Slave Act he feared capture.",
+      "sources": [
+        "EV",
+        "BRIT",
+        "PSU"
+      ]
+    },
+    {
+      "beat": "england",
+      "claim": "He sailed to England (October 1850) and toured with his panorama and stage shows.",
+      "sources": [
+        "EV",
+        "BRIT",
+        "PSU"
+      ]
+    }
+  ],
+  "notUsed": [
+    "Quote 'How do you do, gentlemen?' (Still's account only): not used.",
+    "'350 miles' distance (popular sites only): not used.",
+    "Claims that he never saw his family again: not verified, not used."
+  ],
+  "credits": "Images: Library of Congress (lithograph 1850); Narrative of Henry Box Brown (1849); William Still, The Underground Rail Road (1872); National Archives (Richmond, c. 1860–65); The Liberator (1850); Boston poster (1851); Lamb's Biographical Dictionary (1903). All public domain via Wikimedia Commons."
+}

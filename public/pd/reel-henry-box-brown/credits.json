@@ -1,0 +1,92 @@
+{
+  "portrait": {
+    "title": "File:NHBB D004 Henry Box Brown.jpg",
+    "artist": "Henry Box Brown, Charles Stearns",
+    "date": "1849-06-12",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:NHBB_D004_Henry_Box_Brown.jpg",
+    "width": 1280,
+    "height": 1512
+  },
+  "titlepage": {
+    "title": "File:NHBB D001 Title Page.jpg",
+    "artist": "Henry Box Brown, Charles Stearns",
+    "date": "1849-06-12",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:NHBB_D001_Title_Page.jpg",
+    "width": 1920,
+    "height": 3066
+  },
+  "boxrep": {
+    "title": "File:NHBB D094 Representation of the Box.jpg",
+    "artist": "Henry Box Brown with Charles Stearns",
+    "date": "1849-06-12",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:NHBB_D094_Representation_of_the_Box.jpg",
+    "width": 1280,
+    "height": 788
+  },
+  "litho": {
+    "title": "File:The resurrection of Henry Box Brown at Philadelphia, who escaped from Richmond Va. in a bx 3 feet long 2 1-2 ft. deep and 2 ft wide LCCN2004665363.jpg",
+    "artist": "Samuel W. Rowse",
+    "date": "1850",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:The_resurrection_of_Henry_Box_Brown_at_Philadelphia,_who_escaped_from_Richmond_Va._in_a_bx_3_feet_long_2_1-2_ft._deep_and_2_ft_wide_LCCN2004665363.jpg",
+    "width": 1920,
+    "height": 1479
+  },
+  "still1872": {
+    "title": "File:Resurrection of Henry Box Brown.png",
+    "artist": "William Still / \"Engravings by Bensell, Schell, and others.\"",
+    "date": "1872",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Resurrection_of_Henry_Box_Brown.png",
+    "width": 960,
+    "height": 727
+  },
+  "richmond": {
+    "title": "File:View of Richmond, Va - NARA - 526378.jpg",
+    "artist": "Mathew Benjamin Brady",
+    "date": "between circa 1860 and circa 1865",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_Richmond,_Va_-_NARA_-_526378.jpg",
+    "width": 1920,
+    "height": 1523
+  },
+  "liberator": {
+    "title": "File:\"New and Original Panorama!\" The Liberator, May 3, 1850.jpg",
+    "artist": "Liberator",
+    "date": "1850-05-03",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:%22New_and_Original_Panorama!%22_The_Liberator,_May_3,_1850.jpg",
+    "width": 960,
+    "height": 2217
+  },
+  "still": {
+    "title": "File:William Still abolitionist.jpg",
+    "artist": "UnknownUnknown",
+    "date": "Published 1898",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Still_abolitionist.jpg",
+    "width": 960,
+    "height": 1201
+  },
+  "mckim": {
+    "title": "File:James Miller McKim.png",
+    "artist": "Unknown authorUnknown author",
+    "date": "1903-01-01",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Miller_McKim.png",
+    "width": 330,
+    "height": 416
+  },
+  "poster": {
+    "title": "File:Slave kidnap post 1851 boston.jpg",
+    "artist": "",
+    "date": "",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Slave_kidnap_post_1851_boston.jpg",
+    "width": 330,
+    "height": 488
+  }
+}

@@ -86,6 +86,10 @@ Free timing previews: Kokoro scratch (`am_michael`, speed 1.1), spec id ending i
 - Push only to the session's assigned branch; no PR unless asked.
 
 ## Lessons from the pilot
+- **Hook = views.** Owner, 2026-10-05: the Robert Smalls reel got by far the most views because its first
+  seconds say something shocking ("In 1862, an enslaved man stole a Confederate warship."). Bessie Coleman
+  ("She learned French to learn to fly") did worse because nothing shocking is said in the first 5 s.
+  Every reel must open with a jaw-drop line in the first 1-2 s: who + an unbelievable act, stated plainly.
 - Tight hook crops can push the face into the right 15 %; group engravings put faces in the bottom/right zones;
   overshoot animations (date stamp) can poke into the right edge. The safe-zone QC catches these.
 - The greedy caption chunker stranded one-word chunks ("Smalls."); it was replaced by a balanced chunker that
@@ -98,4 +102,4 @@ Series: Forgotten First, Before Rosa Parks, One Photo One Story, Invented By, My
 Candidates not yet done: Claudette Colvin (2 March 1955), Garrett Morgan (1916 Lake Erie tunnel rescue),
 Henrietta Lacks (handle consent carefully), Major Taylor (1899 world cycling champion), Katherine Johnson,
 Lewis Latimer, Madam C. J. Walker (word the "first" claim carefully).
-Done: Robert Smalls, Bessie Coleman, Matthew Henson.
+Done: Robert Smalls, Bessie Coleman, Matthew Henson. In progress: Henry "Box" Brown (branch claude/black-history-reels-4pk8ts).
