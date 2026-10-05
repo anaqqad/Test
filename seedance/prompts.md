@@ -271,20 +271,25 @@ Camera: opening close-up, handheld during the confrontation, slow push-ins on th
 Hook text: "He thought the boy was stealing his truck… then he looked underneath 😢"
 Caption: "He wasn't stealing. He was saving a life. ❤️"
 
-## 9. "The Way Out" (inspiring cartel story, no violence shown)
+## 9. "The Way Out" (v2, rechecked)
+
+v1 errors fixed: nobody drove the SUV away; the streetlight "flickering on" in the global line (would flicker all
+video); the girl's running direction undefined; a close-up showing a back-pocket action; the envelope vanished;
+the photo girl had the same pigtails (model may reuse the sister's face); backpack vs piggyback conflict;
+"total silence" during a spoken line.
 
 ```
-Vertical 9:16, 30s. Cinematic photoreal emotional drama, dusty hillside neighborhood in a fictional town at golden-hour dusk, unpainted cinder-block houses, power lines, a single streetlight flickering on, orange sky, warm haze, shallow depth of field, natural skin texture, light film grain. Exactly 3 characters, identical faces and wardrobe in every shot, no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. No weapons, no drugs shown, no real gang names, symbols or hand signs. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+Vertical 9:16, 30s. Cinematic photoreal emotional drama, dusty hillside neighborhood in a fictional town at golden-hour dusk, unpainted cinder-block houses, power lines, orange sky, warm haze, shallow depth of field, natural skin texture, light film grain. Exactly 3 characters, identical faces and wardrobe in every shot, no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. No weapons, no drugs shown, no real gang names, symbols or hand signs. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
 
 Characters:
 - LITTLE SISTER (7): Mexican girl, two messy pigtails with red hair ties, a scraped knee, faded yellow t-shirt with a cartoon sun, denim shorts, barefoot, tear-streaked dusty cheeks.
 - BROTHER (16): Mexican teen boy, skinny, short black hair with a faded undercut, thin teenage mustache, clean white t-shirt, black school backpack on one shoulder, grey jeans, worn white sneakers.
 - RECRUITER (mid-30s): Mexican man, medium build, shaved sides with short slicked-back black hair, a thin scar across his chin, plain black button-up shirt with sleeves rolled, faded patterned tattoos on his forearms (abstract, no symbols), silver watch, sunglasses tucked in his collar. A worn leather wallet in his back pocket.
 
-Location: a steep dirt street; a black SUV with no logos and tinted windows parked on the right with its rear door open; a small blue cinder-block house with a metal door on the left. Screen direction never flips: house left, SUV right.
+Location: a steep dirt street; a black SUV with no logos and tinted windows parked on the right, engine running, driver door and rear door open; a small blue cinder-block house with a metal door on the left; an unlit streetlight on a pole between them. Screen direction never flips: house left, SUV right; the girl always moves left to right.
 
-0s-2s: Close-up Little Sister running barefoot down the dirt street toward camera, sobbing. LITTLE SISTER (screaming, from the very first frame): "Don't go! Please!"
-2s-4s: Wide shot: Brother standing at the open SUV door; Recruiter beside him holding out a thick envelope of cash. Little Sister runs in and grabs her brother's hand with both of hers.
+0s-2s: Tracking close-up of Little Sister bursting out of the blue house's metal door and running barefoot across the dirt, left to right, sobbing. LITTLE SISTER (screaming, from the very first frame): "Don't go! Please!"
+2s-4s: Wide shot: Brother standing at the SUV's open rear door; Recruiter beside him holding out a thick envelope of cash. Little Sister runs in from the left and grabs her brother's hand with both of hers.
 4s-6s: Close-up Recruiter, smiling coolly. RECRUITER: "Five hundred a week. Just drive for us."
 6s-8s: Close-up Little Sister looking up at her brother. LITTLE SISTER (crying): "You promised Mama you'd finish school."
 8s-10s: Close-up Brother, torn, staring at the envelope. BROTHER (quiet): "Mama can't pay the rent."
@@ -292,14 +297,14 @@ Location: a steep dirt street; a black SUV with no logos and tinted windows park
 12s-14s: Insert: the girl's small dusty hands gripping her brother's hand tighter.
 14s-16s: Close-up Brother, looking down at her, tears in his eyes, a decision forming.
 16s-18s: Medium shot, Brother pushes the envelope back against the Recruiter's chest. BROTHER: "She needs a brother. Not a funeral."
-18s-20s: Close-up Recruiter, his smile gone, stepping toward him; tense silence.
-20s-22s: Close-up Recruiter, stopping, looking at the crying girl. His face softens. He takes the worn wallet from his back pocket.
-22s-24s: Insert close-up: inside the wallet, a faded photo of a smiling little girl in pigtails. RECRUITER (V.O., low): "My sister begged me too."
+18s-20s: Close-up Recruiter, his smile gone, stepping toward him, the envelope crumpled in his hand.
+20s-22s: Medium shot, Recruiter stops, looks at the crying girl, his face softening. He tucks the envelope into his shirt pocket and takes the worn wallet from his back pocket.
+22s-24s: Insert close-up: inside the wallet, an old faded photo of a different little girl with a single long braid and a gap-toothed smile. RECRUITER (V.O., low): "My sister begged me too."
 24s-26s: Close-up Recruiter, eyes wet, voice rough. RECRUITER: "I didn't listen. Now she won't even look at me."
 26s-28s: Close-up Recruiter, putting on his sunglasses, nodding at the boy. RECRUITER: "Go home. Stay in school."
-28s-30s: Wide shot, the black SUV drives away up the hill in the dust; Brother lifts his little sister onto his back and walks toward the blue house as the streetlight flickers on. LITTLE SISTER (whispering): "You stayed."
+28s-30s: Wide shot, Recruiter shuts the rear door, gets into the driver's seat and drives the SUV away up the hill in the dust; the streetlight flickers on; Brother swings his backpack to his chest, lifts his little sister onto his back and walks toward the blue house. LITTLE SISTER (whispering): "You stayed."
 
-Camera: opening close-up with the girl running at camera, handheld during the confrontation, slow push-ins on the decision close-ups, still wide for the ending, hard cuts. Audio: clear lip-synced English dialogue starting at 0.0s, bare feet slapping on dirt, distant dogs, wind, the SUV engine idling, total silence when the boy pushes the money back, then a soft Spanish guitar swelling into warm strings as they walk home. No subtitles, no text overlays, no watermark, no logos.
+Camera: opening tracking close-up of the running girl, handheld during the confrontation, slow push-ins on the decision close-ups, still wide for the ending, hard cuts. Audio: clear lip-synced English dialogue starting at 0.0s, bare feet slapping on dirt, distant dogs, wind, the SUV engine idling; right after the boy's "Not a funeral" line all ambience drops out for two seconds; then a soft Spanish guitar swelling into warm strings as they walk home. No subtitles, no text overlays, no watermark, no logos.
 ```
 
 Hook text: "They offered him $500 a week… his little sister ran barefoot to stop him 😭"

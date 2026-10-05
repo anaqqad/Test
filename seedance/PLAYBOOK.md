@@ -49,3 +49,8 @@ Winners: "The Little House" (gift reveal) and "The Payroll" (owner catches a man
 - No adult gripping, pinning or hitting a child: it risks moderation and looks bad. Use fear, shouting, distance.
 - The emotional reason is said plainly ("He never came home"), not just implied.
 - End on a spoken payoff line, not only a visual.
+- Every vehicle that leaves needs someone shown getting in to drive it (with "exactly N characters").
+- One-time events (a light turning on) go only in their shot, never in the global style line.
+- Close-ups can't show actions at the hips/back pocket; use a medium shot.
+- A photo of "another" person must look clearly different, or the model reuses an on-screen face.
+- Check props against actions (backpack vs carrying someone on the back) and "silence" against dialogue.
