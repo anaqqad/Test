@@ -341,3 +341,37 @@ Camera: opening close-up, slow push-ins on close-ups, one smooth gliding move pa
 
 Hook text: "Her friend laughed at the tiny boat he bought her… then they went around the corner 😳"
 Caption: "She loved the little one. That's why she got the big one. ❤️"
+
+## 11. "The Paper Piano" (mocked -> everyone shocked, skill reveal)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal emotional drama, school auditorium recital night, backstage dim with red velvet curtains, then a bright stage with one warm spotlight on a black grand piano, shallow depth of field, natural skin texture, light film grain. Exactly 3 main characters, identical faces and wardrobe in every shot; the audience stays dark, blurred and faceless. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- GIRL (8): small South Asian girl, long black hair in one neat braid with a faded blue ribbon, big dark eyes, a plain hand-me-down navy dress a little too big, old white shoes with silver duct tape around the toes. Carries a worn folded sheet of paper with a hand-drawn piano keyboard in black marker.
+- RICH MOM (40s): white woman, sleek platinum bob, heavy makeup, pearl earrings, cream designer-style coat over a black dress, phone in hand, no logos.
+- RICH DAUGHTER (8): white girl, blonde curls with a sparkly headband, puffy pink sequined gown, shiny patent shoes.
+
+Location: backstage wing on the left with red curtains and a stage-door light; the open stage on the right with the grand piano under the spotlight; the dark audience beyond the stage edge. Screen direction never flips: backstage left, stage right.
+
+0s-2s: Close-up Girl backstage by the red curtain, crying silently, clutching the folded paper to her chest. RICH MOM (off-screen, laughing, from the very first frame): "Are those shoes taped together?"
+2s-4s: Medium shot, Rich Mom and Rich Daughter laughing and pointing at the taped shoes. RICH MOM: "Sweetie, this isn't a charity show."
+4s-6s: Close-up Rich Daughter, smirking. RICH DAUGHTER: "Do you even have a piano?"
+6s-8s: Close-up Girl, sniffling, unfolding the paper. GIRL (quiet): "My mama drew me this one."
+8s-10s: Insert close-up: the worn paper keyboard, hand-drawn black and white keys, creases, faded fingerprints on the keys.
+10s-12s: Close-up Rich Mom, laughing. RICH MOM: "A paper piano? Oh, honey. Go home."
+12s-14s: Wide shot from the wings: the girl walks out alone onto the huge stage toward the grand piano, small under the spotlight, her taped shoes squeaking; a few giggles from the dark audience.
+14s-16s: Close-up Girl at the piano, folding the paper into her dress pocket, closing her eyes, taking a breath.
+16s-19s: Close-up of her small hands pressing the first keys, then her face: a beautiful, powerful original classical piano piece fills the hall.
+19s-21s: Close-up Rich Mom in the wings, her smile fading, her phone slowly lowering.
+21s-23s: Wide shot from behind the girl: the spotlight, the dark audience rising to their feet one by one.
+23s-25s: Close-up Rich Daughter, mouth open, eyes shining with tears.
+25s-27s: Close-up Girl striking the final chord, opening her eyes; thunderous applause.
+27s-28s: Close-up Rich Mom, frozen. RICH MOM (whisper): "Who taught her that?"
+28s-30s: Medium shot, the girl stands at the edge of the stage, unfolds the paper keyboard and lifts it toward the lights, tears and a smile. GIRL (whispering): "We did it, Mama."
+
+Camera: opening close-up, handheld backstage, one slow wide push across the stage as she walks out, slow push-ins on close-ups, hard cuts. Audio: clear lip-synced English dialogue starting at 0.0s, backstage murmur, giggles, shoes squeaking on the stage floor, a hush, then an original emotional classical piano piece building to a big finish, thunderous applause. No subtitles, no text overlays, no watermark, no logos.
+```
+
+Hook text: "They laughed at her taped shoes… then she sat at the piano 😳"
+Caption: "Talent doesn't need expensive shoes. ❤️🎹"
