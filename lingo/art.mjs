@@ -412,3 +412,57 @@ export const PRESETS = {
   tuscany: { sky: "morning", layers: [["hills", { y: 700, h: 160, color: "#a7b77a", far: 0.35 }], ["hills", { y: 820, h: 120, color: "#8fae5a" }], ["trees", { kind: "cypress", n: 12, y: 860, color: "#2f5a35", s: 1.1, spread: 60 }], ["church", { x: 1450, y: 870, color: "#e9dcc4", roof: "#b5452f" }], ["grass", { y: 950, color: "#7a9a4a" }]] },
   // ranking backdrop is a CSS gradient, not a scene
 };
+
+// ---------- meme ("wojak-like") style ----------
+// Thin black ink lines, flat colours, small tired eyes with bags, minimal mouth: the look of
+// "X languages be like" channels, drawn from scratch (no copied artwork).
+const INK = "#1b1b1b";
+export function memeCharacter(spec, uid = "m") {
+  const skin = SKIN[spec.skin] || spec.skin || SKIN.light;
+  const hc = HAIR[spec.hairColor] || spec.hairColor || HAIR.brown;
+  const fem = !!spec.fem;
+  const H = hat(spec.hat, uid);
+  const O = outfit(spec.outfit || {}, skin, uid);
+  const ink = (s) => s.replace(/stroke="#[0-9a-fA-F]{6}"/g, `stroke="${INK}"`).replace(/stroke-width="(\d+(\.\d+)?)"/g, (m, w) => `stroke-width="${Math.min(+w, 5)}"`);
+  let s = `<defs>${O.defs}</defs>`;
+  const HY = 62;
+  s += `<g transform="translate(0 ${HY})">` + ink(H.back);
+  if (!spec.hat || spec.hat.type !== "headscarf") s += ink(hairBack(spec.hair || "short", hc, INK));
+  s += `</g>`;
+  s += `<path d="M352 560 L350 720 C372 742 428 742 450 720 L448 560Z" fill="${skin}" stroke="${INK}" stroke-width="4"/>`;
+  s += ink(O.s).replace(/opacity="\.45"/g, 'opacity="0"');
+  s += `<g transform="translate(0 ${HY})">`;
+  // ear + head: slightly lopsided wojak skull, long jaw
+  s += `<path d="M262 380 C236 372 232 430 262 444" fill="${skin}" stroke="${INK}" stroke-width="4"/><path d="M270 405 C258 405 258 425 268 428" stroke="${INK}" stroke-width="3" fill="none"/>`;
+  const head = fem
+    ? "M268 330 C262 205 360 168 420 172 C500 178 548 240 544 330 C542 420 520 500 470 540 C440 562 380 566 350 548 C300 520 274 440 268 330Z"
+    : "M262 320 C252 200 360 160 425 166 C510 174 552 240 548 330 C546 430 520 510 468 548 C436 570 372 574 342 556 C292 528 268 440 262 320Z";
+  s += `<path d="${head}" fill="${skin}" stroke="${INK}" stroke-width="4.5"/>`;
+  if (spec.facepaint === "lines") s += `<path d="M300 440 L345 446 M300 462 L345 467 M500 440 L455 446 M500 462 L455 467" stroke="${spec.paintColor || "#fff"}" stroke-width="7" stroke-linecap="round"/>`;
+  // eyes: small, half-lidded, with bags
+  const ex = spec.expression || "neutral";
+  for (const [x, d] of [[352, -1], [462, 1]]) {
+    s += `<path d="M${x - 26} ${386} C${x - 12} ${374} ${x + 12} ${374} ${x + 26} ${386} C${x + 12} ${394} ${x - 12} ${394} ${x - 26} ${386}Z" fill="#fff" stroke="${INK}" stroke-width="3"/>`;
+    s += `<circle cx="${x + 3}" cy="${385}" r="6.5" fill="${INK}"/>`;
+    s += `<path d="M${x - 30} ${381} C${x - 12} ${368} ${x + 14} ${368} ${x + 30} ${381}" stroke="${INK}" stroke-width="4" fill="none" stroke-linecap="round"/>`;
+    s += `<path d="M${x - 18} ${404} C${x - 6} ${410} ${x + 8} ${410} ${x + 18} ${403}" stroke="${INK}" stroke-width="2" fill="none" opacity=".55"/>`;
+    if (fem) s += `<path d="M${x + d * 26} ${379} l${d * 10} -7" stroke="${INK}" stroke-width="3" stroke-linecap="round"/>`;
+    const tilt = ex === "sad" ? d * 8 : ex === "angry" ? -d * 8 : 0;
+    s += `<path d="M${x - 28} ${352 - (d < 0 ? -tilt : tilt)} C${x - 8} ${344} ${x + 8} ${344} ${x + 28} ${352 + (d < 0 ? -tilt : tilt)}" stroke="${spec.hair === "bald" ? INK : shade(hc, -0.3)}" stroke-width="${fem ? 4 : 7}" fill="none" stroke-linecap="round"/>`;
+  }
+  // nose: one angular wojak stroke
+  s += `<path d="M410 398 L398 452 L420 458" stroke="${INK}" stroke-width="3.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>`;
+  if (spec.beard) s += `<path d="M300 450 C306 540 360 590 410 590 C470 588 520 530 528 450 C506 500 470 516 412 516 C356 516 318 498 300 450Z" fill="${HAIR[spec.beardColor] || spec.beardColor || hc}" stroke="${INK}" stroke-width="3"/>`;
+  if (spec.mustache) s += `<path d="M366 486 C384 470 410 474 414 482 C420 474 446 470 462 486 C442 484 426 488 414 492 C402 488 386 484 366 486Z" fill="${HAIR[spec.beardColor] || spec.beardColor || hc}" stroke="${INK}" stroke-width="2.5"/>`;
+  const my = 505;
+  s += ex === "grin" || ex === "smile"
+    ? `<path d="M380 ${my} C398 ${my + 10} 430 ${my + 10} 446 ${my - 2}" stroke="${fem ? "#a0454a" : INK}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`
+    : ex === "sad" ? `<path d="M382 ${my + 6} C400 ${my - 2} 428 ${my - 2} 444 ${my + 6}" stroke="${INK}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`
+    : `<path d="M384 ${my + 2} L442 ${my}" stroke="${fem ? "#a0454a" : INK}" stroke-width="3.5" stroke-linecap="round"/>`;
+  if (spec.earrings) s += `<circle cx="258" cy="452" r="9" fill="${spec.earrings}" stroke="${INK}" stroke-width="2"/>`;
+  if (spec.glasses) s += `<circle cx="352" cy="386" r="40" fill="none" stroke="${INK}" stroke-width="5"/><circle cx="462" cy="386" r="40" fill="none" stroke="${INK}" stroke-width="5"/><path d="M392 384 L422 384" stroke="${INK}" stroke-width="5"/>`;
+  if (!spec.hat || !["headscarf", "turban", "furhat", "beanie"].includes(spec.hat.type)) s += ink(hairFront(spec.hair || "short", hc, INK)).replace(/stroke="[^"]*" stroke-width="12" fill="none" stroke-linecap="round" opacity="\.7"/g, 'stroke="none"');
+  s += ink(H.front);
+  s += `</g>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 60 680 940">${s}</svg>`;
+}
