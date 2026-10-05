@@ -30,3 +30,7 @@ Seeddance lip-sync guides (links in `prompts.md`).
 - Cheap car key opens a Mercedes
 - Biker at a father-daughter dance ("Never Dance Alone")
 - Add the rest of the owner's past videos here.
+- Review of the first render of "The Owner" (480x854): the story beats all landed, but the output was only 480p,
+  the big man's 3s "rise" showed just his legs (no hero shot), the girl walked instead of ran, and 8s-12s was
+  four seconds of the same crying close-up. Fixes: render at 720p/1080p, describe the hero shot as
+  "full body, head to boots, standing", write "sprints" plus "slow motion", and keep every shot under 2.5s in the first 15s.
