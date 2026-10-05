@@ -102,10 +102,15 @@ function storyPage(video, item, idx, dur, audio) {
   #cap{left:1135px;font-size:40px;padding:14px 34px;opacity:0}
   #cap .w{font-weight:800}
   #fade{left:0;top:0;width:1920px;height:1080px;background:#000;pointer-events:none}
+  #likerow{display:flex;align-items:center;gap:30px}
+  #like{background:#ffe14d;border:5px solid #1b1b1b;border-radius:18px;padding:10px 30px 14px;font-weight:800;font-size:46px;line-height:1.1;color:#1b1b1b;box-shadow:0 12px 30px rgba(0,0,0,.35);opacity:0;transform-origin:20% 50%}
+  #like{white-space:nowrap}
+  #like small{display:block;font-weight:700;font-size:26px;margin-bottom:2px}
+  #verdict{border:6px solid var(--v);color:var(--v);background:rgba(255,255,255,.92);font-weight:800;font-size:34px;letter-spacing:2px;padding:4px 16px;border-radius:12px;white-space:nowrap;opacity:0}
   </style></head><body>
   <div id="bg" class="abs">${scene(item.scene, item.name)}</div>
   <div id="char" class="abs">${character(withGender(item.char, audio && audio.voice), "c" + idx)}</div>
-  <div id="cards" class="abs">${item.cards.map((c) => `<div class="card">${rich(c)}</div>`).join("")}</div>
+  <div id="cards" class="abs">${item.like ? `<div id="likerow"><div id="like"><small>🤔 Sounds like…</small>${esc(item.like)}</div>${item.verdict ? `<div id="verdict" style="--v:${item.verdict[1]}">${esc(item.verdict[0])}</div>` : ""}</div>` : ""}${item.cards.map((c) => `<div class="card">${rich(c)}</div>`).join("")}</div>
   ${item.loc ? `<div id="globe" class="abs">${globe(item.loc)}<br><span class="lab">📍 ${esc(item.loc[2])}</span></div>` : ""}
   ${listen}
   <div id="cap" class="abs pill"><span>🔊</span><span class="w"></span></div>
@@ -122,6 +127,8 @@ function storyPage(video, item, idx, dur, audio) {
     const ci=ease(t/0.7); $('#char').style.transform='translateY('+((1-ci)*140+Math.sin(t*1.6)*5)+'px) rotate('+(Math.sin(t*1.1)*0.7)+'deg)';
     cards.forEach((c,i)=>{const k=(t-T[i])/0.5; c.style.opacity=Math.min(1,Math.max(0,k*1.6)); c.style.transform='translateY('+(1-back(k))*36+'px) scale('+(0.96+0.04*back(k))+')';});
     const g=$('#globe'); if(g){const k=ease((t-0.4)/0.6); g.style.opacity=k; g.style.transform='scale('+(0.8+0.2*back((t-0.4)/0.6))+')'; const p=g.querySelector('.pulse'); const ph=(t*0.9)%1; p.setAttribute('r',8+ph*26); p.style.opacity=1-ph;}
+    const lk=$('#like'); if(lk){const k=(t-0.5)/0.45; lk.style.opacity=Math.min(1,Math.max(0,k*2)); lk.style.transform='rotate(-2deg) scale('+(0.6+0.4*back(k))+')';
+      const v=$('#verdict'); if(v){const q=(t-T[0]-1.6)/0.3; v.style.opacity=Math.min(1,Math.max(0,q*3)); v.style.transform='rotate(-8deg) scale('+(q<0?2.2:Math.max(1,2.2-1.2*ease(q)))+')';}}
     const l=$('#listen'); if(l){l.style.opacity=ease((t-0.8)/0.4);}
     eq.forEach((e,i)=>e.style.height=(8+Math.abs(Math.sin(t*(5+i*1.7)+i))*18)+'px');
     const cap=CAPS.find(c=>t>=c.t-0.15&&t<=c.t+Math.max(c.d,0.9)+0.35); const ce=$('#cap');

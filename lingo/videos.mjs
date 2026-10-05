@@ -527,4 +527,121 @@ export const VIDEOS = {
       },
     ],
   },
+  // ------------------------------------------------------------------ 7
+  soundlike: {
+    title: "Languages That Sound Like a Different Language",
+    part: "",
+    layout: "story",
+    counterLabel: "speakers",
+    items: [
+      {
+        name: "Maltese", flag: "mt", speakers: "~520,000", like: "Arabic", verdict: ["SORT OF", "#ff9500"], scene: "adriatic", loc: [35.9, 14.51, "Valletta, Malta"],
+        char: { skin: "olive", hair: "short", hairColor: "black", beard: true, outfit: { type: "shirt", color: "#c0392b", vest: "#f4f1e8" }, expression: "grin" },
+        cards: [
+          "Maltese grew out of Arabic, but it's the only Semitic language written in the Latin alphabet, and an official EU language.",
+          "Centuries of Sicilian, Italian and English mixed in, so 'grazzi' means thank you and 'karozza' means car.",
+        ],
+        audio: { file: "WIKITONGUES- Keith speaking Maltese.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "European Portuguese", flag: "pt", speakers: "~10M", like: "Russian", verdict: ["NOPE", "#ff3b30"], scene: "adriatic", loc: [38.72, -9.14, "Portugal"],
+        char: F({ skin: "light", hair: "long", hairColor: "brown", outfit: { type: "dress", color: "#1f4e8c", color2: "#f4f1e8", trim: "#c0392b" }, earrings: "#e9c46a", expression: "smile" }),
+        cards: [
+          "In Portugal, Portuguese swallows its unstressed vowels and turns many s sounds into a 'sh', so it can sound Slavic to outsiders.",
+          "It is a Romance language from Latin, like Spanish. Many Brazilians say the Portugal accent is the hard one to follow.",
+        ],
+        audio: { file: "WIKITONGUES- Sara speaking Portuguese.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Romanian", flag: "ro", speakers: "~24M", like: "Italian on shuffle", verdict: ["SAME FAMILY", "#34c759"], scene: "hills", loc: [46.77, 23.6, "Cluj-Napoca, Romania"],
+        char: F({ skin: "light", hair: "braids", hairColor: "brown", hat: { type: "headscarf", color: "#c0392b", color2: "#f2c94c" }, outfit: { type: "dress", color: "#f4f1e8", color2: "#c0392b", trim: "#1f4e8c" }, expression: "smile" }),
+        cards: [
+          "Romanian comes from Latin, just like Italian, but it grew up surrounded by Slavic languages and Hungarian and borrowed many of their words.",
+          "It's the only major Romance language that still has noun cases, a leftover from Latin.",
+        ],
+        audio: { file: "WIKITONGUES- Raluca speaking Romanian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Dutch", flag: "nl", speakers: "~24M", like: "English after 3 drinks", verdict: ["CLOSE COUSIN", "#34c759"], scene: "copenhagen", loc: [52.37, 4.9, "Netherlands"],
+        char: F({ skin: "pale", hair: "ponytail", hairColor: "blonde", outfit: { type: "tunic", color: "#e67e22", trim: "#f4f1e8" }, expression: "grin" }),
+        cards: [
+          "Dutch and English are close Germanic cousins: 'appel', 'water', 'boek' and 'huis' are apple, water, book and house.",
+          "The throaty Dutch g sound comes from the back of the mouth, so 'Gouda' starts a bit like clearing your throat.",
+        ],
+        audio: { file: "WIKITONGUES- Eva speaking Dutch.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "West Frisian", flag: "nl", speakers: "~470,000", like: "Old English", verdict: ["CLOSEST COUSIN", "#34c759"], scene: "baltic", loc: [53.2, 5.8, "Friesland, Netherlands"],
+        char: F({ skin: "pale", hair: "bob", hairColor: "blonde", outfit: { type: "shirt", color: "#1f4e8c", vest: "#f4f1e8" }, glasses: true, expression: "smile" }),
+        cards: [
+          "The Frisian languages are usually called English's closest relatives on the mainland of Europe.",
+          "An old rhyme says bread, butter and green cheese is good English and good Frisian. In Frisian: 'Brea, bûter en griene tsiis'.",
+        ],
+        audio: { file: "WIKITONGUES- Sjoukje speaking West Frisian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Afrikaans", flag: "za", speakers: "~7M", like: "Dutch", verdict: ["ITS CHILD", "#34c759"], scene: "kalahari", loc: [-33.92, 18.42, "Cape Town, South Africa"],
+        char: { skin: "light", hair: "short", hairColor: "brown", beard: true, beardColor: "brown", outfit: { type: "shirt", color: "#2e6b4f", vest: "#c8a165" }, hat: { type: "widehat", color: "#8a6a3b", color2: "#3b2a16" }, expression: "grin" },
+        cards: [
+          "Afrikaans grew out of the Dutch brought to the Cape in the 1600s. Dutch and Afrikaans speakers can mostly understand each other.",
+          "Its grammar got simpler: 'ek is, jy is, hy is' means I am, you are, he is. One verb form for everyone.",
+        ],
+        audio: { file: "WIKITONGUES- Roussow speaking Afrikaans.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Luxembourgish", flag: "lu", speakers: "~400,000", like: "German, but in France", verdict: ["ACCURATE", "#34c759"], scene: "forest", loc: [49.6, 6.13, "Luxembourg"],
+        char: { skin: "light", hair: "short", hairColor: "brown", outfit: { type: "coat", color: "#1f3a5f", inner: "#f4f1e8" }, glasses: true, expression: "smile" },
+        cards: [
+          "Luxembourgish is a Germanic language, close to German, but it is full of French: thank you is simply 'merci'.",
+          "Most Luxembourgers also speak German and French, and many switch between all three in a single day.",
+        ],
+        audio: { file: "WIKITONGUES- Mark speaking Luxembourgish.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Esperanto", flag: "eo", speakers: "100k–2M?", like: "Spanish? Italian? Polish?", verdict: ["ALL OF THEM", "#ff9500"], scene: "village", loc: null,
+        char: F({ skin: "light", hair: "long", hairColor: "auburn", outfit: { type: "tunic", color: "#2e8b57", trim: "#f2c94c" }, expression: "grin" }),
+        cards: [
+          "Esperanto was invented in 1887 from mostly Romance, Germanic and Slavic roots, so it sounds a little like all of them at once.",
+          "Every noun ends in -o and every adjective in -a: 'bela knabo' is a handsome boy.",
+        ],
+        audio: { file: "Stela Speaks Esperanto.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Hungarian", flag: "hu", speakers: "~13M", like: "Finnish", verdict: ["DISTANT COUSIN", "#ff9500"], scene: "grassland", loc: [47.5, 19.04, "Hungary"],
+        char: F({ skin: "light", hair: "long", hairColor: "brown", outfit: { type: "dress", color: "#c0392b", color2: "#f4f1e8", trim: "#2e6b4f", pattern: "stripes" }, expression: "smile" }),
+        cards: [
+          "Hungarian really is a distant relative of Finnish and Estonian, but they split thousands of years ago and can't understand each other.",
+          "Every word is stressed on its first syllable, which gives Hungarian its rolling rhythm.",
+        ],
+        audio: { file: "WIKITONGUES- Orsolya speaking Hungarian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Persian", flag: "ir", speakers: "~110M", like: "Arabic", verdict: ["NOPE", "#ff3b30"], scene: "zagros", loc: [35.7, 51.4, "Iran"],
+        char: { skin: "olive", hair: "short", hairColor: "black", beard: true, outfit: { type: "shirt", color: "#1d1d1d", vest: "#3a3a3a" }, expression: "neutral" },
+        cards: [
+          "Persian is written in an Arabic-based script and borrowed many Arabic words, but it's Indo-European: closer to English than to Arabic.",
+          "'Mâdar' (mother) and 'barâdar' (brother) are distant cousins of the English words.",
+        ],
+        audio: { file: "WIKITONGUES- Daniel speaking Farsi.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Korean", flag: "kr", speakers: "~80M", like: "Japanese", verdict: ["NOPE", "#ff3b30"], scene: "hongkong", loc: [37.56, 126.98, "South Korea"],
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "coat", color: "#2b2b2b", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Korean and Japanese have similar grammar, with the verb at the end, but most linguists treat them as unrelated.",
+          "Korean has its own alphabet, Hangul, created in the 1440s under King Sejong so ordinary people could learn to read.",
+        ],
+        audio: { file: "WIKITONGUES- Hanbid speaking Korean.webm", start: "auto" },
+      },
+      {
+        name: "Welsh", flag: "gb-wls", speakers: "~540,000", like: "Elvish", verdict: ["KINDA!", "#34c759"], scene: "wales", loc: [52.4, -3.8, "Wales"],
+        char: F({ skin: "pale", hair: "long", hairColor: "brown", hat: { type: "tophat", color: "#1d1d1d", color2: "#1d1d1d" }, outfit: { type: "coat", color: "#7a1f1f", inner: "#f4f1e8", pattern: "check", color2: "#5a1515" }, expression: "smile" }),
+        cards: [
+          "Tolkien loved Welsh, and it inspired the sound of Sindarin, one of the Elvish languages in The Lord of the Rings.",
+          "Its famous 'll' sound: put your tongue up as for an L, then blow air out the sides, as in 'Llanelli'.",
+        ],
+        audio: { file: "WIKITONGUES- Sandra speaking Welsh.webm", start: "auto", voice: "f" },
+      },
+    ],
+  },
 };

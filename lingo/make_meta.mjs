@@ -52,6 +52,7 @@ const intro = {
   sounds: "Clicks, whistles, tones and words with no vowels. Every sound you hear is a real recording of the language.",
   conlangs: "Languages that somebody simply invented, and the people who actually speak them. Every voice you hear is a real recording.",
   revived: "Languages that died, or nearly did, and came back. Every voice you hear is a real recording of the language.",
+  soundlike: "Maltese that sounds like Arabic, Portuguese that sounds like Russian, Welsh that sounds like Elvish. Guess first, then find out why. Every voice you hear is a real recording of the language.",
   hardest: "How hard is each language for an English speaker? Based on the US Foreign Service Institute's estimates of class time. Every voice you hear is a real recording.",
 }[k] || "";
 const tags = {
@@ -60,6 +61,7 @@ const tags = {
   sounds: "weird languages, click languages, whistled language, tonal languages, languages be like, Xhosa, Taa, Silbo Gomero, Hmong, Yoruba, Piraha, Cantonese, Georgian, Czech, Danish, Welsh, Hawaiian, linguistics, LingoDude",
   conlangs: "constructed languages, conlangs, invented languages, Esperanto, Toki Pona, Klingon, Volapuk, Lojban, Ido, languages be like, linguistics, LingoDude",
   revived: "revived languages, language revival, dead languages, Hebrew, Cornish, Manx, Maori, Latin, Sanskrit, languages be like, linguistics, LingoDude",
+  soundlike: "languages that sound like other languages, languages be like, Maltese, European Portuguese, Romanian, Dutch, West Frisian, Afrikaans, Luxembourgish, Esperanto, Hungarian, Persian, Korean, Welsh, linguistics, LingoDude",
   hardest: "hardest languages, language difficulty, FSI, ranking languages, languages for English speakers, learn languages, linguistics, LingoDude",
 }[k] || "";
 const title = v.title;
