@@ -1,0 +1,986 @@
+{
+ "fps": 30,
+ "durationInFrames": 1845,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 170,
+ "wpm": 165.9,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 5.269,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.3,
+     "end": 0.428
+    },
+    {
+     "text": "1909,",
+     "start": 0.474,
+     "end": 1.287
+    },
+    {
+     "text": "this",
+     "start": 1.426,
+     "end": 1.6
+    },
+    {
+     "text": "man",
+     "start": 1.67,
+     "end": 1.844
+    },
+    {
+     "text": "stood",
+     "start": 1.914,
+     "end": 2.181
+    },
+    {
+     "text": "near",
+     "start": 2.216,
+     "end": 2.343
+    },
+    {
+     "text": "the",
+     "start": 2.39,
+     "end": 2.459
+    },
+    {
+     "text": "top",
+     "start": 2.518,
+     "end": 2.738
+    },
+    {
+     "text": "of",
+     "start": 2.785,
+     "end": 2.831
+    },
+    {
+     "text": "the",
+     "start": 2.866,
+     "end": 2.935
+    },
+    {
+     "text": "world,",
+     "start": 2.982,
+     "end": 3.377
+    },
+    {
+     "text": "and",
+     "start": 3.446,
+     "end": 3.597
+    },
+    {
+     "text": "history",
+     "start": 3.655,
+     "end": 3.934
+    },
+    {
+     "text": "almost",
+     "start": 3.992,
+     "end": 4.282
+    },
+    {
+     "text": "forgot",
+     "start": 4.329,
+     "end": 4.689
+    },
+    {
+     "text": "him.",
+     "start": 4.723,
+     "end": 5.269
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 170
+  },
+  {
+   "id": "name",
+   "speechEnd": 7.243,
+   "words": [
+    {
+     "text": "His",
+     "start": 5.769,
+     "end": 5.966
+    },
+    {
+     "text": "name",
+     "start": 6.024,
+     "end": 6.187
+    },
+    {
+     "text": "was",
+     "start": 6.21,
+     "end": 6.315
+    },
+    {
+     "text": "Matthew",
+     "start": 6.384,
+     "end": 6.675
+    },
+    {
+     "text": "Henson.",
+     "start": 6.733,
+     "end": 7.243
+    }
+   ],
+   "cues": {},
+   "startFrame": 170,
+   "endFrame": 227
+  },
+  {
+   "id": "born",
+   "speechEnd": 11.365,
+   "words": [
+    {
+     "text": "Born",
+     "start": 7.661,
+     "end": 7.917
+    },
+    {
+     "text": "in",
+     "start": 7.963,
+     "end": 8.021
+    },
+    {
+     "text": "Maryland",
+     "start": 8.068,
+     "end": 8.428
+    },
+    {
+     "text": "in",
+     "start": 8.474,
+     "end": 8.532
+    },
+    {
+     "text": "1866,",
+     "start": 8.579,
+     "end": 9.624
+    },
+    {
+     "text": "he",
+     "start": 9.74,
+     "end": 9.821
+    },
+    {
+     "text": "went",
+     "start": 9.867,
+     "end": 10.018
+    },
+    {
+     "text": "to",
+     "start": 10.053,
+     "end": 10.1
+    },
+    {
+     "text": "sea",
+     "start": 10.169,
+     "end": 10.367
+    },
+    {
+     "text": "as",
+     "start": 10.413,
+     "end": 10.483
+    },
+    {
+     "text": "a",
+     "start": 10.529,
+     "end": 10.552
+    },
+    {
+     "text": "cabin",
+     "start": 10.599,
+     "end": 10.901
+    },
+    {
+     "text": "boy.",
+     "start": 10.947,
+     "end": 11.365
+    }
+   ],
+   "cues": {},
+   "startFrame": 227,
+   "endFrame": 350
+  },
+  {
+   "id": "read",
+   "speechEnd": 14.453,
+   "words": [
+    {
+     "text": "The",
+     "start": 11.783,
+     "end": 11.899
+    },
+    {
+     "text": "ship's",
+     "start": 11.946,
+     "end": 12.201
+    },
+    {
+     "text": "captain",
+     "start": 12.236,
+     "end": 12.607
+    },
+    {
+     "text": "taught",
+     "start": 12.654,
+     "end": 12.886
+    },
+    {
+     "text": "him",
+     "start": 12.909,
+     "end": 12.99
+    },
+    {
+     "text": "to",
+     "start": 13.037,
+     "end": 13.095
+    },
+    {
+     "text": "read",
+     "start": 13.176,
+     "end": 13.362
+    },
+    {
+     "text": "and",
+     "start": 13.397,
+     "end": 13.466
+    },
+    {
+     "text": "write.",
+     "start": 13.513,
+     "end": 14.453
+    }
+   ],
+   "cues": {},
+   "startFrame": 350,
+   "endFrame": 446
+  },
+  {
+   "id": "peary",
+   "speechEnd": 19.62,
+   "words": [
+    {
+     "text": "In",
+     "start": 14.953,
+     "end": 15.116
+    },
+    {
+     "text": "1887,",
+     "start": 15.15,
+     "end": 16.021
+    },
+    {
+     "text": "working",
+     "start": 16.091,
+     "end": 16.393
+    },
+    {
+     "text": "in",
+     "start": 16.427,
+     "end": 16.474
+    },
+    {
+     "text": "a",
+     "start": 16.509,
+     "end": 16.544
+    },
+    {
+     "text": "store",
+     "start": 16.578,
+     "end": 16.811
+    },
+    {
+     "text": "in",
+     "start": 16.845,
+     "end": 16.892
+    },
+    {
+     "text": "Washington,",
+     "start": 16.95,
+     "end": 17.53
+    },
+    {
+     "text": "he",
+     "start": 17.728,
+     "end": 17.797
+    },
+    {
+     "text": "met",
+     "start": 17.844,
+     "end": 17.983
+    },
+    {
+     "text": "the",
+     "start": 18.018,
+     "end": 18.088
+    },
+    {
+     "text": "explorer",
+     "start": 18.146,
+     "end": 18.645
+    },
+    {
+     "text": "Robert",
+     "start": 18.784,
+     "end": 19.098
+    },
+    {
+     "text": "Peary.",
+     "start": 19.156,
+     "end": 19.62
+    }
+   ],
+   "cues": {},
+   "startFrame": 446,
+   "endFrame": 594
+  },
+  {
+   "id": "north",
+   "speechEnd": 23.73,
+   "words": [
+    {
+     "text": "Peary",
+     "start": 19.887,
+     "end": 20.201
+    },
+    {
+     "text": "hired",
+     "start": 20.259,
+     "end": 20.561
+    },
+    {
+     "text": "him.",
+     "start": 20.595,
+     "end": 20.862
+    },
+    {
+     "text": "Together",
+     "start": 21.176,
+     "end": 21.594
+    },
+    {
+     "text": "they",
+     "start": 21.652,
+     "end": 21.791
+    },
+    {
+     "text": "made",
+     "start": 21.838,
+     "end": 22.0
+    },
+    {
+     "text": "seven",
+     "start": 22.058,
+     "end": 22.349
+    },
+    {
+     "text": "expeditions",
+     "start": 22.407,
+     "end": 22.941
+    },
+    {
+     "text": "to",
+     "start": 22.987,
+     "end": 23.045
+    },
+    {
+     "text": "the",
+     "start": 23.103,
+     "end": 23.173
+    },
+    {
+     "text": "Arctic.",
+     "start": 23.231,
+     "end": 23.73
+    }
+   ],
+   "cues": {},
+   "startFrame": 594,
+   "endFrame": 718
+  },
+  {
+   "id": "sledge",
+   "speechEnd": 27.828,
+   "words": [
+    {
+     "text": "Henson",
+     "start": 24.044,
+     "end": 24.392
+    },
+    {
+     "text": "learned",
+     "start": 24.45,
+     "end": 24.659
+    },
+    {
+     "text": "the",
+     "start": 24.682,
+     "end": 24.752
+    },
+    {
+     "text": "Inuit",
+     "start": 24.798,
+     "end": 25.089
+    },
+    {
+     "text": "language",
+     "start": 25.135,
+     "end": 25.565
+    },
+    {
+     "text": "and",
+     "start": 25.681,
+     "end": 25.878
+    },
+    {
+     "text": "became",
+     "start": 25.924,
+     "end": 26.191
+    },
+    {
+     "text": "an",
+     "start": 26.215,
+     "end": 26.273
+    },
+    {
+     "text": "expert",
+     "start": 26.354,
+     "end": 26.76
+    },
+    {
+     "text": "dog-sled",
+     "start": 26.83,
+     "end": 27.329
+    },
+    {
+     "text": "driver.",
+     "start": 27.364,
+     "end": 27.828
+    }
+   ],
+   "cues": {},
+   "startFrame": 718,
+   "endFrame": 840
+  },
+  {
+   "id": "pole",
+   "speechEnd": 31.752,
+   "words": [
+    {
+     "text": "On",
+     "start": 28.095,
+     "end": 28.235
+    },
+    {
+     "text": "April",
+     "start": 28.281,
+     "end": 28.525
+    },
+    {
+     "text": "6,",
+     "start": 28.595,
+     "end": 28.885
+    },
+    {
+     "text": "1909,",
+     "start": 28.92,
+     "end": 29.628
+    },
+    {
+     "text": "Peary's",
+     "start": 29.674,
+     "end": 29.988
+    },
+    {
+     "text": "team",
+     "start": 30.023,
+     "end": 30.208
+    },
+    {
+     "text": "said",
+     "start": 30.266,
+     "end": 30.441
+    },
+    {
+     "text": "they",
+     "start": 30.475,
+     "end": 30.591
+    },
+    {
+     "text": "had",
+     "start": 30.626,
+     "end": 30.719
+    },
+    {
+     "text": "reached",
+     "start": 30.777,
+     "end": 30.998
+    },
+    {
+     "text": "the",
+     "start": 31.021,
+     "end": 31.091
+    },
+    {
+     "text": "North",
+     "start": 31.126,
+     "end": 31.311
+    },
+    {
+     "text": "Pole.",
+     "start": 31.358,
+     "end": 31.752
+    }
+   ],
+   "cues": {},
+   "startFrame": 840,
+   "endFrame": 957
+  },
+  {
+   "id": "debate",
+   "speechEnd": 35.851,
+   "words": [
+    {
+     "text": "Henson",
+     "start": 31.985,
+     "end": 32.345
+    },
+    {
+     "text": "was",
+     "start": 32.391,
+     "end": 32.507
+    },
+    {
+     "text": "there.",
+     "start": 32.554,
+     "end": 32.844
+    },
+    {
+     "text": "Whether",
+     "start": 33.076,
+     "end": 33.343
+    },
+    {
+     "text": "they",
+     "start": 33.389,
+     "end": 33.506
+    },
+    {
+     "text": "reached",
+     "start": 33.575,
+     "end": 33.807
+    },
+    {
+     "text": "the",
+     "start": 33.831,
+     "end": 33.9
+    },
+    {
+     "text": "exact",
+     "start": 33.958,
+     "end": 34.307
+    },
+    {
+     "text": "Pole",
+     "start": 34.365,
+     "end": 34.632
+    },
+    {
+     "text": "is",
+     "start": 34.667,
+     "end": 34.736
+    },
+    {
+     "text": "still",
+     "start": 34.771,
+     "end": 34.968
+    },
+    {
+     "text": "debated.",
+     "start": 35.026,
+     "end": 35.851
+    }
+   ],
+   "cues": {},
+   "startFrame": 957,
+   "endFrame": 1088
+  },
+  {
+   "id": "clerk",
+   "speechEnd": 40.496,
+   "words": [
+    {
+     "text": "But",
+     "start": 36.351,
+     "end": 36.56
+    },
+    {
+     "text": "Peary",
+     "start": 36.618,
+     "end": 36.92
+    },
+    {
+     "text": "got",
+     "start": 36.978,
+     "end": 37.129
+    },
+    {
+     "text": "the",
+     "start": 37.164,
+     "end": 37.233
+    },
+    {
+     "text": "fame.",
+     "start": 37.28,
+     "end": 37.686
+    },
+    {
+     "text": "Henson",
+     "start": 38.104,
+     "end": 38.464
+    },
+    {
+     "text": "spent",
+     "start": 38.522,
+     "end": 38.766
+    },
+    {
+     "text": "decades",
+     "start": 38.836,
+     "end": 39.265
+    },
+    {
+     "text": "as",
+     "start": 39.3,
+     "end": 39.37
+    },
+    {
+     "text": "a",
+     "start": 39.416,
+     "end": 39.451
+    },
+    {
+     "text": "clerk",
+     "start": 39.497,
+     "end": 39.764
+    },
+    {
+     "text": "in",
+     "start": 39.822,
+     "end": 39.88
+    },
+    {
+     "text": "New",
+     "start": 39.927,
+     "end": 40.02
+    },
+    {
+     "text": "York.",
+     "start": 40.066,
+     "end": 40.496
+    }
+   ],
+   "cues": {},
+   "startFrame": 1088,
+   "endFrame": 1223
+  },
+  {
+   "id": "club",
+   "speechEnd": 45.976,
+   "words": [
+    {
+     "text": "Recognition",
+     "start": 40.856,
+     "end": 41.425
+    },
+    {
+     "text": "came",
+     "start": 41.483,
+     "end": 41.715
+    },
+    {
+     "text": "slowly.",
+     "start": 41.761,
+     "end": 42.33
+    },
+    {
+     "text": "In",
+     "start": 42.69,
+     "end": 42.829
+    },
+    {
+     "text": "1937,",
+     "start": 42.887,
+     "end": 43.735
+    },
+    {
+     "text": "the",
+     "start": 43.758,
+     "end": 43.828
+    },
+    {
+     "text": "Explorers",
+     "start": 43.874,
+     "end": 44.35
+    },
+    {
+     "text": "Club",
+     "start": 44.397,
+     "end": 44.594
+    },
+    {
+     "text": "finally",
+     "start": 44.687,
+     "end": 45.058
+    },
+    {
+     "text": "made",
+     "start": 45.117,
+     "end": 45.291
+    },
+    {
+     "text": "him",
+     "start": 45.326,
+     "end": 45.418
+    },
+    {
+     "text": "a",
+     "start": 45.465,
+     "end": 45.488
+    },
+    {
+     "text": "member.",
+     "start": 45.546,
+     "end": 45.976
+    }
+   ],
+   "cues": {},
+   "startFrame": 1223,
+   "endFrame": 1389
+  },
+  {
+   "id": "arlington",
+   "speechEnd": 51.537,
+   "words": [
+    {
+     "text": "In",
+     "start": 46.394,
+     "end": 46.533
+    },
+    {
+     "text": "1988,",
+     "start": 46.591,
+     "end": 47.473
+    },
+    {
+     "text": "he",
+     "start": 47.636,
+     "end": 47.717
+    },
+    {
+     "text": "was",
+     "start": 47.764,
+     "end": 47.88
+    },
+    {
+     "text": "reburied",
+     "start": 47.961,
+     "end": 48.449
+    },
+    {
+     "text": "at",
+     "start": 48.483,
+     "end": 48.553
+    },
+    {
+     "text": "Arlington",
+     "start": 48.623,
+     "end": 49.076
+    },
+    {
+     "text": "National",
+     "start": 49.134,
+     "end": 49.517
+    },
+    {
+     "text": "Cemetery,",
+     "start": 49.564,
+     "end": 50.272
+    },
+    {
+     "text": "near",
+     "start": 50.434,
+     "end": 50.609
+    },
+    {
+     "text": "Peary.",
+     "start": 50.667,
+     "end": 51.537
+    }
+   ],
+   "cues": {},
+   "startFrame": 1389,
+   "endFrame": 1558
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 57.285,
+   "words": [
+    {
+     "text": "He",
+     "start": 52.037,
+     "end": 52.176
+    },
+    {
+     "text": "went",
+     "start": 52.223,
+     "end": 52.385
+    },
+    {
+     "text": "to",
+     "start": 52.42,
+     "end": 52.467
+    },
+    {
+     "text": "the",
+     "start": 52.513,
+     "end": 52.583
+    },
+    {
+     "text": "end",
+     "start": 52.629,
+     "end": 52.71
+    },
+    {
+     "text": "of",
+     "start": 52.757,
+     "end": 52.803
+    },
+    {
+     "text": "the",
+     "start": 52.838,
+     "end": 52.908
+    },
+    {
+     "text": "earth.",
+     "start": 52.966,
+     "end": 53.372
+    },
+    {
+     "text": "It",
+     "start": 53.79,
+     "end": 53.918
+    },
+    {
+     "text": "took",
+     "start": 53.941,
+     "end": 54.08
+    },
+    {
+     "text": "the",
+     "start": 54.127,
+     "end": 54.196
+    },
+    {
+     "text": "world",
+     "start": 54.231,
+     "end": 54.452
+    },
+    {
+     "text": "almost",
+     "start": 54.51,
+     "end": 54.789
+    },
+    {
+     "text": "eighty",
+     "start": 54.858,
+     "end": 55.079
+    },
+    {
+     "text": "years",
+     "start": 55.125,
+     "end": 55.357
+    },
+    {
+     "text": "to",
+     "start": 55.404,
+     "end": 55.45
+    },
+    {
+     "text": "catch",
+     "start": 55.508,
+     "end": 55.717
+    },
+    {
+     "text": "up.",
+     "start": 55.775,
+     "end": 57.285
+    }
+   ],
+   "cues": {},
+   "startFrame": 1558,
+   "endFrame": 1731
+  },
+  {
+   "id": "cta",
+   "speechEnd": 60.293,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 57.785,
+     "end": 58.122
+    },
+    {
+     "text": "The",
+     "start": 58.168,
+     "end": 58.238
+    },
+    {
+     "text": "Black",
+     "start": 58.273,
+     "end": 58.47
+    },
+    {
+     "text": "History",
+     "start": 58.505,
+     "end": 58.795
+    },
+    {
+     "text": "Room",
+     "start": 58.842,
+     "end": 59.016
+    },
+    {
+     "text": "for",
+     "start": 59.085,
+     "end": 59.201
+    },
+    {
+     "text": "one",
+     "start": 59.271,
+     "end": 59.434
+    },
+    {
+     "text": "story",
+     "start": 59.468,
+     "end": 59.747
+    },
+    {
+     "text": "a",
+     "start": 59.794,
+     "end": 59.817
+    },
+    {
+     "text": "day.",
+     "start": 59.863,
+     "end": 60.293
+    }
+   ],
+   "cues": {},
+   "startFrame": 1731,
+   "endFrame": 1845
+  }
+ ]
+}

@@ -1,0 +1,847 @@
+{
+ "fps": 30,
+ "durationInFrames": 1649,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 144,
+ "wpm": 157.1,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.715,
+   "words": [
+    {
+     "text": "This",
+     "start": 0.3,
+     "end": 0.509
+    },
+    {
+     "text": "Boston",
+     "start": 0.567,
+     "end": 0.915
+    },
+    {
+     "text": "square",
+     "start": 0.962,
+     "end": 1.229
+    },
+    {
+     "text": "was",
+     "start": 1.275,
+     "end": 1.38
+    },
+    {
+     "text": "wiped",
+     "start": 1.438,
+     "end": 1.682
+    },
+    {
+     "text": "off",
+     "start": 1.716,
+     "end": 1.833
+    },
+    {
+     "text": "the",
+     "start": 1.879,
+     "end": 1.949
+    },
+    {
+     "text": "map.",
+     "start": 1.995,
+     "end": 2.715
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 93
+  },
+  {
+   "id": "scollay",
+   "speechEnd": 8.033,
+   "words": [
+    {
+     "text": "Scollay",
+     "start": 3.215,
+     "end": 3.656
+    },
+    {
+     "text": "Square",
+     "start": 3.703,
+     "end": 3.97
+    },
+    {
+     "text": "was",
+     "start": 4.004,
+     "end": 4.109
+    },
+    {
+     "text": "the",
+     "start": 4.144,
+     "end": 4.213
+    },
+    {
+     "text": "city's",
+     "start": 4.248,
+     "end": 4.539
+    },
+    {
+     "text": "loudest",
+     "start": 4.62,
+     "end": 4.98
+    },
+    {
+     "text": "corner,",
+     "start": 5.038,
+     "end": 5.409
+    },
+    {
+     "text": "packed",
+     "start": 5.467,
+     "end": 5.758
+    },
+    {
+     "text": "with",
+     "start": 5.792,
+     "end": 5.92
+    },
+    {
+     "text": "theaters,",
+     "start": 5.967,
+     "end": 6.466
+    },
+    {
+     "text": "bars",
+     "start": 6.535,
+     "end": 6.93
+    },
+    {
+     "text": "and",
+     "start": 6.977,
+     "end": 7.058
+    },
+    {
+     "text": "burlesque",
+     "start": 7.116,
+     "end": 7.534
+    },
+    {
+     "text": "shows.",
+     "start": 7.557,
+     "end": 8.033
+    }
+   ],
+   "cues": {},
+   "startFrame": 93,
+   "endFrame": 253
+  },
+  {
+   "id": "razed",
+   "speechEnd": 13.478,
+   "words": [
+    {
+     "text": "In",
+     "start": 8.521,
+     "end": 8.648
+    },
+    {
+     "text": "the",
+     "start": 8.683,
+     "end": 8.753
+    },
+    {
+     "text": "early",
+     "start": 8.811,
+     "end": 9.02
+    },
+    {
+     "text": "1960s,",
+     "start": 9.066,
+     "end": 9.879
+    },
+    {
+     "text": "the",
+     "start": 9.902,
+     "end": 9.972
+    },
+    {
+     "text": "city",
+     "start": 10.018,
+     "end": 10.239
+    },
+    {
+     "text": "tore",
+     "start": 10.297,
+     "end": 10.483
+    },
+    {
+     "text": "it",
+     "start": 10.518,
+     "end": 10.576
+    },
+    {
+     "text": "all",
+     "start": 10.611,
+     "end": 10.738
+    },
+    {
+     "text": "down",
+     "start": 10.796,
+     "end": 10.994
+    },
+    {
+     "text": "to",
+     "start": 11.04,
+     "end": 11.087
+    },
+    {
+     "text": "build",
+     "start": 11.145,
+     "end": 11.33
+    },
+    {
+     "text": "Government",
+     "start": 11.388,
+     "end": 11.748
+    },
+    {
+     "text": "Center",
+     "start": 11.783,
+     "end": 12.039
+    },
+    {
+     "text": "and",
+     "start": 12.073,
+     "end": 12.143
+    },
+    {
+     "text": "City",
+     "start": 12.19,
+     "end": 12.398
+    },
+    {
+     "text": "Hall.",
+     "start": 12.445,
+     "end": 13.478
+    }
+   ],
+   "cues": {},
+   "startFrame": 253,
+   "endFrame": 416
+  },
+  {
+   "id": "faneuil",
+   "speechEnd": 17.554,
+   "words": [
+    {
+     "text": "A",
+     "start": 13.978,
+     "end": 14.071
+    },
+    {
+     "text": "few",
+     "start": 14.152,
+     "end": 14.28
+    },
+    {
+     "text": "blocks",
+     "start": 14.315,
+     "end": 14.593
+    },
+    {
+     "text": "away,",
+     "start": 14.628,
+     "end": 14.93
+    },
+    {
+     "text": "Faneuil",
+     "start": 14.976,
+     "end": 15.406
+    },
+    {
+     "text": "Hall",
+     "start": 15.476,
+     "end": 15.719
+    },
+    {
+     "text": "has",
+     "start": 15.778,
+     "end": 15.894
+    },
+    {
+     "text": "stood",
+     "start": 15.928,
+     "end": 16.161
+    },
+    {
+     "text": "since",
+     "start": 16.196,
+     "end": 16.393
+    },
+    {
+     "text": "1742.",
+     "start": 16.416,
+     "end": 17.554
+    }
+   ],
+   "cues": {},
+   "startFrame": 416,
+   "endFrame": 534
+  },
+  {
+   "id": "gift",
+   "speechEnd": 21.432,
+   "words": [
+    {
+     "text": "The",
+     "start": 17.914,
+     "end": 18.03
+    },
+    {
+     "text": "merchant",
+     "start": 18.088,
+     "end": 18.448
+    },
+    {
+     "text": "Peter",
+     "start": 18.518,
+     "end": 18.785
+    },
+    {
+     "text": "Faneuil",
+     "start": 18.843,
+     "end": 19.226
+    },
+    {
+     "text": "paid",
+     "start": 19.295,
+     "end": 19.504
+    },
+    {
+     "text": "for",
+     "start": 19.551,
+     "end": 19.702
+    },
+    {
+     "text": "it,",
+     "start": 19.76,
+     "end": 19.969
+    },
+    {
+     "text": "as",
+     "start": 20.166,
+     "end": 20.34
+    },
+    {
+     "text": "a",
+     "start": 20.387,
+     "end": 20.422
+    },
+    {
+     "text": "gift",
+     "start": 20.468,
+     "end": 20.7
+    },
+    {
+     "text": "to",
+     "start": 20.735,
+     "end": 20.793
+    },
+    {
+     "text": "the",
+     "start": 20.863,
+     "end": 20.932
+    },
+    {
+     "text": "town.",
+     "start": 20.979,
+     "end": 21.432
+    }
+   ],
+   "cues": {},
+   "startFrame": 534,
+   "endFrame": 651
+  },
+  {
+   "id": "bulfinch",
+   "speechEnd": 25.356,
+   "words": [
+    {
+     "text": "In",
+     "start": 21.792,
+     "end": 21.931
+    },
+    {
+     "text": "1806,",
+     "start": 21.977,
+     "end": 22.836
+    },
+    {
+     "text": "Charles",
+     "start": 22.86,
+     "end": 23.185
+    },
+    {
+     "text": "Bulfinch",
+     "start": 23.231,
+     "end": 23.672
+    },
+    {
+     "text": "made",
+     "start": 23.719,
+     "end": 23.881
+    },
+    {
+     "text": "it",
+     "start": 23.916,
+     "end": 23.974
+    },
+    {
+     "text": "much",
+     "start": 24.044,
+     "end": 24.253
+    },
+    {
+     "text": "bigger.",
+     "start": 24.311,
+     "end": 25.356
+    }
+   ],
+   "cues": {},
+   "startFrame": 651,
+   "endFrame": 773
+  },
+  {
+   "id": "custom",
+   "speechEnd": 28.875,
+   "words": [
+    {
+     "text": "Down",
+     "start": 25.856,
+     "end": 26.111
+    },
+    {
+     "text": "by",
+     "start": 26.158,
+     "end": 26.239
+    },
+    {
+     "text": "the",
+     "start": 26.297,
+     "end": 26.367
+    },
+    {
+     "text": "harbor,",
+     "start": 26.413,
+     "end": 26.715
+    },
+    {
+     "text": "the",
+     "start": 26.738,
+     "end": 26.808
+    },
+    {
+     "text": "Custom",
+     "start": 26.854,
+     "end": 27.168
+    },
+    {
+     "text": "House",
+     "start": 27.214,
+     "end": 27.412
+    },
+    {
+     "text": "opened",
+     "start": 27.458,
+     "end": 27.702
+    },
+    {
+     "text": "in",
+     "start": 27.737,
+     "end": 27.795
+    },
+    {
+     "text": "1847.",
+     "start": 27.818,
+     "end": 28.875
+    }
+   ],
+   "cues": {},
+   "startFrame": 773,
+   "endFrame": 873
+  },
+  {
+   "id": "tower",
+   "speechEnd": 32.021,
+   "words": [
+    {
+     "text": "In",
+     "start": 29.188,
+     "end": 29.327
+    },
+    {
+     "text": "1915,",
+     "start": 29.374,
+     "end": 30.152
+    },
+    {
+     "text": "a",
+     "start": 30.187,
+     "end": 30.21
+    },
+    {
+     "text": "tower",
+     "start": 30.279,
+     "end": 30.593
+    },
+    {
+     "text": "was",
+     "start": 30.651,
+     "end": 30.767
+    },
+    {
+     "text": "built",
+     "start": 30.825,
+     "end": 31.034
+    },
+    {
+     "text": "right",
+     "start": 31.115,
+     "end": 31.313
+    },
+    {
+     "text": "on",
+     "start": 31.348,
+     "end": 31.417
+    },
+    {
+     "text": "top",
+     "start": 31.475,
+     "end": 31.696
+    },
+    {
+     "text": "of",
+     "start": 31.742,
+     "end": 31.8
+    },
+    {
+     "text": "it.",
+     "start": 31.858,
+     "end": 32.021
+    }
+   ],
+   "cues": {},
+   "startFrame": 873,
+   "endFrame": 965
+  },
+  {
+   "id": "tallest",
+   "speechEnd": 35.701,
+   "words": [
+    {
+     "text": "It",
+     "start": 32.253,
+     "end": 32.392
+    },
+    {
+     "text": "stayed",
+     "start": 32.45,
+     "end": 32.717
+    },
+    {
+     "text": "Boston's",
+     "start": 32.764,
+     "end": 33.217
+    },
+    {
+     "text": "tallest",
+     "start": 33.275,
+     "end": 33.623
+    },
+    {
+     "text": "building",
+     "start": 33.67,
+     "end": 33.971
+    },
+    {
+     "text": "until",
+     "start": 34.018,
+     "end": 34.227
+    },
+    {
+     "text": "1964.",
+     "start": 34.285,
+     "end": 35.701
+    }
+   ],
+   "cues": {},
+   "startFrame": 965,
+   "endFrame": 1083
+  },
+  {
+   "id": "garden",
+   "speechEnd": 41.565,
+   "words": [
+    {
+     "text": "And",
+     "start": 36.201,
+     "end": 36.375
+    },
+    {
+     "text": "the",
+     "start": 36.422,
+     "end": 36.491
+    },
+    {
+     "text": "Public",
+     "start": 36.526,
+     "end": 36.805
+    },
+    {
+     "text": "Garden,",
+     "start": 36.84,
+     "end": 37.269
+    },
+    {
+     "text": "opened",
+     "start": 37.339,
+     "end": 37.664
+    },
+    {
+     "text": "in",
+     "start": 37.699,
+     "end": 37.757
+    },
+    {
+     "text": "1837,",
+     "start": 37.792,
+     "end": 38.778
+    },
+    {
+     "text": "was",
+     "start": 38.895,
+     "end": 39.057
+    },
+    {
+     "text": "the",
+     "start": 39.115,
+     "end": 39.185
+    },
+    {
+     "text": "first",
+     "start": 39.254,
+     "end": 39.545
+    },
+    {
+     "text": "public",
+     "start": 39.626,
+     "end": 39.916
+    },
+    {
+     "text": "botanical",
+     "start": 39.963,
+     "end": 40.439
+    },
+    {
+     "text": "garden",
+     "start": 40.497,
+     "end": 40.787
+    },
+    {
+     "text": "in",
+     "start": 40.833,
+     "end": 40.903
+    },
+    {
+     "text": "America.",
+     "start": 40.949,
+     "end": 41.565
+    }
+   ],
+   "cues": {},
+   "startFrame": 1083,
+   "endFrame": 1255
+  },
+  {
+   "id": "swans",
+   "speechEnd": 46.232,
+   "words": [
+    {
+     "text": "Its",
+     "start": 41.925,
+     "end": 42.11
+    },
+    {
+     "text": "Swan",
+     "start": 42.169,
+     "end": 42.482
+    },
+    {
+     "text": "Boats",
+     "start": 42.54,
+     "end": 42.807
+    },
+    {
+     "text": "have",
+     "start": 42.842,
+     "end": 42.958
+    },
+    {
+     "text": "been",
+     "start": 42.981,
+     "end": 43.121
+    },
+    {
+     "text": "gliding",
+     "start": 43.155,
+     "end": 43.55
+    },
+    {
+     "text": "across",
+     "start": 43.597,
+     "end": 43.91
+    },
+    {
+     "text": "the",
+     "start": 43.945,
+     "end": 44.015
+    },
+    {
+     "text": "lagoon",
+     "start": 44.061,
+     "end": 44.386
+    },
+    {
+     "text": "since",
+     "start": 44.444,
+     "end": 44.665
+    },
+    {
+     "text": "1877.",
+     "start": 44.7,
+     "end": 46.232
+    }
+   ],
+   "cues": {},
+   "startFrame": 1255,
+   "endFrame": 1399
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 50.912,
+   "words": [
+    {
+     "text": "The",
+     "start": 46.732,
+     "end": 46.895
+    },
+    {
+     "text": "streets",
+     "start": 46.941,
+     "end": 47.254
+    },
+    {
+     "text": "change.",
+     "start": 47.301,
+     "end": 47.73
+    },
+    {
+     "text": "The",
+     "start": 47.893,
+     "end": 48.021
+    },
+    {
+     "text": "stories",
+     "start": 48.067,
+     "end": 48.473
+    },
+    {
+     "text": "stay,",
+     "start": 48.52,
+     "end": 48.984
+    },
+    {
+     "text": "if",
+     "start": 49.1,
+     "end": 49.228
+    },
+    {
+     "text": "you",
+     "start": 49.263,
+     "end": 49.333
+    },
+    {
+     "text": "know",
+     "start": 49.379,
+     "end": 49.484
+    },
+    {
+     "text": "where",
+     "start": 49.518,
+     "end": 49.669
+    },
+    {
+     "text": "to",
+     "start": 49.693,
+     "end": 49.739
+    },
+    {
+     "text": "look.",
+     "start": 49.785,
+     "end": 50.912
+    }
+   ],
+   "cues": {},
+   "startFrame": 1399,
+   "endFrame": 1539
+  },
+  {
+   "id": "cta",
+   "speechEnd": 53.78,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 51.412,
+     "end": 51.737
+    },
+    {
+     "text": "Boston",
+     "start": 51.795,
+     "end": 52.109
+    },
+    {
+     "text": "Before",
+     "start": 52.143,
+     "end": 52.41
+    },
+    {
+     "text": "Us",
+     "start": 52.469,
+     "end": 52.561
+    },
+    {
+     "text": "for",
+     "start": 52.619,
+     "end": 52.724
+    },
+    {
+     "text": "more",
+     "start": 52.782,
+     "end": 52.968
+    },
+    {
+     "text": "old",
+     "start": 53.014,
+     "end": 53.165
+    },
+    {
+     "text": "Boston.",
+     "start": 53.212,
+     "end": 53.78
+    }
+   ],
+   "cues": {},
+   "startFrame": 1539,
+   "endFrame": 1649
+  }
+ ]
+}

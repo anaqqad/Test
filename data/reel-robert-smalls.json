@@ -1,0 +1,658 @@
+{
+  "id": "reel-robert-smalls",
+  "title": "The Man Who Stole a Confederate Ship",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "assets": {
+    "portrait": {
+      "commons": "File:Robert Smalls - Brady-Handy.jpg"
+    },
+    "mc": {
+      "commons": "File:Robert Smalls, S.C. M.C. Born in Beaufort, SC, April 1839 Trim.jpg"
+    },
+    "heroes": {
+      "commons": "File:Heroes in Ebony-The captors of the Rebel steamer Planter, Robert Small, W. Morrison, A. Gradine and John Small LCCN99403228.jpg"
+    },
+    "harpers": {
+      "commons": "File:Robert Smalls, captain of the gun-boat \"Planter\" The gun-boat \"Planter,\" run out of Charleston, S.C., by Robert Smalls, May 1862. LCCN97512451.jpg"
+    },
+    "gunboat": {
+      "commons": "File:Gunboat Planter.png"
+    },
+    "planter": {
+      "commons": "File:USS Planter 1860s.jpg"
+    },
+    "planter2": {
+      "commons": "File:NH 74054 Steamer Planter.jpg"
+    },
+    "sumter": {
+      "commons": "File:Fort Sumter - 1861.jpg"
+    },
+    "harbor1865": {
+      "commons": "File:Fort Sumter, in Charleston Harbor - Harper's weekly 1865.jpg"
+    },
+    "house": {
+      "commons": "File:SOUTH (FRONT) ELEVATION - McKee-Smalls House, 511 Prince Street, Beaufort, Beaufort County, SC HABS SC,7-BEAUF,32-2.tif"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "In 1862, an enslaved man stole a Confederate warship.",
+      "visual": {
+        "kind": "photo",
+        "image": "portrait",
+        "focus": [
+          0.415,
+          0.22
+        ],
+        "zoom": [
+          1.85,
+          1.95
+        ],
+        "anchor": [
+          0.4,
+          0.25
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "In 1862, an enslaved man *stole* a Confederate *warship.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "His name was Robert Smalls.",
+      "visual": {
+        "kind": "photo",
+        "image": "mc",
+        "focus": [
+          0.4,
+          0.3
+        ],
+        "zoom": [
+          1.18,
+          1.3
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Robert Smalls",
+          "sub": "1839 – 1915"
+        }
+      }
+    },
+    {
+      "id": "born",
+      "text": "Born enslaved in Beaufort, South Carolina,",
+      "visual": {
+        "kind": "photo",
+        "image": "portrait",
+        "focus": [
+          0.42,
+          0.25
+        ],
+        "zoom": [
+          1.0,
+          1.08
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      },
+      "overlays": {
+        "year": {
+          "from": 1839,
+          "to": 1839
+        },
+        "pin": {
+          "label": "Beaufort",
+          "sub": "South Carolina"
+        }
+      }
+    },
+    {
+      "id": "docks",
+      "text": "he was hired out to work on the Charleston waterfront",
+      "visual": {
+        "kind": "card",
+        "image": "harbor1865",
+        "crop": [
+          0.3,
+          0.08,
+          0.75,
+          0.9
+        ],
+        "caption": "Charleston harbor, Harper's Weekly, 1865"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Charleston",
+          "sub": "South Carolina"
+        }
+      }
+    },
+    {
+      "id": "steered",
+      "text": "and steered a Confederate steamer called the Planter.",
+      "visual": {
+        "kind": "photo",
+        "image": "gunboat",
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "zoom": [
+          1.05,
+          1.22
+        ],
+        "anchor": [
+          0.45,
+          0.42
+        ]
+      },
+      "overlays": {
+        "year": {
+          "from": 1839,
+          "to": 1862
+        }
+      }
+    },
+    {
+      "id": "ashore",
+      "text": "On May 12, 1862, its white officers spent the night ashore.",
+      "visual": {
+        "kind": "photo",
+        "image": "planter",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "anchor": [
+          0.5,
+          0.42
+        ],
+        "motion": "panLeft"
+      },
+      "section": "story",
+      "overlays": {
+        "stamp": "May 12, 1862"
+      }
+    },
+    {
+      "id": "castoff",
+      "text": "Before dawn, Smalls and the enslaved crew cast off.",
+      "visual": {
+        "kind": "card",
+        "image": "heroes",
+        "crop": [
+          0.08,
+          0.0,
+          0.92,
+          0.74
+        ],
+        "caption": "Smalls (top) and three of the Planter's crew, 1862"
+      }
+    },
+    {
+      "id": "families",
+      "text": "They picked up their wives and children.",
+      "visual": {
+        "kind": "map",
+        "step": "wharf"
+      }
+    },
+    {
+      "id": "sixteen",
+      "text": "Sixteen people on one stolen ship.",
+      "visual": {
+        "kind": "card",
+        "image": "planter2",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "The Planter, photographed in the 1860s or 1870s"
+      },
+      "overlays": {
+        "stamp": "16 people"
+      }
+    },
+    {
+      "id": "hat",
+      "text": "Smalls wore the captain's straw hat,",
+      "visual": {
+        "kind": "card",
+        "image": "harpers",
+        "crop": [
+          0.02,
+          0.04,
+          0.5,
+          0.66
+        ],
+        "caption": "Harper's Weekly, June 14, 1862",
+        "clipping": true
+      }
+    },
+    {
+      "id": "signals",
+      "text": "and gave the right whistle signals at each fort.",
+      "visual": {
+        "kind": "map",
+        "step": "forts"
+      }
+    },
+    {
+      "id": "sumter",
+      "text": "Then he steamed right past Fort Sumter.",
+      "visual": {
+        "kind": "map",
+        "step": "sumter"
+      }
+    },
+    {
+      "id": "flag",
+      "text": "Out of range, they lowered the Confederate flag and raised a white bedsheet,",
+      "visual": {
+        "kind": "card",
+        "image": "sumter",
+        "crop": [
+          0.07,
+          0.2,
+          0.5,
+          0.8
+        ],
+        "caption": "Fort Sumter, Charleston harbor"
+      }
+    },
+    {
+      "id": "handed",
+      "text": "and handed the ship to the Union blockade.",
+      "visual": {
+        "kind": "map",
+        "step": "fleet"
+      }
+    },
+    {
+      "id": "house",
+      "text": "Later, Smalls bought the very house where he had been enslaved.",
+      "visual": {
+        "kind": "photo",
+        "image": "house",
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "zoom": [
+          1.12,
+          1.22
+        ],
+        "anchor": [
+          0.45,
+          0.4
+        ]
+      },
+      "section": "twist",
+      "overlays": {
+        "pin": {
+          "label": "Beaufort",
+          "sub": "The house he was enslaved in"
+        }
+      }
+    },
+    {
+      "id": "congress",
+      "text": "And he served five terms in the United States Congress.",
+      "visual": {
+        "kind": "photo",
+        "image": "portrait",
+        "focus": [
+          0.41,
+          0.22
+        ],
+        "zoom": [
+          1.3,
+          1.45
+        ],
+        "anchor": [
+          0.45,
+          0.27
+        ]
+      },
+      "overlays": {
+        "year": {
+          "from": 1862,
+          "to": 1875
+        },
+        "lowerThird": {
+          "name": "Rep. Robert Smalls",
+          "sub": "South Carolina · five terms, 1875 – 1887"
+        }
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "He freed his family in one night, then gave his life to public service.",
+      "visual": {
+        "kind": "photo",
+        "image": "mc",
+        "focus": [
+          0.4,
+          0.3
+        ],
+        "zoom": [
+          1.4,
+          1.1
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "voice": {
+    "engine": "elevenlabs",
+    "voiceId": "gUABw7pXQjhjt0kNFBTF",
+    "voiceName": "Andrew - Smooth audio books",
+    "model": "eleven_multilingual_v2",
+    "stability": 0.6,
+    "similarity": 0.75,
+    "style": 0.0,
+    "speed": 1.05,
+    "seed": 1234,
+    "leadInSeconds": 0.3,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day."
+  },
+  "faces": {
+    "portrait": [
+      [
+        0.27,
+        0.06,
+        0.56,
+        0.38
+      ]
+    ],
+    "mc": [
+      [
+        0.27,
+        0.16,
+        0.52,
+        0.45
+      ]
+    ],
+    "heroes": [
+      [
+        0.42,
+        0.02,
+        0.62,
+        0.17
+      ],
+      [
+        0.22,
+        0.32,
+        0.38,
+        0.46
+      ],
+      [
+        0.63,
+        0.3,
+        0.78,
+        0.43
+      ],
+      [
+        0.44,
+        0.55,
+        0.61,
+        0.68
+      ]
+    ],
+    "harpers": [
+      [
+        0.18,
+        0.28,
+        0.32,
+        0.5
+      ]
+    ]
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "In 1862 an enslaved man took a Confederate vessel.",
+      "sources": [
+        "H",
+        "N",
+        "D"
+      ],
+      "note": "'Warship': the Planter was an armed Confederate transport/dispatch steamer ('lightly armed by the Confederate Navy', N; 'her usual armament', D; Harper's 1862 calls it a 'gun-boat', HW). 'Warship' is a fair headline word; 'armed Confederate steamer' is the strict description."
+    },
+    {
+      "beat": "born",
+      "claim": "Born enslaved in Beaufort, South Carolina, on 5 April 1839.",
+      "sources": [
+        "H",
+        "R"
+      ]
+    },
+    {
+      "beat": "docks",
+      "claim": "Hired out to work on the Charleston waterfront.",
+      "sources": [
+        "H",
+        "R"
+      ]
+    },
+    {
+      "beat": "steered",
+      "claim": "Worked aboard the Confederate steamer Planter (as wheelman, the role of pilot in practice).",
+      "sources": [
+        "H",
+        "N",
+        "D"
+      ],
+      "note": "Sources call him 'pilot' (D, H) or wheelman; the script says 'steered' to cover both."
+    },
+    {
+      "beat": "ashore",
+      "claim": "On the evening of 12 May 1862 the white officers went ashore for the night.",
+      "sources": [
+        "N",
+        "D"
+      ],
+      "note": "D: 'while her captain, C. J. Relyea, was absent on shore'."
+    },
+    {
+      "beat": "castoff",
+      "claim": "Before dawn on 13 May (about 3-4 a.m.) Smalls and the enslaved crew took the ship from the wharf.",
+      "sources": [
+        "N",
+        "D",
+        "G"
+      ],
+      "note": "N: ~3 a.m.; D: 0400."
+    },
+    {
+      "beat": "families",
+      "claim": "They stopped to pick up their wives and children.",
+      "sources": [
+        "H",
+        "N",
+        "G"
+      ],
+      "note": "G: at the West Atlantic Wharf."
+    },
+    {
+      "beat": "sixteen",
+      "claim": "Sixteen people were aboard.",
+      "sources": [
+        "H",
+        "D",
+        "P"
+      ],
+      "note": "G gives 17 (nine men, five women, three children). Open question; 16 is the count of three government sources."
+    },
+    {
+      "beat": "hat",
+      "claim": "Smalls wore the captain's straw hat.",
+      "sources": [
+        "N",
+        "G"
+      ]
+    },
+    {
+      "beat": "signals",
+      "claim": "He gave the expected whistle signals at the forts.",
+      "sources": [
+        "N",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "beat": "sumter",
+      "claim": "They passed Fort Sumter.",
+      "sources": [
+        "H",
+        "N",
+        "P",
+        "G"
+      ]
+    },
+    {
+      "beat": "flag",
+      "claim": "Out of range they lowered the Confederate flag and raised a white bedsheet.",
+      "sources": [
+        "D",
+        "P",
+        "G"
+      ],
+      "note": "D: 'hoisted a white one'; P and G: a bed sheet."
+    },
+    {
+      "beat": "handed",
+      "claim": "They surrendered the ship to the Union blockade (USS Onward).",
+      "sources": [
+        "N",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "beat": "house",
+      "claim": "Smalls later bought the Beaufort house where he had been enslaved.",
+      "sources": [
+        "H",
+        "R",
+        "G"
+      ],
+      "note": "R: bought at a tax sale in 1863; G: 'following the war'. The script says 'Later' to avoid the conflict."
+    },
+    {
+      "beat": "congress",
+      "claim": "He served five terms in the US House (1875-1879, 1882-1883, 1884-1887).",
+      "sources": [
+        "H",
+        "G"
+      ]
+    },
+    {
+      "beat": "legacy",
+      "claim": "Public service after the war: Congress, and Collector of the Port of Beaufort until 1913.",
+      "sources": [
+        "H"
+      ],
+      "note": "Legacy line is a summary of the House record, not a new fact."
+    }
+  ],
+  "sources": {
+    "H": {
+      "name": "US House of Representatives, History, Art & Archives: SMALLS, Robert",
+      "url": "https://history.house.gov/People/Detail/21764",
+      "kind": "US House history site"
+    },
+    "N": {
+      "name": "National Archives, Prologue blog: Robert Smalls and the Planter",
+      "url": "https://prologue.blogs.archives.gov/?p=33416",
+      "kind": "National Archives"
+    },
+    "G": {
+      "name": "Henry Louis Gates Jr., 'Which Slave Sailed Himself to Freedom?', PBS The African Americans: Many Rivers to Cross",
+      "url": "https://www.pbs.org/wnet/african-americans-many-rivers-to-cross/history/which-slave-sailed-himself-to-freedom/",
+      "kind": "scholar (Harvard historian)"
+    },
+    "D": {
+      "name": "Naval History and Heritage Command, DANFS: Planter I (Side-wheel Steamer)",
+      "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/p/planter-i.html",
+      "kind": "US Navy official history"
+    },
+    "NHC": {
+      "name": "Naval Historical Center, Online Library: Planter (1862)",
+      "url": "https://ibiblio.org/hyperwar/OnlineLibrary/photos/sh-civil/civsh-p/planter.htm",
+      "kind": "US Navy (mirror)"
+    },
+    "P": {
+      "name": "National Park Service, Reconstruction Era NHP: The Planter, A Strike for Freedom",
+      "url": "https://www.nps.gov/reer/learn/historyculture/the-planter-a-strike-for-freedom.htm",
+      "kind": "National Park Service"
+    },
+    "P2": {
+      "name": "National Park Service: The Underground Railroad and Fort Sumter",
+      "url": "https://www.nps.gov/articles/000/the-underground-railroad-and-fort-sumter.htm",
+      "kind": "National Park Service"
+    },
+    "R": {
+      "name": "National Park Service, National Historic Landmark nomination: Robert Smalls House (74001823)",
+      "url": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/74001823_text",
+      "kind": "National Park Service"
+    },
+    "HW": {
+      "name": "Harper's Weekly, 14 June 1862, p. 372 (Library of Congress LCCN 97512451)",
+      "url": "https://lccn.loc.gov/97512451",
+      "kind": "Library of Congress (primary source)"
+    }
+  },
+  "notUsed": [
+    "Quote 'Good morning, sir! I've brought you some of the old United States guns, sir!' (reported in N; single source): not used.",
+    "'Failure and detection would have been certain death' (House Report 120, 55th Congress, quoted by NPS only): not used.",
+    "Story that the crew agreed to sink the ship rather than be captured: widely repeated, not checked against two primary sources: not used."
+  ]
+}

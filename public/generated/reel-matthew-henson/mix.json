@@ -1,0 +1,10 @@
+{
+ "integratedLUFS": -14.19,
+ "truePeakDBTP": -1.48,
+ "shortTermLUFS_p10_p50_p90": [
+  -15.2,
+  -14.2,
+  -13.5
+ ],
+ "shortTermSpreadLU_p90_minus_p10": 1.7
+}

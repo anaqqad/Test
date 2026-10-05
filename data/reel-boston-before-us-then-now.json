@@ -1,0 +1,415 @@
+{
+  "id": "reel-boston-before-us-then-now",
+  "title": "Boston, Then and Now",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "assets": {
+    "scollay_then": {
+      "commons": "File:Scollay Square with Lynn and Boston Rail Road horsecar, 1860s.jpg"
+    },
+    "scollay_now": {
+      "commons": "File:Teapot sign on the \"Sears Block\" on City Hall Plaza, Boston, Massachusetts LCCN2011635106.tif"
+    },
+    "faneuil_then": {
+      "commons": "File:Faneuil Hall, Boston 1870 - S.L.S. sc. LCCN2004670545.jpg"
+    },
+    "faneuil_now": {
+      "commons": "File:Faneuil Hall, Boston, Massachusetts LCCN2011631230.tif"
+    },
+    "custom_now": {
+      "commons": "File:Custom House Tower in Boston.jpg"
+    },
+    "garden_then": {
+      "commons": "File:Lake in the Public Garden, Boston-LCCN2008679573.jpg"
+    },
+    "garden_then2": {
+      "commons": "File:Public Garden, Boston - DPLA - db5ab4325bd264c28ad1079636249e39.jpg"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "This Boston square was wiped off the map.",
+      "visual": {
+        "kind": "photo",
+        "image": "scollay_then",
+        "crop": [
+          0.02,
+          0.2,
+          0.98,
+          0.98
+        ],
+        "focus": [
+          0.6,
+          0.5
+        ],
+        "zoom": [
+          1.0,
+          1.03
+        ],
+        "anchor": [
+          0.5,
+          0.42
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "This Boston square was *wiped off the map.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "scollay",
+      "text": "Scollay Square was the city's loudest corner, packed with theaters, bars and burlesque shows.",
+      "visual": {
+        "kind": "thennow",
+        "then": "scollay_then",
+        "now": "scollay_now",
+        "thenCrop": [
+          0.02,
+          0.2,
+          0.98,
+          0.98
+        ],
+        "thenFocus": [
+          0.6,
+          0.5
+        ],
+        "nowFocus": [
+          0.4,
+          0.45
+        ],
+        "thenLabel": "1860s",
+        "nowLabel": "TODAY"
+      },
+      "section": "scollay",
+      "overlays": {
+        "pin": {
+          "label": "Scollay Square",
+          "sub": "Now City Hall Plaza"
+        }
+      }
+    },
+    {
+      "id": "razed",
+      "text": "In the early 1960s, the city tore it all down to build Government Center and City Hall.",
+      "visual": {
+        "kind": "title",
+        "title": "1960s",
+        "sub": "Scollay Square is torn down"
+      }
+    },
+    {
+      "id": "faneuil",
+      "text": "A few blocks away, Faneuil Hall has stood since 1742.",
+      "visual": {
+        "kind": "thennow",
+        "then": "faneuil_then",
+        "now": "faneuil_now",
+        "thenCrop": [
+          0.33,
+          0.25,
+          0.68,
+          0.66
+        ],
+        "thenFocus": [
+          0.5,
+          0.5
+        ],
+        "nowFocus": [
+          0.55,
+          0.45
+        ],
+        "thenLabel": "THEN",
+        "nowLabel": "TODAY"
+      },
+      "section": "faneuil",
+      "overlays": {
+        "pin": {
+          "label": "Faneuil Hall",
+          "sub": "Built 1742"
+        }
+      }
+    },
+    {
+      "id": "gift",
+      "text": "The merchant Peter Faneuil paid for it, as a gift to the town.",
+      "visual": {
+        "kind": "title",
+        "title": "1742",
+        "sub": "a gift from Peter Faneuil"
+      }
+    },
+    {
+      "id": "bulfinch",
+      "text": "In 1806, Charles Bulfinch made it much bigger.",
+      "visual": {
+        "kind": "title",
+        "title": "1806",
+        "sub": "enlarged by Charles Bulfinch"
+      }
+    },
+    {
+      "id": "custom",
+      "text": "Down by the harbor, the Custom House opened in 1847.",
+      "visual": {
+        "kind": "photo",
+        "image": "custom_now",
+        "focus": [
+          0.47,
+          0.4
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.5,
+          0.4
+        ]
+      },
+      "section": "custom",
+      "overlays": {
+        "pin": {
+          "label": "Custom House",
+          "sub": "Opened 1847"
+        }
+      }
+    },
+    {
+      "id": "tower",
+      "text": "In 1915, a tower was built right on top of it.",
+      "visual": {
+        "kind": "title",
+        "title": "1915",
+        "sub": "a tower on top"
+      }
+    },
+    {
+      "id": "tallest",
+      "text": "It stayed Boston's tallest building until 1964.",
+      "visual": {
+        "kind": "title",
+        "title": "1964",
+        "sub": "still the tallest, until the Prudential"
+      }
+    },
+    {
+      "id": "garden",
+      "text": "And the Public Garden, opened in 1837, was the first public botanical garden in America.",
+      "visual": {
+        "kind": "photo",
+        "image": "garden_then",
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "zoom": [
+          1.0,
+          1.04
+        ],
+        "anchor": [
+          0.5,
+          0.42
+        ]
+      },
+      "section": "garden",
+      "overlays": {
+        "pin": {
+          "label": "Public Garden",
+          "sub": "Opened 1837"
+        }
+      }
+    },
+    {
+      "id": "swans",
+      "text": "Its Swan Boats have been gliding across the lagoon since 1877.",
+      "visual": {
+        "kind": "card",
+        "image": "garden_then2",
+        "crop": [
+          0.17,
+          0.17,
+          0.83,
+          0.77
+        ],
+        "caption": "The Public Garden lagoon, about 1900"
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "The streets change. The stories stay, if you know where to look.",
+      "visual": {
+        "kind": "title",
+        "title": "Boston",
+        "sub": "before us"
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow Boston Before Us for more old Boston.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "voice": {
+    "engine": "elevenlabs",
+    "voiceId": "gUABw7pXQjhjt0kNFBTF",
+    "voiceName": "Andrew - Smooth audio books",
+    "model": "eleven_multilingual_v2",
+    "stability": 0.6,
+    "similarity": 0.75,
+    "style": 0.0,
+    "speed": 1.05,
+    "seed": 1234,
+    "leadInSeconds": 0.3,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3
+  },
+  "brand": {
+    "page": "Boston Before Us",
+    "cta": "Follow Boston Before Us for more old Boston.",
+    "ctaLine": "Old streets. Lost landmarks. Forgotten stories.",
+    "theme": "bbu"
+  },
+  "faces": {},
+  "facts": [
+    {
+      "beat": "scollay",
+      "claim": "Scollay Square was an entertainment district of theaters, bars and burlesque.",
+      "sources": [
+        "WEM",
+        "LNE"
+      ]
+    },
+    {
+      "beat": "razed",
+      "claim": "Demolished in the early 1960s for Government Center and City Hall.",
+      "sources": [
+        "WEM",
+        "LNE"
+      ]
+    },
+    {
+      "beat": "faneuil",
+      "claim": "Faneuil Hall built 1742.",
+      "sources": [
+        "NPS_FH",
+        "SAH"
+      ]
+    },
+    {
+      "beat": "gift",
+      "claim": "Peter Faneuil paid for it as a gift to the town.",
+      "sources": [
+        "NPS_FH",
+        "WIKI_FH"
+      ]
+    },
+    {
+      "beat": "bulfinch",
+      "claim": "Enlarged by Charles Bulfinch in 1806.",
+      "sources": [
+        "NPS_FH",
+        "SAH",
+        "WIKI_FH"
+      ]
+    },
+    {
+      "beat": "custom",
+      "claim": "Custom House built 1837-1847.",
+      "sources": [
+        "WIKI_CH",
+        "BOSTODAY"
+      ]
+    },
+    {
+      "beat": "tower",
+      "claim": "Tower added 1913-1915.",
+      "sources": [
+        "WIKI_CH",
+        "BOSTODAY"
+      ]
+    },
+    {
+      "beat": "tallest",
+      "claim": "Tallest building in Boston until the Prudential Tower, 1964.",
+      "sources": [
+        "WIKI_CH",
+        "BOSTODAY"
+      ]
+    },
+    {
+      "beat": "garden",
+      "claim": "Public Garden 1837, first public botanical garden in America.",
+      "sources": [
+        "TCLF",
+        "FPG"
+      ]
+    },
+    {
+      "beat": "swans",
+      "claim": "Swan Boats since 1877.",
+      "sources": [
+        "TCLF",
+        "FPG"
+      ]
+    }
+  ],
+  "sources": {
+    "WEM": {
+      "name": "The West End Museum: Scollay Square",
+      "url": "https://thewestendmuseum.org/history/era/immigrant-neighborhood/scollay-square/"
+    },
+    "LNE": {
+      "name": "Lost New England: Scollay Square, Boston",
+      "url": "https://lostnewengland.com/2014/08/scollay-square-boston/"
+    },
+    "NPS_FH": {
+      "name": "National Park Service: Faneuil Hall overview",
+      "url": "https://home.nps.gov/articles/000/fh-overview.htm"
+    },
+    "SAH": {
+      "name": "SAH Archipedia: Faneuil Hall",
+      "url": "https://archipediavm.upress.virginia.edu/buildings/MA-01-GC4"
+    },
+    "WIKI_FH": {
+      "name": "Wikipedia: Faneuil Hall",
+      "url": "https://en.wikipedia.org/wiki/Faneuil_Hall"
+    },
+    "WIKI_CH": {
+      "name": "Wikipedia: Custom House Tower",
+      "url": "https://en.wikipedia.org/wiki/Custom_House_Tower"
+    },
+    "BOSTODAY": {
+      "name": "BosToday: History of the Custom House",
+      "url": "https://bostoday.6amcity.com/history-custom-house-boston-ma"
+    },
+    "TCLF": {
+      "name": "The Cultural Landscape Foundation: Public Garden",
+      "url": "https://tclf.org/landscapes/boston-public-garden"
+    },
+    "FPG": {
+      "name": "Friends of the Public Garden: The Garden",
+      "url": "https://friendsofthepublicgarden.org/our-parks/the-garden/"
+    }
+  },
+  "notUsed": [
+    "Custom House exempt from the city height limit (one source checked): not used.",
+    "'Boston Custom House Tower 1849.jpg' on Commons is a 2009 photo: not used as an old picture."
+  ]
+}
