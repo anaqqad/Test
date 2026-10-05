@@ -34,3 +34,8 @@ Seeddance lip-sync guides (links in `prompts.md`).
   the big man's 3s "rise" showed just his legs (no hero shot), the girl walked instead of ran, and 8s-12s was
   four seconds of the same crying close-up. Fixes: render at 720p/1080p, describe the hero shot as
   "full body, head to boots, standing", write "sprints" plus "slow motion", and keep every shot under 2.5s in the first 15s.
+- Hood-reveal shot in the same render: the framed photo behind him faded in during the shot (a morph, not a cut),
+  and the photo showed him in the same hoodie and chain. Fix: put the frame on the wall in an earlier wide shot
+  ("already hanging, sharp, unchanged"), keep the hood shot one continuous take with a static background, and dress
+  him differently in the photo. Also make every big guy look clearly fictional (distinct hair, glasses, tattoos)
+  so he isn't mistaken for a celebrity.
