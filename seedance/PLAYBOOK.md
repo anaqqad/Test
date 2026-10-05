@@ -40,3 +40,12 @@ Winners: "The Little House" (gift reveal) and "The Payroll" (owner catches a man
 - Generate at 720p or 1080p (a 480p render looked soft).
 - Anything that appears in a reveal (a framed photo, a house) must be named in an earlier shot or the model
   morphs it in mid-shot.
+
+## Smoothness checklist (run before handing over a prompt)
+- The person speaking is on screen in that shot (except an intentional off-screen opener).
+- Every prop exists before it is used (no flashlight from nowhere); remove props that are never used.
+- The setup is explained in one line (why does the kid have the keys?).
+- Location words don't contradict each other (gravel vs asphalt).
+- No adult gripping, pinning or hitting a child: it risks moderation and looks bad. Use fear, shouting, distance.
+- The emotional reason is said plainly ("He never came home"), not just implied.
+- End on a spoken payoff line, not only a visual.
