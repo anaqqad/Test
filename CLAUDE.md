@@ -36,3 +36,7 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - Never print, log or commit API keys; secrets come from environment variables.
 - Ask before any paid API usage.
 - Don't touch unrelated projects or folders on this machine.
+
+## Reels for The Black History Room
+- Saved context of the reels conversation: `docs/black-history-room-context.md`.
+- The reel pipeline and finished reels live on branch `claude/funny-bohr-xrel88`, not on this branch.
