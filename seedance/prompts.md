@@ -155,3 +155,37 @@ Camera: opening extreme close-up, hard cut to the backlit doorway, slow motion f
 
 Hook text: "Nobody came to her father-daughter dance… until HE walked in 😭"
 Caption: "A promise is a promise. ❤️🏍️"
+
+## 5. "The Owner" (hook-first, replaces "Never Dance Alone", which the owner had already made)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal emotional drama, upscale steakhouse at dinner time, warm amber pendant lights, dark wood and leather booths, rain outside the front window, shallow depth of field, natural skin texture, light film grain. Main characters: exactly 3, identical faces and wardrobe in every shot. Background diners stay soft and out of focus. The video starts mid-moment on the first frame: no fade-in, no establishing shot, no title.
+
+Characters:
+- SOFIA (8): small Latina girl, long dark wavy hair, wet from the rain, oversized yellow raincoat, worn pink sneakers, clutching a stack of hand-drawn crayon pictures in a plastic sleeve. Big brown eyes.
+- MARCUS (40s): enormous Black man, 6'6", built like a heavyweight boxer, shaved head, short beard, a scar through one eyebrow, grey hoodie with the hood up, gold chain, sitting alone in a corner booth with a plate of steak. Intimidating but kind eyes.
+- DEREK (30s): restaurant manager, thin white man, slicked-back hair, tight black suit, silver name tag reading "MANAGER", sneering.
+
+Location: steakhouse dining room; glass front door on the left with rain behind it; Marcus's corner booth on the right. Screen direction never flips.
+
+0s-2s: Extreme close-up Sofia, sobbing, lip shaking, rain and tears on her cheeks, Derek's hand gripping her raincoat sleeve. SOFIA (crying, from the very first frame): "Please, I just want to sell my drawings!"
+2s-3s: Medium shot, Derek drags her toward the door, her drawings spill onto the floor. DEREK (cold): "Beggars don't eat here. Out."
+3s-4s: Low-angle shot, a chair scrapes loudly; Marcus rises from his booth, huge, hood up, towering. MARCUS (deep): "Let her go."
+4s-6s: Slow motion, Sofia pulls free and runs across the restaurant and hides behind Marcus's legs, gripping his hoodie.
+6s-8s: Close-up Marcus kneeling to her level, gently picking up a wet drawing of a woman in a hospital bed. MARCUS (soft): "Who's this, sweetheart?"
+8s-11s: Close-up Sofia, sniffling. SOFIA: "My mommy. She's sick. I sell drawings for her medicine."
+11s-13s: Close-up Derek, smirking, arms crossed. DEREK: "Sit down, sir, or you're out with her."
+13s-15s: Close-up Marcus, still kneeling, not even looking at Derek. MARCUS: "How much for all of them?" SOFIA (tiny voice): "Five dollars?"
+15s-18s: Insert close-up, Marcus's big hand pressing a thick fold of hundred-dollar bills into Sofia's small hands. MARCUS (V.O.): "That's not enough. They're worth way more."
+18s-20s: Close-up Derek, laughing. DEREK: "Big spender. Who do you think you are?"
+20s-23s: Close-up Marcus, standing up slowly to full height and pulling his hood down; behind him on the wall, a framed photo of him cutting a ribbon at the restaurant's opening. MARCUS (calm): "I'm the guy who signs your paychecks."
+23s-24s: Close-up Derek, face draining white, mouth open.
+24s-26s: Medium shot, Marcus holds out his hand. MARCUS: "Name tag. You're done here."
+26s-27s: Insert close-up, Derek's trembling hand dropping the "MANAGER" name tag into Marcus's palm.
+27s-30s: Wide shot, Marcus sits Sofia in his booth and slides his steak plate to her; she smiles through her tears, her crayon drawings now taped up on the restaurant window behind them while the rain falls.
+
+Camera: opening extreme close-up, hard cuts, low-angle hero shot when Marcus stands, slow motion for the run, slow push-ins on close-ups, final slow pull-back. Audio: clear lip-synced English dialogue starting at 0.0s, a sob on the first frame, loud chair scrape at 3s, restaurant murmur that goes silent when Marcus stands, rain on the window, soft piano that swells into warm strings at the reveal. No subtitles, no text overlays, no watermark, no logos.
+```
+
+Hook text: "The manager threw her out… he didn't know who was watching 😳"
+Caption: "Never judge a man by his hoodie. ❤️"

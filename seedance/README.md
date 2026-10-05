@@ -24,3 +24,9 @@ Seeddance lip-sync guides (links in `prompts.md`).
 - Hook rule (owner's data): the first 4 seconds decide the video. Best openers are a girl crying in extreme
   close-up from frame 1, or a strong man with a little girl running to him. Start mid-moment, dialogue at 0.0s,
   a loud sound cue (door slam) around 2s, and the payoff visual by 4s.
+
+## Stories already made (don't repeat)
+- Mother owns the house (deed reveal, evicts son and wife)
+- Cheap car key opens a Mercedes
+- Biker at a father-daughter dance ("Never Dance Alone")
+- Add the rest of the owner's past videos here.
