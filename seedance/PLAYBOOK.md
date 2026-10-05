@@ -26,6 +26,9 @@ Winners: "The Little House" (gift reveal) and "The Payroll" (owner catches a man
 - 3-10 words per line, one speaker per shot, one acting cue in parentheses.
 
 ## Safety / likeness
+- No character names. Use role labels (WAITRESS, OLD MAN, RUDE CUSTOMER) and no names in dialogue.
+  Names pull in famous faces (WALTER + old man in glasses -> Walter White). If a name is unavoidable, use a
+  plain uncommon one with no famous holder, and never pair it with that famous person's look or setting.
 - Never describe a combination that matches a famous person. Avoid celebrity-coded bundles
   (giant + bald + beard + big smile + gold chain = athlete look). Use ordinary heights and builds and
   everyday, specific details: freckles, a mole, big ears, a gap tooth, wire glasses, a buzz cut.
