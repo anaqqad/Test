@@ -92,7 +92,7 @@ P = [
     # 14
     [("On Saturdays", "POW", T(10, 9)), ("The War Department had expected", "POW", T(12, 6)), ("On the way to the movies", "NOUB", T(9, 36.2))],
     # 15
-    [("McCoy was not a holiday camp", "POW", T(14, 59)), ("The Japanese prisoners complained", "NOUB", T(10, 19.7)),
+    [("McCoy was not a holiday camp", "NOU", T(3, 44.5)), ("The Japanese prisoners complained", "NOUB", T(10, 19.7)),
      ("They did not want to wash", "ASL", T(5, 3)), ("On one morning in May", "POW", T(11, 7)),
      ("#", "On one morning in May", None, {"type": "Slug", "title": "May 31, 1944", "subtitle": "Sit-down strike in the Japanese compound"}),
      ("Rogers sent in", "POW", T(12, 5)), ("The men went to work", "AH", T(10, 26))],
