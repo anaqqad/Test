@@ -295,7 +295,7 @@ Location: a steep dirt street; a black SUV with no logos and tinted windows park
 18s-20s: Close-up Recruiter, his smile gone, stepping toward him; tense silence.
 20s-22s: Close-up Recruiter, stopping, looking at the crying girl. His face softens. He takes the worn wallet from his back pocket.
 22s-24s: Insert close-up: inside the wallet, a faded photo of a smiling little girl in pigtails. RECRUITER (V.O., low): "My sister begged me too."
-24s-26s: Close-up Recruiter, eyes wet, voice rough. RECRUITER: "I didn't listen. Now she visits my mother's grave alone."
+24s-26s: Close-up Recruiter, eyes wet, voice rough. RECRUITER: "I didn't listen. Now she won't even look at me."
 26s-28s: Close-up Recruiter, putting on his sunglasses, nodding at the boy. RECRUITER: "Go home. Stay in school."
 28s-30s: Wide shot, the black SUV drives away up the hill in the dust; Brother lifts his little sister onto his back and walks toward the blue house as the streetlight flickers on. LITTLE SISTER (whispering): "You stayed."
 
