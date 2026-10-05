@@ -233,3 +233,36 @@ Camera: opening close-up, slow push-ins on close-ups, one smooth handheld follow
 
 Hook text: "He threw coins at her… the old man in the corner was watching 😢"
 Caption: "Kindness is never wasted. ❤️"
+
+## 8. "The Keys" (kid caught and blamed, was actually saving the man)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal emotional drama, early morning in a quiet working-class neighborhood, cold blue dawn light with fog, a steep downhill road behind the driveway, wet asphalt, shallow depth of field, natural skin texture, light film grain. Exactly 2 characters, identical faces and wardrobe in every shot, no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- BOY (9): skinny mixed-race boy, short curly brown hair, freckles, a gap in his front teeth, a band-aid on his chin, oversized faded red hoodie, grey sweatpants with a torn knee, worn sneakers. Clutches a set of truck keys on a bottle-opener keychain.
+- TRUCK DRIVER (late 50s): white man, average height, stocky with a beer belly, sunburned neck, thick grey mustache, short grey hair under a faded blank green trucker cap with no logo, red flannel shirt with rolled sleeves over a grey t-shirt, work jeans, steel-toe boots, a coffee thermos.
+
+Location: gravel driveway at the top of a steep foggy hill; an old dented blue pickup truck with no logos parked on the left; the man's small house with a porch on the right; the steep road dropping away behind them. Screen direction never flips.
+
+0s-2s: Extreme close-up Boy, pinned against the pickup's door, terrified, tears in his eyes, a big rough hand gripping his hoodie. TRUCK DRIVER (off-screen, shouting, from the very first frame): "What are you doing with my keys?!"
+2s-4s: Close-up Truck Driver, red-faced, furious, leaning in. BOY (sobbing): "Please! Don't drive it!"
+4s-6s: Insert, the man yanks the keys out of the boy's small hand.
+6s-8s: Close-up Truck Driver. TRUCK DRIVER: "Little thief. I'm calling the cops."
+8s-10s: Close-up Boy, shaking, pointing under the truck. BOY: "Look under it! It's leaking!"
+10s-12s: Close-up Truck Driver, scoffing. TRUCK DRIVER: "Nice try, kid."
+12s-14s: Close-up Boy, wiping his nose on his sleeve. BOY: "I saw it dripping. It's your brakes."
+14s-16s: Medium shot, the man hesitates, then slowly gets down on one knee on the wet gravel and shines a flashlight under the truck.
+16s-18s: Insert close-up under the truck: a cracked brake line dripping fluid into a dark puddle on the gravel.
+18s-20s: Close-up Truck Driver, the anger draining from his face. TRUCK DRIVER (quiet): "That's my brake line."
+20s-23s: Close-up Boy, voice breaking. BOY: "My dad's brakes failed on that hill too."
+23s-24s: Wide shot over their shoulders: the steep foggy road dropping away below the driveway.
+24s-26s: Close-up Truck Driver, eyes filling with tears. TRUCK DRIVER: "You took my keys… to save me?"
+26s-28s: Close-up Boy, nodding, tears falling. BOY: "I didn't want you to get hurt."
+28s-30s: Wide shot, the man pulls the boy into a big hug in the fog, the keys still in his fist, the old truck beside them.
+
+Camera: opening extreme close-up, tight handheld during the confrontation, slow push-ins on the realization close-ups, steady wide for the hill reveal, hard cuts. Audio: clear lip-synced English dialogue starting at 0.0s, cold morning wind, gravel crunch, keys jingling, a slow drip under the truck, distant dog bark, silence after the brake line reveal, then soft piano swelling into warm strings on the hug. No subtitles, no text overlays, no watermark, no logos.
+```
+
+Hook text: "He thought the boy was stealing his truck… then he looked underneath 😢"
+Caption: "He wasn't stealing. He was saving a life. ❤️"
