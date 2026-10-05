@@ -117,3 +117,41 @@ Caption: "She didn't care about the size. That's why she deserved it all. ❤️
 - https://www.mindstudio.ai/blog/timeline-prompting-seedance-2-cinematic-ai-video
 - https://mkanime.ai/guides/seedance-2-5-prompt-guide
 - https://www.seeddance.io/blog/seedance-ai-lip-sync-guide
+
+## 4. "Never Dance Alone" (hook-first: crying girl + strong man in the first 4 seconds)
+
+Hook rule from the owner's past videos: the first 4 seconds decide everything. What works is opening on a
+crying girl, or a strong man with a little girl running to him. This one does both by 0s-4s.
+
+```
+Vertical 9:16, 30s. Cinematic photoreal emotional drama, school gym at night decorated for a father-daughter dance: pink and gold balloons, string lights, a banner reading "FATHER-DAUGHTER DANCE", warm bokeh, shallow depth of field, natural skin texture, light film grain. Main characters: exactly 4, identical faces and wardrobe in every shot. Background dads and daughters stay soft and out of focus. The video starts mid-moment on the first frame: no fade-in, no establishing shot, no title.
+
+Characters:
+- LILY (7): small white girl, strawberry-blonde hair in two braids with pink ribbons, freckles, tear-streaked cheeks, a pale-pink tulle dress slightly too big for her, white sparkly sneakers. Holds a tiny wrist corsage nobody gave her.
+- BEAR (50s): huge, broad-shouldered white man, 6'5", shaved head, long grey beard, tattooed forearms and neck, black leather biker vest with no club logo over a crisp white dress shirt and a pink tie, dark jeans, black boots, a folded American flag patch on the vest. Gentle eyes.
+- KAYLA (7): girl with a glossy black bob, sequined silver dress, holding her father's hand, smug.
+- KAYLA'S DAD (40s): slim man in a tight navy suit, slicked hair, smirking.
+
+Location: school gymnasium hallway and dance floor; double gym doors with push bars on the right; a wooden bench against the wall on the left. Screen direction never flips: Lily's bench left, gym doors right.
+
+0s-2s: Extreme close-up Lily, alone on the bench, sobbing, lip trembling, a tear rolling down, the dance lights blurred behind her. LILY (whispering, breaking, from the very first frame): "Nobody came for me."
+2s-3s: Hard cut, wide shot: the gym doors slam open, backlit, a giant tattooed biker silhouette fills the doorway. Heavy boots on the floor, every head turns.
+3s-4s: Close-up Lily, she looks up, gasps, her face lights up through the tears. LILY: "Bear!" She sprints toward him.
+4s-6s: Slow motion wide, Lily runs across the floor in her pink dress and leaps; Bear drops to one knee and catches her in a huge hug, lifting her off the ground.
+6s-8s: Close-up Bear, eyes wet, his huge hand on the back of her small head. BEAR (deep, soft): "Sorry I'm late, princess."
+8s-10s: Medium shot, Kayla tugging her dad's hand, pointing. KAYLA (loud, mocking): "That's not her dad. She doesn't have one."
+10s-12s: Close-up Kayla's Dad, smirking, stepping forward. KAYLA'S DAD: "Sir, this dance is for real fathers."
+12s-13s: Close-up Lily, hiding her face in Bear's vest, shrinking.
+13s-17s: Close-up Bear, standing up slowly to full height, calm, quiet, towering over the man. BEAR: "Her father saved my life overseas."
+17s-20s: Close-up Bear, jaw tight, voice cracking. BEAR: "Before he died in my arms, I promised him she'd never dance alone."
+20s-21s: Close-up Kayla's Dad, the smirk gone, he looks down, ashamed.
+21s-24s: Wide shot, the gym doors open again: a line of tough tattooed bikers in leather vests and dress shirts walk in behind Bear, each one holding a single pink rose.
+24s-26s: Close-up Lily, mouth open, amazed. BEAR (off-screen): "And neither will any girl here tonight."
+26s-28s: Medium shot, the bikers kneel and offer their roses to the other girls standing alone by the wall; the girls light up.
+28s-30s: Wide shot under the string lights, Lily stands on Bear's big boots and they slow-dance, she laughs with tears still on her cheeks; Kayla watches, holding her dad's hand, silent.
+
+Camera: opening extreme close-up, hard cut to the backlit doorway, slow motion for the run and catch, slow push-ins on close-ups, final slow crane up over the dance floor. Audio: clear lip-synced English dialogue starting at 0.0s, a sob on the first frame, a loud door slam at 2s, heavy boot steps, quiet gym murmur that falls silent when Bear speaks, soft piano that swells into a warm emotional string melody at the bikers' entrance. No subtitles, no text overlays, no watermark, no logos.
+```
+
+Hook text: "Nobody came to her father-daughter dance… until HE walked in 😭"
+Caption: "A promise is a promise. ❤️🏍️"

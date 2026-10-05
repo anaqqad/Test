@@ -21,3 +21,6 @@ Seeddance lip-sync guides (links in `prompts.md`).
 ## Lessons
 - The first rebuild copied the original cast and dialogue word for word; the owner wanted a *fresh* version.
   When remaking a viral format, keep the story beats and change cast, setting, wardrobe, props and every line.
+- Hook rule (owner's data): the first 4 seconds decide the video. Best openers are a girl crying in extreme
+  close-up from frame 1, or a strong man with a little girl running to him. Start mid-moment, dialogue at 0.0s,
+  a loud sound cue (door slam) around 2s, and the payoff visual by 4s.
