@@ -189,3 +189,44 @@ Camera: opening extreme close-up, hard cuts, low-angle hero shot when Marcus sta
 
 Hook text: "The manager threw her out… he didn't know who was watching 😳"
 Caption: "Never judge a man by his hoodie. ❤️"
+
+## 6. "The Payroll" (owner's own prompt, performed well)
+
+See the owner's message; key beats: guard on the phone "Fifteen hundred again" -> owner steps out of the sedan ->
+manager stammers -> payroll insert shows $3,000 "Approved by: N. Patel" -> "You're fired. He gets back every cent."
+
+## 7. "The Tip" (built from PLAYBOOK.md)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal emotional drama, small-town diner at lunchtime, warm daylight through big front windows, red vinyl booths, chrome counter, coffee steam, shallow depth of field, natural skin texture, light film grain. Exactly 3 main characters, identical faces and wardrobe in every shot; background diners stay blurred and silent. All characters are original fictional people who do not resemble any celebrity or public figure. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- GRACE (waitress, mid-20s): Filipina woman, average height, dark hair in a messy bun with loose strands, small mole above her lip, no makeup, tired red-rimmed eyes, pale-blue diner uniform dress, white apron, plain name tag reading "GRACE", cheap phone in a pink case.
+- BRAD (rude customer, mid-40s): white man, stocky, sunburned red face, thinning ginger hair, ginger stubble, tight green polo shirt, khaki shorts, sunglasses hanging on a cord. Loud and smug.
+- WALTER (quiet regular, late 70s): white man, slim and slightly stooped, average height, thin white hair combed to the side, large ears, bushy white eyebrows, clean-shaven, round wire glasses, brown knit cardigan over a blue checked shirt, tweed flat cap on the table, an old fountain pen.
+
+Location: diner interior; kitchen door with a round window on the left, Brad's booth center, Walter's corner booth on the right by the window, glass front door with a bell far right. Screen direction never flips.
+
+0s-2s: Close-up Grace by the kitchen door, phone to her ear, crying, trying to keep her voice down. GRACE (speaking from the very first frame): "They won't do her surgery without five thousand."
+2s-3s: Medium shot, Brad snapping his fingers in the air. BRAD: "Hey! Coffee! Today!"
+3s-5s: Close-up Grace wiping her tears fast, forcing a smile. GRACE (into the phone, whisper): "I'll find it, Mom."
+5s-7s: Grace pours coffee at Brad's booth; his elbow knocks the cup and coffee splashes onto her apron. BRAD: "Look what you did. Clumsy."
+7s-8s: Close-up Walter in his corner booth, lowering his newspaper, watching quietly over his glasses.
+8s-10s: Insert, Brad tossing a few coins onto the wet table, they roll. BRAD (V.O.): "There's your tip. Learn to smile."
+10s-12s: Close-up Grace, lip trembling, nodding politely. GRACE: "Thank you, sir. Have a nice day."
+12s-14s: Medium shot, Walter raising one finger gently. WALTER (soft): "Miss? Just my check, please."
+14s-16s: Close-up Grace placing the check, sniffling. GRACE: "Sorry, Mr. Walter. Just a bad day."
+16s-18s: Close-up Walter's wrinkled hand writing on the receipt with the old fountain pen, folding it; he puts on his flat cap, stands and walks out; the door bell rings.
+18s-19s: Close-up Brad smirking. BRAD: "Bet the old man left a dollar."
+19s-21s: Grace unfolds the receipt. Insert close-up of the receipt: printed "Coffee + Pie $8.50", handwritten "Tip: $5,000.00" and below in neat handwriting "For your daughter's surgery. — W."
+21s-23s: Close-up Grace, hand over her mouth, sobbing with joy.
+23s-24s: Close-up Brad leaning over to read, sunglasses dropping off his face. BRAD: "Five thousand?!"
+24s-27s: Wide shot outside, Grace runs out the diner door onto the sunny sidewalk and catches Walter; she hugs him. GRACE: "How did you know?" WALTER: "I heard you, sweetheart."
+27s-29s: Close-up Walter, kind eyes behind his glasses, patting her hand. WALTER: "Go see your girl."
+29s-30s: Close-up Grace, tears and a huge smile; behind her through the diner window Brad sits frozen, staring at his coins.
+
+Camera: opening close-up, slow push-ins on close-ups, one smooth handheld follow as Grace runs out the door, hard cuts. Audio: clear lip-synced English dialogue starting at 0.0s, diner chatter kept low, coffee pouring, cup clatter, coins rolling, door bell, soft piano entering at the receipt reveal and swelling into warm strings on the hug. No subtitles, no text overlays, no watermark, no logos.
+```
+
+Hook text: "He threw coins at her… the old man in the corner was watching 😢"
+Caption: "Kindness is never wasted. ❤️"

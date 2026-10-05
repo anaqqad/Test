@@ -29,6 +29,7 @@ Seeddance lip-sync guides (links in `prompts.md`).
 - Mother owns the house (deed reveal, evicts son and wife)
 - Cheap car key opens a Mercedes
 - Biker at a father-daughter dance ("Never Dance Alone")
+- The Little House (gift reveal), The Payroll (guard underpaid), The Owner (steakhouse)
 - Add the rest of the owner's past videos here.
 - Review of the first render of "The Owner" (480x854): the story beats all landed, but the output was only 480p,
   the big man's 3s "rise" showed just his legs (no hero shot), the girl walked instead of ran, and 8s-12s was
