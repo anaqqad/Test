@@ -309,3 +309,35 @@ Camera: opening tracking close-up of the running girl, handheld during the confr
 
 Hook text: "They offered him $500 a week… his little sister ran barefoot to stop him 😭"
 Caption: "Some choices save more than one life. ❤️"
+
+## 10. "The Little Boat" (same format as The Little House)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal feel-good drama, golden-hour seaside marina, warm low sun, lens flares on the water, gentle waves, seagulls, shallow depth of field, natural skin texture, light film grain. Exactly 3 characters, identical faces and wardrobe in every shot, no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- HUSBAND (early 30s): Latino man, medium build, short wavy black hair, light stubble, a small mole on his cheek, warm nervous smile, faded navy windbreaker over a grey t-shirt, rolled-up khaki pants, worn canvas boat shoes. Holds a small brass key on a round orange cork float keychain.
+- WIFE (late 20s): Black woman, shoulder-length box braids tied with a white scarf, small silver hoops, freckles across her nose, soft makeup, flowy lavender sundress, straw sun hat, white sandals. Warm and genuine.
+- FRIEND (late 20s): white woman, sleek straight dark-red hair, oversized designer-style sunglasses pushed up on her head, all-white linen pantsuit, spotless white sneakers, iced coffee, small quilted handbag with no logo. Snobby.
+
+Location: old wooden marina dock at sunset; a tiny dented aluminum dinghy with chipped green paint and a small rusty pull-cord outboard motor tied at the dock; at the end of the dock a big old wooden fishing boat is moored, blocking the view of the open bay; hidden behind it, anchored in the bay, a sleek modern white yacht with glowing deck lights and no name or logos. Blocking: the three stand on the dock looking down at the dinghy; the fishing boat and the bay are on the right. Screen direction never flips.
+
+0s-2s: Close-up Husband holding up the brass key on its orange cork float, nervous hopeful smile. HUSBAND (speaking from the very first frame): "Babe… I bought us a boat."
+2s-4s: Wide shot, the tiny dented dinghy bobbing at the dock with its rusty little motor; Wife and Friend look down at it.
+4s-6s: Close-up Friend, snorting into her iced coffee. FRIEND: "That? That's a bathtub with a motor."
+6s-9s: Close-up Wife, eyes filling with happy tears, taking the key in both hands. WIFE: "Really? Our own boat?" She throws her arms around Husband.
+9s-11s: Medium shot, Friend rolling her eyes. FRIEND: "Girl, you deserve a yacht. Not this."
+11s-14s: Close-up Wife, still holding Husband, smiling at Friend. WIFE: "He saved for years for this. I love it."
+14s-16s: Close-up Husband, deeply moved, a small knowing smile. HUSBAND: "Then let's take it for a ride."
+16s-19s: Medium shot, the three squeezed into the little dinghy, Friend holding her handbag on her lap; Husband pulls the starter cord, the motor sputters, and they putter out past the big wooden fishing boat at the end of the dock.
+19s-22s: Slow reveal, the camera glides past the fishing boat's hull: the sleek white yacht anchored in the golden bay, deck lights glowing, the water shimmering.
+22s-23s: Close-up Friend, sunglasses slipping off her head, jaw dropping. FRIEND: "Wait… that's yours?!"
+23s-25s: Close-up Wife, hands over her mouth, the key with the orange float in her fingers. WIFE: "Babe… what is this?"
+25s-28s: Close-up Husband, grinning. HUSBAND: "This one's just the ride out. That key starts ours."
+28s-30s: Wide shot, the dinghy bumps against the yacht's swim platform; Husband helps Wife up the ladder and she spins with joy on the deck; Friend sits alone in the bobbing dinghy, iced coffee spilled across her white sneakers.
+
+Camera: opening close-up, slow push-ins on close-ups, one smooth gliding move past the fishing boat for the reveal, hard cuts. Audio: clear lip-synced English dialogue starting at 0.0s, seagulls, waves lapping the dock, the little motor sputtering, soft acoustic guitar that swells into a warm, uplifting melody at the reveal. No subtitles, no text overlays, no watermark, no logos.
+```
+
+Hook text: "Her friend laughed at the tiny boat he bought her… then they went around the corner 😳"
+Caption: "She loved the little one. That's why she got the big one. ❤️"
