@@ -53,3 +53,23 @@ Still: `publish/reels/henry-box-brown.hook.jpg`.
   text that is read as a precise claim.
 - No quotes are used. Still's "How do you do, gentlemen?" has only one source, so it is left out.
 - Not claimed: the "350 miles" figure, and that he never saw his family again (not verified).
+
+## YouTube Shorts
+
+Title (≤100 characters):
+He Mailed Himself to Freedom in 1849 #shorts
+
+Description:
+In 1849, Henry Brown, an enslaved man in Richmond, Virginia, had himself sealed in a wooden crate three
+feet long and shipped to the Anti-Slavery office in Philadelphia. More than a day later, the lid came off
+and he climbed out alive. History remembers him as Henry "Box" Brown.
+
+Sources: Encyclopedia Virginia; Encyclopaedia Britannica; William Still, The Underground Rail Road (1872);
+Pennsylvania Center for the Book (Penn State); Library of Congress.
+Images: public domain (Library of Congress, National Archives, Wikimedia Commons).
+
+#BlackHistory #HenryBoxBrown #UndergroundRailroad #History #Shorts
+
+Tags:
+Henry Box Brown, Black history, Underground Railroad, escape from slavery, mailed himself to freedom,
+William Still, Richmond Virginia, Philadelphia, abolition, 1849, African American history, history shorts
