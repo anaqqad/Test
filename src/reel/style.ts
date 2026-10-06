@@ -62,6 +62,8 @@ export const SAFE = { left: 60, top: 150, right: 1080 * 0.85, bottom: 1920 * 0.8
 /** horizontal centre of the safe column */
 export const SAFE_CX = (SAFE.left + SAFE.right) / 2;
 export const SAFE_W = SAFE.right - SAFE.left;
+/** Column centred on the frame that still stays inside SAFE (mirror of the right margin): for centred cards. */
+export const CENTER_COL = { left: 1080 - SAFE.right, width: 1080 - 2 * (1080 - SAFE.right) } as const;
 
 export const EASE_OUT = Easing.bezier(0.16, 1, 0.3, 1);
 export const EASE_IN_OUT = Easing.bezier(0.65, 0, 0.35, 1);

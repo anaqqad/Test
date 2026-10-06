@@ -90,6 +90,8 @@ Free timing previews: Kokoro scratch (`am_michael`, speed 1.1), spec id ending i
 - Push only to the session's assigned branch; no PR unless asked.
 
 ## Lessons from the pilot
+- End card and title cards are centred on the frame (CENTER_COL, x 162-918), not on the caption safe column,
+  which looked off-centre on YouTube (owner, 2026-10-06). Captions, pins and stamps stay in the safe column.
 - **Hook = views.** Owner, 2026-10-05: the Robert Smalls reel got by far the most views because its first
   seconds say something shocking ("In 1862, an enslaved man stole a Confederate warship."). Bessie Coleman
   ("She learned French to learn to fly") did worse because nothing shocking is said in the first 5 s.

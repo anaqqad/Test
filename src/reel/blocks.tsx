@@ -2,7 +2,7 @@ import React, { createContext, useContext } from "react";
 import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { coverCrop, coverLayout, fitCrop, mapBox, type Rect } from "./layout";
 import type { ReelBeat, ReelSpec } from "./schema";
-import { B, EASE_IN_OUT, EASE_OUT, QC_CYAN, QC_MAGENTA, reveal, SAFE, SAFE_CX, SAFE_W, SEPIA, sans, serif } from "./style";
+import { B, CENTER_COL, EASE_IN_OUT, EASE_OUT, QC_CYAN, QC_MAGENTA, reveal, SAFE, SAFE_CX, SAFE_W, SEPIA, sans, serif } from "./style";
 
 /**
  * QC mode: instead of the picture, every element that must stay out of Facebook's overlays
@@ -484,14 +484,14 @@ export const TitleCard: React.FC<{ title: string; sub?: string }> = ({ title, su
   const b = reveal(frame, 8, 12);
   return (
     <AbsoluteFill style={{ backgroundColor: qc ? "transparent" : B.black }}>
-      {qc ? null : <AbsoluteFill style={{ background: "radial-gradient(ellipse at 45% 38%, rgba(226,178,74,0.14) 0%, rgba(14,12,10,0) 62%)" }} />}
-      <div style={{ position: "absolute", left: SAFE.left, width: SAFE_W, top: 470, display: "flex", flexDirection: "column", alignItems: "center", gap: 28, textAlign: "center" }}>
+      {qc ? null : <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 38%, rgba(226,178,74,0.14) 0%, rgba(14,12,10,0) 62%)" }} />}
+      <div style={{ position: "absolute", left: CENTER_COL.left, width: CENTER_COL.width, top: 470, display: "flex", flexDirection: "column", alignItems: "center", gap: 28, textAlign: "center" }}>
         <Critical style={{ fontFamily: serif, fontWeight: 900, fontSize: title.length > 6 ? 150 : 230, lineHeight: 1, color: B.gold, opacity: a, transform: `translateY(${(1 - a) * 24}px)` }}>
           {title}
         </Critical>
         <Critical style={{ height: 6, width: 160, background: B.gold, opacity: b }}>{""}</Critical>
         {sub ? (
-          <Critical style={{ fontFamily: serif, fontStyle: "italic", fontSize: 58, lineHeight: 1.15, color: B.cream, opacity: b, maxWidth: SAFE_W }}>
+          <Critical style={{ fontFamily: serif, fontStyle: "italic", fontSize: 58, lineHeight: 1.15, color: B.cream, opacity: b, maxWidth: CENTER_COL.width }}>
             {sub}
           </Critical>
         ) : null}
@@ -509,8 +509,8 @@ export const EndCard: React.FC<{ page: string; line: string }> = ({ page, line }
   const b = reveal(frame, 8, 12);
   return (
     <AbsoluteFill style={{ backgroundColor: qc ? "transparent" : B.black }}>
-      {qc ? null : <AbsoluteFill style={{ background: "radial-gradient(ellipse at 45% 45%, rgba(226,178,74,0.16) 0%, rgba(14,12,10,0) 60%)" }} />}
-      <div style={{ position: "absolute", left: SAFE.left, width: SAFE_W, top: 640, display: "flex", flexDirection: "column", alignItems: "center", gap: 26, textAlign: "center" }}>
+      {qc ? null : <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, rgba(226,178,74,0.16) 0%, rgba(14,12,10,0) 60%)" }} />}
+      <div style={{ position: "absolute", left: CENTER_COL.left, width: CENTER_COL.width, top: 640, display: "flex", flexDirection: "column", alignItems: "center", gap: 26, textAlign: "center" }}>
         <Critical style={{ fontFamily: sans, fontWeight: 700, fontSize: 40, letterSpacing: 8, color: B.creamDim, textTransform: "uppercase", opacity: a }}>Follow</Critical>
         <Critical style={{ fontFamily: serif, fontWeight: 900, fontSize: 104, lineHeight: 1.02, color: B.gold, opacity: a, transform: `scale(${0.94 + 0.06 * a})` }}>
           {page}
