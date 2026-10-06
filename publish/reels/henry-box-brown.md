@@ -18,6 +18,8 @@ came off, he climbed out alive and sang a hymn. From then on, the world called h
 
 Would you have had the courage to get in the box?
 
+Researching and making these videos takes a lot of time. If you value these stories, please consider supporting our page so we can keep bringing them to light. Thank you!
+
 Sources:
 - Encyclopedia Virginia (Virginia Humanities): "Henry Box Brown (1815 or 1816–1897)"
 - Encyclopaedia Britannica: "Henry Box Brown"
