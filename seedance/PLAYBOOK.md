@@ -60,3 +60,9 @@ Winners: "The Little House" (gift reveal) and "The Payroll" (owner catches a man
 - Close-ups can't show actions at the hips/back pocket; use a medium shot.
 - A photo of "another" person must look clearly different, or the model reuses an on-screen face.
 - Check props against actions (backpack vs carrying someone on the back) and "silence" against dialogue.
+- Kids grow into adults in wide group shots ("The Car" ending: the boy in the blanket came out as tall as the
+  women). In any wide shot with a child and adults, state the scale: "the small 8-year-old boy, only waist-high
+  to the women". Prefer medium shots for child + adult hugs.
+- Small wardrobe words drift: "hairnet" became a knit beanie. Write "thin black hairnet, no hat".
+- Free fixes before re-generating: cut the bad shot, or keep its audio and lay an earlier good shot over it
+  (J-cut), crop into the good part of the frame, or end on the previous shot.
