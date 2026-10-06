@@ -376,35 +376,39 @@ Camera: opening close-up, handheld backstage, one slow wide push across the stag
 Hook text: "They laughed at her taped shoes… then she sat at the piano 😳"
 Caption: "Talent doesn't need expensive shoes. ❤️🎹"
 
-## 12. "The Car" (hook v3: loud question at 0.0s on a crying face, answer by 2s)
+## 12. "The Car" (v2, camera/continuity checked)
+
+v1 fixes: flashlight glow with no flashlight (now streetlight glow); 0s-2s too short for two lines (now 0s-3s);
+camera side of the glass not stated; Mom's entry direction undefined; keys and door handling after the hand-off;
+"no hands or objects" moved into shot 1 only.
 
 ```
-Vertical 9:16, 30s. Cinematic photoreal emotional drama, empty school parking lot at night in the rain, one orange streetlight, wet asphalt reflections, shallow depth of field, natural skin texture, light film grain. Exactly 3 characters, identical faces and wardrobe in every shot, no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot, no hands or objects first.
+Vertical 9:16, 30s. Cinematic photoreal emotional drama, empty school parking lot at night in the rain, one orange streetlight, wet asphalt reflections, shallow depth of field, natural skin texture, light film grain. Exactly 3 characters, identical faces and wardrobe in every shot, no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
 
 Characters:
 - BOY (8): small Black boy, short hair, big brown eyes, a chipped front tooth, tear-streaked cheeks, faded green school sweater with a hole in the elbow, wrapped in a thin grey blanket in the back seat of a car.
-- TEACHER (late 40s): white woman, shoulder-length wavy auburn hair with grey streaks, red-framed glasses, long camel raincoat, black umbrella, a ring of house keys in her coat pocket.
+- TEACHER (late 40s): white woman, shoulder-length wavy auburn hair with grey streaks, red-framed glasses, long camel raincoat, holds a black umbrella in her left hand the whole time, a ring of house keys in her right coat pocket.
 - MOM (early 30s): Black woman, hair in a low bun under a hairnet, tired eyes, light-blue cleaning-staff uniform tunic with no logo, grey jacket, rain-soaked.
 
-Location: a nearly empty school parking lot; an old silver station wagon with fogged-up windows parked under the streetlight; the dark school building behind it. Screen direction never flips: car left, school right.
+Location: a nearly empty school parking lot; an old silver station wagon with fogged-up windows parked under the orange streetlight; the dark school building behind it with one lit side door. The car is on the left, the school on the right; Teacher stands at the car's right-side rear window. Screen direction never flips.
 
-0s-2s: Extreme close-up of Boy's crying face through the fogged rear window, eyes sharp and in focus from the very first frame, a flashlight glow on his wet cheeks. TEACHER (off-screen, loud, clear, shocked, at 0.0s): "Why are you sleeping in a car?!" BOY (sobbing, answering right away): "Please don't tell anyone!"
-2s-4s: Close-up Boy, wiping the fog off the glass. BOY: "Mom says it's our home now."
-4s-6s: Medium shot, Teacher at the car window under her umbrella, rain dripping, her face falling. TEACHER: "You told me you lived on Maple Street."
-6s-8s: Close-up Boy, ashamed. BOY: "I lied. Kids already laugh at my sweater."
-8s-10s: Medium shot, Mom running up through the rain, panicked. MOM: "Please, ma'am, don't call anyone. They'll take him."
-10s-12s: Close-up Mom, crying. MOM: "I clean this school at night. Rent went up."
-12s-14s: Close-up Teacher, tears behind her glasses, thinking.
-14s-16s: Medium shot, Teacher takes the ring of house keys out of her coat pocket.
+0s-3s: Extreme close-up of Boy's crying face, shot from outside through the fogged rear window, his eyes sharp and in focus from the very first frame, orange streetlight glow on his wet cheeks. No hands or objects in this shot. TEACHER (off-screen, loud, clear, shocked, at 0.0s): "Why are you sleeping in a car?!" BOY (sobbing, answering right away): "Please don't tell anyone!"
+3s-5s: Close-up Boy, still seen through the glass, wiping a patch of fog off with his sleeve. BOY: "Mom says it's our home now."
+5s-7s: Medium shot from beside the car: Teacher bent at the rear window under her umbrella, rain dripping off it, her face falling. TEACHER: "You told me you lived on Maple Street."
+7s-9s: Close-up Boy through the cleared patch of glass, ashamed. BOY: "I lied. Kids already laugh at my sweater."
+9s-11s: Wide shot, Mom runs out of the school's lit side door on the right and across the wet lot toward the car, panicked. MOM: "Please, ma'am, don't call anyone. They'll take him."
+11s-13s: Close-up Mom, beside Teacher at the car, rain on her face, crying. MOM: "I clean this school at night. Rent went up."
+13s-14s: Close-up Teacher, tears behind her glasses, thinking.
+14s-16s: Medium shot, Teacher, umbrella still in her left hand, takes the ring of house keys out of her right coat pocket.
 16s-18s: Close-up Teacher. TEACHER: "My mother's house has been empty since she passed."
-18s-20s: Insert: Teacher presses the keys into Mom's trembling wet palm.
-20s-22s: Close-up Mom. MOM: "I can't pay you." TEACHER (off-screen): "Then get him to class on time."
-22s-24s: Close-up Boy, rolling down the window, eyes wide. BOY: "We have a house?"
+18s-20s: Insert: Teacher presses the keys into Mom's trembling wet palm; Mom's fingers close around them.
+20s-22s: Close-up Mom, keys held to her chest. MOM: "I can't pay you." TEACHER (off-screen): "Then get him to class on time."
+22s-24s: Close-up Boy, cranking the rear window down, rain falling in, eyes wide. BOY: "We have a house?"
 24s-26s: Close-up Teacher, smiling through tears. TEACHER: "With your own room."
-26s-28s: Medium shot, Mom hugs Teacher in the rain; the black umbrella falls to the asphalt.
-28s-30s: Wide shot, Boy climbs out in his blanket and hugs them both under the streetlight. TEACHER: "No kid of mine sleeps in a car."
+26s-28s: Medium shot, Mom hugs Teacher in the rain, the keys still in her fist; the black umbrella slips from Teacher's hand onto the asphalt.
+28s-30s: Wide shot, Boy opens the rear door, climbs out in his blanket and hugs them both under the streetlight. TEACHER: "No kid of mine sleeps in a car."
 
-Camera: opening extreme close-up on the boy's face, focus on his eyes, no hands or objects in the first shot; slow push-ins on close-ups; hard cuts. Audio: the first line at 0.0s is the loudest, clearest sound in the video, close and dry, with no music under it and the rain kept quiet; the boy's answer follows immediately; then rain on the car roof, footsteps splashing, keys jingling, soft piano entering at the keys and swelling into warm strings on the hug. No subtitles, no text overlays, no watermark, no logos.
+Camera: opening extreme close-up through the glass, focus on the boy's eyes; camera stays outside the car the whole video; slow push-ins on close-ups; hard cuts. Audio: the first line at 0.0s is the loudest, clearest sound in the video, close and dry, with no music under it and the rain kept quiet; the boy's answer follows immediately; then rain on the car roof, footsteps splashing, keys jingling, the window crank squeaking, soft piano entering at the keys and swelling into warm strings on the hug. No subtitles, no text overlays, no watermark, no logos.
 ```
 
 Hook text: "She found her student sleeping in a car… what she did next 😭"
