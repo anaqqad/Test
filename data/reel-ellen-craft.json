@@ -1,0 +1,564 @@
+{
+  "id": "reel-ellen-craft",
+  "title": "She Escaped Disguised as Her Own Master",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+    "engine": "elevenlabs",
+    "voiceId": "gUABw7pXQjhjt0kNFBTF",
+    "voiceName": "Andrew - Smooth audio books",
+    "model": "eleven_multilingual_v2",
+    "stability": 0.6,
+    "similarity": 0.75,
+    "style": 0.0,
+    "speed": 1.05,
+    "seed": 1234,
+    "leadInSeconds": 0.3,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "assets": {
+    "couple": {
+      "commons": "File:Ellen and William Craft (72a234fc-4e0a-4e3a-95f9-71aa2401000b).jpg"
+    },
+    "siebert": {
+      "commons": "File:Ellen Craft escaped slave.jpg"
+    },
+    "baltimore": {
+      "commons": "File:President St Depot & City Block - Baltimore 1869.jpg"
+    },
+    "poster": {
+      "commons": "File:Slave kidnap post 1851 boston.jpg"
+    },
+    "steamboat": {
+      "commons": "File:Bay State (1846 steamboat).jpg"
+    }
+  },
+  "faces": {
+    "ellen": [
+      [
+        0.42,
+        0.25,
+        0.65,
+        0.4
+      ]
+    ],
+    "siebert": [
+      [
+        0.33,
+        0.3,
+        0.7,
+        0.48
+      ]
+    ],
+    "couple": [
+      [
+        0.15,
+        0.12,
+        0.38,
+        0.48
+      ],
+      [
+        0.6,
+        0.12,
+        0.83,
+        0.5
+      ]
+    ]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "In 1848, an enslaved woman escaped, disguised as a white slave owner.",
+      "visual": {
+        "kind": "photo",
+        "image": "ellen",
+        "focus": [
+          0.535,
+          0.27
+        ],
+        "zoom": [
+          1.3,
+          1.38
+        ],
+        "anchor": [
+          0.42,
+          0.24
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "In 1848, she escaped *disguised as a white slave owner.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "husband",
+      "text": "And her husband? He played her slave.",
+      "visual": {
+        "kind": "card",
+        "image": "couple",
+        "crop": [
+          0.52,
+          0.0,
+          0.92,
+          0.75
+        ],
+        "caption": "William Craft"
+      },
+      "section": "who"
+    },
+    {
+      "id": "names",
+      "text": "They were Ellen and William Craft, from Georgia.",
+      "visual": {
+        "kind": "card",
+        "image": "couple",
+        "crop": [
+          0.04,
+          0.0,
+          0.96,
+          0.92
+        ],
+        "caption": "Ellen and William Craft"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Macon",
+          "sub": "Georgia"
+        }
+      }
+    },
+    {
+      "id": "looked",
+      "text": "Ellen's father was her white enslaver. She looked white.",
+      "visual": {
+        "kind": "card",
+        "image": "couple",
+        "crop": [
+          0.06,
+          0.0,
+          0.48,
+          0.75
+        ],
+        "caption": "Ellen Craft, in later life"
+      },
+      "section": "story"
+    },
+    {
+      "id": "disguise",
+      "text": "She cut her hair, and put on a top hat and green glasses.",
+      "visual": {
+        "kind": "photo",
+        "image": "ellen",
+        "focus": [
+          0.53,
+          0.25
+        ],
+        "zoom": [
+          1.05,
+          1.12
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "bandage",
+      "text": "She wrapped her face in a bandage, like a sick man,",
+      "visual": {
+        "kind": "title",
+        "title": "The disguise",
+        "sub": "a bandage, to hide a face with no beard"
+      }
+    },
+    {
+      "id": "sling",
+      "text": "and put her right arm in a sling, because she could not write.",
+      "visual": {
+        "kind": "card",
+        "image": "ellen",
+        "crop": [
+          0.12,
+          0.3,
+          0.92,
+          0.98
+        ],
+        "caption": "The sling, in the 1860 engraving"
+      }
+    },
+    {
+      "id": "train",
+      "text": "In December 1848, they boarded a train to Savannah.",
+      "visual": {
+        "kind": "title",
+        "title": "December 1848",
+        "sub": "Macon to Savannah, by train"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Savannah",
+          "sub": "Georgia"
+        }
+      }
+    },
+    {
+      "id": "friend",
+      "text": "A friend of her owner sat down next to her.",
+      "visual": {
+        "kind": "title",
+        "title": "Next seat",
+        "sub": "a friend of her owner"
+      }
+    },
+    {
+      "id": "deaf",
+      "text": "She pretended to be deaf.",
+      "visual": {
+        "kind": "photo",
+        "image": "siebert",
+        "focus": [
+          0.52,
+          0.42
+        ],
+        "zoom": [
+          1.2,
+          1.3
+        ],
+        "anchor": [
+          0.42,
+          0.34
+        ],
+        "motion": "panLeft"
+      }
+    },
+    {
+      "id": "route",
+      "text": "They rode north by train and steamboat.",
+      "visual": {
+        "kind": "card",
+        "image": "steamboat",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "A steamboat of the 1840s"
+      }
+    },
+    {
+      "id": "baltimore",
+      "text": "In Baltimore, an officer demanded proof that William was hers.",
+      "visual": {
+        "kind": "photo",
+        "image": "baltimore",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          1.0,
+          1.08
+        ],
+        "anchor": [
+          0.5,
+          0.45
+        ],
+        "motion": "panRight"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Baltimore",
+          "sub": "Maryland"
+        }
+      }
+    },
+    {
+      "id": "through",
+      "text": "Then they were let through.",
+      "visual": {
+        "kind": "card",
+        "image": "baltimore",
+        "crop": [
+          0.25,
+          0.15,
+          0.75,
+          0.95
+        ],
+        "caption": "Baltimore, 1869"
+      }
+    },
+    {
+      "id": "christmas",
+      "text": "On Christmas Day, 1848, they reached Philadelphia. Free.",
+      "visual": {
+        "kind": "title",
+        "title": "Christmas Day",
+        "sub": "Philadelphia, 1848"
+      },
+      "overlays": {
+        "stamp": "Free"
+      }
+    },
+    {
+      "id": "hunters",
+      "text": "Two years later, slave catchers came for them in Boston.",
+      "visual": {
+        "kind": "card",
+        "image": "poster",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "A warning poster, Boston, 1851"
+      },
+      "section": "cost"
+    },
+    {
+      "id": "england",
+      "text": "So they fled to England, and told their story in a book.",
+      "visual": {
+        "kind": "card",
+        "image": "titlepage",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          0.75
+        ],
+        "caption": "London, 1860",
+        "clipping": true
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "A thousand miles to freedom, in plain sight.",
+      "visual": {
+        "kind": "photo",
+        "image": "ellen",
+        "focus": [
+          0.53,
+          0.4
+        ],
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "anchor": [
+          0.47,
+          0.4
+        ]
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "sources": {
+    "NPS": {
+      "name": "National Park Service: \"A Desperate Leap for Liberty\": The Escape of William and Ellen Craft",
+      "url": "https://www.nps.gov/articles/-a-desperate-leap-for-liberty-the-escape-of-william-and-ellen-craft.htm"
+    },
+    "NPSP": {
+      "name": "National Park Service: Ellen Craft (people)",
+      "url": "https://www.nps.gov/people/ellen-craft.htm"
+    },
+    "NGE": {
+      "name": "New Georgia Encyclopedia: William and Ellen Craft (1824-1900; 1826-1891)",
+      "url": "https://www.georgiaencyclopedia.org/articles/history-archaeology/william-and-ellen-craft-1824-1900-1826-1891/"
+    },
+    "LOC": {
+      "name": "Library of Congress blog: An 1848 Christmas Story, the Gift of Freedom (2018)",
+      "url": "https://blogs.loc.gov/loc/2018/12/an-1848-christmas-story-the-gift-of-freedom/"
+    },
+    "NATGEO": {
+      "name": "National Geographic: Ellen Craft escaped slavery by disguising herself as a white man",
+      "url": "https://www.nationalgeographic.com/history/history-magazine/article/ellen-craft-the-appearance-of-freedom"
+    },
+    "HIST": {
+      "name": "History.com: The Daring Disguise that Helped One Enslaved Couple Escape to Freedom",
+      "url": "https://www.history.com/articles/slavery-escape-william-ellen-craft"
+    },
+    "RTM": {
+      "name": "William and Ellen Craft, Running a Thousand Miles for Freedom (London, 1860) (Internet Archive scan)",
+      "url": "https://archive.org/details/runningthousandm00craf"
+    }
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "In December 1848 Ellen Craft, enslaved, escaped disguised as a white male slaveholder/planter.",
+      "sources": [
+        "NGE",
+        "NPS",
+        "NATGEO",
+        "HIST"
+      ]
+    },
+    {
+      "beat": "husband",
+      "claim": "William Craft, her husband, posed as her enslaved servant.",
+      "sources": [
+        "NGE",
+        "NPS",
+        "HIST"
+      ]
+    },
+    {
+      "beat": "names",
+      "claim": "Both were enslaved in Macon, Georgia.",
+      "sources": [
+        "NGE",
+        "NPS"
+      ]
+    },
+    {
+      "beat": "looked",
+      "claim": "Ellen was the daughter of an enslaved woman and her white enslaver, and looked white.",
+      "sources": [
+        "NGE",
+        "NPS"
+      ]
+    },
+    {
+      "beat": "disguise",
+      "claim": "She cut her hair short and wore a top hat and green spectacles.",
+      "sources": [
+        "NPS",
+        "NATGEO",
+        "NGE"
+      ],
+      "note": "Green spectacles: NPS, NATGEO. Top hat and short hair: NGE, NATGEO."
+    },
+    {
+      "beat": "bandage",
+      "claim": "She bandaged/poulticed her face (hiding a beardless face) as an invalid.",
+      "sources": [
+        "NPS",
+        "HIST",
+        "NATGEO"
+      ]
+    },
+    {
+      "beat": "sling",
+      "claim": "Her right arm in a sling, because she could not write and would be asked to sign.",
+      "sources": [
+        "NPS",
+        "LOC",
+        "HIST",
+        "NATGEO"
+      ]
+    },
+    {
+      "beat": "train",
+      "claim": "In December 1848 they took the train from Macon to Savannah.",
+      "sources": [
+        "NGE",
+        "NPS",
+        "HIST"
+      ],
+      "note": "Start date varies: 21 Dec (NPSP, NATGEO), 18-20 Dec (NPS), 24 Dec (LOC). Script says December 1848."
+    },
+    {
+      "beat": "friend",
+      "claim": "A friend of Ellen's enslaver sat next to her on the train.",
+      "sources": [
+        "NPS",
+        "LOC",
+        "NATGEO"
+      ]
+    },
+    {
+      "beat": "deaf",
+      "claim": "She pretended to be deaf/hard of hearing to avoid talking to him.",
+      "sources": [
+        "NPS",
+        "NATGEO"
+      ]
+    },
+    {
+      "beat": "route",
+      "claim": "They travelled north by train and steamboat (Savannah, Charleston, Wilmington, Virginia, Washington, Baltimore).",
+      "sources": [
+        "NGE",
+        "NPS"
+      ]
+    },
+    {
+      "beat": "baltimore",
+      "claim": "In Baltimore an official stopped them and demanded proof William belonged to Ellen; they were allowed to board.",
+      "sources": [
+        "NPS",
+        "NATGEO"
+      ]
+    },
+    {
+      "beat": "christmas",
+      "claim": "They reached Philadelphia on Christmas Day 1848.",
+      "sources": [
+        "NGE",
+        "NPSP",
+        "LOC",
+        "HIST"
+      ]
+    },
+    {
+      "beat": "hunters",
+      "claim": "In 1850, after the Fugitive Slave Act, slave catchers (Hughes and Knight) came to Boston for them.",
+      "sources": [
+        "NGE",
+        "NPSP",
+        "NATGEO"
+      ]
+    },
+    {
+      "beat": "england",
+      "claim": "They fled to England and published Running a Thousand Miles for Freedom (1860).",
+      "sources": [
+        "NGE",
+        "NPSP",
+        "LOC"
+      ]
+    },
+    {
+      "beat": "legacy",
+      "claim": "'A thousand miles' follows the title of their book; an approximation, not a measured distance.",
+      "sources": [
+        "RTM",
+        "NGE"
+      ]
+    }
+  ],
+  "notUsed": [
+    "Ellen's line 'Thank God, William, we're safe!' (National Geographic, from the 1860 narrative): not used, no second source checked.",
+    "'Stayed at the best hotel in Charleston' (NATGEO only): not used.",
+    "'Rode first class' (not verified): not used."
+  ]
+}

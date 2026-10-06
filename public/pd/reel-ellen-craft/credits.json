@@ -1,0 +1,74 @@
+{
+  "ellen": {
+    "title": "Frontispiece: \"Ellen Craft, the fugitive slave\", in her disguise",
+    "artist": "William and Ellen Craft, Running a Thousand Miles for Freedom (London: William Tweedie, 1860); scan: Boston Public Library via Internet Archive",
+    "date": "1860",
+    "license": "Public domain (published 1860)",
+    "source": "https://archive.org/details/runningthousandm00craf",
+    "width": 1798,
+    "height": 2376
+  },
+  "titlepage": {
+    "title": "Title page, Running a Thousand Miles for Freedom (1860)",
+    "artist": "William and Ellen Craft, Running a Thousand Miles for Freedom (London: William Tweedie, 1860); scan: Boston Public Library via Internet Archive",
+    "date": "1860",
+    "license": "Public domain (published 1860)",
+    "source": "https://archive.org/details/runningthousandm00craf",
+    "width": 1920,
+    "height": 2155
+  },
+  "couple": {
+    "title": "File:Ellen and William Craft (72a234fc-4e0a-4e3a-95f9-71aa2401000b).jpg",
+    "artist": "\" \"Still's Underground Rail Road Records",
+    "date": "1886",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Ellen_and_William_Craft_(72a234fc-4e0a-4e3a-95f9-71aa2401000b).jpg",
+    "width": 1280,
+    "height": 960
+  },
+  "siebert": {
+    "title": "File:Ellen Craft escaped slave.jpg",
+    "artist": "Macmillan, publisher",
+    "date": "1898",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Ellen_Craft_escaped_slave.jpg",
+    "width": 500,
+    "height": 812
+  },
+  "baltimore": {
+    "title": "File:President St Depot & City Block - Baltimore 1869.jpg",
+    "artist": "E. Sachse & Co.",
+    "date": "1869",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:President_St_Depot_%26_City_Block_-_Baltimore_1869.jpg",
+    "width": 1280,
+    "height": 704
+  },
+  "poster": {
+    "title": "File:Slave kidnap post 1851 boston.jpg",
+    "artist": "",
+    "date": "",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Slave_kidnap_post_1851_boston.jpg",
+    "width": 330,
+    "height": 488
+  },
+  "house": {
+    "title": "File:202 Calhoun - William Craft House.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "circa 1890",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:202_Calhoun_-_William_Craft_House.jpg",
+    "width": 960,
+    "height": 1116
+  },
+  "steamboat": {
+    "title": "File:Bay State (1846 steamboat).jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1850s",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Bay_State_(1846_steamboat).jpg",
+    "width": 960,
+    "height": 450
+  }
+}
