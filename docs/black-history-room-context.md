@@ -90,6 +90,14 @@ Free timing previews: Kokoro scratch (`am_michael`, speed 1.1), spec id ending i
 - Push only to the session's assigned branch; no PR unless asked.
 
 ## Lessons from the pilot
+- **Hook rules (owner, 2026-10-06, from comparing two Story Room reels):** the reel that failed opened with low
+  sound on a shot of a hand; the one that worked opened on a crying face with a line spoken at once. So:
+  1. The hook is *heard* from the first instant: `voice.leadInSeconds: 0`, `mix.hookBoostDb: 2` (the hook beat
+     2 dB above the rest of the voice). QC `audibleHook`: voice by 0.15 s, first 3 s >= whole reel - 1 LU.
+  2. Frame 0 is a tight crop on the most striking thing: the face and its expression, never a hand, a wide
+     shot or empty sky. (QC `coverFrame` checks a face is on frame 0.)
+  3. The first spoken line is the crazy part, short and direct, stated or asked as a question to the viewer.
+     No invented dialogue: only real, verified quotes may be spoken as quotes.
 - End card and title cards are centred on the frame (CENTER_COL, x 162-918), not on the caption safe column,
   which looked off-centre on YouTube (owner, 2026-10-06). Captions, pins and stamps stay in the safe column.
 - **Hook = views.** Owner, 2026-10-05: the Robert Smalls reel got by far the most views because its first

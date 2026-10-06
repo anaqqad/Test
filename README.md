@@ -48,7 +48,9 @@ Facebook covers the bottom 20 % and the right 15 % of a Reel. All text sits in t
 x 60-918, y 150-1536 (`SAFE` in `src/reel/style.ts`). `scripts/qc_reel.py` renders the reel in QC
 mode, where every caption, title and label is solid magenta and every face box cyan, and fails if any of
 them reach those zones in any frame, or if text touches the left or top edge. It also checks that frame
-0 has the hook text and a face (cover still).
+0 has the hook text and a face (cover still), and, on the rendered video, that the voice starts by 0.15 s and
+the first 3 s are at least as loud as the rest (`audibleHook`; reels use `leadInSeconds: 0` and
+`mix.hookBoostDb: 2`).
 
 ### Run
 

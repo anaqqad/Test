@@ -15,7 +15,8 @@ Aim: no bumps and an even level.
   3. Master: integrated loudness normalised to -16 LUFS, then a look-ahead true-peak limiter
      (4x oversampled) at -1.5 dBTP.
 Specs can override the targets with "mix": {"targetLufs": -14, "ceilingDbtp": -1.0,
-"musicUnderVoiceDb": 20, "duckDb": 3}. Reels use -14 LUFS and a quieter bed.
+"musicUnderVoiceDb": 20, "duckDb": 3, "hookBoostDb": 0}. Reels use -14 LUFS, a quieter bed and
+"hookBoostDb": 2 (the first beat, the spoken hook, 2 dB above the rest of the voice).
 It prints loudness statistics so the result can be checked, not assumed.
 """
 
@@ -125,6 +126,15 @@ def main() -> None:
     voice, vsr = sf.read(d / "narration.wav", dtype="float32")
     voice = level_voice(to_sr(voice if voice.ndim == 1 else voice.mean(axis=1), vsr))
     n = len(voice)
+    # optional lift on the opening beat (reels: the spoken hook must hit hard in the first second)
+    hook_db = opts.get("hookBoostDb", 0)
+    if hook_db and timeline.get("beats"):
+        end = int(timeline["beats"][0]["endFrame"] / timeline["fps"] * SR)
+        ramp = int(0.15 * SR)
+        gain = np.ones(n, dtype=np.float32)
+        gain[:end] = 10 ** (hook_db / 20)
+        gain[end : end + ramp] = np.linspace(10 ** (hook_db / 20), 1.0, len(gain[end : end + ramp]))
+        voice = voice * gain
     meter = pyln.Meter(SR)
 
     mix = np.stack([voice, voice], axis=1)

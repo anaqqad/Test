@@ -15,6 +15,8 @@ Usage:
 4. Script: 140-170 words; length 45-75 s (from timeline.json).
 5. With a rendered video: integrated loudness (target -14 LUFS +/- 1) and true peak (<= -1 dBTP),
    plus a contact sheet out/<id>.contact.jpg with one frame per beat.
+6. With a rendered video: audible hook. The voice must start within 0.15 s (no silent lead-in) and the
+   first 3 s must be at least as loud as the whole reel (-1 LU), because viewers decide in the first second.
 
 Writes out/<id>.qc.json and exits 1 if any check fails.
 """
@@ -123,6 +125,27 @@ def contact_sheet(spec: dict, tl: dict, video: Path) -> Path:
     return out
 
 
+def audible_hook(video: Path) -> dict:
+    import numpy as np
+    import pyloudnorm
+    import soundfile
+
+    with tempfile.TemporaryDirectory() as tmp:
+        wav = Path(tmp) / "a.wav"
+        ffmpeg("-y", "-i", str(video), "-vn", "-ac", "1", "-ar", "48000", str(wav))
+        audio, sr = soundfile.read(str(wav))
+    win = int(0.01 * sr)
+    rms = np.sqrt(np.convolve(audio**2, np.ones(win) / win, mode="valid"))
+    loud = np.nonzero(rms > 10 ** (-30 / 20))[0]
+    onset = round(float(loud[0]) / sr, 2) if loud.size else None
+    # both measured on the same mono downmix, so they compare like with like
+    meter = pyloudnorm.Meter(sr)
+    first3 = float(meter.integrated_loudness(audio[: 3 * sr]))
+    whole = float(meter.integrated_loudness(audio))
+    ok = onset is not None and onset <= 0.15 and first3 >= whole - 1
+    return {"ok": ok, "voiceOnsetSeconds": onset, "first3sVsWholeLU": round(first3 - whole, 2), "target": "voice by 0.15 s; first 3 s >= whole - 1 LU"}
+
+
 def main() -> None:
     spec_path = Path(sys.argv[1])
     spec = json.loads(spec_path.read_text())
@@ -184,6 +207,7 @@ def main() -> None:
         li = float(lufs[-1]) if lufs else None
         tp = float(peak[-1]) if peak else None
         checks["loudness"] = {"ok": li is not None and abs(li + 14) <= 1 and tp is not None and tp <= -0.9, "integratedLUFS": li, "truePeakDBTP": tp, "target": "-14 LUFS, <= -1 dBTP"}
+        checks["audibleHook"] = audible_hook(video)
         if tl:
             checks["contactSheet"] = {"ok": True, "file": str(contact_sheet(spec, tl, video))}
 

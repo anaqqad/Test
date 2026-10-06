@@ -15,7 +15,7 @@
     "style": 0.0,
     "speed": 1.05,
     "seed": 1234,
-    "leadInSeconds": 0.3,
+    "leadInSeconds": 0.0,
     "sectionGapSeconds": 0.5
   },
   "music": {
@@ -25,7 +25,8 @@
     "targetLufs": -14,
     "ceilingDbtp": -1.5,
     "musicUnderVoiceDb": 21,
-    "duckDb": 3
+    "duckDb": 3,
+    "hookBoostDb": 2
   },
   "brand": {
     "page": "The Black History Room",
