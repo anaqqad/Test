@@ -74,6 +74,8 @@ uses the owner's cloned CosyVoice voice and never ElevenLabs.
 Free timing previews: Kokoro scratch (`am_michael`, speed 1.1), spec id ending in `-scratch` (git-ignored).
 
 ## Rules (must follow)
+- Every Facebook post description includes this support line (after the question, before the sources):
+  "Researching and editing these videos takes real time and effort. If you value these stories, please support our page so we can keep bringing them to light. Thank you! https://ko-fi.com/theblackhistoryroom"
 - Every Facebook post description ends (before the sources) with:
   "Researching and making these videos takes a lot of time. If you value these stories, please consider supporting our page so we can keep bringing them to light. Thank you!"
 - ElevenLabs is paid: ask before every call and give the character count (~1,000 per 60 s reel).

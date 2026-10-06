@@ -18,6 +18,9 @@ came off, he climbed out alive and sang a hymn. From then on, the world called h
 
 Would you have had the courage to get in the box?
 
+Researching and editing these videos takes real time and effort. If you value these stories, please support our page so we can keep bringing them to light. Thank you!
+https://ko-fi.com/theblackhistoryroom
+
 Researching and making these videos takes a lot of time. If you value these stories, please consider supporting our page so we can keep bringing them to light. Thank you!
 
 Sources:

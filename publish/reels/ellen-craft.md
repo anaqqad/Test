@@ -19,6 +19,9 @@ Baltimore an officer demanded proof that William was hers, and still let them th
 
 Would you have kept your nerve in that seat?
 
+Researching and editing these videos takes real time and effort. If you value these stories, please support our page so we can keep bringing them to light. Thank you!
+https://ko-fi.com/theblackhistoryroom
+
 Researching and making these videos takes a lot of time. If you value these stories, please consider supporting our page so we can keep bringing them to light. Thank you!
 
 Sources: National Park Service; New Georgia Encyclopedia; Library of Congress; National Geographic;
