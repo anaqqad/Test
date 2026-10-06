@@ -29,6 +29,7 @@ Seeddance lip-sync guides (links in `prompts.md`).
 - Mother owns the house (deed reveal, evicts son and wife)
 - Cheap car key opens a Mercedes
 - Biker at a father-daughter dance ("Never Dance Alone")
+- The Car (teacher finds student living in a car)
 - The Paper Piano (mocked girl plays)
 - The Little Boat (dinghy -> yacht)
 - The Little House (gift reveal), The Payroll (guard underpaid), The Owner (steakhouse)

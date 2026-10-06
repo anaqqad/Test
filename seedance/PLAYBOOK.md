@@ -11,7 +11,13 @@ Winners: "The Little House" (gift reveal) and "The Payroll" (owner catches a man
 - Evidence insert: a close-up of a screen, deed or receipt with the exact text written in the prompt.
 - End on the good person's face (tears, grateful smile) or a big joyful wide shot.
 
-## Hook (0s-4s)
+## Hook (0s-4s) - owner's data from real reels
+- WORKED ("father-daughter dance"): first frame = tight close-up of the crying child's face, eyes sharp; a loud,
+  clear question is heard at 0.0s ("Emma, where is your daddy?") and the child answers within ~1.5s.
+- FAILED ("The Keys"): first frame = hand holding keys, sound quiet at the start. Never open on hands/objects.
+- So: the first sound is a loud, clear spoken QUESTION (the loudest sound in the video, no music under it);
+  the camera is locked on the most emotional thing (the crying face), in focus from frame 1; the answer lands
+  by 2s and reveals the stakes.
 - First frame is a close-up of the good person already speaking; dialogue starts at 0.0s.
 - The line itself is emotional and has stakes ("Mom, I got paid. Fifteen hundred again.").
 - By 2s-4s the second force enters (car pulls up, villain mocks).
