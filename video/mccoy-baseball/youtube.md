@@ -2,10 +2,11 @@
 
 ## Title
 ```
-Japanese POWs Were Told to Die Before Capture. Then a Wisconsin Camp Handed Them Baseball Gloves.
+Japanese POWs Were Told to Die. Then America Gave Them Baseball.
 ```
-(96 characters. YouTube allows 100; on mobile it truncates after "Then a Wisconsin…", which still works.)
-Shorter alternative: `Japanese POWs Were Told to Die. Then Wisconsin Handed Them Baseball Gloves.`
+(64 characters.) Alternatives:
+- Japanese POWs Expected Death. Wisconsin Gave Them Baseball.
+- He Asked America to Let Him Die. They Gave Him a Baseball Glove.
 
 ## Thumbnail: prompt for ChatGPT
 ```
