@@ -414,36 +414,41 @@ Camera: opening extreme close-up through the glass, focus on the boy's eyes; cam
 Hook text: "She found her student sleeping in a car… what she did next 😭"
 Caption: "Some teachers teach more than lessons. ❤️"
 
-## 13. "Not Breathing" (extreme scream hook)
+## 13. "Not Breathing" (v2, rechecked)
+
+v1 risks fixed: 2s-3s held two lines in 1 s; the shopper had no position (could pop in); nobody calls 911
+(viewers would comment); CPR hands not described; skateboard continuity; the teen's entry direction; a tangled
+three-person final hug; the teen's last line too long for its shot.
 
 ```
 Vertical 9:16, 30s. Cinematic photoreal emotional drama, small neighborhood supermarket late in the evening, bright fluorescent light, produce aisle with stacked oranges and apples, glossy floor, shallow depth of field, natural skin texture, light film grain. Exactly 4 characters, identical faces and wardrobe in every shot; the aisle is empty except for them, no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
 
 Characters:
-- GIRL (9): small Latina girl, curly brown hair in a high ponytail with a yellow scrunchie, big brown eyes, pink puffer jacket, jeans, light-up sneakers.
-- GRANDPA (70s): Latino man, thin white hair, thick white mustache, deep wrinkles, brown plaid shirt under a grey cardigan, a red shopping basket of oranges.
+- GIRL (9): small Latina girl, curly brown hair in a high ponytail with a yellow scrunchie, big brown eyes, pink puffer jacket, jeans, white sneakers.
+- GRANDPA (70s): Latino man, thin white hair, thick white mustache, deep wrinkles, brown plaid shirt under a grey cardigan.
 - TEEN (17): East Asian teen boy, messy bleached-blond hair with dark roots, small silver nose ring, black hoodie with frayed sleeves, ripped black jeans, a scuffed skateboard under his arm.
-- RICH SHOPPER (50s): white woman, blown-out blonde hair, white tennis visor, pastel tennis outfit, diamond studs, pushing a cart full of groceries, phone in hand.
+- RICH SHOPPER (50s): white woman, blown-out blonde hair, white tennis visor, pastel tennis outfit, diamond studs, a shopping cart full of groceries, phone in hand.
 
-Location: produce aisle; the oranges display on the left, the cart lane on the right; Grandpa collapses on the floor in the middle of the aisle with his basket of oranges spilled beside him. Screen direction never flips.
+Location: one long produce aisle; the oranges display on the left; Grandpa lies on his back on the floor in the middle of the aisle with a red shopping basket tipped over and oranges spilled around him; Rich Shopper stands with her cart a few meters away on the right side of the aisle the whole video; Teen starts at the far end of the aisle. Screen direction never flips.
 
-0s-2s: Extreme close-up Girl, kneeling, face wet with tears, screaming at the top of her lungs, eyes sharp and in focus from the very first frame. GIRL (screaming, full volume, from the very first frame): "GRANDPA! SOMEBODY HELP!"
-2s-3s: Close-up Teen at the end of the aisle, spinning around. TEEN (shouting): "What happened?!" GIRL (off-screen, sobbing): "He just fell!"
-3s-5s: Medium shot: Grandpa lying still on the floor among rolling oranges, the small girl kneeling beside him; Teen drops his skateboard and slides to his knees next to them.
-5s-7s: Close-up Rich Shopper behind her cart, filming with her phone. RICH SHOPPER: "Don't touch him! He'll take his wallet!"
-7s-9s: Close-up Teen, ignoring her, his ear close to Grandpa's mouth, panic in his eyes. TEEN: "He's not breathing."
-9s-12s: Medium shot, Teen does chest compressions on Grandpa's chest with locked arms, counting out loud. TEEN: "One, two, three, four…"
-12s-14s: Close-up Girl, hands over her mouth, sobbing. GIRL: "Please, Grandpa, please…"
-14s-16s: Close-up Rich Shopper, still filming. RICH SHOPPER: "Someone call security on him."
-16s-18s: Close-up Teen, sweat on his face, still pumping. TEEN: "…twenty-nine, thirty. Come on!"
-18s-20s: Medium shot, Grandpa suddenly gasps, coughs and opens his eyes.
-20s-22s: Close-up Girl, crying with joy. GIRL: "Grandpa!"
-22s-24s: Close-up Grandpa, weak, looking up at the teen. GRANDPA (hoarse): "You… saved me."
-24s-26s: Close-up Rich Shopper, slowly lowering her phone, ashamed.
-26s-28s: Close-up Teen, breathing hard, eyes wet. TEEN: "My grandma fell like this. Nobody helped her."
-28s-30s: Medium shot, the girl throws her arms around the teen's neck while Grandpa, still on the floor, grips his hand. GIRL (whispering): "Thank you."
+0s-2s: Extreme close-up Girl, kneeling beside her grandpa, face wet with tears, screaming at the top of her lungs, eyes sharp and in focus from the very first frame. GIRL (screaming, full volume, from the very first frame): "GRANDPA! SOMEBODY HELP!"
+2s-4s: Close-up Teen at the far end of the aisle, spinning around toward the scream. TEEN (shouting): "What happened?!" GIRL (off-screen, sobbing): "He just fell!"
+4s-6s: Medium shot: Teen runs down the aisle, lets his skateboard drop to the floor and kneels beside Grandpa, who lies still among the oranges next to the small girl; Rich Shopper and her cart in the background on the right.
+6s-8s: Close-up Teen, looking up at Rich Shopper. TEEN: "Call 911!"
+8s-10s: Close-up Rich Shopper behind her cart, filming with her phone instead. RICH SHOPPER: "Don't touch him! He'll take his wallet!"
+10s-12s: Close-up Teen, ignoring her, his ear close to Grandpa's mouth, panic in his eyes. TEEN: "He's not breathing."
+12s-15s: Medium shot, Teen kneels over Grandpa with both hands stacked on the center of his chest, arms straight, doing steady chest compressions, counting out loud. TEEN: "One, two, three, four…"
+15s-17s: Close-up Girl, hands over her mouth, sobbing. GIRL: "Please, Grandpa, please…"
+17s-19s: Close-up Rich Shopper, still filming. RICH SHOPPER: "Someone call security on him."
+19s-21s: Close-up Teen, sweat on his face, still pumping. TEEN: "…twenty-nine, thirty. Come on!"
+21s-23s: Medium shot, Grandpa suddenly gasps, coughs and opens his eyes; the skateboard still lies on the floor beside them.
+23s-24s: Close-up Girl, crying with joy. GIRL: "Grandpa!"
+24s-26s: Close-up Grandpa, lying on the floor, weak, looking up at the teen. GRANDPA (hoarse): "You… saved me."
+26s-27s: Close-up Rich Shopper, slowly lowering her phone, ashamed.
+27s-29s: Close-up Teen, breathing hard, eyes wet. TEEN: "Nobody helped my grandma."
+29s-30s: Medium shot, the girl throws her arms around the teen's neck; Grandpa, still lying down, rests his hand on the teen's arm. GIRL (whispering): "Thank you."
 
-Camera: opening extreme close-up on the screaming girl's face, focus on her eyes; handheld and urgent during the emergency; slow push-ins on the close-ups after Grandpa wakes; hard cuts; end on the medium shot. Audio: the scream at 0.0s is the loudest sound in the video, raw and clear, full volume on the first frame with no fade-in, no music and no ambience before it; then fast shouted dialogue, oranges rolling, the skateboard clattering, the teen's counting, fluorescent hum, silence on the gasp, then soft piano swelling into warm strings when Grandpa opens his eyes. No subtitles, no text overlays, no watermark, no logos.
+Camera: opening extreme close-up on the screaming girl's face, focus on her eyes; handheld and urgent during the emergency; slow push-ins on the close-ups after Grandpa wakes; hard cuts; end on the medium shot. Audio: the scream at 0.0s is the loudest sound in the video, raw and clear, full volume on the first frame with no fade-in, no music and no ambience before it; then fast shouted dialogue, oranges rolling, the skateboard clattering, the teen's counting, fluorescent hum, silence on the gasp, then soft piano swelling into warm strings when Grandpa opens his eyes, and a distant ambulance siren in the last seconds. No subtitles, no text overlays, no on-screen phone text, no watermark, no logos.
 ```
 
 Hook text: "SHE SCREAMED FOR HELP — EVERYONE JUDGED THE KID WHO RAN TO HER… 😳"
