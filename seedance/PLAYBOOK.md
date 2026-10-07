@@ -22,6 +22,9 @@ Winners: "The Little House" (gift reveal) and "The Payroll" (owner catches a man
 - The line itself is emotional and has stakes ("Mom, I got paid. Fifteen hundred again.").
 - By 2s-4s the second force enters (car pulls up, villain mocks).
 
+- Extreme openers: a scream or yell at full volume on frame 1 (no fade-in, no ambience first), words still
+  clear, face in extreme close-up. Then a fast question/answer exchange by 2-3s so viewers know what's happening.
+
 ## Shots
 - 1-3 s per shot, mostly close-ups, hard cuts. Reaction close-ups of the villain sell it
   (sunglasses slipping, a bead of sweat, eyes darting).
