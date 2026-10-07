@@ -29,6 +29,7 @@ Seeddance lip-sync guides (links in `prompts.md`).
 - Mother owns the house (deed reveal, evicts son and wife)
 - Cheap car key opens a Mercedes
 - Biker at a father-daughter dance ("Never Dance Alone")
+- The Stowaway (pirate captain, compass)
 - Not Breathing (teen saves grandpa in a supermarket)
 - The Car (teacher finds student living in a car)
 - The Paper Piano (mocked girl plays)

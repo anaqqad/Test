@@ -448,3 +448,37 @@ Camera: opening extreme close-up on the screaming girl's face, focus on her eyes
 
 Hook text: "SHE SCREAMED FOR HELP — EVERYONE JUDGED THE KID WHO RAN TO HER… 😳"
 Caption: "Never judge someone by how they look. ❤️"
+
+## 14. "The Stowaway" (pirate era, extreme yell hook)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal period drama, 1700s wooden sailing ship at night, cramped cargo hold below deck, swinging oil lanterns, warm amber light and deep shadows, wooden barrels, coiled ropes, creaking beams, dust in the light beams, shallow depth of field, natural skin texture, light film grain. Exactly 3 characters, identical faces and wardrobe in every shot; no other crew is seen. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character, and do not look like any famous movie pirate. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- BOY (10): skinny boy, olive skin, dirty face, wild dark curly hair, big frightened green eyes, oversized torn linen shirt, rope belt, barefoot. Wears a small brass compass on a leather cord, tucked inside his shirt; the compass lid is engraved with a small swallow bird.
+- QUARTERMASTER (30s): lanky white man, red hair under a grey knitted wool cap, freckles, a gap in his front teeth, faded blue-and-white striped shirt, brown vest, holds an oil lantern.
+- CAPTAIN (50s): broad weathered white man, short-cropped grey hair, thick grey beard, a pale scar across the bridge of his nose, no hat, long black leather coat with brass buttons over a white shirt, a small swallow tattoo on the back of his right hand.
+
+Location: the ship's cargo hold; a row of barrels on the left; a steep wooden staircase up to the deck on the right. Screen direction never flips.
+
+0s-2s: Extreme close-up Boy's terrified face inside a barrel as the lid is torn away and lantern light floods in, his eyes sharp and in focus from the very first frame. QUARTERMASTER (off-screen, yelling at full volume, from the very first frame): "STOWAWAY! CAPTAIN, A STOWAWAY!" BOY (crying, right away): "Please! Don't throw me over!"
+2s-4s: Medium shot, Quartermaster holding the lantern over the open barrel, the boy cowering inside; heavy boots coming down the staircase on the right.
+4s-6s: Close-up Captain at the bottom of the stairs, cold, lantern light on his scar. CAPTAIN: "Stowaways feed the sharks."
+6s-8s: Close-up Boy, shaking. BOY: "My father sailed on this ship!"
+8s-10s: Close-up Quartermaster, laughing. QUARTERMASTER: "Every rat says that."
+10s-12s: Medium shot, the boy climbs out of the barrel by himself, trembling; Captain points up the stairs. CAPTAIN: "Take him to the rail."
+12s-14s: Insert: the brass compass slips out of the boy's shirt on its cord, swinging in the lantern light, the swallow engraving catching the light.
+14s-16s: Close-up Captain, frozen, staring at the compass.
+16s-18s: Insert: Captain's right hand with the swallow tattoo gently lifts the compass; the tattoo and the engraving are the same bird.
+18s-20s: Close-up Captain, voice breaking. CAPTAIN: "Where did you get this?"
+20s-22s: Close-up Boy, tears falling. BOY: "My father. He said it'd lead me to you."
+22s-24s: Close-up Captain, eyes wet. CAPTAIN: "Your father took a musket ball meant for me."
+24s-26s: Close-up Quartermaster, his grin gone, slowly lowering the lantern.
+26s-28s: Close-up Captain, kneeling to the small boy's height, placing the compass back against his chest. CAPTAIN: "No one throws you anywhere."
+28s-30s: Medium shot, Captain takes off his long black coat and wraps it around the boy's small shoulders, then looks up at Quartermaster. CAPTAIN: "Feed the boy. He sails with us now."
+
+Camera: opening extreme close-up from inside the barrel on the boy's face; handheld, swaying with the ship; low angle on the captain coming down the stairs; slow push-ins on the close-ups; hard cuts; end on the medium shot. Audio: the yell at 0.0s is the loudest sound in the video, raw and clear, full volume on the first frame with no fade-in, no music before it; the boy's cry follows immediately; then creaking wood, waves against the hull, the lantern swinging, heavy boots on the stairs, silence when the compass appears, then a soft cello and low strings swelling into a warm sea-shanty-style melody at the end. No subtitles, no text overlays, no watermark, no logos.
+```
+
+Hook text: "THEY FOUND A BOY HIDING IN A BARREL… THEN THE CAPTAIN SAW HIS COMPASS 😳"
+Caption: "Some debts are paid across generations. ⚓❤️"
