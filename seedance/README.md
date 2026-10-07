@@ -44,3 +44,8 @@ Seeddance lip-sync guides (links in `prompts.md`).
   ("already hanging, sharp, unchanged"), keep the hood shot one continuous take with a static background, and dress
   him differently in the photo. Also make every big guy look clearly fictional (distinct hair, glasses, tattoos)
   so he isn't mistaken for a celebrity.
+- Face fix for "The Owner" (2026-10-06): FaceFusion 3.9.1 on the RTX 3090 Ti (CUDA), `seedance/fix_the_owner/run_facefusion.bat`.
+  The full 30.08 s / 721-frame video took about 2 min 20 s end to end (two passes of ~55-60 s each, about 14-16 frames/s,
+  plus the final encode; the first run also downloads ~1 GB of models). Pass 1 swaps the man (reference face at frame 540),
+  pass 2 swaps the framed photo behind him (2nd-largest face at frame 540). Girl and manager unchanged, audio bit-identical.
+  Distance 0.3, not 0.5: in 3.9.1 the scale changed and at 0.5 the manager got swapped too.
