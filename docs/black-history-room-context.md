@@ -116,4 +116,4 @@ Series: Forgotten First, Before Rosa Parks, One Photo One Story, Invented By, My
 Candidates not yet done: Claudette Colvin (2 March 1955), Garrett Morgan (1916 Lake Erie tunnel rescue),
 Henrietta Lacks (handle consent carefully), Major Taylor (1899 world cycling champion), Katherine Johnson,
 Lewis Latimer, Madam C. J. Walker (word the "first" claim carefully).
-Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: Henry "Box" Brown, Ellen and William Craft (branch claude/black-history-reels-4pk8ts).
+Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: Henry "Box" Brown, Ellen and William Craft, Harriet Tubman (Combahee raid) (branch claude/black-history-reels-4pk8ts).

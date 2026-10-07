@@ -1,0 +1,512 @@
+{
+  "id": "reel-harriet-tubman-raid",
+  "title": "The Night Harriet Tubman Freed 700 People",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+    "engine": "elevenlabs",
+    "voiceId": "gUABw7pXQjhjt0kNFBTF",
+    "voiceName": "Andrew - Smooth audio books",
+    "model": "eleven_multilingual_v2",
+    "stability": 0.6,
+    "similarity": 0.75,
+    "style": 0.0,
+    "speed": 1.05,
+    "seed": 1234,
+    "leadInSeconds": 0.0,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3,
+    "hookBoostDb": 2
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "assets": {
+    "p1868": {
+      "commons": "File:Harriet Tubman c1868-69.jpg"
+    },
+    "squyer": {
+      "commons": "File:Harriet Tubman by Squyer, NPG, c1885.jpg"
+    },
+    "late": {
+      "commons": "File:Harriet Tubman late in life3.jpg"
+    },
+    "map": {
+      "commons": "File:Map of the Rebel Lines of the Pocotaligo, Combahee & Ashepoo -Rivers-, South Carolina, To illustrate the operations of the Army under command of Maj. Gen. W. T. Sherman, comdng. Mill. Div. of the Miss. Fro(...) - NARA - 305622 (page 1).jpg"
+    },
+    "beaufort": {
+      "commons": "File:Encampment of Federal troops before Beaufort, South Carolina (December 1861) - IT 1862.jpg"
+    },
+    "plantation": {
+      "commons": "File:James Joyner Smith's Plantation, Beaufort, South Carolina, 1862 01.jpg"
+    }
+  },
+  "faces": {
+    "squyer": [
+      [
+        0.39,
+        0.08,
+        0.56,
+        0.21
+      ]
+    ],
+    "p1868": [
+      [
+        0.38,
+        0.16,
+        0.54,
+        0.27
+      ]
+    ],
+    "late": [
+      [
+        0.39,
+        0.22,
+        0.53,
+        0.35
+      ]
+    ],
+    "plantation": [
+      [
+        0.02,
+        0.58,
+        0.75,
+        0.7
+      ]
+    ]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "In 1863, a woman led a military raid that freed more than 700 enslaved people in one night.",
+      "visual": {
+        "kind": "photo",
+        "image": "squyer",
+        "focus": [
+          0.475,
+          0.15
+        ],
+        "zoom": [
+          2.2,
+          2.3
+        ],
+        "anchor": [
+          0.42,
+          0.25
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "In 1863, she led a raid that freed *more than 700* people in *one night.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "Her name was Harriet Tubman.",
+      "visual": {
+        "kind": "photo",
+        "image": "p1868",
+        "focus": [
+          0.46,
+          0.24
+        ],
+        "zoom": [
+          1.5,
+          1.6
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Harriet Tubman",
+          "sub": "c. 1820 – 1913"
+        }
+      }
+    },
+    {
+      "id": "escaped",
+      "text": "She escaped slavery in 1849, then kept going back to free others.",
+      "visual": {
+        "kind": "title",
+        "title": "1849",
+        "sub": "she escaped slavery in Maryland"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Maryland",
+          "sub": "born enslaved"
+        }
+      }
+    },
+    {
+      "id": "war",
+      "text": "In the Civil War, she worked as a Union scout and spy in South Carolina.",
+      "visual": {
+        "kind": "card",
+        "image": "beaufort",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          0.95
+        ],
+        "caption": "Union camp at Beaufort, South Carolina, 1861"
+      },
+      "section": "story",
+      "overlays": {
+        "pin": {
+          "label": "Beaufort",
+          "sub": "South Carolina"
+        }
+      }
+    },
+    {
+      "id": "scouts",
+      "text": "She recruited scouts to map the Combahee River,",
+      "visual": {
+        "kind": "card",
+        "image": "map",
+        "crop": [
+          0.25,
+          0.1,
+          0.85,
+          0.95
+        ],
+        "caption": "The Combahee River on a Union Army map, 1865"
+      }
+    },
+    {
+      "id": "mines",
+      "text": "and learned where the Confederates had hidden mines.",
+      "visual": {
+        "kind": "title",
+        "title": "Hidden mines",
+        "sub": "laid in the river by the Confederates"
+      }
+    },
+    {
+      "id": "night",
+      "text": "On the night of June 1, 1863, she guided Union gunboats up the river,",
+      "visual": {
+        "kind": "photo",
+        "image": "raid",
+        "focus": [
+          0.3,
+          0.62
+        ],
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "anchor": [
+          0.5,
+          0.42
+        ],
+        "motion": "panRight"
+      },
+      "overlays": {
+        "stamp": "June 1, 1863"
+      }
+    },
+    {
+      "id": "soldiers",
+      "text": "with about 300 soldiers, most of them Black.",
+      "visual": {
+        "kind": "card",
+        "image": "raid",
+        "crop": [
+          0.18,
+          0.42,
+          0.62,
+          0.98
+        ],
+        "caption": "Harper's Weekly, July 4, 1863",
+        "clipping": true
+      }
+    },
+    {
+      "id": "run",
+      "text": "Enslaved families ran and swam toward the boats.",
+      "visual": {
+        "kind": "card",
+        "image": "raid",
+        "crop": [
+          0.6,
+          0.55,
+          1.0,
+          1.0
+        ],
+        "caption": "Escaping to the boats, Harper's Weekly, 1863"
+      }
+    },
+    {
+      "id": "burned",
+      "text": "Soldiers burned plantations, rice mills and Confederate supplies.",
+      "visual": {
+        "kind": "card",
+        "image": "raid",
+        "crop": [
+          0.5,
+          0.0,
+          1.0,
+          0.6
+        ],
+        "caption": "The Combahee plantations burning"
+      }
+    },
+    {
+      "id": "freed",
+      "text": "By morning, more than 700 people were free.",
+      "visual": {
+        "kind": "title",
+        "title": "700+",
+        "sub": "free by morning"
+      },
+      "overlays": {
+        "stamp": "Free"
+      }
+    },
+    {
+      "id": "enlisted",
+      "text": "Many of the freed men joined the Union Army.",
+      "visual": {
+        "kind": "card",
+        "image": "plantation",
+        "crop": [
+          0.0,
+          0.25,
+          1.0,
+          0.95
+        ],
+        "caption": "Freedpeople near Beaufort, 1862"
+      }
+    },
+    {
+      "id": "twist",
+      "text": "In ten years on the Underground Railroad, she led about 70 people out. That night, ten times as many.",
+      "visual": {
+        "kind": "title",
+        "title": "70 → 700+",
+        "sub": "ten years, then one night"
+      },
+      "section": "cost"
+    },
+    {
+      "id": "pension",
+      "text": "Yet she never got a soldier's pension, only a widow's.",
+      "visual": {
+        "kind": "photo",
+        "image": "squyer",
+        "focus": [
+          0.48,
+          0.25
+        ],
+        "zoom": [
+          1.2,
+          1.3
+        ],
+        "anchor": [
+          0.45,
+          0.32
+        ]
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "One woman. One river. More than 700 lives.",
+      "visual": {
+        "kind": "photo",
+        "image": "late",
+        "focus": [
+          0.46,
+          0.3
+        ],
+        "zoom": [
+          1.4,
+          1.5
+        ],
+        "anchor": [
+          0.45,
+          0.32
+        ]
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "sources": {
+    "NPS": {
+      "name": "National Park Service: \"We Called Ourselves Combee\" (Combahee River Raid)",
+      "url": "https://www.nps.gov/articles/000/we-called-ourselves-combee.htm"
+    },
+    "HOUSE": {
+      "name": "US House of Representatives, History, Art & Archives: The \"Very Deserving Case\" of Harriet Tubman (2021)",
+      "url": "https://history.house.gov/Blog/2021/March/3-30-Tubman/"
+    },
+    "HIST": {
+      "name": "History.com: After the Underground Railroad, Harriet Tubman Led a Brazen Civil War Raid",
+      "url": "https://www.history.com/articles/harriet-tubman-combahee-ferry-raid-civil-war"
+    },
+    "BRIT": {
+      "name": "Encyclopaedia Britannica: Harriet Tubman",
+      "url": "https://www.britannica.com/biography/Harriet-Tubman"
+    },
+    "HW": {
+      "name": "Harper's Weekly, July 4, 1863, p. 429 (Library of Congress)",
+      "url": "https://www.loc.gov/item/2014645368/"
+    }
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "In June 1863 Tubman led (with Col. James Montgomery) a Union raid on the Combahee River that freed more than 700 enslaved people, overnight June 1-2.",
+      "sources": [
+        "HOUSE",
+        "NPS",
+        "HIST"
+      ],
+      "note": "Count: 'more than 700' (HOUSE, HIST), 'more than 750' (NPS). HOUSE: 'lead troops in a military operation'. Timing: night of June 1 to morning of June 2 (HIST, NPS)."
+    },
+    {
+      "beat": "name",
+      "claim": "Harriet Tubman, born c. 1820, died 1913.",
+      "sources": [
+        "BRIT",
+        "HOUSE"
+      ]
+    },
+    {
+      "beat": "escaped",
+      "claim": "Escaped slavery in Maryland in 1849 and returned repeatedly to guide others out.",
+      "sources": [
+        "BRIT",
+        "HIST"
+      ]
+    },
+    {
+      "beat": "war",
+      "claim": "Served the Union in South Carolina as a scout and spy.",
+      "sources": [
+        "BRIT",
+        "HOUSE",
+        "NPS"
+      ]
+    },
+    {
+      "beat": "scouts",
+      "claim": "Recruited scouts who gathered intelligence on the Combahee area.",
+      "sources": [
+        "NPS",
+        "HIST"
+      ],
+      "note": "HIST: eight scouts helped her map the area."
+    },
+    {
+      "beat": "mines",
+      "claim": "The raid's intelligence located Confederate mines ('torpedoes') in the river.",
+      "sources": [
+        "NPS",
+        "HIST"
+      ]
+    },
+    {
+      "beat": "night",
+      "claim": "On the night of June 1, 1863, Tubman guided Union gunboats (John Adams, Harriet A. Weed, Sentinel) up the Combahee.",
+      "sources": [
+        "HIST",
+        "NPS"
+      ]
+    },
+    {
+      "beat": "soldiers",
+      "claim": "About 300 soldiers: the 2nd South Carolina Volunteers (Black) plus about 50 from a Rhode Island unit.",
+      "sources": [
+        "NPS",
+        "HIST"
+      ]
+    },
+    {
+      "beat": "run",
+      "claim": "Enslaved people ran and swam toward the gunboats.",
+      "sources": [
+        "NPS",
+        "HIST"
+      ]
+    },
+    {
+      "beat": "burned",
+      "claim": "Plantations, rice mills and supplies were burned.",
+      "sources": [
+        "NPS",
+        "HIST"
+      ]
+    },
+    {
+      "beat": "freed",
+      "claim": "More than 700 freed by the morning of June 2.",
+      "sources": [
+        "NPS",
+        "HOUSE",
+        "HIST"
+      ]
+    },
+    {
+      "beat": "enlisted",
+      "claim": "Many freed men enlisted in the 2nd South Carolina Volunteers.",
+      "sources": [
+        "NPS",
+        "HIST"
+      ],
+      "note": "NPS: more than 150 recruited."
+    },
+    {
+      "beat": "twist",
+      "claim": "About 70 people guided out over ten years on the Underground Railroad; 700+ in the raid (about ten times).",
+      "sources": [
+        "BRIT",
+        "HIST",
+        "NPS"
+      ],
+      "note": "Older figure of ~300 (Bradford 1868) is considered exaggerated (BRIT)."
+    },
+    {
+      "beat": "pension",
+      "claim": "She was not paid a soldier's pension; she received a widow's pension (as Nelson Davis's widow, from 1892; raised to $20 in 1899).",
+      "sources": [
+        "HOUSE",
+        "HIST",
+        "BRIT"
+      ]
+    }
+  ],
+  "notUsed": [
+    "'First woman to lead an armed raid in US history': stated in several places, but the US House site says 'first African-American woman to lead troops'; not used.",
+    "Tubman's description of women carrying babies, pigs and pots of rice (her own account via History.com): not used, one source.",
+    "Exact count (727 / 750 / 756 / 800): sources differ; script says 'more than 700'."
+  ]
+}
