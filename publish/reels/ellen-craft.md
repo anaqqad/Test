@@ -11,11 +11,15 @@ She Escaped Slavery Disguised as a White Slave Owner
 Post text:
 In 1848, an enslaved woman escaped disguised as a white slave owner, and her husband played her slave.
 
-Ellen Craft cut her hair, put on a top hat and green glasses, wrapped her face in a bandage and her right
-arm in a sling, because she could not write. With William at her side as her "servant," she rode north by
-train and steamboat. A friend of her enslaver sat right next to her, so she pretended to be deaf. In
-Baltimore an officer demanded proof that William was hers, and still let them through. On Christmas Day
-1848, they reached Philadelphia, free.
+Ellen and William Craft were enslaved in Macon, Georgia. Ellen was the daughter of an enslaved woman and the white man who enslaved her, and she looked white. In December 1848, the couple turned that into a plan.
+
+Ellen cut her hair short and dressed as a man, in a top hat and green glasses. She wrapped her face in a bandage, as if she were ill, to hide that she had no beard. She could not read or write, so she put her right arm in a sling, so no one would ask her to sign her name. She travelled as "Mr. William Johnson," a sick young planter. William played her enslaved servant.
+
+They took the train to Savannah, then steamboats and trains through Charleston, Wilmington, Virginia and Washington. On the first train, a friend of Ellen's enslaver sat down right next to her, so she pretended to be deaf. In Baltimore, the last stop before free territory, an officer demanded proof that William belonged to her. In the end, he let them board.
+
+On Christmas Day 1848, they reached Philadelphia, free.
+
+They settled in Boston. But in 1850 the new Fugitive Slave Law let two slave catchers from Macon come to Boston to take them back. Black and white Bostonians hid them, and the hunters went home empty-handed. The Crafts sailed to England, where in 1860 they published their story, "Running a Thousand Miles for Freedom." After the war they returned to Georgia, and in 1873 they opened a farm school for freed people.
 
 Would you have kept your nerve in that seat?
 

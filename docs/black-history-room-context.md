@@ -74,6 +74,7 @@ uses the owner's cloned CosyVoice voice and never ElevenLabs.
 Free timing previews: Kokoro scratch (`am_michael`, speed 1.1), spec id ending in `-scratch` (git-ignored).
 
 ## Rules (must follow)
+- Facebook post text: the story part is long (about 250-350 words, several short paragraphs: background, the event step by step, the aftermath), built only from facts in the reel's fact sheet (two sources each). Owner, 2026-10-07.
 - Every Facebook post description includes this support line (after the question, before the sources):
   "Researching and editing these videos takes real time and effort. If you value these stories, please support our page so we can keep bringing them to light. Thank you! https://ko-fi.com/theblackhistoryroom"
 - Every Facebook post description ends (before the sources) with:

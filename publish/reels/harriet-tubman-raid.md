@@ -11,12 +11,17 @@ The Night Harriet Tubman Freed More Than 700 People
 Post text:
 In 1863, a woman led a military raid that freed more than 700 enslaved people in one night.
 
-During the Civil War, Harriet Tubman worked as a Union scout and spy in South Carolina. Her scouts mapped
-the Combahee River and found where the Confederates had hidden mines. On the night of June 1, 1863, she
-guided Union gunboats carrying about 300 soldiers, most of them Black, up the river. Enslaved families ran
-and swam to the boats, and by morning more than 700 people were free. In ten years on the Underground
-Railroad she had led about 70 people out. That night, ten times as many. Yet she never got a soldier's
-pension, only a widow's.
+Harriet Tubman was born into slavery in Maryland around 1820. In 1849, hearing rumors that she was about to be sold, she escaped to Philadelphia. Over the next ten years she went back again and again, guiding about 70 people out of slavery on the Underground Railroad.
+
+When the Civil War came, she went to South Carolina and served the Union Army as a scout, a spy and a nurse. She recruited her own network of scouts. They mapped the Combahee River and its rice plantations, and learned where the Confederates had hidden mines, then called "torpedoes," in the water.
+
+On the night of June 1, 1863, Tubman and Colonel James Montgomery set out aboard the gunboat John Adams, with the Harriet A. Weed and the Sentinel. About 300 soldiers went with them, most from the 2nd South Carolina Volunteers, a regiment of Black soldiers. One boat ran aground. The others steamed up the river, past the hidden mines.
+
+When the enslaved people on the plantations heard the boats coming, they ran to the riverbanks and swam out to them. Soldiers burned plantations, rice mills and Confederate supplies. By morning, more than 700 people were free, and many of the freed men soon joined the Union Army.
+
+In ten years on the Underground Railroad, Tubman had led about 70 people to freedom. In one night, she helped free ten times as many.
+
+Yet she was never paid a soldier's pension. She received a pension only as the widow of a Union veteran, and Congress did not raise it until 1899, more than 30 years after her service.
 
 Did you know this part of Harriet Tubman's story?
 

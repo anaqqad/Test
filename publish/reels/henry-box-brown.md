@@ -11,10 +11,17 @@ He Mailed Himself to Freedom: Henry "Box" Brown
 
 In 1849, an enslaved man mailed himself to freedom.
 
-After his wife and children were sold away, Henry Brown had two helpers seal him inside a wooden crate three
-feet long, marked "This side up with care," and ship it from Richmond, Virginia, to the Anti-Slavery office in
-Philadelphia. For more than a day it went by wagon, train and steamboat, at times upside down. When the lid
-came off, he climbed out alive and sang a hymn. From then on, the world called him Henry "Box" Brown.
+Henry Brown was born into slavery in Louisa County, Virginia, around 1815. As a young man he was sent to work in a tobacco factory in Richmond. There he married an enslaved woman named Nancy, and they had three children.
+
+In 1848, Nancy's enslaver sold her and the children to a new owner in North Carolina. She was pregnant with their fourth child. Henry Brown decided he would be free, whatever it took.
+
+Two men helped him: James Caesar Anthony Smith, a free Black man from his church choir, and Samuel Smith, a white shoemaker who was paid for his part. On March 23, 1849, they sealed Brown inside a wooden box about three feet long, two feet wide and two and a half feet deep, marked "This side up with care," and shipped it to the Anti-Slavery office in Philadelphia.
+
+For more than a day the box travelled by wagon, train and steamboat. Despite the label, it was set upside down, and for miles he rode on his head. He stayed still and silent.
+
+In Philadelphia, abolitionists, among them James Miller McKim, pried off the lid. Brown climbed out alive and sang a hymn he had prepared, based on Psalm 40. A few weeks later, at an anti-slavery convention in Boston, he was given the name the world remembers: Henry "Box" Brown.
+
+In 1850 a new Fugitive Slave Law made it easier to capture escaped people in the North, so Brown sailed to England. There he toured for years with a giant moving panorama about slavery, and later performed as a magician. He died in Toronto in 1897.
 
 Would you have had the courage to get in the box?
 
