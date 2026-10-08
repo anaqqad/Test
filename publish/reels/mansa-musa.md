@@ -48,6 +48,10 @@ Images: public domain (Catalan Atlas, 1375, Bibliothèque nationale de France; 1
 Tags:
 Mansa Musa, Mali Empire, Musa I of Mali, Black history, African history, Timbuktu, Catalan Atlas, hajj 1324, Cairo gold, richest man in history, medieval Africa, history shorts
 
+## Location tag (Facebook / YouTube)
+
+Cairo, Egypt (where his gold made gold lose value; his capital city was in Mali)
+
 ## Cover frame
 
 Frame 0: Mansa Musa from the Catalan Atlas (1375), crowned, holding up a gold nugget, in sepia, with the

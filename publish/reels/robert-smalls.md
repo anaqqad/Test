@@ -27,6 +27,10 @@ All public domain.
 
 #BlackHistory #RobertSmalls #CivilWar #HiddenHistory #OnThisDay
 
+## Location tag (Facebook / YouTube)
+
+Charleston, South Carolina (Charleston Harbor, where he took the Planter past Fort Sumter)
+
 ## Cover frame
 
 Use frame 0 (the opening frame): a tight sepia crop of the Brady-Handy portrait with the hook

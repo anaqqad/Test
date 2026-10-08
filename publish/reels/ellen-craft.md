@@ -54,6 +54,10 @@ Ellen Craft, William Craft, Black history, escape from slavery, disguise, Underg
 Running a Thousand Miles for Freedom, Macon Georgia, Philadelphia, 1848, women's history,
 African American history, history shorts
 
+## Location tag (Facebook / YouTube)
+
+Macon, Georgia (where the escape began; it ended in Philadelphia)
+
 ## Cover frame
 
 Frame 0: tight sepia crop of the 1860 frontispiece (Ellen in top hat, glasses and sling), with the hook

@@ -54,6 +54,10 @@ Harriet Tubman, Combahee River Raid, Combahee Ferry Raid, Black history, Civil W
 2nd South Carolina Volunteers, Union Army scout, women's history, 1863, African American history,
 history shorts
 
+## Location tag (Facebook / YouTube)
+
+Combahee River, South Carolina (near Beaufort, where the raid set out)
+
 ## Cover frame
 
 Frame 0: tight sepia crop of H. Seymour Squyer's c. 1885 portrait (her direct gaze), with the hook

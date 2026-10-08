@@ -48,6 +48,10 @@ Boston warning poster (1851); Lamb's Biographical Dictionary (1903). All public 
 Henry Box Brown, Black history, Underground Railroad, escape from slavery, Richmond Virginia, Philadelphia,
 William Still, abolition, 1849, African American history, history shorts
 
+## Location tag (Facebook / YouTube)
+
+Richmond, Virginia (where he was sealed into the box; it was opened in Philadelphia)
+
 ## Cover frame
 
 Use frame 0: a tight sepia crop of the 1849 frontispiece portrait, with the hook "In 1849, an enslaved man
