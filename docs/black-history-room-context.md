@@ -63,6 +63,7 @@ Arlington National Cemetery, hidden history, African American history, history s
   short report (render time, what was verified and how, open questions).
 
 ## Voice
+- **Owner, 2026-10-08:** the published reels (Box Brown, Ellen Craft, Tubman) use the free Kokoro voice (`am_michael`, speed 1.1). Kokoro is the default final voice; do not ask about ElevenLabs unless the owner asks for Andrew.
 ElevenLabs "Andrew" (same block as the Sand video). This page uses Andrew; the Ink & Infinity YouTube channel
 uses the owner's cloned CosyVoice voice and never ElevenLabs.
 ```json
