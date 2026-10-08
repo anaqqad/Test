@@ -1,0 +1,56 @@
+{
+  "musa": {
+    "title": "File:Catalan Atlas BNF Sheet 6 Mansa Musa.jpg",
+    "artist": "attributed to Abraham Cresques",
+    "date": "1375 AD",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Catalan_Atlas_BNF_Sheet_6_Mansa_Musa.jpg",
+    "width": 1920,
+    "height": 1369
+  },
+  "sheet": {
+    "title": "File:Catalan Atlas BNF, sheet 6.jpg",
+    "artist": "attributed to Abraham Cresques",
+    "date": "1375",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Catalan_Atlas_BNF,_sheet_6.jpg",
+    "width": 1920,
+    "height": 4694
+  },
+  "caillie": {
+    "title": "File:Caillie 1830 Timbuktu view.jpg",
+    "artist": "René Caillié (1799-1838)",
+    "date": "1830",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Caillie_1830_Timbuktu_view.jpg",
+    "width": 960,
+    "height": 760
+  },
+  "barth": {
+    "title": "File:Barth 1858 Timbuktu from terrace.jpg",
+    "artist": "Drawn by Martin Bernatz (1802–1878) after a sketch by Heinrich Barth (1821-1865). The lithograph was produced and printed by M. & N. Hanhart",
+    "date": "1858",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Barth_1858_Timbuktu_from_terrace.jpg",
+    "width": 1920,
+    "height": 1229
+  },
+  "mosque": {
+    "title": "File:Fortier 372 Timbuktu Djingereber Mosque.jpg",
+    "artist": "Edmond Fortier (1862-1928)",
+    "date": "between 1905 and 1906",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Fortier_372_Timbuktu_Djingereber_Mosque.jpg",
+    "width": 960,
+    "height": 614
+  },
+  "trade": {
+    "title": "File:Berber Trade with Timbuktu 1300s.jpg",
+    "artist": "",
+    "date": "",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Berber_Trade_with_Timbuktu_1300s.jpg",
+    "width": 960,
+    "height": 676
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "id": "reel-mansa-musa",
+  "title": "The King Who Made Gold Lose Its Value",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+    "engine": "elevenlabs",
+    "voiceId": "gUABw7pXQjhjt0kNFBTF",
+    "voiceName": "Andrew - Smooth audio books",
+    "model": "eleven_multilingual_v2",
+    "stability": 0.6,
+    "similarity": 0.75,
+    "style": 0.0,
+    "speed": 1.05,
+    "seed": 1234,
+    "leadInSeconds": 0.0,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3,
+    "hookBoostDb": 2
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "assets": {
+    "musa": {
+      "commons": "File:Catalan Atlas BNF Sheet 6 Mansa Musa.jpg"
+    },
+    "sheet": {
+      "commons": "File:Catalan Atlas BNF, sheet 6.jpg"
+    },
+    "caillie": {
+      "commons": "File:Caillie 1830 Timbuktu view.jpg"
+    },
+    "barth": {
+      "commons": "File:Barth 1858 Timbuktu from terrace.jpg"
+    },
+    "mosque": {
+      "commons": "File:Fortier 372 Timbuktu Djingereber Mosque.jpg"
+    },
+    "trade": {
+      "commons": "File:Berber Trade with Timbuktu 1300s.jpg"
+    }
+  },
+  "faces": {
+    "musa": [
+      [
+        0.5,
+        0.23,
+        0.57,
+        0.37
+      ]
+    ],
+    "trade": [
+      [
+        0.05,
+        0.55,
+        0.95,
+        0.8
+      ]
+    ],
+    "barth": [
+      [
+        0.2,
+        0.6,
+        0.45,
+        0.9
+      ]
+    ]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "In 1324, an African king brought so much gold to Egypt that gold itself lost value.",
+      "visual": {
+        "kind": "photo",
+        "image": "musa",
+        "focus": [
+          0.47,
+          0.3
+        ],
+        "zoom": [
+          1.35,
+          1.42
+        ],
+        "anchor": [
+          0.47,
+          0.24
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "He brought so much gold to Egypt, *gold itself lost value.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "His name was Mansa Musa, king of Mali.",
+      "visual": {
+        "kind": "photo",
+        "image": "musa",
+        "focus": [
+          0.47,
+          0.38
+        ],
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "anchor": [
+          0.47,
+          0.35
+        ]
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Mansa Musa",
+          "sub": "King of Mali, 1300s"
+        }
+      }
+    },
+    {
+      "id": "empire",
+      "text": "His empire stretched across West Africa, rich in gold and salt.",
+      "visual": {
+        "kind": "title",
+        "title": "Mali",
+        "sub": "one of the largest empires of its time"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Mali",
+          "sub": "West Africa"
+        }
+      }
+    },
+    {
+      "id": "hajj",
+      "text": "In 1324, he crossed the Sahara on pilgrimage to Mecca.",
+      "visual": {
+        "kind": "card",
+        "image": "trade",
+        "crop": [
+          0.0,
+          0.25,
+          1.0,
+          1.0
+        ],
+        "caption": "A desert caravan, 19th-century print"
+      },
+      "section": "story"
+    },
+    {
+      "id": "caravan",
+      "text": "Writers said tens of thousands travelled with him,",
+      "visual": {
+        "kind": "title",
+        "title": "Tens of thousands",
+        "sub": "in his caravan"
+      }
+    },
+    {
+      "id": "camels",
+      "text": "with camels each said to carry 300 pounds of gold.",
+      "visual": {
+        "kind": "card",
+        "image": "trade",
+        "crop": [
+          0.5,
+          0.35,
+          0.95,
+          1.0
+        ],
+        "caption": "Camels of a desert caravan, 19th-century print"
+      },
+      "overlays": {
+        "stamp": "300 lb each"
+      }
+    },
+    {
+      "id": "cairo",
+      "text": "In Cairo, he gave gold to every official, and his people spent it freely.",
+      "visual": {
+        "kind": "title",
+        "title": "Cairo, 1324",
+        "sub": "gold for every official"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Cairo",
+          "sub": "Egypt"
+        }
+      }
+    },
+    {
+      "id": "fell",
+      "text": "So much gold flooded the city that its value fell.",
+      "visual": {
+        "kind": "card",
+        "image": "musa",
+        "crop": [
+          0.3,
+          0.12,
+          0.62,
+          0.42
+        ],
+        "caption": "Mansa Musa holding gold, Catalan Atlas, 1375"
+      }
+    },
+    {
+      "id": "twelve",
+      "text": "A historian wrote that twelve years later, it still had not recovered.",
+      "visual": {
+        "kind": "title",
+        "title": "12 years later",
+        "sub": "gold still had not recovered"
+      }
+    },
+    {
+      "id": "atlas",
+      "text": "A 1375 European map shows him on a throne, holding gold.",
+      "visual": {
+        "kind": "card",
+        "image": "musa",
+        "crop": [
+          0.12,
+          0.0,
+          0.88,
+          1.0
+        ],
+        "caption": "Catalan Atlas, Majorca, 1375"
+      }
+    },
+    {
+      "id": "timbuktu",
+      "text": "Back home, he brought architects and scholars, and built mosques in Timbuktu.",
+      "visual": {
+        "kind": "card",
+        "image": "mosque",
+        "crop": [
+          0.0,
+          0.08,
+          1.0,
+          0.95
+        ],
+        "caption": "Djinguereber Mosque, Timbuktu, c. 1905"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Timbuktu",
+          "sub": "Mali"
+        }
+      }
+    },
+    {
+      "id": "learning",
+      "text": "The city became a great center of Islamic learning.",
+      "visual": {
+        "kind": "card",
+        "image": "barth",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Timbuktu, drawn in 1858"
+      }
+    },
+    {
+      "id": "twist",
+      "text": "Seven hundred years later, he is still called one of the richest people who ever lived.",
+      "visual": {
+        "kind": "card",
+        "image": "caillie",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Timbuktu, as drawn in 1830"
+      },
+      "section": "cost"
+    },
+    {
+      "id": "legacy",
+      "text": "His gold put Mali on Europe's maps. His scholars made Timbuktu a legend.",
+      "visual": {
+        "kind": "photo",
+        "image": "musa",
+        "focus": [
+          0.48,
+          0.32
+        ],
+        "zoom": [
+          1.15,
+          1.22
+        ],
+        "anchor": [
+          0.47,
+          0.3
+        ]
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "sources": {
+    "BRIT": {
+      "name": "Encyclopaedia Britannica: Mūsā I of Mali",
+      "url": "https://www.britannica.com/biography/Musa-I-of-Mali"
+    },
+    "NG": {
+      "name": "National Geographic Education: Mansa Musa (Musa I of Mali)",
+      "url": "https://education.nationalgeographic.org/resource/mansa-musa-musa-i-mali/"
+    },
+    "UMARI": {
+      "name": "Al-Umari's account of Mansa Musa's visit to Cairo (14th century), World History Commons",
+      "url": "https://worldhistorycommons.org/al-umaris-account-mansa-musas-visit-cairo"
+    },
+    "GL": {
+      "name": "Gilder Lehrman Institute: The Catalan Atlas (1375)",
+      "url": "https://www.gilderlehrman.org/ap-african-american-studies/unit-1/west-africa/catalan-atlas-1375"
+    }
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "Mansa Musa's 1324 visit to Egypt (on hajj) brought so much gold that its value fell in Cairo.",
+      "sources": [
+        "BRIT",
+        "NG",
+        "UMARI"
+      ]
+    },
+    {
+      "beat": "name",
+      "claim": "Mansa Musa (Musa I), ruler of Mali in the 1300s.",
+      "sources": [
+        "BRIT",
+        "NG"
+      ],
+      "note": "Reign dates differ: 1307 or 1312 to 1332 or 1337. Lower third says '1300s'."
+    },
+    {
+      "beat": "empire",
+      "claim": "Mali spread across West Africa; wealth from gold and salt; one of the largest empires of its time.",
+      "sources": [
+        "NG",
+        "BRIT"
+      ]
+    },
+    {
+      "beat": "hajj",
+      "claim": "In 1324 he made the pilgrimage to Mecca, crossing the Sahara.",
+      "sources": [
+        "BRIT",
+        "NG"
+      ]
+    },
+    {
+      "beat": "caravan",
+      "claim": "Contemporary Arab writers said tens of thousands travelled with him (60,000 in one report).",
+      "sources": [
+        "NG",
+        "BRIT"
+      ]
+    },
+    {
+      "beat": "camels",
+      "claim": "Camels reportedly each carried 300 pounds of gold.",
+      "sources": [
+        "NG",
+        "BRIT"
+      ],
+      "note": "BRIT: 80 camels; NG: dozens. Script says 'each said to carry'."
+    },
+    {
+      "beat": "cairo",
+      "claim": "He gave gold to court officials in Cairo and his people spent and exchanged gold.",
+      "sources": [
+        "UMARI",
+        "BRIT",
+        "NG"
+      ]
+    },
+    {
+      "beat": "fell",
+      "claim": "The value of gold fell in Egypt.",
+      "sources": [
+        "UMARI",
+        "BRIT",
+        "NG"
+      ]
+    },
+    {
+      "beat": "twelve",
+      "claim": "About twelve years later it had still not recovered (al-Umari, writing c. 1336).",
+      "sources": [
+        "UMARI",
+        "BRIT",
+        "NG"
+      ],
+      "note": "Al-Umari is the only primary source for the 12-year figure; BRIT and NG repeat it. The script attributes it to 'a historian'."
+    },
+    {
+      "beat": "atlas",
+      "claim": "The Catalan Atlas (1375) shows him enthroned holding gold.",
+      "sources": [
+        "BRIT",
+        "NG",
+        "GL"
+      ]
+    },
+    {
+      "beat": "timbuktu",
+      "claim": "He brought architects and scholars (including al-Sahili) and built mosques in Timbuktu.",
+      "sources": [
+        "NG",
+        "BRIT"
+      ]
+    },
+    {
+      "beat": "learning",
+      "claim": "Timbuktu became a major center of Islamic learning.",
+      "sources": [
+        "NG",
+        "BRIT"
+      ]
+    },
+    {
+      "beat": "twist",
+      "claim": "He is still often called one of the richest people in history.",
+      "sources": [
+        "NG",
+        "GL"
+      ],
+      "note": "A reputation, not a measurement. The Catalan Atlas itself only calls him the richest king of his region."
+    }
+  ],
+  "notUsed": [
+    "'Richest person who ever lived' as a fact: his wealth cannot be measured; the script says he is 'still called one of the richest'.",
+    "'12,000 enslaved attendants' (BRIT): accurate per the chroniclers, but left out of a 60-second script to keep one fact per beat; mention in post text.",
+    "'He refused to kiss the ground before the sultan' (al-Umari only): not used."
+  ]
+}
