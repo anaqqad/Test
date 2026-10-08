@@ -523,3 +523,37 @@ Camera: opening extreme close-up on the boy's face at water level; handheld and 
 
 Hook text: "HE FELL THROUGH THE ICE — THE RICH MAN JUST FILMED… THEN THE GARBAGE TRUCK STOPPED 😳"
 Caption: "Not all heroes wear suits. 🧡"
+
+## 16. "Always" (Hollywood-style rescue: firefighter, burning building, his own daughter)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal Hollywood action-rescue drama, a four-story brick apartment building on fire at night, roaring orange flames, thick black smoke, embers swirling, red and white emergency lights flashing on wet pavement, intense heat haze, anamorphic lens flares, shallow depth of field, natural skin texture, light film grain. Exactly 3 characters, identical faces and wardrobe in every shot; any crowd stays far away, blurred and dark. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- GIRL (7): small Black girl, two puffs of natural hair with purple bands, soot on her cheeks, purple pajamas with white stars, barefoot, clutching a worn grey stuffed rabbit.
+- FIREFIGHTER (40s): Black man, broad, average height, short beard, a small scar on his chin, tan turnout gear with reflective stripes and no text, black helmet with no numbers or text, breathing-apparatus mask and air tank on his back, a flashlight clipped to his chest, a fire axe.
+- CHIEF (60s): white man, heavyset, grey mustache, deep lines, white helmet with no text, black turnout coat, radio in hand.
+
+Location: a narrow city street; the burning building on the right, its fourth-floor corner window glowing with fire; a red aerial ladder truck with no logos parked in front, its ladder platform (bucket) lowered; the Chief stands by the truck. Inside: a smoky stairwell and a small child's bedroom with a bed, a window and fire coming through the doorway. Screen direction never flips.
+
+0s-1.5s: Extreme close-up of Girl at the fourth-floor window, sharp and in focus from the very first frame, flames roaring right behind her, the glass cracking from the heat, tears cutting through the soot on her face. GIRL (screaming at full volume, from the very first frame): "DADDY! HELP ME!"
+1.5s-3s: Close-up Firefighter on the street, looking up, his face lit orange by the fire, frozen in horror. FIREFIGHTER (breathless): "That's my daughter."
+3s-5s: Close-up Chief by the truck, shouting into his radio. CHIEF: "The roof is going! Nobody goes in!"
+5s-7s: Close-up Firefighter pulling his mask over his face, eyes fierce. FIREFIGHTER: "Then I go alone."
+7s-9s: Medium shot, Firefighter sprints through the burning front door, axe in hand, flames bursting around him.
+9s-12s: Medium shot inside, he charges up the smoky stairwell, his chest flashlight cutting through the smoke, fire licking the walls.
+12s-14s: Close-up Firefighter kicking open a bedroom door. FIREFIGHTER (muffled through the mask): "Baby, where are you?!"
+14s-16s: Close-up Girl under the bed, coughing, hugging her stuffed rabbit. GIRL: "Daddy, I'm here!"
+16s-18s: Medium shot, he pulls the small girl out from under the bed, takes off his own mask and presses it over her face; she breathes.
+18s-20s: Medium shot, a burning ceiling beam crashes down in the doorway behind them, blocking the way out. FIREFIGHTER (coughing): "Hold on tight."
+20s-22s: Medium shot, he smashes the window with the axe; outside, the aerial ladder platform rises into view with the Chief in it, reaching out. CHIEF: "Jump! I've got you!"
+22s-24s: Slow-motion medium shot, Firefighter leaps from the window onto the platform with his daughter in his arms as a fireball bursts out of the room behind them.
+24s-26s: Medium shot on the platform, the Chief catches them; Firefighter coughs, soot on his face.
+26s-28s: Close-up Girl, the mask lowered, her small hand touching her father's sooty cheek. GIRL (whispering): "I knew you'd come."
+28s-30s: Medium shot, the platform slowly lowering in front of the glowing building, Firefighter holding her tight, eyes wet. FIREFIGHTER: "Always, baby. Always."
+
+Camera: opening extreme close-up on the girl at the burning window; fast handheld inside the building; low angle as he sprints in; one slow-motion leap; slow push-ins on the final close-ups; hard cuts; end on the medium shot. Audio: the scream at 0.0s is the loudest sound in the video, raw and clear, full volume on the first frame with no fade-in, no music before it; then roaring fire, cracking glass, sirens, radio static, heavy breathing through the mask, the beam crashing, the window shattering, the fireball whoosh; a deep cinematic drum and strings score building from the sprint, cutting to near-silence on the leap, then swelling into an emotional orchestral theme on "I knew you'd come." No subtitles, no text overlays, no watermark, no logos.
+```
+
+Hook text: "HE HEARD HIS DAUGHTER SCREAMING FROM THE BURNING BUILDING… 😭🔥"
+Caption: "Some calls are personal. 🚒❤️"
