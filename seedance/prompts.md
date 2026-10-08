@@ -488,7 +488,7 @@ Camera: opening extreme close-up from inside the barrel on the boy's face; handh
 Hook text: "THEY FOUND A BOY HIDING IN A BARREL… THEN THE CAPTAIN SAW HIS COMPASS 😳"
 Caption: "Some debts are paid across generations. ⚓❤️"
 
-## 15. "The Ice" (rescue series #1, extreme scream hook)
+## 15. "The Ice" (rescue series #1, v2 hook: starts at the peak of danger)
 
 ```
 Vertical 9:16, 30s. Cinematic photoreal emotional rescue drama, frozen city park pond on a grey winter afternoon, light snow falling, bare trees, a snowy footpath along the shore, cold blue light, breath vapor, shallow depth of field, natural skin texture, light film grain. Exactly 4 characters, identical faces and wardrobe in every shot, no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
@@ -501,8 +501,9 @@ Characters:
 
 Location: a frozen pond with a jagged hole in the ice about five meters from the shore; the boy is in the hole holding onto the broken ice edge; the snowy shore and footpath on the left; a city garbage truck with no logos is parked at the curb behind the path, a coil of thick rope hanging on its side. Screen direction never flips: shore left, hole right.
 
-0s-2s: Extreme close-up Boy in the freezing water, gripping the broken ice edge, gasping and crying, his face sharp and in focus from the very first frame. BOY (screaming, full volume, from the very first frame): "MOMMY! I CAN'T GET OUT!"
-2s-4s: Close-up Mom on the shore, screaming toward the path. MOM (screaming): "SOMEBODY HELP! MY SON!"
+0s-1.5s: Extreme close-up at water level, sharp and in focus from the very first frame: the boy's terrified face sinking under the black icy water, bubbles rising, his small hand clawing at the broken ice edge. MOM (off-screen, screaming at full volume at 0.0s): "NO! MY BABY!"
+1.5s-3s: Same extreme close-up: the boy bursts back up through the surface, gasping, water streaming off his face, screaming. BOY (screaming, full volume): "MOMMY! HELP ME!"
+3s-4s: Close-up Mom on the shore, screaming toward the path. MOM: "SOMEBODY HELP!"
 4s-6s: Close-up Rich Man on the footpath, filming with his phone, not moving. RICH MAN: "I'm not ruining this coat. Call someone."
 6s-8s: Medium shot, the garbage truck at the curb; Worker jumps down from the cab, grabs the coil of rope off its side and runs toward the pond.
 8s-10s: Close-up Worker tying one end of the rope around his waist, the other end already tied to the truck's bumper. WORKER (shouting): "Hold on, kid! I'm coming!"
