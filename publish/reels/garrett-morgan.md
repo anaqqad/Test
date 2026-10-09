@@ -11,7 +11,7 @@ He Walked Into Deadly Gas. On Purpose.
 Post text:
 He walked into deadly gas. On purpose.
 
-Garrett Morgan was born in Paris, Kentucky, in 1877, the son of a formerly enslaved mother. As a teenager he moved to Cleveland, Ohio, where he started out repairing sewing machines and went on to build his own businesses. He was also an inventor. In 1914 he patented a "breathing device": a hood worn over the head, with a long tube that drew in cleaner air from near the ground, so the wearer could move through smoke and fumes.
+Garrett Morgan was born in Paris, Kentucky, in 1877, the seventh of eleven children. In 1895 he moved to Cleveland, Ohio, where he started out repairing sewing machines and went on to build his own businesses. He was also an inventor. In 1914 he patented a "breathing device": a hood worn over the head, with a long tube that drew in cleaner air from near the ground, so the wearer could move through smoke and fumes.
 
 On the night of July 24, 1916, workers digging a waterworks tunnel under Lake Erie hit a pocket of gas. A spark set off an explosion, and the tunnel filled with gas. Men were trapped deep underground. Rescuers went in after them, and the gas overcame them too.
 
@@ -21,7 +21,7 @@ Yet Morgan was denied the reward money the other rescuers received, and when the
 
 Racism had already shaped his business. To sell his safety hood, he hired a white man to act as the salesman while Morgan ran the demonstrations himself.
 
-Years later, Morgan saw a car crash into a horse-drawn carriage at an intersection. He went on to design a new traffic signal with an extra warning position, and on November 20, 1923, he received a patent for it. General Electric bought the rights for $40,000.
+Years later, Morgan saw a collision at a busy intersection. He went on to design a new traffic signal with an extra warning position, and on November 20, 1923, he received a patent for it. General Electric bought the rights for $40,000.
 
 Garrett Morgan died in Cleveland in 1963. He walked into the dark so others could walk out.
 
