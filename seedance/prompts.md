@@ -596,7 +596,7 @@ Location: a small grey hatchback car with no logos stalled across the railroad t
 22s-24s: Medium shot from the grass: the three drop down onto the wet grass as the train roars past behind them, only a wall of streaking light, motion blur and blasting wind; the car is no longer visible behind the blur.
 24s-26s: Close-up Mom pulling her daughter into her arms, sobbing; the train is gone. MOM: "My baby! My baby!"
 26s-28s: Close-up Girl in her mother's arms, looking at the trucker, rain and red crossing lights on her face. GIRL (whispering): "Mister… you saved me."
-28s-30s: Close-up Trucker on his back in the wet grass, breathing hard, rain on his face, a tired smile. TRUCKER: "Not tonight, kid. Not tonight."
+28s-30s: Close-up Trucker on his back in the wet grass, breathing hard, rain on his face, a tired smile. TRUCKER: "You're safe now, kid. You're safe."
 
 Camera: opening extreme close-up through the rear side window on the girl's face; frantic handheld during the rescue; quick hard cuts that get shorter as the train approaches; low angle from the grass as the train passes; slow push-ins on the final close-ups; end on the close-up. Audio: the train horn and the girl's scream at 0.0s are the loudest sounds in the video, full volume on the first frame with no fade-in and no music before them; then the crossing bell ringing, rain, the window shattering, the door opening, the cutter ripping, the horn growing deafening, the roar and wind of the train passing; after the train is gone, sudden silence except rain and the crossing bell, and a soft emotional piano and strings theme entering on "Mister… you saved me." No subtitles, no text overlays, no watermark, no logos.
 ```
