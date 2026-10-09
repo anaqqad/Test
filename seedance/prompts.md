@@ -603,3 +603,13 @@ Camera: opening extreme close-up through the rear side window on the girl's face
 
 Hook text: "HER SEATBELT WAS STUCK — AND THE TRAIN WASN'T STOPPING… 😱"
 Caption: "Some strangers are sent. 🚂❤️"
+
+### "The Crossing": posting metadata
+- Hook text (on screen, first 2 s): HER SEATBELT WAS STUCK — AND THE TRAIN WASN'T STOPPING… 😱
+- Title / caption (Facebook, TikTok): SHE WAS TRAPPED ON THE TRACKS — THEN A TRUCKER JUMPED OUT OF HIS RIG… 🚂😱
+  Her car died on the railroad tracks. The doors locked. Her seatbelt jammed. And the train was coming.
+  One stranger didn't think twice. ❤️ Would you have stopped? 👇
+- YouTube Shorts title: Trapped on the Train Tracks — A Stranger Had 20 Seconds 😱 #shorts
+- Hashtags: #rescue #hero #train #emotional #trucker #savedalife #heroesamongus #strangerkindness #storytime #fyp #reels #viral #aistory
+- Cover frame: the girl's face lit by the train headlight (0-1 s)
+- AI label: turn on "AI-generated content" (Facebook/Instagram/TikTok/YouTube all require it for realistic AI video)
