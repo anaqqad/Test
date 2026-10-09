@@ -562,3 +562,40 @@ Camera: opening extreme close-up on the girl through the cracked glass; fast han
 
 Hook text: "HE HEARD HIS DAUGHTER SCREAMING FROM THE BURNING BUILDING… 😭🔥"
 Caption: "Some calls are personal. 🚒❤️"
+
+## 17. "The Crossing" (Hollywood rescue, 2-second hook, built for low render risk)
+
+Render-risk choices: one location, 3 characters, mostly close-ups; the train is never shown as a solid object
+(only its headlight and a blur of light/wind), no crash is shown; safety glass crumbles (no shards); no leaps.
+
+```
+Vertical 9:16, 30s. Cinematic photoreal Hollywood action-rescue thriller, a rural railroad crossing at night in light rain, red crossing lights flashing, the lowered crossing gates, wet asphalt and gravel, a blinding white train headlight growing in the distance, shallow depth of field, natural skin texture, light film grain. Exactly 3 characters, identical faces and wardrobe in every shot, no other people. The train is never shown up close as a solid object: only its blinding headlight and, when it passes, a blur of light and wind. No crash shown, no injuries, no blood. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- GIRL (6): small South Asian girl, two black braids, big dark eyes, bright yellow raincoat, strapped into a child car seat in the back seat, tears on her cheeks.
+- MOM (30s): South Asian woman, long black hair in a wet braid, maroon hoodie, jeans, rain-soaked, panicked.
+- TRUCKER (50s): white man, average height, stocky, short grey goatee, weathered face, faded blank grey trucker cap with no logo, red flannel shirt under a yellow reflective safety vest with no text, work gloves; a long steel flashlight in his hand and a small orange seatbelt-cutter tool in his vest pocket.
+
+Location: a small grey hatchback car with no logos stalled across the railroad tracks between the lowered crossing gates, its rear passenger door jammed shut; the train's headlight approaching from the right along the tracks; a big rig truck with no logos stopped behind the gate on the left with its headlights on; wet grass on the far side of the tracks. Screen direction never flips: truck left, train coming from the right.
+
+0s-2s: Extreme close-up of Girl in her car seat, seen through the rear side window, the blinding train headlight flooding her face through the glass, sharp and in focus from the very first frame, both small hands yanking at the jammed car-seat buckle. Sound from the very first frame at full volume: the train horn blaring and the girl screaming. GIRL (screaming): "MOMMY! IT WON'T OPEN!"
+2s-4s: Close-up Mom outside the car, yanking the jammed rear door handle, red crossing lights flashing on her wet face. MOM (screaming): "THE DOOR'S STUCK!"
+4s-6s: Medium shot, Trucker jumps down from his big rig on the left and sprints past the gate toward the car, steel flashlight in hand. TRUCKER (shouting): "Step back!"
+6s-8s: Close-up Trucker at the rear side window. TRUCKER: "Cover your face, sweetheart!"
+8s-10s: Medium shot from outside: he smashes the rear side window with the steel flashlight; the safety glass crumbles into small cubes; inside, the girl covers her face with her raincoat sleeves.
+10s-12s: Close-up Trucker reaching in through the empty window frame, pulling at the buckle. TRUCKER: "It's jammed!"
+12s-14s: Insert: his gloved hand pulls the small orange seatbelt cutter out of his vest pocket.
+14s-16s: Close-up Mom, the white headlight now huge behind her, the horn deafening. MOM (screaming): "IT'S COMING!"
+16s-18s: Insert: the cutter slices through the car-seat strap in one pull.
+18s-20s: Medium shot, Trucker lifts the small girl out through the empty window frame and holds her against his chest.
+20s-22s: Medium shot, Trucker carrying the girl and Mom beside him run off the tracks toward the wet grass on the far side, the headlight blazing white across them.
+22s-24s: Medium shot from the grass: the three drop down onto the wet grass as the train roars past behind them, only a wall of streaking light, motion blur and blasting wind; the car is no longer visible behind the blur.
+24s-26s: Close-up Mom pulling her daughter into her arms, sobbing. MOM: "My baby! My baby!"
+26s-28s: Close-up Girl in her mother's arms, looking at the trucker, rain on her face, train lights flickering across her. GIRL (whispering): "Mister… you saved me."
+28s-30s: Close-up Trucker on his back in the wet grass, breathing hard, rain on his face, a tired smile. TRUCKER: "Not tonight, kid. Not tonight."
+
+Camera: opening extreme close-up through the rear side window on the girl's face; frantic handheld during the rescue; quick hard cuts that get shorter as the train approaches; low angle from the grass as the train passes; slow push-ins on the final close-ups; end on the close-up. Audio: the train horn and the girl's scream at 0.0s are the loudest sounds in the video, full volume on the first frame with no fade-in and no music before them; then the crossing bell ringing, rain, the window shattering, the cutter ripping, the horn growing deafening, the roar and wind of the train passing, then sudden silence except rain and the fading crossing bell, and a soft emotional piano and strings theme entering on "Mister… you saved me." No subtitles, no text overlays, no watermark, no logos.
+```
+
+Hook text: "HER SEATBELT WAS STUCK — AND THE TRAIN WASN'T STOPPING… 😱"
+Caption: "Some strangers are sent. 🚂❤️"

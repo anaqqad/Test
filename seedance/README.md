@@ -29,6 +29,7 @@ Seeddance lip-sync guides (links in `prompts.md`).
 - Mother owns the house (deed reveal, evicts son and wife)
 - Cheap car key opens a Mercedes
 - Biker at a father-daughter dance ("Never Dance Alone")
+- The Crossing (trucker saves girl from car on train tracks)
 - Always (firefighter saves his own daughter from a fire)
 - The Ice (rescue: sanitation worker saves boy from frozen pond)
 - The Stowaway (pirate captain, compass)
