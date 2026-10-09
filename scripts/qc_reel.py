@@ -196,6 +196,11 @@ def main() -> None:
         secs = tl["durationInFrames"] / tl["fps"]
         checks["length"] = {"ok": 45 <= secs <= 75, "seconds": round(secs, 2), "target": "45-75"}
         checks["timeline"] = {"ok": True, "engine": tl.get("engine", "estimate"), "wpm": tl.get("wpm")}
+        # quick hook: the spoken hook line ends within 2.5 s and is at most 8 words (owner, 2026-10-09)
+        hook = tl["beats"][0]
+        hook_end = hook["words"][-1]["end"] if hook["words"] else 0.0
+        checks["quickHook"] = {"ok": hook_end <= 2.5 and len(hook["words"]) <= 8, "spokenSeconds": round(hook_end, 2),
+                               "words": len(hook["words"]), "target": "<= 2.5 s, <= 8 words"}
     else:
         checks["timeline"] = {"ok": False, "note": "no timeline.json yet (narration not generated)"}
 

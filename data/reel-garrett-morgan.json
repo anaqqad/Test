@@ -1,0 +1,431 @@
+{
+  "id": "reel-garrett-morgan",
+  "title": "He Walked Into Deadly Gas. On Purpose.",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "leadInSeconds": 0.0,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3,
+    "hookBoostDb": 2
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "assets": {
+    "portrait": {
+      "commons": "File:Morgan5.jpg"
+    },
+    "rescue": {
+      "commons": "File:Morgan rescue.jpg"
+    },
+    "hood1": {
+      "commons": "File:US1113675-drawings-page-1.png"
+    },
+    "hood2": {
+      "commons": "File:US1113675-drawings-page-2.png"
+    }
+  },
+  "faces": {
+    "hood1": [
+      [
+        0.42,
+        0.2,
+        0.55,
+        0.3
+      ],
+      [
+        0.19,
+        0.2,
+        0.32,
+        0.3
+      ]
+    ],
+    "portrait": [
+      [
+        0.3,
+        0.15,
+        0.75,
+        0.6
+      ]
+    ],
+    "rescue": [
+      [
+        0.1,
+        0.12,
+        0.9,
+        0.75
+      ]
+    ]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "He walked into deadly gas. On purpose.",
+      "visual": {
+        "kind": "photo",
+        "image": "hood1",
+        "focus": [
+          0.485,
+          0.255
+        ],
+        "zoom": [
+          2.5,
+          2.6
+        ],
+        "anchor": [
+          0.45,
+          0.24
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "He walked into *deadly gas.* On purpose."
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "His name was Garrett Morgan, a Black inventor in Cleveland.",
+      "visual": {
+        "kind": "card",
+        "image": "portrait",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Garrett A. Morgan"
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Garrett Morgan",
+          "sub": "Inventor · 1877 – 1963"
+        }
+      }
+    },
+    {
+      "id": "blast",
+      "text": "In July 1916, a tunnel being dug under Lake Erie exploded, and gas filled it.",
+      "visual": {
+        "kind": "title",
+        "title": "July 1916",
+        "sub": "an explosion under Lake Erie"
+      },
+      "section": "story",
+      "overlays": {
+        "pin": {
+          "label": "Cleveland",
+          "sub": "Ohio"
+        }
+      }
+    },
+    {
+      "id": "trapped",
+      "text": "Men were trapped inside. Rescuers went in, and the gas killed them too.",
+      "visual": {
+        "kind": "card",
+        "image": "rescue",
+        "crop": [
+          0.05,
+          0.05,
+          0.95,
+          0.55
+        ],
+        "caption": "The crowd at the tunnel, July 1916"
+      }
+    },
+    {
+      "id": "call",
+      "text": "So the police called Morgan.",
+      "visual": {
+        "kind": "card",
+        "image": "portrait",
+        "crop": [
+          0.12,
+          0.08,
+          0.88,
+          0.8
+        ],
+        "caption": "Garrett A. Morgan"
+      }
+    },
+    {
+      "id": "patent",
+      "text": "Two years earlier, he had patented a breathing hood.",
+      "visual": {
+        "kind": "card",
+        "image": "hood1",
+        "crop": [
+          0.12,
+          0.04,
+          0.86,
+          0.72
+        ],
+        "caption": "US Patent 1,113,675, 1914",
+        "clipping": true
+      }
+    },
+    {
+      "id": "down",
+      "text": "He and his brother Frank put on the hoods and went down into the gas.",
+      "visual": {
+        "kind": "card",
+        "image": "hood1",
+        "crop": [
+          0.13,
+          0.17,
+          0.42,
+          0.72
+        ],
+        "caption": "The hood and its air tube, patent drawing, 1914"
+      }
+    },
+    {
+      "id": "survivors",
+      "text": "They came back up carrying survivors.",
+      "visual": {
+        "kind": "card",
+        "image": "rescue",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Cleveland newspaper, July 1916",
+        "clipping": true
+      }
+    },
+    {
+      "id": "denied",
+      "text": "But he was denied the credit and the reward the other rescuers got.",
+      "visual": {
+        "kind": "title",
+        "title": "No reward",
+        "sub": "and his name left out of the news"
+      },
+      "section": "cost"
+    },
+    {
+      "id": "racism",
+      "text": "Racism had already hurt his business. To sell his hood, he hired a white man to act as the salesman.",
+      "visual": {
+        "kind": "card",
+        "image": "hood2",
+        "crop": [
+          0.1,
+          0.05,
+          0.9,
+          0.75
+        ],
+        "caption": "US Patent 1,113,675, sheet 2"
+      }
+    },
+    {
+      "id": "crash",
+      "text": "Later, after seeing a crash at an intersection, he patented a new traffic signal.",
+      "visual": {
+        "kind": "card",
+        "image": "signal",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          0.75
+        ],
+        "caption": "US Patent 1,475,024, 1923",
+        "clipping": true
+      }
+    },
+    {
+      "id": "ge",
+      "text": "General Electric bought it for 40,000 dollars.",
+      "visual": {
+        "kind": "title",
+        "title": "$40,000",
+        "sub": "paid by General Electric"
+      },
+      "overlays": {
+        "stamp": "Sold"
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "He walked into the dark so others could walk out.",
+      "visual": {
+        "kind": "card",
+        "image": "portrait",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Garrett A. Morgan, 1877 – 1963"
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "sources": {
+    "ECH": {
+      "name": "Encyclopedia of Cleveland History (Case Western Reserve University): Waterworks Tunnel Disasters",
+      "url": "https://case.edu/ech/articles/w/waterworks-tunnel-disasters"
+    },
+    "BRIT": {
+      "name": "Encyclopaedia Britannica: Garrett Morgan",
+      "url": "https://www.britannica.com/biography/Garrett-Morgan"
+    },
+    "USPTO": {
+      "name": "US Patent and Trademark Office: Of courage and caution (Garrett Morgan)",
+      "url": "https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/courage-and-caution"
+    },
+    "HIST": {
+      "name": "History.com: Garrett Morgan patents three-position traffic signal",
+      "url": "https://www.history.com/this-day-in-history/november-20/garrett-morgan-patents-three-position-traffic-signal"
+    },
+    "PAT": {
+      "name": "US Patents 1,113,675 (1914) and 1,475,024 (1923)",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/1475024"
+    }
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "Morgan entered the gas-filled Cleveland waterworks tunnel in July 1916, wearing his safety hood.",
+      "sources": [
+        "ECH",
+        "BRIT",
+        "USPTO"
+      ]
+    },
+    {
+      "beat": "name",
+      "claim": "Garrett A. Morgan, Black inventor in Cleveland, 1877-1963.",
+      "sources": [
+        "BRIT",
+        "USPTO",
+        "ECH"
+      ]
+    },
+    {
+      "beat": "blast",
+      "claim": "On 24 July 1916 an explosion hit a waterworks tunnel being dug under Lake Erie; gas filled it.",
+      "sources": [
+        "ECH",
+        "BRIT",
+        "USPTO"
+      ]
+    },
+    {
+      "beat": "trapped",
+      "claim": "Workers were trapped; would-be rescuers were overcome by the gas and died.",
+      "sources": [
+        "ECH",
+        "USPTO"
+      ],
+      "note": "ECH: 11 workers + 10 rescuers died; USPTO: 20 lives."
+    },
+    {
+      "beat": "call",
+      "claim": "The Cleveland police called Morgan.",
+      "sources": [
+        "ECH",
+        "USPTO"
+      ]
+    },
+    {
+      "beat": "patent",
+      "claim": "He had patented a breathing device / safety hood in 1914.",
+      "sources": [
+        "BRIT",
+        "USPTO",
+        "PAT"
+      ]
+    },
+    {
+      "beat": "down",
+      "claim": "He and his brother Frank (with others) entered the tunnel wearing the hoods.",
+      "sources": [
+        "ECH",
+        "USPTO"
+      ]
+    },
+    {
+      "beat": "survivors",
+      "claim": "They brought out survivors.",
+      "sources": [
+        "ECH",
+        "USPTO",
+        "BRIT"
+      ],
+      "note": "Count differs: 2 rescued + 4 bodies (ECH), 8 survivors (USPTO, BRIT). Script gives no number."
+    },
+    {
+      "beat": "denied",
+      "claim": "He was denied the money other rescuers received, and his role was left out of national news reports.",
+      "sources": [
+        "USPTO",
+        "BRIT"
+      ]
+    },
+    {
+      "beat": "racism",
+      "claim": "Racism hurt his hood sales; he hired a white man / white actors as salesmen.",
+      "sources": [
+        "BRIT",
+        "USPTO"
+      ]
+    },
+    {
+      "beat": "crash",
+      "claim": "After witnessing a collision at an intersection, he patented a traffic signal (US 1,475,024, 20 Nov 1923).",
+      "sources": [
+        "USPTO",
+        "BRIT",
+        "HIST",
+        "PAT"
+      ]
+    },
+    {
+      "beat": "ge",
+      "claim": "General Electric bought the rights for $40,000.",
+      "sources": [
+        "BRIT",
+        "USPTO",
+        "HIST"
+      ]
+    }
+  ],
+  "notUsed": [
+    "'He invented the traffic light': false; he patented an improved three-position signal. Not claimed.",
+    "Disguise as a Native American assistant ('Big Chief Mason' / 'George Mason'): USPTO only among checked sources; not used.",
+    "Exact number rescued (2 vs 8): sources differ; not used."
+  ]
+}

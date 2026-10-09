@@ -1,0 +1,47 @@
+{
+  "portrait": {
+    "title": "File:Morgan5.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "2011-12-08",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Morgan5.jpg",
+    "width": 294,
+    "height": 365
+  },
+  "rescue": {
+    "title": "File:Morgan rescue.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1917",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Morgan_rescue.jpg",
+    "width": 500,
+    "height": 377
+  },
+  "hood1": {
+    "title": "File:US1113675-drawings-page-1.png",
+    "artist": "Garrett Morgan",
+    "date": "2023-09-13",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:US1113675-drawings-page-1.png",
+    "width": 1920,
+    "height": 2820
+  },
+  "hood2": {
+    "title": "File:US1113675-drawings-page-2.png",
+    "artist": "Garrett Morgan",
+    "date": "2023-09-13",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:US1113675-drawings-page-2.png",
+    "width": 1920,
+    "height": 2820
+  },
+  "signal": {
+    "title": "US Patent 1,475,024, Traffic Signal, G. A. Morgan, Nov. 20, 1923 (drawing sheet 1)",
+    "artist": "Garrett A. Morgan; United States Patent Office",
+    "date": "1923-11-20",
+    "license": "Public domain (US patent drawing, 1923)",
+    "source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/1475024",
+    "width": 1920,
+    "height": 2850
+  }
+}

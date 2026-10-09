@@ -1,0 +1,892 @@
+{
+ "fps": 30,
+ "durationInFrames": 1683,
+ "voice": "am_michael",
+ "engine": "kokoro-onnx v1.0",
+ "words": 154,
+ "wpm": 164.7,
+ "beats": [
+  {
+   "id": "hook",
+   "words": [
+    {
+     "text": "He",
+     "start": 0.0,
+     "end": 0.238
+    },
+    {
+     "text": "walked",
+     "start": 0.238,
+     "end": 0.653
+    },
+    {
+     "text": "into",
+     "start": 0.653,
+     "end": 1.067
+    },
+    {
+     "text": "deadly",
+     "start": 1.067,
+     "end": 1.482
+    },
+    {
+     "text": "gas.",
+     "start": 1.482,
+     "end": 1.72
+    },
+    {
+     "text": "On",
+     "start": 1.72,
+     "end": 1.958
+    },
+    {
+     "text": "purpose.",
+     "start": 1.958,
+     "end": 2.373
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 83
+  },
+  {
+   "id": "name",
+   "words": [
+    {
+     "text": "His",
+     "start": 2.873,
+     "end": 3.127
+    },
+    {
+     "text": "name",
+     "start": 3.127,
+     "end": 3.38
+    },
+    {
+     "text": "was",
+     "start": 3.38,
+     "end": 3.634
+    },
+    {
+     "text": "Garrett",
+     "start": 3.634,
+     "end": 4.076
+    },
+    {
+     "text": "Morgan,",
+     "start": 4.076,
+     "end": 4.517
+    },
+    {
+     "text": "a",
+     "start": 4.517,
+     "end": 4.771
+    },
+    {
+     "text": "Black",
+     "start": 4.771,
+     "end": 5.024
+    },
+    {
+     "text": "inventor",
+     "start": 5.024,
+     "end": 5.654
+    },
+    {
+     "text": "in",
+     "start": 5.654,
+     "end": 5.908
+    },
+    {
+     "text": "Cleveland.",
+     "start": 5.908,
+     "end": 6.537
+    }
+   ],
+   "cues": {},
+   "startFrame": 83,
+   "endFrame": 208
+  },
+  {
+   "id": "blast",
+   "words": [
+    {
+     "text": "In",
+     "start": 7.037,
+     "end": 7.32
+    },
+    {
+     "text": "July",
+     "start": 7.32,
+     "end": 7.813
+    },
+    {
+     "text": "1916,",
+     "start": 7.813,
+     "end": 8.726
+    },
+    {
+     "text": "a",
+     "start": 8.726,
+     "end": 9.01
+    },
+    {
+     "text": "tunnel",
+     "start": 9.01,
+     "end": 9.503
+    },
+    {
+     "text": "being",
+     "start": 9.503,
+     "end": 9.786
+    },
+    {
+     "text": "dug",
+     "start": 9.786,
+     "end": 10.069
+    },
+    {
+     "text": "under",
+     "start": 10.069,
+     "end": 10.562
+    },
+    {
+     "text": "Lake",
+     "start": 10.562,
+     "end": 10.846
+    },
+    {
+     "text": "Erie",
+     "start": 10.846,
+     "end": 11.129
+    },
+    {
+     "text": "exploded,",
+     "start": 11.129,
+     "end": 11.832
+    },
+    {
+     "text": "and",
+     "start": 11.832,
+     "end": 12.115
+    },
+    {
+     "text": "gas",
+     "start": 12.115,
+     "end": 12.399
+    },
+    {
+     "text": "filled",
+     "start": 12.399,
+     "end": 12.892
+    },
+    {
+     "text": "it.",
+     "start": 12.892,
+     "end": 13.175
+    }
+   ],
+   "cues": {},
+   "startFrame": 208,
+   "endFrame": 406
+  },
+  {
+   "id": "trapped",
+   "words": [
+    {
+     "text": "Men",
+     "start": 13.625,
+     "end": 13.876
+    },
+    {
+     "text": "were",
+     "start": 13.876,
+     "end": 14.128
+    },
+    {
+     "text": "trapped",
+     "start": 14.128,
+     "end": 14.565
+    },
+    {
+     "text": "inside.",
+     "start": 14.565,
+     "end": 15.003
+    },
+    {
+     "text": "Rescuers",
+     "start": 15.003,
+     "end": 15.441
+    },
+    {
+     "text": "went",
+     "start": 15.441,
+     "end": 15.692
+    },
+    {
+     "text": "in,",
+     "start": 15.692,
+     "end": 15.943
+    },
+    {
+     "text": "and",
+     "start": 15.943,
+     "end": 16.195
+    },
+    {
+     "text": "the",
+     "start": 16.195,
+     "end": 16.446
+    },
+    {
+     "text": "gas",
+     "start": 16.446,
+     "end": 16.697
+    },
+    {
+     "text": "killed",
+     "start": 16.697,
+     "end": 17.135
+    },
+    {
+     "text": "them",
+     "start": 17.135,
+     "end": 17.386
+    },
+    {
+     "text": "too.",
+     "start": 17.386,
+     "end": 17.638
+    }
+   ],
+   "cues": {},
+   "startFrame": 406,
+   "endFrame": 540
+  },
+  {
+   "id": "call",
+   "words": [
+    {
+     "text": "So",
+     "start": 18.088,
+     "end": 18.298
+    },
+    {
+     "text": "the",
+     "start": 18.298,
+     "end": 18.509
+    },
+    {
+     "text": "police",
+     "start": 18.509,
+     "end": 18.875
+    },
+    {
+     "text": "called",
+     "start": 18.875,
+     "end": 19.242
+    },
+    {
+     "text": "Morgan.",
+     "start": 19.242,
+     "end": 19.608
+    }
+   ],
+   "cues": {},
+   "startFrame": 540,
+   "endFrame": 599
+  },
+  {
+   "id": "patent",
+   "words": [
+    {
+     "text": "Two",
+     "start": 20.058,
+     "end": 20.28
+    },
+    {
+     "text": "years",
+     "start": 20.28,
+     "end": 20.501
+    },
+    {
+     "text": "earlier,",
+     "start": 20.501,
+     "end": 20.887
+    },
+    {
+     "text": "he",
+     "start": 20.887,
+     "end": 21.109
+    },
+    {
+     "text": "had",
+     "start": 21.109,
+     "end": 21.331
+    },
+    {
+     "text": "patented",
+     "start": 21.331,
+     "end": 21.881
+    },
+    {
+     "text": "a",
+     "start": 21.881,
+     "end": 22.102
+    },
+    {
+     "text": "breathing",
+     "start": 22.102,
+     "end": 22.488
+    },
+    {
+     "text": "hood.",
+     "start": 22.488,
+     "end": 22.71
+    }
+   ],
+   "cues": {},
+   "startFrame": 599,
+   "endFrame": 692
+  },
+  {
+   "id": "down",
+   "words": [
+    {
+     "text": "He",
+     "start": 23.16,
+     "end": 23.384
+    },
+    {
+     "text": "and",
+     "start": 23.384,
+     "end": 23.607
+    },
+    {
+     "text": "his",
+     "start": 23.607,
+     "end": 23.831
+    },
+    {
+     "text": "brother",
+     "start": 23.831,
+     "end": 24.22
+    },
+    {
+     "text": "Frank",
+     "start": 24.22,
+     "end": 24.443
+    },
+    {
+     "text": "put",
+     "start": 24.443,
+     "end": 24.667
+    },
+    {
+     "text": "on",
+     "start": 24.667,
+     "end": 24.89
+    },
+    {
+     "text": "the",
+     "start": 24.89,
+     "end": 25.114
+    },
+    {
+     "text": "hoods",
+     "start": 25.114,
+     "end": 25.338
+    },
+    {
+     "text": "and",
+     "start": 25.338,
+     "end": 25.561
+    },
+    {
+     "text": "went",
+     "start": 25.561,
+     "end": 25.785
+    },
+    {
+     "text": "down",
+     "start": 25.785,
+     "end": 26.008
+    },
+    {
+     "text": "into",
+     "start": 26.008,
+     "end": 26.397
+    },
+    {
+     "text": "the",
+     "start": 26.397,
+     "end": 26.621
+    },
+    {
+     "text": "gas.",
+     "start": 26.621,
+     "end": 26.844
+    }
+   ],
+   "cues": {},
+   "startFrame": 692,
+   "endFrame": 816
+  },
+  {
+   "id": "survivors",
+   "words": [
+    {
+     "text": "They",
+     "start": 27.294,
+     "end": 27.536
+    },
+    {
+     "text": "came",
+     "start": 27.536,
+     "end": 27.777
+    },
+    {
+     "text": "back",
+     "start": 27.777,
+     "end": 28.019
+    },
+    {
+     "text": "up",
+     "start": 28.019,
+     "end": 28.26
+    },
+    {
+     "text": "carrying",
+     "start": 28.26,
+     "end": 28.681
+    },
+    {
+     "text": "survivors.",
+     "start": 28.681,
+     "end": 29.28
+    }
+   ],
+   "cues": {},
+   "startFrame": 816,
+   "endFrame": 890
+  },
+  {
+   "id": "denied",
+   "words": [
+    {
+     "text": "But",
+     "start": 29.78,
+     "end": 30.003
+    },
+    {
+     "text": "he",
+     "start": 30.003,
+     "end": 30.226
+    },
+    {
+     "text": "was",
+     "start": 30.226,
+     "end": 30.449
+    },
+    {
+     "text": "denied",
+     "start": 30.449,
+     "end": 30.837
+    },
+    {
+     "text": "the",
+     "start": 30.837,
+     "end": 31.06
+    },
+    {
+     "text": "credit",
+     "start": 31.06,
+     "end": 31.447
+    },
+    {
+     "text": "and",
+     "start": 31.447,
+     "end": 31.67
+    },
+    {
+     "text": "the",
+     "start": 31.67,
+     "end": 31.893
+    },
+    {
+     "text": "reward",
+     "start": 31.893,
+     "end": 32.281
+    },
+    {
+     "text": "the",
+     "start": 32.281,
+     "end": 32.504
+    },
+    {
+     "text": "other",
+     "start": 32.504,
+     "end": 32.892
+    },
+    {
+     "text": "rescuers",
+     "start": 32.892,
+     "end": 33.28
+    },
+    {
+     "text": "got.",
+     "start": 33.28,
+     "end": 33.503
+    }
+   ],
+   "cues": {},
+   "startFrame": 890,
+   "endFrame": 1016
+  },
+  {
+   "id": "racism",
+   "words": [
+    {
+     "text": "Racism",
+     "start": 33.953,
+     "end": 34.373
+    },
+    {
+     "text": "had",
+     "start": 34.373,
+     "end": 34.615
+    },
+    {
+     "text": "already",
+     "start": 34.615,
+     "end": 35.214
+    },
+    {
+     "text": "hurt",
+     "start": 35.214,
+     "end": 35.456
+    },
+    {
+     "text": "his",
+     "start": 35.456,
+     "end": 35.697
+    },
+    {
+     "text": "business.",
+     "start": 35.697,
+     "end": 36.297
+    },
+    {
+     "text": "To",
+     "start": 36.297,
+     "end": 36.538
+    },
+    {
+     "text": "sell",
+     "start": 36.538,
+     "end": 36.78
+    },
+    {
+     "text": "his",
+     "start": 36.78,
+     "end": 37.021
+    },
+    {
+     "text": "hood,",
+     "start": 37.021,
+     "end": 37.263
+    },
+    {
+     "text": "he",
+     "start": 37.263,
+     "end": 37.504
+    },
+    {
+     "text": "hired",
+     "start": 37.504,
+     "end": 37.925
+    },
+    {
+     "text": "a",
+     "start": 37.925,
+     "end": 38.166
+    },
+    {
+     "text": "white",
+     "start": 38.166,
+     "end": 38.408
+    },
+    {
+     "text": "man",
+     "start": 38.408,
+     "end": 38.649
+    },
+    {
+     "text": "to",
+     "start": 38.649,
+     "end": 38.891
+    },
+    {
+     "text": "act",
+     "start": 38.891,
+     "end": 39.132
+    },
+    {
+     "text": "as",
+     "start": 39.132,
+     "end": 39.374
+    },
+    {
+     "text": "the",
+     "start": 39.374,
+     "end": 39.615
+    },
+    {
+     "text": "salesman.",
+     "start": 39.615,
+     "end": 40.215
+    }
+   ],
+   "cues": {},
+   "startFrame": 1016,
+   "endFrame": 1217
+  },
+  {
+   "id": "crash",
+   "words": [
+    {
+     "text": "Later,",
+     "start": 40.665,
+     "end": 41.061
+    },
+    {
+     "text": "after",
+     "start": 41.061,
+     "end": 41.457
+    },
+    {
+     "text": "seeing",
+     "start": 41.457,
+     "end": 41.684
+    },
+    {
+     "text": "a",
+     "start": 41.684,
+     "end": 41.912
+    },
+    {
+     "text": "crash",
+     "start": 41.912,
+     "end": 42.139
+    },
+    {
+     "text": "at",
+     "start": 42.139,
+     "end": 42.366
+    },
+    {
+     "text": "an",
+     "start": 42.366,
+     "end": 42.594
+    },
+    {
+     "text": "intersection,",
+     "start": 42.594,
+     "end": 43.327
+    },
+    {
+     "text": "he",
+     "start": 43.327,
+     "end": 43.554
+    },
+    {
+     "text": "patented",
+     "start": 43.554,
+     "end": 44.118
+    },
+    {
+     "text": "a",
+     "start": 44.118,
+     "end": 44.346
+    },
+    {
+     "text": "new",
+     "start": 44.346,
+     "end": 44.573
+    },
+    {
+     "text": "traffic",
+     "start": 44.573,
+     "end": 44.969
+    },
+    {
+     "text": "signal.",
+     "start": 44.969,
+     "end": 45.365
+    }
+   ],
+   "cues": {},
+   "startFrame": 1217,
+   "endFrame": 1371
+  },
+  {
+   "id": "ge",
+   "words": [
+    {
+     "text": "General",
+     "start": 45.815,
+     "end": 46.376
+    },
+    {
+     "text": "Electric",
+     "start": 46.376,
+     "end": 46.937
+    },
+    {
+     "text": "bought",
+     "start": 46.937,
+     "end": 47.163
+    },
+    {
+     "text": "it",
+     "start": 47.163,
+     "end": 47.389
+    },
+    {
+     "text": "for",
+     "start": 47.389,
+     "end": 47.615
+    },
+    {
+     "text": "40,000",
+     "start": 47.615,
+     "end": 48.51
+    },
+    {
+     "text": "dollars.",
+     "start": 48.51,
+     "end": 48.904
+    }
+   ],
+   "cues": {},
+   "startFrame": 1371,
+   "endFrame": 1479
+  },
+  {
+   "id": "legacy",
+   "words": [
+    {
+     "text": "He",
+     "start": 49.404,
+     "end": 49.595
+    },
+    {
+     "text": "walked",
+     "start": 49.595,
+     "end": 49.928
+    },
+    {
+     "text": "into",
+     "start": 49.928,
+     "end": 50.26
+    },
+    {
+     "text": "the",
+     "start": 50.26,
+     "end": 50.451
+    },
+    {
+     "text": "dark",
+     "start": 50.451,
+     "end": 50.642
+    },
+    {
+     "text": "so",
+     "start": 50.642,
+     "end": 50.833
+    },
+    {
+     "text": "others",
+     "start": 50.833,
+     "end": 51.166
+    },
+    {
+     "text": "could",
+     "start": 51.166,
+     "end": 51.357
+    },
+    {
+     "text": "walk",
+     "start": 51.357,
+     "end": 51.548
+    },
+    {
+     "text": "out.",
+     "start": 51.548,
+     "end": 51.739
+    }
+   ],
+   "cues": {},
+   "startFrame": 1479,
+   "endFrame": 1564
+  },
+  {
+   "id": "cta",
+   "words": [
+    {
+     "text": "Follow",
+     "start": 52.239,
+     "end": 52.598
+    },
+    {
+     "text": "The",
+     "start": 52.598,
+     "end": 52.804
+    },
+    {
+     "text": "Black",
+     "start": 52.804,
+     "end": 53.011
+    },
+    {
+     "text": "History",
+     "start": 53.011,
+     "end": 53.522
+    },
+    {
+     "text": "Room",
+     "start": 53.522,
+     "end": 53.729
+    },
+    {
+     "text": "for",
+     "start": 53.729,
+     "end": 53.935
+    },
+    {
+     "text": "one",
+     "start": 53.935,
+     "end": 54.141
+    },
+    {
+     "text": "story",
+     "start": 54.141,
+     "end": 54.5
+    },
+    {
+     "text": "a",
+     "start": 54.5,
+     "end": 54.707
+    },
+    {
+     "text": "day.",
+     "start": 54.707,
+     "end": 54.913
+    }
+   ],
+   "cues": {},
+   "startFrame": 1564,
+   "endFrame": 1683
+  }
+ ]
+}
