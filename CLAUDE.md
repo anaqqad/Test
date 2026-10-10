@@ -10,6 +10,8 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
   with overlapping contours removed (Blender's text fill drops letters on fonts with overlaps).
 - `blender/globe_tex.mjs`: regenerates the textures for another empire (edit `ring`).
 - `blender/install_vps.sh`: Ubuntu/Debian install of Blender 4.2 LTS + Rhubarb Lip Sync.
+- `video/install_wan22.ps1`: Windows install of ComfyUI portable + Wan 2.2 14B image-to-video (fp8). Not yet run on
+  the PC: run it, start `run_nvidia_gpu.bat`, test the Wan 2.2 I2V template, note timings in `video/README.md`.
 
 ## Running on this PC (Windows)
 1. Install Blender 4.2 LTS from blender.org and make sure `blender` is on PATH (or use the full path to
