@@ -13,9 +13,9 @@ He arrested his own son.
 
 Bass Reeves was born into slavery in Arkansas in 1838. During the Civil War he escaped and found refuge in Indian Territory, the land that is now Oklahoma.
 
-In 1875 he was commissioned as a deputy U.S. marshal for Judge Isaac Parker's federal court at Fort Smith, Arkansas. He was one of the first Black federal lawmen west of the Mississippi River. His beat was Indian Territory, a vast, lawless region where outlaws went to hide.
+In 1875 he was commissioned as a deputy U.S. marshal for Judge Isaac Parker's federal court at Fort Smith, Arkansas. He was one of the first Black federal lawmen west of the Mississippi River.
 
-Reeves had grown up enslaved and never learned to read. So he had his warrants read to him and memorized them, every name and every charge. By 1901, a newspaper reported that he had arrested more than 3,000 men and women for breaking federal laws. He wore the badge for 32 years.
+Reeves had grown up enslaved and never learned to read. So he memorized his warrants and writs instead. By 1901, a newspaper reported that he had arrested more than 3,000 men and women for breaking federal laws. He wore the badge for 32 years.
 
 Then came the hardest warrant of his life. His own son, Bennie, was charged with murdering his wife. Bass Reeves took the warrant himself and brought his son in. Bennie was convicted and sent to the federal prison at Leavenworth.
 
