@@ -1,0 +1,945 @@
+{
+ "fps": 30,
+ "durationInFrames": 2001,
+ "voice": "am_michael",
+ "engine": "kokoro-onnx v1.0",
+ "words": 163,
+ "wpm": 146.7,
+ "beats": [
+  {
+   "id": "hook",
+   "words": [
+    {
+     "text": "World's",
+     "start": 0.0,
+     "end": 0.259
+    },
+    {
+     "text": "fastest",
+     "start": 0.259,
+     "end": 0.711
+    },
+    {
+     "text": "cyclist,",
+     "start": 0.711,
+     "end": 1.162
+    },
+    {
+     "text": "banned",
+     "start": 1.162,
+     "end": 1.614
+    },
+    {
+     "text": "for",
+     "start": 1.614,
+     "end": 1.873
+    },
+    {
+     "text": "being",
+     "start": 1.873,
+     "end": 2.132
+    },
+    {
+     "text": "Black.",
+     "start": 2.132,
+     "end": 2.392
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 84
+  },
+  {
+   "id": "name",
+   "words": [
+    {
+     "text": "His",
+     "start": 2.892,
+     "end": 3.237
+    },
+    {
+     "text": "name",
+     "start": 3.237,
+     "end": 3.581
+    },
+    {
+     "text": "was",
+     "start": 3.581,
+     "end": 3.926
+    },
+    {
+     "text": "Marshall",
+     "start": 3.926,
+     "end": 4.526
+    },
+    {
+     "text": "Taylor,",
+     "start": 4.526,
+     "end": 5.125
+    },
+    {
+     "text": "born",
+     "start": 5.125,
+     "end": 5.47
+    },
+    {
+     "text": "in",
+     "start": 5.47,
+     "end": 5.815
+    },
+    {
+     "text": "Indianapolis",
+     "start": 5.815,
+     "end": 7.18
+    },
+    {
+     "text": "in",
+     "start": 7.18,
+     "end": 7.525
+    },
+    {
+     "text": "1878.",
+     "start": 7.525,
+     "end": 8.635
+    }
+   ],
+   "cues": {},
+   "startFrame": 84,
+   "endFrame": 270
+  },
+  {
+   "id": "major",
+   "words": [
+    {
+     "text": "As",
+     "start": 9.085,
+     "end": 9.342
+    },
+    {
+     "text": "a",
+     "start": 9.342,
+     "end": 9.6
+    },
+    {
+     "text": "boy,",
+     "start": 9.6,
+     "end": 9.857
+    },
+    {
+     "text": "he",
+     "start": 9.857,
+     "end": 10.115
+    },
+    {
+     "text": "did",
+     "start": 10.115,
+     "end": 10.372
+    },
+    {
+     "text": "bike",
+     "start": 10.372,
+     "end": 10.63
+    },
+    {
+     "text": "tricks",
+     "start": 10.63,
+     "end": 10.887
+    },
+    {
+     "text": "in",
+     "start": 10.887,
+     "end": 11.145
+    },
+    {
+     "text": "a",
+     "start": 11.145,
+     "end": 11.402
+    },
+    {
+     "text": "soldier's",
+     "start": 11.402,
+     "end": 11.851
+    },
+    {
+     "text": "uniform.",
+     "start": 11.851,
+     "end": 12.49
+    },
+    {
+     "text": "So",
+     "start": 12.49,
+     "end": 12.747
+    },
+    {
+     "text": "people",
+     "start": 12.747,
+     "end": 13.005
+    },
+    {
+     "text": "called",
+     "start": 13.005,
+     "end": 13.453
+    },
+    {
+     "text": "him",
+     "start": 13.453,
+     "end": 13.71
+    },
+    {
+     "text": "Major.",
+     "start": 13.71,
+     "end": 14.159
+    }
+   ],
+   "cues": {},
+   "startFrame": 270,
+   "endFrame": 437
+  },
+  {
+   "id": "worcester",
+   "words": [
+    {
+     "text": "As",
+     "start": 14.658,
+     "end": 14.89
+    },
+    {
+     "text": "a",
+     "start": 14.89,
+     "end": 15.123
+    },
+    {
+     "text": "teenager,",
+     "start": 15.123,
+     "end": 15.699
+    },
+    {
+     "text": "he",
+     "start": 15.699,
+     "end": 15.932
+    },
+    {
+     "text": "moved",
+     "start": 15.932,
+     "end": 16.336
+    },
+    {
+     "text": "to",
+     "start": 16.336,
+     "end": 16.569
+    },
+    {
+     "text": "Worcester,",
+     "start": 16.569,
+     "end": 17.145
+    },
+    {
+     "text": "Massachusetts,",
+     "start": 17.145,
+     "end": 17.894
+    },
+    {
+     "text": "hoping",
+     "start": 17.894,
+     "end": 18.299
+    },
+    {
+     "text": "for",
+     "start": 18.299,
+     "end": 18.531
+    },
+    {
+     "text": "fairer",
+     "start": 18.531,
+     "end": 18.936
+    },
+    {
+     "text": "treatment.",
+     "start": 18.936,
+     "end": 19.34
+    }
+   ],
+   "cues": {},
+   "startFrame": 437,
+   "endFrame": 591
+  },
+  {
+   "id": "barred",
+   "words": [
+    {
+     "text": "It",
+     "start": 19.79,
+     "end": 20.035
+    },
+    {
+     "text": "didn't",
+     "start": 20.035,
+     "end": 20.279
+    },
+    {
+     "text": "come.",
+     "start": 20.279,
+     "end": 20.524
+    },
+    {
+     "text": "Many",
+     "start": 20.524,
+     "end": 20.949
+    },
+    {
+     "text": "races",
+     "start": 20.949,
+     "end": 21.375
+    },
+    {
+     "text": "barred",
+     "start": 21.375,
+     "end": 21.8
+    },
+    {
+     "text": "him.",
+     "start": 21.8,
+     "end": 22.045
+    }
+   ],
+   "cues": {},
+   "startFrame": 591,
+   "endFrame": 672
+  },
+  {
+   "id": "boxed",
+   "words": [
+    {
+     "text": "When",
+     "start": 22.495,
+     "end": 22.729
+    },
+    {
+     "text": "he",
+     "start": 22.729,
+     "end": 22.963
+    },
+    {
+     "text": "did",
+     "start": 22.963,
+     "end": 23.197
+    },
+    {
+     "text": "race,",
+     "start": 23.197,
+     "end": 23.43
+    },
+    {
+     "text": "rivals",
+     "start": 23.43,
+     "end": 23.837
+    },
+    {
+     "text": "boxed",
+     "start": 23.837,
+     "end": 24.244
+    },
+    {
+     "text": "him",
+     "start": 24.244,
+     "end": 24.478
+    },
+    {
+     "text": "in.",
+     "start": 24.478,
+     "end": 24.712
+    }
+   ],
+   "cues": {},
+   "startFrame": 672,
+   "endFrame": 752
+  },
+  {
+   "id": "choked",
+   "words": [
+    {
+     "text": "In",
+     "start": 25.163,
+     "end": 25.493
+    },
+    {
+     "text": "1897,",
+     "start": 25.493,
+     "end": 26.557
+    },
+    {
+     "text": "a",
+     "start": 26.557,
+     "end": 26.887
+    },
+    {
+     "text": "rival",
+     "start": 26.887,
+     "end": 27.462
+    },
+    {
+     "text": "choked",
+     "start": 27.462,
+     "end": 28.037
+    },
+    {
+     "text": "him",
+     "start": 28.037,
+     "end": 28.367
+    },
+    {
+     "text": "after",
+     "start": 28.367,
+     "end": 28.942
+    },
+    {
+     "text": "a",
+     "start": 28.942,
+     "end": 29.272
+    },
+    {
+     "text": "race.",
+     "start": 29.272,
+     "end": 29.603
+    }
+   ],
+   "cues": {},
+   "startFrame": 752,
+   "endFrame": 899
+  },
+  {
+   "id": "kept",
+   "words": [
+    {
+     "text": "He",
+     "start": 30.052,
+     "end": 30.306
+    },
+    {
+     "text": "kept",
+     "start": 30.306,
+     "end": 30.559
+    },
+    {
+     "text": "racing.",
+     "start": 30.559,
+     "end": 31.001
+    },
+    {
+     "text": "And",
+     "start": 31.001,
+     "end": 31.255
+    },
+    {
+     "text": "winning.",
+     "start": 31.255,
+     "end": 31.697
+    }
+   ],
+   "cues": {},
+   "startFrame": 899,
+   "endFrame": 961
+  },
+  {
+   "id": "champion",
+   "words": [
+    {
+     "text": "In",
+     "start": 32.147,
+     "end": 32.491
+    },
+    {
+     "text": "August",
+     "start": 32.491,
+     "end": 33.09
+    },
+    {
+     "text": "1899,",
+     "start": 33.09,
+     "end": 34.198
+    },
+    {
+     "text": "in",
+     "start": 34.198,
+     "end": 34.542
+    },
+    {
+     "text": "Montreal,",
+     "start": 34.542,
+     "end": 35.141
+    },
+    {
+     "text": "he",
+     "start": 35.141,
+     "end": 35.485
+    },
+    {
+     "text": "won",
+     "start": 35.485,
+     "end": 35.829
+    },
+    {
+     "text": "the",
+     "start": 35.829,
+     "end": 36.173
+    },
+    {
+     "text": "world",
+     "start": 36.173,
+     "end": 36.517
+    },
+    {
+     "text": "championship",
+     "start": 36.517,
+     "end": 37.37
+    },
+    {
+     "text": "in",
+     "start": 37.37,
+     "end": 37.714
+    },
+    {
+     "text": "the",
+     "start": 37.714,
+     "end": 38.058
+    },
+    {
+     "text": "one-mile",
+     "start": 38.058,
+     "end": 38.912
+    },
+    {
+     "text": "sprint.",
+     "start": 38.912,
+     "end": 39.256
+    }
+   ],
+   "cues": {},
+   "startFrame": 961,
+   "endFrame": 1188
+  },
+  {
+   "id": "first",
+   "words": [
+    {
+     "text": "He",
+     "start": 39.706,
+     "end": 39.911
+    },
+    {
+     "text": "was",
+     "start": 39.911,
+     "end": 40.115
+    },
+    {
+     "text": "the",
+     "start": 40.115,
+     "end": 40.32
+    },
+    {
+     "text": "first",
+     "start": 40.32,
+     "end": 40.525
+    },
+    {
+     "text": "African",
+     "start": 40.525,
+     "end": 41.033
+    },
+    {
+     "text": "American",
+     "start": 41.033,
+     "end": 41.692
+    },
+    {
+     "text": "to",
+     "start": 41.692,
+     "end": 41.897
+    },
+    {
+     "text": "win",
+     "start": 41.897,
+     "end": 42.102
+    },
+    {
+     "text": "a",
+     "start": 42.102,
+     "end": 42.306
+    },
+    {
+     "text": "world",
+     "start": 42.306,
+     "end": 42.511
+    },
+    {
+     "text": "championship",
+     "start": 42.511,
+     "end": 43.019
+    },
+    {
+     "text": "in",
+     "start": 43.019,
+     "end": 43.224
+    },
+    {
+     "text": "any",
+     "start": 43.224,
+     "end": 43.58
+    },
+    {
+     "text": "sport.",
+     "start": 43.58,
+     "end": 43.785
+    }
+   ],
+   "cues": {},
+   "startFrame": 1188,
+   "endFrame": 1324
+  },
+  {
+   "id": "europe",
+   "words": [
+    {
+     "text": "Then",
+     "start": 44.235,
+     "end": 44.469
+    },
+    {
+     "text": "he",
+     "start": 44.469,
+     "end": 44.702
+    },
+    {
+     "text": "raced",
+     "start": 44.702,
+     "end": 45.109
+    },
+    {
+     "text": "across",
+     "start": 45.109,
+     "end": 45.515
+    },
+    {
+     "text": "Europe,",
+     "start": 45.515,
+     "end": 45.922
+    },
+    {
+     "text": "and",
+     "start": 45.922,
+     "end": 46.155
+    },
+    {
+     "text": "beat",
+     "start": 46.155,
+     "end": 46.389
+    },
+    {
+     "text": "the",
+     "start": 46.389,
+     "end": 46.623
+    },
+    {
+     "text": "best",
+     "start": 46.623,
+     "end": 46.856
+    },
+    {
+     "text": "riders",
+     "start": 46.856,
+     "end": 47.263
+    },
+    {
+     "text": "there.",
+     "start": 47.263,
+     "end": 47.496
+    }
+   ],
+   "cues": {},
+   "startFrame": 1324,
+   "endFrame": 1437
+  },
+  {
+   "id": "death",
+   "words": [
+    {
+     "text": "But",
+     "start": 47.996,
+     "end": 48.268
+    },
+    {
+     "text": "in",
+     "start": 48.268,
+     "end": 48.539
+    },
+    {
+     "text": "1932",
+     "start": 48.539,
+     "end": 49.415
+    },
+    {
+     "text": "he",
+     "start": 49.415,
+     "end": 49.687
+    },
+    {
+     "text": "died",
+     "start": 49.687,
+     "end": 49.958
+    },
+    {
+     "text": "in",
+     "start": 49.958,
+     "end": 50.23
+    },
+    {
+     "text": "a",
+     "start": 50.23,
+     "end": 50.502
+    },
+    {
+     "text": "Chicago",
+     "start": 50.502,
+     "end": 51.176
+    },
+    {
+     "text": "charity",
+     "start": 51.176,
+     "end": 51.85
+    },
+    {
+     "text": "ward,",
+     "start": 51.85,
+     "end": 52.122
+    }
+   ],
+   "cues": {},
+   "startFrame": 1437,
+   "endFrame": 1570
+  },
+  {
+   "id": "grave",
+   "words": [
+    {
+     "text": "and",
+     "start": 52.442,
+     "end": 52.71
+    },
+    {
+     "text": "buried",
+     "start": 52.71,
+     "end": 53.177
+    },
+    {
+     "text": "in",
+     "start": 53.177,
+     "end": 53.446
+    },
+    {
+     "text": "an",
+     "start": 53.446,
+     "end": 53.714
+    },
+    {
+     "text": "unmarked",
+     "start": 53.714,
+     "end": 54.38
+    },
+    {
+     "text": "grave.",
+     "start": 54.38,
+     "end": 54.648
+    },
+    {
+     "text": "Sixteen",
+     "start": 54.648,
+     "end": 55.115
+    },
+    {
+     "text": "years",
+     "start": 55.115,
+     "end": 55.384
+    },
+    {
+     "text": "passed",
+     "start": 55.384,
+     "end": 55.851
+    },
+    {
+     "text": "before",
+     "start": 55.851,
+     "end": 56.318
+    },
+    {
+     "text": "cyclists",
+     "start": 56.318,
+     "end": 56.785
+    },
+    {
+     "text": "gave",
+     "start": 56.785,
+     "end": 57.053
+    },
+    {
+     "text": "him",
+     "start": 57.053,
+     "end": 57.322
+    },
+    {
+     "text": "a",
+     "start": 57.322,
+     "end": 57.59
+    },
+    {
+     "text": "proper",
+     "start": 57.59,
+     "end": 58.057
+    },
+    {
+     "text": "one.",
+     "start": 58.057,
+     "end": 58.325
+    }
+   ],
+   "cues": {},
+   "startFrame": 1570,
+   "endFrame": 1762
+  },
+  {
+   "id": "legacy",
+   "words": [
+    {
+     "text": "They",
+     "start": 58.825,
+     "end": 59.062
+    },
+    {
+     "text": "could",
+     "start": 59.062,
+     "end": 59.298
+    },
+    {
+     "text": "bar",
+     "start": 59.298,
+     "end": 59.535
+    },
+    {
+     "text": "him",
+     "start": 59.535,
+     "end": 59.771
+    },
+    {
+     "text": "from",
+     "start": 59.771,
+     "end": 60.008
+    },
+    {
+     "text": "the",
+     "start": 60.008,
+     "end": 60.244
+    },
+    {
+     "text": "track.",
+     "start": 60.244,
+     "end": 60.481
+    },
+    {
+     "text": "They",
+     "start": 60.481,
+     "end": 60.717
+    },
+    {
+     "text": "could",
+     "start": 60.717,
+     "end": 60.954
+    },
+    {
+     "text": "not",
+     "start": 60.954,
+     "end": 61.19
+    },
+    {
+     "text": "stop",
+     "start": 61.19,
+     "end": 61.427
+    },
+    {
+     "text": "him",
+     "start": 61.427,
+     "end": 61.663
+    },
+    {
+     "text": "from",
+     "start": 61.663,
+     "end": 61.9
+    },
+    {
+     "text": "winning.",
+     "start": 61.9,
+     "end": 62.312
+    }
+   ],
+   "cues": {},
+   "startFrame": 1762,
+   "endFrame": 1881
+  },
+  {
+   "id": "cta",
+   "words": [
+    {
+     "text": "Follow",
+     "start": 62.812,
+     "end": 63.171
+    },
+    {
+     "text": "The",
+     "start": 63.171,
+     "end": 63.377
+    },
+    {
+     "text": "Black",
+     "start": 63.377,
+     "end": 63.584
+    },
+    {
+     "text": "History",
+     "start": 63.584,
+     "end": 64.095
+    },
+    {
+     "text": "Room",
+     "start": 64.095,
+     "end": 64.302
+    },
+    {
+     "text": "for",
+     "start": 64.302,
+     "end": 64.508
+    },
+    {
+     "text": "one",
+     "start": 64.508,
+     "end": 64.714
+    },
+    {
+     "text": "story",
+     "start": 64.714,
+     "end": 65.073
+    },
+    {
+     "text": "a",
+     "start": 65.073,
+     "end": 65.28
+    },
+    {
+     "text": "day.",
+     "start": 65.28,
+     "end": 65.486
+    }
+   ],
+   "cues": {},
+   "startFrame": 1881,
+   "endFrame": 2001
+  }
+ ]
+}

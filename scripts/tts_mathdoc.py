@@ -143,7 +143,9 @@ def kokoro_beats(spec: dict, lead: float) -> tuple[np.ndarray, int, list[dict]]:
     clips = []
     sr = 24000
     for beat in spec["beats"]:
-        samples, sr = kokoro.create(beat["text"], voice=voice["voice"], speed=voice.get("speed", 1.0), lang="en-us")
+        # a beat may set its own "speed" (e.g. a faster hook so it ends within 2.5 s)
+        speed = beat.get("speed", voice.get("speed", 1.0))
+        samples, sr = kokoro.create(beat["text"], voice=voice["voice"], speed=speed, lang="en-us")
         clips.append(trim_silence(np.asarray(samples, dtype=np.float32), sr))
         print(f"  {beat['id']}: {len(clips[-1]) / sr:.2f}s")
     return join_beats(spec, [([i], c) for i, c in enumerate(clips)], sr, lead, load_whisper())

@@ -100,6 +100,7 @@ Free timing previews: Kokoro scratch (`am_michael`, speed 1.1), spec id ending i
      shot or empty sky. (QC `coverFrame` checks a face is on frame 0.)
   3. The first spoken line is the crazy part, short and direct, stated or asked as a question to the viewer.
      No invented dialogue: only real, verified quotes may be spoken as quotes.
+- Kokoro reads full stops slowly: write the hook as one clause (a comma, not a full stop) and set the hook beat's `speed` (e.g. 1.3; `tts_mathdoc.py` honours per-beat speed) until the measured hook ends by 2.5 s.
 - **Quick hook (owner, 2026-10-09):** the spoken hook is at most 8 words and ends by 2.5 s (QC `quickHook`). The Mansa Musa hook ran 7.8 s: too slow. Name and context come right after, not inside the hook.
 - End card and title cards are centred on the frame (CENTER_COL, x 162-918), not on the caption safe column,
   which looked off-centre on YouTube (owner, 2026-10-06). Captions, pins and stamps stay in the safe column.
@@ -119,4 +120,4 @@ Series: Forgotten First, Before Rosa Parks, One Photo One Story, Invented By, My
 Candidates not yet done: Claudette Colvin (2 March 1955), Garrett Morgan (1916 Lake Erie tunnel rescue),
 Henrietta Lacks (handle consent carefully), Major Taylor (1899 world cycling champion), Katherine Johnson,
 Lewis Latimer, Madam C. J. Walker (word the "first" claim carefully).
-Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: Henry "Box" Brown, Ellen and William Craft, Harriet Tubman (Combahee raid), Mansa Musa, Garrett Morgan (branch claude/black-history-reels-4pk8ts).
+Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: Henry "Box" Brown, Ellen and William Craft, Harriet Tubman (Combahee raid), Mansa Musa, Garrett Morgan, Major Taylor (branch claude/black-history-reels-4pk8ts).

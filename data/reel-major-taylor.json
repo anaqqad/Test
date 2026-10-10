@@ -1,0 +1,461 @@
+{
+  "id": "reel-major-taylor",
+  "title": "The World's Fastest Cyclist. Banned for Being Black.",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "leadInSeconds": 0.0,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3,
+    "hookBoostDb": 2
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "assets": {},
+  "sources": {
+    "LOC": {
+      "name": "Library of Congress: Champion Cyclist \"Major\" Taylor, Topics in Chronicling America",
+      "url": "https://guides.loc.gov/chronicling-america-major-taylor"
+    },
+    "ISL": {
+      "name": "Indiana State Library: The \"Fastest Bicycle Rider in the World\": Marshall Walter \"Major\" Taylor (1878-1932)",
+      "url": "https://blog.newspapers.library.in.gov/the-fastest-bicycle-rider-in-the-world-marshall-walter-major-taylor-1878-1932/"
+    },
+    "GLOBE": {
+      "name": "The Boston Globe: Cycling helped Major Taylor triumph over racism (2019)",
+      "url": "https://www.bostonglobe.com/sports/2019/05/06/cycling-helped-major-taylor-triumph-over-racism/gMhDLbj4knj2hiFUrKhIIP/story.html"
+    },
+    "NMAH": {
+      "name": "Smithsonian National Museum of American History: Marshall \"Major\" Taylor, the first African-American world champion",
+      "url": "https://americanhistory.si.edu/explore/stories/marshall-major-taylor-incredible-story-first-african-american-world-champion"
+    },
+    "SCHWINN": {
+      "name": "Schwinn: Major Taylor, Cycling's First Black Superstar",
+      "url": "https://www.schwinnbikes.com/blogs/compass/the-great-major-taylor"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "World's fastest cyclist, banned for being Black.",
+      "visual": {
+        "kind": "photo",
+        "image": "p0607",
+        "focus": [
+          0.51,
+          0.24
+        ],
+        "zoom": [
+          1.35,
+          1.42
+        ],
+        "anchor": [
+          0.46,
+          0.26
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "World's fastest cyclist, *banned for being Black.*"
+      },
+      "captions": false,
+      "speed": 1.3
+    },
+    {
+      "id": "name",
+      "text": "His name was Marshall Taylor, born in Indianapolis in 1878.",
+      "visual": {
+        "kind": "photo",
+        "image": "vn1898",
+        "focus": [
+          0.4,
+          0.45
+        ],
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "anchor": [
+          0.45,
+          0.42
+        ]
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Marshall \"Major\" Taylor",
+          "sub": "Cyclist · 1878 – 1932"
+        }
+      }
+    },
+    {
+      "id": "major",
+      "text": "As a boy, he did bike tricks in a soldier's uniform. So people called him Major.",
+      "visual": {
+        "kind": "title",
+        "title": "\"Major\"",
+        "sub": "a boy in a soldier's uniform, doing bike tricks"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Indianapolis",
+          "sub": "Indiana"
+        }
+      }
+    },
+    {
+      "id": "worcester",
+      "text": "As a teenager, he moved to Worcester, Massachusetts, hoping for fairer treatment.",
+      "visual": {
+        "kind": "card",
+        "image": "vn1898",
+        "crop": [
+          0.0,
+          0.15,
+          1.0,
+          0.95
+        ],
+        "caption": "Major Taylor, 1898"
+      },
+      "section": "story",
+      "overlays": {
+        "pin": {
+          "label": "Worcester",
+          "sub": "Massachusetts"
+        }
+      }
+    },
+    {
+      "id": "barred",
+      "text": "It didn't come. Many races barred him.",
+      "visual": {
+        "kind": "title",
+        "title": "Kept out",
+        "sub": "barred from most white races"
+      }
+    },
+    {
+      "id": "boxed",
+      "text": "When he did race, rivals boxed him in.",
+      "visual": {
+        "kind": "card",
+        "image": "hourlier",
+        "crop": [
+          0.25,
+          0.0,
+          0.75,
+          1.0
+        ],
+        "caption": "On the track in Paris, 1909"
+      }
+    },
+    {
+      "id": "choked",
+      "text": "In 1897, a rival choked him after a race.",
+      "visual": {
+        "kind": "title",
+        "title": "1897",
+        "sub": "choked by a rival after a race in Taunton, Massachusetts"
+      }
+    },
+    {
+      "id": "kept",
+      "text": "He kept racing. And winning.",
+      "visual": {
+        "kind": "photo",
+        "image": "buffalo",
+        "focus": [
+          0.52,
+          0.4
+        ],
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "anchor": [
+          0.45,
+          0.4
+        ]
+      }
+    },
+    {
+      "id": "champion",
+      "text": "In August 1899, in Montreal, he won the world championship in the one-mile sprint.",
+      "visual": {
+        "kind": "title",
+        "title": "World Champion",
+        "sub": "one-mile sprint, Montreal, 1899"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Montreal",
+          "sub": "Canada"
+        }
+      }
+    },
+    {
+      "id": "first",
+      "text": "He was the first African American to win a world championship in any sport.",
+      "visual": {
+        "kind": "photo",
+        "image": "p0607",
+        "focus": [
+          0.5,
+          0.35
+        ],
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "anchor": [
+          0.46,
+          0.35
+        ]
+      }
+    },
+    {
+      "id": "europe",
+      "text": "Then he raced across Europe, and beat the best riders there.",
+      "visual": {
+        "kind": "card",
+        "image": "hourlier",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Major Taylor and Léon Hourlier, Paris, 1909"
+      }
+    },
+    {
+      "id": "death",
+      "text": "But in 1932 he died in a Chicago charity ward,",
+      "visual": {
+        "kind": "card",
+        "image": "p1926",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          0.8
+        ],
+        "caption": "Major Taylor in 1926"
+      },
+      "section": "cost"
+    },
+    {
+      "id": "grave",
+      "text": "and buried in an unmarked grave. Sixteen years passed before cyclists gave him a proper one.",
+      "visual": {
+        "kind": "title",
+        "title": "16 years",
+        "sub": "in an unmarked grave"
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "They could bar him from the track. They could not stop him from winning.",
+      "visual": {
+        "kind": "photo",
+        "image": "p0607",
+        "focus": [
+          0.51,
+          0.28
+        ],
+        "zoom": [
+          1.2,
+          1.28
+        ],
+        "anchor": [
+          0.46,
+          0.3
+        ]
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "World champion and record-holding sprint cyclist ('fastest bicycle rider in the world'), barred from many races because he was Black.",
+      "sources": [
+        "ISL",
+        "LOC",
+        "GLOBE",
+        "NMAH"
+      ]
+    },
+    {
+      "beat": "name",
+      "claim": "Marshall Taylor, born in Indianapolis in 1878.",
+      "sources": [
+        "ISL",
+        "GLOBE"
+      ],
+      "note": "GLOBE: native Indiana."
+    },
+    {
+      "beat": "major",
+      "claim": "Did bicycle stunts for a bike shop in a military uniform, hence 'Major'.",
+      "sources": [
+        "ISL",
+        "LOC"
+      ]
+    },
+    {
+      "beat": "worcester",
+      "claim": "Moved as a teenager to Worcester, Massachusetts, expecting fairer treatment.",
+      "sources": [
+        "GLOBE",
+        "ISL"
+      ]
+    },
+    {
+      "beat": "barred",
+      "claim": "Barred from most / white races.",
+      "sources": [
+        "LOC",
+        "GLOBE",
+        "NMAH"
+      ]
+    },
+    {
+      "beat": "boxed",
+      "claim": "Rivals used rough tactics, boxing him in.",
+      "sources": [
+        "LOC",
+        "SCHWINN"
+      ],
+      "note": "LOC: hostile competitors, inflicting harm."
+    },
+    {
+      "beat": "choked",
+      "claim": "On 23 Sept 1897 in Taunton, Mass., rider William Becker choked him after a race.",
+      "sources": [
+        "GLOBE",
+        "ISL"
+      ]
+    },
+    {
+      "beat": "champion",
+      "claim": "Won the world one-mile sprint championship in Montreal, August 1899.",
+      "sources": [
+        "ISL",
+        "LOC"
+      ]
+    },
+    {
+      "beat": "first",
+      "claim": "First African American (American-born Black) world champion in any sport.",
+      "sources": [
+        "NMAH",
+        "GLOBE"
+      ],
+      "note": "Boxer George Dixon, a Black Canadian, was earlier; hence 'African American'."
+    },
+    {
+      "beat": "europe",
+      "claim": "Raced in Europe and won most races.",
+      "sources": [
+        "LOC",
+        "GLOBE",
+        "ISL"
+      ]
+    },
+    {
+      "beat": "death",
+      "claim": "Died in 1932 in the charity ward of Cook County Hospital, Chicago.",
+      "sources": [
+        "ISL",
+        "SCHWINN"
+      ]
+    },
+    {
+      "beat": "grave",
+      "claim": "Unmarked grave until 1948, when former cyclists (with money from Frank Schwinn) gave him a proper grave.",
+      "sources": [
+        "ISL",
+        "SCHWINN"
+      ]
+    }
+  ],
+  "notUsed": [
+    "Spectators throwing ice and nails (ISL only): not used.",
+    "Indianapolis track ban after his record (ISL only): not used.",
+    "Number of world records (sources differ): not used."
+  ],
+  "faces": {
+    "p0607": [
+      [
+        0.34,
+        0.08,
+        0.68,
+        0.38
+      ]
+    ],
+    "vn1898": [
+      [
+        0.22,
+        0.29,
+        0.4,
+        0.42
+      ]
+    ],
+    "buffalo": [
+      [
+        0.47,
+        0.25,
+        0.57,
+        0.42
+      ]
+    ],
+    "hourlier": [
+      [
+        0.41,
+        0.13,
+        0.48,
+        0.26
+      ],
+      [
+        0.6,
+        0.08,
+        0.67,
+        0.2
+      ]
+    ],
+    "p1926": [
+      [
+        0.36,
+        0.14,
+        0.62,
+        0.34
+      ]
+    ]
+  }
+}
