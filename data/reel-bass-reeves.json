@@ -1,0 +1,463 @@
+{
+  "id": "reel-bass-reeves",
+  "title": "He Arrested His Own Son",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "leadInSeconds": 0.0,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3,
+    "hookBoostDb": 2
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "assets": {},
+  "faces": {
+    "portrait": [
+      [
+        0.25,
+        0.1,
+        0.75,
+        0.48
+      ]
+    ],
+    "cabinet": [
+      [
+        0.44,
+        0.08,
+        0.66,
+        0.24
+      ]
+    ],
+    "family": [
+      [
+        0.03,
+        0.03,
+        0.97,
+        0.45
+      ]
+    ]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "He arrested his own son.",
+      "visual": {
+        "kind": "photo",
+        "image": "portrait",
+        "focus": [
+          0.5,
+          0.3
+        ],
+        "zoom": [
+          1.15,
+          1.2
+        ],
+        "anchor": [
+          0.43,
+          0.27
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "He arrested *his own son.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "His name was Bass Reeves, a deputy U.S. marshal.",
+      "visual": {
+        "kind": "card",
+        "image": "cabinet",
+        "crop": [
+          0.1,
+          0.0,
+          0.9,
+          0.75
+        ],
+        "caption": "Bass Reeves, about 1902"
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Bass Reeves",
+          "sub": "Deputy U.S. Marshal · 1838 – 1910"
+        }
+      }
+    },
+    {
+      "id": "born",
+      "text": "Born enslaved in Arkansas in 1838,",
+      "visual": {
+        "kind": "title",
+        "title": "1838",
+        "sub": "born enslaved in Arkansas"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Arkansas",
+          "sub": "born 1838"
+        }
+      }
+    },
+    {
+      "id": "escaped",
+      "text": "he escaped during the Civil War into Indian Territory.",
+      "visual": {
+        "kind": "title",
+        "title": "Escape",
+        "sub": "into Indian Territory, today's Oklahoma"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Indian Territory",
+          "sub": "today's Oklahoma"
+        }
+      }
+    },
+    {
+      "id": "hired",
+      "text": "In 1875, he became a deputy U.S. marshal for the federal court at Fort Smith,",
+      "visual": {
+        "kind": "card",
+        "image": "oath",
+        "crop": [
+          0.0,
+          0.25,
+          1.0,
+          0.75
+        ],
+        "caption": "His oath of office as a deputy marshal",
+        "clipping": true
+      },
+      "section": "story",
+      "overlays": {
+        "pin": {
+          "label": "Fort Smith",
+          "sub": "Arkansas"
+        }
+      }
+    },
+    {
+      "id": "first",
+      "text": "one of the first Black deputies west of the Mississippi.",
+      "visual": {
+        "kind": "photo",
+        "image": "cabinet",
+        "focus": [
+          0.55,
+          0.3
+        ],
+        "zoom": [
+          1.0,
+          1.08
+        ],
+        "anchor": [
+          0.45,
+          0.32
+        ]
+      }
+    },
+    {
+      "id": "read",
+      "text": "He could not read. So he memorized every warrant.",
+      "visual": {
+        "kind": "title",
+        "title": "By heart",
+        "sub": "he memorized every warrant"
+      }
+    },
+    {
+      "id": "arrests",
+      "text": "By 1901, a newspaper reported he had arrested more than 3,000 people.",
+      "visual": {
+        "kind": "title",
+        "title": "Over 3,000",
+        "sub": "arrests, reported in 1901"
+      }
+    },
+    {
+      "id": "years",
+      "text": "He wore the badge for 32 years.",
+      "visual": {
+        "kind": "card",
+        "image": "family",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Federal officers in Muskogee, 1907. Reeves at far left."
+      }
+    },
+    {
+      "id": "son",
+      "text": "Then his own son, Bennie, was charged with murdering his wife.",
+      "visual": {
+        "kind": "photo",
+        "image": "portrait",
+        "focus": [
+          0.5,
+          0.32
+        ],
+        "zoom": [
+          1.05,
+          1.12
+        ],
+        "anchor": [
+          0.46,
+          0.32
+        ]
+      },
+      "section": "cost"
+    },
+    {
+      "id": "warrant",
+      "text": "Reeves took the warrant himself, and brought his son in.",
+      "visual": {
+        "kind": "title",
+        "title": "The warrant",
+        "sub": "he served it on his own son"
+      }
+    },
+    {
+      "id": "prison",
+      "text": "Bennie was convicted and sent to Leavenworth prison.",
+      "visual": {
+        "kind": "title",
+        "title": "Convicted",
+        "sub": "sent to Leavenworth"
+      }
+    },
+    {
+      "id": "statehood",
+      "text": "When Oklahoma became a state in 1907, his federal job ended. At 67, he joined the Muskogee police.",
+      "visual": {
+        "kind": "card",
+        "image": "family",
+        "crop": [
+          0.0,
+          0.05,
+          0.35,
+          0.6
+        ],
+        "caption": "Bass Reeves in Muskogee, 1907"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Muskogee",
+          "sub": "Oklahoma"
+        }
+      }
+    },
+    {
+      "id": "death",
+      "text": "He died in 1910.",
+      "visual": {
+        "kind": "photo",
+        "image": "portrait",
+        "focus": [
+          0.5,
+          0.3
+        ],
+        "zoom": [
+          1.0,
+          1.05
+        ],
+        "anchor": [
+          0.46,
+          0.32
+        ]
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "legacy",
+      "text": "For Bass Reeves, the law came first, even when it was his own blood.",
+      "visual": {
+        "kind": "photo",
+        "image": "portrait",
+        "focus": [
+          0.5,
+          0.28
+        ],
+        "zoom": [
+          1.15,
+          1.22
+        ],
+        "anchor": [
+          0.46,
+          0.28
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "sources": {
+    "NPS": {
+      "name": "National Park Service, Fort Smith National Historic Site: Bass Reeves",
+      "url": "https://www.nps.gov/fosm/learn/historyculture/bass_reeves.htm"
+    },
+    "OHS": {
+      "name": "Oklahoma Historical Society, Encyclopedia of Oklahoma History and Culture: Reeves, Bass",
+      "url": "https://www.okhistory.org/publications/enc/entry?entry=RE020"
+    },
+    "EA": {
+      "name": "CALS Encyclopedia of Arkansas: Bass Reeves (1838-1910)",
+      "url": "https://encyclopediaofarkansas.net/entries/bass-reeves-1747/"
+    },
+    "NLEOMF": {
+      "name": "National Law Enforcement Officers Memorial Fund: Bass Reeves",
+      "url": "https://nleomf.org/bass-reeves/"
+    }
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "Reeves served the murder warrant on his own son Bennie and brought him in (1902).",
+      "sources": [
+        "NPS",
+        "OHS",
+        "EA",
+        "NLEOMF"
+      ]
+    },
+    {
+      "beat": "name",
+      "claim": "Bass Reeves, deputy U.S. marshal, 1838-1910.",
+      "sources": [
+        "NPS",
+        "EA",
+        "OHS"
+      ]
+    },
+    {
+      "beat": "born",
+      "claim": "Born enslaved in Arkansas in 1838.",
+      "sources": [
+        "EA",
+        "OHS"
+      ],
+      "note": "NPS: 'a former slave from Texas' (his enslavers moved to Texas in 1846, EA)."
+    },
+    {
+      "beat": "escaped",
+      "claim": "Escaped during the Civil War into Indian Territory.",
+      "sources": [
+        "EA",
+        "OHS"
+      ]
+    },
+    {
+      "beat": "hired",
+      "claim": "Commissioned a deputy U.S. marshal in 1875 for Judge Isaac Parker's federal court at Fort Smith.",
+      "sources": [
+        "EA",
+        "OHS",
+        "NPS"
+      ]
+    },
+    {
+      "beat": "first",
+      "claim": "One of the first Black federal lawmen (deputy marshals) west of the Mississippi.",
+      "sources": [
+        "EA",
+        "NLEOMF"
+      ]
+    },
+    {
+      "beat": "read",
+      "claim": "Illiterate; memorized his warrants and writs.",
+      "sources": [
+        "NPS",
+        "NLEOMF"
+      ]
+    },
+    {
+      "beat": "arrests",
+      "claim": "Reported by 1901 to have arrested over 3,000 people.",
+      "sources": [
+        "OHS",
+        "NPS",
+        "NLEOMF"
+      ],
+      "note": "A newspaper figure (Chickasaw Enterprise, 1901, per OHS); the reel attributes it."
+    },
+    {
+      "beat": "years",
+      "claim": "Served 32 years as a deputy U.S. marshal.",
+      "sources": [
+        "NPS",
+        "OHS",
+        "NLEOMF"
+      ]
+    },
+    {
+      "beat": "son",
+      "claim": "His son Bennie killed his wife (domestic murder).",
+      "sources": [
+        "NPS",
+        "EA",
+        "NLEOMF"
+      ]
+    },
+    {
+      "beat": "prison",
+      "claim": "Bennie was convicted and sent to Leavenworth.",
+      "sources": [
+        "NPS",
+        "NLEOMF"
+      ]
+    },
+    {
+      "beat": "statehood",
+      "claim": "Retired from federal service at Oklahoma statehood (1907), age 67; then Muskogee city policeman.",
+      "sources": [
+        "NPS",
+        "NLEOMF",
+        "EA"
+      ]
+    },
+    {
+      "beat": "death",
+      "claim": "Died 12 January 1910 in Muskogee.",
+      "sources": [
+        "NPS",
+        "EA",
+        "OHS"
+      ]
+    }
+  ],
+  "notUsed": [
+    "'The real Lone Ranger': a theory, not proven; not used.",
+    "'Killed 14 outlaws' (OHS citing newspapers only): not used.",
+    "'Never arrested the wrong man' (NPS says 'is said to'): not used.",
+    "Dramatic manhunt for his son (legend; a 1902 newspaper says Bennie surrendered): not used."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "portrait": {
+    "title": "File:BassReeves.jpg",
+    "artist": "Unknown photographer",
+    "date": "by 1910",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABassReeves.jpg",
+    "width": 1920,
+    "height": 2866
+  },
+  "oath": {
+    "title": "File:Oath of Deputy Marshal for Bass Reeves (8495459432).jpg",
+    "artist": "U.S. District Court, Western District of Arkansas, Fort Smith; U.S. National Archives (ARC ID 6851120)",
+    "date": "1897-02-20",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File%3AOath_of_Deputy_Marshal_for_Bass_Reeves_%288495459432%29.jpg",
+    "width": 1920,
+    "height": 1792
+  },
+  "family": {
+    "title": "File:Bass reeves family photo.jpg",
+    "artist": "Unknown photographer (\"Federal Official Family\", Muskogee)",
+    "date": "1907-11-16",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABass_reeves_family_photo.jpg",
+    "width": 1280,
+    "height": 871
+  },
+  "cabinet": {
+    "title": "File:Bass reeves cabinetphoto.jpg",
+    "artist": "Unknown photographer",
+    "date": "c. 1902",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File%3ABass_reeves_cabinetphoto.jpg",
+    "width": 960,
+    "height": 1369
+  }
+}

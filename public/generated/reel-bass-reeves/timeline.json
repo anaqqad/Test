@@ -1,0 +1,923 @@
+{
+ "fps": 30,
+ "durationInFrames": 2034,
+ "voice": "am_michael",
+ "engine": "kokoro-onnx v1.0",
+ "words": 157,
+ "wpm": 139.0,
+ "beats": [
+  {
+   "id": "hook",
+   "words": [
+    {
+     "text": "He",
+     "start": 0.0,
+     "end": 0.21
+    },
+    {
+     "text": "arrested",
+     "start": 0.21,
+     "end": 0.729
+    },
+    {
+     "text": "his",
+     "start": 0.729,
+     "end": 0.939
+    },
+    {
+     "text": "own",
+     "start": 0.939,
+     "end": 1.149
+    },
+    {
+     "text": "son.",
+     "start": 1.149,
+     "end": 1.358
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 53
+  },
+  {
+   "id": "name",
+   "words": [
+    {
+     "text": "His",
+     "start": 1.858,
+     "end": 2.139
+    },
+    {
+     "text": "name",
+     "start": 2.139,
+     "end": 2.419
+    },
+    {
+     "text": "was",
+     "start": 2.419,
+     "end": 2.7
+    },
+    {
+     "text": "Bass",
+     "start": 2.7,
+     "end": 2.98
+    },
+    {
+     "text": "Reeves,",
+     "start": 2.98,
+     "end": 3.469
+    },
+    {
+     "text": "a",
+     "start": 3.469,
+     "end": 3.749
+    },
+    {
+     "text": "deputy",
+     "start": 3.749,
+     "end": 4.445
+    },
+    {
+     "text": "U.S.",
+     "start": 4.445,
+     "end": 4.726
+    },
+    {
+     "text": "marshal.",
+     "start": 4.726,
+     "end": 5.214
+    }
+   ],
+   "cues": {},
+   "startFrame": 53,
+   "endFrame": 167
+  },
+  {
+   "id": "born",
+   "words": [
+    {
+     "text": "Born",
+     "start": 5.664,
+     "end": 6.03
+    },
+    {
+     "text": "enslaved",
+     "start": 6.03,
+     "end": 6.939
+    },
+    {
+     "text": "in",
+     "start": 6.939,
+     "end": 7.305
+    },
+    {
+     "text": "Arkansas",
+     "start": 7.305,
+     "end": 8.214
+    },
+    {
+     "text": "in",
+     "start": 8.214,
+     "end": 8.58
+    },
+    {
+     "text": "1838,",
+     "start": 8.58,
+     "end": 9.76
+    }
+   ],
+   "cues": {},
+   "startFrame": 167,
+   "endFrame": 299
+  },
+  {
+   "id": "escaped",
+   "words": [
+    {
+     "text": "he",
+     "start": 10.08,
+     "end": 10.291
+    },
+    {
+     "text": "escaped",
+     "start": 10.291,
+     "end": 10.814
+    },
+    {
+     "text": "during",
+     "start": 10.814,
+     "end": 11.182
+    },
+    {
+     "text": "the",
+     "start": 11.182,
+     "end": 11.393
+    },
+    {
+     "text": "Civil",
+     "start": 11.393,
+     "end": 11.76
+    },
+    {
+     "text": "War",
+     "start": 11.76,
+     "end": 11.971
+    },
+    {
+     "text": "into",
+     "start": 11.971,
+     "end": 12.338
+    },
+    {
+     "text": "Indian",
+     "start": 12.338,
+     "end": 12.705
+    },
+    {
+     "text": "Territory.",
+     "start": 12.705,
+     "end": 13.385
+    }
+   ],
+   "cues": {},
+   "startFrame": 299,
+   "endFrame": 414
+  },
+  {
+   "id": "hired",
+   "words": [
+    {
+     "text": "In",
+     "start": 13.886,
+     "end": 14.225
+    },
+    {
+     "text": "1875,",
+     "start": 14.225,
+     "end": 15.317
+    },
+    {
+     "text": "he",
+     "start": 15.317,
+     "end": 15.656
+    },
+    {
+     "text": "became",
+     "start": 15.656,
+     "end": 16.247
+    },
+    {
+     "text": "a",
+     "start": 16.247,
+     "end": 16.586
+    },
+    {
+     "text": "deputy",
+     "start": 16.586,
+     "end": 17.427
+    },
+    {
+     "text": "U.S.",
+     "start": 17.427,
+     "end": 17.766
+    },
+    {
+     "text": "marshal",
+     "start": 17.766,
+     "end": 18.356
+    },
+    {
+     "text": "for",
+     "start": 18.356,
+     "end": 18.695
+    },
+    {
+     "text": "the",
+     "start": 18.695,
+     "end": 19.034
+    },
+    {
+     "text": "federal",
+     "start": 19.034,
+     "end": 19.875
+    },
+    {
+     "text": "court",
+     "start": 19.875,
+     "end": 20.214
+    },
+    {
+     "text": "at",
+     "start": 20.214,
+     "end": 20.553
+    },
+    {
+     "text": "Fort",
+     "start": 20.553,
+     "end": 20.892
+    },
+    {
+     "text": "Smith,",
+     "start": 20.892,
+     "end": 21.231
+    }
+   ],
+   "cues": {},
+   "startFrame": 414,
+   "endFrame": 644
+  },
+  {
+   "id": "first",
+   "words": [
+    {
+     "text": "one",
+     "start": 21.551,
+     "end": 21.782
+    },
+    {
+     "text": "of",
+     "start": 21.782,
+     "end": 22.014
+    },
+    {
+     "text": "the",
+     "start": 22.014,
+     "end": 22.245
+    },
+    {
+     "text": "first",
+     "start": 22.245,
+     "end": 22.477
+    },
+    {
+     "text": "Black",
+     "start": 22.477,
+     "end": 22.708
+    },
+    {
+     "text": "deputies",
+     "start": 22.708,
+     "end": 23.282
+    },
+    {
+     "text": "west",
+     "start": 23.282,
+     "end": 23.513
+    },
+    {
+     "text": "of",
+     "start": 23.513,
+     "end": 23.745
+    },
+    {
+     "text": "the",
+     "start": 23.745,
+     "end": 23.976
+    },
+    {
+     "text": "Mississippi.",
+     "start": 23.976,
+     "end": 24.722
+    }
+   ],
+   "cues": {},
+   "startFrame": 644,
+   "endFrame": 752
+  },
+  {
+   "id": "read",
+   "words": [
+    {
+     "text": "He",
+     "start": 25.172,
+     "end": 25.41
+    },
+    {
+     "text": "could",
+     "start": 25.41,
+     "end": 25.647
+    },
+    {
+     "text": "not",
+     "start": 25.647,
+     "end": 25.885
+    },
+    {
+     "text": "read.",
+     "start": 25.885,
+     "end": 26.123
+    },
+    {
+     "text": "So",
+     "start": 26.123,
+     "end": 26.361
+    },
+    {
+     "text": "he",
+     "start": 26.361,
+     "end": 26.598
+    },
+    {
+     "text": "memorized",
+     "start": 26.598,
+     "end": 27.365
+    },
+    {
+     "text": "every",
+     "start": 27.365,
+     "end": 27.955
+    },
+    {
+     "text": "warrant.",
+     "start": 27.955,
+     "end": 28.368
+    }
+   ],
+   "cues": {},
+   "startFrame": 752,
+   "endFrame": 862
+  },
+  {
+   "id": "arrests",
+   "words": [
+    {
+     "text": "By",
+     "start": 28.818,
+     "end": 29.076
+    },
+    {
+     "text": "1901,",
+     "start": 29.076,
+     "end": 29.909
+    },
+    {
+     "text": "a",
+     "start": 29.909,
+     "end": 30.167
+    },
+    {
+     "text": "newspaper",
+     "start": 30.167,
+     "end": 30.808
+    },
+    {
+     "text": "reported",
+     "start": 30.808,
+     "end": 31.449
+    },
+    {
+     "text": "he",
+     "start": 31.449,
+     "end": 31.707
+    },
+    {
+     "text": "had",
+     "start": 31.707,
+     "end": 31.966
+    },
+    {
+     "text": "arrested",
+     "start": 31.966,
+     "end": 32.607
+    },
+    {
+     "text": "more",
+     "start": 32.607,
+     "end": 32.865
+    },
+    {
+     "text": "than",
+     "start": 32.865,
+     "end": 33.123
+    },
+    {
+     "text": "3,000",
+     "start": 33.123,
+     "end": 33.956
+    },
+    {
+     "text": "people.",
+     "start": 33.956,
+     "end": 34.214
+    }
+   ],
+   "cues": {},
+   "startFrame": 862,
+   "endFrame": 1037
+  },
+  {
+   "id": "years",
+   "words": [
+    {
+     "text": "He",
+     "start": 34.664,
+     "end": 34.929
+    },
+    {
+     "text": "wore",
+     "start": 34.929,
+     "end": 35.193
+    },
+    {
+     "text": "the",
+     "start": 35.193,
+     "end": 35.458
+    },
+    {
+     "text": "badge",
+     "start": 35.458,
+     "end": 35.722
+    },
+    {
+     "text": "for",
+     "start": 35.722,
+     "end": 35.987
+    },
+    {
+     "text": "32",
+     "start": 35.987,
+     "end": 36.447
+    },
+    {
+     "text": "years.",
+     "start": 36.447,
+     "end": 36.712
+    }
+   ],
+   "cues": {},
+   "startFrame": 1037,
+   "endFrame": 1113
+  },
+  {
+   "id": "son",
+   "words": [
+    {
+     "text": "Then",
+     "start": 37.212,
+     "end": 37.477
+    },
+    {
+     "text": "his",
+     "start": 37.477,
+     "end": 37.743
+    },
+    {
+     "text": "own",
+     "start": 37.743,
+     "end": 38.008
+    },
+    {
+     "text": "son,",
+     "start": 38.008,
+     "end": 38.275
+    },
+    {
+     "text": "Bennie,",
+     "start": 38.275,
+     "end": 38.541
+    },
+    {
+     "text": "was",
+     "start": 38.541,
+     "end": 38.806
+    },
+    {
+     "text": "charged",
+     "start": 38.806,
+     "end": 39.269
+    },
+    {
+     "text": "with",
+     "start": 39.269,
+     "end": 39.535
+    },
+    {
+     "text": "murdering",
+     "start": 39.535,
+     "end": 40.194
+    },
+    {
+     "text": "his",
+     "start": 40.194,
+     "end": 40.459
+    },
+    {
+     "text": "wife.",
+     "start": 40.459,
+     "end": 40.726
+    }
+   ],
+   "cues": {},
+   "startFrame": 1113,
+   "endFrame": 1232
+  },
+  {
+   "id": "warrant",
+   "words": [
+    {
+     "text": "Reeves",
+     "start": 41.176,
+     "end": 41.603
+    },
+    {
+     "text": "took",
+     "start": 41.603,
+     "end": 41.849
+    },
+    {
+     "text": "the",
+     "start": 41.849,
+     "end": 42.094
+    },
+    {
+     "text": "warrant",
+     "start": 42.094,
+     "end": 42.522
+    },
+    {
+     "text": "himself,",
+     "start": 42.522,
+     "end": 42.949
+    },
+    {
+     "text": "and",
+     "start": 42.949,
+     "end": 43.194
+    },
+    {
+     "text": "brought",
+     "start": 43.194,
+     "end": 43.44
+    },
+    {
+     "text": "his",
+     "start": 43.44,
+     "end": 43.685
+    },
+    {
+     "text": "son",
+     "start": 43.685,
+     "end": 43.931
+    },
+    {
+     "text": "in.",
+     "start": 43.931,
+     "end": 44.176
+    }
+   ],
+   "cues": {},
+   "startFrame": 1232,
+   "endFrame": 1336
+  },
+  {
+   "id": "prison",
+   "words": [
+    {
+     "text": "Bennie",
+     "start": 44.626,
+     "end": 44.89
+    },
+    {
+     "text": "was",
+     "start": 44.89,
+     "end": 45.154
+    },
+    {
+     "text": "convicted",
+     "start": 45.154,
+     "end": 45.809
+    },
+    {
+     "text": "and",
+     "start": 45.809,
+     "end": 46.073
+    },
+    {
+     "text": "sent",
+     "start": 46.073,
+     "end": 46.337
+    },
+    {
+     "text": "to",
+     "start": 46.337,
+     "end": 46.601
+    },
+    {
+     "text": "Leavenworth",
+     "start": 46.601,
+     "end": 47.256
+    },
+    {
+     "text": "prison.",
+     "start": 47.256,
+     "end": 47.715
+    }
+   ],
+   "cues": {},
+   "startFrame": 1336,
+   "endFrame": 1442
+  },
+  {
+   "id": "statehood",
+   "words": [
+    {
+     "text": "When",
+     "start": 48.165,
+     "end": 48.464
+    },
+    {
+     "text": "Oklahoma",
+     "start": 48.464,
+     "end": 49.428
+    },
+    {
+     "text": "became",
+     "start": 49.428,
+     "end": 49.949
+    },
+    {
+     "text": "a",
+     "start": 49.949,
+     "end": 50.248
+    },
+    {
+     "text": "state",
+     "start": 50.248,
+     "end": 50.547
+    },
+    {
+     "text": "in",
+     "start": 50.547,
+     "end": 50.846
+    },
+    {
+     "text": "1907,",
+     "start": 50.846,
+     "end": 51.81
+    },
+    {
+     "text": "his",
+     "start": 51.81,
+     "end": 52.109
+    },
+    {
+     "text": "federal",
+     "start": 52.109,
+     "end": 52.851
+    },
+    {
+     "text": "job",
+     "start": 52.851,
+     "end": 53.15
+    },
+    {
+     "text": "ended.",
+     "start": 53.15,
+     "end": 53.671
+    },
+    {
+     "text": "At",
+     "start": 53.671,
+     "end": 53.97
+    },
+    {
+     "text": "67,",
+     "start": 53.97,
+     "end": 54.491
+    },
+    {
+     "text": "he",
+     "start": 54.491,
+     "end": 54.79
+    },
+    {
+     "text": "joined",
+     "start": 54.79,
+     "end": 55.311
+    },
+    {
+     "text": "the",
+     "start": 55.311,
+     "end": 55.61
+    },
+    {
+     "text": "Muskogee",
+     "start": 55.61,
+     "end": 56.13
+    },
+    {
+     "text": "police.",
+     "start": 56.13,
+     "end": 56.651
+    }
+   ],
+   "cues": {},
+   "startFrame": 1442,
+   "endFrame": 1712
+  },
+  {
+   "id": "death",
+   "words": [
+    {
+     "text": "He",
+     "start": 57.151,
+     "end": 57.43
+    },
+    {
+     "text": "died",
+     "start": 57.43,
+     "end": 57.709
+    },
+    {
+     "text": "in",
+     "start": 57.709,
+     "end": 57.988
+    },
+    {
+     "text": "1910.",
+     "start": 57.988,
+     "end": 58.888
+    }
+   ],
+   "cues": {},
+   "startFrame": 1712,
+   "endFrame": 1777
+  },
+  {
+   "id": "legacy",
+   "words": [
+    {
+     "text": "For",
+     "start": 59.338,
+     "end": 59.601
+    },
+    {
+     "text": "Bass",
+     "start": 59.601,
+     "end": 59.865
+    },
+    {
+     "text": "Reeves,",
+     "start": 59.865,
+     "end": 60.323
+    },
+    {
+     "text": "the",
+     "start": 60.323,
+     "end": 60.586
+    },
+    {
+     "text": "law",
+     "start": 60.586,
+     "end": 60.849
+    },
+    {
+     "text": "came",
+     "start": 60.849,
+     "end": 61.113
+    },
+    {
+     "text": "first,",
+     "start": 61.113,
+     "end": 61.376
+    },
+    {
+     "text": "even",
+     "start": 61.376,
+     "end": 61.834
+    },
+    {
+     "text": "when",
+     "start": 61.834,
+     "end": 62.098
+    },
+    {
+     "text": "it",
+     "start": 62.098,
+     "end": 62.361
+    },
+    {
+     "text": "was",
+     "start": 62.361,
+     "end": 62.624
+    },
+    {
+     "text": "his",
+     "start": 62.624,
+     "end": 62.888
+    },
+    {
+     "text": "own",
+     "start": 62.888,
+     "end": 63.151
+    },
+    {
+     "text": "blood.",
+     "start": 63.151,
+     "end": 63.414
+    }
+   ],
+   "cues": {},
+   "startFrame": 1777,
+   "endFrame": 1914
+  },
+  {
+   "id": "cta",
+   "words": [
+    {
+     "text": "Follow",
+     "start": 63.914,
+     "end": 64.273
+    },
+    {
+     "text": "The",
+     "start": 64.273,
+     "end": 64.479
+    },
+    {
+     "text": "Black",
+     "start": 64.479,
+     "end": 64.686
+    },
+    {
+     "text": "History",
+     "start": 64.686,
+     "end": 65.197
+    },
+    {
+     "text": "Room",
+     "start": 65.197,
+     "end": 65.404
+    },
+    {
+     "text": "for",
+     "start": 65.404,
+     "end": 65.61
+    },
+    {
+     "text": "one",
+     "start": 65.61,
+     "end": 65.816
+    },
+    {
+     "text": "story",
+     "start": 65.816,
+     "end": 66.175
+    },
+    {
+     "text": "a",
+     "start": 66.175,
+     "end": 66.382
+    },
+    {
+     "text": "day.",
+     "start": 66.382,
+     "end": 66.588
+    }
+   ],
+   "cues": {},
+   "startFrame": 1914,
+   "endFrame": 2034
+  }
+ ]
+}
