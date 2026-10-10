@@ -13,9 +13,9 @@ World's fastest cyclist, banned for being Black.
 
 Marshall Taylor was born in Indianapolis in 1878. As a boy he did bicycle tricks outside a bike shop, dressed in a soldier's uniform, and the crowds started calling him "Major." The name stuck for the rest of his life.
 
-As a teenager he moved to Worcester, Massachusetts, hoping he would be treated more fairly there than in Indiana. He turned professional and began breaking records. But the fairness he hoped for never came. Racism barred him from most white races, and southern tracks would not let him compete at all.
+As a teenager he moved to Worcester, Massachusetts, hoping he would be treated more fairly there than in Indiana. He turned professional and began breaking records. But the fairness he hoped for never came. Racism barred him from most white races.
 
-When he did race, rivals ganged up on him. They boxed him in, elbowed him and tried to force him off the track. In 1897, in Taunton, Massachusetts, a rider named William Becker grabbed him by the throat after a race and choked him.
+When he did race, rivals ganged up on him. They boxed him in and elbowed him. In 1897, in Taunton, Massachusetts, a rider named William Becker grabbed him by the throat after a race and choked him.
 
 Taylor kept racing, and kept winning. In August 1899, in Montreal, he won the world championship in the one-mile sprint. He was the first African American to win a world championship in any sport, half a century before Jackie Robinson broke baseball's color line.
 
