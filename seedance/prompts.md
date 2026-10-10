@@ -613,3 +613,44 @@ Caption: "Some strangers are sent. 🚂❤️"
 - Hashtags: #rescue #hero #train #emotional #trucker #savedalife #heroesamongus #strangerkindness #storytime #fyp #reels #viral #aistory
 - Cover frame: the girl's face lit by the train headlight (0-1 s)
 - AI label: turn on "AI-generated content" (Facebook/Instagram/TikTok/YouTube all require it for realistic AI video)
+
+## 18. "Just a Biker" (emotional biker rescue, 2-second hook)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal emotional drama, a dark two-lane country highway at night, a gravel shoulder, a shallow grassy ditch below it, passing headlights sweeping across the frame, cold blue moonlight, warm orange hazard lights blinking in the ditch, shallow depth of field, natural skin texture, light film grain. Exactly 3 characters, identical faces and wardrobe in every shot; passing cars are only blurred headlights with no visible drivers. No blood, no serious injuries. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- GIRL (6): small white girl, blonde hair in two messy pigtails, big blue eyes, tear-streaked cheeks, pink pajamas with white hearts, white socks with no shoes.
+- MOM (30s): white woman, brown hair in a loose ponytail, grey knit sweater, jeans, a small bruise on her forehead, dazed and scared.
+- BIKER (60s): white man, average height, heavy build, short grey beard, grey hair in a low ponytail, deep wrinkles, kind tired eyes, plain black leather vest with no patches or text over a faded denim shirt, a black leather jacket over that, fingerless gloves, a small faded rose tattoo on his left forearm, an open-face black helmet. He rides a black cruiser motorcycle with no logos, one round headlight and leather saddlebags with a tire iron inside.
+
+Location: the highway shoulder at night; a dark-blue minivan with no logos tilted nose-down in the shallow ditch below the shoulder, hazard lights blinking, its driver door dented and jammed shut; the girl stands alone on the shoulder above it. Screen direction never flips: road on the left, ditch on the right.
+
+0s-2s: Extreme close-up of Girl alone on the dark highway shoulder, sharp and in focus from the very first frame, the headlights of a passing truck sweeping across her tear-streaked face, the wind of the truck whipping her pigtails. Sound from the very first frame at full volume: the truck roaring past and the girl screaming, her words clear. GIRL (screaming): "PLEASE STOP! MY MOMMY'S STUCK!"
+2s-4s: Close-up Girl, another pair of headlights sweeping past without slowing, she waves both arms, sobbing. GIRL: "Please!"
+4s-6s: Medium shot, one round headlight slows down; the black motorcycle rolls onto the gravel shoulder and stops; Biker kills the engine and pulls off his helmet.
+6s-8s: Close-up Biker, kneeling down to the small girl's height. BIKER (gentle, deep): "Where's your mama, sweetheart?"
+8s-10s: Close-up Girl, pointing down into the ditch. GIRL: "Down there! The door won't open!"
+10s-12s: Insert: Biker pulls the tire iron out of his motorcycle's leather saddlebag.
+12s-14s: Medium shot in the ditch: the tilted minivan, hazard lights blinking; Mom inside banging on the driver window. MOM (muffled through the glass): "Help me! I can't get out!"
+14s-16s: Close-up Biker jamming the tire iron into the seam of the jammed door, straining. BIKER: "Hang on, darlin'!"
+16s-18s: Medium shot, the door pops open with a loud metal crack; Biker takes Mom's hand and helps her climb out.
+18s-20s: Medium shot, the girl hurries down the grassy slope and Mom drops to her knees and hugs her tight.
+20s-22s: Close-up Mom, crying, looking up at the biker. MOM: "So many cars drove past. Why did you stop?"
+22s-24s: Close-up Biker, a small shrug, quiet. BIKER: "She asked."
+24s-26s: Close-up Girl, holding the biker's big tattooed hand with both of her small hands, looking up at him. GIRL (whispering): "Are you an angel?"
+26s-28s: Close-up Biker, eyes wet, a soft smile in his grey beard. BIKER: "No, sweetheart. Just a biker."
+28s-30s: Medium shot on the shoulder, Biker wraps his black leather jacket around the small girl's shoulders as she smiles up at him; far down the road, blurred red and blue lights approach.
+
+Camera: opening extreme close-up on the girl's face lit by passing headlights; handheld during the rescue; low angle as the motorcycle stops; slow push-ins on the final close-ups; hard cuts; end on the medium shot. Audio: the truck roar and the girl's scream at 0.0s are the loudest sounds in the video, full volume on the first frame with no fade-in and no music before them; then cars whooshing past, the deep motorcycle engine rumbling and cutting off, gravel crunching, the hazard lights ticking, the metal crack of the door, crickets, then a soft acoustic guitar and warm strings entering on "Are you an angel?", distant sirens at the end. No subtitles, no text overlays, no watermark, no logos.
+```
+
+### Posting metadata
+- Hook text (on screen, first 2 s): EVERY CAR DROVE PAST HER… EXCEPT ONE MOTORCYCLE 😭🏍️
+- Caption (Facebook, TikTok): SHE BEGGED EVERY CAR TO STOP. ONLY ONE BIKER DID… 😭
+  Her mom was trapped in a ditch. Car after car drove past the little girl on the highway.
+  Then one old biker pulled over. ❤️ Would you have stopped? 👇
+- YouTube Shorts title: Every Car Drove Past Her… Except One Biker 😭 #shorts
+- Hashtags: #biker #bikerlife #motorcycle #rescue #hero #emotional #kindness #faithinhumanity #storytime #fyp #reels #viral #aistory
+- Cover frame: the girl's face lit by headlights (0-1 s)
+- AI label: turn on "AI-generated content"
