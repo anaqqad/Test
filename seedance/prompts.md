@@ -658,3 +658,43 @@ Camera: opening extreme close-up on the girl's face lit by passing headlights; h
 - Hashtags: #biker #bikerlife #motorcycle #rescue #hero #emotional #kindness #faithinhumanity #storytime #fyp #reels #viral #aistory
 - Cover frame: the girl's face lit by headlights (0-1 s)
 - AI label: turn on "AI-generated content"
+
+## 19. "Sit With Us" (biker in a diner from the first frame + a save)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal emotional drama, a small roadside diner in the morning, warm sunlight through big windows, red vinyl booths, a chrome counter with stools, coffee steam, shallow depth of field, natural skin texture, light film grain. Exactly 3 main characters, identical faces and wardrobe in every shot; two other bikers sit at the counter in the background, always blurred, never speaking; no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- GIRL (7): small Black girl, hair in two puff balls with yellow bands, big brown eyes, yellow t-shirt with a white daisy, denim overalls, white sneakers.
+- MOM (30s): Black woman, shoulder-length straight black hair, small gold hoop earrings, cream blouse, beige cardigan.
+- BIKER (50s): white man, tall, broad, shaved head, long dark-brown beard with grey streaks, tattooed forearms (abstract patterns, no symbols, no text), black leather vest with no patches or text over a grey t-shirt, black jeans, heavy boots, sitting on a counter stool with a mug of black coffee.
+
+Location: the diner; the family's booth by the window on the left with a plate of pancakes on the table; the counter and stools on the right where the biker sits, two other blurred bikers beside him; motorcycles with no logos visible through the window. Screen direction never flips: booth left, counter right.
+
+0s-2s: Extreme close-up of Girl in the booth, choking, both small hands at her throat, eyes wide with panic, sharp and in focus from the very first frame; behind her, soft and blurred, the bikers at the counter. MOM (off-screen, screaming at full volume, from the very first frame): "SHE'S CHOKING! SOMEBODY HELP!"
+2s-4s: Close-up Biker at the counter, slamming down his coffee mug and spinning off his stool. BIKER (sharp): "Move!"
+4s-6s: Medium shot, Biker rushes to the booth, helps the small girl out to stand on the floor and kneels behind her.
+6s-8s: Close-up Mom, hands on her face, frozen, sobbing. MOM: "She can't breathe!"
+8s-10s: Medium shot, Biker kneeling behind the small girl wraps his arms around her belly, one fist just above her belly button, and gives quick upward thrusts. BIKER: "Come on, sweetheart!"
+10s-12s: Close-up Girl, face red, struggling, eyes watering.
+12s-14s: Medium shot, one more firm thrust: a piece of pancake pops out of her mouth; she gasps and coughs.
+14s-16s: Close-up Girl, crying and breathing. GIRL: "Mommy!"
+16s-18s: Medium shot, Mom drops to her knees and pulls her daughter into her arms.
+18s-20s: Close-up Biker, still kneeling, breathing hard, wiping his forehead with the back of his hand.
+20s-22s: Close-up Mom, holding her daughter, tears, ashamed. MOM: "I asked to sit far away from you."
+22s-24s: Close-up Biker, gentle. BIKER: "That's alright, ma'am."
+24s-26s: Close-up Girl, looking up at him with wet eyes. GIRL: "Can I sit with you?"
+26s-28s: Close-up Biker, a soft smile in his beard, glancing at Mom. BIKER: "Ask your mama."
+28s-30s: Medium shot, Mom wipes her tears, slides into the booth and pats the seat across from her; the biker sits down, the girl climbs in right beside him. MOM (smiling): "Please. Sit with us."
+
+Camera: opening extreme close-up on the choking girl with the bikers blurred behind her; fast handheld during the rescue; slow push-ins on the close-ups after she breathes; hard cuts; end on the medium shot. Audio: the mother's scream at 0.0s is the loudest sound in the video, raw and clear, full volume on the first frame with no fade-in and no music before it; then the mug slamming, the stool squeaking, the girl's gasping, a sudden silence when she coughs the food out, then a soft acoustic guitar and warm strings entering on "I asked to sit far away from you." No subtitles, no text overlays, no watermark, no logos.
+```
+
+### Posting metadata
+- Hook text (on screen, first 2 s): SHE ASKED TO SIT FAR FROM THE BIKERS… THEN HER DAUGHTER STARTED CHOKING 😳
+- Caption: SHE DIDN'T WANT TO SIT NEAR THE BIKERS. 2 MINUTES LATER ONE OF THEM SAVED HER DAUGHTER… 😭
+  Never judge a book by its cover. ❤️🏍️ Would you have asked to move? 👇
+- YouTube Shorts title: She Judged the Bikers… Then One Saved Her Daughter 😭 #shorts
+- Hashtags: #biker #bikerlife #bikers #motorcycle #hero #savedalife #emotional #dontjudge #kindness #faithinhumanity #fyp #reels #viral #aistory
+- Cover frame: the choking girl with the blurred bikers behind (0-1 s)
+- AI label: turn on "AI-generated content"

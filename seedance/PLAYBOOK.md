@@ -3,6 +3,9 @@
 Winners: "The Little House" (gift reveal) and "The Payroll" (owner catches a manager stealing a guard's pay).
 
 ## Story
+- OWNER'S DATA: the only reels that performed had BIKERS, either bikers seen in the first scene in a
+  restaurant/diner, or a biker making a save. Default every new reel to a biker hero, and get the biker on screen
+  in the first 2-4 seconds (blurred in the background of the hook shot is fine).
 - 3 archetypes: the humble good person, the snob/villain who mocks or cheats them, and the reveal (the hidden
   mansion, the owner who steps out of the car). The villain is always caught or silenced on camera.
 - Real everyday stakes stated in the first line: rent, a house, a salary. Concrete numbers beat vague ones
