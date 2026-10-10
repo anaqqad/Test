@@ -665,8 +665,8 @@ Camera: opening extreme close-up on the girl's face lit by passing headlights; h
 Vertical 9:16, 30s. Cinematic photoreal emotional drama, a small roadside diner in the morning, warm sunlight through big windows, red vinyl booths, a chrome counter with stools, coffee steam, shallow depth of field, natural skin texture, light film grain. Exactly 3 main characters, identical faces and wardrobe in every shot; two other bikers sit at the counter in the background, always blurred, never speaking; no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
 
 Characters:
-- GIRL (7): small Black girl, hair in two puff balls with yellow bands, big brown eyes, yellow t-shirt with a white daisy, denim overalls, white sneakers.
-- MOM (30s): Black woman, shoulder-length straight black hair, small gold hoop earrings, cream blouse, beige cardigan.
+- GIRL (7): small white girl, light-brown hair in a high ponytail with a yellow ribbon, freckles, big green eyes, yellow t-shirt with a white daisy, denim overalls, white sneakers.
+- MOM (30s): white woman, shoulder-length honey-blonde hair, small gold hoop earrings, cream blouse, beige cardigan.
 - BIKER (50s): white man, tall, broad, shaved head, long dark-brown beard with grey streaks, tattooed forearms (abstract patterns, no symbols, no text), black leather vest with no patches or text over a grey t-shirt, black jeans, heavy boots, sitting on a counter stool with a mug of black coffee.
 
 Location: the diner; the family's booth by the window on the left with a plate of pancakes on the table; the counter and stools on the right where the biker sits, two other blurred bikers beside him; motorcycles with no logos visible through the window. Screen direction never flips: booth left, counter right.
