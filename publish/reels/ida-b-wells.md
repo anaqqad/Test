@@ -11,7 +11,7 @@ She Bit a Conductor to Keep Her Seat
 Post text:
 She bit a conductor to keep her seat. More than 70 years before Rosa Parks.
 
-Ida B. Wells was born into slavery in Holly Springs, Mississippi, in 1862. As a teenager she lost both of her parents to yellow fever, and she went to work as a schoolteacher to help hold her family together.
+Ida B. Wells was born into slavery in Holly Springs, Mississippi, in 1862.
 
 In the 1880s, as a young teacher, she boarded a train in Tennessee and took her seat in the ladies' car. The conductor ordered her to move to the smoking car. She refused. When he grabbed her to drag her out, she later wrote, "I fastened my teeth in the back of his hand." It took the conductor and two other men to pull her off the train.
 
