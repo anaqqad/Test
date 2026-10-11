@@ -114,6 +114,16 @@ function hat(h, uid) {
       }
       return { back: f, front: `<path d="M226 300 C300 260 500 260 574 300 L570 340 C500 305 300 305 230 340Z" fill="${c2}" ${L}/><path d="M250 318 L550 318" stroke="${c}" stroke-width="10" stroke-dasharray="20 14"/>` };
     }
+    case "laurel": { // Roman wreath: leaves along an arc over the forehead
+      let leaves = "";
+      for (const side of [-1, 1]) for (let k = 0; k < 7; k++) {
+        const ang = (side < 0 ? 196 + k * 11 : 344 - k * 11) * Math.PI / 180;
+        const x = 400 + 178 * Math.cos(ang), y = 318 + 112 * Math.sin(ang);
+        const rot = (ang * 180 / Math.PI) + 90 + side * 28;
+        leaves += `<ellipse cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" rx="26" ry="11" transform="rotate(${rot.toFixed(1)} ${x.toFixed(1)} ${y.toFixed(1)})" fill="${k % 2 ? c : c2}" stroke="${line}" stroke-width="4"/>`;
+      }
+      return { back: "", front: `<path d="M226 300 C260 210 540 210 574 300" stroke="${line}" stroke-width="7" fill="none"/>${leaves}` };
+    }
     case "headband": return { back: "", front: `<path d="M232 285 C300 255 500 255 568 285 L566 325 C500 295 300 295 234 325Z" fill="${c}" ${L}/><path d="M250 300 L550 300" stroke="${c2}" stroke-width="10" stroke-dasharray="14 12"/>` };
     case "headscarf": return {
       back: `<path d="M200 330 C180 90 620 90 600 330 C620 520 640 650 680 780 C520 820 280 820 120 780 C160 650 180 520 200 330Z" fill="${c}" ${L}/>`,
