@@ -29,6 +29,7 @@ Seeddance lip-sync guides (links in `prompts.md`).
 - Mother owns the house (deed reveal, evicts son and wife)
 - Cheap car key opens a Mercedes
 - Biker at a father-daughter dance ("Never Dance Alone")
+- The Grant (fiancée mocked at gala chairs the foundation)
 - Which One? (girl finds the biker dad she never met)
 - One More Time (girl asks biker bar to ride her dying dad's bike past his window)
 - Sit With Us (biker saves choking girl in diner)
@@ -57,3 +58,7 @@ Seeddance lip-sync guides (links in `prompts.md`).
   plus the final encode; the first run also downloads ~1 GB of models). Pass 1 swaps the man (reference face at frame 540),
   pass 2 swaps the framed photo behind him (2nd-largest face at frame 540). Girl and manager unchanged, audio bit-identical.
   Distance 0.3, not 0.5: in 3.9.1 the scale changed and at 0.5 the manager got swapped too.
+- Reference reel analyzed (3M views, gala "she's my fiancée" reveal): 30 s, 720x1280, ~16 cuts, 5 people
+  (son, fiancée, his mother, his sister, a staff member); calm intro line, insult by 2 s, reveal at ~17 s
+  (staff: "the foundation is looking for you"), payoff "my family funded tonight", ending line ~29 s.
+  Remade as prompt #22 "The Grant" with all-new dialogue.

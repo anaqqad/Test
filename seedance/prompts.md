@@ -780,3 +780,46 @@ Camera: opening extreme close-up on the girl at the door; a still, tense medium 
 - Hashtags: #biker #bikers #bikerlife #dad #fatherdaughter #emotional #familyfound #storytime #plottwist #fyp #reels #viral #aistory
 - Cover frame: the girl at the door holding the photo (0-1 s)
 - AI label: turn on "AI-generated content"
+
+## 22. "The Grant" (remake of a 3M-view gala reveal reel: same structure, new dialogue, new cast)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal family drama at an elegant charity gala in a hotel ballroom at night, round tables with white cloths and white roses, gold chairs, warm candlelight, a small stage with a podium in the background, shallow depth of field, natural skin texture, light film grain. Exactly 5 characters, identical faces and wardrobe in every shot; other guests stay blurred in the background and never speak. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. No logos, no readable signs, no watermarks. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- FIANCÉE (late 20s): white woman, shoulder-length wavy chestnut hair, minimal makeup, small pearl studs, a simple knee-length navy cotton dress with short sleeves, flat beige shoes. Calm and composed.
+- SON (early 30s): white man, short dark-blond hair, light stubble, navy suit, white open-collar shirt, no tie, silver watch.
+- MOTHER (late 50s): white woman, sleek silver-blonde bob, heavy diamond earrings, a fitted emerald-green satin gown, a thick gold necklace. Cold and proud.
+- SISTER (late 20s): white woman, long straight platinum hair, a black one-shoulder cocktail dress, a thin diamond necklace, holding a champagne glass. Smug.
+- COORDINATOR (40s): white man, neat short grey hair, black suit, earpiece, holding a tablet.
+
+Location: the ballroom; the son and fiancée enter from the left; the mother and sister stand near a head table on the right; the stage is behind them. Screen direction never flips.
+
+0s-2s: Medium two-shot, Son guiding Fiancée by the hand into the ballroom toward his mother. SON (warm, from the very first frame): "Mom, there's someone I want you to meet before the auction."
+2s-3.5s: Close-up Mother, looking the navy dress up and down. MOTHER: "Is this the new assistant?"
+3.5s-5s: Close-up Son, firm. SON: "No, Mom. She's my fiancée."
+5s-7s: Close-up Sister, smirking over her champagne. SISTER: "Your fiancée? In that dress? Tonight?"
+7s-9s: Close-up Fiancée, calm, a small smile. FIANCÉE: "I didn't know love had a dress code."
+9s-11.5s: Close-up Mother, to her son. MOTHER: "Tonight we're asking the foundation for a grant."
+11.5s-13s: Close-up Mother, waving a hand toward the back of the room. MOTHER: "Maybe she can sit near the kitchen."
+13s-14s: Close-up Sister. SISTER: "You're embarrassing all of us."
+14s-16.5s: Close-up Fiancée, steady. FIANCÉE: "It's okay. I never stay where I'm not welcome."
+16.5s-18s: Medium shot, Coordinator steps in beside Fiancée, polite, tablet in hand. COORDINATOR: "Ma'am, the board is ready for your speech."
+18s-20s: Close-up Fiancée. FIANCÉE: "Thank you. My grandfather started this foundation."
+20s-21.5s: Close-up Mother, her face draining. MOTHER: "Your grandfather?"
+21.5s-24.5s: Close-up Fiancée, cool and quiet. FIANCÉE: "I chair the board. And now I know how your family treats people."
+24.5s-26.5s: Close-up Fiancée. FIANCÉE: "Your grant request is denied."
+26.5s-27.5s: Close-up Son, stunned. SON: "Babe…"
+27.5s-30s: Close-up Fiancée, softening as she looks at him, then a final cold glance at his mother. FIANCÉE: "Relax. Your mother won't have to find me a seat anymore."
+
+Camera: opening medium two-shot walking in; mostly close-ups for the argument; one medium shot when the coordinator arrives; slow push-in on the fiancée for the reveal; hard cuts. Audio: clear lip-synced English dialogue starting at 0.0s, soft string-quartet music and murmuring crowd under the dialogue, glasses clinking, the music fading out at "Your grant request is denied." No subtitles, no text overlays, no watermark, no logos.
+```
+
+### Posting metadata
+- Hook text (first 2 s): HIS MOTHER CALLED HER "THE ASSISTANT"… SHE HAD NO IDEA WHO SHE WAS 😳
+- Caption: SHE MOCKED HER SON'S FIANCÉE'S DRESS AT THE GALA. THEN THE COORDINATOR WALKED UP… 😳
+  Never judge someone by what they wear. 👗 Who was wrong here? 👇
+- YouTube Shorts title: She Mocked Her Son's Fiancée… Then Found Out Who She Was 😳 #shorts
+- Hashtags: #plottwist #karma #dontjudge #familydrama #mil #motherinlaw #fiancee #gala #storytime #fyp #reels #viral #aistory
+- Cover frame: the mother's cold up-and-down look (2-3 s)
+- AI label: turn on "AI-generated content"
