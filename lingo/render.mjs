@@ -22,7 +22,7 @@ const nm = (p) => path.join(HERE, "node_modules", p);
 
 // ---------------- shared bits ----------------
 export const FONT_CSS = [600, 700, 800].map((w) => `<link rel="stylesheet" href="${fileUrl(nm(`@fontsource/montserrat/${w}.css`))}">`).join("");
-const SCRIPT_CSS = ["noto-sans-egyptian-hieroglyphs/400.css", "noto-sans-cuneiform/400.css", "noto-sans-gothic/400.css", "noto-serif/700.css"].map((f) => `<link rel="stylesheet" href="${fileUrl(nm(`@fontsource/${f}`))}">`).join("");
+const SCRIPT_CSS = ["noto-sans-egyptian-hieroglyphs/400.css", "noto-sans-cuneiform/400.css", "noto-sans-gothic/400.css", "noto-serif/700.css", "noto-sans-phoenician/400.css", "noto-serif-hebrew/700.css", "noto-sans-old-persian/400.css", "noto-serif-tc/700.css"].map((f) => `<link rel="stylesheet" href="${fileUrl(nm(`@fontsource/${f}`))}">`).join("");
 const world = JSON.parse(fs.readFileSync(nm("world-atlas/land-110m.json")));
 const land = topo.feature(world, world.objects.land);
 
@@ -263,7 +263,7 @@ export function logoSvg(h = 120, dark = false) {
 // screen never sits on silence ("switch as soon as the voice stops").
 export function segDuration(video, item, an) {
   const full = video.layout === "ranking" ? 11.0 : +(1.4 + 5.0 * item.cards.length + 1.2).toFixed(2);
-  if (video.sim && an && an.end) return +Math.max(an.end + 0.8, 1.2 + 1.6 * item.cards.length).toFixed(2); // generated audio: fit the voice exactly
+  if (video.sim && an && an.end) return +Math.max(an.end + 0.8, 9.5).toFixed(2); // generated audio: fit the voice exactly
   if (!an || !an.end || an.end >= full - 1.0) return full;
   const floor = video.layout === "ranking" ? 5.0 : 1.2 + 1.6 * item.cards.length;
   return +Math.min(full, Math.max(an.end + 0.8, floor)).toFixed(2);

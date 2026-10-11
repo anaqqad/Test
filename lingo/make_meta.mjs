@@ -53,6 +53,7 @@ const intro = {
   conlangs: "Languages that somebody simply invented, and the people who actually speak them. Every voice you hear is a real recording.",
   revived: "Languages that died, or nearly did, and came back. Every voice you hear is a real recording of the language.",
   soundlike: "Maltese that sounds like Arabic, Portuguese that sounds like Russian, Welsh that sounds like Elvish. Guess first, then find out why. Every voice you hear is a real recording of the language.",
+  ancient2: "What did the Maya, the Persians, the Phoenicians and the Gauls sound like? Ten lost languages of lost empires, simulated with AI from real ancient texts.",
   ancient: "What did the Vikings, Romans, Egyptians and Sumerians actually sound like? We go back 6,000 years, one dead language at a time.",
   hardest: "How hard is each language for an English speaker? Based on the US Foreign Service Institute's estimates of class time. Every voice you hear is a real recording.",
 }[k] || "";
@@ -63,6 +64,7 @@ const tags = {
   conlangs: "constructed languages, conlangs, invented languages, Esperanto, Toki Pona, Klingon, Volapuk, Lojban, Ido, languages be like, linguistics, LingoDude",
   revived: "revived languages, language revival, dead languages, Hebrew, Cornish, Manx, Maori, Latin, Sanskrit, languages be like, linguistics, LingoDude",
   soundlike: "languages that sound like other languages, languages be like, Maltese, European Portuguese, Romanian, Dutch, West Frisian, Afrikaans, Luxembourgish, Esperanto, Hungarian, Persian, Korean, Welsh, linguistics, LingoDude",
+  ancient2: "extinct languages, dead languages, ancient languages, AI simulation, Classical Maya, Tocharian, Meroitic, Gaulish, Old Persian, Aramaic, Etruscan, Old Chinese, Phoenician, Mycenaean Greek, Linear B, reconstructed pronunciation, linguistics, LingoDude",
   ancient: "dead languages, extinct languages, ancient languages, what did ancient languages sound like, Ancient Egyptian, Sumerian, Akkadian, Hittite, Ancient Greek, Latin, Gothic, Old English, Old Norse, Proto-Indo-European, reconstructed pronunciation, linguistics, LingoDude",
   hardest: "hardest languages, language difficulty, FSI, ranking languages, languages for English speakers, learn languages, linguistics, LingoDude",
 }[k] || "";
@@ -72,10 +74,10 @@ const desc = [intro, "", "Which language should we cover next? Tell us in the co
     "Nobody alive has heard these languages, so every voice in this video is an AI simulation, not a recording. The method:",
     "1. A real surviving text: every line is an actual ancient text, not invented sentences.",
     "2. Reconstructed pronunciation: linguists rebuild how a language sounded from its descendants (Coptic for Egyptian, Icelandic for Old Norse), from how foreigners spelled it (Babylonian scribes wrote Egyptian names with vowels), from ancient grammarians (Romans described their own v and c), and from poetry, rhyme and spelling mistakes. We wrote each line in the International Phonetic Alphabet (IPA) following these standard reconstructions.",
-    "3. AI voice reading the sounds directly: open-source Piper text-to-speech voices were fed the IPA sounds themselves, so they say exactly what the reconstruction says instead of reading the words in their own language. Each language got a voice from a modern language with similar sounds: Arabic for Egyptian, Hebrew for Akkadian, Icelandic for Old Norse and Gothic, Italian for Latin, Greek for Ancient Greek, Turkish for Hittite, Dutch for Old English, Persian for Sumerian, German for Proto-Indo-European.",
+    `3. AI voice reading the sounds directly: open-source Piper text-to-speech voices were fed the IPA sounds themselves, so they say exactly what the reconstruction says instead of reading the words in their own language. Each language got a voice from a modern language with similar sounds: ${v.simVoices}.`,
     "Limits: the modern voice's accent comes through, sounds a voice was never trained on are replaced with the closest one, Ancient Greek's musical pitch accent is not reproduced, and some details (Egyptian vowels, the laryngeal sounds of Proto-Indo-European) are educated guesses even among experts. Think of it as a best guess built on real scholarship.",
     "",
-    "Texts: Hávamál 76, Beowulf 1-2, Gothic Bible (Matthew 6:9), Caesar, Homer's Iliad 1.1, Hrozný's Hittite sentence, Code of Hammurabi law 1, the Egyptian royal formula ankh wedja seneb, the Sumerian King List, and Schleicher's fable in the version by Andrew Byrd."]
+    `Texts: ${v.simTexts}.`]
     : ["Audio credits (all via Wikimedia Commons):", ...credits, `Licences: ${[...lic].join(" and ")}`,
   "Speaker counts are estimates; sources disagree for many small languages."]), "", "#languages #linguistics #languagesbelike"].join("\n").replace(/[<>]/g, "");
 fs.mkdirSync("meta", { recursive: true });

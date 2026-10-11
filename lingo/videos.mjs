@@ -649,6 +649,8 @@ export const VIDEOS = {
   // and read by a Piper voice (ipa_say.py / sim_audio.py). The video labels every clip as an AI simulation.
   ancient: {
     title: "Extinct Languages Simulated by AI (Part 1)",
+    simVoices: "Arabic for Egyptian, Hebrew for Akkadian, Icelandic for Old Norse and Gothic, Italian for Latin, Greek for Ancient Greek, Turkish for Hittite, Dutch for Old English, Persian for Sumerian, German for Proto-Indo-European",
+    simTexts: "Hávamál 76, Beowulf 1-2, Gothic Bible (Matthew 6:9), Caesar, Homer's Iliad 1.1, Hrozný's Hittite sentence, Code of Hammurabi law 1, the Egyptian royal formula ankh wedja seneb, the Sumerian King List, and Schleicher's fable in the version by Andrew Byrd",
     part: "",
     layout: "story",
     counterLabel: "spoken around",
@@ -756,6 +758,118 @@ export const VIDEOS = {
           "This is 'The Sheep and the Horses', a short story linguists write in it: a sheep that had no wool saw horses.",
         ],
         audio: { sim: { model: "de_DE-thorsten-medium", scale: 1.1, words: [["h₂áwis", "ˈxawis"], ["h₁éḱwōs-kʷe.", "ˈʔekʷoːskʷe."], ["h₂áwis,", "ˈxawis,"], ["yésmin", "ˈjesmin"], ["h₂wl̥h₁néh₂", "xʷl̩ˈneːx"], ["ne", "ne"], ["h₁ést,", "ˈʔest,"], ["dédorḱe", "ˈdedorke"], ["h₁éḱwons.", "ˈʔekʷons."]] } },
+      },
+    ],
+  },
+  // ------------------------------------------------------------------ 9
+  ancient2: {
+    title: "Extinct Languages Simulated by AI (Part 2)",
+    simVoices: "Mexican Spanish for Maya, Russian for Tocharian, Swahili for Meroitic, Welsh for Gaulish, Persian for Old Persian, Hebrew for Aramaic, Romanian for Etruscan, Mandarin for Old Chinese, Arabic for Phoenician, Greek for Mycenaean Greek",
+    simTexts: "the royal title of Pakal of Palenque, Tocharian B kinship words, the Meroitic words for king and queen, the Gaulish dedication from Vaison-la-Romaine, Darius's Behistun inscription, Daniel 5:25, the numbers on Etruscan dice, the first poem of the Shijing (Old Chinese after Baxter and Sagart), the Ahiram sarcophagus, and Linear B words from Pylos",
+    part: "",
+    layout: "story",
+    counterLabel: "spoken around",
+    sim: true,
+    items: [
+      {
+        name: "Classical Maya", flag: null, speakers: "~700 AD", scene: "amazon", loc: [17.48, -92.05, "Palenque, Mexico"],
+        script: "k'uhul baakal ajaw, K'inich Janaab Pakal", scriptLabel: "MAYA GLYPHS, IN LATIN LETTERS",
+        char: { skin: "brown", hair: "long", hairColor: "black", hat: { type: "feathers", color: "#1f8a5b", color2: "#f2c94c" }, outfit: { type: "wrap", color: "#f4f1e8", color2: "#1f8a5b", trim: "#c0392b" }, necklace: "#1f8a5b", expression: "neutral" },
+        cards: [
+          "The royal title of Pakal the Great, who ruled the city of Palenque for 68 years: holy lord of Baakal, K'inich Janaab Pakal.",
+          "Maya glyphs were only cracked in the late 1900s, after Yuri Knorozov showed in the 1950s that many signs stand for syllables. Mayan languages are still spoken by millions today.",
+        ],
+        audio: { sim: { model: "es_MX-ald-medium", scale: 1.1, words: [["k'uhul", "kuˈhul"], ["baakal", "baːˈkal"], ["ajaw,", "aˈxaw,"], ["K'inich", "kiˈnitʃ"], ["Janaab", "xaˈnaːb"], ["Pakal.", "paˈkal."]] } },
+      },
+      {
+        name: "Tocharian", flag: null, speakers: "~600 AD", scene: "arabia", loc: [41.72, 82.94, "Kucha, western China"],
+        script: "pācer · mācer · procer · kante", scriptLabel: "TOCHARIAN B, IN LATIN LETTERS",
+        char: { skin: "light", hair: "long", hairColor: "auburn", outfit: { type: "coat", color: "#7a2e2e", inner: "#f2c94c" }, expression: "neutral" },
+        cards: [
+          "Found in 1,000-year-old manuscripts in the deserts of western China, yet it's Indo-European like English: pācer, mācer, procer mean father, mother, brother.",
+          "Its word for hundred, kante, starts with k like Latin centum, not with s like its Indian and Persian neighbours, Sanskrit śata and Persian sad.",
+        ],
+        audio: { sim: { model: "ru_RU-denis-medium", scale: 1.15, words: [["pācer,", "ˈpaːtɕer,"], ["mācer,", "ˈmaːtɕer,"], ["procer,", "ˈprotɕer,"], ["kante.", "ˈkante."]] } },
+      },
+      {
+        name: "Meroitic", flag: null, speakers: "~100 BC", scene: "savanna", loc: [16.94, 33.75, "Meroë, Sudan"],
+        script: "qore · kdke", scriptLabel: "MEROITIC, IN LATIN LETTERS",
+        char: F({ skin: "dark", hair: "short", hairColor: "black", hat: { type: "crown", color: "#d9b13b", color2: "#c0392b" }, outfit: { type: "dress", color: "#f4f1e8", color2: "#d9b13b", trim: "#c0392b" }, necklace: "#d9b13b", earrings: "#d9b13b", expression: "neutral" }),
+        cards: [
+          "The language of the Kingdom of Kush in today's Sudan, land of more pyramids than Egypt. We can read its letters aloud, but we understand only a small part of it.",
+          "Two words we do know: qore, king, and kdke, queen. Through Greek and the Bible, kdke became the name Candace.",
+        ],
+        audio: { sim: { model: "sw_CD-lanfrica-medium", scale: 1.15, words: [["qore,", "ˈkore,"], ["kdke.", "kanˈdake."]] } },
+      },
+      {
+        name: "Gaulish", flag: null, speakers: "~50 BC", scene: "forest", loc: [44.24, 5.07, "Vaison-la-Romaine, France"],
+        script: "ΣΕΓΟΜΑΡΟΣ ΟΥΙΛΛΟΝΕΟΣ ΤΟΟΥΤΙΟΥΣ ΝΑΜΑΥΣΑΤΙΣ ΕΙΩΡΟΥ ΒΗΛΗΣΑΜΙ ΣΟΣΙΝ ΝΕΜΗΤΟΝ", scriptLabel: "GAULISH, WRITTEN IN GREEK LETTERS",
+        char: { skin: "pale", hair: "long", hairColor: "blonde", mustache: true, beardColor: "#9a6b2f", outfit: { type: "tunic", color: "#2e6b4f", trim: "#c0392b", pattern: "check", color2: "#1f4e3a" }, expression: "grin" },
+        cards: [
+          "Asterix's language! A Gaul named Segomaros, citizen of Nîmes, dedicated a sacred grove, a nemeton, to the goddess Belesama, writing Gaulish in Greek letters.",
+          "Gaulish died out under Roman rule, but French kept around 150 of its words, like chêne (oak) and mouton (sheep).",
+        ],
+        audio: { sim: { model: "cy_GB-gwryw_gogleddol-medium", scale: 1.1, words: [["Segomaros", "seɡoˈmaros"], ["Uilloneos", "wilˈloneos"], ["toutius", "ˈtoutius"], ["Namausatis", "namauˈsatis"], ["eiōrū", "ˈejoːruː"], ["Bēlēsami", "beːleːˈsami"], ["sosin", "ˈsosin"], ["nemeton.", "ˈnemeton."]] } },
+      },
+      {
+        name: "Old Persian", flag: null, speakers: "~520 BC", scene: "zagros", loc: [34.39, 47.44, "Behistun, Iran"],
+        script: "𐎠𐎭𐎶𐏐𐎭𐎠𐎼𐎹𐎺𐎢𐏁𐏐𐎧𐏁𐎠𐎹𐎰𐎡𐎹", scriptFont: "Noto Sans Old Persian", scriptSize: 64,
+        char: { skin: "olive", hair: "long", hairColor: "black", beard: true, hat: { type: "crown", color: "#d9b13b", color2: "#1f4e8c" }, outfit: { type: "coat", color: "#5b2a6b", inner: "#d9b13b" }, expression: "neutral" },
+        cards: [
+          "King Darius carved this on a cliff at Behistun: I am Darius, the great king, king of kings. The same text in three languages later helped scholars crack cuneiform.",
+          "His word for king, xšāyaθiya, slowly turned into the Persian word shah.",
+        ],
+        audio: { sim: { model: "fa_IR-amir-medium", scale: 1.1, words: [["adam", "aˈdam"], ["Dārayavauš,", "daːraˈjavauʃ,"], ["xšāyaθiya", "xʃaːˈjaθija"], ["vazraka,", "vazˈraka,"], ["xšāyaθiya", "xʃaːˈjaθija"], ["xšāyaθiyānām.", "xʃaːjaθiˈjaːnaːm."]] } },
+      },
+      {
+        name: "Ancient Aramaic", flag: null, speakers: "~500 BC", scene: "arabia", loc: [32.5, 44.4, "Babylon, Iraq"],
+        script: "מנא מנא תקל ופרסין", scriptFont: "Noto Serif Hebrew", scriptSize: 60, scriptLabel: "ARAMAIC, IN THE SQUARE SCRIPT",
+        char: { skin: "tan", hair: "short", hairColor: "black", beard: true, hat: { type: "turban", color: "#f4f1e8", color2: "#1f4e8c" }, outfit: { type: "wrap", color: "#8a6a3b", color2: "#f4f1e8", trim: "#1f4e8c" }, expression: "neutral" },
+        cards: [
+          "Mene, mene, tekel, upharsin: the writing on the wall in the Book of Daniel, in Aramaic. Counted, counted, weighed, divided.",
+          "Aramaic was the shared language of the Persian Empire and the everyday language of Jesus. Small communities still speak modern forms of it.",
+        ],
+        audio: { sim: { model: "he_IL-saspeech-medium", scale: 1.15, words: [["mənē", "məˈneː"], ["mənē", "məˈneː"], ["təqēl", "təˈkeːl"], ["ūp̄arsīn.", "ufarˈsiːn."]] } },
+      },
+      {
+        name: "Etruscan", flag: null, speakers: "~500 BC", scene: "tuscany", loc: [42.5, 11.8, "Etruria, Italy"],
+        script: "θu · zal · ci · huθ · maχ · śa", scriptLabel: "THE NUMBERS ON ETRUSCAN DICE",
+        char: F({ skin: "olive", hair: "braids", hairColor: "black", outfit: { type: "dress", color: "#b5452f", color2: "#f4f1e8", trim: "#1d1d1d" }, earrings: "#d9b13b", expression: "smile" }),
+        cards: [
+          "The language of Italy before Rome. We can read every letter, since the Romans took their alphabet from the Etruscans, but we barely understand it.",
+          "Even the numbers one to six on Etruscan dice, θu, zal, ci, huθ, maχ, śa, are still argued over.",
+        ],
+        audio: { sim: { model: "ro_RO-mihai-medium", scale: 1.2, words: [["θu,", "tʰu,"], ["zal,", "tsal,"], ["ci,", "ki,"], ["huθ,", "hutʰ,"], ["maχ,", "makʰ,"], ["śa.", "ʃa."]] } },
+      },
+      {
+        name: "Old Chinese", flag: null, speakers: "~800 BC", scene: "hills", loc: [34.6, 112.4, "Yellow River, China"],
+        script: "關關雎鳩 在河之洲", scriptFont: "Noto Serif TC", scriptSize: 60,
+        char: F({ skin: "light", hair: "bun", hairColor: "black", outfit: { type: "coat", color: "#9b1d1d", inner: "#f2c94c" }, expression: "smile" }),
+        cards: [
+          "The first poem in the Book of Songs, about 3,000 years old: guan guan cry the ospreys, on the island in the river.",
+          "Characters don't show sound, so linguists rebuild it from ancient rhymes and old Chinese words in Vietnamese, Korean and Japanese. Many think it had no tones yet.",
+        ],
+        audio: { sim: { model: "zh_CN-huayan-medium", scale: 1.15, words: [["kʷˤra[n]", "kʷraːn"], ["kʷˤra[n]", "kʷraːn"], ["tsʰa", "tsʰa"], ["ku,", "ku,"], ["dzˤəʔ", "dzəʔ"], ["ɡˤaj", "ɡaj"], ["tə", "tə"], ["tu.", "tu."]] } },
+      },
+      {
+        name: "Phoenician", flag: null, speakers: "~1000 BC", scene: "adriatic", loc: [34.12, 35.65, "Byblos, Lebanon"],
+        script: "𐤀𐤓𐤍 𐤆 𐤐𐤏𐤋 𐤀𐤕𐤁𐤏𐤋 𐤁𐤍 𐤀𐤇𐤓𐤌 𐤌𐤋𐤊 𐤂𐤁𐤋", scriptFont: "Noto Sans Phoenician", scriptSize: 56,
+        char: { skin: "olive", hair: "short", hairColor: "black", beard: true, outfit: { type: "tunic", color: "#6b1f5b", trim: "#d9b13b" }, expression: "neutral" },
+        cards: [
+          "From King Ahiram's coffin in Byblos: this coffin Ittobaal, son of Ahiram, king of Byblos, made for his father.",
+          "Phoenician sailors spread this 22-letter alphabet around the Mediterranean. It is the ancestor of the Greek, Latin, Hebrew and Arabic alphabets.",
+        ],
+        audio: { sim: { model: "ar_JO-kareem-medium", scale: 1.1, words: [["ʾrn", "ʔaˈroːn"], ["z", "zeː"], ["pʿl", "paˈʕal"], ["ʾtbʿl", "ʔittobaˈʕal"], ["bn", "bin"], ["ʾḥrm,", "ʔaħiːˈrom,"], ["mlk", "milk"], ["gbl.", "ˈɡubl."]] } },
+      },
+      {
+        name: "Mycenaean Greek", flag: null, speakers: "~1400 BC", scene: "adriatic", loc: [37.03, 21.7, "Pylos, Greece"],
+        script: "wa-na-ka · po-ti-ni-ja · ti-ri-po · di-pa", scriptLabel: "LINEAR B, IN LATIN LETTERS",
+        char: F({ skin: "olive", hair: "long", hairColor: "black", outfit: { type: "dress", color: "#1f4e8c", color2: "#f4f1e8", trim: "#d9b13b", pattern: "stripes" }, expression: "neutral" }),
+        cards: [
+          "Written in Linear B on clay tablets around 1400 BC, the oldest Greek we have: wanax (king), potnia (lady), tripod, cup.",
+          "In 1952 architect Michael Ventris cracked Linear B. A tablet that spelled ti-ri-po next to a drawing of a tripod soon proved him right.",
+        ],
+        audio: { sim: { model: "el_GR-rapunzelina-medium", scale: 1.15, words: [["wanaks,", "ˈwanaks,"], ["potnija,", "ˈpotnija,"], ["tripos,", "ˈtripos,"], ["dipas.", "ˈdipas."]] } },
       },
     ],
   },
