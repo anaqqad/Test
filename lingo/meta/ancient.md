@@ -1,7 +1,7 @@
-# YouTube metadata: Dead Languages Brought Back to Life (AI Simulation)
+# YouTube metadata: Extinct Languages Simulated by AI (Part 1)
 
 ## Title
-Dead Languages Brought Back to Life (AI Simulation)
+Extinct Languages Simulated by AI (Part 1)
 
 ## Description
 What did the Vikings, Romans, Egyptians and Sumerians actually sound like? We go back 6,000 years, one dead language at a time.

@@ -44,10 +44,10 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
 ## Owner rules for these videos
 - Build **6 videos** around the same idea (keys in `lingo/videos.mjs`: extinct, niche, hardest, sounds, conlangs, revived; plus `soundlike` "Languages That Sound Like a Different Language", 2:38, done).
 - Topics must match the reference channel's style: meme-category titles ("X Languages be like…", rankings) + interesting
-  facts. No "Part 2" anywhere (owner has no part 1 videos). **Not** videos about one country or region (owner rejected "Italy's languages" and "Middle East").
+  facts. No "Part 2" on the original six (they have no part 1). Exception: the AI-simulation series is a real series, "Extinct Languages Simulated by AI (Part 1)" is `ancient`; Parts 2, 3… are planned (Lost empires; Medieval voices; Last speakers; Proto-languages). **Not** videos about one country or region (owner rejected "Italy's languages" and "Middle East").
 - **Only use sounds that were actually found**: real recordings from Wikimedia Commons. No synthesized speech or
   generated music. A language with no recording found gets replaced or dropped, never faked.
-  Exception the owner asked for: `ancient` ("Dead Languages Brought Back to Life (AI Simulation)") uses Piper voices
+  Exception the owner asked for: `ancient` ("Extinct Languages Simulated by AI (Part 1)") uses Piper voices
   reading scholarly IPA reconstructions (`lingo/sim_audio.py`, `lingo/ipa_say.py`), labelled "AI SIMULATION" on screen
   and in the description. Tick YouTube's altered/synthetic content box for it.
 - Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).

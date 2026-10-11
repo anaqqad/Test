@@ -648,7 +648,7 @@ export const VIDEOS = {
   // Simulated: the owner asked for AI voices here. Each phrase is a published scholarly reconstruction, written in IPA
   // and read by a Piper voice (ipa_say.py / sim_audio.py). The video labels every clip as an AI simulation.
   ancient: {
-    title: "Dead Languages Brought Back to Life (AI Simulation)",
+    title: "Extinct Languages Simulated by AI (Part 1)",
     part: "",
     layout: "story",
     counterLabel: "spoken around",
