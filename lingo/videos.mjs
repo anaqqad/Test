@@ -884,6 +884,13 @@ export const VIDEOS = {
     counterLabel: "year",
     sim: true,
     simVoices: "one British English voice for every era, so only the language changes",
+    simMethod: [
+      "Nobody alive has heard English before the age of recordings, so the voice in this video is an AI simulation, not a recording. The method:",
+      "1. Real texts: every line is a real text from its time, and the Lord's Prayer appears in several eras so you can compare the same words.",
+      "2. Reconstructed pronunciation: linguists rebuild older English from spelling (Old and Middle English were written much closer to how they sounded), from rhymes and poetic meter, from spelling mistakes, from descriptions by early grammarians, and from how English is spoken in different places today.",
+      "3. One AI voice for every era: an open-source Piper text-to-speech voice was fed the reconstructed sounds directly, written in the International Phonetic Alphabet (IPA), so it says exactly what the reconstruction says. Using the same voice throughout means only the language changes, not the speaker.",
+      "Limits: the voice is a modern British speaker, so his accent comes through. Older stages are less certain: Old English vowels and Chaucer's final e are rebuilt from spelling, rhyme and meter, and the 1600s accent follows David Crystal's Original Pronunciation work. Think of it as a best guess built on real scholarship.",
+    ],
     simLimits: "older stages are more uncertain: Old English vowels and Chaucer's final e are rebuilt from spelling, rhyme and meter, and the 1600s accent follows David Crystal's Original Pronunciation work",
     simTexts: "Cædmon's Hymn, the Lord's Prayer from the West Saxon Gospels, Chaucer's General Prologue, the Wycliffe Bible, Tyndale's New Testament, Hamlet, the King James Bible, the Declaration of Independence, and a modern translation of the Lord's Prayer",
     items: [

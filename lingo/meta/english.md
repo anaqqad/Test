@@ -19,12 +19,12 @@ Which language should we cover next? Tell us in the comments 👇
 1:23 1776 American English (1776)
 1:39 Modern English (today)
 
-HOW WE SIMULATED THEM
-Nobody alive has heard these languages, so every voice in this video is an AI simulation, not a recording. The method:
-1. A real surviving text: every line is an actual ancient text, not invented sentences.
-2. Reconstructed pronunciation: linguists rebuild how a language sounded from its descendants (Coptic for Egyptian, Icelandic for Old Norse), from how foreigners spelled it (Babylonian scribes wrote Egyptian names with vowels), from ancient grammarians (Romans described their own v and c), and from poetry, rhyme and spelling mistakes. We wrote each line in the International Phonetic Alphabet (IPA) following these standard reconstructions.
-3. AI voice reading the sounds directly: open-source Piper text-to-speech voices were fed the IPA sounds themselves, so they say exactly what the reconstruction says instead of reading the words in their own language. Each language got a voice from a modern language with similar sounds: one British English voice for every era, so only the language changes.
-Limits: the modern voice's accent comes through, sounds a voice was never trained on are replaced with the closest one, and older stages are more uncertain: Old English vowels and Chaucer's final e are rebuilt from spelling, rhyme and meter, and the 1600s accent follows David Crystal's Original Pronunciation work. Think of it as a best guess built on real scholarship.
+HOW WE SIMULATED IT
+Nobody alive has heard English before the age of recordings, so the voice in this video is an AI simulation, not a recording. The method:
+1. Real texts: every line is a real text from its time, and the Lord's Prayer appears in several eras so you can compare the same words.
+2. Reconstructed pronunciation: linguists rebuild older English from spelling (Old and Middle English were written much closer to how they sounded), from rhymes and poetic meter, from spelling mistakes, from descriptions by early grammarians, and from how English is spoken in different places today.
+3. One AI voice for every era: an open-source Piper text-to-speech voice was fed the reconstructed sounds directly, written in the International Phonetic Alphabet (IPA), so it says exactly what the reconstruction says. Using the same voice throughout means only the language changes, not the speaker.
+Limits: the voice is a modern British speaker, so his accent comes through. Older stages are less certain: Old English vowels and Chaucer's final e are rebuilt from spelling, rhyme and meter, and the 1600s accent follows David Crystal's Original Pronunciation work. Think of it as a best guess built on real scholarship.
 
 Texts: Cædmon's Hymn, the Lord's Prayer from the West Saxon Gospels, Chaucer's General Prologue, the Wycliffe Bible, Tyndale's New Testament, Hamlet, the King James Bible, the Declaration of Independence, and a modern translation of the Lord's Prayer.
 

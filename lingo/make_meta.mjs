@@ -72,7 +72,7 @@ const tags = {
 }[k] || "";
 const title = v.title;
 const desc = [intro, "", "Which language should we cover next? Tell us in the comments 👇", "", ...chapters, "",
-  ...(v.sim ? ["HOW WE SIMULATED THEM",
+  ...(v.simMethod ? ["HOW WE SIMULATED IT", ...v.simMethod, "", `Texts: ${v.simTexts}.`] : v.sim ? ["HOW WE SIMULATED THEM",
     "Nobody alive has heard these languages, so every voice in this video is an AI simulation, not a recording. The method:",
     "1. A real surviving text: every line is an actual ancient text, not invented sentences.",
     "2. Reconstructed pronunciation: linguists rebuild how a language sounded from its descendants (Coptic for Egyptian, Icelandic for Old Norse), from how foreigners spelled it (Babylonian scribes wrote Egyptian names with vowels), from ancient grammarians (Romans described their own v and c), and from poetry, rhyme and spelling mistakes. We wrote each line in the International Phonetic Alphabet (IPA) following these standard reconstructions.",
