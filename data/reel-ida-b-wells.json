@@ -1,0 +1,447 @@
+{
+  "id": "reel-ida-b-wells",
+  "title": "She Bit a Conductor to Keep Her Seat",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "leadInSeconds": 0.0,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3,
+    "hookBoostDb": 2
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "assets": {},
+  "faces": {
+    "ida": [
+      [
+        0.33,
+        0.27,
+        0.58,
+        0.47
+      ]
+    ],
+    "children": [
+      [
+        0.28,
+        0.02,
+        0.82,
+        0.63
+      ]
+    ],
+    "ida1897": [
+      [
+        0.32,
+        0.3,
+        0.65,
+        0.6
+      ]
+    ]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "She bit a conductor to keep her seat.",
+      "visual": {
+        "kind": "photo",
+        "image": "ida",
+        "focus": [
+          0.46,
+          0.37
+        ],
+        "zoom": [
+          1.35,
+          1.42
+        ],
+        "anchor": [
+          0.46,
+          0.27
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "She *bit a conductor* to keep her seat."
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "Meet Ida B. Wells.",
+      "visual": {
+        "kind": "card",
+        "image": "ida1897",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Ida B. Wells, published 1897"
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Ida B. Wells",
+          "sub": "Journalist · 1862 – 1931"
+        }
+      }
+    },
+    {
+      "id": "born",
+      "text": "She was born enslaved in Mississippi in 1862.",
+      "visual": {
+        "kind": "title",
+        "title": "1862",
+        "sub": "born enslaved in Holly Springs, Mississippi"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Holly Springs",
+          "sub": "Mississippi"
+        }
+      }
+    },
+    {
+      "id": "train",
+      "text": "As a young schoolteacher, she took a train in Tennessee and sat in the ladies' car.",
+      "visual": {
+        "kind": "photo",
+        "image": "ida",
+        "focus": [
+          0.46,
+          0.45
+        ],
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "anchor": [
+          0.46,
+          0.38
+        ]
+      },
+      "section": "story",
+      "overlays": {
+        "pin": {
+          "label": "Tennessee",
+          "sub": "1880s"
+        }
+      }
+    },
+    {
+      "id": "order",
+      "text": "The conductor ordered her into the smoking car.",
+      "visual": {
+        "kind": "title",
+        "title": "Move",
+        "sub": "to the smoking car, the conductor said"
+      }
+    },
+    {
+      "id": "refused",
+      "text": "She refused. When he grabbed her, she bit his hand.",
+      "visual": {
+        "kind": "photo",
+        "image": "ida",
+        "focus": [
+          0.45,
+          0.38
+        ],
+        "zoom": [
+          1.6,
+          1.7
+        ],
+        "anchor": [
+          0.46,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "dragged",
+      "text": "It took the conductor and two other men to drag her off the train.",
+      "visual": {
+        "kind": "title",
+        "title": "Three men",
+        "sub": "to drag her off"
+      }
+    },
+    {
+      "id": "sued",
+      "text": "She sued the railroad, and won 500 dollars.",
+      "visual": {
+        "kind": "title",
+        "title": "$500",
+        "sub": "she sued, and won"
+      },
+      "overlays": {
+        "stamp": "Won"
+      }
+    },
+    {
+      "id": "reversed",
+      "text": "Then the state supreme court took it away.",
+      "visual": {
+        "kind": "title",
+        "title": "Reversed",
+        "sub": "by the Tennessee Supreme Court"
+      }
+    },
+    {
+      "id": "pen",
+      "text": "So she picked up a pen, and became a journalist in Memphis.",
+      "visual": {
+        "kind": "card",
+        "image": "ida",
+        "crop": [
+          0.05,
+          0.15,
+          0.95,
+          0.75
+        ],
+        "caption": "Ida B. Wells, about 1893"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Memphis",
+          "sub": "Tennessee"
+        }
+      }
+    },
+    {
+      "id": "lynching",
+      "text": "In 1892, a mob murdered three Black store owners in Memphis. She investigated, and printed the facts.",
+      "visual": {
+        "kind": "title",
+        "title": "Memphis, 1892",
+        "sub": "she investigated, and printed the facts"
+      },
+      "section": "cost"
+    },
+    {
+      "id": "office",
+      "text": "A mob destroyed her newspaper office. She could never go home again.",
+      "visual": {
+        "kind": "title",
+        "title": "Exiled",
+        "sub": "her newspaper office destroyed"
+      }
+    },
+    {
+      "id": "chicago",
+      "text": "From Chicago, she spent her life exposing lynching.",
+      "visual": {
+        "kind": "card",
+        "image": "children",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          0.75
+        ],
+        "caption": "Ida B. Wells with her children, Chicago, 1909"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Chicago",
+          "sub": "Illinois"
+        }
+      }
+    },
+    {
+      "id": "pulitzer",
+      "text": "In 2020, she was awarded a Pulitzer Prize. Eighty-nine years after she died.",
+      "visual": {
+        "kind": "title",
+        "title": "2020",
+        "sub": "a Pulitzer Prize special citation"
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "legacy",
+      "text": "They took her seat, her paper, her city. Never her voice.",
+      "visual": {
+        "kind": "photo",
+        "image": "ida",
+        "focus": [
+          0.46,
+          0.4
+        ],
+        "zoom": [
+          1.15,
+          1.22
+        ],
+        "anchor": [
+          0.46,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "sources": {
+    "NPS": {
+      "name": "National Park Service: Places of Ida B. Wells-Barnett",
+      "url": "https://www.nps.gov/articles/000/places-of-ida-b-wells.htm"
+    },
+    "DUKE": {
+      "name": "Duke University, Ida B. Wells-Barnett background (quoting her autobiography Crusade for Justice)",
+      "url": "https://people.duke.edu/~ldbaker/classes/aaih/caaih/ibwells/ibwbkgrd.html"
+    },
+    "MT": {
+      "name": "Mississippi Today: 1884, Ida B. Wells dragged off train car",
+      "url": "https://mississippitoday.org/2025/05/04/1884-ida-b-wells-dragged-off-whites-only-train-car/"
+    },
+    "TSM": {
+      "name": "Tennessee State Museum: Three Events That Defined Ida B. Wells' Fight for Social Justice",
+      "url": "https://tnmuseum.org/Stories/posts/ida-b-wells-fight-for-social-justice"
+    },
+    "UCHI": {
+      "name": "University of Chicago Library: Guide to the Ida B. Wells Papers",
+      "url": "https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.IBWELLS"
+    },
+    "WTTW": {
+      "name": "WTTW: Ida B. Wells Awarded Posthumous Pulitzer (2020)",
+      "url": "https://news.wttw.com/2020/05/05/ida-b-wells-awarded-posthumous-pulitzer-outstanding-and-courageous-reporting"
+    },
+    "SUNT": {
+      "name": "Chicago Sun-Times: Ida B. Wells awarded posthumous Pulitzer (2020)",
+      "url": "https://chicago.suntimes.com/2020/5/4/21247175/ida-b-wells-pulitzer-prize-journalist-chicago-abolitionist-only-thing-she-really-had-truth"
+    }
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "When the conductor tried to remove her from the ladies' car, Wells bit his hand ('I fastened my teeth in the back of his hand').",
+      "sources": [
+        "DUKE",
+        "NPS",
+        "MT"
+      ]
+    },
+    {
+      "beat": "born",
+      "claim": "Born enslaved in Holly Springs, Mississippi, 1862.",
+      "sources": [
+        "DUKE",
+        "SUNT"
+      ]
+    },
+    {
+      "beat": "train",
+      "claim": "A young teacher, she rode a train in Tennessee and sat in the ladies' car.",
+      "sources": [
+        "NPS",
+        "DUKE",
+        "MT"
+      ],
+      "note": "Year: 1884 (MT, most sources) or 1883 (NPS); the reel gives no year."
+    },
+    {
+      "beat": "order",
+      "claim": "Ordered to move to the smoking car.",
+      "sources": [
+        "DUKE",
+        "MT"
+      ]
+    },
+    {
+      "beat": "dragged",
+      "claim": "The conductor and two other men removed her.",
+      "sources": [
+        "DUKE",
+        "TSM"
+      ],
+      "note": "TSM: 'with the help of other passengers'."
+    },
+    {
+      "beat": "sued",
+      "claim": "She sued and was awarded $500 by the circuit court.",
+      "sources": [
+        "NPS",
+        "TSM",
+        "UCHI"
+      ]
+    },
+    {
+      "beat": "reversed",
+      "claim": "The Tennessee Supreme Court reversed the award.",
+      "sources": [
+        "NPS",
+        "DUKE",
+        "UCHI"
+      ],
+      "note": "Year differs (1885 NPS, 1887 others); not stated."
+    },
+    {
+      "beat": "pen",
+      "claim": "Became a journalist and co-owner of the Memphis Free Speech.",
+      "sources": [
+        "NPS",
+        "DUKE"
+      ]
+    },
+    {
+      "beat": "lynching",
+      "claim": "In 1892 a mob murdered the three Black owners of People's Grocery in Memphis; Wells reported on it.",
+      "sources": [
+        "NPS",
+        "DUKE"
+      ]
+    },
+    {
+      "beat": "office",
+      "claim": "A mob destroyed the Free Speech office; she could not return to Memphis.",
+      "sources": [
+        "NPS",
+        "DUKE"
+      ]
+    },
+    {
+      "beat": "chicago",
+      "claim": "She moved to Chicago and continued her anti-lynching work.",
+      "sources": [
+        "NPS",
+        "DUKE",
+        "SUNT"
+      ]
+    },
+    {
+      "beat": "pulitzer",
+      "claim": "Posthumous Pulitzer Prize special citation, May 2020; she died in 1931.",
+      "sources": [
+        "WTTW",
+        "SUNT"
+      ]
+    }
+  ],
+  "notUsed": [
+    "'The three men were her friends' (one checked source): not used.",
+    "Years of the train incident and the reversal differ between sources: not stated."
+  ]
+}

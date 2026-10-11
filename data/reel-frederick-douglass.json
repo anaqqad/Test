@@ -1,0 +1,425 @@
+{
+  "id": "reel-frederick-douglass",
+  "title": "He Posed for More Photos Than Lincoln",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "leadInSeconds": 0.0,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3,
+    "hookBoostDb": 2
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "assets": {},
+  "faces": {
+    "p1860": [
+      [
+        0.38,
+        0.33,
+        0.75,
+        0.68
+      ]
+    ],
+    "young1855": [
+      [
+        0.38,
+        0.17,
+        0.58,
+        0.37
+      ]
+    ],
+    "miller": [
+      [
+        0.33,
+        0.12,
+        0.73,
+        0.5
+      ]
+    ],
+    "met1855": [
+      [
+        0.38,
+        0.22,
+        0.58,
+        0.42
+      ]
+    ],
+    "p1879": [
+      [
+        0.33,
+        0.3,
+        0.65,
+        0.55
+      ]
+    ],
+    "fugitive": [
+      [
+        0.35,
+        0.2,
+        0.65,
+        0.45
+      ]
+    ]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "He posed for more photos than Lincoln.",
+      "visual": {
+        "kind": "photo",
+        "image": "miller",
+        "focus": [
+          0.53,
+          0.31
+        ],
+        "zoom": [
+          1.25,
+          1.32
+        ],
+        "anchor": [
+          0.44,
+          0.26
+        ]
+      },
+      "section": "hook",
+      "overlays": {
+        "hook": "He posed for *more photos than Lincoln.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "His name was Frederick Douglass.",
+      "visual": {
+        "kind": "photo",
+        "image": "young1855",
+        "focus": [
+          0.48,
+          0.3
+        ],
+        "zoom": [
+          1.15,
+          1.22
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      },
+      "section": "who",
+      "overlays": {
+        "lowerThird": {
+          "name": "Frederick Douglass",
+          "sub": "c. 1818 – 1895"
+        }
+      }
+    },
+    {
+      "id": "born",
+      "text": "Born enslaved in Maryland, he escaped in 1838, disguised as a sailor.",
+      "visual": {
+        "kind": "card",
+        "image": "fugitive",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          0.62
+        ],
+        "caption": "\"The Fugitive's Song\", dedicated to Douglass, 1845"
+      },
+      "section": "story",
+      "overlays": {
+        "pin": {
+          "label": "Maryland",
+          "sub": "born enslaved"
+        }
+      }
+    },
+    {
+      "id": "speaker",
+      "text": "In the North, he became one of the most powerful voices against slavery.",
+      "visual": {
+        "kind": "photo",
+        "image": "met1855",
+        "focus": [
+          0.48,
+          0.4
+        ],
+        "zoom": [
+          1.3,
+          1.38
+        ],
+        "anchor": [
+          0.45,
+          0.35
+        ]
+      }
+    },
+    {
+      "id": "cartoons",
+      "text": "But most pictures of Black Americans in his time were demeaning, made to mock them.",
+      "visual": {
+        "kind": "title",
+        "title": "Mocked.",
+        "sub": "in cartoons, prints and posters"
+      }
+    },
+    {
+      "id": "camera",
+      "text": "So Douglass turned to the camera.",
+      "visual": {
+        "kind": "photo",
+        "image": "young1855",
+        "focus": [
+          0.48,
+          0.45
+        ],
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "anchor": [
+          0.45,
+          0.4
+        ]
+      }
+    },
+    {
+      "id": "sat",
+      "text": "From 1841 until his death in 1895, he sat for his portrait whenever he could.",
+      "visual": {
+        "kind": "title",
+        "title": "1841 – 1895",
+        "sub": "whenever he could"
+      }
+    },
+    {
+      "id": "count",
+      "text": "More than 160 times.",
+      "visual": {
+        "kind": "photo",
+        "image": "p1860",
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "zoom": [
+          1.05,
+          1.12
+        ],
+        "anchor": [
+          0.46,
+          0.4
+        ]
+      },
+      "overlays": {
+        "stamp": "160+"
+      }
+    },
+    {
+      "id": "dignity",
+      "text": "Each photo showed what slavery had tried to deny him: his dignity.",
+      "visual": {
+        "kind": "photo",
+        "image": "met1855",
+        "focus": [
+          0.48,
+          0.35
+        ],
+        "zoom": [
+          1.6,
+          1.7
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "lectures",
+      "text": "He even wrote lectures on the power of pictures.",
+      "visual": {
+        "kind": "title",
+        "title": "Pictures",
+        "sub": "he lectured on their power"
+      }
+    },
+    {
+      "id": "twist",
+      "text": "By the end of his life, he was the most photographed American of the 1800s. More than Abraham Lincoln.",
+      "visual": {
+        "kind": "photo",
+        "image": "p1879",
+        "focus": [
+          0.5,
+          0.42
+        ],
+        "zoom": [
+          1.1,
+          1.18
+        ],
+        "anchor": [
+          0.45,
+          0.36
+        ]
+      },
+      "section": "cost"
+    },
+    {
+      "id": "legacy",
+      "text": "They tried to turn Black Americans into cartoons. He answered with his own face.",
+      "visual": {
+        "kind": "photo",
+        "image": "miller",
+        "focus": [
+          0.53,
+          0.33
+        ],
+        "zoom": [
+          1.05,
+          1.12
+        ],
+        "anchor": [
+          0.45,
+          0.3
+        ]
+      },
+      "section": "legacy"
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "visual": {
+        "kind": "endcard"
+      },
+      "section": "cta",
+      "captions": false
+    }
+  ],
+  "sources": {
+    "NPS": {
+      "name": "National Park Service, Boston African American NHS: Picturing Frederick Douglass",
+      "url": "https://www.nps.gov/boaf/learn/news/picturing-frederick-douglass.htm"
+    },
+    "AWM": {
+      "name": "American Writers Museum: Frederick Douglass, Portraits",
+      "url": "https://exhibits.americanwritersmuseum.org/exhibits/frederick-douglass/portraits/"
+    },
+    "PBH": {
+      "name": "Picturing Black History: Powerful, Though Silent: Frederick Douglass' Portraits",
+      "url": "https://picturingblackhistory.org/powerful-though-silent-frederick-douglass-portraits/"
+    },
+    "NEBE": {
+      "name": "National Park Service, New Bedford Whaling NHP: Frederick Douglass",
+      "url": "https://home.nps.gov/nebe/learn/historyculture/frederickdouglass.htm"
+    },
+    "NCC": {
+      "name": "National Constitution Center: Remembering Frederick Douglass' escape from slavery",
+      "url": "https://constitutioncenter.org/blog/remembering-frederick-douglass-escape-from-slavery"
+    },
+    "LJ": {
+      "name": "Stauffer, Trodd and Bernier, Picturing Frederick Douglass (2015), via Library Journal review",
+      "url": "https://www.libraryjournal.com/review/picturing-frederick-douglass-an-illustrated-biography-of-the-nineteenth-centurys-most-photographed-american"
+    }
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "Douglass was photographed more than Abraham Lincoln.",
+      "sources": [
+        "NPS",
+        "LJ"
+      ]
+    },
+    {
+      "beat": "born",
+      "claim": "Born enslaved in Maryland; escaped on 3 September 1838 disguised as a sailor.",
+      "sources": [
+        "NEBE",
+        "NCC"
+      ]
+    },
+    {
+      "beat": "speaker",
+      "claim": "Became a leading abolitionist orator.",
+      "sources": [
+        "NEBE",
+        "AWM"
+      ]
+    },
+    {
+      "beat": "cartoons",
+      "claim": "Images of Black Americans of the time were largely demeaning.",
+      "sources": [
+        "NPS",
+        "AWM"
+      ]
+    },
+    {
+      "beat": "sat",
+      "claim": "Sat for his portrait whenever he could, from his earliest known photograph (1841) to his death (1895).",
+      "sources": [
+        "NPS",
+        "PBH"
+      ]
+    },
+    {
+      "beat": "count",
+      "claim": "Photographed more than 160 times.",
+      "sources": [
+        "AWM",
+        "PBH",
+        "LJ"
+      ]
+    },
+    {
+      "beat": "dignity",
+      "claim": "He used portraits to show the dignity denied to the enslaved and to change how Black Americans were seen.",
+      "sources": [
+        "AWM",
+        "PBH",
+        "NPS"
+      ]
+    },
+    {
+      "beat": "lectures",
+      "claim": "He wrote and gave lectures on photography/pictures (e.g. 'Lecture on Pictures').",
+      "sources": [
+        "PBH",
+        "LJ"
+      ]
+    },
+    {
+      "beat": "twist",
+      "claim": "The most photographed American of the 19th century, more than Lincoln.",
+      "sources": [
+        "NPS",
+        "AWM",
+        "LJ"
+      ]
+    }
+  ],
+  "notUsed": [
+    "'He never smiled in photos' (one source says 'almost never'): not used.",
+    "Birth year is uncertain (c. 1818); the lower third says c. 1818."
+  ]
+}

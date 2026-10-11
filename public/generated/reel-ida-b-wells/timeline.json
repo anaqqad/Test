@@ -1,0 +1,973 @@
+{
+ "fps": 30,
+ "durationInFrames": 1928,
+ "voice": "am_michael",
+ "engine": "kokoro-onnx v1.0",
+ "words": 167,
+ "wpm": 155.9,
+ "beats": [
+  {
+   "id": "hook",
+   "words": [
+    {
+     "text": "She",
+     "start": 0.0,
+     "end": 0.187
+    },
+    {
+     "text": "bit",
+     "start": 0.187,
+     "end": 0.373
+    },
+    {
+     "text": "a",
+     "start": 0.373,
+     "end": 0.56
+    },
+    {
+     "text": "conductor",
+     "start": 0.56,
+     "end": 1.022
+    },
+    {
+     "text": "to",
+     "start": 1.022,
+     "end": 1.209
+    },
+    {
+     "text": "keep",
+     "start": 1.209,
+     "end": 1.396
+    },
+    {
+     "text": "her",
+     "start": 1.396,
+     "end": 1.582
+    },
+    {
+     "text": "seat.",
+     "start": 1.582,
+     "end": 1.769
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 65
+  },
+  {
+   "id": "name",
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.269,
+     "end": 2.612
+    },
+    {
+     "text": "Ida",
+     "start": 2.612,
+     "end": 3.209
+    },
+    {
+     "text": "B.",
+     "start": 3.209,
+     "end": 3.552
+    },
+    {
+     "text": "Wells.",
+     "start": 3.552,
+     "end": 3.895
+    }
+   ],
+   "cues": {},
+   "startFrame": 65,
+   "endFrame": 127
+  },
+  {
+   "id": "born",
+   "words": [
+    {
+     "text": "She",
+     "start": 4.345,
+     "end": 4.672
+    },
+    {
+     "text": "was",
+     "start": 4.672,
+     "end": 5.0
+    },
+    {
+     "text": "born",
+     "start": 5.0,
+     "end": 5.327
+    },
+    {
+     "text": "enslaved",
+     "start": 5.327,
+     "end": 6.139
+    },
+    {
+     "text": "in",
+     "start": 6.139,
+     "end": 6.466
+    },
+    {
+     "text": "Mississippi",
+     "start": 6.466,
+     "end": 7.521
+    },
+    {
+     "text": "in",
+     "start": 7.521,
+     "end": 7.848
+    },
+    {
+     "text": "1862.",
+     "start": 7.848,
+     "end": 8.903
+    }
+   ],
+   "cues": {},
+   "startFrame": 127,
+   "endFrame": 279
+  },
+  {
+   "id": "train",
+   "words": [
+    {
+     "text": "As",
+     "start": 9.403,
+     "end": 9.638
+    },
+    {
+     "text": "a",
+     "start": 9.638,
+     "end": 9.872
+    },
+    {
+     "text": "young",
+     "start": 9.872,
+     "end": 10.107
+    },
+    {
+     "text": "schoolteacher,",
+     "start": 10.107,
+     "end": 10.688
+    },
+    {
+     "text": "she",
+     "start": 10.688,
+     "end": 10.923
+    },
+    {
+     "text": "took",
+     "start": 10.923,
+     "end": 11.157
+    },
+    {
+     "text": "a",
+     "start": 11.157,
+     "end": 11.392
+    },
+    {
+     "text": "train",
+     "start": 11.392,
+     "end": 11.627
+    },
+    {
+     "text": "in",
+     "start": 11.627,
+     "end": 11.861
+    },
+    {
+     "text": "Tennessee",
+     "start": 11.861,
+     "end": 12.269
+    },
+    {
+     "text": "and",
+     "start": 12.269,
+     "end": 12.504
+    },
+    {
+     "text": "sat",
+     "start": 12.504,
+     "end": 12.738
+    },
+    {
+     "text": "in",
+     "start": 12.738,
+     "end": 12.973
+    },
+    {
+     "text": "the",
+     "start": 12.973,
+     "end": 13.207
+    },
+    {
+     "text": "ladies'",
+     "start": 13.207,
+     "end": 13.616
+    },
+    {
+     "text": "car.",
+     "start": 13.616,
+     "end": 13.85
+    }
+   ],
+   "cues": {},
+   "startFrame": 279,
+   "endFrame": 426
+  },
+  {
+   "id": "order",
+   "words": [
+    {
+     "text": "The",
+     "start": 14.3,
+     "end": 14.495
+    },
+    {
+     "text": "conductor",
+     "start": 14.495,
+     "end": 14.98
+    },
+    {
+     "text": "ordered",
+     "start": 14.98,
+     "end": 15.466
+    },
+    {
+     "text": "her",
+     "start": 15.466,
+     "end": 15.661
+    },
+    {
+     "text": "into",
+     "start": 15.661,
+     "end": 16.001
+    },
+    {
+     "text": "the",
+     "start": 16.001,
+     "end": 16.197
+    },
+    {
+     "text": "smoking",
+     "start": 16.197,
+     "end": 16.537
+    },
+    {
+     "text": "car.",
+     "start": 16.537,
+     "end": 16.732
+    }
+   ],
+   "cues": {},
+   "startFrame": 426,
+   "endFrame": 512
+  },
+  {
+   "id": "refused",
+   "words": [
+    {
+     "text": "She",
+     "start": 17.182,
+     "end": 17.42
+    },
+    {
+     "text": "refused.",
+     "start": 17.42,
+     "end": 18.01
+    },
+    {
+     "text": "When",
+     "start": 18.01,
+     "end": 18.248
+    },
+    {
+     "text": "he",
+     "start": 18.248,
+     "end": 18.486
+    },
+    {
+     "text": "grabbed",
+     "start": 18.486,
+     "end": 18.901
+    },
+    {
+     "text": "her,",
+     "start": 18.901,
+     "end": 19.139
+    },
+    {
+     "text": "she",
+     "start": 19.139,
+     "end": 19.377
+    },
+    {
+     "text": "bit",
+     "start": 19.377,
+     "end": 19.615
+    },
+    {
+     "text": "his",
+     "start": 19.615,
+     "end": 19.853
+    },
+    {
+     "text": "hand.",
+     "start": 19.853,
+     "end": 20.09
+    }
+   ],
+   "cues": {},
+   "startFrame": 512,
+   "endFrame": 613
+  },
+  {
+   "id": "dragged",
+   "words": [
+    {
+     "text": "It",
+     "start": 20.541,
+     "end": 20.764
+    },
+    {
+     "text": "took",
+     "start": 20.764,
+     "end": 20.986
+    },
+    {
+     "text": "the",
+     "start": 20.986,
+     "end": 21.209
+    },
+    {
+     "text": "conductor",
+     "start": 21.209,
+     "end": 21.761
+    },
+    {
+     "text": "and",
+     "start": 21.761,
+     "end": 21.984
+    },
+    {
+     "text": "two",
+     "start": 21.984,
+     "end": 22.206
+    },
+    {
+     "text": "other",
+     "start": 22.206,
+     "end": 22.593
+    },
+    {
+     "text": "men",
+     "start": 22.593,
+     "end": 22.816
+    },
+    {
+     "text": "to",
+     "start": 22.816,
+     "end": 23.039
+    },
+    {
+     "text": "drag",
+     "start": 23.039,
+     "end": 23.261
+    },
+    {
+     "text": "her",
+     "start": 23.261,
+     "end": 23.484
+    },
+    {
+     "text": "off",
+     "start": 23.484,
+     "end": 23.706
+    },
+    {
+     "text": "the",
+     "start": 23.706,
+     "end": 23.929
+    },
+    {
+     "text": "train.",
+     "start": 23.929,
+     "end": 24.151
+    }
+   ],
+   "cues": {},
+   "startFrame": 613,
+   "endFrame": 735
+  },
+  {
+   "id": "sued",
+   "words": [
+    {
+     "text": "She",
+     "start": 24.601,
+     "end": 24.86
+    },
+    {
+     "text": "sued",
+     "start": 24.86,
+     "end": 25.12
+    },
+    {
+     "text": "the",
+     "start": 25.12,
+     "end": 25.379
+    },
+    {
+     "text": "railroad,",
+     "start": 25.379,
+     "end": 25.831
+    },
+    {
+     "text": "and",
+     "start": 25.831,
+     "end": 26.09
+    },
+    {
+     "text": "won",
+     "start": 26.09,
+     "end": 26.35
+    },
+    {
+     "text": "500",
+     "start": 26.35,
+     "end": 26.993
+    },
+    {
+     "text": "dollars.",
+     "start": 26.993,
+     "end": 27.445
+    }
+   ],
+   "cues": {},
+   "startFrame": 735,
+   "endFrame": 834
+  },
+  {
+   "id": "reversed",
+   "words": [
+    {
+     "text": "Then",
+     "start": 27.895,
+     "end": 28.106
+    },
+    {
+     "text": "the",
+     "start": 28.106,
+     "end": 28.316
+    },
+    {
+     "text": "state",
+     "start": 28.316,
+     "end": 28.527
+    },
+    {
+     "text": "supreme",
+     "start": 28.527,
+     "end": 28.893
+    },
+    {
+     "text": "court",
+     "start": 28.893,
+     "end": 29.104
+    },
+    {
+     "text": "took",
+     "start": 29.104,
+     "end": 29.314
+    },
+    {
+     "text": "it",
+     "start": 29.314,
+     "end": 29.525
+    },
+    {
+     "text": "away.",
+     "start": 29.525,
+     "end": 29.892
+    }
+   ],
+   "cues": {},
+   "startFrame": 834,
+   "endFrame": 907
+  },
+  {
+   "id": "pen",
+   "words": [
+    {
+     "text": "So",
+     "start": 30.342,
+     "end": 30.56
+    },
+    {
+     "text": "she",
+     "start": 30.56,
+     "end": 30.777
+    },
+    {
+     "text": "picked",
+     "start": 30.777,
+     "end": 31.156
+    },
+    {
+     "text": "up",
+     "start": 31.156,
+     "end": 31.373
+    },
+    {
+     "text": "a",
+     "start": 31.373,
+     "end": 31.591
+    },
+    {
+     "text": "pen,",
+     "start": 31.591,
+     "end": 31.809
+    },
+    {
+     "text": "and",
+     "start": 31.809,
+     "end": 32.026
+    },
+    {
+     "text": "became",
+     "start": 32.026,
+     "end": 32.405
+    },
+    {
+     "text": "a",
+     "start": 32.405,
+     "end": 32.622
+    },
+    {
+     "text": "journalist",
+     "start": 32.622,
+     "end": 33.162
+    },
+    {
+     "text": "in",
+     "start": 33.162,
+     "end": 33.38
+    },
+    {
+     "text": "Memphis.",
+     "start": 33.38,
+     "end": 33.759
+    }
+   ],
+   "cues": {},
+   "startFrame": 907,
+   "endFrame": 1025
+  },
+  {
+   "id": "lynching",
+   "words": [
+    {
+     "text": "In",
+     "start": 34.258,
+     "end": 34.565
+    },
+    {
+     "text": "1892,",
+     "start": 34.565,
+     "end": 35.555
+    },
+    {
+     "text": "a",
+     "start": 35.555,
+     "end": 35.862
+    },
+    {
+     "text": "mob",
+     "start": 35.862,
+     "end": 36.17
+    },
+    {
+     "text": "murdered",
+     "start": 36.17,
+     "end": 36.932
+    },
+    {
+     "text": "three",
+     "start": 36.932,
+     "end": 37.239
+    },
+    {
+     "text": "Black",
+     "start": 37.239,
+     "end": 37.547
+    },
+    {
+     "text": "store",
+     "start": 37.547,
+     "end": 37.854
+    },
+    {
+     "text": "owners",
+     "start": 37.854,
+     "end": 38.389
+    },
+    {
+     "text": "in",
+     "start": 38.389,
+     "end": 38.696
+    },
+    {
+     "text": "Memphis.",
+     "start": 38.696,
+     "end": 39.231
+    },
+    {
+     "text": "She",
+     "start": 39.231,
+     "end": 39.538
+    },
+    {
+     "text": "investigated,",
+     "start": 39.538,
+     "end": 40.755
+    },
+    {
+     "text": "and",
+     "start": 40.755,
+     "end": 41.063
+    },
+    {
+     "text": "printed",
+     "start": 41.063,
+     "end": 41.597
+    },
+    {
+     "text": "the",
+     "start": 41.597,
+     "end": 41.905
+    },
+    {
+     "text": "facts.",
+     "start": 41.905,
+     "end": 42.212
+    }
+   ],
+   "cues": {},
+   "startFrame": 1025,
+   "endFrame": 1277
+  },
+  {
+   "id": "office",
+   "words": [
+    {
+     "text": "A",
+     "start": 42.662,
+     "end": 42.918
+    },
+    {
+     "text": "mob",
+     "start": 42.918,
+     "end": 43.174
+    },
+    {
+     "text": "destroyed",
+     "start": 43.174,
+     "end": 43.619
+    },
+    {
+     "text": "her",
+     "start": 43.619,
+     "end": 43.875
+    },
+    {
+     "text": "newspaper",
+     "start": 43.875,
+     "end": 44.511
+    },
+    {
+     "text": "office.",
+     "start": 44.511,
+     "end": 44.956
+    },
+    {
+     "text": "She",
+     "start": 44.956,
+     "end": 45.212
+    },
+    {
+     "text": "could",
+     "start": 45.212,
+     "end": 45.468
+    },
+    {
+     "text": "never",
+     "start": 45.468,
+     "end": 45.914
+    },
+    {
+     "text": "go",
+     "start": 45.914,
+     "end": 46.169
+    },
+    {
+     "text": "home",
+     "start": 46.169,
+     "end": 46.425
+    },
+    {
+     "text": "again.",
+     "start": 46.425,
+     "end": 46.871
+    }
+   ],
+   "cues": {},
+   "startFrame": 1277,
+   "endFrame": 1417
+  },
+  {
+   "id": "chicago",
+   "words": [
+    {
+     "text": "From",
+     "start": 47.321,
+     "end": 47.573
+    },
+    {
+     "text": "Chicago,",
+     "start": 47.573,
+     "end": 48.197
+    },
+    {
+     "text": "she",
+     "start": 48.197,
+     "end": 48.449
+    },
+    {
+     "text": "spent",
+     "start": 48.449,
+     "end": 48.7
+    },
+    {
+     "text": "her",
+     "start": 48.7,
+     "end": 48.952
+    },
+    {
+     "text": "life",
+     "start": 48.952,
+     "end": 49.204
+    },
+    {
+     "text": "exposing",
+     "start": 49.204,
+     "end": 49.828
+    },
+    {
+     "text": "lynching.",
+     "start": 49.828,
+     "end": 50.266
+    }
+   ],
+   "cues": {},
+   "startFrame": 1417,
+   "endFrame": 1520
+  },
+  {
+   "id": "pulitzer",
+   "words": [
+    {
+     "text": "In",
+     "start": 50.766,
+     "end": 51.042
+    },
+    {
+     "text": "2020,",
+     "start": 51.042,
+     "end": 51.93
+    },
+    {
+     "text": "she",
+     "start": 51.93,
+     "end": 52.206
+    },
+    {
+     "text": "was",
+     "start": 52.206,
+     "end": 52.481
+    },
+    {
+     "text": "awarded",
+     "start": 52.481,
+     "end": 53.166
+    },
+    {
+     "text": "a",
+     "start": 53.166,
+     "end": 53.441
+    },
+    {
+     "text": "Pulitzer",
+     "start": 53.441,
+     "end": 54.125
+    },
+    {
+     "text": "Prize.",
+     "start": 54.125,
+     "end": 54.401
+    },
+    {
+     "text": "Eighty-nine",
+     "start": 54.401,
+     "end": 55.085
+    },
+    {
+     "text": "years",
+     "start": 55.085,
+     "end": 55.361
+    },
+    {
+     "text": "after",
+     "start": 55.361,
+     "end": 55.841
+    },
+    {
+     "text": "she",
+     "start": 55.841,
+     "end": 56.116
+    },
+    {
+     "text": "died.",
+     "start": 56.116,
+     "end": 56.392
+    }
+   ],
+   "cues": {},
+   "startFrame": 1520,
+   "endFrame": 1702
+  },
+  {
+   "id": "legacy",
+   "words": [
+    {
+     "text": "They",
+     "start": 56.842,
+     "end": 57.073
+    },
+    {
+     "text": "took",
+     "start": 57.073,
+     "end": 57.304
+    },
+    {
+     "text": "her",
+     "start": 57.304,
+     "end": 57.534
+    },
+    {
+     "text": "seat,",
+     "start": 57.534,
+     "end": 57.765
+    },
+    {
+     "text": "her",
+     "start": 57.765,
+     "end": 57.996
+    },
+    {
+     "text": "paper,",
+     "start": 57.996,
+     "end": 58.398
+    },
+    {
+     "text": "her",
+     "start": 58.398,
+     "end": 58.628
+    },
+    {
+     "text": "city.",
+     "start": 58.628,
+     "end": 59.03
+    },
+    {
+     "text": "Never",
+     "start": 59.03,
+     "end": 59.432
+    },
+    {
+     "text": "her",
+     "start": 59.432,
+     "end": 59.663
+    },
+    {
+     "text": "voice.",
+     "start": 59.663,
+     "end": 59.894
+    }
+   ],
+   "cues": {},
+   "startFrame": 1702,
+   "endFrame": 1809
+  },
+  {
+   "id": "cta",
+   "words": [
+    {
+     "text": "Follow",
+     "start": 60.394,
+     "end": 60.753
+    },
+    {
+     "text": "The",
+     "start": 60.753,
+     "end": 60.959
+    },
+    {
+     "text": "Black",
+     "start": 60.959,
+     "end": 61.166
+    },
+    {
+     "text": "History",
+     "start": 61.166,
+     "end": 61.677
+    },
+    {
+     "text": "Room",
+     "start": 61.677,
+     "end": 61.884
+    },
+    {
+     "text": "for",
+     "start": 61.884,
+     "end": 62.09
+    },
+    {
+     "text": "one",
+     "start": 62.09,
+     "end": 62.296
+    },
+    {
+     "text": "story",
+     "start": 62.296,
+     "end": 62.655
+    },
+    {
+     "text": "a",
+     "start": 62.655,
+     "end": 62.862
+    },
+    {
+     "text": "day.",
+     "start": 62.862,
+     "end": 63.068
+    }
+   ],
+   "cues": {},
+   "startFrame": 1809,
+   "endFrame": 1928
+  }
+ ]
+}

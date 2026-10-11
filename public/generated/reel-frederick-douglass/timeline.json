@@ -1,0 +1,819 @@
+{
+ "fps": 30,
+ "durationInFrames": 1756,
+ "voice": "am_michael",
+ "engine": "kokoro-onnx v1.0",
+ "words": 141,
+ "wpm": 144.6,
+ "beats": [
+  {
+   "id": "hook",
+   "words": [
+    {
+     "text": "He",
+     "start": 0.0,
+     "end": 0.22
+    },
+    {
+     "text": "posed",
+     "start": 0.22,
+     "end": 0.604
+    },
+    {
+     "text": "for",
+     "start": 0.604,
+     "end": 0.825
+    },
+    {
+     "text": "more",
+     "start": 0.825,
+     "end": 1.045
+    },
+    {
+     "text": "photos",
+     "start": 1.045,
+     "end": 1.429
+    },
+    {
+     "text": "than",
+     "start": 1.429,
+     "end": 1.649
+    },
+    {
+     "text": "Lincoln.",
+     "start": 1.649,
+     "end": 2.033
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 73
+  },
+  {
+   "id": "name",
+   "words": [
+    {
+     "text": "His",
+     "start": 2.533,
+     "end": 2.773
+    },
+    {
+     "text": "name",
+     "start": 2.773,
+     "end": 3.013
+    },
+    {
+     "text": "was",
+     "start": 3.013,
+     "end": 3.253
+    },
+    {
+     "text": "Frederick",
+     "start": 3.253,
+     "end": 3.848
+    },
+    {
+     "text": "Douglass.",
+     "start": 3.848,
+     "end": 4.266
+    }
+   ],
+   "cues": {},
+   "startFrame": 73,
+   "endFrame": 140
+  },
+  {
+   "id": "born",
+   "words": [
+    {
+     "text": "Born",
+     "start": 4.766,
+     "end": 5.081
+    },
+    {
+     "text": "enslaved",
+     "start": 5.081,
+     "end": 5.862
+    },
+    {
+     "text": "in",
+     "start": 5.862,
+     "end": 6.177
+    },
+    {
+     "text": "Maryland,",
+     "start": 6.177,
+     "end": 6.958
+    },
+    {
+     "text": "he",
+     "start": 6.958,
+     "end": 7.272
+    },
+    {
+     "text": "escaped",
+     "start": 7.272,
+     "end": 8.054
+    },
+    {
+     "text": "in",
+     "start": 8.054,
+     "end": 8.368
+    },
+    {
+     "text": "1838,",
+     "start": 8.368,
+     "end": 9.383
+    },
+    {
+     "text": "disguised",
+     "start": 9.383,
+     "end": 10.164
+    },
+    {
+     "text": "as",
+     "start": 10.164,
+     "end": 10.478
+    },
+    {
+     "text": "a",
+     "start": 10.478,
+     "end": 10.793
+    },
+    {
+     "text": "sailor.",
+     "start": 10.793,
+     "end": 11.341
+    }
+   ],
+   "cues": {},
+   "startFrame": 140,
+   "endFrame": 351
+  },
+  {
+   "id": "speaker",
+   "words": [
+    {
+     "text": "In",
+     "start": 11.792,
+     "end": 12.009
+    },
+    {
+     "text": "the",
+     "start": 12.009,
+     "end": 12.225
+    },
+    {
+     "text": "North,",
+     "start": 12.225,
+     "end": 12.442
+    },
+    {
+     "text": "he",
+     "start": 12.442,
+     "end": 12.658
+    },
+    {
+     "text": "became",
+     "start": 12.658,
+     "end": 13.035
+    },
+    {
+     "text": "one",
+     "start": 13.035,
+     "end": 13.252
+    },
+    {
+     "text": "of",
+     "start": 13.252,
+     "end": 13.468
+    },
+    {
+     "text": "the",
+     "start": 13.468,
+     "end": 13.685
+    },
+    {
+     "text": "most",
+     "start": 13.685,
+     "end": 13.902
+    },
+    {
+     "text": "powerful",
+     "start": 13.902,
+     "end": 14.439
+    },
+    {
+     "text": "voices",
+     "start": 14.439,
+     "end": 14.816
+    },
+    {
+     "text": "against",
+     "start": 14.816,
+     "end": 15.193
+    },
+    {
+     "text": "slavery.",
+     "start": 15.193,
+     "end": 15.73
+    }
+   ],
+   "cues": {},
+   "startFrame": 351,
+   "endFrame": 482
+  },
+  {
+   "id": "cartoons",
+   "words": [
+    {
+     "text": "But",
+     "start": 16.18,
+     "end": 16.404
+    },
+    {
+     "text": "most",
+     "start": 16.404,
+     "end": 16.627
+    },
+    {
+     "text": "pictures",
+     "start": 16.627,
+     "end": 17.182
+    },
+    {
+     "text": "of",
+     "start": 17.182,
+     "end": 17.405
+    },
+    {
+     "text": "Black",
+     "start": 17.405,
+     "end": 17.629
+    },
+    {
+     "text": "Americans",
+     "start": 17.629,
+     "end": 18.349
+    },
+    {
+     "text": "in",
+     "start": 18.349,
+     "end": 18.572
+    },
+    {
+     "text": "his",
+     "start": 18.572,
+     "end": 18.796
+    },
+    {
+     "text": "time",
+     "start": 18.796,
+     "end": 19.019
+    },
+    {
+     "text": "were",
+     "start": 19.019,
+     "end": 19.243
+    },
+    {
+     "text": "demeaning,",
+     "start": 19.243,
+     "end": 19.798
+    },
+    {
+     "text": "made",
+     "start": 19.798,
+     "end": 20.021
+    },
+    {
+     "text": "to",
+     "start": 20.021,
+     "end": 20.245
+    },
+    {
+     "text": "mock",
+     "start": 20.245,
+     "end": 20.468
+    },
+    {
+     "text": "them.",
+     "start": 20.468,
+     "end": 20.692
+    }
+   ],
+   "cues": {},
+   "startFrame": 482,
+   "endFrame": 631
+  },
+  {
+   "id": "camera",
+   "words": [
+    {
+     "text": "So",
+     "start": 21.142,
+     "end": 21.325
+    },
+    {
+     "text": "Douglass",
+     "start": 21.325,
+     "end": 21.644
+    },
+    {
+     "text": "turned",
+     "start": 21.644,
+     "end": 21.962
+    },
+    {
+     "text": "to",
+     "start": 21.962,
+     "end": 22.146
+    },
+    {
+     "text": "the",
+     "start": 22.146,
+     "end": 22.329
+    },
+    {
+     "text": "camera.",
+     "start": 22.329,
+     "end": 22.783
+    }
+   ],
+   "cues": {},
+   "startFrame": 631,
+   "endFrame": 694
+  },
+  {
+   "id": "sat",
+   "words": [
+    {
+     "text": "From",
+     "start": 23.233,
+     "end": 23.596
+    },
+    {
+     "text": "1841",
+     "start": 23.596,
+     "end": 24.767
+    },
+    {
+     "text": "until",
+     "start": 24.767,
+     "end": 25.399
+    },
+    {
+     "text": "his",
+     "start": 25.399,
+     "end": 25.762
+    },
+    {
+     "text": "death",
+     "start": 25.762,
+     "end": 26.125
+    },
+    {
+     "text": "in",
+     "start": 26.125,
+     "end": 26.489
+    },
+    {
+     "text": "1895,",
+     "start": 26.489,
+     "end": 27.659
+    },
+    {
+     "text": "he",
+     "start": 27.659,
+     "end": 28.022
+    },
+    {
+     "text": "sat",
+     "start": 28.022,
+     "end": 28.385
+    },
+    {
+     "text": "for",
+     "start": 28.385,
+     "end": 28.749
+    },
+    {
+     "text": "his",
+     "start": 28.749,
+     "end": 29.112
+    },
+    {
+     "text": "portrait",
+     "start": 29.112,
+     "end": 29.744
+    },
+    {
+     "text": "whenever",
+     "start": 29.744,
+     "end": 30.645
+    },
+    {
+     "text": "he",
+     "start": 30.645,
+     "end": 31.009
+    },
+    {
+     "text": "could.",
+     "start": 31.009,
+     "end": 31.372
+    }
+   ],
+   "cues": {},
+   "startFrame": 694,
+   "endFrame": 952
+  },
+  {
+   "id": "count",
+   "words": [
+    {
+     "text": "More",
+     "start": 31.821,
+     "end": 32.124
+    },
+    {
+     "text": "than",
+     "start": 32.124,
+     "end": 32.427
+    },
+    {
+     "text": "160",
+     "start": 32.427,
+     "end": 33.178
+    },
+    {
+     "text": "times.",
+     "start": 33.178,
+     "end": 33.706
+    }
+   ],
+   "cues": {},
+   "startFrame": 952,
+   "endFrame": 1022
+  },
+  {
+   "id": "dignity",
+   "words": [
+    {
+     "text": "Each",
+     "start": 34.156,
+     "end": 34.387
+    },
+    {
+     "text": "photo",
+     "start": 34.387,
+     "end": 34.788
+    },
+    {
+     "text": "showed",
+     "start": 34.788,
+     "end": 35.19
+    },
+    {
+     "text": "what",
+     "start": 35.19,
+     "end": 35.421
+    },
+    {
+     "text": "slavery",
+     "start": 35.421,
+     "end": 35.994
+    },
+    {
+     "text": "had",
+     "start": 35.994,
+     "end": 36.224
+    },
+    {
+     "text": "tried",
+     "start": 36.224,
+     "end": 36.455
+    },
+    {
+     "text": "to",
+     "start": 36.455,
+     "end": 36.686
+    },
+    {
+     "text": "deny",
+     "start": 36.686,
+     "end": 37.088
+    },
+    {
+     "text": "him:",
+     "start": 37.088,
+     "end": 37.318
+    },
+    {
+     "text": "his",
+     "start": 37.318,
+     "end": 37.549
+    },
+    {
+     "text": "dignity.",
+     "start": 37.549,
+     "end": 38.122
+    }
+   ],
+   "cues": {},
+   "startFrame": 1022,
+   "endFrame": 1154
+  },
+  {
+   "id": "lectures",
+   "words": [
+    {
+     "text": "He",
+     "start": 38.572,
+     "end": 38.755
+    },
+    {
+     "text": "even",
+     "start": 38.755,
+     "end": 39.073
+    },
+    {
+     "text": "wrote",
+     "start": 39.073,
+     "end": 39.256
+    },
+    {
+     "text": "lectures",
+     "start": 39.256,
+     "end": 39.71
+    },
+    {
+     "text": "on",
+     "start": 39.71,
+     "end": 39.893
+    },
+    {
+     "text": "the",
+     "start": 39.893,
+     "end": 40.076
+    },
+    {
+     "text": "power",
+     "start": 40.076,
+     "end": 40.394
+    },
+    {
+     "text": "of",
+     "start": 40.394,
+     "end": 40.577
+    },
+    {
+     "text": "pictures.",
+     "start": 40.577,
+     "end": 41.031
+    }
+   ],
+   "cues": {},
+   "startFrame": 1154,
+   "endFrame": 1243
+  },
+  {
+   "id": "twist",
+   "words": [
+    {
+     "text": "By",
+     "start": 41.531,
+     "end": 41.815
+    },
+    {
+     "text": "the",
+     "start": 41.815,
+     "end": 42.099
+    },
+    {
+     "text": "end",
+     "start": 42.099,
+     "end": 42.383
+    },
+    {
+     "text": "of",
+     "start": 42.383,
+     "end": 42.667
+    },
+    {
+     "text": "his",
+     "start": 42.667,
+     "end": 42.951
+    },
+    {
+     "text": "life,",
+     "start": 42.951,
+     "end": 43.235
+    },
+    {
+     "text": "he",
+     "start": 43.235,
+     "end": 43.519
+    },
+    {
+     "text": "was",
+     "start": 43.519,
+     "end": 43.802
+    },
+    {
+     "text": "the",
+     "start": 43.802,
+     "end": 44.086
+    },
+    {
+     "text": "most",
+     "start": 44.086,
+     "end": 44.37
+    },
+    {
+     "text": "photographed",
+     "start": 44.37,
+     "end": 45.285
+    },
+    {
+     "text": "American",
+     "start": 45.285,
+     "end": 46.2
+    },
+    {
+     "text": "of",
+     "start": 46.2,
+     "end": 46.484
+    },
+    {
+     "text": "the",
+     "start": 46.484,
+     "end": 46.768
+    },
+    {
+     "text": "1800s.",
+     "start": 46.768,
+     "end": 47.052
+    },
+    {
+     "text": "More",
+     "start": 47.052,
+     "end": 47.336
+    },
+    {
+     "text": "than",
+     "start": 47.336,
+     "end": 47.62
+    },
+    {
+     "text": "Abraham",
+     "start": 47.62,
+     "end": 48.324
+    },
+    {
+     "text": "Lincoln.",
+     "start": 48.324,
+     "end": 48.819
+    }
+   ],
+   "cues": {},
+   "startFrame": 1243,
+   "endFrame": 1477
+  },
+  {
+   "id": "legacy",
+   "words": [
+    {
+     "text": "They",
+     "start": 49.318,
+     "end": 49.57
+    },
+    {
+     "text": "tried",
+     "start": 49.57,
+     "end": 49.822
+    },
+    {
+     "text": "to",
+     "start": 49.822,
+     "end": 50.074
+    },
+    {
+     "text": "turn",
+     "start": 50.074,
+     "end": 50.326
+    },
+    {
+     "text": "Black",
+     "start": 50.326,
+     "end": 50.578
+    },
+    {
+     "text": "Americans",
+     "start": 50.578,
+     "end": 51.39
+    },
+    {
+     "text": "into",
+     "start": 51.39,
+     "end": 51.828
+    },
+    {
+     "text": "cartoons.",
+     "start": 51.828,
+     "end": 52.267
+    },
+    {
+     "text": "He",
+     "start": 52.267,
+     "end": 52.519
+    },
+    {
+     "text": "answered",
+     "start": 52.519,
+     "end": 53.144
+    },
+    {
+     "text": "with",
+     "start": 53.144,
+     "end": 53.396
+    },
+    {
+     "text": "his",
+     "start": 53.396,
+     "end": 53.648
+    },
+    {
+     "text": "own",
+     "start": 53.648,
+     "end": 53.9
+    },
+    {
+     "text": "face.",
+     "start": 53.9,
+     "end": 54.152
+    }
+   ],
+   "cues": {},
+   "startFrame": 1477,
+   "endFrame": 1637
+  },
+  {
+   "id": "cta",
+   "words": [
+    {
+     "text": "Follow",
+     "start": 54.653,
+     "end": 55.012
+    },
+    {
+     "text": "The",
+     "start": 55.012,
+     "end": 55.218
+    },
+    {
+     "text": "Black",
+     "start": 55.218,
+     "end": 55.425
+    },
+    {
+     "text": "History",
+     "start": 55.425,
+     "end": 55.936
+    },
+    {
+     "text": "Room",
+     "start": 55.936,
+     "end": 56.143
+    },
+    {
+     "text": "for",
+     "start": 56.143,
+     "end": 56.349
+    },
+    {
+     "text": "one",
+     "start": 56.349,
+     "end": 56.555
+    },
+    {
+     "text": "story",
+     "start": 56.555,
+     "end": 56.914
+    },
+    {
+     "text": "a",
+     "start": 56.914,
+     "end": 57.121
+    },
+    {
+     "text": "day.",
+     "start": 57.121,
+     "end": 57.327
+    }
+   ],
+   "cues": {},
+   "startFrame": 1637,
+   "endFrame": 1756
+  }
+ ]
+}
