@@ -9,17 +9,17 @@ Title:
 She Bit a Conductor to Keep Her Seat
 
 Post text:
-She bit a conductor to keep her seat. Seventy years before Rosa Parks.
+She bit a conductor to keep her seat. More than 70 years before Rosa Parks.
 
 Ida B. Wells was born into slavery in Holly Springs, Mississippi, in 1862. As a teenager she lost both of her parents to yellow fever, and she went to work as a schoolteacher to help hold her family together.
 
-In the 1880s, as a young teacher, she boarded a train in Tennessee with a first-class ticket and took her seat in the ladies' car. The conductor ordered her to move to the smoking car. She refused. When he grabbed her to drag her out, she later wrote, "I fastened my teeth in the back of his hand." It took the conductor and two other men to pull her off the train.
+In the 1880s, as a young teacher, she boarded a train in Tennessee and took her seat in the ladies' car. The conductor ordered her to move to the smoking car. She refused. When he grabbed her to drag her out, she later wrote, "I fastened my teeth in the back of his hand." It took the conductor and two other men to pull her off the train.
 
 She sued the railroad, and she won: a local court awarded her 500 dollars. Then the Tennessee Supreme Court reversed the decision.
 
 So she picked up a pen. She became a journalist and co-owner of a Memphis newspaper, Free Speech. In 1892, a white mob in Memphis murdered three Black men who owned a grocery store. Wells investigated and printed the facts. A mob destroyed her newspaper office, and she was warned never to come back.
 
-She never did. From Chicago, she spent the rest of her life investigating and exposing lynching across the South, and fighting for civil rights and for women's right to vote.
+She never did. From Chicago, she spent the rest of her life investigating and exposing lynching across the South.
 
 Ida B. Wells died in 1931. In 2020, the Pulitzer Prize board awarded her a special citation for her "outstanding and courageous reporting." Eighty-nine years after her death.
 
@@ -65,7 +65,7 @@ Still: `publish/reels/ida-b-wells.hook.jpg`.
 - Her own words, "I fastened my teeth in the back of his hand", come from her autobiography and are quoted by
   the National Park Service. This is a verified quote; it appears only in the post, not spoken in the reel.
 - The year of the train incident is 1884 in most sources (1883 in one NPS article); the reel gives no year.
-- "Seventy years before Rosa Parks" (1884 to 1955 is 71 years) is used only in the post text.
+- "More than 70 years before Rosa Parks" (1884 to 1955) is used only in the post text.
 - The year of the reversal differs between sources (1885 or 1887); not stated.
 - "Her friends" (the three murdered men) appears in one checked source only; the reel says "three Black store owners".
 - The middle of the reel uses several title cards because few public-domain photographs of her survive.
