@@ -739,3 +739,44 @@ Camera: opening extreme close-up on the girl at the bar door; slow push-ins on t
 - Hashtags: #biker #bikers #bikerlife #motorcycle #brotherhood #emotional #lastride #kindness #faithinhumanity #storytime #fyp #reels #viral #aistory
 - Cover frame: the girl at the bar door in her dad's huge jacket (0-1 s)
 - AI label: turn on "AI-generated content"
+
+## 21. "Which One?" (girl walks into a biker bar looking for the dad she never met)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal emotional drama at night in a dim roadside biker bar: neon glow with no readable text, wood-paneled walls, a pool table, smoky amber light, a bar counter with stools. Shallow depth of field, natural skin texture, light film grain. Exactly 2 main characters, identical faces and wardrobe in every shot; about a dozen other bikers stay blurred in the background and never speak clearly; no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. No club patches, no symbols, no text on any clothing. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- GIRL (8): small white girl, straight dark-blonde hair with bangs, grey-blue eyes, a small gap in her front teeth, tear-streaked cheeks, a too-big red puffer jacket, jeans, worn sneakers. Holds an old printed photo and a folded handwritten letter.
+- BIKER (40s): white man, tall, broad, short dark beard, dark hair pulled back, grey-blue eyes like hers, plain black leather vest with no patches over a white t-shirt, a large tattoo of a lion's head on the back of his right hand, a pool cue in his hands at the pool table.
+- The PHOTO (prop, the same in every shot): an old printed photo of the same biker about nine years younger, same lion tattoo on his right hand, his arm around a smiling young blonde woman, both standing in front of this bar's door.
+
+Location: the bar; the front door on the left; the pool table on the right, where the biker stands; the bar counter in the background with the blurred bikers. Screen direction never flips.
+
+0s-2s: Extreme close-up of Girl just inside the bar door, sharp and in focus from the very first frame, tears on her cheeks, neon light on her face, the photo clutched in both hands. Sound from the very first frame at full volume: the door banging open and the girl screaming over the loud music, which cuts out. GIRL (screaming, voice breaking): "WHICH ONE OF YOU IS MY DADDY?!"
+2s-4s: Medium shot, the whole bar frozen in silence, blurred bikers turning to look; in focus at the pool table, Biker stops mid-shot, cue in his hands.
+4s-6s: Close-up Girl holding the photo up toward the room. GIRL: "Mommy said find the man in this picture."
+6s-8s: Insert close-up of the PHOTO in her small hands: the younger biker with the lion tattoo, his arm around the smiling young blonde woman in front of this bar.
+8s-10s: Close-up Biker staring, slowly lowering the pool cue; his right hand with the same lion tattoo comes into frame.
+10s-12s: Close-up Biker, hoarse. BIKER: "Where's your mama, kid?"
+12s-14s: Close-up Girl, lip trembling. GIRL: "She went to heaven. Grandma drove me here."
+14s-16s: Medium shot, Biker puts the cue on the pool table, walks over and kneels down to her height; she hands him the folded letter.
+16s-18s: Insert: the letter unfolding in his tattooed hand, soft blurred handwriting.
+18s-20s: Close-up Biker reading, his eyes filling with tears. BIKER (barely a whisper): "She never told me…"
+20s-22s: Close-up Girl, tiny voice. GIRL: "Do you… want me?"
+22s-24s: Close-up Biker, a tear rolling into his beard. BIKER: "I've waited my whole life for you."
+24s-26s: Medium shot, he pulls her into a huge hug, her small arms around his neck; the blurred bikers behind them slowly stand.
+26s-28s: Close-up Girl in his arms, eyes closed, smiling through tears. GIRL (whispering): "Hi, Daddy."
+28s-30s: Medium shot, Biker stands up holding her on his hip, turns to the room with wet eyes and a huge grin. BIKER: "Boys… I'm a dad." The blurred bikers cheer and raise their glasses.
+
+Camera: opening extreme close-up on the girl at the door; a still, tense medium shot of the frozen bar; slow push-ins on the close-ups; hard cuts; end on the medium shot. Audio: the door bang and the girl's scream at 0.0s are the loudest sounds in the video, full volume on the first frame, no fade-in; the music cutting out mid-beat, then dead silence, the pool cue tapping the table, paper unfolding, then a soft acoustic guitar and warm strings swelling on "Do you… want me?", ending with a roar of cheers. No subtitles, no text overlays, no watermark, no logos.
+```
+
+### Posting metadata
+- Hook text (first 2 s): SHE WALKED INTO A BIKER BAR AND SCREAMED "WHICH ONE OF YOU IS MY DADDY?!" 😳
+- Caption: 8 YEARS OLD. ONE PHOTO. ONE LETTER FROM HER MOM… 😭
+  She walked into a bar full of bikers looking for the dad she never met. He didn't know she existed.
+  Watch till the end. ❤️🏍️ Did this make you cry? 👇
+- YouTube Shorts title: She Walked Into a Biker Bar Looking for Her Dad 😭 #shorts
+- Hashtags: #biker #bikers #bikerlife #dad #fatherdaughter #emotional #familyfound #storytime #plottwist #fyp #reels #viral #aistory
+- Cover frame: the girl at the door holding the photo (0-1 s)
+- AI label: turn on "AI-generated content"

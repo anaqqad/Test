@@ -29,6 +29,7 @@ Seeddance lip-sync guides (links in `prompts.md`).
 - Mother owns the house (deed reveal, evicts son and wife)
 - Cheap car key opens a Mercedes
 - Biker at a father-daughter dance ("Never Dance Alone")
+- Which One? (girl finds the biker dad she never met)
 - One More Time (girl asks biker bar to ride her dying dad's bike past his window)
 - Sit With Us (biker saves choking girl in diner)
 - Just a Biker (biker stops for girl on highway, mom trapped in ditch)
