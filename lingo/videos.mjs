@@ -650,6 +650,7 @@ export const VIDEOS = {
   ancient: {
     title: "Extinct Languages Simulated by AI (Part 1)",
     simVoices: "Arabic for Egyptian, Hebrew for Akkadian, Icelandic for Old Norse and Gothic, Italian for Latin, Greek for Ancient Greek, Turkish for Hittite, Dutch for Old English, Persian for Sumerian, German for Proto-Indo-European",
+    simLimits: "Ancient Greek's musical pitch accent is not reproduced, and some details (Egyptian vowels, the laryngeal sounds of Proto-Indo-European) are educated guesses even among experts",
     simTexts: "Hávamál 76, Beowulf 1-2, Gothic Bible (Matthew 6:9), Caesar, Homer's Iliad 1.1, Hrozný's Hittite sentence, Code of Hammurabi law 1, the Egyptian royal formula ankh wedja seneb, the Sumerian King List, and Schleicher's fable in the version by Andrew Byrd",
     part: "",
     layout: "story",
@@ -765,6 +766,7 @@ export const VIDEOS = {
   ancient2: {
     title: "Extinct Languages Simulated by AI (Part 2)",
     simVoices: "Mexican Spanish for Maya, Russian for Tocharian, Swahili for Meroitic, Welsh for Gaulish, Persian for Old Persian, Hebrew for Aramaic, Romanian for Etruscan, Mandarin for Old Chinese, Arabic for Phoenician, Greek for Mycenaean Greek",
+    simLimits: "some details are educated guesses even among experts: the vowels of Phoenician and Old Chinese, and the sounds of Etruscan and Meroitic, two languages we can read aloud but still barely understand",
     simTexts: "the royal title of Pakal of Palenque, Tocharian B kinship words, the Meroitic words for king and queen, the Gaulish dedication from Vaison-la-Romaine, Darius's Behistun inscription, Daniel 5:25, the numbers on Etruscan dice, the first poem of the Shijing (Old Chinese after Baxter and Sagart), the Ahiram sarcophagus, and Linear B words from Pylos",
     part: "",
     layout: "story",

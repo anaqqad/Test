@@ -75,7 +75,7 @@ const desc = [intro, "", "Which language should we cover next? Tell us in the co
     "1. A real surviving text: every line is an actual ancient text, not invented sentences.",
     "2. Reconstructed pronunciation: linguists rebuild how a language sounded from its descendants (Coptic for Egyptian, Icelandic for Old Norse), from how foreigners spelled it (Babylonian scribes wrote Egyptian names with vowels), from ancient grammarians (Romans described their own v and c), and from poetry, rhyme and spelling mistakes. We wrote each line in the International Phonetic Alphabet (IPA) following these standard reconstructions.",
     `3. AI voice reading the sounds directly: open-source Piper text-to-speech voices were fed the IPA sounds themselves, so they say exactly what the reconstruction says instead of reading the words in their own language. Each language got a voice from a modern language with similar sounds: ${v.simVoices}.`,
-    "Limits: the modern voice's accent comes through, sounds a voice was never trained on are replaced with the closest one, Ancient Greek's musical pitch accent is not reproduced, and some details (Egyptian vowels, the laryngeal sounds of Proto-Indo-European) are educated guesses even among experts. Think of it as a best guess built on real scholarship.",
+    `Limits: the modern voice's accent comes through, sounds a voice was never trained on are replaced with the closest one, and ${v.simLimits}. Think of it as a best guess built on real scholarship.`,
     "",
     `Texts: ${v.simTexts}.`]
     : ["Audio credits (all via Wikimedia Commons):", ...credits, `Licences: ${[...lic].join(" and ")}`,
