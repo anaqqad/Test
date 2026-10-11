@@ -698,3 +698,44 @@ Camera: opening extreme close-up on the choking girl with the bikers blurred beh
 - Hashtags: #biker #bikerlife #bikers #motorcycle #hero #savedalife #emotional #dontjudge #kindness #faithinhumanity #fyp #reels #viral #aistory
 - Cover frame: the choking girl with the blurred bikers behind (0-1 s)
 - AI label: turn on "AI-generated content"
+
+## 20. "One More Time" (little girl walks into a biker bar)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal emotional drama at night. First a dim roadside biker bar: neon beer-sign glow with no readable text, wood-paneled walls, pool table, smoky amber light, a bar counter with stools. Then the street outside: the bar sits directly across the street from a small hospital with lit windows. Shallow depth of field, natural skin texture, light film grain. Exactly 3 main characters, identical faces and wardrobe in every shot; about a dozen other bikers in the bar and on the road stay blurred in the background and never speak; no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. No club patches, no symbols, no text on any clothing. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- GIRL (7): small white girl, long wavy light-brown hair, freckles, big hazel eyes, tear-streaked cheeks, an oversized faded black leather jacket that reaches her knees (her dad's) over pink pajamas, a white hospital visitor sticker on the jacket, sneakers; holds a single motorcycle key on a pink keychain.
+- LEAD BIKER (50s): white man, tall, heavy build, long grey beard, grey hair under a black bandana, weathered face, plain black leather vest with no patches over a black long-sleeve shirt, tattooed hands (abstract patterns), heavy boots; sits at the bar with a glass.
+- DAD (40s): white man, thin and pale, short brown hair, light stubble, hospital gown, a nasal oxygen tube, in a hospital bed by a second-floor window.
+
+Location: inside the bar (counter on the right, door on the left); outside, an old sky-blue motorcycle with no logos is parked at the curb in front of the bar; the hospital is directly across the street, its second-floor window above the sidewalk. Screen direction never flips.
+
+0s-2s: Extreme close-up of Girl just inside the bar door, sharp and in focus from the very first frame, tears on her freckled cheeks, the neon glow on her face, the key clutched to her chest. Sound from the very first frame at full volume: loud rock music cutting off with a needle scratch as the girl screams over it. GIRL (screaming, voice breaking): "PLEASE! I NEED A BIKER!"
+2s-4s: Close-up Lead Biker turning on his bar stool, the room behind him blurred and suddenly silent. LEAD BIKER (deep, gentle): "Whoa. What's wrong, little one?"
+4s-6s: Medium shot, the small girl walks up to him in her dad's huge jacket, the blurred bikers watching. GIRL: "My daddy's in the hospital across the street."
+6s-8s: Close-up Girl, lip trembling. GIRL: "The doctors say he's going to heaven."
+8s-10s: Close-up Lead Biker, his hard face softening, eyes wet.
+10s-12s: Close-up Girl holding up the key on the pink keychain. GIRL: "That's his blue bike outside. He can't ride anymore."
+12s-14s: Close-up Girl, whispering. GIRL: "Can someone ride it past his window? So he can hear it one more time?"
+14s-16s: Close-up Lead Biker taking the key gently from her small hand, standing up, voice thick. LEAD BIKER: "We'll do better than that, sweetheart." (turning to the room) "Boys! Mount up!"
+16s-18s: Medium shot, the blurred bikers all stand up at once, chairs scraping, and head for the door.
+18s-20s: Exterior medium shot, the girl stands on the sidewalk under the hospital window as a long line of motorcycle headlights rumbles down the street, Lead Biker in front riding the sky-blue motorcycle.
+20s-22s: Interior hospital room, Dad in his bed hears the deep rumble shaking the glass and slowly turns his head toward the window.
+22s-24s: Close-up Dad at the window, looking down, tears filling his eyes as the line of headlights circles below with his blue bike in front.
+24s-26s: Close-up Girl on the sidewalk, looking up and waving with both arms, crying and smiling. GIRL (shouting up): "DADDY! THEY'RE RIDING FOR YOU!"
+26s-28s: Close-up Dad, his palm pressed to the glass, whispering. DAD: "That's my girl."
+28s-30s: Medium shot outside, Lead Biker stops the sky-blue motorcycle under the window, revs it once, and raises his fist to the window while the girl hugs his arm. LEAD BIKER (looking up): "Ride's on us, brother."
+
+Camera: opening extreme close-up on the girl at the bar door; slow push-ins on the close-ups in the bar; a low angle on the line of headlights; the dad seen from inside the room and through the window; hard cuts; end on the medium shot. Audio: the needle scratch and the girl's scream at 0.0s are the loudest sounds in the video, full volume on the first frame, no fade-in; then dead silence in the bar, chairs scraping, boots on the floor, a dozen engines starting and rumbling, the window glass vibrating, then a soft acoustic guitar and warm strings swelling when the dad sees the bikes. No subtitles, no text overlays, no watermark, no logos.
+```
+
+### Posting metadata
+- Hook text (first 2 s): A LITTLE GIRL WALKED INTO A BIKER BAR AND SCREAMED "I NEED A BIKER!" 😳
+- Caption: SHE WALKED INTO A BAR FULL OF BIKERS WITH HER DAD'S MOTORCYCLE KEY… 😭
+  Her daddy couldn't ride anymore. She asked for one last ride past his hospital window.
+  They didn't send one biker. They sent all of them. 🏍️❤️ Type 🏍️ if you'd ride too 👇
+- YouTube Shorts title: A Little Girl Walked Into a Biker Bar… What They Did Next 😭 #shorts
+- Hashtags: #biker #bikers #bikerlife #motorcycle #brotherhood #emotional #lastride #kindness #faithinhumanity #storytime #fyp #reels #viral #aistory
+- Cover frame: the girl at the bar door in her dad's huge jacket (0-1 s)
+- AI label: turn on "AI-generated content"
