@@ -30,7 +30,6 @@ const thumbs = {
   conlangs: ["MADE-UP LANGUAGES", "REAL SPEAKERS", 2, "#6c5ce7"],
   revived: ["BACK FROM THE DEAD", "REVIVED", 0, "#2a9d8f"],
   soundlike: ["THIS ISN'T ARABIC?!", "🤔", 0, "#ff9500"],
-  ancient: ["4,000 YEARS AGO", "🔊 HEAR IT", 7, "#c8a165"],
 };
 for (const [k, [t1, t2, i, col]] of Object.entries(thumbs)) {
   const it = VIDEOS[k].items[i];
