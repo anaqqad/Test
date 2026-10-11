@@ -15,6 +15,10 @@ const P = {
   // Darius: "adam Dārayavauš", I am Darius, in Old Persian cuneiform
   2: { scene: "zagros", say: "𐎠𐎭𐎶𐏐𐎭𐎠𐎼𐎹𐎺𐎢𐏁", sayFont: "'Noto Sans Old Persian'", saySize: 52, out: "thumb_ancient2.png", tag: "PART 2",
        who: { skin: "olive", hair: "long", hairColor: "black", beard: true, hat: { type: "crown", color: "#d9b13b", color2: "#1f4e8c" }, outfit: { type: "coat", color: "#5b2a6b", inner: "#d9b13b" }, expression: "open" } },
+  // How English sounded: Old English Lord's Prayer
+  english: { scene: "village", say: "Fæder ūre þū þe eart on heofonum", sayFont: "'Noto Serif',serif", saySize: 40, out: "thumb_english.png", tag: "",
+       top: "THIS IS", mid: "ENGLISH?!", pill: "1,000 YEARS AGO", pillSize: 56,
+       who: { skin: "pale", hair: "short", hairColor: "auburn", beard: true, beardColor: "#7a3b1c", outfit: { type: "tunic", color: "#2f5d3a", trim: "#c8a165" }, expression: "open" } },
 }[PART];
 const roman = P.who;
 const outline = (w, c = "#000") => [-w, 0, w].flatMap((x) => [-w, 0, w].map((y) => `${x}px ${y}px 0 ${c}`)).join(",");
@@ -28,8 +32,8 @@ const html = `<!doctype html><meta charset="utf-8">${css}<style>*{margin:0;paddi
 <div class="a" style="left:150px;top:70px;background:#fffaf0;border:5px solid #1b1b1b;border-radius:26px;padding:10px 26px;font-family:${P.sayFont};font-weight:700;font-size:${P.saySize}px;letter-spacing:2px;color:#1b1b1b;box-shadow:0 8px 0 rgba(0,0,0,.45);white-space:nowrap">${P.say}</div>
 <div class="a" style="left:255px;top:146px;width:0;height:0;border-left:18px solid transparent;border-right:18px solid transparent;border-top:34px solid #1b1b1b"></div>
 <div class="a" style="left:640px;top:170px;width:600px;text-align:center">
-  <div style="font-weight:800;font-size:112px;line-height:.95;color:#fff;text-shadow:${outline(5)},0 10px 0 #000">EXTINCT<br><span style="font-size:84px">LANGUAGES</span></div>
-  <div style="display:inline-block;margin-top:30px;background:linear-gradient(#ffd75e,#e9a91c);color:#1b1b1b;font-weight:800;font-size:66px;padding:6px 34px 10px;border-radius:20px;border:5px solid #000;box-shadow:0 9px 0 rgba(0,0,0,.6)">REVIVED BY AI</div>
+  <div style="font-weight:800;font-size:112px;line-height:.95;color:#fff;text-shadow:${outline(5)},0 10px 0 #000">${P.top || "EXTINCT"}<br><span style="font-size:${P.mid ? 104 : 84}px">${P.mid || "LANGUAGES"}</span></div>
+  <div style="display:inline-block;margin-top:30px;background:linear-gradient(#ffd75e,#e9a91c);color:#1b1b1b;font-weight:800;font-size:66px;padding:6px 34px 10px;border-radius:20px;border:5px solid #000;box-shadow:0 9px 0 rgba(0,0,0,.6);white-space:nowrap;${P.pillSize ? `font-size:${P.pillSize}px` : ""}">${P.pill || "REVIVED BY AI"}</div>
   <div style="margin-top:34px;opacity:.95">${wave}</div>
 </div>
 ${P.tag ? `<div class="a" style="right:28px;top:26px;background:#c0392b;color:#fff;font-weight:800;font-size:46px;padding:4px 22px 8px;border-radius:14px;border:5px solid #000;box-shadow:0 7px 0 rgba(0,0,0,.6);transform:rotate(3deg)">${P.tag}</div>` : ""}
