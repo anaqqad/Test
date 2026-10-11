@@ -875,4 +875,108 @@ export const VIDEOS = {
       },
     ],
   },
+  // ------------------------------------------------------------------ 10
+  // One voice (Piper en_GB-alan) reads English through the centuries from reconstructed pronunciations.
+  english: {
+    title: "How English Sounded Through Time (AI Simulation)",
+    part: "",
+    layout: "story",
+    counterLabel: "year",
+    sim: true,
+    simVoices: "one British English voice for every era, so only the language changes",
+    simLimits: "older stages are more uncertain: Old English vowels and Chaucer's final e are rebuilt from spelling, rhyme and meter, and the 1600s accent follows David Crystal's Original Pronunciation work",
+    simTexts: "Cædmon's Hymn, the Lord's Prayer from the West Saxon Gospels, Chaucer's General Prologue, the Wycliffe Bible, Tyndale's New Testament, Hamlet, the King James Bible, the Declaration of Independence, and a modern translation of the Lord's Prayer",
+    items: [
+      {
+        name: "Earliest English", flag: null, speakers: "~670 AD", scene: "moorland", loc: [54.49, -0.61, "Whitby, England"],
+        script: "Nū sculon heriġean heofonrīċes weard, meotodes meahte ond his mōdġeþanc", scriptLabel: "OLD ENGLISH · CÆDMON'S HYMN",
+        char: { skin: "pale", hair: "short", hairColor: "brown", outfit: { type: "wrap", color: "#6b4a2b", color2: "#3b2a16", trim: "#c8a165" }, expression: "smile" },
+        cards: [
+          "The oldest English poem we know. A cowherd named Cædmon is said to have sung it after a dream: now we must praise the guardian of heaven's kingdom.",
+          "Old English had sounds we lost, like the throaty x in meahte (might), still heard in Scottish loch and German Nacht.",
+        ],
+        audio: { sim: { model: "en_GB-alan-medium", scale: 1.05, words: [["Nū", "nuː"], ["sculon", "ˈʃulon"], ["heriġean", "ˈherijən"], ["heofonrīċes", "ˈheovonriːtʃəs"], ["weard,", "wæɑrd,"], ["meotodes", "ˈmeotodəs"], ["meahte", "ˈmæɑxte"], ["ond", "ond"], ["his", "his"], ["mōdġeþanc.", "ˈmoːdjəθɑnk."]] } },
+      },
+      {
+        name: "Old English", flag: null, speakers: "~1000 AD", scene: "village", loc: [51.06, -1.31, "Winchester, England"],
+        script: "Fæder ūre þū þe eart on heofonum, sī þīn nama ġehālgod", scriptLabel: "THE LORD'S PRAYER · WEST SAXON GOSPELS",
+        char: { skin: "pale", hair: "short", hairColor: "auburn", beard: true, beardColor: "#7a3b1c", outfit: { type: "tunic", color: "#2f5d3a", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "The Lord's Prayer around 1000 AD. Word for word: father our, thou that art in heavens, be thy name hallowed.",
+          "Nouns had case endings like German today, so word order was freer. Fæder (father) and nama (name) are still easy to spot.",
+        ],
+        audio: { sim: { model: "en_GB-alan-medium", scale: 1.05, words: [["Fæder", "ˈfæder"], ["ūre", "ˈuːre"], ["þū", "θuː"], ["þe", "θe"], ["eart", "æɑrt"], ["on", "on"], ["heofonum,", "ˈheovonum,"], ["sī", "siː"], ["þīn", "θiːn"], ["nama", "ˈnɑmɑ"], ["ġehālgod.", "jeˈhɑːlɣod."]] } },
+      },
+      {
+        name: "Chaucer's English", flag: null, speakers: "~1390", scene: "village", loc: [51.28, 1.08, "Canterbury, England"],
+        script: "Whan that Aprille with his shoures soote / The droghte of March hath perced to the roote", scriptLabel: "MIDDLE ENGLISH · THE CANTERBURY TALES",
+        char: { skin: "pale", hair: "short", hairColor: "grey", beard: true, beardColor: "#8a8a8a", hat: { type: "beret", color: "#7a1f1f" }, outfit: { type: "coat", color: "#7a1f1f", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "The opening of Chaucer's Canterbury Tales: when April with its sweet showers has pierced the drought of March to the root.",
+          "Letters we now ignore were spoken: the k in knight, the gh in night (like loch), and often the final e, as in soote.",
+        ],
+        audio: { sim: { model: "en_GB-alan-medium", scale: 1.05, words: [["Whan", "ʍan"], ["that", "θat"], ["Aprille", "ˈaːpril"], ["with", "wiθ"], ["his", "his"], ["shoures", "ˈʃuːrəs"], ["soote,", "ˈsoːtə,"], ["the", "θə"], ["droghte", "druxt"], ["of", "ɔf"], ["March", "martʃ"], ["hath", "haθ"], ["perced", "ˈpeːrsəd"], ["to", "toː"], ["the", "θə"], ["roote.", "ˈroːtə."]] } },
+      },
+      {
+        name: "Middle English", flag: null, speakers: "~1390", scene: "moorland", loc: [52.48, -1.2, "Lutterworth, England"],
+        script: "Oure fadir that art in heuenes, halewid be thi name", scriptLabel: "THE LORD'S PRAYER · WYCLIFFE BIBLE",
+        char: { skin: "pale", hair: "bald", hairColor: "brown", beard: true, beardColor: "#5a3b22", outfit: { type: "wrap", color: "#3a3a3a", color2: "#1d1d1d", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "The same prayer in the Wycliffe Bible, the first complete Bible in English. Suddenly it's almost readable!",
+          "But the vowels were still old: name sounded like nah-muh and thi like thee. The big vowel changes hadn't happened yet.",
+        ],
+        audio: { sim: { model: "en_GB-alan-medium", scale: 1.05, words: [["Oure", "ˈuːrə"], ["fadir", "ˈfaːdir"], ["that", "θat"], ["art", "art"], ["in", "in"], ["heuenes,", "ˈhɛvənəs,"], ["halewid", "ˈhaːləwid"], ["be", "beː"], ["thi", "θiː"], ["name.", "ˈnaːmə."]] } },
+      },
+      {
+        name: "Tyndale's English", flag: null, speakers: "1526", scene: "village", loc: [50.94, 6.96, "printed in Germany"],
+        script: "O oure father which arte in heven, halowed be thy name", scriptLabel: "THE LORD'S PRAYER · TYNDALE'S NEW TESTAMENT",
+        char: { skin: "pale", hair: "short", hairColor: "brown", beard: true, beardColor: "#4a3020", hat: { type: "flatcap", color: "#1d1d1d" }, outfit: { type: "coat", color: "#1d1d1d", inner: "#f4f1e8" }, expression: "neutral" },
+        cards: [
+          "William Tyndale translated the New Testament from Greek in 1526. It was printed in Germany and smuggled into England, and he was later executed for it.",
+          "English was in the middle of the Great Vowel Shift: long vowels were moving, so name was heading from nah-muh towards naym.",
+        ],
+        audio: { sim: { model: "en_GB-alan-medium", scale: 1.05, words: [["O", "oː"], ["oure", "uːr"], ["father", "ˈfaːðər"], ["which", "hwɪtʃ"], ["arte", "art"], ["in", "ɪn"], ["heven,", "ˈhɛvən,"], ["halowed", "ˈhaloːd"], ["be", "beː"], ["thy", "ðəi"], ["name.", "neːm."]] } },
+      },
+      {
+        name: "Shakespeare's English", flag: null, speakers: "~1600", scene: "village", loc: [51.5, -0.1, "London, England"],
+        script: "To be, or not to be, that is the question", scriptLabel: "HAMLET",
+        char: { skin: "pale", hair: "bald", hairColor: "brown", mustache: true, beard: true, beardColor: "#5a3b22", earrings: "#d9b13b", outfit: { type: "coat", color: "#1d1d1d", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Hamlet, around 1600, in Original Pronunciation, the accent linguists like David Crystal have rebuilt for Shakespeare's plays.",
+          "Every r was pronounced, and some of his rhymes only work in this accent, like love and prove.",
+        ],
+        audio: { sim: { model: "en_GB-alan-medium", scale: 1.05, words: [["To", "tə"], ["be,", "biː,"], ["or", "ɔɹ"], ["not", "nɔt"], ["to", "tə"], ["be,", "biː,"], ["that", "ðat"], ["is", "ɪz"], ["the", "ðə"], ["question.", "ˈkwɛsjən."]] } },
+      },
+      {
+        name: "King James English", flag: null, speakers: "1611", scene: "village", loc: [51.5, -0.1, "London, England"],
+        script: "Our Father which art in heaven, Hallowed be thy name", scriptLabel: "THE LORD'S PRAYER · KING JAMES BIBLE",
+        char: { skin: "pale", hair: "long", hairColor: "brown", mustache: true, beardColor: "#4a3020", hat: { type: "tophat", color: "#1d1d1d" }, outfit: { type: "coat", color: "#2b2b4a", inner: "#f4f1e8" }, expression: "neutral" },
+        cards: [
+          "The King James Bible of 1611, the version most English speakers still recognise today.",
+          "Thou, thee and thy were already going out of everyday speech, but the Bible kept them, which is partly why they sound holy to us.",
+        ],
+        audio: { sim: { model: "en_GB-alan-medium", scale: 1.05, words: [["Our", "ɐʊɹ"], ["Father", "ˈfaːðəɹ"], ["which", "ʍɪtʃ"], ["art", "aɹt"], ["in", "ɪn"], ["heaven,", "ˈhɛvən,"], ["Hallowed", "ˈhaləd"], ["be", "biː"], ["thy", "ðəɪ"], ["name.", "neːm."]] } },
+      },
+      {
+        name: "1776 American English", flag: null, speakers: "1776", scene: "forest", loc: [39.95, -75.15, "Philadelphia, USA"],
+        script: "When in the Course of human events, it becomes necessary for one people to dissolve the political bands", scriptLabel: "DECLARATION OF INDEPENDENCE",
+        char: { skin: "pale", hair: "short", hairColor: "grey", hat: { type: "tophat", color: "#1d1d1d" }, outfit: { type: "coat", color: "#1f3a5f", inner: "#f4f1e8" }, expression: "neutral" },
+        cards: [
+          "The Declaration of Independence, 1776. American and British English still sounded very close: most English people pronounced their r's too.",
+          "Dropping the r after vowels spread in southern England after this time, a big reason Americans and Brits sound different today.",
+        ],
+        audio: { sim: { model: "en_GB-alan-medium", scale: 1.05, words: [["When", "ʍɛn"], ["in", "ɪn"], ["the", "ðə"], ["Course", "koːɹs"], ["of", "əv"], ["human", "ˈhjuːmən"], ["events,", "ɪˈvɛnts,"], ["it", "ɪt"], ["becomes", "bɪˈkʌmz"], ["necessary", "ˈnɛsəsɛɹi"], ["for", "fɔɹ"], ["one", "wʌn"], ["people", "ˈpiːpəl"], ["to", "tə"], ["dissolve", "dɪˈzɑlv"], ["the", "ðə"], ["political", "pəˈlɪtɪkəl"], ["bands.", "bændz."]] } },
+      },
+      {
+        name: "Modern English", flag: null, speakers: "today", scene: "hongkong", loc: null,
+        script: "Our Father in heaven, hallowed be your name", scriptLabel: "THE LORD'S PRAYER · TODAY",
+        char: { skin: "light", hair: "short", hairColor: "brown", outfit: { type: "tunic", color: "#2f6fb0", trim: "#f2c94c" }, glasses: true, expression: "grin" },
+        cards: [
+          "The same prayer today. In about 1,000 years, every word has changed its sound, and most changed their spelling too.",
+          "English now has around 1.5 billion speakers, and most of them learned it as a second language.",
+        ],
+        audio: { sim: { model: "en_GB-alan-medium", scale: 1.05, words: [["Our", "ˈaʊə"], ["Father", "ˈfɑːðə"], ["in", "ɪn"], ["heaven,", "ˈhɛvən,"], ["hallowed", "ˈhæləʊd"], ["be", "biː"], ["your", "jɔː"], ["name.", "neɪm."]] } },
+      },
+    ],
+  },
 };
