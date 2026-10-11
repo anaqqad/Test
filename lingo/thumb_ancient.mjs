@@ -15,10 +15,6 @@ const P = {
   // Darius: "adam Dārayavauš", I am Darius, in Old Persian cuneiform
   2: { scene: "zagros", say: "𐎠𐎭𐎶𐏐𐎭𐎠𐎼𐎹𐎺𐎢𐏁", sayFont: "'Noto Sans Old Persian'", saySize: 52, out: "thumb_ancient2.png", tag: "PART 2",
        who: { skin: "olive", hair: "long", hairColor: "black", beard: true, hat: { type: "crown", color: "#d9b13b", color2: "#1f4e8c" }, outfit: { type: "coat", color: "#5b2a6b", inner: "#d9b13b" }, expression: "open" } },
-  // How English sounded: Old English Lord's Prayer
-  english: { scene: "village", say: "Fæder ūre þū þe eart on heofonum", sayFont: "'Noto Serif',serif", saySize: 40, out: "thumb_english.png", tag: "",
-       top: "THIS IS", mid: "ENGLISH?!", pill: "1,000 YEARS AGO", pillSize: 56,
-       who: { skin: "pale", hair: "short", hairColor: "auburn", beard: true, beardColor: "#7a3b1c", outfit: { type: "tunic", color: "#2f5d3a", trim: "#c8a165" }, expression: "open" } },
 }[PART];
 const roman = P.who;
 const outline = (w, c = "#000") => [-w, 0, w].flatMap((x) => [-w, 0, w].map((y) => `${x}px ${y}px 0 ${c}`)).join(",");
