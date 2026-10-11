@@ -68,7 +68,13 @@ const tags = {
 }[k] || "";
 const title = v.title;
 const desc = [intro, "", "Which language should we cover next? Tell us in the comments 👇", "", ...chapters, "",
-  ...(v.sim ? ["About the voices: nobody alive has heard these languages. Every voice in this video is an AI simulation: open-source Piper text-to-speech voices reading scholarly reconstructions of the pronunciation, written in IPA. Experts disagree on many details, especially vowels, so treat it as a best guess, not a recording.",
+  ...(v.sim ? ["HOW WE SIMULATED THEM",
+    "Nobody alive has heard these languages, so every voice in this video is an AI simulation, not a recording. The method:",
+    "1. A real surviving text: every line is an actual ancient text, not invented sentences.",
+    "2. Reconstructed pronunciation: linguists rebuild how a language sounded from its descendants (Coptic for Egyptian, Icelandic for Old Norse), from how foreigners spelled it (Babylonian scribes wrote Egyptian names with vowels), from ancient grammarians (Romans described their own v and c), and from poetry, rhyme and spelling mistakes. We wrote each line in the International Phonetic Alphabet (IPA) following these standard reconstructions.",
+    "3. AI voice reading the sounds directly: open-source Piper text-to-speech voices were fed the IPA sounds themselves, so they say exactly what the reconstruction says instead of reading the words in their own language. Each language got a voice from a modern language with similar sounds: Arabic for Egyptian, Hebrew for Akkadian, Icelandic for Old Norse and Gothic, Italian for Latin, Greek for Ancient Greek, Turkish for Hittite, Dutch for Old English, Persian for Sumerian, German for Proto-Indo-European.",
+    "Limits: the modern voice's accent comes through, sounds a voice was never trained on are replaced with the closest one, Ancient Greek's musical pitch accent is not reproduced, and some details (Egyptian vowels, the laryngeal sounds of Proto-Indo-European) are educated guesses even among experts. Think of it as a best guess built on real scholarship.",
+    "",
     "Texts: Hávamál 76, Beowulf 1-2, Gothic Bible (Matthew 6:9), Caesar, Homer's Iliad 1.1, Hrozný's Hittite sentence, Code of Hammurabi law 1, the Egyptian royal formula ankh wedja seneb, the Sumerian King List, and Schleicher's fable in the version by Andrew Byrd."]
     : ["Audio credits (all via Wikimedia Commons):", ...credits, `Licences: ${[...lic].join(" and ")}`,
   "Speaker counts are estimates; sources disagree for many small languages."]), "", "#languages #linguistics #languagesbelike"].join("\n").replace(/[<>]/g, "");
