@@ -202,8 +202,10 @@ export function character(spec, uid = "c") {
   // beard (under mouth)
   if (spec.beard) s += `<path d="M258 410 C262 540 330 615 400 620 C470 615 538 540 542 410 C520 470 480 505 400 505 C320 505 280 470 258 410Z" fill="${spec.beardColor ? HAIR[spec.beardColor] || spec.beardColor : hc}" stroke="${hl}" stroke-width="6"/>`;
   // mouth
-  const lip = fem ? "#c2575a" : shade(skin, -0.5);
   const my = 500;
+  // bearded faces: open the beard around the mouth so the mouth always reads clearly
+  if (spec.beard) s += `<ellipse cx="400" cy="${my + 6}" rx="70" ry="32" fill="${skin}" stroke="${hl}" stroke-width="5"/>`;
+  const lip = fem ? "#c2575a" : spec.beard ? "#5a2620" : shade(skin, -0.5);
   const mouths = {
     smile: `<path d="M352 ${my - 6} C375 ${my + 24} 425 ${my + 24} 448 ${my - 6}" stroke="${lip}" stroke-width="${fem ? 10 : 8}" fill="none" stroke-linecap="round"/>`,
     grin: `<path d="M345 ${my - 10} C370 ${my + 40} 430 ${my + 40} 455 ${my - 10}Z" fill="#7a2e2e" stroke="${shade(skin, -0.5)}" stroke-width="6"/><path d="M352 ${my - 6} L448 ${my - 6} L440 ${my + 6} L360 ${my + 6}Z" fill="#fff"/>`,

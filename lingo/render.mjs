@@ -22,6 +22,7 @@ const nm = (p) => path.join(HERE, "node_modules", p);
 
 // ---------------- shared bits ----------------
 export const FONT_CSS = [600, 700, 800].map((w) => `<link rel="stylesheet" href="${fileUrl(nm(`@fontsource/montserrat/${w}.css`))}">`).join("");
+const SCRIPT_CSS = ["noto-sans-egyptian-hieroglyphs/400.css", "noto-sans-cuneiform/400.css", "noto-sans-gothic/400.css", "noto-serif/700.css"].map((f) => `<link rel="stylesheet" href="${fileUrl(nm(`@fontsource/${f}`))}">`).join("");
 const world = JSON.parse(fs.readFileSync(nm("world-atlas/land-110m.json")));
 const land = topo.feature(world, world.objects.land);
 
@@ -76,8 +77,11 @@ function storyPage(video, item, idx, dur, audio) {
   const times = item.cards.map((_, i) => 1.1 + i * step);
   const caps = audio?.captions || [];
   const listen = caps.length ? "" : `<div id="listen" class="abs pill"><span class="eq"><i></i><i></i><i></i><i></i></span>Listen</div>`;
-  return `<!doctype html><html><head><meta charset="utf-8">${FONT_CSS}<style>${BASE_CSS}
+  return `<!doctype html><html><head><meta charset="utf-8">${FONT_CSS}${item.script ? SCRIPT_CSS : ""}<style>${BASE_CSS}
   :root{--accent:${accent}}
+  #script{align-self:flex-start;max-width:890px;background:linear-gradient(#2a2118,#14100b);border:4px solid #c8a165;border-radius:18px;padding:14px 30px 18px;color:#f2d38a;font-weight:700;font-size:42px;line-height:1.25;box-shadow:0 12px 30px rgba(0,0,0,.4);opacity:0}
+  #script small{display:block;font-family:Montserrat;font-weight:700;font-size:20px;letter-spacing:3px;color:#c8a165;margin-bottom:4px}
+  #sim{left:40px;top:150px;background:rgba(15,18,28,.85);color:#fff;font-weight:800;font-size:22px;letter-spacing:1px;padding:9px 18px;border-radius:12px;border:2px solid #ffcc00}
   #bg{left:-40px;top:-40px;width:2000px;height:1160px;transform-origin:60% 40%}
   #bg svg{width:100%;height:100%}
   #bar{left:0;top:0;width:1920px;height:132px;background:linear-gradient(#ffffff,#f1eee8);box-shadow:0 6px 24px rgba(0,0,0,.28);display:flex;align-items:center;justify-content:center;gap:26px}
@@ -110,7 +114,8 @@ function storyPage(video, item, idx, dur, audio) {
   </style></head><body>
   <div id="bg" class="abs">${scene(item.scene, item.name)}</div>
   <div id="char" class="abs">${character(withGender(item.char, audio && audio.voice), "c" + idx)}</div>
-  <div id="cards" class="abs">${item.like ? `<div id="likerow"><div id="like"><small>🤔 Sounds like…</small>${esc(item.like)}</div>${item.verdict ? `<div id="verdict" style="--v:${item.verdict[1]}">${esc(item.verdict[0])}</div>` : ""}</div>` : ""}${item.cards.map((c) => `<div class="card">${rich(c)}</div>`).join("")}</div>
+  ${video.sim ? `<div id="sim" class="abs">🤖 AI SIMULATION · reconstructed pronunciation</div>` : ""}
+  <div id="cards" class="abs">${item.script ? `<div id="script"><small>${item.scriptLabel || "ORIGINAL TEXT"}</small><span style="font-family:'${item.scriptFont || "Noto Serif"}',serif;${item.scriptSize ? `font-size:${item.scriptSize}px` : ""}">${esc(item.script)}</span></div>` : ""}${item.like ? `<div id="likerow"><div id="like"><small>🤔 Sounds like…</small>${esc(item.like)}</div>${item.verdict ? `<div id="verdict" style="--v:${item.verdict[1]}">${esc(item.verdict[0])}</div>` : ""}</div>` : ""}${item.cards.map((c) => `<div class="card">${rich(c)}</div>`).join("")}</div>
   ${item.loc ? `<div id="globe" class="abs">${globe(item.loc)}<br><span class="lab">📍 ${esc(item.loc[2])}</span></div>` : ""}
   ${listen}
   <div id="cap" class="abs pill"><span>🔊</span><span class="w"></span></div>
@@ -127,6 +132,7 @@ function storyPage(video, item, idx, dur, audio) {
     const ci=ease(t/0.7); $('#char').style.transform='translateY('+((1-ci)*140+Math.sin(t*1.6)*5)+'px) rotate('+(Math.sin(t*1.1)*0.7)+'deg)';
     cards.forEach((c,i)=>{const k=(t-T[i])/0.5; c.style.opacity=Math.min(1,Math.max(0,k*1.6)); c.style.transform='translateY('+(1-back(k))*36+'px) scale('+(0.96+0.04*back(k))+')';});
     const g=$('#globe'); if(g){const k=ease((t-0.4)/0.6); g.style.opacity=k; g.style.transform='scale('+(0.8+0.2*back((t-0.4)/0.6))+')'; const p=g.querySelector('.pulse'); const ph=(t*0.9)%1; p.setAttribute('r',8+ph*26); p.style.opacity=1-ph;}
+    const sc=$('#script'); if(sc){const k=(t-0.4)/0.45; sc.style.opacity=Math.min(1,Math.max(0,k*2)); sc.style.transform='scale('+(0.85+0.15*back(k))+')';}
     const lk=$('#like'); if(lk){const k=(t-0.5)/0.45; lk.style.opacity=Math.min(1,Math.max(0,k*2)); lk.style.transform='rotate(-2deg) scale('+(0.6+0.4*back(k))+')';
       const v=$('#verdict'); if(v){const q=(t-T[0]-1.6)/0.3; v.style.opacity=Math.min(1,Math.max(0,q*3)); v.style.transform='rotate(-8deg) scale('+(q<0?2.2:Math.max(1,2.2-1.2*ease(q)))+')';}}
     const l=$('#listen'); if(l){l.style.opacity=ease((t-0.8)/0.4);}
@@ -257,6 +263,7 @@ export function logoSvg(h = 120, dark = false) {
 // screen never sits on silence ("switch as soon as the voice stops").
 export function segDuration(video, item, an) {
   const full = video.layout === "ranking" ? 11.0 : +(1.4 + 5.0 * item.cards.length + 1.2).toFixed(2);
+  if (video.sim && an && an.end) return +Math.max(an.end + 0.8, 1.2 + 1.6 * item.cards.length).toFixed(2); // generated audio: fit the voice exactly
   if (!an || !an.end || an.end >= full - 1.0) return full;
   const floor = video.layout === "ranking" ? 5.0 : 1.2 + 1.6 * item.cards.length;
   return +Math.min(full, Math.max(an.end + 0.8, floor)).toFixed(2);

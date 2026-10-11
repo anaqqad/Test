@@ -644,4 +644,119 @@ export const VIDEOS = {
       },
     ],
   },
+  // ------------------------------------------------------------------ 8
+  // Simulated: the owner asked for AI voices here. Each phrase is a published scholarly reconstruction, written in IPA
+  // and read by a Piper voice (ipa_say.py / sim_audio.py). The video labels every clip as an AI simulation.
+  ancient: {
+    title: "Dead Languages Brought Back to Life (AI Simulation)",
+    part: "",
+    layout: "story",
+    counterLabel: "spoken around",
+    sim: true,
+    items: [
+      {
+        name: "Old Norse", flag: null, speakers: "~1000 AD", scene: "faroe", loc: [62.0, 8.0, "Scandinavia & Iceland"],
+        script: "Deyr fé, deyja frændr, deyr sjalfr it sama",
+        char: { skin: "pale", hair: "short", hairColor: "auburn", beard: true, beardColor: "#7a3b1c", outfit: { type: "tunic", color: "#5b3a29", trim: "#c8a165" }, hat: { type: "beanie", color: "#4a4a4a", color2: "#4a4a4a" }, expression: "grin" },
+        cards: [
+          "The language of the Vikings. 'Cattle die, kinsmen die, you yourself will die the same' is from the Hávamál, poems written down in Iceland around 1270.",
+          "Icelandic changed so little that Icelanders today can still read the old sagas.",
+        ],
+        audio: { sim: { model: "is_IS-steinn-medium", scale: 1.1, words: [["Deyr", "dœyr"], ["fé,", "feː,"], ["deyja", "ˈdœyjɑ"], ["frændr,", "ˈfrɛːndr,"], ["deyr", "dœyr"], ["sjalfr", "ˈsjɑlvr"], ["it", "it"], ["sama.", "ˈsɑmɑ."]] } },
+      },
+      {
+        name: "Old English", flag: null, speakers: "~1000 AD", scene: "moorland", loc: [52.5, -1.5, "England"],
+        script: "Hwæt! Wē Gār-Dena in ġēar-dagum, þēod-cyninga þrym ġefrūnon",
+        char: { skin: "pale", hair: "short", hairColor: "brown", beard: true, beardColor: "brown", outfit: { type: "tunic", color: "#2f5d3a", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "The first line of Beowulf: 'Listen! We have heard of the glory of the kings of the Spear-Danes in days of old.'",
+          "This is the ancestor of English, yet today it has to be studied like a foreign language.",
+        ],
+        audio: { sim: { model: "nl_NL-ronnie-medium", scale: 1.1, words: [["Hwæt!", "ʍæt!"], ["Wē", "weː"], ["Gār-Dena", "ˈɡɑːrdenɑ"], ["in", "in"], ["ġēar-dagum,", "ˈjæːɑrdɑɣum,"], ["þēod-cyninga", "ˈθeːodkyniŋɡɑ"], ["þrym", "θrym"], ["ġefrūnon.", "jeˈfruːnon."]] } },
+      },
+      {
+        name: "Gothic", flag: null, speakers: "~350 AD", scene: "steppe", loc: [44.5, 27.0, "Lower Danube"],
+        script: "𐌰𐍄𐍄𐌰 𐌿𐌽𐍃𐌰𐍂 𐌸𐌿 𐌹𐌽 𐌷𐌹𐌼𐌹𐌽𐌰𐌼",
+        scriptFont: "Noto Sans Gothic",
+        char: { skin: "light", hair: "short", hairColor: "blonde", beard: true, beardColor: "#9a6b2f", outfit: { type: "coat", color: "#3a2f5b", inner: "#f4f1e8" }, expression: "grin" },
+        cards: [
+          "Around 350 AD bishop Wulfila invented the Gothic alphabet to translate the Bible. This is the Lord's Prayer: Our Father in heaven, holy be your name.",
+          "The last known Gothic speakers lived in Crimea. A Flemish diplomat wrote down a list of their words in the 1560s.",
+        ],
+        audio: { sim: { model: "is_IS-bui-medium", scale: 1.1, words: [["Atta", "ˈatta"], ["unsar", "ˈunsar"], ["þu", "θuː"], ["in", "in"], ["himinam,", "ˈhiminam,"], ["weihnai", "ˈwiːhnɛː"], ["namo", "ˈnamoː"], ["þein.", "θiːn."]] } },
+      },
+      {
+        name: "Classical Latin", flag: null, speakers: "~50 BC", scene: "tuscany", loc: [41.9, 12.5, "Rome"],
+        script: "VENI · VIDI · VICI",
+        char: F({ skin: "olive", hair: "bun", hairColor: "black", outfit: { type: "dress", color: "#f4f1e8", color2: "#7a1f1f", trim: "#c8a165" }, earrings: "#e9c46a", expression: "smile" }),
+        cards: [
+          "Romans said v like w and c always like k. So Caesar said 'weenee, weedee, weekee', and his own name sounded like 'Kaisar'.",
+          "The second line is from Caesar's Gallic War: all Gaul is divided into three parts.",
+        ],
+        audio: { sim: { model: "it_IT-paola-medium", scale: 1.05, words: [["Vēnī,", "ˈweːniː,"], ["vīdī,", "ˈwiːdiː,"], ["vīcī.", "ˈwiːkiː."], ["Gallia", "ˈɡallia"], ["est", "ɛst"], ["omnis", "ˈɔmnɪs"], ["dīvīsa", "diːˈwiːsa"], ["in", "ɪn"], ["partēs", "ˈparteːs"], ["trēs.", "treːs."]] } },
+      },
+      {
+        name: "Ancient Greek", flag: null, speakers: "~700 BC", scene: "adriatic", loc: [37.97, 23.72, "Greece"],
+        script: "μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος",
+        scriptFont: "Noto Serif",
+        char: F({ skin: "olive", hair: "long", hairColor: "black", outfit: { type: "dress", color: "#f4f1e8", color2: "#1f4e8c", trim: "#c8a165" }, expression: "neutral" }),
+        cards: [
+          "The first line of the Iliad by Homer: 'Sing, goddess, the rage of Achilles, son of Peleus.'",
+          "Ancient Greek had a pitch accent: the little marks over the letters showed where the voice went up and down, almost like singing.",
+        ],
+        audio: { sim: { model: "el_GR-rapunzelina-medium", scale: 1.1, words: [["mênin", "ˈmɛːnin"], ["áeide", "aˈeːde"], ["theà", "tʰeˈa"], ["Pēlēïádeō", "pɛːlɛːiˈadeɔː"], ["Akhilêos.", "akʰiˈlɛːos."]] } },
+      },
+      {
+        name: "Hittite", flag: null, speakers: "~1600 BC", scene: "steppe", loc: [40.02, 34.61, "Hattusa, Turkey"],
+        script: "nu NINDA-an ezzateni, wātar-ma ekutteni", scriptLabel: "CUNEIFORM, IN LATIN LETTERS",
+        char: { skin: "tan", hair: "long", hairColor: "black", beard: true, outfit: { type: "wrap", color: "#8c2b2b", color2: "#c8a165", trim: "#f2c94c" }, expression: "neutral" },
+        cards: [
+          "Hittite was the language of an empire in today's Turkey, written in cuneiform on clay tablets. This sentence means: now you will eat bread and drink water.",
+          "In 1915 Bedřich Hrozný spotted 'wātar' (water) and 'ezza' (eat) here and realised Hittite was a distant relative of English.",
+        ],
+        audio: { sim: { model: "tr_TR-dfki-medium", scale: 1.1, words: [["nu", "nu"], ["NINDA-an", "ˈnindaan"], ["ezzateni,", "edzˈzateni,"], ["wātar-ma", "ˈwaːtarma"], ["ekutteni.", "eˈkutteni."]] } },
+      },
+      {
+        name: "Akkadian", flag: null, speakers: "~1750 BC", scene: "arabia", loc: [32.54, 44.42, "Babylon, Iraq"],
+        scriptLabel: "CUNEIFORM, IN LATIN LETTERS", script: "šumma awīlum awīlam ubbirma nērtam elīšu iddīma lā uktīnšu, mubbiršu iddâk",
+        char: { skin: "tan", hair: "long", hairColor: "black", beard: true, outfit: { type: "wrap", color: "#1f3a5f", color2: "#c8a165", trim: "#f2c94c" }, hat: { type: "headband", color: "#c8a165", color2: "#1f3a5f" }, expression: "neutral" },
+        cards: [
+          "Akkadian was the language of Babylon. This is law number 1 of the Code of Hammurabi: whoever accuses a man of murder without proof shall be put to death.",
+          "It is the oldest known Semitic language, a distant relative of Arabic and Hebrew.",
+        ],
+        audio: { sim: { model: "he_IL-saspeech-medium", scale: 1.0, words: [["šumma", "ˈʃumma"], ["awīlum", "aˈwiːlum"], ["awīlam", "aˈwiːlam"], ["ubbirma", "ubˈbirma"], ["nērtam", "ˈneːrtam"], ["elīšu", "eˈliːʃu"], ["iddīma", "idˈdiːma"], ["lā", "laː"], ["uktīnšu,", "ukˈtiːnʃu,"], ["mubbiršu", "mubˈbirʃu"], ["iddâk.", "idˈdaːk."]] } },
+      },
+      {
+        name: "Ancient Egyptian", flag: null, speakers: "~2000 BC", scene: "arabia", loc: [25.7, 32.6, "Thebes, Egypt"],
+        script: "𓋹𓍑𓋴",
+        scriptFont: "Noto Sans Egyptian Hieroglyphs", scriptSize: 110,
+        char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "wrap", color: "#f4f1e8", color2: "#c8a165", trim: "#1f6fb0" }, necklace: "#c8a165", expression: "neutral" },
+        cards: [
+          "'Life, prosperity, health!' Egyptians wrote these three signs after the name of the pharaoh.",
+          "Hieroglyphs wrote no vowels. Scholars rebuild them from Coptic, the last stage of Egyptian, and from foreign spellings of Egyptian names.",
+        ],
+        audio: { sim: { model: "ar_JO-kareem-medium", scale: 1.15, words: [["ꜥnḫ", "ˈʕaːnax,"], ["wḏꜣ", "ˈwaːdʒaʔ,"], ["snb!", "ˈsaːnib!"]] } },
+      },
+      {
+        name: "Sumerian", flag: null, speakers: "~2100 BC", scene: "arabia", loc: [31.32, 45.64, "Uruk, Iraq"],
+        scriptLabel: "CUNEIFORM, IN LATIN LETTERS", script: "nam-lugal an-ta e₁₁-de₃-a-ba, nam-lugal eriduᵏⁱ-ga",
+        char: { skin: "tan", hair: "bald", hairColor: "black", outfit: { type: "wrap", color: "#f4f1e8", color2: "#8a6a3b", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "Sumerian is one of the two oldest written languages, in cuneiform from about 3200 BC. This is the start of the Sumerian King List: when kingship came down from heaven, the kingship was in Eridu.",
+          "It has no known relatives. Babylonian scribes kept copying it for centuries after people stopped speaking it, like Latin in Europe.",
+        ],
+        audio: { sim: { model: "fa_IR-amir-medium", scale: 1.15, words: [["nam-lugal", "namˈluɡal"], ["an-ta", "ˈanta"], ["e-de-a-ba,", "edeˈaba,"], ["nam-lugal", "namˈluɡal"], ["eridu-ga", "eriˈduɡa."]] } },
+      },
+      {
+        name: "Proto-Indo-European", flag: null, speakers: "~4000 BC", scene: "steppe", loc: [48.0, 40.0, "Pontic steppe (one theory)"],
+        script: "h₂áwis h₁éḱwōs-kʷe", scriptLabel: "NEVER WRITTEN · MODERN RECONSTRUCTION",
+        char: { skin: "light", hair: "short", hairColor: "brown", beard: true, beardColor: "#3b2a16", outfit: { type: "wrap", color: "#6b4a2b", color2: "#3b2a16", trim: "#c8a165" }, expression: "smile" },
+        cards: [
+          "Never written down. Linguists rebuilt it by comparing its descendants: English, Hindi, Persian, Russian, Greek, Latin and hundreds more.",
+          "This is 'The Sheep and the Horses', a short story linguists write in it: a sheep that had no wool saw horses.",
+        ],
+        audio: { sim: { model: "de_DE-thorsten-medium", scale: 1.1, words: [["h₂áwis", "ˈxawis"], ["h₁éḱwōs-kʷe.", "ˈʔekʷoːskʷe."], ["h₂áwis,", "ˈxawis,"], ["yésmin", "ˈjesmin"], ["h₂wl̥h₁néh₂", "xʷl̩ˈneːx"], ["ne", "ne"], ["h₁ést,", "ˈʔest,"], ["dédorḱe", "ˈdedorke"], ["h₁éḱwons.", "ˈʔekʷons."]] } },
+      },
+    ],
+  },
 };

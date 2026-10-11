@@ -47,6 +47,9 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
   facts. No "Part 2" anywhere (owner has no part 1 videos). **Not** videos about one country or region (owner rejected "Italy's languages" and "Middle East").
 - **Only use sounds that were actually found**: real recordings from Wikimedia Commons. No synthesized speech or
   generated music. A language with no recording found gets replaced or dropped, never faked.
+  Exception the owner asked for: `ancient` ("Dead Languages Brought Back to Life (AI Simulation)") uses Piper voices
+  reading scholarly IPA reconstructions (`lingo/sim_audio.py`, `lingo/ipa_say.py`), labelled "AI SIMULATION" on screen
+  and in the description. Tick YouTube's altered/synthetic content box for it.
 - Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).
 
 ## Continue from here

@@ -12,7 +12,7 @@ let t = INTRO;
 const chapters = ["0:00 Intro"];
 for (const it of items) {
   if (tl[it.name]) t = tl[it.name].start;
-  const extra = v.layout === "ranking" ? `${it.score}/10` : it.speakers ? (/^[~<\d][\d,.~<kM–]*$/.test(it.speakers) ? `${clean(it.speakers)} ${/^~?1$/.test(it.speakers) ? "speaker" : "speakers"}` : it.speakers === "revival" ? "revival" : (/native$/.test(it.speakers) ? `${clean(it.speakers)} speakers` : `speakers: ${clean(it.speakers)}`)) : "";
+  const extra = v.sim ? clean(it.speakers) : v.layout === "ranking" ? `${it.score}/10` : it.speakers ? (/^[~<\d][\d,.~<kM–]*$/.test(it.speakers) ? `${clean(it.speakers)} ${/^~?1$/.test(it.speakers) ? "speaker" : "speakers"}` : it.speakers === "revival" ? "revival" : (/native$/.test(it.speakers) ? `${clean(it.speakers)} speakers` : `speakers: ${clean(it.speakers)}`)) : "";
   chapters.push(`${ts(t)} ${it.name}${extra ? ` (${extra})` : ""}`);
   t += tl[it.name] ? tl[it.name].dur : seg(it);
 }
@@ -53,6 +53,7 @@ const intro = {
   conlangs: "Languages that somebody simply invented, and the people who actually speak them. Every voice you hear is a real recording.",
   revived: "Languages that died, or nearly did, and came back. Every voice you hear is a real recording of the language.",
   soundlike: "Maltese that sounds like Arabic, Portuguese that sounds like Russian, Welsh that sounds like Elvish. Guess first, then find out why. Every voice you hear is a real recording of the language.",
+  ancient: "What did the Vikings, Romans, Egyptians and Sumerians actually sound like? We go back 6,000 years, one dead language at a time.",
   hardest: "How hard is each language for an English speaker? Based on the US Foreign Service Institute's estimates of class time. Every voice you hear is a real recording.",
 }[k] || "";
 const tags = {
@@ -62,12 +63,15 @@ const tags = {
   conlangs: "constructed languages, conlangs, invented languages, Esperanto, Toki Pona, Klingon, Volapuk, Lojban, Ido, languages be like, linguistics, LingoDude",
   revived: "revived languages, language revival, dead languages, Hebrew, Cornish, Manx, Maori, Latin, Sanskrit, languages be like, linguistics, LingoDude",
   soundlike: "languages that sound like other languages, languages be like, Maltese, European Portuguese, Romanian, Dutch, West Frisian, Afrikaans, Luxembourgish, Esperanto, Hungarian, Persian, Korean, Welsh, linguistics, LingoDude",
+  ancient: "dead languages, extinct languages, ancient languages, what did ancient languages sound like, Ancient Egyptian, Sumerian, Akkadian, Hittite, Ancient Greek, Latin, Gothic, Old English, Old Norse, Proto-Indo-European, reconstructed pronunciation, linguistics, LingoDude",
   hardest: "hardest languages, language difficulty, FSI, ranking languages, languages for English speakers, learn languages, linguistics, LingoDude",
 }[k] || "";
 const title = v.title;
 const desc = [intro, "", "Which language should we cover next? Tell us in the comments 👇", "", ...chapters, "",
-  "Audio credits (all via Wikimedia Commons):", ...credits, `Licences: ${[...lic].join(" and ")}`,
-  "Speaker counts are estimates; sources disagree for many small languages.", "", "#languages #linguistics #languagesbelike"].join("\n").replace(/[<>]/g, "");
+  ...(v.sim ? ["About the voices: nobody alive has heard these languages. Every voice in this video is an AI simulation: open-source Piper text-to-speech voices reading scholarly reconstructions of the pronunciation, written in IPA. Experts disagree on many details, especially vowels, so treat it as a best guess, not a recording.",
+    "Texts: Hávamál 76, Beowulf 1-2, Gothic Bible (Matthew 6:9), Caesar, Homer's Iliad 1.1, Hrozný's Hittite sentence, Code of Hammurabi law 1, the Egyptian royal formula ankh wedja seneb, the Sumerian King List, and Schleicher's fable in the version by Andrew Byrd."]
+    : ["Audio credits (all via Wikimedia Commons):", ...credits, `Licences: ${[...lic].join(" and ")}`,
+  "Speaker counts are estimates; sources disagree for many small languages."]), "", "#languages #linguistics #languagesbelike"].join("\n").replace(/[<>]/g, "");
 fs.mkdirSync("meta", { recursive: true });
 fs.writeFileSync(`meta/${k}.md`, `# YouTube metadata: ${title}\n\n## Title\n${title}\n\n## Description\n${desc}\n\n## Tags\n${tags}\n\n## Settings\n- Category: Education\n- Made for kids: No\n- Thumbnail: lingo/out/brand/thumb_${k}.png\n`);
 console.log(`meta/${k}.md`);
