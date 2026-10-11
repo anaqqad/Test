@@ -807,7 +807,7 @@ Location: the ballroom; the son and fiancée enter from the left; the mother and
 16.5s-18s: Medium shot, Coordinator walks over from the stage on the right and stops beside Fiancée, polite, tablet in hand. COORDINATOR: "Ma'am, the board is ready for your speech."
 18s-20s: Close-up Fiancée. FIANCÉE: "Thank you. My grandfather started this foundation."
 20s-21.5s: Close-up Mother, her face draining. MOTHER: "Your grandfather?"
-21.5s-24.5s: Close-up Fiancée, cool and quiet. FIANCÉE: "I took over his board this month. Now I know how your family treats people."
+21.5s-24.5s: Close-up Fiancée, cool and quiet. FIANCÉE: "I run it now. And I've seen how you treat people."
 24.5s-26.5s: Close-up Fiancée. FIANCÉE: "Your grant request is denied."
 26.5s-27.5s: Close-up Son, stunned. SON: "Babe…"
 27.5s-30s: Close-up Fiancée, softening as she looks at him, then a final cold glance at his mother. FIANCÉE: "Relax. Your mother won't have to find me a seat anymore."
