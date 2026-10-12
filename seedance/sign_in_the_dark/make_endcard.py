@@ -25,8 +25,8 @@ def line(text, size, yy, color, emoji=None):
     if emoji:
         em=Image.open(emoji).convert("RGBA").resize((es,es)); b.alpha_composite(em,(int(x0+tw+24),int(yy+size*0.05)))
 top=y+ch+110
-line("MY BOOKS ARE AVAILABLE", 78, top, white)
-line("ON AMAZON KINDLE", 92, top+110, gold, e1)
-line("LINK IN COMMENTS", 84, top+290, white, e2)
+line("AVAILABLE ON", 84, top, white)
+line("AMAZON KINDLE", 100, top+115, gold, e1)
+line("LINK IN COMMENTS", 84, top+295, white, e2)
 b.convert("RGB").save(out)
 print("saved", out)
