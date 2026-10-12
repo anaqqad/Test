@@ -998,7 +998,7 @@ export const VIDEOS = {
     simTexts: "the Lord's Prayer from the 1561 Old Prussian Enchiridion, Bernart de Ventadorn's Can vei la lauzeta mover, the Song of Roland, a Mozarabic kharja, the Iroha poem, the Lord's Prayer in Old Church Slavonic, the Hildebrandslied, Pangur Bán, Li Bai's Quiet Night Thought (Middle Chinese after Baxter), and the Lord's Prayer in Bohairic Coptic",
     items: [
       {
-        name: "Old Prussian", flag: null, speakers: "1561", scene: "baltic", loc: [54.7, 20.5, "Prussia (today Poland & Russia)"],
+        name: "Old Prussian", wojak: "p3_prussian", flag: null, speakers: "1561", scene: "baltic", loc: [54.7, 20.5, "Prussia (today Poland & Russia)"],
         script: "Tawe nūson kas tu essei en dangon", scriptLabel: "THE LORD'S PRAYER · 1561 CATECHISM",
         char: { skin: "pale", hair: "short", hairColor: "blonde", beard: true, beardColor: "#9a6b2f", outfit: { type: "coat", color: "#3a4a2a", inner: "#f4f1e8" }, hat: { type: "furhat", color: "#5b3a29" }, expression: "neutral" },
         cards: [
@@ -1008,7 +1008,7 @@ export const VIDEOS = {
         audio: { sim: { model: "lv_LV-aivars-medium", scale: 1.1, words: [["Tawe", "ˈtaːwe"], ["nūson", "ˈnuːson"], ["kas", "kas"], ["tu", "tu"], ["essei", "ˈesej"], ["en", "en"], ["dangon,", "ˈdaŋɡon,"], ["swintints", "ˈswintints"], ["wirst", "wirst"], ["twais", "twajs"], ["emmens.", "ˈemmens."]] } },
       },
       {
-        name: "Old Occitan", flag: null, speakers: "~1170", scene: "tuscany", loc: [44.0, 2.0, "Southern France"],
+        name: "Old Occitan", wojak: "p3_occitan", flag: null, speakers: "~1170", scene: "tuscany", loc: [44.0, 2.0, "Southern France"],
         script: "Can vei la lauzeta mover de joi sas alas contra·l rai", scriptLabel: "TROUBADOUR SONG · BERNART DE VENTADORN",
         char: F({ skin: "light", hair: "long", hairColor: "auburn", hat: { type: "flower", color: "#c0392b", color2: "#f2c94c" }, outfit: { type: "dress", color: "#2e6b4f", color2: "#f2c94c", trim: "#c0392b" }, expression: "smile" }),
         cards: [
@@ -1018,7 +1018,7 @@ export const VIDEOS = {
         audio: { sim: { model: "ca_ES-upc_ona-medium", scale: 1.1, words: [["Can", "kan"], ["vei", "vej"], ["la", "la"], ["lauzeta", "lawˈzeta"], ["mover", "muˈver"], ["de", "de"], ["joi", "dʒɔj"], ["sas", "sas"], ["alas", "ˈalas"], ["contra·l", "ˈkontral"], ["rai.", "raj."]] } },
       },
       {
-        name: "Old French", flag: null, speakers: "~1100", scene: "village", loc: [48.85, 2.35, "Northern France"],
+        name: "Old French", wojak: "p3_french", flag: null, speakers: "~1100", scene: "village", loc: [48.85, 2.35, "Northern France"],
         script: "Carles li reis, nostre emperere magnes, set anz tuz pleins ad estet en Espaigne", scriptLabel: "THE SONG OF ROLAND",
         char: { skin: "pale", hair: "short", hairColor: "brown", beard: true, beardColor: "#4a3020", hat: { type: "crown", color: "#d9b13b", color2: "#1f4e8c" }, outfit: { type: "coat", color: "#1f3a7a", inner: "#d9b13b" }, expression: "neutral" },
         cards: [
@@ -1028,7 +1028,7 @@ export const VIDEOS = {
         audio: { sim: { model: "fr_FR-tom-medium", scale: 1.1, words: [["Carles", "ˈtʃarləs"], ["li", "li"], ["reis,", "rejs,"], ["nostre", "ˈnɔstrə"], ["emperere", "empəˈrɛrə"], ["magnes,", "ˈmaɲəs,"], ["set", "sɛt"], ["anz", "ants"], ["tuz", "tuts"], ["pleins", "plejns"], ["ad", "að"], ["estet", "esˈteθ"], ["en", "en"], ["Espaigne.", "esˈpaɲə."]] } },
       },
       {
-        name: "Mozarabic", flag: null, speakers: "~1050", scene: "arabia", loc: [37.88, -4.78, "Al-Andalus, Spain"],
+        name: "Mozarabic", wojak: "p3_mozarabic", flag: null, speakers: "~1050", scene: "arabia", loc: [37.88, -4.78, "Al-Andalus, Spain"],
         script: "Garid boš, ay yermanellaš, kom kontenir a meu male", scriptLabel: "A KHARJA, WRITTEN IN ARABIC LETTERS",
         char: F({ skin: "olive", hair: "long", hairColor: "black", hat: { type: "headscarf", color: "#1f6f8b", color2: "#f2c94c" }, outfit: { type: "dress", color: "#1f6f8b", color2: "#f2c94c", trim: "#c0392b" }, earrings: "#d9b13b", expression: "neutral" }),
         cards: [
@@ -1038,7 +1038,7 @@ export const VIDEOS = {
         audio: { sim: { model: "es_ES-davefx-medium", scale: 1.1, words: [["Garid", "ɡaˈrid"], ["boš,", "boʃ,"], ["ay", "aj"], ["yermanellaš,", "jermaˈneʎaʃ,"], ["kom", "kom"], ["kontenir", "konteˈnir"], ["a", "a"], ["meu", "mew"], ["male?", "ˈmale?"]] } },
       },
       {
-        name: "Early Japanese", flag: null, speakers: "~1000 AD", scene: "hills", loc: [35.0, 135.77, "Kyoto, Japan"],
+        name: "Early Japanese", wojak: "p3_japanese", flag: null, speakers: "~1000 AD", scene: "hills", loc: [35.0, 135.77, "Kyoto, Japan"],
         script: "いろはにほへと ちりぬるを", scriptFont: "IPAPGothic", scriptSize: 54,
         char: F({ skin: "light", hair: "long", hairColor: "black", outfit: { type: "coat", color: "#9b1d4a", inner: "#f2c94c" }, expression: "neutral" }),
         cards: [
@@ -1048,7 +1048,7 @@ export const VIDEOS = {
         audio: { sim: { model: "it_IT-paola-medium", scale: 1.6, words: [["iro", "ˈiro"], ["fa", "ɸa"], ["nifofeto", "niɸoˈɸeto"], ["tirinuru", "tiriˈnuru"], ["wo.", "wo."]] } },
       },
       {
-        name: "Old Church Slavonic", flag: null, speakers: "~863", scene: "caucasus", loc: [41.1, 23.0, "Thessaloniki & Moravia"],
+        name: "Old Church Slavonic", wojak: "p3_slavonic", flag: null, speakers: "~863", scene: "caucasus", loc: [41.1, 23.0, "Thessaloniki & Moravia"],
         script: "Отьче нашь, иже ѥси на небесехъ", scriptLabel: "THE LORD'S PRAYER",
         char: { skin: "light", hair: "bald", hairColor: "grey", beard: true, beardColor: "#8a8a8a", outfit: { type: "wrap", color: "#1d1d1d", color2: "#3a3a3a", trim: "#d9b13b" }, expression: "neutral" },
         cards: [
@@ -1058,7 +1058,7 @@ export const VIDEOS = {
         audio: { sim: { model: "ru_RU-denis-medium", scale: 1.1, words: [["Otĭče", "ˈotʲtʃe"], ["našĭ,", "naʃʲ,"], ["iže", "ˈiʒe"], ["jesi", "ˈjesi"], ["na", "na"], ["nebesechŭ.", "nebeˈsexu."]] } },
       },
       {
-        name: "Old High German", flag: null, speakers: "~830", scene: "forest", loc: [50.55, 9.68, "Fulda, Germany"],
+        name: "Old High German", wojak: "p3_german", flag: null, speakers: "~830", scene: "forest", loc: [50.55, 9.68, "Fulda, Germany"],
         script: "Ik gihorta ðat seggen, ðat sih urhettun ænon muotin", scriptLabel: "THE HILDEBRANDSLIED",
         char: { skin: "pale", hair: "long", hairColor: "brown", beard: true, beardColor: "#5a3b22", outfit: { type: "tunic", color: "#5b3a29", trim: "#9a9a9a" }, expression: "neutral" },
         cards: [
@@ -1068,7 +1068,7 @@ export const VIDEOS = {
         audio: { sim: { model: "de_DE-thorsten-medium", scale: 1.1, words: [["Ik", "ik"], ["gihorta", "ɡiˈhoːrta"], ["ðat", "θat"], ["seggen,", "ˈseɡɡen,"], ["ðat", "θat"], ["sih", "sih"], ["urhettun", "urˈhettun"], ["ænon", "ˈeːnon"], ["muotin.", "ˈmuotin."]] } },
       },
       {
-        name: "Old Irish", flag: null, speakers: "~800", scene: "moorland", loc: [53.3, -7.5, "Ireland"],
+        name: "Old Irish", wojak: "ancient3", flag: null, speakers: "~800", scene: "moorland", loc: [53.3, -7.5, "Ireland"],
         script: "Messe ocus Pangur Bán, cechtar nathar fria shaindán", scriptLabel: "PANGUR BÁN",
         char: { skin: "pale", hair: "short", hairColor: "auburn", outfit: { type: "wrap", color: "#6b4a2b", color2: "#3b2a16", trim: "#c8a165" }, expression: "smile" },
         cards: [
@@ -1078,7 +1078,7 @@ export const VIDEOS = {
         audio: { sim: { model: "cy_GB-gwryw_gogleddol-medium", scale: 1.1, words: [["Messe", "ˈmʲesʲe"], ["ocus", "ˈoɡus"], ["Pangur", "ˈpaŋɡur"], ["Bán,", "baːn,"], ["cechtar", "ˈkʲeχtar"], ["nathar", "ˈnaθar"], ["fria", "ˈfʲrʲiə"], ["shaindán.", "ˈhanʲdaːn."]] } },
       },
       {
-        name: "Middle Chinese", flag: null, speakers: "~750", scene: "hills", loc: [34.27, 108.95, "Chang'an, China"],
+        name: "Middle Chinese", wojak: "p3_chinese", flag: null, speakers: "~750", scene: "hills", loc: [34.27, 108.95, "Chang'an, China"],
         script: "床前明月光 疑是地上霜", scriptFont: "Noto Serif TC", scriptSize: 60,
         char: F({ skin: "light", hair: "bun", hairColor: "black", outfit: { type: "coat", color: "#f4f1e8", inner: "#1f4e8c" }, expression: "smile" }),
         cards: [
@@ -1088,7 +1088,7 @@ export const VIDEOS = {
         audio: { sim: { model: "zh_CN-huayan-medium", scale: 1.7, words: [["dʐjaŋ", "dʐjaŋ"], ["dzen", "dzen"], ["mjæŋ", "mjæŋ"], ["ŋjwɔt", "ŋjwɔt"], ["kwaŋ,", "kwaŋ,"], ["ŋi", "ŋi"], ["dʑje", "dʑje"], ["di", "di"], ["dʑjaŋ", "dʑjaŋ"], ["ʂjaŋ.", "ʂjaŋ."]] } },
       },
       {
-        name: "Coptic", flag: null, speakers: "~400 AD", scene: "arabia", loc: [30.05, 31.23, "Egypt"],
+        name: "Coptic", wojak: "p3_coptic", flag: null, speakers: "~400 AD", scene: "arabia", loc: [30.05, 31.23, "Egypt"],
         script: "Ⲡⲉⲛⲓⲱⲧ ⲉⲧϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ", scriptFont: "Noto Sans Coptic", scriptSize: 54,
         char: { skin: "brown", hair: "short", hairColor: "black", beard: true, outfit: { type: "wrap", color: "#f4f1e8", color2: "#8a6a3b", trim: "#1f4e8c" }, expression: "neutral" },
         cards: [

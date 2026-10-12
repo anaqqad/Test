@@ -113,7 +113,7 @@ function storyPage(video, item, idx, dur, audio) {
   #verdict{border:6px solid var(--v);color:var(--v);background:rgba(255,255,255,.92);font-weight:800;font-size:34px;letter-spacing:2px;padding:4px 16px;border-radius:12px;white-space:nowrap;opacity:0}
   </style></head><body>
   <div id="bg" class="abs">${scene(item.scene, item.name)}</div>
-  <div id="char" class="abs">${character(withGender(item.char, audio && audio.voice), "c" + idx)}</div>
+  <div id="char" class="abs">${item.wojak && fs.existsSync(path.join(CACHE, "wojaks", item.wojak + ".png")) ? `<img src="${fileUrl(path.join(CACHE, "wojaks", item.wojak + ".png"))}" style="position:absolute;left:0;bottom:60px;width:720px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.35))">` : character(withGender(item.char, audio && audio.voice), "c" + idx)}</div>
   ${video.sim ? `<div id="sim" class="abs">🤖 AI SIMULATION · reconstructed pronunciation</div>` : ""}
   <div id="cards" class="abs">${item.script ? `<div id="script"><small>${item.scriptLabel || "ORIGINAL TEXT"}</small><span style="font-family:'${item.scriptFont || "Noto Serif"}',serif;${item.scriptSize ? `font-size:${item.scriptSize}px` : ""}">${esc(item.script)}</span></div>` : ""}${item.like ? `<div id="likerow"><div id="like"><small>🤔 Sounds like…</small>${esc(item.like)}</div>${item.verdict ? `<div id="verdict" style="--v:${item.verdict[1]}">${esc(item.verdict[0])}</div>` : ""}</div>` : ""}${item.cards.map((c) => `<div class="card">${rich(c)}</div>`).join("")}</div>
   ${item.loc ? `<div id="globe" class="abs">${globe(item.loc)}<br><span class="lab">📍 ${esc(item.loc[2])}</span></div>` : ""}
