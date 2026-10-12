@@ -480,3 +480,96 @@ export function memeCharacter(spec, uid = "m") {
   s += `</g>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 60 680 940">${s}</svg>`;
 }
+
+// ---------- real Wojak style ----------
+// The meme's look, drawn from scratch: bald egg-shaped head (men), pale flat skin with grey shading,
+// sad slanted brows, small heavy-lidded eyes with bags, long hooked nose, small mouth, and a slightly
+// shaky hand-drawn line. Women get the "Wojak girl" variant: oval face, lashes, red lips, flowing hair.
+// Same 800x1152 canvas as character(), so it drops into the same layouts.
+function wjRng(seed) { let s = 0; for (const ch of String(seed)) s = (s * 31 + ch.charCodeAt(0)) >>> 0; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); }
+function wob(d, r, amt = 1.6) { return d.replace(/-?\d+(\.\d+)?/g, (n) => (+n + (r() - 0.5) * 2 * amt).toFixed(1)); }
+const WJ = { pale: "#f7ece4", light: "#f1dccb", tan: "#ddb08c", olive: "#cfa078", brown: "#a87450", dark: "#7a4f33", deep: "#5a3826", white: "#ffffff" };
+
+export function wojak(spec, uid = "w") {
+  const r = wjRng(uid + JSON.stringify(spec));
+  const P = (d, attrs) => `<path d="${wob(d, r)}" ${attrs}/>`;
+  const fem = !!spec.fem;
+  const skin = WJ[spec.skin] || spec.skin || WJ.white;
+  const shadeC = shade(skin, -0.14);
+  const hc = HAIR[spec.hairColor] || spec.hairColor || HAIR.black;
+  const L = (w) => `stroke="${INK}" stroke-width="${(w * 1.45).toFixed(1)}" fill="none" stroke-linecap="round" stroke-linejoin="round"`;
+  const H = hat(spec.hat, uid);
+  const O = outfit(spec.outfit || {}, skin, uid);
+  const ink = (s) => s.replace(/stroke="#[0-9a-fA-F]{6}"/g, `stroke="${INK}"`).replace(/stroke-width="(\d+(\.\d+)?)"/g, (m, w) => `stroke-width="${Math.min(+w, 4.5)}"`).replace(/opacity="\.45"/g, 'opacity="0"');
+  const hair = spec.hair || (fem ? "long" : "bald");
+  let s = `<defs>${O.defs}</defs>`;
+  // hair behind the head
+  if (fem || hair === "long" || hair === "braids") {
+    s += P("M248 300 C230 170 330 120 410 122 C500 124 580 180 572 320 C570 470 600 620 640 760 L180 760 C215 620 245 470 248 300Z", `fill="${hc}" ${L(4)}`);
+  }
+  // neck + clothes
+  s += P("M362 590 C366 640 362 680 352 712 L462 712 C452 680 448 640 452 590Z", `fill="${skin}" ${L(4)}`);
+  s += P("M362 640 C395 655 425 655 452 640", `stroke="${shadeC}" stroke-width="10" fill="none" opacity=".7"`);
+  s += ink(O.s);
+  if (hair === "braids") for (const x of [262, 548]) s += P(`M${x} 520 C${x - 12} 620 ${x + 12} 720 ${x} 830`, `stroke="${INK}" stroke-width="58" stroke-linecap="round" fill="none"`) + P(`M${x} 520 C${x - 12} 620 ${x + 12} 720 ${x} 830`, `stroke="${hc}" stroke-width="48" stroke-linecap="round" fill="none"`) + P(`M${x - 20} 590 L${x + 20} 612 M${x - 20} 660 L${x + 20} 682 M${x - 20} 730 L${x + 20} 752`, L(3));
+  // head: men a bald egg with a slightly lumpy dome, women an oval face
+  const head = fem
+    ? "M282 330 C276 220 340 175 410 175 C485 175 540 225 536 330 C534 430 515 520 470 570 C440 602 380 604 350 575 C305 530 286 440 282 330Z"
+    : "M266 360 C250 250 300 165 400 160 C500 156 556 225 560 330 C564 430 545 520 495 575 C455 615 380 622 340 595 C292 562 274 470 266 360Z";
+  // ears
+  s += P(fem ? "M284 380 C258 370 256 430 286 440" : "M268 370 C236 360 232 440 272 452", `fill="${skin}" ${L(4)}`);
+  s += P(fem ? "M534 380 C560 370 562 430 532 440" : "M556 365 C590 352 596 438 552 450", `fill="${skin}" ${L(4)}`);
+  s += P(head, `fill="${skin}" ${L(4.5)}`);
+  // grey wojak shading: cheek, under the jaw, eye sockets
+  s += P(fem ? "M300 470 C320 540 360 575 400 585 C360 560 330 520 300 470Z" : "M282 450 C300 540 340 590 400 605 C350 570 316 520 282 450Z", `fill="${shadeC}" opacity="1"`);
+  s += P(fem ? "M286 330 C284 420 300 500 330 545 C306 470 300 400 302 330Z" : "M270 360 C268 450 290 520 330 570 C300 500 290 430 292 360Z", `fill="${shade(skin, -0.2)}" opacity=".9"`);
+  // brows, eyes
+  const sad = spec.expression !== "smile" && spec.expression !== "grin";
+  for (const [x, d] of [[365, -1], [470, 1]]) {
+    const ey = fem ? 372 : 376;
+    s += `<g transform="translate(${x} ${ey}) scale(1.3) translate(${-x} ${-ey})">`;
+    if (!fem) s += P(`M${x - 34} ${ey - 4} C${x - 20} ${ey + 22} ${x + 24} ${ey + 22} ${x + 36} ${ey - 2}`, `fill="${shadeC}" opacity=".55"`);
+    const inner = d < 0 ? x + 30 : x - 30, outer = d < 0 ? x - 32 : x + 32;
+    const by = ey - 42;
+    s += P(`M${outer} ${by + (sad ? 10 : 2)} C${(outer + inner) / 2} ${by - 6} ${(outer + inner) / 2} ${by - 6} ${inner} ${by - (sad ? 10 : 0)}`, `${L(fem ? 3.5 : 5)}`);
+    if (fem) {
+      s += P(`M${x - 28} ${ey} C${x - 12} ${ey - 14} ${x + 14} ${ey - 14} ${x + 28} ${ey}`, L(5));
+      s += P(`M${x - 24} ${ey + 4} C${x - 10} ${ey + 14} ${x + 12} ${ey + 14} ${x + 24} ${ey + 4}`, L(2));
+      s += `<circle cx="${x + d * 2}" cy="${ey + 1}" r="9" fill="${INK}"/><circle cx="${x + d * 2 - 3}" cy="${ey - 2}" r="2.5" fill="#fff"/>`;
+      s += P(`M${x + d * 28} ${ey - 2} l${d * 12} -8 M${x + d * 22} ${ey - 8} l${d * 8} -10`, L(3));
+    } else {
+      s += P(`M${x - 26} ${ey} C${x - 12} ${ey - 10} ${x + 12} ${ey - 10} ${x + 26} ${ey}`, L(5));
+      s += P(`M${x - 22} ${ey + 5} C${x - 8} ${ey + 12} ${x + 10} ${ey + 12} ${x + 22} ${ey + 4}`, L(2.5));
+      s += `<circle cx="${x + d * 3}" cy="${ey + 1}" r="6" fill="${INK}"/>`;
+      s += P(`M${x - 22} ${ey + 20} C${x - 8} ${ey + 28} ${x + 10} ${ey + 28} ${x + 22} ${ey + 19}`, `${L(2)} opacity=".6"`);
+    }
+    s += `</g>`;
+  }
+  // forehead wrinkles (men)
+  if (!fem && sad) s += P("M378 268 C398 262 420 262 440 268 M386 290 C402 286 418 286 432 290", `${L(2.5)} opacity=".75"`);
+  // nose: the long wojak hook
+  s += fem ? P("M420 380 C422 410 418 432 410 448 C420 452 432 450 438 444", L(3)) : P("M424 372 C428 410 424 450 410 478 C426 488 450 486 458 474", L(4));
+  // beard (with an opening so the mouth shows), then mouth
+  const my = fem ? 505 : 528;
+  if (spec.beard) {
+    s += P(`M285 440 C292 540 340 610 410 616 C480 612 532 545 545 440 C520 500 480 512 455 500 C440 ${my - 18} 380 ${my - 18} 365 500 C335 512 300 495 285 440Z`, `fill="${HAIR[spec.beardColor] || spec.beardColor || hc}" ${L(4)}`);
+    s += P(`M355 ${my + 2} C365 ${my - 22} 455 ${my - 22} 465 ${my + 2} C455 ${my + 26} 365 ${my + 26} 355 ${my + 2}Z`, `fill="${skin}" ${L(3)}`);
+  } else if (spec.mustache) s += P(`M370 ${my - 14} C390 ${my - 30} 412 ${my - 26} 418 ${my - 18} C424 ${my - 26} 446 ${my - 30} 466 ${my - 14} C440 ${my - 18} 425 ${my - 12} 418 ${my - 10} C410 ${my - 12} 395 ${my - 18} 370 ${my - 14}Z`, `fill="${HAIR[spec.beardColor] || spec.beardColor || hc}" ${L(3)}`);
+  if (fem) s += P(`M392 ${my} C404 ${my - 8} 420 ${my - 8} 432 ${my} C420 ${my + 10} 404 ${my + 10} 392 ${my}Z`, `fill="#c0474b" ${L(2.5)}`);
+  else s += sad ? P(`M382 ${my + 2} C398 ${my - 6} 424 ${my - 6} 442 ${my + 4}`, L(4)) : P(`M380 ${my - 2} C398 ${my + 8} 424 ${my + 8} 444 ${my - 4}`, L(4));
+  if (!fem && !spec.beard) s += P(`M398 ${my + 34} C410 ${my + 40} 424 ${my + 40} 434 ${my + 34}`, `${L(2)} opacity=".6"`);
+  if (spec.earrings) s += `<circle cx="${fem ? 280 : 262}" cy="455" r="10" fill="${spec.earrings}" stroke="${INK}" stroke-width="2.5"/>`;
+  // hair in front
+  if (fem || hair === "long" || hair === "braids") {
+    s += P("M280 330 C272 200 350 160 412 162 C490 164 548 210 540 330 C520 270 470 230 420 222 C380 250 330 280 280 330Z", `fill="${hc}" ${L(4)}`);
+    s += P("M330 250 C320 300 300 330 290 360 M480 240 C505 280 525 320 534 360", `${L(2.5)} opacity=".7"`);
+  } else if (hair === "short") {
+    s += P("M266 330 C255 220 320 150 405 148 C495 146 562 210 560 320 C540 260 500 230 450 236 C420 226 380 228 350 240 C310 250 280 290 266 330Z", `fill="${hc}" ${L(4)}`);
+  } else if (hair === "bun") {
+    s += P("M282 330 C272 200 350 160 412 162 C490 164 548 210 536 330 C500 250 330 250 282 330Z", `fill="${hc}" ${L(4)}`) + P("M370 160 C360 90 460 90 450 160Z", `fill="${hc}" ${L(4)}`);
+  }
+  // hat: shift the cartoon hats onto the wojak head
+  if (spec.hat) s += `<g transform="translate(5 ${fem ? -20 : -40})">${ink(H.back)}${ink(H.front)}</g>`;
+  if (spec.glasses) s += P("M318 376 C318 340 412 340 412 376 C412 410 318 410 318 376Z M424 376 C424 340 518 340 518 376 C518 410 424 410 424 376Z M412 372 L424 372", L(4));
+  return `<svg viewBox="0 0 800 1152" xmlns="http://www.w3.org/2000/svg">${s}</svg>`;
+}
