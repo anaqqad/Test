@@ -29,6 +29,7 @@ Seeddance lip-sync guides (links in `prompts.md`).
 - Mother owns the house (deed reveal, evicts son and wife)
 - Cheap car key opens a Mercedes
 - Biker at a father-daughter dance ("Never Dance Alone")
+- Sign in the Dark (book 5: UV lights reveal her signatures at the gala)
 - Your Bill Is Ready (book scene: "dead" wife takes the mic at his engagement party)
 - The Grant (fiancée mocked at gala chairs the foundation)
 - Which One? (girl finds the biker dad she never met)
