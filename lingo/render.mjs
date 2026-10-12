@@ -22,7 +22,7 @@ const nm = (p) => path.join(HERE, "node_modules", p);
 
 // ---------------- shared bits ----------------
 export const FONT_CSS = [600, 700, 800].map((w) => `<link rel="stylesheet" href="${fileUrl(nm(`@fontsource/montserrat/${w}.css`))}">`).join("");
-const SCRIPT_CSS = ["noto-sans-egyptian-hieroglyphs/400.css", "noto-sans-cuneiform/400.css", "noto-sans-gothic/400.css", "noto-serif/700.css", "noto-sans-phoenician/400.css", "noto-serif-hebrew/700.css", "noto-sans-old-persian/400.css", "noto-serif-tc/700.css"].map((f) => `<link rel="stylesheet" href="${fileUrl(nm(`@fontsource/${f}`))}">`).join("");
+const SCRIPT_CSS = ["noto-sans-egyptian-hieroglyphs/400.css", "noto-sans-cuneiform/400.css", "noto-sans-gothic/400.css", "noto-serif/700.css", "noto-sans-phoenician/400.css", "noto-serif-hebrew/700.css", "noto-sans-old-persian/400.css", "noto-serif-tc/700.css", "noto-sans-coptic/400.css"].map((f) => `<link rel="stylesheet" href="${fileUrl(nm(`@fontsource/${f}`))}">`).join("");
 const world = JSON.parse(fs.readFileSync(nm("world-atlas/land-110m.json")));
 const land = topo.feature(world, world.objects.land);
 

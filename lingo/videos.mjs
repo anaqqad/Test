@@ -986,4 +986,117 @@ export const VIDEOS = {
       },
     ],
   },
+  // ------------------------------------------------------------------ 11
+  ancient3: {
+    title: "Extinct Languages Simulated by AI (Part 3)",
+    part: "",
+    layout: "story",
+    counterLabel: "spoken around",
+    sim: true,
+    simVoices: "Latvian for Old Prussian, Catalan for Old Occitan, French for Old French, Spanish for Mozarabic, Italian for Early Japanese, Russian for Old Church Slavonic, German for Old High German, Welsh for Old Irish, Mandarin for Middle Chinese, Arabic for Coptic",
+    simLimits: "some details are educated guesses even among experts: the exact vowels of Middle Chinese, the stress of Old Prussian, and how the Arabic-script Mozarabic verses were really pronounced",
+    simTexts: "the Lord's Prayer from the 1561 Old Prussian Enchiridion, Bernart de Ventadorn's Can vei la lauzeta mover, the Song of Roland, a Mozarabic kharja, the Iroha poem, the Lord's Prayer in Old Church Slavonic, the Hildebrandslied, Pangur Bán, Li Bai's Quiet Night Thought (Middle Chinese after Baxter), and the Lord's Prayer in Bohairic Coptic",
+    items: [
+      {
+        name: "Old Prussian", flag: null, speakers: "1561", scene: "baltic", loc: [54.7, 20.5, "Prussia (today Poland & Russia)"],
+        script: "Tawe nūson kas tu essei en dangon", scriptLabel: "THE LORD'S PRAYER · 1561 CATECHISM",
+        char: { skin: "pale", hair: "short", hairColor: "blonde", beard: true, beardColor: "#9a6b2f", outfit: { type: "coat", color: "#3a4a2a", inner: "#f4f1e8" }, hat: { type: "furhat", color: "#5b3a29" }, expression: "neutral" },
+        cards: [
+          "The Lord's Prayer from a Lutheran catechism of 1561, one of the very few texts in Old Prussian. Tawe, father, is related to Lithuanian tėvas.",
+          "A Baltic language, cousin of Lithuanian and Latvian. It died out around 1700, but the name Prussia lived on for centuries.",
+        ],
+        audio: { sim: { model: "lv_LV-aivars-medium", scale: 1.1, words: [["Tawe", "ˈtaːwe"], ["nūson", "ˈnuːson"], ["kas", "kas"], ["tu", "tu"], ["essei", "ˈesej"], ["en", "en"], ["dangon,", "ˈdaŋɡon,"], ["swintints", "ˈswintints"], ["wirst", "wirst"], ["twais", "twajs"], ["emmens.", "ˈemmens."]] } },
+      },
+      {
+        name: "Old Occitan", flag: null, speakers: "~1170", scene: "tuscany", loc: [44.0, 2.0, "Southern France"],
+        script: "Can vei la lauzeta mover de joi sas alas contra·l rai", scriptLabel: "TROUBADOUR SONG · BERNART DE VENTADORN",
+        char: F({ skin: "light", hair: "long", hairColor: "auburn", hat: { type: "flower", color: "#c0392b", color2: "#f2c94c" }, outfit: { type: "dress", color: "#2e6b4f", color2: "#f2c94c", trim: "#c0392b" }, expression: "smile" }),
+        cards: [
+          "Troubadours sang love songs in Old Occitan across southern France. Bernart de Ventadorn: when I see the lark beat its wings for joy against the sun's rays.",
+          "European love poetry as we know it started with them. Occitan is still spoken in southern France, but by far fewer people.",
+        ],
+        audio: { sim: { model: "ca_ES-upc_ona-medium", scale: 1.1, words: [["Can", "kan"], ["vei", "vej"], ["la", "la"], ["lauzeta", "lawˈzeta"], ["mover", "muˈver"], ["de", "de"], ["joi", "dʒɔj"], ["sas", "sas"], ["alas", "ˈalas"], ["contra·l", "ˈkontral"], ["rai.", "raj."]] } },
+      },
+      {
+        name: "Old French", flag: null, speakers: "~1100", scene: "village", loc: [48.85, 2.35, "Northern France"],
+        script: "Carles li reis, nostre emperere magnes, set anz tuz pleins ad estet en Espaigne", scriptLabel: "THE SONG OF ROLAND",
+        char: { skin: "pale", hair: "short", hairColor: "brown", beard: true, beardColor: "#4a3020", hat: { type: "crown", color: "#d9b13b", color2: "#1f4e8c" }, outfit: { type: "coat", color: "#1f3a7a", inner: "#d9b13b" }, expression: "neutral" },
+        cards: [
+          "The Song of Roland, around 1100: Charles the king, our great emperor, has been in Spain for seven full years.",
+          "French still sounded its final consonants: tuz was said like 'toots'. English borrowed thousands of words from this French after 1066.",
+        ],
+        audio: { sim: { model: "fr_FR-tom-medium", scale: 1.1, words: [["Carles", "ˈtʃarləs"], ["li", "li"], ["reis,", "rejs,"], ["nostre", "ˈnɔstrə"], ["emperere", "empəˈrɛrə"], ["magnes,", "ˈmaɲəs,"], ["set", "sɛt"], ["anz", "ants"], ["tuz", "tuts"], ["pleins", "plejns"], ["ad", "að"], ["estet", "esˈteθ"], ["en", "en"], ["Espaigne.", "esˈpaɲə."]] } },
+      },
+      {
+        name: "Mozarabic", flag: null, speakers: "~1050", scene: "arabia", loc: [37.88, -4.78, "Al-Andalus, Spain"],
+        script: "Garid boš, ay yermanellaš, kom kontenir a meu male", scriptLabel: "A KHARJA, WRITTEN IN ARABIC LETTERS",
+        char: F({ skin: "olive", hair: "long", hairColor: "black", hat: { type: "headscarf", color: "#1f6f8b", color2: "#f2c94c" }, outfit: { type: "dress", color: "#1f6f8b", color2: "#f2c94c", trim: "#c0392b" }, earrings: "#d9b13b", expression: "neutral" }),
+        cards: [
+          "A Romance language spoken by Christians in Muslim Spain and written in Arabic letters. This verse ends a love poem: tell me, little sisters, how can I hold back my pain?",
+          "These verses, called kharjas, are some of the oldest lines in any Spanish-like language.",
+        ],
+        audio: { sim: { model: "es_ES-davefx-medium", scale: 1.1, words: [["Garid", "ɡaˈrid"], ["boš,", "boʃ,"], ["ay", "aj"], ["yermanellaš,", "jermaˈneʎaʃ,"], ["kom", "kom"], ["kontenir", "konteˈnir"], ["a", "a"], ["meu", "mew"], ["male?", "ˈmale?"]] } },
+      },
+      {
+        name: "Early Japanese", flag: null, speakers: "~1000 AD", scene: "hills", loc: [35.0, 135.77, "Kyoto, Japan"],
+        script: "いろはにほへと ちりぬるを", scriptFont: "IPAPGothic", scriptSize: 54,
+        char: F({ skin: "light", hair: "long", hairColor: "black", outfit: { type: "coat", color: "#9b1d4a", inner: "#f2c94c" }, expression: "neutral" }),
+        cards: [
+          "The Iroha, a poem from around 1000 AD that uses every kana sign exactly once: even the brightest blossoms scatter in the end.",
+          "Back then h was said like a soft f, and even earlier like p. That is why the sign for pa is just ha with a little circle.",
+        ],
+        audio: { sim: { model: "it_IT-paola-medium", scale: 1.6, words: [["iro", "ˈiro"], ["fa", "ɸa"], ["nifofeto", "niɸoˈɸeto"], ["tirinuru", "tiriˈnuru"], ["wo.", "wo."]] } },
+      },
+      {
+        name: "Old Church Slavonic", flag: null, speakers: "~863", scene: "caucasus", loc: [41.1, 23.0, "Thessaloniki & Moravia"],
+        script: "Отьче нашь, иже ѥси на небесехъ", scriptLabel: "THE LORD'S PRAYER",
+        char: { skin: "light", hair: "bald", hairColor: "grey", beard: true, beardColor: "#8a8a8a", outfit: { type: "wrap", color: "#1d1d1d", color2: "#3a3a3a", trim: "#d9b13b" }, expression: "neutral" },
+        cards: [
+          "Written down in the 860s by the brothers Cyril and Methodius, missionaries to the Slavs. Our Father, who art in heaven.",
+          "Their followers created the Cyrillic alphabet, named after Cyril, now used for Russian, Ukrainian, Bulgarian, Serbian and more.",
+        ],
+        audio: { sim: { model: "ru_RU-denis-medium", scale: 1.1, words: [["Otĭče", "ˈotʲtʃe"], ["našĭ,", "naʃʲ,"], ["iže", "ˈiʒe"], ["jesi", "ˈjesi"], ["na", "na"], ["nebesechŭ.", "nebeˈsexu."]] } },
+      },
+      {
+        name: "Old High German", flag: null, speakers: "~830", scene: "forest", loc: [50.55, 9.68, "Fulda, Germany"],
+        script: "Ik gihorta ðat seggen, ðat sih urhettun ænon muotin", scriptLabel: "THE HILDEBRANDSLIED",
+        char: { skin: "pale", hair: "long", hairColor: "brown", beard: true, beardColor: "#5a3b22", outfit: { type: "tunic", color: "#5b3a29", trim: "#9a9a9a" }, expression: "neutral" },
+        cards: [
+          "The Hildebrandslied, the oldest heroic poem in German: I heard it told that two warriors met in single combat.",
+          "German was splitting from English through a sound shift: English water, that and pipe became German Wasser, das and Pfeife.",
+        ],
+        audio: { sim: { model: "de_DE-thorsten-medium", scale: 1.1, words: [["Ik", "ik"], ["gihorta", "ɡiˈhoːrta"], ["ðat", "θat"], ["seggen,", "ˈseɡɡen,"], ["ðat", "θat"], ["sih", "sih"], ["urhettun", "urˈhettun"], ["ænon", "ˈeːnon"], ["muotin.", "ˈmuotin."]] } },
+      },
+      {
+        name: "Old Irish", flag: null, speakers: "~800", scene: "moorland", loc: [53.3, -7.5, "Ireland"],
+        script: "Messe ocus Pangur Bán, cechtar nathar fria shaindán", scriptLabel: "PANGUR BÁN",
+        char: { skin: "pale", hair: "short", hairColor: "auburn", outfit: { type: "wrap", color: "#6b4a2b", color2: "#3b2a16", trim: "#c8a165" }, expression: "smile" },
+        cards: [
+          "Pangur Bán, written by an Irish monk in the 800s about his cat: I and Pangur Bán, each of us two at his special task.",
+          "Old Irish is the ancestor of Irish, Scottish Gaelic and Manx, and the Celtic language with the oldest large written literature.",
+        ],
+        audio: { sim: { model: "cy_GB-gwryw_gogleddol-medium", scale: 1.1, words: [["Messe", "ˈmʲesʲe"], ["ocus", "ˈoɡus"], ["Pangur", "ˈpaŋɡur"], ["Bán,", "baːn,"], ["cechtar", "ˈkʲeχtar"], ["nathar", "ˈnaθar"], ["fria", "ˈfʲrʲiə"], ["shaindán.", "ˈhanʲdaːn."]] } },
+      },
+      {
+        name: "Middle Chinese", flag: null, speakers: "~750", scene: "hills", loc: [34.27, 108.95, "Chang'an, China"],
+        script: "床前明月光 疑是地上霜", scriptFont: "Noto Serif TC", scriptSize: 60,
+        char: F({ skin: "light", hair: "bun", hairColor: "black", outfit: { type: "coat", color: "#f4f1e8", inner: "#1f4e8c" }, expression: "smile" }),
+        cards: [
+          "Li Bai's Quiet Night Thought, about 750 AD, the poem every Chinese child learns: before my bed, bright moonlight, like frost upon the ground.",
+          "Cantonese kept old sounds Mandarin lost, like the t at the end of 月 (moon): Cantonese jyut, Mandarin yuè.",
+        ],
+        audio: { sim: { model: "zh_CN-huayan-medium", scale: 1.7, words: [["dʐjaŋ", "dʐjaŋ"], ["dzen", "dzen"], ["mjæŋ", "mjæŋ"], ["ŋjwɔt", "ŋjwɔt"], ["kwaŋ,", "kwaŋ,"], ["ŋi", "ŋi"], ["dʑje", "dʑje"], ["di", "di"], ["dʑjaŋ", "dʑjaŋ"], ["ʂjaŋ.", "ʂjaŋ."]] } },
+      },
+      {
+        name: "Coptic", flag: null, speakers: "~400 AD", scene: "arabia", loc: [30.05, 31.23, "Egypt"],
+        script: "Ⲡⲉⲛⲓⲱⲧ ⲉⲧϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ", scriptFont: "Noto Sans Coptic", scriptSize: 54,
+        char: { skin: "brown", hair: "short", hairColor: "black", beard: true, outfit: { type: "wrap", color: "#f4f1e8", color2: "#8a6a3b", trim: "#1f4e8c" }, expression: "neutral" },
+        cards: [
+          "The last stage of the language of the pharaohs, written with Greek letters plus a few from Egyptian. The Lord's Prayer: our Father who art in heaven.",
+          "It stopped being spoken day to day around the 1600s, but Egyptian Christians still use it in church, and it helped Champollion read hieroglyphs.",
+        ],
+        audio: { sim: { model: "ar_JO-kareem-medium", scale: 1.1, words: [["Peniōt", "peniˈoːt"], ["etḫen", "etˈxen"], ["niphēoui.", "nipʰeˈwi."]] } },
+      },
+    ],
+  },
 };
