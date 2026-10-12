@@ -1099,4 +1099,107 @@ export const VIDEOS = {
       },
     ],
   },
+  // ------------------------------------------------------------------ 12
+  ancient4: {
+    title: "Extinct Languages Simulated by AI (Part 4)",
+    part: "",
+    layout: "story",
+    counterLabel: "last heard",
+    sim: true,
+    simVoices: "Finnish for Livonian, Romanian for Dalmatian, Icelandic for Norn, English for Cornish and Massachusett, Welsh for Cumbric, Brazilian Portuguese for Old Tupi, German for Crimean Gothic, Spanish for Taíno",
+    simLimits: "some details are educated guesses even among experts: Taíno and Crimean Gothic survive only as words written down by Europeans, Massachusett is known from 1600s spellings, and the Cumbric link to the sheep-counting numbers is a popular theory, not a certainty",
+    simTexts: "the Livonian anthem, the Lord's Prayer in Dalmatian as recorded from Tuone Udaina, the Orkney Norn Lord's Prayer (about 1700), Dolly Pentreath's famous words, the Lord's Prayer in John Eliot's 1663 Massachusett Bible, the Lord's Prayer in Old Tupi by José de Anchieta, Busbecq's Crimean Gothic word list, Taíno words borrowed into English, and the northern English sheep-counting numbers",
+    items: [
+      {
+        name: "Livonian", wojak: "p4_livonian", flag: null, speakers: "2013", scene: "baltic", loc: [57.6, 22.0, "Courland coast, Latvia"],
+        script: "Min izāmō, min sindimō", scriptLabel: "THE LIVONIAN ANTHEM",
+        char: F({ skin: "pale", hair: "braids", hairColor: "blonde", hat: { type: "headscarf", color: "#1f4e8c", color2: "#f4f1e8" }, outfit: { type: "dress", color: "#f4f1e8", color2: "#1f4e8c", trim: "#1f6f3f" }, expression: "neutral" }),
+        cards: [
+          "A Finnic language of Latvia's coast, cousin of Finnish and Estonian. Its last native speaker, Grizelda Kristiņa, died in 2013 aged 103.",
+          "This line is from the Livonian anthem: my fatherland, my birthplace. A few hundred people are learning it again today.",
+        ],
+        audio: { sim: { model: "fi_FI-harri-medium", scale: 1.2, words: [["Min", "min"], ["izāmō,", "ˈizaːmoː,"], ["min", "min"], ["sindimō.", "ˈsindimoː."]] } },
+      },
+      {
+        name: "Dalmatian", wojak: "p4_dalmatian", flag: null, speakers: "1898", scene: "adriatic", loc: [45.03, 14.57, "Krk, Croatia"],
+        script: "Tuota nuester, che te sante intel cil, sait santificuot el naun tuo", scriptLabel: "THE LORD'S PRAYER",
+        char: { skin: "olive", hair: "short", hairColor: "grey", mustache: true, beardColor: "#9a9a9a", outfit: { type: "coat", color: "#3a3a3a", inner: "#f4f1e8" }, expression: "neutral" },
+        cards: [
+          "A Romance language of Croatia's coast, somewhere between Latin and Italian. Our Father, who art in heaven, hallowed be thy name.",
+          "Its last speaker, Tuone Udaina, died in 1898 in a road-building explosion. A linguist had written down his words just in time.",
+        ],
+        audio: { sim: { model: "ro_RO-mihai-medium", scale: 1.1, words: [["Tuota", "ˈtwɔta"], ["nuester,", "ˈnwɛster,"], ["che", "ke"], ["te", "te"], ["sante", "ˈsante"], ["intel", "ˈintel"], ["cil,", "tʃil,"], ["sait", "sajt"], ["santificuot", "santifiˈkwɔt"], ["el", "el"], ["naun", "nawn"], ["tuo.", "ˈtuo."]] } },
+      },
+      {
+        name: "Norn", wojak: "p4_norn", flag: null, speakers: "~1800", scene: "faroe", loc: [60.3, -1.3, "Shetland & Orkney"],
+        script: "Favor i ir i chimrie, Helleur ir i nam thite", scriptLabel: "THE LORD'S PRAYER · ORKNEY, ABOUT 1700",
+        char: { skin: "pale", hair: "short", hairColor: "auburn", beard: true, beardColor: "#7a3b1c", outfit: { type: "tunic", color: "#3a4a6b", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "The Norse language of Orkney and Shetland, left by the Vikings. Written down around 1700: Father ours who art in heaven, hallowed be thy name.",
+          "It faded out by about 1850, but Shetland dialect still keeps hundreds of Norn words, like peerie, small.",
+        ],
+        audio: { sim: { model: "is_IS-bui-medium", scale: 1.1, words: [["Favor", "ˈfavor"], ["i", "i"], ["ir", "ir"], ["i", "i"], ["chimrie,", "ˈçimri,"], ["Helleur", "ˈhɛlør"], ["ir", "ir"], ["i", "i"], ["nam", "nam"], ["thite.", "ˈtite."]] } },
+      },
+      {
+        name: "Cornish", wojak: "p4_cornish", flag: null, speakers: "1777", scene: "wales", loc: [50.1, -5.53, "Mousehole, Cornwall"],
+        script: "Me ne vidn cewsel Sawznek!", scriptLabel: "DOLLY PENTREATH",
+        char: F({ skin: "pale", hair: "bun", hairColor: "grey", hat: { type: "bonnet", color: "#f4f1e8" }, outfit: { type: "dress", color: "#3a3a3a", color2: "#f4f1e8", trim: "#7a1f1f" }, expression: "neutral" }),
+        cards: [
+          "Dolly Pentreath, often called the last native speaker of Cornish, died in 1777. Her famous words: I will not speak English!",
+          "She probably wasn't truly the last, and Cornish has since been revived: a few thousand people speak it again.",
+        ],
+        audio: { sim: { model: "en_US-amy-medium", scale: 1.15, words: [["Me", "meː"], ["ne", "nə"], ["vidn", "vɪdn"], ["cewsel", "ˈkɛʊzəl"], ["Sawznek!", "ˈsawznek!"]] } },
+      },
+      {
+        name: "Massachusett", wojak: "p4_massachusett", flag: null, speakers: "~1800", scene: "forest", loc: [42.3, -71.1, "Massachusetts, USA"],
+        script: "Nooshun kesukqut, quttianatamunach koowesuonk", scriptLabel: "THE LORD'S PRAYER · ELIOT BIBLE, 1663",
+        char: { skin: "brown", hair: "long", hairColor: "black", outfit: { type: "wrap", color: "#8a5a2b", color2: "#3b2a16", trim: "#c0392b" }, expression: "neutral" },
+        cards: [
+          "In 1663 the first Bible printed in the Americas was in Massachusett, an Algonquian language. Our Father in heaven, hallowed be thy name.",
+          "It stopped being spoken in the 1800s, but the Wampanoag people reawakened it in the 1990s, and children speak it again.",
+        ],
+        audio: { sim: { model: "en_US-lessac-high", scale: 1.1, words: [["Nooshun", "ˈnuːʃən"], ["kesukqut,", "kəˈsəkʷət,"], ["quttianatamunach", "kʷətiˌanataˈmənatʃ"], ["koowesuonk.", "kuːˈwesuənk."]] } },
+      },
+      {
+        name: "Old Tupi", wojak: "p4_tupi", flag: null, speakers: "~1700", scene: "amazon", loc: [-23.0, -45.0, "Coast of Brazil"],
+        script: "Oré rub, ybakype tekoar, imoeté pyramo nde rera toikó", scriptLabel: "THE LORD'S PRAYER · ANCHIETA",
+        char: { skin: "tan", hair: "long", hairColor: "black", hat: { type: "feathers", color: "#c0392b", color2: "#f2c94c" }, outfit: { type: "bare" }, necklace: "#f4f1e8", expression: "neutral" },
+        cards: [
+          "Old Tupi was spoken along the coast of Brazil. Jesuits wrote its grammar and this Lord's Prayer in the 1500s: our Father in heaven, hallowed be thy name.",
+          "English got jaguar, piranha and tapioca from it, through Portuguese. A descendant, Nheengatu, is still spoken in the Amazon.",
+        ],
+        audio: { sim: { model: "pt_BR-faber-medium", scale: 1.1, words: [["Oré", "oˈɾe"], ["rub,", "ɾub,"], ["ybakype", "ɨβaˈkɨpe"], ["tekoar,", "tekoˈaɾ,"], ["imoeté", "imoeˈte"], ["pyramo", "pɨˈɾamo"], ["nde", "ne"], ["rera", "ˈɾeɾa"], ["toikó.", "tojˈko."]] } },
+      },
+      {
+        name: "Crimean Gothic", wojak: "p4_crimean", flag: null, speakers: "~1560", scene: "caucasus", loc: [44.6, 34.0, "Crimea"],
+        script: "broe · plut · schuuester · stul · hus · brunna", scriptLabel: "WRITTEN DOWN BY BUSBECQ",
+        char: { skin: "light", hair: "long", hairColor: "blonde", beard: true, beardColor: "#9a6b2f", outfit: { type: "tunic", color: "#6b3a2a", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "In the 1560s the diplomat Ogier de Busbecq met two men from Crimea and wrote down about 80 words of their Germanic language.",
+          "Bread, blood, sister, seat, house, spring: broe, plut, schuuester, stul, hus, brunna. Sound familiar?",
+        ],
+        audio: { sim: { model: "de_DE-thorsten-medium", scale: 1.15, words: [["broe,", "broː,"], ["plut,", "plut,"], ["schuuester,", "ˈʃwester,"], ["stul,", "stuːl,"], ["hus,", "huːs,"], ["brunna.", "ˈbruna."]] } },
+      },
+      {
+        name: "Taíno", wojak: "p4_taino", flag: null, speakers: "~1550", scene: "hawaii", loc: [18.7, -70.2, "Hispaniola"],
+        script: "hurakán · kanoa · hamaka · barbakoa · tabako", scriptLabel: "TAÍNO WORDS",
+        char: { skin: "brown", hair: "long", hairColor: "black", outfit: { type: "bare" }, necklace: "#f2c94c", facepaint: "lines", paintColor: "#c0392b", expression: "neutral" },
+        cards: [
+          "Taíno was spoken across the Caribbean when Columbus arrived in 1492. Within a few generations it was gone.",
+          "But you speak it every day: hurricane, canoe, hammock, barbecue and probably tobacco all come from Taíno.",
+        ],
+        audio: { sim: { model: "es_ES-davefx-medium", scale: 1.15, words: [["hurakán,", "uɾaˈkan,"], ["kanoa,", "kaˈnoa,"], ["hamaka,", "aˈmaka,"], ["barbakoa,", "baɾbaˈkoa,"], ["tabako.", "taˈbako."]] } },
+      },
+      {
+        name: "Cumbric", wojak: "p4_cumbric", flag: null, speakers: "~1100", scene: "moorland", loc: [54.6, -3.0, "Cumbria, England"],
+        script: "yan · tan · tethera · methera · pimp", scriptLabel: "SHEEP-COUNTING NUMBERS",
+        char: { skin: "pale", hair: "short", hairColor: "brown", beard: true, beardColor: "#5a3b22", outfit: { type: "wrap", color: "#6b6b4a", color2: "#3b3b2a", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "A Celtic language of northern England and southern Scotland, close to Welsh. It died out around 1100.",
+          "Shepherds there kept counting sheep with yan, tan, tethera, methera, pimp: one to five. Many think these are its last echo.",
+        ],
+        audio: { sim: { model: "cy_GB-gwryw_gogleddol-medium", scale: 1.15, words: [["yan,", "jan,"], ["tan,", "tan,"], ["tethera,", "ˈtɛθəra,"], ["methera,", "ˈmɛθəra,"], ["pimp.", "pɪmp."]] } },
+      },
+    ],
+  },
 };
