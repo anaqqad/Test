@@ -35,7 +35,7 @@ const T = {
     who: { skin: "pale", hair: "short", hairColor: "auburn", outfit: { type: "wrap", color: "#6b4a2b", color2: "#3b2a16", trim: "#c8a165" }, expression: "neutral" } },
   english: { name: "Old English", photo: "bamburgh", pos: "50% 50%", flag: "gb-eng", hook: ["This Is", "English?!"],
     who: { skin: "pale", hair: "short", hairColor: "auburn", beard: true, beardColor: "#7a3b1c", outfit: { type: "tunic", color: "#2f5d3a", trim: "#c8a165" }, expression: "neutral" } },
-  sounds: { name: "Xhosa", photo: "sounds", pos: "50% 50%", flag: "za", hook: ["Talking", "in Clicks"] },
+  sounds: { name: "Xhosa", photo: "sounds", pos: "50% 50%", flag: "za", hook: ["Weirdest", "Sounds Ever"] },
   niche: { name: "Tuvan", photo: "niche", pos: "50% 50%", flag: "ru", hook: ["Who Speaks", "This?"] },
   conlangs: { name: "Esperanto", photo: "conlangs", pos: "50% 50%", flagUrl: EO, hook: ["Someone", "Invented It"] },
   extinct: { name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },
