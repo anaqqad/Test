@@ -1,0 +1,418 @@
+{
+  "id": "reel-george-washington-carver",
+  "title": "As a Baby, He Was Traded for a Horse",
+  "format": "reel",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "leadInSeconds": 0.0,
+    "sectionGapSeconds": 0.5
+  },
+  "music": {
+    "volume": 0.06
+  },
+  "mix": {
+    "targetLufs": -14,
+    "ceilingDbtp": -1.5,
+    "musicUnderVoiceDb": 21,
+    "duckDb": 3,
+    "hookBoostDb": 2
+  },
+  "brand": {
+    "page": "The Black History Room",
+    "cta": "Follow The Black History Room for one story a day.",
+    "theme": "bhr"
+  },
+  "assets": {},
+  "faces": {
+    "c1910": [
+      [
+        0.3,
+        0.1,
+        0.68,
+        0.42
+      ]
+    ],
+    "c1906": [
+      [
+        0.33,
+        0.12,
+        0.62,
+        0.4
+      ]
+    ],
+    "field": [
+      [
+        0.4,
+        0.22,
+        0.56,
+        0.36
+      ]
+    ],
+    "lab": [
+      [
+        0.0,
+        0.3,
+        1.0,
+        0.62
+      ]
+    ]
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "text": "A baby, traded for a horse.",
+      "section": "hook",
+      "visual": {
+        "kind": "photo",
+        "image": "c1910",
+        "focus": [
+          0.49,
+          0.27
+        ],
+        "zoom": [
+          1.35,
+          1.42
+        ],
+        "anchor": [
+          0.46,
+          0.26
+        ]
+      },
+      "overlays": {
+        "hook": "A baby, *traded for a horse.*"
+      },
+      "captions": false
+    },
+    {
+      "id": "name",
+      "text": "That baby grew up to be George Washington Carver.",
+      "section": "who",
+      "visual": {
+        "kind": "photo",
+        "image": "c1906",
+        "focus": [
+          0.47,
+          0.3
+        ],
+        "zoom": [
+          1.0,
+          1.08
+        ],
+        "anchor": [
+          0.43,
+          0.3
+        ]
+      },
+      "overlays": {
+        "lowerThird": {
+          "name": "George W. Carver",
+          "sub": "Scientist · c. 1864 – 1943"
+        }
+      }
+    },
+    {
+      "id": "born",
+      "text": "He was born enslaved in Missouri, near the end of the Civil War.",
+      "visual": {
+        "kind": "title",
+        "title": "c. 1864",
+        "sub": "born enslaved in Missouri"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Diamond",
+          "sub": "Missouri"
+        }
+      }
+    },
+    {
+      "id": "kidnap",
+      "text": "When he was a baby, raiders kidnapped him and his mother.",
+      "section": "story",
+      "visual": {
+        "kind": "title",
+        "title": "Taken",
+        "sub": "as a baby, with his mother"
+      }
+    },
+    {
+      "id": "horse",
+      "text": "His owner, Moses Carver, got the baby back. It cost him one of his finest horses.",
+      "visual": {
+        "kind": "title",
+        "title": "A horse",
+        "sub": "the price of getting him back"
+      }
+    },
+    {
+      "id": "mother",
+      "text": "George never saw his mother again.",
+      "visual": {
+        "kind": "photo",
+        "image": "c1910",
+        "focus": [
+          0.49,
+          0.3
+        ],
+        "zoom": [
+          1.25,
+          1.32
+        ],
+        "anchor": [
+          0.44,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "school",
+      "text": "He grew up hungry to learn, and in 1894 he earned a degree in agriculture in Iowa.",
+      "visual": {
+        "kind": "card",
+        "image": "field",
+        "crop": [
+          0.05,
+          0.05,
+          0.95,
+          0.95
+        ],
+        "caption": "Carver in a field, about 1906"
+      },
+      "overlays": {
+        "pin": {
+          "label": "Iowa",
+          "sub": "degree, 1894"
+        }
+      }
+    },
+    {
+      "id": "tuskegee",
+      "text": "Then Booker T. Washington hired him to teach at Tuskegee Institute in Alabama.",
+      "visual": {
+        "kind": "photo",
+        "image": "c1906",
+        "focus": [
+          0.47,
+          0.35
+        ],
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "anchor": [
+          0.45,
+          0.35
+        ]
+      },
+      "overlays": {
+        "pin": {
+          "label": "Tuskegee",
+          "sub": "Alabama"
+        }
+      }
+    },
+    {
+      "id": "peanuts",
+      "text": "There, he helped Southern farmers break free from cotton, with peanuts and sweet potatoes.",
+      "visual": {
+        "kind": "card",
+        "image": "lab",
+        "crop": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "caption": "Chemistry laboratory, Tuskegee Institute, about 1902"
+      }
+    },
+    {
+      "id": "congress",
+      "text": "In 1921, he even testified before Congress, about peanuts.",
+      "visual": {
+        "kind": "title",
+        "title": "1921",
+        "sub": "testifying before Congress about peanuts"
+      }
+    },
+    {
+      "id": "myth",
+      "text": "And no, he did not invent peanut butter. It existed before his work.",
+      "section": "cost",
+      "visual": {
+        "kind": "title",
+        "title": "Myth",
+        "sub": "he did not invent peanut butter"
+      }
+    },
+    {
+      "id": "monument",
+      "text": "When he died in 1943, his birthplace became the first national monument to an African American.",
+      "section": "legacy",
+      "visual": {
+        "kind": "photo",
+        "image": "c1910",
+        "focus": [
+          0.49,
+          0.35
+        ],
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "anchor": [
+          0.46,
+          0.35
+        ]
+      }
+    },
+    {
+      "id": "legacy",
+      "text": "Traded for a horse. Honored by a nation.",
+      "visual": {
+        "kind": "photo",
+        "image": "c1910",
+        "focus": [
+          0.49,
+          0.27
+        ],
+        "zoom": [
+          1.2,
+          1.28
+        ],
+        "anchor": [
+          0.46,
+          0.28
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "text": "Follow The Black History Room for one story a day.",
+      "section": "cta",
+      "visual": {
+        "kind": "endcard"
+      },
+      "captions": false
+    }
+  ],
+  "sources": {
+    "MOENC": {
+      "name": "Missouri Encyclopedia (State Historical Society of Missouri): Carver, George Washington",
+      "url": "https://missouriencyclopedia.org/people/carver-george-washington"
+    },
+    "MDA": {
+      "name": "Missouri Department of Agriculture: George Washington Carver",
+      "url": "https://agriculture.mo.gov/gwc.php"
+    },
+    "NPS": {
+      "name": "National Park Service: George Washington Carver Birth Site",
+      "url": "https://www.nps.gov/places/george-washington-carver-birth-site.htm"
+    },
+    "MERRITT": {
+      "name": "Raleigh H. Merritt, From Captivity to Fame (1929), summary at UNC Documenting the American South",
+      "url": "https://docsouth.unc.edu/neh/merritt/summary.html"
+    },
+    "AH": {
+      "name": "American Heritage (1977): George Washington Carver and the Peanut",
+      "url": "https://www.americanheritage.com/george-washington-carver-and-peanut"
+    },
+    "RIP": {
+      "name": "Ripley's: George Washington Carver Didn't Invent Peanut Butter",
+      "url": "https://www.ripleys.com/stories/or-not-peanut-butter"
+    }
+  },
+  "facts": [
+    {
+      "beat": "hook",
+      "claim": "As an infant he was kidnapped; his return cost Moses Carver a horse (recovered 'in exchange for a race horse').",
+      "sources": [
+        "MOENC",
+        "MDA",
+        "MERRITT"
+      ]
+    },
+    {
+      "beat": "born",
+      "claim": "Born enslaved on the Carver farm near Diamond, Missouri, near the end of the Civil War.",
+      "sources": [
+        "MOENC",
+        "NPS"
+      ]
+    },
+    {
+      "beat": "kidnap",
+      "claim": "Kidnapped with his mother by raiders (bushwhackers).",
+      "sources": [
+        "MOENC",
+        "NPS",
+        "MERRITT"
+      ]
+    },
+    {
+      "beat": "mother",
+      "claim": "He never saw his mother again.",
+      "sources": [
+        "MOENC",
+        "MERRITT"
+      ]
+    },
+    {
+      "beat": "school",
+      "claim": "Bachelor's degree in agriculture, Iowa State, 1894.",
+      "sources": [
+        "MOENC",
+        "MDA"
+      ]
+    },
+    {
+      "beat": "tuskegee",
+      "claim": "Recruited by Booker T. Washington to Tuskegee Institute (1896).",
+      "sources": [
+        "MOENC",
+        "MDA"
+      ]
+    },
+    {
+      "beat": "peanuts",
+      "claim": "Worked to free Southern agriculture from reliance on cotton, with peanuts and sweet potatoes.",
+      "sources": [
+        "MOENC",
+        "AH"
+      ]
+    },
+    {
+      "beat": "congress",
+      "claim": "Testified on peanuts before the House Ways and Means Committee, 1921.",
+      "sources": [
+        "MOENC",
+        "AH"
+      ]
+    },
+    {
+      "beat": "myth",
+      "claim": "He did not invent peanut butter; peanut pastes predate his work.",
+      "sources": [
+        "AH",
+        "RIP"
+      ]
+    },
+    {
+      "beat": "monument",
+      "claim": "Died 5 Jan 1943; George Washington Carver National Monument was the first national monument to an African American.",
+      "sources": [
+        "MOENC",
+        "NPS"
+      ]
+    }
+  ],
+  "notUsed": [
+    "'300 uses of the peanut': the count is contested (American Heritage); not used.",
+    "Exact birth year unknown (c. 1864)."
+  ]
+}

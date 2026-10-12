@@ -1,0 +1,798 @@
+{
+ "fps": 30,
+ "durationInFrames": 1754,
+ "voice": "am_michael",
+ "engine": "kokoro-onnx v1.0",
+ "words": 140,
+ "wpm": 143.7,
+ "beats": [
+  {
+   "id": "hook",
+   "words": [
+    {
+     "text": "One",
+     "start": 0.0,
+     "end": 0.201
+    },
+    {
+     "text": "dinner",
+     "start": 0.201,
+     "end": 0.552
+    },
+    {
+     "text": "with",
+     "start": 0.552,
+     "end": 0.753
+    },
+    {
+     "text": "the",
+     "start": 0.753,
+     "end": 0.955
+    },
+    {
+     "text": "President.",
+     "start": 0.955,
+     "end": 1.455
+    },
+    {
+     "text": "The",
+     "start": 1.455,
+     "end": 1.656
+    },
+    {
+     "text": "South",
+     "start": 1.656,
+     "end": 1.857
+    },
+    {
+     "text": "exploded.",
+     "start": 1.857,
+     "end": 2.357
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 83
+  },
+  {
+   "id": "name",
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.857,
+     "end": 3.16
+    },
+    {
+     "text": "Booker",
+     "start": 3.16,
+     "end": 3.687
+    },
+    {
+     "text": "T.",
+     "start": 3.687,
+     "end": 3.99
+    },
+    {
+     "text": "Washington.",
+     "start": 3.99,
+     "end": 4.742
+    }
+   ],
+   "cues": {},
+   "startFrame": 83,
+   "endFrame": 153
+  },
+  {
+   "id": "born",
+   "words": [
+    {
+     "text": "He",
+     "start": 5.192,
+     "end": 5.431
+    },
+    {
+     "text": "was",
+     "start": 5.431,
+     "end": 5.67
+    },
+    {
+     "text": "born",
+     "start": 5.67,
+     "end": 5.909
+    },
+    {
+     "text": "enslaved",
+     "start": 5.909,
+     "end": 6.501
+    },
+    {
+     "text": "in",
+     "start": 6.501,
+     "end": 6.74
+    },
+    {
+     "text": "Virginia,",
+     "start": 6.74,
+     "end": 7.333
+    },
+    {
+     "text": "and",
+     "start": 7.333,
+     "end": 7.572
+    },
+    {
+     "text": "fought",
+     "start": 7.572,
+     "end": 7.811
+    },
+    {
+     "text": "for",
+     "start": 7.811,
+     "end": 8.05
+    },
+    {
+     "text": "an",
+     "start": 8.05,
+     "end": 8.289
+    },
+    {
+     "text": "education",
+     "start": 8.289,
+     "end": 9.058
+    },
+    {
+     "text": "after",
+     "start": 9.058,
+     "end": 9.474
+    },
+    {
+     "text": "the",
+     "start": 9.474,
+     "end": 9.713
+    },
+    {
+     "text": "Civil",
+     "start": 9.713,
+     "end": 10.129
+    },
+    {
+     "text": "War.",
+     "start": 10.129,
+     "end": 10.368
+    }
+   ],
+   "cues": {},
+   "startFrame": 153,
+   "endFrame": 323
+  },
+  {
+   "id": "tuskegee",
+   "words": [
+    {
+     "text": "In",
+     "start": 10.868,
+     "end": 11.167
+    },
+    {
+     "text": "1881,",
+     "start": 11.167,
+     "end": 12.132
+    },
+    {
+     "text": "he",
+     "start": 12.132,
+     "end": 12.431
+    },
+    {
+     "text": "founded",
+     "start": 12.431,
+     "end": 12.952
+    },
+    {
+     "text": "Tuskegee",
+     "start": 12.952,
+     "end": 13.474
+    },
+    {
+     "text": "Institute",
+     "start": 13.474,
+     "end": 14.216
+    },
+    {
+     "text": "in",
+     "start": 14.216,
+     "end": 14.516
+    },
+    {
+     "text": "Alabama,",
+     "start": 14.516,
+     "end": 15.48
+    },
+    {
+     "text": "and",
+     "start": 15.48,
+     "end": 15.78
+    },
+    {
+     "text": "built",
+     "start": 15.78,
+     "end": 16.079
+    },
+    {
+     "text": "it",
+     "start": 16.079,
+     "end": 16.379
+    },
+    {
+     "text": "into",
+     "start": 16.379,
+     "end": 16.9
+    },
+    {
+     "text": "a",
+     "start": 16.9,
+     "end": 17.199
+    },
+    {
+     "text": "leading",
+     "start": 17.199,
+     "end": 17.72
+    },
+    {
+     "text": "school",
+     "start": 17.72,
+     "end": 18.02
+    },
+    {
+     "text": "for",
+     "start": 18.02,
+     "end": 18.319
+    },
+    {
+     "text": "Black",
+     "start": 18.319,
+     "end": 18.618
+    },
+    {
+     "text": "Americans.",
+     "start": 18.618,
+     "end": 19.583
+    }
+   ],
+   "cues": {},
+   "startFrame": 323,
+   "endFrame": 598
+  },
+  {
+   "id": "carver",
+   "words": [
+    {
+     "text": "There,",
+     "start": 20.033,
+     "end": 20.288
+    },
+    {
+     "text": "he",
+     "start": 20.288,
+     "end": 20.542
+    },
+    {
+     "text": "hired",
+     "start": 20.542,
+     "end": 20.985
+    },
+    {
+     "text": "a",
+     "start": 20.985,
+     "end": 21.24
+    },
+    {
+     "text": "young",
+     "start": 21.24,
+     "end": 21.494
+    },
+    {
+     "text": "scientist",
+     "start": 21.494,
+     "end": 21.937
+    },
+    {
+     "text": "named",
+     "start": 21.937,
+     "end": 22.38
+    },
+    {
+     "text": "George",
+     "start": 22.38,
+     "end": 22.635
+    },
+    {
+     "text": "Washington",
+     "start": 22.635,
+     "end": 23.266
+    },
+    {
+     "text": "Carver.",
+     "start": 23.266,
+     "end": 23.709
+    }
+   ],
+   "cues": {},
+   "startFrame": 598,
+   "endFrame": 722
+  },
+  {
+   "id": "invite",
+   "words": [
+    {
+     "text": "On",
+     "start": 24.159,
+     "end": 24.444
+    },
+    {
+     "text": "October",
+     "start": 24.444,
+     "end": 25.153
+    },
+    {
+     "text": "16,",
+     "start": 25.153,
+     "end": 25.65
+    },
+    {
+     "text": "1901,",
+     "start": 25.65,
+     "end": 26.57
+    },
+    {
+     "text": "just",
+     "start": 26.57,
+     "end": 26.855
+    },
+    {
+     "text": "weeks",
+     "start": 26.855,
+     "end": 27.14
+    },
+    {
+     "text": "into",
+     "start": 27.14,
+     "end": 27.637
+    },
+    {
+     "text": "his",
+     "start": 27.637,
+     "end": 27.923
+    },
+    {
+     "text": "presidency,",
+     "start": 27.923,
+     "end": 28.843
+    },
+    {
+     "text": "Theodore",
+     "start": 28.843,
+     "end": 29.339
+    },
+    {
+     "text": "Roosevelt",
+     "start": 29.339,
+     "end": 30.048
+    },
+    {
+     "text": "invited",
+     "start": 30.048,
+     "end": 30.756
+    },
+    {
+     "text": "him",
+     "start": 30.756,
+     "end": 31.042
+    },
+    {
+     "text": "to",
+     "start": 31.042,
+     "end": 31.327
+    },
+    {
+     "text": "dinner",
+     "start": 31.327,
+     "end": 31.824
+    },
+    {
+     "text": "at",
+     "start": 31.824,
+     "end": 32.109
+    },
+    {
+     "text": "the",
+     "start": 32.109,
+     "end": 32.395
+    },
+    {
+     "text": "White",
+     "start": 32.395,
+     "end": 32.68
+    },
+    {
+     "text": "House.",
+     "start": 32.68,
+     "end": 32.966
+    }
+   ],
+   "cues": {},
+   "startFrame": 722,
+   "endFrame": 999
+  },
+  {
+   "id": "family",
+   "words": [
+    {
+     "text": "That",
+     "start": 33.416,
+     "end": 33.614
+    },
+    {
+     "text": "evening,",
+     "start": 33.614,
+     "end": 34.106
+    },
+    {
+     "text": "he",
+     "start": 34.106,
+     "end": 34.305
+    },
+    {
+     "text": "sat",
+     "start": 34.305,
+     "end": 34.503
+    },
+    {
+     "text": "down",
+     "start": 34.503,
+     "end": 34.701
+    },
+    {
+     "text": "to",
+     "start": 34.701,
+     "end": 34.899
+    },
+    {
+     "text": "eat",
+     "start": 34.899,
+     "end": 35.098
+    },
+    {
+     "text": "with",
+     "start": 35.098,
+     "end": 35.296
+    },
+    {
+     "text": "the",
+     "start": 35.296,
+     "end": 35.494
+    },
+    {
+     "text": "President",
+     "start": 35.494,
+     "end": 35.986
+    },
+    {
+     "text": "and",
+     "start": 35.986,
+     "end": 36.184
+    },
+    {
+     "text": "his",
+     "start": 36.184,
+     "end": 36.383
+    },
+    {
+     "text": "family.",
+     "start": 36.383,
+     "end": 36.875
+    }
+   ],
+   "cues": {},
+   "startFrame": 999,
+   "endFrame": 1118
+  },
+  {
+   "id": "fury",
+   "words": [
+    {
+     "text": "Southern",
+     "start": 37.375,
+     "end": 37.801
+    },
+    {
+     "text": "newspapers",
+     "start": 37.801,
+     "end": 38.408
+    },
+    {
+     "text": "erupted.",
+     "start": 38.408,
+     "end": 39.015
+    },
+    {
+     "text": "The",
+     "start": 39.015,
+     "end": 39.259
+    },
+    {
+     "text": "Atlanta",
+     "start": 39.259,
+     "end": 39.866
+    },
+    {
+     "text": "Constitution",
+     "start": 39.866,
+     "end": 40.655
+    },
+    {
+     "text": "called",
+     "start": 40.655,
+     "end": 41.08
+    },
+    {
+     "text": "it",
+     "start": 41.08,
+     "end": 41.325
+    },
+    {
+     "text": "an",
+     "start": 41.325,
+     "end": 41.57
+    },
+    {
+     "text": "insult.",
+     "start": 41.57,
+     "end": 41.995
+    },
+    {
+     "text": "The",
+     "start": 41.995,
+     "end": 42.24
+    },
+    {
+     "text": "Memphis",
+     "start": 42.24,
+     "end": 42.666
+    },
+    {
+     "text": "Scimitar",
+     "start": 42.666,
+     "end": 43.273
+    },
+    {
+     "text": "called",
+     "start": 43.273,
+     "end": 43.698
+    },
+    {
+     "text": "it",
+     "start": 43.698,
+     "end": 43.943
+    },
+    {
+     "text": "an",
+     "start": 43.943,
+     "end": 44.188
+    },
+    {
+     "text": "outrage.",
+     "start": 44.188,
+     "end": 44.613
+    }
+   ],
+   "cues": {},
+   "startFrame": 1118,
+   "endFrame": 1349
+  },
+  {
+   "id": "retreat",
+   "words": [
+    {
+     "text": "Roosevelt",
+     "start": 45.063,
+     "end": 45.673
+    },
+    {
+     "text": "kept",
+     "start": 45.673,
+     "end": 45.919
+    },
+    {
+     "text": "asking",
+     "start": 45.919,
+     "end": 46.346
+    },
+    {
+     "text": "Washington",
+     "start": 46.346,
+     "end": 46.956
+    },
+    {
+     "text": "for",
+     "start": 46.956,
+     "end": 47.202
+    },
+    {
+     "text": "advice.",
+     "start": 47.202,
+     "end": 47.63
+    },
+    {
+     "text": "But",
+     "start": 47.63,
+     "end": 47.875
+    },
+    {
+     "text": "he",
+     "start": 47.875,
+     "end": 48.121
+    },
+    {
+     "text": "never",
+     "start": 48.121,
+     "end": 48.549
+    },
+    {
+     "text": "invited",
+     "start": 48.549,
+     "end": 49.159
+    },
+    {
+     "text": "him",
+     "start": 49.159,
+     "end": 49.404
+    },
+    {
+     "text": "to",
+     "start": 49.404,
+     "end": 49.65
+    },
+    {
+     "text": "dine",
+     "start": 49.65,
+     "end": 49.896
+    },
+    {
+     "text": "again.",
+     "start": 49.896,
+     "end": 50.323
+    }
+   ],
+   "cues": {},
+   "startFrame": 1349,
+   "endFrame": 1522
+  },
+  {
+   "id": "legacy",
+   "words": [
+    {
+     "text": "One",
+     "start": 50.824,
+     "end": 51.043
+    },
+    {
+     "text": "meal.",
+     "start": 51.043,
+     "end": 51.262
+    },
+    {
+     "text": "And",
+     "start": 51.262,
+     "end": 51.481
+    },
+    {
+     "text": "it",
+     "start": 51.481,
+     "end": 51.7
+    },
+    {
+     "text": "showed",
+     "start": 51.7,
+     "end": 52.082
+    },
+    {
+     "text": "how",
+     "start": 52.082,
+     "end": 52.301
+    },
+    {
+     "text": "far",
+     "start": 52.301,
+     "end": 52.52
+    },
+    {
+     "text": "America",
+     "start": 52.52,
+     "end": 53.226
+    },
+    {
+     "text": "still",
+     "start": 53.226,
+     "end": 53.445
+    },
+    {
+     "text": "had",
+     "start": 53.445,
+     "end": 53.664
+    },
+    {
+     "text": "to",
+     "start": 53.664,
+     "end": 53.883
+    },
+    {
+     "text": "go.",
+     "start": 53.883,
+     "end": 54.102
+    }
+   ],
+   "cues": {},
+   "startFrame": 1522,
+   "endFrame": 1635
+  },
+  {
+   "id": "cta",
+   "words": [
+    {
+     "text": "Follow",
+     "start": 54.602,
+     "end": 54.961
+    },
+    {
+     "text": "The",
+     "start": 54.961,
+     "end": 55.167
+    },
+    {
+     "text": "Black",
+     "start": 55.167,
+     "end": 55.374
+    },
+    {
+     "text": "History",
+     "start": 55.374,
+     "end": 55.885
+    },
+    {
+     "text": "Room",
+     "start": 55.885,
+     "end": 56.092
+    },
+    {
+     "text": "for",
+     "start": 56.092,
+     "end": 56.298
+    },
+    {
+     "text": "one",
+     "start": 56.298,
+     "end": 56.504
+    },
+    {
+     "text": "story",
+     "start": 56.504,
+     "end": 56.863
+    },
+    {
+     "text": "a",
+     "start": 56.863,
+     "end": 57.07
+    },
+    {
+     "text": "day.",
+     "start": 57.07,
+     "end": 57.276
+    }
+   ],
+   "cues": {},
+   "startFrame": 1635,
+   "endFrame": 1754
+  }
+ ]
+}

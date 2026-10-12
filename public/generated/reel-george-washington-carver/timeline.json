@@ -1,0 +1,927 @@
+{
+ "fps": 30,
+ "durationInFrames": 1916,
+ "voice": "am_michael",
+ "engine": "kokoro-onnx v1.0",
+ "words": 161,
+ "wpm": 151.2,
+ "beats": [
+  {
+   "id": "hook",
+   "words": [
+    {
+     "text": "A",
+     "start": 0.0,
+     "end": 0.226
+    },
+    {
+     "text": "baby,",
+     "start": 0.226,
+     "end": 0.62
+    },
+    {
+     "text": "traded",
+     "start": 0.62,
+     "end": 1.013
+    },
+    {
+     "text": "for",
+     "start": 1.013,
+     "end": 1.239
+    },
+    {
+     "text": "a",
+     "start": 1.239,
+     "end": 1.466
+    },
+    {
+     "text": "horse.",
+     "start": 1.466,
+     "end": 1.692
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 63
+  },
+  {
+   "id": "name",
+   "words": [
+    {
+     "text": "That",
+     "start": 2.192,
+     "end": 2.436
+    },
+    {
+     "text": "baby",
+     "start": 2.436,
+     "end": 2.86
+    },
+    {
+     "text": "grew",
+     "start": 2.86,
+     "end": 3.104
+    },
+    {
+     "text": "up",
+     "start": 3.104,
+     "end": 3.348
+    },
+    {
+     "text": "to",
+     "start": 3.348,
+     "end": 3.592
+    },
+    {
+     "text": "be",
+     "start": 3.592,
+     "end": 3.836
+    },
+    {
+     "text": "George",
+     "start": 3.836,
+     "end": 4.079
+    },
+    {
+     "text": "Washington",
+     "start": 4.079,
+     "end": 4.684
+    },
+    {
+     "text": "Carver.",
+     "start": 4.684,
+     "end": 5.109
+    }
+   ],
+   "cues": {},
+   "startFrame": 63,
+   "endFrame": 164
+  },
+  {
+   "id": "born",
+   "words": [
+    {
+     "text": "He",
+     "start": 5.559,
+     "end": 5.785
+    },
+    {
+     "text": "was",
+     "start": 5.785,
+     "end": 6.011
+    },
+    {
+     "text": "born",
+     "start": 6.011,
+     "end": 6.237
+    },
+    {
+     "text": "enslaved",
+     "start": 6.237,
+     "end": 6.797
+    },
+    {
+     "text": "in",
+     "start": 6.797,
+     "end": 7.023
+    },
+    {
+     "text": "Missouri,",
+     "start": 7.023,
+     "end": 7.584
+    },
+    {
+     "text": "near",
+     "start": 7.584,
+     "end": 7.81
+    },
+    {
+     "text": "the",
+     "start": 7.81,
+     "end": 8.036
+    },
+    {
+     "text": "end",
+     "start": 8.036,
+     "end": 8.262
+    },
+    {
+     "text": "of",
+     "start": 8.262,
+     "end": 8.488
+    },
+    {
+     "text": "the",
+     "start": 8.488,
+     "end": 8.714
+    },
+    {
+     "text": "Civil",
+     "start": 8.714,
+     "end": 9.107
+    },
+    {
+     "text": "War.",
+     "start": 9.107,
+     "end": 9.333
+    }
+   ],
+   "cues": {},
+   "startFrame": 164,
+   "endFrame": 292
+  },
+  {
+   "id": "kidnap",
+   "words": [
+    {
+     "text": "When",
+     "start": 9.832,
+     "end": 10.035
+    },
+    {
+     "text": "he",
+     "start": 10.035,
+     "end": 10.237
+    },
+    {
+     "text": "was",
+     "start": 10.237,
+     "end": 10.44
+    },
+    {
+     "text": "a",
+     "start": 10.44,
+     "end": 10.643
+    },
+    {
+     "text": "baby,",
+     "start": 10.643,
+     "end": 10.996
+    },
+    {
+     "text": "raiders",
+     "start": 10.996,
+     "end": 11.349
+    },
+    {
+     "text": "kidnapped",
+     "start": 11.349,
+     "end": 11.852
+    },
+    {
+     "text": "him",
+     "start": 11.852,
+     "end": 12.054
+    },
+    {
+     "text": "and",
+     "start": 12.054,
+     "end": 12.257
+    },
+    {
+     "text": "his",
+     "start": 12.257,
+     "end": 12.46
+    },
+    {
+     "text": "mother.",
+     "start": 12.46,
+     "end": 12.813
+    }
+   ],
+   "cues": {},
+   "startFrame": 292,
+   "endFrame": 395
+  },
+  {
+   "id": "horse",
+   "words": [
+    {
+     "text": "His",
+     "start": 13.263,
+     "end": 13.511
+    },
+    {
+     "text": "owner,",
+     "start": 13.511,
+     "end": 13.942
+    },
+    {
+     "text": "Moses",
+     "start": 13.942,
+     "end": 14.373
+    },
+    {
+     "text": "Carver,",
+     "start": 14.373,
+     "end": 14.804
+    },
+    {
+     "text": "got",
+     "start": 14.804,
+     "end": 15.052
+    },
+    {
+     "text": "the",
+     "start": 15.052,
+     "end": 15.3
+    },
+    {
+     "text": "baby",
+     "start": 15.3,
+     "end": 15.731
+    },
+    {
+     "text": "back.",
+     "start": 15.731,
+     "end": 15.978
+    },
+    {
+     "text": "It",
+     "start": 15.978,
+     "end": 16.226
+    },
+    {
+     "text": "cost",
+     "start": 16.226,
+     "end": 16.474
+    },
+    {
+     "text": "him",
+     "start": 16.474,
+     "end": 16.721
+    },
+    {
+     "text": "one",
+     "start": 16.721,
+     "end": 16.969
+    },
+    {
+     "text": "of",
+     "start": 16.969,
+     "end": 17.217
+    },
+    {
+     "text": "his",
+     "start": 17.217,
+     "end": 17.464
+    },
+    {
+     "text": "finest",
+     "start": 17.464,
+     "end": 17.896
+    },
+    {
+     "text": "horses.",
+     "start": 17.896,
+     "end": 18.327
+    }
+   ],
+   "cues": {},
+   "startFrame": 395,
+   "endFrame": 560
+  },
+  {
+   "id": "mother",
+   "words": [
+    {
+     "text": "George",
+     "start": 18.777,
+     "end": 19.015
+    },
+    {
+     "text": "never",
+     "start": 19.015,
+     "end": 19.429
+    },
+    {
+     "text": "saw",
+     "start": 19.429,
+     "end": 19.667
+    },
+    {
+     "text": "his",
+     "start": 19.667,
+     "end": 19.905
+    },
+    {
+     "text": "mother",
+     "start": 19.905,
+     "end": 20.319
+    },
+    {
+     "text": "again.",
+     "start": 20.319,
+     "end": 20.734
+    }
+   ],
+   "cues": {},
+   "startFrame": 560,
+   "endFrame": 632
+  },
+  {
+   "id": "school",
+   "words": [
+    {
+     "text": "He",
+     "start": 21.183,
+     "end": 21.465
+    },
+    {
+     "text": "grew",
+     "start": 21.465,
+     "end": 21.748
+    },
+    {
+     "text": "up",
+     "start": 21.748,
+     "end": 22.03
+    },
+    {
+     "text": "hungry",
+     "start": 22.03,
+     "end": 22.522
+    },
+    {
+     "text": "to",
+     "start": 22.522,
+     "end": 22.804
+    },
+    {
+     "text": "learn,",
+     "start": 22.804,
+     "end": 23.087
+    },
+    {
+     "text": "and",
+     "start": 23.087,
+     "end": 23.369
+    },
+    {
+     "text": "in",
+     "start": 23.369,
+     "end": 23.652
+    },
+    {
+     "text": "1894",
+     "start": 23.652,
+     "end": 24.562
+    },
+    {
+     "text": "he",
+     "start": 24.562,
+     "end": 24.844
+    },
+    {
+     "text": "earned",
+     "start": 24.844,
+     "end": 25.336
+    },
+    {
+     "text": "a",
+     "start": 25.336,
+     "end": 25.618
+    },
+    {
+     "text": "degree",
+     "start": 25.618,
+     "end": 25.901
+    },
+    {
+     "text": "in",
+     "start": 25.901,
+     "end": 26.183
+    },
+    {
+     "text": "agriculture",
+     "start": 26.183,
+     "end": 27.093
+    },
+    {
+     "text": "in",
+     "start": 27.093,
+     "end": 27.376
+    },
+    {
+     "text": "Iowa.",
+     "start": 27.376,
+     "end": 27.867
+    }
+   ],
+   "cues": {},
+   "startFrame": 632,
+   "endFrame": 847
+  },
+  {
+   "id": "tuskegee",
+   "words": [
+    {
+     "text": "Then",
+     "start": 28.318,
+     "end": 28.572
+    },
+    {
+     "text": "Booker",
+     "start": 28.572,
+     "end": 29.014
+    },
+    {
+     "text": "T.",
+     "start": 29.014,
+     "end": 29.268
+    },
+    {
+     "text": "Washington",
+     "start": 29.268,
+     "end": 29.898
+    },
+    {
+     "text": "hired",
+     "start": 29.898,
+     "end": 30.339
+    },
+    {
+     "text": "him",
+     "start": 30.339,
+     "end": 30.593
+    },
+    {
+     "text": "to",
+     "start": 30.593,
+     "end": 30.847
+    },
+    {
+     "text": "teach",
+     "start": 30.847,
+     "end": 31.101
+    },
+    {
+     "text": "at",
+     "start": 31.101,
+     "end": 31.355
+    },
+    {
+     "text": "Tuskegee",
+     "start": 31.355,
+     "end": 31.797
+    },
+    {
+     "text": "Institute",
+     "start": 31.797,
+     "end": 32.427
+    },
+    {
+     "text": "in",
+     "start": 32.427,
+     "end": 32.681
+    },
+    {
+     "text": "Alabama.",
+     "start": 32.681,
+     "end": 33.498
+    }
+   ],
+   "cues": {},
+   "startFrame": 847,
+   "endFrame": 1015
+  },
+  {
+   "id": "peanuts",
+   "words": [
+    {
+     "text": "There,",
+     "start": 33.948,
+     "end": 34.21
+    },
+    {
+     "text": "he",
+     "start": 34.21,
+     "end": 34.473
+    },
+    {
+     "text": "helped",
+     "start": 34.473,
+     "end": 34.93
+    },
+    {
+     "text": "Southern",
+     "start": 34.93,
+     "end": 35.387
+    },
+    {
+     "text": "farmers",
+     "start": 35.387,
+     "end": 35.843
+    },
+    {
+     "text": "break",
+     "start": 35.843,
+     "end": 36.106
+    },
+    {
+     "text": "free",
+     "start": 36.106,
+     "end": 36.368
+    },
+    {
+     "text": "from",
+     "start": 36.368,
+     "end": 36.631
+    },
+    {
+     "text": "cotton,",
+     "start": 36.631,
+     "end": 37.088
+    },
+    {
+     "text": "with",
+     "start": 37.088,
+     "end": 37.35
+    },
+    {
+     "text": "peanuts",
+     "start": 37.35,
+     "end": 37.807
+    },
+    {
+     "text": "and",
+     "start": 37.807,
+     "end": 38.069
+    },
+    {
+     "text": "sweet",
+     "start": 38.069,
+     "end": 38.332
+    },
+    {
+     "text": "potatoes.",
+     "start": 38.332,
+     "end": 38.983
+    }
+   ],
+   "cues": {},
+   "startFrame": 1015,
+   "endFrame": 1180
+  },
+  {
+   "id": "congress",
+   "words": [
+    {
+     "text": "In",
+     "start": 39.433,
+     "end": 39.74
+    },
+    {
+     "text": "1921,",
+     "start": 39.74,
+     "end": 40.728
+    },
+    {
+     "text": "he",
+     "start": 40.728,
+     "end": 41.035
+    },
+    {
+     "text": "even",
+     "start": 41.035,
+     "end": 41.568
+    },
+    {
+     "text": "testified",
+     "start": 41.568,
+     "end": 42.329
+    },
+    {
+     "text": "before",
+     "start": 42.329,
+     "end": 42.863
+    },
+    {
+     "text": "Congress,",
+     "start": 42.863,
+     "end": 43.397
+    },
+    {
+     "text": "about",
+     "start": 43.397,
+     "end": 43.931
+    },
+    {
+     "text": "peanuts.",
+     "start": 43.931,
+     "end": 44.465
+    }
+   ],
+   "cues": {},
+   "startFrame": 1180,
+   "endFrame": 1346
+  },
+  {
+   "id": "myth",
+   "words": [
+    {
+     "text": "And",
+     "start": 44.965,
+     "end": 45.21
+    },
+    {
+     "text": "no,",
+     "start": 45.21,
+     "end": 45.455
+    },
+    {
+     "text": "he",
+     "start": 45.455,
+     "end": 45.701
+    },
+    {
+     "text": "did",
+     "start": 45.701,
+     "end": 45.946
+    },
+    {
+     "text": "not",
+     "start": 45.946,
+     "end": 46.191
+    },
+    {
+     "text": "invent",
+     "start": 46.191,
+     "end": 46.618
+    },
+    {
+     "text": "peanut",
+     "start": 46.618,
+     "end": 47.045
+    },
+    {
+     "text": "butter.",
+     "start": 47.045,
+     "end": 47.471
+    },
+    {
+     "text": "It",
+     "start": 47.471,
+     "end": 47.717
+    },
+    {
+     "text": "existed",
+     "start": 47.717,
+     "end": 48.325
+    },
+    {
+     "text": "before",
+     "start": 48.325,
+     "end": 48.752
+    },
+    {
+     "text": "his",
+     "start": 48.752,
+     "end": 48.997
+    },
+    {
+     "text": "work.",
+     "start": 48.997,
+     "end": 49.242
+    }
+   ],
+   "cues": {},
+   "startFrame": 1346,
+   "endFrame": 1489
+  },
+  {
+   "id": "monument",
+   "words": [
+    {
+     "text": "When",
+     "start": 49.742,
+     "end": 50.002
+    },
+    {
+     "text": "he",
+     "start": 50.002,
+     "end": 50.262
+    },
+    {
+     "text": "died",
+     "start": 50.262,
+     "end": 50.523
+    },
+    {
+     "text": "in",
+     "start": 50.523,
+     "end": 50.783
+    },
+    {
+     "text": "1943,",
+     "start": 50.783,
+     "end": 51.621
+    },
+    {
+     "text": "his",
+     "start": 51.621,
+     "end": 51.881
+    },
+    {
+     "text": "birthplace",
+     "start": 51.881,
+     "end": 52.334
+    },
+    {
+     "text": "became",
+     "start": 52.334,
+     "end": 52.787
+    },
+    {
+     "text": "the",
+     "start": 52.787,
+     "end": 53.047
+    },
+    {
+     "text": "first",
+     "start": 53.047,
+     "end": 53.307
+    },
+    {
+     "text": "national",
+     "start": 53.307,
+     "end": 53.953
+    },
+    {
+     "text": "monument",
+     "start": 53.953,
+     "end": 54.599
+    },
+    {
+     "text": "to",
+     "start": 54.599,
+     "end": 54.859
+    },
+    {
+     "text": "an",
+     "start": 54.859,
+     "end": 55.119
+    },
+    {
+     "text": "African",
+     "start": 55.119,
+     "end": 55.765
+    },
+    {
+     "text": "American.",
+     "start": 55.765,
+     "end": 56.603
+    }
+   ],
+   "cues": {},
+   "startFrame": 1489,
+   "endFrame": 1709
+  },
+  {
+   "id": "legacy",
+   "words": [
+    {
+     "text": "Traded",
+     "start": 57.053,
+     "end": 57.442
+    },
+    {
+     "text": "for",
+     "start": 57.442,
+     "end": 57.666
+    },
+    {
+     "text": "a",
+     "start": 57.666,
+     "end": 57.89
+    },
+    {
+     "text": "horse.",
+     "start": 57.89,
+     "end": 58.114
+    },
+    {
+     "text": "Honored",
+     "start": 58.114,
+     "end": 58.669
+    },
+    {
+     "text": "by",
+     "start": 58.669,
+     "end": 58.893
+    },
+    {
+     "text": "a",
+     "start": 58.893,
+     "end": 59.116
+    },
+    {
+     "text": "nation.",
+     "start": 59.116,
+     "end": 59.506
+    }
+   ],
+   "cues": {},
+   "startFrame": 1709,
+   "endFrame": 1797
+  },
+  {
+   "id": "cta",
+   "words": [
+    {
+     "text": "Follow",
+     "start": 60.006,
+     "end": 60.365
+    },
+    {
+     "text": "The",
+     "start": 60.365,
+     "end": 60.571
+    },
+    {
+     "text": "Black",
+     "start": 60.571,
+     "end": 60.778
+    },
+    {
+     "text": "History",
+     "start": 60.778,
+     "end": 61.289
+    },
+    {
+     "text": "Room",
+     "start": 61.289,
+     "end": 61.496
+    },
+    {
+     "text": "for",
+     "start": 61.496,
+     "end": 61.702
+    },
+    {
+     "text": "one",
+     "start": 61.702,
+     "end": 61.908
+    },
+    {
+     "text": "story",
+     "start": 61.908,
+     "end": 62.267
+    },
+    {
+     "text": "a",
+     "start": 62.267,
+     "end": 62.474
+    },
+    {
+     "text": "day.",
+     "start": 62.474,
+     "end": 62.68
+    }
+   ],
+   "cues": {},
+   "startFrame": 1797,
+   "endFrame": 1916
+  }
+ ]
+}

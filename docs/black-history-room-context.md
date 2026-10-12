@@ -92,6 +92,12 @@ Free timing previews: Kokoro scratch (`am_michael`, speed 1.1), spec id ending i
 - Push only to the session's assigned branch; no PR unless asked.
 
 ## Lessons from the pilot
+- **Performance, 2026-10-12 (owner's Facebook Reels tab):** Douglass 11.3K, Smalls 3.9K, Coleman 1.8K, Craft 1.1K,
+  Wells 913, Mansa Musa 912, Henson 832, Major Taylor 373, Boston 355, Morgan 317, Tubman 280, Reeves 279,
+  Box Brown 268. Lessons: (1) a famous name + a surprising fact, ideally compared with an even more famous
+  name (Douglass vs Lincoln), wins; (2) a real photo of a face looking into the camera beats engravings and
+  drawings (Box Brown, Morgan lowest); (3) the cover must be the face: Major Taylor's grid tile shows a title
+  card, so always upload `<slug>.hook.jpg` / frame 0 as the cover.
 - **Hook rules (owner, 2026-10-06, from comparing two Story Room reels):** the reel that failed opened with low
   sound on a shot of a hand; the one that worked opened on a crying face with a line spoken at once. So:
   1. The hook is *heard* from the first instant: `voice.leadInSeconds: 0`, `mix.hookBoostDb: 2` (the hook beat
@@ -120,4 +126,4 @@ Series: Forgotten First, Before Rosa Parks, One Photo One Story, Invented By, My
 Candidates not yet done: Claudette Colvin (2 March 1955), Garrett Morgan (1916 Lake Erie tunnel rescue),
 Henrietta Lacks (handle consent carefully), Major Taylor (1899 world cycling champion), Katherine Johnson,
 Lewis Latimer, Madam C. J. Walker (word the "first" claim carefully).
-Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: Henry "Box" Brown, Ellen and William Craft, Harriet Tubman (Combahee raid), Mansa Musa, Garrett Morgan, Major Taylor, Bass Reeves, Frederick Douglass, Ida B. Wells (branch claude/black-history-reels-4pk8ts).
+Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: Henry "Box" Brown, Ellen and William Craft, Harriet Tubman (Combahee raid), Mansa Musa, Garrett Morgan, Major Taylor, Bass Reeves, Frederick Douglass, Ida B. Wells, George Washington Carver, Booker T. Washington (branch claude/black-history-reels-4pk8ts).

@@ -1,0 +1,56 @@
+{
+  "face": {
+    "title": "File:WASHINGTON, BOOKER T. LCCN2016857180.jpg",
+    "artist": "Harris & Ewing; Library of Congress (cropped)",
+    "date": "c. 1905-1915",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File%3AWASHINGTON%2C_BOOKER_T._LCCN2016857180.jpg",
+    "width": 2688,
+    "height": 2866
+  },
+  "seated": {
+    "title": "File:WASHINGTON, BOOKER T. LCCN2016857182.jpg",
+    "artist": "Harris & Ewing; Library of Congress",
+    "date": "c. 1905-1915",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File%3AWASHINGTON%2C_BOOKER_T._LCCN2016857182.jpg",
+    "width": 1920,
+    "height": 2388
+  },
+  "tr": {
+    "title": "File:Theodore Roosevelt 1901 Portrait (3x4 cropped).jpg",
+    "artist": "Unknown photographer; Library of Congress",
+    "date": "1901",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATheodore_Roosevelt_1901_Portrait_%283x4_cropped%29.jpg",
+    "width": 1920,
+    "height": 2560
+  },
+  "faculty": {
+    "title": "File:The Tuskegee Faculty Council, 1902.jpg",
+    "artist": "Frances Benjamin Johnston",
+    "date": "1902",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File%3AThe_Tuskegee_Faculty_Council%2C_1902.jpg",
+    "width": 1920,
+    "height": 1093
+  },
+  "carver": {
+    "title": "File:George Washington Carver c1910.jpg",
+    "artist": "Unknown photographer",
+    "date": "c. 1910",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File%3AGeorge_Washington_Carver_c1910.jpg",
+    "width": 1920,
+    "height": 2403
+  },
+  "lab": {
+    "title": "File:Chemistry laboratory at Tuskegee Institute, ca. 1902 LCCN2014646471.jpg",
+    "artist": "Frances Benjamin Johnston; Library of Congress",
+    "date": "c. 1902",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File%3AChemistry_laboratory_at_Tuskegee_Institute%2C_ca._1902_LCCN2014646471.jpg",
+    "width": 1920,
+    "height": 1595
+  }
+}
