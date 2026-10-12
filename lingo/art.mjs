@@ -467,6 +467,8 @@ export function memeCharacter(spec, uid = "m") {
   if (spec.beard) s += `<path d="M300 450 C306 540 360 590 410 590 C470 588 520 530 528 450 C506 500 470 516 412 516 C356 516 318 498 300 450Z" fill="${HAIR[spec.beardColor] || spec.beardColor || hc}" stroke="${INK}" stroke-width="3"/>`;
   if (spec.mustache) s += `<path d="M366 486 C384 470 410 474 414 482 C420 474 446 470 462 486 C442 484 426 488 414 492 C402 488 386 484 366 486Z" fill="${HAIR[spec.beardColor] || spec.beardColor || hc}" stroke="${INK}" stroke-width="2.5"/>`;
   const my = 505;
+  // bearded faces: open the beard around the mouth so the mouth always reads clearly
+  if (spec.beard) s += `<ellipse cx="413" cy="${my + 2}" rx="50" ry="20" fill="${skin}" stroke="${INK}" stroke-width="3"/>`;
   s += ex === "grin" || ex === "smile"
     ? `<path d="M380 ${my} C398 ${my + 10} 430 ${my + 10} 446 ${my - 2}" stroke="${fem ? "#a0454a" : INK}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`
     : ex === "sad" ? `<path d="M382 ${my + 6} C400 ${my - 2} 428 ${my - 2} 444 ${my + 6}" stroke="${INK}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`
