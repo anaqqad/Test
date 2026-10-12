@@ -29,6 +29,7 @@ Seeddance lip-sync guides (links in `prompts.md`).
 - Mother owns the house (deed reveal, evicts son and wife)
 - Cheap car key opens a Mercedes
 - Biker at a father-daughter dance ("Never Dance Alone")
+- Your Bill Is Ready (book scene: "dead" wife takes the mic at his engagement party)
 - The Grant (fiancée mocked at gala chairs the foundation)
 - Which One? (girl finds the biker dad she never met)
 - One More Time (girl asks biker bar to ride her dying dad's bike past his window)
