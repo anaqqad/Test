@@ -824,7 +824,7 @@ Camera: opening medium two-shot walking in; mostly close-ups for the argument; o
 - Cover frame: the mother's cold up-and-down look (2-3 s)
 - AI label: turn on "AI-generated content"
 
-## 23. "Your Bill Is Ready" (book scene: My Husband Told His Mistress I Was Dead, ch. 22 "The Empty Chair")
+## 23. "Your Bill Is Ready" (v2, line lengths and hands fixed; book scene: My Husband Told His Mistress I Was Dead, ch. 22 "The Empty Chair")
 
 Scene: at his engagement party, the bride's father leads a moment of silence for the groom's "late wife".
 The wife is alive, she planned the party, and she takes the microphone.
@@ -833,26 +833,26 @@ The wife is alive, she planned the party, and she takes the microphone.
 Vertical 9:16, 30s. Cinematic photoreal drama in the grand salon of an elegant Paris hotel at night: long candlelit tables, white peonies, a head table under tall windows, a large projection screen behind it showing photos, a string quartet under stone arches, two hundred guests blurred in warm gold candlelight. Exactly 4 characters, identical faces and wardrobe in every shot; all guests stay blurred in the background and never speak. The projected slides are photos only, with no captions or readable text. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. No logos, no watermarks. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
 
 Characters:
-- WIFE (late 30s): Portuguese woman, dark-brown hair in a tight low bun, dark eyes, a stubborn chin, red lipstick, a sharp black suit, a thin headset around her neck, a plain staff badge with no readable text, a clipboard; holds a wireless microphone. Perfectly calm.
+- WIFE (late 30s): Portuguese woman, dark-brown hair in a tight low bun, dark eyes, a stubborn chin, red lipstick, a sharp black suit, a thin headset around her neck, a plain staff badge with no readable text, a clipboard tucked under her left arm with a blue folder clipped to it; a wireless microphone always in her right hand. Perfectly calm.
 - HUSBAND (mid 40s): Portuguese man, dark hair going grey at the temples, brushed back, handsome, a midnight-blue suit, white open-collar shirt, no tie, a thin white scar on the back of his left hand. Seated at the head table, gone grey in the face.
 - FIANCÉE (late 20s): French woman, long glossy blonde hair, flawless makeup, a white silk engagement dress, a large diamond ring. Seated beside him.
 - FATHER (early 70s): French man, big and broad, thick silver hair, a weathered face, a farmer's rough hands, a dark three-piece suit, standing at the head table with a champagne glass.
 
 Location: the grand salon; the head table across the front of the room with the screen behind it; the long aisle between the guest tables, where the wife stands at the far end; a single white rose lying on an empty chair at the head table. Screen direction never flips.
 
-0s-2s: Extreme close-up of Wife standing in the candlelit aisle, sharp and in focus from the very first frame, microphone at her red lips, the silent room blurred behind her. Her voice from the very first frame, calm and clear, filling the silent room through the speakers. WIFE: "You just held a moment of silence… for me."
+0s-2s: Extreme close-up of Wife standing in the candlelit aisle, sharp and in focus from the very first frame, microphone at her red lips, the silent room blurred behind her. Her voice from the very first frame, calm and clear, filling the silent room through the speakers. WIFE: "A moment of silence… for me?"
 2s-4s: Close-up Husband at the head table, frozen, sweat at his temples, the color draining from his face. WIFE (off-screen, through the speakers): "I'm his wife. I'm not dead."
 4s-6s: Close-up Fiancée, her smile collapsing, turning to him. FIANCÉE: "Chéri? Who is she?"
 6s-8s: Close-up Father, slowly lowering his champagne glass, turning his head to the husband. FATHER (deep, quiet): "You told us she died."
-8s-10s: Insert: the projection screen behind the head table changes to an old wedding photo: a young dark-haired man in a rented suit laughing beside the young wife in a plain white dress.
+8s-10s: Insert: hard slide change on the projection screen to an old wedding photo: the husband twelve years younger, dark hair, no grey, laughing in a rented suit beside the wife twelve years younger (same face) in a plain white dress.
 10s-12s: Close-up Wife, walking slowly down the aisle between the tables, the blurred guests turning to follow her. WIFE: "Twelve years married. And we have a son."
-12s-14s: Insert: the screen changes to a photo of a garden birthday table with a cake and eleven candles, and one empty white chair at the end with a paper crown on it.
-14s-16s: Close-up Wife, still walking, eyes on him. WIFE: "Tonight he scored the winning goal. His father promised to be there."
+12s-14s: Insert: hard slide change on the screen to a photo of a garden birthday table with a cake and eleven candles, and one empty white chair at the end with a paper crown on it.
+14s-16s: Close-up Wife, still walking, eyes on him. WIFE: "He scored the winning goal tonight. You promised."
 16s-18s: Close-up Husband, half rising, his scarred left hand raised. HUSBAND: "Inês, please, let me explain…"
 18s-20s: Close-up Wife, gently. WIFE: "No. Tonight it's my version."
-20s-22s: Medium shot at the head table: Wife picks the white rose up from the empty chair and lays it on the tablecloth in front of him, then lays a blue folder beside it.
-22s-24s: Close-up Wife, a hotel manager's polite smile. WIFE: "In hotels, we never throw out a guest. We present the bill."
-24s-26s: Close-up Husband staring down at the blue folder and the rose, his scarred hand shaking.
+20s-22s: Medium shot at the head table, microphone still in her right hand: with her left hand she picks the white rose up from the empty chair and lays it on the tablecloth in front of him, then unclips the blue folder from her clipboard and lays it beside the rose.
+22s-24s: Close-up Wife, a hotel manager's polite smile. WIFE: "In hotels, we never throw guests out."
+24s-26s: Close-up Husband staring down at the blue folder and the rose, his scarred hand shaking. WIFE (off-screen): "We present the bill."
 26s-28s: Close-up Fiancée, standing, mascara running, pointing at the wife. FIANCÉE: "Papa, she's lying! She's just a maid!"
 28s-30s: Close-up Father, not looking at his daughter, quiet and heavy. FATHER: "My great-grandmother was a maid."
 
