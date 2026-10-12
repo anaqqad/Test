@@ -13,9 +13,9 @@ As a baby, he was traded for a horse.
 
 George Washington Carver was born into slavery on Moses Carver's farm near Diamond, Missouri, near the end of the Civil War. No one recorded the exact date, or even the year.
 
-When he was still a baby, a band of raiders kidnapped him and his mother. Moses Carver sent a man after them. The baby was found and brought back, and getting him back cost Moses Carver one of his finest horses. George never saw his mother again.
+When he was still a baby, a band of raiders kidnapped him and his mother. The baby was brought back, and getting him back cost Moses Carver one of his finest horses. George never saw his mother again.
 
-He grew up hungry to learn. Susan Carver taught him to read and write, because there was no nearby school for Black children, and as a boy he left home to go to school. In 1894 he earned a bachelor's degree in agriculture in Iowa.
+He grew up hungry to learn, and in 1894 he earned a bachelor's degree in agriculture in Iowa.
 
 Two years later, Booker T. Washington recruited him to teach at Tuskegee Institute in Alabama. There Carver spent his life helping Southern farmers break their dependence on cotton, with crops like peanuts and sweet potatoes. In 1921 he even testified before a committee of Congress, about peanuts.
 
