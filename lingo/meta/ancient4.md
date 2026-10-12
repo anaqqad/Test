@@ -20,8 +20,8 @@ Which language should we cover next? Tell us in the comments 👇
 1:34 Cumbric (~1100)
 
 HOW WE SIMULATED THEM
-Nobody alive has heard these languages, so every voice in this video is an AI simulation, not a recording. The method:
-1. A real surviving text: every line is an actual ancient text, not invented sentences.
+Most of these languages died before anyone could record them, so every voice in this video is an AI simulation, not a recording. The method:
+1. A real surviving text: every line is a real historical text or word list, not invented sentences.
 2. Reconstructed pronunciation: linguists rebuild how a language sounded from its descendants (Coptic for Egyptian, Icelandic for Old Norse), from how foreigners spelled it (Babylonian scribes wrote Egyptian names with vowels), from ancient grammarians (Romans described their own v and c), and from poetry, rhyme and spelling mistakes. We wrote each line in the International Phonetic Alphabet (IPA) following these standard reconstructions.
 3. AI voice reading the sounds directly: open-source Piper text-to-speech voices were fed the IPA sounds themselves, so they say exactly what the reconstruction says instead of reading the words in their own language. Each language got a voice from a modern language with similar sounds: Finnish for Livonian, Romanian for Dalmatian, Icelandic for Norn, English for Cornish and Massachusett, Welsh for Cumbric, Brazilian Portuguese for Old Tupi, German for Crimean Gothic, Spanish for Taíno.
 Limits: the modern voice's accent comes through, sounds a voice was never trained on are replaced with the closest one, and some details are educated guesses even among experts: Taíno and Crimean Gothic survive only as words written down by Europeans, Massachusett is known from 1600s spellings, and the Cumbric link to the sheep-counting numbers is a popular theory, not a certainty. Think of it as a best guess built on real scholarship.
