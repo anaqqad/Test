@@ -22,7 +22,7 @@ export const PHOTO_CREDITS = {
   soundlike: "Valletta from the Grand Harbour: photo by Martin Furtschegger, CC BY 3.0, via Wikimedia Commons",
   a2usa: "Times Square: photo by Jerry Steinfield, CC BY-SA 4.0, via Wikimedia Commons",
   revived: "Jerusalem Old City: photo by Nettadi, CC BY-SA 3.0, via Wikimedia Commons",
-  ancient4: "Saona Island beach: photo by Pierpunk, public domain, via Wikimedia Commons",
+  ancient4: "Saona Island: photo by Danu Widjajanto, CC BY-SA 4.0, via Wikimedia Commons",
 };
 // Esperanto has its own flag, not in flag-icons: green field, white canton with a green star
 const EO = "data:image/svg+xml;utf8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><rect width="600" height="400" fill="#009900"/><rect width="200" height="200" fill="#fff"/><path d="M100 30 L118 82 L173 82 L128 114 L145 166 L100 134 L55 166 L72 114 L27 82 L82 82Z" fill="#009900"/></svg>');
