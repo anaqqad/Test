@@ -57,7 +57,7 @@ const keys = process.argv.slice(2).length ? process.argv.slice(2) : Object.keys(
 const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
 for (const k of keys) {
   // a character drawn elsewhere (e.g. made in ChatGPT, transparent PNG) wins over the built-in drawing
-  const own = path.join(HERE, "cache", "wojaks", `${k}.png`);
+  const own = path.join(HERE, "wojaks", `${k}.png`);
   if (fs.existsSync(own)) T[k].img = pathToFileURL(own).href;
   const f = path.join(HERE, "cache", "pages", `thumbP_${k}.html`);
   fs.writeFileSync(f, page(T[k]));
