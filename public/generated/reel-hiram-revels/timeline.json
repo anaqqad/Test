@@ -1,0 +1,931 @@
+{
+ "fps": 30,
+ "durationInFrames": 2142,
+ "voice": "am_michael",
+ "engine": "kokoro-onnx v1.0",
+ "words": 165,
+ "wpm": 138.6,
+ "beats": [
+  {
+   "id": "hook",
+   "words": [
+    {
+     "text": "Mississippi",
+     "start": 0.0,
+     "end": 0.3
+    },
+    {
+     "text": "sent",
+     "start": 0.3,
+     "end": 0.58
+    },
+    {
+     "text": "America's",
+     "start": 0.58,
+     "end": 1.08
+    },
+    {
+     "text": "first",
+     "start": 1.08,
+     "end": 1.32
+    },
+    {
+     "text": "Black",
+     "start": 1.32,
+     "end": 1.52
+    },
+    {
+     "text": "senator.",
+     "start": 1.52,
+     "end": 1.885
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 69
+  },
+  {
+   "id": "name",
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.385,
+     "end": 2.605
+    },
+    {
+     "text": "Hiram",
+     "start": 2.605,
+     "end": 3.125
+    },
+    {
+     "text": "Revels.",
+     "start": 3.125,
+     "end": 3.645
+    }
+   ],
+   "cues": {},
+   "startFrame": 69,
+   "endFrame": 121
+  },
+  {
+   "id": "born",
+   "words": [
+    {
+     "text": "He",
+     "start": 4.124,
+     "end": 4.224
+    },
+    {
+     "text": "was",
+     "start": 4.224,
+     "end": 4.364
+    },
+    {
+     "text": "born",
+     "start": 4.364,
+     "end": 4.664
+    },
+    {
+     "text": "free",
+     "start": 4.664,
+     "end": 5.084
+    },
+    {
+     "text": "in",
+     "start": 5.084,
+     "end": 5.404
+    },
+    {
+     "text": "North",
+     "start": 5.404,
+     "end": 5.584
+    },
+    {
+     "text": "Carolina",
+     "start": 5.584,
+     "end": 6.224
+    },
+    {
+     "text": "in",
+     "start": 6.224,
+     "end": 6.504
+    },
+    {
+     "text": "1827,",
+     "start": 6.504,
+     "end": 8.444
+    },
+    {
+     "text": "and",
+     "start": 8.854,
+     "end": 9.164
+    },
+    {
+     "text": "became",
+     "start": 9.164,
+     "end": 9.464
+    },
+    {
+     "text": "a",
+     "start": 9.464,
+     "end": 9.664
+    },
+    {
+     "text": "preacher",
+     "start": 9.664,
+     "end": 10.024
+    },
+    {
+     "text": "and",
+     "start": 10.024,
+     "end": 10.404
+    },
+    {
+     "text": "educator.",
+     "start": 10.404,
+     "end": 10.744
+    }
+   ],
+   "cues": {},
+   "startFrame": 121,
+   "endFrame": 344
+  },
+  {
+   "id": "war",
+   "words": [
+    {
+     "text": "In",
+     "start": 11.554,
+     "end": 11.674
+    },
+    {
+     "text": "the",
+     "start": 11.674,
+     "end": 11.794
+    },
+    {
+     "text": "Civil",
+     "start": 11.794,
+     "end": 12.054
+    },
+    {
+     "text": "War,",
+     "start": 12.054,
+     "end": 12.474
+    },
+    {
+     "text": "he",
+     "start": 12.834,
+     "end": 12.974
+    },
+    {
+     "text": "helped",
+     "start": 12.974,
+     "end": 13.234
+    },
+    {
+     "text": "recruit",
+     "start": 13.234,
+     "end": 13.694
+    },
+    {
+     "text": "Black",
+     "start": 13.694,
+     "end": 13.974
+    },
+    {
+     "text": "soldiers",
+     "start": 13.974,
+     "end": 14.494
+    },
+    {
+     "text": "for",
+     "start": 14.494,
+     "end": 14.794
+    },
+    {
+     "text": "the",
+     "start": 14.794,
+     "end": 14.934
+    },
+    {
+     "text": "Union,",
+     "start": 14.934,
+     "end": 15.274
+    },
+    {
+     "text": "and",
+     "start": 15.274,
+     "end": 15.774
+    },
+    {
+     "text": "served",
+     "start": 15.774,
+     "end": 16.094
+    },
+    {
+     "text": "as",
+     "start": 16.094,
+     "end": 16.334
+    },
+    {
+     "text": "a",
+     "start": 16.334,
+     "end": 16.454
+    },
+    {
+     "text": "chaplain.",
+     "start": 16.454,
+     "end": 16.814
+    }
+   ],
+   "cues": {},
+   "startFrame": 344,
+   "endFrame": 517
+  },
+  {
+   "id": "davis",
+   "words": [
+    {
+     "text": "In",
+     "start": 17.348,
+     "end": 17.528
+    },
+    {
+     "text": "1861,",
+     "start": 17.528,
+     "end": 19.048
+    },
+    {
+     "text": "Mississippi's",
+     "start": 19.048,
+     "end": 20.628
+    },
+    {
+     "text": "senator",
+     "start": 20.628,
+     "end": 21.228
+    },
+    {
+     "text": "Jefferson",
+     "start": 21.228,
+     "end": 21.768
+    },
+    {
+     "text": "Davis",
+     "start": 21.768,
+     "end": 22.328
+    },
+    {
+     "text": "had",
+     "start": 22.328,
+     "end": 22.728
+    },
+    {
+     "text": "walked",
+     "start": 22.728,
+     "end": 22.988
+    },
+    {
+     "text": "out",
+     "start": 22.988,
+     "end": 23.248
+    },
+    {
+     "text": "of",
+     "start": 23.248,
+     "end": 23.368
+    },
+    {
+     "text": "the",
+     "start": 23.368,
+     "end": 23.468
+    },
+    {
+     "text": "Senate",
+     "start": 23.468,
+     "end": 23.728
+    },
+    {
+     "text": "to",
+     "start": 23.728,
+     "end": 23.968
+    },
+    {
+     "text": "lead",
+     "start": 23.968,
+     "end": 24.188
+    },
+    {
+     "text": "the",
+     "start": 24.188,
+     "end": 24.408
+    },
+    {
+     "text": "Confederacy.",
+     "start": 24.408,
+     "end": 24.748
+    }
+   ],
+   "cues": {},
+   "startFrame": 517,
+   "endFrame": 765
+  },
+  {
+   "id": "elected",
+   "words": [
+    {
+     "text": "In",
+     "start": 25.61,
+     "end": 25.75
+    },
+    {
+     "text": "January",
+     "start": 25.75,
+     "end": 26.25
+    },
+    {
+     "text": "1870,",
+     "start": 26.25,
+     "end": 27.51
+    },
+    {
+     "text": "Mississippi's",
+     "start": 28.73,
+     "end": 29.47
+    },
+    {
+     "text": "new",
+     "start": 29.47,
+     "end": 29.67
+    },
+    {
+     "text": "legislature",
+     "start": 29.67,
+     "end": 30.19
+    },
+    {
+     "text": "chose",
+     "start": 30.19,
+     "end": 30.77
+    },
+    {
+     "text": "Revels,",
+     "start": 30.77,
+     "end": 31.37
+    },
+    {
+     "text": "a",
+     "start": 31.69,
+     "end": 31.85
+    },
+    {
+     "text": "state",
+     "start": 31.85,
+     "end": 32.05
+    },
+    {
+     "text": "senator",
+     "start": 32.05,
+     "end": 32.43
+    },
+    {
+     "text": "from",
+     "start": 32.43,
+     "end": 32.73
+    },
+    {
+     "text": "Natchez,",
+     "start": 32.73,
+     "end": 33.43
+    },
+    {
+     "text": "for",
+     "start": 33.67,
+     "end": 33.87
+    },
+    {
+     "text": "the",
+     "start": 33.87,
+     "end": 34.01
+    },
+    {
+     "text": "United",
+     "start": 34.01,
+     "end": 34.31
+    },
+    {
+     "text": "States",
+     "start": 34.31,
+     "end": 34.81
+    },
+    {
+     "text": "Senate.",
+     "start": 34.81,
+     "end": 35.09
+    }
+   ],
+   "cues": {},
+   "startFrame": 765,
+   "endFrame": 1068
+  },
+  {
+   "id": "block",
+   "words": [
+    {
+     "text": "Democrats",
+     "start": 35.71,
+     "end": 36.17
+    },
+    {
+     "text": "tried",
+     "start": 36.17,
+     "end": 36.55
+    },
+    {
+     "text": "to",
+     "start": 36.55,
+     "end": 36.73
+    },
+    {
+     "text": "block",
+     "start": 36.73,
+     "end": 36.99
+    },
+    {
+     "text": "him.",
+     "start": 36.99,
+     "end": 37.45
+    },
+    {
+     "text": "They",
+     "start": 37.83,
+     "end": 37.87
+    },
+    {
+     "text": "argued",
+     "start": 37.87,
+     "end": 38.31
+    },
+    {
+     "text": "he",
+     "start": 38.31,
+     "end": 38.53
+    },
+    {
+     "text": "had",
+     "start": 38.53,
+     "end": 38.63
+    },
+    {
+     "text": "not",
+     "start": 38.63,
+     "end": 38.83
+    },
+    {
+     "text": "been",
+     "start": 38.83,
+     "end": 39.01
+    },
+    {
+     "text": "a",
+     "start": 39.01,
+     "end": 39.15
+    },
+    {
+     "text": "citizen",
+     "start": 39.15,
+     "end": 39.53
+    },
+    {
+     "text": "for",
+     "start": 39.53,
+     "end": 39.81
+    },
+    {
+     "text": "nine",
+     "start": 39.81,
+     "end": 40.11
+    },
+    {
+     "text": "years,",
+     "start": 40.11,
+     "end": 40.61
+    },
+    {
+     "text": "pointing",
+     "start": 40.89,
+     "end": 41.19
+    },
+    {
+     "text": "to",
+     "start": 41.19,
+     "end": 41.49
+    },
+    {
+     "text": "the",
+     "start": 41.49,
+     "end": 41.63
+    },
+    {
+     "text": "Dred",
+     "start": 41.63,
+     "end": 41.89
+    },
+    {
+     "text": "Scott",
+     "start": 41.89,
+     "end": 42.27
+    },
+    {
+     "text": "decision.",
+     "start": 42.27,
+     "end": 42.63
+    }
+   ],
+   "cues": {},
+   "startFrame": 1068,
+   "endFrame": 1296
+  },
+  {
+   "id": "seated",
+   "words": [
+    {
+     "text": "On",
+     "start": 43.287,
+     "end": 43.447
+    },
+    {
+     "text": "February",
+     "start": 43.447,
+     "end": 43.747
+    },
+    {
+     "text": "25,",
+     "start": 43.747,
+     "end": 44.567
+    },
+    {
+     "text": "1870,",
+     "start": 45.247,
+     "end": 46.247
+    },
+    {
+     "text": "the",
+     "start": 47.567,
+     "end": 47.627
+    },
+    {
+     "text": "Senate",
+     "start": 47.627,
+     "end": 47.847
+    },
+    {
+     "text": "voted",
+     "start": 47.847,
+     "end": 48.267
+    },
+    {
+     "text": "48",
+     "start": 48.267,
+     "end": 48.867
+    },
+    {
+     "text": "to",
+     "start": 49.287,
+     "end": 49.467
+    },
+    {
+     "text": "8",
+     "start": 49.467,
+     "end": 49.467
+    },
+    {
+     "text": "to",
+     "start": 49.467,
+     "end": 49.467
+    },
+    {
+     "text": "seat",
+     "start": 49.467,
+     "end": 49.687
+    },
+    {
+     "text": "him.",
+     "start": 49.687,
+     "end": 49.907
+    }
+   ],
+   "cues": {},
+   "startFrame": 1296,
+   "endFrame": 1509
+  },
+  {
+   "id": "first",
+   "words": [
+    {
+     "text": "He",
+     "start": 50.384,
+     "end": 50.484
+    },
+    {
+     "text": "became",
+     "start": 50.484,
+     "end": 50.764
+    },
+    {
+     "text": "the",
+     "start": 50.764,
+     "end": 50.984
+    },
+    {
+     "text": "first",
+     "start": 50.984,
+     "end": 51.344
+    },
+    {
+     "text": "Black",
+     "start": 51.344,
+     "end": 51.724
+    },
+    {
+     "text": "American",
+     "start": 51.724,
+     "end": 52.144
+    },
+    {
+     "text": "to",
+     "start": 52.144,
+     "end": 52.504
+    },
+    {
+     "text": "serve",
+     "start": 52.504,
+     "end": 52.764
+    },
+    {
+     "text": "in",
+     "start": 52.764,
+     "end": 52.964
+    },
+    {
+     "text": "Congress,",
+     "start": 52.964,
+     "end": 53.404
+    },
+    {
+     "text": "the",
+     "start": 54.004,
+     "end": 54.064
+    },
+    {
+     "text": "first",
+     "start": 54.064,
+     "end": 54.344
+    },
+    {
+     "text": "of",
+     "start": 54.344,
+     "end": 54.524
+    },
+    {
+     "text": "many",
+     "start": 54.524,
+     "end": 54.764
+    },
+    {
+     "text": "during",
+     "start": 54.764,
+     "end": 55.104
+    },
+    {
+     "text": "Reconstruction.",
+     "start": 55.104,
+     "end": 55.544
+    }
+   ],
+   "cues": {},
+   "startFrame": 1509,
+   "endFrame": 1691
+  },
+  {
+   "id": "alcorn",
+   "words": [
+    {
+     "text": "After",
+     "start": 56.463,
+     "end": 56.743
+    },
+    {
+     "text": "his",
+     "start": 56.743,
+     "end": 56.923
+    },
+    {
+     "text": "term,",
+     "start": 56.923,
+     "end": 57.323
+    },
+    {
+     "text": "he",
+     "start": 57.763,
+     "end": 57.803
+    },
+    {
+     "text": "became",
+     "start": 57.803,
+     "end": 58.083
+    },
+    {
+     "text": "the",
+     "start": 58.083,
+     "end": 58.303
+    },
+    {
+     "text": "first",
+     "start": 58.303,
+     "end": 58.583
+    },
+    {
+     "text": "president",
+     "start": 58.583,
+     "end": 59.003
+    },
+    {
+     "text": "of",
+     "start": 59.003,
+     "end": 59.223
+    },
+    {
+     "text": "Alcorn,",
+     "start": 59.223,
+     "end": 59.703
+    },
+    {
+     "text": "a",
+     "start": 60.283,
+     "end": 60.383
+    },
+    {
+     "text": "new",
+     "start": 60.383,
+     "end": 60.623
+    },
+    {
+     "text": "college",
+     "start": 60.623,
+     "end": 61.023
+    },
+    {
+     "text": "for",
+     "start": 61.023,
+     "end": 61.343
+    },
+    {
+     "text": "Black",
+     "start": 61.343,
+     "end": 61.583
+    },
+    {
+     "text": "students",
+     "start": 61.583,
+     "end": 62.003
+    },
+    {
+     "text": "in",
+     "start": 62.003,
+     "end": 62.283
+    },
+    {
+     "text": "Mississippi.",
+     "start": 62.283,
+     "end": 62.583
+    }
+   ],
+   "cues": {},
+   "startFrame": 1691,
+   "endFrame": 1899
+  },
+  {
+   "id": "legacy",
+   "words": [
+    {
+     "text": "Born",
+     "start": 63.39,
+     "end": 63.65
+    },
+    {
+     "text": "free.",
+     "start": 63.65,
+     "end": 64.11
+    },
+    {
+     "text": "Seated",
+     "start": 64.39,
+     "end": 64.65
+    },
+    {
+     "text": "in",
+     "start": 64.65,
+     "end": 64.87
+    },
+    {
+     "text": "the",
+     "start": 64.87,
+     "end": 65.01
+    },
+    {
+     "text": "Senate.",
+     "start": 65.01,
+     "end": 65.25
+    },
+    {
+     "text": "And",
+     "start": 65.71,
+     "end": 65.77
+    },
+    {
+     "text": "Mississippi",
+     "start": 65.77,
+     "end": 66.17
+    },
+    {
+     "text": "made",
+     "start": 66.17,
+     "end": 66.49
+    },
+    {
+     "text": "it",
+     "start": 66.49,
+     "end": 66.63
+    },
+    {
+     "text": "happen.",
+     "start": 66.63,
+     "end": 66.85
+    }
+   ],
+   "cues": {},
+   "startFrame": 1899,
+   "endFrame": 2023
+  },
+  {
+   "id": "cta",
+   "words": [
+    {
+     "text": "Follow",
+     "start": 67.534,
+     "end": 67.854
+    },
+    {
+     "text": "The",
+     "start": 67.854,
+     "end": 68.054
+    },
+    {
+     "text": "Black",
+     "start": 68.054,
+     "end": 68.294
+    },
+    {
+     "text": "History",
+     "start": 68.294,
+     "end": 68.674
+    },
+    {
+     "text": "Room",
+     "start": 68.674,
+     "end": 68.954
+    },
+    {
+     "text": "for",
+     "start": 68.954,
+     "end": 69.174
+    },
+    {
+     "text": "one",
+     "start": 69.174,
+     "end": 69.374
+    },
+    {
+     "text": "story",
+     "start": 69.374,
+     "end": 69.694
+    },
+    {
+     "text": "a",
+     "start": 69.694,
+     "end": 69.934
+    },
+    {
+     "text": "day.",
+     "start": 69.934,
+     "end": 70.114
+    }
+   ],
+   "cues": {},
+   "startFrame": 2023,
+   "endFrame": 2142
+  }
+ ]
+}
