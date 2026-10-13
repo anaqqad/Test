@@ -51,7 +51,7 @@
    "interlude": 3.0
   },
   {
-   "text": "Robert Smalls was born into slavery on April the fifth, 1839, in Beaufort, South Carolina. His mother, Lydia Polite, was enslaved by the McKee family, and Robert grew up in the shadow of their house.",
+   "text": "Robert Smalls was born into slavery on April the fifth, 1839, in Beaufort, South Carolina. His mother, Lydia Polite, was enslaved too, and Robert grew up in the shadow of their enslaver's house.",
    "pause": 0.8,
    "chapter": "Beaufort and Charleston"
   },
@@ -77,6 +77,10 @@
   },
   {
    "text": "So he started to think about another way out.",
+   "pause": 0.8
+  },
+  {
+   "text": "It would mean risking everything. If the plan failed, the men could lose their lives, and their wives and children could be sold away. He would need the right ship, the right night, and nerves of steel.",
    "pause": 0.4
   },
   {
@@ -116,6 +120,10 @@
    "chapter": "Fighting for the Union"
   },
   {
+   "text": "And what Smalls carried in his head was worth as much as the ship. He knew the channels, the forts, and where the mines were laid. Within days, Union forces used what he told them to take positions near Charleston that the Confederates had abandoned.",
+   "pause": 0.8
+  },
+  {
    "text": "And he did more than escape. The Union general in the region sent Smalls to Washington, with a message for President Lincoln and the Secretary of War: let Black men fight. Soon after, the Secretary of War authorized up to five thousand Black soldiers to be raised in the area.",
    "pause": 0.8
   },
@@ -132,7 +140,7 @@
    "chapter": "Coming home"
   },
   {
-   "text": "After the war, Robert Smalls went home to Beaufort. And he bought the house where he had been enslaved. The boy who had grown up in the shadow of that house now owned it.",
+   "text": "After the war, Robert Smalls went home to Beaufort. And he bought the house where he had been enslaved. The boy who had grown up in the shadow of that house now owned it. Imagine walking through the front door of a house you were once only allowed to serve in.",
    "pause": 0.8
   },
   {
@@ -152,11 +160,11 @@
    "pause": 0.8
   },
   {
-   "text": "He served for years as the collector of customs at the port of Beaufort. And on February the twenty-third, nineteen fifteen, Robert Smalls died, in the house where he had once been enslaved.",
+   "text": "He served for years as the collector of customs at the port of Beaufort, until 1913. And on February the twenty-third, nineteen fifteen, Robert Smalls died, in the house where he had once been enslaved. He was seventy-five years old.",
    "pause": 1.0
   },
   {
-   "text": "A boy whose wages belonged to someone else. A father who could not afford to buy his own family. A man who took a warship, sailed past Fort Sumter, and bought back the house he was born a slave in.",
+   "text": "A boy whose wages belonged to someone else. A father who could not afford to buy his own family. A man who took a warship, sailed past Fort Sumter, and came home to own the house where he had been enslaved.",
    "pause": 1.0,
    "chapter": "Outro",
    "bed": "in"
@@ -246,6 +254,10 @@
    "Naval History and Heritage Command, DANFS",
    "NPS Reconstruction Era NHP (route map)",
    "Gates, PBS"
+  ],
+  "intelligence after escape (abandoned Stono / Coles Island positions)": [
+   "National Archives, Prologue",
+   "Naval History and Heritage Command, DANFS: Planter"
   ]
  },
  "notUsed": [
