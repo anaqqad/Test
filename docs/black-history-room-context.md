@@ -148,4 +148,4 @@ Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: H
   Full brief: `docs/tasks/2026-10-14-wordpress-blog.md`. Needs a session that can reach the VPS.
 - Podcast: Episode 4 (Ellen Craft) is next.
 
-- Reels 2026-10-13: Hiram Revels (hook "Mississippi sent America's first Black senator.", 1.86 s) and Jack Johnson ("Pardoned seventy-two years after he died.", 1.88 s). Myth avoided: Revels did NOT take Jefferson Davis's seat. Elizabeth Keckley skipped for now: only a 380x610 public-domain photo.
+- Reels 2026-10-13: Hiram Revels (hook "Mississippi sent America's first Black senator.", 2.48 s at speed 1.2; 1.35 garbled "Mississippi") and Jack Johnson ("Pardoned seventy-two years after he died.", 1.88 s). Myth avoided: Revels did NOT take Jefferson Davis's seat. Elizabeth Keckley skipped for now: only a 380x610 public-domain photo.
