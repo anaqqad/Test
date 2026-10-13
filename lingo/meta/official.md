@@ -24,6 +24,13 @@ Zimbabwe: 16 officially recognised languages (Constitution of 2013, section 6).
 India: 22 scheduled languages (Eighth Schedule of the Constitution); Hindi and English are the official languages of the central government.
 Bolivia: 37 official languages, Spanish plus 36 indigenous languages (Constitution of 2009, article 5).
 
+Music: national anthem recordings via Wikimedia Commons, all public domain:
+Switzerland: "Swiss Psalm (official instrumental)", public domain
+Singapore: "Majulah Singapura", public domain
+South Africa: "National anthem of South Africa - Banda do Batalhão da Guarda Presidencial, 2026", public domain
+Zimbabwe: "National Anthem of Zimbabwe, performed by the Royal Australian Navy Band", public domain
+India: "Jana Gana Mana (instrumental) - Indian Armed Forces Orchestra", public domain
+Bolivia: "Himno Nacional de Bolivia instrumental", public domain
 Map data: Natural Earth (public domain) via world-atlas. Flags: flag-icons (MIT). Sound effects made for this video.
 
 #languages #linguistics #geography

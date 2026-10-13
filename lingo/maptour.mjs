@@ -58,13 +58,8 @@ function page(ep, items) {
     const pad = Math.max(bw, bh) * 0.1;
     const er = 62 * k, ex = 88 * k, ey = cy - 105 * k;
     const n = it.langs.length;
-    const b = (n <= 4 ? 86 : n <= 16 ? 64 : n <= 22 ? 56 : 46) * k;
-    const cols = n <= 4 ? 4 : n <= 16 ? 6 : n <= 22 ? 8 : 10;
-    const bubbles = it.langs.map((_, j) => {
-      const row = Math.floor(j / cols), col = j % cols, inRow = Math.min(cols, n - row * cols);
-      const x = cx + (col - (inRow - 1) / 2) * b * 1.15, y = cy + 20 * k + row * b * 1.0;
-      return `<g class="bub" data-j="${j}" transform="translate(${x.toFixed(2)} ${y.toFixed(2)}) scale(${(b / 100).toFixed(4)})"><g class="bs"><path d="M-46 -34 h92 a12 12 0 0 1 12 12 v44 a12 12 0 0 1 -12 12 h-52 l-22 20 v-20 h-18 a12 12 0 0 1 -12 -12 v-44 a12 12 0 0 1 12 -12z" fill="#fff" stroke="#1b1b1b" stroke-width="6"/><circle cx="-22" cy="0" r="7" fill="${it.dot || "#1b1b1b"}"/><circle cx="0" cy="0" r="7" fill="${it.dot || "#1b1b1b"}"/><circle cx="22" cy="0" r="7" fill="${it.dot || "#1b1b1b"}"/></g></g>`;
-    }).join("");
+    // counter badge under the eyes: counts up to the number of languages, stays on the map afterwards
+    const badge = `<g class="badge" transform="translate(${cx.toFixed(2)} ${(cy + 45 * k).toFixed(2)}) scale(${k.toFixed(5)})"><g class="bz"><circle r="78" fill="#fff" stroke="#1b1b1b" stroke-width="9"/><text class="bn" y="30" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="${n > 9 ? 84 : 100}" fill="#e8262b">0</text></g></g>`;
     const eye = (x, side) => `<g transform="translate(${x.toFixed(2)} ${ey.toFixed(2)}) scale(${(er / 30).toFixed(4)})">
       <path d="M-30 2 C-18 -16 18 -16 30 2 C18 18 -18 18 -30 2Z" fill="#fff" stroke="#1b1b1b" stroke-width="4"/>
       <g class="pupil"><circle cx="${side * 2}" cy="3" r="10" fill="#1b1b1b"/><circle cx="${side * 2 - 3}" cy="-1" r="3" fill="#fff"/></g>
@@ -77,7 +72,7 @@ function page(ep, items) {
       <path d="${it.d}" fill="none" stroke="#fff" class="inner"/>
       <path d="${it.d}" fill="none" stroke="#1b1b1b" class="outer"/>
       <g class="face" opacity="0">${eye(cx - ex, -1)}${eye(cx + ex, 1)}</g>
-      <g class="bubbles">${bubbles}</g></g>`;
+      ${badge}</g>`;
   }).join("");
   const clouds = [[180, 230, 1.0], [700, 160, 0.8], [1240, 250, 1.1], [1650, 140, 0.9], [420, 760, 1.0], [1050, 840, 0.85], [1500, 700, 1.0], [250, 940, 0.7]]
     .map(([x, y, s], i) => `<g class="cloud" data-x="${x}" data-v="${10 + (i % 3) * 6}" transform="translate(${x} ${y}) scale(${s})"><path d="M-110 30 C-140 30 -140 -10 -105 -12 C-100 -50 -40 -55 -25 -28 C-5 -60 60 -55 62 -15 C100 -18 115 30 80 30Z" fill="#f4f8fb" stroke="#c9d6e2" stroke-width="5" opacity=".92"/></g>`).join("");
@@ -95,8 +90,8 @@ function page(ep, items) {
   #card .name{margin-top:10px;font-weight:800;font-size:58px;color:#fff;text-shadow:${[...Array(12)].map((_, i) => `${(Math.cos(i / 12 * 6.283) * 5).toFixed(1)}px ${(Math.sin(i / 12 * 6.283) * 5).toFixed(1)}px 0 #1b1b1b`).join(",")}}
   #card .count{display:inline-block;margin-top:8px;background:#e8262b;color:#fff;font-weight:800;font-size:96px;line-height:1;padding:8px 30px 12px;border:6px solid #fff;border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,.35)}
   #card .count small{font-size:24px;letter-spacing:1px;display:block;margin-top:4px}
-  #tick{left:40px;right:40px;bottom:34px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center;opacity:0}
-  #tick span{background:rgba(15,18,28,.86);color:#fff;font-weight:700;border-radius:20px;padding:5px 14px;opacity:0}
+  #tick{left:30px;right:30px;bottom:26px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center;opacity:0}
+  #tick span{background:rgba(15,18,28,.88);color:#fff;font-weight:800;border-radius:24px;padding:6px 18px 8px;opacity:0;border:3px solid rgba(255,255,255,.85)}
   .t{left:0;width:${W}px;text-align:center;font-weight:800;color:#fff;opacity:0;text-shadow:${[...Array(16)].map((_, i) => `${(Math.cos(i / 16 * 6.283) * 6).toFixed(1)}px ${(Math.sin(i / 16 * 6.283) * 6).toFixed(1)}px 0 #1b1b1b`).join(",")},0 10px 0 #1b1b1b}
   #cold{top:330px;font-size:84px;line-height:1.08}
   #t1{top:300px;font-size:104px}#t2{top:430px;font-size:104px}
@@ -107,7 +102,7 @@ function page(ep, items) {
   <div id="sea" class="abs"></div>
   ${[120, 300, 520, 700, 880, 1010].map((y, i) => `<div class="abs band" style="top:${y}px;transform:translateX(${(i % 2) * 140}px)"></div>`).join("")}
   <svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><g id="cam"><g id="land">${land}</g>${chars}</g></svg>
-  <svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" id="clouds">${clouds}<g id="fg" opacity="0"><g transform="translate(960 540) scale(9)"><path d="M-110 30 C-140 30 -140 -10 -105 -12 C-100 -50 -40 -55 -25 -28 C-5 -60 60 -55 62 -15 C100 -18 115 30 80 30Z" fill="#f4f8fb"/></g></g></svg>
+  <svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" id="clouds">${clouds}</svg>
   <svg id="fw" class="abs" width="${W}" height="${H}"></svg>
   <div id="card" class="abs"><div class="flag"></div><div class="name"></div><div class="count"><span class="n">0</span><small></small></div></div>
   <div id="tick" class="abs"></div>
@@ -138,11 +133,11 @@ function page(ep, items) {
       if(bt<0.33) e=0; else if(bt<1.8) e=ease((bt-0.33)/1.47); else if(bt<9.5) e=1; else if(bt<11.0) e=1-ease((bt-9.5)/1.5); else e=0;
       if(bt>3.0&&bt<3.25) e=1+0.04*Math.sin((bt-3.0)/0.25*Math.PI); // small push-in on the reveal
       [c,s]=camAt(q.c,q.s,Math.min(e,1)); if(e>1) s*=e;
-      fg=Math.max(0,1-Math.abs(bt-1.0)/0.45)*0.95+Math.max(0,1-Math.abs(bt-10.2)/0.45)*0.95;
+      fg=bt<1.4?cl((bt-0.33)/0.9):bt<9.6?1:1-cl((bt-9.6)/1.2);
     }
     cam.setAttribute('transform','translate('+W0[0]+' '+W0[1]+') scale('+s+') translate('+(-c[0])+' '+(-c[1])+')');
     document.querySelectorAll('#land path').forEach(p=>p.style.strokeWidth=(1.1+Math.log(s)*1.1)/s);
-    $('#fg').setAttribute('opacity',fg.toFixed(3));
+    $('#clouds').style.opacity=(1-fg).toFixed(3);
     // ----- characters: hidden until their reveal, then persistent
     C.forEach((q,i)=>{
       const g=document.getElementById('ch'+i);
@@ -162,12 +157,13 @@ function page(ep, items) {
       g.querySelectorAll('.shut').forEach(r=>r.setAttribute('opacity',blink?1:0));
       const gl = (local>6.4&&local<7.2)? (i%2?6:-6) : 0;
       g.querySelectorAll('.pupil').forEach(p=>p.setAttribute('transform','translate('+gl+' 0)'));
-      // bubbles pop in one by one
-      const n=q.n, gap=Math.min(0.25, 4.2/n);
-      g.querySelectorAll('.bub').forEach(b=>{
-        const j=+b.dataset.j, k=(local-3.5-j*gap)/0.18;
-        b.querySelector('.bs').setAttribute('transform','scale('+(k<=0?0:back(k)).toFixed(3)+')');
-      });
+      // counter counts up, with a small bump on every new number
+      const n=q.n, gap=Math.min(0.25, 4.2/n), since=local-3.5;
+      const shown=since<0?0:Math.min(n, Math.floor(since/gap)+1);
+      const bz=g.querySelector('.bz'), bn=g.querySelector('.bn');
+      bn.textContent=shown;
+      const intro=back((local-3.3)/0.3), bump= shown<n ? 1+0.12*Math.max(0,1-((since%gap)/gap)*3) : 1+0.18*Math.max(0,1-(since-(n-1)*gap)/0.4);
+      bz.setAttribute('transform','scale('+(local<3.3?0:intro*bump).toFixed(3)+')');
     });
     // ----- card + ticker for the current block
     const card=$('#card'), tick=$('#tick');
@@ -181,7 +177,7 @@ function page(ep, items) {
       card.querySelector('.n').textContent=shown;
       card.querySelector('small').textContent=m.unit;
       if(tickFor!==blk){ tick.innerHTML=L[blk].map(x=>'<span>'+x+'</span>').join(''); tickFor=blk; }
-      const fs = q.n>30?19:q.n>20?22:q.n>10?26:32;
+      const fs = q.n>30?29:q.n>20?33:q.n>10?40:52;
       tick.style.opacity=1-out;
       tick.querySelectorAll('span').forEach((sp,j)=>{sp.style.fontSize=fs+'px'; sp.style.opacity=(bt-3.5-j*gap)>0?1:0;});
     } else { card.style.opacity=0; tick.style.opacity=0; }
@@ -210,9 +206,15 @@ function page(ep, items) {
 }
 
 // ---------- sound: synthesized effects only (no music, no speech) ----------
+// national anthem recordings (public domain, Wikimedia Commons) in cache/anthems/<flag>.*; credits in credits.json
+function anthemFile(code) {
+  const dir = path.join(HERE, "cache", "anthems");
+  const f = fs.existsSync(dir) && fs.readdirSync(dir).find((x) => x.startsWith(code + ".") && !x.endsWith(".json"));
+  return f ? path.join(dir, f) : null;
+}
 function sound(ep, items, wavOut) {
   const plan = { sr: 48000, total: T.cold + T.title + items.length * T.block + T.outro, cold: T.cold, title: T.title, block: T.block, b0: T.cold + T.title,
-    blocks: items.map((it, i) => ({ n: it.langs.length, finale: i === items.length - 1 })) };
+    blocks: items.map((it, i) => ({ n: it.langs.length, finale: i === items.length - 1, music: anthemFile(it.flag) })) };
   const py = `
 import json, sys, wave, numpy as np
 p=json.loads(sys.argv[1]); sr=p['sr']; N=int(p['total']*sr)+sr
@@ -255,6 +257,21 @@ for i,b in enumerate(p['blocks']):
     add(whoosh(1.5,False),t0+9.5,g=0.8)
     if b['finale']:
         for k in range(7): add(crackle(), t0+3.4+k*0.8, pan=((k%3)-1)*0.4, g=0.7)
+import subprocess
+def load(fn):  # decode to 48 kHz stereo float, skip the silent start
+    raw=subprocess.run(['ffmpeg','-v','error','-i',fn,'-ac','2','-ar',str(sr),'-f','f32le','-'],capture_output=True,check=True).stdout
+    a=np.frombuffer(raw,np.float32).reshape(-1,2).astype(float)
+    loud=np.where(np.abs(a).max(1)>0.02)[0]
+    return a[loud[0]:] if len(loud) else a
+for i,b in enumerate(p['blocks']):
+    if not b.get('music'): continue
+    t0=p['b0']+i*p['block']+3.15; dur=6.3 if not b['finale'] else 6.6
+    a=load(b['music'])[:int(dur*sr)]
+    a=a/ (np.abs(a).max()+1e-9) * 0.42
+    n=len(a); fi=int(0.25*sr); fo=int(1.0*sr)
+    g=np.ones(n); g[:fi]=np.linspace(0,1,fi); g[-fo:]=np.linspace(1,0,fo)
+    j=int(t0*sr); m=min(n,N-j)
+    L[j:j+m]+=a[:m,0]*g[:m]; R[j:j+m]+=a[:m,1]*g[:m]
 m=max(np.abs(L).max(),np.abs(R).max()); L/=m/0.85; R/=m/0.85
 d=(np.stack([L,R],1)*32767).astype(np.int16)
 w=wave.open(sys.argv[2],'wb'); w.setnchannels(2); w.setsampwidth(2); w.setframerate(sr); w.writeframes(d.tobytes()); w.close()
