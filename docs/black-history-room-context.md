@@ -127,3 +127,18 @@ Candidates not yet done: Claudette Colvin (2 March 1955), Garrett Morgan (1916 L
 Henrietta Lacks (handle consent carefully), Major Taylor (1899 world cycling champion), Katherine Johnson,
 Lewis Latimer, Madam C. J. Walker (word the "first" claim carefully).
 Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: Henry "Box" Brown, Ellen and William Craft, Harriet Tubman (Combahee raid), Mansa Musa, Garrett Morgan, Major Taylor, Bass Reeves, Frederick Douglass, Ida B. Wells, George Washington Carver, Booker T. Washington (branch claude/black-history-reels-4pk8ts).
+
+## Podcast: "Black History in 10 Minutes" (added 2026-10-13)
+- Spotify show: https://open.spotify.com/show/42IinLdMCZx7RnXPFwY8Ih. Show cover: `publish/podcast/cover-3000.jpg`.
+- Voice: Kokoro af_heart, speed 0.86 (owner chose Heart). Music: `scripts/make_podcast_theme.py` v2 (soft piano, no drums;
+  the owner disliked v1). Shaped on two example podcasts: voice within ~1-3 s, bed ~19 dB under the voice, swell after the welcome.
+- Build: `python3 scripts/make_podcast_episode.py data/podcast-epNN-<slug>.json` -> `publish/podcast/podcast-epNN-<slug>.mp3`
+  (-16 LUFS, chapters printed). Cover: `scripts/make_episode_cover.py` (owner's style: full-bleed sepia photo, show badge top-left,
+  white serif title, gold subtitle). Description, chapters and sources: `publish/podcast/podcast-epNN-<slug>.md`.
+- Structure: welcome lines with music bed, swell, cold-open hook, chapters with short piano interludes, outro with bed, Ko-fi line,
+  "Next time:" teaser. Keep the teaser matching the next episode number.
+- Episodes: 1 Frederick Douglass (9:25, published); 2 Robert Smalls (8:49); 3 George Washington Carver (9:07, teases Ellen Craft);
+  next: 4 Ellen Craft.
+- QC: transcribe the MP3 with faster-whisper small.en and fix mispronunciations (e.g. spell years like "eighteen ninety-five"
+  when Kokoro reads them as numbers; "McKee" is mispronounced).
+- Reel comments do not show link previews; attach the cover image to the comment instead.
