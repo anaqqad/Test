@@ -142,3 +142,8 @@ Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: H
 - QC: transcribe the MP3 with faster-whisper small.en and fix mispronunciations (e.g. spell years like "eighteen ninety-five"
   when Kokoro reads them as numbers; "McKee" is mispronounced).
 - Reel comments do not show link previews; attach the cover image to the comment instead.
+
+## Next task (saved 2026-10-13)
+- 2026-10-14: build the WordPress blog on the Hostinger VPS (n8n already runs there; start with a read-only audit).
+  Full brief: `docs/tasks/2026-10-14-wordpress-blog.md`. Needs a session that can reach the VPS.
+- Podcast: Episode 4 (Ellen Craft) is next.
