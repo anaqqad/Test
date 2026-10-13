@@ -133,6 +133,42 @@ def join_beats(spec: dict, groups: list[tuple[list[int], np.ndarray]], sr: int, 
     return audio, sr, beats
 
 
+def stretch_word(clip: np.ndarray, sr: int, word: str, factor: float) -> np.ndarray:
+    """Slow one spoken word to `factor` x speed with ffmpeg atempo (keeps pitch); the rest is untouched."""
+    import subprocess
+    import tempfile
+
+    import soundfile as sf
+
+    from scipy.signal import resample_poly
+
+    # faster-whisper expects 16 kHz samples; timestamps come back in seconds
+    # (half a second of silence first: Whisper places a clip's first word badly without it)
+    pad = 0.5
+    audio = np.concatenate([np.zeros(int(pad * sr), dtype=np.float32), clip])
+    segs, _ = load_whisper().transcribe(resample_poly(audio, 16000, sr).astype(np.float32), word_timestamps=True)
+    words = [w for s in segs for w in s.words]
+    i = next((k for k, w in enumerate(words) if norm(w.word) == norm(word)), None)
+    if i is None:
+        print(f"  stretch: '{word}' not heard, left as is")
+        return clip
+    # the word runs until the next word starts (Whisper's word ends are often early)
+    end = words[i + 1].start if i + 1 < len(words) else len(clip) / sr + pad
+    a, b = max(0, int((words[i].start - pad) * sr)), int((end - pad) * sr)
+    # move the cut to the quietest 20 ms within 0.12 s, so it falls in the gap between words
+    hop, reach = int(0.02 * sr), int(0.12 * sr)
+    starts = range(max(a + hop, b - reach), min(len(clip) - hop, b + reach), hop // 2)
+    if starts:
+        b = min(starts, key=lambda k: float(np.mean(clip[k : k + hop] ** 2))) + hop // 2
+    with tempfile.TemporaryDirectory() as tmp:
+        src, dst = f"{tmp}/w.wav", f"{tmp}/s.wav"
+        sf.write(src, clip[a:b], sr)
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", src, "-filter:a", f"atempo={factor}", dst], check=True)
+        slow, _ = sf.read(dst, dtype="float32")
+    print(f"  stretch: '{word}' {(b - a) / sr:.2f}s -> {len(slow) / sr:.2f}s")
+    return np.concatenate([clip[:a], slow, clip[b:]])
+
+
 def kokoro_beats(spec: dict, lead: float) -> tuple[np.ndarray, int, list[dict]]:
     """One Kokoro clip per beat."""
     voice = spec["voice"]
@@ -145,8 +181,23 @@ def kokoro_beats(spec: dict, lead: float) -> tuple[np.ndarray, int, list[dict]]:
     for beat in spec["beats"]:
         # a beat may set its own "speed" (e.g. a faster hook so it ends within 2.5 s)
         speed = beat.get("speed", voice.get("speed", 1.0))
-        samples, sr = kokoro.create(beat["text"], voice=voice["voice"], speed=speed, lang="en-us")
-        clips.append(trim_silence(np.asarray(samples, dtype=np.float32), sr))
+        if "stretch" in beat:
+            # {"Word": factor}: voice the line naturally, then play that word at factor x speed (pitch kept)
+            samples, sr = kokoro.create(beat["text"], voice=voice["voice"], speed=speed, lang="en-us")
+            clip = trim_silence(np.asarray(samples, dtype=np.float32), sr)
+            for word, factor in beat["stretch"].items():
+                clip = stretch_word(clip, sr, word, factor)
+            clips.append(clip)
+        elif "parts" in beat:
+            # [[text, speed factor], ...] voiced separately and joined, e.g. a hard name said slower
+            pieces = []
+            for text, factor in beat["parts"]:
+                s, sr = kokoro.create(text, voice=voice["voice"], speed=speed * factor, lang="en-us")
+                pieces += [trim_silence(np.asarray(s, dtype=np.float32), sr), np.zeros(int(0.04 * sr), dtype=np.float32)]
+            clips.append(np.concatenate(pieces[:-1]))
+        else:
+            samples, sr = kokoro.create(beat["text"], voice=voice["voice"], speed=speed, lang="en-us")
+            clips.append(trim_silence(np.asarray(samples, dtype=np.float32), sr))
         print(f"  {beat['id']}: {len(clips[-1]) / sr:.2f}s")
     return join_beats(spec, [([i], c) for i, c in enumerate(clips)], sr, lead, load_whisper())
 

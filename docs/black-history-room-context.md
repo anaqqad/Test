@@ -149,3 +149,5 @@ Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: H
 - Podcast: Episode 4 (Ellen Craft) is next.
 
 - Reels 2026-10-13: Hiram Revels (hook "Mississippi sent America's first Black senator.", 2.48 s at speed 1.2; 1.35 garbled "Mississippi") and Jack Johnson ("Pardoned seventy-two years after he died.", 1.88 s). Myth avoided: Revels did NOT take Jefferson Davis's seat. Elizabeth Keckley skipped for now: only a 380x610 public-domain photo.
+- Kokoro rushes some names (e.g. "Mississippi" ~0.3 s at 1.3x). Fix: beat field `"stretch": {"Mississippi": 0.6}` in the
+  spec slows just that word (ffmpeg atempo, pitch kept; cut placed in the quiet gap after the word). Used in the Revels hook.

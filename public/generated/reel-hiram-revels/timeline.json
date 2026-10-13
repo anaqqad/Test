@@ -12,32 +12,32 @@
     {
      "text": "Mississippi",
      "start": 0.0,
-     "end": 0.32
+     "end": 0.48
     },
     {
      "text": "sent",
-     "start": 0.32,
-     "end": 0.68
+     "start": 0.48,
+     "end": 0.84
     },
     {
      "text": "America's",
-     "start": 0.68,
-     "end": 1.26
+     "start": 0.84,
+     "end": 1.38
     },
     {
      "text": "first",
-     "start": 1.26,
-     "end": 1.68
+     "start": 1.38,
+     "end": 1.76
     },
     {
      "text": "Black",
-     "start": 1.68,
-     "end": 2.0
+     "start": 1.76,
+     "end": 2.04
     },
     {
      "text": "senator.",
-     "start": 2.0,
-     "end": 2.38
+     "start": 2.04,
+     "end": 2.34
     }
    ],
    "cues": {},
@@ -49,18 +49,18 @@
    "words": [
     {
      "text": "Meet",
-     "start": 3.002,
-     "end": 3.222
+     "start": 2.999,
+     "end": 3.219
     },
     {
      "text": "Hiram",
-     "start": 3.222,
-     "end": 3.742
+     "start": 3.219,
+     "end": 3.739
     },
     {
      "text": "Revels.",
-     "start": 3.742,
-     "end": 4.262
+     "start": 3.739,
+     "end": 4.259
     }
    ],
    "cues": {},
@@ -72,78 +72,78 @@
    "words": [
     {
      "text": "He",
-     "start": 4.74,
-     "end": 4.84
+     "start": 4.737,
+     "end": 4.837
     },
     {
      "text": "was",
-     "start": 4.84,
-     "end": 4.98
+     "start": 4.837,
+     "end": 4.977
     },
     {
      "text": "born",
-     "start": 4.98,
-     "end": 5.28
+     "start": 4.977,
+     "end": 5.277
     },
     {
      "text": "free",
-     "start": 5.28,
-     "end": 5.7
+     "start": 5.277,
+     "end": 5.697
     },
     {
      "text": "in",
-     "start": 5.7,
-     "end": 6.02
+     "start": 5.697,
+     "end": 6.017
     },
     {
      "text": "North",
-     "start": 6.02,
-     "end": 6.2
+     "start": 6.017,
+     "end": 6.197
     },
     {
      "text": "Carolina",
-     "start": 6.2,
-     "end": 6.84
+     "start": 6.197,
+     "end": 6.837
     },
     {
      "text": "in",
-     "start": 6.84,
-     "end": 7.12
+     "start": 6.837,
+     "end": 7.117
     },
     {
      "text": "1827,",
-     "start": 7.12,
-     "end": 9.06
+     "start": 7.117,
+     "end": 9.057
     },
     {
      "text": "and",
-     "start": 9.47,
-     "end": 9.78
+     "start": 9.467,
+     "end": 9.777
     },
     {
      "text": "became",
-     "start": 9.78,
-     "end": 10.08
+     "start": 9.777,
+     "end": 10.077
     },
     {
      "text": "a",
-     "start": 10.08,
-     "end": 10.28
+     "start": 10.077,
+     "end": 10.277
     },
     {
      "text": "preacher",
-     "start": 10.28,
-     "end": 10.64
+     "start": 10.277,
+     "end": 10.637
     },
     {
      "text": "and",
-     "start": 10.64,
-     "end": 11.02
+     "start": 10.637,
+     "end": 11.017
     },
     {
      "text": "educator.",
-     "start": 11.02,
-     "end": 11.36
+     "start": 11.017,
+     "end": 11.357
     }
    ],
    "cues": {},
@@ -155,88 +155,88 @@
    "words": [
     {
      "text": "In",
-     "start": 12.17,
-     "end": 12.29
+     "start": 12.167,
+     "end": 12.287
     },
     {
      "text": "the",
-     "start": 12.29,
-     "end": 12.41
+     "start": 12.287,
+     "end": 12.407
     },
     {
      "text": "Civil",
-     "start": 12.41,
-     "end": 12.67
+     "start": 12.407,
+     "end": 12.667
     },
     {
      "text": "War,",
-     "start": 12.67,
-     "end": 13.09
+     "start": 12.667,
+     "end": 13.087
     },
     {
      "text": "he",
-     "start": 13.45,
-     "end": 13.59
+     "start": 13.447,
+     "end": 13.587
     },
     {
      "text": "helped",
-     "start": 13.59,
-     "end": 13.85
+     "start": 13.587,
+     "end": 13.847
     },
     {
      "text": "recruit",
-     "start": 13.85,
-     "end": 14.31
+     "start": 13.847,
+     "end": 14.307
     },
     {
      "text": "Black",
-     "start": 14.31,
-     "end": 14.59
+     "start": 14.307,
+     "end": 14.587
     },
     {
      "text": "soldiers",
-     "start": 14.59,
-     "end": 15.11
+     "start": 14.587,
+     "end": 15.107
     },
     {
      "text": "for",
-     "start": 15.11,
-     "end": 15.41
+     "start": 15.107,
+     "end": 15.407
     },
     {
      "text": "the",
-     "start": 15.41,
-     "end": 15.55
+     "start": 15.407,
+     "end": 15.547
     },
     {
      "text": "Union,",
-     "start": 15.55,
-     "end": 15.89
+     "start": 15.547,
+     "end": 15.887
     },
     {
      "text": "and",
-     "start": 15.89,
-     "end": 16.39
+     "start": 15.887,
+     "end": 16.387
     },
     {
      "text": "served",
-     "start": 16.39,
-     "end": 16.71
+     "start": 16.387,
+     "end": 16.707
     },
     {
      "text": "as",
-     "start": 16.71,
-     "end": 16.95
+     "start": 16.707,
+     "end": 16.947
     },
     {
      "text": "a",
-     "start": 16.95,
-     "end": 17.07
+     "start": 16.947,
+     "end": 17.067
     },
     {
      "text": "chaplain.",
-     "start": 17.07,
-     "end": 17.43
+     "start": 17.067,
+     "end": 17.427
     }
    ],
    "cues": {},
@@ -248,83 +248,83 @@
    "words": [
     {
      "text": "In",
-     "start": 17.965,
-     "end": 18.145
+     "start": 17.962,
+     "end": 18.142
     },
     {
      "text": "1861,",
-     "start": 18.145,
-     "end": 19.665
+     "start": 18.142,
+     "end": 19.662
     },
     {
      "text": "Mississippi's",
-     "start": 19.665,
-     "end": 21.245
+     "start": 19.662,
+     "end": 21.242
     },
     {
      "text": "senator",
-     "start": 21.245,
-     "end": 21.845
+     "start": 21.242,
+     "end": 21.842
     },
     {
      "text": "Jefferson",
-     "start": 21.845,
-     "end": 22.385
+     "start": 21.842,
+     "end": 22.382
     },
     {
      "text": "Davis",
-     "start": 22.385,
-     "end": 22.945
+     "start": 22.382,
+     "end": 22.942
     },
     {
      "text": "had",
-     "start": 22.945,
-     "end": 23.345
+     "start": 22.942,
+     "end": 23.342
     },
     {
      "text": "walked",
-     "start": 23.345,
-     "end": 23.605
+     "start": 23.342,
+     "end": 23.602
     },
     {
      "text": "out",
-     "start": 23.605,
-     "end": 23.865
+     "start": 23.602,
+     "end": 23.862
     },
     {
      "text": "of",
-     "start": 23.865,
-     "end": 23.985
+     "start": 23.862,
+     "end": 23.982
     },
     {
      "text": "the",
-     "start": 23.985,
-     "end": 24.085
+     "start": 23.982,
+     "end": 24.082
     },
     {
      "text": "Senate",
-     "start": 24.085,
-     "end": 24.345
+     "start": 24.082,
+     "end": 24.342
     },
     {
      "text": "to",
-     "start": 24.345,
-     "end": 24.585
+     "start": 24.342,
+     "end": 24.582
     },
     {
      "text": "lead",
-     "start": 24.585,
-     "end": 24.805
+     "start": 24.582,
+     "end": 24.802
     },
     {
      "text": "the",
-     "start": 24.805,
-     "end": 25.025
+     "start": 24.802,
+     "end": 25.022
     },
     {
      "text": "Confederacy.",
-     "start": 25.025,
-     "end": 25.365
+     "start": 25.022,
+     "end": 25.362
     }
    ],
    "cues": {},
@@ -336,93 +336,93 @@
    "words": [
     {
      "text": "In",
-     "start": 26.227,
-     "end": 26.367
+     "start": 26.224,
+     "end": 26.364
     },
     {
      "text": "January",
-     "start": 26.367,
-     "end": 26.867
+     "start": 26.364,
+     "end": 26.864
     },
     {
      "text": "1870,",
-     "start": 26.867,
-     "end": 28.127
+     "start": 26.864,
+     "end": 28.124
     },
     {
      "text": "Mississippi's",
-     "start": 29.347,
-     "end": 30.087
+     "start": 29.344,
+     "end": 30.084
     },
     {
      "text": "new",
-     "start": 30.087,
-     "end": 30.287
+     "start": 30.084,
+     "end": 30.284
     },
     {
      "text": "legislature",
-     "start": 30.287,
-     "end": 30.807
+     "start": 30.284,
+     "end": 30.804
     },
     {
      "text": "chose",
-     "start": 30.807,
-     "end": 31.387
+     "start": 30.804,
+     "end": 31.384
     },
     {
      "text": "Revels,",
-     "start": 31.387,
-     "end": 31.987
+     "start": 31.384,
+     "end": 31.984
     },
     {
      "text": "a",
-     "start": 32.307,
-     "end": 32.467
+     "start": 32.304,
+     "end": 32.464
     },
     {
      "text": "state",
-     "start": 32.467,
-     "end": 32.667
+     "start": 32.464,
+     "end": 32.664
     },
     {
      "text": "senator",
-     "start": 32.667,
-     "end": 33.047
+     "start": 32.664,
+     "end": 33.044
     },
     {
      "text": "from",
-     "start": 33.047,
-     "end": 33.347
+     "start": 33.044,
+     "end": 33.344
     },
     {
      "text": "Natchez,",
-     "start": 33.347,
-     "end": 34.047
+     "start": 33.344,
+     "end": 34.044
     },
     {
      "text": "for",
-     "start": 34.287,
-     "end": 34.487
+     "start": 34.284,
+     "end": 34.484
     },
     {
      "text": "the",
-     "start": 34.487,
-     "end": 34.627
+     "start": 34.484,
+     "end": 34.624
     },
     {
      "text": "United",
-     "start": 34.627,
-     "end": 34.927
+     "start": 34.624,
+     "end": 34.924
     },
     {
      "text": "States",
-     "start": 34.927,
-     "end": 35.427
+     "start": 34.924,
+     "end": 35.424
     },
     {
      "text": "Senate.",
-     "start": 35.427,
-     "end": 35.707
+     "start": 35.424,
+     "end": 35.704
     }
    ],
    "cues": {},
@@ -434,113 +434,113 @@
    "words": [
     {
      "text": "Democrats",
-     "start": 36.327,
-     "end": 36.787
+     "start": 36.324,
+     "end": 36.784
     },
     {
      "text": "tried",
-     "start": 36.787,
-     "end": 37.167
+     "start": 36.784,
+     "end": 37.164
     },
     {
      "text": "to",
-     "start": 37.167,
-     "end": 37.347
+     "start": 37.164,
+     "end": 37.344
     },
     {
      "text": "block",
-     "start": 37.347,
-     "end": 37.607
+     "start": 37.344,
+     "end": 37.604
     },
     {
      "text": "him.",
-     "start": 37.607,
-     "end": 38.067
+     "start": 37.604,
+     "end": 38.064
     },
     {
      "text": "They",
-     "start": 38.447,
-     "end": 38.487
+     "start": 38.444,
+     "end": 38.484
     },
     {
      "text": "argued",
-     "start": 38.487,
-     "end": 38.927
+     "start": 38.484,
+     "end": 38.924
     },
     {
      "text": "he",
-     "start": 38.927,
-     "end": 39.147
+     "start": 38.924,
+     "end": 39.144
     },
     {
      "text": "had",
-     "start": 39.147,
-     "end": 39.247
+     "start": 39.144,
+     "end": 39.244
     },
     {
      "text": "not",
-     "start": 39.247,
-     "end": 39.447
+     "start": 39.244,
+     "end": 39.444
     },
     {
      "text": "been",
-     "start": 39.447,
-     "end": 39.627
+     "start": 39.444,
+     "end": 39.624
     },
     {
      "text": "a",
-     "start": 39.627,
-     "end": 39.767
+     "start": 39.624,
+     "end": 39.764
     },
     {
      "text": "citizen",
-     "start": 39.767,
-     "end": 40.147
+     "start": 39.764,
+     "end": 40.144
     },
     {
      "text": "for",
-     "start": 40.147,
-     "end": 40.427
+     "start": 40.144,
+     "end": 40.424
     },
     {
      "text": "nine",
-     "start": 40.427,
-     "end": 40.727
+     "start": 40.424,
+     "end": 40.724
     },
     {
      "text": "years,",
-     "start": 40.727,
-     "end": 41.227
+     "start": 40.724,
+     "end": 41.224
     },
     {
      "text": "pointing",
-     "start": 41.507,
-     "end": 41.807
+     "start": 41.504,
+     "end": 41.804
     },
     {
      "text": "to",
-     "start": 41.807,
-     "end": 42.107
+     "start": 41.804,
+     "end": 42.104
     },
     {
      "text": "the",
-     "start": 42.107,
-     "end": 42.247
+     "start": 42.104,
+     "end": 42.244
     },
     {
      "text": "Dred",
-     "start": 42.247,
-     "end": 42.507
+     "start": 42.244,
+     "end": 42.504
     },
     {
      "text": "Scott",
-     "start": 42.507,
-     "end": 42.887
+     "start": 42.504,
+     "end": 42.884
     },
     {
      "text": "decision.",
-     "start": 42.887,
-     "end": 43.247
+     "start": 42.884,
+     "end": 43.244
     }
    ],
    "cues": {},
@@ -552,68 +552,68 @@
    "words": [
     {
      "text": "On",
-     "start": 43.903,
-     "end": 44.063
+     "start": 43.9,
+     "end": 44.06
     },
     {
      "text": "February",
-     "start": 44.063,
-     "end": 44.363
+     "start": 44.06,
+     "end": 44.36
     },
     {
      "text": "25,",
-     "start": 44.363,
-     "end": 45.183
+     "start": 44.36,
+     "end": 45.18
     },
     {
      "text": "1870,",
-     "start": 45.863,
-     "end": 46.863
+     "start": 45.86,
+     "end": 46.86
     },
     {
      "text": "the",
-     "start": 48.183,
-     "end": 48.243
+     "start": 48.18,
+     "end": 48.24
     },
     {
      "text": "Senate",
-     "start": 48.243,
-     "end": 48.463
+     "start": 48.24,
+     "end": 48.46
     },
     {
      "text": "voted",
-     "start": 48.463,
-     "end": 48.883
+     "start": 48.46,
+     "end": 48.88
     },
     {
      "text": "48",
-     "start": 48.883,
-     "end": 49.483
+     "start": 48.88,
+     "end": 49.48
     },
     {
      "text": "to",
-     "start": 49.903,
-     "end": 50.083
+     "start": 49.9,
+     "end": 50.08
     },
     {
      "text": "8",
-     "start": 50.083,
-     "end": 50.083
+     "start": 50.08,
+     "end": 50.08
     },
     {
      "text": "to",
-     "start": 50.083,
-     "end": 50.083
+     "start": 50.08,
+     "end": 50.08
     },
     {
      "text": "seat",
-     "start": 50.083,
-     "end": 50.303
+     "start": 50.08,
+     "end": 50.3
     },
     {
      "text": "him.",
-     "start": 50.303,
-     "end": 50.523
+     "start": 50.3,
+     "end": 50.52
     }
    ],
    "cues": {},
@@ -625,83 +625,83 @@
    "words": [
     {
      "text": "He",
-     "start": 51.001,
-     "end": 51.101
+     "start": 50.998,
+     "end": 51.098
     },
     {
      "text": "became",
-     "start": 51.101,
-     "end": 51.381
+     "start": 51.098,
+     "end": 51.378
     },
     {
      "text": "the",
-     "start": 51.381,
-     "end": 51.601
+     "start": 51.378,
+     "end": 51.598
     },
     {
      "text": "first",
-     "start": 51.601,
-     "end": 51.961
+     "start": 51.598,
+     "end": 51.958
     },
     {
      "text": "Black",
-     "start": 51.961,
-     "end": 52.341
+     "start": 51.958,
+     "end": 52.338
     },
     {
      "text": "American",
-     "start": 52.341,
-     "end": 52.761
+     "start": 52.338,
+     "end": 52.758
     },
     {
      "text": "to",
-     "start": 52.761,
-     "end": 53.121
+     "start": 52.758,
+     "end": 53.118
     },
     {
      "text": "serve",
-     "start": 53.121,
-     "end": 53.381
+     "start": 53.118,
+     "end": 53.378
     },
     {
      "text": "in",
-     "start": 53.381,
-     "end": 53.581
+     "start": 53.378,
+     "end": 53.578
     },
     {
      "text": "Congress,",
-     "start": 53.581,
-     "end": 54.021
+     "start": 53.578,
+     "end": 54.018
     },
     {
      "text": "the",
-     "start": 54.621,
-     "end": 54.681
+     "start": 54.618,
+     "end": 54.678
     },
     {
      "text": "first",
-     "start": 54.681,
-     "end": 54.961
+     "start": 54.678,
+     "end": 54.958
     },
     {
      "text": "of",
-     "start": 54.961,
-     "end": 55.141
+     "start": 54.958,
+     "end": 55.138
     },
     {
      "text": "many",
-     "start": 55.141,
-     "end": 55.381
+     "start": 55.138,
+     "end": 55.378
     },
     {
      "text": "during",
-     "start": 55.381,
-     "end": 55.721
+     "start": 55.378,
+     "end": 55.718
     },
     {
      "text": "Reconstruction.",
-     "start": 55.721,
-     "end": 56.161
+     "start": 55.718,
+     "end": 56.158
     }
    ],
    "cues": {},
@@ -713,93 +713,93 @@
    "words": [
     {
      "text": "After",
-     "start": 57.08,
-     "end": 57.36
+     "start": 57.076,
+     "end": 57.356
     },
     {
      "text": "his",
-     "start": 57.36,
-     "end": 57.54
+     "start": 57.356,
+     "end": 57.536
     },
     {
      "text": "term,",
-     "start": 57.54,
-     "end": 57.94
+     "start": 57.536,
+     "end": 57.936
     },
     {
      "text": "he",
-     "start": 58.38,
-     "end": 58.42
+     "start": 58.376,
+     "end": 58.416
     },
     {
      "text": "became",
-     "start": 58.42,
-     "end": 58.7
+     "start": 58.416,
+     "end": 58.696
     },
     {
      "text": "the",
-     "start": 58.7,
-     "end": 58.92
+     "start": 58.696,
+     "end": 58.916
     },
     {
      "text": "first",
-     "start": 58.92,
-     "end": 59.2
+     "start": 58.916,
+     "end": 59.196
     },
     {
      "text": "president",
-     "start": 59.2,
-     "end": 59.62
+     "start": 59.196,
+     "end": 59.616
     },
     {
      "text": "of",
-     "start": 59.62,
-     "end": 59.84
+     "start": 59.616,
+     "end": 59.836
     },
     {
      "text": "Alcorn,",
-     "start": 59.84,
-     "end": 60.32
+     "start": 59.836,
+     "end": 60.316
     },
     {
      "text": "a",
-     "start": 60.9,
-     "end": 61.0
+     "start": 60.896,
+     "end": 60.996
     },
     {
      "text": "new",
-     "start": 61.0,
-     "end": 61.24
+     "start": 60.996,
+     "end": 61.236
     },
     {
      "text": "college",
-     "start": 61.24,
-     "end": 61.64
+     "start": 61.236,
+     "end": 61.636
     },
     {
      "text": "for",
-     "start": 61.64,
-     "end": 61.96
+     "start": 61.636,
+     "end": 61.956
     },
     {
      "text": "Black",
-     "start": 61.96,
-     "end": 62.2
+     "start": 61.956,
+     "end": 62.196
     },
     {
      "text": "students",
-     "start": 62.2,
-     "end": 62.62
+     "start": 62.196,
+     "end": 62.616
     },
     {
      "text": "in",
-     "start": 62.62,
-     "end": 62.9
+     "start": 62.616,
+     "end": 62.896
     },
     {
      "text": "Mississippi.",
-     "start": 62.9,
-     "end": 63.2
+     "start": 62.896,
+     "end": 63.196
     }
    ],
    "cues": {},
@@ -811,120 +811,120 @@
    "words": [
     {
      "text": "Born",
-     "start": 64.007,
-     "end": 64.267
+     "start": 64.004,
+     "end": 64.264
     },
     {
      "text": "free.",
-     "start": 64.267,
-     "end": 64.727
+     "start": 64.264,
+     "end": 64.724
     },
     {
      "text": "Seated",
-     "start": 65.007,
-     "end": 65.267
+     "start": 65.004,
+     "end": 65.264
     },
     {
      "text": "in",
-     "start": 65.267,
-     "end": 65.487
+     "start": 65.264,
+     "end": 65.484
     },
     {
      "text": "the",
-     "start": 65.487,
-     "end": 65.627
+     "start": 65.484,
+     "end": 65.624
     },
     {
      "text": "Senate.",
-     "start": 65.627,
-     "end": 65.867
+     "start": 65.624,
+     "end": 65.864
     },
     {
      "text": "And",
-     "start": 66.327,
-     "end": 66.387
+     "start": 66.324,
+     "end": 66.384
     },
     {
      "text": "Mississippi",
-     "start": 66.387,
-     "end": 66.787
+     "start": 66.384,
+     "end": 66.784
     },
     {
      "text": "made",
-     "start": 66.787,
-     "end": 67.107
+     "start": 66.784,
+     "end": 67.104
     },
     {
      "text": "it",
-     "start": 67.107,
-     "end": 67.247
+     "start": 67.104,
+     "end": 67.244
     },
     {
      "text": "happen.",
-     "start": 67.247,
-     "end": 67.467
+     "start": 67.244,
+     "end": 67.464
     }
    ],
    "cues": {},
    "startFrame": 1917,
-   "endFrame": 2042
+   "endFrame": 2041
   },
   {
    "id": "cta",
    "words": [
     {
      "text": "Follow",
-     "start": 68.151,
-     "end": 68.471
+     "start": 68.148,
+     "end": 68.468
     },
     {
      "text": "The",
-     "start": 68.471,
-     "end": 68.671
+     "start": 68.468,
+     "end": 68.668
     },
     {
      "text": "Black",
-     "start": 68.671,
-     "end": 68.911
+     "start": 68.668,
+     "end": 68.908
     },
     {
      "text": "History",
-     "start": 68.911,
-     "end": 69.291
+     "start": 68.908,
+     "end": 69.288
     },
     {
      "text": "Room",
-     "start": 69.291,
-     "end": 69.571
+     "start": 69.288,
+     "end": 69.568
     },
     {
      "text": "for",
-     "start": 69.571,
-     "end": 69.791
+     "start": 69.568,
+     "end": 69.788
     },
     {
      "text": "one",
-     "start": 69.791,
-     "end": 69.991
+     "start": 69.788,
+     "end": 69.988
     },
     {
      "text": "story",
-     "start": 69.991,
-     "end": 70.311
+     "start": 69.988,
+     "end": 70.308
     },
     {
      "text": "a",
-     "start": 70.311,
-     "end": 70.551
+     "start": 70.308,
+     "end": 70.548
     },
     {
      "text": "day.",
-     "start": 70.551,
-     "end": 70.731
+     "start": 70.548,
+     "end": 70.728
     }
    ],
    "cues": {},
-   "startFrame": 2042,
+   "startFrame": 2041,
    "endFrame": 2161
   }
  ]
