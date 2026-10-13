@@ -1,0 +1,964 @@
+{
+ "fps": 30,
+ "durationInFrames": 2186,
+ "voice": "am_michael",
+ "engine": "kokoro-onnx v1.0",
+ "words": 170,
+ "wpm": 140.0,
+ "beats": [
+  {
+   "id": "hook",
+   "words": [
+    {
+     "text": "Pardoned",
+     "start": 0.0,
+     "end": 0.45
+    },
+    {
+     "text": "seventy-two",
+     "start": 0.45,
+     "end": 0.9
+    },
+    {
+     "text": "years",
+     "start": 0.9,
+     "end": 1.16
+    },
+    {
+     "text": "after",
+     "start": 1.16,
+     "end": 1.5
+    },
+    {
+     "text": "he",
+     "start": 1.5,
+     "end": 1.62
+    },
+    {
+     "text": "died.",
+     "start": 1.62,
+     "end": 1.82
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 69
+  },
+  {
+   "id": "name",
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.4,
+     "end": 2.62
+    },
+    {
+     "text": "Jack",
+     "start": 2.62,
+     "end": 2.92
+    },
+    {
+     "text": "Johnson.",
+     "start": 2.92,
+     "end": 3.42
+    }
+   ],
+   "cues": {},
+   "startFrame": 69,
+   "endFrame": 119
+  },
+  {
+   "id": "born",
+   "words": [
+    {
+     "text": "He",
+     "start": 4.065,
+     "end": 4.165
+    },
+    {
+     "text": "was",
+     "start": 4.165,
+     "end": 4.305
+    },
+    {
+     "text": "born",
+     "start": 4.305,
+     "end": 4.605
+    },
+    {
+     "text": "in",
+     "start": 4.605,
+     "end": 4.865
+    },
+    {
+     "text": "Galveston,",
+     "start": 4.865,
+     "end": 5.545
+    },
+    {
+     "text": "Texas,",
+     "start": 5.625,
+     "end": 6.005
+    },
+    {
+     "text": "in",
+     "start": 6.545,
+     "end": 6.585
+    },
+    {
+     "text": "1878,",
+     "start": 6.585,
+     "end": 8.425
+    },
+    {
+     "text": "to",
+     "start": 8.425,
+     "end": 9.005
+    },
+    {
+     "text": "parents",
+     "start": 9.005,
+     "end": 9.325
+    },
+    {
+     "text": "who",
+     "start": 9.325,
+     "end": 9.505
+    },
+    {
+     "text": "had",
+     "start": 9.505,
+     "end": 9.605
+    },
+    {
+     "text": "been",
+     "start": 9.605,
+     "end": 9.785
+    },
+    {
+     "text": "enslaved.",
+     "start": 9.785,
+     "end": 10.265
+    }
+   ],
+   "cues": {},
+   "startFrame": 119,
+   "endFrame": 330
+  },
+  {
+   "id": "champ",
+   "words": [
+    {
+     "text": "In",
+     "start": 11.115,
+     "end": 11.295
+    },
+    {
+     "text": "1908,",
+     "start": 11.295,
+     "end": 11.935
+    },
+    {
+     "text": "in",
+     "start": 12.515,
+     "end": 12.615
+    },
+    {
+     "text": "Sydney,",
+     "start": 12.615,
+     "end": 13.035
+    },
+    {
+     "text": "Australia,",
+     "start": 13.195,
+     "end": 13.775
+    },
+    {
+     "text": "he",
+     "start": 14.315,
+     "end": 14.435
+    },
+    {
+     "text": "beat",
+     "start": 14.435,
+     "end": 14.655
+    },
+    {
+     "text": "Tommy",
+     "start": 14.655,
+     "end": 15.115
+    },
+    {
+     "text": "Burns,",
+     "start": 15.115,
+     "end": 15.495
+    },
+    {
+     "text": "and",
+     "start": 15.495,
+     "end": 15.995
+    },
+    {
+     "text": "became",
+     "start": 15.995,
+     "end": 16.295
+    },
+    {
+     "text": "the",
+     "start": 16.295,
+     "end": 16.515
+    },
+    {
+     "text": "first",
+     "start": 16.515,
+     "end": 16.795
+    },
+    {
+     "text": "Black",
+     "start": 16.795,
+     "end": 17.175
+    },
+    {
+     "text": "heavyweight",
+     "start": 17.175,
+     "end": 17.675
+    },
+    {
+     "text": "champion",
+     "start": 17.675,
+     "end": 18.095
+    },
+    {
+     "text": "of",
+     "start": 18.095,
+     "end": 18.495
+    },
+    {
+     "text": "the",
+     "start": 18.495,
+     "end": 18.615
+    },
+    {
+     "text": "world.",
+     "start": 18.615,
+     "end": 18.875
+    }
+   ],
+   "cues": {},
+   "startFrame": 330,
+   "endFrame": 584
+  },
+  {
+   "id": "hope",
+   "words": [
+    {
+     "text": "Many",
+     "start": 19.556,
+     "end": 19.796
+    },
+    {
+     "text": "white",
+     "start": 19.796,
+     "end": 20.136
+    },
+    {
+     "text": "Americans",
+     "start": 20.136,
+     "end": 20.676
+    },
+    {
+     "text": "were",
+     "start": 20.676,
+     "end": 20.956
+    },
+    {
+     "text": "furious.",
+     "start": 20.956,
+     "end": 21.436
+    },
+    {
+     "text": "They",
+     "start": 22.036,
+     "end": 22.116
+    },
+    {
+     "text": "called",
+     "start": 22.116,
+     "end": 22.376
+    },
+    {
+     "text": "for",
+     "start": 22.376,
+     "end": 22.636
+    },
+    {
+     "text": "a",
+     "start": 22.636,
+     "end": 22.776
+    },
+    {
+     "text": "Great",
+     "start": 22.776,
+     "end": 23.036
+    },
+    {
+     "text": "White",
+     "start": 23.036,
+     "end": 23.356
+    },
+    {
+     "text": "Hope",
+     "start": 23.356,
+     "end": 23.676
+    },
+    {
+     "text": "to",
+     "start": 23.676,
+     "end": 23.916
+    },
+    {
+     "text": "take",
+     "start": 23.916,
+     "end": 24.076
+    },
+    {
+     "text": "the",
+     "start": 24.076,
+     "end": 24.256
+    },
+    {
+     "text": "title",
+     "start": 24.256,
+     "end": 24.556
+    },
+    {
+     "text": "back.",
+     "start": 24.556,
+     "end": 24.876
+    }
+   ],
+   "cues": {},
+   "startFrame": 584,
+   "endFrame": 761
+  },
+  {
+   "id": "jeffries",
+   "words": [
+    {
+     "text": "On",
+     "start": 25.468,
+     "end": 25.648
+    },
+    {
+     "text": "July",
+     "start": 25.648,
+     "end": 25.848
+    },
+    {
+     "text": "4,",
+     "start": 25.848,
+     "end": 26.368
+    },
+    {
+     "text": "1910,",
+     "start": 26.808,
+     "end": 27.608
+    },
+    {
+     "text": "in",
+     "start": 27.608,
+     "end": 27.968
+    },
+    {
+     "text": "Reno,",
+     "start": 27.968,
+     "end": 28.368
+    },
+    {
+     "text": "former",
+     "start": 28.948,
+     "end": 29.048
+    },
+    {
+     "text": "champion",
+     "start": 29.048,
+     "end": 29.588
+    },
+    {
+     "text": "Jim",
+     "start": 29.588,
+     "end": 29.948
+    },
+    {
+     "text": "Jeffries",
+     "start": 29.948,
+     "end": 30.488
+    },
+    {
+     "text": "came",
+     "start": 30.488,
+     "end": 30.768
+    },
+    {
+     "text": "out",
+     "start": 30.768,
+     "end": 30.988
+    },
+    {
+     "text": "of",
+     "start": 30.988,
+     "end": 31.088
+    },
+    {
+     "text": "retirement",
+     "start": 31.088,
+     "end": 31.528
+    },
+    {
+     "text": "to",
+     "start": 31.528,
+     "end": 31.788
+    },
+    {
+     "text": "fight",
+     "start": 31.788,
+     "end": 32.028
+    },
+    {
+     "text": "him.",
+     "start": 32.028,
+     "end": 32.328
+    },
+    {
+     "text": "Johnson",
+     "start": 33.068,
+     "end": 33.188
+    },
+    {
+     "text": "won.",
+     "start": 33.188,
+     "end": 33.628
+    }
+   ],
+   "cues": {},
+   "startFrame": 761,
+   "endFrame": 1024
+  },
+  {
+   "id": "riots",
+   "words": [
+    {
+     "text": "That",
+     "start": 34.221,
+     "end": 34.361
+    },
+    {
+     "text": "night,",
+     "start": 34.361,
+     "end": 34.701
+    },
+    {
+     "text": "white",
+     "start": 34.941,
+     "end": 35.061
+    },
+    {
+     "text": "mobs",
+     "start": 35.061,
+     "end": 35.461
+    },
+    {
+     "text": "attacked",
+     "start": 35.461,
+     "end": 35.901
+    },
+    {
+     "text": "Black",
+     "start": 35.901,
+     "end": 36.281
+    },
+    {
+     "text": "Americans",
+     "start": 36.281,
+     "end": 36.801
+    },
+    {
+     "text": "in",
+     "start": 36.801,
+     "end": 37.141
+    },
+    {
+     "text": "cities",
+     "start": 37.141,
+     "end": 37.421
+    },
+    {
+     "text": "across",
+     "start": 37.421,
+     "end": 37.801
+    },
+    {
+     "text": "the",
+     "start": 37.801,
+     "end": 38.021
+    },
+    {
+     "text": "country.",
+     "start": 38.021,
+     "end": 38.241
+    }
+   ],
+   "cues": {},
+   "startFrame": 1024,
+   "endFrame": 1164
+  },
+  {
+   "id": "mann",
+   "words": [
+    {
+     "text": "In",
+     "start": 38.891,
+     "end": 39.031
+    },
+    {
+     "text": "1913,",
+     "start": 39.031,
+     "end": 39.951
+    },
+    {
+     "text": "an",
+     "start": 40.651,
+     "end": 40.851
+    },
+    {
+     "text": "all-white",
+     "start": 40.851,
+     "end": 41.431
+    },
+    {
+     "text": "jury",
+     "start": 41.431,
+     "end": 41.791
+    },
+    {
+     "text": "convicted",
+     "start": 41.791,
+     "end": 42.391
+    },
+    {
+     "text": "him",
+     "start": 42.391,
+     "end": 42.691
+    },
+    {
+     "text": "under",
+     "start": 42.691,
+     "end": 42.911
+    },
+    {
+     "text": "the",
+     "start": 42.911,
+     "end": 43.031
+    },
+    {
+     "text": "Mann",
+     "start": 43.031,
+     "end": 43.251
+    },
+    {
+     "text": "Act,",
+     "start": 43.251,
+     "end": 43.671
+    },
+    {
+     "text": "over",
+     "start": 43.671,
+     "end": 44.331
+    },
+    {
+     "text": "his",
+     "start": 44.331,
+     "end": 44.531
+    },
+    {
+     "text": "relationships",
+     "start": 44.531,
+     "end": 45.191
+    },
+    {
+     "text": "with",
+     "start": 45.191,
+     "end": 45.571
+    },
+    {
+     "text": "white",
+     "start": 45.571,
+     "end": 45.831
+    },
+    {
+     "text": "women.",
+     "start": 45.831,
+     "end": 46.111
+    }
+   ],
+   "cues": {},
+   "startFrame": 1164,
+   "endFrame": 1398
+  },
+  {
+   "id": "prison",
+   "words": [
+    {
+     "text": "He",
+     "start": 46.684,
+     "end": 46.784
+    },
+    {
+     "text": "fled",
+     "start": 46.784,
+     "end": 46.984
+    },
+    {
+     "text": "the",
+     "start": 46.984,
+     "end": 47.164
+    },
+    {
+     "text": "country.",
+     "start": 47.164,
+     "end": 47.584
+    },
+    {
+     "text": "In",
+     "start": 48.184,
+     "end": 48.264
+    },
+    {
+     "text": "1920,",
+     "start": 48.264,
+     "end": 49.044
+    },
+    {
+     "text": "he",
+     "start": 49.624,
+     "end": 49.844
+    },
+    {
+     "text": "came",
+     "start": 49.844,
+     "end": 50.024
+    },
+    {
+     "text": "back",
+     "start": 50.024,
+     "end": 50.384
+    },
+    {
+     "text": "and",
+     "start": 50.384,
+     "end": 50.604
+    },
+    {
+     "text": "served",
+     "start": 50.604,
+     "end": 50.864
+    },
+    {
+     "text": "about",
+     "start": 50.864,
+     "end": 51.184
+    },
+    {
+     "text": "ten",
+     "start": 51.184,
+     "end": 51.484
+    },
+    {
+     "text": "months",
+     "start": 51.484,
+     "end": 51.784
+    },
+    {
+     "text": "in",
+     "start": 51.784,
+     "end": 52.004
+    },
+    {
+     "text": "federal",
+     "start": 52.004,
+     "end": 52.264
+    },
+    {
+     "text": "prison.",
+     "start": 52.264,
+     "end": 52.604
+    }
+   ],
+   "cues": {},
+   "startFrame": 1398,
+   "endFrame": 1594
+  },
+  {
+   "id": "death",
+   "words": [
+    {
+     "text": "He",
+     "start": 53.223,
+     "end": 53.343
+    },
+    {
+     "text": "died",
+     "start": 53.343,
+     "end": 53.603
+    },
+    {
+     "text": "in",
+     "start": 53.603,
+     "end": 53.863
+    },
+    {
+     "text": "a",
+     "start": 53.863,
+     "end": 53.963
+    },
+    {
+     "text": "car",
+     "start": 53.963,
+     "end": 54.263
+    },
+    {
+     "text": "crash",
+     "start": 54.263,
+     "end": 54.643
+    },
+    {
+     "text": "in",
+     "start": 54.643,
+     "end": 54.863
+    },
+    {
+     "text": "1946.",
+     "start": 54.863,
+     "end": 55.683
+    }
+   ],
+   "cues": {},
+   "startFrame": 1594,
+   "endFrame": 1700
+  },
+  {
+   "id": "pardon",
+   "words": [
+    {
+     "text": "On",
+     "start": 56.763,
+     "end": 56.903
+    },
+    {
+     "text": "May",
+     "start": 56.903,
+     "end": 57.063
+    },
+    {
+     "text": "24,",
+     "start": 57.063,
+     "end": 57.783
+    },
+    {
+     "text": "2018,",
+     "start": 58.263,
+     "end": 59.003
+    },
+    {
+     "text": "the",
+     "start": 59.783,
+     "end": 59.843
+    },
+    {
+     "text": "President",
+     "start": 59.843,
+     "end": 60.103
+    },
+    {
+     "text": "of",
+     "start": 60.103,
+     "end": 60.363
+    },
+    {
+     "text": "the",
+     "start": 60.363,
+     "end": 60.483
+    },
+    {
+     "text": "United",
+     "start": 60.483,
+     "end": 60.783
+    },
+    {
+     "text": "States",
+     "start": 60.783,
+     "end": 61.263
+    },
+    {
+     "text": "granted",
+     "start": 61.263,
+     "end": 61.663
+    },
+    {
+     "text": "him",
+     "start": 61.663,
+     "end": 61.943
+    },
+    {
+     "text": "a",
+     "start": 61.943,
+     "end": 62.063
+    },
+    {
+     "text": "pardon.",
+     "start": 62.063,
+     "end": 62.383
+    }
+   ],
+   "cues": {},
+   "startFrame": 1700,
+   "endFrame": 1887
+  },
+  {
+   "id": "legacy",
+   "words": [
+    {
+     "text": "Champion",
+     "start": 63.012,
+     "end": 63.472
+    },
+    {
+     "text": "of",
+     "start": 63.472,
+     "end": 63.692
+    },
+    {
+     "text": "the",
+     "start": 63.692,
+     "end": 63.812
+    },
+    {
+     "text": "world.",
+     "start": 63.812,
+     "end": 64.212
+    },
+    {
+     "text": "Convicted",
+     "start": 64.652,
+     "end": 64.892
+    },
+    {
+     "text": "over",
+     "start": 64.892,
+     "end": 65.272
+    },
+    {
+     "text": "who",
+     "start": 65.272,
+     "end": 65.452
+    },
+    {
+     "text": "he",
+     "start": 65.452,
+     "end": 65.592
+    },
+    {
+     "text": "loved.",
+     "start": 65.592,
+     "end": 66.052
+    },
+    {
+     "text": "Pardoned",
+     "start": 66.612,
+     "end": 66.952
+    },
+    {
+     "text": "seventy-two",
+     "start": 66.952,
+     "end": 67.392
+    },
+    {
+     "text": "years",
+     "start": 67.392,
+     "end": 67.872
+    },
+    {
+     "text": "too",
+     "start": 67.872,
+     "end": 68.192
+    },
+    {
+     "text": "late.",
+     "start": 68.192,
+     "end": 68.452
+    }
+   ],
+   "cues": {},
+   "startFrame": 1887,
+   "endFrame": 2067
+  },
+  {
+   "id": "cta",
+   "words": [
+    {
+     "text": "Follow",
+     "start": 68.984,
+     "end": 69.304
+    },
+    {
+     "text": "The",
+     "start": 69.304,
+     "end": 69.504
+    },
+    {
+     "text": "Black",
+     "start": 69.504,
+     "end": 69.744
+    },
+    {
+     "text": "History",
+     "start": 69.744,
+     "end": 70.124
+    },
+    {
+     "text": "Room",
+     "start": 70.124,
+     "end": 70.404
+    },
+    {
+     "text": "for",
+     "start": 70.404,
+     "end": 70.624
+    },
+    {
+     "text": "one",
+     "start": 70.624,
+     "end": 70.824
+    },
+    {
+     "text": "story",
+     "start": 70.824,
+     "end": 71.144
+    },
+    {
+     "text": "a",
+     "start": 71.144,
+     "end": 71.384
+    },
+    {
+     "text": "day.",
+     "start": 71.384,
+     "end": 71.564
+    }
+   ],
+   "cues": {},
+   "startFrame": 2067,
+   "endFrame": 2186
+  }
+ ]
+}
