@@ -51,6 +51,8 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
   reading scholarly IPA reconstructions (`lingo/sim_audio.py`, `lingo/ipa_say.py`), labelled "AI SIMULATION" on screen
   and in the description. Tick YouTube's altered/synthetic content box for it.
 - Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).
+- Map-tour videos: `lingo/maptour.mjs` + `lingo/maptour_episodes.mjs` (done: `official`, Countries With the Most Official Languages).
+  Saved idea the owner liked: `lingo/ideas/same_language_different_countries.md` (one language, then each country's version, then the next language).
 
 ## Continue from here
 1. `cd lingo && npm i && pip install faster-whisper`
