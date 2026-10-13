@@ -4,9 +4,12 @@
 Usage:
     python3 scripts/make_podcast_theme.py out.wav [seconds]
 
-A warm, confident theme at 88 bpm: a soft electric-piano arpeggio over a minor-key pad
-(Dm9 - Bbmaj7 - Fadd9 - C), a round sub bass, and a light kick and shaker pulse.
-Nothing is sampled; every sound is generated here.
+Version 2 (2026-10-13), shaped on measurements of two example history podcasts: voice starts
+within ~1 s, music is a soft sustained bed with no drums (tonal, low onset variance), sitting
+~15-20 dB under the voice, and swells in the pause after the episode title.
+
+A slow, warm felt-piano progression (Am - F - C - G, 66 bpm) over a quiet string-like pad and
+a low cello-style root, in a convolution room. Nothing is sampled; every sound is generated here.
 """
 
 from __future__ import annotations
@@ -15,15 +18,17 @@ import sys
 
 import numpy as np
 import soundfile as sf
+from scipy.signal import fftconvolve
 
 SR = 44100
-BPM = 88
+BPM = 66
 BEAT = 60 / BPM
+# (root for the low string, piano voicing, pad voicing)
 CHORDS = [
-    [50, 57, 60, 64, 65],  # Dm9
-    [46, 53, 57, 62, 65],  # Bbmaj7
-    [41, 53, 57, 60, 67],  # Fadd9
-    [48, 55, 60, 64, 67],  # C
+    (45, [57, 60, 64, 69], [57, 64, 72]),  # Am
+    (41, [57, 60, 65, 69], [53, 65, 72]),  # F
+    (48, [55, 60, 64, 67], [55, 64, 72]),  # C
+    (43, [55, 59, 62, 67], [55, 62, 71]),  # G
 ]
 
 
@@ -31,98 +36,90 @@ def hz(n: float) -> float:
     return 440.0 * 2 ** ((n - 69) / 12)
 
 
-def env(n: int, a: float, d: float) -> np.ndarray:
-    t = np.arange(n) / SR
-    return np.minimum(1, t / a) * np.exp(-t / d)
-
-
-def epiano(f: float, n: int) -> np.ndarray:
-    t = np.arange(n) / SR
-    tone = np.sin(2 * np.pi * f * t) + 0.35 * np.sin(2 * np.pi * 2 * f * t) * np.exp(-t / 0.25)
-    tone += 0.12 * np.sin(2 * np.pi * 3.01 * f * t) * np.exp(-t / 0.12)
-    return tone * env(n, 0.004, 0.9)
-
-
-def pad(chord: list[int], n: int) -> np.ndarray:
+def piano(f: float, n: int, vel: float) -> np.ndarray:
+    """Felt-piano-ish tone: slightly inharmonic partials, upper partials die fast, soft attack."""
     t = np.arange(n) / SR
     out = np.zeros(n)
-    for note in chord:
-        for det in (-0.0015, 0.0, 0.0017):
-            out += np.sin(2 * np.pi * hz(note) * (1 + det) * t)
-    sw = np.minimum(1, t / 0.6) * np.minimum(1, (n / SR - t) / 0.6)
-    return out / (len(chord) * 3) * sw
+    for k in range(1, 9):
+        fk = k * f * np.sqrt(1 + 0.0004 * k * k)
+        if fk > 9000:
+            break
+        amp = (0.6 ** (k - 1)) * (0.5 + 0.5 * vel)
+        dec = 2.8 / (1 + 0.9 * (k - 1)) * (220 / max(f, 110)) ** 0.3
+        out += amp * np.sin(2 * np.pi * fk * t + k) * np.exp(-t / dec)
+    attack = np.minimum(1, t / 0.012)
+    return out * attack * vel
 
 
-def kick(n: int) -> np.ndarray:
+def pad(notes: list[int], n: int, rng: np.random.Generator) -> np.ndarray:
+    """Soft string-like pad: detuned saws, low-passed by averaging, slow swell."""
     t = np.arange(n) / SR
-    f = 50 + 70 * np.exp(-t / 0.03)
-    return np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t / 0.18)
+    out = np.zeros((n, 2))
+    for note in notes:
+        for ch, det in ((0, -0.003), (1, 0.003), (0, 0.0007), (1, -0.0009)):
+            ph = rng.uniform(0, 1)
+            f = hz(note) * (1 + det) * (1 + 0.002 * np.sin(2 * np.pi * 4.8 * t + ph * 6))
+            saw = 2 * ((np.cumsum(f) / SR + ph) % 1) - 1
+            out[:, ch] += saw
+    k = 24  # gentle low-pass
+    out = np.apply_along_axis(lambda c: np.convolve(c, np.ones(k) / k, mode="same"), 0, out)
+    sw = np.minimum(1, t / 1.5) * np.minimum(1, (n / SR - t) / 1.2)
+    return out / (len(notes) * 2) * sw[:, None]
 
 
-def shaker(n: int, rng: np.random.Generator) -> np.ndarray:
-    noise = rng.standard_normal(n)
-    noise = np.diff(noise, prepend=0)  # brighten
-    return noise * env(n, 0.002, 0.03)
+def room(x: np.ndarray, rng: np.random.Generator, seconds: float = 2.4) -> np.ndarray:
+    n = int(seconds * SR)
+    t = np.arange(n) / SR
+    out = np.zeros_like(x)
+    for ch in range(2):
+        ir = rng.standard_normal(n) * np.exp(-t / (seconds / 6.9))
+        ir = np.convolve(ir, np.ones(6) / 6, mode="same")  # darker tail
+        ir[: int(0.015 * SR)] = 0
+        ir /= np.sqrt((ir**2).sum())
+        out[:, ch] = fftconvolve(x[:, ch], ir)[: len(x)]
+    return out
 
 
 def theme(seconds: float) -> np.ndarray:
-    rng = np.random.default_rng(7)
+    rng = np.random.default_rng(11)
     total = int(seconds * SR)
-    out = np.zeros((total, 2))
+    dry = np.zeros((total + int(10 * SR), 2))
     bar = 4 * BEAT
     nbar = int(bar * SR)
     for b in range(int(np.ceil(seconds / bar))):
-        chord = CHORDS[b % 4]
+        root, keys, padn = CHORDS[b % 4]
         s = int(b * bar * SR)
-        seg = pad(chord, nbar) * 0.22
-        e = min(total, s + nbar)
-        out[s:e, 0] += seg[: e - s]
-        out[s:e, 1] += seg[: e - s]
-        # sub bass on beats 1 and 3
-        for beat in (0, 2):
-            bs = s + int(beat * BEAT * SR)
-            n = int(1.4 * BEAT * SR)
-            tt = np.arange(n) / SR
-            bass = np.sin(2 * np.pi * hz(chord[0] - 12) * tt) * env(n, 0.01, 0.6) * 0.35
-            be = min(total, bs + n)
-            if bs < total:
-                out[bs:be] += bass[: be - bs, None]
-        # arpeggio in eighth notes, panned gently
-        arp = [chord[1], chord[2], chord[3], chord[4], chord[3], chord[2], chord[4] + 12, chord[3]]
-        for i, note in enumerate(arp):
-            ns = s + int(i * BEAT / 2 * SR)
-            n = int(1.2 * SR)
-            tone = epiano(hz(note + 12), n) * 0.16
-            ne = min(total, ns + n)
-            if ns < total:
-                pan = 0.5 + 0.25 * np.sin(i)
-                out[ns:ne, 0] += tone[: ne - ns] * (1 - pan)
-                out[ns:ne, 1] += tone[: ne - ns] * pan
-        # light drums from bar 2
+        # pad + low string, entering in bar 2 so the opening is piano alone
         if b >= 1:
-            for beat in range(4):
-                ks = s + int(beat * BEAT * SR)
-                if beat in (0, 2) and ks < total:
-                    k = kick(int(0.4 * SR)) * 0.5
-                    ke = min(total, ks + len(k))
-                    out[ks:ke] += k[: ke - ks, None]
-                for half in (0, 1):
-                    ss = s + int((beat + half / 2 + 0.25) * BEAT * SR)
-                    if ss < total:
-                        sh = shaker(int(0.08 * SR), rng) * 0.05
-                        se = min(total, ss + len(sh))
-                        out[ss:se] += sh[: se - ss, None]
-    # simple room: two feedback delays
-    for d, g in ((0.11, 0.25), (0.23, 0.15)):
-        k = int(d * SR)
-        out[k:] += out[:-k] * g
-    fade = int(1.5 * SR)
+            seg = pad(padn, nbar + int(1.0 * SR), rng) * 0.10
+            dry[s : s + len(seg)] += seg
+        tt = np.arange(nbar + int(0.8 * SR)) / SR
+        low = np.sin(2 * np.pi * hz(root - 12) * tt) + 0.3 * np.sin(2 * np.pi * hz(root) * tt)
+        low *= np.minimum(1, tt / 0.4) * np.minimum(1, (tt[-1] - tt) / 0.8) * 0.13
+        dry[s : s + len(low)] += low[:, None]
+        # piano: rolled chord on beat 1, then a sparse melody note pattern
+        for i, note in enumerate(keys):
+            ns = s + int(i * 0.035 * SR)
+            tone = piano(hz(note), int(4.5 * SR), 0.55 - 0.05 * i) * 0.11
+            pan = 0.35 + 0.1 * i
+            dry[ns : ns + len(tone), 0] += tone * (1 - pan)
+            dry[ns : ns + len(tone), 1] += tone * pan
+        top = keys[-1] + 12
+        melody = [(1.5, top - 5), (2.0, top - 3 if b % 2 == 0 else top - 1), (3.0, top - 5)]
+        for beat, note in melody:
+            ns = s + int(beat * BEAT * SR)
+            tone = piano(hz(note), int(3.0 * SR), 0.4) * 0.09
+            dry[ns : ns + len(tone)] += tone[:, None] * np.array([0.45, 0.55])
+    dry = dry[:total]
+    wet = room(dry, rng)
+    out = 0.75 * dry + 0.55 * wet
+    fade = int(3.0 * SR)
     out[-fade:] *= np.linspace(1, 0, fade)[:, None]
     return out / (np.abs(out).max() + 1e-9) * 0.9
 
 
 if __name__ == "__main__":
     path = sys.argv[1]
-    secs = float(sys.argv[2]) if len(sys.argv) > 2 else 30.0
+    secs = float(sys.argv[2]) if len(sys.argv) > 2 else 40.0
     sf.write(path, theme(secs), SR)
     print(f"Wrote {path} ({secs:.1f}s)")
