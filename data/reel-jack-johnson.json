@@ -1,0 +1,401 @@
+{
+ "id": "reel-jack-johnson",
+ "title": "Pardoned 72 Years After He Died",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.1,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "faces": {
+  "c1908": [
+   [
+    0.24,
+    0.02,
+    0.56,
+    0.29
+   ]
+  ],
+  "portrait": [
+   [
+    0.4,
+    0.0,
+    0.56,
+    0.12
+   ]
+  ],
+  "smile": [
+   [
+    0.34,
+    0.22,
+    0.62,
+    0.62
+   ]
+  ],
+  "etta": [
+   [
+    0.29,
+    0.06,
+    0.4,
+    0.15
+   ],
+   [
+    0.63,
+    0.12,
+    0.74,
+    0.2
+   ]
+  ],
+  "fight": [
+   [
+    0.35,
+    0.2,
+    0.75,
+    0.6
+   ]
+  ]
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Pardoned seventy-two years after he died.",
+   "section": "hook",
+   "visual": {
+    "kind": "photo",
+    "image": "c1908",
+    "focus": [
+     0.4,
+     0.15
+    ],
+    "zoom": [
+     1.45,
+     1.52
+    ],
+    "anchor": [
+     0.5,
+     0.28
+    ]
+   },
+   "overlays": {
+    "hook": "Pardoned *72 years after he died.*"
+   },
+   "captions": false,
+   "speed": 1.3
+  },
+  {
+   "id": "name",
+   "text": "Meet Jack Johnson.",
+   "section": "who",
+   "visual": {
+    "kind": "photo",
+    "image": "c1908",
+    "focus": [
+     0.45,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.45,
+     0.32
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Jack Johnson",
+     "sub": "Boxer · 1878 – 1946"
+    }
+   }
+  },
+  {
+   "id": "born",
+   "text": "He was born in Galveston, Texas, in 1878, to parents who had been enslaved.",
+   "visual": {
+    "kind": "title",
+    "title": "1878",
+    "sub": "born in Galveston, Texas"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Galveston",
+     "sub": "Texas"
+    }
+   }
+  },
+  {
+   "id": "champ",
+   "text": "In 1908, in Sydney, Australia, he beat Tommy Burns, and became the first Black heavyweight champion of the world.",
+   "section": "story",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.48,
+     0.2
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.48,
+     0.3
+    ]
+   },
+   "overlays": {
+    "stamp": "Sydney, 1908"
+   }
+  },
+  {
+   "id": "hope",
+   "text": "Many white Americans were furious. They called for a Great White Hope to take the title back.",
+   "visual": {
+    "kind": "title",
+    "title": "Furious",
+    "sub": "white America wants the title back"
+   }
+  },
+  {
+   "id": "jeffries",
+   "text": "On July 4, 1910, in Reno, former champion Jim Jeffries came out of retirement to fight him. Johnson won.",
+   "visual": {
+    "kind": "card",
+    "image": "fight",
+    "crop": [
+     0.05,
+     0.0,
+     0.95,
+     1.0
+    ],
+    "caption": "Johnson and Jeffries, Reno, July 4, 1910"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Reno",
+     "sub": "Nevada"
+    }
+   }
+  },
+  {
+   "id": "riots",
+   "text": "That night, white mobs attacked Black Americans in cities across the country.",
+   "section": "cost",
+   "visual": {
+    "kind": "title",
+    "title": "Race riots",
+    "sub": "after the fight, 1910"
+   }
+  },
+  {
+   "id": "mann",
+   "text": "In 1913, an all-white jury convicted him under the Mann Act, over his relationships with white women.",
+   "visual": {
+    "kind": "card",
+    "image": "etta",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.75
+    ],
+    "caption": "Johnson and his wife Etta, 1910"
+   }
+  },
+  {
+   "id": "prison",
+   "text": "He fled the country. In 1920, he came back and served about ten months in federal prison.",
+   "visual": {
+    "kind": "title",
+    "title": "Prison",
+    "sub": "Leavenworth, 1920"
+   }
+  },
+  {
+   "id": "death",
+   "text": "He died in a car crash in 1946.",
+   "visual": {
+    "kind": "photo",
+    "image": "smile",
+    "focus": [
+     0.48,
+     0.4
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.48,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "pardon",
+   "text": "On May 24, 2018, the President of the United States granted him a pardon.",
+   "section": "legacy",
+   "visual": {
+    "kind": "title",
+    "title": "Pardoned",
+    "sub": "May 24, 2018"
+   }
+  },
+  {
+   "id": "legacy",
+   "text": "Champion of the world. Convicted over who he loved. Pardoned seventy-two years too late.",
+   "visual": {
+    "kind": "photo",
+    "image": "c1908",
+    "focus": [
+     0.4,
+     0.15
+    ],
+    "zoom": [
+     1.25,
+     1.32
+    ],
+    "anchor": [
+     0.5,
+     0.28
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "section": "cta",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sources": {
+  "NMAAHC": {
+   "name": "Smithsonian NMAAHC: Jack Johnson",
+   "url": "https://nmaahc.si.edu/explore/stories/jack-johnson"
+  },
+  "PBS": {
+   "name": "PBS NewsHour: Trump pardons heavyweight boxer Jack Johnson for 1913 conviction (24 May 2018)",
+   "url": "https://www.pbs.org/newshour/politics/donald-trump-pardons-heavyweight-boxer-jack-johnson-for-1913-conviction"
+  },
+  "FOX": {
+   "name": "Fox News: President Trump posthumously pardons Jack Johnson (24 May 2018)",
+   "url": "https://www.foxnews.com/politics/2018/05/24/trump-posthumously-pardons-jack-johnson-boxings-first-black-heavyweight-champion.html"
+  },
+  "ESPN": {
+   "name": "ESPN SportsCentury: Johnson boxed, lived on own terms",
+   "url": "https://m.espn.com/sportscentury/features/00014275.html"
+  },
+  "BIO": {
+   "name": "Biography.com: Jack Johnson",
+   "url": "https://www.biography.com/athletes/jack-johnson"
+  }
+ },
+ "facts": [
+  {
+   "beat": "hook",
+   "claim": "Died 1946; posthumously pardoned 24 May 2018 (72 years later).",
+   "sources": [
+    "PBS",
+    "FOX",
+    "NMAAHC"
+   ]
+  },
+  {
+   "beat": "born",
+   "claim": "Born Galveston, Texas, 1878, to formerly enslaved parents.",
+   "sources": [
+    "NMAAHC",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "champ",
+   "claim": "Beat Tommy Burns in Sydney, 1908; first Black world heavyweight champion.",
+   "sources": [
+    "NMAAHC",
+    "BIO",
+    "PBS"
+   ]
+  },
+  {
+   "beat": "hope",
+   "claim": "White demand for a 'Great White Hope' to reclaim the title.",
+   "sources": [
+    "NMAAHC",
+    "ESPN"
+   ]
+  },
+  {
+   "beat": "jeffries",
+   "claim": "Beat Jim Jeffries, who came out of retirement, in Reno, 4 July 1910.",
+   "sources": [
+    "NMAAHC",
+    "ESPN",
+    "PBS"
+   ]
+  },
+  {
+   "beat": "riots",
+   "claim": "Race riots / white mob attacks across the US after the fight.",
+   "sources": [
+    "NMAAHC",
+    "PBS",
+    "ESPN"
+   ]
+  },
+  {
+   "beat": "mann",
+   "claim": "Convicted 1913 by an all-white jury under the Mann Act, targeting his relationships with white women.",
+   "sources": [
+    "PBS",
+    "FOX"
+   ]
+  },
+  {
+   "beat": "prison",
+   "claim": "Fled; returned 1920; served about ten months (Leavenworth).",
+   "sources": [
+    "PBS",
+    "ESPN"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died in a car crash in 1946.",
+   "sources": [
+    "NMAAHC",
+    "BIO"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Exact crash date (sources conflict: June 10 vs other)",
+  "Prize money figures (conflict)",
+  "Quote from the pardon ceremony"
+ ]
+}

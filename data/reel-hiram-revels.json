@@ -1,0 +1,378 @@
+{
+ "id": "reel-hiram-revels",
+ "title": "Mississippi Sent America's First Black Senator",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.1,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "faces": {
+  "revels": [
+   [
+    0.27,
+    0.06,
+    0.47,
+    0.25
+   ]
+  ],
+  "davis": [
+   [
+    0.4,
+    0.19,
+    0.56,
+    0.38
+   ]
+  ],
+  "group": [
+   [
+    0.08,
+    0.05,
+    0.9,
+    0.5
+   ]
+  ]
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Mississippi sent America's first Black senator. In 1870.",
+   "section": "hook",
+   "visual": {
+    "kind": "photo",
+    "image": "revels",
+    "focus": [
+     0.37,
+     0.16
+    ],
+    "zoom": [
+     1.55,
+     1.62
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "hook": "Mississippi sent America's *first Black senator.*"
+   },
+   "captions": false,
+   "speed": 1.3
+  },
+  {
+   "id": "name",
+   "text": "Meet Hiram Revels.",
+   "section": "who",
+   "visual": {
+    "kind": "photo",
+    "image": "revels",
+    "focus": [
+     0.4,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.45,
+     0.35
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Hiram Revels",
+     "sub": "U.S. Senator · 1827 – 1901"
+    }
+   }
+  },
+  {
+   "id": "born",
+   "text": "He was born free in North Carolina in 1827, and became a preacher and educator.",
+   "visual": {
+    "kind": "title",
+    "title": "1827",
+    "sub": "born free in North Carolina"
+   },
+   "overlays": {
+    "pin": {
+     "label": "North Carolina",
+     "sub": "born 1827"
+    }
+   }
+  },
+  {
+   "id": "war",
+   "text": "During the Civil War, he helped recruit Black soldiers for the Union, and served as a chaplain.",
+   "section": "story",
+   "visual": {
+    "kind": "title",
+    "title": "Union chaplain",
+    "sub": "in the Civil War"
+   }
+  },
+  {
+   "id": "davis",
+   "text": "In 1861, Mississippi's senator Jefferson Davis had walked out of the Senate to lead the Confederacy.",
+   "visual": {
+    "kind": "photo",
+    "image": "davis",
+    "focus": [
+     0.48,
+     0.32
+    ],
+    "zoom": [
+     1.1,
+     1.18
+    ],
+    "anchor": [
+     0.45,
+     0.3
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Jefferson Davis",
+     "sub": "Confederate president"
+    }
+   }
+  },
+  {
+   "id": "elected",
+   "text": "Nine years later, in January 1870, Mississippi's new legislature chose Revels, a state senator from Natchez, for the United States Senate.",
+   "visual": {
+    "kind": "photo",
+    "image": "revels",
+    "focus": [
+     0.4,
+     0.25
+    ],
+    "zoom": [
+     1.15,
+     1.22
+    ],
+    "anchor": [
+     0.45,
+     0.3
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Natchez",
+     "sub": "Mississippi"
+    }
+   }
+  },
+  {
+   "id": "block",
+   "text": "Democrats tried to block him. They argued he had not been a citizen for nine years, pointing to the Dred Scott decision.",
+   "section": "cost",
+   "visual": {
+    "kind": "title",
+    "title": "Challenged",
+    "sub": "by Senate Democrats"
+   }
+  },
+  {
+   "id": "seated",
+   "text": "On February 25, 1870, the Senate voted 48 to 8 to seat him.",
+   "visual": {
+    "kind": "title",
+    "title": "48 to 8",
+    "sub": "the Senate votes to seat him"
+   },
+   "overlays": {
+    "stamp": "Feb. 1870"
+   }
+  },
+  {
+   "id": "first",
+   "text": "He became the first Black American to serve in Congress, the first of many during Reconstruction.",
+   "visual": {
+    "kind": "card",
+    "image": "group",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.86
+    ],
+    "caption": "The first Black senator and representatives, 1872. Revels, far left"
+   }
+  },
+  {
+   "id": "alcorn",
+   "text": "After his term, he became the first president of Alcorn, a new college for Black students in Mississippi.",
+   "section": "legacy",
+   "visual": {
+    "kind": "photo",
+    "image": "revels",
+    "focus": [
+     0.4,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.45,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "legacy",
+   "text": "Born free. Seated in the Senate. And Mississippi made it happen.",
+   "visual": {
+    "kind": "photo",
+    "image": "revels",
+    "focus": [
+     0.37,
+     0.16
+    ],
+    "zoom": [
+     1.3,
+     1.38
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "section": "cta",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sources": {
+  "NPS": {
+   "name": "National Park Service: Hiram Rhodes Revels",
+   "url": "https://www.nps.gov/people/hiram-rhodes-revels.htm"
+  },
+  "TIME": {
+   "name": "Time: Hiram Revels, first Black senator",
+   "url": "https://time.com/3714088/hiram-revels/"
+  },
+  "BRIT": {
+   "name": "Encyclopaedia Britannica: Hiram R. Revels",
+   "url": "https://www.britannica.com/biography/Hiram-R-Revels"
+  },
+  "UCLA": {
+   "name": "UCLA Arthur Ashe: The First African-American Congressman: Hiram Rhodes Revels",
+   "url": "https://arthurashe.ucla.edu/2016/02/01/the-first-african-american-congressman-hiram-rhodes-revels"
+  },
+  "SEP": {
+   "name": "Saturday Evening Post (2020): The First Black U.S. Senator",
+   "url": "https://www.saturdayeveningpost.com/2020/02/the-first-black-u-s-senator-argued-for-integration-after-the-civil-war/"
+  }
+ },
+ "facts": [
+  {
+   "beat": "hook",
+   "claim": "First African American U.S. senator, from Mississippi, seated 1870.",
+   "sources": [
+    "NPS",
+    "TIME",
+    "BRIT"
+   ]
+  },
+  {
+   "beat": "born",
+   "claim": "Born free, Fayetteville NC, 27 Sept 1827; AME minister; educator.",
+   "sources": [
+    "NPS",
+    "BRIT"
+   ]
+  },
+  {
+   "beat": "war",
+   "claim": "Helped recruit Black regiments; chaplain of a Black regiment.",
+   "sources": [
+    "NPS",
+    "BRIT"
+   ]
+  },
+  {
+   "beat": "davis",
+   "claim": "Jefferson Davis left the Senate in January 1861 and became Confederate president.",
+   "sources": [
+    "BRIT",
+    "TIME"
+   ]
+  },
+  {
+   "beat": "elected",
+   "claim": "Mississippi legislature chose him 20 Jan 1870; he was a state senator (Natchez).",
+   "sources": [
+    "NPS",
+    "UCLA"
+   ]
+  },
+  {
+   "beat": "block",
+   "claim": "Democrats argued he lacked nine years' citizenship, citing Dred Scott.",
+   "sources": [
+    "NPS",
+    "UCLA",
+    "SEP"
+   ]
+  },
+  {
+   "beat": "seated",
+   "claim": "Seated 25 Feb 1870 by 48 to 8.",
+   "sources": [
+    "NPS",
+    "UCLA",
+    "TIME"
+   ]
+  },
+  {
+   "beat": "first",
+   "claim": "First African American to serve in Congress.",
+   "sources": [
+    "NPS",
+    "BRIT"
+   ]
+  },
+  {
+   "beat": "alcorn",
+   "claim": "First president of Alcorn University (1871).",
+   "sources": [
+    "NPS",
+    "BRIT"
+   ]
+  }
+ ],
+ "notUsed": [
+  "'He took Jefferson Davis's seat': false; he filled Albert G. Brown's former seat (NPS, Time). Adelbert Ames took Davis's former seat."
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "c1908": {
+  "title": "File:Jack Johnson boxer c1908.jpg",
+  "artist": "Unknown photographer",
+  "date": "before 1909",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Jack_Johnson_boxer_c1908.jpg",
+  "width": 1280,
+  "height": 2131
+ },
+ "portrait": {
+  "title": "File:Jack Johnson boxer.jpg",
+  "artist": "Unknown photographer (D.W.A.); Library of Congress",
+  "date": "between 1910 and 1915",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Jack_Johnson_boxer.jpg",
+  "width": 1920,
+  "height": 2963
+ },
+ "smile": {
+  "title": "File:Jack Johnson and his \"golden smile\" LCCN2011649817.jpg",
+  "artist": "Unknown photographer; Library of Congress",
+  "date": "1909",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Jack_Johnson_and_his_%22golden_smile%22_LCCN2011649817.jpg",
+  "width": 1920,
+  "height": 1408
+ },
+ "etta": {
+  "title": "File:Jack Johnson and his wife Etta LCCN2011649815 (cropped).jpg",
+  "artist": "Unknown photographer; Library of Congress",
+  "date": "1910",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Jack_Johnson_and_his_wife_Etta_LCCN2011649815_(cropped).jpg",
+  "width": 1920,
+  "height": 2733
+ },
+ "fight": {
+  "title": "File:Johnson-Jeffries-1910-NMAAHC-2010 36 1 2 001.jpg",
+  "artist": "Photographic postcard; Smithsonian NMAAHC",
+  "date": "1910",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Johnson-Jeffries-1910-NMAAHC-2010_36_1_2_001.jpg",
+  "width": 960,
+  "height": 645
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "revels": {
+  "title": "File:Hiram Rhodes Revels - Brady-Handy.jpg",
+  "artist": "Mathew Brady / Levin Handy studio; Library of Congress",
+  "date": "between 1860 and 1875",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Hiram_Rhodes_Revels_-_Brady-Handy.jpg",
+  "width": 1920,
+  "height": 2240
+ },
+ "revels2": {
+  "title": "File:Hiram Rhodes Revels Brady-Handy2.jpg",
+  "artist": "Brady-Handy studio; Library of Congress",
+  "date": "between 1860 and 1875",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Hiram_Rhodes_Revels_Brady-Handy2.jpg",
+  "width": 1920,
+  "height": 2240
+ },
+ "group": {
+  "title": "File:The first colored senator and representatives - in the 41st and 42nd Congress of the United States LCCN98501907.jpg",
+  "artist": "Currier & Ives, lithograph; Library of Congress",
+  "date": "1872",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:The_first_colored_senator_and_representatives_-_in_the_41st_and_42nd_Congress_of_the_United_States_LCCN98501907.jpg",
+  "width": 960,
+  "height": 733
+ },
+ "davis": {
+  "title": "File:Jefferson Davis - NARA - 528293a.jpg",
+  "artist": "Mathew Brady studio; U.S. National Archives",
+  "date": "c. 1860",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Jefferson_Davis_-_NARA_-_528293a.jpg",
+  "width": 1280,
+  "height": 1509
+ }
+}
