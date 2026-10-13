@@ -1,0 +1,258 @@
+{
+ "id": "podcast-ep02-robert-smalls",
+ "show": "Black History in 10 Minutes",
+ "episode": 2,
+ "title": "Robert Smalls: He Stole a Confederate Ship",
+ "voice": {
+  "engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.86,
+  "lang": "en-us"
+ },
+ "music": {
+  "bedDb": -19,
+  "lead": 2.6
+ },
+ "segments": [
+  {
+   "chapter": "Welcome",
+   "bed": true,
+   "text": "Hello, and welcome to Black History in 10 Minutes, from The Black History Room.",
+   "pause": 0.6
+  },
+  {
+   "bed": true,
+   "text": "Every episode, one true story that history tried to forget, told in about ten minutes.",
+   "pause": 0.5
+  },
+  {
+   "bed": true,
+   "text": "So get comfortable, and let's begin.",
+   "pause": 0.2
+  },
+  {
+   "swell": 3.2
+  },
+  {
+   "text": "Today: the man who took a Confederate ship, and sailed his family to freedom.",
+   "pause": 0.8,
+   "chapter": "A ship and a plan",
+   "bed": "out"
+  },
+  {
+   "text": "Before dawn on May the thirteenth, 1862, an enslaved man put on the captain's straw hat, stood at the wheel of an armed Confederate steamer, and sailed it straight past the guns of Fort Sumter. On board were sixteen people. And Smalls had made a grim promise: if they were caught, they would sink the ship rather than surrender.",
+   "pause": 0.7
+  },
+  {
+   "text": "His name was Robert Smalls. And by the end of his life, he had served five terms in the United States Congress.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 3.0
+  },
+  {
+   "text": "Robert Smalls was born into slavery on April the fifth, 1839, in Beaufort, South Carolina. His mother, Lydia Polite, was enslaved by the McKee family, and Robert grew up in the shadow of their house.",
+   "pause": 0.8,
+   "chapter": "Beaufort and Charleston"
+  },
+  {
+   "text": "When he was about twelve, he was sent to Charleston and hired out. He lit the city's street lamps. He worked on the docks, as a rigger and a sailor. But the money he earned was not his. Most of his wages went to his owner.",
+   "pause": 0.8
+  },
+  {
+   "text": "Year by year, he learned the water. The tides, the channels, the sandbars of Charleston harbor. He became so skilled that he was steering ships, doing the work of a pilot, the job the law would never give him the title for.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "In 1856, he married Hannah Jones, an enslaved woman who worked in Charleston hotels. They started a family.",
+   "pause": 0.8,
+   "chapter": "A family for sale"
+  },
+  {
+   "text": "And Robert tried to do it the legal way. He asked what it would cost to buy his wife and their little daughter. The answer was about eight hundred dollars. He had saved about one hundred. At that rate, it could take him most of his life. And at any moment, his family could be sold away from him.",
+   "pause": 0.8
+  },
+  {
+   "text": "So he started to think about another way out.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "When the Civil War began, Smalls was working aboard a Confederate steamer called the Planter. It carried guns, ammunition and supplies around Charleston harbor. Smalls was its wheelman. He knew the ship, the harbor, and every signal the captain gave to pass the forts.",
+   "pause": 0.8,
+   "chapter": "The night of the escape"
+  },
+  {
+   "text": "On May the twelfth, 1862, the Planter took on four big guns from a dismantled fort, along with ammunition. That evening, the three white officers went ashore for the night, as they often did, leaving the ship to the enslaved crew. It was the chance Smalls had been waiting for.",
+   "pause": 0.8
+  },
+  {
+   "text": "Around three in the morning, the crew fired up the boilers and slipped away from the wharf. They stopped at another wharf to pick up their families, including Hannah and the children. Sixteen people were now aboard.",
+   "pause": 0.8
+  },
+  {
+   "text": "Then they headed for the harbor mouth, past fort after fort: Castle Pinckney, Fort Johnson, Fort Moultrie. Smalls put on the captain's straw hat, folded his arms, and stood the way the captain stood, so that from a distance, in the dark, he would look like him. At each fort, he gave the right whistle signals. And one after another, the forts let them pass. At about half past four in the morning, they steamed past Fort Sumter itself.",
+   "pause": 0.8
+  },
+  {
+   "text": "Once they were out of range, the crew pulled down the Confederate flag and raised a white bedsheet. As the sun came up, they steered for the Union ships blockading the harbor. In the morning fog, the crew of the U.S.S. Onward saw a Confederate steamer coming straight at them. They swung a gun toward the Planter and were about to fire, when someone shouted that he could see a white flag. Robert Smalls handed over the Planter, its guns, and its cargo to the United States Navy.",
+   "pause": 0.8
+  },
+  {
+   "text": "Sixteen people had gone to sleep enslaved. By sunrise, they were free. And the Union had gained not only a ship, but a man who knew every channel, fort and mine in Charleston harbor.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "The news spread across the North. Harper's Weekly put Smalls's face in its pages. Congress passed a bill to reward him and his crew, and Smalls received fifteen hundred dollars.",
+   "pause": 0.8,
+   "chapter": "Fighting for the Union"
+  },
+  {
+   "text": "And he did more than escape. The Union general in the region sent Smalls to Washington, with a message for President Lincoln and the Secretary of War: let Black men fight. Soon after, the Secretary of War authorized up to five thousand Black soldiers to be raised in the area.",
+   "pause": 0.8
+  },
+  {
+   "text": "Smalls went back to the war, this time on the Union side. He piloted the Planter and the ironclad Keokuk in at least twelve engagements. In one battle, under heavy fire, the white captain lost his nerve, and Smalls took command and brought the ship to safety. Afterward, he was made the Planter's captain.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "Even as a war hero, he was not treated as an equal. In December 1864, in Philadelphia, he was thrown off a streetcar reserved for white passengers. He joined a mass boycott. And in 1867, a new law opened Philadelphia's streetcars to Black passengers.",
+   "pause": 0.8,
+   "chapter": "Coming home"
+  },
+  {
+   "text": "After the war, Robert Smalls went home to Beaufort. And he bought the house where he had been enslaved. The boy who had grown up in the shadow of that house now owned it.",
+   "pause": 0.8
+  },
+  {
+   "text": "He opened a store, and a school for Black children. In 1868, he helped write a new constitution for South Carolina. He served in the state house, then the state senate. And in 1875, he took his seat in the United States House of Representatives. Over the years, he served five terms in Congress.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "But Reconstruction did not last. White supremacists took back power in South Carolina, and set out to take the vote away from Black citizens.",
+   "pause": 0.8,
+   "chapter": "The last stand"
+  },
+  {
+   "text": "In 1895, South Carolina held a convention to write a new constitution, designed to strip Black men of the right to vote. Robert Smalls was one of only six Black delegates. He stood up and spoke against it. He said of his people: All they need is an equal chance in the battle of life. He lost that vote. But he did not stay silent.",
+   "pause": 0.8
+  },
+  {
+   "text": "He served for years as the collector of customs at the port of Beaufort. And on February the twenty-third, nineteen fifteen, Robert Smalls died, in the house where he had once been enslaved.",
+   "pause": 1.0
+  },
+  {
+   "text": "A boy whose wages belonged to someone else. A father who could not afford to buy his own family. A man who took a warship, sailed past Fort Sumter, and bought back the house he was born a slave in.",
+   "pause": 1.0,
+   "chapter": "Outro",
+   "bed": "in"
+  },
+  {
+   "text": "That's the story of Robert Smalls. Thank you for listening to Black History in 10 Minutes, from The Black History Room. If this story meant something to you, follow the show, and share it with someone who should hear it. And if you'd like to help us keep these stories coming, you can support us on Ko-fi, at ko-fi dot com, slash, the black history room.",
+   "pause": 0.8,
+   "bed": true
+  },
+  {
+   "text": "Next time: a baby who was traded for a horse, and grew up to become one of the most famous scientists in America. Until then, keep history alive.",
+   "pause": 0.3,
+   "bed": true
+  },
+  {
+   "swell": 6.0,
+   "end": true
+  }
+ ],
+ "sources": {
+  "birth, mother, McKee, Charleston hiring out, wages, marriage 1856": [
+   "US House History, Art & Archives: SMALLS, Robert",
+   "NPS, Robert Smalls House NHL nomination",
+   "Lowcountry Walking Tours"
+  ],
+  "$800 for wife and daughter, about $100 saved": [
+   "Henry Louis Gates Jr., PBS Many Rivers to Cross",
+   "Ancestral Findings",
+   "Lowcountry Walking Tours"
+  ],
+  "Planter, officers ashore, time, families, 16 aboard, straw hat, signals, Sumter, white sheet, USS Onward": [
+   "National Archives, Prologue",
+   "Naval History and Heritage Command, DANFS: Planter",
+   "NPS Reconstruction Era NHP",
+   "Gates, PBS",
+   "US House History"
+  ],
+  "prize money $1,500": [
+   "New World Encyclopedia",
+   "Gale blog: Robert Smalls",
+   "SC General Assembly resolution (2022)"
+  ],
+  "message to Lincoln and Stanton; up to 5,000 Black soldiers": [
+   "US House History",
+   "New World Encyclopedia",
+   "Britannica"
+  ],
+  "12 engagements, Keokuk; took command under fire, made captain": [
+   "US House History",
+   "SC General Assembly resolution",
+   "Mental Floss",
+   "Digital History (Univ. of Houston)"
+  ],
+  "Philadelphia streetcar 1864, 1867 law": [
+   "US House History",
+   "SC General Assembly resolution"
+  ],
+  "bought the house": [
+   "US House History",
+   "NPS, 1863 Beaufort District Tax Sale",
+   "NPS NHL nomination"
+  ],
+  "school, 1868 convention, state house and senate, Congress": [
+   "US House History",
+   "Digital History (Univ. of Houston)"
+  ],
+  "1895 convention, quote": [
+   "US House History (quote)",
+   "NPS Reconstruction Era NHP / his Beaufort monument inscription"
+  ],
+  "customs collector, death 23 Feb 1915 at home": [
+   "US House History",
+   "CBP history: Collector of Customs",
+   "NPS NHL nomination"
+  ],
+  "promise to sink the ship rather than surrender": [
+   "Gates, PBS",
+   "HistoryNet, The Unstoppable Mr. Smalls"
+  ],
+  "Onward nearly fired": [
+   "Gates, PBS",
+   "American Battlefield Trust",
+   "HistoryNet"
+  ],
+  "four guns loaded May 12; officers ashore as usual; ~4:30 a.m. past Sumter; harbor knowledge": [
+   "National Archives, Prologue",
+   "Naval History and Heritage Command, DANFS",
+   "NPS Reconstruction Era NHP (route map)",
+   "Gates, PBS"
+  ]
+ },
+ "notUsed": [
+  "'I've brought you some of the old United States guns' (single source)",
+  "exact wage he kept (sources conflict)",
+  "1900 extra award of $5,000 (left out for time)",
+  "17 aboard (Gates) vs 16 (House, Navy, NPS): used 16",
+  "bribery conviction 1877, pardoned 1879 (left out for time)"
+ ]
+}

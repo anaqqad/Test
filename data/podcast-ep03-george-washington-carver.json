@@ -1,0 +1,270 @@
+{
+ "id": "podcast-ep03-george-washington-carver",
+ "show": "Black History in 10 Minutes",
+ "episode": 3,
+ "title": "George Washington Carver: Traded for a Horse",
+ "voice": {
+  "engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.86,
+  "lang": "en-us"
+ },
+ "music": {
+  "bedDb": -19,
+  "lead": 2.6
+ },
+ "segments": [
+  {
+   "chapter": "Welcome",
+   "bed": true,
+   "text": "Hello, and welcome to Black History in 10 Minutes, from The Black History Room.",
+   "pause": 0.6
+  },
+  {
+   "bed": true,
+   "text": "Every episode, one true story that history tried to forget, told in about ten minutes.",
+   "pause": 0.5
+  },
+  {
+   "bed": true,
+   "text": "So get comfortable, and let's begin.",
+   "pause": 0.2
+  },
+  {
+   "swell": 3.2
+  },
+  {
+   "text": "As a baby, he was traded for a horse. And he grew up to become one of the most famous scientists in America.",
+   "pause": 0.8,
+   "chapter": "Traded for a horse",
+   "bed": "out"
+  },
+  {
+   "text": "He was born into slavery. He was kidnapped before he could walk. He was turned away from college because of the color of his skin. And yet, by the end of his life, a nation built him a monument. His name was George Washington Carver. And today, we follow him from a farm in Missouri to the halls of Congress.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 3.0
+  },
+  {
+   "text": "He was born on Moses Carver's farm, near Diamond, Missouri, near the end of the Civil War. No one wrote down the date. Not even the year. His mother, Mary, was enslaved by Moses Carver.",
+   "pause": 0.8,
+   "chapter": "Kidnapped"
+  },
+  {
+   "text": "When George was still a baby, a band of raiders rode onto the farm and carried off the baby and his mother. Moses Carver sent someone after them. The baby was found and brought back. Getting him back cost Moses Carver one of his finest horses.",
+   "pause": 0.8
+  },
+  {
+   "text": "His mother was never found. George never saw her again.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "After slavery ended, Moses and Susan Carver kept George and his older brother, Jim, and raised them. George was small and often sick, so he stayed close to the house, helping in the kitchen and the garden. No school nearby would take a Black child, so Susan Carver taught him to read and write.",
+   "pause": 0.8,
+   "chapter": "A boy who loved plants"
+  },
+  {
+   "text": "And he fell in love with plants. He wandered the woods, collecting them, studying them, and nursing sick ones back to health.",
+   "pause": 0.8
+  },
+  {
+   "text": "When he was still a boy, maybe eleven or twelve, he left the farm and walked about eight miles to Neosho, the nearest town with a school for Black children. He stayed with a Black couple, Andrew and Mariah Watkins. When he introduced himself as Carver's George, the name he had always been called, Mariah told him that from now on, his name was George Carver.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "For years he moved from town to town across Missouri and Kansas, working odd jobs, cooking and doing laundry, and going to school wherever he could.",
+   "pause": 0.8,
+   "chapter": "Turned away"
+  },
+  {
+   "text": "Then he applied to Highland College in Kansas, and he was accepted. But when he arrived to register, the school saw that he was Black. He was told his acceptance was a mistake. He was turned away.",
+   "pause": 0.8
+  },
+  {
+   "text": "He did not give up. In Iowa, he enrolled at Simpson College, a small school that admitted qualified students regardless of race, and he studied art. He was a gifted painter. His art teacher, Etta Budd, quickly saw she had little left to teach him, and she noticed how much he knew about plants. She urged him to study agriculture at Iowa State, where her father taught horticulture.",
+   "pause": 0.8
+  },
+  {
+   "text": "And something remarkable happened to one of his paintings. In 1893, his painting called Yucca and Cactus was shown in the Iowa building at the World's Fair in Chicago, where it received an honorable mention.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "At Iowa State, George Washington Carver became the school's first Black student. In 1894, he earned his bachelor's degree in agriculture. His professors did not want to lose him, and they persuaded him to stay for graduate work.",
+   "pause": 0.8,
+   "chapter": "Iowa State"
+  },
+  {
+   "text": "He studied plant diseases and fungi, the hidden enemies that ruin a farmer's harvest. His research at the Iowa experiment station began to earn him national respect as a botanist. In 1896, he earned his master's degree, and he became Iowa State's first Black faculty member. Not bad for a boy who had once been told his acceptance was a mistake.",
+   "pause": 0.8
+  },
+  {
+   "text": "He was building a career in Iowa. Then, in 1896, a letter arrived from Alabama.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "It came from Booker T. Washington, the head of Tuskegee Institute, a school for Black students in Alabama. Washington wanted Carver to come and lead its agriculture work. Carver said yes. He stayed at Tuskegee for the rest of his life, nearly fifty years.",
+   "pause": 0.8,
+   "chapter": "Tuskegee"
+  },
+  {
+   "text": "When he arrived, there was almost nothing to work with. No real laboratory. So Carver and his students went looking through trash heaps, on campus and in town. Old bottles, jars, pots and pans, bits of metal, string and rubber. Out of other people's junk, they built their own equipment.",
+   "pause": 0.8
+  },
+  {
+   "text": "It was a lesson Carver would teach for the rest of his life. Use what you have. Waste nothing.",
+   "pause": 0.8
+  },
+  {
+   "text": "In the South, many Black farmers were trapped. They grew cotton, year after year, on land they often did not own. And cotton wore out the soil.",
+   "pause": 0.8
+  },
+  {
+   "text": "Carver's answer was simple. Rotate the crops. Plant peanuts, sweet potatoes, and other crops that could feed a family and help bring the soil back to life. He wrote plain, practical bulletins for farmers, with advice and recipes. And when farmers could not come to the school, the school went to them, on a farm school on wheels, called the Jesup Wagon.",
+   "pause": 0.4
+  },
+  {
+   "text": "Then, in the early nineteen hundreds, a tiny beetle called the boll weevil swept across the South and destroyed cotton crops. Farmers who depended on cotton alone were ruined. Carver's message suddenly mattered more than ever. Don't bet everything on one crop.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "In January 1921, Carver traveled to Washington to speak to the House Ways and Means Committee for the peanut growers, who wanted protection from foreign peanuts. He was given ten minutes.",
+   "pause": 0.8,
+   "chapter": "Ten minutes in Congress"
+  },
+  {
+   "text": "He unpacked his samples, and he began to show what could be made from the peanut. The congressmen were fascinated. And again and again, they extended his time. A Black scientist, born into slavery, held the attention of Congress, on the subject of peanuts.",
+   "pause": 0.8
+  },
+  {
+   "text": "After that, Carver became famous across the country. And with fame came myths. So let's clear one up. No, George Washington Carver did not invent peanut butter. Peanut pastes existed before his work began. And the famous claim that he found three hundred uses for the peanut is hard to pin down. Historians point out that many items were ideas or recipes, and he held only three patents in his whole life.",
+   "pause": 0.8
+  },
+  {
+   "text": "But that was never the point. Carver did not want to get rich. He wanted poor farmers to survive.",
+   "pause": 0.8
+  },
+  {
+   "text": "Honors followed. In 1923, the NAACP awarded him the Spingarn Medal, its highest honor. Farmers, students, and scientists wrote to him from across the country. He answered letters, gave talks, and kept working in his laboratory well into old age.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "text": "George Washington Carver died at Tuskegee on January the fifth, nineteen forty-three. He was buried there, on the campus where he had worked for almost half a century.",
+   "pause": 0.8,
+   "chapter": "A monument"
+  },
+  {
+   "text": "Just months later, in July 1943, the farm in Missouri where he was born became the George Washington Carver National Monument. It was the first national monument to honor an African American, and the first to honor someone who was not a president. Today, you can still visit that farm in Missouri, and walk the woods where a small, sickly boy once collected plants, and dreamed of learning everything about them.",
+   "pause": 1.0
+  },
+  {
+   "text": "A baby traded for a horse. A student turned away at the door. And in the end, the first African American with a national monument of his own.",
+   "pause": 1.0,
+   "chapter": "Outro",
+   "bed": "in"
+  },
+  {
+   "text": "That's the story of George Washington Carver. Thank you for listening to Black History in 10 Minutes, from The Black History Room. If this story meant something to you, follow the show, and share it with someone who should hear it. And if you'd like to help us keep these stories coming, you can support us on Ko-fi, at ko-fi dot com, slash, the black history room.",
+   "pause": 0.8,
+   "bed": true
+  },
+  {
+   "text": "Next time: a woman who escaped slavery disguised as a wealthy white man, with her husband posing as her servant. Until then, keep history alive.",
+   "pause": 0.3,
+   "bed": true
+  },
+  {
+   "swell": 6.0,
+   "end": true
+  }
+ ],
+ "sources": {
+  "birth, kidnapping, horse, mother": [
+   "Missouri Encyclopedia (State Historical Society of Missouri)",
+   "Missouri Department of Agriculture",
+   "NPS, George Washington Carver Birth Site",
+   "Raleigh H. Merritt, From Captivity to Fame (1929), via UNC DocSouth"
+  ],
+  "Susan Carver taught him, Jim, plants, Neosho, Mariah Watkins": [
+   "Missouri Encyclopedia",
+   "Biography.com",
+   "C.S. Lewis Institute"
+  ],
+  "Highland College, Simpson, Etta Budd, Iowa State firsts": [
+   "American Chemical Society, National Historic Chemical Landmark: George Washington Carver",
+   "Iowa PBS",
+   "Teaching Iowa History"
+  ],
+  "Yucca and Cactus, 1893": [
+   "The Henry Ford, What if an Artist Becomes a Scientist?",
+   "Iowa PBS"
+  ],
+  "Tuskegee 1896, crop rotation, bulletins, Jesup Wagon": [
+   "Missouri Encyclopedia",
+   "Missouri Department of Agriculture",
+   "Encyclopedia of Alabama",
+   "Biography.com"
+  ],
+  "1921 testimony, ten minutes extended": [
+   "Missouri Encyclopedia",
+   "American Heritage (1977)",
+   "Christian History Institute",
+   "Seed World"
+  ],
+  "peanut butter, 300 uses, three patents": [
+   "American Heritage (1977)",
+   "Ripley's",
+   "11Alive VERIFY",
+   "Linda Hall Library",
+   "NPS Tuskegee exhibit"
+  ],
+  "death, burial, monument firsts": [
+   "Missouri Encyclopedia",
+   "NPS, George Washington Carver National Monument",
+   "Today in Conservation"
+  ],
+  "bare lab, salvaged equipment": [
+   "The Henry Ford",
+   "New World Encyclopedia",
+   "American Story (U.S. State Dept. archive)"
+  ],
+  "boll weevil": [
+   "American Heritage (1977)",
+   "NPS, George Washington Carver",
+   "University of Central Arkansas STEM profile"
+  ],
+  "Spingarn Medal 1923": [
+   "NAACP via NPS",
+   "University of Alabama, Alabama Authors"
+  ],
+  "Iowa State graduate work, master's 1896, first Black faculty": [
+   "Iowa State University, Celebrating George Washington Carver",
+   "American Phytopathological Society, Carver feature"
+  ]
+ },
+ "notUsed": [
+  "'300 uses' as a fact (contested)",
+  "exact birth year (c. 1864)",
+  "burial next to Booker T. Washington (unverified)",
+  "Tuskegee job letter quote (unverified)",
+  "Edison job offer (contested)"
+ ]
+}
