@@ -57,7 +57,7 @@
  "beats": [
   {
    "id": "hook",
-   "text": "Mississippi sent America's first Black senator. In 1870.",
+   "text": "Mississippi sent America's first Black senator.",
    "section": "hook",
    "visual": {
     "kind": "photo",
@@ -79,7 +79,7 @@
     "hook": "Mississippi sent America's *first Black senator.*"
    },
    "captions": false,
-   "speed": 1.3
+   "speed": 1.35
   },
   {
    "id": "name",
@@ -125,7 +125,7 @@
   },
   {
    "id": "war",
-   "text": "During the Civil War, he helped recruit Black soldiers for the Union, and served as a chaplain.",
+   "text": "In the Civil War, he helped recruit Black soldiers for the Union, and served as a chaplain.",
    "section": "story",
    "visual": {
     "kind": "title",
@@ -161,7 +161,7 @@
   },
   {
    "id": "elected",
-   "text": "Nine years later, in January 1870, Mississippi's new legislature chose Revels, a state senator from Natchez, for the United States Senate.",
+   "text": "In January 1870, Mississippi's new legislature chose Revels, a state senator from Natchez, for the United States Senate.",
    "visual": {
     "kind": "photo",
     "image": "revels",
@@ -191,7 +191,7 @@
    "section": "cost",
    "visual": {
     "kind": "title",
-    "title": "Challenged",
+    "title": "Blocked",
     "sub": "by Senate Democrats"
    }
   },
