@@ -45,3 +45,9 @@ Sources: Frederick Douglass, Narrative of the Life of Frederick Douglass (1845) 
 - Left out: "he never smiled in photos" (one source only) and the exact price paid for The Columbian Orator.
 - Birth date is uncertain; said "around February 1818". Covey fight dated 1833 or 1834 by different sources; said "the sixteen-year-old".
 - Next episode teased: Robert Smalls.
+
+## Episode cover
+
+`publish/podcast/podcast-ep01-cover.jpg` (3000x3000). Photo: Samuel J. Miller, daguerreotype, 1847-52, Art Institute
+of Chicago, public domain (credits in `public/pd/reel-frederick-douglass/credits.json`). Built with
+`python3 scripts/make_episode_cover.py public/pd/reel-frederick-douglass/miller.jpg 0.5 0.47 0.86 publish/podcast/podcast-ep01-cover.jpg "Frederick|Douglass" "The Most Photographed American"`.
