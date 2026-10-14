@@ -151,3 +151,4 @@ Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: H
 - Reels 2026-10-13: Hiram Revels (hook "Mississippi sent America's first Black senator.", 2.48 s at speed 1.2; 1.35 garbled "Mississippi") and Jack Johnson ("Pardoned seventy-two years after he died.", 1.88 s). Myth avoided: Revels did NOT take Jefferson Davis's seat. Elizabeth Keckley skipped for now: only a 380x610 public-domain photo.
 - Kokoro rushes some names (e.g. "Mississippi" ~0.3 s at 1.3x). Fix: beat field `"stretch": {"Mississippi": 0.6}` in the
   spec slows just that word (ffmpeg atempo, pitch kept; cut placed in the quiet gap after the word). Used in the Revels hook.
+- Reels 2026-10-14: Jesse Owens ("Four Olympic golds. Then he raced a horse.", 2.36 s) and Sojourner Truth ("She sued a white man. And won.", 1.7 s). Lesson: never wait on another render with pgrep -f (matches itself); run renders sequentially in one job.
