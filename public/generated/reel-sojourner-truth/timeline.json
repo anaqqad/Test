@@ -1,10 +1,10 @@
 {
  "fps": 30,
- "durationInFrames": 2143,
+ "durationInFrames": 2003,
  "voice": "am_michael",
  "engine": "kokoro-onnx v1.0",
  "words": 170,
- "wpm": 142.8,
+ "wpm": 152.8,
  "beats": [
   {
    "id": "hook",
@@ -98,875 +98,875 @@
     {
      "text": "slavery",
      "start": 4.858,
-     "end": 5.298
+     "end": 5.278
     },
     {
      "text": "in",
-     "start": 5.298,
+     "start": 5.278,
      "end": 5.638
     },
     {
      "text": "New",
      "start": 5.638,
-     "end": 5.798
+     "end": 5.778
     },
     {
      "text": "York",
-     "start": 5.798,
-     "end": 6.138
+     "start": 5.778,
+     "end": 6.118
     },
     {
      "text": "around",
-     "start": 6.138,
-     "end": 6.458
+     "start": 6.118,
+     "end": 6.398
     },
     {
      "text": "1797,",
-     "start": 6.458,
-     "end": 7.958
+     "start": 6.398,
+     "end": 7.638
     },
     {
      "text": "and",
-     "start": 7.958,
-     "end": 9.138
+     "start": 7.638,
+     "end": 8.258
     },
     {
      "text": "named",
-     "start": 9.138,
-     "end": 9.458
+     "start": 8.258,
+     "end": 8.558
     },
     {
      "text": "Isabella.",
-     "start": 9.458,
-     "end": 9.978
+     "start": 8.558,
+     "end": 9.098
     }
    ],
    "cues": {},
    "startFrame": 116,
-   "endFrame": 319
+   "endFrame": 293
   },
   {
    "id": "walk",
    "words": [
     {
      "text": "Her",
-     "start": 10.742,
-     "end": 10.882
+     "start": 9.867,
+     "end": 10.007
     },
     {
      "text": "enslaver",
-     "start": 10.882,
-     "end": 11.542
+     "start": 10.007,
+     "end": 10.667
     },
     {
      "text": "promised",
-     "start": 11.542,
-     "end": 11.882
+     "start": 10.667,
+     "end": 11.007
     },
     {
      "text": "to",
-     "start": 11.882,
-     "end": 12.142
+     "start": 11.007,
+     "end": 11.267
     },
     {
      "text": "free",
-     "start": 12.142,
-     "end": 12.382
+     "start": 11.267,
+     "end": 11.507
     },
     {
      "text": "her,",
-     "start": 12.382,
-     "end": 12.682
+     "start": 11.507,
+     "end": 11.807
     },
     {
      "text": "then",
-     "start": 12.902,
-     "end": 13.122
+     "start": 12.027,
+     "end": 12.247
     },
     {
      "text": "broke",
-     "start": 13.122,
-     "end": 13.422
+     "start": 12.247,
+     "end": 12.547
     },
     {
      "text": "his",
-     "start": 13.422,
-     "end": 13.622
+     "start": 12.547,
+     "end": 12.747
     },
     {
      "text": "word.",
-     "start": 13.622,
-     "end": 13.962
+     "start": 12.747,
+     "end": 13.087
     },
     {
      "text": "So",
-     "start": 14.602,
-     "end": 14.682
+     "start": 13.727,
+     "end": 13.807
     },
     {
      "text": "she",
-     "start": 14.682,
-     "end": 14.822
+     "start": 13.807,
+     "end": 13.947
     },
     {
      "text": "walked",
-     "start": 14.822,
-     "end": 15.102
+     "start": 13.947,
+     "end": 14.227
     },
     {
      "text": "away",
-     "start": 15.102,
-     "end": 15.402
+     "start": 14.227,
+     "end": 14.527
     },
     {
      "text": "to",
-     "start": 15.402,
-     "end": 15.642
+     "start": 14.527,
+     "end": 14.767
     },
     {
      "text": "freedom,",
-     "start": 15.642,
-     "end": 16.022
+     "start": 14.767,
+     "end": 15.147
     },
     {
      "text": "with",
-     "start": 16.022,
-     "end": 16.342
+     "start": 15.147,
+     "end": 15.467
     },
     {
      "text": "her",
-     "start": 16.342,
-     "end": 16.462
+     "start": 15.467,
+     "end": 15.587
     },
     {
      "text": "baby",
-     "start": 16.462,
-     "end": 16.822
+     "start": 15.587,
+     "end": 15.947
     },
     {
      "text": "daughter.",
-     "start": 16.822,
-     "end": 17.162
+     "start": 15.947,
+     "end": 16.287
     }
    ],
    "cues": {},
-   "startFrame": 319,
-   "endFrame": 531
+   "startFrame": 293,
+   "endFrame": 505
   },
   {
    "id": "peter",
    "words": [
     {
      "text": "Then",
-     "start": 17.802,
-     "end": 17.922
+     "start": 16.928,
+     "end": 17.048
     },
     {
      "text": "her",
-     "start": 17.922,
-     "end": 18.042
+     "start": 17.048,
+     "end": 17.168
     },
     {
      "text": "five-year-old",
-     "start": 18.042,
-     "end": 18.742
+     "start": 17.168,
+     "end": 17.868
     },
     {
      "text": "son,",
-     "start": 18.742,
-     "end": 19.062
+     "start": 17.868,
+     "end": 18.188
     },
     {
      "text": "Peter,",
-     "start": 19.322,
-     "end": 19.422
+     "start": 18.448,
+     "end": 18.548
     },
     {
      "text": "was",
-     "start": 19.822,
-     "end": 20.002
+     "start": 18.948,
+     "end": 19.128
     },
     {
      "text": "sold",
-     "start": 20.002,
-     "end": 20.342
+     "start": 19.128,
+     "end": 19.468
     },
     {
      "text": "illegally",
-     "start": 20.342,
-     "end": 20.782
+     "start": 19.468,
+     "end": 19.908
     },
     {
      "text": "to",
-     "start": 20.782,
-     "end": 21.142
+     "start": 19.908,
+     "end": 20.268
     },
     {
      "text": "a",
-     "start": 21.142,
-     "end": 21.282
+     "start": 20.268,
+     "end": 20.408
     },
     {
      "text": "man",
-     "start": 21.282,
-     "end": 21.502
+     "start": 20.408,
+     "end": 20.628
     },
     {
      "text": "in",
-     "start": 21.502,
-     "end": 21.722
+     "start": 20.628,
+     "end": 20.848
     },
     {
      "text": "Alabama.",
-     "start": 21.722,
-     "end": 22.122
+     "start": 20.848,
+     "end": 21.248
     }
    ],
    "cues": {},
-   "startFrame": 531,
-   "endFrame": 680
+   "startFrame": 505,
+   "endFrame": 654
   },
   {
    "id": "court",
    "words": [
     {
      "text": "In",
-     "start": 22.768,
-     "end": 22.908
+     "start": 21.894,
+     "end": 22.034
     },
     {
      "text": "1828,",
-     "start": 22.908,
-     "end": 25.168
+     "start": 22.034,
+     "end": 23.034
     },
     {
      "text": "she",
-     "start": 25.168,
-     "end": 25.248
+     "start": 23.394,
+     "end": 23.534
     },
     {
      "text": "took",
-     "start": 25.248,
-     "end": 25.408
+     "start": 23.534,
+     "end": 23.674
     },
     {
      "text": "the",
-     "start": 25.408,
-     "end": 25.568
+     "start": 23.674,
+     "end": 23.854
     },
     {
      "text": "case",
-     "start": 25.568,
-     "end": 25.748
+     "start": 23.854,
+     "end": 24.014
     },
     {
      "text": "to",
-     "start": 25.748,
-     "end": 25.968
+     "start": 24.014,
+     "end": 24.254
     },
     {
      "text": "court",
-     "start": 25.968,
-     "end": 26.268
+     "start": 24.254,
+     "end": 24.534
     },
     {
      "text": "in",
-     "start": 26.268,
-     "end": 26.468
+     "start": 24.534,
+     "end": 24.754
     },
     {
      "text": "New",
-     "start": 26.468,
-     "end": 26.668
+     "start": 24.754,
+     "end": 24.934
     },
     {
      "text": "York.",
-     "start": 26.668,
-     "end": 26.968
+     "start": 24.934,
+     "end": 25.234
     }
    ],
    "cues": {},
-   "startFrame": 680,
-   "endFrame": 825
+   "startFrame": 654,
+   "endFrame": 772
   },
   {
    "id": "won",
    "words": [
     {
      "text": "And",
-     "start": 27.593,
-     "end": 27.713
+     "start": 25.835,
+     "end": 25.955
     },
     {
      "text": "she",
-     "start": 27.713,
-     "end": 27.893
+     "start": 25.955,
+     "end": 26.135
     },
     {
      "text": "won.",
-     "start": 27.893,
-     "end": 28.153
+     "start": 26.135,
+     "end": 26.395
     },
     {
      "text": "Peter",
-     "start": 28.473,
-     "end": 28.613
+     "start": 26.715,
+     "end": 26.855
     },
     {
      "text": "came",
-     "start": 28.613,
-     "end": 28.893
+     "start": 26.855,
+     "end": 27.135
     },
     {
      "text": "home.",
-     "start": 28.893,
-     "end": 29.213
+     "start": 27.135,
+     "end": 27.455
     }
    ],
    "cues": {},
-   "startFrame": 825,
-   "endFrame": 892
+   "startFrame": 772,
+   "endFrame": 839
   },
   {
    "id": "rename",
    "words": [
     {
      "text": "In",
-     "start": 29.837,
-     "end": 30.017
+     "start": 28.079,
+     "end": 28.199
     },
     {
      "text": "1843,",
-     "start": 30.017,
-     "end": 31.777
+     "start": 28.199,
+     "end": 29.259
     },
     {
      "text": "she",
-     "start": 32.277,
-     "end": 32.457
+     "start": 29.699,
+     "end": 29.859
     },
     {
      "text": "renamed",
-     "start": 32.457,
-     "end": 32.797
+     "start": 29.859,
+     "end": 30.199
     },
     {
      "text": "herself",
-     "start": 32.797,
-     "end": 33.297
+     "start": 30.199,
+     "end": 30.679
     },
     {
      "text": "Sojourner",
-     "start": 33.297,
-     "end": 33.977
+     "start": 30.679,
+     "end": 31.379
     },
     {
      "text": "Truth,",
-     "start": 33.977,
-     "end": 34.297
+     "start": 31.379,
+     "end": 31.659
     },
     {
      "text": "and",
-     "start": 34.647,
-     "end": 34.957
+     "start": 31.659,
+     "end": 32.299
     },
     {
      "text": "spoke",
-     "start": 34.957,
-     "end": 35.217
+     "start": 32.299,
+     "end": 32.559
     },
     {
      "text": "out",
-     "start": 35.217,
-     "end": 35.497
+     "start": 32.559,
+     "end": 32.839
     },
     {
      "text": "against",
-     "start": 35.497,
-     "end": 35.777
+     "start": 32.839,
+     "end": 33.099
     },
     {
      "text": "slavery",
-     "start": 35.777,
-     "end": 36.277
+     "start": 33.099,
+     "end": 33.559
     },
     {
      "text": "and",
-     "start": 36.277,
-     "end": 36.577
+     "start": 33.559,
+     "end": 33.879
     },
     {
      "text": "for",
-     "start": 36.577,
-     "end": 36.757
+     "start": 33.879,
+     "end": 34.059
     },
     {
      "text": "women's",
-     "start": 36.757,
-     "end": 37.137
+     "start": 34.059,
+     "end": 34.439
     },
     {
      "text": "rights.",
-     "start": 37.137,
-     "end": 37.417
+     "start": 34.439,
+     "end": 34.719
     }
    ],
    "cues": {},
-   "startFrame": 892,
-   "endFrame": 1140
+   "startFrame": 839,
+   "endFrame": 1059
   },
   {
    "id": "akron",
    "words": [
     {
      "text": "In",
-     "start": 38.104,
-     "end": 38.284
+     "start": 35.395,
+     "end": 35.515
     },
     {
      "text": "1851,",
-     "start": 38.284,
-     "end": 40.004
+     "start": 35.515,
+     "end": 36.535
     },
     {
      "text": "at",
-     "start": 40.584,
-     "end": 40.684
+     "start": 36.955,
+     "end": 37.135
     },
     {
      "text": "a",
-     "start": 40.684,
-     "end": 40.804
+     "start": 37.135,
+     "end": 37.255
     },
     {
      "text": "women's",
-     "start": 40.804,
-     "end": 41.144
+     "start": 37.255,
+     "end": 37.595
     },
     {
      "text": "rights",
-     "start": 41.144,
-     "end": 41.364
+     "start": 37.595,
+     "end": 37.795
     },
     {
      "text": "convention",
-     "start": 41.364,
-     "end": 41.844
+     "start": 37.795,
+     "end": 38.255
     },
     {
      "text": "in",
-     "start": 41.844,
-     "end": 42.204
+     "start": 38.255,
+     "end": 38.635
     },
     {
      "text": "Akron,",
-     "start": 42.204,
-     "end": 42.724
+     "start": 38.635,
+     "end": 39.095
     },
     {
      "text": "Ohio,",
-     "start": 42.984,
-     "end": 43.304
+     "start": 39.375,
+     "end": 39.715
     },
     {
      "text": "she",
-     "start": 43.964,
-     "end": 43.984
+     "start": 40.335,
+     "end": 40.355
     },
     {
      "text": "gave",
-     "start": 43.984,
-     "end": 44.164
+     "start": 40.355,
+     "end": 40.535
     },
     {
      "text": "a",
-     "start": 44.164,
-     "end": 44.324
+     "start": 40.535,
+     "end": 40.675
     },
     {
      "text": "speech.",
-     "start": 44.324,
-     "end": 44.624
+     "start": 40.675,
+     "end": 40.995
     }
    ],
    "cues": {},
-   "startFrame": 1140,
-   "endFrame": 1359
+   "startFrame": 1059,
+   "endFrame": 1249
   },
   {
    "id": "myth",
    "words": [
     {
      "text": "But",
-     "start": 45.391,
-     "end": 45.511
+     "start": 41.738,
+     "end": 41.858
     },
     {
      "text": "the",
-     "start": 45.511,
-     "end": 45.611
+     "start": 41.858,
+     "end": 41.958
     },
     {
      "text": "famous",
-     "start": 45.611,
-     "end": 45.951
+     "start": 41.958,
+     "end": 42.298
     },
     {
      "text": "version,",
-     "start": 45.951,
-     "end": 46.511
+     "start": 42.298,
+     "end": 42.858
     },
     {
      "text": "Ain't",
-     "start": 46.891,
-     "end": 47.091
+     "start": 43.238,
+     "end": 43.438
     },
     {
      "text": "I",
-     "start": 47.091,
-     "end": 47.211
+     "start": 43.438,
+     "end": 43.558
     },
     {
      "text": "a",
-     "start": 47.211,
-     "end": 47.391
+     "start": 43.558,
+     "end": 43.738
     },
     {
      "text": "Woman,",
-     "start": 47.391,
-     "end": 47.591
+     "start": 43.738,
+     "end": 43.938
     },
     {
      "text": "was",
-     "start": 47.851,
-     "end": 48.011
+     "start": 44.198,
+     "end": 44.358
     },
     {
      "text": "published",
-     "start": 48.011,
-     "end": 48.391
+     "start": 44.358,
+     "end": 44.738
     },
     {
      "text": "twelve",
-     "start": 48.391,
-     "end": 48.711
+     "start": 44.738,
+     "end": 45.058
     },
     {
      "text": "years",
-     "start": 48.711,
-     "end": 48.951
+     "start": 45.058,
+     "end": 45.298
     },
     {
      "text": "later,",
-     "start": 48.951,
-     "end": 49.351
+     "start": 45.298,
+     "end": 45.698
     },
     {
      "text": "and",
-     "start": 49.351,
-     "end": 49.851
+     "start": 45.698,
+     "end": 46.198
     },
     {
      "text": "may",
-     "start": 49.851,
-     "end": 49.971
+     "start": 46.198,
+     "end": 46.318
     },
     {
      "text": "not",
-     "start": 49.971,
-     "end": 50.211
+     "start": 46.318,
+     "end": 46.558
     },
     {
      "text": "be",
-     "start": 50.211,
-     "end": 50.391
+     "start": 46.558,
+     "end": 46.738
     },
     {
      "text": "her",
-     "start": 50.391,
-     "end": 50.531
+     "start": 46.738,
+     "end": 46.878
     },
     {
      "text": "words.",
-     "start": 50.531,
-     "end": 50.851
+     "start": 46.878,
+     "end": 47.198
     }
    ],
    "cues": {},
-   "startFrame": 1359,
-   "endFrame": 1544
+   "startFrame": 1249,
+   "endFrame": 1435
   },
   {
    "id": "shadow",
    "words": [
     {
      "text": "She",
-     "start": 51.582,
-     "end": 51.722
+     "start": 47.929,
+     "end": 48.069
     },
     {
      "text": "sold",
-     "start": 51.722,
-     "end": 52.002
+     "start": 48.069,
+     "end": 48.349
     },
     {
      "text": "photos",
-     "start": 52.002,
-     "end": 52.482
+     "start": 48.349,
+     "end": 48.829
     },
     {
      "text": "of",
-     "start": 52.482,
-     "end": 52.682
+     "start": 48.829,
+     "end": 49.029
     },
     {
      "text": "herself,",
-     "start": 52.682,
-     "end": 53.082
+     "start": 49.029,
+     "end": 49.429
     },
     {
      "text": "printed",
-     "start": 53.362,
-     "end": 53.602
+     "start": 49.709,
+     "end": 49.949
     },
     {
      "text": "with",
-     "start": 53.602,
-     "end": 53.862
+     "start": 49.949,
+     "end": 50.209
     },
     {
      "text": "the",
-     "start": 53.862,
-     "end": 54.002
+     "start": 50.209,
+     "end": 50.349
     },
     {
      "text": "words:",
-     "start": 54.002,
-     "end": 54.322
+     "start": 50.349,
+     "end": 50.669
     },
     {
      "text": "I",
-     "start": 54.962,
-     "end": 55.062
+     "start": 51.309,
+     "end": 51.409
     },
     {
      "text": "sell",
-     "start": 55.062,
-     "end": 55.302
+     "start": 51.409,
+     "end": 51.649
     },
     {
      "text": "the",
-     "start": 55.302,
-     "end": 55.502
+     "start": 51.649,
+     "end": 51.849
     },
     {
      "text": "shadow",
-     "start": 55.502,
-     "end": 55.822
+     "start": 51.849,
+     "end": 52.169
     },
     {
      "text": "to",
-     "start": 55.822,
-     "end": 56.062
+     "start": 52.169,
+     "end": 52.409
     },
     {
      "text": "support",
-     "start": 56.062,
-     "end": 56.382
+     "start": 52.409,
+     "end": 52.729
     },
     {
      "text": "the",
-     "start": 56.382,
-     "end": 56.582
+     "start": 52.729,
+     "end": 52.929
     },
     {
      "text": "substance.",
-     "start": 56.582,
-     "end": 56.862
+     "start": 52.929,
+     "end": 53.209
     }
    ],
    "cues": {},
-   "startFrame": 1544,
-   "endFrame": 1729
+   "startFrame": 1435,
+   "endFrame": 1619
   },
   {
    "id": "lincoln",
    "words": [
     {
      "text": "In",
-     "start": 57.73,
-     "end": 57.89
+     "start": 54.076,
+     "end": 54.196
     },
     {
      "text": "1864,",
-     "start": 57.89,
-     "end": 59.85
+     "start": 54.196,
+     "end": 55.376
     },
     {
      "text": "she",
-     "start": 60.39,
-     "end": 60.49
+     "start": 55.836,
+     "end": 55.936
     },
     {
      "text": "met",
-     "start": 60.49,
-     "end": 60.71
+     "start": 55.936,
+     "end": 56.156
     },
     {
      "text": "President",
-     "start": 60.71,
-     "end": 61.17
+     "start": 56.156,
+     "end": 56.616
     },
     {
      "text": "Abraham",
-     "start": 61.17,
-     "end": 61.71
+     "start": 56.616,
+     "end": 57.136
     },
     {
      "text": "Lincoln",
-     "start": 61.71,
-     "end": 62.15
+     "start": 57.136,
+     "end": 57.536
     },
     {
      "text": "at",
-     "start": 62.15,
-     "end": 62.47
+     "start": 57.536,
+     "end": 57.816
     },
     {
      "text": "the",
-     "start": 62.47,
-     "end": 62.61
+     "start": 57.816,
+     "end": 57.956
     },
     {
      "text": "White",
-     "start": 62.61,
-     "end": 62.83
+     "start": 57.956,
+     "end": 58.136
     },
     {
      "text": "House.",
-     "start": 62.83,
-     "end": 63.15
+     "start": 58.136,
+     "end": 58.516
     }
    ],
    "cues": {},
-   "startFrame": 1729,
-   "endFrame": 1912
+   "startFrame": 1619,
+   "endFrame": 1772
   },
   {
    "id": "legacy",
    "words": [
     {
      "text": "Born",
-     "start": 63.824,
-     "end": 64.124
+     "start": 59.174,
+     "end": 59.474
     },
     {
      "text": "enslaved.",
-     "start": 64.124,
-     "end": 64.644
+     "start": 59.474,
+     "end": 59.994
     },
     {
      "text": "She",
-     "start": 65.264,
-     "end": 65.364
+     "start": 60.614,
+     "end": 60.714
     },
     {
      "text": "walked",
-     "start": 65.364,
-     "end": 65.564
+     "start": 60.714,
+     "end": 60.914
     },
     {
      "text": "away,",
-     "start": 65.564,
-     "end": 65.924
+     "start": 60.914,
+     "end": 61.274
     },
     {
      "text": "went",
-     "start": 66.084,
-     "end": 66.124
+     "start": 61.434,
+     "end": 61.474
     },
     {
      "text": "to",
-     "start": 66.124,
-     "end": 66.284
+     "start": 61.474,
+     "end": 61.634
     },
     {
      "text": "court,",
-     "start": 66.284,
-     "end": 66.564
+     "start": 61.634,
+     "end": 61.914
     },
     {
      "text": "and",
-     "start": 66.684,
-     "end": 66.764
+     "start": 62.034,
+     "end": 62.114
     },
     {
      "text": "won.",
-     "start": 66.764,
-     "end": 66.964
+     "start": 62.114,
+     "end": 62.314
     }
    ],
    "cues": {},
-   "startFrame": 1912,
-   "endFrame": 2023
+   "startFrame": 1772,
+   "endFrame": 1884
   },
   {
    "id": "cta",
    "words": [
     {
      "text": "Follow",
-     "start": 67.548,
-     "end": 67.868
+     "start": 62.898,
+     "end": 63.218
     },
     {
      "text": "The",
-     "start": 67.868,
-     "end": 68.068
+     "start": 63.218,
+     "end": 63.418
     },
     {
      "text": "Black",
-     "start": 68.068,
-     "end": 68.308
+     "start": 63.418,
+     "end": 63.658
     },
     {
      "text": "History",
-     "start": 68.308,
-     "end": 68.688
+     "start": 63.658,
+     "end": 64.038
     },
     {
      "text": "Room",
-     "start": 68.688,
-     "end": 68.968
+     "start": 64.038,
+     "end": 64.318
     },
     {
      "text": "for",
-     "start": 68.968,
-     "end": 69.188
+     "start": 64.318,
+     "end": 64.538
     },
     {
      "text": "one",
-     "start": 69.188,
-     "end": 69.388
+     "start": 64.538,
+     "end": 64.738
     },
     {
      "text": "story",
-     "start": 69.388,
-     "end": 69.708
+     "start": 64.738,
+     "end": 65.058
     },
     {
      "text": "a",
-     "start": 69.708,
-     "end": 69.948
+     "start": 65.058,
+     "end": 65.298
     },
     {
      "text": "day.",
-     "start": 69.948,
-     "end": 70.128
+     "start": 65.298,
+     "end": 65.478
     }
    ],
    "cues": {},
-   "startFrame": 2023,
-   "endFrame": 2143
+   "startFrame": 1884,
+   "endFrame": 2003
   }
  ]
 }

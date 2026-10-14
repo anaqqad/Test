@@ -152,3 +152,8 @@ Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: H
 - Kokoro rushes some names (e.g. "Mississippi" ~0.3 s at 1.3x). Fix: beat field `"stretch": {"Mississippi": 0.6}` in the
   spec slows just that word (ffmpeg atempo, pitch kept; cut placed in the quiet gap after the word). Used in the Revels hook.
 - Reels 2026-10-14: Jesse Owens ("Four Olympic golds. Then he raced a horse.", 2.36 s) and Sojourner Truth ("She sued a white man. And won.", 1.7 s). Lesson: never wait on another render with pgrep -f (matches itself); run renders sequentially in one job.
+- 2026-10-14 voice bug found: Kokoro read 1700s/1800s years as "one thousand eight hundred twenty eight" and 1900s as
+  "nineteen hundred thirty six", and "raced" like "raised". Whisper QC hid it (it writes digits). Fixed in
+  `scripts/tts_kokoro.py` `spoken()` (years -> words, RESPELL list, per-spec "pronounce"); used by reels and podcast.
+  Videos made before this fix (all earlier reels and podcast episodes 1-3) still have the old year reading.
+  QC tip: check `K.tokenizer.phonemize(text, 'en-us')`, not only Whisper, for numbers and names.
