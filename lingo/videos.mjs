@@ -1202,4 +1202,228 @@ export const VIDEOS = {
       },
     ],
   },
+  ancient5: {
+    title: "Extinct Languages Simulated by AI (Part 5)",
+    part: "",
+    layout: "story",
+    counterLabel: "dated to",
+    sim: true,
+    simVoices: "Spanish for Charrúa, American English for Beothuk, German for Polabian, Indonesian for Kenaboi, Icelandic for Old English, Dutch for Old Saxon, Persian for Avestan, Hindi for Vedic Sanskrit, Arabic for Ugaritic, Turkish for Sumerian",
+    simLimits: "Beothuk, Charrúa and Kenaboi survive only as word lists written down by outsiders, with no full sentences, so even experts can only guess how they sounded; Polabian is read from its German-style spelling; Khitan and Xianbei, also requested, are left out because nobody can read Khitan aloud yet and almost nothing of Xianbei survives",
+    simTexts: "Charrúa numbers recorded by Teodoro Vilardebó, Beothuk numbers from W. E. Cormack's list (from Shanawdithit), the Polabian Lord's Prayer as written down by Christian Hennig von Jessen, two Kenaboi words from the word lists published by Skeat and Blagden in 1906, the opening of King Alfred's preface to Pastoral Care, the opening of the Heliand, the Ashem Vohu prayer, the first verse of the Rigveda, a line from the Baal Cycle, and the opening of the Instructions of Shuruppak",
+    items: [
+      {
+        name: "Charrúa", wojak: "p5_charrua", flag: null, speakers: "1800s", scene: "grassland", loc: [-32.5, -56.0, "Uruguay"],
+        script: "yú · sam · detí · bétum · guaroj", scriptLabel: "ONE, TWO, THREE, FOUR … TEN",
+        char: { skin: "brown", hair: "long", hairColor: "black", hat: { type: "headband", color: "#c0392b" }, outfit: { type: "wrap", color: "#8a5a2b", color2: "#3b2a16", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "You asked for it! The Charrúa people lived on the plains of Uruguay. Only a few word lists of their language were ever written down.",
+          "One, two, three, four: yú, sam, detí, bétum. Ten is guaroj, from guar, hand. It died out in the 1800s, with scattered reports of speakers much later.",
+        ],
+        audio: { sim: { model: "es_ES-davefx-medium", scale: 1.15, words: [["yú,", "ˈʝu,"], ["sam,", "sam,"], ["detí,", "deˈti,"], ["bétum,", "ˈbetum,"], ["guaroj.", "ɡwaˈɾox."]] } },
+      },
+      {
+        name: "Beothuk", wojak: "p5_beothuk", flag: null, speakers: "1829", scene: "forest", loc: [49.0, -56.0, "Newfoundland, Canada"],
+        script: "yaseek · adzeich · shendeek · dabseek · ninezeek", scriptLabel: "ONE TO FIVE · CORMACK'S LIST",
+        char: F({ skin: "tan", hair: "long", hairColor: "black", facepaint: "lines", paintColor: "#b5432a", outfit: { type: "wrap", color: "#b5432a", color2: "#7a2a1a", trim: "#f4f1e8" }, expression: "neutral" }),
+        cards: [
+          "The Beothuk of Newfoundland painted themselves with red ochre. Shanawdithit, the last known Beothuk, died in 1829.",
+          "About 400 words were written down, but not one full sentence. One to five: yaseek, adzeich, shendeek, dabseek, ninezeek.",
+        ],
+        audio: { sim: { model: "en_US-amy-medium", scale: 1.15, words: [["yaseek,", "jəˈsiːk,"], ["adzeich,", "ˈadzeɪtʃ,"], ["shendeek,", "ʃɛnˈdiːk,"], ["dabseek,", "dabˈsiːk,"], ["ninezeek.", "ˈnɪnəziːk."]] } },
+      },
+      {
+        name: "Polabian", wojak: "p5_polabian", flag: null, speakers: "~1700", scene: "village", loc: [52.97, 11.15, "Wendland, Germany"],
+        script: "Nôße Wader, ta toy giß wa Nebisgáy, Sjungta woarda Tügí Geima", scriptLabel: "THE LORD'S PRAYER · HENNIG",
+        char: { skin: "pale", hair: "short", hairColor: "brown", hat: { type: "flatcap", color: "#3a3a3a" }, outfit: { type: "coat", color: "#4a3a2a", inner: "#f4f1e8" }, expression: "neutral" },
+        cards: [
+          "A Slavic language spoken in northern Germany, cousin of Polish. Around 1700 a pastor wrote down its Lord's Prayer: our Father in heaven, holy be thy name.",
+          "Its last native speaker, Emerentz Schultze, died in 1756. Only a few hundred words and a few short texts survive.",
+        ],
+        audio: { sim: { model: "de_DE-thorsten-medium", scale: 1.1, words: [["Nôße", "ˈnoːsə"], ["Wader,", "ˈvadɐ,"], ["ta", "ta"], ["toy", "tɔɪ"], ["giß", "jɪs"], ["wa", "va"], ["Nebisgáy,", "ˈneːbɪsjaɪ,"], ["Sjungta", "ˈsjʊŋta"], ["woarda", "ˈvoːarda"], ["Tügí", "ˈtyːji"], ["Geima.", "ˈjaɪma."]] } },
+      },
+      {
+        name: "Kenaboi", wojak: "p5_kenaboi", flag: null, speakers: "1800s", scene: "andaman", loc: [2.6, 102.1, "Negeri Sembilan, Malaysia"],
+        script: "mambu · par", scriptLabel: "WHITE · WATER",
+        char: { skin: "brown", hair: "curly", hairColor: "black", outfit: { type: "wrap", color: "#2f6b3a", color2: "#1d4426", trim: "#f2c94c" }, expression: "neutral" },
+        cards: [
+          "A mystery language of the Malaysian jungle. All we have are about 250 words in three short lists, two of them collected by a British official in the 1800s.",
+          "White was mambu and water was par. Nobody knows where these words came from, or what family the language belonged to.",
+        ],
+        audio: { sim: { model: "id_ID-news_tts-medium", scale: 1.2, words: [["mambu,", "ˈmambu,"], ["par.", "par."]] } },
+      },
+      {
+        name: "Old English", wojak: "p5_oldenglish", flag: null, speakers: "~890", scene: "moorland", loc: [51.06, -1.31, "Winchester, England"],
+        script: "Ælfred kyning hāteð grētan Wǣrferð biscep his wordum luflīce ond frēondlīce", scriptLabel: "KING ALFRED'S LETTER",
+        char: { skin: "pale", hair: "long", hairColor: "auburn", mustache: true, beardColor: "#7a3b1c", hat: { type: "crown", color: "#d9b13b", color2: "#7a1f1f" }, outfit: { type: "tunic", color: "#7a1f1f", trim: "#d9b13b" }, expression: "neutral" },
+        cards: [
+          "King Alfred the Great opens a letter to his bishops: King Alfred sends greetings to Bishop Wærferth, with loving and friendly words.",
+          "In the same letter he complains that hardly anyone in England can still read Latin, so he has books translated into English.",
+        ],
+        audio: { sim: { model: "is_IS-steinn-medium", scale: 1.1, words: [["Ælfred", "ˈælfred"], ["kyning", "ˈkyniŋɡ"], ["hāteð", "ˈhaːteθ"], ["grētan", "ˈɡreːtan"], ["Wǣrferð", "ˈwæːrferθ"], ["biscep", "ˈbiʃop"], ["his", "his"], ["wordum", "ˈwordum"], ["luflīce", "ˈluvliːtʃe"], ["ond", "ond"], ["frēondlīce.", "ˈfreːondliːtʃe."]] } },
+      },
+      {
+        name: "Old Saxon", wojak: "p5_oldsaxon", flag: null, speakers: "~830", scene: "hills", loc: [52.0, 8.5, "Saxony, Germany"],
+        script: "Manega uuârun, thea sia iro môd gespuon, that sia bigunnun uuord godes", scriptLabel: "THE HELIAND",
+        char: { skin: "light", hair: "long", hairColor: "blonde", mustache: true, beardColor: "#9a6b2f", outfit: { type: "tunic", color: "#2f5a35", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "The Heliand is a 6,000-line poem telling the life of Jesus as if he were a Saxon warlord. There were many whose minds urged them to begin telling the word of God.",
+          "Old Saxon is the ancestor of Low German, still spoken in northern Germany, but this form of it has been gone for nearly a thousand years.",
+        ],
+        audio: { sim: { model: "nl_NL-ronnie-medium", scale: 1.1, words: [["Manega", "ˈmaneɣa"], ["uuârun,", "ˈwaːrun,"], ["thea", "θea"], ["sia", "sia"], ["iro", "iro"], ["môd", "moːd"], ["gespuon,", "ɣeˈspuon,"], ["that", "θat"], ["sia", "sia"], ["bigunnun", "biˈɣunnun"], ["uuord", "word"], ["godes.", "ˈɣodes."]] } },
+      },
+      {
+        name: "Avestan", wojak: "p5_avestan", flag: null, speakers: "~1000 BC", scene: "zagros", loc: [36.0, 62.0, "Greater Iran"],
+        script: "ašəm vohū vahištəm astī, uštā astī, uštā ahmāi, hyat ašāi vahištāi ašəm", scriptLabel: "THE ASHEM VOHU PRAYER",
+        char: { skin: "olive", hair: "long", hairColor: "black", beard: true, beardColor: "#2a2a2a", hat: { type: "turban", color: "#f4f1e8", color2: "#e8e2d0" }, outfit: { type: "robe", color: "#f4f1e8", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "The language of the Zoroastrian scriptures, passed down by memory for centuries before it was written. Truth is the best good. It is happiness.",
+          "Nobody has spoken it for well over two thousand years, but Zoroastrian priests in Iran and India still recite this prayer every day.",
+        ],
+        audio: { sim: { model: "fa_IR-amir-medium", scale: 1.1, words: [["ašəm", "ˈaʃəm"], ["vohū", "voˈhuː"], ["vahištəm", "vaˈhiʃtəm"], ["astī,", "ˈastiː,"], ["uštā", "ˈuʃtaː"], ["astī,", "ˈastiː,"], ["uštā", "ˈuʃtaː"], ["ahmāi,", "ahˈmaːi,"], ["hyat", "hjat"], ["ašāi", "aˈʃaːi"], ["vahištāi", "vaˈhiʃtaːi"], ["ašəm.", "ˈaʃəm."]] } },
+      },
+      {
+        name: "Vedic Sanskrit", wojak: "p5_vedic", flag: null, speakers: "~1200 BC", scene: "himalaya", loc: [31.0, 75.0, "Punjab"],
+        script: "अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम्", scriptFont: "Noto Serif Devanagari", scriptSize: 54, scriptLabel: "THE RIGVEDA, VERSE ONE",
+        char: { skin: "brown", hair: "bun", hairColor: "black", beard: true, beardColor: "#2a2a2a", outfit: { type: "wrap", color: "#e8892b", color2: "#f4f1e8", trim: "#d9b13b" }, expression: "neutral" },
+        cards: [
+          "The first line of the Rigveda, more than 3,000 years old: I praise Agni, the household priest, the god of the sacrifice.",
+          "Its 10,000 verses were passed down by memory, sound by sound. It is older than Classical Sanskrit, which grew out of it.",
+        ],
+        audio: { sim: { model: "hi_IN-rohan-medium", scale: 1.15, words: [["agnim", "ˈaɡnim"], ["īḷe", "ˈiːɭeː"], ["purohitaṃ", "puroːˈhitam"], ["yajñasya", "jadʒˈɲasja"], ["devam", "ˈdeːvam"], ["ṛtvijam.", "ˈritvidʒam."]] } },
+      },
+      {
+        name: "Ugaritic", wojak: "p5_ugaritic", flag: null, speakers: "~1300 BC", scene: "arabia", loc: [35.6, 35.78, "Ugarit, Syria"],
+        script: "𐎚𐎈𐎎𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍", scriptFont: "Noto Sans Ugaritic", scriptSize: 64, scriptLabel: "THE BAAL CYCLE",
+        char: { skin: "tan", hair: "long", hairColor: "black", beard: true, beardColor: "#1d1d1d", hat: { type: "headband", color: "#7a1f1f" }, outfit: { type: "robe", color: "#1f4e8c", trim: "#d9b13b" }, expression: "neutral" },
+        cards: [
+          "The port city of Ugarit wrote with an alphabet of just 30 letters, pressed into clay. Its myths tell of the storm god Baal.",
+          "Message of mightiest Baal, word of the mightiest of heroes. The city was destroyed around 1185 BC, and its tablets were found in 1928.",
+        ],
+        audio: { sim: { model: "ar_JO-kareem-medium", scale: 1.15, words: [["taḥmu", "ˈtaħmu"], ["ʾalʾiyāni", "ʔalʔiˈjaːni"], ["baʿli,", "ˈbaʕli,"], ["hawatu", "ˈhawatu"], ["ʾaliyi", "ʔaˈlijji"], ["qarradīma.", "qarraˈdiːma."]] } },
+      },
+      {
+        name: "Sumerian", wojak: "p5_sumerian", flag: null, speakers: "~2500 BC", scene: "arabia", loc: [31.78, 45.5, "Shuruppak, Iraq"],
+        script: "ud re-a ud sud-ra re-a, gi re-a gi bad-ra re-a, mu re-a mu sud-ra re-a", scriptLabel: "INSTRUCTIONS OF SHURUPPAK",
+        char: { skin: "tan", hair: "bald", hairColor: "black", beard: true, beardColor: "#1d1d1d", outfit: { type: "wrap", color: "#f4f1e8", color2: "#8a6a3b", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "One of the oldest pieces of literature in the world: a father giving advice to his son. In those days, in those far-off days.",
+          "In those nights, in those distant nights, in those years, in those far-off years. Sumerian was written for 3,000 years but has no known relatives at all.",
+        ],
+        audio: { sim: { model: "tr_TR-dfki-medium", scale: 1.15, words: [["ud", "ud"], ["re-a", "ˈrea"], ["ud", "ud"], ["sud-ra", "ˈsudra"], ["re-a,", "ˈrea,"], ["gi", "ɡi"], ["re-a", "ˈrea"], ["gi", "ɡi"], ["bad-ra", "ˈbadra"], ["re-a,", "ˈrea,"], ["mu", "mu"], ["re-a", "ˈrea"], ["mu", "mu"], ["sud-ra", "ˈsudra"], ["re-a.", "ˈrea."]] } },
+      },
+    ],
+  },
+  ancient6: {
+    title: "Extinct Languages Simulated by AI (Part 6)",
+    part: "",
+    layout: "story",
+    counterLabel: "written around",
+    sim: true,
+    simVoices: "Mexican Spanish for Classical Nahuatl, Indonesian for Old Javanese, European Portuguese for Galician-Portuguese, Kazakh for Middle Mongolian, German for Middle High German, Spanish for Old Spanish, Hungarian for Old Hungarian, Ukrainian for Old East Slavic, Georgian for Classical Armenian, Hindi for Pali",
+    simLimits: "these are older forms of languages that are still alive today in a changed form, so nobody speaks them like this anymore; details such as the vowels of Middle Mongolian and the old Slavic short vowels are educated guesses",
+    simTexts: "the opening of the Nican Mopohua (1649), the motto line from Mpu Tantular's Sutasoma, Martin Codax's Ondas do mar de Vigo, the opening of the Secret History of the Mongols, the opening of the Nibelungenlied, a line from the Cantar de mio Cid, the Funeral Sermon and Prayer, the opening of the Primary Chronicle, the first sentence written in the Armenian alphabet (Proverbs 1:2), and the first verse of the Dhammapada",
+    items: [
+      {
+        name: "Classical Nahuatl", wojak: "p6_nahuatl", flag: null, speakers: "1649", scene: "sierra", loc: [19.43, -99.13, "Mexico City"],
+        script: "Nican mopohua, motecpana, in quenin yancuican huey tlamahuiçoltica monexiti", scriptLabel: "NICAN MOPOHUA, 1649",
+        char: { skin: "brown", hair: "long", hairColor: "black", hat: { type: "feathers", color: "#1f8a5a", color2: "#d9b13b" }, outfit: { type: "wrap", color: "#f4f1e8", color2: "#c0392b", trim: "#1f8a5a" }, expression: "neutral" },
+        cards: [
+          "The language of the Aztec capital. After the Spanish conquest it was written in Latin letters, and thousands of documents survive. Here it is told and set in order how, by a great miracle, she appeared.",
+          "About 1.7 million people speak Nahuatl today. English got chocolate, tomato and avocado from it.",
+        ],
+        audio: { sim: { model: "es_MX-ald-medium", scale: 1.1, words: [["Nican", "ˈnikan"], ["mopohua,", "moˈpowa,"], ["motecpana,", "moˈtekpana,"], ["in", "in"], ["quenin", "ˈkenin"], ["yancuican", "jaŋˈkwikan"], ["huey", "wej"], ["tlamahuiçoltica", "tlamawisolˈtika"], ["monexiti.", "moˈneʃiti."]] } },
+      },
+      {
+        name: "Old Javanese", wojak: "p6_javanese", flag: null, speakers: "~1365", scene: "bougainville", loc: [-7.55, 112.38, "Majapahit, Java"],
+        script: "Bhinnêka tunggal ika, tan hana dharma mangrwa", scriptLabel: "SUTASOMA · MPU TANTULAR",
+        char: { skin: "tan", hair: "bun", hairColor: "black", mustache: true, beardColor: "#1d1d1d", hat: { type: "headband", color: "#d9b13b" }, outfit: { type: "wrap", color: "#7a1f1f", color2: "#3b1a1a", trim: "#d9b13b" }, expression: "neutral" },
+        cards: [
+          "The literary language of the Majapahit empire, full of Sanskrit words. Written by the poet Mpu Tantular: different, yet one. There is no duality in truth.",
+          "Those first words, Bhinneka Tunggal Ika, are the national motto of Indonesia, printed on its coat of arms.",
+        ],
+        audio: { sim: { model: "id_ID-news_tts-medium", scale: 1.15, words: [["Bhinnêka", "binˈneka"], ["tunggal", "ˈtuŋɡal"], ["ika,", "ˈika,"], ["tan", "tan"], ["hana", "ˈhana"], ["dharma", "ˈdarma"], ["mangrwa.", "ˈmaŋrwa."]] } },
+      },
+      {
+        name: "Galician-Portuguese", wojak: "p6_galician", flag: null, speakers: "~1250", scene: "adriatic", loc: [42.24, -8.72, "Vigo, Galicia"],
+        script: "Ondas do mar de Vigo, se vistes meu amigo! E ai Deus, se verrá cedo!", scriptLabel: "MARTIN CODAX",
+        char: F({ skin: "light", hair: "long", hairColor: "brown", outfit: { type: "dress", color: "#1f4e8c", color2: "#f4f1e8", trim: "#d9b13b" }, expression: "neutral" }),
+        cards: [
+          "The language of medieval love songs, sung even at the court of Castile. Waves of the sea of Vigo, have you seen my love? Oh God, will he come soon?",
+          "It later split into two languages that are still alive: Galician and Portuguese.",
+        ],
+        audio: { sim: { model: "pt_PT-tugão-medium", scale: 1.1, words: [["Ondas", "ˈondas"], ["do", "du"], ["mar", "maɾ"], ["de", "de"], ["Vigo,", "ˈviɡo,"], ["se", "se"], ["vistes", "ˈvistes"], ["meu", "mew"], ["amigo!", "aˈmiɡo!"], ["E", "e"], ["ai", "aj"], ["Deus,", "dews,"], ["se", "se"], ["verrá", "veˈra"], ["cedo!", "ˈtsedo!"]] } },
+      },
+      {
+        name: "Middle Mongolian", wojak: "p6_mongolian", flag: null, speakers: "~1240", scene: "steppe", loc: [47.2, 102.8, "Karakorum, Mongolia"],
+        script: "Činggis qahan-u huǰa'ur de'ere tenggeri-eče ǰaya'atu töreksen Börte Čino aǰu'u", scriptLabel: "THE SECRET HISTORY OF THE MONGOLS",
+        char: { skin: "light", hair: "braids", hairColor: "black", mustache: true, beardColor: "#1d1d1d", hat: { type: "furhat", color: "#7a1f1f", color2: "#8a6a3b" }, outfit: { type: "coat", color: "#1f4e8c", inner: "#d9b13b" }, expression: "neutral" },
+        cards: [
+          "The Secret History of the Mongols tells the life of Genghis Khan. The origin of Genghis Khan: there was a blue-grey wolf, born with his destiny from Heaven above.",
+          "The Mongol original was lost. It survives only because someone spelled every word out in Chinese characters.",
+        ],
+        audio: { sim: { model: "kk_KZ-issai-high", scale: 1.15, words: [["Činggis", "ˈtʃiŋɡis"], ["qahan-u", "qaˈhanu"], ["huǰa'ur", "huˈdʒaur"], ["de'ere", "deˈere"], ["tenggeri-eče", "teŋɡeriˈetʃe"], ["ǰaya'atu", "dʒaˈjaːtu"], ["töreksen", "ˈtøreksen"], ["Börte", "ˈbørte"], ["Čino", "ˈtʃino"], ["aǰu'u.", "aˈdʒuː."]] } },
+      },
+      {
+        name: "Middle High German", wojak: "p6_mhg", flag: null, speakers: "~1200", scene: "alps", loc: [48.2, 16.37, "Austria"],
+        script: "Uns ist in alten mæren wunders vil geseit von helden lobebæren, von grôzer arebeit", scriptLabel: "THE NIBELUNGENLIED",
+        char: { skin: "pale", hair: "long", hairColor: "blonde", outfit: { type: "tunic", color: "#3a4a6b", trim: "#c8a165" }, expression: "neutral" },
+        cards: [
+          "The Nibelungenlied, a tale of dragon-slaying Siegfried and bloody revenge. In old tales we are told many wonders, of praiseworthy heroes, of great hardship.",
+          "Nobody speaks German like this anymore. Over the centuries it turned into modern German.",
+        ],
+        audio: { sim: { model: "de_DE-thorsten-medium", scale: 1.1, words: [["Uns", "uns"], ["ist", "ɪst"], ["in", "ɪn"], ["alten", "ˈaltən"], ["mæren", "ˈmɛːrən"], ["wunders", "ˈvʊndərs"], ["vil", "fɪl"], ["geseit", "ɡəˈseɪt"], ["von", "fɔn"], ["helden", "ˈhɛldən"], ["lobebæren,", "ˈloːbəbɛːrən,"], ["von", "fɔn"], ["grôzer", "ˈɡroːsər"], ["arebeit.", "ˈarəbeɪt."]] } },
+      },
+      {
+        name: "Old Spanish", wojak: "p6_oldspanish", flag: null, speakers: "~1200", scene: "tuscany", loc: [41.65, -3.69, "Burgos, Spain"],
+        script: "De los sos oios tan fuertemientre llorando, tornava la cabeça e estávalos catando", scriptLabel: "CANTAR DE MIO CID",
+        char: { skin: "olive", hair: "short", hairColor: "black", mustache: true, beardColor: "#1d1d1d", outfit: { type: "tunic", color: "#8a8a8a", trim: "#7a1f1f" }, expression: "neutral" },
+        cards: [
+          "The Song of my Cid, the oldest surviving epic in Spanish. Weeping so hard from his eyes, he turned his head and stood looking at them.",
+          "Back then the c with a tail was said ts, and j was said like the s in pleasure. Those sounds are gone from modern Spanish.",
+        ],
+        audio: { sim: { model: "es_ES-davefx-medium", scale: 1.1, words: [["De", "de"], ["los", "los"], ["sos", "sos"], ["oios", "ˈoʒos"], ["tan", "tan"], ["fuertemientre", "fweɾteˈmjentɾe"], ["llorando,", "ʎoˈɾando,"], ["tornava", "toɾˈnaβa"], ["la", "la"], ["cabeça", "kaˈbetsa"], ["e", "e"], ["estávalos", "esˈtaβalos"], ["catando.", "kaˈtando."]] } },
+      },
+      {
+        name: "Old Hungarian", wojak: "p6_hungarian", flag: null, speakers: "~1192", scene: "grassland", loc: [47.5, 19.0, "Hungary"],
+        script: "Latiatuc feleym zumtuchel, mic vogmuc. Isa, pur es chomuv uogmuc.", scriptLabel: "THE FUNERAL SERMON",
+        char: { skin: "light", hair: "bald", hairColor: "brown", outfit: { type: "robe", color: "#1d1d1d", trim: "#8a8a8a" }, expression: "neutral" },
+        cards: [
+          "The oldest surviving text in Hungarian, a sermon read at a funeral. Do you see with your own eyes, my brothers, what we are? Behold, we are dust and ashes.",
+          "Hungarian is still alive, but every Hungarian student has to study this text, because nobody speaks like this anymore.",
+        ],
+        audio: { sim: { model: "hu_HU-imre-medium", scale: 1.1, words: [["Latiatuc", "ˈlaːcaːtuk"], ["feleym", "ˈfɛlɛim"], ["zumtuchel,", "ˈsymtykhɛl,"], ["mic", "mik"], ["vogmuc.", "ˈvoɟmuk."], ["Isa,", "ˈiʃa,"], ["pur", "pur"], ["es", "ɛʃ"], ["chomuv", "ˈxomuv"], ["uogmuc.", "ˈvoɟmuk."]] } },
+      },
+      {
+        name: "Old East Slavic", wojak: "p6_eastslavic", flag: null, speakers: "~1113", scene: "village", loc: [50.45, 30.52, "Kyiv"],
+        script: "Се повѣсти времяньныхъ лѣтъ, откуду есть пошла руская земля", scriptLabel: "THE PRIMARY CHRONICLE",
+        char: { skin: "pale", hair: "long", hairColor: "grey", beard: true, beardColor: "#9a9a9a", outfit: { type: "robe", color: "#1d1d1d", trim: "#d9b13b" }, expression: "neutral" },
+        cards: [
+          "Written by monks in Kyiv about 900 years ago. These are the tales of bygone years: where the land of the Rus came from.",
+          "It is the common ancestor of Ukrainian, Russian and Belarusian, which all grew apart from it.",
+        ],
+        audio: { sim: { model: "uk_UA-oleksa-high", scale: 1.1, words: [["Се", "se"], ["повѣсти", "poˈvʲesti"], ["времяньныхъ", "vreˈmʲanʲnɪxə"], ["лѣтъ,", "ˈlʲetə,"], ["откуду", "ˈotkudu"], ["есть", "ˈjestʲ"], ["пошла", "poʃˈla"], ["руская", "ˈruskaja"], ["земля.", "zemˈlʲa."]] } },
+      },
+      {
+        name: "Classical Armenian", wojak: "p6_armenian", flag: null, speakers: "405", scene: "caucasus", loc: [40.16, 44.29, "Vagharshapat, Armenia"],
+        script: "Ճանաչել զիմաստութիւն եւ զխրատ, իմանալ զբանս հանճարոյ", scriptFont: "Noto Serif Armenian", scriptSize: 50, scriptLabel: "THE FIRST SENTENCE IN THE ARMENIAN ALPHABET",
+        char: F({ skin: "olive", hair: "long", hairColor: "black", hat: { type: "headscarf", color: "#7a1f1f", color2: "#d9b13b" }, outfit: { type: "dress", color: "#7a1f1f", color2: "#f4f1e8", trim: "#d9b13b" }, expression: "neutral" }),
+        cards: [
+          "In 405 the monk Mesrop Mashtots invented the Armenian alphabet. The first sentence he wrote with it was from the Bible: to know wisdom and instruction, to understand words of insight.",
+          "Nobody speaks Classical Armenian at home anymore, but the Armenian Church still uses it, and modern Armenian grew out of it.",
+        ],
+        audio: { sim: { model: "ka_GE-natia-medium", scale: 1.1, words: [["Čanačʿel", "tʃanaˈtʃel"], ["zimastutʿiwn", "zimastuˈtiwn"], ["ew", "ew"], ["zxrat,", "ˈzxrat,"], ["imanal", "imaˈnal"], ["zbans", "zbans"], ["hančaroy.", "hantʃaˈroj."]] } },
+      },
+      {
+        name: "Pali", wojak: "p6_pali", flag: null, speakers: "~29 BC", scene: "andaman", loc: [7.87, 80.65, "Sri Lanka"],
+        script: "Manopubbaṅgamā dhammā, manoseṭṭhā manomayā", scriptLabel: "THE DHAMMAPADA, VERSE ONE",
+        char: F({ skin: "brown", hair: "bald", hairColor: "black", outfit: { type: "wrap", color: "#e8892b", color2: "#c0661b", trim: "#d9b13b" }, expression: "neutral" }),
+        cards: [
+          "The language of the oldest Buddhist scriptures, first written down in Sri Lanka around 29 BC. Mind comes before all things. Mind is their chief, they are made by mind.",
+          "Nobody grows up speaking Pali, but monks in Sri Lanka, Thailand and Myanmar still chant it every day.",
+        ],
+        audio: { sim: { model: "hi_IN-priyamvada-medium", scale: 1.15, words: [["Manopubbaṅgamā", "manoːpubbaŋˈɡamaː"], ["dhammā,", "ˈdʰammaː,"], ["manoseṭṭhā", "manoːˈseʈʈʰaː"], ["manomayā.", "manoːˈmajaː."]] } },
+      },
+    ],
+  },
 };

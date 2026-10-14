@@ -23,6 +23,8 @@ export const PHOTO_CREDITS = {
   a2usa: "Times Square: photo by Jerry Steinfield, CC BY-SA 4.0, via Wikimedia Commons",
   revived: "Jerusalem Old City: photo by Nettadi, CC BY-SA 3.0, via Wikimedia Commons",
   ancient4: "Saona Island: photo by Danu Widjajanto, CC BY-SA 4.0, via Wikimedia Commons",
+  ancient5: "Newfoundland landscape: photo by Chris Scott, CC BY 3.0, via Wikimedia Commons",
+  ancient6: "Mongolian steppes: photo by Francisco Anzola, CC BY 2.0, via Wikimedia Commons",
 };
 // Esperanto has its own flag, not in flag-icons: green field, white canton with a green star
 const EO = "data:image/svg+xml;utf8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><rect width="600" height="400" fill="#009900"/><rect width="200" height="200" fill="#fff"/><path d="M100 30 L118 82 L173 82 L128 114 L145 166 L100 134 L55 166 L72 114 L27 82 L82 82Z" fill="#009900"/></svg>');
@@ -37,6 +39,8 @@ const T = {
   english: { name: "Old English", photo: "bamburgh", pos: "50% 50%", flag: "gb-eng", hook: ["This Is", "English?!"],
     who: { skin: "pale", hair: "short", hairColor: "auburn", beard: true, beardColor: "#7a3b1c", outfit: { type: "tunic", color: "#2f5d3a", trim: "#c8a165" }, expression: "neutral" } },
   ancient4: { part: "PART 4", name: "Taíno", photo: "ancient4", pos: "50% 60%", flag: "do", hook: ["You Speak It", "Every Day"] },
+  ancient5: { part: "PART 5", name: "Beothuk", photo: "ancient5", pos: "50% 50%", flag: "ca", hook: ["Not One", "Sentence Left"] },
+  ancient6: { part: "PART 6", name: "Middle Mongolian", photo: "ancient6", pos: "50% 50%", flag: "mn", hook: ["Genghis Khan", "Spoke This"] },
   sounds: { name: "Xhosa", photo: "sounds", pos: "50% 50%", flag: "za", hook: ["Weirdest", "Sounds Ever"] },
   niche: { name: "Tuvan", photo: "niche", pos: "50% 50%", flag: "ru", hook: ["Who Speaks", "This?"] },
   conlangs: { name: "Esperanto", photo: "conlangs", pos: "50% 50%", flagUrl: EO, hook: ["Someone", "Invented It"] },
