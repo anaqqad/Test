@@ -54,7 +54,7 @@ def trim_silence(samples: np.ndarray, sr: int, threshold: float = 0.01) -> np.nd
 _ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
 _TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
 # words Kokoro says wrongly -> spellings it says right (checked with its phonemizer)
-RESPELL = {"raced": "rayst"}
+RESPELL = {"raced": "rayst", "Isabella": "Isabela"}
 
 
 def _two(n: int) -> str:
