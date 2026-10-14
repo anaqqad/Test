@@ -868,3 +868,46 @@ Camera: opening extreme close-up on the wife with the microphone; static close-u
 - Hashtags: #revenge #karma #cheatinghusband #plottwist #booktok #storytime #drama #shetakesitallback #fyp #reels #viral #aistory
 - Cover frame: the wife with the microphone (0-1 s)
 - AI label: turn on "AI-generated content"
+
+## 24. "Knock First" (remake of a viral comedy reel: same beats, new family)
+
+Original beats (30 s): boy bursts into parents' bedroom at night; dad yells about knocking and sends him out to
+knock properly; long silent hold on the closed door; two polite knocks; "Come in."; "Now tell me what happened."
+"Grandma fell down the stairs."; dad panics and both parents sprint out.
+
+```
+Vertical 9:16, 30s. Cinematic photoreal comedy-drama, a cozy suburban master bedroom at night, warm bedside lamps, beige walls, cream bedding, a white bedroom door with a dark lever handle, a dim hallway outside, shallow depth of field, natural skin texture, light film grain. Exactly 3 characters, identical faces and wardrobe in every shot, no other people. All characters are original fictional people who do not resemble any celebrity, actor, TV or movie character. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- DAD (early 40s): white man, stocky, short ginger hair, full ginger beard, freckled forearms, faded grey t-shirt, navy plaid pajama pants, sitting up on the edge of the bed. Strict, dramatic.
+- MOM (late 30s): white woman, long wavy light-brown hair, a few freckles, pale-pink satin pajamas, sitting in bed behind him, a book on her lap.
+- BOY (10): small white boy, messy blond hair, big blue eyes, green t-shirt and green pajama pants with little orange dinosaurs, barefoot, out of breath.
+
+Location: the bedroom; the bed on the left; the white door on the right, opening onto the dark hallway. Screen direction never flips: bed left, door right.
+
+0s-2s: Medium shot, the white door bursts open and the small boy rushes in, out of breath, his mouth already opening. DAD (off-screen, shouting at full volume, from the very first frame): "WHAT THE HELL?!"
+2s-5s: Close-up Dad on the edge of the bed, furious, Mom behind him wide-eyed. DAD: "Didn't I teach you to knock? You don't just barge in here!"
+5s-7s: Close-up Boy, panicked. BOY: "But Dad, it's important!"
+7s-10s: Close-up Dad, pointing at the door. DAD: "This is our private space. I don't care how important it is."
+10s-12s: Close-up Dad, stern. DAD: "Step back outside and knock properly."
+12s-14s: Medium shot, the boy opens his mouth to argue, then lowers his head, walks back out into the hallway and pulls the door shut behind him.
+14s-17s: Static shot of the closed white door. Total silence. Nothing happens for three full seconds.
+17s-18s: Close-up Dad on the bed, arms crossed, satisfied, waiting. Two small polite knocks on the door.
+18s-19s: Close-up Dad. DAD (calm, proud): "Come in."
+19s-21s: Medium shot, the door opens slowly and the boy steps in, stiff and polite.
+21s-23s: Close-up Dad, folding his hands, very calm. DAD: "Now. Tell me what happened."
+23s-25s: Close-up Boy, eyes wet, blurting it out. BOY: "Grandma fell down the stairs!"
+25s-26s: Close-up Dad, his face dropping, eyes huge. DAD: "WHAT?!"
+26s-27s: Close-up Mom, the book falling off her lap.
+27s-30s: Medium shot from the doorway, Dad leaps off the bed and sprints past the boy into the dark hallway, Mom scrambling right behind him in her pink pajamas. DAD (shouting, running): "MOM! I'M COMING!"
+
+Camera: opening on the door bursting open; quick hard cuts during the scolding; a long, completely static hold on the closed door; tight close-ups for the reveal; handheld chaos for the sprint; end on the empty doorway. Audio: the door banging open and the dad's yell at 0.0s are the loudest sounds, full volume on the first frame with no fade-in; clear lip-synced English dialogue; complete silence during the door hold except a ticking clock; two crisp polite knocks; then a frantic thud of bare feet in the hallway. No music. No subtitles, no text overlays, no watermark, no logos.
+```
+
+### Posting metadata
+- Hook text (first 2 s): HE MADE HIS SON GO BACK OUT AND KNOCK… BIG MISTAKE 😳
+- Caption: "Knock first," he said. "Rules are rules," he said. 😭🚪 Wait for it… 👇
+- YouTube Shorts title: Dad Made Him Knock First… Then He Heard Why 😳 #shorts
+- Hashtags: #funny #parenting #dadlife #knock #comedy #plottwist #family #relatable #fyp #reels #viral #aistory
+- Cover frame: the closed door with the dad waiting (15 s) or his shocked face (25 s)
+- AI label: turn on "AI-generated content"
