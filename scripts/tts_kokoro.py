@@ -51,6 +51,36 @@ def trim_silence(samples: np.ndarray, sr: int, threshold: float = 0.01) -> np.nd
     return samples[max(0, loud[0] - pad) : min(len(samples), loud[-1] + pad)]
 
 
+_ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+_TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+# words Kokoro says wrongly -> spellings it says right (checked with its phonemizer)
+RESPELL = {"raced": "rayst"}
+
+
+def _two(n: int) -> str:
+    return _ONES[n] if n < 20 else _TENS[n // 10] + ("-" + _ONES[n % 10] if n % 10 else "")
+
+
+def _year(m: re.Match) -> str:
+    y = int(m.group(0))
+    hi, lo = divmod(y, 100)
+    if 2000 <= y <= 2009:
+        return "two thousand" + (" " + _ONES[lo] if lo else "")
+    if lo == 0:
+        return f"{_two(hi)} hundred"
+    return f"{_two(hi)} {'oh ' + _ONES[lo] if lo < 10 else _two(lo)}"
+
+
+def spoken(text: str, extra: dict | None = None) -> str:
+    """Text as Kokoro should say it. Kokoro reads 1828 as "one thousand eight hundred twenty eight"
+    and 1936 as "nineteen hundred thirty six", so years become words ("eighteen twenty-eight");
+    known mispronunciations are respelled. Captions keep the original text."""
+    text = re.sub(r"(?<![\d,.$])(?:1[1-9]\d\d|20\d\d)(?!\d|,\d)", _year, text)
+    for word, say in {**RESPELL, **(extra or {})}.items():
+        text = re.sub(rf"\b{re.escape(word)}\b", say, text, flags=re.IGNORECASE)
+    return text
+
+
 def syllables(word: str) -> int:
     w = re.sub(r"[^a-z0-9]", "", word.lower())
     if not w:
@@ -86,7 +116,7 @@ def synth_scene(kokoro, scene: dict, voice: dict, sr_holder: dict) -> tuple[np.n
     while True:
         clips = []
         for chunk in scene["narration"]:
-            samples, sr = kokoro.create(chunk, voice=voice["voice"], speed=speed, lang="en-us")
+            samples, sr = kokoro.create(spoken(chunk), voice=voice["voice"], speed=speed, lang="en-us")
             sr_holder["sr"] = sr
             clips.append(trim_silence(np.asarray(samples, dtype=np.float32), sr))
         sr = sr_holder["sr"]

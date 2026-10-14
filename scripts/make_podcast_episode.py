@@ -28,6 +28,7 @@ from scipy.signal import resample_poly
 
 sys.path.insert(0, str(Path(__file__).parent))
 from make_podcast_theme import SR, theme  # noqa: E402
+from tts_kokoro import spoken  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FULL = 0.8  # music level when it plays alone
@@ -45,7 +46,7 @@ def main() -> None:
     clips, pts, chapters = [], [(0.0, FULL), (t - 0.3, FULL), (t, duck)], []
     for seg in spec["segments"]:
         if "text" in seg:
-            s, vsr = k.create(seg["text"], voice=v["voice"], speed=seg.get("speed", v["speed"]), lang=v["lang"])
+            s, vsr = k.create(spoken(seg["text"], spec.get("pronounce")), voice=v["voice"], speed=seg.get("speed", v["speed"]), lang=v["lang"])
             s = resample_poly(np.asarray(s, dtype=np.float64), SR, vsr)
             if "chapter" in seg:
                 chapters.append((t, seg["chapter"]))

@@ -36,7 +36,7 @@ import numpy as np
 import soundfile as sf
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from tts_kokoro import MODEL_DIR, MODEL_FILES, ensure_model, trim_silence, word_timings  # noqa: E402
+from tts_kokoro import MODEL_DIR, MODEL_FILES, ensure_model, spoken, trim_silence, word_timings  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CUT_LEAD = 0.1  # measured on the reference: cuts land ~0.09 s before the word
@@ -183,7 +183,7 @@ def kokoro_beats(spec: dict, lead: float) -> tuple[np.ndarray, int, list[dict]]:
         speed = beat.get("speed", voice.get("speed", 1.0))
         if "stretch" in beat:
             # {"Word": factor}: voice the line naturally, then play that word at factor x speed (pitch kept)
-            samples, sr = kokoro.create(beat["text"], voice=voice["voice"], speed=speed, lang="en-us")
+            samples, sr = kokoro.create(spoken(beat["text"], spec.get("pronounce")), voice=voice["voice"], speed=speed, lang="en-us")
             clip = trim_silence(np.asarray(samples, dtype=np.float32), sr)
             for word, factor in beat["stretch"].items():
                 clip = stretch_word(clip, sr, word, factor)
@@ -192,11 +192,11 @@ def kokoro_beats(spec: dict, lead: float) -> tuple[np.ndarray, int, list[dict]]:
             # [[text, speed factor], ...] voiced separately and joined, e.g. a hard name said slower
             pieces = []
             for text, factor in beat["parts"]:
-                s, sr = kokoro.create(text, voice=voice["voice"], speed=speed * factor, lang="en-us")
+                s, sr = kokoro.create(spoken(text, spec.get("pronounce")), voice=voice["voice"], speed=speed * factor, lang="en-us")
                 pieces += [trim_silence(np.asarray(s, dtype=np.float32), sr), np.zeros(int(0.04 * sr), dtype=np.float32)]
             clips.append(np.concatenate(pieces[:-1]))
         else:
-            samples, sr = kokoro.create(beat["text"], voice=voice["voice"], speed=speed, lang="en-us")
+            samples, sr = kokoro.create(spoken(beat["text"], spec.get("pronounce")), voice=voice["voice"], speed=speed, lang="en-us")
             clips.append(trim_silence(np.asarray(samples, dtype=np.float32), sr))
         print(f"  {beat['id']}: {len(clips[-1]) / sr:.2f}s")
     return join_beats(spec, [([i], c) for i, c in enumerate(clips)], sr, lead, load_whisper())
