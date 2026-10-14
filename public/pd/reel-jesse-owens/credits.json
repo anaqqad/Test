@@ -1,0 +1,29 @@
+{
+ "medals": {
+  "title": "File:Jesse Owens holding medals.jpg",
+  "artist": "Unknown photographer",
+  "date": "1936",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Jesse_Owens_holding_medals.jpg",
+  "width": 1280,
+  "height": 1409
+ },
+ "y1936": {
+  "title": "File:Jesse Owens 1936.jpg",
+  "artist": "Unknown photographer",
+  "date": "12 July 1936",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Jesse_Owens_1936.jpg",
+  "width": 500,
+  "height": 687
+ },
+ "ford": {
+  "title": "File:Photograph of President Gerald Ford and Jesse Owens during the Presentation of the Presidential Medal of Freedom in the East Garden of the White House - NARA - 7062576.jpg",
+  "artist": "White House photographer; U.S. National Archives",
+  "date": "1976",
+  "license": "Public domain (U.S. federal government work)",
+  "source": "https://commons.wikimedia.org/wiki/File:Photograph_of_President_Gerald_Ford_and_Jesse_Owens_during_the_Presentation_of_the_Presidential_Medal_of_Freedom_in_the_East_Garden_of_the_White_House_-_NARA_-_7062576.jpg",
+  "width": 1280,
+  "height": 837
+ }
+}

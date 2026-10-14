@@ -1,0 +1,403 @@
+{
+ "id": "reel-jesse-owens",
+ "title": "Four Olympic Golds. Then He Raced a Horse.",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.1,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "faces": {
+  "medals": [
+   [
+    0.35,
+    0.12,
+    0.62,
+    0.42
+   ]
+  ],
+  "y1936": [
+   [
+    0.2,
+    0.1,
+    0.66,
+    0.52
+   ]
+  ],
+  "ford": [
+   [
+    0.25,
+    0.25,
+    0.36,
+    0.39
+   ],
+   [
+    0.5,
+    0.16,
+    0.59,
+    0.34
+   ]
+  ]
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Four Olympic golds. Then he raced a horse.",
+   "section": "hook",
+   "visual": {
+    "kind": "photo",
+    "image": "medals",
+    "focus": [
+     0.48,
+     0.3
+    ],
+    "zoom": [
+     1.4,
+     1.48
+    ],
+    "anchor": [
+     0.5,
+     0.28
+    ]
+   },
+   "overlays": {
+    "hook": "Four Olympic golds. *Then he raced a horse.*"
+   },
+   "captions": false,
+   "speed": 1.25
+  },
+  {
+   "id": "name",
+   "text": "Meet Jesse Owens.",
+   "section": "who",
+   "visual": {
+    "kind": "photo",
+    "image": "medals",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.48,
+     0.36
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Jesse Owens",
+     "sub": "Athlete · 1913 – 1980"
+    }
+   }
+  },
+  {
+   "id": "born",
+   "text": "He was born in Alabama in 1913, the son of a sharecropper and the grandson of an enslaved man.",
+   "visual": {
+    "kind": "title",
+    "title": "1913",
+    "sub": "born in Oakville, Alabama"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Oakville",
+     "sub": "Alabama"
+    }
+   }
+  },
+  {
+   "id": "jc",
+   "text": "In Cleveland, a teacher misheard his initials, J.C., as Jesse. The name stuck.",
+   "visual": {
+    "kind": "card",
+    "image": "y1936",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.75
+    ],
+    "caption": "Jesse Owens, 1936"
+   }
+  },
+  {
+   "id": "records",
+   "text": "In 1935, in about forty-five minutes, he set three world records and tied a fourth.",
+   "section": "story",
+   "visual": {
+    "kind": "title",
+    "title": "45 minutes",
+    "sub": "3 world records, 1 tied"
+   },
+   "overlays": {
+    "stamp": "May 1935"
+   }
+  },
+  {
+   "id": "berlin",
+   "text": "In 1936, at the Olympics in Hitler's Berlin, he won four gold medals.",
+   "visual": {
+    "kind": "photo",
+    "image": "medals",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Berlin",
+     "sub": "1936 Olympics"
+    }
+   }
+  },
+  {
+   "id": "home",
+   "text": "But back home, four gold medals did not pay the bills.",
+   "section": "cost",
+   "visual": {
+    "kind": "title",
+    "title": "No payday",
+    "sub": "for a four-time champion"
+   }
+  },
+  {
+   "id": "horse",
+   "text": "So in December 1936, in Havana, the fastest man in the world raced a horse, for money.",
+   "visual": {
+    "kind": "card",
+    "image": "y1936",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.75
+    ],
+    "caption": "Jesse Owens, 1936"
+   },
+   "overlays": {
+    "stamp": "Havana, 1936"
+   }
+  },
+  {
+   "id": "later",
+   "text": "He kept running exhibition races for years, to earn a living.",
+   "visual": {
+    "kind": "title",
+    "title": "Exhibitions",
+    "sub": "racing to earn a living"
+   }
+  },
+  {
+   "id": "medal",
+   "text": "Forty years after Berlin, in 1976, President Gerald Ford awarded him the Presidential Medal of Freedom.",
+   "section": "legacy",
+   "visual": {
+    "kind": "photo",
+    "image": "ford",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.16
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Medal of Freedom",
+     "sub": "White House · 1976"
+    }
+   }
+  },
+  {
+   "id": "died",
+   "text": "He died in 1980.",
+   "visual": {
+    "kind": "photo",
+    "image": "medals",
+    "focus": [
+     0.48,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "legacy",
+   "text": "The fastest man on Earth, racing a horse to make a living.",
+   "visual": {
+    "kind": "photo",
+    "image": "medals",
+    "focus": [
+     0.48,
+     0.3
+    ],
+    "zoom": [
+     1.3,
+     1.36
+    ],
+    "anchor": [
+     0.5,
+     0.28
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "section": "cta",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sources": {
+  "OSU": {
+   "name": "Ohio State University Libraries: Jesse Owens timeline",
+   "url": "https://library.osu.edu/site/jesseowens/timeline/"
+  },
+  "ESPN": {
+   "name": "ESPN SportsCentury: Jesse Owens",
+   "url": "https://www.espn.com/sportscentury/features/00194717.html"
+  },
+  "EW": {
+   "name": "Eleven Warriors: Jesse Owens had to race a horse for money (2026)",
+   "url": "https://www.elevenwarriors.com/ohio-state-athletics/2026/07/163053/remember-when-jesse-owens-had-to-race-a-horse-for-money-after-winning-four-olympic-gold-medals"
+  },
+  "MG": {
+   "name": "Mail & Guardian: Jesse Owens",
+   "url": "https://mg.co.za/?p=286272"
+  },
+  "ECH": {
+   "name": "Encyclopedia of Cleveland History (Case Western Reserve): Owens, Jesse",
+   "url": "https://ech.case.edu/cgi/article.pl?id=OJ1"
+  },
+  "HT": {
+   "name": "History Today: Jesse Owens born in Alabama",
+   "url": "https://historytoday.com/node/51158"
+  }
+ },
+ "facts": [
+  {
+   "beat": "hook",
+   "claim": "Won four golds in 1936 and later raced a horse for money (Havana, 26 Dec 1936).",
+   "sources": [
+    "EW",
+    "MG",
+    "ESPN"
+   ]
+  },
+  {
+   "beat": "born",
+   "claim": "Born 12 Sept 1913, Oakville, Alabama; son of a sharecropper, grandson of an enslaved man.",
+   "sources": [
+    "OSU",
+    "ECH",
+    "HT"
+   ]
+  },
+  {
+   "beat": "jc",
+   "claim": "A Cleveland teacher misheard his initials J.C. as Jesse.",
+   "sources": [
+    "ECH",
+    "OSU",
+    "ESPN"
+   ]
+  },
+  {
+   "beat": "records",
+   "claim": "25 May 1935, Ann Arbor: three world records and a tie within about 45 minutes.",
+   "sources": [
+    "ESPN",
+    "OSU"
+   ]
+  },
+  {
+   "beat": "berlin",
+   "claim": "Four gold medals at the 1936 Berlin Olympics.",
+   "sources": [
+    "ESPN",
+    "OSU",
+    "ECH"
+   ]
+  },
+  {
+   "beat": "home",
+   "claim": "Struggled to earn a living after 1936; raced in paid exhibitions.",
+   "sources": [
+    "EW",
+    "MG",
+    "ESPN"
+   ]
+  },
+  {
+   "beat": "medal",
+   "claim": "Presidential Medal of Freedom from President Ford, 1976.",
+   "sources": [
+    "OSU",
+    "ECH"
+   ]
+  },
+  {
+   "beat": "died",
+   "claim": "Died 31 March 1980.",
+   "sources": [
+    "OSU",
+    "ECH"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Roosevelt snub / no White House invitation (opinion columns only)",
+  "'You can't eat four gold medals' quote (attributed; not verified against a primary source)",
+  "$2,000 fee for the Havana race (unverified)",
+  "Luz Long long-jump advice story (disputed)"
+ ]
+}

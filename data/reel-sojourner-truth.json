@@ -1,0 +1,399 @@
+{
+ "id": "reel-sojourner-truth",
+ "title": "She Sued a White Man. And Won.",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.1,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "faces": {
+  "cabinet": [
+   [
+    0.35,
+    0.22,
+    0.48,
+    0.33
+   ]
+  ],
+  "cdv": [
+   [
+    0.3,
+    0.2,
+    0.47,
+    0.33
+   ]
+  ],
+  "c1864": [
+   [
+    0.3,
+    0.15,
+    0.64,
+    0.41
+   ]
+  ],
+  "grandson": [
+   [
+    0.4,
+    0.21,
+    0.54,
+    0.3
+   ]
+  ],
+  "shadow": [
+   [
+    0.29,
+    0.17,
+    0.49,
+    0.3
+   ]
+  ]
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "She sued a white man. And won.",
+   "section": "hook",
+   "visual": {
+    "kind": "photo",
+    "image": "cabinet",
+    "focus": [
+     0.42,
+     0.28
+    ],
+    "zoom": [
+     2.4,
+     2.5
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "hook": "She sued a white man. *And won.*"
+   },
+   "captions": false,
+   "speed": 1.15
+  },
+  {
+   "id": "name",
+   "text": "Meet Sojourner Truth.",
+   "section": "who",
+   "visual": {
+    "kind": "photo",
+    "image": "cabinet",
+    "focus": [
+     0.45,
+     0.35
+    ],
+    "zoom": [
+     1.3,
+     1.36
+    ],
+    "anchor": [
+     0.48,
+     0.35
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Sojourner Truth",
+     "sub": "Abolitionist · c. 1797 – 1883"
+    }
+   }
+  },
+  {
+   "id": "born",
+   "text": "She was born into slavery in New York around 1797, and named Isabella.",
+   "visual": {
+    "kind": "title",
+    "title": "c. 1797",
+    "sub": "born enslaved in New York"
+   },
+   "overlays": {
+    "pin": {
+     "label": "New York",
+     "sub": "Ulster County"
+    }
+   }
+  },
+  {
+   "id": "walk",
+   "text": "Her enslaver promised to free her, then broke his word. So she walked away to freedom, with her baby daughter.",
+   "section": "story",
+   "visual": {
+    "kind": "photo",
+    "image": "cdv",
+    "focus": [
+     0.4,
+     0.3
+    ],
+    "zoom": [
+     1.5,
+     1.58
+    ],
+    "anchor": [
+     0.48,
+     0.32
+    ]
+   }
+  },
+  {
+   "id": "peter",
+   "text": "Then her five-year-old son, Peter, was sold illegally to a man in Alabama.",
+   "visual": {
+    "kind": "title",
+    "title": "Sold south",
+    "sub": "her son Peter, age five"
+   }
+  },
+  {
+   "id": "court",
+   "text": "In 1828, she took the case to court in New York.",
+   "visual": {
+    "kind": "title",
+    "title": "In court",
+    "sub": "New York, 1828"
+   }
+  },
+  {
+   "id": "won",
+   "text": "And she won. Peter came home.",
+   "visual": {
+    "kind": "photo",
+    "image": "c1864",
+    "focus": [
+     0.47,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.47,
+     0.32
+    ]
+   }
+  },
+  {
+   "id": "rename",
+   "text": "In 1843, she renamed herself Sojourner Truth, and spoke out against slavery and for women's rights.",
+   "visual": {
+    "kind": "photo",
+    "image": "grandson",
+    "focus": [
+     0.47,
+     0.3
+    ],
+    "zoom": [
+     1.6,
+     1.68
+    ],
+    "anchor": [
+     0.48,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "akron",
+   "text": "In 1851, she gave a speech at a women's rights convention in Akron, Ohio.",
+   "visual": {
+    "kind": "title",
+    "title": "Akron, 1851",
+    "sub": "women's rights convention"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Akron",
+     "sub": "Ohio"
+    }
+   }
+  },
+  {
+   "id": "myth",
+   "text": "But the famous version, Ain't I a Woman, was published twelve years later, and may not be her words.",
+   "section": "cost",
+   "visual": {
+    "kind": "title",
+    "title": "A famous myth",
+    "sub": "published 12 years later"
+   }
+  },
+  {
+   "id": "shadow",
+   "text": "She sold photos of herself, printed with the words: I sell the shadow to support the substance.",
+   "visual": {
+    "kind": "card",
+    "image": "shadow",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Carte de visite, 1864. The Met"
+   }
+  },
+  {
+   "id": "lincoln",
+   "text": "In 1864, she met President Abraham Lincoln at the White House.",
+   "section": "legacy",
+   "visual": {
+    "kind": "title",
+    "title": "1864",
+    "sub": "she meets President Lincoln"
+   }
+  },
+  {
+   "id": "legacy",
+   "text": "Born enslaved. She walked away, went to court, and won.",
+   "visual": {
+    "kind": "photo",
+    "image": "cabinet",
+    "focus": [
+     0.42,
+     0.28
+    ],
+    "zoom": [
+     1.9,
+     1.98
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "section": "cta",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sources": {
+  "NPS": {
+   "name": "National Park Service: Sojourner Truth",
+   "url": "https://www.nps.gov/articles/sojourner-truth.htm"
+  },
+  "NPSP": {
+   "name": "National Park Service: Sojourner Truth (people)",
+   "url": "https://home.nps.gov/people/sojourner-truth.htm"
+  },
+  "NYA": {
+   "name": "New York Almanack: Sojourner Truth's 1828 court case (2025)",
+   "url": "https://www.newyorkalmanack.com/2025/03/sojourner-truth-1828-court-case/"
+  },
+  "BUNK": {
+   "name": "Bunk History: State archives find Sojourner Truth's historic court case",
+   "url": "https://bunkhistory.org/resources/state-archives-find-sojourner-truths-historic-court-case"
+  },
+  "MET": {
+   "name": "The Metropolitan Museum of Art: Sojourner Truth, 'I Sell the Shadow to Support the Substance' (1864)",
+   "url": "https://www.metmuseum.org/art/collection/search/301989"
+  },
+  "SK": {
+   "name": "Seth Kaller: Sojourner Truth carte de visite",
+   "url": "https://sethkaller.com/item/2532-28065-Sojourner-Truth-Carte-de-visite:-“I-Sell-the-Shadow-to-Support-the-Substance”"
+  }
+ },
+ "facts": [
+  {
+   "beat": "hook",
+   "claim": "In 1828 she won her case against Solomon Gedney for the return of her son.",
+   "sources": [
+    "NYA",
+    "BUNK"
+   ]
+  },
+  {
+   "beat": "born",
+   "claim": "Born enslaved in New York c. 1797 as Isabella (Baumfree).",
+   "sources": [
+    "NPS",
+    "NPSP"
+   ]
+  },
+  {
+   "beat": "walk",
+   "claim": "Her enslaver broke his promise to free her; she walked away to freedom with her infant daughter.",
+   "sources": [
+    "NPS",
+    "NPSP"
+   ]
+  },
+  {
+   "beat": "peter",
+   "claim": "Son Peter (5) illegally sold out of state to Alabama.",
+   "sources": [
+    "NYA",
+    "BUNK"
+   ]
+  },
+  {
+   "beat": "rename",
+   "claim": "Renamed herself Sojourner Truth in 1843.",
+   "sources": [
+    "NPS",
+    "NPSP"
+   ]
+  },
+  {
+   "beat": "myth",
+   "claim": "'Ain't I a Woman?' version published by Frances Gage in 1863; Robinson's 1851 report lacks the phrase.",
+   "sources": [
+    "NPS",
+    "NPSP"
+   ]
+  },
+  {
+   "beat": "shadow",
+   "claim": "Sold cartes de visite captioned 'I Sell the Shadow to Support the Substance' (1864).",
+   "sources": [
+    "MET",
+    "NPS",
+    "SK"
+   ]
+  },
+  {
+   "beat": "lincoln",
+   "claim": "Met President Lincoln in 1864.",
+   "sources": [
+    "NPSP",
+    "SK"
+   ]
+  }
+ ],
+ "notUsed": [
+  "'First Black woman to win a case against a white man' (sources word it differently)",
+  "Exact year she walked away (1826 vs 1827)",
+  "Sold with a flock of sheep (single source checked)"
+ ]
+}
