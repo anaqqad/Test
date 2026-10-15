@@ -9,16 +9,55 @@
 			"defaultDuotone": false,
 			"customGradient": false,
 			"palette": [
-				{ "slug": "ink", "name": "Ink", "color": "#141210" },
-				{ "slug": "paper", "name": "Cream", "color": "#f5efe3" },
-				{ "slug": "paper-dark", "name": "Parchment", "color": "#ebe1cd" },
-				{ "slug": "red", "name": "Deep red", "color": "#8e1b1b" },
-				{ "slug": "gold", "name": "Muted gold", "color": "#a8844a" },
-				{ "slug": "muted", "name": "Archive grey", "color": "#5e564b" }
+				{
+					"slug": "ink",
+					"name": "Ink",
+					"color": "#141210"
+				},
+				{
+					"slug": "paper",
+					"name": "Cream",
+					"color": "#f5efe3"
+				},
+				{
+					"slug": "paper-dark",
+					"name": "Parchment",
+					"color": "#ebe1cd"
+				},
+				{
+					"slug": "red",
+					"name": "Deep red",
+					"color": "#8e1b1b"
+				},
+				{
+					"slug": "gold",
+					"name": "Muted gold",
+					"color": "#e0a93b"
+				},
+				{
+					"slug": "muted",
+					"name": "Archive grey",
+					"color": "#5e564b"
+				},
+				{
+					"slug": "white",
+					"name": "White",
+					"color": "#ffffff"
+				}
 			]
 		},
-		"layout": { "contentSize": "42rem", "wideSize": "75rem" },
-		"spacing": { "units": [ "px", "em", "rem", "%" ] },
+		"layout": {
+			"contentSize": "45rem",
+			"wideSize": "90rem"
+		},
+		"spacing": {
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"%"
+			]
+		},
 		"typography": {
 			"defaultFontSizes": false,
 			"dropCap": true,
@@ -28,7 +67,15 @@
 					"name": "Playfair Display",
 					"fontFamily": "\"Playfair Display\", Georgia, serif",
 					"fontFace": [
-						{ "fontFamily": "Playfair Display", "fontWeight": "400 900", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/playfair-display-latin-wght-normal.woff2" ] }
+						{
+							"fontFamily": "Playfair Display",
+							"fontWeight": "400 900",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/playfair-display-latin-wght-normal.woff2"
+							]
+						}
 					]
 				},
 				{
@@ -36,30 +83,89 @@
 					"name": "Source Serif 4",
 					"fontFamily": "\"Source Serif 4\", Georgia, serif",
 					"fontFace": [
-						{ "fontFamily": "Source Serif 4", "fontWeight": "200 900", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/source-serif-4-latin-wght-normal.woff2" ] },
-						{ "fontFamily": "Source Serif 4", "fontWeight": "200 900", "fontStyle": "italic", "fontDisplay": "swap", "src": [ "file:./assets/fonts/source-serif-4-latin-wght-italic.woff2" ] }
+						{
+							"fontFamily": "Source Serif 4",
+							"fontWeight": "200 900",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/source-serif-4-latin-wght-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Source Serif 4",
+							"fontWeight": "200 900",
+							"fontStyle": "italic",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/source-serif-4-latin-wght-italic.woff2"
+							]
+						}
 					]
 				},
 				{
 					"slug": "sans",
-					"name": "System sans",
-					"fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif"
+					"name": "Source Sans 3",
+					"fontFamily": "\"Source Sans 3\", system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Source Sans 3",
+							"fontWeight": "200 900",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/source-sans-3-latin-wght-normal.woff2"
+							]
+						}
+					]
 				}
 			],
 			"fontSizes": [
-				{ "slug": "small", "name": "Small", "size": "0.9rem" },
-				{ "slug": "medium", "name": "Normal", "size": "1.15rem" },
-				{ "slug": "large", "name": "Large", "size": "1.5rem" },
-				{ "slug": "x-large", "name": "Extra large", "size": "2.25rem" }
+				{
+					"slug": "small",
+					"name": "Small",
+					"size": "0.9rem"
+				},
+				{
+					"slug": "medium",
+					"name": "Normal",
+					"size": "1.15rem"
+				},
+				{
+					"slug": "large",
+					"name": "Large",
+					"size": "1.5rem"
+				},
+				{
+					"slug": "x-large",
+					"name": "Extra large",
+					"size": "2.25rem"
+				}
 			]
 		}
 	},
 	"styles": {
-		"color": { "background": "var(--wp--preset--color--paper)", "text": "var(--wp--preset--color--ink)" },
-		"typography": { "fontFamily": "var(--wp--preset--font-family--serif)", "fontSize": "var(--wp--preset--font-size--medium)", "lineHeight": "1.7" },
+		"color": {
+			"background": "var(--wp--preset--color--paper)",
+			"text": "var(--wp--preset--color--ink)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--sans)",
+			"fontSize": "1.125rem",
+			"lineHeight": "1.6"
+		},
 		"elements": {
-			"heading": { "typography": { "fontFamily": "var(--wp--preset--font-family--display)", "lineHeight": "1.15" } },
-			"link": { "color": { "text": "var(--wp--preset--color--red)" } }
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--display)",
+					"lineHeight": "1.15"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--red)"
+				}
+			}
 		}
 	}
 }

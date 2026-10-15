@@ -37,4 +37,10 @@ for (const f of all) {
 }
 rows.sort((a, b) => a[1].localeCompare(b[1]));
 writeFileSync(out, JSON.stringify({ viewBox: `0 0 ${W} ${H}`, source: 'Natural Earth 1:110m (public domain) via world-atlas 2.0.2', countries: rows }));
-console.log(`${rows.length} shapes, ${missing} without ISO code`);
+// Static SVG for the map page (loaded by fetch, cached by the browser). Countries carry data-iso; colours/links are
+// added on the page from the live story counts.
+const esc = (t) => t.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}">` +
+  rows.map(([iso, name, d]) => `<path${iso ? ` data-iso="${iso}"` : ""} d="${d}"><title>${esc(name)}</title></path>`).join("") + "</svg>";
+writeFileSync(out.replace(/.json$/, ".svg"), svg);
+console.log(`${rows.length} shapes, ${missing} without ISO code; wrote ${out.replace(/.json$/, ".svg")} (${svg.length} bytes)`);

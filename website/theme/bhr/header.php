@@ -10,23 +10,16 @@
 <?php wp_body_open(); ?>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
-	<div class="wrap masthead">
+	<div class="header-bar">
 		<a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 			<span class="brand-small">The</span>
 			<span class="brand-name">Black History <span class="brand-gold">Room</span></span>
 		</a>
-		<div class="masthead-tools">
-			<div class="masthead-search"><?php get_search_form(); ?></div>
-			<a class="donate" href="<?php echo esc_url( BHR_KOFI ); ?>" target="_blank" rel="noopener">Donate</a>
-			<button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" hidden>Menu</button>
-		</div>
-	</div>
-	<nav id="primary-nav" class="primary-nav" aria-label="Main">
-		<div class="wrap">
+		<nav id="primary-nav" class="primary-nav" aria-label="Main">
 			<div class="nav-search"><?php get_search_form(); ?></div>
 			<ul class="mega">
 				<?php
-				$featured = new WP_Query( array( 'post_type' => 'story', 'posts_per_page' => 1, 'no_found_rows' => true, 'ignore_sticky_posts' => false ) );
+				$featured = new WP_Query( array( 'post_type' => 'story', 'posts_per_page' => 1, 'no_found_rows' => true ) );
 				foreach ( bhr_mega_menu() as $key => $item ) :
 					$panel = 'mega-' . $key;
 					?>
@@ -46,7 +39,7 @@
 								<?php endforeach; ?>
 								<?php if ( ! empty( $item['featured'] ) && $featured->have_posts() ) : $featured->the_post(); ?>
 									<a class="mega-feature" href="<?php the_permalink(); ?>">
-										<?php the_post_thumbnail( 'bhr-card', array( 'loading' => 'lazy' ) ); ?>
+										<?php the_post_thumbnail( 'bhr-card43', array( 'loading' => 'lazy' ) ); ?>
 										<span class="mega-heading">Featured story</span>
 										<span class="mega-feature-title"><?php echo esc_html( bhr_story_title() ); ?></span>
 									</a>
@@ -57,8 +50,13 @@
 					</li>
 				<?php endforeach; ?>
 			</ul>
+		</nav>
+		<div class="header-tools">
+			<div class="header-search"><?php get_search_form(); ?></div>
+			<a class="btn btn--primary donate" href="<?php echo esc_url( BHR_KOFI ); ?>" target="_blank" rel="noopener">Donate</a>
+			<button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" hidden>Menu</button>
 		</div>
-	</nav>
+	</div>
 </header>
 <script>
 (function () {

@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'BHR_VERSION', '1.1.3' );
+define( 'BHR_VERSION', '1.2.3' );
 
 require __DIR__ . '/inc/content.php';
 require __DIR__ . '/inc/podcast.php';
@@ -34,6 +34,10 @@ add_action( 'after_setup_theme', function () {
 	add_image_size( 'bhr-social', 1200, 630, true );
 	add_image_size( 'bhr-portrait', 600, 750, true );
 	add_image_size( 'bhr-square', 600, 600, true );
+	// 4:3 crops kept from the top of the image, so faces in portraits stay in frame.
+	add_image_size( 'bhr-card43', 800, 600, array( 'center', 'top' ) );
+	add_image_size( 'bhr-card43-sm', 480, 360, array( 'center', 'top' ) ); // phones (srcset)
+	add_image_size( 'bhr-hero43', 1200, 900, array( 'center', 'top' ) );
 } );
 
 add_filter( 'image_size_names_choose', function ( $sizes ) {
@@ -63,7 +67,7 @@ add_action( 'wp_enqueue_scripts', function () {
 add_filter( 'should_load_separate_core_block_assets', '__return_true' );
 
 add_action( 'wp_head', function () {
-	$fonts = array( 'playfair-display-latin-wght-normal.woff2', 'source-serif-4-latin-wght-normal.woff2' );
+	$fonts = array( 'playfair-display-latin-wght-normal.woff2', 'source-sans-3-latin-wght-normal.woff2' );
 	foreach ( $fonts as $font ) {
 		printf(
 			'<link rel="preload" href="%s" as="font" type="font/woff2" crossorigin>' . "\n",
@@ -92,6 +96,21 @@ add_filter( 'get_site_icon_url', function ( $url, $size ) {
 	$px = $size <= 16 ? 16 : ( $size <= 32 ? 32 : ( $size <= 180 ? 180 : ( $size <= 192 ? 192 : ( $size <= 270 ? 270 : 0 ) ) ) );
 	return get_theme_file_uri( $px ? "assets/icon/site-icon-{$px}.png" : 'assets/icon/site-icon.png' );
 }, 10, 2 );
+
+// Social sharing: stories share their 1200x630 crop (Facebook's card shape) instead of the full portrait image.
+add_filter( 'wpseo_opengraph_image_size', function () {
+	return 'bhr-social';
+} );
+// Our uploads are stored as WebP: report the real type of the shared file (Yoast reports the upload's original type).
+add_filter( 'wpseo_opengraph_image', function ( $url ) {
+	$GLOBALS['bhr_og_url'] = $url;
+	return $url;
+} );
+add_filter( 'wpseo_opengraph_image_type', function ( $type ) {
+	$ext   = strtolower( pathinfo( (string) wp_parse_url( $GLOBALS['bhr_og_url'] ?? '', PHP_URL_PATH ), PATHINFO_EXTENSION ) );
+	$types = array( 'webp' => 'image/webp', 'jpg' => 'image/jpeg', 'jpeg' => 'image/jpeg', 'png' => 'image/png', 'avif' => 'image/avif' );
+	return $types[ $ext ] ?? $type;
+} );
 
 // Front-end clean-up: no emoji script, no generator tag, no XML-RPC discovery.
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );

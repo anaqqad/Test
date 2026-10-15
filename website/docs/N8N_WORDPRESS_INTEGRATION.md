@@ -159,3 +159,8 @@ printf 'WP_N8N_USER=n8n-automation\nWP_N8N_APP_PASSWORD=%s\n' "$P" >> /opt/black
 ```
 Country terms: all ISO 3166-1 countries except Western Sahara were created from `i18n-iso-countries` names
 (slug = alpha-2). The podcast REST base is `episodes` (`theme/bhr/inc/podcast.php`).
+
+## 11. Re-test 2026-10-15 (after the redesign)
+Story draft with featured image + section/domain/country/era, and a News post draft with featured image + categories
+(5, 11) created as `n8n-automation`; publish attempt 403; test items deleted. Episodes also accept `bhr_chapters`
+(one chapter per line, "0:00 Welcome").

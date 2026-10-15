@@ -34,6 +34,22 @@ while ( have_posts() ) :
 			<figure class="article-figure wrap wrap--text"><?php the_post_thumbnail( 'large' ); ?></figure>
 		<?php endif; ?>
 
+		<?php
+		$chapters = array_filter( array_map( 'trim', preg_split( '/\R/', (string) get_post_meta( get_the_ID(), 'bhr_chapters', true ) ) ) );
+		if ( $chapters ) :
+			?>
+			<section class="wrap wrap--text" aria-labelledby="chapters-title">
+				<h2 id="chapters-title" class="end-title">Chapters</h2>
+				<ol class="chapters">
+					<?php foreach ( $chapters as $line ) : ?>
+						<?php if ( preg_match( '/^(\d+:\d\d)\s+(.+)$/', $line, $m ) ) : ?>
+							<li><time><?php echo esc_html( $m[1] ); ?></time> <?php echo esc_html( $m[2] ); ?></li>
+						<?php endif; ?>
+					<?php endforeach; ?>
+				</ol>
+			</section>
+		<?php endif; ?>
+
 		<?php if ( $related ) : ?>
 			<section class="wrap wrap--text episode-related">
 				<h2>Read the stories</h2>

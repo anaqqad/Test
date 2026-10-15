@@ -2,3 +2,4 @@ Fonts (latin subsets, variable weight), from Fontsource v5.2.5:
 - Playfair Display: Copyright The Playfair Display Project Authors, SIL Open Font License 1.1
 - Source Serif 4: Copyright Adobe, SIL Open Font License 1.1
 https://openfontlicense.org
+- Source Sans 3: Copyright Adobe, SIL Open Font License 1.1

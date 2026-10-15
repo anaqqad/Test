@@ -29,7 +29,7 @@ function bhr_story_card( $heading = 'h3' ) {
 	echo '<article class="scard">';
 	echo '<a class="scard-media" href="' . esc_url( get_permalink() ) . '" tabindex="-1" aria-hidden="true">';
 	if ( has_post_thumbnail() ) {
-		the_post_thumbnail( 'bhr-square', array( 'sizes' => '(min-width: 64em) 360px, (min-width: 40em) 45vw, 100vw' ) );
+		the_post_thumbnail( 'bhr-card43', array( 'sizes' => '(min-width: 1440px) 440px, (min-width: 1024px) 31vw, (min-width: 640px) 46vw, 92vw' ) );
 	} else {
 		echo '<span class="scard-placeholder">' . esc_html( mb_substr( get_the_title(), 0, 1 ) ) . '</span>';
 	}
@@ -37,15 +37,17 @@ function bhr_story_card( $heading = 'h3' ) {
 	if ( $domain ) {
 		echo '<p class="kicker kicker--static">' . esc_html( $domain->name ) . '</p>';
 	}
-	printf( '<%1$s class="scard-title"><a href="%2$s">%3$s</a></%1$s>', $heading, esc_url( get_permalink() ), esc_html( get_the_title() ) );
-	if ( $years ) {
-		echo '<p class="scard-years">' . esc_html( $years ) . '</p>';
-	}
+	printf(
+		'<%1$s class="scard-title"><a href="%2$s">%3$s</a>%4$s</%1$s>',
+		$heading,
+		esc_url( get_permalink() ),
+		esc_html( get_the_title() ),
+		$years ? ' <span class="scard-years">' . esc_html( $years ) . '</span>' : ''
+	);
 	if ( has_excerpt() ) {
 		echo '<p class="scard-excerpt">' . esc_html( get_the_excerpt() ) . '</p>';
 	}
-	echo '<p class="scard-foot"><a class="scard-more" href="' . esc_url( get_permalink() ) . '">Read more<span class="screen-reader-text"> about ' . esc_html( get_the_title() ) . '</span></a>';
-	echo '<time datetime="' . esc_attr( get_the_date( 'c' ) ) . '">' . esc_html( get_the_date() ) . '</time></p>';
+	echo '<a class="btn btn--primary scard-more" href="' . esc_url( get_permalink() ) . '">Read more<span class="screen-reader-text"> about ' . esc_html( get_the_title() ) . '</span></a>';
 	echo '</div></article>';
 }
 
