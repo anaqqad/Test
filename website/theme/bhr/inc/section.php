@@ -69,15 +69,16 @@ function bhr_render_section_list( $section ) {
 }
 
 /**
- * World map (inline SVG built from Natural Earth) + alphabetical country list. Works without JavaScript.
+ * World map + alphabetical country list. The country list is plain HTML (works without JavaScript and for screen
+ * readers). The map itself is a static, browser-cached SVG file (assets/map/world-110m.svg) fetched only on this page;
+ * a small script colours the countries that have stories and turns them into links.
  */
 function bhr_render_map() {
-	$file = get_theme_file_path( 'assets/map/world-110m.json' );
-	$map  = json_decode( (string) file_get_contents( $file ), true );
-	if ( ! $map ) {
-		return;
-	}
 	$counts = bhr_country_counts();
+	$data   = array();
+	foreach ( $counts as $iso => $c ) {
+		$data[ $iso ] = array( 'n' => $c[0], 'c' => $c[1], 'u' => $c[2] );
+	}
 	?>
 	<div class="map-layout">
 		<section class="country-list" id="countries" aria-labelledby="countries-title">
@@ -98,48 +99,77 @@ function bhr_render_map() {
 				<button type="button" data-zoom="out" aria-label="Zoom out">−</button>
 				<button type="button" data-zoom="reset" aria-label="Reset zoom">Reset</button>
 			</div>
-			<svg viewBox="<?php echo esc_attr( $map['viewBox'] ); ?>" role="group" aria-label="World map. Countries with stories are links." focusable="false">
-				<?php
-				foreach ( $map['countries'] as $row ) {
-					list( $iso, $name, $d ) = $row;
-					if ( $iso && isset( $counts[ $iso ] ) ) {
-						$c     = $counts[ $iso ];
-						$label = sprintf( '%s: %d %s', $c[0], $c[1], 1 === $c[1] ? 'story' : 'stories' );
-						printf(
-							'<a href="%s" aria-label="%s"><title>%s</title><path class="has-stories" d="%s"/></a>',
-							esc_url( $c[2] ),
-							esc_attr( $label ),
-							esc_html( $label ),
-							esc_attr( $d )
-						);
-					} else {
-						printf( '<path d="%s" aria-hidden="true"><title>%s</title></path>', esc_attr( $d ), esc_html( $name ) );
-					}
-				}
-				?>
-			</svg>
+			<div class="map-canvas" data-src="<?php echo esc_url( add_query_arg( 'ver', BHR_VERSION, get_theme_file_uri( 'assets/map/world-110m.svg' ) ) ); ?>">
+				<img src="<?php echo esc_url( bhr_map_preview_url() ); ?>" width="960" height="500" alt="World map. Use the country list to open a country." decoding="async">
+			</div>
 			<figcaption>Coloured countries have stories. Boundaries: Natural Earth (public domain).</figcaption>
 		</figure>
 	</div>
 	<script>
 	(function () {
-		var svg = document.querySelector('.world-map svg'), ui = document.querySelector('.map-zoom');
-		if (!svg || !ui) return;
-		ui.hidden = false;
-		var base = svg.viewBox.baseVal, full = [base.x, base.y, base.width, base.height], z = 1;
-		function apply() {
-			var w = full[2] / z, h = full[3] / z;
-			svg.setAttribute('viewBox', [full[0] + (full[2] - w) / 2, full[1] + (full[3] - h) / 2, w, h].join(' '));
-		}
-		ui.addEventListener('click', function (e) {
-			var a = e.target.getAttribute('data-zoom');
-			if (!a) return;
-			z = a === 'in' ? Math.min(z * 1.5, 6) : a === 'out' ? Math.max(z / 1.5, 1) : 1;
-			apply();
+		var box = document.querySelector('.map-canvas'), ui = document.querySelector('.map-zoom');
+		var counts = <?php echo wp_json_encode( (object) $data ); ?>;
+		if (!box || !window.fetch) return;
+		fetch(box.getAttribute('data-src')).then(function (r) { return r.text(); }).then(function (text) {
+			box.innerHTML = text;
+			var svg = box.querySelector('svg'), ns = 'http://www.w3.org/2000/svg';
+			svg.setAttribute('role', 'group');
+			svg.setAttribute('aria-label', 'World map. Countries with stories are links.');
+			svg.querySelectorAll('path').forEach(function (p) {
+				var c = counts[p.getAttribute('data-iso')];
+				if (!c) { p.setAttribute('aria-hidden', 'true'); return; }
+				var a = document.createElementNS(ns, 'a'), label = c.n + ': ' + c.c + (c.c === 1 ? ' story' : ' stories');
+				a.setAttribute('href', c.u);
+				a.setAttribute('aria-label', label);
+				p.querySelector('title').textContent = label;
+				p.setAttribute('class', 'has-stories');
+				p.parentNode.insertBefore(a, p);
+				a.appendChild(p);
+			});
+			if (!ui) return;
+			ui.hidden = false;
+			var b = svg.viewBox.baseVal, full = [b.x, b.y, b.width, b.height], z = 1;
+			ui.addEventListener('click', function (e) {
+				var act = e.target.getAttribute('data-zoom');
+				if (!act) return;
+				z = act === 'in' ? Math.min(z * 1.5, 6) : act === 'out' ? Math.max(z / 1.5, 1) : 1;
+				var w = full[2] / z, h = full[3] / z;
+				svg.setAttribute('viewBox', [full[0] + (full[2] - w) / 2, full[1] + (full[3] - h) / 2, w, h].join(' '));
+			});
 		});
 	})();
 	</script>
 	<?php
+}
+
+/**
+ * Static preview image of the map (countries with stories in deep red). Written to uploads/bhr/ and rebuilt only
+ * when the set of countries with stories changes. Used on the homepage and as the map page's first paint.
+ */
+function bhr_map_preview_url() {
+	$counts = bhr_country_counts();
+	$key    = substr( md5( implode( ',', array_keys( $counts ) ) ), 0, 10 );
+	$up     = wp_upload_dir();
+	$dir    = trailingslashit( $up['basedir'] ) . 'bhr/';
+	$file   = "map-preview-{$key}.svg";
+	if ( ! file_exists( $dir . $file ) ) {
+		$map = json_decode( (string) file_get_contents( get_theme_file_path( 'assets/map/world-110m.json' ) ), true );
+		if ( $map ) {
+			wp_mkdir_p( $dir );
+			$svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="' . esc_attr( $map['viewBox'] ) . '"><rect width="100%" height="100%" fill="#1c1916"/>';
+			foreach ( $map['countries'] as $row ) {
+				$fill = ( $row[0] && isset( $counts[ $row[0] ] ) ) ? '#8e1b1b' : '#3a3631';
+				$svg .= '<path fill="' . $fill . '" stroke="#1c1916" stroke-width="0.5" d="' . esc_attr( $row[2] ) . '"/>';
+			}
+			file_put_contents( $dir . $file, $svg . '</svg>' );
+			foreach ( glob( $dir . 'map-preview-*.svg' ) as $old ) {
+				if ( basename( $old ) !== $file ) {
+					unlink( $old );
+				}
+			}
+		}
+	}
+	return trailingslashit( $up['baseurl'] ) . 'bhr/' . $file;
 }
 
 function bhr_render_section_page( $section, $with_map = false ) {

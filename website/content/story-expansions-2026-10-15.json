@@ -1,0 +1,187 @@
+{
+ "_about": "Expanded texts (250-400 words) for stories whose live text was shorter. Built only from facts in data/reel-*.json (facts, notUsed), publish/reels/*.md (post text, notes) and data/podcast-ep0*.json (script, sources). Saved as DRAFTS linked to the live story (meta bhr_revision_of); applied to the live story only after the owner approves.",
+ "stories": {
+  "robert-smalls": {
+   "paragraphs": [
+    "Before dawn on 13 May 1862, an enslaved man took an armed Confederate steamer out of Charleston harbor and sailed his family to freedom. His name was Robert Smalls.",
+    "Smalls was born enslaved in Beaufort, South Carolina, on 5 April 1839. When he was about twelve, he was sent to Charleston and hired out, working on the waterfront as a rigger and a sailor. Most of his wages went to his owner. Year by year he learned the tides, the channels and the sandbars of the harbor, until he was steering ships himself.",
+    "In 1856 he married Hannah Jones, who was also enslaved, and they started a family. He asked what it would cost to buy his wife and their daughter: about 800 dollars. He had saved about 100.",
+    "When the Civil War began, Smalls was the wheelman of the Confederate steamer Planter, in practice its pilot. On the evening of 12 May 1862, the ship's three white officers went ashore for the night. Around three the next morning, Smalls and the enslaved crew slipped away from the wharf and stopped to pick up their wives and children. Sixteen people were aboard.",
+    "Smalls put on the captain's straw hat and gave the expected whistle signals at each fort. At about half past four, they steamed past Fort Sumter. Out of range, they lowered the Confederate flag and raised a white bedsheet, and handed the ship to the Union blockade, the USS Onward.",
+    "Smalls then piloted Union ships during the war. Afterwards he bought the Beaufort house where he had been enslaved, served five terms in the US House of Representatives between 1875 and 1887, and was Collector of the Port of Beaufort until 1913. He died in 1915.",
+    "Most sources count sixteen people aboard; Henry Louis Gates Jr. gives seventeen. A famous line Smalls is said to have called out to the Union ship comes from a single report, so it is not quoted here."
+   ],
+   "extra_sources": [
+    "Robert Smalls | US House of Representatives: History, Art & Archives",
+    "Robert Smalls House, National Historic Landmark nomination | National Park Service",
+    "The African Americans: Many Rivers to Cross | Henry Louis Gates Jr., PBS"
+   ]
+  },
+  "bessie-coleman": {
+   "paragraphs": [
+    "American flight schools would not teach Bessie Coleman, because she was Black and a woman. So she learned French, sailed to France, and became the first African American woman to earn a pilot's licence.",
+    "Coleman was born in Texas in 1892, one of thirteen children. As a young woman she moved to Chicago and worked as a manicurist. It was there that she decided she wanted to fly.",
+    "Flight schools in the United States turned her down. Instead of giving up, she learned French so that she could apply to schools in France, and in November 1920 she sailed across the Atlantic. She trained at the Caudron brothers' school at Le Crotoy, in fragile early biplanes.",
+    "On 15 June 1921, the Fédération Aéronautique Internationale issued her pilot's licence. She was the first African American woman to earn one.",
+    "Back in the United States, Coleman made her living as a stunt flier, performing loops and figure eights at air shows. Crowds called her \"Queen Bess\". In the years of Jim Crow segregation, she pushed back against segregated audiences at her shows.",
+    "Flying was dangerous. In 1923 she crashed in California and broke her leg. She recovered, and she flew again.",
+    "On 30 April 1926, Bessie Coleman died in a crash while rehearsing for an air show. She had been saving to open a flight school for Black pilots, and she did not live to see it.",
+    "Two well-known quotes attributed to her each rest on a single source, so they are not used here. A claim about her Native American heritage is contested and is also left out."
+   ],
+   "extra_sources": []
+  },
+  "matthew-henson": {
+   "paragraphs": [
+    "On 6 April 1909, Robert Peary's expedition said it had reached the North Pole. Matthew Henson was there, and for decades history almost forgot him.",
+    "Henson was born in Maryland in 1866. As a boy he went to sea as a cabin boy, and the ship's captain taught him to read and write. In 1887, while he was working in a store in Washington, he met the explorer Robert Peary, who hired him. Sources describe the shop differently, as a hat shop or a clothing store.",
+    "Over the next two decades, Henson and Peary made seven expeditions to the Arctic together. Henson learned the Inuit language and became an expert dog-sled driver.",
+    "On 6 April 1909, Peary's party claimed the North Pole, and Henson was with him. Whether they reached the exact Pole is still debated. Henson's own account says he arrived there before Peary, but that rests on his account alone, so it is not stated as fact here.",
+    "Peary received the fame. Henson spent decades working as a clerk at the New York Customs House. Recognition came slowly. In 1937 the Explorers Club made him a member. He died in 1955.",
+    "In 1988 he was reburied at Arlington National Cemetery, near Peary. He had travelled to the top of the world, and it took the country almost eighty years to honour him there.",
+    "A remark often attributed to Peary about how much he depended on Henson comes from a single magazine article, so it is not quoted here."
+   ],
+   "extra_sources": []
+  },
+  "booker-t-washington": {
+   "paragraphs": [
+    "On 16 October 1901, only weeks into his presidency, Theodore Roosevelt invited Booker T. Washington to dinner at the White House. One meal set off a firestorm of white Southern outrage.",
+    "Washington was born enslaved in Virginia in 1856. After the Civil War he fought hard for an education. In 1881 he founded Tuskegee Institute in Alabama and built it into one of the leading schools for Black Americans. In 1896 he recruited a young scientist, George Washington Carver, to Tuskegee. Washington wanted Carver to lead the school’s agriculture work, and Carver stayed at Tuskegee for the rest of his life.",
+    "That October evening, Washington sat down to eat with the President and the Roosevelt family. When the news broke, Southern newspapers erupted. The Atlanta Constitution denounced the dinner as an insult. The Memphis Scimitar called it an outrage.",
+    "Roosevelt kept consulting Washington for years afterwards. But he never invited him back to dine at the White House.",
+    "The dinner is often described as the first time a Black guest dined at the White House. Sources word this differently, so that claim is not made here. Reports of calls to impeach Roosevelt, and of threats by a Southern senator, each appear in only one of the sources we checked, so they are left out as well.",
+    "Booker T. Washington died in 1915. Tuskegee, the school he founded in 1881, is where George Washington Carver spent the rest of his career.",
+    "One meal. And it showed how far the country still had to go."
+   ],
+   "extra_sources": [
+    "Missouri Encyclopedia: Carver, George Washington | | https://missouriencyclopedia.org/people/carver-george-washington",
+    "Missouri Department of Agriculture: George Washington Carver | | https://agriculture.mo.gov/gwc.php"
+   ]
+  },
+  "bass-reeves": {
+   "paragraphs": [
+    "In 1902, Deputy U.S. Marshal Bass Reeves took a murder warrant for his own son and brought him in.",
+    "Reeves was born into slavery in Arkansas in 1838. During the Civil War he escaped and found refuge in Indian Territory.",
+    "In 1875 he was commissioned as a deputy U.S. marshal for Judge Isaac Parker's federal court at Fort Smith, Arkansas. He was one of the first Black federal lawmen west of the Mississippi River. Reeves never learned to read, so he memorised his warrants and writs instead.",
+    "By 1901, a newspaper reported that he had arrested more than 3,000 people. He wore the badge for 32 years.",
+    "Then came the hardest warrant of his life. His son Bennie was charged with murdering his wife. Reeves took the warrant himself and brought his son in. Bennie was convicted and sent to the federal prison at Leavenworth. Popular retellings describe a long manhunt, but a 1902 newspaper report says Bennie surrendered, so the dramatic chase is treated here as legend.",
+    "When Oklahoma became a state in 1907, his federal job ended. At 67, Reeves joined the police in Muskogee. He died there on 12 January 1910.",
+    "Reeves is sometimes called \"the real Lone Ranger\". That is a popular theory, not a proven fact. Claims that he killed fourteen outlaws, or that he never arrested the wrong man, rest on a single source or are only reported as \"said\", so they are not repeated here.",
+    "For Bass Reeves, the law came first, even when it was his own blood."
+   ],
+   "extra_sources": []
+  },
+  "muhammad-ali": {
+   "paragraphs": [
+    "In 1967, at the peak of his career, Muhammad Ali refused to be drafted into the U.S. Army. Boxing officials took his heavyweight title.",
+    "He was born Cassius Clay in Louisville, Kentucky, in 1942. At 18 he won Olympic gold in Rome, and in 1964 he beat Sonny Liston to become heavyweight champion of the world. That same year he joined the Nation of Islam and took the name Muhammad Ali.",
+    "In 1967, during the Vietnam War, he was drafted. On 28 April 1967, at the induction centre in Houston, his name was called and he did not step forward. He said his religious beliefs would not allow him to fight in the war.",
+    "The punishment came fast. Boxing officials stripped him of his title and his licence to fight. In June 1967 a jury convicted him of draft evasion, and he was sentenced to five years in prison and a 10,000-dollar fine.",
+    "He stayed free while he appealed, but for about three and a half years, at the height of his career, he was not allowed to box. He returned to the ring in 1970.",
+    "On 28 June 1971, the Supreme Court of the United States overturned his conviction. The vote was eight to nothing; Justice Thurgood Marshall did not take part in the case.",
+    "In 1974, in Kinshasa, Zaire, Ali beat George Foreman and became heavyweight champion of the world again. He died in 2016.",
+    "Famous lines Ali is said to have spoken about the war appear in different wordings in different sources, so none of them is quoted here.",
+    "They took his title. He took it back."
+   ],
+   "extra_sources": []
+  },
+  "frederick-douglass": {
+   "paragraphs": [
+    "Frederick Douglass was the most photographed American of the nineteenth century, more than Abraham Lincoln. Historians who set out to collect every photograph of him found about 160 separate portraits.",
+    "He was born enslaved in Talbot County, on the Eastern Shore of Maryland, around 1818; like most enslaved children, he never knew his exact birthday. As a boy in Baltimore he began to learn the alphabet until his owner stopped the lessons. He kept learning in secret, trading bread to white boys in the street for reading lessons.",
+    "On 3 September 1838 he escaped, travelling north dressed as a sailor and carrying the papers of a free Black seaman. He reached New York the next day. With Anna Murray, who had helped plan the escape and became his wife, he settled in New Bedford, Massachusetts, and took the name Douglass.",
+    "In 1841 he spoke at an anti-slavery meeting on Nantucket and soon became one of the leading abolitionist speakers of his time. In 1845 he published the Narrative of his life, and in 1847 he founded his own newspaper, The North Star.",
+    "In his time, most pictures of Black Americans were demeaning. Douglass fought back with the newest technology of the age. From his earliest known photograph in 1841 until his death in 1895, he sat for his portrait whenever he could: serious, dignified, looking straight at the camera. He used these portraits to show the dignity slavery denied and to change how Black Americans were seen. He also gave lectures about the power of pictures.",
+    "It is often said that he never smiled in a photograph. One source says he almost never did, so that claim is not repeated here."
+   ],
+   "extra_sources": [
+    "Narrative of the Life of Frederick Douglass, an American Slave, Written by Himself | 1845",
+    "Frederick Douglass National Historic Site, biography | National Park Service",
+    "How Frederick Douglass escaped slavery | History.com",
+    "August 11, 1841: Frederick Douglass speaks at Nantucket | Mass Moments"
+   ]
+  },
+  "george-washington-carver": {
+   "paragraphs": [
+    "As a baby, George Washington Carver was kidnapped, and the man who had enslaved him got him back in exchange for a horse.",
+    "Carver was born enslaved on Moses Carver's farm near Diamond, Missouri, near the end of the Civil War; no one wrote down the date, and even the year is uncertain. While he was still a baby, raiders carried off George and his mother, Mary. Moses Carver sent someone after them. The baby was found and brought back, at the cost of a horse. His mother was never found, and he never saw her again.",
+    "After slavery ended, Moses and Susan Carver raised George and his older brother, Jim. No nearby school would take a Black child, so Susan Carver taught him to read and write. As a boy he walked about eight miles to Neosho to attend a school for Black children.",
+    "Highland College in Kansas accepted him, then turned him away when he arrived and the school saw that he was Black. He studied art at Simpson College in Iowa, then agriculture at Iowa State, where he was the first Black student. He earned his bachelor's degree there in 1894.",
+    "In 1896 Booker T. Washington recruited him to Tuskegee Institute in Alabama. There Carver worked to free Southern farmers from their dependence on cotton, urging them to rotate crops and plant peanuts and sweet potatoes. In 1921 he testified about peanuts before the House Ways and Means Committee.",
+    "Carver did not invent peanut butter: peanut pastes existed before his work. The popular claim that he found \"300 uses\" for the peanut is contested, so it is not repeated here.",
+    "He died on 5 January 1943. The George Washington Carver National Monument, at his birthplace, was the first national monument to an African American."
+   ],
+   "extra_sources": [
+    "George Washington Carver | Missouri Encyclopedia",
+    "George Washington Carver | Encyclopedia of Alabama",
+    "George Washington Carver National Historic Chemical Landmark | American Chemical Society",
+    "George Washington Carver | Iowa PBS"
+   ]
+  },
+  "ida-b-wells": {
+   "paragraphs": [
+    "Ida B. Wells was born into slavery in Holly Springs, Mississippi, in 1862.",
+    "As a young teacher, she boarded a train in Tennessee and took her seat in the ladies' car. The conductor ordered her to move to the smoking car. She refused. When he tried to drag her out, she later wrote, \"I fastened my teeth in the back of his hand.\" It took the conductor and two other men to remove her. It happened more than seventy years before Rosa Parks refused to give up her seat on a Montgomery bus.",
+    "She sued the railroad and won: the circuit court awarded her 500 dollars. Then the Tennessee Supreme Court reversed the decision. Sources give different years for the train incident and for the reversal, so no exact year is given here.",
+    "So she picked up a pen. She became a journalist and co-owner of a Memphis newspaper, the Free Speech.",
+    "In 1892, a mob in Memphis murdered the three Black men who owned the People's Grocery. Wells investigated and reported on the killings. A mob then destroyed the Free Speech office, and she could not return to Memphis.",
+    "From Chicago, she spent the rest of her life investigating and exposing lynching. Ida B. Wells died in 1931.",
+    "In May 2020, the Pulitzer Prize board awarded her a special citation, eighty-nine years after her death.",
+    "Some retellings say the three murdered grocers were her friends. That appears in only one of the sources we checked, so it is not stated here.",
+    "They took her seat, her newspaper and her city. Never her voice."
+   ],
+   "extra_sources": []
+  },
+  "rosa-parks": {
+   "paragraphs": [
+    "On 1 December 1955, in Montgomery, Alabama, Rosa Parks, born in 1913, refused to give up her seat on a city bus to a white passenger. She was arrested.",
+    "The driver that evening was James Blake. Twelve years earlier, in 1943, the same driver had put her off his bus. She had avoided his buses ever since.",
+    "Rosa Parks was not simply a tired seamstress who happened to be in the wrong seat. She was the secretary of the Montgomery branch of the NAACP and had spent years working for civil rights.",
+    "Her arrest sparked the Montgomery bus boycott. For 381 days, Black residents refused to ride the city's buses.",
+    "In February 1956, dozens of people, including boycott leaders, were indicted under an old Alabama anti-boycott law. Rosa Parks was arrested again, and on 22 February 1956 she was photographed being fingerprinted. That is the picture most people know, and it is often shown as if it came from her arrest in December 1955. It did not.",
+    "In 1956, in Browder v. Gayle, the Supreme Court ruled that segregation on Montgomery’s buses was unconstitutional. In December 1956, Rosa Parks rode at the front of a Montgomery bus.",
+    "Her stand came at a cost. She struggled to find work, and in 1957 she moved with her husband to Detroit.",
+    "Rosa Parks died in 2005. In October of that year she became the first woman to lie in honor in the Rotunda of the United States Capitol.",
+    "One seat. 381 days. A country changed."
+   ],
+   "extra_sources": []
+  },
+  "jesse-owens": {
+   "paragraphs": [
+    "James Cleveland Owens was born on 12 September 1913 in Oakville, Alabama, the son of a sharecropper and the grandson of an enslaved man. When his family moved north to Cleveland, a teacher misheard his initials, \"J.C.\", as \"Jesse\". The name stayed with him for the rest of his life.",
+    "At Ohio State, on 25 May 1935, at the Big Ten championships in Ann Arbor, Michigan, he set three world records and tied a fourth in about 45 minutes. It is still called one of the greatest afternoons in sports history.",
+    "In the summer of 1936, at the Olympic Games in Berlin, Jesse Owens won four gold medals: the 100 metres, the 200 metres, the long jump and the 4x100-metre relay.",
+    "But when he came home, fame did not pay the bills. The world’s most famous athlete still had to find a way to earn a living. On 26 December 1936, in Havana, Cuba, he raced against a horse for money. For years afterwards he took part in paid exhibition races to support his family.",
+    "Recognition came slowly. In 1976, forty years after Berlin, President Gerald Ford awarded him the Presidential Medal of Freedom. Jesse Owens died on 31 March 1980.",
+    "Several well-known stories about Owens are left out because they could not be confirmed: a quote about not being able to \"eat\" gold medals, the size of his fee for the Havana race, and the story that his German rival Luz Long gave him advice in the long jump, which is disputed.",
+    "The fastest man on Earth, racing a horse to make a living."
+   ],
+   "extra_sources": []
+  },
+  "hiram-revels": {
+   "paragraphs": [
+    "Hiram Rhodes Revels was born free in Fayetteville, North Carolina, on 27 September 1827. He studied at seminaries in Indiana and Ohio and later at Knox College in Illinois. He was ordained a minister in the African Methodist Episcopal Church and preached and taught across the Midwest and the South.",
+    "During the Civil War he helped recruit Black regiments for the Union and served as chaplain to a Black regiment. After the war he settled in Natchez, Mississippi, and was elected to the state senate.",
+    "At the time, state legislatures chose U.S. senators. In January 1861, Mississippi's senator Jefferson Davis had left the Senate and went on to become president of the Confederacy. On 20 January 1870, Mississippi's new legislature voted 85 to 15 to send Hiram Revels to the United States Senate.",
+    "Senate Democrats tried to stop him. They argued that he could not have been a citizen for the nine years the Constitution requires, pointing to the Supreme Court's Dred Scott decision. On 25 February 1870, the Senate voted 48 to 8 to seat him anyway. He became the first African American to serve in the United States Congress.",
+    "In his year in the Senate, he spoke up for Black legislators who had been expelled in Georgia and opposed keeping Washington’s schools segregated. After his term he became the first president of Alcorn University in Mississippi, in 1871. He died in 1901.",
+    "It is often said that Revels took Jefferson Davis's old seat. He did not: he filled the seat once held by Albert G. Brown. Davis's former seat went to Adelbert Ames.",
+    "Born free. Seated in the Senate. And Mississippi made it happen."
+   ],
+   "extra_sources": []
+  },
+  "jack-johnson": {
+   "paragraphs": [
+    "Jack Johnson was born in Galveston, Texas, in 1878, to parents who had been enslaved. He fought his way up at a time when many white champions refused to fight Black challengers.",
+    "On 26 December 1908, in Sydney, Australia, Johnson beat Tommy Burns and became the first Black heavyweight champion of the world. Many white Americans were furious. Newspapers and fans called for a \"Great White Hope\" to take the title back.",
+    "Former champion Jim Jeffries came out of retirement, and on 4 July 1910, in Reno, Nevada, the two men met in what was billed as the “Fight of the Century”. Johnson won. After the fight, white mobs attacked Black Americans in cities across the country.",
+    "Johnson lived openly and refused to bow to anyone. His relationships with white women enraged many white Americans. In 1913, an all-white jury convicted him under the Mann Act, a law against taking women across state lines for “immoral purposes”, in a prosecution aimed at those relationships.",
+    "He fled the country and fought abroad for years. In 1920 he returned and served about ten months in federal prison at Leavenworth.",
+    "Jack Johnson died in a car crash in North Carolina in 1946. Sources give different dates for the crash, so no exact date is given here.",
+    "On 24 May 2018, seventy-two years after his death, the President of the United States granted him a posthumous pardon for the 1913 conviction, after years of calls from his family, lawmakers and boxing fans.",
+    "Prize-money figures for his famous fights also differ between sources and are left out.",
+    "Champion of the world. Convicted over who he loved. Pardoned seventy-two years too late."
+   ],
+   "extra_sources": []
+  }
+ }
+}

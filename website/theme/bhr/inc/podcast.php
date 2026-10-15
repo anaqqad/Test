@@ -39,6 +39,8 @@ add_action( 'init', function () {
 		'bhr_apple_url'      => array( 'string', 'esc_url_raw' ),
 		// Comma-separated post IDs of related articles.
 		'bhr_related_posts'  => array( 'string', 'sanitize_text_field' ),
+		// One chapter per line: "0:00 Welcome".
+		'bhr_chapters'       => array( 'string', 'sanitize_textarea_field' ),
 	);
 	foreach ( $fields as $key => $def ) {
 		register_post_meta( 'bhr_episode', $key, array(

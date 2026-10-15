@@ -86,16 +86,37 @@ function bhr_share_links() {
  * (wp option update bhr_newsletter_action <url>); until then, a "coming soon" note.
  */
 function bhr_newsletter( $compact = false ) {
-	$action = get_option( 'bhr_newsletter_action' );
-	echo '<aside class="newsletter' . ( $compact ? ' newsletter--compact' : '' ) . '" aria-labelledby="nl-title">';
-	echo '<h2 id="nl-title" class="newsletter-title">One story from Black history, in your inbox</h2>';
-	if ( $action ) {
+	static $n = 0;
+	$n++;
+	$id      = 'nl-' . $n;
+	$action  = get_option( 'bhr_newsletter_action' ) ?: admin_url( 'admin-post.php' );
+	$own     = ! get_option( 'bhr_newsletter_action' );
+	$status  = isset( $_GET['newsletter'] ) ? sanitize_key( wp_unslash( $_GET['newsletter'] ) ) : '';
+	$message = array(
+		'ok'      => 'Thank you! You are on the list for our newsletter.',
+		'invalid' => 'Please enter a valid email address.',
+		'consent' => 'Please tick the box to agree to receive the newsletter.',
+		'limit'   => 'Too many sign-ups from your connection. Please try again later.',
+	);
+	echo '<aside class="newsletter' . ( $compact ? ' newsletter--compact' : '' ) . '" id="' . ( 1 === $n ? 'newsletter' : esc_attr( $id ) ) . '" aria-labelledby="' . esc_attr( $id ) . '-title">';
+	echo '<h2 id="' . esc_attr( $id ) . '-title" class="newsletter-title">One story from Black history, in your inbox</h2>';
+	echo '<p>Carefully researched stories, sent now and then. Free, and you can unsubscribe at any time.</p>';
+	if ( $status && isset( $message[ $status ] ) ) {
+		echo '<p class="newsletter-msg" role="status">' . esc_html( $message[ $status ] ) . '</p>';
+	}
+	if ( 'ok' !== $status ) {
 		echo '<form class="newsletter-form" method="post" action="' . esc_url( $action ) . '">';
-		echo '<label class="screen-reader-text" for="nl-email">Email address</label>';
-		echo '<input id="nl-email" type="email" name="email" required placeholder="Your email address" autocomplete="email">';
-		echo '<button type="submit">Subscribe</button></form>';
-	} else {
-		echo '<p>Our newsletter is coming soon. Until then, you can support the research behind these stories on <a href="' . esc_url( BHR_KOFI ) . '" rel="noopener">Ko-fi</a>.</p>';
+		if ( $own ) {
+			echo '<input type="hidden" name="action" value="bhr_subscribe">';
+			echo '<input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">';
+		}
+		echo '<label class="screen-reader-text" for="' . esc_attr( $id ) . '-email">Email address</label>';
+		echo '<input id="' . esc_attr( $id ) . '-email" type="email" name="email" required placeholder="Your email address" autocomplete="email">';
+		echo '<button class="btn btn--primary" type="submit">Subscribe</button>';
+		if ( $own ) {
+			echo '<label class="newsletter-consent"><input type="checkbox" name="consent" value="1" required> I agree to receive the newsletter from The Black History Room. See our <a href="' . esc_url( home_url( '/privacy-policy/' ) ) . '">Privacy Policy</a>.</label>';
+		}
+		echo '</form>';
 	}
 	echo '</aside>';
 }
