@@ -6,9 +6,15 @@
  "width": 1080,
  "height": 1920,
  "voice": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.1,
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
   "leadInSeconds": 0.0,
   "sectionGapSeconds": 0.5
  },
