@@ -1,0 +1,249 @@
+{
+ "id": "podcast-ep01-frederick-douglass-andrew",
+ "show": "Black History in 10 Minutes",
+ "episode": 1,
+ "title": "Frederick Douglass: The Most Photographed American",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.0,
+  "seed": 1234
+ },
+ "music": {
+  "bedDb": -19,
+  "lead": 2.6
+ },
+ "segments": [
+  {
+   "chapter": "Welcome",
+   "bed": true,
+   "text": "Hello, and welcome to Black History in 10 Minutes, from The Black History Room.",
+   "pause": 0.6
+  },
+  {
+   "bed": true,
+   "text": "Every episode, one true story that history tried to forget, told in about ten minutes.",
+   "pause": 0.5
+  },
+  {
+   "bed": true,
+   "text": "So get comfortable, and let's begin.",
+   "pause": 0.2
+  },
+  {
+   "swell": 3.2
+  },
+  {
+   "chapter": "More photographed than Lincoln",
+   "bed": "out",
+   "text": "Today: the most photographed American of the nineteenth century. And no, it wasn't Abraham Lincoln.",
+   "pause": 0.8
+  },
+  {
+   "text": "Historians who set out to collect every photograph of him found about one hundred and sixty separate portraits. More than Lincoln. And every one of them was a choice.",
+   "pause": 0.7
+  },
+  {
+   "text": "Because this man was born into slavery. He taught himself to read in secret, fought back against the man sent to break him, and escaped in a sailor's disguise, carrying another man's papers. His name was Frederick Douglass. And this is the story of how he made America look him in the eye.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 3.0
+  },
+  {
+   "chapter": "The boy who was not supposed to read",
+   "text": "He was born in Talbot County, on the Eastern Shore of Maryland, around February 1818. He never knew his exact birthday. Like most enslaved children, he was never told. Later in life, he chose a date for himself: February the fourteenth.",
+   "pause": 0.8
+  },
+  {
+   "text": "His mother, Harriet Bailey, was enslaved on a farm miles away. He remembered seeing her only a few times, always at night, after she had walked all that way to lie down beside him until he fell asleep. By morning, she was gone. She died when he was about seven.",
+   "pause": 0.8
+  },
+  {
+   "text": "As a boy, he was sent to Baltimore, to the household of Hugh and Sophia Auld. Sophia began teaching him the alphabet. Then her husband found out, and he stopped the lessons. Learning to read, he warned, would ruin a boy for slavery.",
+   "pause": 0.6
+  },
+  {
+   "text": "Young Frederick heard every word. And he understood something his owner never meant to teach him. Reading was the road to freedom.",
+   "pause": 0.8
+  },
+  {
+   "text": "So he found other teachers. He carried bread in his pockets and traded it to hungry white boys in the street, in exchange for reading lessons. At about twelve, he got hold of a book of speeches called The Columbian Orator. One piece was a dialogue between a master and an enslaved man, who argues so well that the master sets him free. Frederick read it every chance he got.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "chapter": "The fight",
+   "text": "As a teenager, he was sent back to the countryside, and hired out to a farmer named Edward Covey, a man known for breaking the will of enslaved people. For months, Covey worked him almost to collapse, and beat him again and again.",
+   "pause": 0.8
+  },
+  {
+   "text": "Then one day, when Covey tried to tie him up for another beating, the sixteen-year-old fought back. The struggle lasted nearly two hours. And Covey could not beat him.",
+   "pause": 0.8
+  },
+  {
+   "text": "Frederick stayed enslaved for four more years. But he wrote that he was never really whipped again. He called that fight the turning point of his life as a slave. In his own words: You have seen how a man was made a slave; you shall see how a slave was made a man.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "chapter": "The escape",
+   "text": "Back in Baltimore, he worked in the shipyards, and he met Anna Murray, a free Black woman. Together, they planned his escape. Anna helped with the money, and with the sailor's clothes he would wear.",
+   "pause": 0.8
+  },
+  {
+   "text": "On September the third, 1838, he boarded a northbound train dressed as a sailor, carrying the protection papers of a free Black seaman. The papers described a different man. The conductor glanced at them, took the fare, and moved on.",
+   "pause": 0.8
+  },
+  {
+   "text": "By train and by steamboat, he crossed Delaware, passed through Philadelphia, and reached New York City the next day. A free man. He was about twenty years old.",
+   "pause": 0.8
+  },
+  {
+   "text": "Anna joined him, and they were married within days. Then they moved to New Bedford, Massachusetts, a whaling town where they would be safer. Their host there, Nathan Johnson, had been reading Walter Scott's poem, The Lady of the Lake, and he suggested a new last name from it. Frederick kept his first name, and took the new one. From then on, he was Frederick Douglass.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "chapter": "A voice the country could not ignore",
+   "text": "In August 1841, at an anti-slavery meeting on the island of Nantucket, he was asked to speak. He was nervous. But he told his story, and the crowd was stunned. The Massachusetts Anti-Slavery Society hired him as a speaker.",
+   "pause": 0.8
+  },
+  {
+   "text": "He was so powerful on stage that some people refused to believe he had ever been enslaved. So in 1845, he answered them with a book: Narrative of the Life of Frederick Douglass, an American Slave, Written by Himself. He named names, places, and dates. Within months, thousands of copies had sold.",
+   "pause": 0.8
+  },
+  {
+   "text": "But naming names had a price. By law, he was still someone's property, and now his owner knew exactly who he was. So he sailed across the Atlantic, and spent almost two years speaking in Britain and Ireland. There, his friends raised one hundred and fifty pounds and paid Hugh Auld for his freedom. In December 1846, Frederick Douglass became legally free.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "chapter": "The North Star",
+   "text": "Back home, he moved to Rochester, New York, and in 1847 he started his own newspaper, The North Star. The next year, he attended the first women's rights convention, at Seneca Falls. He was the only African American there, and he spoke up for women's right to vote.",
+   "pause": 0.8
+  },
+  {
+   "text": "And on July the fifth, 1852, in Rochester, he gave one of the greatest speeches in American history. He asked the crowd: What, to the American slave, is your Fourth of July? And he answered: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "chapter": "Fighting with a camera",
+   "text": "Now, back to those photographs. In Douglass's time, most pictures of Black Americans were cruel cartoons, drawn to mock them. Douglass decided to fight back with the newest technology of his age.",
+   "pause": 0.7
+  },
+  {
+   "text": "From his earliest known photograph, in 1841, until the end of his life, he sat for portrait after portrait. Serious. Dignified. Looking straight at the camera. He also gave lectures about pictures, including one called Pictures and Progress, about the power of images to change how people see one another. He understood something we take for granted today. Whoever controls the image, shapes the story.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "chapter": "Douglass and Lincoln",
+   "text": "During the Civil War, Douglass recruited Black soldiers for the Union army, and two of his own sons served. But Black soldiers were paid less than white soldiers, and treated worse. So in August 1863, Douglass walked into the White House without an invitation, and met President Lincoln face to face to protest. A year later, Lincoln invited him back.",
+   "pause": 0.8
+  },
+  {
+   "text": "On the night of Lincoln's second inauguration, in March 1865, police stopped Douglass at the White House door. He got word to the president, and was let in. As Douglass remembered it, Lincoln saw him across the room and said, loud enough for everyone to hear: Here comes my friend Douglass.",
+   "pause": 0.4
+  },
+  {
+   "interlude": 2.5
+  },
+  {
+   "chapter": "The final years",
+   "text": "After the war, Douglass served as United States Marshal for the District of Columbia, and later as the American minister to Haiti. He spent his last years at Cedar Hill, his home in Washington.",
+   "pause": 0.8
+  },
+  {
+   "text": "On February the twentieth, eighteen ninety-five, he spent the day at a meeting of the National Council of Women, still standing up for women's rights. That evening, at home, he died. He was about seventy-seven years old.",
+   "pause": 1.0
+  },
+  {
+   "chapter": "Outro",
+   "bed": "in",
+   "text": "A boy who was not allowed to read became one of the greatest writers in America. A man the law called property crossed an ocean, and came home free. And when the country tried to draw him as a joke, he answered with his own face. About one hundred and sixty times.",
+   "pause": 1.0
+  },
+  {
+   "bed": true,
+   "text": "That's the story of Frederick Douglass. Thank you for listening to Black History in 10 Minutes, from The Black History Room. If this story meant something to you, follow the show, and share it with someone who should hear it. And if you'd like to help us keep these stories coming, you can support us on Ko-fi, at ko-fi dot com, slash, the black history room.",
+   "pause": 0.8
+  },
+  {
+   "bed": true,
+   "text": "Next time: the man who took a Confederate ship, and sailed his family to freedom. Until then, keep history alive.",
+   "pause": 0.3
+  },
+  {
+   "swell": 6.0,
+   "end": true
+  }
+ ],
+ "sources": {
+  "photographs": [
+   "John Stauffer, Zoe Trodd and Celeste-Marie Bernier, Picturing Frederick Douglass (2015)",
+   "National Park Service, Picturing Frederick Douglass (Boston African American NHS)",
+   "ASMP: Picturing Frederick Douglass"
+  ],
+  "birth, mother, Baltimore, reading, Columbian Orator, Covey": [
+   "Frederick Douglass, Narrative of the Life of Frederick Douglass (1845), ch. 1, 6, 7, 10",
+   "National Park Service, Frederick Douglass NHS biography",
+   "Teaching American History (Narrative ch. 7)",
+   "LitCharts (Narrative ch. 10)"
+  ],
+  "escape, Anna Murray, New Bedford, name": [
+   "Douglass, Life and Times (1881)",
+   "History.com, How Frederick Douglass escaped slavery",
+   "House Divided Project, Dickinson College",
+   "NPS, Nathan and Polly Johnson House"
+  ],
+  "Nantucket 1841, Narrative 1845": [
+   "Mass Moments, August 11, 1841",
+   "Narrative, Dublin edition preface (1846)"
+  ],
+  "freedom bought 1846": [
+   "NPS museum exhibit, Bill of Sale for Frederick Douglass",
+   "Frederick Douglass in Britain project",
+   "Frederick Douglass Papers"
+  ],
+  "North Star, Seneca Falls": [
+   "Library of Congress",
+   "Britannica, Declaration of Sentiments",
+   "BlackPast"
+  ],
+  "Fourth of July speech": [
+   "Frederick Douglass Papers Project, digital edition",
+   "AAIHS, Frederick Douglass on the Fourth of July",
+   "World History Encyclopedia"
+  ],
+  "Lincoln": [
+   "Library of Congress exhibit, Lincoln and Frederick Douglass",
+   "HistoryNet",
+   "Military Times",
+   "Mr. Lincoln's White House (second inaugural levee)"
+  ],
+  "later years, death": [
+   "History.com, This Day in History: February 20",
+   "Newcastle University (co-curate)",
+   "NPS Frederick Douglass NHS"
+  ]
+ }
+}
