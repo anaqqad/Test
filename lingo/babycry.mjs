@@ -6,7 +6,7 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { chromium } from "playwright-core";
-import { FONT_CSS, renderClip } from "./render.mjs";
+import { FONT_CSS, renderClip, logoSvg } from "./render.mjs";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(HERE, "out"), B = path.join(HERE, "cache", "babies"), TMP = path.join(B, "build");
@@ -46,13 +46,13 @@ const CSS = `*{margin:0;padding:0;box-sizing:border-box}body{width:1920px;height
 .a{position:absolute}.f{opacity:0;transition:none}
 #bar{left:0;top:0;width:1920px;height:120px;background:linear-gradient(#fff,#f1eee8);color:#18181d;display:flex;align-items:center;justify-content:center;gap:24px;box-shadow:0 6px 24px rgba(0,0,0,.3)}
 #bar h1{font-weight:800;font-size:68px}#bar img{height:62px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.3)}
-.brand{left:26px;top:44px;font-weight:800;font-size:24px;color:#18181d}
+.brand{left:22px;top:24px}
 .card{background:#fff;color:#1d1d24;border-radius:20px;padding:22px 30px;font-weight:600;font-size:34px;line-height:1.3;box-shadow:0 12px 30px rgba(0,0,0,.35);border-left:10px solid #ff4d5a}
 .card b{color:#e8262b}
 .tag{font-weight:800;font-size:22px;letter-spacing:3px;color:#ffcf5c;text-transform:uppercase}
 .badge{font-weight:800;font-size:30px;padding:8px 18px;border-radius:12px;color:#fff}
 .src{left:40px;bottom:22px;font-size:20px;font-weight:600;color:#9aa3b8}
-#plot{left:90px;top:170px;width:1100px;height:850px;background:#18203a;border-radius:24px;border:3px solid #2d3a63}`;
+#plot{left:90px;top:170px;width:1100px;height:640px;background:#18203a;border-radius:24px;border:3px solid #2d3a63}`;
 
 const SCRIPT = `<script>
 const S=window.__S;
@@ -68,12 +68,12 @@ window.setT=function(t){
 };
 </script>`;
 const page = (body, S = {}) => `<!doctype html><html><head><meta charset="utf-8">${FONT_CSS}<style>${CSS}</style></head><body>${body}<script>window.__S=${JSON.stringify(S)}</script>${SCRIPT}</body></html>`;
-const bar = (title, fl) => `<div id="bar" class="a"><h1>${esc(title)}</h1>${fl ? `<img src="${flag(fl)}">` : ""}</div><div class="a brand">LingoDude</div>`;
+const bar = (title, fl) => `<div id="bar" class="a"><h1>${esc(title)}</h1>${fl ? `<img src="${flag(fl)}">` : ""}</div><div class="a brand">${logoSvg(72, true)}</div>`;
 
 // pitch plot: x = seconds on the segment clock, y = log pitch 150..1100 Hz
 function plot(k, t0, opts = {}) {
   const { len, cries } = track(k);
-  const X0 = 80, X1 = 1060, Y0 = 760, Y1 = 50;
+  const X0 = 80, X1 = 1060, Y0 = 560, Y1 = 50;
   const y = (hz) => Y0 - (Math.log(Math.min(Math.max(hz, 150), 1100) / 150) / Math.log(1100 / 150)) * (Y0 - Y1);
   const x = (s) => X0 + (s / len) * (X1 - X0);
   const col = { rising: "#4fc3ff", falling: "#ff5c6c", "rise-fall": "#c9c9d6" };
@@ -90,7 +90,7 @@ function plot(k, t0, opts = {}) {
     const sym = c.shape === "rising" ? "↗" : c.shape === "falling" ? "↘" : "↗↘";
     return `<text data-in="${(t0 + c.t0 + c.end - c.start).toFixed(2)}" class="f" x="${x(mid)}" y="${Math.max(top, 70)}" text-anchor="middle" font-size="44" font-weight="800" fill="${col[c.shape]}">${sym}</text>`;
   }).join("");
-  const svg = `<svg class="a" style="left:0;top:0" width="1100" height="850" viewBox="0 0 1100 850">${grid}
+  const svg = `<svg class="a" style="left:0;top:0" width="1100" height="640" viewBox="0 0 1100 640">${grid}
     <text x="${X0}" y="${Y0 + 46}" fill="#7d89a8" font-size="22" font-weight="700">PITCH OF EACH CRY (Hz) · TRACED FROM THE RECORDING</text>
     ${traces.map((tr, i) => `<polyline id="tr${i}" fill="none" stroke="${tr.c}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>`).join("")}
     <line id="ph" x1="${X0}" x2="${X0}" y1="${Y1 - 10}" y2="${Y0}" stroke="#ffcf5c" stroke-width="3" stroke-dasharray="8 8"/>${labels}</svg>`;
@@ -147,10 +147,10 @@ function countryScene(k, claim, verdict, verdictColor, note) {
       <div data-in="${lead}" class="f" style="margin-top:30px;display:flex;gap:20px">
         <div class="badge" style="background:#1d6fa5">↗ rising <span data-count='${JSON.stringify(rising)}'>0</span></div>
         <div class="badge" style="background:#a5323d">↘ falling <span data-count='${JSON.stringify(falling)}'>0</span></div></div>
-      <div data-in="${(end + 0.3).toFixed(2)}" data-pop="1" class="f" style="margin-top:26px;background:${verdictColor};border-radius:20px;padding:16px 24px;font-size:32px;font-weight:800;line-height:1.25">${verdict}</div>
-      ${note ? `<div data-in="${(end + 1.2).toFixed(2)}" class="f" style="margin-top:14px;font-size:24px;font-weight:600;color:#c9d1e6;line-height:1.3">${note}</div>` : ""}
-      <div style="flex:1;min-height:0;margin-top:16px;display:flex;justify-content:center;align-items:center">${wj("baby_" + k.replace(/\d$/, "")) ? `<img class="bob" data-t0="${lead}" data-t1="${end.toFixed(2)}" src="${wj("baby_" + k.replace(/\d$/, ""))}" style="height:100%;max-height:480px;max-width:100%;object-fit:contain;transform-origin:50% 100%">` : ""}</div></div>
-    <div class="a src">${SRC}</div>`;
+      <div style="flex:1;min-height:0;margin-top:16px;display:flex;justify-content:center;align-items:center">${wj("baby_" + k.replace(/\d$/, "")) ? `<img class="bob" data-t0="${lead}" data-t1="${end.toFixed(2)}" src="${wj("baby_" + k.replace(/\d$/, ""))}" style="height:100%;max-height:680px;max-width:100%;object-fit:contain;transform-origin:50% 100%">` : ""}</div></div>
+    <div class="a" style="left:90px;top:836px;width:1100px">
+      <div data-in="${(end + 0.3).toFixed(2)}" data-pop="1" class="f" style="background:${verdictColor};border-radius:20px;padding:18px 28px;font-size:40px;font-weight:800;line-height:1.25">${verdict}</div>
+      ${note ? `<div data-in="${(end + 1.2).toFixed(2)}" class="f" style="margin-top:14px;font-size:28px;font-weight:600;color:#c9d1e6;line-height:1.3">${note}</div>` : ""}</div>`;
   let at = lead; const audio = [];
   for (const [a, b] of C[k].pieces) { audio.push({ k, from: a, to: b, at }); at += b - a; }
   add(k, dur, html, pl.S, audio);
@@ -233,8 +233,11 @@ const n = ins.length / 2;
 const list = path.join(TMP, "list.txt");
 fs.writeFileSync(list, clips.map((c) => `file '${c}'`).join("\n"));
 const outFile = path.join(OUT, "babycry.mp4");
-const r = spawnSync("ffmpeg", ["-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", list, ...ins, "-filter_complex",
-  filt.join(";") + ";" + [...Array(n).keys()].map((i) => `[a${i + 1}]`).join("") + `amix=inputs=${n}:normalize=0,apad,atrim=0:${t.toFixed(2)},aresample=48000,pan=stereo|c0=c0|c1=c0[aout]`,
+// music bed: a public-domain music-box recording of Brahms' Lullaby (Wikimedia Commons), looped, ducked under the cries
+const MUSIC = path.join(B, "music", "lullaby.mp3"), T = t.toFixed(2);
+const music = fs.existsSync(MUSIC) ? `;[${n + 1}]aresample=48000,atrim=0:41,afade=t=in:d=1.5,afade=t=out:st=38.5:d=2.5,aloop=loop=-1:size=${41 * 48000},atrim=0:${T},loudnorm=I=-30:TP=-8,pan=stereo|c0=c0|c1=c0[mus];[cr2]aresample=48000[sc];[mus][sc]sidechaincompress=threshold=0.01:ratio=12:attack=30:release=900[duck];[cr1][duck]amix=inputs=2:normalize=0,afade=t=out:st=${(t - 3).toFixed(2)}:d=3[aout]` : ";[cr1]anull[aout]";
+const r = spawnSync("ffmpeg", ["-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", list, ...ins, ...(fs.existsSync(MUSIC) ? ["-i", MUSIC] : []), "-filter_complex",
+  filt.join(";") + `;anullsrc=r=44100:cl=mono,atrim=0:${T}[base];[base]` + [...Array(n).keys()].map((i) => `[a${i + 1}]`).join("") + `amix=inputs=${n + 1}:normalize=0,apad,atrim=0:${T},aresample=48000,pan=stereo|c0=c0|c1=c0,asplit[cr1][cr2]` + music,
   "-map", "0:v", "-map", "[aout]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", outFile], { stdio: "inherit" });
 if (r.status) throw new Error("ffmpeg failed");
 fs.writeFileSync(path.join(OUT, "babycry_timeline.json"), JSON.stringify(scenes.reduce((acc, s) => { acc.list.push({ name: s.name, start: +acc.t.toFixed(2), dur: s.dur }); acc.t += s.dur; return acc; }, { t: 0, list: [] }).list, null, 1));

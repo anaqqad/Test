@@ -34,6 +34,9 @@ BABY CRY CLIPS (used with credit)
 - Cameroon: LINK NEEDED
 - Sweden: by @Messi10lm101010, https://www.youtube.com/shorts/z57wfc-ccYY
 
+MUSIC
+- Brahms' Lullaby (Guten Abend, gut' Nacht), music-box recording by stephan, public domain, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Lullaby_wound_up_clock_guten_abend_gute_nacht.ogg
+
 #languages #linguistics #babies
 
 ## Tags
