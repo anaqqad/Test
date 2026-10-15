@@ -86,3 +86,16 @@ Logged-in users always see fresh pages.
   (see `BACKUP_AND_RESTORE.md`). Download a weekly set now and then.
 - Other docs: `CONTENT_MODEL.md` (structure, map, citations), `N8N_WORDPRESS_INTEGRATION.md`, `SECURITY.md`,
   `DNS_SETUP.md`, `INSTALLATION.md`, `ARCHITECTURE.md`.
+
+## Map and filters (each story)
+In **Story details**: *Map place* (e.g. "Charleston Harbor, South Carolina"), *Map latitude* / *Map longitude*
+(decimal degrees; north and east positive, south and west negative — right-click a place in Google Maps or
+OpenStreetMap to copy them), *Key year* if birth/death years are unknown. In the sidebar tick **Gender** (Woman / Man /
+Group; both Woman and Man for a couple). The interactive map at `/global-african-history/` updates by itself.
+
+## Expanded story texts waiting for approval
+Stories → Drafts → titles ending in "-expanded" (13 of them). When approved, ask Claude to apply them (or run
+`BHR_MODE=apply` with `website/scripts/story_expansions.php`); the old text stays in the story's revisions.
+
+## Newsletter sign-ups
+WP Admin → **Newsletter**: list of sign-ups (email + consent date) and an **Export CSV** button for MailerLite / Brevo.

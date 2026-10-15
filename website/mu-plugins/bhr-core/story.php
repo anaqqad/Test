@@ -83,13 +83,26 @@ add_action( 'init', function () {
 		'labels'  => array( 'name' => 'Eras', 'singular_name' => 'Era' ),
 		'rewrite' => array( 'slug' => 'era', 'with_front' => false ),
 	) );
+	// Who the story is about (map filter). A story about a couple can have both Woman and Man.
+	register_taxonomy( 'gender', 'story', $common + array(
+		'labels'  => array( 'name' => 'Gender', 'singular_name' => 'Gender' ),
+		'rewrite' => false,
+		'public'  => false,
+		'show_ui' => true,
+	) );
 } );
+
+const BHR_GENDERS = array(
+	'woman' => 'Woman',
+	'man'   => 'Man',
+	'group' => 'Group / event',
+);
 
 /**
  * Creates the fixed Section / Domain / Era terms (run once: wp eval 'bhr_create_terms();').
  */
 function bhr_create_terms() {
-	foreach ( array( 'section' => BHR_SECTIONS, 'domain' => BHR_DOMAINS, 'era' => BHR_ERAS ) as $tax => $terms ) {
+	foreach ( array( 'section' => BHR_SECTIONS, 'domain' => BHR_DOMAINS, 'era' => BHR_ERAS, 'gender' => BHR_GENDERS ) as $tax => $terms ) {
 		$order = 0;
 		foreach ( $terms as $slug => $name ) {
 			if ( ! get_term_by( 'slug', $slug, $tax ) ) {

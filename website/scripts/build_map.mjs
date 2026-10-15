@@ -44,3 +44,22 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}">` +
   rows.map(([iso, name, d]) => `<path${iso ? ` data-iso="${iso}"` : ""} d="${d}"><title>${esc(name)}</title></path>`).join("") + "</svg>";
 writeFileSync(out.replace(/.json$/, ".svg"), svg);
 console.log(`${rows.length} shapes, ${missing} without ISO code; wrote ${out.replace(/.json$/, ".svg")} (${svg.length} bytes)`);
+
+// GeoJSON (longitude/latitude) for the interactive Leaflet map: same countries and Morocco merge, coordinates
+// rounded to 0.01° (~1 km, plenty for 1:110m data). Properties: iso2, name.
+// Shapes that cross the 180° line (Russia, Fiji): move their western points east (+360°) so Leaflet does not
+// draw lines across the whole map.
+const flat = (c) => (typeof c[0] === "number" ? [c] : c.flatMap(flat));
+const unwrap = (c) => (typeof c[0] === "number" ? [c[0] < 0 ? c[0] + 360 : c[0], c[1]] : c.map(unwrap));
+const crosses = (g) => { const xs = flat(g.coordinates).map((c) => c[0]); return Math.min(...xs) < -150 && Math.max(...xs) > 150; };
+const round = (c) => (typeof c[0] === 'number' ? [Math.round(c[0] * 100) / 100, Math.round(c[1] * 100) / 100] : c.map(round));
+const geo = {
+  type: 'FeatureCollection',
+  features: all.map((f) => {
+    const code = f.id ? iso.numericToAlpha2(f.id) : undefined;
+    return { type: 'Feature', properties: { iso2: code ? code.toLowerCase() : '', name: f.properties.name }, geometry: { type: f.geometry.type, coordinates: round(crosses(f.geometry) ? unwrap(f.geometry.coordinates) : f.geometry.coordinates) } };
+  }),
+};
+const geoOut = out.replace(/\.json$/, '.geojson');
+writeFileSync(geoOut, JSON.stringify(geo));
+console.log(`wrote ${geoOut} (${JSON.stringify(geo).length} bytes)`);

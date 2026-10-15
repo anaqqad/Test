@@ -164,3 +164,8 @@ Country terms: all ISO 3166-1 countries except Western Sahara were created from 
 Story draft with featured image + section/domain/country/era, and a News post draft with featured image + categories
 (5, 11) created as `n8n-automation`; publish attempt 403; test items deleted. Episodes also accept `bhr_chapters`
 (one chapter per line, "0:00 Welcome").
+
+## 12. Map fields (2026-10-15)
+Stories also take: taxonomy `gender` (REST field `gender`, term IDs: woman 290, man 291, group 292) and meta
+`bhr_place_name`, `bhr_lat`, `bhr_lng` (decimal degrees as strings, e.g. "32.78", "-79.93"), `bhr_key_year`. A story
+without coordinates still appears in lists and filters, just without a pin.
