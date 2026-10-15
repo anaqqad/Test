@@ -63,7 +63,7 @@ Arlington National Cemetery, hidden history, African American history, history s
   short report (render time, what was verified and how, open questions).
 
 ## Voice
-- **Owner, 2026-10-15: use ElevenLabs Andrew (`gUABw7pXQjhjt0kNFBTF`), fast: speed 1.15** for reels (1.2 runs the hook into the next line). This replaces the 2026-10-08 Kokoro default. Key lives only in `/root/.config/elevenlabs_key` (never commit); export it as ELEVENLABS_API_KEY when running `tts_mathdoc.py`. Give the character count per batch (about 900-1,000 per reel).
+- **Owner, 2026-10-15: use ElevenLabs Andrew (`gUABw7pXQjhjt0kNFBTF`) on the cheaper Flash model (`eleven_flash_v2_5`), speed 1.05** for reels ("fast" = Flash model, not speaking speed). Replaces the 2026-10-08 Kokoro default. Key lives only in `/root/.config/elevenlabs_key` (never commit); export it as ELEVENLABS_API_KEY when running `tts_mathdoc.py`. Report credits per batch.
 - **Owner, 2026-10-08:** the published reels (Box Brown, Ellen Craft, Tubman) use the free Kokoro voice (`am_michael`, speed 1.1). Kokoro is the default final voice; do not ask about ElevenLabs unless the owner asks for Andrew.
 ElevenLabs "Andrew" (same block as the Sand video). This page uses Andrew; the Ink & Infinity YouTube channel
 uses the owner's cloned CosyVoice voice and never ElevenLabs.
