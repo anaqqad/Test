@@ -43,16 +43,16 @@
     "kind": "photo",
     "image": "portrait",
     "focus": [
-     0.5,
-     0.3
+     0.48,
+     0.4
     ],
     "zoom": [
-     1.3,
-     1.36
+     1.05,
+     1.12
     ],
     "anchor": [
      0.5,
-     0.3
+     0.38
     ]
    },
    "overlays": {
@@ -68,16 +68,16 @@
     "kind": "photo",
     "image": "portrait",
     "focus": [
-     0.5,
-     0.35
+     0.48,
+     0.4
     ],
     "zoom": [
      1.0,
-     1.06
+     1.05
     ],
     "anchor": [
      0.5,
-     0.35
+     0.38
     ]
    },
    "overlays": {
@@ -124,7 +124,7 @@
      1.0,
      1.0
     ],
-    "caption": "Ali, right, listening to Elijah Muhammad, 1964"
+    "caption": "Elijah Muhammad speaking to followers, including Ali, 1964"
    }
   },
   {
@@ -134,16 +134,16 @@
     "kind": "photo",
     "image": "portrait",
     "focus": [
-     0.5,
-     0.3
+     0.48,
+     0.4
     ],
     "zoom": [
-     1.12,
-     1.18
+     1.0,
+     1.06
     ],
     "anchor": [
      0.5,
-     0.3
+     0.38
     ]
    },
    "overlays": {
@@ -176,16 +176,16 @@
     "kind": "photo",
     "image": "portrait",
     "focus": [
-     0.5,
-     0.35
+     0.48,
+     0.4
     ],
     "zoom": [
      1.0,
-     1.06
+     1.05
     ],
     "anchor": [
      0.5,
-     0.35
+     0.38
     ]
    }
   },
@@ -215,16 +215,16 @@
     "kind": "photo",
     "image": "portrait",
     "focus": [
-     0.5,
-     0.3
+     0.48,
+     0.4
     ],
     "zoom": [
-     1.2,
-     1.26
+     1.0,
+     1.06
     ],
     "anchor": [
      0.5,
-     0.3
+     0.38
     ]
    }
   },
@@ -339,5 +339,23 @@
  "notUsed": [
   "Famous quotes ('No Viet Cong ever called me...'): wording varies between sources",
   "Reported 5-3 conference vote (Woodward & Armstrong)"
- ]
+ ],
+ "faces": {
+  "portrait": [
+   [
+    0.16,
+    0.07,
+    0.79,
+    0.77
+   ]
+  ],
+  "elijah": [
+   [
+    0.0,
+    0.15,
+    1.0,
+    0.7
+   ]
+  ]
+ }
 }

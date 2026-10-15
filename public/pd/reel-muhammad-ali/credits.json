@@ -1,0 +1,20 @@
+{
+ "portrait": {
+  "title": "File:Muhammad Ali NYWTS.jpg",
+  "artist": "Ira Rosenberg, World Journal Tribune; Library of Congress (NYWT&S collection)",
+  "date": "1967",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg",
+  "width": 1920,
+  "height": 2403
+ },
+ "elijah": {
+  "title": "File:Elijah Muhammad and Cassius Clay NYWTS.jpg",
+  "artist": "Stanley Wolfson, World Telegram & Sun; Library of Congress",
+  "date": "1964",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Elijah_Muhammad_and_Cassius_Clay_NYWTS.jpg",
+  "width": 1920,
+  "height": 1542
+ }
+}
