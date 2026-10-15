@@ -8,7 +8,7 @@ import parselmouth
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.join(HERE, "cache", "babies")
-ORDER = ["france", "germany", "china", "cameroon", "sweden"]
+ORDER = ["france", "germany", "china", "cameroon", "cameroon2", "sweden", "sweden2", "sweden3"]
 
 
 def cries(path):
@@ -31,8 +31,16 @@ def cries(path):
                 peak = (ft[np.argmax(ff)] - ft[0]) / (ft[-1] - ft[0])
                 semis = 12 * np.log2(ff.max() / ff.min())
                 shape = "rising" if peak > 0.6 else "falling" if peak < 0.4 else "rise-fall"
+                # melody complexity: direction changes of the smoothed contour bigger than 2 semitones (Wermke's "arcs")
+                st = 12 * np.log2(np.convolve(ff, np.ones(5) / 5, mode="valid") / 100) if len(ff) > 5 else 12 * np.log2(ff / 100)
+                arcs, ext, d = 1, st[0], 0
+                for v in st[1:]:
+                    nd = 1 if v > ext else -1
+                    if d == 0 and abs(v - ext) >= 2: d, ext = nd, v
+                    elif d and nd == d: ext = v
+                    elif d and abs(v - ext) >= 2: arcs, d, ext = arcs + 1, nd, v
                 out.append({"start": round(float(ft[0]), 2), "end": round(float(ft[-1]), 2), "median_hz": round(float(np.median(ff))),
-                            "range_semitones": round(float(semis), 1), "peak_position": round(float(peak), 2), "shape": shape,
+                            "range_semitones": round(float(semis), 1), "peak_position": round(float(peak), 2), "shape": shape, "arcs": arcs,
                             "contour": [[round(float(a - ft[0]), 3), round(float(b), 1)] for a, b in zip(ft, ff)]})
             start = None
     low = float(np.mean((f > 0) & (f < 300))) / max(float(np.mean(f > 0)), 1e-9)
@@ -47,9 +55,10 @@ for k in ORDER:
     dur, cs, low = cries(p)
     shapes = {s: sum(c["shape"] == s for c in cs) for s in ["rising", "falling", "rise-fall"]}
     res[k] = {"duration": round(dur, 1), "cries": cs, "shapes": shapes, "low_pitch_share": round(low, 2),
+              "mean_arcs": round(float(np.mean([c["arcs"] for c in cs])), 2) if cs else None,
               "mean_range_semitones": round(float(np.mean([c["range_semitones"] for c in cs])), 1) if cs else None}
     print(f"{k:9} {dur:5.1f}s  cries {len(cs):2}  {shapes}  mean range {res[k]['mean_range_semitones']} st  "
-          f"median f0 {int(np.median([c['median_hz'] for c in cs])) if cs else '-'} Hz  voiced<300Hz {low:.0%}")
+          f"arcs/cry {res[k]['mean_arcs']}  median f0 {int(np.median([c['median_hz'] for c in cs])) if cs else '-'} Hz  voiced<300Hz {low:.0%}")
     for c in cs:
         print(f"           {c['start']:5.2f}-{c['end']:5.2f}s  {c['shape']:9} peak@{c['peak_position']:.2f}  {c['range_semitones']:4.1f} st  {c['median_hz']} Hz")
 json.dump(res, open(os.path.join(D, "analysis.json"), "w"), indent=1)
