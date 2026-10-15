@@ -51,7 +51,29 @@ bash $W post delete 1 --force && bash $W post delete 2 --force   # sample post a
 
 ## 5. Installed versions [M]
 WordPress 7.1.3, PHP 8.4.26 (Apache), MariaDB 11.8, Redis 7 (alpine), theme Twenty Twenty-Five 1.5 (temporary,
-until the custom theme). No plugins.
+until the custom theme). Plugins: see 5b.
+
+## 5b. Plugins and settings (2026-10-15, approved by the owner)
+Database dump taken first: `/root/backups/bhr-db/before-plugins-20261015-194240.sql.gz`.
+Site timezone: `Africa/Casablanca` (tzdata 2026.3 gives +00 on this date; WordPress follows tzdata changes).
+
+| Plugin | Version | Settings |
+| --- | --- | --- |
+| Redis Object Cache | 3.0.0 | `wp redis enable`; status Connected, client Predis 2.4.1, drop-in valid, Redis 7.4.11, prefix `bhr:` |
+| Yoast SEO | 28.7 | tracking off, AI generator off, admin-bar menu off; organization and site name "The Black History Room"; breadcrumbs on; XML sitemaps on |
+| WP Super Cache | 3.1.4 | caching on, simple mode (no mod_rewrite), no caching for logged-in users, no caching for URLs with a query string, 30 min lifetime, compression off (Traefik compresses) |
+
+Notes:
+- `wp.sh` runs WP-CLI in the WordPress container's network (DB, Redis and the internet for downloads) and passes
+  the site's `WORDPRESS_CONFIG_EXTRA`, so WP-CLI sees the same Redis settings as the site.
+- WP Super Cache added `WP_CACHE`/`WPCACHEHOME` to `wp-config.php` inside the image's `getenv_docker` block. It works
+  there; **leave it**. Moving the lines to the top caused ~6 s of HTTP 500 (`wp_rand()` undefined in
+  `wp-cache-phase2.php`) on 2026-10-15 19:46 UTC; the backup (`/root/backups/bhr-config/`) was restored at once.
+- WP Super Cache only caches requests that send `Accept: text/html` (all browsers do); test with
+  `curl -A Mozilla/5.0 -H 'Accept: text/html'`.
+- `sitemap_index.xml` returns 404 until something is published; `post-sitemap.xml` and `robots.txt` work.
+- Measured from the VPS: cached home page 25-30 ms to first byte (uncached ~400 ms). Redis after a few minutes:
+  1189 hits / 95 misses.
 
 ## 6. First login (owner)
 - URL: `https://theblackhistoryroom.com/wp-admin/`
