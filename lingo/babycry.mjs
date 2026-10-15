@@ -52,7 +52,7 @@ const CSS = `*{margin:0;padding:0;box-sizing:border-box}body{width:1920px;height
 .tag{font-weight:800;font-size:22px;letter-spacing:3px;color:#ffcf5c;text-transform:uppercase}
 .badge{font-weight:800;font-size:30px;padding:8px 18px;border-radius:12px;color:#fff}
 .src{left:40px;bottom:22px;font-size:20px;font-weight:600;color:#9aa3b8}
-#plot{left:90px;top:190px;width:1100px;height:600px;background:#18203a;border-radius:24px;border:3px solid #2d3a63}`;
+#plot{left:90px;top:170px;width:1100px;height:850px;background:#18203a;border-radius:24px;border:3px solid #2d3a63}`;
 
 const SCRIPT = `<script>
 const S=window.__S;
@@ -73,7 +73,7 @@ const bar = (title, fl) => `<div id="bar" class="a"><h1>${esc(title)}</h1>${fl ?
 // pitch plot: x = seconds on the segment clock, y = log pitch 150..1100 Hz
 function plot(k, t0, opts = {}) {
   const { len, cries } = track(k);
-  const X0 = 80, X1 = 1060, Y0 = 540, Y1 = 40;
+  const X0 = 80, X1 = 1060, Y0 = 760, Y1 = 50;
   const y = (hz) => Y0 - (Math.log(Math.min(Math.max(hz, 150), 1100) / 150) / Math.log(1100 / 150)) * (Y0 - Y1);
   const x = (s) => X0 + (s / len) * (X1 - X0);
   const col = { rising: "#4fc3ff", falling: "#ff5c6c", "rise-fall": "#c9c9d6" };
@@ -90,7 +90,7 @@ function plot(k, t0, opts = {}) {
     const sym = c.shape === "rising" ? "↗" : c.shape === "falling" ? "↘" : "↗↘";
     return `<text data-in="${(t0 + c.t0 + c.end - c.start).toFixed(2)}" class="f" x="${x(mid)}" y="${Math.max(top, 70)}" text-anchor="middle" font-size="44" font-weight="800" fill="${col[c.shape]}">${sym}</text>`;
   }).join("");
-  const svg = `<svg class="a" style="left:0;top:0" width="1100" height="600" viewBox="0 0 1100 600">${grid}
+  const svg = `<svg class="a" style="left:0;top:0" width="1100" height="850" viewBox="0 0 1100 850">${grid}
     <text x="${X0}" y="${Y0 + 46}" fill="#7d89a8" font-size="22" font-weight="700">PITCH OF EACH CRY (Hz) · TRACED FROM THE RECORDING</text>
     ${traces.map((tr, i) => `<polyline id="tr${i}" fill="none" stroke="${tr.c}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>`).join("")}
     <line id="ph" x1="${X0}" x2="${X0}" y1="${Y1 - 10}" y2="${Y0}" stroke="#ffcf5c" stroke-width="3" stroke-dasharray="8 8"/>${labels}</svg>`;
@@ -103,10 +103,10 @@ const SRC = "Clip: public video, used for illustration only. Not a recording fro
 const add = (name, dur, html, S, audio = []) => scenes.push({ name, dur, html: page(html, S), audio });
 
 // 0 disclaimer
-add("disclaimer", 7, `<div class="a" style="left:260px;top:250px;width:1400px;text-align:center">
-  <div class="tag" data-in="0.1" class="f" style="font-size:30px">⚠️ Before we start</div>
-  <div data-in="0.4" class="f" style="margin-top:34px;font-size:44px;font-weight:700;line-height:1.4">The baby cries in this video come from <b style="color:#ffcf5c">public videos</b>, not from the scientific studies.</div>
-  <div data-in="1.6" class="f" style="margin-top:30px;font-size:38px;font-weight:600;line-height:1.4;color:#c9d1e6">They only illustrate the research, which measured <b style="color:#fff">hundreds of cries</b>. Studies and video sources are in the description.</div></div>`);
+add("disclaimer", 7, `<div class="a" style="left:160px;top:0;width:1600px;height:1080px;display:flex;flex-direction:column;justify-content:center;text-align:center">
+  <div class="tag f" data-in="0.1" style="font-size:44px">⚠️ Before we start</div>
+  <div data-in="0.4" class="f" style="margin-top:50px;font-size:66px;font-weight:800;line-height:1.3">The baby cries in this video come from <b style="color:#ffcf5c">public videos</b>, not from the scientific studies.</div>
+  <div data-in="1.6" class="f" style="margin-top:50px;font-size:52px;font-weight:600;line-height:1.35;color:#c9d1e6">They only illustrate the research, which measured <b style="color:#fff">hundreds of cries</b>. Studies and video sources are in the description.</div></div>`);
 
 // 1 hook: French then German, short
 {
@@ -142,14 +142,14 @@ function countryScene(k, claim, verdict, verdictColor, note) {
   const falling = pl.cries.filter((c) => c.shape === "falling").map((c) => +(lead + c.t0 + c.end - c.start).toFixed(2));
   const end = lead + pl.len;
   const html = `${bar(`${C[k].name}`, C[k].flag)}${pl.html}
-    <div class="a" style="left:1240px;top:190px;width:600px">
+    <div class="a" style="left:1240px;top:170px;width:600px;height:880px;display:flex;flex-direction:column">
       <div data-in="0.2" class="f card" style="font-size:30px">${claim}</div>
       <div data-in="${lead}" class="f" style="margin-top:30px;display:flex;gap:20px">
         <div class="badge" style="background:#1d6fa5">↗ rising <span data-count='${JSON.stringify(rising)}'>0</span></div>
         <div class="badge" style="background:#a5323d">↘ falling <span data-count='${JSON.stringify(falling)}'>0</span></div></div>
-      <div data-in="${(end + 0.3).toFixed(2)}" data-pop="1" class="f" style="margin-top:34px;background:${verdictColor};border-radius:20px;padding:20px 26px;font-size:36px;font-weight:800;line-height:1.25">${verdict}</div>
-      ${note ? `<div data-in="${(end + 1.2).toFixed(2)}" class="f" style="margin-top:22px;font-size:26px;font-weight:600;color:#c9d1e6;line-height:1.35">${note}</div>` : ""}</div>
-    <div class="a" style="left:1240px;top:760px;width:600px;height:290px;display:flex;justify-content:center;align-items:flex-end">${babyImg(k.replace(/\d$/, ""), 280, `transform-origin:50% 100%`, `bob" data-t0="${lead}" data-t1="${end.toFixed(2)}`)}</div>
+      <div data-in="${(end + 0.3).toFixed(2)}" data-pop="1" class="f" style="margin-top:26px;background:${verdictColor};border-radius:20px;padding:16px 24px;font-size:32px;font-weight:800;line-height:1.25">${verdict}</div>
+      ${note ? `<div data-in="${(end + 1.2).toFixed(2)}" class="f" style="margin-top:14px;font-size:24px;font-weight:600;color:#c9d1e6;line-height:1.3">${note}</div>` : ""}
+      <div style="flex:1;min-height:0;margin-top:16px;display:flex;justify-content:center;align-items:center">${wj("baby_" + k.replace(/\d$/, "")) ? `<img class="bob" data-t0="${lead}" data-t1="${end.toFixed(2)}" src="${wj("baby_" + k.replace(/\d$/, ""))}" style="height:100%;max-height:480px;max-width:100%;object-fit:contain;transform-origin:50% 100%">` : ""}</div></div>
     <div class="a src">${SRC}</div>`;
   let at = lead; const audio = [];
   for (const [a, b] of C[k].pieces) { audio.push({ k, from: a, to: b, at }); at += b - a; }
@@ -197,11 +197,13 @@ countryScene("sweden", "Is our Swedish baby sing-song?",
   "");
 
 // 5 outro
-add("outro", 10, `${bar("So… Do Babies Cry With an Accent?")}
-  <div class="a" style="left:200px;top:230px;width:1520px">
-    <div data-in="0.2" class="f card">In our clips, France, Germany, China and Cameroon matched the studies. Sweden was a mixed result.</div>
-    <div data-in="3" class="f card" style="margin-top:30px">And in the big studies, with hundreds of newborns, the pattern is real: babies pick up the melody of their language <b>before birth</b>.</div>
-    <div data-in="5.8" class="f" style="margin-top:56px;text-align:center;font-size:56px;font-weight:800;color:#ffcf5c">Which language should we test next? 👇</div></div>`);
+add("outro", 11, `${bar("So… Do Babies Cry With an Accent?")}
+  <div class="a" style="left:160px;top:120px;width:1600px;height:960px;display:flex;flex-direction:column;justify-content:center;text-align:center">
+    <div data-in="0.2" class="f card" style="font-size:46px;border-left:none;border-top:10px solid #ff4d5a">In our clips, France, Germany, China and Cameroon matched the studies. Sweden was a mixed result.</div>
+    <div data-in="3" class="f card" style="margin-top:40px;font-size:46px;border-left:none;border-top:10px solid #ff4d5a">And in the big studies, with hundreds of newborns, the pattern is real: babies pick up the melody of their language <b>before birth</b>.</div>
+    <div style="margin-top:40px;display:flex;justify-content:center;gap:34px">${[["france", "fr", "✅"], ["germany", "de", "✅"], ["china", "cn", "✅"], ["cameroon", "cm", "✅"], ["sweden", "se", "🤔"]].map(([k, f, m], i) =>
+      `<div data-in="${(4.6 + i * 0.25).toFixed(2)}" data-pop="1" class="f" style="text-align:center">${babyImg(k, 190)}<div style="font-size:40px;margin-top:6px"><img src="${flag(f)}" style="height:36px;vertical-align:-5px;border-radius:5px"> ${m}</div></div>`).join("")}</div>
+    <div data-in="6.4" class="f" style="margin-top:36px;font-size:68px;font-weight:800;color:#ffcf5c">Which language should we test next? 👇</div></div>`);
 
 // ---------- render ----------
 const stills = opt("still", null);
