@@ -15,6 +15,9 @@ const args = process.argv.slice(2);
 const opt = (k, d) => { const i = args.indexOf("--" + k); return i < 0 ? d : args[i + 1] ?? true; };
 const A = JSON.parse(fs.readFileSync(path.join(B, "analysis.json")));
 const flag = (c) => pathToFileURL(path.join(HERE, "node_modules/flag-icons/flags/4x3", c + ".svg")).href;
+// Wojak crying babies (ChatGPT/Codex images in wojaks/), shown only if the file exists
+const wj = (name) => { const f = path.join(HERE, "wojaks", name + ".png"); return fs.existsSync(f) ? pathToFileURL(f).href : null; };
+const babyImg = (k, h, style = "", cls = "") => { const u = wj("baby_" + k); return u ? `<img class="${cls}" src="${u}" style="height:${h}px;${style}">` : ""; };
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 
 // ---------- country segments: which stretches of each clip are played ----------
@@ -60,6 +63,7 @@ window.setT=function(t){
   (S.traces||[]).forEach((tr,i)=>{const el=document.getElementById('tr'+i);if(!el)return;
     const pts=tr.p.filter(p=>p[0]<=t).map(p=>p[1]+','+p[2]).join(' ');el.setAttribute('points',pts);});
   const ph=document.getElementById('ph');if(ph&&S.play){const x=S.play.x0+(S.play.x1-S.play.x0)*Math.min(1,Math.max(0,(t-S.play.t0)/S.play.len));ph.setAttribute('x1',x);ph.setAttribute('x2',x);ph.style.opacity=(t>=S.play.t0&&t<=S.play.t0+S.play.len)?1:0;}
+  document.querySelectorAll('.bob').forEach(e=>{const on=t>=+e.dataset.t0&&t<=+e.dataset.t1;e.style.transform=on?'rotate('+(Math.sin(t*9)*3).toFixed(2)+'deg) scale('+(1+Math.abs(Math.sin(t*6))*0.04).toFixed(3)+')':'none';});
   document.querySelectorAll('[data-count]').forEach(e=>{const ts=JSON.parse(e.dataset.count);e.textContent=ts.filter(x=>x<=t).length;});
 };
 </script>`;
@@ -74,7 +78,11 @@ function plot(k, t0, opts = {}) {
   const x = (s) => X0 + (s / len) * (X1 - X0);
   const col = { rising: "#4fc3ff", falling: "#ff5c6c", "rise-fall": "#c9c9d6" };
   // median-of-7 smoothing removes pitch-tracker octave jumps (single-frame spikes) before drawing
-  const med = (q) => q.map((p, i) => { const w = q.slice(Math.max(0, i - 3), i + 4).map((v) => v[1]).sort((m, n) => m - n); return [p[0], w[w.length >> 1]]; });
+  // then any point more than 5 semitones from the median of its 15 neighbours is a tracker error and is dropped
+  const med = (q) => {
+    const m = q.map((p, i) => { const w = q.slice(Math.max(0, i - 3), i + 4).map((v) => v[1]).sort((u, v) => u - v); return [p[0], w[w.length >> 1]]; });
+    return m.filter((p, i) => { const w = m.slice(Math.max(0, i - 7), i + 8).map((v) => v[1]).sort((u, v) => u - v); return Math.abs(12 * Math.log2(p[1] / w[w.length >> 1])) <= 5; });
+  };
   const traces = cries.map((c) => ({ c: col[c.shape], p: med(c.contour).filter((_, i) => i % 2 === 0).filter((q) => q[1] > 200).map(([s, hz]) => [+(t0 + c.t0 + s).toFixed(3), +x(c.t0 + s).toFixed(1), +y(hz).toFixed(1)]) }));
   const grid = [200, 300, 500, 800].map((hz) => `<line x1="${X0}" x2="${X1}" y1="${y(hz)}" y2="${y(hz)}" stroke="#2d3a63" stroke-width="2"/><text x="${X0 - 12}" y="${y(hz) + 8}" fill="#7d89a8" font-size="22" text-anchor="end" font-weight="700">${hz}</text>`).join("");
   const labels = opts.labels === false ? "" : cries.map((c) => {
@@ -104,12 +112,12 @@ add("disclaimer", 7, `<div class="a" style="left:260px;top:250px;width:1400px;te
 {
   const fr = track("france"), de = track("germany");
   add("hook", 9.5, `${bar("Babies Cry With an Accent?")}
-    <div class="a" style="left:0;top:330px;width:1920px;text-align:center">
+    <div class="a" style="left:0;top:180px;width:1920px;text-align:center">
       <div data-in="0.2" class="f" style="font-size:64px;font-weight:800">Can a baby only a few days old…</div>
       <div data-in="3.6" class="f" style="margin-top:40px;font-size:64px;font-weight:800;color:#ffcf5c">…already cry with an <u>accent</u>?</div>
-      <div data-in="0.6" class="f" style="margin-top:80px;display:flex;justify-content:center;gap:160px">
-        <div style="text-align:center"><img src="${flag("fr")}" style="height:150px;border-radius:12px"><div style="font-size:40px;font-weight:800;margin-top:12px">🔊 French baby</div></div>
-        <div data-in="3.4" class="f" style="text-align:center"><img src="${flag("de")}" style="height:150px;border-radius:12px"><div style="font-size:40px;font-weight:800;margin-top:12px">🔊 German baby</div></div></div></div>`,
+      <div data-in="0.6" class="f" style="margin-top:40px;display:flex;justify-content:center;gap:160px">
+        <div style="text-align:center">${babyImg("france", 300)}<div style="font-size:40px;font-weight:800;margin-top:12px">🔊 French baby <img src="${flag("fr")}" style="height:34px;vertical-align:-4px;border-radius:4px"></div></div>
+        <div data-in="3.4" class="f" style="text-align:center">${babyImg("germany", 300)}<div style="font-size:40px;font-weight:800;margin-top:12px">🔊 German baby <img src="${flag("de")}" style="height:34px;vertical-align:-4px;border-radius:4px"></div></div></div></div>`,
     {}, [{ k: "france", from: 8.4, to: 11.4, at: 0.3 }, { k: "germany", from: 5.2, to: 7.6, at: 3.6 }, { k: "germany", from: 8.3, to: 10.2, at: 6.3 }]);
 }
 
@@ -141,6 +149,7 @@ function countryScene(k, claim, verdict, verdictColor, note) {
         <div class="badge" style="background:#a5323d">↘ falling <span data-count='${JSON.stringify(falling)}'>0</span></div></div>
       <div data-in="${(end + 0.3).toFixed(2)}" data-pop="1" class="f" style="margin-top:34px;background:${verdictColor};border-radius:20px;padding:20px 26px;font-size:36px;font-weight:800;line-height:1.25">${verdict}</div>
       ${note ? `<div data-in="${(end + 1.2).toFixed(2)}" class="f" style="margin-top:22px;font-size:26px;font-weight:600;color:#c9d1e6;line-height:1.35">${note}</div>` : ""}</div>
+    ${babyImg(k.replace(/\d$/, ""), 330, `left:1560px;top:700px;position:absolute;transform-origin:50% 100%`, `bob" data-t0="${lead}" data-t1="${end.toFixed(2)}`)}
     <div class="a src">${SRC}</div>`;
   let at = lead; const audio = [];
   for (const [a, b] of C[k].pieces) { audio.push({ k, from: a, to: b, at }); at += b - a; }
@@ -184,13 +193,13 @@ add("sweden_intro", 6.5, `${bar("Bonus: Sweden", "se")}
     <div data-in="0.2" class="f card">Swedish is famous for its sing-song melody: some words differ only by their pitch, like <b>anden</b> (the duck) and <b>anden</b> (the spirit).</div>
     <div data-in="2.8" class="f card" style="margin-top:34px">News reports say Swedish newborns cry in a more sing-song way. We could not find the published study yet, so let's just listen.</div></div>`);
 countryScene("sweden", "Is our Swedish baby sing-song?",
-  `🤔 Not sing-song: ${ups("sweden")} pitch turns per second, vs ${ups("germany")} for our German baby`, "#6b5a1f",
-  `A second Swedish baby we checked: ${ups("sweden2")} turns per second. Also calmer.`);
+  `🤔 Mixed: bigger swings, but fewer ups and downs (${ups("sweden")} turns per second vs ${ups("germany")} for our German baby)`, "#6b5a1f",
+  `We checked two more Swedish babies: ${ups("sweden2")} and ${ups("sweden3")} turns per second. Same result.`);
 
 // 5 outro
 add("outro", 10, `${bar("So… Do Babies Cry With an Accent?")}
   <div class="a" style="left:200px;top:230px;width:1520px">
-    <div data-in="0.2" class="f card">One baby proves nothing. Four of our babies matched the studies. Our two Swedish babies did not.</div>
+    <div data-in="0.2" class="f card">One baby proves nothing. Four of our babies matched the studies; our three Swedish babies were a mixed result.</div>
     <div data-in="3" class="f card" style="margin-top:30px">That is exactly why scientists record <b>hundreds</b> of babies. And in the big studies, the pattern is real.</div>
     <div data-in="5.8" class="f" style="margin-top:56px;text-align:center;font-size:56px;font-weight:800;color:#ffcf5c">Which language should we test next? 👇</div></div>`);
 

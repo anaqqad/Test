@@ -1,6 +1,9 @@
-# Idea (saved): "Same Language, Different Countries" (map-tour format)
+# OPTION 2 (saved): "Same Language, Different Countries" (map-tour format)
 
-Status: idea saved, not built yet. Owner liked this format (2026-10-13).
+Status: idea saved, not built yet. Owner liked this format (2026-10-13) and saved it as **option 2** (2026-10-15).
+Owner's words: the original language says something first (e.g. France in French), then every other country that
+speaks it says the same thing with its own word; same for Arabic (Saudi Arabia first, then all Arabic-speaking
+countries), and so on, one language after another.
 
 ## Format
 One video, several **chapters**, one per language. In each chapter:

@@ -52,7 +52,8 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
   and in the description. Tick YouTube's altered/synthetic content box for it.
 - Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).
 - Map-tour videos: `lingo/maptour.mjs` + `lingo/maptour_episodes.mjs` (done: `official`, Countries With the Most Official Languages).
-  Saved idea the owner liked: `lingo/ideas/same_language_different_countries.md` (one language, then each country's version, then the next language).
+  Saved idea the owner liked, **option 2**: `lingo/ideas/same_language_different_countries.md` (the original country says it first, then each other country's version, then the next language).
+- Babies video: `lingo/babycry.mjs` (cries from public YouTube videos the owner is asking permission for; pitch traced with `baby_analyze.py`), Wojak crying babies `wojaks/baby_*.png`.
 
 ## Continue from here
 1. `cd lingo && npm i && pip install faster-whisper`
