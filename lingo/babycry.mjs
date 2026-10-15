@@ -106,7 +106,7 @@ const add = (name, dur, html, S, audio = []) => scenes.push({ name, dur, html: p
 add("disclaimer", 7, `<div class="a" style="left:260px;top:250px;width:1400px;text-align:center">
   <div class="tag" data-in="0.1" class="f" style="font-size:30px">⚠️ Before we start</div>
   <div data-in="0.4" class="f" style="margin-top:34px;font-size:44px;font-weight:700;line-height:1.4">The baby cries in this video come from <b style="color:#ffcf5c">public videos</b>, not from the scientific studies.</div>
-  <div data-in="1.6" class="f" style="margin-top:30px;font-size:38px;font-weight:600;line-height:1.4;color:#c9d1e6">One baby proves nothing. The real research measured <b style="color:#fff">hundreds of cries</b>. Studies and video sources are in the description.</div></div>`);
+  <div data-in="1.6" class="f" style="margin-top:30px;font-size:38px;font-weight:600;line-height:1.4;color:#c9d1e6">They only illustrate the research, which measured <b style="color:#fff">hundreds of cries</b>. Studies and video sources are in the description.</div></div>`);
 
 // 1 hook: French then German, short
 {
@@ -149,7 +149,7 @@ function countryScene(k, claim, verdict, verdictColor, note) {
         <div class="badge" style="background:#a5323d">↘ falling <span data-count='${JSON.stringify(falling)}'>0</span></div></div>
       <div data-in="${(end + 0.3).toFixed(2)}" data-pop="1" class="f" style="margin-top:34px;background:${verdictColor};border-radius:20px;padding:20px 26px;font-size:36px;font-weight:800;line-height:1.25">${verdict}</div>
       ${note ? `<div data-in="${(end + 1.2).toFixed(2)}" class="f" style="margin-top:22px;font-size:26px;font-weight:600;color:#c9d1e6;line-height:1.35">${note}</div>` : ""}</div>
-    ${babyImg(k.replace(/\d$/, ""), 330, `left:1560px;top:700px;position:absolute;transform-origin:50% 100%`, `bob" data-t0="${lead}" data-t1="${end.toFixed(2)}`)}
+    <div class="a" style="left:1240px;top:760px;width:600px;height:290px;display:flex;justify-content:center;align-items:flex-end">${babyImg(k.replace(/\d$/, ""), 280, `transform-origin:50% 100%`, `bob" data-t0="${lead}" data-t1="${end.toFixed(2)}`)}</div>
     <div class="a src">${SRC}</div>`;
   let at = lead; const audio = [];
   for (const [a, b] of C[k].pieces) { audio.push({ k, from: a, to: b, at }); at += b - a; }
@@ -194,13 +194,13 @@ add("sweden_intro", 6.5, `${bar("Bonus: Sweden", "se")}
     <div data-in="2.8" class="f card" style="margin-top:34px">News reports say Swedish newborns cry in a more sing-song way. We could not find the published study yet, so let's just listen.</div></div>`);
 countryScene("sweden", "Is our Swedish baby sing-song?",
   `🤔 Mixed: bigger swings, but fewer ups and downs (${ups("sweden")} turns per second vs ${ups("germany")} for our German baby)`, "#6b5a1f",
-  `We checked two more Swedish babies: ${ups("sweden2")} and ${ups("sweden3")} turns per second. Same result.`);
+  "");
 
 // 5 outro
 add("outro", 10, `${bar("So… Do Babies Cry With an Accent?")}
   <div class="a" style="left:200px;top:230px;width:1520px">
-    <div data-in="0.2" class="f card">One baby proves nothing. Four of our babies matched the studies; our three Swedish babies were a mixed result.</div>
-    <div data-in="3" class="f card" style="margin-top:30px">That is exactly why scientists record <b>hundreds</b> of babies. And in the big studies, the pattern is real.</div>
+    <div data-in="0.2" class="f card">In our clips, France, Germany, China and Cameroon matched the studies. Sweden was a mixed result.</div>
+    <div data-in="3" class="f card" style="margin-top:30px">And in the big studies, with hundreds of newborns, the pattern is real: babies pick up the melody of their language <b>before birth</b>.</div>
     <div data-in="5.8" class="f" style="margin-top:56px;text-align:center;font-size:56px;font-weight:800;color:#ffcf5c">Which language should we test next? 👇</div></div>`);
 
 // ---------- render ----------
