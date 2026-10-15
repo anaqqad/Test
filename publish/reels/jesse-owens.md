@@ -1,7 +1,7 @@
 # Reel: Jesse Owens, "Four Olympic Golds. Then He Raced a Horse."
 
 Page: The Black History Room (Facebook Reels; also Instagram Reels and YouTube Shorts)
-Video: `publish/video/Jesse-Owens-reel.mp4` (1080x1920, 30 fps, ElevenLabs Andrew). Spec and fact sheet: `data/reel-jesse-owens.json`.
+Video: `publish/video/Jesse-Owens-reel.mp4` (1080x1920, 30 fps, Kokoro voice). Spec and fact sheet: `data/reel-jesse-owens.json`.
 
 ## Facebook
 
