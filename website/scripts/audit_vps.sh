@@ -4,13 +4,17 @@
 #
 # Run on the VPS (as root or a sudo user):
 #     bash audit_vps.sh > audit.txt 2>&1
+# or from your own computer, without copying the file:
+#     ssh USER@HOST 'sudo bash -s' < website/scripts/audit_vps.sh > audit.txt 2>&1
 # Then check audit.txt and paste it back to Claude.
 set -u
 
 mask() {
-  # hide values of anything that looks like a secret (KEY=..., PASSWORD: ..., tokens, URLs with credentials)
+  # hide values of anything that looks like a secret (KEY=..., PASSWORD: "...", tokens, Traefik basicauth labels,
+  # password hashes, URLs with credentials). Quoted values are masked whole.
   sed -E \
-    -e 's/(([A-Za-z0-9_]*(PASS|PASSWORD|SECRET|TOKEN|KEY|AUTH|CREDENTIAL|SALT|PRIVATE)[A-Za-z0-9_]*)[[:space:]]*[=:][[:space:]]*)[^[:space:],"]+/\1****/Ig' \
+    -e 's/(([A-Za-z0-9_.-]*(PASS|PASSWORD|SECRET|TOKEN|KEY|AUTH|CREDENTIAL|SALT|PRIVATE)[A-Za-z0-9_.-]*)"?[[:space:]]*[=:][[:space:]]*)("[^"]*"|'"'"'[^'"'"']*'"'"'|[^[:space:],"]+)/\1****/Ig' \
+    -e 's/\$\$?(apr1|2[aby]|1|5|6|y)\$\$?[^[:space:],"]+/****/g' \
     -e 's#(://[^:/@[:space:]]+):[^@[:space:]]+@#\1:****@#g'
 }
 section() { printf '\n==================== %s ====================\n' "$1"; }
@@ -30,6 +34,8 @@ run "docker compose version || docker-compose --version"
 run "docker ps -a --format 'table {{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}'"
 run "docker network ls"
 run "docker volume ls"
+run "docker compose ls 2>/dev/null || echo 'docker compose ls not available'"
+run "docker system df -v | sed -n '/VOLUME NAME/,/^$/p'"
 run "docker stats --no-stream --format 'table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}'"
 
 section "CONTAINER DETAILS (env values masked)"
@@ -62,7 +68,16 @@ run "systemctl is-active nginx apache2 caddy traefik 2>/dev/null"
 run "ls /etc/nginx/sites-enabled /etc/nginx/conf.d 2>/dev/null"
 run "grep -rhE 'server_name|proxy_pass|listen' /etc/nginx/sites-enabled /etc/nginx/conf.d 2>/dev/null | sort -u"
 run "ls /etc/letsencrypt/live 2>/dev/null"
+run "grep -vhE '^[[:space:]]*#' /etc/caddy/Caddyfile 2>/dev/null | grep -E '\\{|reverse_proxy' || echo 'no /etc/caddy/Caddyfile'"
+run "ls /etc/traefik /opt/traefik 2>/dev/null || echo 'no host traefik config dir'"
+run "for c in \$(docker ps --format '{{.Names}}'); do echo \"\$c: \$(docker inspect \$c --format '{{range \$k,\$v := .Config.Labels}}{{\$k}}={{\$v}}{{println}}{{end}}' | grep -E '^(traefik\\.http\\.routers\\.[^=]*\\.(rule|tls[^=]*|entrypoints)|caddy[^=]*)=' | tr '\\n' ' ')\"; done"
 run "docker ps --format '{{.Names}} {{.Image}}' | grep -Ei 'traefik|caddy|nginx|proxy' || echo 'no proxy container'"
+
+section "DNS (current public records)"
+DOMAIN="${DOMAIN:-theblackhistoryroom.com}"
+run "curl -s -4 --max-time 5 https://ifconfig.me; echo ' <- this VPS public IPv4'"
+run "getent ahosts $DOMAIN | head -3 || echo '$DOMAIN does not resolve'"
+run "getent ahosts www.$DOMAIN | head -3 || echo 'www.$DOMAIN does not resolve'"
 
 section "DATABASES"
 run "docker ps --format '{{.Names}} {{.Image}}' | grep -Ei 'mysql|mariadb|postgres|redis' || echo 'no database containers'"
