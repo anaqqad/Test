@@ -6,11 +6,13 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'BHR_VERSION', '1.0.2' );
+define( 'BHR_VERSION', '1.1.1' );
 
 require __DIR__ . '/inc/content.php';
 require __DIR__ . '/inc/podcast.php';
 require __DIR__ . '/inc/template-tags.php';
+require __DIR__ . '/inc/stories.php';
+require __DIR__ . '/inc/section.php';
 
 add_action( 'after_setup_theme', function () {
 	add_theme_support( 'title-tag' );
@@ -31,6 +33,7 @@ add_action( 'after_setup_theme', function () {
 	add_image_size( 'bhr-hero', 1600, 900, true );
 	add_image_size( 'bhr-social', 1200, 630, true );
 	add_image_size( 'bhr-portrait', 600, 750, true );
+	add_image_size( 'bhr-square', 600, 600, true );
 } );
 
 add_filter( 'image_size_names_choose', function ( $sizes ) {

@@ -10,8 +10,8 @@ if ( is_search() ) {
 	$title = sprintf( 'Search results for “%s”', get_search_query() );
 	$intro = '';
 } elseif ( is_home() ) {
-	$title = get_the_title( get_option( 'page_for_posts' ) ) ?: 'Stories';
-	$intro = 'Every story, newest first.';
+	$title = get_the_title( get_option( 'page_for_posts' ) ) ?: 'News';
+	$intro = 'News and updates from The Black History Room.';
 } else {
 	$title = wp_strip_all_tags( get_the_archive_title() );
 	$intro = wp_strip_all_tags( get_the_archive_description() );
@@ -38,7 +38,7 @@ if ( is_search() ) {
 			<?php
 			while ( have_posts() ) :
 				the_post();
-				bhr_card( 'card', 'h2' );
+				'story' === get_post_type() ? bhr_story_card( 'h2' ) : bhr_card( 'card', 'h2' );
 			endwhile;
 			?>
 		</div>

@@ -7,7 +7,7 @@
 
 require_once ABSPATH . 'wp-admin/includes/image.php';
 
-$demo_ids = get_posts( array( 'post_type' => array( 'post', 'bhr_episode', 'attachment' ), 'post_status' => 'any', 'meta_key' => 'bhr_demo', 'posts_per_page' => -1, 'fields' => 'ids' ) );
+$demo_ids = get_posts( array( 'post_type' => array( 'post', 'story', 'bhr_episode', 'attachment' ), 'post_status' => 'any', 'meta_key' => 'bhr_demo', 'posts_per_page' => -1, 'fields' => 'ids' ) );
 if ( 'remove' === getenv( 'BHR_DEMO' ) ) {
 	foreach ( $demo_ids as $id ) {
 		'attachment' === get_post_type( $id ) ? wp_delete_attachment( $id, true ) : wp_delete_post( $id, true );

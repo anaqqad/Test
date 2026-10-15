@@ -74,6 +74,7 @@ services:
       - ./config/php.ini:/usr/local/etc/php/conf.d/zz-bhr.ini:ro
       - ./config/apache-bhr.conf:/etc/apache2/conf-enabled/zz-bhr.conf:ro
       - ./theme/bhr:/var/www/html/wp-content/themes/bhr:ro
+      - ./mu-plugins:/var/www/html/wp-content/mu-plugins:ro
     networks:
       - bhr_internal
       - n8n_default

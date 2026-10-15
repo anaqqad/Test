@@ -66,9 +66,44 @@ WP_CLI::log( 'Categories: ' . count( $cat_ids ) );
 // ---------- Pages ----------
 $placeholder = bhr_note( '<strong>Placeholder.</strong> This page still has to be written by the owner of The Black History Room. Nothing here is legal advice.' );
 
+// The blog page is "News" (/news/); /stories/ is the Story archive.
+if ( ( $old = get_page_by_path( 'stories' ) ) && ! get_page_by_path( 'news' ) ) {
+	wp_update_post( array( 'ID' => $old->ID, 'post_name' => 'news', 'post_title' => 'News' ) );
+}
+
 $pages = array(
 	'home'    => array( 'Home', '' ),
-	'stories' => array( 'Stories', '' ),
+	'news'    => array( 'News', '' ),
+	'african-american-history' => array(
+		'African American History',
+		bhr_p( 'The history of Black Americans, from the colonial era to today: leaders, inventors, soldiers, artists and ordinary people who changed the country.' ),
+	),
+	'global-african-history' => array(
+		'Global African History',
+		bhr_p( 'Africa and the African diaspora around the world. Choose a country on the map or in the list, or browse all stories below.' ),
+	),
+	'donate' => array(
+		'Donate',
+		bhr_p( 'Researching and editing these stories takes real time and effort. Every story is checked against reliable sources before it is published, and every image is checked for its rights.' )
+		. bhr_p( 'If you value this work, please support The Black History Room so we can keep bringing these stories to light. Thank you!' )
+		. "<!-- wp:buttons -->\n<div class=\"wp-block-buttons\"><!-- wp:button -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://ko-fi.com/theblackhistoryroom\" target=\"_blank\" rel=\"noreferrer noopener\">Support us on Ko-fi</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons -->\n\n"
+		. bhr_p( 'Donations are handled by Ko-fi. No payment information is collected or stored on this website.' ),
+	),
+	'videos'    => array( 'Reels & Videos', '' ),
+	'this-week' => array( 'This Week in Black History', '' ),
+	'sources'   => array(
+		'Sources & Bibliography',
+		bhr_p( 'Every story lists its own sources at the end. These are the archives and institutions we rely on most:' )
+		. bhr_list( array(
+			'<a href="https://www.loc.gov/">Library of Congress</a>',
+			'<a href="https://www.archives.gov/">National Archives (US)</a>',
+			'<a href="https://nmaahc.si.edu/">Smithsonian National Museum of African American History and Culture</a>',
+			'<a href="https://history.house.gov/">US House of Representatives: History, Art &amp; Archives</a>',
+			'<a href="https://www.nps.gov/">National Park Service</a>',
+			'<a href="https://www.britannica.com/">Encyclopaedia Britannica</a>',
+		) )
+		. bhr_p( 'See our <a href="/editorial-policy/">Editorial Policy</a> for how we choose and check sources.' ),
+	),
 	'about'   => array(
 		'About',
 		bhr_p( 'The Black History Room shares powerful people, moments, struggles and achievements from Black history: from African kingdoms to the civil rights movement, from inventors and explorers to the stories most history books left out.' )
@@ -155,7 +190,7 @@ WP_CLI::log( 'Pages: ' . count( $page_ids ) );
 // ---------- Settings ----------
 update_option( 'show_on_front', 'page' );
 update_option( 'page_on_front', $page_ids['home'] );
-update_option( 'page_for_posts', $page_ids['stories'] );
+update_option( 'page_for_posts', $page_ids['news'] );
 update_option( 'wp_page_for_privacy_policy', $page_ids['privacy-policy'] );
 update_option( 'posts_per_page', 12 );
 update_option( 'category_base', 'topics' );
@@ -190,7 +225,7 @@ function bhr_menu( $name, $location, array $items ) {
 
 $main = bhr_menu( 'Main menu', 'primary', array(
 	array( 'Home', 'custom', home_url( '/' ) ),
-	array( 'Stories', 'page', $page_ids['stories'] ),
+	array( 'Stories', 'custom', home_url( '/stories/' ) ),
 	array( 'People', 'category', $cat_ids['historical-figures'] ),
 	array( 'Africa', 'category', $cat_ids['african-history'] ),
 	array( 'African-American History', 'category', $cat_ids['african-american-history'] ),
@@ -209,8 +244,12 @@ $footer = bhr_menu( 'Footer menu', 'footer', array(
 	array( 'Privacy Policy', 'page', $page_ids['privacy-policy'] ),
 	array( 'Terms of Use', 'page', $page_ids['terms'] ),
 	array( 'Cookie Policy', 'page', $page_ids['cookie-policy'] ),
+	array( 'Donate', 'page', $page_ids['donate'] ),
 ) );
 WP_CLI::log( "Menus: main {$main} items, footer {$footer} items" );
 
+if ( function_exists( 'bhr_create_terms' ) ) {
+	bhr_create_terms();
+}
 flush_rewrite_rules( false );
 WP_CLI::success( 'Site structure ready.' );

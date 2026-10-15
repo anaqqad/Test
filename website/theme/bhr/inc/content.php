@@ -83,7 +83,7 @@ function bhr_toc_prepare( $content, &$items ) {
 
 // Table of contents on long articles: 3+ sections and 1,200+ words.
 add_filter( 'the_content', function ( $content ) {
-	if ( ! is_singular( 'post' ) || ! in_the_loop() || ! is_main_query() ) {
+	if ( ! is_singular( array( 'post', 'story' ) ) || ! in_the_loop() || ! is_main_query() ) {
 		return $content;
 	}
 	$items   = array();
@@ -124,6 +124,7 @@ function bhr_this_week_query( $count = 4 ) {
 		$days[] = $now->modify( "+{$i} days" )->format( 'm-d' );
 	}
 	return new WP_Query( array(
+		'post_type'           => array( 'story', 'post' ),
 		'posts_per_page'      => $count,
 		'ignore_sticky_posts' => true,
 		'no_found_rows'       => true,
