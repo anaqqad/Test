@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'BHR_VERSION', '1.1.2' );
+define( 'BHR_VERSION', '1.1.3' );
 
 require __DIR__ . '/inc/content.php';
 require __DIR__ . '/inc/podcast.php';
@@ -79,6 +79,7 @@ add_filter( 'site_icon_meta_tags', function () {
 		return esc_url( get_theme_file_uri( "assets/icon/site-icon-{$px}.png" ) );
 	};
 	return array(
+		'<link rel="icon" href="' . $u( 16 ) . '" sizes="16x16" type="image/png" />',
 		'<link rel="icon" href="' . $u( 32 ) . '" sizes="32x32" type="image/png" />',
 		'<link rel="icon" href="' . $u( 192 ) . '" sizes="192x192" type="image/png" />',
 		'<link rel="apple-touch-icon" href="' . $u( 180 ) . '" />',
@@ -88,7 +89,7 @@ add_filter( 'site_icon_meta_tags', function () {
 
 // Same PNGs for /favicon.ico and anything else asking WordPress for the site icon URL.
 add_filter( 'get_site_icon_url', function ( $url, $size ) {
-	$px = $size <= 32 ? 32 : ( $size <= 180 ? 180 : ( $size <= 192 ? 192 : ( $size <= 270 ? 270 : 0 ) ) );
+	$px = $size <= 16 ? 16 : ( $size <= 32 ? 32 : ( $size <= 180 ? 180 : ( $size <= 192 ? 192 : ( $size <= 270 ? 270 : 0 ) ) ) );
 	return get_theme_file_uri( $px ? "assets/icon/site-icon-{$px}.png" : 'assets/icon/site-icon.png' );
 }, 10, 2 );
 

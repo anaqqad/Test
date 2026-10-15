@@ -1,47 +1,47 @@
 <?php
 /**
- * Draws the site icon (512 x 512 PNG): black square, muted-gold frame, cream "BHR" monogram in Cinzel Bold.
- * Usage: php make_icon.php <Cinzel.ttf> <out.png>      (needs PHP GD with FreeType; the WordPress image has it)
+ * Draws the site icon: black square, big heavy cream "BHR" filling most of the square (letters stretched taller so
+ * they stay readable at 16-32 px in browser tabs), gold bar at the bottom.
+ * One 1024 px master is drawn, then each size is resampled from it (smooth edges).
+ * Usage: php make_icon.php <Cinzel.ttf> <out.png>   -> out.png (512) + out-16/-32/-180/-192/-270.png
  */
 [ , $font, $out ] = $argv;
-$s  = 512;
-$im = imagecreatetruecolor( $s, $s );
-imagesavealpha( $im, true );
-$ink   = imagecolorallocate( $im, 0x14, 0x12, 0x10 );
-$gold  = imagecolorallocate( $im, 0xa8, 0x84, 0x4a );
-$cream = imagecolorallocate( $im, 0xf5, 0xef, 0xe3 );
-imagefilledrectangle( $im, 0, 0, $s, $s, $ink );
 
-// Gold frame: outer rule and a thin inner rule.
-imagesetthickness( $im, 14 );
-imagerectangle( $im, 34, 34, $s - 35, $s - 35, $gold );
-imagesetthickness( $im, 4 );
-imagerectangle( $im, 62, 62, $s - 63, $s - 63, $gold );
+$M     = 1024;
+$text  = 'BHR';
+$size  = 400;
+$bold  = 14;                                     // extra weight (drawn around a small circle)
+$box   = imagettfbbox( $size, 0, $font, $text );
+$tw    = $box[2] - $box[0] + 2 * $bold + 8;
+$th    = $box[1] - $box[7] + 2 * $bold + 8;
 
-// "BHR", sized to fit the inner frame and centred optically.
-$text = 'BHR';
-$size = 200;
-do {
-	$box = imagettfbbox( $size, 0, $font, $text );
-	$w   = $box[2] - $box[0];
-	$size -= 2;
-} while ( $w > 330 && $size > 40 );
-$h = $box[1] - $box[7];
-$x = (int) ( ( $s - $w ) / 2 - $box[0] );
-$y = (int) ( ( $s + $h ) / 2 - $box[1] ) + 4;
-imagettftext( $im, $size, 0, $x, $y, $cream, $font, $text );
+// 1. The word on its own transparent canvas, cropped tight.
+$word = imagecreatetruecolor( $tw, $th );
+imagealphablending( $word, false );
+imagefilledrectangle( $word, 0, 0, $tw, $th, imagecolorallocatealpha( $word, 0, 0, 0, 127 ) );
+imagealphablending( $word, true );
+$cream = imagecolorallocate( $word, 0xff, 0xf8, 0xea );
+$x     = $bold + 4 - $box[0];
+$y     = $bold + 4 - $box[7];
+for ( $a = 0; $a < 360; $a += 20 ) {
+	imagettftext( $word, $size, 0, (int) round( $x + $bold * cos( deg2rad( $a ) ) ), (int) round( $y + $bold * sin( deg2rad( $a ) ) ), $cream, $font, $text );
+}
+imagettftext( $word, $size, 0, $x, $y, $cream, $font, $text );
 
-// Short gold underline below the letters.
-imagefilledrectangle( $im, 196, $y + 26, $s - 197, $y + 33, $gold );
+// 2. Master icon: black, word stretched into the area above the gold bar.
+$m = imagecreatetruecolor( $M, $M );
+imagefilledrectangle( $m, 0, 0, $M, $M, imagecolorallocate( $m, 0x14, 0x12, 0x10 ) );
+$bar = (int) round( $M * 0.12 );
+imagefilledrectangle( $m, 0, $M - $bar, $M, $M, imagecolorallocate( $m, 0xc9, 0xa2, 0x5c ) );
+$pad = (int) round( $M * 0.035 );
+imagealphablending( $m, true );
+imagecopyresampled( $m, $word, $pad, (int) round( $M * 0.10 ), 0, 0, $M - 2 * $pad, (int) round( $M * 0.66 ), $tw, $th );
 
-imagepng( $im, $out, 9 );
-echo "wrote $out ({$size}pt)\n";
-
-// Smaller PNGs next to it: site-icon-<px>.png (favicon 32, Apple touch 180, Android 192, Windows tile 270).
-foreach ( array( 32, 180, 192, 270 ) as $px ) {
-	$small = imagecreatetruecolor( $px, $px );
-	imagecopyresampled( $small, $im, 0, 0, 0, 0, $px, $px, $s, $s );
-	$file = preg_replace( '/\.png$/', "-{$px}.png", $out );
-	imagepng( $small, $file, 9 );
+// 3. Sizes.
+foreach ( array( 512 => $out, 16 => null, 32 => null, 180 => null, 192 => null, 270 => null ) as $px => $file ) {
+	$file = $file ?: preg_replace( '/\.png$/', "-{$px}.png", $out );
+	$im   = imagecreatetruecolor( $px, $px );
+	imagecopyresampled( $im, $m, 0, 0, 0, 0, $px, $px, $M, $M );
+	imagepng( $im, $file, 9 );
 	echo "wrote $file\n";
 }

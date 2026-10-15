@@ -65,12 +65,12 @@ tabs switch without JS, Discover more order correct.
 - Western Sahara is drawn as part of Morocco (one shape, no inner border), as decided by the owner on 2026-10-15
   (`MERGE` in `build_map.mjs`; 175 shapes).
 
-## Seeded drafts (2026-10-15) — all DRAFTS, nothing published
+## Seeded stories (2026-10-15): created as drafts, published by the owner's decision the same evening
 Built by `website/scripts/build_seed.mjs` (repo data) + `seed_stories.php` (WordPress). Text is the already-checked
 reel post text (`publish/reels/<slug>.md`), unchanged; sources and image credits from the same files; cover = the
 reel's opening image with its credit from `public/pd/reel-<slug>/credits.json`.
 
-19 stories: Bass Reeves, Bessie Coleman, Booker T. Washington, Ellen and William Craft, Frederick Douglass,
+20 stories (Matthew Henson added later the same day): Bass Reeves, Bessie Coleman, Booker T. Washington, Ellen and William Craft, Frederick Douglass,
 Garrett Morgan, George Washington Carver, Harriet Tubman, Henry "Box" Brown, Hiram Revels, Ida B. Wells, Jack Johnson,
 Jesse Owens, Major Taylor, Mansa Musa (Global / Mali), Muhammad Ali, Robert Smalls, Rosa Parks, Sojourner Truth.
 3 podcast episode drafts (1 Douglass, 2 Smalls, 3 Carver), linked to their stories.
