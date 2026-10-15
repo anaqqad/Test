@@ -25,6 +25,7 @@ add_action( 'init', function () {
 		'menu_icon'     => 'dashicons-microphone',
 		'menu_position' => 6,
 		'show_in_rest'  => true,
+		'rest_base'     => 'episodes',
 		'supports'      => array( 'title', 'editor', 'excerpt', 'thumbnail', 'custom-fields', 'revisions' ),
 	) );
 
