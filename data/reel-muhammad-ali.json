@@ -44,7 +44,7 @@
     "image": "portrait",
     "focus": [
      0.48,
-     0.4
+     0.36
     ],
     "zoom": [
      1.05,
@@ -52,7 +52,7 @@
     ],
     "anchor": [
      0.5,
-     0.38
+     0.3
     ]
    },
    "overlays": {
@@ -65,20 +65,15 @@
    "text": "Meet Muhammad Ali.",
    "section": "who",
    "visual": {
-    "kind": "photo",
+    "kind": "card",
     "image": "portrait",
-    "focus": [
-     0.48,
-     0.4
-    ],
-    "zoom": [
+    "crop": [
+     0.0,
+     0.0,
      1.0,
-     1.05
+     1.0
     ],
-    "anchor": [
-     0.5,
-     0.38
-    ]
+    "caption": "Muhammad Ali, 1967"
    },
    "overlays": {
     "lowerThird": {
@@ -131,20 +126,15 @@
    "id": "draft",
    "text": "In 1967, during the Vietnam War, he was drafted. On April 28, in Houston, he refused to step forward.",
    "visual": {
-    "kind": "photo",
+    "kind": "card",
     "image": "portrait",
-    "focus": [
-     0.48,
-     0.4
-    ],
-    "zoom": [
+    "crop": [
+     0.0,
+     0.0,
      1.0,
-     1.06
+     1.0
     ],
-    "anchor": [
-     0.5,
-     0.38
-    ]
+    "caption": "Muhammad Ali, 1967"
    },
    "overlays": {
     "stamp": "April 28, 1967"
@@ -173,20 +163,15 @@
    "id": "exile",
    "text": "For more than three years, at the peak of his career, he could not box.",
    "visual": {
-    "kind": "photo",
+    "kind": "card",
     "image": "portrait",
-    "focus": [
-     0.48,
-     0.4
-    ],
-    "zoom": [
+    "crop": [
+     0.0,
+     0.0,
      1.0,
-     1.05
+     1.0
     ],
-    "anchor": [
-     0.5,
-     0.38
-    ]
+    "caption": "Muhammad Ali, 1967"
    }
   },
   {
@@ -212,20 +197,15 @@
    "id": "legacy",
    "text": "They took his title. He took it back.",
    "visual": {
-    "kind": "photo",
+    "kind": "card",
     "image": "portrait",
-    "focus": [
-     0.48,
-     0.4
+    "crop": [
+     0.08,
+     0.02,
+     0.92,
+     0.82
     ],
-    "zoom": [
-     1.0,
-     1.06
-    ],
-    "anchor": [
-     0.5,
-     0.38
-    ]
+    "caption": "Muhammad Ali, 1967"
    }
   },
   {

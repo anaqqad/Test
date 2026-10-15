@@ -60,3 +60,4 @@ Frame 0 (upload `publish/reels/muhammad-ali.hook.jpg` as the cover): Ali's 1967 
 
 - Not used: the famous "No Viet Cong ever called me..." quote (wording differs between sources).
 - 8-0: Justice Marshall did not take part.
+- Frame 0 is a full-screen face with the hook text over his chin (the 1967 portrait is a tight headshot); later shots use cards.

@@ -65,20 +65,15 @@
    "text": "Meet Rosa Parks.",
    "section": "who",
    "visual": {
-    "kind": "photo",
+    "kind": "card",
     "image": "nixon",
-    "focus": [
-     0.22,
-     0.32
+    "crop": [
+     0.0,
+     0.08,
+     0.46,
+     0.62
     ],
-    "zoom": [
-     1.0,
-     1.06
-    ],
-    "anchor": [
-     0.5,
-     0.33
-    ]
+    "caption": "Rosa Parks, December 1955"
    },
    "overlays": {
     "lowerThird": {
@@ -116,20 +111,15 @@
    "id": "naacp",
    "text": "She was not just a tired seamstress. She was secretary of the local NAACP.",
    "visual": {
-    "kind": "photo",
+    "kind": "card",
     "image": "nixon",
-    "focus": [
-     0.22,
-     0.32
+    "crop": [
+     0.0,
+     0.08,
+     0.46,
+     0.62
     ],
-    "zoom": [
-     1.15,
-     1.21
-    ],
-    "anchor": [
-     0.5,
-     0.33
-    ]
+    "caption": "Rosa Parks, December 1955"
    }
   },
   {
@@ -207,7 +197,7 @@
   },
   {
    "id": "honor",
-   "text": "When she died in 2005, she became the first woman to lie in honor in the U.S. Capitol.",
+   "text": "When she died in 2005, she became the first woman to lie in honor in the Capitol rotunda.",
    "visual": {
     "kind": "title",
     "title": "First woman",

@@ -1,0 +1,947 @@
+{
+ "fps": 30,
+ "durationInFrames": 1855,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 164,
+ "wpm": 159.1,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.09,
+   "words": [
+    {
+     "text": "Her",
+     "start": 0.0,
+     "end": 0.151
+    },
+    {
+     "text": "famous",
+     "start": 0.197,
+     "end": 0.464
+    },
+    {
+     "text": "arrest",
+     "start": 0.499,
+     "end": 0.743
+    },
+    {
+     "text": "photo",
+     "start": 0.778,
+     "end": 1.01
+    },
+    {
+     "text": "isn't",
+     "start": 1.068,
+     "end": 1.242
+    },
+    {
+     "text": "from",
+     "start": 1.265,
+     "end": 1.37
+    },
+    {
+     "text": "that",
+     "start": 1.416,
+     "end": 1.544
+    },
+    {
+     "text": "day.",
+     "start": 1.591,
+     "end": 2.09
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 75
+  },
+  {
+   "id": "name",
+   "speechEnd": 3.983,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.59,
+     "end": 2.834
+    },
+    {
+     "text": "Rosa",
+     "start": 2.892,
+     "end": 3.147
+    },
+    {
+     "text": "Parks.",
+     "start": 3.194,
+     "end": 3.983
+    }
+   ],
+   "cues": {},
+   "startFrame": 75,
+   "endFrame": 131
+  },
+  {
+   "id": "dec1",
+   "speechEnd": 11.472,
+   "words": [
+    {
+     "text": "On",
+     "start": 4.483,
+     "end": 4.704
+    },
+    {
+     "text": "December",
+     "start": 4.75,
+     "end": 5.098
+    },
+    {
+     "text": "1,",
+     "start": 5.18,
+     "end": 5.4
+    },
+    {
+     "text": "1955,",
+     "start": 5.435,
+     "end": 6.329
+    },
+    {
+     "text": "in",
+     "start": 6.352,
+     "end": 6.399
+    },
+    {
+     "text": "Montgomery,",
+     "start": 6.445,
+     "end": 6.921
+    },
+    {
+     "text": "Alabama,",
+     "start": 6.944,
+     "end": 7.444
+    },
+    {
+     "text": "she",
+     "start": 7.467,
+     "end": 7.571
+    },
+    {
+     "text": "refused",
+     "start": 7.653,
+     "end": 8.082
+    },
+    {
+     "text": "to",
+     "start": 8.105,
+     "end": 8.152
+    },
+    {
+     "text": "give",
+     "start": 8.198,
+     "end": 8.338
+    },
+    {
+     "text": "up",
+     "start": 8.372,
+     "end": 8.454
+    },
+    {
+     "text": "her",
+     "start": 8.5,
+     "end": 8.57
+    },
+    {
+     "text": "bus",
+     "start": 8.616,
+     "end": 8.802
+    },
+    {
+     "text": "seat",
+     "start": 8.848,
+     "end": 9.046
+    },
+    {
+     "text": "to",
+     "start": 9.092,
+     "end": 9.162
+    },
+    {
+     "text": "a",
+     "start": 9.243,
+     "end": 9.278
+    },
+    {
+     "text": "white",
+     "start": 9.324,
+     "end": 9.545
+    },
+    {
+     "text": "passenger.",
+     "start": 9.58,
+     "end": 10.218
+    },
+    {
+     "text": "She",
+     "start": 10.532,
+     "end": 10.66
+    },
+    {
+     "text": "was",
+     "start": 10.718,
+     "end": 10.822
+    },
+    {
+     "text": "arrested.",
+     "start": 10.868,
+     "end": 11.472
+    }
+   ],
+   "cues": {},
+   "startFrame": 131,
+   "endFrame": 356
+  },
+  {
+   "id": "blake",
+   "speechEnd": 17.022,
+   "words": [
+    {
+     "text": "The",
+     "start": 11.96,
+     "end": 12.076
+    },
+    {
+     "text": "driver",
+     "start": 12.122,
+     "end": 12.459
+    },
+    {
+     "text": "was",
+     "start": 12.517,
+     "end": 12.633
+    },
+    {
+     "text": "James",
+     "start": 12.703,
+     "end": 13.016
+    },
+    {
+     "text": "Blake.",
+     "start": 13.051,
+     "end": 13.504
+    },
+    {
+     "text": "In",
+     "start": 13.992,
+     "end": 14.119
+    },
+    {
+     "text": "1943,",
+     "start": 14.154,
+     "end": 15.06
+    },
+    {
+     "text": "the",
+     "start": 15.095,
+     "end": 15.164
+    },
+    {
+     "text": "same",
+     "start": 15.222,
+     "end": 15.466
+    },
+    {
+     "text": "driver",
+     "start": 15.501,
+     "end": 15.838
+    },
+    {
+     "text": "had",
+     "start": 15.884,
+     "end": 15.965
+    },
+    {
+     "text": "put",
+     "start": 16.0,
+     "end": 16.128
+    },
+    {
+     "text": "her",
+     "start": 16.163,
+     "end": 16.232
+    },
+    {
+     "text": "off",
+     "start": 16.279,
+     "end": 16.406
+    },
+    {
+     "text": "his",
+     "start": 16.441,
+     "end": 16.523
+    },
+    {
+     "text": "bus.",
+     "start": 16.581,
+     "end": 17.022
+    }
+   ],
+   "cues": {},
+   "startFrame": 356,
+   "endFrame": 517
+  },
+  {
+   "id": "naacp",
+   "speechEnd": 21.898,
+   "words": [
+    {
+     "text": "She",
+     "start": 17.335,
+     "end": 17.463
+    },
+    {
+     "text": "was",
+     "start": 17.509,
+     "end": 17.614
+    },
+    {
+     "text": "not",
+     "start": 17.684,
+     "end": 17.881
+    },
+    {
+     "text": "just",
+     "start": 17.939,
+     "end": 18.148
+    },
+    {
+     "text": "a",
+     "start": 18.195,
+     "end": 18.218
+    },
+    {
+     "text": "tired",
+     "start": 18.276,
+     "end": 18.589
+    },
+    {
+     "text": "seamstress.",
+     "start": 18.636,
+     "end": 19.344
+    },
+    {
+     "text": "She",
+     "start": 19.541,
+     "end": 19.681
+    },
+    {
+     "text": "was",
+     "start": 19.739,
+     "end": 19.843
+    },
+    {
+     "text": "secretary",
+     "start": 19.89,
+     "end": 20.4
+    },
+    {
+     "text": "of",
+     "start": 20.435,
+     "end": 20.482
+    },
+    {
+     "text": "the",
+     "start": 20.528,
+     "end": 20.598
+    },
+    {
+     "text": "local",
+     "start": 20.644,
+     "end": 20.911
+    },
+    {
+     "text": "NAACP.",
+     "start": 20.981,
+     "end": 21.898
+    }
+   ],
+   "cues": {},
+   "startFrame": 517,
+   "endFrame": 666
+  },
+  {
+   "id": "boycott",
+   "speechEnd": 26.542,
+   "words": [
+    {
+     "text": "Black",
+     "start": 22.316,
+     "end": 22.595
+    },
+    {
+     "text": "residents",
+     "start": 22.664,
+     "end": 23.082
+    },
+    {
+     "text": "boycotted",
+     "start": 23.14,
+     "end": 23.651
+    },
+    {
+     "text": "the",
+     "start": 23.686,
+     "end": 23.756
+    },
+    {
+     "text": "city's",
+     "start": 23.791,
+     "end": 24.058
+    },
+    {
+     "text": "buses",
+     "start": 24.104,
+     "end": 24.452
+    },
+    {
+     "text": "for",
+     "start": 24.51,
+     "end": 24.626
+    },
+    {
+     "text": "381",
+     "start": 24.696,
+     "end": 25.613
+    },
+    {
+     "text": "days.",
+     "start": 25.706,
+     "end": 26.542
+    }
+   ],
+   "cues": {},
+   "startFrame": 666,
+   "endFrame": 808
+  },
+  {
+   "id": "photo",
+   "speechEnd": 34.008,
+   "words": [
+    {
+     "text": "In",
+     "start": 27.042,
+     "end": 27.193
+    },
+    {
+     "text": "February",
+     "start": 27.274,
+     "end": 27.727
+    },
+    {
+     "text": "1956,",
+     "start": 27.773,
+     "end": 28.725
+    },
+    {
+     "text": "she",
+     "start": 28.842,
+     "end": 28.958
+    },
+    {
+     "text": "was",
+     "start": 29.004,
+     "end": 29.109
+    },
+    {
+     "text": "arrested",
+     "start": 29.143,
+     "end": 29.527
+    },
+    {
+     "text": "again,",
+     "start": 29.561,
+     "end": 29.944
+    },
+    {
+     "text": "with",
+     "start": 30.037,
+     "end": 30.212
+    },
+    {
+     "text": "dozens",
+     "start": 30.281,
+     "end": 30.664
+    },
+    {
+     "text": "of",
+     "start": 30.711,
+     "end": 30.757
+    },
+    {
+     "text": "boycott",
+     "start": 30.815,
+     "end": 31.21
+    },
+    {
+     "text": "leaders.",
+     "start": 31.268,
+     "end": 31.721
+    },
+    {
+     "text": "That",
+     "start": 31.953,
+     "end": 32.139
+    },
+    {
+     "text": "is",
+     "start": 32.174,
+     "end": 32.232
+    },
+    {
+     "text": "when",
+     "start": 32.278,
+     "end": 32.406
+    },
+    {
+     "text": "this",
+     "start": 32.441,
+     "end": 32.568
+    },
+    {
+     "text": "famous",
+     "start": 32.626,
+     "end": 32.917
+    },
+    {
+     "text": "photo",
+     "start": 32.963,
+     "end": 33.207
+    },
+    {
+     "text": "was",
+     "start": 33.265,
+     "end": 33.369
+    },
+    {
+     "text": "taken.",
+     "start": 33.416,
+     "end": 34.008
+    }
+   ],
+   "cues": {},
+   "startFrame": 808,
+   "endFrame": 1032
+  },
+  {
+   "id": "ruling",
+   "speechEnd": 40.058,
+   "words": [
+    {
+     "text": "In",
+     "start": 34.508,
+     "end": 34.647
+    },
+    {
+     "text": "1956,",
+     "start": 34.694,
+     "end": 35.623
+    },
+    {
+     "text": "the",
+     "start": 35.646,
+     "end": 35.715
+    },
+    {
+     "text": "Supreme",
+     "start": 35.762,
+     "end": 36.11
+    },
+    {
+     "text": "Court",
+     "start": 36.157,
+     "end": 36.389
+    },
+    {
+     "text": "ruled",
+     "start": 36.447,
+     "end": 36.749
+    },
+    {
+     "text": "that",
+     "start": 36.784,
+     "end": 36.911
+    },
+    {
+     "text": "segregation",
+     "start": 36.981,
+     "end": 37.55
+    },
+    {
+     "text": "on",
+     "start": 37.596,
+     "end": 37.666
+    },
+    {
+     "text": "Montgomery's",
+     "start": 37.724,
+     "end": 38.235
+    },
+    {
+     "text": "buses",
+     "start": 38.293,
+     "end": 38.676
+    },
+    {
+     "text": "was",
+     "start": 38.746,
+     "end": 38.897
+    },
+    {
+     "text": "unconstitutional.",
+     "start": 38.966,
+     "end": 40.058
+    }
+   ],
+   "cues": {},
+   "startFrame": 1032,
+   "endFrame": 1216
+  },
+  {
+   "id": "front",
+   "speechEnd": 43.366,
+   "words": [
+    {
+     "text": "That",
+     "start": 40.638,
+     "end": 40.87
+    },
+    {
+     "text": "December,",
+     "start": 40.928,
+     "end": 41.404
+    },
+    {
+     "text": "she",
+     "start": 41.428,
+     "end": 41.544
+    },
+    {
+     "text": "rode",
+     "start": 41.625,
+     "end": 41.787
+    },
+    {
+     "text": "at",
+     "start": 41.811,
+     "end": 41.869
+    },
+    {
+     "text": "the",
+     "start": 41.904,
+     "end": 41.973
+    },
+    {
+     "text": "front",
+     "start": 42.008,
+     "end": 42.194
+    },
+    {
+     "text": "of",
+     "start": 42.229,
+     "end": 42.275
+    },
+    {
+     "text": "a",
+     "start": 42.322,
+     "end": 42.345
+    },
+    {
+     "text": "Montgomery",
+     "start": 42.391,
+     "end": 42.844
+    },
+    {
+     "text": "bus.",
+     "start": 42.902,
+     "end": 43.366
+    }
+   ],
+   "cues": {},
+   "startFrame": 1216,
+   "endFrame": 1306
+  },
+  {
+   "id": "detroit",
+   "speechEnd": 47.708,
+   "words": [
+    {
+     "text": "But",
+     "start": 43.633,
+     "end": 43.784
+    },
+    {
+     "text": "she",
+     "start": 43.819,
+     "end": 43.9
+    },
+    {
+     "text": "struggled",
+     "start": 43.959,
+     "end": 44.307
+    },
+    {
+     "text": "to",
+     "start": 44.33,
+     "end": 44.376
+    },
+    {
+     "text": "find",
+     "start": 44.423,
+     "end": 44.62
+    },
+    {
+     "text": "work,",
+     "start": 44.678,
+     "end": 45.096
+    },
+    {
+     "text": "and",
+     "start": 45.409,
+     "end": 45.56
+    },
+    {
+     "text": "in",
+     "start": 45.618,
+     "end": 45.665
+    },
+    {
+     "text": "1957",
+     "start": 45.711,
+     "end": 46.57
+    },
+    {
+     "text": "she",
+     "start": 46.64,
+     "end": 46.733
+    },
+    {
+     "text": "moved",
+     "start": 46.791,
+     "end": 47.012
+    },
+    {
+     "text": "to",
+     "start": 47.035,
+     "end": 47.081
+    },
+    {
+     "text": "Detroit.",
+     "start": 47.139,
+     "end": 47.708
+    }
+   ],
+   "cues": {},
+   "startFrame": 1306,
+   "endFrame": 1438
+  },
+  {
+   "id": "honor",
+   "speechEnd": 52.526,
+   "words": [
+    {
+     "text": "When",
+     "start": 48.022,
+     "end": 48.184
+    },
+    {
+     "text": "she",
+     "start": 48.219,
+     "end": 48.3
+    },
+    {
+     "text": "died",
+     "start": 48.358,
+     "end": 48.567
+    },
+    {
+     "text": "in",
+     "start": 48.602,
+     "end": 48.649
+    },
+    {
+     "text": "2005,",
+     "start": 48.695,
+     "end": 49.473
+    },
+    {
+     "text": "she",
+     "start": 49.496,
+     "end": 49.589
+    },
+    {
+     "text": "became",
+     "start": 49.636,
+     "end": 49.903
+    },
+    {
+     "text": "the",
+     "start": 49.926,
+     "end": 49.995
+    },
+    {
+     "text": "first",
+     "start": 50.042,
+     "end": 50.286
+    },
+    {
+     "text": "woman",
+     "start": 50.332,
+     "end": 50.553
+    },
+    {
+     "text": "to",
+     "start": 50.588,
+     "end": 50.634
+    },
+    {
+     "text": "lie",
+     "start": 50.692,
+     "end": 50.866
+    },
+    {
+     "text": "in",
+     "start": 50.889,
+     "end": 50.947
+    },
+    {
+     "text": "honor",
+     "start": 51.017,
+     "end": 51.261
+    },
+    {
+     "text": "in",
+     "start": 51.296,
+     "end": 51.354
+    },
+    {
+     "text": "the",
+     "start": 51.377,
+     "end": 51.447
+    },
+    {
+     "text": "Capitol",
+     "start": 51.481,
+     "end": 51.853
+    },
+    {
+     "text": "rotunda.",
+     "start": 51.911,
+     "end": 52.526
+    }
+   ],
+   "cues": {},
+   "startFrame": 1438,
+   "endFrame": 1590
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 57.681,
+   "words": [
+    {
+     "text": "One",
+     "start": 53.107,
+     "end": 53.362
+    },
+    {
+     "text": "seat.",
+     "start": 53.42,
+     "end": 53.885
+    },
+    {
+     "text": "381",
+     "start": 54.245,
+     "end": 55.162
+    },
+    {
+     "text": "days.",
+     "start": 55.278,
+     "end": 55.766
+    },
+    {
+     "text": "A",
+     "start": 55.998,
+     "end": 56.079
+    },
+    {
+     "text": "country",
+     "start": 56.16,
+     "end": 56.474
+    },
+    {
+     "text": "changed.",
+     "start": 56.532,
+     "end": 57.681
+    }
+   ],
+   "cues": {},
+   "startFrame": 1590,
+   "endFrame": 1742
+  },
+  {
+   "id": "cta",
+   "speechEnd": 60.642,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 58.181,
+     "end": 58.506
+    },
+    {
+     "text": "The",
+     "start": 58.553,
+     "end": 58.622
+    },
+    {
+     "text": "Black",
+     "start": 58.657,
+     "end": 58.854
+    },
+    {
+     "text": "History",
+     "start": 58.901,
+     "end": 59.168
+    },
+    {
+     "text": "Room",
+     "start": 59.226,
+     "end": 59.388
+    },
+    {
+     "text": "for",
+     "start": 59.446,
+     "end": 59.551
+    },
+    {
+     "text": "one",
+     "start": 59.621,
+     "end": 59.783
+    },
+    {
+     "text": "story",
+     "start": 59.818,
+     "end": 60.108
+    },
+    {
+     "text": "a",
+     "start": 60.155,
+     "end": 60.178
+    },
+    {
+     "text": "day.",
+     "start": 60.224,
+     "end": 60.642
+    }
+   ],
+   "cues": {},
+   "startFrame": 1742,
+   "endFrame": 1855
+  }
+ ]
+}

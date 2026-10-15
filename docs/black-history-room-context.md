@@ -160,3 +160,4 @@ Done: Robert Smalls, Bessie Coleman, Matthew Henson. Waiting for Andrew voice: H
   `scripts/tts_kokoro.py` `spoken()` (years -> words, RESPELL list, per-spec "pronounce"); used by reels and podcast.
   Videos made before this fix (all earlier reels and podcast episodes 1-3) still have the old year reading.
   QC tip: check `K.tokenizer.phonemize(text, 'en-us')`, not only Whisper, for numbers and names.
+- Reels 2026-10-15: Muhammad Ali ("They took his title for saying no.", 1.82 s) and Rosa Parks ("Her famous arrest photo isn't from that day.", 1.82 s), ElevenLabs Andrew multilingual v2, about 2,000 characters.
