@@ -108,7 +108,7 @@ published. Postgres (5432) is not published.
 | Check | Result | Risk |
 | --- | --- | --- |
 | SSH root login | `PermitRootLogin yes` | Medium |
-| SSH passwords | `PasswordAuthentication` not set → default **yes** (server offers `publickey,password`) | **High** with root + no fail2ban |
+| SSH passwords | **yes**: `sshd_config.d/50-cloud-init.conf` sets it and wins over `60-cloudimg-settings.conf` (`no`); the server offers `publickey,password` (checked in Phase 2) | **High** with root + no fail2ban |
 | fail2ban | not active | Medium |
 | Host firewall | ufw inactive, INPUT ACCEPT | Low (only 22/80/443 listen publicly) |
 | Updates | 43 packages upgradable; `unattended-upgrades` installed but the login banner says some updates failed and **a restart is required** | Medium |
