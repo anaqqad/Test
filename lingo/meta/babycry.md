@@ -1,7 +1,7 @@
 # YouTube metadata: Babies Cry With an Accent?
 
 ## Title
-Babies Cry in Different Languages
+How Babies Cry in Different Languages
 
 ## Description
 Newborn babies only a few days old already cry with the melody of their mother's language. French babies' cries tend to rise, German babies' cries tend to fall, and babies of tonal languages cry with more ups and downs. We traced the pitch of real baby cries to see it for ourselves.
