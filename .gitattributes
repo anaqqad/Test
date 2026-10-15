@@ -1,0 +1,2 @@
+# Shell scripts must keep LF endings so they run on the Linux VPS
+website/**/*.sh text eol=lf

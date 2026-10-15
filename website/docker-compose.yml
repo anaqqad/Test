@@ -1,0 +1,113 @@
+# The Black History Room: WordPress + MariaDB + Redis.
+# Lives on the VPS in /opt/blackhistoryroom (Compose project "bhr"). It plugs into the existing Traefik of the n8n
+# project through labels only: the n8n Compose file is never edited, and n8n is never restarted.
+# Secrets come from .env (chmod 600, never in git); see .env.example.
+name: bhr
+
+services:
+  db:
+    image: mariadb:11.8
+    container_name: bhr-mariadb
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: ${DB_NAME}
+      MARIADB_USER: ${DB_USER}
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MARIADB_AUTO_UPGRADE: "1"
+    volumes:
+      - bhr_db_data:/var/lib/mysql
+      - ./config/mariadb.cnf:/etc/mysql/conf.d/bhr.cnf:ro
+    networks: [bhr_internal]
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    mem_limit: 640m
+
+  redis:
+    image: redis:7-alpine
+    container_name: bhr-redis
+    restart: unless-stopped
+    # Object cache only: no disk persistence, bounded memory, oldest keys evicted first.
+    command: ["redis-server", "--maxmemory", "128mb", "--maxmemory-policy", "allkeys-lru", "--save", "", "--appendonly", "no"]
+    networks: [bhr_internal]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 3s
+      retries: 5
+    mem_limit: 192m
+
+  wordpress:
+    image: wordpress:php8.4-apache
+    container_name: bhr-wordpress
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      WORDPRESS_DB_HOST: bhr-mariadb
+      WORDPRESS_DB_NAME: ${DB_NAME}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_TABLE_PREFIX: ${WP_TABLE_PREFIX}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_HOME', 'https://${DOMAIN}');
+        define('WP_SITEURL', 'https://${DOMAIN}');
+        define('FORCE_SSL_ADMIN', true);
+        define('DISALLOW_FILE_EDIT', true);
+        define('WP_POST_REVISIONS', 10);
+        define('WP_MEMORY_LIMIT', '256M');
+        define('WP_AUTO_UPDATE_CORE', 'minor');
+        define('WP_REDIS_HOST', 'bhr-redis');
+        define('WP_REDIS_PORT', 6379);
+        define('WP_REDIS_PREFIX', 'bhr:');
+        define('WP_CACHE_KEY_SALT', 'bhr:');
+        define('WP_ENVIRONMENT_TYPE', 'production');
+    volumes:
+      - bhr_wp_files:/var/www/html
+      - ./config/php.ini:/usr/local/etc/php/conf.d/zz-bhr.ini:ro
+      - ./config/apache-bhr.conf:/etc/apache2/conf-enabled/zz-bhr.conf:ro
+    networks:
+      - bhr_internal
+      - n8n_default
+    mem_limit: 768m
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=n8n_default
+      - traefik.http.routers.bhr.rule=Host(`${DOMAIN}`) || Host(`www.${DOMAIN}`)
+      - traefik.http.routers.bhr.entrypoints=websecure
+      - traefik.http.routers.bhr.tls=true
+      - traefik.http.routers.bhr.tls.certresolver=mytlschallenge
+      - traefik.http.routers.bhr.tls.domains[0].main=${DOMAIN}
+      - traefik.http.routers.bhr.tls.domains[0].sans=www.${DOMAIN}
+      - traefik.http.routers.bhr.middlewares=bhr-www@docker,bhr-headers@docker,bhr-compress@docker
+      - traefik.http.services.bhr.loadbalancer.server.port=80
+      # www -> non-www (permanent)
+      - traefik.http.middlewares.bhr-www.redirectregex.regex=^https://www\.(.+)
+      - traefik.http.middlewares.bhr-www.redirectregex.replacement=https://$${1}
+      - traefik.http.middlewares.bhr-www.redirectregex.permanent=true
+      # Security headers. HSTS without includeSubDomains/preload until the site is stable.
+      - traefik.http.middlewares.bhr-headers.headers.stsSeconds=31536000
+      - traefik.http.middlewares.bhr-headers.headers.contentTypeNosniff=true
+      - traefik.http.middlewares.bhr-headers.headers.customFrameOptionsValue=SAMEORIGIN
+      - traefik.http.middlewares.bhr-headers.headers.referrerPolicy=strict-origin-when-cross-origin
+      - traefik.http.middlewares.bhr-headers.headers.permissionsPolicy=camera=(), microphone=(), geolocation=(), interest-cohort=()
+      - traefik.http.middlewares.bhr-headers.headers.customResponseHeaders.X-Powered-By=
+      # Brotli/gzip for text responses
+      - traefik.http.middlewares.bhr-compress.compress=true
+
+volumes:
+  bhr_db_data:
+  bhr_wp_files:
+
+networks:
+  bhr_internal:
+    internal: true
+  n8n_default:
+    external: true
