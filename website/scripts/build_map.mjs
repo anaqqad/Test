@@ -8,12 +8,21 @@ import path from 'node:path';
 const [modDir, out] = process.argv.slice(2);
 const require = createRequire(path.join(path.resolve(modDir), 'index.js'));
 const topo = require('world-atlas/countries-110m.json');
-const { feature } = require('topojson-client');
+const { feature, merge } = require('topojson-client');
 const d3 = require('d3-geo');
 const iso = require('i18n-iso-countries');
 
 const W = 960, H = 500;
-const all = feature(topo, topo.objects.countries).features.filter((f) => f.properties.name !== 'Antarctica');
+// Owner decision (2026-10-15): Western Sahara (ISO 732) is drawn as part of Morocco (504), one shape, no inner border.
+const MERGE = { '504': ['504', '732'] };
+const geoms = topo.objects.countries.geometries;
+const merged = new Set(Object.values(MERGE).flat());
+let all = feature(topo, topo.objects.countries).features.filter((f) => f.properties.name !== 'Antarctica' && !merged.has(f.id));
+for (const [id, parts] of Object.entries(MERGE)) {
+  const shape = merge(topo, geoms.filter((g) => parts.includes(g.id)));
+  const base = geoms.find((g) => g.id === id);
+  all.push({ type: 'Feature', id, properties: base.properties, geometry: shape });
+}
 const projection = d3.geoNaturalEarth1().fitExtent([[4, 4], [W - 4, H - 4]], { type: 'FeatureCollection', features: all });
 const pathGen = d3.geoPath(projection).digits(1);
 

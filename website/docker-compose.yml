@@ -90,6 +90,17 @@ services:
       - traefik.http.routers.bhr.tls.domains[0].sans=www.${DOMAIN}
       - traefik.http.routers.bhr.middlewares=bhr-www@docker,bhr-headers@docker,bhr-compress@docker
       - traefik.http.services.bhr.loadbalancer.server.port=80
+      # Login rate limit: POSTs to wp-login.php, per client IP, about 5 a minute (burst 5), then HTTP 429.
+      - traefik.http.routers.bhr-login.rule=(Host(`${DOMAIN}`) || Host(`www.${DOMAIN}`)) && Path(`/wp-login.php`) && Method(`POST`)
+      - traefik.http.routers.bhr-login.priority=1000
+      - traefik.http.routers.bhr-login.entrypoints=websecure
+      - traefik.http.routers.bhr-login.tls=true
+      - traefik.http.routers.bhr-login.tls.certresolver=mytlschallenge
+      - traefik.http.routers.bhr-login.service=bhr
+      - traefik.http.routers.bhr-login.middlewares=bhr-www@docker,bhr-headers@docker,bhr-login-limit@docker
+      - traefik.http.middlewares.bhr-login-limit.ratelimit.average=5
+      - traefik.http.middlewares.bhr-login-limit.ratelimit.period=1m
+      - traefik.http.middlewares.bhr-login-limit.ratelimit.burst=5
       # www -> non-www (permanent)
       - traefik.http.middlewares.bhr-www.redirectregex.regex=^https://www\.(.+)
       - traefik.http.middlewares.bhr-www.redirectregex.replacement=https://$${1}

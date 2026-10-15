@@ -56,14 +56,14 @@ tabs switch without JS, Discover more order correct.
 ## Global African History map
 - Data: Natural Earth 1:110m admin-0 (public domain) via `world-atlas@2.0.2`, projected once at build time
   (`website/scripts/build_map.mjs`, d3-geo Natural Earth projection) into `theme/bhr/assets/map/world-110m.json`
-  (176 shapes, 115 KB, 43 KB gzipped). Rebuild only if the projection or data must change.
+  (175 shapes, about 115 KB, 43 KB gzipped). Rebuild only if the projection or data must change.
 - Rendered by PHP as inline SVG **only on that page**: countries with published stories are links (deep red, gold on
   hover/focus, `aria-label` "Ghana: 2 stories", native tooltip), others are grey and not interactive.
 - Country list beside the map (first on phones) with the same links: this is the no-JS and screen-reader path.
 - Zoom + / − / Reset: 20 lines of inline JS on that page; no map library, no API key.
 - Counts are cached in Redis and cleared when a story's terms or status change.
-- **Owner decision pending:** Natural Earth draws Western Sahara as a separate shape from Morocco (it is grey and
-  not clickable). Tell me if it should be merged into Morocco's shape or kept as is.
+- Western Sahara is drawn as part of Morocco (one shape, no inner border), as decided by the owner on 2026-10-15
+  (`MERGE` in `build_map.mjs`; 175 shapes).
 
 ## Seeded drafts (2026-10-15) — all DRAFTS, nothing published
 Built by `website/scripts/build_seed.mjs` (repo data) + `seed_stories.php` (WordPress). Text is the already-checked

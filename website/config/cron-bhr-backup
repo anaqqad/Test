@@ -1,0 +1,6 @@
+# The Black History Room backups (see website/docs/BACKUP_AND_RESTORE.md). Server time is UTC.
+# Daily database dump at 03:15, weekly full backup (database + files + config) on Sundays at 03:45.
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+15 3 * * * root /opt/blackhistoryroom/scripts/backup.sh daily >/dev/null 2>&1
+45 3 * * 0 root /opt/blackhistoryroom/scripts/backup.sh weekly >/dev/null 2>&1
