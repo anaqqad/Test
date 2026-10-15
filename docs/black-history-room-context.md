@@ -76,6 +76,8 @@ uses the owner's cloned CosyVoice voice and never ElevenLabs.
 Free timing previews: Kokoro scratch (`am_michael`, speed 1.1), spec id ending in `-scratch` (git-ignored).
 
 ## Rules (must follow)
+- **Owner, 2026-10-15: never re-make, re-voice or re-render a reel or episode that may already be published unless the owner explicitly names it and confirms.** (Owens and Truth were re-voiced by mistake after posting; reverted.) When an instruction is ambiguous ("make them"), ask which videos first.
+- **Voice for new reels (owner, 2026-10-15): ElevenLabs Andrew, standard model (eleven_multilingual_v2), speed 1.05.** Report characters per reel.
 - Facebook post text: the story part is long (about 250-350 words, several short paragraphs: background, the event step by step, the aftermath), built only from facts in the reel's fact sheet (two sources each). Owner, 2026-10-07.
 - Every Facebook post description includes this support line (after the question, before the sources):
   "Researching and editing these videos takes real time and effort. If you value these stories, please support our page so we can keep bringing them to light. Thank you! https://ko-fi.com/theblackhistoryroom"
