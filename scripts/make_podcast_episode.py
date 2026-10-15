@@ -28,7 +28,7 @@ from scipy.signal import resample_poly
 
 sys.path.insert(0, str(Path(__file__).parent))
 from make_podcast_theme import SR, theme  # noqa: E402
-from tts_kokoro import spoken  # noqa: E402
+from tts_kokoro import spoken, trim_silence  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FULL = 0.8  # music level when it plays alone
@@ -38,7 +38,13 @@ def main() -> None:
     spec = json.loads(Path(sys.argv[1]).read_text())
     out = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / "publish/podcast" / f"{spec['id']}.mp3"
     v = spec["voice"]
-    k = Kokoro(str(ROOT / ".cache/kokoro/kokoro-v1.0.onnx"), str(ROOT / ".cache/kokoro/voices-v1.0.bin"))
+    eleven = v.get("engine") == "elevenlabs"
+    if eleven:
+        from tts_elevenlabs import _cached, _normalise  # needs ELEVENLABS_API_KEY
+        texts = [seg["text"] for seg in spec["segments"] if "text" in seg]
+    else:
+        k = Kokoro(str(ROOT / ".cache/kokoro/kokoro-v1.0.onnx"), str(ROOT / ".cache/kokoro/voices-v1.0.bin"))
+    n_text = 0
     duck = 10 ** (spec["music"]["bedDb"] / 20)
 
     # lay out voice and a music gain curve as (time, gain) points
@@ -46,7 +52,15 @@ def main() -> None:
     clips, pts, chapters = [], [(0.0, FULL), (t - 0.3, FULL), (t, duck)], []
     for seg in spec["segments"]:
         if "text" in seg:
-            s, vsr = k.create(spoken(seg["text"], spec.get("pronounce")), voice=v["voice"], speed=seg.get("speed", v["speed"]), lang=v["lang"])
+            if eleven:
+                # one request per paragraph; neighbouring paragraphs are passed as context for a continuous read
+                prev = texts[n_text - 1] if n_text else ""
+                nxt = texts[n_text + 1] if n_text + 1 < len(texts) else ""
+                s, vsr, _ = _cached(spec["id"], v, seg["text"], prev, nxt)
+                s = _normalise(trim_silence(s, vsr), vsr, -20.0)
+            else:
+                s, vsr = k.create(spoken(seg["text"], spec.get("pronounce")), voice=v["voice"], speed=seg.get("speed", v["speed"]), lang=v["lang"])
+            n_text += 1
             s = resample_poly(np.asarray(s, dtype=np.float64), SR, vsr)
             if "chapter" in seg:
                 chapters.append((t, seg["chapter"]))
