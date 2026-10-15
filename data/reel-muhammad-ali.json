@@ -1,0 +1,343 @@
+{
+ "id": "reel-muhammad-ali",
+ "title": "They Took His Title for Saying No",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "They took his title for saying no.",
+   "section": "hook",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.3,
+     1.36
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "hook": "They took his title *for saying no.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Muhammad Ali.",
+   "section": "who",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Muhammad Ali",
+     "sub": "Boxer · 1942 – 2016"
+    }
+   }
+  },
+  {
+   "id": "born",
+   "text": "Born Cassius Clay in Louisville, Kentucky, in 1942, he won Olympic gold in 1960.",
+   "visual": {
+    "kind": "title",
+    "title": "1960",
+    "sub": "Olympic gold, Rome"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Louisville",
+     "sub": "Kentucky"
+    }
+   }
+  },
+  {
+   "id": "champ",
+   "text": "In 1964, he beat Sonny Liston and became heavyweight champion of the world.",
+   "section": "story",
+   "visual": {
+    "kind": "title",
+    "title": "Champion",
+    "sub": "heavyweight title, 1964"
+   }
+  },
+  {
+   "id": "islam",
+   "text": "Soon after, he joined the Nation of Islam and took the name Muhammad Ali.",
+   "visual": {
+    "kind": "card",
+    "image": "elijah",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Ali, right, listening to Elijah Muhammad, 1964"
+   }
+  },
+  {
+   "id": "draft",
+   "text": "In 1967, during the Vietnam War, he was drafted. On April 28, in Houston, he refused to step forward.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.12,
+     1.18
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "stamp": "April 28, 1967"
+   }
+  },
+  {
+   "id": "stripped",
+   "text": "Boxing officials took his title and his license to fight.",
+   "section": "cost",
+   "visual": {
+    "kind": "title",
+    "title": "Stripped",
+    "sub": "of his title, 1967"
+   }
+  },
+  {
+   "id": "convicted",
+   "text": "A jury convicted him of draft evasion. Five years in prison, and a ten thousand dollar fine.",
+   "visual": {
+    "kind": "title",
+    "title": "Found guilty",
+    "sub": "five years, $10,000 fine"
+   }
+  },
+  {
+   "id": "exile",
+   "text": "For more than three years, at the peak of his career, he could not box.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "court",
+   "text": "In 1971, the Supreme Court overturned his conviction, eight to nothing.",
+   "section": "legacy",
+   "visual": {
+    "kind": "title",
+    "title": "8 to 0",
+    "sub": "Supreme Court, 1971"
+   }
+  },
+  {
+   "id": "back",
+   "text": "And in 1974, he won his title back, beating George Foreman in Zaire.",
+   "visual": {
+    "kind": "title",
+    "title": "Champion again",
+    "sub": "Kinshasa, Zaire, 1974"
+   }
+  },
+  {
+   "id": "legacy",
+   "text": "They took his title. He took it back.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.2,
+     1.26
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "section": "cta",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sources": {
+  "SI": {
+   "name": "Sports Illustrated: This Day in Sports History, Muhammad Ali refuses induction (2020)",
+   "url": "https://www.si.com/boxing/2020/04/28/this-day-sports-history-muhammad-ali-refuses-induction-army-stripped-title"
+  },
+  "NCC": {
+   "name": "National Constitution Center: Ali's Supreme Court decision",
+   "url": "https://constitutioncenter.org/blog/alie28099s-supreme-court-decision-was-biggest-victory"
+  },
+  "SCOTUS": {
+   "name": "SCOTUSblog: Muhammad Ali, conscientious objection and Clay v. United States (2016)",
+   "url": "https://www.scotusblog.com/2016/06/muhammad-ali-conscientious-objection-and-the-supreme-courts-struggle-to-understand-jihad-and-holy-war-the-story-of-cassius-clay-v-united-states/"
+  },
+  "CASE": {
+   "name": "Clay v. United States, 403 U.S. 698 (1971)",
+   "url": "https://supreme.justia.com/cases/federal/us/403/698/"
+  },
+  "BRIT": {
+   "name": "Encyclopaedia Britannica: Muhammad Ali",
+   "url": "https://www.britannica.com/biography/Muhammad-Ali-boxer"
+  }
+ },
+ "facts": [
+  {
+   "beat": "hook",
+   "claim": "Stripped of his title after refusing induction (1967).",
+   "sources": [
+    "SI",
+    "NCC"
+   ]
+  },
+  {
+   "beat": "born",
+   "claim": "Born Cassius Clay, Louisville, 1942; Olympic gold, Rome 1960.",
+   "sources": [
+    "BRIT",
+    "SI"
+   ]
+  },
+  {
+   "beat": "champ",
+   "claim": "Beat Sonny Liston for the heavyweight title, 1964.",
+   "sources": [
+    "BRIT",
+    "SI"
+   ]
+  },
+  {
+   "beat": "islam",
+   "claim": "Joined the Nation of Islam and became Muhammad Ali (1964).",
+   "sources": [
+    "BRIT",
+    "SCOTUS"
+   ]
+  },
+  {
+   "beat": "draft",
+   "claim": "Refused induction in Houston, 28 April 1967.",
+   "sources": [
+    "SI",
+    "NCC",
+    "SCOTUS"
+   ]
+  },
+  {
+   "beat": "convicted",
+   "claim": "Convicted June 1967; five years and $10,000 fine.",
+   "sources": [
+    "SI",
+    "NCC"
+   ]
+  },
+  {
+   "beat": "exile",
+   "claim": "Barred from boxing for about three and a half years; returned 1970.",
+   "sources": [
+    "SI",
+    "NCC"
+   ]
+  },
+  {
+   "beat": "court",
+   "claim": "Supreme Court reversed 8-0 on 28 June 1971 (Marshall recused).",
+   "sources": [
+    "CASE",
+    "SCOTUS",
+    "NCC"
+   ]
+  },
+  {
+   "beat": "back",
+   "claim": "Regained the title by beating George Foreman in Kinshasa, Zaire, 1974.",
+   "sources": [
+    "BRIT",
+    "SI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Famous quotes ('No Viet Cong ever called me...'): wording varies between sources",
+  "Reported 5-3 conference vote (Woodward & Armstrong)"
+ ]
+}

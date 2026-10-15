@@ -1,0 +1,353 @@
+{
+ "id": "reel-rosa-parks",
+ "title": "Her Famous Arrest Photo Isn't From That Day",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Her famous arrest photo isn't from that day.",
+   "section": "hook",
+   "visual": {
+    "kind": "photo",
+    "image": "finger",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.3,
+     1.36
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "hook": "Her famous arrest photo *isn't from that day.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Rosa Parks.",
+   "section": "who",
+   "visual": {
+    "kind": "photo",
+    "image": "nixon",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Rosa Parks",
+     "sub": "Activist · 1913 – 2005"
+    }
+   }
+  },
+  {
+   "id": "dec1",
+   "text": "On December 1, 1955, in Montgomery, Alabama, she refused to give up her bus seat to a white passenger. She was arrested.",
+   "section": "story",
+   "visual": {
+    "kind": "title",
+    "title": "Dec. 1, 1955",
+    "sub": "she refuses to give up her seat"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Montgomery",
+     "sub": "Alabama"
+    }
+   }
+  },
+  {
+   "id": "blake",
+   "text": "The driver was James Blake. In 1943, the same driver had put her off his bus.",
+   "visual": {
+    "kind": "title",
+    "title": "1943",
+    "sub": "the same driver"
+   }
+  },
+  {
+   "id": "naacp",
+   "text": "She was not just a tired seamstress. She was secretary of the local NAACP.",
+   "visual": {
+    "kind": "photo",
+    "image": "nixon",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.15,
+     1.21
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "boycott",
+   "text": "Black residents boycotted the city's buses for 381 days.",
+   "visual": {
+    "kind": "title",
+    "title": "381 days",
+    "sub": "the Montgomery bus boycott"
+   }
+  },
+  {
+   "id": "photo",
+   "text": "In February 1956, she was arrested again, with dozens of boycott leaders. That is when this famous photo was taken.",
+   "section": "cost",
+   "visual": {
+    "kind": "card",
+    "image": "finger",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Fingerprinted on February 22, 1956"
+   },
+   "overlays": {
+    "stamp": "Feb. 1956"
+   }
+  },
+  {
+   "id": "ruling",
+   "text": "In 1956, the Supreme Court ruled that segregation on Montgomery's buses was unconstitutional.",
+   "section": "legacy",
+   "visual": {
+    "kind": "title",
+    "title": "Struck down",
+    "sub": "Supreme Court, 1956"
+   }
+  },
+  {
+   "id": "front",
+   "text": "That December, she rode at the front of a Montgomery bus.",
+   "visual": {
+    "kind": "card",
+    "image": "bus",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "December 21, 1956"
+   }
+  },
+  {
+   "id": "detroit",
+   "text": "But she struggled to find work, and in 1957 she moved to Detroit.",
+   "visual": {
+    "kind": "photo",
+    "image": "court",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "honor",
+   "text": "When she died in 2005, she became the first woman to lie in honor in the U.S. Capitol.",
+   "visual": {
+    "kind": "title",
+    "title": "First woman",
+    "sub": "to lie in honor in the Capitol"
+   }
+  },
+  {
+   "id": "legacy",
+   "text": "One seat. 381 days. A country changed.",
+   "visual": {
+    "kind": "photo",
+    "image": "finger",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.15,
+     1.21
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "section": "cta",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sources": {
+  "NPG": {
+   "name": "Smithsonian National Portrait Gallery: Rosa Parks (Gene Herrick, AP, 22 Feb 1956)",
+   "url": "https://npg.si.edu/node/6925"
+  },
+  "CRDL": {
+   "name": "Civil Rights Digital Library / Library of Congress: Rosa Parks fingerprinted, Feb. 1956",
+   "url": "https://crdl.usg.edu/record/loc_rosaparks_47368"
+  },
+  "EOA": {
+   "name": "Encyclopedia of Alabama: Rosa Parks arrested",
+   "url": "https://encyclopediaofalabama.org/media/rosa-parks-arrested/"
+  },
+  "CR": {
+   "name": "Congressional Record, 28 Oct 2005 (House tributes to Rosa Parks)",
+   "url": "https://www.govinfo.gov/content/pkg/CREC-2005-10-28/html/CREC-2005-10-28-pt1-PgH9398.htm"
+  },
+  "AOC": {
+   "name": "Architect of the Capitol: Rosa Parks statue",
+   "url": "https://www.aoc.gov/art/other-statues/rosa-parks"
+  },
+  "MF": {
+   "name": "Mental Floss: The bus driver who had Rosa Parks arrested (2017)",
+   "url": "https://www.mentalfloss.com/article/92626/62-years-ago-bus-driver-had-rosa-parks-arrested-it-wasnt-their-first-encounter"
+  },
+  "HIST": {
+   "name": "History.com: 10 things you may not know about Rosa Parks",
+   "url": "https://www.history.com/news/10-things-you-may-not-know-about-rosa-parks"
+  }
+ },
+ "facts": [
+  {
+   "beat": "hook",
+   "claim": "The famous fingerprint/booking photo was taken 22 Feb 1956, not 1 Dec 1955.",
+   "sources": [
+    "NPG",
+    "CRDL",
+    "EOA"
+   ]
+  },
+  {
+   "beat": "dec1",
+   "claim": "Refused to give up her seat, Montgomery, 1 Dec 1955; arrested.",
+   "sources": [
+    "CR",
+    "AOC"
+   ]
+  },
+  {
+   "beat": "blake",
+   "claim": "Driver James Blake had put her off his bus in 1943.",
+   "sources": [
+    "MF",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "naacp",
+   "claim": "Secretary of the Montgomery NAACP branch.",
+   "sources": [
+    "AOC",
+    "HIST",
+    "CR"
+   ]
+  },
+  {
+   "beat": "boycott",
+   "claim": "Boycott lasted 381 days.",
+   "sources": [
+    "CR",
+    "AOC"
+   ]
+  },
+  {
+   "beat": "photo",
+   "claim": "Rearrested Feb 1956 among dozens indicted under the anti-boycott law; photographed then.",
+   "sources": [
+    "NPG",
+    "CRDL"
+   ]
+  },
+  {
+   "beat": "ruling",
+   "claim": "Supreme Court ruled Montgomery bus segregation unconstitutional (Browder v. Gayle, 1956).",
+   "sources": [
+    "AOC",
+    "CR"
+   ]
+  },
+  {
+   "beat": "detroit",
+   "claim": "Struggled to find work; moved to Detroit in 1957.",
+   "sources": [
+    "CR",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "honor",
+   "claim": "First woman to lie in honor in the Capitol Rotunda (Oct 2005).",
+   "sources": [
+    "CR",
+    "AOC"
+   ]
+  }
+ ]
+}
