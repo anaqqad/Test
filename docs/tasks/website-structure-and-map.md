@@ -80,3 +80,23 @@ Layout inspired by BlackPast's header (our own design, not a copy):
   ("Researching and editing these stories takes real time and effort...") and the Ko-fi button; no payment
   processing on our server, no extra plugin.
 - Repeat a small "Support our work" Ko-fi link in the footer and at the end of every Story.
+
+## End of every Story: Cite This Entry, Sources, Discover More (owner, 2026-10-15)
+
+Same idea as BlackPast's entry footer, our own layout:
+
+1. **CITE THIS ENTRY IN APA FORMAT** (generated automatically, never typed by hand):
+   `Author, A. (Year, Month Day). Title (birth–death). The Black History Room. https://.../story/slug/`
+   Example: `The Black History Room. (2026, October 15). Rosa Parks (1913–2005). The Black History Room. https://theblackhistoryroom.com/story/rosa-parks/`
+   (Use the author's name when the Story has a named author; otherwise the organisation as author.)
+   Built from post fields: author, publish date, title + years, site name, permalink. Add a "Copy" button.
+   Optional tabs for MLA and Chicago from the same fields. Use the original publish date; if the Story was
+   substantially updated, show "Last updated" separately.
+2. **Sources of the author's information**: the Story's sources field (at least two reliable sources),
+   printed as a list: “Title,” Publisher, URL (links open in a new tab). Images credits below
+   ("Images: ... public domain / CC0, via ...").
+3. **Discover more**: 3 related Story cards (same Country first, then same Domain/Section), plus links to the
+   related reel and podcast episode if they exist.
+4. Then the small "Support our work" Ko-fi link.
+
+All of this lives in the Story template (no plugin); the citation is plain text so it can be copied and indexed.
