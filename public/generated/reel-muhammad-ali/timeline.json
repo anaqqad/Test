@@ -1,0 +1,897 @@
+{
+ "fps": 30,
+ "durationInFrames": 1727,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 154,
+ "wpm": 160.5,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 1.811,
+   "words": [
+    {
+     "text": "They",
+     "start": 0.0,
+     "end": 0.174
+    },
+    {
+     "text": "took",
+     "start": 0.209,
+     "end": 0.36
+    },
+    {
+     "text": "his",
+     "start": 0.406,
+     "end": 0.499
+    },
+    {
+     "text": "title",
+     "start": 0.546,
+     "end": 0.813
+    },
+    {
+     "text": "for",
+     "start": 0.848,
+     "end": 0.952
+    },
+    {
+     "text": "saying",
+     "start": 0.998,
+     "end": 1.219
+    },
+    {
+     "text": "no.",
+     "start": 1.265,
+     "end": 1.811
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 66
+  },
+  {
+   "id": "name",
+   "speechEnd": 3.437,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.311,
+     "end": 2.555
+    },
+    {
+     "text": "Muhammad",
+     "start": 2.601,
+     "end": 2.961
+    },
+    {
+     "text": "Ali.",
+     "start": 3.019,
+     "end": 3.437
+    }
+   ],
+   "cues": {},
+   "startFrame": 66,
+   "endFrame": 110
+  },
+  {
+   "id": "born",
+   "speechEnd": 9.463,
+   "words": [
+    {
+     "text": "Born",
+     "start": 3.751,
+     "end": 3.994
+    },
+    {
+     "text": "Cassius",
+     "start": 4.052,
+     "end": 4.412
+    },
+    {
+     "text": "Clay",
+     "start": 4.459,
+     "end": 4.679
+    },
+    {
+     "text": "in",
+     "start": 4.726,
+     "end": 4.772
+    },
+    {
+     "text": "Louisville,",
+     "start": 4.83,
+     "end": 5.19
+    },
+    {
+     "text": "Kentucky,",
+     "start": 5.213,
+     "end": 5.736
+    },
+    {
+     "text": "in",
+     "start": 5.759,
+     "end": 5.887
+    },
+    {
+     "text": "1942,",
+     "start": 5.933,
+     "end": 6.862
+    },
+    {
+     "text": "he",
+     "start": 7.176,
+     "end": 7.257
+    },
+    {
+     "text": "won",
+     "start": 7.315,
+     "end": 7.443
+    },
+    {
+     "text": "Olympic",
+     "start": 7.489,
+     "end": 7.803
+    },
+    {
+     "text": "gold",
+     "start": 7.849,
+     "end": 8.116
+    },
+    {
+     "text": "in",
+     "start": 8.162,
+     "end": 8.22
+    },
+    {
+     "text": "1960.",
+     "start": 8.267,
+     "end": 9.463
+    }
+   ],
+   "cues": {},
+   "startFrame": 110,
+   "endFrame": 296
+  },
+  {
+   "id": "champ",
+   "speechEnd": 14.63,
+   "words": [
+    {
+     "text": "In",
+     "start": 9.963,
+     "end": 10.137
+    },
+    {
+     "text": "1964,",
+     "start": 10.184,
+     "end": 11.298
+    },
+    {
+     "text": "he",
+     "start": 11.437,
+     "end": 11.519
+    },
+    {
+     "text": "beat",
+     "start": 11.588,
+     "end": 11.774
+    },
+    {
+     "text": "Sonny",
+     "start": 11.832,
+     "end": 12.041
+    },
+    {
+     "text": "Liston",
+     "start": 12.088,
+     "end": 12.448
+    },
+    {
+     "text": "and",
+     "start": 12.517,
+     "end": 12.645
+    },
+    {
+     "text": "became",
+     "start": 12.703,
+     "end": 13.028
+    },
+    {
+     "text": "heavyweight",
+     "start": 13.086,
+     "end": 13.504
+    },
+    {
+     "text": "champion",
+     "start": 13.527,
+     "end": 13.922
+    },
+    {
+     "text": "of",
+     "start": 13.957,
+     "end": 14.015
+    },
+    {
+     "text": "the",
+     "start": 14.05,
+     "end": 14.119
+    },
+    {
+     "text": "world.",
+     "start": 14.166,
+     "end": 14.63
+    }
+   ],
+   "cues": {},
+   "startFrame": 296,
+   "endFrame": 451
+  },
+  {
+   "id": "islam",
+   "speechEnd": 18.972,
+   "words": [
+    {
+     "text": "Soon",
+     "start": 15.118,
+     "end": 15.35
+    },
+    {
+     "text": "after,",
+     "start": 15.408,
+     "end": 15.733
+    },
+    {
+     "text": "he",
+     "start": 15.768,
+     "end": 15.861
+    },
+    {
+     "text": "joined",
+     "start": 15.942,
+     "end": 16.198
+    },
+    {
+     "text": "the",
+     "start": 16.221,
+     "end": 16.29
+    },
+    {
+     "text": "Nation",
+     "start": 16.337,
+     "end": 16.569
+    },
+    {
+     "text": "of",
+     "start": 16.604,
+     "end": 16.65
+    },
+    {
+     "text": "Islam",
+     "start": 16.708,
+     "end": 17.092
+    },
+    {
+     "text": "and",
+     "start": 17.15,
+     "end": 17.242
+    },
+    {
+     "text": "took",
+     "start": 17.289,
+     "end": 17.451
+    },
+    {
+     "text": "the",
+     "start": 17.498,
+     "end": 17.568
+    },
+    {
+     "text": "name",
+     "start": 17.614,
+     "end": 17.893
+    },
+    {
+     "text": "Muhammad",
+     "start": 17.962,
+     "end": 18.403
+    },
+    {
+     "text": "Ali.",
+     "start": 18.473,
+     "end": 18.972
+    }
+   ],
+   "cues": {},
+   "startFrame": 451,
+   "endFrame": 584
+  },
+  {
+   "id": "draft",
+   "speechEnd": 27.61,
+   "words": [
+    {
+     "text": "In",
+     "start": 19.553,
+     "end": 19.681
+    },
+    {
+     "text": "1967,",
+     "start": 19.727,
+     "end": 20.83
+    },
+    {
+     "text": "during",
+     "start": 20.923,
+     "end": 21.167
+    },
+    {
+     "text": "the",
+     "start": 21.201,
+     "end": 21.271
+    },
+    {
+     "text": "Vietnam",
+     "start": 21.306,
+     "end": 21.689
+    },
+    {
+     "text": "War,",
+     "start": 21.747,
+     "end": 22.13
+    },
+    {
+     "text": "he",
+     "start": 22.246,
+     "end": 22.328
+    },
+    {
+     "text": "was",
+     "start": 22.386,
+     "end": 22.502
+    },
+    {
+     "text": "drafted.",
+     "start": 22.548,
+     "end": 23.141
+    },
+    {
+     "text": "On",
+     "start": 23.721,
+     "end": 23.895
+    },
+    {
+     "text": "April",
+     "start": 23.953,
+     "end": 24.209
+    },
+    {
+     "text": "28,",
+     "start": 24.255,
+     "end": 24.812
+    },
+    {
+     "text": "in",
+     "start": 24.87,
+     "end": 24.998
+    },
+    {
+     "text": "Houston,",
+     "start": 25.068,
+     "end": 25.602
+    },
+    {
+     "text": "he",
+     "start": 25.869,
+     "end": 25.95
+    },
+    {
+     "text": "refused",
+     "start": 26.02,
+     "end": 26.403
+    },
+    {
+     "text": "to",
+     "start": 26.426,
+     "end": 26.473
+    },
+    {
+     "text": "step",
+     "start": 26.519,
+     "end": 26.716
+    },
+    {
+     "text": "forward.",
+     "start": 26.774,
+     "end": 27.61
+    }
+   ],
+   "cues": {},
+   "startFrame": 584,
+   "endFrame": 840
+  },
+  {
+   "id": "stripped",
+   "speechEnd": 30.943,
+   "words": [
+    {
+     "text": "Boxing",
+     "start": 28.11,
+     "end": 28.516
+    },
+    {
+     "text": "officials",
+     "start": 28.551,
+     "end": 28.911
+    },
+    {
+     "text": "took",
+     "start": 28.946,
+     "end": 29.097
+    },
+    {
+     "text": "his",
+     "start": 29.143,
+     "end": 29.236
+    },
+    {
+     "text": "title",
+     "start": 29.294,
+     "end": 29.631
+    },
+    {
+     "text": "and",
+     "start": 29.677,
+     "end": 29.782
+    },
+    {
+     "text": "his",
+     "start": 29.828,
+     "end": 29.921
+    },
+    {
+     "text": "license",
+     "start": 29.979,
+     "end": 30.362
+    },
+    {
+     "text": "to",
+     "start": 30.397,
+     "end": 30.455
+    },
+    {
+     "text": "fight.",
+     "start": 30.536,
+     "end": 30.943
+    }
+   ],
+   "cues": {},
+   "startFrame": 840,
+   "endFrame": 940
+  },
+  {
+   "id": "convicted",
+   "speechEnd": 36.864,
+   "words": [
+    {
+     "text": "A",
+     "start": 31.43,
+     "end": 31.512
+    },
+    {
+     "text": "jury",
+     "start": 31.593,
+     "end": 31.86
+    },
+    {
+     "text": "convicted",
+     "start": 31.918,
+     "end": 32.348
+    },
+    {
+     "text": "him",
+     "start": 32.382,
+     "end": 32.464
+    },
+    {
+     "text": "of",
+     "start": 32.51,
+     "end": 32.557
+    },
+    {
+     "text": "draft",
+     "start": 32.603,
+     "end": 32.917
+    },
+    {
+     "text": "evasion.",
+     "start": 32.963,
+     "end": 33.474
+    },
+    {
+     "text": "Five",
+     "start": 33.787,
+     "end": 34.089
+    },
+    {
+     "text": "years",
+     "start": 34.124,
+     "end": 34.333
+    },
+    {
+     "text": "in",
+     "start": 34.379,
+     "end": 34.437
+    },
+    {
+     "text": "prison,",
+     "start": 34.495,
+     "end": 34.948
+    },
+    {
+     "text": "and",
+     "start": 35.18,
+     "end": 35.331
+    },
+    {
+     "text": "a",
+     "start": 35.378,
+     "end": 35.401
+    },
+    {
+     "text": "ten",
+     "start": 35.459,
+     "end": 35.645
+    },
+    {
+     "text": "thousand",
+     "start": 35.715,
+     "end": 36.063
+    },
+    {
+     "text": "dollar",
+     "start": 36.109,
+     "end": 36.365
+    },
+    {
+     "text": "fine.",
+     "start": 36.423,
+     "end": 36.864
+    }
+   ],
+   "cues": {},
+   "startFrame": 940,
+   "endFrame": 1118
+  },
+  {
+   "id": "exile",
+   "speechEnd": 41.159,
+   "words": [
+    {
+     "text": "For",
+     "start": 37.352,
+     "end": 37.491
+    },
+    {
+     "text": "more",
+     "start": 37.537,
+     "end": 37.665
+    },
+    {
+     "text": "than",
+     "start": 37.7,
+     "end": 37.816
+    },
+    {
+     "text": "three",
+     "start": 37.851,
+     "end": 38.083
+    },
+    {
+     "text": "years,",
+     "start": 38.118,
+     "end": 38.385
+    },
+    {
+     "text": "at",
+     "start": 38.408,
+     "end": 38.489
+    },
+    {
+     "text": "the",
+     "start": 38.524,
+     "end": 38.593
+    },
+    {
+     "text": "peak",
+     "start": 38.64,
+     "end": 38.826
+    },
+    {
+     "text": "of",
+     "start": 38.872,
+     "end": 38.919
+    },
+    {
+     "text": "his",
+     "start": 38.953,
+     "end": 39.035
+    },
+    {
+     "text": "career,",
+     "start": 39.081,
+     "end": 39.545
+    },
+    {
+     "text": "he",
+     "start": 39.778,
+     "end": 39.847
+    },
+    {
+     "text": "could",
+     "start": 39.894,
+     "end": 40.045
+    },
+    {
+     "text": "not",
+     "start": 40.091,
+     "end": 40.23
+    },
+    {
+     "text": "box.",
+     "start": 40.288,
+     "end": 41.159
+    }
+   ],
+   "cues": {},
+   "startFrame": 1118,
+   "endFrame": 1247
+  },
+  {
+   "id": "court",
+   "speechEnd": 45.793,
+   "words": [
+    {
+     "text": "In",
+     "start": 41.66,
+     "end": 41.823
+    },
+    {
+     "text": "1971,",
+     "start": 41.869,
+     "end": 42.717
+    },
+    {
+     "text": "the",
+     "start": 42.74,
+     "end": 42.809
+    },
+    {
+     "text": "Supreme",
+     "start": 42.856,
+     "end": 43.169
+    },
+    {
+     "text": "Court",
+     "start": 43.216,
+     "end": 43.425
+    },
+    {
+     "text": "overturned",
+     "start": 43.483,
+     "end": 44.005
+    },
+    {
+     "text": "his",
+     "start": 44.04,
+     "end": 44.121
+    },
+    {
+     "text": "conviction,",
+     "start": 44.168,
+     "end": 44.76
+    },
+    {
+     "text": "eight",
+     "start": 44.957,
+     "end": 45.166
+    },
+    {
+     "text": "to",
+     "start": 45.201,
+     "end": 45.259
+    },
+    {
+     "text": "nothing.",
+     "start": 45.34,
+     "end": 45.793
+    }
+   ],
+   "cues": {},
+   "startFrame": 1247,
+   "endFrame": 1377
+  },
+  {
+   "id": "back",
+   "speechEnd": 50.635,
+   "words": [
+    {
+     "text": "And",
+     "start": 45.991,
+     "end": 46.13
+    },
+    {
+     "text": "in",
+     "start": 46.188,
+     "end": 46.246
+    },
+    {
+     "text": "1974,",
+     "start": 46.292,
+     "end": 47.36
+    },
+    {
+     "text": "he",
+     "start": 47.523,
+     "end": 47.604
+    },
+    {
+     "text": "won",
+     "start": 47.662,
+     "end": 47.802
+    },
+    {
+     "text": "his",
+     "start": 47.848,
+     "end": 47.941
+    },
+    {
+     "text": "title",
+     "start": 47.987,
+     "end": 48.266
+    },
+    {
+     "text": "back,",
+     "start": 48.301,
+     "end": 48.661
+    },
+    {
+     "text": "beating",
+     "start": 48.8,
+     "end": 49.09
+    },
+    {
+     "text": "George",
+     "start": 49.148,
+     "end": 49.45
+    },
+    {
+     "text": "Foreman",
+     "start": 49.497,
+     "end": 49.857
+    },
+    {
+     "text": "in",
+     "start": 49.926,
+     "end": 50.008
+    },
+    {
+     "text": "Zaire.",
+     "start": 50.077,
+     "end": 50.635
+    }
+   ],
+   "cues": {},
+   "startFrame": 1377,
+   "endFrame": 1527
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 53.316,
+   "words": [
+    {
+     "text": "They",
+     "start": 50.994,
+     "end": 51.145
+    },
+    {
+     "text": "took",
+     "start": 51.18,
+     "end": 51.343
+    },
+    {
+     "text": "his",
+     "start": 51.378,
+     "end": 51.47
+    },
+    {
+     "text": "title.",
+     "start": 51.517,
+     "end": 51.923
+    },
+    {
+     "text": "He",
+     "start": 52.121,
+     "end": 52.213
+    },
+    {
+     "text": "took",
+     "start": 52.26,
+     "end": 52.411
+    },
+    {
+     "text": "it",
+     "start": 52.446,
+     "end": 52.504
+    },
+    {
+     "text": "back.",
+     "start": 52.539,
+     "end": 53.316
+    }
+   ],
+   "cues": {},
+   "startFrame": 1527,
+   "endFrame": 1611
+  },
+  {
+   "id": "cta",
+   "speechEnd": 56.37,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 53.816,
+     "end": 54.153
+    },
+    {
+     "text": "The",
+     "start": 54.199,
+     "end": 54.269
+    },
+    {
+     "text": "Black",
+     "start": 54.304,
+     "end": 54.489
+    },
+    {
+     "text": "History",
+     "start": 54.536,
+     "end": 54.826
+    },
+    {
+     "text": "Room",
+     "start": 54.884,
+     "end": 55.058
+    },
+    {
+     "text": "for",
+     "start": 55.116,
+     "end": 55.221
+    },
+    {
+     "text": "one",
+     "start": 55.29,
+     "end": 55.43
+    },
+    {
+     "text": "story",
+     "start": 55.465,
+     "end": 55.743
+    },
+    {
+     "text": "a",
+     "start": 55.79,
+     "end": 55.813
+    },
+    {
+     "text": "day.",
+     "start": 55.859,
+     "end": 56.37
+    }
+   ],
+   "cues": {},
+   "startFrame": 1611,
+   "endFrame": 1727
+  }
+ ]
+}
