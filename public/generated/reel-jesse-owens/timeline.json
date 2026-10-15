@@ -1,874 +1,887 @@
 {
  "fps": 30,
- "durationInFrames": 1851,
- "voice": "am_michael",
- "engine": "kokoro-onnx v1.0",
+ "durationInFrames": 1776,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
  "words": 152,
- "wpm": 147.8,
+ "wpm": 154.1,
  "beats": [
   {
    "id": "hook",
+   "speechEnd": 2.601,
    "words": [
     {
      "text": "Four",
      "start": 0.0,
-     "end": 0.26
+     "end": 0.29
     },
     {
      "text": "Olympic",
-     "start": 0.26,
-     "end": 0.54
+     "start": 0.325,
+     "end": 0.65
     },
     {
      "text": "golds.",
-     "start": 0.54,
-     "end": 1.2
+     "start": 0.697,
+     "end": 1.161
     },
     {
      "text": "Then",
-     "start": 1.28,
-     "end": 1.44
+     "start": 1.358,
+     "end": 1.521
     },
     {
      "text": "he",
-     "start": 1.44,
-     "end": 1.56
+     "start": 1.556,
+     "end": 1.602
     },
     {
      "text": "raced",
-     "start": 1.56,
-     "end": 1.76
+     "start": 1.66,
+     "end": 1.881
     },
     {
      "text": "a",
-     "start": 1.76,
-     "end": 1.92
+     "start": 1.916,
+     "end": 1.939
     },
     {
      "text": "horse.",
-     "start": 1.92,
-     "end": 2.14
+     "start": 1.997,
+     "end": 2.601
     }
    ],
    "cues": {},
    "startFrame": 0,
-   "endFrame": 83
+   "endFrame": 90
   },
   {
    "id": "name",
+   "speechEnd": 4.366,
    "words": [
     {
      "text": "Meet",
-     "start": 2.876,
-     "end": 3.096
+     "start": 3.101,
+     "end": 3.38
     },
     {
      "text": "Jesse",
-     "start": 3.096,
-     "end": 3.496
+     "start": 3.449,
+     "end": 3.74
     },
     {
      "text": "Owens.",
-     "start": 3.496,
-     "end": 3.876
+     "start": 3.809,
+     "end": 4.366
     }
    ],
    "cues": {},
-   "startFrame": 83,
-   "endFrame": 134
+   "startFrame": 90,
+   "endFrame": 137
   },
   {
    "id": "born",
+   "speechEnd": 10.52,
    "words": [
     {
      "text": "He",
-     "start": 4.561,
-     "end": 4.641
+     "start": 4.68,
+     "end": 4.796
     },
     {
      "text": "was",
-     "start": 4.641,
-     "end": 4.781
+     "start": 4.842,
+     "end": 4.947
     },
     {
      "text": "born",
-     "start": 4.781,
-     "end": 5.081
+     "start": 5.005,
+     "end": 5.237
     },
     {
      "text": "in",
-     "start": 5.081,
-     "end": 5.301
+     "start": 5.284,
+     "end": 5.342
     },
     {
      "text": "Alabama",
-     "start": 5.301,
-     "end": 5.821
+     "start": 5.411,
+     "end": 5.887
     },
     {
      "text": "in",
-     "start": 5.821,
-     "end": 6.061
+     "start": 5.922,
+     "end": 5.98
     },
     {
      "text": "1913,",
-     "start": 6.061,
-     "end": 6.781
+     "start": 6.027,
+     "end": 7.002
     },
     {
      "text": "the",
-     "start": 7.581,
-     "end": 7.621
+     "start": 7.315,
+     "end": 7.42
     },
     {
      "text": "son",
-     "start": 7.621,
-     "end": 7.801
+     "start": 7.466,
+     "end": 7.617
     },
     {
      "text": "of",
-     "start": 7.801,
-     "end": 7.921
+     "start": 7.664,
+     "end": 7.71
     },
     {
      "text": "a",
-     "start": 7.921,
-     "end": 8.041
+     "start": 7.745,
+     "end": 7.768
     },
     {
      "text": "sharecropper",
-     "start": 8.041,
-     "end": 8.701
+     "start": 7.826,
+     "end": 8.453
     },
     {
      "text": "and",
-     "start": 8.701,
-     "end": 9.001
+     "start": 8.488,
+     "end": 8.558
     },
     {
      "text": "the",
-     "start": 9.001,
-     "end": 9.121
+     "start": 8.593,
+     "end": 8.662
     },
     {
      "text": "grandson",
-     "start": 9.121,
-     "end": 9.541
+     "start": 8.709,
+     "end": 9.208
     },
     {
      "text": "of",
-     "start": 9.541,
-     "end": 9.881
+     "start": 9.266,
+     "end": 9.324
     },
     {
      "text": "an",
-     "start": 9.881,
-     "end": 10.021
+     "start": 9.37,
+     "end": 9.428
     },
     {
      "text": "enslaved",
-     "start": 10.021,
-     "end": 10.521
+     "start": 9.475,
+     "end": 9.986
     },
     {
      "text": "man.",
-     "start": 10.521,
-     "end": 10.981
+     "start": 10.044,
+     "end": 10.52
     }
    ],
    "cues": {},
-   "startFrame": 134,
-   "endFrame": 341
+   "startFrame": 137,
+   "endFrame": 325
   },
   {
    "id": "jc",
+   "speechEnd": 16.336,
    "words": [
     {
      "text": "In",
-     "start": 11.47,
-     "end": 11.61
+     "start": 10.938,
+     "end": 11.077
     },
     {
      "text": "Cleveland,",
-     "start": 11.61,
-     "end": 11.97
+     "start": 11.135,
+     "end": 11.611
     },
     {
      "text": "a",
-     "start": 12.23,
-     "end": 12.29
+     "start": 11.634,
+     "end": 11.669
     },
     {
      "text": "teacher",
-     "start": 12.29,
-     "end": 12.59
+     "start": 11.727,
+     "end": 12.017
     },
     {
      "text": "misheard",
-     "start": 12.59,
-     "end": 13.09
+     "start": 12.076,
+     "end": 12.447
     },
     {
      "text": "his",
-     "start": 13.09,
-     "end": 13.23
+     "start": 12.482,
+     "end": 12.575
     },
     {
      "text": "initials,",
-     "start": 13.23,
-     "end": 13.71
+     "start": 12.633,
+     "end": 13.19
     },
     {
      "text": "J.C.,",
-     "start": 13.71,
-     "end": 14.69
+     "start": 13.283,
+     "end": 13.84
     },
     {
      "text": "as",
-     "start": 14.69,
-     "end": 14.89
+     "start": 13.863,
+     "end": 13.968
     },
     {
      "text": "Jesse.",
-     "start": 14.89,
-     "end": 15.23
+     "start": 14.049,
+     "end": 14.606
     },
     {
      "text": "The",
-     "start": 15.71,
-     "end": 15.83
+     "start": 14.874,
+     "end": 14.99
     },
     {
      "text": "name",
-     "start": 15.83,
-     "end": 16.01
+     "start": 15.048,
+     "end": 15.268
     },
     {
      "text": "stuck.",
-     "start": 16.01,
-     "end": 16.33
+     "start": 15.315,
+     "end": 16.336
     }
    ],
    "cues": {},
-   "startFrame": 341,
-   "endFrame": 508
+   "startFrame": 325,
+   "endFrame": 502
   },
   {
    "id": "records",
+   "speechEnd": 21.712,
    "words": [
     {
      "text": "In",
-     "start": 17.028,
-     "end": 17.188
+     "start": 16.836,
+     "end": 17.01
     },
     {
      "text": "1935,",
-     "start": 17.188,
-     "end": 17.808
+     "start": 17.045,
+     "end": 17.904
     },
     {
      "text": "in",
-     "start": 18.648,
-     "end": 18.768
+     "start": 17.927,
+     "end": 17.985
     },
     {
      "text": "about",
-     "start": 18.768,
-     "end": 19.008
+     "start": 18.02,
+     "end": 18.206
     },
     {
      "text": "forty-five",
-     "start": 19.008,
-     "end": 19.668
+     "start": 18.264,
+     "end": 18.786
     },
     {
      "text": "minutes,",
-     "start": 19.668,
-     "end": 20.168
+     "start": 18.821,
+     "end": 19.216
     },
     {
      "text": "he",
-     "start": 20.488,
-     "end": 20.628
+     "start": 19.355,
+     "end": 19.437
     },
     {
      "text": "set",
-     "start": 20.628,
-     "end": 20.828
+     "start": 19.495,
+     "end": 19.669
     },
     {
      "text": "three",
-     "start": 20.828,
-     "end": 21.127
+     "start": 19.715,
+     "end": 19.936
     },
     {
      "text": "world",
-     "start": 21.127,
-     "end": 21.447
+     "start": 19.982,
+     "end": 20.226
     },
     {
      "text": "records",
-     "start": 21.447,
-     "end": 21.928
+     "start": 20.284,
+     "end": 20.644
     },
     {
      "text": "and",
-     "start": 21.928,
-     "end": 22.148
+     "start": 20.714,
+     "end": 20.888
     },
     {
      "text": "tied",
-     "start": 22.148,
-     "end": 22.447
+     "start": 20.934,
+     "end": 21.167
     },
     {
      "text": "a",
-     "start": 22.447,
-     "end": 22.608
+     "start": 21.19,
+     "end": 21.213
     },
     {
      "text": "fourth.",
-     "start": 22.608,
-     "end": 22.848
+     "start": 21.271,
+     "end": 21.712
     }
    ],
    "cues": {},
-   "startFrame": 508,
-   "endFrame": 703
+   "startFrame": 502,
+   "endFrame": 659
   },
   {
    "id": "berlin",
+   "speechEnd": 26.774,
    "words": [
     {
      "text": "In",
-     "start": 23.547,
-     "end": 23.707
+     "start": 22.072,
+     "end": 22.211
     },
     {
      "text": "1936,",
-     "start": 23.707,
-     "end": 24.527
+     "start": 22.258,
+     "end": 23.175
     },
     {
      "text": "at",
-     "start": 24.967,
-     "end": 25.247
+     "start": 23.21,
+     "end": 23.326
     },
     {
      "text": "the",
-     "start": 25.247,
-     "end": 25.367
+     "start": 23.361,
+     "end": 23.43
     },
     {
      "text": "Olympics",
-     "start": 25.367,
-     "end": 25.687
+     "start": 23.477,
+     "end": 23.86
     },
     {
      "text": "in",
-     "start": 25.687,
-     "end": 26.047
+     "start": 23.895,
+     "end": 23.953
     },
     {
      "text": "Hitler's",
-     "start": 26.047,
-     "end": 26.487
+     "start": 24.011,
+     "end": 24.313
     },
     {
      "text": "Berlin,",
-     "start": 26.487,
-     "end": 26.807
+     "start": 24.359,
+     "end": 24.777
     },
     {
      "text": "he",
-     "start": 27.347,
-     "end": 27.427
+     "start": 25.009,
+     "end": 25.091
     },
     {
      "text": "won",
-     "start": 27.427,
-     "end": 27.587
+     "start": 25.149,
+     "end": 25.323
     },
     {
      "text": "four",
-     "start": 27.587,
-     "end": 27.987
+     "start": 25.416,
+     "end": 25.648
     },
     {
      "text": "gold",
-     "start": 27.987,
-     "end": 28.327
+     "start": 25.706,
+     "end": 25.927
     },
     {
      "text": "medals.",
-     "start": 28.327,
-     "end": 28.667
+     "start": 25.985,
+     "end": 26.774
     }
    ],
    "cues": {},
-   "startFrame": 703,
-   "endFrame": 879
+   "startFrame": 659,
+   "endFrame": 815
   },
   {
    "id": "home",
+   "speechEnd": 30.536,
    "words": [
     {
      "text": "But",
-     "start": 29.412,
-     "end": 29.552
+     "start": 27.274,
+     "end": 27.46
     },
     {
      "text": "back",
-     "start": 29.552,
-     "end": 29.752
+     "start": 27.506,
+     "end": 27.692
     },
     {
      "text": "home,",
-     "start": 29.752,
-     "end": 30.132
+     "start": 27.75,
+     "end": 28.133
     },
     {
      "text": "four",
-     "start": 30.572,
-     "end": 30.712
+     "start": 28.296,
+     "end": 28.516
     },
     {
      "text": "gold",
-     "start": 30.712,
-     "end": 30.992
+     "start": 28.574,
+     "end": 28.783
     },
     {
      "text": "medals",
-     "start": 30.992,
-     "end": 31.352
+     "start": 28.841,
+     "end": 29.201
     },
     {
      "text": "did",
-     "start": 31.352,
-     "end": 31.592
+     "start": 29.341,
+     "end": 29.503
     },
     {
      "text": "not",
-     "start": 31.592,
-     "end": 31.812
+     "start": 29.561,
+     "end": 29.7
     },
     {
      "text": "pay",
-     "start": 31.812,
-     "end": 32.011
+     "start": 29.747,
+     "end": 29.886
     },
     {
      "text": "the",
-     "start": 32.011,
-     "end": 32.191
+     "start": 29.921,
+     "end": 29.991
     },
     {
      "text": "bills.",
-     "start": 32.191,
-     "end": 32.432
+     "start": 30.026,
+     "end": 30.536
     }
    ],
    "cues": {},
-   "startFrame": 879,
-   "endFrame": 990
+   "startFrame": 815,
+   "endFrame": 924
   },
   {
    "id": "horse",
+   "speechEnd": 37.154,
    "words": [
     {
      "text": "So",
-     "start": 33.093,
-     "end": 33.253
+     "start": 30.896,
+     "end": 31.036
     },
     {
      "text": "in",
-     "start": 33.253,
-     "end": 33.393
+     "start": 31.105,
+     "end": 31.163
     },
     {
      "text": "December",
-     "start": 33.393,
-     "end": 33.713
+     "start": 31.21,
+     "end": 31.651
     },
     {
      "text": "1936,",
-     "start": 33.713,
-     "end": 34.833
+     "start": 31.709,
+     "end": 32.649
     },
     {
      "text": "in",
-     "start": 35.573,
-     "end": 35.633
+     "start": 32.673,
+     "end": 32.789
     },
     {
      "text": "Havana,",
-     "start": 35.633,
-     "end": 35.973
+     "start": 32.858,
+     "end": 33.497
     },
     {
      "text": "the",
-     "start": 36.653,
-     "end": 36.693
+     "start": 33.729,
+     "end": 33.834
     },
     {
      "text": "fastest",
-     "start": 36.693,
-     "end": 37.113
+     "start": 33.927,
+     "end": 34.437
     },
     {
      "text": "man",
-     "start": 37.113,
-     "end": 37.493
+     "start": 34.507,
+     "end": 34.739
     },
     {
      "text": "in",
-     "start": 37.493,
-     "end": 37.653
+     "start": 34.797,
+     "end": 34.855
     },
     {
      "text": "the",
-     "start": 37.653,
-     "end": 37.773
+     "start": 34.902,
+     "end": 34.971
     },
     {
      "text": "world",
-     "start": 37.773,
-     "end": 38.033
+     "start": 35.029,
+     "end": 35.308
     },
     {
      "text": "raced",
-     "start": 38.033,
-     "end": 38.353
+     "start": 35.424,
+     "end": 35.738
     },
     {
      "text": "a",
-     "start": 38.353,
-     "end": 38.533
+     "start": 35.772,
+     "end": 35.796
     },
     {
      "text": "horse,",
-     "start": 38.533,
-     "end": 38.793
+     "start": 35.854,
+     "end": 36.353
     },
     {
      "text": "for",
-     "start": 38.793,
-     "end": 39.113
+     "start": 36.516,
+     "end": 36.666
     },
     {
      "text": "money.",
-     "start": 39.113,
-     "end": 39.293
+     "start": 36.725,
+     "end": 37.154
     }
    ],
    "cues": {},
-   "startFrame": 990,
-   "endFrame": 1193
+   "startFrame": 924,
+   "endFrame": 1129
   },
   {
    "id": "later",
+   "speechEnd": 42.135,
    "words": [
     {
      "text": "He",
-     "start": 39.876,
-     "end": 39.996
+     "start": 37.735,
+     "end": 37.851
     },
     {
      "text": "kept",
-     "start": 39.996,
-     "end": 40.196
+     "start": 37.92,
+     "end": 38.129
     },
     {
      "text": "running",
-     "start": 40.196,
-     "end": 40.596
+     "start": 38.187,
+     "end": 38.431
     },
     {
      "text": "exhibition",
-     "start": 40.596,
-     "end": 41.076
+     "start": 38.489,
+     "end": 38.93
     },
     {
      "text": "races",
-     "start": 41.076,
-     "end": 41.576
+     "start": 38.977,
+     "end": 39.267
     },
     {
      "text": "for",
-     "start": 41.576,
-     "end": 41.836
+     "start": 39.314,
+     "end": 39.441
     },
     {
      "text": "years,",
-     "start": 41.836,
-     "end": 42.216
+     "start": 39.534,
+     "end": 40.161
     },
     {
      "text": "to",
-     "start": 42.216,
-     "end": 42.716
+     "start": 40.3,
+     "end": 40.405
     },
     {
      "text": "earn",
-     "start": 42.716,
-     "end": 42.936
+     "start": 40.475,
+     "end": 40.637
     },
     {
      "text": "a",
-     "start": 42.936,
-     "end": 43.096
+     "start": 40.672,
+     "end": 40.695
     },
     {
      "text": "living.",
-     "start": 43.096,
-     "end": 43.296
+     "start": 40.742,
+     "end": 42.135
     }
    ],
    "cues": {},
-   "startFrame": 1193,
-   "endFrame": 1315
+   "startFrame": 1129,
+   "endFrame": 1276
   },
   {
    "id": "medal",
+   "speechEnd": 48.753,
    "words": [
     {
      "text": "Forty",
-     "start": 43.948,
-     "end": 44.168
+     "start": 42.635,
+     "end": 42.96
     },
     {
      "text": "years",
-     "start": 44.168,
-     "end": 44.568
+     "start": 42.995,
+     "end": 43.204
     },
     {
      "text": "after",
-     "start": 44.568,
-     "end": 44.908
+     "start": 43.25,
+     "end": 43.459
     },
     {
      "text": "Berlin,",
-     "start": 44.908,
-     "end": 45.348
+     "start": 43.506,
+     "end": 43.877
     },
     {
      "text": "in",
-     "start": 45.748,
-     "end": 45.848
+     "start": 43.9,
+     "end": 43.97
     },
     {
      "text": "1976,",
-     "start": 45.848,
-     "end": 47.068
+     "start": 44.028,
+     "end": 45.178
     },
     {
      "text": "President",
-     "start": 47.768,
-     "end": 48.068
+     "start": 45.375,
+     "end": 45.805
     },
     {
      "text": "Gerald",
-     "start": 48.068,
-     "end": 48.448
+     "start": 45.851,
+     "end": 46.153
     },
     {
      "text": "Ford",
-     "start": 48.448,
-     "end": 48.948
+     "start": 46.211,
+     "end": 46.478
     },
     {
      "text": "awarded",
-     "start": 48.948,
-     "end": 49.468
+     "start": 46.513,
+     "end": 46.873
     },
     {
      "text": "him",
-     "start": 49.468,
-     "end": 49.668
+     "start": 46.919,
+     "end": 47.012
     },
     {
      "text": "the",
-     "start": 49.668,
-     "end": 49.868
+     "start": 47.058,
+     "end": 47.128
     },
     {
      "text": "Presidential",
-     "start": 49.868,
-     "end": 50.308
+     "start": 47.198,
+     "end": 47.79
     },
     {
      "text": "Medal",
-     "start": 50.308,
-     "end": 50.748
+     "start": 47.848,
+     "end": 48.08
     },
     {
      "text": "of",
-     "start": 50.748,
-     "end": 51.008
+     "start": 48.127,
+     "end": 48.185
     },
     {
      "text": "Freedom.",
-     "start": 51.008,
-     "end": 51.328
+     "start": 48.231,
+     "end": 48.753
     }
    ],
    "cues": {},
-   "startFrame": 1315,
-   "endFrame": 1555
+   "startFrame": 1276,
+   "endFrame": 1469
   },
   {
    "id": "died",
+   "speechEnd": 50.46,
    "words": [
     {
      "text": "He",
-     "start": 51.949,
-     "end": 52.089
+     "start": 49.067,
+     "end": 49.183
     },
     {
      "text": "died",
-     "start": 52.089,
-     "end": 52.369
+     "start": 49.241,
+     "end": 49.508
     },
     {
      "text": "in",
-     "start": 52.369,
-     "end": 52.629
+     "start": 49.555,
+     "end": 49.613
     },
     {
      "text": "1980.",
-     "start": 52.629,
-     "end": 53.129
+     "start": 49.671,
+     "end": 50.46
     }
    ],
    "cues": {},
-   "startFrame": 1555,
-   "endFrame": 1613
+   "startFrame": 1469,
+   "endFrame": 1519
   },
   {
    "id": "legacy",
+   "speechEnd": 54.988,
    "words": [
     {
      "text": "The",
-     "start": 53.855,
-     "end": 53.975
+     "start": 50.727,
+     "end": 50.832
     },
     {
      "text": "fastest",
-     "start": 53.975,
-     "end": 54.375
+     "start": 50.913,
+     "end": 51.401
     },
     {
      "text": "man",
-     "start": 54.375,
-     "end": 54.735
+     "start": 51.459,
+     "end": 51.633
     },
     {
      "text": "on",
-     "start": 54.735,
-     "end": 54.935
+     "start": 51.691,
+     "end": 51.784
     },
     {
      "text": "Earth,",
-     "start": 54.935,
-     "end": 55.295
+     "start": 51.842,
+     "end": 52.202
     },
     {
      "text": "racing",
-     "start": 55.755,
-     "end": 56.035
+     "start": 52.364,
+     "end": 52.701
     },
     {
      "text": "a",
-     "start": 56.035,
-     "end": 56.255
+     "start": 52.759,
+     "end": 52.782
     },
     {
      "text": "horse",
-     "start": 56.255,
-     "end": 56.515
+     "start": 52.852,
+     "end": 53.107
     },
     {
      "text": "to",
-     "start": 56.515,
-     "end": 56.735
+     "start": 53.142,
+     "end": 53.2
     },
     {
      "text": "make",
-     "start": 56.735,
-     "end": 56.855
+     "start": 53.258,
+     "end": 53.409
     },
     {
      "text": "a",
-     "start": 56.855,
-     "end": 56.995
+     "start": 53.444,
+     "end": 53.467
     },
     {
      "text": "living.",
-     "start": 56.995,
-     "end": 57.175
+     "start": 53.514,
+     "end": 54.988
     }
    ],
    "cues": {},
-   "startFrame": 1613,
-   "endFrame": 1732
+   "startFrame": 1519,
+   "endFrame": 1662
   },
   {
    "id": "cta",
+   "speechEnd": 57.996,
    "words": [
     {
      "text": "Follow",
-     "start": 57.823,
-     "end": 58.143
+     "start": 55.488,
+     "end": 55.836
     },
     {
      "text": "The",
-     "start": 58.143,
-     "end": 58.343
+     "start": 55.883,
+     "end": 55.952
     },
     {
      "text": "Black",
-     "start": 58.343,
-     "end": 58.583
+     "start": 55.987,
+     "end": 56.185
     },
     {
      "text": "History",
-     "start": 58.583,
-     "end": 58.963
+     "start": 56.219,
+     "end": 56.51
     },
     {
      "text": "Room",
-     "start": 58.963,
-     "end": 59.243
+     "start": 56.556,
+     "end": 56.719
     },
     {
      "text": "for",
-     "start": 59.243,
-     "end": 59.463
+     "start": 56.777,
+     "end": 56.893
     },
     {
      "text": "one",
-     "start": 59.463,
-     "end": 59.663
+     "start": 56.962,
+     "end": 57.125
     },
     {
      "text": "story",
-     "start": 59.663,
-     "end": 59.983
+     "start": 57.16,
+     "end": 57.427
     },
     {
      "text": "a",
-     "start": 59.983,
-     "end": 60.223
+     "start": 57.473,
+     "end": 57.497
     },
     {
      "text": "day.",
-     "start": 60.223,
-     "end": 60.403
+     "start": 57.543,
+     "end": 57.996
     }
    ],
    "cues": {},
-   "startFrame": 1732,
-   "endFrame": 1851
+   "startFrame": 1662,
+   "endFrame": 1776
   }
  ]
 }

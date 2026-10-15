@@ -1,7 +1,7 @@
 # Reel: Sojourner Truth, "She Sued a White Man. And Won."
 
 Page: The Black History Room (Facebook Reels; also Instagram Reels and YouTube Shorts)
-Video: `publish/video/Sojourner-Truth-reel.mp4` (1080x1920, 30 fps, Kokoro voice). Spec and fact sheet: `data/reel-sojourner-truth.json`.
+Video: `publish/video/Sojourner-Truth-reel.mp4` (1080x1920, 30 fps, ElevenLabs Andrew). Spec and fact sheet: `data/reel-sojourner-truth.json`.
 
 ## Facebook
 
