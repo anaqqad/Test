@@ -20,6 +20,7 @@ const MAP = {
   'jack-johnson': ['african-american-history', ['sports'], 'us', '20th-century'],
   'jesse-owens': ['african-american-history', ['sports'], 'us', '20th-century'],
   'major-taylor': ['african-american-history', ['sports'], 'us', '19th-century'],
+  'matthew-henson': ['african-american-history', ['exploration'], 'us', '20th-century'],
   'mansa-musa': ['global-african-history', ['politics-government', 'religion'], 'ml', 'before-1500'],
   'muhammad-ali': ['african-american-history', ['sports', 'civil-rights-activism'], 'us', '20th-century'],
   'robert-smalls': ['african-american-history', ['military', 'politics-government'], 'us', '19th-century'],

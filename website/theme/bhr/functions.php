@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'BHR_VERSION', '1.1.1' );
+define( 'BHR_VERSION', '1.1.2' );
 
 require __DIR__ . '/inc/content.php';
 require __DIR__ . '/inc/podcast.php';
@@ -71,6 +71,26 @@ add_action( 'wp_head', function () {
 		);
 	}
 }, 1 );
+
+// Site icon: PNG files shipped with the theme (website/scripts/make_icon.php). WordPress would otherwise serve its
+// WebP copy, which iOS does not accept as a home-screen icon. The Site Icon setting still points to the same image.
+add_filter( 'site_icon_meta_tags', function () {
+	$u = function ( $px ) {
+		return esc_url( get_theme_file_uri( "assets/icon/site-icon-{$px}.png" ) );
+	};
+	return array(
+		'<link rel="icon" href="' . $u( 32 ) . '" sizes="32x32" type="image/png" />',
+		'<link rel="icon" href="' . $u( 192 ) . '" sizes="192x192" type="image/png" />',
+		'<link rel="apple-touch-icon" href="' . $u( 180 ) . '" />',
+		'<meta name="msapplication-TileImage" content="' . $u( 270 ) . '" />',
+	);
+} );
+
+// Same PNGs for /favicon.ico and anything else asking WordPress for the site icon URL.
+add_filter( 'get_site_icon_url', function ( $url, $size ) {
+	$px = $size <= 32 ? 32 : ( $size <= 180 ? 180 : ( $size <= 192 ? 192 : ( $size <= 270 ? 270 : 0 ) ) );
+	return get_theme_file_uri( $px ? "assets/icon/site-icon-{$px}.png" : 'assets/icon/site-icon.png' );
+}, 10, 2 );
 
 // Front-end clean-up: no emoji script, no generator tag, no XML-RPC discovery.
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
