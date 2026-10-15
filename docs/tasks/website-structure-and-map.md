@@ -64,3 +64,19 @@ only; the owner reviews and publishes.
 
 Seed the site with the stories we already researched for reels and podcast episodes (`publish/reels/*.md`,
 `publish/podcast/*.md`, sources in `data/*.json`), as drafts for review.
+
+## Header, navigation and Donate (owner, 2026-10-15)
+
+Layout inspired by BlackPast's header (our own design, not a copy):
+- Left: logo "THE BLACK HISTORY ROOM" (cream on black, "ROOM" or a small detail in muted gold).
+- Centre: menu with dropdown panels (mega-menu, pure CSS + minimal JS, keyboard accessible):
+  **African American History ▾** (domains) · **Global African History ▾** (map, regions, domains) ·
+  **Special Features ▾** (Featured collections: Podcast "Black History in 10 Minutes", Reels/Videos,
+  This Week in Black History, Timelines, Myths vs Facts; a featured editorial card with image) ·
+  **Resources ▾** (Sources & bibliography, Editorial Policy, Corrections) · **About ▾** (About, Contact).
+- Right: search box, then a **Donate** button in muted gold (solid, high contrast, always visible, also in the
+  mobile menu). It links to **https://ko-fi.com/theblackhistoryroom** (opens in a new tab, `rel="noopener"`).
+- Also add a `/donate/` page on our site (so the URL is shareable) with a short paragraph on why support matters
+  ("Researching and editing these stories takes real time and effort...") and the Ko-fi button; no payment
+  processing on our server, no extra plugin.
+- Repeat a small "Support our work" Ko-fi link in the footer and at the end of every Story.
