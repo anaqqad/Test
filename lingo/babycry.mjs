@@ -44,7 +44,7 @@ const turns = (k) => { const cs = A[k].cries.filter((c) => c.median_hz > 300); r
 // ---------- page template ----------
 const CSS = `*{margin:0;padding:0;box-sizing:border-box}body{width:1920px;height:1080px;overflow:hidden;font-family:Montserrat;background:#101522;color:#fff}
 .a{position:absolute}.f{opacity:0;transition:none}
-#bar{left:0;top:0;width:1920px;height:120px;background:linear-gradient(#fff,#f1eee8);color:#18181d;display:flex;align-items:center;justify-content:center;gap:24px;box-shadow:0 6px 24px rgba(0,0,0,.3)}
+#bar{left:0;top:0;width:1920px;height:120px;padding:0 330px;box-sizing:border-box;background:linear-gradient(#fff,#f1eee8);color:#18181d;display:flex;align-items:center;justify-content:center;gap:24px;box-shadow:0 6px 24px rgba(0,0,0,.3)}
 #bar h1{font-weight:800;font-size:68px}#bar img{height:62px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.3)}
 .brand{left:22px;top:24px}
 .card{background:#fff;color:#1d1d24;border-radius:20px;padding:22px 30px;font-weight:600;font-size:34px;line-height:1.3;box-shadow:0 12px 30px rgba(0,0,0,.35);border-left:10px solid #ff4d5a}
@@ -197,7 +197,7 @@ countryScene("sweden", "Is our Swedish baby sing-song?",
   "");
 
 // 5 outro
-add("outro", 11, `${bar("So… Do Babies Cry With an Accent?")}
+add("outro", 11, `${bar("So, Do Babies Have an Accent?")}
   <div class="a" style="left:160px;top:120px;width:1600px;height:960px;display:flex;flex-direction:column;justify-content:center;text-align:center">
     <div data-in="0.2" class="f card" style="font-size:46px;border-left:none;border-top:10px solid #ff4d5a">In our clips, France, Germany, China and Cameroon matched the studies. Sweden was a mixed result.</div>
     <div data-in="3" class="f card" style="margin-top:40px;font-size:46px;border-left:none;border-top:10px solid #ff4d5a">And in the big studies, with hundreds of newborns, the pattern is real: babies pick up the melody of their language <b>before birth</b>.</div>
