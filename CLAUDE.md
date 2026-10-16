@@ -53,6 +53,7 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
 - Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).
 - Map-tour videos: `lingo/maptour.mjs` + `lingo/maptour_episodes.mjs` (done: `official`, Countries With the Most Official Languages).
   Saved idea the owner liked, **option 2**: `lingo/ideas/same_language_different_countries.md` (the original country says it first, then each other country's version, then the next language).
+- Thumbnails (`thumb_photo.mjs`): always the channel look: white name strip, photo, Wojak, flag, PART label for series, and the hook in **red** text with a white outline (owner: "keep it"). Never another hook colour.
 - Babies video: `lingo/babycry.mjs` (cries from public YouTube videos the owner is asking permission for; pitch traced with `baby_analyze.py`), Wojak crying babies `wojaks/baby_*.png`.
 
 ## Continue from here
