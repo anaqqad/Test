@@ -43,16 +43,16 @@
     "kind": "photo",
     "image": "mic",
     "focus": [
-     0.5,
-     0.3
+     0.49,
+     0.45
     ],
     "zoom": [
-     1.05,
-     1.12
+     1.5,
+     1.58
     ],
     "anchor": [
      0.5,
-     0.3
+     0.28
     ]
    },
    "overlays": {
@@ -65,20 +65,15 @@
    "text": "Meet Bayard Rustin.",
    "section": "who",
    "visual": {
-    "kind": "photo",
+    "kind": "card",
     "image": "portrait",
-    "focus": [
-     0.5,
-     0.3
+    "crop": [
+     0.04,
+     0.0,
+     0.62,
+     0.6
     ],
-    "zoom": [
-     1.0,
-     1.06
-    ],
-    "anchor": [
-     0.5,
-     0.32
-    ]
+    "caption": "Bayard Rustin, 1964"
    },
    "overlays": {
     "lowerThird": {
@@ -101,20 +96,15 @@
    "id": "king",
    "text": "In Montgomery, he became a close adviser to a young Martin Luther King Jr.",
    "visual": {
-    "kind": "photo",
+    "kind": "card",
     "image": "group",
-    "focus": [
-     0.5,
-     0.35
-    ],
-    "zoom": [
+    "crop": [
+     0.0,
+     0.0,
      1.0,
-     1.06
+     0.85
     ],
-    "anchor": [
-     0.5,
-     0.35
-    ]
+    "caption": "Rustin with young volunteers, 1964"
    }
   },
   {
@@ -131,15 +121,9 @@
    "id": "march",
    "text": "In 1963, he had less than two months to organize the March on Washington.",
    "visual": {
-    "kind": "card",
-    "image": "office",
-    "crop": [
-     0.0,
-     0.0,
-     1.0,
-     1.0
-    ],
-    "caption": "Rustin, left, at the march headquarters, August 1963"
+    "kind": "title",
+    "title": "Two months",
+    "sub": "to organize the March on Washington"
    },
    "overlays": {
     "stamp": "Summer 1963"
@@ -152,12 +136,12 @@
     "kind": "card",
     "image": "crowd",
     "crop": [
-     0.0,
+     0.25,
      0.0,
      1.0,
-     1.0
+     0.75
     ],
-    "caption": "The March on Washington, August 28, 1963"
+    "caption": "Martin Luther King Jr. at the March on Washington, August 28, 1963"
    },
    "overlays": {
     "pin": {
@@ -182,8 +166,8 @@
     "kind": "photo",
     "image": "mic",
     "focus": [
-     0.5,
-     0.35
+     0.49,
+     0.5
     ],
     "zoom": [
      1.0,
@@ -191,7 +175,7 @@
     ],
     "anchor": [
      0.5,
-     0.35
+     0.4
     ]
    }
   },
@@ -218,20 +202,15 @@
    "id": "legacy",
    "text": "King had the dream. Bayard Rustin built the march.",
    "visual": {
-    "kind": "photo",
+    "kind": "card",
     "image": "portrait",
-    "focus": [
-     0.5,
-     0.3
+    "crop": [
+     0.04,
+     0.0,
+     0.62,
+     0.6
     ],
-    "zoom": [
-     1.12,
-     1.18
-    ],
-    "anchor": [
-     0.5,
-     0.3
-    ]
+    "caption": "Bayard Rustin, 1964"
    }
   },
   {
@@ -366,5 +345,45 @@
   "Birth year (sources say 1910 or 1912)",
   "Length of the chain-gang sentence (22/28/30 days)",
   "D.C. police estimate 210,000"
- ]
+ ],
+ "faces": {
+  "mic": [
+   [
+    0.43,
+    0.37,
+    0.54,
+    0.54
+   ]
+  ],
+  "portrait": [
+   [
+    0.22,
+    0.07,
+    0.53,
+    0.43
+   ],
+   [
+    0.61,
+    0.2,
+    0.88,
+    0.48
+   ]
+  ],
+  "group": [
+   [
+    0.0,
+    0.05,
+    1.0,
+    0.6
+   ]
+  ],
+  "crowd": [
+   [
+    0.49,
+    0.07,
+    0.76,
+    0.35
+   ]
+  ]
+ }
 }
