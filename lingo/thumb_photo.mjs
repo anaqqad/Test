@@ -24,6 +24,7 @@ export const PHOTO_CREDITS = {
   revived: "Jerusalem Old City: photo by Nettadi, CC BY-SA 3.0, via Wikimedia Commons",
   ancient4: "Saona Island: photo by Danu Widjajanto, CC BY-SA 4.0, via Wikimedia Commons",
   ancient5: "Newfoundland landscape: photo by Chris Scott, CC BY 3.0, via Wikimedia Commons",
+  whistled: "Valle Gran Rey, La Gomera: photo by Llez, CC BY-SA 3.0, via Wikimedia Commons",
   ancient6: "Mongolian steppes: photo by Francisco Anzola, CC BY 2.0, via Wikimedia Commons",
 };
 // Esperanto has its own flag, not in flag-icons: green field, white canton with a green star
@@ -39,6 +40,7 @@ const T = {
   english: { name: "Old English", photo: "bamburgh", pos: "50% 50%", flag: "gb-eng", hook: ["This Is", "English?!"],
     who: { skin: "pale", hair: "short", hairColor: "auburn", beard: true, beardColor: "#7a3b1c", outfit: { type: "tunic", color: "#2f5d3a", trim: "#c8a165" }, expression: "neutral" } },
   ancient4: { part: "PART 4", name: "Taíno", photo: "ancient4", pos: "50% 60%", flag: "do", hook: ["You Speak It", "Every Day"] },
+  whistled: { part: "PART 1", name: "Silbo Gomero", photo: "whistled", pos: "50% 50%", flag: "es", hook: ["NO", "WORDS"], hookColor: "#3d5afe" },
   ancient5: { part: "PART 5", name: "Beothuk", photo: "ancient5", pos: "50% 50%", flag: "ca", hook: ["Not One", "Sentence Left"], hookSize: 86 },
   ancient6: { part: "PART 6", name: "Middle Mongolian", photo: "ancient6", pos: "50% 50%", flag: "mn", hook: ["Genghis Khan", "Spoke This"], hookSize: 86 },
   sounds: { name: "Xhosa", photo: "sounds", pos: "50% 50%", flag: "za", hook: ["Weirdest", "Sounds Ever"] },
@@ -57,7 +59,7 @@ const page = (t) => `<!doctype html><meta charset="utf-8">${css}<style>*{margin:
 ${t.img ? `<img class="a" src="${t.img}" style="left:0;bottom:0;height:640px;max-width:600px;object-fit:contain;object-position:left bottom">` : `<div class="a" style="left:-110px;top:40px;width:660px;height:950px">${wojak(t.who, "p")}</div>`}
 ${t.part ? `<div class="a" style="right:40px;top:328px;width:300px;text-align:center;background:#e8262b;color:#fff;font-weight:800;font-size:54px;padding:2px 0 6px;border:5px solid #fff;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.45)">${t.part}</div>` : ""}
 <div class="a" style="right:40px;top:112px;width:300px;height:200px;background:url('${t.flagUrl || url("node_modules/flag-icons/flags/4x3/" + t.flag + ".svg")}') center/${t.flag === "np" ? "contain no-repeat" : "cover"};${t.flag === "np" ? "box-shadow:none;" : ""}box-shadow:0 6px 18px rgba(0,0,0,.45)"></div>
-<div class="a" style="right:40px;bottom:56px;width:720px;text-align:right;font-weight:800;font-size:${t.hookSize || 104}px;line-height:1.02;color:#e8262b;text-shadow:${stroke(7, "#fff")},0 10px 20px rgba(0,0,0,.45)">${t.hook.join("<br>")}</div>`;
+<div class="a" style="right:40px;bottom:56px;width:720px;text-align:right;font-weight:800;font-size:${t.hookSize || 104}px;line-height:1.02;color:${t.hookColor || "#e8262b"};text-shadow:${stroke(7, "#fff")},0 10px 20px rgba(0,0,0,.45)">${t.hook.join("<br>")}</div>`;
 
 const keys = process.argv.slice(2).length ? process.argv.slice(2) : Object.keys(T);
 const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });

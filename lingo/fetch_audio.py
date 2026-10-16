@@ -184,7 +184,7 @@ def build_sequence(metas, dst, need, repeat=1, gap=0.55):
         if t + d > need - 0.4:
             break
         word = re.sub(r"\.\w+$", "", m["title"][5:])
-        word = word.split("-")[-1] if word.startswith("LL-") else word
+        word = word.split("-")[-1] if word.startswith("LL-") or "whistle-" in word else word  # "Occitan whistle-adishatz" -> "adishatz"
         caps.append({"t": round(t, 2), "d": round(d, 2), "text": word})
         parts.append((t, p))
         t += d + gap

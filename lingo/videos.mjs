@@ -1426,4 +1426,59 @@ export const VIDEOS = {
       },
     ],
   },
+  whistled: {
+    title: "Languages Without Words be like",
+    part: "Part 1: Whistles",
+    layout: "story",
+    counterLabel: "whistled",
+    items: [
+      {
+        name: "Whistled Yoruba", wojak: "w_yoruba", flag: "ng", speakers: "Yoruba", scene: "savanna", loc: [7.4, 3.9, "South-west Nigeria"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1f6f3f", vest: "#f2c94c" }, expression: "open" },
+        cards: [
+          "Yoruba is a tonal language: every syllable has a high, mid or low pitch. A whistle can copy those pitches, so words survive without a voice.",
+          "This whistler is greeting people working ahead of him: ará iwájú, ẹ kú iṣẹ́ o, well done with the work.",
+        ],
+        noCaptions: true,
+        audio: { seq: ["File:Yoruba-whistle-language-slow.ogg", "File:Yoruba-whistle-language-fast.ogg"], repeat: 2, voice: "keep" },
+      },
+      {
+        name: "Sfyria", wojak: "w_sfyria", flag: "gr", speakers: "Greek", scene: "hills", loc: [38.0, 24.5, "Antia, Euboea, Greece"],
+        char: { skin: "olive", hair: "short", hairColor: "grey", mustache: true, beardColor: "#8a8a8a", outfit: { type: "shirt", color: "#f4f1e8", vest: "#3a3a3a" }, expression: "open" },
+        cards: [
+          "In the village of Antia in Greece, shepherds whistled Greek to each other across the hills.",
+          "It is called Sfyria, from the Greek word for whistle. Only a handful of whistlers are left.",
+        ],
+        audio: { file: "Sfiria Antia.wav", ranges: [[0, 5.9], [8.0, 14.8]], voice: "keep" }, // whistling only; the low-pitched parts are speech
+      },
+      {
+        name: "Whistled Occitan", wojak: "w_aas", flag: "fr", speakers: "Occitan", scene: "alps", loc: [42.97, -0.4, "Aas, French Pyrenees"],
+        char: { skin: "pale", hair: "short", hairColor: "brown", hat: { type: "beret", color: "#1d1d1d" }, outfit: { type: "shirt", color: "#f4f1e8", vest: "#6b3a2a" }, expression: "open" },
+        cards: [
+          "In the Pyrenees village of Aas, shepherds whistled Occitan across the valley. By the 1950s almost nobody could do it anymore.",
+          "Today it is being revived and taught again. Hello is adishatz, here whistled by Philippe Biu.",
+        ],
+        audio: { seq: ["File:Occitan whistle-adishatz.ogv", "File:LL-Q117707514 (oci-whistled)-Philippe (Yug)-adiu.wav", "File:Occitan whistle-petit.ogv", "File:LL-Q117707514 (oci-whistled)-Philippe (Yug)-Aas.wav"], repeat: 2, voice: "keep" },
+      },
+      {
+        name: "Bird Language", wojak: "w_kuskoy", flag: "tr", speakers: "Turkish", scene: "caucasus", loc: [40.73, 38.6, "Kuşköy, Turkey"],
+        char: { skin: "light", hair: "short", hairColor: "black", mustache: true, beardColor: "#1d1d1d", hat: { type: "flatcap", color: "#3a3a3a" }, outfit: { type: "coat", color: "#4a3a2a", inner: "#f4f1e8" }, expression: "open" },
+        cards: [
+          "In Kuşköy, a village in Turkey's Black Sea mountains, people whistle whole conversations in Turkish. They call it kuş dili, bird language.",
+          "UNESCO put it on its list of heritage in urgent need of protection in 2017, because mobile phones are replacing it.",
+        ],
+        noCaptions: true,
+        audio: { seq: ["File:VOA Learning English - UN- Technology Threatens Whistled Language in Turkey (crop).ogg"], repeat: 2, voice: "keep" },
+      },
+      {
+        name: "Silbo Gomero", wojak: "w_silbo", flag: "es", speakers: "Spanish", scene: "canary", loc: [28.1, -17.2, "La Gomera, Canary Islands"],
+        char: { skin: "olive", hair: "short", hairColor: "grey", outfit: { type: "shirt", color: "#f4f1e8", vest: "#7a2e2e" }, hat: { type: "widehat", color: "#d9b26f", color2: "#7a2e2e" }, expression: "open" },
+        cards: [
+          "On the Spanish island of La Gomera, a whole island can talk in whistles. Silbo Gomero turns Spanish into just two whistled vowels and four consonants.",
+          "A strong whistle carries for kilometres across the ravines. Since 1999 every child on the island learns it at school.",
+        ],
+        audio: { file: "Silbo.ogg", start: 0, voice: "keep" },
+      },
+    ],
+  },
 };

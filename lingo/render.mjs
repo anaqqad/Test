@@ -75,7 +75,7 @@ function storyPage(video, item, idx, dur, audio) {
   const accent = video.accent || "#d1495b";
   const n = item.cards.length, step = n > 1 ? Math.min(5.0, (dur - 1.1 - 2.2) / (n - 1)) : 0;
   const times = item.cards.map((_, i) => 1.1 + i * step);
-  const caps = audio?.captions || [];
+  const caps = item.noCaptions ? [] : audio?.captions || [];
   const listen = caps.length ? "" : `<div id="listen" class="abs pill"><span class="eq"><i></i><i></i><i></i><i></i></span>Listen</div>`;
   return `<!doctype html><html><head><meta charset="utf-8">${FONT_CSS}${item.script ? SCRIPT_CSS : ""}<style>${BASE_CSS}
   :root{--accent:${accent}}
@@ -154,7 +154,7 @@ function rankingPage(video, items, idx, dur, audio) {
   const stack = {};
   const placed = prev.map((p) => { const k = p.score; stack[k] = (stack[k] || 0) + 1; return { p, lvl: stack[k] - 1 }; });
   const curLvl = stack[item.score] || 0;
-  const caps = audio?.captions || [];
+  const caps = item.noCaptions ? [] : audio?.captions || [];
   return `<!doctype html><html><head><meta charset="utf-8">${FONT_CSS}<style>${BASE_CSS}
   :root{--accent:${accent}}
   body{background:radial-gradient(1400px 900px at 28% 55%, ${shade(accent, -0.55)} 0%, #0b0f1a 55%, #05070c 100%)}
