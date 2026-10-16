@@ -12,3 +12,4 @@ require __DIR__ . '/bhr-core/story.php';
 require __DIR__ . '/bhr-core/fields.php';
 require __DIR__ . '/bhr-core/routes.php';
 require __DIR__ . '/bhr-core/newsletter.php';
+require __DIR__ . '/bhr-core/map-api.php';

@@ -194,14 +194,94 @@ function bhr_render_section_page( $section, $with_map = false ) {
 		</div>
 	</header>
 	<?php if ( $with_map && ! $domain ) : ?>
-		<section class="map-section"><div class="wrap"><?php bhr_render_map(); ?></div></section>
+		<?php bhr_render_explorer(); ?>
 	<?php endif; ?>
-	<div class="wrap list-wrap">
+	<div class="wrap list-wrap<?php echo $with_map && ! $domain ? ' no-js-only' : ''; ?>">
 		<?php if ( $with_map && ! $domain ) : ?>
 			<h2 class="section-title list-title">All Global African History stories</h2>
 		<?php endif; ?>
 		<?php bhr_render_filters( $section ); ?>
 		<?php bhr_render_section_list( $section ); ?>
 	</div>
+	<?php
+}
+
+/**
+ * Interactive story map (Leaflet + Natural Earth boundaries). Assets are enqueued by the page template only.
+ * Without JavaScript the A–Z country list (links to country pages) and the server-rendered list below still work.
+ */
+function bhr_render_explorer() {
+	$counts = bhr_country_counts();
+	$eras   = array( '1300-1499' => '1300s–1400s', '1800-1899' => '1800s', '1900-1999' => '1900s', '2000-2099' => '2000s' );
+	?>
+	<section class="explorer" id="explorer"
+		data-api="<?php echo esc_url( rest_url( 'bhr/v1/map' ) ); ?>"
+		data-geo="<?php echo esc_url( add_query_arg( 'ver', BHR_VERSION, get_theme_file_uri( 'assets/map/world-110m.geojson' ) ) ); ?>">
+		<div class="wrap">
+			<div class="explorer-layout">
+				<aside class="explorer-side">
+					<details class="explorer-filters" open>
+						<summary class="explorer-heading">Filters: time, person, subject</summary>
+						<fieldset class="ex-group">
+							<legend>Time</legend>
+							<div class="ex-range">
+								<label>From <output class="ex-from-out"></output><input id="ex-from" type="range" step="10" aria-label="From year"></label>
+								<label>To <output class="ex-to-out"></output><input id="ex-to" type="range" step="10" aria-label="To year"></label>
+							</div>
+							<div class="ex-chips">
+								<?php foreach ( $eras as $range => $label ) : ?>
+									<button type="button" class="ex-chip" data-era="<?php echo esc_attr( $range ); ?>" aria-pressed="false"><?php echo esc_html( $label ); ?></button>
+								<?php endforeach; ?>
+							</div>
+						</fieldset>
+						<fieldset class="ex-group">
+							<legend>Person</legend>
+							<div class="ex-chips">
+								<button type="button" class="ex-chip" data-gender="" aria-pressed="true">Everyone</button>
+								<button type="button" class="ex-chip" data-gender="woman" aria-pressed="false">Women</button>
+								<button type="button" class="ex-chip" data-gender="man" aria-pressed="false">Men</button>
+								<button type="button" class="ex-chip" data-gender="group" aria-pressed="false">Groups / events</button>
+							</div>
+						</fieldset>
+						<div class="ex-selects">
+							<label>Subject<select id="ex-domain"></select></label>
+							<label>Section<select id="ex-section"></select></label>
+							<label>Country<select id="ex-country"></select></label>
+						</div>
+						<button type="button" class="btn btn--outline explorer-reset">Reset filters</button>
+					</details>
+					<section class="country-list" id="countries" aria-labelledby="countries-title">
+						<h2 id="countries-title" class="map-heading">Countries A–Z</h2>
+						<?php if ( $counts ) : ?>
+							<ul>
+								<?php foreach ( $counts as $iso => $c ) : ?>
+									<li><a data-iso="<?php echo esc_attr( $iso ); ?>" href="<?php echo esc_url( $c[2] ); ?>"><?php echo esc_html( $c[0] ); ?> <span class="count">(<?php echo (int) $c[1]; ?>)</span></a></li>
+								<?php endforeach; ?>
+							</ul>
+						<?php else : ?>
+							<p class="empty-note">Countries will appear here as stories are published.</p>
+						<?php endif; ?>
+					</section>
+				</aside>
+				<div class="explorer-main">
+					<div class="explorer-map" role="region" aria-label="Interactive map of stories. Click a red country to list its stories below; gold pins mark places.">
+						<img class="explorer-fallback" src="<?php echo esc_url( bhr_map_preview_url() ); ?>" width="960" height="500" alt="World map: countries with stories are highlighted in red" decoding="async">
+					</div>
+					<p class="explorer-legend"><span class="lg lg-red"></span> Country with stories <span class="lg lg-gold"></span> Place in a story · Drag to move, use + / − to zoom.</p>
+				</div>
+			</div>
+			<div class="explorer-results" aria-live="polite">
+				<header class="section-head">
+					<div>
+						<h2 class="section-title explorer-results-title">All stories</h2>
+						<p class="section-intro explorer-count"></p>
+					</div>
+					<button type="button" class="btn btn--outline explorer-clear-country" hidden>Show all countries</button>
+				</header>
+				<div class="grid grid--card explorer-grid"></div>
+				<p class="empty-note explorer-empty" hidden>No stories match these filters yet. Try a wider time range or another subject.</p>
+			</div>
+		</div>
+	</section>
 	<?php
 }

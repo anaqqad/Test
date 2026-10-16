@@ -34,7 +34,9 @@ add_action( 'init', function () {
 } );
 
 function bhr_reading_time( $post = null ) {
-	$words = str_word_count( wp_strip_all_tags( (string) get_post_field( 'post_content', $post ) ) );
+	// Strip block comments (<!-- wp:... -->) before counting; wp_strip_all_tags leaves them in.
+	$text  = preg_replace( '/<!--.*?-->/s', ' ', (string) get_post_field( 'post_content', $post ) );
+	$words = str_word_count( wp_strip_all_tags( $text ) );
 	return max( 1, (int) ceil( $words / 220 ) );
 }
 
@@ -81,14 +83,14 @@ function bhr_toc_prepare( $content, &$items ) {
 	}, $content );
 }
 
-// Table of contents on long articles: 3+ sections and 1,200+ words.
+// Table of contents on long articles: 4+ sections and 500+ words.
 add_filter( 'the_content', function ( $content ) {
 	if ( ! is_singular( array( 'post', 'story' ) ) || ! in_the_loop() || ! is_main_query() ) {
 		return $content;
 	}
 	$items   = array();
 	$content = bhr_toc_prepare( $content, $items );
-	if ( count( $items ) < 3 || str_word_count( wp_strip_all_tags( $content ) ) < 1200 ) {
+	if ( count( $items ) < 4 || str_word_count( wp_strip_all_tags( $content ) ) < 500 ) {
 		return $content;
 	}
 	$toc = '<nav class="toc" aria-label="In this story"><p class="toc-title">In this story</p><ol>';

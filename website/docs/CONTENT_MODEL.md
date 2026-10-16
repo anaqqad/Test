@@ -91,3 +91,27 @@ To check before publishing each one:
 Lighthouse 12.8.2 on `/`, `/global-african-history/`, a Story page: performance 100, accessibility 100, best
 practices 100 on mobile and desktop; LCP 1.5–1.7 s mobile, 0.3–0.4 s desktop; CLS ≤ 0.006. SEO score is limited only
 by the intentional `noindex` until launch. No horizontal scrolling at 375 px on 8 page types.
+
+## Interactive story map (GIS, added 2026-10-15)
+- Page: `/global-african-history/`. Built with **Leaflet 1.9.4** (open-source GIS library, BSD licence), self-hosted in
+  `theme/bhr/assets/leaflet/` and loaded **only on this page**. Boundaries: Natural Earth 1:110m as GeoJSON
+  (`assets/map/world-110m.geojson`, 50 KB gzipped, Western Sahara merged into Morocco, shapes crossing the 180° line
+  unwrapped). No tile server, no API key, no third-party requests.
+- Countries with matching stories are deep red; **gold pins** mark each story's place (several stories at one place
+  share a pin; the popup lists them). Clicking a country **keeps the map**, outlines it in gold, zooms to it and lists
+  its stories as cards **below the map**. Clicking it again, "Show all countries" or Reset goes back to all stories.
+- Filters (combine, instant): **Time** (from/to sliders + century buttons; a story matches when its life or key year
+  overlaps the range), **Person** (Everyone / Women / Men / Groups-events), **Subject**, **Section**, **Country**.
+- State is in the URL hash, e.g. `/global-african-history/#country=us&gender=woman&from=1900` — shareable; Back/Forward
+  work. (Not the query string: WordPress reads `?country=` / `?domain=` / `?gender=` as taxonomy queries.)
+- The Countries A–Z box is hidden while the map runs (the Country filter does the same job; owner, 2026-10-16).
+- Phones: folded "Filters" panel, map, results. No JavaScript: country list links to country pages, a
+  static map image and the server-rendered list.
+- Data: `GET /wp-json/bhr/v1/map` (published stories only; cached, cleared whenever a story changes).
+- New story data: taxonomy **Gender** (`woman`, `man`, `group`; both for a couple), fields **Map place**, **Map
+  latitude**, **Map longitude**, **Key year** (used when birth/death years are unknown). All 20 stories filled
+  (`website/scripts/set_map_data.php`); places from the "Location tag" in each `publish/reels/<slug>.md` (Bessie Coleman:
+  Le Crotoy, France; Matthew Henson: Washington, D.C., 1887, from their fact lists); key years: Mansa Musa 1324, Ellen
+  and William Craft 1848.
+- Measured: Lighthouse 100/100/100 (perf/a11y/best practices) on mobile and desktop; LCP 1.2 s mobile; no horizontal
+  scroll at 390 px.
