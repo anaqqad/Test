@@ -1427,8 +1427,8 @@ export const VIDEOS = {
     ],
   },
   whistled: {
-    title: "Languages Without Words be like",
-    part: "Part 1: Whistles",
+    title: "Whistled Languages be like",
+    part: "",
     layout: "story",
     counterLabel: "whistled",
     items: [

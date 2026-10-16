@@ -1,7 +1,7 @@
-# YouTube metadata: Languages Without Words be like
+# YouTube metadata: Whistled Languages be like
 
 ## Title
-Languages Without Words be like (Part 1)
+Whistled Languages be like
 
 ## Description
 Some languages don't need a voice at all. In these places people talk by whistling: real recordings of whistled Yoruba, Greek, Occitan, Turkish and Spanish.
@@ -32,7 +32,6 @@ Thumbnail photo: Valle Gran Rey, La Gomera by Llez, CC BY-SA 3.0, via Wikimedia 
 whistled languages, whistled language, Silbo Gomero, Kuşköy bird language, kuş dili, Sfyria, Antia, Aas Occitan whistle, Yoruba whistle, languages be like, linguistics, LingoDude
 
 ## Settings
-- Playlist: Languages Without Words (Part 2: drums is next)
 - Category: Education
 - Made for kids: No
 - Thumbnail: lingo/videos/thumbP_whistled.png
