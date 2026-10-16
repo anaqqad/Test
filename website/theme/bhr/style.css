@@ -523,3 +523,6 @@ details:not([open]) > .explorer-heading { margin-bottom: 0; }
 	.explorer .country-list ul { columns: 2; }
 }
 @media (min-width: 1024px) { .explorer-heading::after { display: none; } .explorer-heading { pointer-events: none; } }
+
+/* The Country filter replaces the A-Z box when the map runs; the box stays only without JavaScript. */
+.has-explorer .explorer .country-list { display: none; }

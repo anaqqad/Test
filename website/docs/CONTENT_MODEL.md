@@ -104,7 +104,8 @@ by the intentional `noindex` until launch. No horizontal scrolling at 375 px on 
   overlaps the range), **Person** (Everyone / Women / Men / Groups-events), **Subject**, **Section**, **Country**.
 - State is in the URL hash, e.g. `/global-african-history/#country=us&gender=woman&from=1900` — shareable; Back/Forward
   work. (Not the query string: WordPress reads `?country=` / `?domain=` / `?gender=` as taxonomy queries.)
-- Phones: country list, folded "Filters" panel, map, results. No JavaScript: country list links to country pages, a
+- The Countries A–Z box is hidden while the map runs (the Country filter does the same job; owner, 2026-10-16).
+- Phones: folded "Filters" panel, map, results. No JavaScript: country list links to country pages, a
   static map image and the server-rendered list.
 - Data: `GET /wp-json/bhr/v1/map` (published stories only; cached, cleared whenever a story changes).
 - New story data: taxonomy **Gender** (`woman`, `man`, `group`; both for a couple), fields **Map place**, **Map
