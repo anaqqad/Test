@@ -58,15 +58,18 @@ def fetch(m):
     if os.path.exists(path) and os.path.getsize(path) > 500:
         return path
     hdr = os.path.join(fa.CACHE, "raw", "_hdr.txt")
-    for i in range(8):
-        r = subprocess.run(["curl", "-s", "-D", hdr, "-w", "%{http_code}", "-A", fa.UA["User-Agent"], "-o", path, m["url"] if i % 2 == 0 else m["url_orig"]], capture_output=True, text=True)
+    # the mp3 transcode answers 429 + "retry-after: 10" while Commons generates it, then 200; the originals
+    # answer 429 + "retry-after: 600", so they are only tried once, at the very end
+    for i in range(26):
+        url = m["url"] if i < 25 else m["url_orig"]
+        r = subprocess.run(["curl", "-s", "-D", hdr, "-w", "%{http_code}", "-A", fa.UA["User-Agent"], "-o", path, url], capture_output=True, text=True)
         if r.stdout == "200" and os.path.getsize(path) > 500 and fa.duration(path) > 0.05:
-            time.sleep(6)
+            time.sleep(3)
             return path
         if os.path.exists(path):
             os.remove(path)  # an error page or a truncated file
         ra = re.search(r"(?im)^retry-after:\s*(\d+)", open(hdr).read() if os.path.exists(hdr) else "")
-        wait = min(300, int(ra.group(1))) if ra else 30 * (i + 1)
+        wait = min(120, int(ra.group(1)) + 2) if ra else 15
         print(f"    HTTP {r.stdout}, waiting {wait}s", flush=True)
         time.sleep(wait)
     return None
