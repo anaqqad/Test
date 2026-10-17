@@ -38,11 +38,38 @@ def choose(code, words):
     return picked
 
 
+def ll_meta(title):
+    """Lingua Libre files need no API call: always CC BY-SA 4.0, speaker in the name, URL from the md5 path."""
+    import hashlib, urllib.parse
+    name = title[5:].replace(" ", "_")
+    h = hashlib.md5(name.encode()).hexdigest()
+    q = urllib.parse.quote(name)  # the transcoded mp3 is served without the throttling the originals get
+    return {"title": title, "url": f"https://upload.wikimedia.org/wikipedia/commons/transcoded/{h[0]}/{h[:2]}/{q}/{q}.mp3",
+            "url_orig": f"https://upload.wikimedia.org/wikipedia/commons/{h[0]}/{h[:2]}/{q}",
+            "artist": speaker(title) + " (Lingua Libre)", "license": "CC BY-SA 4.0",
+            "page": "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_"))}
+
+
+def fetch(m):
+    """curl with our user agent; Commons throttles bursts, so pace the requests and back off on 429"""
+    import time
+    os.makedirs(os.path.join(fa.CACHE, "raw"), exist_ok=True)
+    path = os.path.join(fa.CACHE, "raw", re.sub(r"[^\w.-]", "_", m["title"][5:])[:80] + ".mp3")
+    if os.path.exists(path) and os.path.getsize(path) > 500:
+        return path
+    for i in range(6):
+        r = subprocess.run(["curl", "-s", "-w", "%{http_code}", "-A", fa.UA["User-Agent"], "-o", path, m["url"] if i < 3 else m["url_orig"]], capture_output=True, text=True)
+        if r.stdout == "200" and os.path.getsize(path) > 500:
+            time.sleep(2.5)
+            return path
+        print(f"    HTTP {r.stdout}, waiting {20 * (i + 1)}s", flush=True)
+        time.sleep(20 * (i + 1))
+    raise RuntimeError("download failed: " + m["title"])
+
+
 def clip(title, dst):
-    m = fa.info(title)
-    if not m:
-        return None
-    src = fa.download(m)
+    m = ll_meta(title)
+    src = fetch(m)
     fa.to_wav(src, dst, extra="silenceremove=start_periods=1:start_threshold=-42dB,areverse,silenceremove=start_periods=1:start_threshold=-42dB,areverse,loudnorm=I=-18:TP=-2")
     return m
 
