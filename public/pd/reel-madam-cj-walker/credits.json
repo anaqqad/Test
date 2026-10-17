@@ -1,0 +1,38 @@
+{
+ "portrait": {
+  "title": "Madam C. J. Walker, by Addison N. Scurlock",
+  "artist": "Addison N. Scurlock (Scurlock Studio); Smithsonian NMAH",
+  "date": "c. 1912",
+  "license": "Public domain (published before 1929)",
+  "source": "https://commons.wikimedia.org/wiki/File:Madam_C._J._Walker_by_Addison_N._Scurlock.jpg",
+  "width": 1280,
+  "height": 1886
+ },
+ "factory": {
+  "title": "Madam CJ Walker Manufacturing Company, Indianapolis, Indiana (1911)",
+  "artist": "unknown; Madam C. J. Walker Collection, Indiana Historical Society",
+  "date": "1911",
+  "license": "Public domain (published before 1929)",
+  "source": "https://commons.wikimedia.org/wiki/File:Madam_CJ_Walker_Manufacturing_Company,_Indianapolis,_Indiana_(1911).jpg",
+  "width": 1280,
+  "height": 990
+ },
+ "villa": {
+  "title": "Villa Lewaro, North Broadway, Irvington, Westchester County, NY (HABS NY-5618, photo 1)",
+  "artist": "Historic American Buildings Survey, Library of Congress",
+  "date": "after 1933",
+  "license": "Public domain (U.S. Government work, no known restrictions)",
+  "source": "https://www.loc.gov/item/ny1336/",
+  "width": 1024,
+  "height": 742
+ },
+ "prep": {
+  "title": "Madam C.J. Walker--Preparations (advertisement)",
+  "artist": "Madam C. J. Walker Mfg. Co.; Library of Congress Prints and Photographs, ppmsca 02902",
+  "date": "1920",
+  "license": "Public domain (published before 1929)",
+  "source": "https://www.loc.gov/item/2002716791/",
+  "width": 816,
+  "height": 1024
+ }
+}

@@ -1,0 +1,366 @@
+{
+ "id": "reel-madam-cj-walker",
+ "title": "Her Hair Fell Out. She Built an Empire.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Her hair fell out. She built an empire.",
+   "section": "hook",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.55,
+     0.24
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "hook": "Her hair fell out. *She built an empire.*"
+   },
+   "captions": false,
+   "speed": 1.15
+  },
+  {
+   "id": "name",
+   "text": "Meet Madam Walker.",
+   "section": "who",
+   "visual": {
+    "kind": "title",
+    "title": "Madam Walker",
+    "sub": "born Sarah Breedlove"
+   }
+  },
+  {
+   "id": "born",
+   "text": "Born Sarah Breedlove in 1867, on a Louisiana plantation, the first in her family born free.",
+   "section": "story",
+   "visual": {
+    "kind": "title",
+    "title": "Born free",
+    "sub": "Delta, Louisiana, 1867"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Delta",
+     "sub": "Louisiana"
+    }
+   }
+  },
+  {
+   "id": "orphan",
+   "text": "Orphaned at seven. Married at fourteen. A widow at twenty.",
+   "visual": {
+    "kind": "title",
+    "title": "Widowed",
+    "sub": "at twenty, with a daughter"
+   }
+  },
+  {
+   "id": "laundry",
+   "text": "In St. Louis, she washed clothes for a dollar fifty a day.",
+   "visual": {
+    "kind": "title",
+    "title": "$1.50 a day",
+    "sub": "washing clothes, St. Louis"
+   }
+  },
+  {
+   "id": "hair",
+   "text": "In the 1890s, a scalp disease took most of her hair. She went looking for a cure.",
+   "section": "turn",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.62
+    ],
+    "caption": "Madam C. J. Walker, by Addison Scurlock, c. 1912"
+   }
+  },
+  {
+   "id": "denver",
+   "text": "In 1905, she moved to Denver and sold her own hair grower door to door.",
+   "visual": {
+    "kind": "card",
+    "title": "Door to door",
+    "sub": "Denver, 1905",
+    "image": "prep",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Madam C. J. Walker Preparations, advertisement, 1920"
+   },
+   "overlays": {
+    "stamp": "1905"
+   }
+  },
+  {
+   "id": "factory",
+   "text": "By 1910, she had a factory and beauty school in Indianapolis.",
+   "visual": {
+    "kind": "card",
+    "image": "factory",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "The Madam C. J. Walker Mfg. Co., Indianapolis, 1911"
+   }
+  },
+  {
+   "id": "agents",
+   "text": "Thousands of Black women became Walker agents. One had earned five dollars a week as a maid. Now, 250.",
+   "visual": {
+    "kind": "title",
+    "title": "$5 a week",
+    "sub": "to $250 a week, 1917"
+   }
+  },
+  {
+   "id": "naacp",
+   "text": "In 1919, she gave five thousand dollars to the NAACP to fight lynching, its largest gift ever.",
+   "section": "legacy",
+   "visual": {
+    "kind": "title",
+    "title": "Against lynching",
+    "sub": "$5,000 to the NAACP, 1919"
+   }
+  },
+  {
+   "id": "villa",
+   "text": "She built a mansion on the Hudson, by a Black architect.",
+   "visual": {
+    "kind": "photo",
+    "image": "villa",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "id": "death",
+   "text": "She died there in 1919, at 51, worth over a million dollars. The washerwoman became one of America's richest Black women.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.62
+    ],
+    "caption": "Madam C. J. Walker, 1867-1919"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "section": "cta",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sources": {
+  "NWHM": {
+   "name": "National Women's History Museum: Madam C. J. Walker biography",
+   "url": "https://www.womenshistory.org/education-resources/biographies/madam-cj-walker"
+  },
+  "MCJW": {
+   "name": "Madam C. J. Walker official site (A'Lelia Bundles, biographer and great-great-granddaughter): About",
+   "url": "https://madamcjwalker.com/about/"
+  },
+  "IHS": {
+   "name": "Indiana Historical Society: Madam C. J. Walker",
+   "url": "https://indianahistory.org/blog/madam-c-j-walker/"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Madam C. J. Walker (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Madam_C._J._Walker"
+  },
+  "BIO": {
+   "name": "Biography.com: Madam C. J. Walker",
+   "url": "https://www.biography.com/business-leaders/madam-cj-walker"
+  },
+  "BUNDLES": {
+   "name": "A'Lelia Bundles (biographer): Madam C. J. Walker's first national convention, Aug 1917; NAACP pledge May 1919",
+   "url": "https://aleliabundles.com/2017/08/"
+  },
+  "NTHP": {
+   "name": "National Trust for Historic Preservation: Villa Lewaro",
+   "url": "https://savingplaces.org/stories/preserving-iconic-landmark-business-history-madam-cj-walker-villa-lewaro"
+  },
+  "HABS": {
+   "name": "Library of Congress, HABS NY-5618: Villa Lewaro (built 1918; architect Vertner Woodson Tandy, New York's first licensed Black architect)",
+   "url": "https://www.loc.gov/item/ny1336/"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born Sarah Breedlove, 23 Dec 1867, on a plantation in Delta, Louisiana; first child in the family born after Emancipation.",
+   "sources": [
+    "NWHM",
+    "MCJW",
+    "IHS"
+   ]
+  },
+  {
+   "beat": "orphan",
+   "claim": "Orphaned at seven; married Moses McWilliams at 14; widowed around 1887 (daughter Lelia born 1885).",
+   "sources": [
+    "NWHM",
+    "MCJW",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "laundry",
+   "claim": "Washerwoman in St. Louis for as little as $1.50 a day.",
+   "sources": [
+    "MCJW",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "hair",
+   "claim": "1890s scalp ailment made most of her hair fall out.",
+   "sources": [
+    "MCJW",
+    "NWHM",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "denver",
+   "claim": "Moved to Denver in 1905 (first as Annie Malone's agent), then sold her own hair grower.",
+   "sources": [
+    "NWHM",
+    "MCJW",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "factory",
+   "claim": "Headquarters in Indianapolis by 1910, with a factory and a beauty school.",
+   "sources": [
+    "NWHM",
+    "MCJW",
+    "IHS",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "agents",
+   "claim": "Several thousand agents; at the Aug 1917 convention Margaret Thompson said she had earned $5 a week as a servant and now $250 a week.",
+   "sources": [
+    "IHS",
+    "WIKI",
+    "BUNDLES"
+   ]
+  },
+  {
+   "beat": "naacp",
+   "claim": "May 1919 pledge of $5,000 to the NAACP anti-lynching fund; NAACP secretary Shillady called it the largest gift the Association had ever received.",
+   "sources": [
+    "BUNDLES",
+    "NWHM",
+    "MCJW"
+   ]
+  },
+  {
+   "beat": "villa",
+   "claim": "Villa Lewaro, Irvington-on-Hudson, built 1918, designed by African American architect Vertner Tandy.",
+   "sources": [
+    "HABS",
+    "BIO",
+    "NTHP"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died 25 May 1919 at Villa Lewaro, aged 51; total assets well over $1,000,000; one of the wealthiest Black women of her time.",
+   "sources": [
+    "MCJW",
+    "NWHM",
+    "IHS"
+   ]
+  }
+ ],
+ "notUsed": [
+  "'First self-made female millionaire' (Guinness): she denied being a millionaire in her lifetime (Indiana Historical Society) and others may have come before her; the reel says 'assets of more than a million dollars' and 'one of the richest'",
+  "Her savings on arriving in Denver ($1.25 / $1.50, varies by source)",
+  "Agent totals (several thousand / 23,000 / 40,000, varies by source)",
+  "Pittsburgh factory and school 1908",
+  "The $250 a week is Thompson's own claim at the convention"
+ ],
+ "faces": {
+  "portrait": [
+   [
+    0.38,
+    0.11,
+    0.72,
+    0.37
+   ]
+  ]
+ }
+}
