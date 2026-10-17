@@ -25,7 +25,7 @@ export const PHOTO_CREDITS = {
   ancient4: "Saona Island: photo by Danu Widjajanto, CC BY-SA 4.0, via Wikimedia Commons",
   ancient5: "Newfoundland landscape: photo by Chris Scott, CC BY 3.0, via Wikimedia Commons",
   whistled: "Valle Gran Rey, La Gomera: photo by Llez, CC BY-SA 3.0, via Wikimedia Commons",
-  similar: "Guadiana International Bridge (Spain-Portugal): photo by Curimedia, CC BY 2.0, via Wikimedia Commons",
+  similar: "Guadiana International Bridge (Spain-Portugal): photo by Benoît Prieur, CC0, via Wikimedia Commons",
   ancient6: "Mongolian steppes: photo by Francisco Anzola, CC BY 2.0, via Wikimedia Commons",
 };
 // Esperanto has its own flag, not in flag-icons: green field, white canton with a green star
@@ -41,7 +41,7 @@ const T = {
   english: { name: "Old English", photo: "bamburgh", pos: "50% 50%", flag: "gb-eng", hook: ["This Is", "English?!"],
     who: { skin: "pale", hair: "short", hairColor: "auburn", beard: true, beardColor: "#7a3b1c", outfit: { type: "tunic", color: "#2f5d3a", trim: "#c8a165" }, expression: "neutral" } },
   ancient4: { part: "PART 4", name: "Taíno", photo: "ancient4", pos: "50% 60%", flag: "do", hook: ["You Speak It", "Every Day"] },
-  similar: { name: "Spanish vs Portuguese", photo: "similar", pos: "50% 50%", flag: "es", flag2: "pt", img: "wojaks/similar.png", hook: ["Same", "Language?!"] },
+  similar: { name: "Spanish vs Portuguese", photo: "similar", pos: "50% 50%", flag: "es", flag2: "pt", imgH: 560, imgW: 760, hook: ["Same", "Language?!"] },
   whistled: { part: "PART 1", name: "Silbo Gomero", photo: "whistled", pos: "50% 50%", flag: "es", hook: ["NO", "WORDS"] },
   ancient5: { part: "PART 5", name: "Beothuk", photo: "ancient5", pos: "50% 50%", flag: "ca", hook: ["Not One", "Sentence Left"], hookSize: 86 },
   ancient6: { part: "PART 6", name: "Middle Mongolian", photo: "ancient6", pos: "50% 50%", flag: "mn", hook: ["Genghis Khan", "Spoke This"], hookSize: 86 },
@@ -58,7 +58,7 @@ const stroke = (w, c) => [...Array(16)].map((_, i) => { const a = (i / 16) * 2 *
 const page = (t) => `<!doctype html><meta charset="utf-8">${css}<style>*{margin:0;padding:0}body{width:1280px;height:720px;overflow:hidden;font-family:Montserrat;background:#000}.a{position:absolute}.a>svg{width:100%;height:100%}</style>
 <div class="a" style="inset:0;background:url('${url("cache/photos/" + t.photo + ".jpg")}') ${t.pos}/cover"></div>
 <div class="a" style="left:0;top:0;width:1280px;height:78px;background:#fff;text-align:center;font-weight:700;font-size:50px;line-height:80px;color:#111">${t.name}</div>
-${t.img ? `<img class="a" src="${url(t.img)}" style="left:0;bottom:0;height:560px;max-width:760px;object-fit:contain;object-position:left bottom">` : `<div class="a" style="left:-110px;top:40px;width:660px;height:950px">${wojak(t.who, "p")}</div>`}
+${t.img ? `<img class="a" src="${t.img}" style="left:0;bottom:0;height:${t.imgH || 640}px;max-width:${t.imgW || 600}px;object-fit:contain;object-position:left bottom">` : `<div class="a" style="left:-110px;top:40px;width:660px;height:950px">${wojak(t.who, "p")}</div>`}
 ${t.part ? `<div class="a" style="right:40px;top:328px;width:300px;text-align:center;background:#e8262b;color:#fff;font-weight:800;font-size:54px;padding:2px 0 6px;border:5px solid #fff;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.45)">${t.part}</div>` : ""}
 ${t.flag2 ? `<div class="a" style="right:360px;top:112px;width:300px;height:200px;background:url('${url("node_modules/flag-icons/flags/4x3/" + t.flag2 + ".svg")}') center/cover;box-shadow:0 6px 18px rgba(0,0,0,.45);border:5px solid #fff;border-radius:10px"></div>` : ""}
 <div class="a" style="right:40px;top:112px;width:300px;height:200px;background:url('${t.flagUrl || url("node_modules/flag-icons/flags/4x3/" + t.flag + ".svg")}') center/${t.flag === "np" ? "contain no-repeat" : "cover"};${t.flag === "np" ? "box-shadow:none;" : ""}box-shadow:0 6px 18px rgba(0,0,0,.45)"></div>
