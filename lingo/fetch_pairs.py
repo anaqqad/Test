@@ -57,19 +57,24 @@ def fetch(m):
     path = os.path.join(fa.CACHE, "raw", re.sub(r"[^\w.-]", "_", m["title"][5:])[:80] + ".mp3")
     if os.path.exists(path) and os.path.getsize(path) > 500:
         return path
-    for i in range(6):
-        r = subprocess.run(["curl", "-s", "-w", "%{http_code}", "-A", fa.UA["User-Agent"], "-o", path, m["url"] if i < 3 else m["url_orig"]], capture_output=True, text=True)
+    hdr = os.path.join(fa.CACHE, "raw", "_hdr.txt")
+    for i in range(8):
+        r = subprocess.run(["curl", "-s", "-D", hdr, "-w", "%{http_code}", "-A", fa.UA["User-Agent"], "-o", path, m["url"] if i % 2 == 0 else m["url_orig"]], capture_output=True, text=True)
         if r.stdout == "200" and os.path.getsize(path) > 500:
-            time.sleep(2.5)
+            time.sleep(6)
             return path
-        print(f"    HTTP {r.stdout}, waiting {20 * (i + 1)}s", flush=True)
-        time.sleep(20 * (i + 1))
-    raise RuntimeError("download failed: " + m["title"])
+        ra = re.search(r"(?im)^retry-after:\s*(\d+)", open(hdr).read() if os.path.exists(hdr) else "")
+        wait = min(300, int(ra.group(1))) if ra else 30 * (i + 1)
+        print(f"    HTTP {r.stdout}, waiting {wait}s", flush=True)
+        time.sleep(wait)
+    return None
 
 
 def clip(title, dst):
     m = ll_meta(title)
     src = fetch(m)
+    if not src:
+        return None
     fa.to_wav(src, dst, extra="silenceremove=start_periods=1:start_threshold=-42dB,areverse,silenceremove=start_periods=1:start_threshold=-42dB,areverse,loudnorm=I=-18:TP=-2")
     return m
 
