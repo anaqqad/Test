@@ -1,16 +1,21 @@
 # Audio for the "most similar languages" video: python3 fetch_pairs.py [pair ...]
-# For each pair, each test word is played in language A then language B (real Lingua Libre recordings from Wikimedia
-# Commons, one speaker per language where possible). Writes cache/audio/similar/<pair>.wav, manifest.json (captions with
-# the side that is speaking, credits) and out/similar_credits.txt. Word lists: similar_pairs.json; found recordings:
-# cache/similar_found.json (from the scratchpad search, copied here so the build is reproducible).
+# Every pair gets the SAME core words (Swadesh list, swadesh.json), played in language A then language B: real Lingua
+# Libre recordings from Wikimedia Commons, one speaker per language where possible. The first PLAY_N concepts of PLAY
+# that both languages have a recording for are played; the scores (similar_score.py) use all 41 concepts regardless.
+# Writes cache/audio/similar/<pair>.wav, manifest.json (captions, credits, scores) and out/similar_credits.txt.
+# Found recordings: cache/swadesh_found.json (Lingua Libre SPARQL lookup, find_pairs_ll.py).
 import json, os, re, subprocess, sys
 import fetch_audio as fa
+import similar_score as sc
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "cache", "audio", "similar")
 os.makedirs(OUT, exist_ok=True)
 PAIRS = json.load(open(os.path.join(HERE, "similar_pairs.json")))
-FOUND = json.load(open(os.path.join(HERE, "cache", "similar_found.json")))
+FOUND = json.load(open(os.path.join(HERE, "cache", "swadesh_found.json")))
+PLAY = ["water", "fire", "sun", "moon", "eye", "hand", "one", "three", "heart", "person", "book", "ear", "nose", "woman", "eat",
+        "dog", "house", "bread", "name", "night", "mother", "head", "stone", "white", "two", "tongue", "foot", "man", "milk", "fish"]
+PLAY_N = 10
 GAP_AB, GAP_WORDS, LEAD = 0.45, 1.0, 0.8
 SR = fa.SR
 
@@ -20,20 +25,21 @@ def speaker(title):
     return m.group(1) if m else ""
 
 
-def choose(code, words):
-    """one recording per word, preferring the speaker who recorded the most of this pair's words"""
-    hits = {w: FOUND.get(f"{code}|{w}", []) for w in words}
+def choose(code, concepts):
+    """one recording per concept (any spelling alternative), preferring the speaker who recorded the most of them"""
+    alts = {c: [w.strip() for w in sc.SW[c][code].split("/")] for c in concepts}
+    hits = {c: [(w, t) for w in alts[c] for t in FOUND.get(f"{code}|{w}", [])] for c in concepts}
     count = {}
-    for w, ts in hits.items():
-        for t in ts:
+    for c, ts in hits.items():
+        for _, t in ts:
             count[speaker(t)] = count.get(speaker(t), 0) + 1
     order = sorted(count, key=lambda s: -count[s])
     picked = {}
-    for w, ts in hits.items():
+    for c, ts in hits.items():
         for s in order:
-            t = next((x for x in ts if speaker(x) == s), None)
-            if t:
-                picked[w] = t
+            hit = next((x for x in ts if speaker(x[1]) == s), None)
+            if hit:
+                picked[c] = hit  # (word, file title)
                 break
     return picked
 
@@ -89,17 +95,16 @@ def clip(title, dst):
 
 
 def build(pk, p):
-    words = p["words"]
-    pa, pb = choose(p["a"], [w[0] for w in words]), choose(p["b"], [w[1] for w in words])
+    pa, pb = choose(p["a"], PLAY), choose(p["b"], PLAY)
+    concepts = [c for c in PLAY if c in pa and c in pb][:PLAY_N]
+    print("  playing:", ", ".join(concepts))
+    words = [(pa[c][0], pb[c][0], sc.cognate(pk, pa[c][0], pb[c][0]), c) for c in concepts]
     parts, caps, credits, t = [], [], [], LEAD
     tmp = os.path.join(fa.CACHE, "seq_pairs")
     os.makedirs(tmp, exist_ok=True)
-    for i, (wa, wb, same) in enumerate(words):
-        if wa not in pa or wb not in pb:
-            print(f"  skip {wa}/{wb}: no recording")
-            continue
+    for i, (wa, wb, same, c) in enumerate(words):
         row = {"a": wa, "b": wb, "same": same, "t": round(t, 2)}
-        for side, title in (("a", pa[wa]), ("b", pb[wb])):
+        for side, title in (("a", pa[c][1]), ("b", pb[c][1])):
             dst = os.path.join(tmp, f"{pk}_{i}_{side}.wav")
             m = clip(title, dst)
             if not m:
@@ -134,12 +139,18 @@ def build(pk, p):
     for m in credits:
         if m["title"] not in seen:
             seen.add(m["title"]); uniq.append(m)
-    return {"captions": caps, "credits": uniq, "len": round(total, 2), "words": [{"a": wa, "b": wb, "same": s} for wa, wb, s in words if wa in pa and wb in pb]}
+    return {"captions": caps, "credits": uniq, "len": round(total, 2), "score": sc.score(pk),
+            "words": [{"a": wa, "b": wb, "same": s, "c": c} for wa, wb, s, c in words]}
 
 
 if __name__ == "__main__":
     mpath = os.path.join(OUT, "manifest.json")
     manifest = json.load(open(mpath)) if os.path.exists(mpath) else {}
+    if "--rescore" in sys.argv:  # scores changed (similar_score.py), audio did not
+        for pk in manifest:
+            manifest[pk]["score"] = sc.score(pk)
+        json.dump(manifest, open(mpath, "w"), indent=1, ensure_ascii=False)
+        sys.exit()
     for pk in sys.argv[1:] or PAIRS:
         print(f"[{pk}]")
         try:

@@ -1,10 +1,12 @@
-# Look up the test words of similar_pairs.json in Lingua Libre's database (SPARQL) and write
-# cache/similar_found.json: {"<code>|<word>": ["File:LL-... .wav", ...]}. Fast: one query per language per pair.
-import json, os, time, urllib.parse, urllib.request
+# Look up the Swadesh core words (swadesh.json) of every language in similar_pairs.json in Lingua Libre's database
+# (SPARQL) and write cache/swadesh_found.json: {"<code>|<word>": ["File:LL-... .wav", ...]}. Fast: one query per
+# language. python3 find_pairs_ll.py [code ...]
+import json, os, sys, time, urllib.parse, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 P = json.load(open(os.path.join(HERE, "similar_pairs.json")))
-OUT = os.path.join(HERE, "cache", "similar_found.json")
+SW = json.load(open(os.path.join(HERE, "swadesh.json")))
+OUT = os.path.join(HERE, "cache", "swadesh_found.json")
 
 
 def sparql(q):
@@ -19,16 +21,18 @@ def sparql(q):
     return []
 
 
-found = {}
-for pk, p in P.items():
-    for side in ("a", "b"):
-        code, qid = p[side], p["ll"][p[side]]
-        words = [w[0 if side == "a" else 1] for w in p["words"]]
-        vals = " ".join('"' + w.replace('"', '\\"') + '"' for w in words)
-        for b in sparql(f'SELECT ?w ?f WHERE {{ VALUES ?w {{ {vals} }} ?r prop:P2 entity:Q2 ; prop:P4 entity:{qid} ; prop:P7 ?w ; prop:P3 ?f . }}'):
-            found.setdefault(f"{code}|{b['w']['value']}", []).append("File:" + urllib.parse.unquote(b["f"]["value"].split("/")[-1]))
-        missing = [w for w in words if not found.get(f"{code}|{w}")]
-        print(pk, code, "missing:", missing, flush=True)
-        time.sleep(0.3)
+langs = {code: qid for p in P.values() for code, qid in p["ll"].items()}
+found = json.load(open(OUT)) if os.path.exists(OUT) else {}
+for code in sys.argv[1:] or langs:
+    qid = langs[code]
+    words = sorted({w.strip() for c in SW if c != "_note" for w in SW[c].get(code, "").split("/") if w.strip()})
+    for k in [k for k in found if k.startswith(code + "|")]:
+        del found[k]
+    vals = " ".join('"' + w.replace('"', '\\"') + '"' for w in words)
+    for b in sparql(f'SELECT ?w ?f WHERE {{ VALUES ?w {{ {vals} }} ?r prop:P2 entity:Q2 ; prop:P4 entity:{qid} ; prop:P7 ?w ; prop:P3 ?f . }}'):
+        found.setdefault(f"{code}|{b['w']['value']}", []).append("File:" + urllib.parse.unquote(b["f"]["value"].split("/")[-1]))
+    have = [c for c in SW if c != "_note" and any(found.get(f"{code}|{w.strip()}") for w in SW[c].get(code, "").split("/"))]
+    print(code, f"{len(have)} of 41 concepts recorded", flush=True)
+    time.sleep(0.3)
 json.dump(found, open(OUT, "w"), ensure_ascii=False, indent=0)
 print("wrote", OUT, len(found))

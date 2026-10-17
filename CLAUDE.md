@@ -54,7 +54,7 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
 - Map-tour videos: `lingo/maptour.mjs` + `lingo/maptour_episodes.mjs` (done: `official`, Countries With the Most Official Languages).
   Saved idea the owner liked, **option 2**: `lingo/ideas/same_language_different_countries.md` (the original country says it first, then each other country's version, then the next language).
 - Thumbnails (`thumb_photo.mjs`): always the channel look: white name strip, photo, Wojak, flag, PART label for series, and the hook in **red** text with a white outline (owner: "keep it"). Never another hook colour.
-- Similar-languages video: `lingo/similar.mjs` + `similar_pairs.json` (two Wojaks per pair, same words in both languages from Lingua Libre; `find_pairs_ll.py` looks words up in Lingua Libre's SPARQL, `fetch_pairs.py` downloads the mp3 transcodes, Commons throttles the originals).
+- Similar-languages video: `lingo/similar.mjs` + `similar_pairs.json` + `swadesh.json` (owner: random words are no basis; every pair is scored on the same 41 Swadesh core words, `similar_score.py`: vocabulary = same root, sound = spelling edit distance, grammar = 6-point checklist, averaged to a %; 10 of the words are played per pair, real Lingua Libre recordings; `fetch_pairs.py` downloads the mp3 transcodes, `--rescore` refreshes scores only). Czech–Slovak and Danish–Norwegian dropped: no Czech/Danish core-word recordings on Lingua Libre.
 - Babies video: `lingo/babycry.mjs` (cries from public YouTube videos the owner is asking permission for; pitch traced with `baby_analyze.py`), Wojak crying babies `wojaks/baby_*.png`.
 
 ## Continue from here
