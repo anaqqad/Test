@@ -1,0 +1,608 @@
+{
+ "zsm_ind": {
+  "a": "zsm",
+  "b": "ind",
+  "na": "Malay",
+  "nb": "Indonesian",
+  "fa": "my",
+  "fb": "id",
+  "scene": "bougainville",
+  "ll": {
+   "zsm": "Q49",
+   "ind": "Q305"
+  },
+  "words": [
+   [
+    "air",
+    "air",
+    true
+   ],
+   [
+    "rumah",
+    "rumah",
+    true
+   ],
+   [
+    "makan",
+    "makan",
+    true
+   ],
+   [
+    "ikan",
+    "ikan",
+    true
+   ],
+   [
+    "hujan",
+    "hujan",
+    true
+   ],
+   [
+    "telur",
+    "telur",
+    true
+   ],
+   [
+    "bilik",
+    "kamar",
+    false
+   ],
+   [
+    "pokok",
+    "pohon",
+    false
+   ],
+   [
+    "basikal",
+    "sepeda",
+    false
+   ],
+   [
+    "budak",
+    "anak",
+    false
+   ]
+  ],
+  "cards": [
+   "Indonesian is a standardised form of Malay, so the basic words are identical. The everyday words drifted apart over the last century.",
+   "Careful with 'budak': in Malaysia it means child. In Indonesia it means slave."
+  ]
+ },
+ "tur_aze": {
+  "a": "tur",
+  "b": "aze",
+  "na": "Turkish",
+  "nb": "Azerbaijani",
+  "fa": "tr",
+  "fb": "az",
+  "scene": "caucasus",
+  "ll": {
+   "tur": "Q297",
+   "aze": "Q138"
+  },
+  "words": [
+   [
+    "ev",
+    "ev",
+    true
+   ],
+   [
+    "kitap",
+    "kitab",
+    true
+   ],
+   [
+    "kadın",
+    "qadın",
+    true
+   ],
+   [
+    "anne",
+    "ana",
+    true
+   ],
+   [
+    "gece",
+    "gecə",
+    true
+   ],
+   [
+    "teşekkürler",
+    "təşəkkür",
+    true
+   ],
+   [
+    "ekmek",
+    "çörək",
+    false
+   ],
+   [
+    "iyi",
+    "yaxşı",
+    false
+   ],
+   [
+    "köpek",
+    "it",
+    false
+   ]
+  ],
+  "cards": [
+   "Turks and Azerbaijanis can chat without a translator. Azerbaijani was simply called Turkish until the Soviets renamed it in the 1930s.",
+   "The slogan says it all: one nation, two states."
+  ]
+ },
+ "spa_por": {
+  "a": "spa",
+  "b": "por",
+  "na": "Spanish",
+  "nb": "Portuguese",
+  "fa": "es",
+  "fb": "pt",
+  "scene": "tuscany",
+  "ll": {
+   "spa": "Q386",
+   "por": "Q126"
+  },
+  "words": [
+   [
+    "agua",
+    "água",
+    true
+   ],
+   [
+    "noche",
+    "noite",
+    true
+   ],
+   [
+    "libro",
+    "livro",
+    true
+   ],
+   [
+    "tiempo",
+    "tempo",
+    true
+   ],
+   [
+    "cielo",
+    "céu",
+    true
+   ],
+   [
+    "hermano",
+    "irmão",
+    true
+   ],
+   [
+    "mesa",
+    "mesa",
+    true
+   ],
+   [
+    "ventana",
+    "janela",
+    false
+   ],
+   [
+    "perro",
+    "cão",
+    false
+   ],
+   [
+    "gracias",
+    "obrigado",
+    false
+   ]
+  ],
+  "cards": [
+   "On paper they share about 89% of their vocabulary. In real life, Portuguese speakers understand Spanish much better than the other way round.",
+   "Why? Portuguese has more vowel sounds and swallows syllables, so Spanish ears get lost."
+  ]
+ },
+ "cat_oci": {
+  "a": "cat",
+  "b": "oci",
+  "na": "Catalan",
+  "nb": "Occitan",
+  "fa": "es-ct",
+  "fb": "fr",
+  "scene": "alps",
+  "ll": {
+   "cat": "Q203",
+   "oci": "Q311"
+  },
+  "words": [
+   [
+    "aigua",
+    "aiga",
+    true
+   ],
+   [
+    "llibre",
+    "libre",
+    true
+   ],
+   [
+    "temps",
+    "temps",
+    true
+   ],
+   [
+    "taula",
+    "taula",
+    true
+   ],
+   [
+    "pa",
+    "pan",
+    true
+   ],
+   [
+    "mà",
+    "man",
+    true
+   ],
+   [
+    "casa",
+    "casa",
+    true
+   ],
+   [
+    "lluna",
+    "luna",
+    true
+   ],
+   [
+    "gos",
+    "can",
+    false
+   ],
+   [
+    "gràcies",
+    "mercés",
+    false
+   ]
+  ],
+  "cards": [
+   "Catalan and Occitan, the language of southern France, were once considered one language. Medieval poets wrote in both without noticing a border.",
+   "Catalan has 10 million speakers and its own TV channels. Occitan is down to a few hundred thousand, mostly older people."
+  ]
+ },
+ "ces_slk": {
+  "a": "ces",
+  "b": "slk",
+  "na": "Czech",
+  "nb": "Slovak",
+  "fa": "cz",
+  "fb": "sk",
+  "scene": "prague",
+  "ll": {
+   "ces": "Q392",
+   "slk": "Q301"
+  },
+  "words": [
+   [
+    "město",
+    "mesto",
+    true
+   ],
+   [
+    "auto",
+    "auto",
+    true
+   ],
+   [
+    "pivo",
+    "pivo",
+    true
+   ],
+   [
+    "banán",
+    "banán",
+    true
+   ],
+   [
+    "bohatý",
+    "bohatý",
+    true
+   ],
+   [
+    "bůh",
+    "boh",
+    true
+   ],
+   [
+    "myš",
+    "myš",
+    true
+   ],
+   [
+    "liška",
+    "líška",
+    true
+   ],
+   [
+    "čáp",
+    "bocian",
+    false
+   ],
+   [
+    "židle",
+    "stolička",
+    false
+   ]
+  ],
+  "cards": [
+   "Czechoslovakia split in 1993, but TV shows are still broadcast in both languages without subtitles.",
+   "Older people understand each other perfectly. Young Czechs, who grew up without Slovak TV, are starting to struggle."
+  ]
+ },
+ "bul_mkd": {
+  "a": "bul",
+  "b": "mkd",
+  "na": "Bulgarian",
+  "nb": "Macedonian",
+  "fa": "bg",
+  "fb": "mk",
+  "scene": "hills",
+  "ll": {
+   "bul": "Q204",
+   "mkd": "Q306"
+  },
+  "words": [
+   [
+    "вода",
+    "вода",
+    true
+   ],
+   [
+    "град",
+    "град",
+    true
+   ],
+   [
+    "куче",
+    "куче",
+    true
+   ],
+   [
+    "книга",
+    "книга",
+    true
+   ],
+   [
+    "жена",
+    "жена",
+    true
+   ],
+   [
+    "мляко",
+    "млеко",
+    true
+   ],
+   [
+    "слънце",
+    "сонце",
+    true
+   ],
+   [
+    "хляб",
+    "леб",
+    true
+   ]
+  ],
+  "cards": [
+   "Bulgaria officially considers Macedonian a dialect of Bulgarian. North Macedonia strongly disagrees.",
+   "Both dropped the noun cases that every other Slavic language still has, and both put 'the' at the end of the word."
+  ]
+ },
+ "hin_urd": {
+  "a": "hin",
+  "b": "urd",
+  "na": "Hindi",
+  "nb": "Urdu",
+  "fa": "in",
+  "fb": "pk",
+  "scene": "himalaya",
+  "ll": {
+   "hin": "Q123",
+   "urd": "Q124"
+  },
+  "words": [
+   [
+    "आज",
+    "آج",
+    true
+   ],
+   [
+    "आसमान",
+    "آسمان",
+    true
+   ],
+   [
+    "आँख",
+    "آنکھ",
+    true
+   ],
+   [
+    "आग",
+    "آگ",
+    true
+   ],
+   [
+    "इंसान",
+    "انسان",
+    true
+   ],
+   [
+    "ऊँट",
+    "اونٹ",
+    true
+   ],
+   [
+    "एक",
+    "ایک",
+    true
+   ],
+   [
+    "बादल",
+    "بادل",
+    true
+   ],
+   [
+    "बात",
+    "بات",
+    true
+   ],
+   [
+    "धन्यवाद",
+    "شکریہ",
+    false
+   ]
+  ],
+  "cards": [
+   "Spoken on the street, Hindi and Urdu are the same language: Bollywood films are understood in Pakistan word for word.",
+   "The split is in writing and in formal words: Hindi uses the Devanagari script and Sanskrit words, Urdu uses the Arabic script and Persian words. Even 'thank you' is different."
+  ]
+ },
+ "dan_nor": {
+  "a": "dan",
+  "b": "nor",
+  "na": "Danish",
+  "nb": "Norwegian",
+  "fa": "dk",
+  "fb": "no",
+  "scene": "copenhagen",
+  "ll": {
+   "dan": "Q300",
+   "nor": "Q45"
+  },
+  "words": [
+   [
+    "god",
+    "god",
+    true
+   ],
+   [
+    "regn",
+    "regn",
+    true
+   ],
+   [
+    "gås",
+    "gås",
+    true
+   ],
+   [
+    "gratis",
+    "gratis",
+    true
+   ],
+   [
+    "sytten",
+    "sytten",
+    true
+   ],
+   [
+    "Kærlighed",
+    "kjærlighet",
+    true
+   ],
+   [
+    "hensigt",
+    "hensikt",
+    true
+   ],
+   [
+    "blodtryk",
+    "blodtrykk",
+    true
+   ],
+   [
+    "betændelse",
+    "betennelse",
+    true
+   ],
+   [
+    "atomvåben",
+    "atomvåpen",
+    true
+   ]
+  ],
+  "cards": [
+   "Norway was ruled by Denmark for 400 years, so written Norwegian is almost Danish. The sound is another story.",
+   "Danes swallow their consonants, so Norwegians read Danish easily but struggle to hear it. The joke: Norwegian is Danish spoken in Swedish."
+  ]
+ },
+ "nld_afr": {
+  "a": "nld",
+  "b": "afr",
+  "na": "Dutch",
+  "nb": "Afrikaans",
+  "fa": "nl",
+  "fb": "za",
+  "scene": "savanna",
+  "ll": {
+   "nld": "Q35",
+   "afr": "Q150"
+  },
+  "words": [
+   [
+    "water",
+    "water",
+    true
+   ],
+   [
+    "huis",
+    "huis",
+    true
+   ],
+   [
+    "brood",
+    "brood",
+    true
+   ],
+   [
+    "goed",
+    "goed",
+    true
+   ],
+   [
+    "ik",
+    "ek",
+    true
+   ],
+   [
+    "kind",
+    "kind",
+    true
+   ],
+   [
+    "vrouw",
+    "vrou",
+    true
+   ],
+   [
+    "appel",
+    "appel",
+    true
+   ],
+   [
+    "vogel",
+    "voël",
+    true
+   ],
+   [
+    "hond",
+    "hond",
+    true
+   ]
+  ],
+  "cards": [
+   "Afrikaans grew out of the Dutch spoken at the Cape in the 1600s. Dutch speakers can read it almost without trying.",
+   "It threw away most of the grammar: no genders, no verb endings. Dutch 'ik ben, jij bent, hij is' becomes 'ek is, jy is, hy is'."
+  ]
+ }
+}

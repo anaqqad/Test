@@ -36,3 +36,31 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - Never print, log or commit API keys; secrets come from environment variables.
 - Ask before any paid API usage.
 - Don't touch unrelated projects or folders on this machine.
+
+# LingoDude (YouTube channel about languages): `lingo/`
+Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Extinct Languages be like" style
+(reference channel: youtube.com/@thatsquiteinteresting). Details: `lingo/README.md`, analysis: `lingo/ANALYSIS.md`.
+
+## Owner rules for these videos
+- Build **6 videos** around the same idea (keys in `lingo/videos.mjs`: extinct, niche, hardest, sounds, conlangs, revived; plus `soundlike` "Languages That Sound Like a Different Language", 2:38, done).
+- Topics must match the reference channel's style: meme-category titles ("X Languages be like…", rankings) + interesting
+  facts. No "Part 2" on the original six (they have no part 1). Exception: the AI-simulation series is a real series, "Extinct Languages Simulated by AI (Part 1)" is `ancient`; Part 2 (Lost empires) is `ancient2`, Part 3 (Medieval) is `ancient3`, Part 4 `ancient4`, Part 5 `ancient5` (follower requests), Part 6 `ancient6` (full sentences), all done. Thumbnails: `node thumb_ancient.mjs 1|2|3`. **Not** videos about one country or region (owner rejected "Italy's languages" and "Middle East").
+- **Only use sounds that were actually found**: real recordings from Wikimedia Commons. No synthesized speech or
+  generated music. A language with no recording found gets replaced or dropped, never faked.
+  Exception the owner asked for: `ancient` ("Extinct Languages Simulated by AI (Part 1)") uses Piper voices
+  reading scholarly IPA reconstructions (`lingo/sim_audio.py`, `lingo/ipa_say.py`), labelled "AI SIMULATION" on screen
+  and in the description. Tick YouTube's altered/synthetic content box for it.
+- Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).
+- Map-tour videos: `lingo/maptour.mjs` + `lingo/maptour_episodes.mjs` (done: `official`, Countries With the Most Official Languages).
+  Saved idea the owner liked, **option 2**: `lingo/ideas/same_language_different_countries.md` (the original country says it first, then each other country's version, then the next language).
+- Thumbnails (`thumb_photo.mjs`): always the channel look: white name strip, photo, Wojak, flag, PART label for series, and the hook in **red** text with a white outline (owner: "keep it"). Never another hook colour.
+- Babies video: `lingo/babycry.mjs` (cries from public YouTube videos the owner is asking permission for; pitch traced with `baby_analyze.py`), Wojak crying babies `wojaks/baby_*.png`.
+
+## Continue from here
+1. `cd lingo && npm i && pip install faster-whisper`
+2. `python3 fetch_audio.py` (resumable; cached clips are skipped. Commons answers HTTP 429 when downloading fast;
+   the script waits as long as Retry-After asks)
+3. `node render.mjs <video>` for each of the 6 → `lingo/out/<video>.mp4`; check stills first with `--still 3,12`.
+4. Look at each `out/<video>_credits.txt`; listen to the clips in `cache/audio/<video>/`, since the auto-pick
+   (Whisper language ID) can land on the wrong language in recordings that mix languages.
+5. MP4s are large: don't commit them; upload them to YouTube.
