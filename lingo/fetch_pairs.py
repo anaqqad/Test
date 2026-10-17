@@ -60,9 +60,11 @@ def fetch(m):
     hdr = os.path.join(fa.CACHE, "raw", "_hdr.txt")
     for i in range(8):
         r = subprocess.run(["curl", "-s", "-D", hdr, "-w", "%{http_code}", "-A", fa.UA["User-Agent"], "-o", path, m["url"] if i % 2 == 0 else m["url_orig"]], capture_output=True, text=True)
-        if r.stdout == "200" and os.path.getsize(path) > 500:
+        if r.stdout == "200" and os.path.getsize(path) > 500 and fa.duration(path) > 0.05:
             time.sleep(6)
             return path
+        if os.path.exists(path):
+            os.remove(path)  # an error page or a truncated file
         ra = re.search(r"(?im)^retry-after:\s*(\d+)", open(hdr).read() if os.path.exists(hdr) else "")
         wait = min(300, int(ra.group(1))) if ra else 30 * (i + 1)
         print(f"    HTTP {r.stdout}, waiting {wait}s", flush=True)
@@ -75,7 +77,11 @@ def clip(title, dst):
     src = fetch(m)
     if not src:
         return None
-    fa.to_wav(src, dst, extra="silenceremove=start_periods=1:start_threshold=-42dB,areverse,silenceremove=start_periods=1:start_threshold=-42dB,areverse,loudnorm=I=-18:TP=-2")
+    try:
+        fa.to_wav(src, dst, extra="silenceremove=start_periods=1:start_threshold=-42dB,areverse,silenceremove=start_periods=1:start_threshold=-42dB,areverse,loudnorm=I=-18:TP=-2")
+    except subprocess.CalledProcessError:
+        print("    unreadable file, skipped:", title, flush=True)
+        return None
     return m
 
 
