@@ -1,0 +1,384 @@
+{
+ "id": "reel-katherine-johnson",
+ "title": "John Glenn Wouldn't Fly Without Her",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "John Glenn wouldn't fly without her.",
+   "section": "hook",
+   "visual": {
+    "kind": "photo",
+    "image": "desk",
+    "focus": [
+     0.43,
+     0.28
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "hook": "John Glenn *wouldn't fly without her.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Katherine Johnson.",
+   "section": "who",
+   "visual": {
+    "kind": "title",
+    "title": "Katherine Johnson",
+    "sub": "NASA mathematician"
+   }
+  },
+  {
+   "id": "school",
+   "text": "Born in West Virginia in 1918, she finished college at eighteen, with top honors in math and French.",
+   "section": "story",
+   "visual": {
+    "kind": "title",
+    "title": "Top honors",
+    "sub": "at eighteen, 1937"
+   }
+  },
+  {
+   "id": "nasa",
+   "text": "In 1953, Langley hired her as a human computer, in a segregated unit of Black women.",
+   "visual": {
+    "kind": "title",
+    "title": "Human computer",
+    "sub": "Langley, Virginia, 1953"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Hampton",
+     "sub": "Virginia"
+    }
+   }
+  },
+  {
+   "id": "shepard",
+   "text": "In 1961, she calculated the flight path of the first American in space, Alan Shepard.",
+   "visual": {
+    "kind": "title",
+    "title": "Freedom 7",
+    "sub": "Alan Shepard, May 1961"
+   }
+  },
+  {
+   "id": "glenn",
+   "text": "In 1962, John Glenn was about to orbit the Earth. The new electronic computers had done the math.",
+   "section": "turn",
+   "visual": {
+    "kind": "card",
+    "image": "glenn",
+    "crop": [
+     0.1,
+     0.0,
+     0.9,
+     1.0
+    ],
+    "caption": "John Glenn boards Friendship 7, 1962"
+   },
+   "overlays": {
+    "stamp": "1962"
+   }
+  },
+  {
+   "id": "check",
+   "text": "Glenn didn't trust them. Get the girl, he said, to check the numbers. If she says they're good, I'm ready to go.",
+   "visual": {
+    "kind": "title",
+    "title": "Get the girl",
+    "sub": "to check the numbers"
+   }
+  },
+  {
+   "id": "launch",
+   "text": "She checked them by hand. And he flew.",
+   "visual": {
+    "kind": "photo",
+    "image": "launch",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   }
+  },
+  {
+   "id": "apollo",
+   "text": "She went on to help calculate the path to the Moon for Apollo 11.",
+   "visual": {
+    "kind": "title",
+    "title": "Apollo 11",
+    "sub": "to the Moon, 1969"
+   }
+  },
+  {
+   "id": "retire",
+   "text": "She retired in 1986, after 33 years and 26 research reports.",
+   "section": "legacy",
+   "visual": {
+    "kind": "card",
+    "image": "langley",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Katherine Johnson at NASA Langley, 2014"
+   }
+  },
+  {
+   "id": "medal",
+   "text": "In 2015, at 97, she received the Presidential Medal of Freedom.",
+   "visual": {
+    "kind": "card",
+    "image": "medal",
+    "crop": [
+     0.0,
+     0.0,
+     0.88,
+     1.0
+    ],
+    "caption": "Presidential Medal of Freedom, November 24, 2015"
+   }
+  },
+  {
+   "id": "legacy",
+   "text": "She died in 2020, at 101. The man who orbited the Earth trusted her more than the machine.",
+   "visual": {
+    "kind": "photo",
+    "image": "desk",
+    "focus": [
+     0.43,
+     0.28
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "section": "cta",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sources": {
+  "NASA": {
+   "name": "NASA Langley: Katherine Johnson Biography",
+   "url": "https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"
+  },
+  "NASA2": {
+   "name": "NASA History: Katherine Johnson, a lifetime of STEM",
+   "url": "https://www.nasa.gov/history/katherine-johnson-a-lifetime-of-stem/"
+  },
+  "NASA3": {
+   "name": "NASA: Celebrating the life and career of Katherine Johnson (2020)",
+   "url": "https://www.nasa.gov/image-article/celebrating-life-career-of-katherine-johnson/"
+  },
+  "CHM": {
+   "name": "Computer History Museum: Katherine Johnson, 2019 Fellow",
+   "url": "https://computerhistory.org/profile/katherine-johnson/"
+  },
+  "IEEE": {
+   "name": "IEEE Spectrum: Katherine Johnson, the Hidden Figures mathematician who got John Glenn into space",
+   "url": "https://spectrum.ieee.org/katherine-johnson-the-hidden-figures-mathematician-who-got-astronaut-john-glenn-into-space"
+  },
+  "SEN": {
+   "name": "Office of Sen. Capito: Virginians, West Virginians, NASA remember Katherine Johnson (2020)",
+   "url": "https://www.capito.senate.gov/news/in-the-news/virginians-west-virginians-nasa-remember-katherine-johnson-a-barrier-breaking-nasa-mathematician"
+  }
+ },
+ "facts": [
+  {
+   "beat": "hook",
+   "claim": "Glenn asked for Johnson to check the computer's orbital numbers by hand before Friendship 7; 'If she says they're good, then I'm ready to go.'",
+   "sources": [
+    "NASA",
+    "NASA3",
+    "IEEE"
+   ]
+  },
+  {
+   "beat": "school",
+   "claim": "Born 1918, White Sulphur Springs, W.Va.; graduated 1937 at 18, summa cum laude, B.S. mathematics and French.",
+   "sources": [
+    "NASA",
+    "NASA2",
+    "CHM"
+   ]
+  },
+  {
+   "beat": "nasa",
+   "claim": "Joined NACA Langley in 1953 in the all-Black West Area Computing section (Hampton, Virginia).",
+   "sources": [
+    "NASA",
+    "CHM"
+   ]
+  },
+  {
+   "beat": "shepard",
+   "claim": "Trajectory analysis for Shepard's Freedom 7, May 1961, America's first human spaceflight.",
+   "sources": [
+    "NASA",
+    "NASA3",
+    "CHM"
+   ]
+  },
+  {
+   "beat": "glenn",
+   "claim": "Friendship 7 launched 20 Feb 1962; the orbital numbers had been computed by NASA's electronic computers.",
+   "sources": [
+    "NASA",
+    "NASA3"
+   ]
+  },
+  {
+   "beat": "apollo",
+   "claim": "Helped calculate the Apollo 11 trajectory (1969 Moon landing).",
+   "sources": [
+    "NASA2",
+    "CHM"
+   ]
+  },
+  {
+   "beat": "retire",
+   "claim": "Retired 1986 after 33 years; authored or co-authored 26 research reports.",
+   "sources": [
+    "NASA",
+    "NASA2",
+    "CHM",
+    "SEN"
+   ]
+  },
+  {
+   "beat": "medal",
+   "claim": "Presidential Medal of Freedom from President Obama, 24 Nov 2015, aged 97.",
+   "sources": [
+    "NASA",
+    "CHM"
+   ]
+  },
+  {
+   "beat": "legacy",
+   "claim": "Died 24 Feb 2020 at 101.",
+   "sources": [
+    "NASA2",
+    "CHM",
+    "SEN"
+   ]
+  }
+ ],
+ "notUsed": [
+  "The film Hidden Figures compresses the check into a launch-day emergency; it took about two weeks in late 1961 / early 1962",
+  "Glenn's exact words vary slightly between sources; the NASA wording is used",
+  "The 2019 Congressional Gold Medal and the 2017 Langley facility named after her (not confirmed by two fetched sources)",
+  "Birth name Creola Katherine Coleman; Apollo 13 backup charts",
+  "IEEE Spectrum gives 1939 for her graduation; NASA and the Computer History Museum give 1937 (used)"
+ ],
+ "faces": {
+  "desk": [
+   [
+    0.26,
+    0.1,
+    0.6,
+    0.46
+   ]
+  ],
+  "glenn": [
+   [
+    0.4,
+    0.22,
+    0.53,
+    0.42
+   ]
+  ],
+  "langley": [
+   [
+    0.23,
+    0.12,
+    0.4,
+    0.36
+   ]
+  ],
+  "medal": [
+   [
+    0.19,
+    0.4,
+    0.31,
+    0.54
+   ],
+   [
+    0.38,
+    0.15,
+    0.48,
+    0.3
+   ],
+   [
+    0.71,
+    0.37,
+    0.83,
+    0.54
+   ]
+  ]
+ }
+}

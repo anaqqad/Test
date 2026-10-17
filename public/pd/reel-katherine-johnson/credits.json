@@ -1,0 +1,47 @@
+{
+ "desk": {
+  "title": "File:Katherine Johnson 1983.jpg",
+  "artist": "NASA",
+  "date": "1983",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_1983.jpg",
+  "width": 1280,
+  "height": 1600
+ },
+ "glenn": {
+  "title": "File:John Glenn Entering Friendship 7 - GPN-2000-000652.jpg",
+  "artist": "NASA",
+  "date": "1962-02-20",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:John_Glenn_Entering_Friendship_7_-_GPN-2000-000652.jpg",
+  "width": 1920,
+  "height": 1318
+ },
+ "langley": {
+  "title": "File:Katherine Johnson at NASA Langley in 2014.jpg",
+  "artist": "NASA Langley / David C. Bowman",
+  "date": "2014-03-20",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA_Langley_in_2014.jpg",
+  "width": 1920,
+  "height": 1439
+ },
+ "medal": {
+  "title": "File:Katherine Johnson Receives Presidential Medal of Freedom.jpg",
+  "artist": "NASA HQ / Bill Ingalls",
+  "date": "2015-11-24",
+  "license": "Public domain (NASA, no known copyright restrictions)",
+  "source": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_Receives_Presidential_Medal_of_Freedom.jpg",
+  "width": 1920,
+  "height": 1705
+ },
+ "launch": {
+  "title": "File:Launch of Friendship 7 - GPN-2000-000686.jpg",
+  "artist": "NASA",
+  "date": "1962-02-20",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Launch_of_Friendship_7_-_GPN-2000-000686.jpg",
+  "width": 1536,
+  "height": 1920
+ }
+}
