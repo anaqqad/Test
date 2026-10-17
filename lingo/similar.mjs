@@ -39,19 +39,19 @@ const CSS = `*{margin:0;padding:0;box-sizing:border-box}body{width:1920px;height
 .rank{right:40px;top:40px;font-weight:800;font-size:30px;color:#18181d}
 .who{bottom:0;width:560px;height:760px;display:flex;align-items:flex-end;justify-content:center;transform-origin:50% 100%}
 .who img{max-height:720px;max-width:560px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.4))}
-#panel{left:600px;top:150px;width:720px}
+#panel{left:570px;top:150px;width:780px}
 #meter{background:rgba(15,18,28,.88);border-radius:22px;padding:18px 26px;box-shadow:0 12px 30px rgba(0,0,0,.35)}
 #meter .t{font-weight:800;font-size:26px;letter-spacing:2px;color:#ffcf5c;text-transform:uppercase}
 #meter .n{font-weight:800;font-size:54px;line-height:1.1}
 #meter .bar{height:20px;border-radius:10px;background:rgba(255,255,255,.12);margin-top:10px;overflow:hidden}
 #meter .bar i{display:block;height:100%;width:0;border-radius:10px;background:linear-gradient(90deg,#4fc3ff,#34c759)}
-#rows{margin-top:16px;display:flex;flex-direction:column;gap:6px}
-.row{display:grid;grid-template-columns:1fr 54px 1fr;align-items:center;background:rgba(255,255,255,.94);color:#1d1d24;border-radius:14px;padding:6px 18px;font-weight:700;font-size:30px;opacity:0;transform:translateY(16px)}
+#rows{margin-top:14px;display:flex;flex-direction:column;gap:7px}
+.row{display:grid;grid-template-columns:1fr 60px 1fr;align-items:center;background:rgba(255,255,255,.94);color:#1d1d24;border-radius:14px;padding:8px 20px;font-weight:800;font-size:40px;opacity:0;transform:translateY(16px)}
 .row .wa{text-align:right}.row .wb{text-align:left}
-.row .m{text-align:center;font-size:30px}
+.row .m{text-align:center;font-size:34px}
 .row.on .wa,.row.on .wb{color:#1d1d24}.row .wa,.row .wb{color:#8a8f9c}
 .row.on.sa .wa{color:#e8262b}.row.on.sb .wb{color:#1d6fa5}
-.card{background:rgba(255,255,255,.96);color:#1d1d24;border-radius:20px;padding:20px 28px;font-weight:600;font-size:31px;line-height:1.32;box-shadow:0 12px 30px rgba(0,0,0,.35);border-left:9px solid #e8262b}
+.card{background:rgba(255,255,255,.96);color:#1d1d24;border-radius:20px;padding:20px 28px;font-weight:600;font-size:33px;line-height:1.32;box-shadow:0 12px 30px rgba(0,0,0,.35);border-left:9px solid #e8262b}
 .card b{color:#e8262b}
 #verdict{background:#1f7a4d;border-radius:20px;padding:18px 26px;font-weight:800;font-size:40px;line-height:1.2;box-shadow:0 12px 30px rgba(0,0,0,.35)}
 #big{left:600px;top:150px;width:720px;display:none}
@@ -100,7 +100,7 @@ for (const [idx, o] of order.entries()) {
     <div id="panel" class="a">
       <div id="meter"><div class="t">Words that sound alike</div><div class="n"><span id="mn">0 / ${rows.length}</span></div><div class="bar"><i id="mb"></i></div></div>
       <div id="rows">${rows.map((r, i) => `<div class="row" id="row${i}"><span class="wa">${esc(r.a)}</span><span class="m"></span><span class="wb">${esc(r.b)}</span></div>`).join("")}</div></div>
-    <div class="a" style="left:600px;top:170px;width:720px;display:flex;flex-direction:column;gap:22px">
+    <div class="a" style="left:570px;top:170px;width:780px;display:flex;flex-direction:column;gap:22px">
       <div data-in="${(end + 0.4).toFixed(2)}" class="f" id="verdict">✅ ${esc(verdict)}</div>
       ${p.cards.map((c, i) => `<div data-in="${(end + 1.2 + i * 3.0).toFixed(2)}" class="f card">${esc(c)}</div>`).join("")}</div>
     <div id="bar" class="a"><img src="${flag(p.fa)}">${esc(p.na)}<span class="vs">VS</span>${esc(p.nb)}<img src="${flag(p.fb)}"></div>
