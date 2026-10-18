@@ -34,9 +34,14 @@ for it in D["items"]:
     if not m:
         man[it["key"]] = None; print(it["key"], "no recording"); continue
     # punch: compress and lift the word so it lands harder than the rest of the mix
-    import subprocess
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", dst, "-af", "acompressor=threshold=-20dB:ratio=4:attack=5:release=80,volume=6dB,alimiter=limit=0.95", dst + ".p.wav"], check=True)
+    import re, subprocess
+    # loudnorm misjudges half-second clips, so normalise by peak instead: every word peaks at -1 dB, then compress
+    r = subprocess.run(["ffmpeg", "-i", dst, "-af", "volumedetect", "-f", "null", "-"], capture_output=True, text=True)
+    peak = float(re.search(r"max_volume: (-?[\d.]+) dB", r.stderr).group(1))
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", dst, "-af", f"volume={-1 - peak:.1f}dB,acompressor=threshold=-14dB:ratio=3:attack=5:release=80:makeup=3,alimiter=limit=0.95", dst + ".p.wav"], check=True)
     os.replace(dst + ".p.wav", dst)
+    r = subprocess.run(["ffmpeg", "-i", dst, "-af", "volumedetect", "-f", "null", "-"], capture_output=True, text=True)
+    print("   ", re.search(r"mean_volume: (-?[\d.]+) dB", r.stderr).group(0), re.search(r"max_volume: (-?[\d.]+) dB", r.stderr).group(0))
     p = parselmouth.Sound(dst).to_pitch(pitch_floor=60, pitch_ceiling=400).selected_array["frequency"]; p = p[p > 0]
     f0 = int(np.median(p)) if len(p) else 0
     man[it["key"]] = {"d": round(fa.duration(dst), 2), "f0": f0, "voice": "female" if f0 > 165 else "male", "ai": not it.get("rec"), "credit": m}
