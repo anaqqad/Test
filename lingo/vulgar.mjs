@@ -80,7 +80,7 @@ for (const [idx, it] of items.entries()) {
     <div class="a" id="flash" style="left:0;top:0;width:1920px;height:1080px;background:#e8262b;opacity:0;pointer-events:none"></div>
     <div class="a who" id="who">${wj(it) ? `<img src="${wj(it)}">` : ""}</div>
     <div id="panel" class="a">
-      <div data-in="0.3" class="f" id="meter"><div class="t">Vulgar words in the dictionary</div><div class="n" id="mn">0<small>IN THE DICTIONARY</small></div><div class="bar"><i id="mb"></i></div></div>
+      <div data-in="0.3" class="f" id="meter"><div class="t">Vulgar words in the dictionary</div><div class="n" id="mn">0<small>WORDS TAGGED VULGAR</small></div><div class="bar"><i id="mb"></i></div></div>
       <div data-in="${wordAt}" class="f" id="word"><div class="hd">Signature swear word</div><div class="w">${esc(it.word)}</div><div class="lit"><b>LITERALLY</b>${esc(it.lit)}</div>${m?.ai ? `<div class="norec">AI VOICE (no native recording exists yet)</div>` : ""}</div>
       ${it.cards.map((c, i) => `<div data-in="${(cardsAt + i * 3.6).toFixed(2)}" class="f card">${esc(c)}</div>`).join("")}</div>
     <div id="bar" class="a"><img src="${flag(it.flag)}">${esc(it.name)}</div>
