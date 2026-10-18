@@ -1,0 +1,47 @@
+{
+ "portrait2": {
+  "title": "File:Lewis latimer.jpg",
+  "artist": "unknown",
+  "date": "c. 1882",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Lewis_latimer.jpg",
+  "width": 1280,
+  "height": 1766
+ },
+ "portrait": {
+  "title": "File:Lewis latimer (fuller frame).jpg",
+  "artist": "unknown",
+  "date": "c. 1882",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Lewis_latimer_(fuller_frame).jpg",
+  "width": 1280,
+  "height": 2019
+ },
+ "couple": {
+  "title": "File:Mr. and Mrs. Lewis H. Latimer.jpg",
+  "artist": "unknown photographer",
+  "date": "1924",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Mr._and_Mrs._Lewis_H._Latimer.jpg",
+  "width": 1280,
+  "height": 2058
+ },
+ "patent": {
+  "title": "File:Latimer Pat252386 FirstPage.jpg",
+  "artist": "Lewis H. Latimer; U.S. Patent Office",
+  "date": "1882",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Latimer_Pat252386_FirstPage.jpg",
+  "width": 1280,
+  "height": 1852
+ },
+ "bulb": {
+  "title": "File:Light bulb by Lewis Latimer, 1883 - Museum of Science and Industry (Chicago) - DSC06448.JPG",
+  "artist": "Daderot",
+  "date": "2014",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Light_bulb_by_Lewis_Latimer,_1883_-_Museum_of_Science_and_Industry_(Chicago)_-_DSC06448.JPG",
+  "width": 1280,
+  "height": 1920
+ }
+}
