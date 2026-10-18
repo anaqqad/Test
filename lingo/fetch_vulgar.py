@@ -17,8 +17,12 @@ for it in D["items"]:
         import wave
         from piper import PiperVoice, SynthesisConfig
         raw = os.path.join(OUT, it["key"] + "_raw.wav")
-        with wave.open(raw, "wb") as w:
-            PiperVoice.load(os.path.join(HERE, "cache", "voices", it["tts"] + ".onnx")).synthesize_wav(it.get("tts_text", it["word"]), w, SynthesisConfig(length_scale=1.0))
+        if it.get("tts_ipa"):  # exact phonemes (a long rolled r for perkele)
+            import ipa_say
+            ipa_say.say(os.path.join(HERE, "cache", "voices", it["tts"] + ".onnx"), it["tts_ipa"], raw, 1.0)
+        else:
+            with wave.open(raw, "wb") as w:
+                PiperVoice.load(os.path.join(HERE, "cache", "voices", it["tts"] + ".onnx")).synthesize_wav(it.get("tts_text", it["word"]), w, SynthesisConfig(length_scale=1.0))
         fa.to_wav(raw, dst, extra="silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,loudnorm=I=-18:TP=-2")
         m = {"title": "AI voice", "artist": "Piper TTS voice " + it["tts"], "license": "MIT", "page": "https://github.com/rhasspy/piper"}
     elif it.get("rec"):
