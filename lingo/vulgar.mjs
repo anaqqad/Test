@@ -99,7 +99,8 @@ const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromi
 const clips = [];
 for (const [i, s] of scenes.entries()) {
   const f = path.join(TMP, `${String(i).padStart(2, "0")}_${s.name}.mp4`);
-  if (stills) await renderClip(browser, s.html, s.dur, f, String(stills).split(",").map(Number));
+  if (opt("mix", false) && fs.existsSync(f)) { /* --mix: audio only, the clips are reused */ }
+  else if (stills) await renderClip(browser, s.html, s.dur, f, String(stills).split(",").map(Number));
   else { await renderClip(browser, s.html, s.dur, f); console.log(`  ${s.name} (${s.dur}s)`); }
   clips.push(f);
 }
