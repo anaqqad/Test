@@ -1,0 +1,77 @@
+{
+ "English": {
+  "vulgarities": 3916,
+  "offensive terms": 1861,
+  "swear words": 62
+ },
+ "Spanish": {
+  "vulgarities": null,
+  "offensive terms": 93,
+  "swear words": 129
+ },
+ "French": {
+  "vulgarities": 438,
+  "offensive terms": 78,
+  "swear words": 5
+ },
+ "German": {
+  "vulgarities": 341,
+  "offensive terms": 140,
+  "swear words": 0
+ },
+ "Italian": {
+  "vulgarities": 642,
+  "offensive terms": 32,
+  "swear words": 8
+ },
+ "Portuguese": {
+  "vulgarities": 360,
+  "offensive terms": 86,
+  "swear words": 17
+ },
+ "Russian": {
+  "vulgarities": 539,
+  "offensive terms": 138,
+  "swear words": null
+ },
+ "Polish": {
+  "vulgarities": 586,
+  "offensive terms": 128,
+  "swear words": 1
+ },
+ "Dutch": {
+  "vulgarities": 243,
+  "offensive terms": 114,
+  "swear words": 0
+ },
+ "Arabic": {
+  "vulgarities": 19,
+  "offensive terms": 14,
+  "swear words": 0
+ },
+ "Turkish": {
+  "vulgarities": null,
+  "offensive terms": 40,
+  "swear words": 13
+ },
+ "Japanese": {
+  "vulgarities": 100,
+  "offensive terms": 73,
+  "swear words": 3
+ },
+ "Chinese": {
+  "vulgarities": 519,
+  "offensive terms": 192,
+  "swear words": 8
+ },
+ "Mandarin": {
+  "vulgarities": null,
+  "offensive terms": null,
+  "swear words": 0
+ },
+ "Hindi": {
+  "vulgarities": 54,
+  "offensive terms": 15,
+  "swear words": 0
+ }
+}

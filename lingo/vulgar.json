@@ -1,0 +1,190 @@
+{
+ "_note": "Ranking the World's Most Vulgar Languages: ranked by the number of words tagged 'vulgar' in the English Wiktionary (Category:<Language> vulgarities, counted 2026-10-18, cache/vulgar_counts.json). One signature swear word per language, spoken by a real Lingua Libre recording where one exists.",
+ "title": "Ranking the World's Most Vulgar Languages",
+ "items": [
+  {
+   "key": "deu",
+   "name": "German",
+   "flag": "de",
+   "count": 341,
+   "wojak": "s_deu",
+   "scene": "village",
+   "word": "Arschloch",
+   "lit": "arse hole",
+   "rec": "File:LL-Q188 (deu)-Harald Hostess (Claudius auf der Horst)-Arschloch.wav",
+   "cards": [
+    "Germans swear with the toilet, not with sex: 'Scheiße' does the job of half the English dictionary.",
+    "The insults are oddly musical. 'Arschgeige' is an arse violin, 'Backpfeifengesicht' a face that needs a slap."
+   ],
+   "rec_all": [
+    "File:LL-Q188 (deu)-Harald Hostess (Claudius auf der Horst)-Arschloch.wav"
+   ]
+  },
+  {
+   "key": "fin",
+   "name": "Finnish",
+   "flag": "fi",
+   "count": 350,
+   "wojak": "s_fin",
+   "scene": "forest",
+   "word": "perkele",
+   "lit": "the old thunder god",
+   "rec": null,
+   "cards": [
+    "Finland's favourite swear word is a pagan god: 'perkele' comes from Perkūnas, the Baltic god of thunder. Christianity turned him into the devil.",
+    "The rolled r is the point. Finns say a long 'perrrkele' is the most Finnish sound there is."
+   ],
+   "rec_all": []
+  },
+  {
+   "key": "por",
+   "name": "Portuguese",
+   "flag": "pt",
+   "count": 360,
+   "wojak": "s_por",
+   "scene": "adriatic",
+   "word": "caralho",
+   "lit": "the ship's crow's nest (and the c-word)",
+   "rec": "File:LL-Q5146 (por)-Santamarcanda-caralho.wav",
+   "cards": [
+    "Sailors called the lookout at the top of the mast the 'caralho', so 'go to the caralho' sounded like a punishment. A nice story, but linguists say the rude meaning came first.",
+    "Brazil and Portugal swear with the same words and different favourites: 'porra' every second sentence in Brazil, 'foda-se' in Lisbon."
+   ],
+   "rec_all": [
+    "File:LL-Q5146 (por)-Santamarcanda-caralho.wav",
+    "File:LL-Q5146 (por)-Nelson Ricardo 2500-caralho.wav",
+    "File:LL-Q5146 (por)-MedK1-caralho.wav"
+   ]
+  },
+  {
+   "key": "fra",
+   "name": "French",
+   "flag": "fr",
+   "count": 438,
+   "wojak": "s_fra",
+   "scene": "tuscany",
+   "word": "putain",
+   "lit": "whore, used like 'wow'",
+   "rec": "File:LL-Q150 (fra)-Lepticed7-putain.wav",
+   "cards": [
+    "In the south of France 'putain' is punctuation: surprise, joy, anger, or simply the start of a sentence.",
+    "'Merde' is the other classic, and actors say it to each other for good luck, the way English says 'break a leg'."
+   ],
+   "rec_all": [
+    "File:LL-Q150 (fra)-Lepticed7-putain.wav",
+    "File:LL-Q150 (fra)-LoquaxFR-putain.wav",
+    "File:LL-Q150 (fra)-Jérémy-Günther-Heinz Jähnick-putain.wav",
+    "File:LL-Q150 (fra)-Sartus85-putain.wav"
+   ]
+  },
+  {
+   "key": "zho",
+   "name": "Chinese",
+   "flag": "cn",
+   "count": 519,
+   "wojak": "s_zho",
+   "scene": "hongkong",
+   "word": "靠",
+   "lit": "to lean (the polite f-word)",
+   "rec": "File:LL-Q9192 (cmn)-Jouketou-靠.wav",
+   "cards": [
+    "Chinese swears with your family. The classic insult targets your mother, the strong version all eighteen generations of your ancestors.",
+    "'Kào' means 'to lean' and sounds like the real thing, so it became the version you can say in front of your parents."
+   ],
+   "rec_all": [
+    "File:LL-Q9192 (cmn)-Jouketou-靠.wav"
+   ]
+  },
+  {
+   "key": "rus",
+   "name": "Russian",
+   "flag": "ru",
+   "count": 539,
+   "wojak": "s_rus",
+   "scene": "steppe",
+   "word": "блин",
+   "lit": "pancake",
+   "rec": "File:LL-Q7737 (rus)-Tatiana Kerbush-блин.wav",
+   "cards": [
+    "Russian 'mat' is a whole grammar: four root words produce hundreds of nouns, verbs and adjectives. Since 2014 it is banned in films, theatre and media.",
+    "'Blin' means pancake. It is what you say instead, the way English says 'sugar'."
+   ],
+   "rec_all": [
+    "File:LL-Q7737 (rus)-Tatiana Kerbush-блин.wav"
+   ]
+  },
+  {
+   "key": "pol",
+   "name": "Polish",
+   "flag": "pl",
+   "count": 586,
+   "wojak": "s_pol",
+   "scene": "prague",
+   "word": "kurwa",
+   "lit": "whore, used as a comma",
+   "rec": "File:LL-Q809 (pol)-Gower-kurwa.wav",
+   "cards": [
+    "Poles joke that 'kurwa' is a comma. It is a noun, an interjection, a filler and a sigh, several times per sentence.",
+    "Add 'mać' (mother) and you get 'kurwa mać', the full-strength version."
+   ],
+   "rec_all": [
+    "File:LL-Q809 (pol)-Gower-kurwa.wav"
+   ]
+  },
+  {
+   "key": "ita",
+   "name": "Italian",
+   "flag": "it",
+   "count": 642,
+   "wojak": "s_ita",
+   "scene": "tuscany",
+   "word": "porca miseria",
+   "lit": "pig misery",
+   "rec": "File:LL-Q652 (ita)-XANA000-porca miseria.wav",
+   "cards": [
+    "Italians put a pig in front of anything to curse it: pig misery, pig Madonna, pig God.",
+    "That last kind, the 'bestemmia', is the real taboo: it is banned on television and was a criminal offence until 1999."
+   ],
+   "rec_all": [
+    "File:LL-Q652 (ita)-XANA000-porca miseria.wav"
+   ]
+  },
+  {
+   "key": "spa",
+   "name": "Spanish",
+   "flag": "es",
+   "count": 753,
+   "wojak": "s_spa",
+   "scene": "sierra",
+   "word": "hostia",
+   "lit": "the communion wafer",
+   "rec": "File:LL-Q1321 (spa)-Marreromarco-hostia.wav",
+   "cards": [
+    "Spain swears with the church: 'hostia' is the communion wafer, and it means 'damn', 'wow' and 'a punch in the face'.",
+    "The famous formula is 'me cago en…' (I shit on…), followed by anything: the sea, the milk, or God."
+   ],
+   "rec_all": [
+    "File:LL-Q1321 (spa)-Marreromarco-hostia.wav"
+   ]
+  },
+  {
+   "key": "eng",
+   "name": "English",
+   "flag": "gb",
+   "count": 3916,
+   "wojak": "english",
+   "scene": "moorland",
+   "word": "bloody",
+   "lit": "covered in blood",
+   "rec": "File:LL-Q1860 (eng)-Wodencafe-bloody.wav",
+   "cards": [
+    "In 1914 a single 'not bloody likely' on a London stage made the newspapers. Today it is the mildest word on this list.",
+    "Why so many? The dictionary knows its own language best: Wiktionary tags five times more English words as vulgar than any other language. Take the gold with a grain of salt."
+   ],
+   "rec_all": [
+    "File:LL-Q1860 (eng)-Wodencafe-bloody.wav",
+    "File:LL-Q1860 (eng)-Grendelkhan-bloody.wav"
+   ]
+  }
+ ]
+}
