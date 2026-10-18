@@ -15,10 +15,10 @@ Which pair did we miss? Tell us in the comments 👇
 0:37 #6 Dutch vs Afrikaans (84%: words 98%, sound 88%, grammar 67%)
 1:13 #5 Catalan vs Occitan (88%: words 90%, sound 73%, grammar 100%)
 1:50 #4 Spanish vs Portuguese (88%: words 95%, sound 68%, grammar 100%)
-2:27 #3 Bulgarian vs Macedonian (88%: words 93%, sound 71%, grammar 100%)
+2:26 #3 Bulgarian vs Macedonian (88%: words 93%, sound 71%, grammar 100%)
 3:00 #2 Hindi vs Urdu (89%: words 93%, sound 92%, grammar 83%)
-3:36 #1 Malay vs Indonesian (97%: words 95%, sound 96%, grammar 100%)
-4:15 Final ranking
+3:35 #1 Malay vs Indonesian (97%: words 95%, sound 96%, grammar 100%)
+4:14 Final ranking
 
 HOW THE SCORE WORKS
 Vocabulary = share of the 41 core words that come from the same root in both languages. Sound = average edit distance between the two spellings of each word (Hindi and Urdu romanised), so 100% means written identically. Grammar = how many of 6 features match: number of noun cases, number of genders, where the definite article goes, whether verbs change by person, basic word order, writing system. It is a fair, repeatable test, not a measure of full mutual intelligibility. Czech-Slovak and Danish-Norwegian are missing because there are no recordings of the core words in Czech and Danish on Lingua Libre yet, and we only use real recordings.
