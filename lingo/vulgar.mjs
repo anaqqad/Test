@@ -41,7 +41,7 @@ const CSS = `*{margin:0;padding:0;box-sizing:border-box}body{width:1920px;height
 #meter .n small{font-size:30px;color:#aab;font-weight:700;margin-left:14px;letter-spacing:1px}
 #meter .bar{height:26px;border-radius:13px;background:rgba(255,255,255,.12);margin-top:12px;overflow:hidden}
 #meter .bar i{display:block;height:100%;width:0;border-radius:13px;background:linear-gradient(90deg,#ffcf5c,#e8262b)}
-#word{background:rgba(255,255,255,.96);color:#1d1d24;border-radius:22px;padding:22px 32px;box-shadow:0 12px 30px rgba(0,0,0,.35);border-left:12px solid #e8262b}
+#word{transform-origin:50% 50%;background:rgba(255,255,255,.96);color:#1d1d24;border-radius:22px;padding:22px 32px;box-shadow:0 12px 30px rgba(0,0,0,.35);border-left:12px solid #e8262b}
 #word .hd{font-size:22px;font-weight:800;letter-spacing:2px;color:#8a8f9c;text-transform:uppercase}
 #word .w{font-weight:800;font-size:84px;line-height:1.1;color:#e8262b}
 #word .lit{font-weight:700;font-size:34px;color:#1d1d24;margin-top:4px}#word .lit b{color:#8a8f9c;font-weight:800;font-size:22px;letter-spacing:2px;margin-right:10px}
@@ -53,7 +53,10 @@ const S=window.__S, ease=(x)=>1-Math.pow(1-Math.min(1,Math.max(0,x)),3);
 window.setT=function(t){
   document.querySelectorAll('[data-in]').forEach(e=>{const i=+e.dataset.in,o=+(e.dataset.out||1e9);const v=ease((t-i)/0.4)*ease((o-t)/0.35);e.style.opacity=v;e.style.transform='translateY('+(1-v)*18+'px)';});
   const bar=document.getElementById('bar'); if(bar) bar.style.transform='translateY('+(-(1-ease(t/0.45))*140)+'px)';
-  const w=document.getElementById('who'); if(w){const on=(S.say||[]).some(s=>t>=s.t-0.05&&t<=s.t+s.d+0.2);const k=on?1+0.05*Math.abs(Math.sin(t*10)):1;w.style.transform='scale('+k.toFixed(3)+') translateY('+((1-ease(t/0.6))*140).toFixed(1)+'px)';w.style.filter=on?'brightness(1.1)':'brightness(.95)';}
+  const on=(S.say||[]).some(s=>t>=s.t-0.05&&t<=s.t+s.d+0.2);
+  const wd=document.getElementById('word'); if(wd){const k=on?1.06:1;wd.style.transform='scale('+k+')';wd.style.boxShadow=on?'0 0 0 8px rgba(232,38,43,.45), 0 12px 30px rgba(0,0,0,.35)':'';}
+  const fl=document.getElementById('flash'); if(fl) fl.style.opacity=on?0.22:0;
+  const w=document.getElementById('who'); if(w){const k=on?1+0.05*Math.abs(Math.sin(t*10)):1;w.style.transform='scale('+k.toFixed(3)+') translateY('+((1-ease(t/0.6))*140).toFixed(1)+'px)';w.style.filter=on?'brightness(1.1)':'brightness(.95)';}
   if(S.count!==undefined){const k=ease((t-0.8)/1.6);const n=document.getElementById('mn');if(n)n.firstChild.textContent=Math.round(S.count*k).toLocaleString('en-US');const b=document.getElementById('mb');if(b)b.style.width=(100*S.count*k/S.max)+'%';}
 };
 </script>`;
@@ -74,10 +77,11 @@ for (const [idx, it] of items.entries()) {
   const say = m ? [{ t: 4.2, d: m.d }, { t: 4.2 + m.d + 0.9, d: m.d }] : [];
   const wordAt = 3.6, cardsAt = m ? say[1].t + m.d + 1.2 : 6.5, dur = +(cardsAt + 8.5).toFixed(2);
   const html = `<div class="a" id="bg">${scene(it.scene, it.key)}</div>
+    <div class="a" id="flash" style="left:0;top:0;width:1920px;height:1080px;background:#e8262b;opacity:0;pointer-events:none"></div>
     <div class="a who" id="who">${wj(it) ? `<img src="${wj(it)}">` : ""}</div>
     <div id="panel" class="a">
-      <div data-in="0.3" class="f" id="meter"><div class="t">Vulgar words in the dictionary</div><div class="n" id="mn">0<small>WORDS TAGGED VULGAR ON WIKTIONARY</small></div><div class="bar"><i id="mb"></i></div></div>
-      <div data-in="${wordAt}" class="f" id="word"><div class="hd">Signature swear word</div><div class="w">${esc(it.word)}</div><div class="lit"><b>LITERALLY</b>${esc(it.lit)}</div>${m ? "" : `<div class="norec">No native recording of this word exists on Wikimedia Commons yet, so this one stays silent.</div>`}</div>
+      <div data-in="0.3" class="f" id="meter"><div class="t">Vulgar words in the dictionary</div><div class="n" id="mn">0<small>IN THE DICTIONARY</small></div><div class="bar"><i id="mb"></i></div></div>
+      <div data-in="${wordAt}" class="f" id="word"><div class="hd">Signature swear word</div><div class="w">${esc(it.word)}</div><div class="lit"><b>LITERALLY</b>${esc(it.lit)}</div>${m?.ai ? `<div class="norec">AI VOICE (no native recording exists yet)</div>` : ""}</div>
       ${it.cards.map((c, i) => `<div data-in="${(cardsAt + i * 3.6).toFixed(2)}" class="f card">${esc(c)}</div>`).join("")}</div>
     <div id="bar" class="a"><img src="${flag(it.flag)}">${esc(it.name)}</div>
     ${brand(`#${rank}`)}`;

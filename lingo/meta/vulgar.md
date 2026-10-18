@@ -6,22 +6,22 @@ Ranking the World's Most Vulgar Languages
 ## Description
 Which language has the most swear words? We ranked 10 languages by one measure, the same for all: the number of words tagged "vulgar" in the dictionary (the English Wiktionary, counted October 2026). For each language you get the count, one signature swear word with its literal meaning, spoken by a native speaker, and how that language likes to swear.
 
-Every voice is a real recording by a native speaker (Lingua Libre, via Wikimedia Commons). No recording of the Finnish word exists yet, so Finnish stays silent.
+Every voice is a real recording by a native speaker (Lingua Libre, via Wikimedia Commons). No native recording of the Finnish word exists, so a Finnish AI voice (Piper, fi_FI-harri) reads it, labelled AI VOICE on screen.
 
 Which language swears best? Tell us in the comments 👇
 
 0:00 Intro
 0:05 #10 German (341 vulgar words: Arschloch)
 0:20 #9 Finnish (350 vulgar words: perkele)
-0:35 #8 Portuguese (360 vulgar words: caralho)
-0:51 #7 French (438 vulgar words: putain)
-1:07 #6 Chinese (519 vulgar words: 靠)
-1:22 #5 Russian (539 vulgar words: блин)
-1:38 #4 Polish (586 vulgar words: kurwa)
-1:54 #3 Italian (642 vulgar words: porca miseria)
-2:10 #2 Spanish (753 vulgar words: hostia)
-2:26 #1 English (3,916 vulgar words: bloody)
-2:42 Final ranking
+0:38 #8 Portuguese (360 vulgar words: caralho)
+0:54 #7 French (438 vulgar words: putain)
+1:09 #6 Chinese (519 vulgar words: 靠)
+1:25 #5 Russian (539 vulgar words: блин)
+1:40 #4 Polish (586 vulgar words: kurwa)
+1:56 #3 Italian (642 vulgar words: porca miseria)
+2:13 #2 Spanish (753 vulgar words: hostia)
+2:29 #1 English (3,916 vulgar words: bloody)
+2:45 Final ranking
 
 HOW THE RANKING WORKS
 Wiktionary tags words with the same labels in every language. We counted the entries in each language's "vulgarities" category: English 3,916, Spanish 753, Italian 642, Polish 586, Russian 539, Chinese 519, French 438, Portuguese 360, Finnish 350, German 341. It is a fair ranking of one source, not a count of how many swear words a language "really" has: English is tagged most thoroughly because it is the dictionary's own language. Next in line: Dutch 243, Serbo-Croatian 206, Swedish 191, Czech 189, Greek 177, Romanian 163, Ukrainian 150, Korean 142, Turkish 139, Tagalog 135.
@@ -47,6 +47,6 @@ most vulgar languages, swear words, curse words in different languages, which la
 ## Settings
 - Category: Education
 - Made for kids: No
-- Altered or synthetic content: No (all real recordings)
+- Altered or synthetic content: YES (one word, Finnish, is read by an AI voice; everything else is real recordings)
 - Age restriction: none needed, but the words are shown in full, so expect limited ads to be possible; the English example is mild on purpose
 - Thumbnail: lingo/videos/thumbP_vulgar.png
