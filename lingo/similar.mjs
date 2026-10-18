@@ -47,8 +47,8 @@ const CSS = `*{margin:0;padding:0;box-sizing:border-box}body{width:1920px;height
 #meter .n{font-weight:800;font-size:54px;line-height:1.1}
 #meter .bar{height:20px;border-radius:10px;background:rgba(255,255,255,.12);margin-top:10px;overflow:hidden}
 #meter .bar i{display:block;height:100%;width:0;border-radius:10px;background:linear-gradient(90deg,#4fc3ff,#34c759)}
-#rows{margin-top:14px;display:flex;flex-direction:column;gap:7px}
-.row{display:grid;grid-template-columns:1fr 60px 1fr;align-items:center;background:rgba(255,255,255,.94);color:#1d1d24;border-radius:14px;padding:8px 20px;font-weight:800;font-size:40px;opacity:0;transform:translateY(16px)}
+#rows{margin-top:12px;display:flex;flex-direction:column;gap:6px}
+.row{display:grid;grid-template-columns:1fr 60px 1fr;align-items:center;background:rgba(255,255,255,.94);color:#1d1d24;border-radius:14px;height:60px;padding:0 20px;font-weight:800;font-size:38px;line-height:1;opacity:0;transform:translateY(16px)}
 .row .wa{text-align:right}.row .wb{text-align:left}
 .row .m{text-align:center;font-size:34px}
 .row.on .wa,.row.on .wb{color:#1d1d24}.row .wa,.row .wb{color:#8a8f9c}

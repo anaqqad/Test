@@ -25,23 +25,26 @@ def speaker(title):
     return m.group(1) if m else ""
 
 
-def choose(code, concepts):
-    """one recording per concept (any spelling alternative), preferring the speaker who recorded the most of them"""
-    alts = {c: [w.strip() for w in sc.SW[c][code].split("/")] for c in concepts}
-    hits = {c: [(w, t) for w in alts[c] for t in FOUND.get(f"{code}|{w}", [])] for c in concepts}
-    count = {}
-    for c, ts in hits.items():
-        for _, t in ts:
-            count[speaker(t)] = count.get(speaker(t), 0) + 1
-    order = sorted(count, key=lambda s: -count[s])
-    picked = {}
-    for c, ts in hits.items():
-        for s in order:
-            hit = next((x for x in ts if speaker(x[1]) == s), None)
-            if hit:
-                picked[c] = hit  # (word, file title)
-                break
-    return picked
+def coverage(code, concepts):
+    """speaker -> {concept: (word, file title)} over the spelling alternatives"""
+    cov = {}
+    for c in concepts:
+        for w in [w.strip() for w in sc.SW[c][code].split("/")]:
+            for t in FOUND.get(f"{code}|{w}", []):
+                if speaker(t):
+                    cov.setdefault(speaker(t), {}).setdefault(c, (w, t))
+    return cov
+
+
+def choose(pk, p, concepts):
+    """ONE speaker per language for the whole pair (the owner noticed the voice changing between words):
+    the two speakers who share the most of the concepts, then the first PLAY_N shared concepts"""
+    A, B = coverage(p["a"], concepts), coverage(p["b"], concepts)
+    best = max(((len(set(A[a]) & set(B[b])), a, b) for a in A for b in B))
+    _, sa, sb = best
+    shared = [c for c in concepts if c in A[sa] and c in B[sb]]
+    print(f"  speakers: {sa} / {sb} ({len(shared)} shared core words)")
+    return A[sa], B[sb], shared[:PLAY_N]
 
 
 def ll_meta(title):
@@ -95,8 +98,7 @@ def clip(title, dst):
 
 
 def build(pk, p):
-    pa, pb = choose(p["a"], PLAY), choose(p["b"], PLAY)
-    concepts = [c for c in PLAY if c in pa and c in pb][:PLAY_N]
+    pa, pb, concepts = choose(pk, p, PLAY)
     print("  playing:", ", ".join(concepts))
     words = [(pa[c][0], pb[c][0], sc.cognate(pk, pa[c][0], pb[c][0]), c) for c in concepts]
     parts, caps, credits, t = [], [], [], LEAD
