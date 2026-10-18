@@ -85,7 +85,6 @@ add("intro", 4.5, `<div class="a" id="bg" style="opacity:.35">${scene("abstract"
   <div class="a" style="left:0;top:0;width:1920px;height:1080px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
     <div data-in="0.2" class="f">${logoSvg(110)}</div>
     <div data-in="0.4" class="f" style="margin-top:40px;font-weight:800;font-size:92px;line-height:1.1;text-shadow:0 8px 40px rgba(0,0,0,.6);width:1500px">${esc(TITLE)}</div>
-    <div data-in="1.2" class="f" style="margin-top:34px;font-weight:800;font-size:40px;color:#ffcf5c;letter-spacing:4px">ONE SENTENCE · TWO LANGUAGES · AI VOICES</div>
     <div data-in="1.8" class="f" style="margin-top:50px;display:flex;gap:18px">${order.map((o) => `<img src="${flag(PAIRS[o.k].fa)}" style="height:52px;border-radius:6px"><img src="${flag(PAIRS[o.k].fb)}" style="height:52px;border-radius:6px;margin-right:16px">`).join("")}</div></div>`);
 
 for (const [idx, o] of order.entries()) {
