@@ -29,14 +29,17 @@
    "scene": "forest",
    "word": "perkele",
    "lit": "the old thunder god",
-   "rec": null,
+   "rec": "File:Fi-perkele.ogg",
    "cards": [
     "Finland's favourite swear word is a pagan god: 'perkele' comes from Perkūnas, the Baltic god of thunder. Christianity turned him into the devil.",
     "The rolled r is the point. Finns say a long 'perrrkele' is the most Finnish sound there is."
    ],
    "rec_all": [],
-   "tts": "fi_FI-harri-medium",
-   "tts_ipa": "pˈerːrkele!"
+   "credit": {
+    "artist": "Vassilik",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fi-perkele.ogg"
+   }
   },
   {
    "key": "por",

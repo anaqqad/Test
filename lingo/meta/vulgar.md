@@ -6,7 +6,7 @@ Ranking the World's Most Vulgar Languages
 ## Description
 Which language has the most swear words? We ranked 10 languages by one measure, the same for all: the number of words tagged "vulgar" in the dictionary (the English Wiktionary, counted October 2026). For each language you get the count, one signature swear word with its literal meaning, spoken by a native speaker, and how that language likes to swear.
 
-Every voice is a real recording by a native speaker (Lingua Libre, via Wikimedia Commons). No native recording of the Finnish word exists, so a Finnish AI voice (Piper, fi_FI-harri) reads it, labelled AI VOICE on screen.
+Every voice is a real recording by a native speaker (Lingua Libre, via Wikimedia Commons). 
 
 Which language swears best? Tell us in the comments 👇
 
@@ -26,8 +26,9 @@ Which language swears best? Tell us in the comments 👇
 HOW THE RANKING WORKS
 Wiktionary tags words with the same labels in every language. We counted the entries in each language's "vulgarities" category: English 3,916, Spanish 753, Italian 642, Polish 586, Russian 539, Chinese 519, French 438, Portuguese 360, Finnish 350, German 341. It is a fair ranking of one source, not a count of how many swear words a language "really" has: English is tagged most thoroughly because it is the dictionary's own language. Next in line: Dutch 243, Serbo-Croatian 206, Swedish 191, Czech 189, Greek 177, Romanian 163, Ukrainian 150, Korean 142, Turkish 139, Tagalog 135.
 
-RECORDINGS (Lingua Libre, CC BY-SA 4.0, via Wikimedia Commons: https://creativecommons.org/licenses/by-sa/4.0/)
+RECORDINGS (via Wikimedia Commons; Lingua Libre files CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/, Finnish CC BY-SA 3.0)
 - German: "LL-Q188 (deu)-Harald Hostess (Claudius auf der Horst)-Arschloch.wav" by Harald Hostess (Claudius auf der Horst) (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q188_%28deu%29-Harald_Hostess_%28Claudius_auf_der_Horst%29-Arschloch.wav
+- Finnish: "Fi-perkele.ogg" by Vassilik, CC BY-SA 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Fi-perkele.ogg
 - Portuguese: "LL-Q5146 (por)-Santamarcanda-caralho.wav" by Santamarcanda (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q5146_%28por%29-Santamarcanda-caralho.wav
 - French: "LL-Q150 (fra)-Lepticed7-putain.wav" by Lepticed7 (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q150_%28fra%29-Lepticed7-putain.wav
 - Chinese: "LL-Q9192 (cmn)-Jouketou-靠.wav" by Jouketou (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9192_%28cmn%29-Jouketou-%E9%9D%A0.wav
@@ -47,6 +48,6 @@ most vulgar languages, swear words, curse words in different languages, which la
 ## Settings
 - Category: Education
 - Made for kids: No
-- Altered or synthetic content: YES (one word, Finnish, is read by an AI voice; everything else is real recordings)
+- Altered or synthetic content: No (all real recordings)
 - Age restriction: none needed, but the words are shown in full, so expect limited ads to be possible; the English example is mild on purpose
 - Thumbnail: lingo/videos/thumbP_vulgar.png

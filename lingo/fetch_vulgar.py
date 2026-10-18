@@ -27,6 +27,8 @@ for it in D["items"]:
         m = {"title": "AI voice", "artist": "Piper TTS voice " + it["tts"], "license": "MIT", "page": "https://github.com/rhasspy/piper"}
     elif it.get("rec"):
         m = fp.clip(it["rec"], dst)
+        if m and it.get("credit"):  # a plain Commons file (not Lingua Libre): credit given in vulgar.json
+            m.update(it["credit"])
     else:
         m = None
     if not m:
