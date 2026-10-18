@@ -34,16 +34,18 @@
    "scene": "prague",
    "noncog": [
     "do",
+    "jednat",
     "nadáni",
-    "svědomím",
-    "spolu"
+    "spolu",
+    "svědomím"
    ],
    "noncog_b": [
-    "čo",
-    "týka",
     "ich",
+    "konať",
+    "navzájom",
     "obdarení",
-    "navzájom"
+    "týka",
+    "čo"
    ],
    "cards": [
     "Czechoslovakia split in 1993, but TV still runs in both languages without subtitles. The sentences are the same words with slightly different endings.",
@@ -157,11 +159,11 @@
   "spa": "Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia, deben comportarse fraternalmente los unos con los otros.",
   "por": "Todos os seres humanos nascem livres e iguais em dignidade e em direitos. Dotados de razão e de consciência, devem agir uns para com os outros em espírito de fraternidade.",
   "ces": "Všichni lidé rodí se svobodní a sobě rovní co do důstojnosti a práv. Jsou nadáni rozumem a svědomím a mají spolu jednat v duchu bratrství.",
-  "slk": "Všetci ľudia sa rodia slobodní a sebe rovní, čo sa týka ich dôstojnosti a práv. Sú obdarení rozumom a majú navzájom jednať v bratskom duchu.",
+  "slk": "Všetci ľudia sa rodia slobodní a sebe rovní, čo sa týka ich dôstojnosti a práv. Sú obdarení rozumom a majú navzájom konať v bratskom duchu.",
   "dan": "Alle mennesker er født frie og lige i værdighed og rettigheder. De er udstyret med fornuft og samvittighed, og de bør handle mod hverandre i en broderskabets ånd.",
   "nor": "Alle mennesker er født frie og med samme menneskeverd og menneskerettigheter. De er utstyrt med fornuft og samvittighet og bør handle mot hverandre i brorskapets ånd.",
   "swe": "Alla människor är födda fria och lika i värde och rättigheter. De har utrustats med förnuft och samvete och bör handla gentemot varandra i en anda av gemenskap.",
-  "rus": "Все люди рождаются свободными и равными в своем достоинстве и правах. Они наделены разумом и совестью и должны поступать в отношении друг друга в духе братства.",
+  "rus": "Все люди рождаются свободными и равными в своём достоинстве и правах. Они наделены разумом и совестью и должны поступать в отношении друг друга в духе братства.",
   "ukr": "Всі люди народжуються вільними і рівними у своїй гідності та правах. Вони наділені розумом і совістю і повинні діяти у відношенні один до одного в дусі братерства.",
   "nld": "Alle mensen worden vrij en gelijk in waardigheid en rechten geboren. Zij zijn begiftigd met verstand en geweten, en behoren zich jegens elkander in een geest van broederschap te gedragen.",
   "deu": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen."
