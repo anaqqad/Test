@@ -137,7 +137,11 @@ def synthesize(spec: dict, lead: float) -> tuple[np.ndarray, int, list[dict]]:
         next_text = texts[s + 1][:300] if s + 1 < len(texts) else ""
         name = beats[group[0]].get("section") or "intro"
         print(f"  section {s + 1}/{len(groups)} '{name}': {len(group)} beats")
-        audio, sr, al = _cached(spec["id"], voice, text, prev_text, next_text)
+        # the section's first beat may set its own "speed" (e.g. a faster hook); ElevenLabs allows 0.7-1.2
+        svoice = voice
+        if "speed" in beats[group[0]]:
+            svoice = {**voice, "speed": min(1.2, max(0.7, beats[group[0]]["speed"]))}
+        audio, sr, al = _cached(spec["id"], svoice, text, prev_text, next_text)
         sr_out = sr
         chars, cs, ce = al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]
         if "".join(chars) != text:

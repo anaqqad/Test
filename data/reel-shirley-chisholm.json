@@ -1,0 +1,368 @@
+{
+ "id": "reel-shirley-chisholm",
+ "title": "Unbought. Unbossed. First Black Woman in Congress.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Unbought, unbossed: first Black congresswoman.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Unbought. Unbossed. *First Black congresswoman.*"
+   },
+   "captions": false,
+   "speed": 1.2
+  },
+  {
+   "id": "name",
+   "text": "Meet Shirley Chisholm.",
+   "visual": {
+    "kind": "title",
+    "title": "Shirley Chisholm",
+    "sub": "1924-2005"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born in Brooklyn in 1924 to Caribbean immigrants, she spent part of her childhood in Barbados.",
+   "visual": {
+    "kind": "title",
+    "title": "Brooklyn, 1924",
+    "sub": "raised partly in Barbados"
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Brooklyn",
+     "sub": "New York"
+    }
+   }
+  },
+  {
+   "id": "teacher",
+   "text": "A nursery school teacher, she won a seat in the New York State Assembly in 1964.",
+   "visual": {
+    "kind": "title",
+    "title": "Teacher",
+    "sub": "then State Assembly, 1964"
+   }
+  },
+  {
+   "id": "congress",
+   "text": "In 1968, she ran for Congress under one slogan: Unbought and Unbossed. She won. The first Black woman ever elected.",
+   "visual": {
+    "kind": "card",
+    "image": "caucus",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.8
+    ],
+    "caption": "Rep. Shirley Chisholm, 1971"
+   },
+   "section": "turn",
+   "overlays": {
+    "stamp": "1968"
+   }
+  },
+  {
+   "id": "farm",
+   "text": "They put the Brooklyn congresswoman on the Agriculture Committee. She refused, and fought until they moved her.",
+   "visual": {
+    "kind": "title",
+    "title": "She refused",
+    "sub": "the Agriculture Committee, 1969"
+   }
+  },
+  {
+   "id": "caucus",
+   "text": "In 1971, she co-founded the Congressional Black Caucus.",
+   "visual": {
+    "kind": "title",
+    "title": "Black Caucus",
+    "sub": "co-founder, 1971"
+   }
+  },
+  {
+   "id": "run",
+   "text": "In 1972, she ran for president: the first Black candidate, and the first woman, to seek the Democratic nomination.",
+   "visual": {
+    "kind": "card",
+    "image": "c1972b",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Announcing her run for president, January 25, 1972"
+   },
+   "overlays": {
+    "stamp": "1972"
+   }
+  },
+  {
+   "id": "votes",
+   "text": "At the convention she won 152 delegate votes, about ten percent.",
+   "visual": {
+    "kind": "card",
+    "title": "152 votes",
+    "sub": "Democratic convention, 1972",
+    "image": "convention",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.7
+    ],
+    "caption": "Democratic National Convention, Miami Beach, July 12, 1972"
+   }
+  },
+  {
+   "id": "terms",
+   "text": "She served seven terms, until 1983, and helped create the WIC program for mothers and children.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "death",
+   "text": "She died on New Year's Day, 2005. In 2015, she received the Presidential Medal of Freedom.",
+   "visual": {
+    "kind": "title",
+    "title": "Medal of Freedom",
+    "sub": "awarded in 2015"
+   }
+  },
+  {
+   "id": "end",
+   "text": "Unbought. Unbossed. The first Black woman in Congress.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.75
+    ],
+    "caption": "Shirley Chisholm, 1924-2005"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "HOUSE": {
+   "name": "U.S. House of Representatives, History, Art & Archives: Chisholm, Shirley Anita",
+   "url": "https://history.house.gov/People/Detail/10918"
+  },
+  "NWHM": {
+   "name": "National Women's History Museum: Shirley Chisholm",
+   "url": "https://www.womenshistory.org/education-resources/biographies/shirley-chisholm"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Shirley Chisholm (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Shirley_Chisholm"
+  },
+  "WH": {
+   "name": "The White House (Obama archives): President Obama names recipients of the Presidential Medal of Freedom, 16 Nov 2015",
+   "url": "https://obamawhitehouse.archives.gov/the-press-office/2015/11/16/president-obama-names-recipients-presidential-medal-freedom"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born 30 Nov 1924, Brooklyn; father from Guyana, mother from Barbados; lived in Barbados as a child (about 1929-34).",
+   "sources": [
+    "HOUSE",
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "teacher",
+   "claim": "Nursery school teacher, day care director; New York State Assembly from 1964/65 to 1968.",
+   "sources": [
+    "HOUSE",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "congress",
+   "claim": "Elected 1968, NY 12th district; motto Unbought and Unbossed; first Black woman elected to Congress.",
+   "sources": [
+    "HOUSE",
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "farm",
+   "claim": "Assigned to Agriculture; protested to Speaker McCormack and the caucus; reassigned to Veterans' Affairs.",
+   "sources": [
+    "HOUSE",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "caucus",
+   "claim": "Founding member of the Congressional Black Caucus (1971) and the National Women's Political Caucus.",
+   "sources": [
+    "HOUSE",
+    "WIKI",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "run",
+   "claim": "1972: first Black candidate to seek a major party's presidential nomination, first woman to seek the Democratic nomination.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "votes",
+   "claim": "152 delegate votes at the 1972 convention, about 10 percent.",
+   "sources": [
+    "HOUSE",
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "terms",
+   "claim": "Seven terms, 1969-1983; worked to expand food stamps and helped create WIC.",
+   "sources": [
+    "HOUSE",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died 1 Jan 2005, Ormond Beach, Florida; posthumous Presidential Medal of Freedom 2015.",
+   "sources": [
+    "HOUSE",
+    "WIKI",
+    "WH"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Her 1972 hospital visit to George Wallace",
+  "Columbia master's year (1951 or 1952, sources differ)",
+  "Number of primaries / states (12 or 14, sources differ)"
+ ],
+ "faces": {
+  "portrait": [
+   [
+    0.3,
+    0.1,
+    0.75,
+    0.4
+   ]
+  ],
+  "c1972b": [
+   [
+    0.3,
+    0.15,
+    0.6,
+    0.65
+   ]
+  ],
+  "convention": [
+   [
+    0.37,
+    0.18,
+    0.55,
+    0.32
+   ]
+  ],
+  "caucus": [
+   [
+    0.3,
+    0.2,
+    0.65,
+    0.55
+   ],
+   [
+    0.75,
+    0.35,
+    0.95,
+    0.5
+   ]
+  ]
+ }
+}
