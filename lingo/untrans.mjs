@@ -82,13 +82,13 @@ for (const [idx, it] of items.entries()) {
   const countAt = enAt + m.de + 0.6, factAt = countAt + 2.2, dur = +(factAt + 6.5).toFixed(2);
   const tr = it.translation.split(/\s+/).map((w) => `<span class="c">${esc(w)}</span>`).join(" ");
   const html = `<div class="a" id="bg">${scene(it.scene, it.key)}</div>
-    <div class="a who" id="who_a" style="left:10px">${wj([m.voice === "female" ? it.wojak + "_f" : "", it.wojak]) ? `<img src="${wj([m.voice === "female" ? it.wojak + "_f" : "", it.wojak])}">` : ""}</div>
+    <div class="a who" id="who_a" style="left:10px">${wj([(it.voice || m.voice) === "female" ? it.wojak + "_f" : "", it.wojak]) ? `<img src="${wj([(it.voice || m.voice) === "female" ? it.wojak + "_f" : "", it.wojak])}">` : ""}</div>
     <div class="a who" id="who_b" style="right:10px">${wj([D.english_wojak]) ? `<img src="${wj([D.english_wojak])}">` : ""}</div>
     <div class="a lab" style="left:40px"><img src="${flag(it.flag)}">${esc(it.name)}</div>
     <div class="a lab" style="right:40px">English<img src="${flag("gb")}"></div>
     <div class="a ai">ENGLISH: AI VOICE</div>
     <div id="panel" class="a">
-      <div class="say sa" id="say_a"><div class="hd"><img src="${flag(it.flag)}">${esc(it.name)}</div><div class="w">${esc(it.word)}</div>${it.roman ? `<div class="rom">${esc(it.roman)}</div>` : ""}<div class="lit"><b>LITERALLY</b>${esc(it.literal)}</div></div>
+      <div class="say sa" id="say_a"><div class="hd"><img src="${flag(it.flag)}">${esc(it.name)}</div><div class="w">${esc(it.word)}</div>${it.roman ? `<div class="rom">${esc(it.roman)}</div>` : ""}</div>
       <div class="say sb" id="say_b"><div class="hd"><img src="${flag("gb")}">English, as many words as it takes</div><div class="tr">${tr}</div></div>
       <div data-in="${countAt.toFixed(2)}" class="f" id="count"><span>ENGLISH WORDS NEEDED</span><b id="cn">0</b></div>
       <div data-in="${factAt.toFixed(2)}" class="f card">${esc(it.fact)}</div></div>
