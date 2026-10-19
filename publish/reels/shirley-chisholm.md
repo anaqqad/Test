@@ -63,3 +63,4 @@ Frame 0 (upload `publish/reels/shirley-chisholm.hook.jpg` as the cover): Chishol
 - Not used: her hospital visit to George Wallace in 1972; the number of primaries she entered (12 or 14, sources differ); the year of her Columbia master's (1951 or 1952).
 - Photos: all Library of Congress, U.S. News & World Report collection, "no known restrictions"; film borders trimmed. Credits in `public/pd/reel-shirley-chisholm/credits.json`.
 - Pipeline change in this reel: `scripts/tts_elevenlabs.py` now honours a beat-level `"speed"` on the first beat of a section (clamped to ElevenLabs' 0.7-1.2), used here for the hook.
+- Hook pace: the owner asked for "Unbought, unbossed" to be said more slowly, so the hook runs at speed 1.1 with a pause after "unbossed" and ends at 2.6 s, 0.1 s over the usual 2.5 s rule (a deliberate exception).

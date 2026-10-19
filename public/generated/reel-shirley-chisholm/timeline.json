@@ -1,952 +1,952 @@
 {
  "fps": 30,
- "durationInFrames": 2021,
+ "durationInFrames": 2035,
  "voice": "Andrew - Smooth audio books",
  "engine": "elevenlabs eleven_multilingual_v2",
  "words": 165,
- "wpm": 147.0,
+ "wpm": 145.9,
  "beats": [
   {
    "id": "hook",
-   "speechEnd": 2.183,
+   "speechEnd": 2.601,
    "words": [
     {
      "text": "Unbought,",
      "start": 0.0,
-     "end": 0.441
+     "end": 0.511
     },
     {
-     "text": "unbossed:",
-     "start": 0.534,
-     "end": 1.022
+     "text": "unbossed.",
+     "start": 0.615,
+     "end": 1.184
     },
     {
-     "text": "first",
-     "start": 1.149,
-     "end": 1.347
+     "text": "First",
+     "start": 1.37,
+     "end": 1.591
     },
     {
      "text": "Black",
-     "start": 1.37,
-     "end": 1.521
+     "start": 1.625,
+     "end": 1.811
     },
     {
      "text": "congresswoman.",
-     "start": 1.556,
-     "end": 2.183
+     "start": 1.858,
+     "end": 2.601
     }
    ],
    "cues": {},
    "startFrame": 0,
-   "endFrame": 77
+   "endFrame": 90
   },
   {
    "id": "name",
-   "speechEnd": 3.844,
+   "speechEnd": 4.308,
    "words": [
     {
      "text": "Meet",
-     "start": 2.683,
-     "end": 2.904
+     "start": 3.101,
+     "end": 3.345
     },
     {
      "text": "Shirley",
-     "start": 2.962,
-     "end": 3.252
+     "start": 3.403,
+     "end": 3.693
     },
     {
      "text": "Chisholm.",
-     "start": 3.298,
-     "end": 3.844
+     "start": 3.74,
+     "end": 4.308
     }
    ],
    "cues": {},
-   "startFrame": 77,
-   "endFrame": 127
+   "startFrame": 90,
+   "endFrame": 141
   },
   {
    "id": "born",
-   "speechEnd": 9.429,
+   "speechEnd": 9.893,
    "words": [
     {
      "text": "Born",
-     "start": 4.344,
-     "end": 4.599
+     "start": 4.808,
+     "end": 5.063
     },
     {
      "text": "in",
-     "start": 4.634,
-     "end": 4.681
-    },
-    {
-     "text": "Brooklyn",
-     "start": 4.716,
-     "end": 5.052
-    },
-    {
-     "text": "in",
-     "start": 5.099,
+     "start": 5.098,
      "end": 5.145
     },
     {
+     "text": "Brooklyn",
+     "start": 5.18,
+     "end": 5.516
+    },
+    {
+     "text": "in",
+     "start": 5.563,
+     "end": 5.609
+    },
+    {
      "text": "1924",
-     "start": 5.192,
-     "end": 5.981
+     "start": 5.656,
+     "end": 6.445
     },
     {
      "text": "to",
-     "start": 6.051,
-     "end": 6.109
+     "start": 6.515,
+     "end": 6.573
     },
     {
      "text": "Caribbean",
-     "start": 6.167,
-     "end": 6.538
+     "start": 6.631,
+     "end": 7.002
     },
     {
      "text": "immigrants,",
-     "start": 6.573,
-     "end": 7.107
+     "start": 7.037,
+     "end": 7.571
     },
     {
      "text": "she",
-     "start": 7.374,
-     "end": 7.49
+     "start": 7.838,
+     "end": 7.954
     },
     {
      "text": "spent",
-     "start": 7.537,
-     "end": 7.757
+     "start": 8.001,
+     "end": 8.221
     },
     {
      "text": "part",
-     "start": 7.804,
-     "end": 7.966
+     "start": 8.268,
+     "end": 8.43
     },
     {
      "text": "of",
-     "start": 8.001,
-     "end": 8.048
+     "start": 8.465,
+     "end": 8.512
     },
     {
      "text": "her",
-     "start": 8.082,
-     "end": 8.152
+     "start": 8.546,
+     "end": 8.616
     },
     {
      "text": "childhood",
-     "start": 8.199,
-     "end": 8.605
+     "start": 8.663,
+     "end": 9.069
     },
     {
      "text": "in",
-     "start": 8.64,
-     "end": 8.686
+     "start": 9.104,
+     "end": 9.15
     },
     {
      "text": "Barbados.",
-     "start": 8.744,
-     "end": 9.429
+     "start": 9.208,
+     "end": 9.893
     }
    ],
    "cues": {},
-   "startFrame": 127,
-   "endFrame": 291
+   "startFrame": 141,
+   "endFrame": 305
   },
   {
    "id": "teacher",
-   "speechEnd": 14.236,
+   "speechEnd": 14.7,
    "words": [
     {
      "text": "A",
-     "start": 9.789,
-     "end": 9.859
+     "start": 10.253,
+     "end": 10.323
     },
     {
      "text": "nursery",
-     "start": 9.928,
-     "end": 10.23
+     "start": 10.392,
+     "end": 10.694
     },
     {
      "text": "school",
-     "start": 10.265,
-     "end": 10.486
+     "start": 10.729,
+     "end": 10.95
     },
     {
      "text": "teacher,",
-     "start": 10.532,
-     "end": 10.846
+     "start": 10.996,
+     "end": 11.31
     },
     {
      "text": "she",
-     "start": 10.869,
-     "end": 10.962
+     "start": 11.333,
+     "end": 11.426
     },
     {
      "text": "won",
-     "start": 11.008,
-     "end": 11.136
+     "start": 11.472,
+     "end": 11.6
     },
     {
      "text": "a",
-     "start": 11.182,
-     "end": 11.205
+     "start": 11.646,
+     "end": 11.669
     },
     {
      "text": "seat",
-     "start": 11.264,
-     "end": 11.449
+     "start": 11.728,
+     "end": 11.913
     },
     {
      "text": "in",
-     "start": 11.484,
-     "end": 11.542
+     "start": 11.948,
+     "end": 12.006
     },
     {
      "text": "the",
-     "start": 11.577,
-     "end": 11.647
+     "start": 12.041,
+     "end": 12.111
     },
     {
      "text": "New",
-     "start": 11.682,
-     "end": 11.763
+     "start": 12.146,
+     "end": 12.227
     },
     {
      "text": "York",
-     "start": 11.798,
-     "end": 11.96
+     "start": 12.262,
+     "end": 12.424
     },
     {
      "text": "State",
-     "start": 12.007,
-     "end": 12.239
+     "start": 12.471,
+     "end": 12.703
     },
     {
      "text": "Assembly",
-     "start": 12.262,
-     "end": 12.645
+     "start": 12.726,
+     "end": 13.109
     },
     {
      "text": "in",
-     "start": 12.703,
-     "end": 12.75
+     "start": 13.167,
+     "end": 13.214
     },
     {
      "text": "1964.",
-     "start": 12.796,
-     "end": 14.236
+     "start": 13.26,
+     "end": 14.7
     }
    ],
    "cues": {},
-   "startFrame": 291,
-   "endFrame": 439
+   "startFrame": 305,
+   "endFrame": 453
   },
   {
    "id": "congress",
-   "speechEnd": 23.21,
+   "speechEnd": 23.675,
    "words": [
     {
      "text": "In",
-     "start": 14.735,
-     "end": 14.909
+     "start": 15.2,
+     "end": 15.374
     },
     {
      "text": "1968,",
-     "start": 14.956,
-     "end": 15.873
+     "start": 15.421,
+     "end": 16.338
     },
     {
      "text": "she",
-     "start": 15.896,
-     "end": 16.0
+     "start": 16.361,
+     "end": 16.465
     },
     {
      "text": "ran",
-     "start": 16.07,
-     "end": 16.209
+     "start": 16.535,
+     "end": 16.674
     },
     {
      "text": "for",
-     "start": 16.268,
-     "end": 16.372
+     "start": 16.733,
+     "end": 16.837
     },
     {
      "text": "Congress",
-     "start": 16.442,
-     "end": 16.848
+     "start": 16.907,
+     "end": 17.313
     },
     {
      "text": "under",
-     "start": 16.894,
-     "end": 17.069
+     "start": 17.359,
+     "end": 17.534
     },
     {
      "text": "one",
-     "start": 17.15,
-     "end": 17.324
+     "start": 17.615,
+     "end": 17.789
     },
     {
      "text": "slogan:",
-     "start": 17.359,
-     "end": 17.881
+     "start": 17.824,
+     "end": 18.346
     },
     {
      "text": "Unbought",
-     "start": 18.241,
-     "end": 18.775
+     "start": 18.706,
+     "end": 19.24
     },
     {
      "text": "and",
-     "start": 18.845,
-     "end": 18.961
+     "start": 19.31,
+     "end": 19.426
     },
     {
      "text": "Unbossed.",
-     "start": 19.077,
-     "end": 19.867
+     "start": 19.542,
+     "end": 20.332
     },
     {
      "text": "She",
-     "start": 20.227,
-     "end": 20.366
+     "start": 20.692,
+     "end": 20.831
     },
     {
      "text": "won.",
-     "start": 20.435,
-     "end": 20.842
+     "start": 20.9,
+     "end": 21.307
     },
     {
      "text": "The",
-     "start": 21.155,
-     "end": 21.271
+     "start": 21.62,
+     "end": 21.736
     },
     {
      "text": "first",
-     "start": 21.341,
-     "end": 21.608
+     "start": 21.806,
+     "end": 22.073
     },
     {
      "text": "Black",
-     "start": 21.678,
-     "end": 21.945
+     "start": 22.143,
+     "end": 22.41
     },
     {
      "text": "woman",
-     "start": 21.991,
-     "end": 22.247
+     "start": 22.456,
+     "end": 22.712
     },
     {
      "text": "ever",
-     "start": 22.34,
-     "end": 22.583
+     "start": 22.805,
+     "end": 23.048
     },
     {
      "text": "elected.",
-     "start": 22.653,
-     "end": 23.21
+     "start": 23.118,
+     "end": 23.675
     }
    ],
    "cues": {},
-   "startFrame": 439,
-   "endFrame": 706
+   "startFrame": 453,
+   "endFrame": 720
   },
   {
    "id": "farm",
-   "speechEnd": 29.492,
+   "speechEnd": 29.957,
    "words": [
     {
      "text": "They",
-     "start": 23.628,
-     "end": 23.791
+     "start": 24.093,
+     "end": 24.256
     },
     {
      "text": "put",
-     "start": 23.837,
-     "end": 23.977
+     "start": 24.302,
+     "end": 24.442
     },
     {
      "text": "the",
-     "start": 24.011,
-     "end": 24.081
+     "start": 24.476,
+     "end": 24.546
     },
     {
      "text": "Brooklyn",
-     "start": 24.127,
-     "end": 24.476
+     "start": 24.592,
+     "end": 24.941
     },
     {
      "text": "congresswoman",
-     "start": 24.545,
-     "end": 25.172
+     "start": 25.01,
+     "end": 25.637
     },
     {
      "text": "on",
-     "start": 25.219,
-     "end": 25.288
+     "start": 25.684,
+     "end": 25.753
     },
     {
      "text": "the",
-     "start": 25.323,
-     "end": 25.393
+     "start": 25.788,
+     "end": 25.858
     },
     {
      "text": "Agriculture",
-     "start": 25.463,
-     "end": 25.997
+     "start": 25.928,
+     "end": 26.462
     },
     {
      "text": "Committee.",
-     "start": 26.02,
-     "end": 26.531
+     "start": 26.485,
+     "end": 26.996
     },
     {
      "text": "She",
-     "start": 26.891,
-     "end": 27.03
+     "start": 27.356,
+     "end": 27.495
     },
     {
      "text": "refused,",
-     "start": 27.111,
-     "end": 27.785
+     "start": 27.576,
+     "end": 28.25
     },
     {
      "text": "and",
-     "start": 27.878,
-     "end": 28.04
+     "start": 28.343,
+     "end": 28.505
     },
     {
      "text": "fought",
-     "start": 28.156,
-     "end": 28.47
+     "start": 28.621,
+     "end": 28.935
     },
     {
      "text": "until",
-     "start": 28.528,
-     "end": 28.749
+     "start": 28.993,
+     "end": 29.214
     },
     {
      "text": "they",
-     "start": 28.795,
-     "end": 28.911
+     "start": 29.26,
+     "end": 29.376
     },
     {
      "text": "moved",
-     "start": 28.969,
-     "end": 29.213
+     "start": 29.434,
+     "end": 29.678
     },
     {
      "text": "her.",
-     "start": 29.248,
-     "end": 29.492
+     "start": 29.713,
+     "end": 29.957
     }
    ],
    "cues": {},
-   "startFrame": 706,
-   "endFrame": 899
+   "startFrame": 720,
+   "endFrame": 913
   },
   {
    "id": "caucus",
-   "speechEnd": 33.416,
+   "speechEnd": 33.881,
    "words": [
     {
      "text": "In",
-     "start": 30.072,
-     "end": 30.2
+     "start": 30.537,
+     "end": 30.665
     },
     {
      "text": "1971,",
-     "start": 30.246,
-     "end": 31.175
+     "start": 30.711,
+     "end": 31.64
     },
     {
      "text": "she",
-     "start": 31.198,
-     "end": 31.303
+     "start": 31.663,
+     "end": 31.768
     },
     {
      "text": "co-founded",
-     "start": 31.372,
-     "end": 31.872
+     "start": 31.837,
+     "end": 32.337
     },
     {
      "text": "the",
-     "start": 31.895,
-     "end": 31.964
+     "start": 32.36,
+     "end": 32.429
     },
     {
      "text": "Congressional",
-     "start": 31.999,
-     "end": 32.499
+     "start": 32.464,
+     "end": 32.964
     },
     {
      "text": "Black",
-     "start": 32.545,
-     "end": 32.777
+     "start": 33.01,
+     "end": 33.242
     },
     {
      "text": "Caucus.",
-     "start": 32.835,
-     "end": 33.416
+     "start": 33.3,
+     "end": 33.881
     }
    ],
    "cues": {},
-   "startFrame": 899,
-   "endFrame": 1014
+   "startFrame": 913,
+   "endFrame": 1028
   },
   {
    "id": "run",
-   "speechEnd": 40.509,
+   "speechEnd": 40.974,
    "words": [
     {
      "text": "In",
-     "start": 33.903,
-     "end": 34.031
+     "start": 34.368,
+     "end": 34.496
     },
     {
      "text": "1972,",
-     "start": 34.077,
-     "end": 35.076
+     "start": 34.542,
+     "end": 35.541
     },
     {
      "text": "she",
-     "start": 35.111,
-     "end": 35.238
+     "start": 35.576,
+     "end": 35.703
     },
     {
      "text": "ran",
-     "start": 35.32,
-     "end": 35.494
+     "start": 35.785,
+     "end": 35.959
     },
     {
      "text": "for",
-     "start": 35.552,
-     "end": 35.656
+     "start": 36.017,
+     "end": 36.121
     },
     {
      "text": "president:",
-     "start": 35.714,
-     "end": 36.295
+     "start": 36.179,
+     "end": 36.76
     },
     {
      "text": "the",
-     "start": 36.492,
-     "end": 36.585
+     "start": 36.957,
+     "end": 37.05
     },
     {
      "text": "first",
-     "start": 36.655,
-     "end": 36.887
+     "start": 37.12,
+     "end": 37.352
     },
     {
      "text": "Black",
-     "start": 36.934,
-     "end": 37.154
+     "start": 37.399,
+     "end": 37.619
     },
     {
      "text": "candidate,",
-     "start": 37.201,
-     "end": 37.642
+     "start": 37.666,
+     "end": 38.107
     },
     {
      "text": "and",
-     "start": 37.665,
-     "end": 37.769
+     "start": 38.13,
+     "end": 38.234
     },
     {
      "text": "the",
-     "start": 37.816,
-     "end": 37.886
+     "start": 38.281,
+     "end": 38.351
     },
     {
      "text": "first",
-     "start": 37.932,
-     "end": 38.187
-    },
-    {
-     "text": "woman,",
-     "start": 38.245,
+     "start": 38.397,
      "end": 38.652
     },
     {
+     "text": "woman,",
+     "start": 38.71,
+     "end": 39.117
+    },
+    {
      "text": "to",
-     "start": 38.768,
-     "end": 38.861
+     "start": 39.233,
+     "end": 39.326
     },
     {
      "text": "seek",
-     "start": 38.93,
-     "end": 39.139
+     "start": 39.395,
+     "end": 39.604
     },
     {
      "text": "the",
-     "start": 39.197,
-     "end": 39.267
+     "start": 39.662,
+     "end": 39.732
     },
     {
      "text": "Democratic",
-     "start": 39.314,
-     "end": 39.801
+     "start": 39.779,
+     "end": 40.266
     },
     {
      "text": "nomination.",
-     "start": 39.859,
-     "end": 40.509
+     "start": 40.324,
+     "end": 40.974
     }
    ],
    "cues": {},
-   "startFrame": 1014,
-   "endFrame": 1232
+   "startFrame": 1028,
+   "endFrame": 1246
   },
   {
    "id": "votes",
-   "speechEnd": 45.525,
+   "speechEnd": 45.99,
    "words": [
     {
      "text": "At",
-     "start": 41.171,
-     "end": 41.299
+     "start": 41.636,
+     "end": 41.764
     },
     {
      "text": "the",
-     "start": 41.334,
-     "end": 41.403
+     "start": 41.799,
+     "end": 41.868
     },
     {
      "text": "convention",
-     "start": 41.45,
-     "end": 41.937
+     "start": 41.915,
+     "end": 42.402
     },
     {
      "text": "she",
-     "start": 41.995,
-     "end": 42.088
+     "start": 42.46,
+     "end": 42.553
     },
     {
      "text": "won",
-     "start": 42.146,
-     "end": 42.297
+     "start": 42.611,
+     "end": 42.762
     },
     {
      "text": "152",
-     "start": 42.413,
-     "end": 43.4
-    },
-    {
-     "text": "delegate",
-     "start": 43.481,
+     "start": 42.878,
      "end": 43.865
     },
     {
+     "text": "delegate",
+     "start": 43.946,
+     "end": 44.33
+    },
+    {
      "text": "votes,",
-     "start": 43.899,
-     "end": 44.248
+     "start": 44.364,
+     "end": 44.713
     },
     {
      "text": "about",
-     "start": 44.364,
-     "end": 44.619
+     "start": 44.829,
+     "end": 45.084
     },
     {
      "text": "ten",
-     "start": 44.654,
-     "end": 44.817
+     "start": 45.119,
+     "end": 45.282
     },
     {
      "text": "percent.",
-     "start": 44.886,
-     "end": 45.525
+     "start": 45.351,
+     "end": 45.99
     }
    ],
    "cues": {},
-   "startFrame": 1232,
-   "endFrame": 1378
+   "startFrame": 1246,
+   "endFrame": 1392
   },
   {
    "id": "terms",
-   "speechEnd": 52.051,
+   "speechEnd": 52.515,
    "words": [
     {
      "text": "She",
-     "start": 46.025,
-     "end": 46.199
+     "start": 46.489,
+     "end": 46.663
     },
     {
      "text": "served",
-     "start": 46.257,
-     "end": 46.536
+     "start": 46.721,
+     "end": 47.0
     },
     {
      "text": "seven",
-     "start": 46.594,
-     "end": 46.861
+     "start": 47.058,
+     "end": 47.325
     },
     {
      "text": "terms,",
-     "start": 46.907,
-     "end": 47.465
+     "start": 47.371,
+     "end": 47.929
     },
     {
      "text": "until",
-     "start": 47.546,
-     "end": 47.801
+     "start": 48.01,
+     "end": 48.265
     },
     {
      "text": "1983,",
-     "start": 47.859,
-     "end": 48.869
+     "start": 48.323,
+     "end": 49.333
     },
     {
      "text": "and",
-     "start": 49.032,
-     "end": 49.171
+     "start": 49.496,
+     "end": 49.635
     },
     {
      "text": "helped",
-     "start": 49.229,
-     "end": 49.438
+     "start": 49.693,
+     "end": 49.902
     },
     {
      "text": "create",
-     "start": 49.496,
-     "end": 49.821
+     "start": 49.96,
+     "end": 50.285
     },
     {
      "text": "the",
-     "start": 49.845,
-     "end": 49.914
+     "start": 50.309,
+     "end": 50.378
     },
     {
      "text": "WIC",
-     "start": 49.972,
-     "end": 50.39
+     "start": 50.436,
+     "end": 50.854
     },
     {
      "text": "program",
-     "start": 50.448,
-     "end": 50.866
+     "start": 50.912,
+     "end": 51.33
     },
     {
      "text": "for",
-     "start": 50.924,
-     "end": 51.029
+     "start": 51.388,
+     "end": 51.493
     },
     {
      "text": "mothers",
-     "start": 51.075,
-     "end": 51.354
+     "start": 51.539,
+     "end": 51.818
     },
     {
      "text": "and",
-     "start": 51.389,
-     "end": 51.458
+     "start": 51.853,
+     "end": 51.922
     },
     {
      "text": "children.",
-     "start": 51.505,
-     "end": 52.051
+     "start": 51.969,
+     "end": 52.515
     }
    ],
    "cues": {},
-   "startFrame": 1378,
-   "endFrame": 1569
+   "startFrame": 1392,
+   "endFrame": 1583
   },
   {
    "id": "death",
-   "speechEnd": 58.331,
+   "speechEnd": 58.795,
    "words": [
     {
      "text": "She",
-     "start": 52.41,
-     "end": 52.538
+     "start": 52.874,
+     "end": 53.002
     },
     {
      "text": "died",
-     "start": 52.608,
-     "end": 52.863
+     "start": 53.072,
+     "end": 53.327
     },
     {
      "text": "on",
-     "start": 52.898,
-     "end": 52.968
+     "start": 53.362,
+     "end": 53.432
     },
     {
      "text": "New",
-     "start": 53.026,
-     "end": 53.13
+     "start": 53.49,
+     "end": 53.594
     },
     {
      "text": "Year's",
-     "start": 53.165,
-     "end": 53.351
+     "start": 53.629,
+     "end": 53.815
     },
     {
      "text": "Day,",
-     "start": 53.397,
-     "end": 53.641
+     "start": 53.861,
+     "end": 54.105
     },
     {
      "text": "2005.",
-     "start": 53.676,
-     "end": 54.651
+     "start": 54.14,
+     "end": 55.115
     },
     {
      "text": "In",
-     "start": 55.139,
-     "end": 55.278
+     "start": 55.603,
+     "end": 55.742
     },
     {
      "text": "2015,",
-     "start": 55.336,
-     "end": 56.242
+     "start": 55.8,
+     "end": 56.706
     },
     {
      "text": "she",
-     "start": 56.265,
-     "end": 56.358
+     "start": 56.729,
+     "end": 56.822
     },
     {
      "text": "received",
-     "start": 56.428,
-     "end": 56.799
+     "start": 56.892,
+     "end": 57.263
     },
     {
      "text": "the",
-     "start": 56.822,
-     "end": 56.892
+     "start": 57.286,
+     "end": 57.356
     },
     {
      "text": "Presidential",
-     "start": 56.927,
-     "end": 57.426
+     "start": 57.391,
+     "end": 57.89
     },
     {
      "text": "Medal",
-     "start": 57.472,
-     "end": 57.67
+     "start": 57.936,
+     "end": 58.134
     },
     {
      "text": "of",
-     "start": 57.716,
-     "end": 57.762
+     "start": 58.18,
+     "end": 58.226
     },
     {
      "text": "Freedom.",
-     "start": 57.809,
-     "end": 58.331
+     "start": 58.273,
+     "end": 58.795
     }
    ],
    "cues": {},
-   "startFrame": 1569,
-   "endFrame": 1759
+   "startFrame": 1583,
+   "endFrame": 1773
   },
   {
    "id": "end",
-   "speechEnd": 63.254,
+   "speechEnd": 63.718,
    "words": [
     {
      "text": "Unbought.",
-     "start": 58.749,
-     "end": 59.434
+     "start": 59.213,
+     "end": 59.898
     },
     {
      "text": "Unbossed.",
-     "start": 59.666,
-     "end": 60.479
+     "start": 60.13,
+     "end": 60.943
     },
     {
      "text": "The",
-     "start": 60.793,
-     "end": 60.909
+     "start": 61.257,
+     "end": 61.373
     },
     {
      "text": "first",
-     "start": 60.978,
-     "end": 61.234
+     "start": 61.442,
+     "end": 61.698
     },
     {
      "text": "Black",
-     "start": 61.292,
-     "end": 61.536
+     "start": 61.756,
+     "end": 62.0
     },
     {
      "text": "woman",
-     "start": 61.582,
-     "end": 61.803
+     "start": 62.046,
+     "end": 62.267
     },
     {
      "text": "in",
-     "start": 61.838,
-     "end": 61.896
+     "start": 62.302,
+     "end": 62.36
     },
     {
      "text": "Congress.",
-     "start": 61.954,
-     "end": 63.254
+     "start": 62.418,
+     "end": 63.718
     }
    ],
    "cues": {},
-   "startFrame": 1759,
-   "endFrame": 1910
+   "startFrame": 1773,
+   "endFrame": 1924
   },
   {
    "id": "cta",
-   "speechEnd": 66.169,
+   "speechEnd": 66.634,
    "words": [
     {
      "text": "Follow",
-     "start": 63.754,
-     "end": 64.079
+     "start": 64.219,
+     "end": 64.544
     },
     {
      "text": "The",
-     "start": 64.126,
-     "end": 64.195
+     "start": 64.591,
+     "end": 64.66
     },
     {
      "text": "Black",
-     "start": 64.23,
-     "end": 64.416
+     "start": 64.695,
+     "end": 64.881
     },
     {
      "text": "History",
-     "start": 64.462,
-     "end": 64.752
+     "start": 64.927,
+     "end": 65.217
     },
     {
      "text": "Room",
-     "start": 64.811,
-     "end": 64.973
+     "start": 65.276,
+     "end": 65.438
     },
     {
      "text": "for",
-     "start": 65.031,
-     "end": 65.136
+     "start": 65.496,
+     "end": 65.601
     },
     {
      "text": "one",
-     "start": 65.205,
-     "end": 65.345
+     "start": 65.67,
+     "end": 65.81
     },
     {
      "text": "story",
-     "start": 65.379,
-     "end": 65.646
+     "start": 65.844,
+     "end": 66.111
     },
     {
      "text": "a",
-     "start": 65.693,
-     "end": 65.716
+     "start": 66.158,
+     "end": 66.181
     },
     {
      "text": "day.",
-     "start": 65.763,
-     "end": 66.169
+     "start": 66.228,
+     "end": 66.634
     }
    ],
    "cues": {},
-   "startFrame": 1910,
-   "endFrame": 2021
+   "startFrame": 1924,
+   "endFrame": 2035
   }
  ]
 }
