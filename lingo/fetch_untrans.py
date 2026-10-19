@@ -29,7 +29,7 @@ def download(title):
         if r.stdout == "200" and fa.duration(dst) > 0.05:
             return dst
         if os.path.exists(dst): os.remove(dst)
-        if r.stdout == "404": return None
+        if r.stdout == "404" and i >= 4: return None  # a transcode is generated on the first request; give it a few tries
         ra = re.search(r"(?im)^retry-after:\s*(\d+)", open(hdr).read())
         time.sleep(min(60, int(ra.group(1)) + 1) if ra else 12)
     return None

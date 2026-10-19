@@ -1,0 +1,171 @@
+{
+ "_note": "Words That Don't Exist in English be like. Native word = real recording (Lingua Libre / Wiktionary pronunciation files on Commons); the English translation is read by a Piper AI voice, labelled on screen. Ranked 10 -> 1 by the number of English words in the translation (counted by fetch_untrans.py).",
+ "title": "Words That Don't Exist in English be like",
+ "english_voice": "en_GB-alan-medium",
+ "english_wojak": "s_eng_calm",
+ "items": [
+  {
+   "key": "schadenfreude",
+   "name": "German",
+   "flag": "de",
+   "wojak": "s_deu",
+   "scene": "village",
+   "word": "Schadenfreude",
+   "literal": "harm-joy",
+   "rec": "File:De-Schadenfreude.ogg",
+   "credit": {
+    "artist": "Jeuwre",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "Pleasure taken in someone else's misfortune.",
+   "fact": "English tried for centuries and gave up: since the 1890s it simply borrows the German word. The French have it too, but need a sentence."
+  },
+  {
+   "key": "lagom",
+   "name": "Swedish",
+   "flag": "se",
+   "wojak": "s_swe",
+   "scene": "dalarna",
+   "word": "lagom",
+   "literal": "according to the law (of the group)",
+   "rec": "File:Sv-lagom.ogg",
+   "credit": {
+    "artist": "uploader not named on the file page",
+    "license": "CC BY-SA 3.0"
+   },
+   "translation": "Not too much, not too little, just right.",
+   "fact": "Swedes call it their national philosophy: the right amount of coffee, of work, of showing off. Legend says it comes from Vikings passing a horn of mead around the team: 'laget om', enough for everyone."
+  },
+  {
+   "key": "ikigai",
+   "name": "Japanese",
+   "flag": "jp",
+   "wojak": "s_jpn",
+   "scene": "hongkong",
+   "word": "生き甲斐",
+   "roman": "ikigai",
+   "literal": "life-worth",
+   "rec": "File:LL-Q5287 (jpn)-葵心-生き甲斐.wav",
+   "credit": {
+    "artist": "葵心 (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "The reason you get up in the morning.",
+   "fact": "In Japan it is an everyday word: your ikigai can be your grandchildren, your garden or your job. The Venn diagram with four circles that went viral is a Western invention from 2014."
+  },
+  {
+   "key": "toska",
+   "name": "Russian",
+   "flag": "ru",
+   "wojak": "s_rus",
+   "scene": "steppe",
+   "word": "тоска",
+   "roman": "toska",
+   "literal": "ache",
+   "rec": "File:Ru-тоска.ogg",
+   "credit": {
+    "artist": "uploader not named on the file page",
+    "license": "CC BY 2.0"
+   },
+   "translation": "A deep aching sadness with no clear cause.",
+   "fact": "Nabokov said no English word renders it: at its deepest it is a great spiritual anguish, at its lightest, boredom. Russian novels run on it."
+  },
+  {
+   "key": "gezellig",
+   "name": "Dutch",
+   "flag": "nl",
+   "wojak": "s_nld",
+   "scene": "savanna",
+   "word": "gezellig",
+   "literal": "companion-like",
+   "rec": "File:Nl-gezellig.ogg",
+   "credit": {
+    "artist": "Marcel coenders",
+    "license": "CC BY-SA 3.0"
+   },
+   "translation": "The warm cosy feeling of being together somewhere nice.",
+   "fact": "A café can be gezellig, an evening, a person, even a chair. The Dutch rank it among the most important words in their language, and swear hygge is just the Danish copy."
+  },
+  {
+   "key": "saudade",
+   "name": "Portuguese",
+   "flag": "pt",
+   "wojak": "s_por",
+   "scene": "adriatic",
+   "word": "saudade",
+   "literal": "from Latin 'solitude'",
+   "rec": "File:LL-Q5146 (por)-MedK1-saudade.wav",
+   "credit": {
+    "artist": "MedK1 (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "The longing for someone or something you loved and lost.",
+   "fact": "Portugal has a whole music genre built on it, fado, and Brazil celebrates a Day of Saudade on 30 January. You can feel saudade for a person, a city, or a time that never existed."
+  },
+  {
+   "key": "kummerspeck",
+   "name": "German",
+   "flag": "de",
+   "wojak": "s_deu",
+   "scene": "village",
+   "word": "Kummerspeck",
+   "literal": "grief bacon",
+   "rec": "File:De-Kummerspeck.ogg",
+   "credit": {
+    "artist": "Jeuwre",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "The extra weight you gain from eating when you are sad.",
+   "fact": "German just glues two words together: Kummer, grief, plus Speck, bacon. The same trick gives Backpfeifengesicht, a face that is asking for a slap."
+  },
+  {
+   "key": "flaner",
+   "name": "French",
+   "flag": "fr",
+   "wojak": "s_fra",
+   "scene": "tuscany",
+   "word": "flâner",
+   "literal": "to stroll",
+   "rec": "File:LL-Q150 (fra)-Lyokoï-flâner.wav",
+   "credit": {
+    "artist": "Lyokoï (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "To wander the streets slowly with no destination, just to watch.",
+   "fact": "Paris invented the flâneur in the 1800s: a gentleman whose whole job was walking around looking at the city. Baudelaire wrote essays about him."
+  },
+  {
+   "key": "guanxi",
+   "name": "Chinese",
+   "flag": "cn",
+   "wojak": "s_zho",
+   "scene": "hongkong",
+   "word": "关系",
+   "roman": "guānxi",
+   "literal": "connections",
+   "rec": "File:LL-Q9192 (cmn)-Jouketou-关系.wav",
+   "credit": {
+    "artist": "Jouketou (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "The web of personal connections you can call on for favours.",
+   "fact": "In China you build guanxi for years, with dinners, gifts and favours, before you need it. Business schools in the West now teach it under its Chinese name."
+  },
+  {
+   "key": "litost",
+   "name": "Czech",
+   "flag": "cz",
+   "wojak": "s_ces",
+   "scene": "prague",
+   "word": "lítost",
+   "literal": "pity, regret",
+   "rec": "File:LL-Q9056 (ces)-Ghost4Man-lítost.wav",
+   "credit": {
+    "artist": "Ghost4Man (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "A state of torment created by the sudden sight of one's own misery.",
+   "fact": "That definition is Milan Kundera's. He said he looked in vain for the word in other languages, and could not imagine understanding the human soul without it."
+  }
+ ]
+}

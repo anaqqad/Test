@@ -37,7 +37,7 @@ const CSS = `*{margin:0;padding:0;box-sizing:border-box}body{width:1920px;height
 .who img{max-height:720px;max-width:540px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.4))}
 .lab{top:150px;display:flex;align-items:center;gap:12px;background:rgba(15,18,28,.85);padding:8px 16px;border-radius:14px;font-weight:800;font-size:28px}
 .lab img{height:34px;border-radius:5px}
-.ai{right:40px;bottom:18px;background:rgba(15,18,28,.85);padding:6px 18px;border-radius:12px;font-weight:800;font-size:22px;letter-spacing:3px;color:#ffcf5c}
+.ai{left:50%;transform:translateX(-50%);bottom:18px;background:rgba(15,18,28,.85);padding:6px 18px;border-radius:12px;font-weight:800;font-size:22px;letter-spacing:3px;color:#ffcf5c}
 #panel{left:540px;top:150px;width:840px;display:flex;flex-direction:column;gap:16px}
 .say{background:rgba(255,255,255,.96);color:#1d1d24;border-radius:22px;padding:18px 26px;box-shadow:0 12px 30px rgba(0,0,0,.35);opacity:0}
 .say.sa{border-left:12px solid #e8262b}.say.sb{border-right:12px solid #1d6fa5}
@@ -55,7 +55,7 @@ const S=window.__S, ease=(x)=>1-Math.pow(1-Math.min(1,Math.max(0,x)),3);
 window.setT=function(t){
   document.querySelectorAll('[data-in]').forEach(e=>{const i=+e.dataset.in,o=+(e.dataset.out||1e9);const v=ease((t-i)/0.4)*ease((o-t)/0.35);e.style.opacity=v;e.style.transform='translateY('+(1-v)*18+'px)';});
   const bar=document.getElementById('bar'); if(bar) bar.style.transform='translateY('+(-(1-ease(t/0.45))*140)+'px)';
-  const cur=S.caps.find(c=>t>=c.t-0.05&&t<=c.t+c.d+0.2);
+  const cur=(S.caps||[]).find(c=>t>=c.t-0.05&&t<=c.t+c.d+0.2);
   ['a','b'].forEach(side=>{const w=document.getElementById('who_'+side);if(!w)return;const on=cur&&cur.side===side;const k=on?1+0.04*Math.abs(Math.sin(t*9)):1;w.style.transform=(side==='b'?'scaleX(-1) ':'')+'scale('+k.toFixed(3)+') translateY('+((1-ease(t/0.6))*120).toFixed(1)+'px)';w.style.filter=on?'brightness(1.08)':'brightness(.92)';});
   const sa=document.getElementById('say_a'); if(sa){const v=ease((t-S.wordAt)/0.4);sa.style.opacity=v;sa.style.transform='translateY('+(1-v)*16+'px) scale('+(cur&&cur.side==='a'?1.03:1)+')';}
   const sb=document.getElementById('say_b'); if(sb){const v=ease((t-S.enAt+0.3)/0.4);sb.style.opacity=v;sb.style.transform='translateY('+(1-v)*16+'px)';
