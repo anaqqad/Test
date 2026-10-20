@@ -4,24 +4,24 @@
 Words That Don't Exist in English be like
 
 ## Description
-Ten words from ten languages that English simply does not have. A native speaker says the word, then an English speaker tries to translate it, using as many words as it takes. Ranked by how many English words were needed, 10 to 1.
+Ten words from ten languages that English simply does not have. A native speaker says the word, then an English speaker gives the shortest honest translation. Ranked by how many English words it took, 10 to 1.
 
 The native words are real recordings by native speakers (Lingua Libre and Wiktionary pronunciation files, via Wikimedia Commons). The English translations are read by an AI voice (Piper), labelled on screen.
 
 Which word did we miss? Tell us in the comments 👇
 
 0:00 Intro
-0:05 #10 Schadenfreude (German, 6 English words)
-0:23 #9 生き甲斐 (Japanese, 8 English words)
-0:39 #8 lagom (Swedish, 8 English words)
-0:56 #7 тоска (Russian, 8 English words)
-1:13 #6 gezellig (Dutch, 9 English words)
-1:30 #5 dépaysement (French, 9 English words)
-1:48 #4 saudade (Portuguese, 10 English words)
-2:05 #3 Kummerspeck (German, 11 English words)
-2:23 #2 关系 (Chinese, 11 English words)
-2:41 #1 lítost (Czech, 13 English words)
-3:00 Final ranking
+0:05 #10 gezellig (Dutch, 2 English words)
+0:20 #9 关系 (Chinese, 2 English words)
+0:36 #8 生き甲斐 (Japanese, 4 English words)
+0:52 #7 lagom (Swedish, 4 English words)
+1:07 #6 Schadenfreude (German, 4 English words)
+1:25 #5 тоска (Russian, 4 English words)
+1:41 #4 dépaysement (French, 4 English words)
+1:57 #3 saudade (Portuguese, 5 English words)
+2:13 #2 Kummerspeck (German, 5 English words)
+2:30 #1 lítost (Czech, 6 English words)
+2:46 Final ranking
 
 RECORDINGS (via Wikimedia Commons)
 - German (Schadenfreude): "De-Schadenfreude.ogg" by Jeuwre, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ADe-Schadenfreude.ogg

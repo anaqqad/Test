@@ -1,5 +1,5 @@
 {
- "_note": "Words That Don't Exist in English be like. Native word = real recording (Lingua Libre / Wiktionary pronunciation files on Commons); the English translation is read by a Piper AI voice, labelled on screen. Ranked 10 -> 1 by the number of English words in the translation (counted by fetch_untrans.py).",
+ "_note": "Words That Don't Exist in English be like. Native word = real recording (Lingua Libre / Wiktionary pronunciation files on Commons); the English translation is read by a Piper AI voice, labelled on screen. Ranked 10 -> 1 by the number of English words in the shortest honest translation (counted by fetch_untrans.py).",
  "title": "Words That Don't Exist in English be like",
  "english_voice": "en_GB-alan-medium",
  "english_wojak": "s_eng_calm",
@@ -17,7 +17,7 @@
     "artist": "Jeuwre",
     "license": "CC BY-SA 4.0"
    },
-   "translation": "Pleasure taken in someone else's misfortune.",
+   "translation": "Joy at others' misfortune.",
    "fact": "English tried for centuries and gave up: since the 1890s it simply borrows the German word. The French have it too, but need a sentence.",
    "voice": "male"
   },
@@ -34,7 +34,7 @@
     "artist": "uploader not named on the file page",
     "license": "CC BY-SA 3.0"
    },
-   "translation": "Not too much, not too little, just right.",
+   "translation": "Just the right amount.",
    "fact": "Swedes call it their national philosophy: the right amount of coffee, of work, of showing off. Legend says it comes from Vikings passing a horn of mead around the team: 'laget om', enough for everyone.",
    "voice": "male"
   },
@@ -52,7 +52,7 @@
     "artist": "葵心 (Lingua Libre)",
     "license": "CC BY-SA 4.0"
    },
-   "translation": "The reason you get up in the morning.",
+   "translation": "Your reason for living.",
    "fact": "In Japan it is an everyday word: your ikigai can be your grandchildren, your garden or your job. The Venn diagram with four circles that went viral is a Western invention from 2014.",
    "voice": "male"
   },
@@ -70,7 +70,7 @@
     "artist": "uploader not named on the file page",
     "license": "CC BY 2.0"
    },
-   "translation": "A deep aching sadness with no clear cause.",
+   "translation": "Aching sadness without cause.",
    "fact": "Nabokov said no English word renders it: at its deepest it is a great spiritual anguish, at its lightest, boredom. Russian novels run on it.",
    "voice": "male"
   },
@@ -87,7 +87,7 @@
     "artist": "Marcel coenders",
     "license": "CC BY-SA 3.0"
    },
-   "translation": "The warm cosy feeling of being together somewhere nice.",
+   "translation": "Cosy togetherness.",
    "fact": "A café can be gezellig, an evening, a person, even a chair. The Dutch rank it among the most important words in their language, and swear hygge is just the Danish copy.",
    "voice": "male"
   },
@@ -104,7 +104,7 @@
     "artist": "MedK1 (Lingua Libre)",
     "license": "CC BY-SA 4.0"
    },
-   "translation": "The longing for someone or something you loved and lost.",
+   "translation": "Bittersweet longing for what's gone.",
    "fact": "Portugal has a whole music genre built on it, fado, and Brazil celebrates a Day of Saudade on 30 January. You can feel saudade for a person, a city, or a time that never existed.",
    "voice": "male"
   },
@@ -121,7 +121,7 @@
     "artist": "Jeuwre",
     "license": "CC BY-SA 4.0"
    },
-   "translation": "The extra weight you gain from eating when you are sad.",
+   "translation": "Weight gained from grief eating.",
    "fact": "German just glues two words together: Kummer, grief, plus Speck, bacon. The same trick gives Backpfeifengesicht, a face that is asking for a slap.",
    "voice": "male"
   },
@@ -138,7 +138,7 @@
     "artist": "LoquaxFR (Lingua Libre)",
     "license": "CC BY-SA 4.0"
    },
-   "translation": "The disorientation of being somewhere that is not home.",
+   "translation": "Disorientation of being abroad.",
    "fact": "It can be the thrill of a new city or the unease of a strange one. The French use it for both, which is why travel agencies sell it and homesick students complain about it.",
    "voice": "male"
   },
@@ -156,7 +156,7 @@
     "artist": "Jouketou (Lingua Libre)",
     "license": "CC BY-SA 4.0"
    },
-   "translation": "The web of personal connections you can call on for favours.",
+   "translation": "Favour-trading connections.",
    "fact": "In China you build guanxi for years, with dinners, gifts and favours, before you need it. Business schools in the West now teach it under its Chinese name.",
    "voice": "male"
   },
@@ -173,7 +173,7 @@
     "artist": "Ghost4Man (Lingua Libre)",
     "license": "CC BY-SA 4.0"
    },
-   "translation": "A state of torment created by the sudden sight of one's own misery.",
+   "translation": "Torment at seeing your own misery.",
    "fact": "That definition is Milan Kundera's. He said he looked in vain for the word in other languages, and could not imagine understanding the human soul without it.",
    "voice": "male"
   }
