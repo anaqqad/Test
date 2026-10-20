@@ -32,28 +32,13 @@
    },
    {
     "t": 13.0,
-    "d": 3.2,
+    "d": 2.8,
     "text": "Go and get your brother Sixto and we'll go over."
    },
    {
-    "t": 16.3,
-    "d": 1.4,
-    "text": "Huh?"
-   },
-   {
-    "t": 18.0,
-    "d": 2.8,
-    "text": "Go and get your brother Sixto. Over."
-   },
-   {
-    "t": 21.0,
+    "t": 16.2,
     "d": 1.2,
-    "text": "OK, over."
-   },
-   {
-    "t": 22.2,
-    "d": 1.5,
-    "text": "OK, over."
+    "text": "Huh?"
    }
   ],
   "ranges": [
@@ -63,7 +48,7 @@
    ],
    [
     0.2,
-    10.3
+    4.2
    ]
   ]
  },
@@ -90,19 +75,14 @@
    },
    {
     "t": 11.0,
-    "d": 6.5,
+    "d": 5.3,
     "text": "I am going to wander around my rice fields."
-   },
-   {
-    "t": 18.5,
-    "d": 3.5,
-    "text": "Hey, I am going to the farm."
    }
   ],
   "ranges": [
    [
     429.0,
-    450.6
+    445.5
    ]
   ]
  },
@@ -131,22 +111,12 @@
     "t": 12.6,
     "d": 3.6,
     "text": "He will be very fast."
-   },
-   {
-    "t": 17.2,
-    "d": 2.8,
-    "text": "Will you shoot him?"
-   },
-   {
-    "t": 21.2,
-    "d": 3.0,
-    "text": "I will sneak close."
    }
   ],
   "ranges": [
    [
     10.8,
-    35.2
+    27.3
    ]
   ]
  },

@@ -12,10 +12,10 @@ Which whistled language should be in Part 3? Tell us in the comments 👇
 
 0:00 Intro
 0:03 Chinantec
-0:25 Hmong
-0:48 Pirahã
-1:16 Wayãpi
-1:33 Outro
+0:20 Hmong
+0:38 Pirahã
+0:56 Wayãpi
+1:13 Outro
 
 RECORDINGS (used with the permission of the uploaders, thank you)
 - Chinantec: "Chiflidos en la neblina" and "Whistle Ex8", videos by Mark Sicoli, https://www.youtube.com/watch?v=QPuE0UMEMEs and https://www.youtube.com/watch?v=lRWy868lQpE

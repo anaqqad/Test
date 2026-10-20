@@ -13,15 +13,15 @@ os.makedirs(OUT, exist_ok=True)
 slug = lambda s: re.sub(r"[^\w]+", "_", s, flags=re.U).strip("_").lower()  # same rule as render.mjs
 
 ITEMS = {
- "Chinantec": {"ncards": 4, "src": [("mazatec_2_part3_1.mp4", [[76.3, 88.8]]), ("chinantec.mp4", [[0.2, 10.3]])],
+ "Chinantec": {"ncards": 3, "src": [("mazatec_2_part3_1.mp4", [[76.3, 88.8]]), ("chinantec.mp4", [[0.2, 4.2]])],
    "captions": [(0.3, 2.0, "OK."), (2.2, 2.9, "What are you going to do tomorrow?"), (5.5, 2.3, "When noon comes?"), (8.2, 3.3, "I'm not going to do anything."),
-                (13.0, 3.2, "Go and get your brother Sixto and we'll go over."), (16.3, 1.4, "Huh?"), (18.0, 2.8, "Go and get your brother Sixto. Over."), (21.0, 1.2, "OK, over."), (22.2, 1.5, "OK, over.")],
+                (13.0, 2.8, "Go and get your brother Sixto and we'll go over."), (16.2, 1.2, "Huh?")],
    "credit": {"title": "Chiflidos en la neblina (Chinantec whistled conversation) and Whistle Ex8, YouTube videos by Mark Sicoli", "artist": "Mark Sicoli", "license": "used with the uploader's permission", "page": "https://www.youtube.com/watch?v=QPuE0UMEMEs and https://www.youtube.com/watch?v=lRWy868lQpE"}},
- "Hmong": {"ncards": 4, "src": [("hmong.mp4", [[429.0, 450.6]])],
-   "captions": [(0.5, 3.5, "I am going to the farm."), (4.5, 5.5, "Going to the farm, why do you ask?"), (11.0, 6.5, "I am going to wander around my rice fields."), (18.5, 3.5, "Hey, I am going to the farm.")],
+ "Hmong": {"ncards": 3, "src": [("hmong.mp4", [[429.0, 445.5]])],
+   "captions": [(0.5, 3.5, "I am going to the farm."), (4.5, 5.5, "Going to the farm, why do you ask?"), (11.0, 5.3, "I am going to wander around my rice fields.")],
    "credit": {"title": "Birdsong: the dying whistled language of the Hmong people in northern Laos, YouTube video by The Guardian", "artist": "The Guardian", "license": "used with permission", "page": "https://www.youtube.com/watch?v=_KIYwCieaMs"}},
- "Pirahã": {"ncards": 5, "src": [("piraha.mp4", [[10.8, 35.2]])],
-   "captions": [(0.2, 4.5, "There's a monkey. Right above us."), (7.2, 3.6, "I see him."), (12.6, 3.6, "He will be very fast."), (17.2, 2.8, "Will you shoot him?"), (21.2, 3.0, "I will sneak close.")],
+ "Pirahã": {"ncards": 3, "src": [("piraha.mp4", [[10.8, 27.3]])],
+   "captions": [(0.2, 4.5, "There's a monkey. Right above us."), (7.2, 3.6, "I see him."), (12.6, 3.6, "He will be very fast.")],
    "credit": {"title": "piraha, YouTube video uploaded by Cathy Lightfoot", "artist": "Cathy Lightfoot", "license": "used with the uploader's permission", "page": "https://www.youtube.com/watch?v=XyceRHzoMdM"}},
  "Wayãpi": {"ncards": 3, "src": [("wayapi_2.mp4", [[21.0, 35.5]])],
    "captions": [(0.6, 6.0, "oloota ole ia lupi: Let's leave together by canoe!"), (7.0, 6.5, "elapa alaa: I take my rifle!")],
