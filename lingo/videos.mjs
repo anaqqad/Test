@@ -1481,4 +1481,58 @@ export const VIDEOS = {
       },
     ],
   },
+
+  // ------------------------------------------------------------------ whistled, part 2 (clips from YouTube, used with the uploaders' permission; build_whistled2.py)
+  whistled2: {
+    title: "Whistled Languages be like",
+    part: "Part 2",
+    layout: "story",
+    counterLabel: "whistled",
+    items: [
+      {
+        name: "Chinantec", wojak: "w_chinantec", flag: "mx", speakers: "Chinantec", scene: "overcast", loc: [17.9, -96.6, "Sierra Norte, Oaxaca, Mexico"],
+        char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#f4f1e8", vest: "#2f6b3f" }, expression: "open" },
+        cards: [
+          "In the mountains of Oaxaca, Mexico, Chinantec men whistle whole conversations through the fog. Chinantec has seven tones, and the whistle copies them.",
+          "This is a real exchange between two neighbours: 'What are you going to do tomorrow, at noon?' 'Nothing. I'm going to take a nap.'",
+          "The second clip works like a radio: a man on a mountain road calls his neighbour to go and fetch his brother. Even 'over' is whistled.",
+          "Linguist Mark Sicoli recorded both in the Sierra Norte. Young Chinantecs now reach each other by phone, and the whistle is fading.",
+        ],
+        audio: { file: "cache/whistled2/src/mazatec_2_part3_1.mp4", ranges: [[76.3, 88.8]], voice: "keep" },
+      },
+      {
+        name: "Hmong", wojak: "w_hmong", flag: "la", speakers: "Hmong", scene: "tropical", loc: [20.4, 104.0, "Houaphan, northern Laos"],
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1d1d1d", vest: "#c0392b" }, expression: "open" },
+        cards: [
+          "In the forests of northern Laos, Hmong farmers whistle to each other across the valleys. Hmong has up to eight tones, so a whistle can carry the words.",
+          "Boys used to whistle love poems to girls at night. The parents heard a bird; the girl heard a proposal.",
+          "What you hear: 'I'm going to the farm.' 'Going to the farm, why do you ask?' 'I'm going to wander around my rice fields.'",
+          "Only a few older men still do it. The Guardian filmed one of the last of them for this recording.",
+        ],
+        audio: { file: "cache/whistled2/src/hmong.mp4", ranges: [[429.0, 450.6]], voice: "keep" },
+      },
+      {
+        name: "Pirahã", wojak: "w_piraha", flag: "br", speakers: "Pirahã", scene: "amazon", loc: [-7.3, -62.3, "Maici River, Amazonas, Brazil"],
+        char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#f2c94c", vest: "#f2c94c" }, expression: "open" },
+        cards: [
+          "The Pirahã of the Amazon are famous for having no words for numbers. They can also say one sentence five ways: spoken, hummed, shouted, sung, or whistled.",
+          "Whistling is for the hunt. Both hands stay on the bow, and the monkeys do not run from a whistle the way they run from a voice.",
+          "This hunter is telling his companion: 'There's a monkey, right above us.' 'I see him.' 'He'll be very fast.'",
+          "Pirahã has only eight consonants and three vowels, but its tones and stress carry so much that a whistle keeps the meaning.",
+          "Fewer than 800 people speak it, almost none of them anything else. It is one of the most studied, and most argued about, languages on Earth.",
+        ],
+        audio: { file: "cache/whistled2/src/piraha.mp4", ranges: [[10.8, 35.2]], voice: "keep" },
+      },
+      {
+        name: "Wayãpi", wojak: "w_wayapi", flag: "gf", speakers: "Wayãpi", scene: "amazon", loc: [3.2, -52.3, "Camopi, French Guiana"],
+        char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#c0392b", vest: "#c0392b" }, expression: "open" },
+        cards: [
+          "The Wayãpi of French Guiana can imitate every animal in the forest, and they whistle their own language too. Here two hunters plan a trip.",
+          "'oloota ole ia lupi': let's leave together by canoe. 'elapa alaa': I take my rifle. The whistle keeps the melody of the spoken words.",
+          "The clip comes from the work of Julien Meyer, the linguist who has recorded more whistled languages than anyone, together with the Wayãpi themselves.",
+        ],
+        audio: { file: "cache/whistled2/src/wayapi_2.mp4", ranges: [[21.0, 35.5]], voice: "keep" },
+      },
+    ],
+  },
 };

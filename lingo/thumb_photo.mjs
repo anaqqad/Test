@@ -28,6 +28,7 @@ export const PHOTO_CREDITS = {
   similar: "Guadiana International Bridge (Spain-Portugal): photo by Benoît Prieur, CC0, via Wikimedia Commons",
   vulgar: "Colosseum, Rome: photo by Diliff (David Iliff), CC BY-SA 2.5, via Wikimedia Commons",
   untrans: "Prague skyline: photo by MurderousPass, CC0, via Wikimedia Commons",
+  whistled2: "Amazon rainforest: photo by CIAT (Neil Palmer), CC BY-SA 2.0, via Wikimedia Commons",
   ancient6: "Mongolian steppes: photo by Francisco Anzola, CC BY 2.0, via Wikimedia Commons",
 };
 // Esperanto has its own flag, not in flag-icons: green field, white canton with a green star
@@ -47,6 +48,7 @@ const T = {
   whistled: { part: "PART 1", name: "Silbo Gomero", photo: "whistled", pos: "50% 50%", flag: "es", hook: ["NO", "WORDS"] },
   vulgar: { name: "Italian", photo: "vulgar", pos: "50% 55%", flag: "it", hook: ["Most", "Vulgar?!"] },
   untrans: { name: "Czech", photo: "untrans", pos: "50% 50%", flag: "cz", hook: ["No English", "Word?!"], hookSize: 86 },
+  whistled2: { part: "PART 2", name: "Pirahã", photo: "whistled2", pos: "50% 50%", flag: "br", hook: ["NO", "WORDS"] },
   ancient5: { part: "PART 5", name: "Beothuk", photo: "ancient5", pos: "50% 50%", flag: "ca", hook: ["Not One", "Sentence Left"], hookSize: 86 },
   ancient6: { part: "PART 6", name: "Middle Mongolian", photo: "ancient6", pos: "50% 50%", flag: "mn", hook: ["Genghis Khan", "Spoke This"], hookSize: 86 },
   sounds: { name: "Xhosa", photo: "sounds", pos: "50% 50%", flag: "za", hook: ["Weirdest", "Sounds Ever"] },

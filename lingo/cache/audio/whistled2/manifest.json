@@ -1,0 +1,182 @@
+{
+ "Chinantec": {
+  "sig": "whistled2|Chinantec",
+  "credits": [
+   {
+    "title": "Chiflidos en la neblina (Chinantec whistled conversation) and Whistle Ex8, YouTube videos by Mark Sicoli",
+    "artist": "Mark Sicoli",
+    "license": "used with the uploader's permission",
+    "page": "https://www.youtube.com/watch?v=QPuE0UMEMEs and https://www.youtube.com/watch?v=lRWy868lQpE"
+   }
+  ],
+  "captions": [
+   {
+    "t": 0.3,
+    "d": 2.0,
+    "text": "OK."
+   },
+   {
+    "t": 2.2,
+    "d": 2.9,
+    "text": "What are you going to do tomorrow?"
+   },
+   {
+    "t": 5.5,
+    "d": 2.3,
+    "text": "When noon comes?"
+   },
+   {
+    "t": 8.2,
+    "d": 3.3,
+    "text": "I'm not going to do anything."
+   },
+   {
+    "t": 13.0,
+    "d": 3.2,
+    "text": "Go and get your brother Sixto and we'll go over."
+   },
+   {
+    "t": 16.3,
+    "d": 1.4,
+    "text": "Huh?"
+   },
+   {
+    "t": 18.0,
+    "d": 2.8,
+    "text": "Go and get your brother Sixto. Over."
+   },
+   {
+    "t": 21.0,
+    "d": 1.2,
+    "text": "OK, over."
+   },
+   {
+    "t": 22.2,
+    "d": 1.5,
+    "text": "OK, over."
+   }
+  ],
+  "ranges": [
+   [
+    76.3,
+    88.8
+   ],
+   [
+    0.2,
+    10.3
+   ]
+  ]
+ },
+ "Hmong": {
+  "sig": "whistled2|Hmong",
+  "credits": [
+   {
+    "title": "Birdsong: the dying whistled language of the Hmong people in northern Laos, YouTube video by The Guardian",
+    "artist": "The Guardian",
+    "license": "used with permission",
+    "page": "https://www.youtube.com/watch?v=_KIYwCieaMs"
+   }
+  ],
+  "captions": [
+   {
+    "t": 0.5,
+    "d": 3.5,
+    "text": "I am going to the farm."
+   },
+   {
+    "t": 4.5,
+    "d": 5.5,
+    "text": "Going to the farm, why do you ask?"
+   },
+   {
+    "t": 11.0,
+    "d": 6.5,
+    "text": "I am going to wander around my rice fields."
+   },
+   {
+    "t": 18.5,
+    "d": 3.5,
+    "text": "Hey, I am going to the farm."
+   }
+  ],
+  "ranges": [
+   [
+    429.0,
+    450.6
+   ]
+  ]
+ },
+ "Pirahã": {
+  "sig": "whistled2|Pirahã",
+  "credits": [
+   {
+    "title": "piraha, YouTube video uploaded by Cathy Lightfoot",
+    "artist": "Cathy Lightfoot",
+    "license": "used with the uploader's permission",
+    "page": "https://www.youtube.com/watch?v=XyceRHzoMdM"
+   }
+  ],
+  "captions": [
+   {
+    "t": 0.2,
+    "d": 4.5,
+    "text": "There's a monkey. Right above us."
+   },
+   {
+    "t": 7.2,
+    "d": 3.6,
+    "text": "I see him."
+   },
+   {
+    "t": 12.6,
+    "d": 3.6,
+    "text": "He will be very fast."
+   },
+   {
+    "t": 17.2,
+    "d": 2.8,
+    "text": "Will you shoot him?"
+   },
+   {
+    "t": 21.2,
+    "d": 3.0,
+    "text": "I will sneak close."
+   }
+  ],
+  "ranges": [
+   [
+    10.8,
+    35.2
+   ]
+  ]
+ },
+ "Wayãpi": {
+  "sig": "whistled2|Wayãpi",
+  "credits": [
+   {
+    "title": "A world of sound in the Amazon, wildlife imitations and whistled speech of the Wayãpi people, YouTube video by Labo LEEISA (CNRS, French Guiana), based on the research of Julien Meyer and Damien Davy",
+    "artist": "Labo LEEISA",
+    "license": "used with permission",
+    "page": "https://www.youtube.com/watch?v=0rGkGw2l7p4"
+   }
+  ],
+  "captions": [
+   {
+    "t": 0.6,
+    "d": 6.0,
+    "text": "oloota ole ia lupi: Let's leave together by canoe!"
+   },
+   {
+    "t": 7.0,
+    "d": 6.5,
+    "text": "elapa alaa: I take my rifle!"
+   }
+  ],
+  "ranges": [
+   [
+    21.0,
+    35.5
+   ]
+  ]
+ }
+}
