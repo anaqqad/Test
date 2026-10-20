@@ -1528,7 +1528,7 @@ export const VIDEOS = {
         char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#c0392b", vest: "#c0392b" }, expression: "open" },
         cards: [
           "The Wayãpi of French Guiana can imitate every animal in the forest, and they whistle their own language too. Here two hunters plan a trip.",
-          "'oloota ole ia lupi': let's leave together by canoe. 'elapa alaa': I take my rifle. The whistle keeps the melody of the spoken words.",
+          "'oloota ole ia lupi' means: let us leave together by canoe. 'elapa alaa' means: I take my rifle. The whistle keeps the melody of the spoken words.",
           "The clip comes from the work of Julien Meyer, the linguist who has recorded more whistled languages than anyone, together with the Wayãpi themselves.",
         ],
         audio: { file: "cache/whistled2/src/wayapi_2.mp4", ranges: [[21.0, 35.5]], voice: "keep" },
