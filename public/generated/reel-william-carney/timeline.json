@@ -1,0 +1,972 @@
+{
+ "fps": 30,
+ "durationInFrames": 1901,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 169,
+ "wpm": 160.0,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.368,
+   "words": [
+    {
+     "text": "Shot",
+     "start": 0.0,
+     "end": 0.255
+    },
+    {
+     "text": "twice.",
+     "start": 0.29,
+     "end": 0.72
+    },
+    {
+     "text": "He",
+     "start": 1.01,
+     "end": 1.103
+    },
+    {
+     "text": "never",
+     "start": 1.161,
+     "end": 1.324
+    },
+    {
+     "text": "dropped",
+     "start": 1.358,
+     "end": 1.591
+    },
+    {
+     "text": "the",
+     "start": 1.614,
+     "end": 1.683
+    },
+    {
+     "text": "flag.",
+     "start": 1.718,
+     "end": 2.368
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 83
+  },
+  {
+   "id": "name",
+   "speechEnd": 4.168,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.868,
+     "end": 3.112
+    },
+    {
+     "text": "William",
+     "start": 3.17,
+     "end": 3.472
+    },
+    {
+     "text": "Carney.",
+     "start": 3.541,
+     "end": 4.168
+    }
+   ],
+   "cues": {},
+   "startFrame": 83,
+   "endFrame": 137
+  },
+  {
+   "id": "born",
+   "speechEnd": 10.555,
+   "words": [
+    {
+     "text": "Born",
+     "start": 4.669,
+     "end": 4.948
+    },
+    {
+     "text": "enslaved",
+     "start": 4.994,
+     "end": 5.447
+    },
+    {
+     "text": "in",
+     "start": 5.482,
+     "end": 5.528
+    },
+    {
+     "text": "Norfolk,",
+     "start": 5.586,
+     "end": 5.911
+    },
+    {
+     "text": "Virginia,",
+     "start": 5.934,
+     "end": 6.376
+    },
+    {
+     "text": "in",
+     "start": 6.399,
+     "end": 6.469
+    },
+    {
+     "text": "1840,",
+     "start": 6.503,
+     "end": 7.281
+    },
+    {
+     "text": "he",
+     "start": 7.641,
+     "end": 7.722
+    },
+    {
+     "text": "found",
+     "start": 7.792,
+     "end": 8.013
+    },
+    {
+     "text": "freedom",
+     "start": 8.082,
+     "end": 8.384
+    },
+    {
+     "text": "up",
+     "start": 8.442,
+     "end": 8.524
+    },
+    {
+     "text": "north,",
+     "start": 8.605,
+     "end": 8.93
+    },
+    {
+     "text": "in",
+     "start": 8.965,
+     "end": 9.081
+    },
+    {
+     "text": "New",
+     "start": 9.15,
+     "end": 9.267
+    },
+    {
+     "text": "Bedford,",
+     "start": 9.313,
+     "end": 9.673
+    },
+    {
+     "text": "Massachusetts.",
+     "start": 9.696,
+     "end": 10.555
+    }
+   ],
+   "cues": {},
+   "startFrame": 137,
+   "endFrame": 331
+  },
+  {
+   "id": "enlist",
+   "speechEnd": 17.626,
+   "words": [
+    {
+     "text": "In",
+     "start": 11.136,
+     "end": 11.263
+    },
+    {
+     "text": "1863,",
+     "start": 11.298,
+     "end": 12.436
+    },
+    {
+     "text": "when",
+     "start": 12.575,
+     "end": 12.75
+    },
+    {
+     "text": "Black",
+     "start": 12.808,
+     "end": 13.063
+    },
+    {
+     "text": "men",
+     "start": 13.121,
+     "end": 13.26
+    },
+    {
+     "text": "were",
+     "start": 13.307,
+     "end": 13.446
+    },
+    {
+     "text": "finally",
+     "start": 13.493,
+     "end": 13.829
+    },
+    {
+     "text": "allowed",
+     "start": 13.876,
+     "end": 14.143
+    },
+    {
+     "text": "to",
+     "start": 14.166,
+     "end": 14.212
+    },
+    {
+     "text": "fight,",
+     "start": 14.282,
+     "end": 14.665
+    },
+    {
+     "text": "he",
+     "start": 14.979,
+     "end": 15.048
+    },
+    {
+     "text": "joined",
+     "start": 15.13,
+     "end": 15.385
+    },
+    {
+     "text": "the",
+     "start": 15.408,
+     "end": 15.478
+    },
+    {
+     "text": "54th",
+     "start": 15.548,
+     "end": 16.047
+    },
+    {
+     "text": "Massachusetts.",
+     "start": 16.105,
+     "end": 17.626
+    }
+   ],
+   "cues": {},
+   "startFrame": 331,
+   "endFrame": 541
+  },
+  {
+   "id": "wagner",
+   "speechEnd": 22.723,
+   "words": [
+    {
+     "text": "On",
+     "start": 18.125,
+     "end": 18.288
+    },
+    {
+     "text": "July",
+     "start": 18.334,
+     "end": 18.589
+    },
+    {
+     "text": "18,",
+     "start": 18.659,
+     "end": 19.065
+    },
+    {
+     "text": "1863,",
+     "start": 19.089,
+     "end": 19.901
+    },
+    {
+     "text": "the",
+     "start": 19.925,
+     "end": 19.994
+    },
+    {
+     "text": "54th",
+     "start": 20.064,
+     "end": 20.575
+    },
+    {
+     "text": "charged",
+     "start": 20.633,
+     "end": 21.004
+    },
+    {
+     "text": "Fort",
+     "start": 21.074,
+     "end": 21.295
+    },
+    {
+     "text": "Wagner,",
+     "start": 21.341,
+     "end": 21.771
+    },
+    {
+     "text": "near",
+     "start": 21.829,
+     "end": 22.014
+    },
+    {
+     "text": "Charleston.",
+     "start": 22.072,
+     "end": 22.723
+    }
+   ],
+   "cues": {},
+   "startFrame": 541,
+   "endFrame": 693
+  },
+  {
+   "id": "flag",
+   "speechEnd": 27.97,
+   "words": [
+    {
+     "text": "The",
+     "start": 23.21,
+     "end": 23.315
+    },
+    {
+     "text": "color",
+     "start": 23.361,
+     "end": 23.593
+    },
+    {
+     "text": "sergeant",
+     "start": 23.64,
+     "end": 23.942
+    },
+    {
+     "text": "was",
+     "start": 23.976,
+     "end": 24.081
+    },
+    {
+     "text": "shot",
+     "start": 24.127,
+     "end": 24.36
+    },
+    {
+     "text": "down.",
+     "start": 24.418,
+     "end": 24.824
+    },
+    {
+     "text": "Carney",
+     "start": 25.242,
+     "end": 25.544
+    },
+    {
+     "text": "grabbed",
+     "start": 25.602,
+     "end": 25.904
+    },
+    {
+     "text": "the",
+     "start": 25.927,
+     "end": 25.997
+    },
+    {
+     "text": "flag",
+     "start": 26.031,
+     "end": 26.31
+    },
+    {
+     "text": "and",
+     "start": 26.345,
+     "end": 26.415
+    },
+    {
+     "text": "carried",
+     "start": 26.484,
+     "end": 26.786
+    },
+    {
+     "text": "it",
+     "start": 26.821,
+     "end": 26.879
+    },
+    {
+     "text": "to",
+     "start": 26.914,
+     "end": 26.96
+    },
+    {
+     "text": "the",
+     "start": 27.018,
+     "end": 27.088
+    },
+    {
+     "text": "top",
+     "start": 27.123,
+     "end": 27.32
+    },
+    {
+     "text": "of",
+     "start": 27.367,
+     "end": 27.413
+    },
+    {
+     "text": "the",
+     "start": 27.459,
+     "end": 27.529
+    },
+    {
+     "text": "wall.",
+     "start": 27.564,
+     "end": 27.97
+    }
+   ],
+   "cues": {},
+   "startFrame": 693,
+   "endFrame": 847
+  },
+  {
+   "id": "wounds",
+   "speechEnd": 33.461,
+   "words": [
+    {
+     "text": "He",
+     "start": 28.33,
+     "end": 28.423
+    },
+    {
+     "text": "was",
+     "start": 28.469,
+     "end": 28.574
+    },
+    {
+     "text": "severely",
+     "start": 28.62,
+     "end": 29.015
+    },
+    {
+     "text": "wounded,",
+     "start": 29.061,
+     "end": 29.537
+    },
+    {
+     "text": "twice.",
+     "start": 29.677,
+     "end": 30.222
+    },
+    {
+     "text": "When",
+     "start": 30.71,
+     "end": 30.872
+    },
+    {
+     "text": "the",
+     "start": 30.907,
+     "end": 30.977
+    },
+    {
+     "text": "regiment",
+     "start": 31.023,
+     "end": 31.36
+    },
+    {
+     "text": "fell",
+     "start": 31.406,
+     "end": 31.569
+    },
+    {
+     "text": "back,",
+     "start": 31.627,
+     "end": 31.975
+    },
+    {
+     "text": "he",
+     "start": 32.115,
+     "end": 32.184
+    },
+    {
+     "text": "brought",
+     "start": 32.231,
+     "end": 32.428
+    },
+    {
+     "text": "the",
+     "start": 32.451,
+     "end": 32.521
+    },
+    {
+     "text": "flag",
+     "start": 32.544,
+     "end": 32.776
+    },
+    {
+     "text": "back",
+     "start": 32.835,
+     "end": 33.009
+    },
+    {
+     "text": "with",
+     "start": 33.067,
+     "end": 33.229
+    },
+    {
+     "text": "it.",
+     "start": 33.276,
+     "end": 33.461
+    }
+   ],
+   "cues": {},
+   "startFrame": 847,
+   "endFrame": 1009
+  },
+  {
+   "id": "quote",
+   "speechEnd": 39.348,
+   "words": [
+    {
+     "text": "He",
+     "start": 33.728,
+     "end": 33.833
+    },
+    {
+     "text": "told",
+     "start": 33.891,
+     "end": 34.077
+    },
+    {
+     "text": "the",
+     "start": 34.112,
+     "end": 34.181
+    },
+    {
+     "text": "men:",
+     "start": 34.216,
+     "end": 34.622
+    },
+    {
+     "text": "Boys,",
+     "start": 34.936,
+     "end": 35.47
+    },
+    {
+     "text": "I",
+     "start": 35.667,
+     "end": 35.725
+    },
+    {
+     "text": "only",
+     "start": 35.807,
+     "end": 35.981
+    },
+    {
+     "text": "did",
+     "start": 36.027,
+     "end": 36.155
+    },
+    {
+     "text": "my",
+     "start": 36.201,
+     "end": 36.294
+    },
+    {
+     "text": "duty.",
+     "start": 36.364,
+     "end": 36.794
+    },
+    {
+     "text": "The",
+     "start": 36.991,
+     "end": 37.119
+    },
+    {
+     "text": "old",
+     "start": 37.177,
+     "end": 37.328
+    },
+    {
+     "text": "flag",
+     "start": 37.386,
+     "end": 37.711
+    },
+    {
+     "text": "never",
+     "start": 37.769,
+     "end": 37.955
+    },
+    {
+     "text": "touched",
+     "start": 38.001,
+     "end": 38.256
+    },
+    {
+     "text": "the",
+     "start": 38.28,
+     "end": 38.349
+    },
+    {
+     "text": "ground.",
+     "start": 38.384,
+     "end": 39.348
+    }
+   ],
+   "cues": {},
+   "startFrame": 1009,
+   "endFrame": 1192
+  },
+  {
+   "id": "after",
+   "speechEnd": 43.367,
+   "words": [
+    {
+     "text": "Discharged",
+     "start": 39.849,
+     "end": 40.453
+    },
+    {
+     "text": "in",
+     "start": 40.499,
+     "end": 40.557
+    },
+    {
+     "text": "1864,",
+     "start": 40.592,
+     "end": 41.567
+    },
+    {
+     "text": "he",
+     "start": 41.73,
+     "end": 41.811
+    },
+    {
+     "text": "went",
+     "start": 41.869,
+     "end": 42.043
+    },
+    {
+     "text": "home",
+     "start": 42.101,
+     "end": 42.345
+    },
+    {
+     "text": "and",
+     "start": 42.38,
+     "end": 42.461
+    },
+    {
+     "text": "delivered",
+     "start": 42.508,
+     "end": 42.833
+    },
+    {
+     "text": "the",
+     "start": 42.856,
+     "end": 42.926
+    },
+    {
+     "text": "mail.",
+     "start": 42.96,
+     "end": 43.367
+    }
+   ],
+   "cues": {},
+   "startFrame": 1192,
+   "endFrame": 1309
+  },
+  {
+   "id": "medal",
+   "speechEnd": 50.716,
+   "words": [
+    {
+     "text": "The",
+     "start": 43.727,
+     "end": 43.843
+    },
+    {
+     "text": "army",
+     "start": 43.912,
+     "end": 44.145
+    },
+    {
+     "text": "took",
+     "start": 44.203,
+     "end": 44.389
+    },
+    {
+     "text": "37",
+     "start": 44.458,
+     "end": 44.981
+    },
+    {
+     "text": "years.",
+     "start": 45.05,
+     "end": 45.491
+    },
+    {
+     "text": "In",
+     "start": 45.689,
+     "end": 45.828
+    },
+    {
+     "text": "1900,",
+     "start": 45.886,
+     "end": 46.571
+    },
+    {
+     "text": "he",
+     "start": 46.606,
+     "end": 46.664
+    },
+    {
+     "text": "received",
+     "start": 46.745,
+     "end": 47.07
+    },
+    {
+     "text": "the",
+     "start": 47.094,
+     "end": 47.163
+    },
+    {
+     "text": "Medal",
+     "start": 47.21,
+     "end": 47.43
+    },
+    {
+     "text": "of",
+     "start": 47.477,
+     "end": 47.523
+    },
+    {
+     "text": "Honor,",
+     "start": 47.581,
+     "end": 47.999
+    },
+    {
+     "text": "for",
+     "start": 48.115,
+     "end": 48.243
+    },
+    {
+     "text": "the",
+     "start": 48.289,
+     "end": 48.359
+    },
+    {
+     "text": "earliest",
+     "start": 48.44,
+     "end": 48.847
+    },
+    {
+     "text": "action",
+     "start": 48.905,
+     "end": 49.195
+    },
+    {
+     "text": "by",
+     "start": 49.253,
+     "end": 49.369
+    },
+    {
+     "text": "any",
+     "start": 49.439,
+     "end": 49.601
+    },
+    {
+     "text": "Black",
+     "start": 49.659,
+     "end": 49.88
+    },
+    {
+     "text": "soldier",
+     "start": 49.938,
+     "end": 50.252
+    },
+    {
+     "text": "honored.",
+     "start": 50.31,
+     "end": 50.716
+    }
+   ],
+   "cues": {},
+   "startFrame": 1309,
+   "endFrame": 1529
+  },
+  {
+   "id": "death",
+   "speechEnd": 55.824,
+   "words": [
+    {
+     "text": "He",
+     "start": 51.076,
+     "end": 51.192
+    },
+    {
+     "text": "died",
+     "start": 51.273,
+     "end": 51.598
+    },
+    {
+     "text": "in",
+     "start": 51.644,
+     "end": 51.702
+    },
+    {
+     "text": "1908.",
+     "start": 51.749,
+     "end": 52.515
+    },
+    {
+     "text": "At",
+     "start": 52.875,
+     "end": 53.026
+    },
+    {
+     "text": "the",
+     "start": 53.061,
+     "end": 53.131
+    },
+    {
+     "text": "Massachusetts",
+     "start": 53.177,
+     "end": 53.792
+    },
+    {
+     "text": "State",
+     "start": 53.816,
+     "end": 54.059
+    },
+    {
+     "text": "House,",
+     "start": 54.083,
+     "end": 54.338
+    },
+    {
+     "text": "the",
+     "start": 54.361,
+     "end": 54.431
+    },
+    {
+     "text": "flag",
+     "start": 54.477,
+     "end": 54.733
+    },
+    {
+     "text": "flew",
+     "start": 54.791,
+     "end": 54.977
+    },
+    {
+     "text": "at",
+     "start": 55.011,
+     "end": 55.069
+    },
+    {
+     "text": "half-mast.",
+     "start": 55.116,
+     "end": 55.824
+    }
+   ],
+   "cues": {},
+   "startFrame": 1529,
+   "endFrame": 1680
+  },
+  {
+   "id": "end",
+   "speechEnd": 59.168,
+   "words": [
+    {
+     "text": "Shot",
+     "start": 56.091,
+     "end": 56.346
+    },
+    {
+     "text": "twice.",
+     "start": 56.393,
+     "end": 56.881
+    },
+    {
+     "text": "William",
+     "start": 57.194,
+     "end": 57.484
+    },
+    {
+     "text": "Carney",
+     "start": 57.542,
+     "end": 57.821
+    },
+    {
+     "text": "never",
+     "start": 57.879,
+     "end": 58.053
+    },
+    {
+     "text": "dropped",
+     "start": 58.088,
+     "end": 58.343
+    },
+    {
+     "text": "the",
+     "start": 58.367,
+     "end": 58.436
+    },
+    {
+     "text": "flag.",
+     "start": 58.471,
+     "end": 59.168
+    }
+   ],
+   "cues": {},
+   "startFrame": 1680,
+   "endFrame": 1787
+  },
+  {
+   "id": "cta",
+   "speechEnd": 62.176,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 59.668,
+     "end": 59.993
+    },
+    {
+     "text": "The",
+     "start": 60.04,
+     "end": 60.109
+    },
+    {
+     "text": "Black",
+     "start": 60.144,
+     "end": 60.341
+    },
+    {
+     "text": "History",
+     "start": 60.388,
+     "end": 60.666
+    },
+    {
+     "text": "Room",
+     "start": 60.725,
+     "end": 60.887
+    },
+    {
+     "text": "for",
+     "start": 60.945,
+     "end": 61.05
+    },
+    {
+     "text": "one",
+     "start": 61.119,
+     "end": 61.282
+    },
+    {
+     "text": "story",
+     "start": 61.317,
+     "end": 61.607
+    },
+    {
+     "text": "a",
+     "start": 61.653,
+     "end": 61.677
+    },
+    {
+     "text": "day.",
+     "start": 61.735,
+     "end": 62.176
+    }
+   ],
+   "cues": {},
+   "startFrame": 1787,
+   "endFrame": 1901
+  }
+ ]
+}
