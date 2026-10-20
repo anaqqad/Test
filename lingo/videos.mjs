@@ -1494,7 +1494,7 @@ export const VIDEOS = {
         char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#f4f1e8", vest: "#2f6b3f" }, expression: "open" },
         cards: [
           "In the mountains of Oaxaca, Mexico, Chinantec men whistle whole conversations through the fog. Chinantec has seven tones, and the whistle copies them.",
-          "This is a real exchange between two neighbours: 'What are you going to do tomorrow, at noon?' 'Nothing. I'm going to take a nap.'",
+          "This is a real exchange between two neighbours: 'What are you going to do tomorrow, at noon?' 'Nothing, I will take a nap.'",
           "The second clip works like a radio: a man on a mountain road calls his neighbour to go and fetch his brother. Even 'over' is whistled.",
           "Linguist Mark Sicoli recorded both in the Sierra Norte. Young Chinantecs now reach each other by phone, and the whistle is fading.",
         ],
