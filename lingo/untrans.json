@@ -2,7 +2,7 @@
  "_note": "Words That Don't Exist in English be like. Native word = real recording (Lingua Libre / Wiktionary pronunciation files on Commons); the English translation is read by a Piper AI voice, labelled on screen. Ranked 10 -> 1 by the number of English words in the shortest honest translation (counted by fetch_untrans.py).",
  "title": "Words That Don't Exist in English be like",
  "english_voice": "en_GB-alan-medium",
- "english_wojak": "s_eng_calm",
+ "english_wojak": "s_eng_dep",
  "items": [
   {
    "key": "schadenfreude",
@@ -129,7 +129,7 @@
    "key": "depaysement",
    "name": "French",
    "flag": "fr",
-   "wojak": "s_fra",
+   "wojak": "s_fra_calm",
    "scene": "tuscany",
    "word": "dépaysement",
    "literal": "un-country-ing",
@@ -146,7 +146,7 @@
    "key": "guanxi",
    "name": "Chinese",
    "flag": "cn",
-   "wojak": "s_zho",
+   "wojak": "s_zho_calm",
    "scene": "hongkong",
    "word": "关系",
    "roman": "guānxi",
