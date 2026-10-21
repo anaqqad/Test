@@ -56,7 +56,7 @@ const T = {
   sounds: { name: "Xhosa", photo: "sounds", pos: "50% 50%", flag: "za", hook: ["Weirdest", "Sounds Ever"] },
   niche: { name: "Tuvan", photo: "niche", pos: "50% 50%", flag: "ru", hook: ["Who Speaks", "This?"] },
   conlangs: { name: "Esperanto", photo: "conlangs", pos: "50% 50%", flagUrl: EO, hook: ["Someone", "Invented It"] },
-  extinct: { name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },
+  extinct: { part: "PART 1", name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },
   soundlike: { name: "Maltese", photo: "soundlike", pos: "50% 50%", flag: "mt", hook: ["This Isn't", "Arabic?!"] },
   a2usa: { name: "A2 English", photo: "a2usa", pos: "50% 40%", flag: "us", hook: ["Yes.", "Thank You."] },
   revived: { name: "Hebrew", photo: "revived", pos: "50% 50%", flag: "il", hook: ["Back From", "the Dead"] },
