@@ -1531,4 +1531,94 @@ export const VIDEOS = {
       },
     ],
   },
+
+  // ------------------------------------------------------------------ nearly extinct, part 2 (Wikitongues videos on Commons; build_extinct2.py)
+  extinct2: {
+    title: "Hear These Languages Before They Disappear",
+    part: "Part 2",
+    layout: "story",
+    counterLabel: "speakers",
+    items: [
+      {
+        name: "Ainu", wojak: "e_ainu", flag: "jp", speakers: "a handful", scene: "forest", loc: [43.1, 142.5, "Hokkaido, Japan"],
+        char: F({ skin: "light", hair: "long", hairColor: "grey", outfit: { type: "robe", color: "#1f2a44", trim: "#f4f1e8" }, expression: "neutral" }),
+        cards: [
+          "Ainu is the language of the indigenous people of Hokkaido, in northern Japan. It is related to nothing else on Earth, not even Japanese.",
+          "For a century Japan banned it in schools and pushed the Ainu to assimilate. Today only a handful of elderly native speakers are left.",
+          "Japan recognised the Ainu as an indigenous people only in 2019. Night classes and radio lessons are trying to bring the language back.",
+        ],
+        audio: { file: "cache/extinct2/src/ainu.webm", start: 2.0, voice: "f" },
+      },
+      {
+        name: "Miyako", wojak: "e_miyako", flag: "jp", speakers: "elderly only", scene: "tropical", loc: [24.8, 125.3, "Miyako Islands, Okinawa"],
+        char: { skin: "tan", hair: "short", hairColor: "grey", outfit: { type: "shirt", color: "#9bc4e2", vest: "#9bc4e2" }, expression: "smile" },
+        cards: [
+          "Miyako is spoken on a few small islands south of Okinawa. Tokyo called it a dialect for a century, but a Japanese speaker cannot understand a word of it.",
+          "It has sounds no other Japanese-family language has, like syllables made of nothing but a long 'ss' or 'ff'.",
+          "Almost every fluent speaker is over sixty. The children of the islands grew up with standard Japanese on TV and in school.",
+        ],
+        audio: { file: "cache/extinct2/src/miyako.webm", start: 2.0, voice: "m" },
+      },
+      {
+        name: "Mendriq", wojak: "e_mendriq", flag: "my", speakers: "~250", scene: "tropical", loc: [5.2, 101.8, "Kelantan, Malaysia"],
+        char: F({ skin: "brown", hair: "long", hairColor: "black", outfit: { type: "wrap", color: "#8e5a2b", color2: "#f2c94c", trim: "#c0392b" }, expression: "neutral" }),
+        cards: [
+          "Mendriq is spoken by a few hundred Orang Asli, the first peoples of the Malay peninsula, deep in the forests of Kelantan.",
+          "It belongs to the Aslian family, cousins of Khmer and Vietnamese, and it was there thousands of years before Malay arrived.",
+          "Resettlement villages and Malay schools mean the children answer their grandparents in Malay. Linguists only started recording it properly in the 2010s.",
+        ],
+        audio: { file: "cache/extinct2/src/mendriq.webm", start: 1.0, voice: "f" },
+      },
+      {
+        name: "Lehali", wojak: "e_lehali", flag: "vu", speakers: "~200", scene: "hawaii", loc: [-13.55, 167.3, "Ureparapara, Vanuatu"],
+        char: F({ skin: "dark", hair: "bun", hairColor: "black", outfit: { type: "dress", color: "#2a9d8f", color2: "#f2a541", trim: "#f2a541" }, expression: "smile" }),
+        cards: [
+          "Vanuatu has more languages per person than any country on Earth: over a hundred for three hundred thousand people.",
+          "Lehali is one of them, spoken on a single volcanic island in the north by around two hundred people.",
+          "Its neighbours speak different languages a few kilometres away. Bislama, the national creole, is slowly replacing all of them.",
+        ],
+        audio: { file: "cache/extinct2/src/lehali.webm", start: 2.0, voice: "f" },
+      },
+      {
+        name: "Kensiu", wojak: "e_kensiu", flag: "my", speakers: "~300", scene: "tropical", loc: [5.8, 100.9, "Baling, Kedah, Malaysia"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#2f6b3f", vest: "#2f6b3f" }, expression: "neutral" },
+        cards: [
+          "Kensiu is spoken in one village in northern Malaysia and a few across the Thai border, by about three hundred people.",
+          "Its speakers were nomadic forest foragers within living memory. The language has words for forest life that Malay simply does not have.",
+          "Like Mendriq, it is Aslian: the sound of the peninsula before the Malay kingdoms, still alive in one village.",
+        ],
+        audio: { file: "cache/extinct2/src/kensiu.webm", start: 1.0, voice: "m" },
+      },
+      {
+        name: "Laz", wojak: "e_laz", flag: "tr", speakers: "~20,000", scene: "caucasus", loc: [41.2, 41.5, "Rize and Artvin, Turkey"],
+        char: { skin: "olive", hair: "short", hairColor: "black", mustache: true, hat: { type: "headscarf", color: "#1d1d1d", color2: "#1d1d1d" }, outfit: { type: "coat", color: "#3a3a3a", inner: "#f4f1e8" }, expression: "neutral" },
+        cards: [
+          "Laz is spoken on the Black Sea coast of Turkey. It is a cousin of Georgian, not of Turkish, with consonant clusters that make Turkish speakers give up.",
+          "It has never been taught in a Turkish state school and has no official status. UNESCO lists it as definitely endangered.",
+          "Most speakers are over fifty. A Laz newspaper, a few singers and an alphabet designed in the 1980s are what keeps it visible.",
+        ],
+        audio: { file: "cache/extinct2/src/laz.webm", start: 2.0, voice: "m" },
+      },
+      {
+        name: "Northern Sami", wojak: "e_sami", flag: "no", speakers: "~20,000", scene: "arctic", loc: [69.0, 23.0, "Kautokeino, Norway"],
+        char: F({ skin: "pale", hair: "braids", hairColor: "brown", hat: { type: "beanie", color: "#1f4e8c", color2: "#c0392b" }, outfit: { type: "tunic", color: "#1f4e8c", color2: "#c0392b", trim: "#f2c94c" }, expression: "neutral" }),
+        cards: [
+          "The Sámi are the indigenous people of the Arctic north of Norway, Sweden and Finland. Northern Sami is the biggest of their nine languages, with about twenty thousand speakers.",
+          "It has hundreds of words for snow, ice and reindeer, and it is related to Finnish, not to Norwegian.",
+          "Norway banned it in schools until the 1960s. Today there are Sámi schools, a Sámi parliament and a TV channel, but most of the smaller Sámi languages are nearly gone.",
+        ],
+        audio: { file: "cache/extinct2/src/sami.webm", start: 2.0, voice: "f" },
+      },
+      {
+        name: "Bildts", wojak: "e_bildts", flag: "nl", speakers: "~6,000", scene: "moorland", loc: [53.3, 5.7, "Het Bildt, Netherlands"],
+        char: { skin: "pale", hair: "short", hairColor: "grey", hat: { type: "flatcap", color: "#3a3a3a" }, outfit: { type: "coat", color: "#2c3e50", inner: "#f4f1e8" }, expression: "neutral" },
+        cards: [
+          "Bildts is spoken on a patch of land in the north of the Netherlands that did not exist five hundred years ago: it was reclaimed from the sea in 1505.",
+          "The dyke builders came from Holland, the neighbours spoke Frisian, and their children mixed the two into a language of its own.",
+          "About six thousand people still speak it. In 2018 the Dutch government refused to recognise it as a language, which only made the locals prouder of it.",
+        ],
+        audio: { file: "cache/extinct2/src/bildts.webm", start: 2.0, voice: "m" },
+      },
+    ],
+  },
 };
