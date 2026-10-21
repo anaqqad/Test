@@ -1,0 +1,38 @@
+{
+ "fields": {
+  "title": "File:Mary Fields.jpg",
+  "artist": "unknown",
+  "date": "c. 1895",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Mary_Fields.jpg",
+  "width": 1280,
+  "height": 1913
+ },
+ "mission": {
+  "title": "File:St Peters Mission - near Cascade Montana - c 1887.jpg",
+  "artist": "unknown",
+  "date": "c. 1887",
+  "license": "Public domain (published before 1929)",
+  "source": "https://commons.wikimedia.org/wiki/File:St_Peters_Mission_-_near_Cascade_Montana_-_c_1887.jpg",
+  "width": 1280,
+  "height": 806
+ },
+ "convent": {
+  "title": "File:Ursuline Convent - St Peters Mission - near Cascade Montana - c 1892.jpg",
+  "artist": "unknown",
+  "date": "c. 1892",
+  "license": "Public domain (published before 1929)",
+  "source": "https://commons.wikimedia.org/wiki/File:Ursuline_Convent_-_St_Peters_Mission_-_near_Cascade_Montana_-_c_1892.jpg",
+  "width": 1280,
+  "height": 716
+ },
+ "nuns": {
+  "title": "File:Mother Amadeus - Sr St Ignatius - Sr St Thomas - pupils of St Peters Mission - near Cascade Montana - late 1897.jpg",
+  "artist": "unknown",
+  "date": "1897",
+  "license": "Public domain (published before 1929)",
+  "source": "https://commons.wikimedia.org/wiki/File:Mother_Amadeus_-_Sr_St_Ignatius_-_Sr_St_Thomas_-_pupils_of_St_Peters_Mission_-_near_Cascade_Montana_-_late_1897.jpg",
+  "width": 1280,
+  "height": 876
+ }
+}
