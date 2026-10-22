@@ -1,0 +1,38 @@
+{
+ "catto2": {
+  "title": "File:Octavius Catto.jpg (photograph, c. 1860s-71)",
+  "artist": "unknown",
+  "date": "c. 1871",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Octavius_Catto.jpg",
+  "width": 1280,
+  "height": 2037
+ },
+ "catto_loc": {
+  "title": "Octavius V. Catto / photographed by Messrs. Broadbent & Phillips, Philadelphia; S. Fox (engraving)",
+  "artist": "S. Fox after Broadbent & Phillips; Library of Congress ppmsca.18480",
+  "date": "1871-10-28",
+  "license": "No known restrictions on publication",
+  "source": "https://www.loc.gov/item/2008677286/",
+  "width": 772,
+  "height": 1024
+ },
+ "chestnut1870": {
+  "title": "Chestnut Street below 11th, south side, Philadelphia (stereograph)",
+  "artist": "unknown; Library of Congress ppmsca.09419",
+  "date": "c. 1870",
+  "license": "No known restrictions on publication",
+  "source": "https://www.loc.gov/item/2005691145/",
+  "width": 1024,
+  "height": 637
+ },
+ "chestnut1863": {
+  "title": "Chestnut St. looking east from about half way above 9th St., about 1863 (album page)",
+  "artist": "unknown; Library of Congress ppmsca.41938",
+  "date": "c. 1863",
+  "license": "No known restrictions on publication",
+  "source": "https://www.loc.gov/item/2016649504/",
+  "width": 671,
+  "height": 1024
+ }
+}
