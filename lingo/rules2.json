@@ -1,150 +1,149 @@
 {
- "_note": "These Languages Break the Rules of Speech, Part 2. Each entry names the rule and plays the exact example that breaks it (real Wikimedia Commons / Lingua Libre recordings, cache/sounds2).",
- "title": "These Languages Break the Rules of Speech",
- "part": "Part 2",
- "items": [
-  {
-   "key": "nld",
-   "name": "Dutch",
-   "flag": "nl",
-   "wojak": "s_nld",
-   "scene": "moorland",
-   "rule": "A word needs a vowel every few letters",
-   "example": "angstschreeuw",
-   "meaning": "a scream of fear: eight consonants in a row",
-   "recs": [
-    "nld"
-   ],
-   "cards": [
-    "Dutch stacks consonants like no other European language. 'Angstschreeuw' has eight in a row, and a Dutch child says it without blinking.",
-    "The trick is 'sch' plus 'schr': two clusters that English speakers hear as one long hiss. Dutch hears four separate sounds."
-   ]
-  },
-  {
-   "key": "deu",
-   "name": "German",
-   "flag": "de",
-   "wojak": "s_deu",
-   "scene": "village",
-   "rule": "A word is shorter than a sentence",
-   "example": "Grundstücksverkehrsgenehmigungszuständigkeitsübertragungsverordnung",
-   "meaning": "67 letters: a regulation about who may approve land sales",
-   "recs": [
-    "deu"
-   ],
-   "cards": [
-    "German does not borrow a phrase, it welds one. This 67-letter word was a real regulation in Mecklenburg-Vorpommern from 2003 to 2007.",
-    "Native speakers read it in one breath, because they see seven small words glued together, not one monster."
-   ]
-  },
-  {
-   "key": "ara",
-   "name": "Arabic",
-   "flag": "eg",
-   "wojak": "r_ara",
-   "scene": "arabia",
-   "rule": "A word has a fixed set of letters",
-   "example": "ك ت ب",
-   "meaning": "kataba, kitāb, maktab, maktaba: wrote, book, office, library",
-   "recs": [
-    "ara1",
-    "ara2",
-    "ara3",
-    "ara4"
-   ],
-   "cards": [
-    "Arabic words start as a skeleton of three consonants. K-T-B means 'writing', and the vowels are poured in afterwards.",
-    "Pour them one way and you get 'he wrote'. Another way: 'book'. Add an m: 'office'. Add an a: 'library'. One root, a whole family."
-   ]
-  },
-  {
-   "key": "vie",
-   "name": "Vietnamese",
-   "flag": "vn",
-   "wojak": "r_vie",
-   "scene": "tropical",
-   "rule": "Pitch does not change the meaning of a word",
-   "example": "mà · má · mạ",
-   "meaning": "but · mother · rice seedling, same syllable, three tones",
-   "recs": [
-    "vie1",
-    "vie2",
-    "vie3"
-   ],
-   "cards": [
-    "In Vietnamese the same syllable is a different word depending on the melody you give it. 'Ma' has six tones, six meanings, from ghost to rice seedling.",
-    "Sing the wrong tune and you call your mother a tomb. Tone is written with the little marks over the vowels."
-   ]
-  },
-  {
-   "key": "jpn",
-   "name": "Japanese",
-   "flag": "jp",
-   "wojak": "s_jpn",
-   "scene": "hongkong",
-   "rule": "Same sounds, same word",
-   "example": "雨 · 飴",
-   "meaning": "ame, ame: rain or candy, decided only by the pitch",
-   "recs": [
-    "jpn1",
-    "jpn2"
-   ],
-   "cards": [
-    "Japanese has no tones like Vietnamese, but it has pitch accent: 'ame' falling means rain, 'ame' rising means candy.",
-    "Same letters, same vowels, same consonants. Only the melody tells a Japanese ear whether to open an umbrella or a sweet."
-   ]
-  },
-  {
-   "key": "ces",
-   "name": "Czech",
-   "flag": "cz",
-   "wojak": "s_ces",
-   "scene": "prague",
-   "rule": "A sentence needs vowels",
-   "example": "Strč prst skrz krk",
-   "meaning": "stick your finger through your throat: a whole sentence, zero vowels",
-   "recs": [
-    "ces1",
-    "ces2"
-   ],
-   "cards": [
-    "We mentioned this one in Part 1. This time you hear it: 'Strč prst skrz krk' is a real Czech sentence with not a single vowel.",
-    "The letters r and l do the job of vowels, so 'čtvrthrst', a quarter of a handful, is a normal word with nine letters and no vowel at all."
-   ]
-  },
-  {
-   "key": "pol",
-   "name": "Polish",
-   "flag": "pl",
-   "wojak": "r_pol_calm",
-   "scene": "hills",
-   "rule": "One syllable, a few letters",
-   "example": "chrząszcz",
-   "meaning": "beetle: nine letters, one syllable",
-   "recs": [
-    "pol"
-   ],
-   "cards": [
-    "'Chrząszcz' is one syllable. Polish writes the sounds ch, sz, cz and rz with two letters each, so a short word looks like a keyboard accident.",
-    "Polish children learn it in a tongue-twister about a beetle buzzing in the reeds of Szczebrzeszyn, a town that is itself a test."
-   ]
-  },
-  {
-   "key": "isl",
-   "name": "Icelandic",
-   "flag": "is",
-   "wojak": "r_isl",
-   "scene": "arctic",
-   "rule": "Names are pronounceable",
-   "example": "Eyjafjallajökull",
-   "meaning": "island-mountain-glacier: the volcano of 2010",
-   "recs": [
-    "isl"
-   ],
-   "cards": [
-    "In 2010 this volcano grounded Europe's planes, and every news anchor on Earth failed to say its name. It is just three words: island, mountain, glacier.",
-    "Icelandic has barely changed in a thousand years, so Icelanders can still read the Viking sagas, and still name volcanoes like Vikings."
-   ]
-  }
- ]
+  "_note": "These Languages Break the Rules of Speech, Part 2. Each entry names the rule and plays the exact example that breaks it (real Wikimedia Commons / Lingua Libre recordings, cache/sounds2).",
+  "title": "These Languages Break the Rules of Speech",
+  "part": "Part 2",
+  "items": [
+    {
+      "key": "nld",
+      "name": "Dutch",
+      "flag": "nl",
+      "wojak": "s_nld",
+      "scene": "moorland",
+      "rule": "A word needs a vowel every few letters",
+      "example": "angstschreeuw",
+      "meaning": "a scream of fear: eight consonants in a row",
+      "recs": [
+        "nld"
+      ],
+      "cards": [
+        "Dutch stacks consonants like no other European language. 'Angstschreeuw' has eight in a row, and a Dutch child says it without blinking.",
+        "The trick is 'sch' plus 'schr': two clusters that English speakers hear as one long hiss. Dutch hears four separate sounds."
+      ]
+    },
+    {
+      "key": "deu",
+      "name": "German",
+      "flag": "de",
+      "wojak": "s_deu",
+      "scene": "village",
+      "rule": "A word is shorter than a sentence",
+      "example": "Grundstücksverkehrsgenehmigungszuständigkeitsübertragungsverordnung",
+      "meaning": "67 letters: a regulation about who may approve land sales",
+      "recs": [
+        "deu"
+      ],
+      "cards": [
+        "German does not borrow a phrase, it welds one. This 67-letter word was a real regulation in Mecklenburg-Vorpommern from 2003 to 2007.",
+        "Native speakers read it in one breath, because they see seven small words glued together, not one monster."
+      ]
+    },
+    {
+      "key": "ara",
+      "name": "Arabic",
+      "flag": "eg",
+      "wojak": "r_ara",
+      "scene": "arabia",
+      "rule": "A word has a fixed set of letters",
+      "example": "ك ت ب",
+      "meaning": "kataba, maktab, maktaba: he wrote, office, library",
+      "recs": [
+        "ara1",
+        "ara3",
+        "ara4"
+      ],
+      "cards": [
+        "Arabic words start as a skeleton of three consonants. K-T-B means 'writing', and the vowels are poured in afterwards.",
+        "Pour them one way and you get 'he wrote'. Another way: 'book'. Add an m: 'office'. Add an a: 'library'. One root, a whole family."
+      ]
+    },
+    {
+      "key": "vie",
+      "name": "Vietnamese",
+      "flag": "vn",
+      "wojak": "r_vie",
+      "scene": "tropical",
+      "rule": "Pitch does not change the meaning of a word",
+      "example": "mà · má · mạ",
+      "meaning": "but · mother · rice seedling, same syllable, three tones",
+      "recs": [
+        "vie1",
+        "vie2",
+        "vie3"
+      ],
+      "cards": [
+        "In Vietnamese the same syllable is a different word depending on the melody you give it. 'Ma' has six tones, six meanings, from ghost to rice seedling.",
+        "Sing the wrong tune and you call your mother a tomb. Tone is written with the little marks over the vowels."
+      ]
+    },
+    {
+      "key": "jpn",
+      "name": "Japanese",
+      "flag": "jp",
+      "wojak": "s_jpn",
+      "scene": "hongkong",
+      "rule": "Same sounds, same word",
+      "example": "雨 · 飴",
+      "meaning": "ame, ame: rain or candy, decided only by the pitch",
+      "recs": [
+        "jpn1",
+        "jpn2"
+      ],
+      "cards": [
+        "Japanese has no tones like Vietnamese, but it has pitch accent: 'ame' falling means rain, 'ame' rising means candy.",
+        "Same letters, same vowels, same consonants. Only the melody tells a Japanese ear whether to open an umbrella or a sweet."
+      ]
+    },
+    {
+      "key": "ces",
+      "name": "Czech",
+      "flag": "cz",
+      "wojak": "s_ces",
+      "scene": "prague",
+      "rule": "A sentence needs vowels",
+      "example": "Strč prst skrz krk",
+      "meaning": "stick your finger through your throat: a whole sentence, zero vowels",
+      "recs": [
+        "ces1",
+        "ces2"
+      ],
+      "cards": [
+        "We mentioned this one in Part 1. This time you hear it: 'Strč prst skrz krk' is a real Czech sentence with not a single vowel.",
+        "The letters r and l do the job of vowels, so 'čtvrthrst', a quarter of a handful, is a normal word with nine letters and no vowel at all."
+      ]
+    },
+    {
+      "key": "pol",
+      "name": "Polish",
+      "flag": "pl",
+      "wojak": "r_pol_calm",
+      "scene": "hills",
+      "rule": "One syllable, a few letters",
+      "example": "chrząszcz",
+      "meaning": "beetle: nine letters, one syllable",
+      "recs": [
+        "pol"
+      ],
+      "cards": [
+        "'Chrząszcz' is one syllable. Polish writes the sounds ch, sz, cz and rz with two letters each, so a short word looks like a keyboard accident.",
+        "Polish children learn it in a tongue-twister about a beetle buzzing in the reeds of Szczebrzeszyn, a town that is itself a test."
+      ]
+    },
+    {
+      "key": "isl",
+      "name": "Icelandic",
+      "flag": "is",
+      "wojak": "r_isl",
+      "scene": "arctic",
+      "rule": "Names are pronounceable",
+      "example": "Eyjafjallajökull",
+      "meaning": "island-mountain-glacier: the volcano of 2010",
+      "recs": [
+        "isl"
+      ],
+      "cards": [
+        "In 2010 this volcano grounded Europe's planes, and every news anchor on Earth failed to say its name. It is just three words: island, mountain, glacier.",
+        "Icelandic has barely changed in a thousand years, so Icelanders can still read the Viking sagas, and still name volcanoes like Vikings."
+      ]
+    }
+  ]
 }
