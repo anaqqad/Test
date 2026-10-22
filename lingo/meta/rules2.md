@@ -10,12 +10,29 @@ Every voice is a real recording (Wikitongues speakers and a Wiktionary pronuncia
 
 Which rule did we miss? Tell us in the comments 👇
 
-CHAPTERS
+0:00 Intro
+0:05 Greenlandic: a sentence in one word
+0:26 Georgian: 8 consonants in a row
+0:47 Hmong: the silent last letter
+1:08 Quechua: say how you know it
+1:29 Lakota: men and women talk differently
+1:50 Cherokee: an alphabet with no letters
+2:11 Nahuatl: the tl English cut off
+2:33 Basque: counting in twenties
+2:54 Outro
 
 RECORDINGS (via Wikimedia Commons)
-CREDITS
+Greenlandic: "WIKITONGUES- Mark speaking Greenlandic.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Mark_speaking_Greenlandic.webm
+Georgian: "Ka-გვფრცქვნი-Nicodene-mom.ogg" by Nicodene, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AKa-%E1%83%92%E1%83%95%E1%83%A4%E1%83%A0%E1%83%AA%E1%83%A5%E1%83%95%E1%83%9C%E1%83%98-Nicodene-mom.ogg
+Georgian: "WIKITONGUES- Mariam speaking Georgian.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Mariam_speaking_Georgian.webm
+Hmong: "May speaking Hmong Don.webm" by Wikitongues, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AMay_speaking_Hmong_Don.webm
+Quechua: "WIKITONGUES- Casiano speaking Quechua.webm" by Wikitongues, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Casiano_speaking_Quechua.webm
+Lakota: "WIKITONGUES- Junior speaking Lakota.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Junior_speaking_Lakota.webm
+Cherokee: "WIKITONGUES- Hassan speaking Cherokee.webm" by Wikitongues, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Hassan_speaking_Cherokee.webm
+Nahuatl: "WIKITONGUES- Yan speaking Huasteca Nahuatl.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Yan_speaking_Huasteca_Nahuatl.webm
+Basque: "WIKITONGUES- Jon speaking Basque.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Jon_speaking_Basque.webm
 
-Thumbnail photo: PHOTOCREDIT
+Thumbnail photo: Sailing through the Ilulissat Icefjord, Greenland: photo by Vincent van Zeijst, CC BY 3.0, via Wikimedia Commons
 
 #languages #linguistics #languagesbelike
 

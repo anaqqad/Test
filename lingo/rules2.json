@@ -12,7 +12,11 @@
       "example": "Aliikusersuillammassuaanerartassagaluarpaalli",
       "short": "one word, 45 letters",
       "meaning": "one word: 'However, they will say that he is a great entertainer, but...'",
-      "clip": { "file": "greenlandic", "start": 2.0, "len": 7.0 },
+      "clip": {
+        "file": "greenlandic",
+        "start": 7.0,
+        "len": 7.0
+      },
       "cards": [
         "Greenlandic glues a whole sentence into one word: a root, then suffix after suffix after suffix. That word has 45 letters and no spaces.",
         "About 57,000 people speak it, and it is the official language of Greenland. One word can carry what English needs a dozen for."
@@ -28,26 +32,36 @@
       "example": "გვფრცქვნი",
       "short": "gvprtskvni",
       "meaning": "gvprtskvni: 'you peel us', eight consonants before the first vowel",
-      "recs": ["kat_word"],
-      "clip": { "file": "georgian", "start": 2.0, "len": 5.0 },
+      "recs": [
+        "kat_word"
+      ],
+      "clip": {
+        "file": "georgian",
+        "start": 2.0,
+        "len": 5.0
+      },
       "cards": [
         "Eight consonants in a row, then one vowel. Georgian stacks them like this all the time: mtsvrtneli, a trainer, opens with six.",
-        "Georgian also has its own alphabet, used by no other language, and no grammatical gender at all: one word covers he, she and it."
+        "Georgian also has its own 33-letter alphabet with no capital letters, and no grammatical gender at all: one word covers he, she and it."
       ]
     },
     {
       "key": "hmn",
       "name": "Hmong",
-      "flag": "la",
+      "flag": "vn",
       "wojak": "r_hmn_f",
-      "scene": "forest",
+      "scene": "himalaya",
       "rule": "The last letter of a word is pronounced",
       "example": "Hmoob",
       "meaning": "Hmong: the b is silent, it tells you the tone",
-      "clip": { "file": "hmong", "start": 2.0, "len": 7.0 },
+      "clip": {
+        "file": "hmong",
+        "start": 1.5,
+        "len": 7.0
+      },
       "cards": [
-        "In the Hmong alphabet the final letter is never spoken. It marks the tone: b is high, j falls, v rises, s is low, g is breathy, m is creaky.",
-        "That gives White Hmong seven tones, one more than Vietnamese, and millions of speakers in Laos, Vietnam, China and the United States."
+        "In the Hmong alphabet the last consonant is never spoken. It only marks the tone: b is high, j falls, v rises, s is low, g is breathy, m is creaky.",
+        "That gives Hmong seven or eight tones depending on the dialect, more than Vietnamese. This speaker is from the mountains of northern Vietnam."
       ]
     },
     {
@@ -60,7 +74,11 @@
       "example": "hamunmi · hamunsi · hamunchá",
       "short": "hamunmi, hamunsi, hamunchá",
       "meaning": "he comes (I saw it) · he comes (so I was told) · he comes (I guess)",
-      "clip": { "file": "quechua", "start": 2.0, "len": 7.0 },
+      "clip": {
+        "file": "quechua",
+        "start": 2.0,
+        "len": 7.0
+      },
       "cards": [
         "Quechua grammar forces you to show your evidence. The ending -mi means I witnessed it, -si means someone told me, -chá means I am guessing.",
         "About 8 million people speak it, the language of the Inca Empire, and it gave English the words puma, condor, llama and quinoa."
@@ -75,7 +93,11 @@
       "rule": "Men and women speak the same language",
       "example": "yeló · kštó",
       "meaning": "the same statement ends in yeló from a man and kštó from a woman",
-      "clip": { "file": "lakota", "start": 2.0, "len": 7.0 },
+      "clip": {
+        "file": "lakota",
+        "start": 2.0,
+        "len": 7.0
+      },
       "cards": [
         "In Lakota the little word that closes a statement depends on who is talking. A man ends with yeló, a woman with kštó. Commands too: yo for men, ye for women.",
         "Only about 2,000 people still speak Lakota fluently, mostly in South Dakota. It is the language of Sitting Bull and Crazy Horse."
@@ -89,9 +111,13 @@
       "scene": "oklahoma",
       "rule": "An alphabet is made of letters",
       "example": "ᏣᎳᎩ",
-      "short": "ᏣᎳᎩ, Tsalagi",
-      "meaning": "Tsalagi, Cherokee: three symbols, three syllables, no letters",
-      "clip": { "file": "cherokee", "start": 2.0, "len": 7.0 },
+      "short": "ᏣᎳᎩ (tsa-la-gi)",
+      "meaning": "tsa · la · gi: they look like C, W and y, but each one is a whole syllable",
+      "clip": {
+        "file": "cherokee",
+        "start": 2.0,
+        "len": 7.0
+      },
       "cards": [
         "Cherokee writing has no letters. Each of its 85 symbols is a whole syllable. Sequoyah invented it around 1821, and he could not read any other language.",
         "Within a few years most Cherokee could read and write, and in 1828 they printed the first Native American newspaper, the Cherokee Phoenix."
@@ -102,12 +128,16 @@
       "name": "Nahuatl",
       "flag": "mx",
       "wojak": "r_nah",
-      "scene": "zagros",
+      "scene": "hills",
       "rule": "A word cannot end in tl",
       "example": "xocolātl · tomatl · āhuacatl",
       "short": "xocolātl, tomatl, āhuacatl",
       "meaning": "chocolate · tomato · avocado: all Nahuatl, all ending in tl",
-      "clip": { "file": "nahuatl", "start": 2.0, "len": 7.0 },
+      "clip": {
+        "file": "nahuatl",
+        "start": 45.3,
+        "len": 7.0
+      },
       "cards": [
         "Nahuatl, the language of the Aztecs, ends thousands of nouns in tl, one sound that English simply cut off: xocolātl became chocolate, coyōtl became coyote.",
         "It is still spoken by about 1.6 million people in Mexico, and it gave the world chocolate, tomato, avocado, chili, coyote and Mexico itself."
@@ -122,7 +152,11 @@
       "rule": "Numbers go up by tens",
       "example": "berrogei",
       "meaning": "40, literally 'two twenties'",
-      "clip": { "file": "basque", "start": 2.0, "len": 7.0 },
+      "clip": {
+        "file": "basque",
+        "start": 2.0,
+        "len": 7.0
+      },
       "cards": [
         "Basque counts in twenties. 40 is berrogei, two twenties. 60 is hirurogei, three twenties. 80 is laurogei, four twenties. 90 is four twenties and ten.",
         "Basque is related to no other language on Earth. It was spoken in the Pyrenees before Latin arrived, and it outlived the Romans, the Visigoths and the Moors."

@@ -30,7 +30,7 @@ for it in D["items"]:
     k = it["key"]; parts = []
     for r in it.get("recs", []):
         src = os.path.join(SRC, r + ".mp3")
-        if not os.path.exists(src) or fa.duration(src) < 0.05:
+        if not os.path.exists(src) or os.path.getsize(src) < 2000 or fa.duration(src) < 0.05:
             print(k, "missing", r); continue
         w = os.path.join(OUT, f"{k}_{r}.wav")
         fa.to_wav(src, w, extra="silenceremove=start_periods=1:start_threshold=-42dB,areverse,silenceremove=start_periods=1:start_threshold=-42dB,areverse")
@@ -41,7 +41,7 @@ for it in D["items"]:
     c = it.get("clip")
     if c:
         src = os.path.join(SRC, c["file"] + ".webm")
-        if not os.path.exists(src):
+        if not os.path.exists(src) or os.path.getsize(src) < 20000:
             print(k, "missing clip", c["file"])
         else:
             w = os.path.join(OUT, f"{k}_clip.wav"); L = c["len"]
