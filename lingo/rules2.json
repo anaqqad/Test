@@ -1,148 +1,131 @@
 {
-  "_note": "These Languages Break the Rules of Speech, Part 2. Each entry names the rule and plays the exact example that breaks it (real Wikimedia Commons / Lingua Libre recordings, cache/sounds2).",
   "title": "These Languages Break the Rules of Speech",
   "part": "Part 2",
   "items": [
     {
-      "key": "nld",
-      "name": "Dutch",
-      "flag": "nl",
-      "wojak": "s_nld",
-      "scene": "moorland",
-      "rule": "A word needs a vowel every few letters",
-      "example": "angstschreeuw",
-      "meaning": "a scream of fear: eight consonants in a row",
-      "recs": [
-        "nld"
-      ],
-      "cards": [
-        "Dutch stacks consonants like no other European language. 'Angstschreeuw' has eight in a row, and a Dutch child says it without blinking.",
-        "The trick is 'sch' plus 'schr': two clusters that English speakers hear as one long hiss. Dutch hears four separate sounds."
-      ]
-    },
-    {
-      "key": "deu",
-      "name": "German",
-      "flag": "de",
-      "wojak": "s_deu",
-      "scene": "village",
+      "key": "kal",
+      "name": "Greenlandic",
+      "flag": "gl",
+      "wojak": "r_kal",
+      "scene": "greenland",
       "rule": "A word is shorter than a sentence",
-      "example": "Grundstücksverkehrsgenehmigungszuständigkeitsübertragungsverordnung",
-      "meaning": "67 letters: a regulation about who may approve land sales",
-      "recs": [
-        "deu"
-      ],
+      "example": "Aliikusersuillammassuaanerartassagaluarpaalli",
+      "short": "one word, 45 letters",
+      "meaning": "one word: 'However, they will say that he is a great entertainer, but...'",
+      "clip": { "file": "greenlandic", "start": 2.0, "len": 7.0 },
       "cards": [
-        "German does not borrow a phrase, it welds one. This 67-letter word was a real regulation in Mecklenburg-Vorpommern from 2003 to 2007.",
-        "Native speakers read it in one breath, because they see seven small words glued together, not one monster."
+        "Greenlandic glues a whole sentence into one word: a root, then suffix after suffix after suffix. That word has 45 letters and no spaces.",
+        "About 57,000 people speak it, and it is the official language of Greenland. One word can carry what English needs a dozen for."
       ]
     },
     {
-      "key": "ara",
-      "name": "Arabic",
-      "flag": "eg",
-      "wojak": "r_ara",
-      "scene": "arabia",
-      "rule": "A word has a fixed set of letters",
-      "example": "ك ت ب",
-      "meaning": "kataba, maktab, maktaba: he wrote, office, library",
-      "recs": [
-        "ara1",
-        "ara3",
-        "ara4"
-      ],
+      "key": "kat",
+      "name": "Georgian",
+      "flag": "ge",
+      "wojak": "r_kat_f",
+      "scene": "tbilisi",
+      "rule": "A word cannot start with 8 consonants",
+      "example": "გვფრცქვნი",
+      "short": "gvprtskvni",
+      "meaning": "gvprtskvni: 'you peel us', eight consonants before the first vowel",
+      "recs": ["kat_word"],
+      "clip": { "file": "georgian", "start": 2.0, "len": 5.0 },
       "cards": [
-        "Arabic words start as a skeleton of three consonants. K-T-B means 'writing', and the vowels are poured in afterwards.",
-        "Pour them one way and you get 'he wrote'. Another way: 'book'. Add an m: 'office'. Add an a: 'library'. One root, a whole family."
+        "Eight consonants in a row, then one vowel. Georgian stacks them like this all the time: mtsvrtneli, a trainer, opens with six.",
+        "Georgian also has its own alphabet, used by no other language, and no grammatical gender at all: one word covers he, she and it."
       ]
     },
     {
-      "key": "vie",
-      "name": "Vietnamese",
-      "flag": "vn",
-      "wojak": "r_vie",
-      "scene": "tropical",
-      "rule": "Pitch does not change the meaning of a word",
-      "example": "mà · má · mạ",
-      "meaning": "but · mother · rice seedling, same syllable, three tones",
-      "recs": [
-        "vie1",
-        "vie2",
-        "vie3"
-      ],
+      "key": "hmn",
+      "name": "Hmong",
+      "flag": "la",
+      "wojak": "r_hmn_f",
+      "scene": "forest",
+      "rule": "The last letter of a word is pronounced",
+      "example": "Hmoob",
+      "meaning": "Hmong: the b is silent, it tells you the tone",
+      "clip": { "file": "hmong", "start": 2.0, "len": 7.0 },
       "cards": [
-        "In Vietnamese the same syllable is a different word depending on the melody you give it. 'Ma' has six tones, six meanings, from ghost to rice seedling.",
-        "Sing the wrong tune and you call your mother a tomb. Tone is written with the little marks over the vowels."
+        "In the Hmong alphabet the final letter is never spoken. It marks the tone: b is high, j falls, v rises, s is low, g is breathy, m is creaky.",
+        "That gives White Hmong seven tones, one more than Vietnamese, and millions of speakers in Laos, Vietnam, China and the United States."
       ]
     },
     {
-      "key": "jpn",
-      "name": "Japanese",
-      "flag": "jp",
-      "wojak": "s_jpn",
-      "scene": "hongkong",
-      "rule": "Same sounds, same word",
-      "example": "雨 · 飴",
-      "meaning": "ame, ame: rain or candy, decided only by the pitch",
-      "recs": [
-        "jpn1",
-        "jpn2"
-      ],
+      "key": "que",
+      "name": "Quechua",
+      "flag": "pe",
+      "wojak": "r_que",
+      "scene": "sierra",
+      "rule": "You can state a fact without saying how you know it",
+      "example": "hamunmi · hamunsi · hamunchá",
+      "short": "hamunmi, hamunsi, hamunchá",
+      "meaning": "he comes (I saw it) · he comes (so I was told) · he comes (I guess)",
+      "clip": { "file": "quechua", "start": 2.0, "len": 7.0 },
       "cards": [
-        "Japanese has no tones like Vietnamese, but it has pitch accent: 'ame' falling means rain, 'ame' rising means candy.",
-        "Same letters, same vowels, same consonants. Only the melody tells a Japanese ear whether to open an umbrella or a sweet."
+        "Quechua grammar forces you to show your evidence. The ending -mi means I witnessed it, -si means someone told me, -chá means I am guessing.",
+        "About 8 million people speak it, the language of the Inca Empire, and it gave English the words puma, condor, llama and quinoa."
       ]
     },
     {
-      "key": "ces",
-      "name": "Czech",
-      "flag": "cz",
-      "wojak": "s_ces",
-      "scene": "prague",
-      "rule": "A sentence needs vowels",
-      "example": "Strč prst skrz krk",
-      "meaning": "stick your finger through your throat: a whole sentence, zero vowels",
-      "recs": [
-        "ces1",
-        "ces2"
-      ],
+      "key": "lkt",
+      "name": "Lakota",
+      "flag": "us",
+      "wojak": "r_lkt",
+      "scene": "grassland",
+      "rule": "Men and women speak the same language",
+      "example": "yeló · kštó",
+      "meaning": "the same statement ends in yeló from a man and kštó from a woman",
+      "clip": { "file": "lakota", "start": 2.0, "len": 7.0 },
       "cards": [
-        "We mentioned this one in Part 1. This time you hear it: 'Strč prst skrz krk' is a real Czech sentence with not a single vowel.",
-        "The letters r and l do the job of vowels, so 'čtvrthrst', a quarter of a handful, is a normal word with nine letters and no vowel at all."
+        "In Lakota the little word that closes a statement depends on who is talking. A man ends with yeló, a woman with kštó. Commands too: yo for men, ye for women.",
+        "Only about 2,000 people still speak Lakota fluently, mostly in South Dakota. It is the language of Sitting Bull and Crazy Horse."
       ]
     },
     {
-      "key": "pol",
-      "name": "Polish",
-      "flag": "pl",
-      "wojak": "r_pol_calm",
-      "scene": "hills",
-      "rule": "One syllable, a few letters",
-      "example": "chrząszcz",
-      "meaning": "beetle: nine letters, one syllable",
-      "recs": [
-        "pol"
-      ],
+      "key": "chr",
+      "name": "Cherokee",
+      "flag": "us",
+      "wojak": "r_chr",
+      "scene": "oklahoma",
+      "rule": "An alphabet is made of letters",
+      "example": "ᏣᎳᎩ",
+      "short": "ᏣᎳᎩ, Tsalagi",
+      "meaning": "Tsalagi, Cherokee: three symbols, three syllables, no letters",
+      "clip": { "file": "cherokee", "start": 2.0, "len": 7.0 },
       "cards": [
-        "'Chrząszcz' is one syllable. Polish writes the sounds ch, sz, cz and rz with two letters each, so a short word looks like a keyboard accident.",
-        "Polish children learn it in a tongue-twister about a beetle buzzing in the reeds of Szczebrzeszyn, a town that is itself a test."
+        "Cherokee writing has no letters. Each of its 85 symbols is a whole syllable. Sequoyah invented it around 1821, and he could not read any other language.",
+        "Within a few years most Cherokee could read and write, and in 1828 they printed the first Native American newspaper, the Cherokee Phoenix."
       ]
     },
     {
-      "key": "isl",
-      "name": "Icelandic",
-      "flag": "is",
-      "wojak": "r_isl",
-      "scene": "arctic",
-      "rule": "Names are pronounceable",
-      "example": "Eyjafjallajökull",
-      "meaning": "island-mountain-glacier: the volcano of 2010",
-      "recs": [
-        "isl"
-      ],
+      "key": "nah",
+      "name": "Nahuatl",
+      "flag": "mx",
+      "wojak": "r_nah",
+      "scene": "zagros",
+      "rule": "A word cannot end in tl",
+      "example": "xocolātl · tomatl · āhuacatl",
+      "short": "xocolātl, tomatl, āhuacatl",
+      "meaning": "chocolate · tomato · avocado: all Nahuatl, all ending in tl",
+      "clip": { "file": "nahuatl", "start": 2.0, "len": 7.0 },
       "cards": [
-        "In 2010 this volcano grounded Europe's planes, and every news anchor on Earth failed to say its name. It is just three words: island, mountain, glacier.",
-        "Icelandic has barely changed in a thousand years, so Icelanders can still read the Viking sagas, and still name volcanoes like Vikings."
+        "Nahuatl, the language of the Aztecs, ends thousands of nouns in tl, one sound that English simply cut off: xocolātl became chocolate, coyōtl became coyote.",
+        "It is still spoken by about 1.6 million people in Mexico, and it gave the world chocolate, tomato, avocado, chili, coyote and Mexico itself."
+      ]
+    },
+    {
+      "key": "eus",
+      "name": "Basque",
+      "flag": "es-pv",
+      "wojak": "r_eus",
+      "scene": "village",
+      "rule": "Numbers go up by tens",
+      "example": "berrogei",
+      "meaning": "40, literally 'two twenties'",
+      "clip": { "file": "basque", "start": 2.0, "len": 7.0 },
+      "cards": [
+        "Basque counts in twenties. 40 is berrogei, two twenties. 60 is hirurogei, three twenties. 80 is laurogei, four twenties. 90 is four twenties and ten.",
+        "Basque is related to no other language on Earth. It was spoken in the Pyrenees before Latin arrived, and it outlived the Romans, the Visigoths and the Moors."
       ]
     }
   ]

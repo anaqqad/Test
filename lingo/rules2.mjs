@@ -22,9 +22,9 @@ const flag = (c) => fileUrl(nm("flag-icons/flags/4x3/" + c + ".svg"));
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 const wj = (it) => { const v = (it.voice || MAN[it.key]?.voice) === "female" ? [it.wojak + "_f", it.wojak] : [it.wojak]; for (const k of v) { const f = path.join(HERE, "wojaks", k + ".png"); if (fs.existsSync(f)) return fileUrl(f); } return null; };
 const items = D.items.filter((i) => MAN[i.key]);
-const SCRIPT_CSS = ["noto-sans-sc/700.css"].map((f) => fs.existsSync(nm("@fontsource/" + f)) ? `<link rel="stylesheet" href="${fileUrl(nm("@fontsource/" + f))}">` : "").join("");
+const SCRIPT_CSS = ["noto-sans-sc/700.css", "noto-sans-cherokee/700.css", "noto-sans-georgian/700.css", "noto-naskh-arabic/700.css"].map((f) => fs.existsSync(nm("@fontsource/" + f)) ? `<link rel="stylesheet" href="${fileUrl(nm("@fontsource/" + f))}">` : "").join("");
 
-const CSS = `*{margin:0;padding:0;box-sizing:border-box}body{width:1920px;height:1080px;overflow:hidden;font-family:Montserrat,"Noto Sans SC","DejaVu Sans",sans-serif;background:#101522;color:#fff}
+const CSS = `*{margin:0;padding:0;box-sizing:border-box}body{width:1920px;height:1080px;overflow:hidden;font-family:Montserrat,"Noto Sans SC","Noto Sans Cherokee","Noto Sans Georgian","Noto Naskh Arabic","DejaVu Sans",sans-serif;background:#101522;color:#fff}
 .a{position:absolute}.f{opacity:0}
 #bg{left:-40px;top:-40px;width:2000px;height:1160px}#bg svg{width:100%;height:100%}
 #bar{left:0;top:0;width:1920px;height:124px;background:linear-gradient(#fff,#f1eee8);box-shadow:0 6px 24px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;gap:28px;color:#18181d;font-weight:800;font-size:64px}
@@ -66,7 +66,7 @@ add("intro", 5, `<div class="a" id="bg" style="opacity:.35">${scene("abstract", 
   <div class="a" style="left:0;top:0;width:1920px;height:1080px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
     <div data-in="0.2" class="f">${logoSvg(110)}</div>
     <div data-in="0.4" class="f" style="margin-top:40px;font-weight:800;font-size:88px;line-height:1.1;text-shadow:0 8px 40px rgba(0,0,0,.6);width:1600px">${esc(D.title)}</div>
-    <div data-in="1.2" class="f" style="margin-top:34px;font-weight:800;font-size:36px;color:#ffcf5c;letter-spacing:4px">${esc(D.part.toUpperCase())} · THIS TIME WITH THE PROOF</div>
+    <div data-in="1.2" class="f" style="margin-top:34px;font-weight:800;font-size:36px;color:#ffcf5c;letter-spacing:4px">${esc(D.part.toUpperCase())}</div>
     <div data-in="1.8" class="f" style="margin-top:50px;display:flex;gap:18px">${items.map((i) => `<img src="${flag(i.flag)}" style="height:52px;border-radius:6px">`).join("")}</div></div>`);
 
 for (const [idx, it] of items.entries()) {
@@ -89,7 +89,7 @@ add("outro", 7, `<div class="a" id="bg" style="opacity:.35">${scene("abstract", 
   <div class="a" style="left:0;top:0;width:1920px;height:1080px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
     <div data-in="0.2" class="f" style="font-weight:800;font-size:72px;line-height:1.15;width:1500px">Which rule did we miss?</div>
     <div data-in="0.8" class="f" style="margin-top:24px;font-weight:800;font-size:44px;color:#ffcf5c;letter-spacing:4px">TELL US IN THE COMMENTS 👇</div>
-    <div data-in="1.4" class="f" style="margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:10px 80px;font-weight:700;font-size:32px;text-align:left">${items.map((it, i) => `<div>#${i + 1} ${esc(it.name)} <span style="color:#ffcf5c">${esc(it.example)}</span></div>`).join("")}</div></div>`);
+    <div data-in="1.4" class="f" style="margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:10px 80px;font-weight:700;font-size:32px;text-align:left">${items.map((it, i) => `<div>#${i + 1} ${esc(it.name)} <span style="color:#ffcf5c">${esc(it.short || it.example)}</span></div>`).join("")}</div></div>`);
 
 const stills = opt("still", null);
 const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--font-render-hinting=none"] });
