@@ -26,44 +26,36 @@
   "dur": "1.227755",
   "code": "200",
   "license": [
-   "CC BY 3.0",
-   "CC-BY-3.0",
-   "CC0"
+   "CC BY 3.0 US"
   ],
-  "author": ""
+  "author": "Zannane Mohamed, Heulin Frederic (Shtooka Project)"
  },
  "ara2": {
-  "title": "File:Ar-كتاب.ogg",
+  "title": "File:Ar-كِتَابٌ.oga",
   "dur": "",
   "code": "404",
   "license": [
-   "CC BY 3.0",
-   "CC-BY-3.0",
-   "CC0"
+   "CC BY 3.0 US"
   ],
-  "author": ""
+  "author": "Nhaily Mustapha, Vion Nicolas (Shtooka Project)"
  },
  "ara3": {
   "title": "File:Ar-مكتب.ogg",
   "dur": "1.201633",
   "code": "200",
   "license": [
-   "CC BY 3.0",
-   "CC-BY-3.0",
-   "CC0"
+   "CC BY 3.0 US"
   ],
-  "author": ""
+  "author": "Nhaily Mustapha, Vion Nicolas (Shtooka Project)"
  },
  "ara4": {
   "title": "File:Ar-مكتبة.ogg",
   "dur": "1.332245",
   "code": "200",
   "license": [
-   "CC BY 3.0",
-   "CC-BY-3.0",
-   "CC0"
+   "CC BY 3.0 US"
   ],
-  "author": ""
+  "author": "Nhaily Mustapha, Vion Nicolas (Shtooka Project)"
  },
  "vie1": {
   "title": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mà.wav",
@@ -123,7 +115,7 @@
    "CC0",
    "Public domain"
   ],
-  "author": "https://commons.wikimedia.org/wiki/user:AllenMcC."
+  "author": "AllenMcC."
  },
  "ces1": {
   "title": "File:LL-Q9056 (ces)-Ghost4Man-strč prst skrz krk.wav",
