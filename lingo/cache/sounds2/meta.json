@@ -1,0 +1,160 @@
+{
+ "nld": {
+  "title": "File:Nl-angstschreeuw.ogg",
+  "dur": "1.306122",
+  "code": "200",
+  "license": [
+   "CC BY-SA 3.0",
+   "CC-BY-SA-3.0",
+   "CC0"
+  ],
+  "author": "marcel coenders"
+ },
+ "deu": {
+  "title": "File:De-Grundstücksverkehrsgenehmigungszuständigkeitsübertragungsverordnung.ogg",
+  "dur": "4.675918",
+  "code": "200",
+  "license": [
+   "CC BY-SA 4.0",
+   "CC-BY-SA-4.0",
+   "CC0"
+  ],
+  "author": "Jeuwre"
+ },
+ "ara1": {
+  "title": "File:Ar-كتب.ogg",
+  "dur": "1.227755",
+  "code": "200",
+  "license": [
+   "CC BY 3.0",
+   "CC-BY-3.0",
+   "CC0"
+  ],
+  "author": ""
+ },
+ "ara2": {
+  "title": "File:Ar-كتاب.ogg",
+  "dur": "",
+  "code": "404",
+  "license": [
+   "CC BY 3.0",
+   "CC-BY-3.0",
+   "CC0"
+  ],
+  "author": ""
+ },
+ "ara3": {
+  "title": "File:Ar-مكتب.ogg",
+  "dur": "1.201633",
+  "code": "200",
+  "license": [
+   "CC BY 3.0",
+   "CC-BY-3.0",
+   "CC0"
+  ],
+  "author": ""
+ },
+ "ara4": {
+  "title": "File:Ar-مكتبة.ogg",
+  "dur": "1.332245",
+  "code": "200",
+  "license": [
+   "CC BY 3.0",
+   "CC-BY-3.0",
+   "CC0"
+  ],
+  "author": ""
+ },
+ "vie1": {
+  "title": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mà.wav",
+  "dur": "1.018776",
+  "code": "200",
+  "license": [
+   "CC0"
+  ],
+  "author": "Jessica Nguyen (Pamputt), Lingua Libre"
+ },
+ "vie2": {
+  "title": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-má.wav",
+  "dur": "1.018776",
+  "code": "200",
+  "license": [
+   "CC0"
+  ],
+  "author": "Jessica Nguyen (Pamputt), Lingua Libre"
+ },
+ "vie3": {
+  "title": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mạ.wav",
+  "dur": "1.097143",
+  "code": "200",
+  "license": [
+   "CC0"
+  ],
+  "author": "Jessica Nguyen (Pamputt), Lingua Libre"
+ },
+ "cym": {
+  "title": "File:Cy-Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch.ogg",
+  "dur": "4.806531",
+  "code": "200",
+  "license": [
+   "CC0",
+   "Public domain"
+  ],
+  "author": ""
+ },
+ "pol": {
+  "title": "File:Pl-chrząszcz.ogg",
+  "dur": "0.914286",
+  "code": "200",
+  "license": [
+   "CC BY 2.5",
+   "CC BY-SA 3.0",
+   "CC-BY-2.5",
+   "CC-BY-SA-3.0",
+   "CC0"
+  ],
+  "author": "Derbeth"
+ },
+ "isl": {
+  "title": "File:Is-Eyjafjallajökull.oga",
+  "dur": "1.593469",
+  "code": "200",
+  "license": [
+   "CC0",
+   "Public domain"
+  ],
+  "author": "https://commons.wikimedia.org/wiki/user:AllenMcC."
+ },
+ "ces1": {
+  "title": "File:LL-Q9056 (ces)-Ghost4Man-strč prst skrz krk.wav",
+  "dur": "1.828571",
+  "code": "200",
+  "license": [
+   "CC0"
+  ],
+  "author": "Ghost4Man (Lingua Libre)"
+ },
+ "ces2": {
+  "title": "File:LL-Q9056 (ces)-Ghost4Man-čtvrthrst.wav",
+  "dur": "1.201633",
+  "code": "200",
+  "license": [
+   "CC0"
+  ],
+  "author": "Ghost4Man (Lingua Libre)"
+ },
+ "jpn1": {
+  "title": "File:LL-Q5287 (jpn)-Zsrtrgh-雨.wav",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Zsrtrgh (Lingua Libre)"
+ },
+ "jpn2": {
+  "title": "File:LL-Q5287 (jpn)-Zsrtrgh-飴.wav",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Zsrtrgh (Lingua Libre)"
+ }
+}
