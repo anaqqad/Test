@@ -4,7 +4,7 @@
 These Languages Break the Rules of Speech (Part 2)
 
 ## Description
-Part 1 got a fair complaint: which rule, and where is the proof? So this time we went to the languages you have probably never heard spoken, and every one of them gets the rule it breaks, the exact word that breaks it, and a real native speaker. A Greenlandic word that is a whole sentence, a Georgian word that opens with eight consonants, a Hmong alphabet where the last letter is never pronounced, a Quechua grammar that forces you to say how you know things, a Lakota sentence that ends differently for men and women, a Cherokee script with no letters, the Nahuatl tl that English cut off chocolate and tomato, and the Basque way of counting in twenties.
+Part 1 got a fair complaint: which rule, and where is the proof? So this time we went to the languages you have probably never heard spoken, and every one of them gets the exact word that breaks a rule of speech and a real native speaker (the rules are listed below). A Greenlandic word that is a whole sentence, a Georgian word that opens with eight consonants, a Hmong alphabet where the last letter is never pronounced, a Quechua grammar that forces you to say how you know things, a Lakota sentence that ends differently for men and women, a Cherokee script with no letters, the Nahuatl tl that English cut off chocolate and tomato, and the Basque way of counting in twenties.
 
 Every voice is a real recording (Wikitongues speakers and a Wiktionary pronunciation file, via Wikimedia Commons).
 
@@ -20,6 +20,16 @@ Which rule did we miss? Tell us in the comments 👇
 2:11 Nahuatl: the tl English cut off
 2:33 Basque: counting in twenties
 2:54 Outro
+
+THE RULES THEY BREAK
+Greenlandic breaks the rule "a word is shorter than a sentence"
+Georgian breaks the rule "a word cannot start with 8 consonants"
+Hmong breaks the rule "the last letter of a word is pronounced"
+Quechua breaks the rule "you can state a fact without saying how you know it"
+Lakota breaks the rule "men and women speak the same language"
+Cherokee breaks the rule "an alphabet is made of letters"
+Nahuatl breaks the rule "a word cannot end in tl"
+Basque breaks the rule "numbers go up by tens"
 
 RECORDINGS (via Wikimedia Commons)
 Greenlandic: "WIKITONGUES- Mark speaking Greenlandic.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Mark_speaking_Greenlandic.webm

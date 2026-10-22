@@ -77,7 +77,6 @@ for (const [idx, it] of items.entries()) {
     <div class="a" id="flash" style="left:0;top:0;width:1920px;height:1080px;background:#e8262b;opacity:0;pointer-events:none"></div>
     <div class="a who" id="who">${wj(it) ? `<img src="${wj(it)}">` : ""}</div>
     <div id="panel" class="a">
-      <div data-in="0.3" class="f" id="rule"><div class="t">The rule it breaks</div><div class="n">${esc(it.rule)}</div></div>
       <div data-in="${wordAt}" class="f" id="word"><div class="hd">The proof</div><div class="w${it.example.length > 24 ? " long" : ""}">${esc(it.example)}</div><div class="lit"><b>MEANING</b>${esc(it.meaning)}</div></div>
       ${it.cards.map((c, i) => `<div data-in="${(cardsAt + i * 3.6).toFixed(2)}" class="f card">${esc(c)}</div>`).join("")}</div>
     <div id="bar" class="a"><img src="${flag(it.flag)}">${esc(it.name)}</div>
