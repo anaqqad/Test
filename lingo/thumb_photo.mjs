@@ -55,7 +55,7 @@ const T = {
   rules2: { part: "PART 2", name: "Greenlandic", photo: "rules2", pos: "60% 45%", flag: "gl", hook: ["One", "Word?!"] },
   ancient5: { part: "PART 5", name: "Beothuk", photo: "ancient5", pos: "50% 50%", flag: "ca", hook: ["Not One", "Sentence Left"], hookSize: 86 },
   ancient6: { part: "PART 6", name: "Middle Mongolian", photo: "ancient6", pos: "50% 50%", flag: "mn", hook: ["Genghis Khan", "Spoke This"], hookSize: 86 },
-  sounds: { name: "Xhosa", photo: "sounds", pos: "50% 50%", flag: "za", hook: ["Weirdest", "Sounds Ever"] },
+  sounds: { part: "PART 1", name: "Xhosa", photo: "sounds", pos: "50% 50%", flag: "za", hook: ["Weirdest", "Sounds Ever"] },
   niche: { name: "Tuvan", photo: "niche", pos: "50% 50%", flag: "ru", hook: ["Who Speaks", "This?"] },
   conlangs: { name: "Esperanto", photo: "conlangs", pos: "50% 50%", flagUrl: EO, hook: ["Someone", "Invented It"] },
   extinct: { part: "PART 1", name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },
