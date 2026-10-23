@@ -11,15 +11,15 @@ Which language should we cover next? Tell us in the comments 👇
 0:00 Intro
 0:03 Interlingua (speakers: 1,000s)
 0:20 Lingua Franca Nova (speakers: 100s)
-0:37 Uropi (speakers: a handful)
-0:55 Láadan (speakers: a handful)
+0:38 Uropi (speakers: a handful)
+0:56 Láadan (speakers: a handful)
 
-Audio credits (all via Wikimedia Commons):
-Interlingua: "Ia-catto", "Ia-statounitese" by פֿינצטערניש, CC0; "Ia-revolution", "Ia-temperamento" by Wimmer, CC BY 2.5
+Audio credits (Wikimedia Commons, and one YouTube clip used with permission):
+Interlingua: "Populo (People) - article from the Interlingua Wikipedia" by mithradates, used with permission: https://www.youtube.com/watch?v=tGCdGSX5fBc
 Lingua Franca Nova: "Introdui1" from lingua-franca-nova.net, GFDL / CC BY-SA 3.0
 Uropi: "PontMirabo3" recited by Joël Landais, creator of Uropi, public domain
 Láadan: "Láadan", "osháana", "héeya", "lóolo", "shebasheb", "ramíili", "dóhin", "híya", "rahen", "mime" by Arlo Barnes (Lingua Libre), CC0
-Licences: https://creativecommons.org/licenses/by/2.5/ and https://creativecommons.org/licenses/by-sa/3.0/
+Licences: https://creativecommons.org/licenses/by-sa/3.0/
 Speaker counts are estimates; sources disagree for many small languages.
 
 Thumbnail photo: Pont Mirabeau over the Seine, Paris: photo by Hilader, CC BY-SA 4.0, via Wikimedia Commons

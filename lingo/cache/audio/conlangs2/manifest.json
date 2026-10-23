@@ -1,4 +1,17 @@
 {
+ "Interlingua": {
+  "sig": "conlangs2|Interlingua",
+  "credits": [
+   {
+    "title": "Populo (People) - article from the Interlingua Wikipedia",
+    "artist": "mithradates",
+    "license": "used with permission",
+    "page": "https://www.youtube.com/watch?v=tGCdGSX5fBc"
+   }
+  ],
+  "captions": [],
+  "start": 8.0
+ },
  "Lingua Franca Nova": {
   "sig": "conlangs2|Lingua Franca Nova",
   "credits": [
@@ -24,77 +37,6 @@
   ],
   "captions": [],
   "start": 0.0
- },
- "Interlingua": {
-  "sig": "conlangs2|Interlingua",
-  "credits": [
-   {
-    "title": "File:Ia-catto.ogg",
-    "artist": "פֿינצטערניש",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File%3AIa-catto.ogg"
-   },
-   {
-    "title": "File:Ia-revolution.ogg",
-    "artist": "Wimmer",
-    "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File%3AIa-revolution.ogg"
-   },
-   {
-    "title": "File:Ia-statounitese.ogg",
-    "artist": "פֿינצטערניש",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File%3AIa-statounitese.ogg"
-   },
-   {
-    "title": "File:Ia-temperamento.ogg",
-    "artist": "Wimmer",
-    "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File%3AIa-temperamento.ogg"
-   }
-  ],
-  "captions": [
-   {
-    "t": 0.6,
-    "d": 0.63,
-    "text": "catto"
-   },
-   {
-    "t": 2.13,
-    "d": 1.35,
-    "text": "revolution"
-   },
-   {
-    "t": 4.38,
-    "d": 1.03,
-    "text": "statounitese"
-   },
-   {
-    "t": 6.31,
-    "d": 1.61,
-    "text": "temperamento"
-   },
-   {
-    "t": 8.81,
-    "d": 0.63,
-    "text": "catto"
-   },
-   {
-    "t": 10.35,
-    "d": 1.35,
-    "text": "revolution"
-   },
-   {
-    "t": 12.6,
-    "d": 1.03,
-    "text": "statounitese"
-   },
-   {
-    "t": 14.52,
-    "d": 1.61,
-    "text": "temperamento"
-   }
-  ]
  },
  "Láadan": {
   "sig": "conlangs2|Láadan",

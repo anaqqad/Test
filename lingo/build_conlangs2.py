@@ -11,10 +11,12 @@ OUT = os.path.join(HERE, "cache", "audio", "conlangs2")
 os.makedirs(OUT, exist_ok=True)
 NEED = round(1.4 + 5.0 * 3 + 1.2, 2)  # story segment with 3 cards
 LDN_WORDS = ["Láadan", "osháana", "héeya", "lóolo", "shebasheb", "ramíili", "dóhin", "híya", "rahen", "mime"]
-CLIPS = {  # name: (source file, start, Commons title, author, licence)
+CLIPS = {  # name: (source file, start, title, author, licence)
+    "Interlingua": ("interlingua_yt.m4a", 8.0, "Populo (People) - article from the Interlingua Wikipedia", "mithradates", "used with permission"),
     "Lingua Franca Nova": ("lfn2.mp3", 0.0, "Introdui1.ogg", "lingua-franca-nova.net", "GFDL, CC BY-SA 3.0"),
     "Uropi": ("uropi.mp3", 0.0, "PontMirabo3.ogg", "Joël Landais, creator of Uropi", "public domain"),
 }
+YOUTUBE = {"Interlingua": "https://www.youtube.com/watch?v=tGCdGSX5fBc"}  # owner got permission from the uploader
 page = lambda t: "https://commons.wikimedia.org/wiki/" + urllib.parse.quote("File:" + t.replace(" ", "_"))
 manifest, lines = {}, ["Audio credits (People Actually Speak These Made-Up Languages, Part 2)", ""]
 for name, (f, start, title, author, lic) in CLIPS.items():
@@ -23,15 +25,13 @@ for name, (f, start, title, author, lic) in CLIPS.items():
         print(name, "missing", f); manifest[name] = None; continue
     dst = os.path.join(OUT, fa.slug(name) + ".wav")
     fa.to_wav(src, dst, start, NEED, extra=f"afade=t=in:d=0.3,afade=t=out:st={NEED - 0.8}:d=0.8,loudnorm=I=-18:TP=-2")
-    manifest[name] = {"sig": "conlangs2|" + name, "credits": [{"title": "File:" + title, "artist": author, "license": lic, "page": page(title)}], "captions": [], "start": start}
-    lines.append(f'{name}: "{title}" by {author}, {lic}, via Wikimedia Commons, {page(title)}')
+    yt = YOUTUBE.get(name)
+    link = yt or page(title)
+    manifest[name] = {"sig": "conlangs2|" + name, "credits": [{"title": title if yt else "File:" + title, "artist": author, "license": lic, "page": link}], "captions": [], "start": start}
+    lines.append(f'{name}: "{title}" by {author}, {lic}, ' + (f"{link}" if yt else f"via Wikimedia Commons, {link}"))
     print(name, NEED, "s from", start)
-# Interlingua and Láadan: single-word recordings one after another, captioned (like Klingon and Volapük in Part 1)
+# Láadan: single-word recordings one after another, captioned (like Klingon and Volapük in Part 1)
 SEQS = {
-    "Interlingua": ([("ia_catto.mp3", "catto", "Ia-catto.ogg", "פֿינצטערניש", "CC0"),
-                     ("ia_revolution.mp3", "revolution", "Ia-revolution.ogg", "Wimmer", "CC BY 2.5"),
-                     ("ia_statounitese.mp3", "statounitese", "Ia-statounitese.ogg", "פֿינצטערניש", "CC0"),
-                     ("ia_temperamento.mp3", "temperamento", "Ia-temperamento.ogg", "Wimmer", "CC BY 2.5")], 2),
     "Láadan": ([(f"ldn_{w}.mp3", w, f"LL-Q35757 (ldn)-Arlo Barnes-{w}.wav", "Arlo Barnes (Lingua Libre)", "CC0") for w in LDN_WORDS], 1),
 }
 for name, (words, repeat) in SEQS.items():
