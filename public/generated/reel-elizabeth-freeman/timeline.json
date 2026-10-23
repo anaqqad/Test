@@ -1,0 +1,962 @@
+{
+ "fps": 30,
+ "durationInFrames": 1903,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 167,
+ "wpm": 158.0,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.368,
+   "words": [
+    {
+     "text": "Enslaved,",
+     "start": 0.0,
+     "end": 0.58
+    },
+    {
+     "text": "she",
+     "start": 0.627,
+     "end": 0.755
+    },
+    {
+     "text": "sued",
+     "start": 0.813,
+     "end": 1.022
+    },
+    {
+     "text": "her",
+     "start": 1.057,
+     "end": 1.126
+    },
+    {
+     "text": "master.",
+     "start": 1.173,
+     "end": 1.602
+    },
+    {
+     "text": "And",
+     "start": 1.625,
+     "end": 1.788
+    },
+    {
+     "text": "won.",
+     "start": 1.858,
+     "end": 2.368
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 83
+  },
+  {
+   "id": "name",
+   "speechEnd": 6.072,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.868,
+     "end": 3.135
+    },
+    {
+     "text": "Elizabeth",
+     "start": 3.205,
+     "end": 3.634
+    },
+    {
+     "text": "Freeman.",
+     "start": 3.669,
+     "end": 4.11
+    },
+    {
+     "text": "They",
+     "start": 4.47,
+     "end": 4.633
+    },
+    {
+     "text": "called",
+     "start": 4.679,
+     "end": 4.935
+    },
+    {
+     "text": "her",
+     "start": 4.981,
+     "end": 5.062
+    },
+    {
+     "text": "Mum",
+     "start": 5.132,
+     "end": 5.329
+    },
+    {
+     "text": "Bett.",
+     "start": 5.387,
+     "end": 6.072
+    }
+   ],
+   "cues": {},
+   "startFrame": 83,
+   "endFrame": 194
+  },
+  {
+   "id": "ashley",
+   "speechEnd": 11.182,
+   "words": [
+    {
+     "text": "For",
+     "start": 6.573,
+     "end": 6.736
+    },
+    {
+     "text": "nearly",
+     "start": 6.782,
+     "end": 7.014
+    },
+    {
+     "text": "thirty",
+     "start": 7.072,
+     "end": 7.304
+    },
+    {
+     "text": "years,",
+     "start": 7.362,
+     "end": 7.618
+    },
+    {
+     "text": "she",
+     "start": 7.641,
+     "end": 7.734
+    },
+    {
+     "text": "was",
+     "start": 7.78,
+     "end": 7.885
+    },
+    {
+     "text": "enslaved",
+     "start": 7.931,
+     "end": 8.361
+    },
+    {
+     "text": "by",
+     "start": 8.384,
+     "end": 8.477
+    },
+    {
+     "text": "Colonel",
+     "start": 8.547,
+     "end": 8.802
+    },
+    {
+     "text": "John",
+     "start": 8.872,
+     "end": 9.092
+    },
+    {
+     "text": "Ashley,",
+     "start": 9.162,
+     "end": 9.626
+    },
+    {
+     "text": "in",
+     "start": 9.708,
+     "end": 9.835
+    },
+    {
+     "text": "Sheffield,",
+     "start": 9.893,
+     "end": 10.288
+    },
+    {
+     "text": "Massachusetts.",
+     "start": 10.311,
+     "end": 11.182
+    }
+   ],
+   "cues": {},
+   "startFrame": 194,
+   "endFrame": 356
+  },
+  {
+   "id": "shovel",
+   "speechEnd": 19.344,
+   "words": [
+    {
+     "text": "One",
+     "start": 11.96,
+     "end": 12.157
+    },
+    {
+     "text": "day,",
+     "start": 12.192,
+     "end": 12.541
+    },
+    {
+     "text": "Mrs.",
+     "start": 12.657,
+     "end": 12.97
+    },
+    {
+     "text": "Ashley",
+     "start": 13.005,
+     "end": 13.33
+    },
+    {
+     "text": "swung",
+     "start": 13.388,
+     "end": 13.655
+    },
+    {
+     "text": "a",
+     "start": 13.702,
+     "end": 13.725
+    },
+    {
+     "text": "red-hot",
+     "start": 13.794,
+     "end": 14.201
+    },
+    {
+     "text": "shovel",
+     "start": 14.259,
+     "end": 14.561
+    },
+    {
+     "text": "at",
+     "start": 14.607,
+     "end": 14.665
+    },
+    {
+     "text": "a",
+     "start": 14.7,
+     "end": 14.735
+    },
+    {
+     "text": "young",
+     "start": 14.793,
+     "end": 14.955
+    },
+    {
+     "text": "enslaved",
+     "start": 15.002,
+     "end": 15.42
+    },
+    {
+     "text": "girl.",
+     "start": 15.466,
+     "end": 15.896
+    },
+    {
+     "text": "Bett",
+     "start": 16.314,
+     "end": 16.546
+    },
+    {
+     "text": "took",
+     "start": 16.581,
+     "end": 16.743
+    },
+    {
+     "text": "the",
+     "start": 16.79,
+     "end": 16.859
+    },
+    {
+     "text": "blow,",
+     "start": 16.906,
+     "end": 17.324
+    },
+    {
+     "text": "and",
+     "start": 17.44,
+     "end": 17.591
+    },
+    {
+     "text": "kept",
+     "start": 17.649,
+     "end": 17.846
+    },
+    {
+     "text": "the",
+     "start": 17.881,
+     "end": 17.951
+    },
+    {
+     "text": "scar.",
+     "start": 17.997,
+     "end": 19.344
+    }
+   ],
+   "cues": {},
+   "startFrame": 356,
+   "endFrame": 592
+  },
+  {
+   "id": "words",
+   "speechEnd": 26.961,
+   "words": [
+    {
+     "text": "In",
+     "start": 19.844,
+     "end": 20.03
+    },
+    {
+     "text": "1780,",
+     "start": 20.088,
+     "end": 20.854
+    },
+    {
+     "text": "Massachusetts",
+     "start": 20.935,
+     "end": 21.585
+    },
+    {
+     "text": "adopted",
+     "start": 21.609,
+     "end": 21.98
+    },
+    {
+     "text": "a",
+     "start": 22.027,
+     "end": 22.05
+    },
+    {
+     "text": "new",
+     "start": 22.108,
+     "end": 22.224
+    },
+    {
+     "text": "constitution.",
+     "start": 22.282,
+     "end": 23.164
+    },
+    {
+     "text": "Bett",
+     "start": 23.524,
+     "end": 23.768
+    },
+    {
+     "text": "heard",
+     "start": 23.826,
+     "end": 24.012
+    },
+    {
+     "text": "its",
+     "start": 24.047,
+     "end": 24.163
+    },
+    {
+     "text": "words:",
+     "start": 24.209,
+     "end": 24.709
+    },
+    {
+     "text": "all",
+     "start": 24.906,
+     "end": 25.127
+    },
+    {
+     "text": "men",
+     "start": 25.185,
+     "end": 25.37
+    },
+    {
+     "text": "are",
+     "start": 25.428,
+     "end": 25.556
+    },
+    {
+     "text": "born",
+     "start": 25.591,
+     "end": 25.846
+    },
+    {
+     "text": "free",
+     "start": 25.928,
+     "end": 26.218
+    },
+    {
+     "text": "and",
+     "start": 26.276,
+     "end": 26.38
+    },
+    {
+     "text": "equal.",
+     "start": 26.45,
+     "end": 26.961
+    }
+   ],
+   "cues": {},
+   "startFrame": 592,
+   "endFrame": 817
+  },
+  {
+   "id": "lawyer",
+   "speechEnd": 31.094,
+   "words": [
+    {
+     "text": "So",
+     "start": 27.321,
+     "end": 27.472
+    },
+    {
+     "text": "she",
+     "start": 27.53,
+     "end": 27.623
+    },
+    {
+     "text": "went",
+     "start": 27.669,
+     "end": 27.82
+    },
+    {
+     "text": "to",
+     "start": 27.855,
+     "end": 27.901
+    },
+    {
+     "text": "a",
+     "start": 27.983,
+     "end": 28.006
+    },
+    {
+     "text": "lawyer,",
+     "start": 28.064,
+     "end": 28.482
+    },
+    {
+     "text": "Theodore",
+     "start": 28.598,
+     "end": 28.993
+    },
+    {
+     "text": "Sedgwick,",
+     "start": 29.039,
+     "end": 29.562
+    },
+    {
+     "text": "and",
+     "start": 29.585,
+     "end": 29.724
+    },
+    {
+     "text": "asked",
+     "start": 29.794,
+     "end": 30.003
+    },
+    {
+     "text": "him",
+     "start": 30.038,
+     "end": 30.119
+    },
+    {
+     "text": "to",
+     "start": 30.154,
+     "end": 30.2
+    },
+    {
+     "text": "take",
+     "start": 30.247,
+     "end": 30.421
+    },
+    {
+     "text": "her",
+     "start": 30.456,
+     "end": 30.525
+    },
+    {
+     "text": "case.",
+     "start": 30.583,
+     "end": 31.094
+    }
+   ],
+   "cues": {},
+   "startFrame": 817,
+   "endFrame": 947
+  },
+  {
+   "id": "verdict",
+   "speechEnd": 37.782,
+   "words": [
+    {
+     "text": "On",
+     "start": 31.675,
+     "end": 31.849
+    },
+    {
+     "text": "August",
+     "start": 31.919,
+     "end": 32.22
+    },
+    {
+     "text": "22,",
+     "start": 32.255,
+     "end": 32.847
+    },
+    {
+     "text": "1781,",
+     "start": 32.882,
+     "end": 33.915
+    },
+    {
+     "text": "a",
+     "start": 34.078,
+     "end": 34.159
+    },
+    {
+     "text": "jury",
+     "start": 34.252,
+     "end": 34.542
+    },
+    {
+     "text": "ruled",
+     "start": 34.6,
+     "end": 34.868
+    },
+    {
+     "text": "that",
+     "start": 34.891,
+     "end": 34.995
+    },
+    {
+     "text": "she",
+     "start": 35.03,
+     "end": 35.135
+    },
+    {
+     "text": "was",
+     "start": 35.193,
+     "end": 35.309
+    },
+    {
+     "text": "not",
+     "start": 35.39,
+     "end": 35.645
+    },
+    {
+     "text": "anyone's",
+     "start": 35.703,
+     "end": 36.098
+    },
+    {
+     "text": "property.",
+     "start": 36.133,
+     "end": 36.702
+    },
+    {
+     "text": "She",
+     "start": 37.015,
+     "end": 37.155
+    },
+    {
+     "text": "was",
+     "start": 37.213,
+     "end": 37.329
+    },
+    {
+     "text": "free.",
+     "start": 37.398,
+     "end": 37.782
+    }
+   ],
+   "cues": {},
+   "startFrame": 947,
+   "endFrame": 1143
+  },
+  {
+   "id": "end",
+   "speechEnd": 42.228,
+   "words": [
+    {
+     "text": "Her",
+     "start": 38.2,
+     "end": 38.351
+    },
+    {
+     "text": "case,",
+     "start": 38.409,
+     "end": 38.71
+    },
+    {
+     "text": "and",
+     "start": 38.734,
+     "end": 38.85
+    },
+    {
+     "text": "others",
+     "start": 38.919,
+     "end": 39.175
+    },
+    {
+     "text": "after",
+     "start": 39.221,
+     "end": 39.477
+    },
+    {
+     "text": "it,",
+     "start": 39.535,
+     "end": 39.744
+    },
+    {
+     "text": "helped",
+     "start": 39.906,
+     "end": 40.162
+    },
+    {
+     "text": "end",
+     "start": 40.22,
+     "end": 40.359
+    },
+    {
+     "text": "slavery",
+     "start": 40.417,
+     "end": 40.823
+    },
+    {
+     "text": "in",
+     "start": 40.858,
+     "end": 40.916
+    },
+    {
+     "text": "Massachusetts.",
+     "start": 40.963,
+     "end": 42.228
+    }
+   ],
+   "cues": {},
+   "startFrame": 1143,
+   "endFrame": 1279
+  },
+  {
+   "id": "name2",
+   "speechEnd": 45.224,
+   "words": [
+    {
+     "text": "She",
+     "start": 42.728,
+     "end": 42.891
+    },
+    {
+     "text": "chose",
+     "start": 42.949,
+     "end": 43.181
+    },
+    {
+     "text": "a",
+     "start": 43.204,
+     "end": 43.227
+    },
+    {
+     "text": "new",
+     "start": 43.285,
+     "end": 43.39
+    },
+    {
+     "text": "name:",
+     "start": 43.436,
+     "end": 43.761
+    },
+    {
+     "text": "Elizabeth",
+     "start": 44.121,
+     "end": 44.644
+    },
+    {
+     "text": "Freeman.",
+     "start": 44.702,
+     "end": 45.224
+    }
+   ],
+   "cues": {},
+   "startFrame": 1279,
+   "endFrame": 1363
+  },
+  {
+   "id": "later",
+   "speechEnd": 49.729,
+   "words": [
+    {
+     "text": "She",
+     "start": 45.538,
+     "end": 45.665
+    },
+    {
+     "text": "became",
+     "start": 45.723,
+     "end": 45.99
+    },
+    {
+     "text": "a",
+     "start": 46.025,
+     "end": 46.048
+    },
+    {
+     "text": "paid",
+     "start": 46.107,
+     "end": 46.339
+    },
+    {
+     "text": "worker,",
+     "start": 46.385,
+     "end": 46.873
+    },
+    {
+     "text": "a",
+     "start": 47.105,
+     "end": 47.175
+    },
+    {
+     "text": "respected",
+     "start": 47.256,
+     "end": 47.685
+    },
+    {
+     "text": "midwife,",
+     "start": 47.732,
+     "end": 48.301
+    },
+    {
+     "text": "and",
+     "start": 48.533,
+     "end": 48.684
+    },
+    {
+     "text": "bought",
+     "start": 48.73,
+     "end": 48.939
+    },
+    {
+     "text": "her",
+     "start": 48.974,
+     "end": 49.044
+    },
+    {
+     "text": "own",
+     "start": 49.102,
+     "end": 49.23
+    },
+    {
+     "text": "house.",
+     "start": 49.276,
+     "end": 49.729
+    }
+   ],
+   "cues": {},
+   "startFrame": 1363,
+   "endFrame": 1501
+  },
+  {
+   "id": "death",
+   "speechEnd": 56.115,
+   "words": [
+    {
+     "text": "She",
+     "start": 50.147,
+     "end": 50.274
+    },
+    {
+     "text": "died",
+     "start": 50.333,
+     "end": 50.588
+    },
+    {
+     "text": "in",
+     "start": 50.623,
+     "end": 50.681
+    },
+    {
+     "text": "1829,",
+     "start": 50.704,
+     "end": 51.644
+    },
+    {
+     "text": "and",
+     "start": 51.877,
+     "end": 52.016
+    },
+    {
+     "text": "was",
+     "start": 52.074,
+     "end": 52.167
+    },
+    {
+     "text": "buried",
+     "start": 52.225,
+     "end": 52.515
+    },
+    {
+     "text": "in",
+     "start": 52.538,
+     "end": 52.596
+    },
+    {
+     "text": "the",
+     "start": 52.631,
+     "end": 52.701
+    },
+    {
+     "text": "Sedgwick",
+     "start": 52.736,
+     "end": 53.096
+    },
+    {
+     "text": "family",
+     "start": 53.154,
+     "end": 53.432
+    },
+    {
+     "text": "plot,",
+     "start": 53.479,
+     "end": 53.92
+    },
+    {
+     "text": "the",
+     "start": 54.233,
+     "end": 54.338
+    },
+    {
+     "text": "only",
+     "start": 54.408,
+     "end": 54.617
+    },
+    {
+     "text": "one",
+     "start": 54.687,
+     "end": 54.849
+    },
+    {
+     "text": "there",
+     "start": 54.884,
+     "end": 55.128
+    },
+    {
+     "text": "not",
+     "start": 55.209,
+     "end": 55.383
+    },
+    {
+     "text": "of",
+     "start": 55.418,
+     "end": 55.465
+    },
+    {
+     "text": "the",
+     "start": 55.511,
+     "end": 55.581
+    },
+    {
+     "text": "family.",
+     "start": 55.627,
+     "end": 56.115
+    }
+   ],
+   "cues": {},
+   "startFrame": 1501,
+   "endFrame": 1693
+  },
+  {
+   "id": "close",
+   "speechEnd": 59.447,
+   "words": [
+    {
+     "text": "Enslaved,",
+     "start": 56.533,
+     "end": 57.229
+    },
+    {
+     "text": "she",
+     "start": 57.276,
+     "end": 57.427
+    },
+    {
+     "text": "sued",
+     "start": 57.496,
+     "end": 57.74
+    },
+    {
+     "text": "her",
+     "start": 57.775,
+     "end": 57.845
+    },
+    {
+     "text": "master.",
+     "start": 57.891,
+     "end": 58.344
+    },
+    {
+     "text": "And",
+     "start": 58.379,
+     "end": 58.53
+    },
+    {
+     "text": "won.",
+     "start": 58.599,
+     "end": 59.447
+    }
+   ],
+   "cues": {},
+   "startFrame": 1693,
+   "endFrame": 1795
+  },
+  {
+   "id": "cta",
+   "speechEnd": 62.222,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 59.946,
+     "end": 60.236
+    },
+    {
+     "text": "The",
+     "start": 60.271,
+     "end": 60.341
+    },
+    {
+     "text": "Black",
+     "start": 60.376,
+     "end": 60.573
+    },
+    {
+     "text": "History",
+     "start": 60.619,
+     "end": 60.886
+    },
+    {
+     "text": "Room",
+     "start": 60.933,
+     "end": 61.084
+    },
+    {
+     "text": "for",
+     "start": 61.142,
+     "end": 61.258
+    },
+    {
+     "text": "one",
+     "start": 61.328,
+     "end": 61.49
+    },
+    {
+     "text": "story",
+     "start": 61.525,
+     "end": 61.792
+    },
+    {
+     "text": "a",
+     "start": 61.838,
+     "end": 61.862
+    },
+    {
+     "text": "day.",
+     "start": 61.908,
+     "end": 62.222
+    }
+   ],
+   "cues": {},
+   "startFrame": 1795,
+   "endFrame": 1903
+  }
+ ]
+}
