@@ -58,6 +58,8 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
 - Wojaks are generated with ChatGPT through the Codex CLI (device-code sign-in by the owner). Stay signed in between batches; the owner says "logout" when they want the session closed (owner, 2026-10-20). ChatGPT sometimes fails to save the image: retry the job, it is not a content problem.
 - Babies video: `lingo/babycry.mjs` (cries from public YouTube videos the owner is asking permission for; pitch traced with `baby_analyze.py`), Wojak crying babies `wojaks/baby_*.png`.
 
+- Next-videos to-do list from the owner: `lingo/ideas/TODO.md` (polite ranking, Arabic variants, masculine ranking, hardest and easiest rankings).
+
 ## Continue from here
 1. `cd lingo && npm i && pip install faster-whisper`
 2. `python3 fetch_audio.py` (resumable; cached clips are skipped. Commons answers HTTP 429 when downloading fast;
