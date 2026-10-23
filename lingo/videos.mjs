@@ -387,6 +387,55 @@ export const VIDEOS = {
   },
 
   // ------------------------------------------------------------------ 5
+  conlangs2: {
+    title: "People Actually Speak These Made-Up Languages",
+    part: "Part 2",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#6c5ce7",
+    items: [
+      {
+        name: "Interlingua", wojak: "c_ina", flag: null, speakers: "1,000s", scene: "village", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "brown", outfit: { type: "shirt", color: "#4a6fa5", vest: "#4a6fa5" }, expression: "smile" },
+        cards: [
+          "Interlingua was published in 1951 in New York by the International Auxiliary Language Association, after more than 25 years of work.",
+          "Its words were not invented. They were taken from what English, French, Italian, Spanish and Portuguese already share, so millions can read it without a lesson.",
+          "Medical journals once printed their summaries in Interlingua, because doctors across Europe could understand it at first sight.",
+        ],
+        audio: { file: "cache/conlangs2/src/interlingua.mp3", start: 2.0 },
+      },
+      {
+        name: "Lingua Franca Nova", wojak: "c_lfn", flag: null, speakers: "100s", scene: "forest", loc: null,
+        char: { skin: "pale", hair: "short", hairColor: "grey", beard: true, beardColor: "grey", outfit: { type: "coat", color: "#7a5a3a", inner: "#9bc4e2" }, expression: "smile" },
+        cards: [
+          "Lingua Franca Nova was created in 1998 by C. George Boeree, an American psychology professor. Its fans call it Elefen, after the letters L, F, N.",
+          "Its words come from French, Italian, Spanish, Portuguese and Catalan, but its grammar copies creole languages: verbs never change, whoever does the action.",
+          "What you are hearing is Lingua Franca Nova describing itself: a simple, regular language that sounds like Italian or Spanish. It even has its own Wikipedia.",
+        ],
+        audio: { file: "cache/conlangs2/src/lfn2.mp3", start: 0.0 },
+      },
+      {
+        name: "Uropi", wojak: "c_uro", flag: null, speakers: "a handful", scene: "tuscany", loc: null,
+        char: { skin: "pale", hair: "short", hairColor: "white", glasses: true, outfit: { type: "coat", color: "#1f2a44", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Uropi was started in 1986 by Joël Landais, a teacher in France, who wanted one language that every European would find familiar.",
+          "He rebuilt its words from the ancient roots that most European languages grew from, so a Uropi word often looks like a distant cousin of the one you know.",
+          "The voice you are hearing is Landais himself, reciting the French poem Le Pont Mirabeau translated into Uropi.",
+        ],
+        audio: { file: "cache/conlangs2/src/uropi.mp3", start: 0.0 },
+      },
+      {
+        name: "Láadan", wojak: "c_ldn", flag: null, speakers: "a handful", scene: "grassland", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "brown", beard: true, outfit: { type: "coat", color: "#5b2a6e", inner: "#f4f1e8" }, expression: "neutral" },
+        cards: [
+          "Láadan was invented in 1982 by linguist Suzette Haden Elgin for her science-fiction novel Native Tongue, to give women words other languages lack.",
+          "Every sentence opens with a word saying what it is, a statement, question or command, and closes with one saying how you know it: you saw it, dreamed it or were told.",
+          "It has separate verbs for menstruating in pain, with joy and for the first time. Only a handful of people speak it, and these are real recordings of its words.",
+        ],
+        audio: { file: "cache/conlangs2/src/laadan.wav", start: 0.0 },
+      },
+    ],
+  },
   conlangs: {
     title: "Constructed Languages be like…",
     part: "",
