@@ -402,7 +402,7 @@ export const VIDEOS = {
           "Its words were not invented. They were taken from what English, French, Italian, Spanish and Portuguese already share, so millions can read it without a lesson.",
           "Medical journals once printed their summaries in Interlingua, because doctors across Europe could understand it at first sight.",
         ],
-        audio: { file: "cache/conlangs2/src/interlingua.mp3", start: 2.0 },
+        audio: { seq: ["Ia-catto.ogg", "Ia-revolution.ogg", "Ia-statounitese.ogg", "Ia-temperamento.ogg"], repeat: 2 }, // built by build_conlangs2.py
       },
       {
         name: "Lingua Franca Nova", wojak: "c_lfn", flag: null, speakers: "100s", scene: "forest", loc: null,

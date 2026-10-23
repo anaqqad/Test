@@ -12,7 +12,6 @@ os.makedirs(OUT, exist_ok=True)
 NEED = round(1.4 + 5.0 * 3 + 1.2, 2)  # story segment with 3 cards
 LDN_WORDS = ["Láadan", "osháana", "héeya", "lóolo", "shebasheb", "ramíili", "dóhin", "híya", "rahen", "mime"]
 CLIPS = {  # name: (source file, start, Commons title, author, licence)
-    "Interlingua": ("interlingua.mp3", 2.0, "Paises-del-mundo-195.ogg", "Hietjmo", "CC BY-SA 4.0"),
     "Lingua Franca Nova": ("lfn2.mp3", 0.0, "Introdui1.ogg", "lingua-franca-nova.net", "GFDL, CC BY-SA 3.0"),
     "Uropi": ("uropi.mp3", 0.0, "PontMirabo3.ogg", "Joël Landais, creator of Uropi", "public domain"),
 }
@@ -27,28 +26,36 @@ for name, (f, start, title, author, lic) in CLIPS.items():
     manifest[name] = {"sig": "conlangs2|" + name, "credits": [{"title": "File:" + title, "artist": author, "license": lic, "page": page(title)}], "captions": [], "start": start}
     lines.append(f'{name}: "{title}" by {author}, {lic}, via Wikimedia Commons, {page(title)}')
     print(name, NEED, "s from", start)
-# Láadan: single words, one after another, captioned
-parts, caps, t, credits = [], [], 0.6, []
-for w in LDN_WORDS:
-    src = os.path.join(SRC, f"ldn_{w}.mp3")
-    if not os.path.exists(src):
-        continue
-    p = os.path.join(OUT, f"ldn_{len(parts)}.wav")
-    fa.to_wav(src, p, extra="silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse")
-    d = fa.duration(p)
-    if t + d > NEED - 0.4:
-        break
-    caps.append({"t": round(t, 2), "d": round(d, 2), "text": w}); parts.append((t, p)); t += d + 0.9
-    title = f"LL-Q35757 (ldn)-Arlo Barnes-{w}.wav"
-    credits.append({"title": "File:" + title, "artist": "Arlo Barnes (Lingua Libre)", "license": "CC0", "page": page(title)})
-dst = os.path.join(OUT, fa.slug("Láadan") + ".wav")
-ins, filt = [], []
-for i, (st, p) in enumerate(parts):
-    ins += ["-i", p]; filt.append(f"[{i}]adelay={int(st * 1000)}|{int(st * 1000)}[a{i}]")
-filt.append("".join(f"[a{i}]" for i in range(len(parts))) + f"amix=inputs={len(parts)}:normalize=0,apad,atrim=0:{NEED},loudnorm=I=-18:TP=-2[o]")
-subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(filt), "-map", "[o]", "-ar", str(fa.SR), dst], check=True)
-manifest["Láadan"] = {"sig": "conlangs2|Láadan", "credits": credits, "captions": caps}
-lines.append("Láadan: single-word recordings (" + ", ".join(c["text"] for c in caps) + ") by Arlo Barnes, Lingua Libre, CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/Category:Lingua_Libre_pronunciation-ldn")
-print("Láadan", len(caps), "words")
+# Interlingua and Láadan: single-word recordings one after another, captioned (like Klingon and Volapük in Part 1)
+SEQS = {
+    "Interlingua": ([("ia_catto.mp3", "catto", "Ia-catto.ogg", "פֿינצטערניש", "CC0"),
+                     ("ia_revolution.mp3", "revolution", "Ia-revolution.ogg", "Wimmer", "CC BY 2.5"),
+                     ("ia_statounitese.mp3", "statounitese", "Ia-statounitese.ogg", "פֿינצטערניש", "CC0"),
+                     ("ia_temperamento.mp3", "temperamento", "Ia-temperamento.ogg", "Wimmer", "CC BY 2.5")], 2),
+    "Láadan": ([(f"ldn_{w}.mp3", w, f"LL-Q35757 (ldn)-Arlo Barnes-{w}.wav", "Arlo Barnes (Lingua Libre)", "CC0") for w in LDN_WORDS], 1),
+}
+for name, (words, repeat) in SEQS.items():
+    parts, caps, credits, t = [], [], {}, 0.6
+    for f, w, title, author, lic in words * repeat:
+        src = os.path.join(SRC, f)
+        if not os.path.exists(src):
+            continue
+        p = os.path.join(OUT, f"{fa.slug(name)}_{len(parts)}.wav")
+        fa.to_wav(src, p, extra="silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,loudnorm=I=-18:TP=-2")
+        d = fa.duration(p)
+        if t + d > NEED - 0.4:
+            break
+        caps.append({"t": round(t, 2), "d": round(d, 2), "text": w}); parts.append((t, p)); t += d + 0.9
+        credits[title] = {"title": "File:" + title, "artist": author, "license": lic, "page": page(title)}
+    dst = os.path.join(OUT, fa.slug(name) + ".wav")
+    ins, filt = [], []
+    for i, (st, p) in enumerate(parts):
+        ins += ["-i", p]; filt.append(f"[{i}]adelay={int(st * 1000)}|{int(st * 1000)}[a{i}]")
+    filt.append("".join(f"[a{i}]" for i in range(len(parts))) + f"amix=inputs={len(parts)}:normalize=0,apad,atrim=0:{NEED}[o]")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(filt), "-map", "[o]", "-ar", str(fa.SR), dst], check=True)
+    manifest[name] = {"sig": "conlangs2|" + name, "credits": list(credits.values()), "captions": caps}
+    for c in credits.values():
+        lines.append(f'{name}: "{c["title"][5:]}" by {c["artist"]}, {c["license"]}, via Wikimedia Commons, {c["page"]}')
+    print(name, len(caps), "words")
 json.dump(manifest, open(os.path.join(OUT, "manifest.json"), "w"), indent=1, ensure_ascii=False)
 open(os.path.join(HERE, "out", "conlangs2_credits.txt"), "w").write("\n".join(lines) + "\n")
