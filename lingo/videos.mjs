@@ -388,7 +388,7 @@ export const VIDEOS = {
 
   // ------------------------------------------------------------------ 5
   conlangs2: {
-    title: "People Actually Speak These Made-Up Languages",
+    title: "Constructed Languages be like…", // same on-screen title as Part 1; YouTube title: People Actually Speak These Made-Up Languages (Part 2)
     part: "Part 2",
     layout: "story",
     counterLabel: "speakers",
