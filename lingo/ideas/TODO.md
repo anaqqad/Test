@@ -10,8 +10,9 @@
    Needs a measurable basis before building (for example share of masculine grammatical gender, gendered speech
    like Lakota yeló/kštó, or a sound-based measure). Agree the method with the owner first.
 4. Ranking the World's Hardest Languages
-   Note: "hardest" is one of the original six videos. This must be a new ranking with a stated method (for example
-   the US Foreign Service Institute learning-hour categories), not a Part 2.
+   Warning: the original six already include "Ranking languages by how hard they are (for English speakers)" (key
+   `hardest` in videos.mjs). A new one needs a clearly different angle (for example hardest for Arabic or Chinese
+   speakers, or hardest by grammar counts), otherwise it repeats that video. Ask the owner before building.
 5. Ranking the World's Easiest Languages
    Same FSI method as the hardest ranking, from the English speaker's side (Category I languages, about 600 to
    750 class hours).
