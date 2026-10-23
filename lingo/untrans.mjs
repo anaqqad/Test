@@ -11,15 +11,16 @@ import { FONT_CSS, renderClip, logoSvg } from "./render.mjs";
 import { scene } from "./art.mjs";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
-const OUT = path.join(HERE, "out"), A = path.join(HERE, "cache", "audio", "untrans"), TMP = path.join(HERE, "cache", "clips", "untrans");
-fs.mkdirSync(TMP, { recursive: true });
 const args = process.argv.slice(2);
 const opt = (k, d) => { const i = args.indexOf("--" + k); return i < 0 ? d : args[i + 1] ?? true; };
-const D = JSON.parse(fs.readFileSync(path.join(HERE, "untrans.json")));
+const SET = opt("set", "untrans"); // word set: untrans (default) or conwords
+const OUT = path.join(HERE, "out"), A = path.join(HERE, "cache", "audio", SET), TMP = path.join(HERE, "cache", "clips", SET);
+fs.mkdirSync(TMP, { recursive: true });
+const D = JSON.parse(fs.readFileSync(path.join(HERE, SET + ".json")));
 const MAN = JSON.parse(fs.readFileSync(path.join(A, "manifest.json")));
 const nm = (p) => path.join(HERE, "node_modules", p);
 const fileUrl = (p) => pathToFileURL(p).href;
-const flag = (c) => fileUrl(nm("flag-icons/flags/4x3/" + c + ".svg"));
+const flag = (c) => { const own = path.join(HERE, "flags", c + ".svg"); return fileUrl(fs.existsSync(own) ? own : nm("flag-icons/flags/4x3/" + c + ".svg")); }; // flags/ holds conlang flags
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 const wj = (keys) => { for (const k of keys) { const f = path.join(HERE, "wojaks", k + ".png"); if (fs.existsSync(f)) return fileUrl(f); } return null; };
 const items = D.items.filter((i) => MAN[i.key]).map((i) => ({ ...i, m: MAN[i.key] })).sort((a, b) => a.m.words - b.m.words || a.m.de - b.m.de); // 10 -> 1
@@ -72,7 +73,7 @@ add("intro", 5, `<div class="a" id="bg" style="opacity:.35">${scene("abstract", 
   <div class="a" style="left:0;top:0;width:1920px;height:1080px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
     <div data-in="0.2" class="f">${logoSvg(110)}</div>
     <div data-in="0.4" class="f" style="margin-top:40px;font-weight:800;font-size:92px;line-height:1.1;text-shadow:0 8px 40px rgba(0,0,0,.6);width:1500px">${esc(D.title)}</div>
-    <div data-in="1.2" class="f" style="margin-top:34px;font-weight:800;font-size:36px;color:#ffcf5c;letter-spacing:4px">RANKED BY HOW MANY ENGLISH WORDS IT TAKES</div>
+    <div data-in="1.2" class="f" style="margin-top:34px;font-weight:800;font-size:36px;color:#ffcf5c;letter-spacing:4px">${esc(D.subtitle || "RANKED BY HOW MANY ENGLISH WORDS IT TAKES")}</div>
     <div data-in="1.8" class="f" style="margin-top:50px;display:flex;gap:18px">${items.map((i) => `<img src="${flag(i.flag)}" style="height:52px;border-radius:6px">`).join("")}</div></div>`);
 
 for (const [idx, it] of items.entries()) {
@@ -89,7 +90,7 @@ for (const [idx, it] of items.entries()) {
     <div class="a ai">ENGLISH: AI VOICE</div>
     <div id="panel" class="a">
       <div class="say sa" id="say_a"><div class="hd"><img src="${flag(it.flag)}">${esc(it.name)}</div><div class="w">${esc(it.word)}</div>${it.roman ? `<div class="rom">${esc(it.roman)}</div>` : ""}</div>
-      <div class="say sb" id="say_b"><div class="hd"><img src="${flag("gb")}">English, as many words as it takes</div><div class="tr">${tr}</div></div>
+      <div class="say sb" id="say_b"><div class="hd"><img src="${flag("gb")}">${esc(D.english_label || "English, as many words as it takes")}</div><div class="tr">${tr}</div></div>
       <div data-in="${countAt.toFixed(2)}" class="f" id="count"><span>ENGLISH WORDS NEEDED</span><b id="cn">0</b></div>
       <div data-in="${factAt.toFixed(2)}" class="f card">${esc(it.fact)}</div></div>
     <div id="bar" class="a"><img src="${flag(it.flag)}">${esc(it.word)}</div>
@@ -100,9 +101,9 @@ for (const [idx, it] of items.entries()) {
 
 add("outro", 7, `<div class="a" id="bg" style="opacity:.35">${scene("abstract", "title")}</div>
   <div class="a" style="left:0;top:0;width:1920px;height:1080px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
-    <div data-in="0.2" class="f" style="font-weight:800;font-size:72px;line-height:1.15;width:1500px">Which word did we miss?</div>
+    <div data-in="0.2" class="f" style="font-weight:800;font-size:72px;line-height:1.15;width:1500px">${esc(D.outro || "Which word did we miss?")}</div>
     <div data-in="0.8" class="f" style="margin-top:24px;font-weight:800;font-size:44px;color:#ffcf5c;letter-spacing:4px">TELL US IN THE COMMENTS 👇</div>
-    <div data-in="1.4" class="f" style="margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:10px 80px;font-weight:700;font-size:32px;text-align:left">${[...items].reverse().map((it, i) => `<div>#${i + 1} ${esc(it.word)} (${esc(it.name)}) <span style="color:#ffcf5c">${it.m.words} words</span></div>`).join("")}</div></div>`);
+    <div data-in="1.4" class="f" style="margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:10px 80px;font-weight:700;font-size:32px;text-align:left">${[...items].reverse().map((it, i) => `<div>#${i + 1} ${esc(it.word)} (${esc(it.name)}) <span style="color:#ffcf5c">${it.m.words} word${it.m.words === 1 ? "" : "s"}</span></div>`).join("")}</div></div>`);
 
 const stills = opt("still", null);
 const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--font-render-hinting=none"] });
@@ -124,11 +125,11 @@ for (const s of scenes) {
 const n = ins.length / 2, T = t.toFixed(2);
 const list = path.join(TMP, "list.txt");
 fs.writeFileSync(list, clips.map((c) => `file '${c}'`).join("\n"));
-const outFile = path.join(OUT, "untrans.mp4");
+const outFile = path.join(OUT, SET + ".mp4");
 const r = spawnSync("ffmpeg", ["-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", list, ...ins, "-filter_complex",
   filt.join(";") + `;anullsrc=r=48000:cl=stereo,atrim=0:${T}[base];[base]` + [...Array(n).keys()].map((i) => `[a${i + 1}]`).join("") + `amix=inputs=${n + 1}:normalize=0,apad,atrim=0:${T},aresample=48000[aout]`,
   "-map", "0:v", "-map", "[aout]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", outFile], { stdio: "inherit" });
 if (r.status) throw new Error("ffmpeg failed");
 let t0 = 0;
-fs.writeFileSync(path.join(OUT, "untrans_timeline.json"), JSON.stringify(scenes.map((s) => { const e = { name: s.name, start: +t0.toFixed(2), dur: s.dur }; t0 += s.dur; return e; }), null, 1));
+fs.writeFileSync(path.join(OUT, SET + "_timeline.json"), JSON.stringify(scenes.map((s) => { const e = { name: s.name, start: +t0.toFixed(2), dur: s.dur }; t0 += s.dur; return e; }), null, 1));
 console.log(`done: ${outFile} (${T}s)`);

@@ -2,14 +2,15 @@
 # Per word: the native recording (Wiktionary pronunciation file on Commons, untrans.json "rec", downloaded as the mp3
 # transcode), peak-normalised; and the English translation read by a Piper AI voice (labelled on screen).
 # Writes cache/audio/untrans/<key>_w.wav, <key>_en.wav, manifest.json and out/untrans_credits.txt.
-import hashlib, json, os, re, subprocess, time, urllib.parse, wave
+import hashlib, json, os, re, subprocess, sys, time, urllib.parse, wave
 import numpy as np, parselmouth
 from piper import PiperVoice, SynthesisConfig
 import fetch_audio as fa
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-D = json.load(open(os.path.join(HERE, "untrans.json")))
-OUT = os.path.join(HERE, "cache", "audio", "untrans")
+SET = sys.argv[1] if len(sys.argv) > 1 else "untrans"  # word set: untrans (default) or conwords
+D = json.load(open(os.path.join(HERE, SET + ".json")))
+OUT = os.path.join(HERE, "cache", "audio", SET)
 RAW = os.path.join(HERE, "cache", "raw")
 os.makedirs(OUT, exist_ok=True); os.makedirs(RAW, exist_ok=True)
 UA = "LingoDudeVideoBot/0.1 (contact: lingodude channel)"
@@ -64,4 +65,4 @@ for it in D["items"]:
     credits.append(f"{it['name']} ({it['word']}): \"{it['rec'][5:]}\" by {c['artist']}, {c['license']}, via Wikimedia Commons, https://commons.wikimedia.org/wiki/{urllib.parse.quote(it['rec'].replace(' ', '_'))}")
     print(k, man[k], flush=True)
 json.dump(man, open(os.path.join(OUT, "manifest.json"), "w"), indent=1, ensure_ascii=False)
-open(os.path.join(HERE, "out", "untrans_credits.txt"), "w").write("Audio credits (Words That Don't Exist in English)\n\n" + "\n".join(credits) + "\n")
+open(os.path.join(HERE, "out", SET + "_credits.txt"), "w").write(f"Audio credits ({D['title']})\n\n" + "\n".join(credits) + "\n")
