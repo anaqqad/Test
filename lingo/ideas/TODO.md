@@ -19,3 +19,11 @@
 
 Rules for all of them: real recordings only (Wikimedia Commons, Lingua Libre, Wikitongues), credit every recording,
 channel thumbnail look with the hook in red, rankings count down from 10 to 1.
+
+6. Ranking Languages by Average Number of Synonyms (owner, 2026-10-24, "later")
+   Done so far: WOLD (41 languages, 1,460 core meanings) and IDS (319 varieties, 94 near-complete living languages,
+   single words only) both downloaded and scored; IDS top: Hawaiian 2.15, Maori 1.99, Irish 1.82, Bulgarian 1.76,
+   Ossetic 1.73 ... English #61 (1.18). Sources disagree (Hawaiian is near the bottom in WOLD), say so on screen.
+   Arabic, Hindi, Mandarin and Japanese are in neither IDS nor WOLD complete: planned as a separate bonus round from
+   Wiktionary translation tables on the same core words, with English measured the same way (Arabic "hundreds of
+   words for lion" myth: mostly poetic epithets from classical lexicons).
