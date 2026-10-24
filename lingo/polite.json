@@ -1,0 +1,194 @@
+{
+  "_note": "Ranking the World's Most Polite Languages: ranked by the number of words the English Wiktionary labels polite, honorific or humble (Category:<Language> polite terms + honorific terms + humble terms; Thai also royal terms), counted 2026-10-24. Tibetan (48) would be #8 but no recording of a Tibetan polite word exists on Commons, so it is skipped and named in the description. One signature polite word per language, a real recording.",
+  "title": "Ranking the World's Most Polite Languages",
+  "subtitle": "BY THE NUMBER OF POLITE WORDS IN THE DICTIONARY",
+  "meter": "Polite words in the dictionary",
+  "meter_unit": "POLITE, HONORIFIC OR HUMBLE",
+  "word_label": "Signature polite word",
+  "lit_label": "LITERALLY",
+  "outro": "Which language is the most polite?",
+  "accent": "#e8a92b",
+  "items": [
+    {
+      "key": "zho",
+      "name": "Chinese",
+      "flag": "cn",
+      "count": 659,
+      "wojak": "p_zho",
+      "scene": "hongkong",
+      "word": "您贵姓?",
+      "roman": "nín guìxìng?",
+      "lit": "your precious surname?",
+      "rec": "File:LL-Q9192 (cmn)-Luilui6666-生词C、您贵姓?.wav",
+      "cards": [
+        "Chinese has a polite 'you': 您 (nín) instead of 你 (nǐ). And to ask a stranger's name, you ask for their 'precious surname'.",
+        "The humble side counts too: traditionally your own home is 'my cold hut' (寒舍) and your own work 'my clumsy work' (拙作)."
+      ],
+      "cut_start": 0.66
+    },
+    {
+      "key": "jpn",
+      "name": "Japanese",
+      "flag": "jp",
+      "count": 380,
+      "wojak": "p_jpn",
+      "scene": "caucasus",
+      "word": "おはようございます",
+      "roman": "ohayō gozaimasu",
+      "lit": "it is early (politely)",
+      "rec": "File:LL-Q5287 (jpn)-Fukujinzuke-おはようございます.wav",
+      "cards": [
+        "Japanese politeness has three layers: polite words, honorific words that raise others, and humble words that lower yourself.",
+        "Even 'to be' changes: iru with friends, irassharu for someone you respect, and oru for yourself when being humble."
+      ]
+    },
+    {
+      "key": "jav",
+      "name": "Javanese",
+      "flag": "id",
+      "count": 178,
+      "wojak": "p_jav",
+      "scene": "forest",
+      "word": "panjenengan",
+      "lit": "you (to someone you honour)",
+      "rec": "File:LL-Q33549 (jav)-Dewinta88-panjenengan.wav",
+      "cards": [
+        "Javanese has separate vocabularies by social level: ngoko for friends, krama for elders and strangers, krama inggil for the deepest respect.",
+        "Even colours change: red is 'abang' to a friend but 'abrit' to your elders. And 'you' is 'kowé', but 'panjenengan' to someone you honour."
+      ]
+    },
+    {
+      "key": "kor",
+      "name": "Korean",
+      "flag": "kr",
+      "count": 141,
+      "wojak": "p_kor",
+      "scene": "alps",
+      "word": "안녕하십니까",
+      "roman": "annyeong-hasimnikka",
+      "lit": "are you at peace? (most formal)",
+      "rec": "File:안녕하십니까.ogg",
+      "credit": {
+        "artist": "HappyMidnight",
+        "license": "CC BY-SA 4.0"
+      },
+      "cards": [
+        "Korean grammar has up to seven speech levels, built into the end of every verb. This greeting uses the most formal one.",
+        "Even eating changes: 먹다 (meokda) for yourself, 드시다 (deusida) for your elders. That politeness lives in grammar, so a word count underrates Korean."
+      ]
+    },
+    {
+      "key": "tha",
+      "name": "Thai",
+      "flag": "th",
+      "count": 125,
+      "wojak": "p_tha",
+      "scene": "andaman",
+      "word": "สวัสดีครับ",
+      "roman": "sawatdee khrap",
+      "lit": "hello (politely, said by a man)",
+      "local": {
+        "file": "cache/polite/src/thai_tao.webm",
+        "start": 0.55,
+        "end": 1.75
+      },
+      "credit": {
+        "title": "File:WIKITONGUES- Tao speaking Thai.webm",
+        "artist": "Wikitongues, Teddy Nee",
+        "license": "CC BY-SA 4.0"
+      },
+      "cards": [
+        "Thai ends polite sentences with a little word that depends on who is talking: 'khrap' if you are a man, 'kha' if you are a woman.",
+        "Thai also has a royal vocabulary, rachasap: special words used only for the king and the royal family. 89 of them are in the count."
+      ],
+      "voice": "male"
+    },
+    {
+      "key": "mya",
+      "name": "Burmese",
+      "flag": "mm",
+      "count": 114,
+      "wojak": "p_mya",
+      "scene": "hills",
+      "word": "မင်္ဂလာပါ",
+      "roman": "mingalaba",
+      "lit": "blessings (politely)",
+      "rec": "File:Mya-မင်္ဂလာပါ.wav",
+      "credit": {
+        "artist": "Eren maker 2009",
+        "license": "CC BY-SA 4.0"
+      },
+      "cards": [
+        "Mingalaba comes from 'mingala', a blessing. The 'pa' at the end is a politeness particle that softens almost any Burmese sentence.",
+        "Burmese speakers put a respectful title before almost every name: U for an older man, Daw for an older woman, Ko for a young man."
+      ],
+      "voice": "male"
+    },
+    {
+      "key": "vie",
+      "name": "Vietnamese",
+      "flag": "vn",
+      "count": 88,
+      "wojak": "r_vie",
+      "scene": "grassland",
+      "word": "dạ",
+      "lit": "yes (respectfully)",
+      "rec": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-dạ.wav",
+      "cards": [
+        "Vietnamese has no neutral 'I' or 'you': speakers pick family words like older brother, aunt or grandfather, depending on age and respect.",
+        "Answering an elder with a bare 'yes' sounds rude. Children learn to say 'dạ', and to end their sentences with 'ạ' to show respect."
+      ],
+      "voice": "female"
+    },
+    {
+      "key": "eng",
+      "name": "English",
+      "flag": "gb",
+      "count": 45,
+      "wojak": "p_eng",
+      "scene": "village",
+      "word": "Your Majesty",
+      "lit": "your greatness",
+      "rec": "File:LL-Q1860 (eng)-Flame, not lame-Your Majesty.wav",
+      "cards": [
+        "English lost its polite 'you'. 'Thou' was the friendly one and 'you' the polite one, until everyone became 'you'.",
+        "What is left are titles and set phrases: sir, madam, Your Honour, Your Majesty, and of course 'please'."
+      ]
+    },
+    {
+      "key": "ind",
+      "name": "Indonesian",
+      "flag": "id",
+      "count": 43,
+      "wojak": "p_ind",
+      "scene": "hawaii",
+      "word": "terima kasih",
+      "lit": "receive affection",
+      "rec": "File:LL-Q9240 (ind)-Xbypass-terima kasih.wav",
+      "cards": [
+        "'Terima kasih', thank you, literally means 'receive affection': you thank someone by accepting what they gave.",
+        "Indonesians use family titles with everyone: Bapak (father) for any older man, Ibu (mother) for any older woman, even in shops and offices."
+      ]
+    },
+    {
+      "key": "tam",
+      "name": "Tamil",
+      "flag": "in",
+      "count": 33,
+      "wojak": "p_tam",
+      "scene": "bougainville",
+      "word": "வணக்கம்",
+      "roman": "vaṇakkam",
+      "lit": "a bow of respect",
+      "rec": "File:Vanakkam Greeting.ogg",
+      "credit": {
+        "artist": "Tkonline19",
+        "license": "CC BY-SA 4.0"
+      },
+      "cards": [
+        "Vanakkam comes from a word for bowing: you greet someone by showing reverence, usually with your palms joined.",
+        "Tamil has a respectful form for one person: you call someone you honour 'avar', a respectful 'he', instead of the plain 'avan'."
+      ]
+    }
+  ]
+}

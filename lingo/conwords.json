@@ -1,0 +1,94 @@
+{
+  "_note": "Weirdest Words in Made-Up Languages be like. Same pipeline as untrans (python3 fetch_untrans.py conwords; node untrans.mjs --set conwords). Each word is a real Lingua Libre recording on Commons; the English translation is read by a Piper AI voice, labelled on screen. Ranked 10 -> 1 by the number of English words in the shortest honest translation.",
+  "title": "Weirdest Words in Made-Up Languages be like",
+  "subtitle": "RANKED BY HOW MANY ENGLISH WORDS IT TAKES",
+  "outro": "Which made-up word did we miss?",
+  "english_voice": "en_GB-alan-medium",
+  "english_wojak": "s_eng_dep",
+  "items": [
+    {
+      "key": "krokodili",
+      "name": "Esperanto",
+      "flag": "eo",
+      "wojak": "c_epo",
+      "scene": "village",
+      "word": "krokodili",
+      "rec": "File:LL-Q143 (epo)-Lepticed7-krokodili.wav",
+      "credit": { "artist": "Lepticed7 (Lingua Libre)", "license": "CC BY-SA 4.0" },
+      "translation": "To speak your own language with Esperanto speakers.",
+      "fact": "It literally means 'to crocodile'. At Esperanto meetings you are meant to speak only Esperanto, and anyone who slips back into their own language gets called a crocodile."
+    },
+    {
+      "key": "pu",
+      "name": "Toki Pona",
+      "flag": "tok",
+      "wojak": "c_tok",
+      "scene": "grassland",
+      "word": "pu",
+      "rec": "File:LL-Q36846 (tok)-Jan Ossen-pu.wav",
+      "credit": { "artist": "Jan Ossen (Lingua Libre)", "license": "CC0" },
+      "translation": "To interact with the official Toki Pona book.",
+      "fact": "Toki Pona gets by with about 120 words, and it still spends one of them on its own textbook, written by its creator Sonja Lang in 2014."
+    },
+    {
+      "key": "ua",
+      "name": "Lojban",
+      "flag": "jbo",
+      "wojak": "c_jbo",
+      "scene": "abstract",
+      "word": ".ua",
+      "rec": "File:LL-Q36350 (jbo)-TranqyPoo-.ua.wav",
+      "credit": { "artist": "TranqyPoo (Lingua Libre)", "license": "CC BY-SA 4.0" },
+      "translation": "Oh, I get it now!",
+      "fact": "Lojban is built on logic, so feelings get their own tiny sounds that you drop into a sentence. .ua is the exact moment something clicks."
+    },
+    {
+      "key": "oshaana",
+      "name": "Láadan",
+      "flag": "ldn",
+      "wojak": "c_ldn",
+      "scene": "forest",
+      "word": "osháana",
+      "rec": "File:LL-Q35757 (ldn)-Arlo Barnes-osháana.wav",
+      "credit": { "artist": "Arlo Barnes (Lingua Libre)", "license": "CC0" },
+      "translation": "To menstruate in pain.",
+      "fact": "Linguist Suzette Haden Elgin invented Láadan in 1982 to give women words other languages lack. It has separate verbs for menstruating in pain, with joy, and for the first time."
+    },
+    {
+      "key": "samideano",
+      "name": "Esperanto",
+      "flag": "eo",
+      "wojak": "c_epo",
+      "scene": "village",
+      "word": "samideano",
+      "rec": "File:LL-Q143 (epo)-Lepticed7-samideano.wav",
+      "credit": { "artist": "Lepticed7 (Lingua Libre)", "license": "CC BY-SA 4.0" },
+      "translation": "A fellow Esperanto speaker.",
+      "fact": "Esperanto snaps words together like Lego: sam (same) + ide (idea) + an (member) + o (a noun). A 'same-idea-person' is what Esperanto speakers call each other."
+    },
+    {
+      "key": "ui",
+      "name": "Lojban",
+      "flag": "jbo",
+      "wojak": "c_jbo",
+      "scene": "abstract",
+      "word": ".ui",
+      "rec": "File:LL-Q36350 (jbo)-TranqyPoo-.ui.wav",
+      "credit": { "artist": "TranqyPoo (Lingua Libre)", "license": "CC BY-SA 4.0" },
+      "translation": "I'm happy.",
+      "fact": "Add 'nai' and any feeling flips: .uinai means 'I'm unhappy'. Lojban has dozens of these, like .u'u for 'sorry' and .oi for 'ouch'."
+    },
+    {
+      "key": "kijetesantakalu",
+      "name": "Toki Pona",
+      "flag": "tok",
+      "wojak": "c_tok",
+      "scene": "grassland",
+      "word": "kijetesantakalu",
+      "rec": "File:LL-Q36846 (tok)-Jan Ossen-kijetesantakalu.wav",
+      "credit": { "artist": "Jan Ossen (Lingua Libre)", "license": "CC0" },
+      "translation": "Raccoon.",
+      "fact": "Almost every Toki Pona word is one or two syllables, like pona (good) and jan (person). Then there is this 15-letter joke word for a raccoon, and fans love it."
+    }
+  ]
+}
