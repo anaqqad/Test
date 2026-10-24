@@ -1,6 +1,6 @@
 source,status,url,what was used / why not,licence,lemmas_supported
-English Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/dictionary/,"machine-readable extraction of en.wiktionary, dump of 2026-10; ~110 languages streamed",CC BY-SA 4.0 / GFDL,2392
-ja Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/jawiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,846
+English Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/dictionary/,"machine-readable extraction of en.wiktionary, dump of 2026-10; ~110 languages streamed",CC BY-SA 4.0 / GFDL,2370
+ja Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/jawiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,839
 ko Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/kowiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,74
 zh Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/zhwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,457
 th Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/thwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,643
@@ -13,9 +13,9 @@ tr Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/trwiktionary/,"na
 pl Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/plwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,61
 es Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/eswiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,
 nl Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/nlwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,6
-ru Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/ruwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,19
-de Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/dewiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,
-fr Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/frwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,
+ru Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/ruwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,24
+de Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/dewiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,11
+fr Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/frwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,140
 JMdict,used,https://www.edrdg.org/jmdict/j_jmdict.html,JMdict_e.gz of 2026-10-24; senses tagged hon/hum/pol or with a stated function,CC BY-SA 4.0 (EDRDG),904
 CC-CEDICT,used,https://www.mdbg.net/chinese/dictionary?page=cc-cedict,cedict release of 2026-10-23; definitions labelled polite/honorific/humble or with a stated function,CC BY-SA 4.0,352
 Poedjosoedarmo 1969 (Cornell),used,https://ecommons.cornell.edu/server/api/core/bitstreams/1055992b-f295-4083-bc22-08923e6f3684/content,"S. Poedjosoedarmo, 'Wordlist of Javanese Non-Ngoko Vocabularies', Indonesia (Cornell). Krama and Krama Inggil/Andap columns, OCR + column recovery","journal article, open access",808

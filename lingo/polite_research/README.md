@@ -77,3 +77,78 @@ Not counted (each rejection is logged in `exclusions.csv`):
 Categories follow the mission: 1 request, 2 apology, 3 gratitude, 4 courtesy/polite register vocabulary, 5 honorific
 title/address, 6 respectful pronoun, 7 honorific vocabulary, 8 humble vocabulary, 9 deferential, 10 royal register,
 11 polite particle/interjection/greeting, 12 other documented (a politeness label without a more specific type).
+
+## 3. Results
+
+5,457 qualifying lemmas in 85 languages (out of ~101 languages searched); 35,194 rejected candidates are logged with
+their reason (the biggest groups: 22,330 senses labelled only *formal*; 4,465 native-edition hits where the keyword
+was incidental; 1,193 multiword expressions; 1,126 inflected or alternative forms).
+
+| Rank | Language | Lemmas | What the count is made of | How complete |
+|---|---|---|---|---|
+| 1 | Japanese | 1,431 | 590 honorific (尊敬語), 260 humble (謙譲語), 294 polite (丁寧語/美化語), 75 pronouns, 122 thanks/sorry/please words. 419 of these are お-/ご-/御- forms | Strong: JMdict + English + Japanese Wiktionary agree on many; 36% come from one source only |
+| 2 | Javanese | 916 | 610 Krama (polite register) stems + 289 Krama Inggil/Andap (honorific/humble) stems, almost all from Poedjosoedarmo's list | Depends on one academic list (86% single-source). Counting only honorific/humble words gives ~300 |
+| 3 | Chinese (Mandarin) | 818 | 266 honorific (敬辞), 127 humble (谦辞), 124 polite, 81 thanks/sorry/please words | Strong: CC-CEDICT + English + Chinese Wiktionary; 27% single-source |
+| 4 | Thai | 670 | 509 royal vocabulary (ราชาศัพท์), 98 polite words (คำสุภาพ) | One source: the Thai Wiktionary's royal-vocabulary category (89% single-source); the Royal Institute lists were not accessible |
+| 5 | Korean | 192 | 102 honorific (높임말), 35 humble (겸양어) | Clearly undercounted: no open Korean dictionary with honorific labels; Korean politeness lives mostly in verb endings, which are not words |
+| 6 | Burmese | 100 | 55 honorific, royal and monastic terms, titles (U, Daw, Ko) | One source (English Wiktionary) |
+| 7 | English | 86 | 36 titles/terms of address (sir, madam, ma'am…), 11 thanks words, 9 apology words, please, kindly, polite euphemisms | Partial: definitions are searched for function; that is how *please*, *sorry*, *thank* now count |
+| 8 | Tibetan | 52 | 45 honorific (zhesa) words | Undercounted: the zhesa dictionaries were not accessible |
+| 9 | Indonesian | 50 | titles (Bapak, Ibu), royal words (bersantap, beradu), please/sorry/thanks | Partial |
+| 10 | Malay | 49 | royal and polite words, titles | Partial |
+| 11-25 | Polish 44, French 38, German 37, Tamil 35, Finnish 33, Portuguese 32, Spanish 32, Italian 30, Khmer 30, Persian 30, Russian 30, Swedish 30, … | mostly titles, the polite "you", please/sorry/thank words | These counts track Wiktionary coverage more than the languages |
+
+Full per-language table: `out/language_summary.csv`; every word with its evidence: `out/master.csv`.
+
+## 4. Ranking audit (preliminary → expanded)
+
+See `out/ranking_audit_table.md` for the full table. What changed and why:
+
+- **Japanese 848 → 1,431, still #1.** JMdict adds hundreds of tagged honorific/humble words; spelling merging is stricter.
+- **Javanese 149 → 916, #5 → #2.** The scholarly list of non-Ngoko stems was added. This is the biggest single change and
+  rests on one source; with Krama Inggil/Andap only, Javanese would be ~300 and rank #4.
+- **Chinese 607 → 818, still #3.** CC-CEDICT added; Cantonese/Hokkien/Classical-only words removed.
+- **Thai 618 → 670, #2 → #4.** Same royal-vocabulary source as before; nothing new was found to confirm or extend it.
+- **Korean 262 → 192, still in the top 5.** Hanja spellings now merge with Hangul; labels that only the Japanese/Chinese
+  Wiktionary put on Korean words need a second source. Korean is the language most likely undercounted.
+- **Burmese 116 → 100**, proper names and archaic senses removed.
+- **Vietnamese 90 → 18, out of the top 10.** Most of the 90 were chữ Hán/Nôm spellings or labels from other editions.
+- **Khmer 81 → 30, out of the top 10.** 75 of the 81 were words labelled *formal*, not polite.
+- **Tibetan 48 → 52, English 44 → 86, Indonesian 43 → 50, Malay 42 → 49.**
+
+## 5. Can we name a defensible top 10?
+
+**No, not as an exact order.** What the data supports:
+
+1. **A clear top group: Japanese, Chinese, Javanese, Thai.** Each has hundreds of documented politeness-register words in
+   at least one curated source. Japanese and Chinese are the best supported (several independent sources agree).
+   The order inside this group depends on choices, not facts: Javanese moves from #2 to #4 depending on whether its
+   Krama (polite-register) vocabulary counts, and Thai's number comes from a single list.
+2. **Korean belongs with them by every description in the literature**, but no open source lets us count its honorific
+   words, so its 192 is a floor.
+3. **Places 6-10 are not defensible.** Burmese, Tibetan, Indonesian, Malay, English and the European languages are
+   separated by a few dozen words, and those differences follow Wiktionary coverage. Tibetan and Khmer have
+   full honorific/royal vocabularies described in the literature that we could not access as open text.
+
+Recommendation for the video: present the top group as the result and be explicit that the count is "politeness words
+we could verify in open dictionaries", or present tiers (honorific-system languages vs. the rest) instead of a strict
+1-10. If a strict ranking is kept, the honest order from this data is Japanese, Javanese, Chinese, Thai, Korean, Burmese,
+English, Tibetan, Indonesian, Malay, with the caveats above on screen or in the description.
+
+## 6. Audio (reported separately, did not affect any count)
+
+`out/shortlist.csv` lists 20 example words for each of the top 15 languages, plus the signature words already used in
+the current cut. Audio status comes from Wikidata lexemes linked to Lingua Libre recordings, checked one language per
+minute because Wikidata's query service was rate-limiting during an outage on 2026-10-24; the Commons search API was
+also rate-limiting (HTTP 429). "Not found" therefore means "not linked on Wikidata", not "no recording exists".
+
+## 7. Known gaps
+
+- No open digital text was found for: Thai Royal Institute rachasap lists, Korean NIKL dictionaries, Tibetan zhesa
+  dictionaries, Khmer royal-vocabulary books, the Burmese MLC dictionary, KBBI/Kamus Dewan, Bausastra Jawa (not parsed).
+- The Javanese list is OCR'd; ~170 cells were rejected as OCR noise or multiword, and a few column misreads may remain
+  (confidence "medium" on those rows).
+- Wiktionary's coverage is uneven between languages; the per-language "lemmas only one source has" share in
+  `language_summary.csv` shows where another source would still change the count (Thai, Burmese, Tibetan, Javanese).
+- Lexicalised compounds formed with honorific formatives (Japanese お-/ご-, Thai พระ-/ทรง-, Korean -님) are counted
+  as dictionary headwords; `language_summary.csv` also gives each count without them.

@@ -49,12 +49,12 @@ ADDR = re.compile(r"(respectful|honorific|polite|courtesy|deferential) (title|te
                   r"(term|form) of (respectful )?address|used (as a (respectful|polite) )?(title|form of address|term of address) (for|to)|respectful term", re.I)
 NONPOLITE_GLOSS = re.compile(r"non-?polite|\bplain\b.{0,20}(pronoun|form)|impolite|\brude\b|vulgar|condescending|contemptuous|disparaging|pejorative", re.I)
 # native-edition labels (categories/tags) that put the word itself in a politeness register
-NAT_LABEL = re.compile(r"^(honorific|humble|polite|respectful|deferential)$|敬語|尊敬語|謙譲語|丁寧語|尊辞|謙辞|높임말|겸양어|ราชาศัพท์|ที่สุภาพ|คำสุภาพ|"
+NAT_LABEL = re.compile(r"^(honorific|humble|polite|respectful|deferential)$|^(Respectueux|Humble|Honorifique|Registre (honorifique|humble)|Humble poli|Poli et humble|Respectueux et poli|Honorifique ou respectueux|Légèrement (humble|respectueux))$|敬語|尊敬語|謙譲語|丁寧語|尊辞|謙辞|높임말|겸양어|ราชาศัพท์|ที่สุภาพ|คำสุภาพ|"
                        r"Kính ngữ|Từ lịch sự|Thể lịch sự|Humble terms|Honorific terms|Perkataan sopan|bahasa halus|^krama|krama inggil|Istilah hormat|diraja", re.I)
 NAT_GLOSS = re.compile(r"높여 이르는|높임말|높이어 이르는|겸양어|낮추어 이르는|낮춰 이르는|の尊敬語|の謙譲語|の丁寧語|尊敬語|謙譲語|丁寧語|敬称|謙称|尊称|"
                        r"敬辭|敬辞|謙辭|谦辞|敬稱|谦称|尊稱|尊称|ราชาศัพท์|คำสุภาพ|kính ngữ|tôn xưng|khiêm xưng|"
                        r"(bahasa|ragam) (halus|hormat|krama)|^\(?(kata )?(halus|hormat|krama)\b|bentuk (halus|hormat)|krama inggil|(sapaan|panggilan|sebutan) (hormat|sopan)|untuk menghormati|"
-                       r"formule de politesse|forme de politesse|titre honorifique|Höflichkeitsform|fórmula de cortesía|tratamiento de respeto|"
+                       r"formule de politesse|forme de politesse|titre de courtoisie|Höflichkeitsform|fórmula de cortesía|tratamiento de respeto|"
                        r"forma di cortesia|forma de cortesia|вежливое обращение|форма вежливости|zwrot grzecznościowy|beleefdheidsvorm", re.I)
 ROYAL = re.compile(r"royal|ราชาศัพท์|diraja|bahasa istana|king|queen|monarch|emperor|sovereign", re.I)
 
@@ -124,6 +124,7 @@ def judge_en(d):
             ok = (pos in ("intj", "particle") and FUNC_INTJ.search(gl)) or (pos == "verb" and FUNC_VERB.search(gl)) or \
                  (pos == "noun" and FUNC_NOUN.search(gl)) or (pos == "adv" and FUNC_ADV.search(gl))
             if ok: return fn, None
+    if re.search(r"brothel|procur(ess|er)|bordello", gl, re.I): return None, "not a title of respect (brothel 'madam')"
     if "address/title" in funcs and pos in ("noun", "pron", "particle", "intj"):
         if ADDR.search(gl) or (TITLE_WL.search(gl) and d["lang"] != "English"): return "address", None
     if "title-word" in funcs and pos in ("noun", "pron", "particle") and TITLE_WL.search(gl): return "address", None
@@ -153,7 +154,7 @@ def judge_ed(d):
     gh = [g for g in d["gloss_hits"] if (m := NAT_GLOSS.search(g)) and (m.start() <= 25 or len(g.rstrip("。.、) ）")) - m.end() <= 3)]
     if not labs and not gh: return lang, None, "native edition: keyword only in a derived-word list or incidental mention"
     if any(re.search(r"非敬語|비높임|bất lịch sự", x) for x in labs + gh): return lang, None, "plain/non-polite counterpart"
-    if not labs and re.search(r"powitani|pożegnani|toast|kichnię|salutation|greeting|farewell|Begrüßung|Abschied|saludo|despedida|приветстви|прощани", " ".join(d["glosses"]), re.I):
+    if set(labs) <= {"polite"} and re.search(r"powitani|pożegnani|toast|kichnię|salutation|salu[ée]|quitte|éternu|bienvenue|accueill|greeting|farewell|Begrüßung|Abschied|saludo|despedida|приветстви|прощани", " ".join(d["glosses"]), re.I):
         return lang, None, "everyday greeting/farewell/toast (labelled only as a courtesy formula)"
     if not gh and ED_LANG.get(ed) != lang: return lang, "register-foreign-label", None
     return lang, "register", None
@@ -184,10 +185,8 @@ def judge_dict(d):
 senses, excluded = [], []
 def wikt_url(w, lang, ed="en"):
     return f"https://{ed}.wiktionary.org/wiki/" + w.replace(" ", "_")
-# languages re-extracted with etymology + royal/clerical raw tags (data_en2) replace their first-pass files
-redone = {l.split(" ", 1)[1].strip() for l in open("rerun_en.log") if l.startswith("done ")} if os.path.exists("rerun_en.log") else set()
-en_files = [f for f in sorted(glob.glob("data_en/*.jsonl")) if os.path.basename(f).rsplit(".", 2)[0] not in redone] + \
-           [f for f in sorted(glob.glob("data_en2/*.jsonl")) if os.path.basename(f).rsplit(".", 2)[0] in redone]
+# data_en2 holds the final extraction of every language (with etymology and royal/clerical usage notes)
+en_files = sorted(glob.glob("data_en2/*.jsonl"))
 for f in en_files:
     for line in open(f):
         d = json.loads(line); fn, why = judge_en(d)
