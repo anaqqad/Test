@@ -14,9 +14,9 @@ Which language is the most polite? Tell us in the comments 👇
 0:05 #10 Tamil (33 polite words)
 0:20 #9 Indonesian (43 polite words)
 0:37 #8 English (45 polite words)
-0:54 #7 Vietnamese (88 polite words)
+0:53 #7 Vietnamese (88 polite words)
 1:09 #6 Burmese (114 polite words)
-1:26 #5 Thai (125 polite words)
+1:25 #5 Thai (125 polite words)
 1:43 #4 Korean (141 polite words)
 1:59 #3 Javanese (178 polite words)
 2:17 #2 Japanese (380 polite words)
@@ -30,7 +30,7 @@ Korean: "안녕하십니까.ogg" by HappyMidnight, CC BY-SA 4.0, via Wikimedia C
 Thai: "WIKITONGUES- Tao speaking Thai.webm" by Wikitongues, Teddy Nee, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Tao_speaking_Thai.webm
 Burmese: "Mya-မင်္ဂလာပါ.wav" by Eren maker 2009, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AMya-%E1%80%99%E1%80%84%E1%80%BA%E1%80%B9%E1%80%82%E1%80%9C%E1%80%AC%E1%80%95%E1%80%AB.wav
 Vietnamese: "LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-dạ.wav" by Jessica Nguyen (Pamputt) (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-d%E1%BA%A1.wav
-English: "LL-Q1860 (eng)-Flame, not lame-Your Majesty.wav" by Flame, not lame (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q1860_%28eng%29-Flame%2C_not_lame-Your_Majesty.wav
+English: "En-uk-please.ogg" by Association Shtooka, Judith Franck, CC BY 3.0 US, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AEn-uk-please.ogg
 Indonesian: "LL-Q9240 (ind)-Xbypass-terima kasih.wav" by Xbypass (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9240_%28ind%29-Xbypass-terima_kasih.wav
 Tamil: "Vanakkam Greeting.ogg" by Tkonline19, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AVanakkam_Greeting.ogg
 

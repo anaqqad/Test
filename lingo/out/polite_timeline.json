@@ -17,46 +17,46 @@
  {
   "name": "eng",
   "start": 37.38,
-  "dur": 16.62
+  "dur": 16.1
  },
  {
   "name": "vie",
-  "start": 54,
+  "start": 53.48,
   "dur": 15.78
  },
  {
   "name": "mya",
-  "start": 69.78,
+  "start": 69.26,
   "dur": 16.58
  },
  {
   "name": "tha",
-  "start": 86.36,
+  "start": 85.84,
   "dur": 17.2
  },
  {
   "name": "kor",
-  "start": 103.56,
+  "start": 103.04,
   "dur": 16.08
  },
  {
   "name": "jav",
-  "start": 119.64,
+  "start": 119.12,
   "dur": 18
  },
  {
   "name": "jpn",
-  "start": 137.64,
+  "start": 137.12,
   "dur": 17.3
  },
  {
   "name": "zho",
-  "start": 154.94,
+  "start": 154.42,
   "dur": 16.78
  },
  {
   "name": "outro",
-  "start": 171.72,
+  "start": 171.2,
   "dur": 7
  }
 ]

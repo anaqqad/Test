@@ -16,15 +16,14 @@
       "count": 659,
       "wojak": "p_zho",
       "scene": "hongkong",
-      "word": "您贵姓?",
-      "roman": "nín guìxìng?",
-      "lit": "your precious surname?",
-      "rec": "File:LL-Q9192 (cmn)-Luilui6666-生词C、您贵姓?.wav",
+      "word": "您",
+      "roman": "nín",
+      "lit": "you (politely)",
+      "rec": "File:LL-Q9192 (cmn)-Luilui6666-您.wav",
       "cards": [
         "Chinese has a polite 'you': 您 (nín) instead of 你 (nǐ). And to ask a stranger's name, you ask for their 'precious surname'.",
         "The humble side counts too: traditionally your own home is 'my cold hut' (寒舍) and your own work 'my clumsy work' (拙作)."
-      ],
-      "cut_start": 0.66
+      ]
     },
     {
       "key": "jpn",
@@ -33,10 +32,10 @@
       "count": 380,
       "wojak": "p_jpn",
       "scene": "caucasus",
-      "word": "おはようございます",
-      "roman": "ohayō gozaimasu",
-      "lit": "it is early (politely)",
-      "rec": "File:LL-Q5287 (jpn)-Fukujinzuke-おはようございます.wav",
+      "word": "すみません",
+      "roman": "sumimasen",
+      "lit": "excuse me (politely)",
+      "rec": "File:LL-Q5287 (jpn)-Fukujinzuke-すみません.wav",
       "cards": [
         "Japanese politeness has three layers: polite words, honorific words that raise others, and humble words that lower yourself.",
         "Even 'to be' changes: iru with friends, irassharu for someone you respect, and oru for yourself when being humble."
@@ -84,13 +83,13 @@
       "count": 125,
       "wojak": "p_tha",
       "scene": "andaman",
-      "word": "สวัสดีครับ",
-      "roman": "sawatdee khrap",
-      "lit": "hello (politely, said by a man)",
+      "word": "ครับ",
+      "roman": "khrap",
+      "lit": "polite ending (said by a man)",
       "local": {
         "file": "cache/polite/src/thai_tao.webm",
-        "start": 0.55,
-        "end": 1.75
+        "start": 1.31,
+        "end": 1.58
       },
       "credit": {
         "title": "File:WIKITONGUES- Tao speaking Thai.webm",
@@ -147,13 +146,17 @@
       "count": 45,
       "wojak": "p_eng",
       "scene": "village",
-      "word": "Your Majesty",
-      "lit": "your greatness",
-      "rec": "File:LL-Q1860 (eng)-Flame, not lame-Your Majesty.wav",
+      "word": "please",
+      "lit": "if it pleases you",
+      "rec": "File:En-uk-please.ogg",
       "cards": [
         "English lost its polite 'you'. 'Thou' was the friendly one and 'you' the polite one, until everyone became 'you'.",
-        "What is left are titles and set phrases: sir, madam, Your Honour, Your Majesty, and of course 'please'."
-      ]
+        "English is polite with phrases, not special words: 'could you possibly…', 'would you mind…'. 'Please' itself is short for 'if it please you'."
+      ],
+      "credit": {
+        "artist": "Association Shtooka, Judith Franck",
+        "license": "CC BY 3.0 US"
+      }
     },
     {
       "key": "ind",
@@ -162,13 +165,14 @@
       "count": 43,
       "wojak": "p_ind",
       "scene": "hawaii",
-      "word": "terima kasih",
-      "lit": "receive affection",
-      "rec": "File:LL-Q9240 (ind)-Xbypass-terima kasih.wav",
+      "word": "Bapak",
+      "lit": "father (sir)",
+      "rec": "File:LL-Q9240 (ind)-Xbypass-bapak.wav",
       "cards": [
         "'Terima kasih', thank you, literally means 'receive affection': you thank someone by accepting what they gave.",
         "Indonesians use family titles with everyone: Bapak (father) for any older man, Ibu (mother) for any older woman, even in shops and offices."
-      ]
+      ],
+      "voice": "female"
     },
     {
       "key": "tam",
