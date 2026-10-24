@@ -1,14 +1,15 @@
 # Audio for "Ranking the World's Most Vulgar Languages": python3 fetch_vulgar.py
 # One Lingua Libre recording per language (vulgar.json "rec"), trimmed and loudness-matched, with the speaker's pitch
 # (to pick a Wojak of the right gender). Writes cache/audio/vulgar/<key>.wav, manifest.json and out/vulgar_credits.txt.
-import json, os
+import json, os, sys, urllib.parse
 import numpy as np, parselmouth
 import fetch_audio as fa
 import fetch_pairs as fp
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-D = json.load(open(os.path.join(HERE, "vulgar.json")))
-OUT = os.path.join(HERE, "cache", "audio", "vulgar")
+SET = sys.argv[1] if len(sys.argv) > 1 else "vulgar"  # vulgar (default) or polite
+D = json.load(open(os.path.join(HERE, SET + ".json")))
+OUT = os.path.join(HERE, "cache", "audio", SET)
 os.makedirs(OUT, exist_ok=True)
 man, credits = {}, []
 for it in D["items"]:
@@ -25,6 +26,10 @@ for it in D["items"]:
                 PiperVoice.load(os.path.join(HERE, "cache", "voices", it["tts"] + ".onnx")).synthesize_wav(it.get("tts_text", it["word"]), w, SynthesisConfig(length_scale=1.0))
         fa.to_wav(raw, dst, extra="silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,loudnorm=I=-18:TP=-2")
         m = {"title": "AI voice", "artist": "Piper TTS voice " + it["tts"], "license": "MIT", "page": "https://github.com/rhasspy/piper"}
+    elif it.get("local"):  # a stretch of a local video (e.g. a Wikitongues greeting), credited in the data file
+        L = it["local"]
+        fa.to_wav(os.path.join(HERE, L["file"]), dst, L["start"], L["end"] - L["start"], extra="afade=t=in:d=0.03,afade=t=out:st=" + str(round(L["end"] - L["start"] - 0.08, 2)) + ":d=0.08")
+        m = dict(it["credit"]); m["page"] = "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(m["title"].replace(" ", "_"))
     elif it.get("rec"):
         m = fp.clip(it["rec"], dst)
         if m and it.get("credit"):  # a plain Commons file (not Lingua Libre): credit given in vulgar.json
@@ -33,6 +38,8 @@ for it in D["items"]:
         m = None
     if not m:
         man[it["key"]] = None; print(it["key"], "no recording"); continue
+    if it.get("cut_start"):  # drop words before the one we want (e.g. a textbook label read first)
+        fa.to_wav(dst, dst + ".c.wav", it["cut_start"]); os.replace(dst + ".c.wav", dst)
     # punch: compress and lift the word so it lands harder than the rest of the mix
     import re, subprocess
     # loudnorm misjudges half-second clips, so normalise by peak instead: every word peaks at -1 dB, then compress
@@ -44,8 +51,8 @@ for it in D["items"]:
     print("   ", re.search(r"mean_volume: (-?[\d.]+) dB", r.stderr).group(0), re.search(r"max_volume: (-?[\d.]+) dB", r.stderr).group(0))
     p = parselmouth.Sound(dst).to_pitch(pitch_floor=60, pitch_ceiling=400).selected_array["frequency"]; p = p[p > 0]
     f0 = int(np.median(p)) if len(p) else 0
-    man[it["key"]] = {"d": round(fa.duration(dst), 2), "f0": f0, "voice": "female" if f0 > 165 else "male", "ai": not it.get("rec"), "credit": m}
-    if it.get("rec"): credits.append(f"{it['name']}: \"{m['title'][5:]}\" by {m['artist']}, {m['license']}, via Wikimedia Commons, {m['page']}")
+    man[it["key"]] = {"d": round(fa.duration(dst), 2), "f0": f0, "voice": it.get("voice") or ("female" if f0 > 165 else "male"), "ai": not (it.get("rec") or it.get("local")), "credit": m}
+    if it.get("rec") or it.get("local"): credits.append(f"{it['name']}: \"{m['title'][5:]}\" by {m['artist']}, {m['license']}, via Wikimedia Commons, {m['page']}")
     print(it["key"], man[it["key"]]["d"], "s, F0", f0, man[it["key"]]["voice"], flush=True)
 json.dump(man, open(os.path.join(OUT, "manifest.json"), "w"), indent=1, ensure_ascii=False)
-open(os.path.join(HERE, "out", "vulgar_credits.txt"), "w").write("Audio credits (Ranking the World's Most Vulgar Languages)\n\n" + "\n".join(credits) + "\n")
+open(os.path.join(HERE, "out", SET + "_credits.txt"), "w").write(f"Audio credits ({D['title']})\n\n" + "\n".join(credits) + "\n")
