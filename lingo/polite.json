@@ -1,8 +1,8 @@
 {
-  "_note": "Ranking the World's Most Polite Languages: words labelled polite, honorific, humble or royal, merged from four dictionaries (English Wiktionary for every language; Japanese Wiktionary keigo categories for Japanese, Korean, Chinese, Javanese, Tibetan, Vietnamese; Korean Wiktionary honorific/humble categories for Korean, Japanese, Thai, English; Thai Wiktionary royal vocabulary), counted 2026-10-24. Duplicates removed (Chinese traditional/simplified merged, Japanese kana/kanji spellings merged by reading), expressions removed (phrases, idioms, proverbs, set phrases, multi-word entries). Khmer (81) and Tibetan (48) would rank #8 and #9 but have no recording of a single polite word, so they are skipped.",
+  "_note": "Ranking the World's Most Polite Languages, recounted 2026-10-24 with the expanded database in polite_research/ (English Wiktionary for ~100 languages, 16 native Wiktionaries, JMdict, CC-CEDICT, Poedjosoedarmo's Javanese word list; one rule set, duplicates and expressions removed, see polite_research/README.md). Tibetan (52, would be #8) has no recording of a polite word on Commons, so it is skipped and Polish (#11, 44) takes #10. Vietnamese fell to 18.",
   "title": "Ranking the World's Most Polite Languages",
-  "subtitle": "BY THE NUMBER OF POLITE WORDS IN THE DICTIONARY",
-  "meter": "Polite words in the dictionary",
+  "subtitle": "BY THE NUMBER OF POLITE WORDS IN THE DICTIONARIES",
+  "meter": "Polite words in the dictionaries",
   "meter_unit": "POLITE, HONORIFIC, HUMBLE OR ROYAL",
   "word_label": "Signature polite word",
   "lit_label": "LITERALLY",
@@ -13,7 +13,7 @@
       "key": "zho",
       "name": "Chinese",
       "flag": "cn",
-      "count": 607,
+      "count": 818,
       "wojak": "p_zho",
       "scene": "hongkong",
       "word": "您",
@@ -29,7 +29,7 @@
       "key": "jpn",
       "name": "Japanese",
       "flag": "jp",
-      "count": 848,
+      "count": 1431,
       "wojak": "p_jpn",
       "scene": "caucasus",
       "word": "すみません",
@@ -45,7 +45,7 @@
       "key": "jav",
       "name": "Javanese",
       "flag": "id",
-      "count": 149,
+      "count": 916,
       "wojak": "p_jav",
       "scene": "forest",
       "word": "panjenengan",
@@ -53,14 +53,14 @@
       "rec": "File:LL-Q33549 (jav)-Dewinta88-panjenengan.wav",
       "cards": [
         "Javanese has separate vocabularies by social level: ngoko for friends, krama for elders and strangers, krama inggil for the deepest respect.",
-        "Even colours change: red is 'abang' to a friend but 'abrit' to your elders. And 'you' is 'kowé', but 'panjenengan' to someone you honour."
+        "Even colours change: red is 'abang' to a friend but 'abrit' to your elders. A scholarly list of these polite words has over 900 of them."
       ]
     },
     {
       "key": "kor",
       "name": "Korean",
       "flag": "kr",
-      "count": 262,
+      "count": 192,
       "wojak": "p_kor",
       "scene": "alps",
       "word": "안녕하십니까",
@@ -80,7 +80,7 @@
       "key": "tha",
       "name": "Thai",
       "flag": "th",
-      "count": 618,
+      "count": 670,
       "wojak": "p_tha",
       "scene": "andaman",
       "word": "ครับ",
@@ -106,7 +106,7 @@
       "key": "mya",
       "name": "Burmese",
       "flag": "mm",
-      "count": 116,
+      "count": 100,
       "wojak": "p_mya",
       "scene": "hills",
       "word": "မင်္ဂလာပါ",
@@ -124,26 +124,10 @@
       "voice": "male"
     },
     {
-      "key": "vie",
-      "name": "Vietnamese",
-      "flag": "vn",
-      "count": 90,
-      "wojak": "r_vie",
-      "scene": "grassland",
-      "word": "dạ",
-      "lit": "yes (respectfully)",
-      "rec": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-dạ.wav",
-      "cards": [
-        "Vietnamese has no neutral 'I' or 'you': speakers pick family words like older brother, aunt or grandfather, depending on age and respect.",
-        "Answering an elder with a bare 'yes' sounds rude. Children learn to say 'dạ', and to end their sentences with 'ạ' to show respect."
-      ],
-      "voice": "female"
-    },
-    {
       "key": "eng",
       "name": "English",
       "flag": "gb",
-      "count": 44,
+      "count": 86,
       "wojak": "p_eng",
       "scene": "village",
       "word": "please",
@@ -162,7 +146,7 @@
       "key": "ind",
       "name": "Indonesian",
       "flag": "id",
-      "count": 43,
+      "count": 50,
       "wojak": "p_ind",
       "scene": "hawaii",
       "word": "Bapak",
@@ -178,7 +162,7 @@
       "key": "msa",
       "name": "Malay",
       "flag": "my",
-      "count": 42,
+      "count": 49,
       "wojak": "p_msa",
       "scene": "andaman",
       "word": "tuanku",
@@ -187,6 +171,21 @@
       "cards": [
         "Malay has a royal vocabulary too: a king does not eat (makan) but 'santap', does not sleep (tidur) but 'beradu', and does not die (mati) but 'mangkat'.",
         "Even the everyday polite 'I', saya, comes from 'sahaya', an old word for servant."
+      ]
+    },
+    {
+      "key": "pol",
+      "name": "Polish",
+      "flag": "pl",
+      "count": 44,
+      "wojak": "r_pol_calm",
+      "scene": "grassland",
+      "word": "Pani",
+      "lit": "madam / you (politely, to a woman)",
+      "rec": "File:LL-Q809 (pol)-Gower-pani.wav",
+      "cards": [
+        "Polish has no polite 'you' pronoun. To a stranger you say Pan (sir) or Pani (madam) and talk to them in the third person: 'Does the lady want coffee?'",
+        "And 'proszę' does almost everything: please, here you go, you're welcome, and 'pardon?' when you didn't hear."
       ]
     }
   ]

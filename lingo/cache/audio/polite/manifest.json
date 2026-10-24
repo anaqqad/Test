@@ -81,20 +81,6 @@
    "page": "https://commons.wikimedia.org/wiki/File%3AMya-%E1%80%99%E1%80%84%E1%80%BA%E1%80%B9%E1%80%82%E1%80%9C%E1%80%AC%E1%80%95%E1%80%AB.wav"
   }
  },
- "vie": {
-  "d": 0.49,
-  "f0": 158,
-  "voice": "female",
-  "ai": false,
-  "credit": {
-   "title": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-dạ.wav",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-d%E1%BA%A1.wav/LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-d%E1%BA%A1.wav.mp3",
-   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/0/0b/LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-d%E1%BA%A1.wav",
-   "artist": "Jessica Nguyen (Pamputt) (Lingua Libre)",
-   "license": "CC BY-SA 4.0",
-   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-d%E1%BA%A1.wav"
-  }
- },
  "eng": {
   "d": 0.65,
   "f0": 201,
@@ -135,6 +121,20 @@
    "artist": "GinormousBuildings (Lingua Libre)",
    "license": "CC BY-SA 4.0",
    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9237_%28msa%29-GinormousBuildings-tuanku.wav"
+  }
+ },
+ "pol": {
+  "d": 0.4,
+  "f0": 127,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q809 (pol)-Gower-pani.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/LL-Q809_%28pol%29-Gower-pani.wav/LL-Q809_%28pol%29-Gower-pani.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/2/24/LL-Q809_%28pol%29-Gower-pani.wav",
+   "artist": "Gower (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q809_%28pol%29-Gower-pani.wav"
   }
  }
 }
