@@ -123,18 +123,18 @@
    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9240_%28ind%29-Xbypass-bapak.wav"
   }
  },
- "tam": {
-  "d": 0.58,
-  "f0": 220,
-  "voice": "female",
+ "msa": {
+  "d": 0.42,
+  "f0": 108,
+  "voice": "male",
   "ai": false,
   "credit": {
-   "title": "File:Vanakkam Greeting.ogg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Vanakkam_Greeting.ogg/Vanakkam_Greeting.ogg.mp3",
-   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Vanakkam_Greeting.ogg",
-   "artist": "Tkonline19",
+   "title": "File:LL-Q9237 (msa)-GinormousBuildings-tuanku.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/LL-Q9237_%28msa%29-GinormousBuildings-tuanku.wav/LL-Q9237_%28msa%29-GinormousBuildings-tuanku.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/1/14/LL-Q9237_%28msa%29-GinormousBuildings-tuanku.wav",
+   "artist": "GinormousBuildings (Lingua Libre)",
    "license": "CC BY-SA 4.0",
-   "page": "https://commons.wikimedia.org/wiki/File%3AVanakkam_Greeting.ogg"
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9237_%28msa%29-GinormousBuildings-tuanku.wav"
   }
  }
 }

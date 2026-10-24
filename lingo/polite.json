@@ -1,9 +1,9 @@
 {
-  "_note": "Ranking the World's Most Polite Languages: ranked by the number of words the English Wiktionary labels polite, honorific or humble (Category:<Language> polite terms + honorific terms + humble terms; Thai also royal terms), counted 2026-10-24. Tibetan (48) would be #8 but no recording of a Tibetan polite word exists on Commons, so it is skipped and named in the description. One signature polite word per language, a real recording.",
+  "_note": "Ranking the World's Most Polite Languages: words labelled polite, honorific, humble or royal, merged from four dictionaries (English Wiktionary for every language; Japanese Wiktionary keigo categories for Japanese, Korean, Chinese, Javanese, Tibetan, Vietnamese; Korean Wiktionary honorific/humble categories for Korean, Japanese, Thai, English; Thai Wiktionary royal vocabulary), counted 2026-10-24. Duplicates removed (Chinese traditional/simplified merged, Japanese kana/kanji spellings merged by reading), expressions removed (phrases, idioms, proverbs, set phrases, multi-word entries). Khmer (81) and Tibetan (48) would rank #8 and #9 but have no recording of a single polite word, so they are skipped.",
   "title": "Ranking the World's Most Polite Languages",
   "subtitle": "BY THE NUMBER OF POLITE WORDS IN THE DICTIONARY",
   "meter": "Polite words in the dictionary",
-  "meter_unit": "POLITE, HONORIFIC OR HUMBLE",
+  "meter_unit": "POLITE, HONORIFIC, HUMBLE OR ROYAL",
   "word_label": "Signature polite word",
   "lit_label": "LITERALLY",
   "outro": "Which language is the most polite?",
@@ -13,7 +13,7 @@
       "key": "zho",
       "name": "Chinese",
       "flag": "cn",
-      "count": 659,
+      "count": 607,
       "wojak": "p_zho",
       "scene": "hongkong",
       "word": "您",
@@ -29,7 +29,7 @@
       "key": "jpn",
       "name": "Japanese",
       "flag": "jp",
-      "count": 380,
+      "count": 848,
       "wojak": "p_jpn",
       "scene": "caucasus",
       "word": "すみません",
@@ -45,7 +45,7 @@
       "key": "jav",
       "name": "Javanese",
       "flag": "id",
-      "count": 178,
+      "count": 149,
       "wojak": "p_jav",
       "scene": "forest",
       "word": "panjenengan",
@@ -60,7 +60,7 @@
       "key": "kor",
       "name": "Korean",
       "flag": "kr",
-      "count": 141,
+      "count": 262,
       "wojak": "p_kor",
       "scene": "alps",
       "word": "안녕하십니까",
@@ -80,7 +80,7 @@
       "key": "tha",
       "name": "Thai",
       "flag": "th",
-      "count": 125,
+      "count": 618,
       "wojak": "p_tha",
       "scene": "andaman",
       "word": "ครับ",
@@ -98,7 +98,7 @@
       },
       "cards": [
         "Thai ends polite sentences with a little word that depends on who is talking: 'khrap' if you are a man, 'kha' if you are a woman.",
-        "Thai also has a royal vocabulary, rachasap: special words used only for the king and the royal family. 89 of them are in the count."
+        "Thai has a whole royal vocabulary, rachasap: special words used only for the king and the royal family. Most of its count comes from them."
       ],
       "voice": "male"
     },
@@ -106,7 +106,7 @@
       "key": "mya",
       "name": "Burmese",
       "flag": "mm",
-      "count": 114,
+      "count": 116,
       "wojak": "p_mya",
       "scene": "hills",
       "word": "မင်္ဂလာပါ",
@@ -127,7 +127,7 @@
       "key": "vie",
       "name": "Vietnamese",
       "flag": "vn",
-      "count": 88,
+      "count": 90,
       "wojak": "r_vie",
       "scene": "grassland",
       "word": "dạ",
@@ -143,7 +143,7 @@
       "key": "eng",
       "name": "English",
       "flag": "gb",
-      "count": 45,
+      "count": 44,
       "wojak": "p_eng",
       "scene": "village",
       "word": "please",
@@ -175,23 +175,18 @@
       "voice": "female"
     },
     {
-      "key": "tam",
-      "name": "Tamil",
-      "flag": "in",
-      "count": 33,
-      "wojak": "p_tam",
-      "scene": "bougainville",
-      "word": "வணக்கம்",
-      "roman": "vaṇakkam",
-      "lit": "a bow of respect",
-      "rec": "File:Vanakkam Greeting.ogg",
-      "credit": {
-        "artist": "Tkonline19",
-        "license": "CC BY-SA 4.0"
-      },
+      "key": "msa",
+      "name": "Malay",
+      "flag": "my",
+      "count": 42,
+      "wojak": "p_msa",
+      "scene": "andaman",
+      "word": "tuanku",
+      "lit": "my lord",
+      "rec": "File:LL-Q9237 (msa)-GinormousBuildings-tuanku.wav",
       "cards": [
-        "Vanakkam comes from a word for bowing: you greet someone by showing reverence, usually with your palms joined.",
-        "Tamil has a respectful form for one person: you call someone you honour 'avar', a respectful 'he', instead of the plain 'avan'."
+        "Malay has a royal vocabulary too: a king does not eat (makan) but 'santap', does not sleep (tidur) but 'beradu', and does not die (mati) but 'mangkat'.",
+        "Even the everyday polite 'I', saya, comes from 'sahaya', an old word for servant."
       ]
     }
   ]

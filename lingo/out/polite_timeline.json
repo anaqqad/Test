@@ -5,58 +5,58 @@
   "dur": 5
  },
  {
-  "name": "tam",
+  "name": "msa",
   "start": 5,
-  "dur": 15.96
+  "dur": 15.64
  },
  {
   "name": "ind",
-  "start": 20.96,
-  "dur": 16.42
+  "start": 20.64,
+  "dur": 15.72
  },
  {
   "name": "eng",
-  "start": 37.38,
+  "start": 36.36,
   "dur": 16.1
  },
  {
   "name": "vie",
-  "start": 53.48,
+  "start": 52.46,
   "dur": 15.78
  },
  {
   "name": "mya",
-  "start": 69.26,
+  "start": 68.24,
   "dur": 16.58
  },
  {
-  "name": "tha",
-  "start": 85.84,
-  "dur": 17.2
- },
- {
-  "name": "kor",
-  "start": 103.04,
-  "dur": 16.08
- },
- {
   "name": "jav",
-  "start": 119.12,
+  "start": 84.82,
   "dur": 18
  },
  {
-  "name": "jpn",
-  "start": 137.12,
-  "dur": 17.3
+  "name": "kor",
+  "start": 102.82,
+  "dur": 16.08
  },
  {
   "name": "zho",
-  "start": 154.42,
-  "dur": 16.78
+  "start": 118.9,
+  "dur": 15.64
+ },
+ {
+  "name": "tha",
+  "start": 134.54,
+  "dur": 15.34
+ },
+ {
+  "name": "jpn",
+  "start": 149.88,
+  "dur": 16.2
  },
  {
   "name": "outro",
-  "start": 171.2,
+  "start": 166.08,
   "dur": 7
  }
 ]

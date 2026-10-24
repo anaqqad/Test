@@ -9,4 +9,4 @@ Burmese: "Mya-မင်္ဂလာပါ.wav" by Eren maker 2009, CC BY-SA 4.0,
 Vietnamese: "LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-dạ.wav" by Jessica Nguyen (Pamputt) (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-d%E1%BA%A1.wav
 English: "En-uk-please.ogg" by Association Shtooka, Judith Franck, CC BY 3.0 US, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AEn-uk-please.ogg
 Indonesian: "LL-Q9240 (ind)-Xbypass-bapak.wav" by Xbypass (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9240_%28ind%29-Xbypass-bapak.wav
-Tamil: "Vanakkam Greeting.ogg" by Tkonline19, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3AVanakkam_Greeting.ogg
+Malay: "LL-Q9237 (msa)-GinormousBuildings-tuanku.wav" by GinormousBuildings (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9237_%28msa%29-GinormousBuildings-tuanku.wav
