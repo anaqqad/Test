@@ -13,24 +13,24 @@ Poedjosoedarmo's Javanese list), one rule set for every language, spelling varia
 | 5 | Korean | 192 | 171 | 4 | 262 | partial | 42% |
 | 6 | Burmese | 100 | 97 | 6 | 116 | partial | 90% |
 | 7 | English | 86 | 86 | 10 | 44 | partial | 67% |
-| 8 | Tibetan | 52 | 38 | 9 | 48 | partial | 88% |
-| 9 | Indonesian | 50 | 50 | 11 | 43 | partial | 80% |
-| 10 | Malay | 49 | 49 | 12 | 42 | partial | 47% |
-| 11 | Polish | 44 | 44 | - | - | partial | 64% |
-| 12 | French | 38 | 38 | - | - | partial | 47% |
-| 13 | German | 37 | 37 | - | - | partial | 43% |
-| 14 | Tamil | 35 | 35 | - | - | partial | 94% |
-| 15 | Finnish | 33 | 33 | - | - | partial | 100% |
-| 16 | Portuguese | 32 | 32 | - | - | partial | 78% |
-| 17 | Spanish | 32 | 32 | - | - | partial | 53% |
-| 18 | Italian | 30 | 30 | - | - | partial | 70% |
-| 19 | Khmer | 30 | 29 | 8 | 81 | partial | 83% |
-| 20 | Persian | 30 | 30 | - | - | partial | 83% |
-| 21 | Russian | 30 | 30 | - | - | partial | 43% |
-| 22 | Swedish | 30 | 30 | - | - | partial | 53% |
-| 23 | Bengali | 28 | 28 | - | - | partial | 93% |
-| 24 | Turkish | 27 | 27 | - | - | partial | 93% |
-| 25 | Tagalog | 26 | 26 | - | - | partial | 77% |
+| 8 | Vietnamese | 83 | 83 | 7 | 90 | partial | 76% |
+| 9 | Tibetan | 52 | 38 | 9 | 48 | partial | 88% |
+| 10 | Indonesian | 50 | 50 | 11 | 43 | partial | 80% |
+| 11 | Malay | 49 | 49 | 12 | 42 | partial | 47% |
+| 12 | Polish | 44 | 44 | - | - | partial | 64% |
+| 13 | French | 38 | 38 | - | - | partial | 47% |
+| 14 | German | 37 | 37 | - | - | partial | 43% |
+| 15 | Tamil | 35 | 35 | - | - | partial | 94% |
+| 16 | Finnish | 33 | 33 | - | - | partial | 100% |
+| 17 | Portuguese | 32 | 32 | - | - | partial | 78% |
+| 18 | Spanish | 32 | 32 | - | - | partial | 53% |
+| 19 | Italian | 30 | 30 | - | - | partial | 70% |
+| 20 | Khmer | 30 | 29 | 8 | 81 | partial | 83% |
+| 21 | Persian | 30 | 30 | - | - | partial | 83% |
+| 22 | Russian | 30 | 30 | - | - | partial | 43% |
+| 23 | Swedish | 30 | 30 | - | - | partial | 53% |
+| 24 | Bengali | 28 | 28 | - | - | partial | 93% |
+| 25 | Turkish | 27 | 27 | - | - | partial | 93% |
 
 ## Languages in the preliminary top list
 
@@ -40,9 +40,9 @@ Poedjosoedarmo's Javanese list), one rule set for every language, spelling varia
 - **Korean**: 262 → 192 (-70); rank 4 → 5. Sources: English Wiktionary (kaikki.org wiktextract) (120); ja Wiktionary (kaikki.org wiktextract) (52); ko Wiktionary (kaikki.org wiktextract) (43); zh Wiktionary (kaikki.org wiktextract) (33); fr Wiktionary (kaikki.org wiktextract) (18); pl Wiktionary (kaikki.org wiktextract) (6).
 - **Javanese**: 149 → 916 (+767); rank 5 → 2. Sources: Poedjosoedarmo 1969 (Cornell) (808); English Wiktionary (kaikki.org wiktextract) (122); ja Wiktionary (kaikki.org wiktextract) (3); zh Wiktionary (kaikki.org wiktextract) (3); tr Wiktionary (kaikki.org wiktextract) (1); pl Wiktionary (kaikki.org wiktextract) (1).
 - **Burmese**: 116 → 100 (-16); rank 6 → 6. Sources: English Wiktionary (kaikki.org wiktextract) (99); zh Wiktionary (kaikki.org wiktextract) (5); ms Wiktionary (kaikki.org wiktextract) (2); vi Wiktionary (kaikki.org wiktextract) (2); fr Wiktionary (kaikki.org wiktextract) (1).
-- **Vietnamese**: 90 → 18 (-72); rank 7 → 38. Sources: English Wiktionary (kaikki.org wiktextract) (13); zh Wiktionary (kaikki.org wiktextract) (5); vi Wiktionary (kaikki.org wiktextract) (2); ja Wiktionary (kaikki.org wiktextract) (1).
-- **Khmer**: 81 → 30 (-51); rank 8 → 19. Sources: English Wiktionary (kaikki.org wiktextract) (28); vi Wiktionary (kaikki.org wiktextract) (2); zh Wiktionary (kaikki.org wiktextract) (2); th Wiktionary (kaikki.org wiktextract) (1).
-- **Tibetan**: 48 → 52 (+4); rank 9 → 8. Sources: English Wiktionary (kaikki.org wiktextract) (52); ja Wiktionary (kaikki.org wiktextract) (5); th Wiktionary (kaikki.org wiktextract) (3); pl Wiktionary (kaikki.org wiktextract) (1).
+- **Vietnamese**: 90 → 83 (-7); rank 7 → 8. Sources: English Wiktionary (kaikki.org wiktextract) (72); zh Wiktionary (kaikki.org wiktextract) (10); vi Wiktionary (kaikki.org wiktextract) (7); ja Wiktionary (kaikki.org wiktextract) (4).
+- **Khmer**: 81 → 30 (-51); rank 8 → 20. Sources: English Wiktionary (kaikki.org wiktextract) (28); vi Wiktionary (kaikki.org wiktextract) (2); zh Wiktionary (kaikki.org wiktextract) (2); th Wiktionary (kaikki.org wiktextract) (1).
+- **Tibetan**: 48 → 52 (+4); rank 9 → 9. Sources: English Wiktionary (kaikki.org wiktextract) (52); ja Wiktionary (kaikki.org wiktextract) (5); th Wiktionary (kaikki.org wiktextract) (3); pl Wiktionary (kaikki.org wiktextract) (1).
 - **English**: 44 → 86 (+42); rank 10 → 7. Sources: English Wiktionary (kaikki.org wiktextract) (67); zh Wiktionary (kaikki.org wiktextract) (10); ja Wiktionary (kaikki.org wiktextract) (9); ru Wiktionary (kaikki.org wiktextract) (5); pl Wiktionary (kaikki.org wiktextract) (4); fr Wiktionary (kaikki.org wiktextract) (4); th Wiktionary (kaikki.org wiktextract) (2); ms Wiktionary (kaikki.org wiktextract) (1).
-- **Indonesian**: 43 → 50 (+7); rank 11 → 9. Sources: English Wiktionary (kaikki.org wiktextract) (40); id Wiktionary (kaikki.org wiktextract) (9); ms Wiktionary (kaikki.org wiktextract) (1).
-- **Malay**: 42 → 49 (+7); rank 12 → 10. Sources: English Wiktionary (kaikki.org wiktextract) (30); ms Wiktionary (kaikki.org wiktextract) (14); zh Wiktionary (kaikki.org wiktextract) (12); ru Wiktionary (kaikki.org wiktextract) (1).
+- **Indonesian**: 43 → 50 (+7); rank 11 → 10. Sources: English Wiktionary (kaikki.org wiktextract) (40); id Wiktionary (kaikki.org wiktextract) (9); ms Wiktionary (kaikki.org wiktextract) (1).
+- **Malay**: 42 → 49 (+7); rank 12 → 11. Sources: English Wiktionary (kaikki.org wiktextract) (30); ms Wiktionary (kaikki.org wiktextract) (14); zh Wiktionary (kaikki.org wiktextract) (12); ru Wiktionary (kaikki.org wiktextract) (1).

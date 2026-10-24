@@ -7,7 +7,13 @@ import json, glob, os, re, csv, collections, unicodedata
 import opencc, pykakasi, hanja
 
 HERE = os.path.dirname(os.path.abspath(__file__)); os.chdir(HERE)
-os.makedirs("out", exist_ok=True)
+# TERMS=1: also count multiword terms (set phrases, expressions, idioms with a politeness label); proverbs stay out
+TERMS = os.environ.get("TERMS") == "1"
+OUT = "out_terms" if TERMS else "out"
+os.makedirs(OUT, exist_ok=True)
+MULTI = re.compile(r"multiword|part of speech '(phrase|idiom|prep_phrase|adv_phrase)'|expression \(multiword\)|idiom/saying|five or more characters|idiom/four-character")
+def multi_ok(reason):
+    return TERMS and bool(reason) and bool(MULTI.search(reason)) and "proverb" not in reason
 ACCESSED = "2026-10-24"
 t2s = opencc.OpenCC("t2s"); kks = pykakasi.kakasi()
 CODE2LANG = {"ja": "Japanese", "ko": "Korean", "zh": "Chinese", "cmn": "Chinese", "th": "Thai", "vi": "Vietnamese", "id": "Indonesian",
@@ -16,7 +22,8 @@ CODE2LANG = {"ja": "Japanese", "ko": "Korean", "zh": "Chinese", "cmn": "Chinese"
              "ru": "Russian", "tr": "Turkish", "hi": "Hindi", "fa": "Persian", "ur": "Urdu", "bn": "Bengali", "nl": "Dutch", "sv": "Swedish",
              "pl": "Polish", "ta": "Tamil", "tl": "Tagalog", "ne": "Nepali", "si": "Sinhalese", "mn": "Mongolian", "ml": "Malayalam",
              "te": "Telugu", "kn": "Kannada", "mr": "Marathi"}
-UNSPACED = {"Japanese", "Chinese", "Thai", "Lao", "Khmer", "Burmese", "Tibetan", "Dzongkha"}
+SYLLABLE_SPACED = {"Vietnamese"}
+UNSPACED = {"Vietnamese", "Japanese", "Chinese", "Thai", "Lao", "Khmer", "Burmese", "Tibetan", "Dzongkha"}
 EXCL_POS = {"phrase", "proverb", "idiom", "prefix", "suffix", "infix", "affix", "interfix", "circumfix", "character", "symbol", "romanization",
             "punct", "combining_form", "name", "syllable", "contraction", "abbrev", "abbreviation", "prep_phrase", "adv_phrase", "counter", "num"}
 BAD_TAGS = {"slang": "slang", "Internet": "Internet/nonstandard", "nonstandard": "Internet/nonstandard", "misspelling": "misspelling",
@@ -87,7 +94,10 @@ def category(lang, fn, tags, labels, gloss, pos):
 
 def judge_en(d):
     """English-Wiktionary candidate sense -> (function, None) if accepted, or (None, reason)."""
-    if d.get("exclusion"): return None, d["exclusion"]
+    # Vietnamese writes a space between syllables, so a space does not mark a multiword expression there
+    if d.get("exclusion") == "multiword expression" and d["lang"] in SYLLABLE_SPACED: d = {**d, "exclusion": None}
+    if d.get("exclusion") and not multi_ok(d["exclusion"]): return None, d["exclusion"]
+    if TERMS and d.get("form_of"): return None, "inflected/alternative form"
     if d["lang"] == "Vietnamese" and re.search(r"[\u4e00-\u9fff\U00020000-\U0002ffff]", d["word"]):
         return None, "Han-Nom (chữ Hán/Nôm) spelling of a Vietnamese word, not a separate lemma"
     w, pos, gl, tags = d["word"], d["pos"], d["gloss"], d["tags"]
@@ -121,7 +131,7 @@ def judge_en(d):
     for fn in ("request", "gratitude", "apology"):
         if fn in funcs:
             if pos == "verb" and ("modal" in tags or "auxiliary" in tags): return None, "general modal/auxiliary verb (polite request is one use)"
-            ok = (pos in ("intj", "particle") and FUNC_INTJ.search(gl)) or (pos == "verb" and FUNC_VERB.search(gl)) or \
+            ok = (pos in ("intj", "particle", "phrase") and FUNC_INTJ.search(gl)) or (pos == "verb" and FUNC_VERB.search(gl)) or \
                  (pos == "noun" and FUNC_NOUN.search(gl)) or (pos == "adv" and FUNC_ADV.search(gl))
             if ok: return fn, None
     if re.search(r"brothel|procur(ess|er)|bordello", gl, re.I): return None, "not a title of respect (brothel 'madam')"
@@ -138,10 +148,10 @@ def judge_ed(d):
     lang = CODE2LANG.get(d["lang_code"])
     if not lang: return None, None, "language outside scope"
     if d.get("form_of"): return lang, None, "inflected/alternative form"
-    if d.get("pos") in EXCL_POS: return lang, None, f"part of speech '{d['pos']}' (not a standalone word)"
+    if d.get("pos") in EXCL_POS and not (TERMS and d.get("pos") in ("phrase", "idiom", "prep_phrase", "adv_phrase")): return lang, None, f"part of speech '{d['pos']}' (not a standalone word)"
     w = d["word"] or ""
     if lang == "Vietnamese" and re.search(r"[\u4e00-\u9fff\U00020000-\U0002ffff]", w): return lang, None, "Han-Nom (chữ Hán/Nôm) spelling of a Vietnamese word, not a separate lemma"
-    if lang not in UNSPACED and " " in w.strip(): return lang, None, "multiword expression"
+    if lang not in UNSPACED and " " in w.strip() and not TERMS: return lang, None, "multiword expression"
     if ":" in w or "/" in w: return lang, None, "not a word page"
     for t in d.get("tags", []):
         if t in BAD_TAGS: return lang, None, BAD_TAGS[t]
@@ -163,7 +173,7 @@ ED_LANG = {"ja": "Japanese", "ko": "Korean", "zh": "Chinese", "th": "Thai", "vi"
            "pt": "Portuguese", "tr": "Turkish", "pl": "Polish", "es": "Spanish", "nl": "Dutch", "ru": "Russian", "de": "German", "fr": "French"}
 
 def judge_dict(d):
-    if d.get("exclusion"): return None, d["exclusion"]
+    if d.get("exclusion") and not (multi_ok(d["exclusion"]) and d["source"] != "Poedjosoedarmo 1969 (Cornell)"): return None, d["exclusion"]
     g = d["gloss"]; misc = d.get("misc", [])
     if any(m in ("sl", "joc", "derog", "vulg", "net-sl", "male-sl", "rare") for m in misc) and not any(m in ("hon", "hum", "pol") for m in misc):
         return None, "slang/jocular/derogatory/rare (no politeness tag)"
@@ -264,10 +274,10 @@ for k, L in lemmas.items():
                  "date_accessed": ACCESSED, "audio_status": "not checked"})
 rows.sort(key=lambda r: (r["language"], r["primary_category"], r["lemma"]))
 F = list(rows[0].keys())
-with open("out/master.csv", "w", newline="") as fh:
+with open(OUT + "/master.csv", "w", newline="") as fh:
     w = csv.DictWriter(fh, F); w.writeheader(); w.writerows(rows)
 accepted_keys = {(r["language"], key_of(r["language"], r["lemma"])) for r in rows} | {(r["language"], key_of(r["language"], v)) for r in rows for v in r["variants_merged"].split(" | ") if v}
-with open("out/exclusions.csv", "w", newline="") as fh:
+with open(OUT + "/exclusions.csv", "w", newline="") as fh:
     w = csv.writer(fh); w.writerow(["language", "word", "part_of_speech", "reason", "gloss", "source", "url", "note"])
     seen = set()
     for e in excluded:
@@ -276,6 +286,6 @@ with open("out/exclusions.csv", "w", newline="") as fh:
         seen.add(k)
         note = "word is counted through another sense/source" if k[:2] in accepted_keys else ""
         w.writerow([e["language"], e["word"], e["pos"], e["reason"], e["gloss"][:150], e["source"], e["url"], note])
-json.dump(rows, open("out/lemmas.json", "w"), ensure_ascii=False)
+json.dump(rows, open(OUT + "/lemmas.json", "w"), ensure_ascii=False)
 c = collections.Counter(r["language"] for r in rows)
 print("lemmas:", len(rows)); print(c.most_common(40))

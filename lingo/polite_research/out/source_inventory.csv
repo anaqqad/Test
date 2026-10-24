@@ -1,10 +1,10 @@
 source,status,url,what was used / why not,licence,lemmas_supported
-English Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/dictionary/,"machine-readable extraction of en.wiktionary, dump of 2026-10; ~110 languages streamed",CC BY-SA 4.0 / GFDL,2370
-ja Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/jawiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,839
+English Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/dictionary/,"machine-readable extraction of en.wiktionary, dump of 2026-10; ~110 languages streamed",CC BY-SA 4.0 / GFDL,2429
+ja Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/jawiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,842
 ko Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/kowiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,74
-zh Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/zhwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,457
+zh Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/zhwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,462
 th Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/thwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,643
-vi Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/viwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,14
+vi Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/viwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,19
 id Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/idwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,11
 ms Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/mswiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,21
 it Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/itwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,1
