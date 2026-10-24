@@ -1,0 +1,968 @@
+{
+ "fps": 30,
+ "durationInFrames": 1904,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 170,
+ "wpm": 160.7,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.229,
+   "words": [
+    {
+     "text": "They",
+     "start": 0.0,
+     "end": 0.174
+    },
+    {
+     "text": "didn't",
+     "start": 0.197,
+     "end": 0.406
+    },
+    {
+     "text": "believe",
+     "start": 0.441,
+     "end": 0.731
+    },
+    {
+     "text": "she",
+     "start": 0.755,
+     "end": 0.848
+    },
+    {
+     "text": "wrote",
+     "start": 0.894,
+     "end": 1.08
+    },
+    {
+     "text": "her",
+     "start": 1.103,
+     "end": 1.184
+    },
+    {
+     "text": "own",
+     "start": 1.231,
+     "end": 1.335
+    },
+    {
+     "text": "poems.",
+     "start": 1.382,
+     "end": 2.229
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 79
+  },
+  {
+   "id": "name",
+   "speechEnd": 4.076,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.729,
+     "end": 2.973
+    },
+    {
+     "text": "Phillis",
+     "start": 3.019,
+     "end": 3.275
+    },
+    {
+     "text": "Wheatley.",
+     "start": 3.333,
+     "end": 4.076
+    }
+   ],
+   "cues": {},
+   "startFrame": 79,
+   "endFrame": 134
+  },
+  {
+   "id": "taken",
+   "speechEnd": 11.124,
+   "words": [
+    {
+     "text": "Around",
+     "start": 4.576,
+     "end": 4.878
+    },
+    {
+     "text": "1761,",
+     "start": 4.924,
+     "end": 5.946
+    },
+    {
+     "text": "a",
+     "start": 5.969,
+     "end": 6.004
+    },
+    {
+     "text": "girl",
+     "start": 6.062,
+     "end": 6.236
+    },
+    {
+     "text": "of",
+     "start": 6.271,
+     "end": 6.317
+    },
+    {
+     "text": "about",
+     "start": 6.364,
+     "end": 6.573
+    },
+    {
+     "text": "seven",
+     "start": 6.643,
+     "end": 6.91
+    },
+    {
+     "text": "was",
+     "start": 6.956,
+     "end": 7.049
+    },
+    {
+     "text": "kidnapped",
+     "start": 7.107,
+     "end": 7.513
+    },
+    {
+     "text": "from",
+     "start": 7.537,
+     "end": 7.664
+    },
+    {
+     "text": "West",
+     "start": 7.711,
+     "end": 7.92
+    },
+    {
+     "text": "Africa",
+     "start": 7.989,
+     "end": 8.384
+    },
+    {
+     "text": "and",
+     "start": 8.442,
+     "end": 8.581
+    },
+    {
+     "text": "shipped",
+     "start": 8.639,
+     "end": 8.895
+    },
+    {
+     "text": "to",
+     "start": 8.918,
+     "end": 8.965
+    },
+    {
+     "text": "Boston",
+     "start": 9.011,
+     "end": 9.406
+    },
+    {
+     "text": "on",
+     "start": 9.464,
+     "end": 9.533
+    },
+    {
+     "text": "a",
+     "start": 9.58,
+     "end": 9.603
+    },
+    {
+     "text": "slave",
+     "start": 9.65,
+     "end": 9.917
+    },
+    {
+     "text": "ship,",
+     "start": 9.94,
+     "end": 10.276
+    },
+    {
+     "text": "the",
+     "start": 10.439,
+     "end": 10.544
+    },
+    {
+     "text": "Phillis.",
+     "start": 10.59,
+     "end": 11.124
+    }
+   ],
+   "cues": {},
+   "startFrame": 134,
+   "endFrame": 348
+  },
+  {
+   "id": "named",
+   "speechEnd": 15.083,
+   "words": [
+    {
+     "text": "John",
+     "start": 11.705,
+     "end": 11.914
+    },
+    {
+     "text": "Wheatley",
+     "start": 11.96,
+     "end": 12.262
+    },
+    {
+     "text": "bought",
+     "start": 12.308,
+     "end": 12.494
+    },
+    {
+     "text": "her",
+     "start": 12.517,
+     "end": 12.587
+    },
+    {
+     "text": "for",
+     "start": 12.633,
+     "end": 12.726
+    },
+    {
+     "text": "his",
+     "start": 12.773,
+     "end": 12.866
+    },
+    {
+     "text": "wife.",
+     "start": 12.924,
+     "end": 13.353
+    },
+    {
+     "text": "They",
+     "start": 13.771,
+     "end": 13.922
+    },
+    {
+     "text": "named",
+     "start": 13.968,
+     "end": 14.177
+    },
+    {
+     "text": "her",
+     "start": 14.212,
+     "end": 14.294
+    },
+    {
+     "text": "after",
+     "start": 14.352,
+     "end": 14.561
+    },
+    {
+     "text": "the",
+     "start": 14.607,
+     "end": 14.677
+    },
+    {
+     "text": "ship.",
+     "start": 14.723,
+     "end": 15.083
+    }
+   ],
+   "cues": {},
+   "startFrame": 348,
+   "endFrame": 464
+  },
+  {
+   "id": "learn",
+   "speechEnd": 20.969,
+   "words": [
+    {
+     "text": "Within",
+     "start": 15.571,
+     "end": 15.838
+    },
+    {
+     "text": "a",
+     "start": 15.873,
+     "end": 15.896
+    },
+    {
+     "text": "few",
+     "start": 15.942,
+     "end": 16.093
+    },
+    {
+     "text": "years",
+     "start": 16.151,
+     "end": 16.43
+    },
+    {
+     "text": "she",
+     "start": 16.476,
+     "end": 16.569
+    },
+    {
+     "text": "was",
+     "start": 16.615,
+     "end": 16.708
+    },
+    {
+     "text": "reading",
+     "start": 16.766,
+     "end": 16.999
+    },
+    {
+     "text": "Greek",
+     "start": 17.045,
+     "end": 17.312
+    },
+    {
+     "text": "and",
+     "start": 17.382,
+     "end": 17.463
+    },
+    {
+     "text": "Latin.",
+     "start": 17.533,
+     "end": 17.997
+    },
+    {
+     "text": "At",
+     "start": 18.311,
+     "end": 18.427
+    },
+    {
+     "text": "about",
+     "start": 18.461,
+     "end": 18.659
+    },
+    {
+     "text": "fourteen,",
+     "start": 18.717,
+     "end": 19.181
+    },
+    {
+     "text": "she",
+     "start": 19.204,
+     "end": 19.297
+    },
+    {
+     "text": "published",
+     "start": 19.355,
+     "end": 19.68
+    },
+    {
+     "text": "her",
+     "start": 19.715,
+     "end": 19.785
+    },
+    {
+     "text": "first",
+     "start": 19.843,
+     "end": 20.052
+    },
+    {
+     "text": "poem.",
+     "start": 20.098,
+     "end": 20.969
+    }
+   ],
+   "cues": {},
+   "startFrame": 464,
+   "endFrame": 641
+  },
+  {
+   "id": "doubt",
+   "speechEnd": 27.692,
+   "words": [
+    {
+     "text": "But",
+     "start": 21.469,
+     "end": 21.655
+    },
+    {
+     "text": "when",
+     "start": 21.69,
+     "end": 21.817
+    },
+    {
+     "text": "she",
+     "start": 21.852,
+     "end": 21.933
+    },
+    {
+     "text": "had",
+     "start": 21.98,
+     "end": 22.084
+    },
+    {
+     "text": "a",
+     "start": 22.119,
+     "end": 22.142
+    },
+    {
+     "text": "book",
+     "start": 22.177,
+     "end": 22.317
+    },
+    {
+     "text": "of",
+     "start": 22.351,
+     "end": 22.409
+    },
+    {
+     "text": "poems,",
+     "start": 22.467,
+     "end": 23.06
+    },
+    {
+     "text": "people",
+     "start": 23.257,
+     "end": 23.57
+    },
+    {
+     "text": "wanted",
+     "start": 23.617,
+     "end": 23.884
+    },
+    {
+     "text": "proof.",
+     "start": 23.942,
+     "end": 24.43
+    },
+    {
+     "text": "Could",
+     "start": 25.091,
+     "end": 25.289
+    },
+    {
+     "text": "an",
+     "start": 25.324,
+     "end": 25.393
+    },
+    {
+     "text": "enslaved",
+     "start": 25.44,
+     "end": 26.043
+    },
+    {
+     "text": "African",
+     "start": 26.125,
+     "end": 26.508
+    },
+    {
+     "text": "girl",
+     "start": 26.554,
+     "end": 26.763
+    },
+    {
+     "text": "really",
+     "start": 26.844,
+     "end": 27.1
+    },
+    {
+     "text": "write",
+     "start": 27.135,
+     "end": 27.367
+    },
+    {
+     "text": "them?",
+     "start": 27.39,
+     "end": 27.692
+    }
+   ],
+   "cues": {},
+   "startFrame": 641,
+   "endFrame": 851
+  },
+  {
+   "id": "signed",
+   "speechEnd": 34.867,
+   "words": [
+    {
+     "text": "So",
+     "start": 28.47,
+     "end": 28.667
+    },
+    {
+     "text": "eighteen",
+     "start": 28.748,
+     "end": 29.155
+    },
+    {
+     "text": "powerful",
+     "start": 29.224,
+     "end": 29.608
+    },
+    {
+     "text": "Boston",
+     "start": 29.666,
+     "end": 30.037
+    },
+    {
+     "text": "men,",
+     "start": 30.095,
+     "end": 30.536
+    },
+    {
+     "text": "the",
+     "start": 30.699,
+     "end": 30.803
+    },
+    {
+     "text": "governor",
+     "start": 30.861,
+     "end": 31.187
+    },
+    {
+     "text": "and",
+     "start": 31.233,
+     "end": 31.314
+    },
+    {
+     "text": "John",
+     "start": 31.372,
+     "end": 31.57
+    },
+    {
+     "text": "Hancock",
+     "start": 31.628,
+     "end": 31.999
+    },
+    {
+     "text": "among",
+     "start": 32.046,
+     "end": 32.255
+    },
+    {
+     "text": "them,",
+     "start": 32.301,
+     "end": 32.568
+    },
+    {
+     "text": "signed",
+     "start": 32.731,
+     "end": 33.033
+    },
+    {
+     "text": "a",
+     "start": 33.067,
+     "end": 33.09
+    },
+    {
+     "text": "statement:",
+     "start": 33.137,
+     "end": 33.717
+    },
+    {
+     "text": "she",
+     "start": 34.077,
+     "end": 34.228
+    },
+    {
+     "text": "wrote",
+     "start": 34.298,
+     "end": 34.541
+    },
+    {
+     "text": "them.",
+     "start": 34.565,
+     "end": 34.867
+    }
+   ],
+   "cues": {},
+   "startFrame": 851,
+   "endFrame": 1070
+  },
+  {
+   "id": "book",
+   "speechEnd": 41.484,
+   "words": [
+    {
+     "text": "In",
+     "start": 35.772,
+     "end": 35.911
+    },
+    {
+     "text": "1773,",
+     "start": 35.958,
+     "end": 36.945
+    },
+    {
+     "text": "her",
+     "start": 36.98,
+     "end": 37.061
+    },
+    {
+     "text": "book",
+     "start": 37.107,
+     "end": 37.27
+    },
+    {
+     "text": "was",
+     "start": 37.305,
+     "end": 37.409
+    },
+    {
+     "text": "printed",
+     "start": 37.479,
+     "end": 37.757
+    },
+    {
+     "text": "in",
+     "start": 37.792,
+     "end": 37.85
+    },
+    {
+     "text": "London:",
+     "start": 37.897,
+     "end": 38.338
+    },
+    {
+     "text": "the",
+     "start": 38.535,
+     "end": 38.64
+    },
+    {
+     "text": "first",
+     "start": 38.698,
+     "end": 38.93
+    },
+    {
+     "text": "book",
+     "start": 38.976,
+     "end": 39.127
+    },
+    {
+     "text": "of",
+     "start": 39.174,
+     "end": 39.22
+    },
+    {
+     "text": "poems",
+     "start": 39.278,
+     "end": 39.603
+    },
+    {
+     "text": "by",
+     "start": 39.65,
+     "end": 39.754
+    },
+    {
+     "text": "an",
+     "start": 39.801,
+     "end": 39.859
+    },
+    {
+     "text": "African",
+     "start": 39.917,
+     "end": 40.242
+    },
+    {
+     "text": "American.",
+     "start": 40.288,
+     "end": 41.484
+    }
+   ],
+   "cues": {},
+   "startFrame": 1070,
+   "endFrame": 1257
+  },
+  {
+   "id": "free",
+   "speechEnd": 48.278,
+   "words": [
+    {
+     "text": "Soon",
+     "start": 41.985,
+     "end": 42.229
+    },
+    {
+     "text": "after,",
+     "start": 42.287,
+     "end": 42.577
+    },
+    {
+     "text": "she",
+     "start": 42.6,
+     "end": 42.705
+    },
+    {
+     "text": "was",
+     "start": 42.751,
+     "end": 42.856
+    },
+    {
+     "text": "freed.",
+     "start": 42.925,
+     "end": 43.401
+    },
+    {
+     "text": "In",
+     "start": 43.982,
+     "end": 44.121
+    },
+    {
+     "text": "1775",
+     "start": 44.168,
+     "end": 45.236
+    },
+    {
+     "text": "she",
+     "start": 45.305,
+     "end": 45.41
+    },
+    {
+     "text": "sent",
+     "start": 45.468,
+     "end": 45.631
+    },
+    {
+     "text": "a",
+     "start": 45.665,
+     "end": 45.689
+    },
+    {
+     "text": "poem",
+     "start": 45.735,
+     "end": 46.014
+    },
+    {
+     "text": "to",
+     "start": 46.072,
+     "end": 46.13
+    },
+    {
+     "text": "George",
+     "start": 46.188,
+     "end": 46.443
+    },
+    {
+     "text": "Washington.",
+     "start": 46.49,
+     "end": 47.163
+    },
+    {
+     "text": "He",
+     "start": 47.477,
+     "end": 47.581
+    },
+    {
+     "text": "wrote",
+     "start": 47.627,
+     "end": 47.825
+    },
+    {
+     "text": "back.",
+     "start": 47.848,
+     "end": 48.278
+    }
+   ],
+   "cues": {},
+   "startFrame": 1257,
+   "endFrame": 1465
+  },
+  {
+   "id": "end",
+   "speechEnd": 55.638,
+   "words": [
+    {
+     "text": "She",
+     "start": 48.939,
+     "end": 49.079
+    },
+    {
+     "text": "married,",
+     "start": 49.148,
+     "end": 49.636
+    },
+    {
+     "text": "lost",
+     "start": 49.833,
+     "end": 50.124
+    },
+    {
+     "text": "her",
+     "start": 50.17,
+     "end": 50.24
+    },
+    {
+     "text": "children,",
+     "start": 50.286,
+     "end": 50.832
+    },
+    {
+     "text": "and",
+     "start": 51.029,
+     "end": 51.18
+    },
+    {
+     "text": "fell",
+     "start": 51.238,
+     "end": 51.401
+    },
+    {
+     "text": "into",
+     "start": 51.447,
+     "end": 51.575
+    },
+    {
+     "text": "poverty.",
+     "start": 51.633,
+     "end": 52.248
+    },
+    {
+     "text": "She",
+     "start": 52.91,
+     "end": 53.038
+    },
+    {
+     "text": "died",
+     "start": 53.096,
+     "end": 53.34
+    },
+    {
+     "text": "in",
+     "start": 53.374,
+     "end": 53.432
+    },
+    {
+     "text": "1784,",
+     "start": 53.479,
+     "end": 54.466
+    },
+    {
+     "text": "about",
+     "start": 54.698,
+     "end": 54.953
+    },
+    {
+     "text": "thirty-one.",
+     "start": 54.988,
+     "end": 55.638
+    }
+   ],
+   "cues": {},
+   "startFrame": 1465,
+   "endFrame": 1689
+  },
+  {
+   "id": "close",
+   "speechEnd": 59.354,
+   "words": [
+    {
+     "text": "They",
+     "start": 56.416,
+     "end": 56.579
+    },
+    {
+     "text": "didn't",
+     "start": 56.602,
+     "end": 56.788
+    },
+    {
+     "text": "believe",
+     "start": 56.823,
+     "end": 57.078
+    },
+    {
+     "text": "she",
+     "start": 57.113,
+     "end": 57.206
+    },
+    {
+     "text": "wrote",
+     "start": 57.252,
+     "end": 57.415
+    },
+    {
+     "text": "her",
+     "start": 57.438,
+     "end": 57.508
+    },
+    {
+     "text": "own",
+     "start": 57.554,
+     "end": 57.659
+    },
+    {
+     "text": "poems.",
+     "start": 57.705,
+     "end": 58.239
+    },
+    {
+     "text": "She",
+     "start": 58.436,
+     "end": 58.576
+    },
+    {
+     "text": "did.",
+     "start": 58.645,
+     "end": 59.354
+    }
+   ],
+   "cues": {},
+   "startFrame": 1689,
+   "endFrame": 1793
+  },
+  {
+   "id": "cta",
+   "speechEnd": 62.268,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 59.853,
+     "end": 60.155
+    },
+    {
+     "text": "The",
+     "start": 60.201,
+     "end": 60.271
+    },
+    {
+     "text": "Black",
+     "start": 60.294,
+     "end": 60.48
+    },
+    {
+     "text": "History",
+     "start": 60.526,
+     "end": 60.805
+    },
+    {
+     "text": "Room",
+     "start": 60.851,
+     "end": 61.014
+    },
+    {
+     "text": "for",
+     "start": 61.072,
+     "end": 61.177
+    },
+    {
+     "text": "one",
+     "start": 61.246,
+     "end": 61.386
+    },
+    {
+     "text": "story",
+     "start": 61.42,
+     "end": 61.699
+    },
+    {
+     "text": "a",
+     "start": 61.745,
+     "end": 61.769
+    },
+    {
+     "text": "day.",
+     "start": 61.815,
+     "end": 62.268
+    }
+   ],
+   "cues": {},
+   "startFrame": 1793,
+   "endFrame": 1904
+  }
+ ]
+}

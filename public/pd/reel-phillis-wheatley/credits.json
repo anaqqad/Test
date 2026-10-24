@@ -1,0 +1,38 @@
+{
+ "met": {
+  "title": "Phillis Wheatley, Negro Servant to Mr. John Wheatley of Boston (frontispiece), MET DP816498",
+  "artist": "after Scipio Moorhead (attributed); published by Archibald Bell, London; The Metropolitan Museum of Art",
+  "date": "1773",
+  "license": "Public domain (Met Open Access)",
+  "source": "https://commons.wikimedia.org/wiki/File:Phillis_Wheatley,_Negro_Servant_to_Mr._John_Wheatley_of_Boston_MET_DP816498.jpg",
+  "width": 1280,
+  "height": 1643
+ },
+ "titlepage": {
+  "title": "Frontis. portrait of Phyllis Wheatley, and title p. of Wheatley, Poems on Various Subjects..., London, 1773",
+  "artist": "Library of Congress, LCCN 2004682060",
+  "date": "1773",
+  "license": "No known restrictions on publication",
+  "source": "https://commons.wikimedia.org/wiki/File:Frontis.-_portrait_of_Phyllis_Wheatley,_and_title_p._of_Wheatley,_Poems_on_Various_Subjects...,_London,_1773_LCCN2004682060.jpg",
+  "width": 1280,
+  "height": 946
+ },
+ "book": {
+  "title": "Poems on Various Subjects, Religious and Moral, by Phillis Wheatley, 1773 - Old South Meeting House - Boston, MA - DSC05815",
+  "artist": "Daderot (photograph)",
+  "date": "photo of 1773 book",
+  "license": "CC0 1.0 (Daderot, own work)",
+  "source": "https://commons.wikimedia.org/wiki/File:Poems_on_Various_Subjects,_Religious_and_Moral,_by_Phillis_Wheatley,_1773_-_Old_South_Meeting_House_-_Boston,_MA_-_DSC05815.jpg",
+  "width": 1280,
+  "height": 921
+ },
+ "boston": {
+  "title": "A prospective view of the town of Boston... and the landing of troops in the year 1768",
+  "artist": "Paul Revere, engraver; Library of Congress",
+  "date": "1770",
+  "license": "No known restrictions on publication",
+  "source": "https://www.loc.gov/item/2004670036/",
+  "width": 640,
+  "height": 368
+ }
+}
