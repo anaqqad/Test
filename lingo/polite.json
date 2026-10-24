@@ -1,5 +1,5 @@
 {
-  "_note": "Ranking the World's Most Polite Languages, recounted 2026-10-24 with the expanded database in polite_research/ (English Wiktionary for ~100 languages, 16 native Wiktionaries, JMdict, CC-CEDICT, Poedjosoedarmo's Javanese word list; one rule set, duplicates and expressions removed, see polite_research/README.md). Tibetan (52, would be #8) has no recording of a polite word on Commons, so it is skipped and Polish (#11, 44) takes #10. Vietnamese fell to 18.",
+  "_note": "Ranking the World's Most Polite Languages, recounted 2026-10-24 with the expanded database in polite_research/ (English Wiktionary for ~100 languages, 16 native Wiktionaries, JMdict, CC-CEDICT, Poedjosoedarmo's Javanese word list; one rule set, duplicates and expressions removed, see polite_research/README.md). Tibetan (52, would be #9) has no recording of a polite word on Commons, so it is skipped. Vietnamese (83) counted after fixing syllable spacing.",
   "title": "Ranking the World's Most Polite Languages",
   "subtitle": "BY THE NUMBER OF POLITE WORDS IN THE DICTIONARIES",
   "meter": "Polite words in the dictionaries",
@@ -16,14 +16,14 @@
       "count": 818,
       "wojak": "p_zho",
       "scene": "hongkong",
-      "word": "您",
-      "roman": "nín",
-      "lit": "you (politely)",
-      "rec": "File:LL-Q9192 (cmn)-Luilui6666-您.wav",
+      "word": "贵姓",
+      "lit": "your precious surname?",
       "cards": [
-        "Chinese has a polite 'you': 您 (nín) instead of 你 (nǐ). And to ask a stranger's name, you ask for their 'precious surname'.",
+        "To ask a stranger's name politely you don't say 'what's your name?' but 'your precious surname?' (贵姓). Even 'you' has a polite form: 您 (nín).",
         "The humble side counts too: traditionally your own home is 'my cold hut' (寒舍) and your own work 'my clumsy work' (拙作)."
-      ]
+      ],
+      "roman": "guìxìng",
+      "rec": "File:LL-Q9192 (cmn)-Luilui6666-贵姓.wav"
     },
     {
       "key": "jpn",
@@ -32,14 +32,14 @@
       "count": 1431,
       "wojak": "p_jpn",
       "scene": "caucasus",
-      "word": "すみません",
-      "roman": "sumimasen",
-      "lit": "excuse me (politely)",
-      "rec": "File:LL-Q5287 (jpn)-Fukujinzuke-すみません.wav",
+      "word": "いただきます",
+      "lit": "I humbly receive (said before eating)",
       "cards": [
         "Japanese politeness has three layers: polite words, honorific words that raise others, and humble words that lower yourself.",
         "Even 'to be' changes: iru with friends, irassharu for someone you respect, and oru for yourself when being humble."
-      ]
+      ],
+      "roman": "itadakimasu",
+      "rec": "File:LL-Q5287 (jpn)-Fukujinzuke-いただきます.wav"
     },
     {
       "key": "jav",
@@ -48,13 +48,13 @@
       "count": 916,
       "wojak": "p_jav",
       "scene": "forest",
-      "word": "panjenengan",
-      "lit": "you (to someone you honour)",
-      "rec": "File:LL-Q33549 (jav)-Dewinta88-panjenengan.wav",
+      "word": "dhahar",
+      "lit": "to eat (said of someone you honour)",
       "cards": [
         "Javanese has separate vocabularies by social level: ngoko for friends, krama for elders and strangers, krama inggil for the deepest respect.",
-        "Even colours change: red is 'abang' to a friend but 'abrit' to your elders. A scholarly list of these polite words has over 900 of them."
-      ]
+        "Even 'eat' changes: mangan with friends, nedha in polite speech, and dhahar for someone you honour. A scholarly list counts over 900 of these polite words."
+      ],
+      "rec": "File:LL-Q33549 (jav)-Sssugarette-dhahar.wav"
     },
     {
       "key": "kor",
@@ -63,18 +63,14 @@
       "count": 192,
       "wojak": "p_kor",
       "scene": "alps",
-      "word": "안녕하십니까",
-      "roman": "annyeong-hasimnikka",
-      "lit": "are you at peace? (most formal)",
-      "rec": "File:안녕하십니까.ogg",
-      "credit": {
-        "artist": "HappyMidnight",
-        "license": "CC BY-SA 4.0"
-      },
+      "word": "잡수시다",
+      "lit": "to eat (said of your elders)",
       "cards": [
-        "Korean grammar has up to seven speech levels, built into the end of every verb. This greeting uses the most formal one.",
-        "Even eating changes: 먹다 (meokda) for yourself, 드시다 (deusida) for your elders. That politeness lives in grammar, so a word count underrates Korean."
-      ]
+        "Korean grammar has up to seven speech levels, built into the end of every verb.",
+        "Even eating changes: 먹다 (meokda) for yourself, 잡수시다 (japsusida) for your elders. That politeness lives in grammar too, so a word count underrates Korean."
+      ],
+      "roman": "japsusida",
+      "rec": "File:LL-Q9176 (kor)-호로조-잡수시다.wav"
     },
     {
       "key": "tha",
@@ -83,24 +79,24 @@
       "count": 670,
       "wojak": "p_tha",
       "scene": "andaman",
-      "word": "ครับ",
-      "roman": "khrap",
-      "lit": "polite ending (said by a man)",
-      "local": {
-        "file": "cache/polite/src/thai_tao.webm",
-        "start": 1.31,
-        "end": 1.58
-      },
-      "credit": {
-        "title": "File:WIKITONGUES- Tao speaking Thai.webm",
-        "artist": "Wikitongues, Teddy Nee",
-        "license": "CC BY-SA 4.0"
-      },
+      "word": "สวัสดีครับ",
+      "lit": "hello + the polite 'khrap' (said by a man)",
       "cards": [
         "Thai ends polite sentences with a little word that depends on who is talking: 'khrap' if you are a man, 'kha' if you are a woman.",
         "Thai has a whole royal vocabulary, rachasap: special words used only for the king and the royal family. Most of its count comes from them."
       ],
-      "voice": "male"
+      "roman": "sawatdee khrap",
+      "local": {
+        "file": "cache/polite/src/thai_tao.webm",
+        "start": 0.6,
+        "end": 1.5
+      },
+      "voice": "male",
+      "credit": {
+        "title": "File:WIKITONGUES- Tao speaking Thai.webm",
+        "artist": "Wikitongues, Teddy Nee",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "key": "mya",
@@ -109,54 +105,60 @@
       "count": 100,
       "wojak": "p_mya",
       "scene": "hills",
-      "word": "မင်္ဂလာပါ",
-      "roman": "mingalaba",
-      "lit": "blessings (politely)",
-      "rec": "File:Mya-မင်္ဂလာပါ.wav",
-      "credit": {
-        "artist": "Eren maker 2009",
-        "license": "CC BY-SA 4.0"
-      },
+      "word": "ဦး",
+      "lit": "Mr. (for an older man)",
       "cards": [
-        "Mingalaba comes from 'mingala', a blessing. The 'pa' at the end is a politeness particle that softens almost any Burmese sentence.",
-        "Burmese speakers put a respectful title before almost every name: U for an older man, Daw for an older woman, Ko for a young man."
+        "Burmese has no surnames, so a title carries the respect: U for an older man, Daw for an older woman, Ko for a young man, Ma for a young woman.",
+        "Polite sentences end with a softening 'pa', and men add 'khinbya' (ခင်ဗျာ) at the end to sound extra respectful."
       ],
-      "voice": "male"
+      "roman": "U",
+      "rec": "File:LL-Q9228 (mya)-Sithu015-ဦး.wav"
+    },
+    {
+      "key": "vie",
+      "name": "Vietnamese",
+      "flag": "vn",
+      "count": 83,
+      "wojak": "r_vie",
+      "scene": "grassland",
+      "word": "dạ",
+      "lit": "yes (respectfully)",
+      "rec": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-dạ.wav",
+      "cards": [
+        "Vietnamese has no neutral 'I' or 'you': speakers pick family words like older brother, aunt or grandfather, depending on age and respect.",
+        "Answering an elder with a bare 'yes' sounds rude. Children learn to say 'dạ', and to end their sentences with 'ạ' to show respect."
+      ],
+      "voice": "female"
     },
     {
       "key": "eng",
       "name": "English",
       "flag": "gb",
       "count": 86,
-      "wojak": "p_eng",
+      "wojak": "s_eng_calm",
       "scene": "village",
-      "word": "please",
-      "lit": "if it pleases you",
-      "rec": "File:En-uk-please.ogg",
+      "word": "cheers",
+      "lit": "thanks (British)",
       "cards": [
         "English lost its polite 'you'. 'Thou' was the friendly one and 'you' the polite one, until everyone became 'you'.",
-        "English is polite with phrases, not special words: 'could you possibly…', 'would you mind…'. 'Please' itself is short for 'if it please you'."
+        "In Britain 'cheers' isn't just for drinks: it means thank you, and even goodbye. English is polite with phrases more than special words."
       ],
-      "credit": {
-        "artist": "Association Shtooka, Judith Franck",
-        "license": "CC BY 3.0 US"
-      }
+      "rec": "File:LL-Q1860 (eng)-Wodencafe-cheers.wav"
     },
     {
       "key": "ind",
       "name": "Indonesian",
       "flag": "id",
       "count": 50,
-      "wojak": "p_ind",
+      "wojak": "s_ind",
       "scene": "hawaii",
-      "word": "Bapak",
-      "lit": "father (sir)",
-      "rec": "File:LL-Q9240 (ind)-Xbypass-bapak.wav",
+      "word": "beliau",
+      "lit": "he / she (respectfully)",
       "cards": [
-        "'Terima kasih', thank you, literally means 'receive affection': you thank someone by accepting what they gave.",
+        "Indonesian has a polite 'he/she': beliau, used for teachers, elders and leaders, instead of the everyday 'dia'.",
         "Indonesians use family titles with everyone: Bapak (father) for any older man, Ibu (mother) for any older woman, even in shops and offices."
       ],
-      "voice": "female"
+      "rec": "File:LL-Q9240 (ind)-Writingtradition-beliau.wav"
     },
     {
       "key": "msa",
@@ -165,28 +167,13 @@
       "count": 49,
       "wojak": "p_msa",
       "scene": "andaman",
-      "word": "tuanku",
-      "lit": "my lord",
-      "rec": "File:LL-Q9237 (msa)-GinormousBuildings-tuanku.wav",
+      "word": "patik",
+      "lit": "I (humbly, when speaking to a king)",
       "cards": [
         "Malay has a royal vocabulary too: a king does not eat (makan) but 'santap', does not sleep (tidur) but 'beradu', and does not die (mati) but 'mangkat'.",
-        "Even the everyday polite 'I', saya, comes from 'sahaya', an old word for servant."
-      ]
-    },
-    {
-      "key": "pol",
-      "name": "Polish",
-      "flag": "pl",
-      "count": 44,
-      "wojak": "r_pol_calm",
-      "scene": "grassland",
-      "word": "Pani",
-      "lit": "madam / you (politely, to a woman)",
-      "rec": "File:LL-Q809 (pol)-Gower-pani.wav",
-      "cards": [
-        "Polish has no polite 'you' pronoun. To a stranger you say Pan (sir) or Pani (madam) and talk to them in the third person: 'Does the lady want coffee?'",
-        "And 'proszę' does almost everything: please, here you go, you're welcome, and 'pardon?' when you didn't hear."
-      ]
+        "Speaking to a sultan you don't call yourself 'saya' but 'patik', and you call him 'tuanku', my lord."
+      ],
+      "rec": "File:LL-Q9237 (msa)-Rian (Crystal DaVinci)-Patik.wav"
     }
   ]
 }
