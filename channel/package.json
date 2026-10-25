@@ -1,0 +1,29 @@
+{
+  "name": "map-timelapse-channel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "node scripts/render.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "5.2.6",
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "d3-geo": "3.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.534",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "3.1.0",
+    "@types/react": "19.2.2",
+    "@types/topojson-client": "3.1.5",
+    "typescript": "5.9.3"
+  }
+}

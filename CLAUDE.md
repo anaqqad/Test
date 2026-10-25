@@ -10,6 +10,9 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
   with overlapping contours removed (Blender's text fill drops letters on fonts with overlaps).
 - `blender/globe_tex.mjs`: regenerates the textures for another empire (edit `ring`).
 - `blender/install_vps.sh`: Ubuntu/Debian install of Blender 4.2 LTS + Rhubarb Lip Sync.
+- `channel/`: Remotion project for the "Borderclock" map-timelapse channel: one JSON per video
+  (`channel/data/videos/`) -> MP4 + thumbnail + description with chapters. See `channel/README.md`.
+- `docs/channel-plan.md`: reference-channel analysis (History on Maps), channel concept, first 4 videos, pipeline.
 
 ## Running on this PC (Windows)
 1. Install Blender 4.2 LTS from blender.org and make sure `blender` is on PATH (or use the full path to
@@ -26,6 +29,8 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - Cloud VM, 4 CPU cores, no GPU: EEVEE ~42 s/frame (software OpenGL), Cycles ~1.1 s per sample per 1080p
   frame (8 samples ~20 s/frame). EEVEE/Workbench on Linux without a GPU need `libegl1` or Blender aborts.
 - A 3090 Ti should be far faster; measure and note it here.
+- Remotion map timelapse (`channel/`), same VM: ~0.9 s per 1080p frame (CPU canvas; more cores help). Measure on
+  the PC with `node scripts/render.mjs korean-war-demo --range=0-239` and note it here.
 
 ## Next ideas (not started)
 - Photoreal Earth from space (NASA Blue Marble + clouds + night lights), real-terrain flyovers from
