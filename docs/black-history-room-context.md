@@ -17,6 +17,7 @@ Saved 2026-10-05 from the chat so the next session can pick up without the conve
 | Black Boston, Then and Now | `data/reel-boston-then-now.json` | `publish/video/Black-Boston-Then-and-Now-reel.mp4` | - |
 | Boston Then and Now (Boston Before Us page) | `data/reel-boston-before-us-then-now.json` | `publish/video/Boston-Then-and-Now-BostonBeforeUs.mp4` | - |
 | Matthew Henson | `data/reel-matthew-henson.json` (14 beats) | `publish/video/Matthew-Henson-reel.mp4` | below (not yet in a file) |
+| Benjamin Banneker | `data/reel-benjamin-banneker.json` | `publish/video/Benjamin-Banneker-reel.mp4` | `publish/reels/benjamin-banneker.md` — published 2026-10-25: YouTube Short https://youtube.com/shorts/uyAFVZp7L78 (Public, Education, AI label yes) and Facebook Reel on the page (Public) |
 
 Measured on the cloud VM: Smalls narration 904 ElevenLabs characters, Coleman 914, Henson 923; Henson reel
 61.5 s with 12 different photos, passes every QC check. Final render ~174 s for 58.5 s of video (4 CPU, no GPU).
