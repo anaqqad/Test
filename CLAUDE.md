@@ -36,8 +36,7 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - Rendered and sent to the owner (main + thumbnail + description + Short): Battle of France 1940, Battle of the
   Bulge 1944, Operation Bagration 1944, Battle of Berlin 1945, Korean War, Mongol Empire. Renders live in
   `channel/out/` (gitignored), so they are not in the repo; re-render locally if needed.
-- Still to render with the latest code: `battle-of-berlin-1945` main (the label-overlap fix; the Short already has
-  it) and `mongol-empire` main (banner unit markers).
+- All of these were rendered with the latest code (label collision fix, banner markers) and sent. Nothing is pending.
 - Local setup: `cd channel && npm i`, then per battle video `node scripts/fetch-terrain.mjs <id>` (terrain tiles are
   not committed), then `node scripts/render.mjs <id>` and `node scripts/render.mjs <id> --short`. QC first with
   `--keyframes`. Remotion fetches its own headless Chrome; `REMOTION_BROWSER` is only needed to override it.
