@@ -13,7 +13,7 @@
    Warning: the original six already include "Ranking languages by how hard they are (for English speakers)" (key
    `hardest` in videos.mjs). A new one needs a clearly different angle (for example hardest for Arabic or Chinese
    speakers, or hardest by grammar counts), otherwise it repeats that video. Ask the owner before building.
-5. Ranking the World's Easiest Languages
+5. Ranking the World's Easiest Languages (DONE 2026-10-25: easy.json, easy_score.py, node vulgar.mjs --set easy)
    Same FSI method as the hardest ranking, from the English speaker's side (Category I languages, about 600 to
    750 class hours).
 

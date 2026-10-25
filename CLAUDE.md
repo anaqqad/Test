@@ -58,6 +58,7 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
 - Wojaks are generated with ChatGPT through the Codex CLI (device-code sign-in by the owner). Stay signed in between batches; the owner says "logout" when they want the session closed (owner, 2026-10-20). ChatGPT sometimes fails to save the image: retry the job, it is not a content problem.
 - Babies video: `lingo/babycry.mjs` (cries from public YouTube videos the owner is asking permission for; pitch traced with `baby_analyze.py`), Wojak crying babies `wojaks/baby_*.png`.
 
+- Easiest languages (done): `lingo/easy.json` rendered with `node vulgar.mjs --set easy` (explicit `rank` field). Rank = FSI weeks, ties broken by Swadesh look-alike % (`easy_score.py`, Wiktionary appendices in `easy_data/`).
 - Next-videos to-do list from the owner: `lingo/ideas/TODO.md` (polite ranking, Arabic variants, masculine ranking, hardest and easiest rankings).
 
 ## Continue from here

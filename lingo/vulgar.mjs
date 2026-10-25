@@ -12,7 +12,7 @@ import { scene } from "./art.mjs";
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const args = process.argv.slice(2);
 const opt = (k, d) => { const i = args.indexOf("--" + k); return i < 0 ? d : args[i + 1] ?? true; };
-const SET = opt("set", "vulgar"); // vulgar (default) or polite
+const SET = opt("set", "vulgar"); // vulgar (default), polite or easy
 const OUT = path.join(HERE, "out"), A = path.join(HERE, "cache", "audio", SET), TMP = path.join(HERE, "cache", "clips", SET);
 fs.mkdirSync(TMP, { recursive: true });
 const D = JSON.parse(fs.readFileSync(path.join(HERE, SET + ".json")));
@@ -23,7 +23,7 @@ const fileUrl = (p) => pathToFileURL(p).href;
 const flag = (c) => fileUrl(nm("flag-icons/flags/4x3/" + c + ".svg"));
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 const wj = (it) => { const v = MAN[it.key]?.voice === "female" ? [it.wojak + "_f", it.wojak] : [it.wojak]; for (const k of v) { const f = path.join(HERE, "wojaks", k + ".png"); if (fs.existsSync(f)) return fileUrl(f); } return null; };
-const items = [...D.items].sort((a, b) => a.count - b.count); // 10 -> 1
+const items = D.items.every((i) => i.rank) ? [...D.items].sort((a, b) => b.rank - a.rank) : [...D.items].sort((a, b) => a.count - b.count); // 10 -> 1 (explicit "rank" wins, e.g. easy.json)
 const MAX = Math.max(...items.map((i) => i.count));
 const SCRIPT_CSS = ["noto-sans-sc/700.css", "noto-sans-jp/700.css", "noto-sans-kr/700.css", "noto-sans-thai/700.css", "noto-sans-myanmar/700.css", "noto-sans-tamil/700.css"].map((f) => fs.existsSync(nm("@fontsource/" + f)) ? `<link rel="stylesheet" href="${fileUrl(nm("@fontsource/" + f))}">` : "").join("");
 
@@ -77,7 +77,7 @@ add("intro", 5, `<div class="a" id="bg" style="opacity:.35">${scene("abstract", 
     <div data-in="1.8" class="f" style="margin-top:50px;display:flex;gap:18px">${items.map((i) => `<img src="${flag(i.flag)}" style="height:52px;border-radius:6px">`).join("")}</div></div>`);
 
 for (const [idx, it] of items.entries()) {
-  const m = MAN[it.key], rank = items.length - idx;
+  const m = MAN[it.key], rank = it.rank || items.length - idx;
   const say = m ? [{ t: 4.2, d: m.d }, { t: 4.2 + m.d + 0.9, d: m.d }] : [];
   const wordAt = 3.6, cardsAt = m ? say[1].t + m.d + 1.2 : 6.5, dur = +(cardsAt + 8.5).toFixed(2);
   const html = `<div class="a" id="bg">${scene(it.scene, it.key)}</div>
@@ -96,7 +96,7 @@ add("outro", 7, `<div class="a" id="bg" style="opacity:.35">${scene("abstract", 
   <div class="a" style="left:0;top:0;width:1920px;height:1080px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
     <div data-in="0.2" class="f" style="font-weight:800;font-size:72px;line-height:1.15;width:1500px">${esc(D.outro || "Which language swears best?")}</div>
     <div data-in="0.8" class="f" style="margin-top:24px;font-weight:800;font-size:44px;color:#ffcf5c;letter-spacing:4px">TELL US IN THE COMMENTS 👇</div>
-    <div data-in="1.4" class="f" style="margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:10px 80px;font-weight:700;font-size:32px;text-align:left">${[...items].reverse().map((it, i) => `<div>#${i + 1} ${esc(it.name)} <span style="color:#ffcf5c">${it.count.toLocaleString("en-US")}</span></div>`).join("")}</div></div>`);
+    <div data-in="1.4" class="f" style="margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:10px 80px;font-weight:700;font-size:32px;text-align:left">${[...items].reverse().map((it, i) => `<div>#${it.rank || i + 1} ${esc(it.name)} <span style="color:#ffcf5c">${it.count.toLocaleString("en-US")}</span></div>`).join("")}</div></div>`);
 
 const stills = opt("still", null);
 const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--font-render-hinting=none"] });

@@ -1,0 +1,101 @@
+{
+ "_note": "rank = FSI weeks, then look-alike % on the 207 Swadesh words (Wiktionary appendices)",
+ "Portuguese": {
+  "fsi_weeks": 24,
+  "concepts": 207,
+  "lookalike": 18.7,
+  "same_spelling": 1,
+  "rank": 8
+ },
+ "Spanish": {
+  "fsi_weeks": 24,
+  "concepts": 207,
+  "lookalike": 19.5,
+  "same_spelling": 1,
+  "rank": 6
+ },
+ "French": {
+  "fsi_weeks": 30,
+  "concepts": 207,
+  "lookalike": 21.3,
+  "same_spelling": 4,
+  "rank": 9
+ },
+ "Italian": {
+  "fsi_weeks": 24,
+  "concepts": 207,
+  "lookalike": 22.0,
+  "same_spelling": 2,
+  "rank": 5
+ },
+ "Romanian": {
+  "fsi_weeks": 24,
+  "concepts": 207,
+  "lookalike": 19.5,
+  "same_spelling": 2,
+  "rank": 7
+ },
+ "Dutch": {
+  "fsi_weeks": 24,
+  "concepts": 207,
+  "lookalike": 37.2,
+  "same_spelling": 10,
+  "rank": 1
+ },
+ "German": {
+  "fsi_weeks": 36,
+  "concepts": 207,
+  "lookalike": 36.3,
+  "same_spelling": 7,
+  "rank": 10
+ },
+ "Swedish": {
+  "fsi_weeks": 24,
+  "concepts": 207,
+  "lookalike": 34.6,
+  "same_spelling": 7,
+  "rank": 3
+ },
+ "Danish": {
+  "fsi_weeks": 24,
+  "concepts": 207,
+  "lookalike": 34.1,
+  "same_spelling": 6,
+  "rank": 4
+ },
+ "Norwegian": {
+  "fsi_weeks": 24,
+  "concepts": 207,
+  "lookalike": 36.2,
+  "same_spelling": 10,
+  "rank": 2
+ },
+ "Swahili": {
+  "fsi_weeks": 36,
+  "concepts": 124,
+  "lookalike": 10.3,
+  "same_spelling": 0,
+  "rank": 14
+ },
+ "Haitian Creole": {
+  "fsi_weeks": 36,
+  "concepts": 207,
+  "lookalike": 17.7,
+  "same_spelling": 1,
+  "rank": 11
+ },
+ "Malay": {
+  "fsi_weeks": 36,
+  "concepts": 207,
+  "lookalike": 12.8,
+  "same_spelling": 0,
+  "rank": 12
+ },
+ "Indonesian": {
+  "fsi_weeks": 36,
+  "concepts": 207,
+  "lookalike": 11.4,
+  "same_spelling": 0,
+  "rank": 13
+ }
+}
