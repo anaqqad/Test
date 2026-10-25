@@ -3,6 +3,7 @@ import type { Video } from "../schema";
 import { cameraAt, viewTransform, type Camera } from "../lib/camera";
 import { VIEWPORT, type MapEngine } from "../lib/map";
 import { theme } from "../lib/theme";
+import { dayNumber } from "../lib/time";
 
 type Props = {
   video: Video;
@@ -67,6 +68,7 @@ export const MapView: React.FC<Props> = ({ video, engine, day, frame, eventFrame
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
     for (const l of video.map.labels) {
+      if ((l.from && day < dayNumber(l.from)) || (l.to && day >= dayNumber(l.to))) continue;
       const [x, y] = engine.project(l.at);
       const px = (l.size ?? (l.kind === "city" ? 17 : l.kind === "sea" ? 20 : 26)) / Math.sqrt(k);
       ctx.fillStyle = theme.ink;

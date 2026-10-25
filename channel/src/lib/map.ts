@@ -263,6 +263,18 @@ export class MapEngine {
     return sdf;
   }
 
+  // Territory of the keyframe in force on `day`, as vector shapes in paint order (for the globe intro).
+  shapesAt(day: number): { clip: Geo | null; shapes: { color: string; geo: Geo }[] } {
+    let k = 0;
+    this.keyDays.forEach((d, i) => d <= day && (k = i));
+    const clip = this.video.map.theatre.length ? this.countries(this.video.map.theatre) : null;
+    const shapes = this.video.territories[k].layers.map((l) => ({
+      color: this.video.factions.find((f) => f.id === l.faction)!.color,
+      geo: l.everywhere ? clip ?? ({ type: "Sphere" } as Geo) : this.layerGeo(l),
+    }));
+    return { clip, shapes };
+  }
+
   project(lonLat: [number, number]): [number, number] {
     return this.projection(lonLat) ?? [0, 0];
   }
@@ -286,6 +298,7 @@ export class MapEngine {
     const frontWidth = 2.2 * s;
     const frontZone = 40 * s; // markers crowd within this band of the front
     const [fr, fg, fb] = this.frontRgb;
+    const edgeGlow = this.video.map.edgeGlow;
 
     for (const i of this.landIdx) {
       let best = -1, d1 = -Infinity, d2 = -Infinity;
@@ -294,11 +307,16 @@ export class MapEngine {
         if (d > d1) (d2 = d1), (d1 = d), (best = f);
         else if (d > d2) d2 = d;
       }
+      const o = i * 4;
+      if (edgeGlow && (F === 1 || d2 <= -frontZone) && Math.abs(d1) < 2 * frontWidth) {
+        // Frontier with unclaimed land: a fainter glow straddling the border.
+        frontImg.data[o] = fr, frontImg.data[o + 1] = fg, frontImg.data[o + 2] = fb;
+        frontImg.data[o + 3] = 190 * (1 - Math.abs(d1) / (2 * frontWidth));
+      }
       if (d1 <= -0.5) continue;
       owner[i] = best;
       areaKm2[best] += this.pixelKm2[(i / w) | 0];
       const [r, g, bl] = this.colors[best];
-      const o = i * 4;
       washImg.data[o] = r, washImg.data[o + 1] = g, washImg.data[o + 2] = bl;
       washImg.data[o + 3] = 255 * Math.min(1, d1 + 0.5);
       if (F > 1 && d2 > -frontZone) {
@@ -314,7 +332,7 @@ export class MapEngine {
     front.ctx.putImageData(frontImg, 0, 0);
 
     const markers: DayState["markers"] = [];
-    for (const c of this.candidates) {
+    if (this.video.map.markers) for (const c of this.candidates) {
       const f = owner[c.i];
       if (f < 0) continue;
       const nearFront = gap[c.i] < frontZone;

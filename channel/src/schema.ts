@@ -30,6 +30,11 @@ export const VideoSchema = z.object({
     subtitle: z.string(),
     hook: z.string().optional(), // one line shown over the cold open
     introClip: z.string().optional(), // pre-rendered clip in public/ (e.g. a Blender globe shot) played over the intro
+    // Cold open on a turning globe: spins from `from` to `to` (lon, lat), optionally showing the territory of
+    // `showDate` (e.g. the empire at its peak, as a teaser), then dissolves into the flat map.
+    globe: z.object({ from: LonLat, to: LonLat, showDate: IsoDate.optional() }).optional(),
+    footnote: z.string().default(""), // small print in the sidebar, e.g. "Borders approximate"
+    outro: z.string().default(""), // closing line on the end card (the last outroSeconds, under YouTube's end screen)
     watermark: z.string().default(""),
   }),
 
@@ -41,6 +46,8 @@ export const VideoSchema = z.object({
     landDetail: z.enum(["10m", "50m"]).default("10m"),
     // Countries (Natural Earth names) where territory is painted; other land is drawn as neutral. Empty = all.
     theatre: z.array(z.string()).default([]),
+    markers: z.boolean().default(true), // unit markers (wars); off for empires
+    edgeGlow: z.boolean().default(true), // glow where a faction borders unclaimed land (an empire's frontier)
     labels: z
       .array(
         z.object({
@@ -48,6 +55,8 @@ export const VideoSchema = z.object({
           at: LonLat,
           kind: z.enum(["country", "city", "sea", "region"]).default("country"),
           size: z.number().optional(),
+          from: IsoDate.optional(), // shown only while the place/state existed under this name
+          to: IsoDate.optional(),
         }),
       )
       .default([]),
@@ -147,11 +156,24 @@ export const VideoSchema = z.object({
 
   audio: z
     .object({
-      music: z.array(z.object({ src: z.string(), volume: z.number().default(0.6) })).default([]),
+      music: z
+        .array(z.object({ src: z.string(), volume: z.number().default(0.6), startFrom: z.number().default(0) }))
+        .default([]),
       voiceover: z.string().optional(), // optional narration file; music ducks under it
       eventSfxVolume: z.number().default(0.5),
     })
     .default({ music: [], eventSfxVolume: 0.5 }),
+
+  // Everything the upload needs; scripts/render.mjs writes description.txt from it plus the chapters.
+  youtube: z
+    .object({
+      title: z.string().default(""),
+      summary: z.string().default(""),
+      sources: z.array(z.string()).default([]),
+      credits: z.array(z.string()).default([]), // music credits exactly as the licence requires
+      tags: z.array(z.string()).default([]),
+    })
+    .default({ title: "", summary: "", sources: [], credits: [], tags: [] }),
 
   thumbnail: z
     .object({

@@ -5,7 +5,17 @@
     "title": "The Korean War",
     "subtitle": "25 Jun 1950 - 27 Jul 1953",
     "hook": "The front swept the whole peninsula twice. Then it stopped moving for two years.",
-    "watermark": "Borderclock"
+    "watermark": "Borderclock",
+    "globe": {
+      "from": [
+        70,
+        25
+      ],
+      "to": [
+        127.6,
+        37.8
+      ]
+    }
   },
   "map": {
     "projection": "conicEqualArea",
@@ -897,7 +907,7 @@
   "timeline": {
     "start": "1950-06-25",
     "end": "1953-07-27",
-    "introSeconds": 3,
+    "introSeconds": 5,
     "outroSeconds": 8,
     "daysPerSecond": 3,
     "pace": [

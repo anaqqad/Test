@@ -125,6 +125,9 @@ export const Sidebar: React.FC<Props> = ({ video, day, startDay, frame, eventFra
         </Section>
       )}
 
+      {video.header.footnote && (
+        <div style={{ position: "absolute", bottom: 64, left: 40, right: 40, fontSize: 17, color: theme.muted, opacity: 0.8 }}>{video.header.footnote}</div>
+      )}
       {video.header.watermark && (
         <div style={{ position: "absolute", bottom: 30, left: 40, right: 40, fontFamily: theme.display, fontWeight: 700, fontSize: 18, letterSpacing: 6, color: theme.muted, opacity: 0.7 }}>
           {video.header.watermark.toUpperCase()}

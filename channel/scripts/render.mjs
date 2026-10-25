@@ -5,6 +5,7 @@
 //   node scripts/render.mjs korean-war-demo --range=0-299 -> render only these frames (timing / previews)
 //   options: --concurrency=N, --scale=0.5 (fast preview), --browser=/path/to/chrome (or env REMOTION_BROWSER)
 import fs from "node:fs";
+import { spawnSync } from "node:child_process";
 import path from "node:path";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
@@ -23,7 +24,14 @@ const concurrency = opt("concurrency") ? Number(opt("concurrency")) : null;
 const serveUrl = await bundle({ entryPoint: path.resolve("src/index.ts") });
 const common = { serveUrl, browserExecutable, chromiumOptions: { gl: "swangle" } };
 const composition = await selectComposition({ ...common, id });
-const { events } = composition.props;
+const { events, video } = composition.props;
+
+// Remotion ships its own ffmpeg, so this works on Windows without installing one.
+const ffmpeg = (ffArgs) => {
+  const r = spawnSync(process.platform === "win32" ? "npx.cmd" : "npx", ["remotion", "ffmpeg", ...ffArgs], { encoding: "utf8", shell: process.platform === "win32" });
+  if (r.status !== 0) throw new Error(r.stderr.slice(-2000));
+  return r.stderr;
+};
 const stamp = (frame) => {
   const s = Math.floor(frame / composition.fps);
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
@@ -42,6 +50,7 @@ if (opt("frames")) {
     await still(Math.min(composition.durationInFrames - 1, e.frame + composition.fps), path.join(dir, `${String(i).padStart(2, "0")}-${e.date}.jpg`));
   }
 } else {
+  const raw = path.join(outDir, `${id}.raw.mp4`);
   const mp4 = path.join(outDir, `${id}.mp4`);
   const t0 = Date.now();
   let last = -1;
@@ -52,7 +61,7 @@ if (opt("frames")) {
     crf: 16,
     scale,
     concurrency,
-    outputLocation: mp4,
+    outputLocation: raw,
     frameRange: opt("range") ? String(opt("range")).split("-").map(Number) : null,
     onProgress: ({ progress }) => {
       const pct = Math.floor(progress * 20) * 5;
@@ -61,7 +70,17 @@ if (opt("frames")) {
   });
   const secs = (Date.now() - t0) / 1000;
   const frames = opt("range") ? String(opt("range")).split("-").map(Number).reduce((a, b) => b - a + 1) : composition.durationInFrames;
-  console.log(`\nwrote ${path.relative(".", mp4)} in ${secs.toFixed(0)} s (${((secs * 1000) / frames).toFixed(0)} ms/frame)`);
+  console.log(`\nrendered in ${secs.toFixed(0)} s (${((secs * 1000) / frames).toFixed(0)} ms/frame)`);
+
+  // Two-pass loudness normalisation to YouTube's -14 LUFS, true peak -1 dBTP; video stream copied untouched.
+  const target = "I=-14:TP=-1:LRA=11";
+  const m = ffmpeg(["-hide_banner", "-i", raw, "-af", `loudnorm=${target}:print_format=json`, "-f", "null", "-"]);
+  const j = JSON.parse(m.slice(m.lastIndexOf("{"), m.lastIndexOf("}") + 1));
+  ffmpeg(["-hide_banner", "-y", "-i", raw, "-c:v", "copy", "-af",
+    `loudnorm=${target}:measured_I=${j.input_i}:measured_TP=${j.input_tp}:measured_LRA=${j.input_lra}:measured_thresh=${j.input_thresh}:offset=${j.target_offset}:linear=true`,
+    "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", mp4]);
+  fs.rmSync(raw);
+  console.log(`wrote ${path.relative(".", mp4)} (audio ${j.input_i} -> -14 LUFS)`);
   if (opt("range")) process.exit(0);
 
   const thumb = await selectComposition({ ...common, id: `${id}-thumb` });
@@ -73,6 +92,20 @@ if (opt("frames")) {
     if (e.frame - chapters[chapters.length - 1].frame >= 10 * composition.fps) chapters.push(e);
   }
   const lines = chapters.length >= 3 ? chapters.map((c) => `${stamp(c.frame)} ${c.title}`) : [];
-  fs.writeFileSync(path.join(outDir, "description.txt"), ["[One-line summary of the video]", "", ...lines, "", "Sources:", "[list sources here]", ""].join("\n"));
+  const yt = video.youtube;
+  const desc = [
+    yt.summary || "[One-line summary of the video]",
+    "",
+    ...lines,
+    "",
+    ...(video.header.footnote ? [video.header.footnote, ""] : []),
+    "Sources:",
+    ...(yt.sources.length ? yt.sources.map((s) => `- ${s}`) : ["[list sources here]"]),
+    "",
+    ...(yt.credits.length ? ["Music:", ...yt.credits, ""] : []),
+    "Map data: Natural Earth (public domain).",
+  ];
+  fs.writeFileSync(path.join(outDir, "description.txt"), desc.join("\n") + "\n");
+  fs.writeFileSync(path.join(outDir, "upload.txt"), [`Title: ${yt.title || video.header.title}`, `Tags: ${yt.tags.join(", ")}`, ""].join("\n"));
   console.log("wrote", path.relative(".", path.join(outDir, "description.txt")));
 }

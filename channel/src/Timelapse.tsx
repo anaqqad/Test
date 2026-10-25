@@ -5,7 +5,8 @@ import { buildTimeline, dayNumber } from "./lib/time";
 import { useEngine } from "./lib/useEngine";
 import { MapView } from "./components/MapView";
 import { Sidebar } from "./components/Sidebar";
-import { DraftBanner, EventCaption, ProgressBar, TitleCard } from "./components/Overlays";
+import { DraftBanner, EndCard, EventCaption, ProgressBar, TitleCard } from "./components/Overlays";
+import { GlobeIntro } from "./components/GlobeIntro";
 import { theme } from "./lib/theme";
 
 export type EventMeta = { frame: number; title: string; chapter: boolean; date: string };
@@ -32,15 +33,18 @@ export const Timelapse: React.FC<{ video: Video; events?: EventMeta[] }> = ({ vi
             <OffthreadVideo src={staticFile(video.header.introClip)} muted style={{ width: 1440, height: 1080, objectFit: "cover" }} />
           </Sequence>
         )}
-        <TitleCard video={video} frame={frame} fps={fps} />
+        {!video.header.globe && <TitleCard video={video} frame={frame} fps={fps} />}
+        <EndCard video={video} frame={frame} fps={fps} durationInFrames={durationInFrames} />
       </div>
       <Sidebar video={video} day={day} startDay={tl.startDay} frame={frame} eventFrames={tl.eventFrames} areaKm2={state.areaKm2} />
+      {video.header.globe && frame < video.timeline.introSeconds * fps && <GlobeIntro video={video} engine={engine} frame={frame} fps={fps} />}
       {video.draft && <DraftBanner />}
 
       {video.audio.music.map((m, i) => (
         <Audio
           key={i}
           src={staticFile(m.src)}
+          startFrom={Math.round(m.startFrom * fps)}
           loop
           volume={(f) => m.volume * (video.audio.voiceover ? 0.35 : 1) * interpolate(f, [0, fps, durationInFrames - 3 * fps, durationInFrames], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
         />

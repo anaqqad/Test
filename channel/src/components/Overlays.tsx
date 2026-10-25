@@ -57,3 +57,20 @@ export const DraftBanner: React.FC = () => (
     DRAFT DATA - NOT FACT-CHECKED - DO NOT PUBLISH
   </div>
 );
+
+// End card: the final map dims and one closing line sits at the top, leaving room for YouTube's end-screen
+// elements (video + subscribe) in the middle and bottom.
+export const EndCard: React.FC<{ video: Video; frame: number; fps: number; durationInFrames: number }> = ({ video, frame, fps, durationInFrames }) => {
+  const start = durationInFrames - video.timeline.outroSeconds * fps;
+  const t = interpolate(frame, [start + fps, start + 2 * fps], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  if (t <= 0) return null;
+  return (
+    <div style={{ position: "absolute", left: 0, top: 0, width: VIEWPORT.w, height: VIEWPORT.h, background: `rgba(29,25,20,${0.5 * t})` }}>
+      {video.header.outro && (
+        <div style={{ position: "absolute", left: 80, right: 80, top: 90, opacity: t, textAlign: "center", fontFamily: theme.display, fontWeight: 700, fontSize: 52, lineHeight: 1.2, color: theme.panelText, textShadow: "0 4px 24px rgba(0,0,0,0.6)" }}>
+          {video.header.outro}
+        </div>
+      )}
+    </div>
+  );
+};
