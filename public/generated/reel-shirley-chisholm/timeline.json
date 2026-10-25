@@ -1,0 +1,952 @@
+{
+ "fps": 30,
+ "durationInFrames": 2035,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 165,
+ "wpm": 145.9,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.601,
+   "words": [
+    {
+     "text": "Unbought,",
+     "start": 0.0,
+     "end": 0.511
+    },
+    {
+     "text": "unbossed.",
+     "start": 0.615,
+     "end": 1.184
+    },
+    {
+     "text": "First",
+     "start": 1.37,
+     "end": 1.591
+    },
+    {
+     "text": "Black",
+     "start": 1.625,
+     "end": 1.811
+    },
+    {
+     "text": "congresswoman.",
+     "start": 1.858,
+     "end": 2.601
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 90
+  },
+  {
+   "id": "name",
+   "speechEnd": 4.308,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 3.101,
+     "end": 3.345
+    },
+    {
+     "text": "Shirley",
+     "start": 3.403,
+     "end": 3.693
+    },
+    {
+     "text": "Chisholm.",
+     "start": 3.74,
+     "end": 4.308
+    }
+   ],
+   "cues": {},
+   "startFrame": 90,
+   "endFrame": 141
+  },
+  {
+   "id": "born",
+   "speechEnd": 9.893,
+   "words": [
+    {
+     "text": "Born",
+     "start": 4.808,
+     "end": 5.063
+    },
+    {
+     "text": "in",
+     "start": 5.098,
+     "end": 5.145
+    },
+    {
+     "text": "Brooklyn",
+     "start": 5.18,
+     "end": 5.516
+    },
+    {
+     "text": "in",
+     "start": 5.563,
+     "end": 5.609
+    },
+    {
+     "text": "1924",
+     "start": 5.656,
+     "end": 6.445
+    },
+    {
+     "text": "to",
+     "start": 6.515,
+     "end": 6.573
+    },
+    {
+     "text": "Caribbean",
+     "start": 6.631,
+     "end": 7.002
+    },
+    {
+     "text": "immigrants,",
+     "start": 7.037,
+     "end": 7.571
+    },
+    {
+     "text": "she",
+     "start": 7.838,
+     "end": 7.954
+    },
+    {
+     "text": "spent",
+     "start": 8.001,
+     "end": 8.221
+    },
+    {
+     "text": "part",
+     "start": 8.268,
+     "end": 8.43
+    },
+    {
+     "text": "of",
+     "start": 8.465,
+     "end": 8.512
+    },
+    {
+     "text": "her",
+     "start": 8.546,
+     "end": 8.616
+    },
+    {
+     "text": "childhood",
+     "start": 8.663,
+     "end": 9.069
+    },
+    {
+     "text": "in",
+     "start": 9.104,
+     "end": 9.15
+    },
+    {
+     "text": "Barbados.",
+     "start": 9.208,
+     "end": 9.893
+    }
+   ],
+   "cues": {},
+   "startFrame": 141,
+   "endFrame": 305
+  },
+  {
+   "id": "teacher",
+   "speechEnd": 14.7,
+   "words": [
+    {
+     "text": "A",
+     "start": 10.253,
+     "end": 10.323
+    },
+    {
+     "text": "nursery",
+     "start": 10.392,
+     "end": 10.694
+    },
+    {
+     "text": "school",
+     "start": 10.729,
+     "end": 10.95
+    },
+    {
+     "text": "teacher,",
+     "start": 10.996,
+     "end": 11.31
+    },
+    {
+     "text": "she",
+     "start": 11.333,
+     "end": 11.426
+    },
+    {
+     "text": "won",
+     "start": 11.472,
+     "end": 11.6
+    },
+    {
+     "text": "a",
+     "start": 11.646,
+     "end": 11.669
+    },
+    {
+     "text": "seat",
+     "start": 11.728,
+     "end": 11.913
+    },
+    {
+     "text": "in",
+     "start": 11.948,
+     "end": 12.006
+    },
+    {
+     "text": "the",
+     "start": 12.041,
+     "end": 12.111
+    },
+    {
+     "text": "New",
+     "start": 12.146,
+     "end": 12.227
+    },
+    {
+     "text": "York",
+     "start": 12.262,
+     "end": 12.424
+    },
+    {
+     "text": "State",
+     "start": 12.471,
+     "end": 12.703
+    },
+    {
+     "text": "Assembly",
+     "start": 12.726,
+     "end": 13.109
+    },
+    {
+     "text": "in",
+     "start": 13.167,
+     "end": 13.214
+    },
+    {
+     "text": "1964.",
+     "start": 13.26,
+     "end": 14.7
+    }
+   ],
+   "cues": {},
+   "startFrame": 305,
+   "endFrame": 453
+  },
+  {
+   "id": "congress",
+   "speechEnd": 23.675,
+   "words": [
+    {
+     "text": "In",
+     "start": 15.2,
+     "end": 15.374
+    },
+    {
+     "text": "1968,",
+     "start": 15.421,
+     "end": 16.338
+    },
+    {
+     "text": "she",
+     "start": 16.361,
+     "end": 16.465
+    },
+    {
+     "text": "ran",
+     "start": 16.535,
+     "end": 16.674
+    },
+    {
+     "text": "for",
+     "start": 16.733,
+     "end": 16.837
+    },
+    {
+     "text": "Congress",
+     "start": 16.907,
+     "end": 17.313
+    },
+    {
+     "text": "under",
+     "start": 17.359,
+     "end": 17.534
+    },
+    {
+     "text": "one",
+     "start": 17.615,
+     "end": 17.789
+    },
+    {
+     "text": "slogan:",
+     "start": 17.824,
+     "end": 18.346
+    },
+    {
+     "text": "Unbought",
+     "start": 18.706,
+     "end": 19.24
+    },
+    {
+     "text": "and",
+     "start": 19.31,
+     "end": 19.426
+    },
+    {
+     "text": "Unbossed.",
+     "start": 19.542,
+     "end": 20.332
+    },
+    {
+     "text": "She",
+     "start": 20.692,
+     "end": 20.831
+    },
+    {
+     "text": "won.",
+     "start": 20.9,
+     "end": 21.307
+    },
+    {
+     "text": "The",
+     "start": 21.62,
+     "end": 21.736
+    },
+    {
+     "text": "first",
+     "start": 21.806,
+     "end": 22.073
+    },
+    {
+     "text": "Black",
+     "start": 22.143,
+     "end": 22.41
+    },
+    {
+     "text": "woman",
+     "start": 22.456,
+     "end": 22.712
+    },
+    {
+     "text": "ever",
+     "start": 22.805,
+     "end": 23.048
+    },
+    {
+     "text": "elected.",
+     "start": 23.118,
+     "end": 23.675
+    }
+   ],
+   "cues": {},
+   "startFrame": 453,
+   "endFrame": 720
+  },
+  {
+   "id": "farm",
+   "speechEnd": 29.957,
+   "words": [
+    {
+     "text": "They",
+     "start": 24.093,
+     "end": 24.256
+    },
+    {
+     "text": "put",
+     "start": 24.302,
+     "end": 24.442
+    },
+    {
+     "text": "the",
+     "start": 24.476,
+     "end": 24.546
+    },
+    {
+     "text": "Brooklyn",
+     "start": 24.592,
+     "end": 24.941
+    },
+    {
+     "text": "congresswoman",
+     "start": 25.01,
+     "end": 25.637
+    },
+    {
+     "text": "on",
+     "start": 25.684,
+     "end": 25.753
+    },
+    {
+     "text": "the",
+     "start": 25.788,
+     "end": 25.858
+    },
+    {
+     "text": "Agriculture",
+     "start": 25.928,
+     "end": 26.462
+    },
+    {
+     "text": "Committee.",
+     "start": 26.485,
+     "end": 26.996
+    },
+    {
+     "text": "She",
+     "start": 27.356,
+     "end": 27.495
+    },
+    {
+     "text": "refused,",
+     "start": 27.576,
+     "end": 28.25
+    },
+    {
+     "text": "and",
+     "start": 28.343,
+     "end": 28.505
+    },
+    {
+     "text": "fought",
+     "start": 28.621,
+     "end": 28.935
+    },
+    {
+     "text": "until",
+     "start": 28.993,
+     "end": 29.214
+    },
+    {
+     "text": "they",
+     "start": 29.26,
+     "end": 29.376
+    },
+    {
+     "text": "moved",
+     "start": 29.434,
+     "end": 29.678
+    },
+    {
+     "text": "her.",
+     "start": 29.713,
+     "end": 29.957
+    }
+   ],
+   "cues": {},
+   "startFrame": 720,
+   "endFrame": 913
+  },
+  {
+   "id": "caucus",
+   "speechEnd": 33.881,
+   "words": [
+    {
+     "text": "In",
+     "start": 30.537,
+     "end": 30.665
+    },
+    {
+     "text": "1971,",
+     "start": 30.711,
+     "end": 31.64
+    },
+    {
+     "text": "she",
+     "start": 31.663,
+     "end": 31.768
+    },
+    {
+     "text": "co-founded",
+     "start": 31.837,
+     "end": 32.337
+    },
+    {
+     "text": "the",
+     "start": 32.36,
+     "end": 32.429
+    },
+    {
+     "text": "Congressional",
+     "start": 32.464,
+     "end": 32.964
+    },
+    {
+     "text": "Black",
+     "start": 33.01,
+     "end": 33.242
+    },
+    {
+     "text": "Caucus.",
+     "start": 33.3,
+     "end": 33.881
+    }
+   ],
+   "cues": {},
+   "startFrame": 913,
+   "endFrame": 1028
+  },
+  {
+   "id": "run",
+   "speechEnd": 40.974,
+   "words": [
+    {
+     "text": "In",
+     "start": 34.368,
+     "end": 34.496
+    },
+    {
+     "text": "1972,",
+     "start": 34.542,
+     "end": 35.541
+    },
+    {
+     "text": "she",
+     "start": 35.576,
+     "end": 35.703
+    },
+    {
+     "text": "ran",
+     "start": 35.785,
+     "end": 35.959
+    },
+    {
+     "text": "for",
+     "start": 36.017,
+     "end": 36.121
+    },
+    {
+     "text": "president:",
+     "start": 36.179,
+     "end": 36.76
+    },
+    {
+     "text": "the",
+     "start": 36.957,
+     "end": 37.05
+    },
+    {
+     "text": "first",
+     "start": 37.12,
+     "end": 37.352
+    },
+    {
+     "text": "Black",
+     "start": 37.399,
+     "end": 37.619
+    },
+    {
+     "text": "candidate,",
+     "start": 37.666,
+     "end": 38.107
+    },
+    {
+     "text": "and",
+     "start": 38.13,
+     "end": 38.234
+    },
+    {
+     "text": "the",
+     "start": 38.281,
+     "end": 38.351
+    },
+    {
+     "text": "first",
+     "start": 38.397,
+     "end": 38.652
+    },
+    {
+     "text": "woman,",
+     "start": 38.71,
+     "end": 39.117
+    },
+    {
+     "text": "to",
+     "start": 39.233,
+     "end": 39.326
+    },
+    {
+     "text": "seek",
+     "start": 39.395,
+     "end": 39.604
+    },
+    {
+     "text": "the",
+     "start": 39.662,
+     "end": 39.732
+    },
+    {
+     "text": "Democratic",
+     "start": 39.779,
+     "end": 40.266
+    },
+    {
+     "text": "nomination.",
+     "start": 40.324,
+     "end": 40.974
+    }
+   ],
+   "cues": {},
+   "startFrame": 1028,
+   "endFrame": 1246
+  },
+  {
+   "id": "votes",
+   "speechEnd": 45.99,
+   "words": [
+    {
+     "text": "At",
+     "start": 41.636,
+     "end": 41.764
+    },
+    {
+     "text": "the",
+     "start": 41.799,
+     "end": 41.868
+    },
+    {
+     "text": "convention",
+     "start": 41.915,
+     "end": 42.402
+    },
+    {
+     "text": "she",
+     "start": 42.46,
+     "end": 42.553
+    },
+    {
+     "text": "won",
+     "start": 42.611,
+     "end": 42.762
+    },
+    {
+     "text": "152",
+     "start": 42.878,
+     "end": 43.865
+    },
+    {
+     "text": "delegate",
+     "start": 43.946,
+     "end": 44.33
+    },
+    {
+     "text": "votes,",
+     "start": 44.364,
+     "end": 44.713
+    },
+    {
+     "text": "about",
+     "start": 44.829,
+     "end": 45.084
+    },
+    {
+     "text": "ten",
+     "start": 45.119,
+     "end": 45.282
+    },
+    {
+     "text": "percent.",
+     "start": 45.351,
+     "end": 45.99
+    }
+   ],
+   "cues": {},
+   "startFrame": 1246,
+   "endFrame": 1392
+  },
+  {
+   "id": "terms",
+   "speechEnd": 52.515,
+   "words": [
+    {
+     "text": "She",
+     "start": 46.489,
+     "end": 46.663
+    },
+    {
+     "text": "served",
+     "start": 46.721,
+     "end": 47.0
+    },
+    {
+     "text": "seven",
+     "start": 47.058,
+     "end": 47.325
+    },
+    {
+     "text": "terms,",
+     "start": 47.371,
+     "end": 47.929
+    },
+    {
+     "text": "until",
+     "start": 48.01,
+     "end": 48.265
+    },
+    {
+     "text": "1983,",
+     "start": 48.323,
+     "end": 49.333
+    },
+    {
+     "text": "and",
+     "start": 49.496,
+     "end": 49.635
+    },
+    {
+     "text": "helped",
+     "start": 49.693,
+     "end": 49.902
+    },
+    {
+     "text": "create",
+     "start": 49.96,
+     "end": 50.285
+    },
+    {
+     "text": "the",
+     "start": 50.309,
+     "end": 50.378
+    },
+    {
+     "text": "WIC",
+     "start": 50.436,
+     "end": 50.854
+    },
+    {
+     "text": "program",
+     "start": 50.912,
+     "end": 51.33
+    },
+    {
+     "text": "for",
+     "start": 51.388,
+     "end": 51.493
+    },
+    {
+     "text": "mothers",
+     "start": 51.539,
+     "end": 51.818
+    },
+    {
+     "text": "and",
+     "start": 51.853,
+     "end": 51.922
+    },
+    {
+     "text": "children.",
+     "start": 51.969,
+     "end": 52.515
+    }
+   ],
+   "cues": {},
+   "startFrame": 1392,
+   "endFrame": 1583
+  },
+  {
+   "id": "death",
+   "speechEnd": 58.795,
+   "words": [
+    {
+     "text": "She",
+     "start": 52.874,
+     "end": 53.002
+    },
+    {
+     "text": "died",
+     "start": 53.072,
+     "end": 53.327
+    },
+    {
+     "text": "on",
+     "start": 53.362,
+     "end": 53.432
+    },
+    {
+     "text": "New",
+     "start": 53.49,
+     "end": 53.594
+    },
+    {
+     "text": "Year's",
+     "start": 53.629,
+     "end": 53.815
+    },
+    {
+     "text": "Day,",
+     "start": 53.861,
+     "end": 54.105
+    },
+    {
+     "text": "2005.",
+     "start": 54.14,
+     "end": 55.115
+    },
+    {
+     "text": "In",
+     "start": 55.603,
+     "end": 55.742
+    },
+    {
+     "text": "2015,",
+     "start": 55.8,
+     "end": 56.706
+    },
+    {
+     "text": "she",
+     "start": 56.729,
+     "end": 56.822
+    },
+    {
+     "text": "received",
+     "start": 56.892,
+     "end": 57.263
+    },
+    {
+     "text": "the",
+     "start": 57.286,
+     "end": 57.356
+    },
+    {
+     "text": "Presidential",
+     "start": 57.391,
+     "end": 57.89
+    },
+    {
+     "text": "Medal",
+     "start": 57.936,
+     "end": 58.134
+    },
+    {
+     "text": "of",
+     "start": 58.18,
+     "end": 58.226
+    },
+    {
+     "text": "Freedom.",
+     "start": 58.273,
+     "end": 58.795
+    }
+   ],
+   "cues": {},
+   "startFrame": 1583,
+   "endFrame": 1773
+  },
+  {
+   "id": "end",
+   "speechEnd": 63.718,
+   "words": [
+    {
+     "text": "Unbought.",
+     "start": 59.213,
+     "end": 59.898
+    },
+    {
+     "text": "Unbossed.",
+     "start": 60.13,
+     "end": 60.943
+    },
+    {
+     "text": "The",
+     "start": 61.257,
+     "end": 61.373
+    },
+    {
+     "text": "first",
+     "start": 61.442,
+     "end": 61.698
+    },
+    {
+     "text": "Black",
+     "start": 61.756,
+     "end": 62.0
+    },
+    {
+     "text": "woman",
+     "start": 62.046,
+     "end": 62.267
+    },
+    {
+     "text": "in",
+     "start": 62.302,
+     "end": 62.36
+    },
+    {
+     "text": "Congress.",
+     "start": 62.418,
+     "end": 63.718
+    }
+   ],
+   "cues": {},
+   "startFrame": 1773,
+   "endFrame": 1924
+  },
+  {
+   "id": "cta",
+   "speechEnd": 66.634,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 64.219,
+     "end": 64.544
+    },
+    {
+     "text": "The",
+     "start": 64.591,
+     "end": 64.66
+    },
+    {
+     "text": "Black",
+     "start": 64.695,
+     "end": 64.881
+    },
+    {
+     "text": "History",
+     "start": 64.927,
+     "end": 65.217
+    },
+    {
+     "text": "Room",
+     "start": 65.276,
+     "end": 65.438
+    },
+    {
+     "text": "for",
+     "start": 65.496,
+     "end": 65.601
+    },
+    {
+     "text": "one",
+     "start": 65.67,
+     "end": 65.81
+    },
+    {
+     "text": "story",
+     "start": 65.844,
+     "end": 66.111
+    },
+    {
+     "text": "a",
+     "start": 66.158,
+     "end": 66.181
+    },
+    {
+     "text": "day.",
+     "start": 66.228,
+     "end": 66.634
+    }
+   ],
+   "cues": {},
+   "startFrame": 1924,
+   "endFrame": 2035
+  }
+ ]
+}

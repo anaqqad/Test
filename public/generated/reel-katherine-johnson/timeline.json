@@ -1,0 +1,977 @@
+{
+ "fps": 30,
+ "durationInFrames": 1794,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 170,
+ "wpm": 170.6,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 1.811,
+   "words": [
+    {
+     "text": "John",
+     "start": 0.0,
+     "end": 0.244
+    },
+    {
+     "text": "Glenn",
+     "start": 0.29,
+     "end": 0.511
+    },
+    {
+     "text": "wouldn't",
+     "start": 0.546,
+     "end": 0.801
+    },
+    {
+     "text": "fly",
+     "start": 0.836,
+     "end": 1.022
+    },
+    {
+     "text": "without",
+     "start": 1.08,
+     "end": 1.347
+    },
+    {
+     "text": "her.",
+     "start": 1.382,
+     "end": 1.811
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 66
+  },
+  {
+   "id": "name",
+   "speechEnd": 3.658,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.311,
+     "end": 2.566
+    },
+    {
+     "text": "Katherine",
+     "start": 2.624,
+     "end": 3.008
+    },
+    {
+     "text": "Johnson.",
+     "start": 3.054,
+     "end": 3.658
+    }
+   ],
+   "cues": {},
+   "startFrame": 66,
+   "endFrame": 122
+  },
+  {
+   "id": "school",
+   "speechEnd": 9.8,
+   "words": [
+    {
+     "text": "Born",
+     "start": 4.158,
+     "end": 4.425
+    },
+    {
+     "text": "in",
+     "start": 4.46,
+     "end": 4.506
+    },
+    {
+     "text": "West",
+     "start": 4.553,
+     "end": 4.727
+    },
+    {
+     "text": "Virginia",
+     "start": 4.773,
+     "end": 5.145
+    },
+    {
+     "text": "in",
+     "start": 5.203,
+     "end": 5.261
+    },
+    {
+     "text": "1918,",
+     "start": 5.307,
+     "end": 6.167
+    },
+    {
+     "text": "she",
+     "start": 6.225,
+     "end": 6.364
+    },
+    {
+     "text": "finished",
+     "start": 6.422,
+     "end": 6.701
+    },
+    {
+     "text": "college",
+     "start": 6.747,
+     "end": 7.072
+    },
+    {
+     "text": "at",
+     "start": 7.095,
+     "end": 7.153
+    },
+    {
+     "text": "eighteen,",
+     "start": 7.188,
+     "end": 7.722
+    },
+    {
+     "text": "with",
+     "start": 7.838,
+     "end": 8.013
+    },
+    {
+     "text": "top",
+     "start": 8.071,
+     "end": 8.326
+    },
+    {
+     "text": "honors",
+     "start": 8.396,
+     "end": 8.686
+    },
+    {
+     "text": "in",
+     "start": 8.732,
+     "end": 8.802
+    },
+    {
+     "text": "math",
+     "start": 8.883,
+     "end": 9.162
+    },
+    {
+     "text": "and",
+     "start": 9.208,
+     "end": 9.278
+    },
+    {
+     "text": "French.",
+     "start": 9.336,
+     "end": 9.8
+    }
+   ],
+   "cues": {},
+   "startFrame": 122,
+   "endFrame": 304
+  },
+  {
+   "id": "nasa",
+   "speechEnd": 15.547,
+   "words": [
+    {
+     "text": "In",
+     "start": 10.218,
+     "end": 10.346
+    },
+    {
+     "text": "1953,",
+     "start": 10.393,
+     "end": 11.368
+    },
+    {
+     "text": "Langley",
+     "start": 11.484,
+     "end": 11.855
+    },
+    {
+     "text": "hired",
+     "start": 11.913,
+     "end": 12.215
+    },
+    {
+     "text": "her",
+     "start": 12.25,
+     "end": 12.331
+    },
+    {
+     "text": "as",
+     "start": 12.389,
+     "end": 12.471
+    },
+    {
+     "text": "a",
+     "start": 12.517,
+     "end": 12.54
+    },
+    {
+     "text": "human",
+     "start": 12.587,
+     "end": 12.854
+    },
+    {
+     "text": "computer,",
+     "start": 12.912,
+     "end": 13.492
+    },
+    {
+     "text": "in",
+     "start": 13.69,
+     "end": 13.806
+    },
+    {
+     "text": "a",
+     "start": 13.852,
+     "end": 13.876
+    },
+    {
+     "text": "segregated",
+     "start": 13.934,
+     "end": 14.479
+    },
+    {
+     "text": "unit",
+     "start": 14.549,
+     "end": 14.781
+    },
+    {
+     "text": "of",
+     "start": 14.816,
+     "end": 14.862
+    },
+    {
+     "text": "Black",
+     "start": 14.92,
+     "end": 15.153
+    },
+    {
+     "text": "women.",
+     "start": 15.199,
+     "end": 15.547
+    }
+   ],
+   "cues": {},
+   "startFrame": 304,
+   "endFrame": 474
+  },
+  {
+   "id": "shepard",
+   "speechEnd": 21.573,
+   "words": [
+    {
+     "text": "In",
+     "start": 15.907,
+     "end": 16.035
+    },
+    {
+     "text": "1961,",
+     "start": 16.081,
+     "end": 17.022
+    },
+    {
+     "text": "she",
+     "start": 17.092,
+     "end": 17.231
+    },
+    {
+     "text": "calculated",
+     "start": 17.301,
+     "end": 17.881
+    },
+    {
+     "text": "the",
+     "start": 17.916,
+     "end": 17.986
+    },
+    {
+     "text": "flight",
+     "start": 18.032,
+     "end": 18.299
+    },
+    {
+     "text": "path",
+     "start": 18.346,
+     "end": 18.601
+    },
+    {
+     "text": "of",
+     "start": 18.648,
+     "end": 18.694
+    },
+    {
+     "text": "the",
+     "start": 18.741,
+     "end": 18.81
+    },
+    {
+     "text": "first",
+     "start": 18.857,
+     "end": 19.077
+    },
+    {
+     "text": "American",
+     "start": 19.124,
+     "end": 19.507
+    },
+    {
+     "text": "in",
+     "start": 19.553,
+     "end": 19.611
+    },
+    {
+     "text": "space,",
+     "start": 19.669,
+     "end": 20.11
+    },
+    {
+     "text": "Alan",
+     "start": 20.25,
+     "end": 20.505
+    },
+    {
+     "text": "Shepard.",
+     "start": 20.563,
+     "end": 21.573
+    }
+   ],
+   "cues": {},
+   "startFrame": 474,
+   "endFrame": 659
+  },
+  {
+   "id": "glenn",
+   "speechEnd": 27.588,
+   "words": [
+    {
+     "text": "In",
+     "start": 22.073,
+     "end": 22.247
+    },
+    {
+     "text": "1962,",
+     "start": 22.294,
+     "end": 23.164
+    },
+    {
+     "text": "John",
+     "start": 23.222,
+     "end": 23.443
+    },
+    {
+     "text": "Glenn",
+     "start": 23.489,
+     "end": 23.675
+    },
+    {
+     "text": "was",
+     "start": 23.722,
+     "end": 23.814
+    },
+    {
+     "text": "about",
+     "start": 23.849,
+     "end": 24.07
+    },
+    {
+     "text": "to",
+     "start": 24.105,
+     "end": 24.151
+    },
+    {
+     "text": "orbit",
+     "start": 24.232,
+     "end": 24.499
+    },
+    {
+     "text": "the",
+     "start": 24.534,
+     "end": 24.604
+    },
+    {
+     "text": "Earth.",
+     "start": 24.674,
+     "end": 25.057
+    },
+    {
+     "text": "The",
+     "start": 25.475,
+     "end": 25.591
+    },
+    {
+     "text": "new",
+     "start": 25.649,
+     "end": 25.742
+    },
+    {
+     "text": "electronic",
+     "start": 25.788,
+     "end": 26.229
+    },
+    {
+     "text": "computers",
+     "start": 26.264,
+     "end": 26.659
+    },
+    {
+     "text": "had",
+     "start": 26.694,
+     "end": 26.775
+    },
+    {
+     "text": "done",
+     "start": 26.81,
+     "end": 26.961
+    },
+    {
+     "text": "the",
+     "start": 26.996,
+     "end": 27.065
+    },
+    {
+     "text": "math.",
+     "start": 27.112,
+     "end": 27.588
+    }
+   ],
+   "cues": {},
+   "startFrame": 659,
+   "endFrame": 834
+  },
+  {
+   "id": "check",
+   "speechEnd": 33.555,
+   "words": [
+    {
+     "text": "Glenn",
+     "start": 27.901,
+     "end": 28.122
+    },
+    {
+     "text": "didn't",
+     "start": 28.168,
+     "end": 28.366
+    },
+    {
+     "text": "trust",
+     "start": 28.389,
+     "end": 28.621
+    },
+    {
+     "text": "them.",
+     "start": 28.656,
+     "end": 28.934
+    },
+    {
+     "text": "Get",
+     "start": 29.596,
+     "end": 29.747
+    },
+    {
+     "text": "the",
+     "start": 29.782,
+     "end": 29.852
+    },
+    {
+     "text": "girl,",
+     "start": 29.898,
+     "end": 30.142
+    },
+    {
+     "text": "he",
+     "start": 30.177,
+     "end": 30.235
+    },
+    {
+     "text": "said,",
+     "start": 30.293,
+     "end": 30.502
+    },
+    {
+     "text": "to",
+     "start": 30.525,
+     "end": 30.583
+    },
+    {
+     "text": "check",
+     "start": 30.641,
+     "end": 30.804
+    },
+    {
+     "text": "the",
+     "start": 30.85,
+     "end": 30.92
+    },
+    {
+     "text": "numbers.",
+     "start": 30.955,
+     "end": 31.373
+    },
+    {
+     "text": "If",
+     "start": 31.64,
+     "end": 31.767
+    },
+    {
+     "text": "she",
+     "start": 31.802,
+     "end": 31.883
+    },
+    {
+     "text": "says",
+     "start": 31.941,
+     "end": 32.115
+    },
+    {
+     "text": "they're",
+     "start": 32.15,
+     "end": 32.336
+    },
+    {
+     "text": "good,",
+     "start": 32.359,
+     "end": 32.673
+    },
+    {
+     "text": "I'm",
+     "start": 32.731,
+     "end": 32.882
+    },
+    {
+     "text": "ready",
+     "start": 32.917,
+     "end": 33.091
+    },
+    {
+     "text": "to",
+     "start": 33.126,
+     "end": 33.172
+    },
+    {
+     "text": "go.",
+     "start": 33.23,
+     "end": 33.555
+    }
+   ],
+   "cues": {},
+   "startFrame": 834,
+   "endFrame": 1016
+  },
+  {
+   "id": "launch",
+   "speechEnd": 35.958,
+   "words": [
+    {
+     "text": "She",
+     "start": 33.973,
+     "end": 34.101
+    },
+    {
+     "text": "checked",
+     "start": 34.147,
+     "end": 34.356
+    },
+    {
+     "text": "them",
+     "start": 34.379,
+     "end": 34.484
+    },
+    {
+     "text": "by",
+     "start": 34.519,
+     "end": 34.612
+    },
+    {
+     "text": "hand.",
+     "start": 34.67,
+     "end": 35.018
+    },
+    {
+     "text": "And",
+     "start": 35.25,
+     "end": 35.389
+    },
+    {
+     "text": "he",
+     "start": 35.436,
+     "end": 35.494
+    },
+    {
+     "text": "flew.",
+     "start": 35.552,
+     "end": 35.958
+    }
+   ],
+   "cues": {},
+   "startFrame": 1016,
+   "endFrame": 1090
+  },
+  {
+   "id": "apollo",
+   "speechEnd": 40.045,
+   "words": [
+    {
+     "text": "She",
+     "start": 36.446,
+     "end": 36.574
+    },
+    {
+     "text": "went",
+     "start": 36.62,
+     "end": 36.759
+    },
+    {
+     "text": "on",
+     "start": 36.794,
+     "end": 36.864
+    },
+    {
+     "text": "to",
+     "start": 36.899,
+     "end": 36.945
+    },
+    {
+     "text": "help",
+     "start": 36.992,
+     "end": 37.108
+    },
+    {
+     "text": "calculate",
+     "start": 37.166,
+     "end": 37.607
+    },
+    {
+     "text": "the",
+     "start": 37.63,
+     "end": 37.7
+    },
+    {
+     "text": "path",
+     "start": 37.735,
+     "end": 38.002
+    },
+    {
+     "text": "to",
+     "start": 38.048,
+     "end": 38.106
+    },
+    {
+     "text": "the",
+     "start": 38.176,
+     "end": 38.246
+    },
+    {
+     "text": "Moon",
+     "start": 38.292,
+     "end": 38.489
+    },
+    {
+     "text": "for",
+     "start": 38.547,
+     "end": 38.652
+    },
+    {
+     "text": "Apollo",
+     "start": 38.698,
+     "end": 39.023
+    },
+    {
+     "text": "11.",
+     "start": 39.081,
+     "end": 40.045
+    }
+   ],
+   "cues": {},
+   "startFrame": 1090,
+   "endFrame": 1213
+  },
+  {
+   "id": "retire",
+   "speechEnd": 44.725,
+   "words": [
+    {
+     "text": "She",
+     "start": 40.545,
+     "end": 40.708
+    },
+    {
+     "text": "retired",
+     "start": 40.777,
+     "end": 41.172
+    },
+    {
+     "text": "in",
+     "start": 41.207,
+     "end": 41.253
+    },
+    {
+     "text": "1986,",
+     "start": 41.288,
+     "end": 42.089
+    },
+    {
+     "text": "after",
+     "start": 42.112,
+     "end": 42.31
+    },
+    {
+     "text": "33",
+     "start": 42.379,
+     "end": 42.832
+    },
+    {
+     "text": "years",
+     "start": 42.902,
+     "end": 43.157
+    },
+    {
+     "text": "and",
+     "start": 43.204,
+     "end": 43.285
+    },
+    {
+     "text": "26",
+     "start": 43.355,
+     "end": 43.749
+    },
+    {
+     "text": "research",
+     "start": 43.831,
+     "end": 44.156
+    },
+    {
+     "text": "reports.",
+     "start": 44.202,
+     "end": 44.725
+    }
+   ],
+   "cues": {},
+   "startFrame": 1213,
+   "endFrame": 1348
+  },
+  {
+   "id": "medal",
+   "speechEnd": 49.125,
+   "words": [
+    {
+     "text": "In",
+     "start": 45.038,
+     "end": 45.166
+    },
+    {
+     "text": "2015,",
+     "start": 45.224,
+     "end": 46.083
+    },
+    {
+     "text": "at",
+     "start": 46.106,
+     "end": 46.176
+    },
+    {
+     "text": "97,",
+     "start": 46.245,
+     "end": 46.93
+    },
+    {
+     "text": "she",
+     "start": 47.128,
+     "end": 47.244
+    },
+    {
+     "text": "received",
+     "start": 47.302,
+     "end": 47.615
+    },
+    {
+     "text": "the",
+     "start": 47.639,
+     "end": 47.708
+    },
+    {
+     "text": "Presidential",
+     "start": 47.755,
+     "end": 48.289
+    },
+    {
+     "text": "Medal",
+     "start": 48.347,
+     "end": 48.556
+    },
+    {
+     "text": "of",
+     "start": 48.602,
+     "end": 48.649
+    },
+    {
+     "text": "Freedom.",
+     "start": 48.695,
+     "end": 49.125
+    }
+   ],
+   "cues": {},
+   "startFrame": 1348,
+   "endFrame": 1482
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 55.592,
+   "words": [
+    {
+     "text": "She",
+     "start": 49.485,
+     "end": 49.624
+    },
+    {
+     "text": "died",
+     "start": 49.682,
+     "end": 49.903
+    },
+    {
+     "text": "in",
+     "start": 49.937,
+     "end": 49.996
+    },
+    {
+     "text": "2020,",
+     "start": 50.065,
+     "end": 50.808
+    },
+    {
+     "text": "at",
+     "start": 50.855,
+     "end": 51.006
+    },
+    {
+     "text": "101.",
+     "start": 51.075,
+     "end": 51.772
+    },
+    {
+     "text": "The",
+     "start": 52.19,
+     "end": 52.306
+    },
+    {
+     "text": "man",
+     "start": 52.352,
+     "end": 52.515
+    },
+    {
+     "text": "who",
+     "start": 52.561,
+     "end": 52.666
+    },
+    {
+     "text": "orbited",
+     "start": 52.747,
+     "end": 53.084
+    },
+    {
+     "text": "the",
+     "start": 53.119,
+     "end": 53.188
+    },
+    {
+     "text": "Earth",
+     "start": 53.246,
+     "end": 53.444
+    },
+    {
+     "text": "trusted",
+     "start": 53.502,
+     "end": 53.885
+    },
+    {
+     "text": "her",
+     "start": 53.943,
+     "end": 54.059
+    },
+    {
+     "text": "more",
+     "start": 54.152,
+     "end": 54.349
+    },
+    {
+     "text": "than",
+     "start": 54.384,
+     "end": 54.5
+    },
+    {
+     "text": "the",
+     "start": 54.535,
+     "end": 54.605
+    },
+    {
+     "text": "machine.",
+     "start": 54.64,
+     "end": 55.592
+    }
+   ],
+   "cues": {},
+   "startFrame": 1482,
+   "endFrame": 1680
+  },
+  {
+   "id": "cta",
+   "speechEnd": 58.6,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 56.092,
+     "end": 56.429
+    },
+    {
+     "text": "The",
+     "start": 56.475,
+     "end": 56.545
+    },
+    {
+     "text": "Black",
+     "start": 56.58,
+     "end": 56.765
+    },
+    {
+     "text": "History",
+     "start": 56.812,
+     "end": 57.102
+    },
+    {
+     "text": "Room",
+     "start": 57.16,
+     "end": 57.334
+    },
+    {
+     "text": "for",
+     "start": 57.392,
+     "end": 57.497
+    },
+    {
+     "text": "one",
+     "start": 57.566,
+     "end": 57.706
+    },
+    {
+     "text": "story",
+     "start": 57.741,
+     "end": 58.008
+    },
+    {
+     "text": "a",
+     "start": 58.054,
+     "end": 58.077
+    },
+    {
+     "text": "day.",
+     "start": 58.124,
+     "end": 58.6
+    }
+   ],
+   "cues": {},
+   "startFrame": 1680,
+   "endFrame": 1794
+  }
+ ]
+}

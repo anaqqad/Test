@@ -1,0 +1,977 @@
+{
+ "fps": 30,
+ "durationInFrames": 1921,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 170,
+ "wpm": 159.3,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 1.904,
+   "words": [
+    {
+     "text": "Edison",
+     "start": 0.0,
+     "end": 0.348
+    },
+    {
+     "text": "invented",
+     "start": 0.395,
+     "end": 0.685
+    },
+    {
+     "text": "the",
+     "start": 0.708,
+     "end": 0.778
+    },
+    {
+     "text": "bulb.",
+     "start": 0.813,
+     "end": 1.057
+    },
+    {
+     "text": "He",
+     "start": 1.08,
+     "end": 1.126
+    },
+    {
+     "text": "made",
+     "start": 1.173,
+     "end": 1.312
+    },
+    {
+     "text": "it",
+     "start": 1.335,
+     "end": 1.382
+    },
+    {
+     "text": "last.",
+     "start": 1.416,
+     "end": 1.904
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 69
+  },
+  {
+   "id": "name",
+   "speechEnd": 3.797,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.404,
+     "end": 2.648
+    },
+    {
+     "text": "Lewis",
+     "start": 2.706,
+     "end": 2.938
+    },
+    {
+     "text": "Latimer.",
+     "start": 2.996,
+     "end": 3.797
+    }
+   ],
+   "cues": {},
+   "startFrame": 69,
+   "endFrame": 126
+  },
+  {
+   "id": "born",
+   "speechEnd": 8.79,
+   "words": [
+    {
+     "text": "Born",
+     "start": 4.297,
+     "end": 4.576
+    },
+    {
+     "text": "in",
+     "start": 4.61,
+     "end": 4.669
+    },
+    {
+     "text": "Massachusetts",
+     "start": 4.715,
+     "end": 5.388
+    },
+    {
+     "text": "in",
+     "start": 5.423,
+     "end": 5.481
+    },
+    {
+     "text": "1848,",
+     "start": 5.516,
+     "end": 6.422
+    },
+    {
+     "text": "to",
+     "start": 6.561,
+     "end": 6.665
+    },
+    {
+     "text": "parents",
+     "start": 6.735,
+     "end": 7.014
+    },
+    {
+     "text": "who",
+     "start": 7.037,
+     "end": 7.107
+    },
+    {
+     "text": "had",
+     "start": 7.153,
+     "end": 7.234
+    },
+    {
+     "text": "escaped",
+     "start": 7.281,
+     "end": 7.652
+    },
+    {
+     "text": "slavery",
+     "start": 7.687,
+     "end": 8.082
+    },
+    {
+     "text": "in",
+     "start": 8.117,
+     "end": 8.163
+    },
+    {
+     "text": "Virginia.",
+     "start": 8.21,
+     "end": 8.79
+    }
+   ],
+   "cues": {},
+   "startFrame": 126,
+   "endFrame": 278
+  },
+  {
+   "id": "navy",
+   "speechEnd": 13.573,
+   "words": [
+    {
+     "text": "At",
+     "start": 9.371,
+     "end": 9.51
+    },
+    {
+     "text": "sixteen,",
+     "start": 9.568,
+     "end": 10.137
+    },
+    {
+     "text": "he",
+     "start": 10.183,
+     "end": 10.265
+    },
+    {
+     "text": "joined",
+     "start": 10.346,
+     "end": 10.578
+    },
+    {
+     "text": "the",
+     "start": 10.601,
+     "end": 10.671
+    },
+    {
+     "text": "Union",
+     "start": 10.741,
+     "end": 10.973
+    },
+    {
+     "text": "Navy",
+     "start": 11.031,
+     "end": 11.344
+    },
+    {
+     "text": "and",
+     "start": 11.542,
+     "end": 11.704
+    },
+    {
+     "text": "served",
+     "start": 11.774,
+     "end": 12.029
+    },
+    {
+     "text": "on",
+     "start": 12.064,
+     "end": 12.122
+    },
+    {
+     "text": "a",
+     "start": 12.157,
+     "end": 12.18
+    },
+    {
+     "text": "gunboat",
+     "start": 12.25,
+     "end": 12.633
+    },
+    {
+     "text": "in",
+     "start": 12.679,
+     "end": 12.726
+    },
+    {
+     "text": "the",
+     "start": 12.761,
+     "end": 12.83
+    },
+    {
+     "text": "Civil",
+     "start": 12.865,
+     "end": 13.086
+    },
+    {
+     "text": "War.",
+     "start": 13.144,
+     "end": 13.573
+    }
+   ],
+   "cues": {},
+   "startFrame": 278,
+   "endFrame": 417
+  },
+  {
+   "id": "office",
+   "speechEnd": 19.529,
+   "words": [
+    {
+     "text": "As",
+     "start": 13.991,
+     "end": 14.165
+    },
+    {
+     "text": "an",
+     "start": 14.2,
+     "end": 14.258
+    },
+    {
+     "text": "office",
+     "start": 14.305,
+     "end": 14.583
+    },
+    {
+     "text": "boy",
+     "start": 14.618,
+     "end": 14.827
+    },
+    {
+     "text": "at",
+     "start": 14.862,
+     "end": 14.92
+    },
+    {
+     "text": "a",
+     "start": 14.955,
+     "end": 14.978
+    },
+    {
+     "text": "patent",
+     "start": 15.025,
+     "end": 15.315
+    },
+    {
+     "text": "law",
+     "start": 15.35,
+     "end": 15.489
+    },
+    {
+     "text": "firm,",
+     "start": 15.559,
+     "end": 15.93
+    },
+    {
+     "text": "he",
+     "start": 16.128,
+     "end": 16.197
+    },
+    {
+     "text": "taught",
+     "start": 16.255,
+     "end": 16.476
+    },
+    {
+     "text": "himself",
+     "start": 16.499,
+     "end": 16.801
+    },
+    {
+     "text": "drawing,",
+     "start": 16.859,
+     "end": 17.37
+    },
+    {
+     "text": "and",
+     "start": 17.567,
+     "end": 17.718
+    },
+    {
+     "text": "rose",
+     "start": 17.788,
+     "end": 18.09
+    },
+    {
+     "text": "to",
+     "start": 18.124,
+     "end": 18.194
+    },
+    {
+     "text": "chief",
+     "start": 18.264,
+     "end": 18.484
+    },
+    {
+     "text": "draftsman.",
+     "start": 18.531,
+     "end": 19.529
+    }
+   ],
+   "cues": {},
+   "startFrame": 417,
+   "endFrame": 598
+  },
+  {
+   "id": "bell",
+   "speechEnd": 24.43,
+   "words": [
+    {
+     "text": "In",
+     "start": 20.03,
+     "end": 20.181
+    },
+    {
+     "text": "1876,",
+     "start": 20.216,
+     "end": 21.319
+    },
+    {
+     "text": "he",
+     "start": 21.458,
+     "end": 21.539
+    },
+    {
+     "text": "drew",
+     "start": 21.586,
+     "end": 21.748
+    },
+    {
+     "text": "the",
+     "start": 21.783,
+     "end": 21.853
+    },
+    {
+     "text": "patent",
+     "start": 21.888,
+     "end": 22.155
+    },
+    {
+     "text": "drawings",
+     "start": 22.189,
+     "end": 22.561
+    },
+    {
+     "text": "for",
+     "start": 22.607,
+     "end": 22.712
+    },
+    {
+     "text": "Alexander",
+     "start": 22.77,
+     "end": 23.211
+    },
+    {
+     "text": "Graham",
+     "start": 23.258,
+     "end": 23.49
+    },
+    {
+     "text": "Bell's",
+     "start": 23.525,
+     "end": 23.757
+    },
+    {
+     "text": "telephone.",
+     "start": 23.792,
+     "end": 24.43
+    }
+   ],
+   "cues": {},
+   "startFrame": 598,
+   "endFrame": 747
+  },
+  {
+   "id": "maxim",
+   "speechEnd": 29.84,
+   "words": [
+    {
+     "text": "In",
+     "start": 25.011,
+     "end": 25.15
+    },
+    {
+     "text": "1880,",
+     "start": 25.185,
+     "end": 25.835
+    },
+    {
+     "text": "Edison's",
+     "start": 26.067,
+     "end": 26.497
+    },
+    {
+     "text": "rival",
+     "start": 26.555,
+     "end": 26.857
+    },
+    {
+     "text": "Hiram",
+     "start": 26.938,
+     "end": 27.263
+    },
+    {
+     "text": "Maxim",
+     "start": 27.321,
+     "end": 27.751
+    },
+    {
+     "text": "hired",
+     "start": 28.018,
+     "end": 28.331
+    },
+    {
+     "text": "him",
+     "start": 28.366,
+     "end": 28.459
+    },
+    {
+     "text": "to",
+     "start": 28.517,
+     "end": 28.587
+    },
+    {
+     "text": "work",
+     "start": 28.668,
+     "end": 28.877
+    },
+    {
+     "text": "on",
+     "start": 28.935,
+     "end": 29.005
+    },
+    {
+     "text": "electric",
+     "start": 29.063,
+     "end": 29.411
+    },
+    {
+     "text": "light.",
+     "start": 29.481,
+     "end": 29.84
+    }
+   ],
+   "cues": {},
+   "startFrame": 747,
+   "endFrame": 912
+  },
+  {
+   "id": "patent",
+   "speechEnd": 35.448,
+   "words": [
+    {
+     "text": "In",
+     "start": 30.502,
+     "end": 30.642
+    },
+    {
+     "text": "1882,",
+     "start": 30.676,
+     "end": 31.535
+    },
+    {
+     "text": "he",
+     "start": 31.733,
+     "end": 31.814
+    },
+    {
+     "text": "patented",
+     "start": 31.884,
+     "end": 32.302
+    },
+    {
+     "text": "a",
+     "start": 32.337,
+     "end": 32.36
+    },
+    {
+     "text": "better",
+     "start": 32.406,
+     "end": 32.615
+    },
+    {
+     "text": "way",
+     "start": 32.673,
+     "end": 32.813
+    },
+    {
+     "text": "to",
+     "start": 32.871,
+     "end": 32.929
+    },
+    {
+     "text": "make",
+     "start": 32.998,
+     "end": 33.195
+    },
+    {
+     "text": "the",
+     "start": 33.23,
+     "end": 33.3
+    },
+    {
+     "text": "carbon",
+     "start": 33.346,
+     "end": 33.637
+    },
+    {
+     "text": "filament,",
+     "start": 33.683,
+     "end": 34.217
+    },
+    {
+     "text": "the",
+     "start": 34.414,
+     "end": 34.507
+    },
+    {
+     "text": "part",
+     "start": 34.554,
+     "end": 34.74
+    },
+    {
+     "text": "that",
+     "start": 34.774,
+     "end": 34.879
+    },
+    {
+     "text": "glows.",
+     "start": 34.914,
+     "end": 35.448
+    }
+   ],
+   "cues": {},
+   "startFrame": 912,
+   "endFrame": 1078
+  },
+  {
+   "id": "cities",
+   "speechEnd": 39.848,
+   "words": [
+    {
+     "text": "He",
+     "start": 36.028,
+     "end": 36.133
+    },
+    {
+     "text": "then",
+     "start": 36.179,
+     "end": 36.319
+    },
+    {
+     "text": "supervised",
+     "start": 36.377,
+     "end": 36.876
+    },
+    {
+     "text": "electric",
+     "start": 36.911,
+     "end": 37.259
+    },
+    {
+     "text": "lighting",
+     "start": 37.329,
+     "end": 37.584
+    },
+    {
+     "text": "installations",
+     "start": 37.619,
+     "end": 38.176
+    },
+    {
+     "text": "in",
+     "start": 38.223,
+     "end": 38.281
+    },
+    {
+     "text": "New",
+     "start": 38.327,
+     "end": 38.432
+    },
+    {
+     "text": "York,",
+     "start": 38.478,
+     "end": 38.745
+    },
+    {
+     "text": "Montreal",
+     "start": 38.78,
+     "end": 39.244
+    },
+    {
+     "text": "and",
+     "start": 39.302,
+     "end": 39.372
+    },
+    {
+     "text": "London.",
+     "start": 39.418,
+     "end": 39.848
+    }
+   ],
+   "cues": {},
+   "startFrame": 1078,
+   "endFrame": 1205
+  },
+  {
+   "id": "edison",
+   "speechEnd": 47.104,
+   "words": [
+    {
+     "text": "In",
+     "start": 40.266,
+     "end": 40.405
+    },
+    {
+     "text": "1884,",
+     "start": 40.44,
+     "end": 41.369
+    },
+    {
+     "text": "Edison's",
+     "start": 41.566,
+     "end": 41.996
+    },
+    {
+     "text": "own",
+     "start": 42.054,
+     "end": 42.228
+    },
+    {
+     "text": "company",
+     "start": 42.298,
+     "end": 42.646
+    },
+    {
+     "text": "hired",
+     "start": 42.704,
+     "end": 42.971
+    },
+    {
+     "text": "him",
+     "start": 43.006,
+     "end": 43.087
+    },
+    {
+     "text": "as",
+     "start": 43.122,
+     "end": 43.192
+    },
+    {
+     "text": "a",
+     "start": 43.238,
+     "end": 43.273
+    },
+    {
+     "text": "patent",
+     "start": 43.319,
+     "end": 43.668
+    },
+    {
+     "text": "expert.",
+     "start": 43.726,
+     "end": 44.237
+    },
+    {
+     "text": "He",
+     "start": 44.724,
+     "end": 44.829
+    },
+    {
+     "text": "wrote",
+     "start": 44.875,
+     "end": 45.061
+    },
+    {
+     "text": "the",
+     "start": 45.084,
+     "end": 45.154
+    },
+    {
+     "text": "standard",
+     "start": 45.189,
+     "end": 45.537
+    },
+    {
+     "text": "book",
+     "start": 45.56,
+     "end": 45.723
+    },
+    {
+     "text": "on",
+     "start": 45.769,
+     "end": 45.827
+    },
+    {
+     "text": "electric",
+     "start": 45.885,
+     "end": 46.222
+    },
+    {
+     "text": "lighting.",
+     "start": 46.291,
+     "end": 47.104
+    }
+   ],
+   "cues": {},
+   "startFrame": 1205,
+   "endFrame": 1425
+  },
+  {
+   "id": "pioneers",
+   "speechEnd": 52.434,
+   "words": [
+    {
+     "text": "In",
+     "start": 47.604,
+     "end": 47.767
+    },
+    {
+     "text": "1918,",
+     "start": 47.813,
+     "end": 48.498
+    },
+    {
+     "text": "he",
+     "start": 48.533,
+     "end": 48.579
+    },
+    {
+     "text": "was",
+     "start": 48.626,
+     "end": 48.719
+    },
+    {
+     "text": "named",
+     "start": 48.765,
+     "end": 48.951
+    },
+    {
+     "text": "one",
+     "start": 48.986,
+     "end": 49.078
+    },
+    {
+     "text": "of",
+     "start": 49.113,
+     "end": 49.16
+    },
+    {
+     "text": "the",
+     "start": 49.195,
+     "end": 49.264
+    },
+    {
+     "text": "28",
+     "start": 49.334,
+     "end": 49.763
+    },
+    {
+     "text": "Edison",
+     "start": 49.856,
+     "end": 50.181
+    },
+    {
+     "text": "Pioneers.",
+     "start": 50.239,
+     "end": 50.948
+    },
+    {
+     "text": "The",
+     "start": 51.366,
+     "end": 51.482
+    },
+    {
+     "text": "only",
+     "start": 51.54,
+     "end": 51.714
+    },
+    {
+     "text": "Black",
+     "start": 51.76,
+     "end": 51.969
+    },
+    {
+     "text": "member.",
+     "start": 52.039,
+     "end": 52.434
+    }
+   ],
+   "cues": {},
+   "startFrame": 1425,
+   "endFrame": 1587
+  },
+  {
+   "id": "death",
+   "speechEnd": 59.864,
+   "words": [
+    {
+     "text": "Lewis",
+     "start": 53.014,
+     "end": 53.246
+    },
+    {
+     "text": "Latimer",
+     "start": 53.304,
+     "end": 53.63
+    },
+    {
+     "text": "died",
+     "start": 53.688,
+     "end": 53.931
+    },
+    {
+     "text": "in",
+     "start": 53.966,
+     "end": 54.013
+    },
+    {
+     "text": "1928,",
+     "start": 54.059,
+     "end": 54.918
+    },
+    {
+     "text": "at",
+     "start": 54.988,
+     "end": 55.139
+    },
+    {
+     "text": "80.",
+     "start": 55.22,
+     "end": 55.615
+    },
+    {
+     "text": "Edison",
+     "start": 56.195,
+     "end": 56.567
+    },
+    {
+     "text": "invented",
+     "start": 56.613,
+     "end": 56.985
+    },
+    {
+     "text": "the",
+     "start": 57.008,
+     "end": 57.078
+    },
+    {
+     "text": "bulb.",
+     "start": 57.124,
+     "end": 57.589
+    },
+    {
+     "text": "Latimer",
+     "start": 58.076,
+     "end": 58.436
+    },
+    {
+     "text": "made",
+     "start": 58.483,
+     "end": 58.645
+    },
+    {
+     "text": "it",
+     "start": 58.68,
+     "end": 58.738
+    },
+    {
+     "text": "last.",
+     "start": 58.796,
+     "end": 59.864
+    }
+   ],
+   "cues": {},
+   "startFrame": 1587,
+   "endFrame": 1808
+  },
+  {
+   "id": "cta",
+   "speechEnd": 62.825,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 60.364,
+     "end": 60.701
+    },
+    {
+     "text": "The",
+     "start": 60.747,
+     "end": 60.817
+    },
+    {
+     "text": "Black",
+     "start": 60.852,
+     "end": 61.049
+    },
+    {
+     "text": "History",
+     "start": 61.095,
+     "end": 61.362
+    },
+    {
+     "text": "Room",
+     "start": 61.421,
+     "end": 61.583
+    },
+    {
+     "text": "for",
+     "start": 61.641,
+     "end": 61.746
+    },
+    {
+     "text": "one",
+     "start": 61.815,
+     "end": 61.978
+    },
+    {
+     "text": "story",
+     "start": 62.013,
+     "end": 62.291
+    },
+    {
+     "text": "a",
+     "start": 62.338,
+     "end": 62.361
+    },
+    {
+     "text": "day.",
+     "start": 62.407,
+     "end": 62.825
+    }
+   ],
+   "cues": {},
+   "startFrame": 1808,
+   "endFrame": 1921
+  }
+ ]
+}

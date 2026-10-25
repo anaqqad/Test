@@ -1,0 +1,977 @@
+{
+ "fps": 30,
+ "durationInFrames": 1898,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 170,
+ "wpm": 161.2,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.229,
+   "words": [
+    {
+     "text": "King",
+     "start": 0.0,
+     "end": 0.232
+    },
+    {
+     "text": "had",
+     "start": 0.279,
+     "end": 0.395
+    },
+    {
+     "text": "the",
+     "start": 0.43,
+     "end": 0.499
+    },
+    {
+     "text": "dream.",
+     "start": 0.534,
+     "end": 0.94
+    },
+    {
+     "text": "He",
+     "start": 1.138,
+     "end": 1.254
+    },
+    {
+     "text": "built",
+     "start": 1.312,
+     "end": 1.498
+    },
+    {
+     "text": "the",
+     "start": 1.533,
+     "end": 1.602
+    },
+    {
+     "text": "march.",
+     "start": 1.649,
+     "end": 2.229
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 79
+  },
+  {
+   "id": "name",
+   "speechEnd": 4.076,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.729,
+     "end": 2.973
+    },
+    {
+     "text": "Bayard",
+     "start": 3.031,
+     "end": 3.298
+    },
+    {
+     "text": "Rustin.",
+     "start": 3.344,
+     "end": 4.076
+    }
+   ],
+   "cues": {},
+   "startFrame": 79,
+   "endFrame": 134
+  },
+  {
+   "id": "ride",
+   "speechEnd": 10.242,
+   "words": [
+    {
+     "text": "In",
+     "start": 4.576,
+     "end": 4.75
+    },
+    {
+     "text": "1947,",
+     "start": 4.797,
+     "end": 5.656
+    },
+    {
+     "text": "he",
+     "start": 5.702,
+     "end": 5.76
+    },
+    {
+     "text": "rode",
+     "start": 5.83,
+     "end": 6.039
+    },
+    {
+     "text": "buses",
+     "start": 6.074,
+     "end": 6.399
+    },
+    {
+     "text": "through",
+     "start": 6.434,
+     "end": 6.619
+    },
+    {
+     "text": "the",
+     "start": 6.654,
+     "end": 6.724
+    },
+    {
+     "text": "South",
+     "start": 6.759,
+     "end": 7.037
+    },
+    {
+     "text": "to",
+     "start": 7.084,
+     "end": 7.153
+    },
+    {
+     "text": "challenge",
+     "start": 7.223,
+     "end": 7.606
+    },
+    {
+     "text": "segregation,",
+     "start": 7.641,
+     "end": 8.465
+    },
+    {
+     "text": "and",
+     "start": 8.581,
+     "end": 8.721
+    },
+    {
+     "text": "was",
+     "start": 8.767,
+     "end": 8.872
+    },
+    {
+     "text": "sentenced",
+     "start": 8.918,
+     "end": 9.255
+    },
+    {
+     "text": "to",
+     "start": 9.278,
+     "end": 9.336
+    },
+    {
+     "text": "a",
+     "start": 9.417,
+     "end": 9.441
+    },
+    {
+     "text": "chain",
+     "start": 9.487,
+     "end": 9.742
+    },
+    {
+     "text": "gang.",
+     "start": 9.812,
+     "end": 10.242
+    }
+   ],
+   "cues": {},
+   "startFrame": 134,
+   "endFrame": 315
+  },
+  {
+   "id": "king",
+   "speechEnd": 15.118,
+   "words": [
+    {
+     "text": "In",
+     "start": 10.602,
+     "end": 10.753
+    },
+    {
+     "text": "Montgomery,",
+     "start": 10.799,
+     "end": 11.437
+    },
+    {
+     "text": "he",
+     "start": 11.53,
+     "end": 11.612
+    },
+    {
+     "text": "became",
+     "start": 11.681,
+     "end": 11.96
+    },
+    {
+     "text": "a",
+     "start": 11.995,
+     "end": 12.018
+    },
+    {
+     "text": "close",
+     "start": 12.064,
+     "end": 12.355
+    },
+    {
+     "text": "adviser",
+     "start": 12.39,
+     "end": 12.807
+    },
+    {
+     "text": "to",
+     "start": 12.877,
+     "end": 12.947
+    },
+    {
+     "text": "a",
+     "start": 13.04,
+     "end": 13.063
+    },
+    {
+     "text": "young",
+     "start": 13.133,
+     "end": 13.318
+    },
+    {
+     "text": "Martin",
+     "start": 13.388,
+     "end": 13.643
+    },
+    {
+     "text": "Luther",
+     "start": 13.678,
+     "end": 13.91
+    },
+    {
+     "text": "King",
+     "start": 13.968,
+     "end": 14.166
+    },
+    {
+     "text": "Jr.",
+     "start": 14.247,
+     "end": 15.118
+    }
+   ],
+   "cues": {},
+   "startFrame": 315,
+   "endFrame": 466
+  },
+  {
+   "id": "gay",
+   "speechEnd": 19.565,
+   "words": [
+    {
+     "text": "But",
+     "start": 15.618,
+     "end": 15.827
+    },
+    {
+     "text": "Rustin",
+     "start": 15.885,
+     "end": 16.198
+    },
+    {
+     "text": "was",
+     "start": 16.245,
+     "end": 16.349
+    },
+    {
+     "text": "gay,",
+     "start": 16.407,
+     "end": 16.779
+    },
+    {
+     "text": "and",
+     "start": 16.895,
+     "end": 17.046
+    },
+    {
+     "text": "some",
+     "start": 17.127,
+     "end": 17.325
+    },
+    {
+     "text": "leaders",
+     "start": 17.359,
+     "end": 17.638
+    },
+    {
+     "text": "feared",
+     "start": 17.696,
+     "end": 17.94
+    },
+    {
+     "text": "it",
+     "start": 17.963,
+     "end": 18.01
+    },
+    {
+     "text": "would",
+     "start": 18.033,
+     "end": 18.161
+    },
+    {
+     "text": "be",
+     "start": 18.195,
+     "end": 18.265
+    },
+    {
+     "text": "used",
+     "start": 18.335,
+     "end": 18.579
+    },
+    {
+     "text": "against",
+     "start": 18.613,
+     "end": 18.915
+    },
+    {
+     "text": "the",
+     "start": 18.962,
+     "end": 19.031
+    },
+    {
+     "text": "movement.",
+     "start": 19.078,
+     "end": 19.565
+    }
+   ],
+   "cues": {},
+   "startFrame": 466,
+   "endFrame": 596
+  },
+  {
+   "id": "march",
+   "speechEnd": 24.418,
+   "words": [
+    {
+     "text": "In",
+     "start": 19.983,
+     "end": 20.111
+    },
+    {
+     "text": "1963,",
+     "start": 20.158,
+     "end": 21.26
+    },
+    {
+     "text": "he",
+     "start": 21.4,
+     "end": 21.481
+    },
+    {
+     "text": "had",
+     "start": 21.539,
+     "end": 21.655
+    },
+    {
+     "text": "less",
+     "start": 21.713,
+     "end": 21.887
+    },
+    {
+     "text": "than",
+     "start": 21.922,
+     "end": 22.05
+    },
+    {
+     "text": "two",
+     "start": 22.108,
+     "end": 22.271
+    },
+    {
+     "text": "months",
+     "start": 22.352,
+     "end": 22.584
+    },
+    {
+     "text": "to",
+     "start": 22.619,
+     "end": 22.688
+    },
+    {
+     "text": "organize",
+     "start": 22.758,
+     "end": 23.199
+    },
+    {
+     "text": "the",
+     "start": 23.234,
+     "end": 23.304
+    },
+    {
+     "text": "March",
+     "start": 23.35,
+     "end": 23.606
+    },
+    {
+     "text": "on",
+     "start": 23.652,
+     "end": 23.722
+    },
+    {
+     "text": "Washington.",
+     "start": 23.791,
+     "end": 24.418
+    }
+   ],
+   "cues": {},
+   "startFrame": 596,
+   "endFrame": 742
+  },
+  {
+   "id": "crowd",
+   "speechEnd": 32.174,
+   "words": [
+    {
+     "text": "On",
+     "start": 24.836,
+     "end": 24.987
+    },
+    {
+     "text": "August",
+     "start": 25.034,
+     "end": 25.301
+    },
+    {
+     "text": "28,",
+     "start": 25.336,
+     "end": 25.893
+    },
+    {
+     "text": "more",
+     "start": 26.09,
+     "end": 26.23
+    },
+    {
+     "text": "than",
+     "start": 26.264,
+     "end": 26.381
+    },
+    {
+     "text": "250,000",
+     "start": 26.45,
+     "end": 27.786
+    },
+    {
+     "text": "people",
+     "start": 27.844,
+     "end": 28.111
+    },
+    {
+     "text": "came.",
+     "start": 28.157,
+     "end": 28.564
+    },
+    {
+     "text": "It",
+     "start": 29.225,
+     "end": 29.341
+    },
+    {
+     "text": "was",
+     "start": 29.376,
+     "end": 29.481
+    },
+    {
+     "text": "one",
+     "start": 29.539,
+     "end": 29.643
+    },
+    {
+     "text": "of",
+     "start": 29.666,
+     "end": 29.713
+    },
+    {
+     "text": "the",
+     "start": 29.748,
+     "end": 29.817
+    },
+    {
+     "text": "largest",
+     "start": 29.875,
+     "end": 30.235
+    },
+    {
+     "text": "demonstrations",
+     "start": 30.27,
+     "end": 30.897
+    },
+    {
+     "text": "the",
+     "start": 30.944,
+     "end": 31.013
+    },
+    {
+     "text": "country",
+     "start": 31.071,
+     "end": 31.362
+    },
+    {
+     "text": "had",
+     "start": 31.408,
+     "end": 31.501
+    },
+    {
+     "text": "ever",
+     "start": 31.547,
+     "end": 31.698
+    },
+    {
+     "text": "seen.",
+     "start": 31.756,
+     "end": 32.174
+    }
+   ],
+   "cues": {},
+   "startFrame": 742,
+   "endFrame": 982
+  },
+  {
+   "id": "thurmond",
+   "speechEnd": 39.361,
+   "words": [
+    {
+     "text": "Days",
+     "start": 32.836,
+     "end": 33.08
+    },
+    {
+     "text": "before,",
+     "start": 33.138,
+     "end": 33.533
+    },
+    {
+     "text": "Senator",
+     "start": 33.591,
+     "end": 33.951
+    },
+    {
+     "text": "Strom",
+     "start": 33.997,
+     "end": 34.299
+    },
+    {
+     "text": "Thurmond",
+     "start": 34.38,
+     "end": 34.705
+    },
+    {
+     "text": "attacked",
+     "start": 34.752,
+     "end": 35.123
+    },
+    {
+     "text": "him",
+     "start": 35.146,
+     "end": 35.228
+    },
+    {
+     "text": "on",
+     "start": 35.286,
+     "end": 35.355
+    },
+    {
+     "text": "the",
+     "start": 35.39,
+     "end": 35.46
+    },
+    {
+     "text": "Senate",
+     "start": 35.506,
+     "end": 35.762
+    },
+    {
+     "text": "floor,",
+     "start": 35.785,
+     "end": 36.075
+    },
+    {
+     "text": "calling",
+     "start": 36.11,
+     "end": 36.423
+    },
+    {
+     "text": "him",
+     "start": 36.458,
+     "end": 36.54
+    },
+    {
+     "text": "a",
+     "start": 36.586,
+     "end": 36.609
+    },
+    {
+     "text": "communist,",
+     "start": 36.679,
+     "end": 37.329
+    },
+    {
+     "text": "a",
+     "start": 37.445,
+     "end": 37.515
+    },
+    {
+     "text": "draft",
+     "start": 37.584,
+     "end": 37.921
+    },
+    {
+     "text": "dodger",
+     "start": 37.956,
+     "end": 38.304
+    },
+    {
+     "text": "and",
+     "start": 38.374,
+     "end": 38.478
+    },
+    {
+     "text": "a",
+     "start": 38.525,
+     "end": 38.548
+    },
+    {
+     "text": "homosexual.",
+     "start": 38.606,
+     "end": 39.361
+    }
+   ],
+   "cues": {},
+   "startFrame": 982,
+   "endFrame": 1195
+  },
+  {
+   "id": "deputy",
+   "speechEnd": 44.411,
+   "words": [
+    {
+     "text": "His",
+     "start": 39.941,
+     "end": 40.092
+    },
+    {
+     "text": "title",
+     "start": 40.15,
+     "end": 40.464
+    },
+    {
+     "text": "was",
+     "start": 40.499,
+     "end": 40.615
+    },
+    {
+     "text": "only",
+     "start": 40.673,
+     "end": 40.859
+    },
+    {
+     "text": "deputy",
+     "start": 40.917,
+     "end": 41.23
+    },
+    {
+     "text": "director,",
+     "start": 41.288,
+     "end": 41.857
+    },
+    {
+     "text": "and",
+     "start": 41.973,
+     "end": 42.113
+    },
+    {
+     "text": "for",
+     "start": 42.171,
+     "end": 42.287
+    },
+    {
+     "text": "years",
+     "start": 42.345,
+     "end": 42.635
+    },
+    {
+     "text": "his",
+     "start": 42.682,
+     "end": 42.786
+    },
+    {
+     "text": "name",
+     "start": 42.844,
+     "end": 43.018
+    },
+    {
+     "text": "stayed",
+     "start": 43.053,
+     "end": 43.274
+    },
+    {
+     "text": "in",
+     "start": 43.297,
+     "end": 43.343
+    },
+    {
+     "text": "the",
+     "start": 43.366,
+     "end": 43.436
+    },
+    {
+     "text": "background.",
+     "start": 43.471,
+     "end": 44.411
+    }
+   ],
+   "cues": {},
+   "startFrame": 1195,
+   "endFrame": 1344
+  },
+  {
+   "id": "medal",
+   "speechEnd": 49.647,
+   "words": [
+    {
+     "text": "In",
+     "start": 44.91,
+     "end": 45.073
+    },
+    {
+     "text": "2013,",
+     "start": 45.131,
+     "end": 46.071
+    },
+    {
+     "text": "fifty",
+     "start": 46.117,
+     "end": 46.384
+    },
+    {
+     "text": "years",
+     "start": 46.419,
+     "end": 46.593
+    },
+    {
+     "text": "later,",
+     "start": 46.663,
+     "end": 47.093
+    },
+    {
+     "text": "he",
+     "start": 47.406,
+     "end": 47.476
+    },
+    {
+     "text": "was",
+     "start": 47.534,
+     "end": 47.638
+    },
+    {
+     "text": "awarded",
+     "start": 47.685,
+     "end": 48.01
+    },
+    {
+     "text": "the",
+     "start": 48.045,
+     "end": 48.114
+    },
+    {
+     "text": "Presidential",
+     "start": 48.161,
+     "end": 48.718
+    },
+    {
+     "text": "Medal",
+     "start": 48.776,
+     "end": 49.008
+    },
+    {
+     "text": "of",
+     "start": 49.066,
+     "end": 49.113
+    },
+    {
+     "text": "Freedom.",
+     "start": 49.171,
+     "end": 49.647
+    }
+   ],
+   "cues": {},
+   "startFrame": 1344,
+   "endFrame": 1501
+  },
+  {
+   "id": "pardon",
+   "speechEnd": 54.674,
+   "words": [
+    {
+     "text": "And",
+     "start": 50.134,
+     "end": 50.285
+    },
+    {
+     "text": "in",
+     "start": 50.343,
+     "end": 50.402
+    },
+    {
+     "text": "2020,",
+     "start": 50.46,
+     "end": 51.307
+    },
+    {
+     "text": "California",
+     "start": 51.539,
+     "end": 52.155
+    },
+    {
+     "text": "pardoned",
+     "start": 52.236,
+     "end": 52.631
+    },
+    {
+     "text": "him",
+     "start": 52.665,
+     "end": 52.758
+    },
+    {
+     "text": "for",
+     "start": 52.828,
+     "end": 52.944
+    },
+    {
+     "text": "his",
+     "start": 52.991,
+     "end": 53.072
+    },
+    {
+     "text": "1953",
+     "start": 53.118,
+     "end": 53.954
+    },
+    {
+     "text": "conviction.",
+     "start": 54.024,
+     "end": 54.674
+    }
+   ],
+   "cues": {},
+   "startFrame": 1501,
+   "endFrame": 1652
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 58.981,
+   "words": [
+    {
+     "text": "King",
+     "start": 55.162,
+     "end": 55.452
+    },
+    {
+     "text": "had",
+     "start": 55.545,
+     "end": 55.684
+    },
+    {
+     "text": "the",
+     "start": 55.719,
+     "end": 55.789
+    },
+    {
+     "text": "dream.",
+     "start": 55.835,
+     "end": 56.276
+    },
+    {
+     "text": "Bayard",
+     "start": 56.857,
+     "end": 57.17
+    },
+    {
+     "text": "Rustin",
+     "start": 57.217,
+     "end": 57.576
+    },
+    {
+     "text": "built",
+     "start": 57.635,
+     "end": 57.844
+    },
+    {
+     "text": "the",
+     "start": 57.878,
+     "end": 57.948
+    },
+    {
+     "text": "march.",
+     "start": 57.994,
+     "end": 58.981
+    }
+   ],
+   "cues": {},
+   "startFrame": 1652,
+   "endFrame": 1781
+  },
+  {
+   "id": "cta",
+   "speechEnd": 62.083,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 59.482,
+     "end": 59.819
+    },
+    {
+     "text": "The",
+     "start": 59.865,
+     "end": 59.935
+    },
+    {
+     "text": "Black",
+     "start": 59.97,
+     "end": 60.179
+    },
+    {
+     "text": "History",
+     "start": 60.225,
+     "end": 60.539
+    },
+    {
+     "text": "Room",
+     "start": 60.585,
+     "end": 60.759
+    },
+    {
+     "text": "for",
+     "start": 60.817,
+     "end": 60.922
+    },
+    {
+     "text": "one",
+     "start": 60.991,
+     "end": 61.154
+    },
+    {
+     "text": "story",
+     "start": 61.189,
+     "end": 61.479
+    },
+    {
+     "text": "a",
+     "start": 61.525,
+     "end": 61.549
+    },
+    {
+     "text": "day.",
+     "start": 61.607,
+     "end": 62.083
+    }
+   ],
+   "cues": {},
+   "startFrame": 1781,
+   "endFrame": 1898
+  }
+ ]
+}

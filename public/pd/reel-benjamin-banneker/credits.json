@@ -1,0 +1,38 @@
+{
+ "woodcut": {
+  "title": "File:Benjamin Banneker woodcut, age 64.jpg",
+  "artist": "unknown (woodcut from Banneker's almanac)",
+  "date": "1795",
+  "license": "Public domain (age)",
+  "source": "https://commons.wikimedia.org/wiki/File:Benjamin_Banneker_woodcut,_age_64.jpg",
+  "width": 1280,
+  "height": 1559
+ },
+ "almanac": {
+  "title": "Benjamin Banneker's Pennsylvania, Delaware, Maryland, and Virginia almanack and ephemeris, for the year 1792 (title page)",
+  "artist": "Goddard and Angell, Baltimore; Library of Congress Rare Book and Special Collections",
+  "date": "1791",
+  "license": "Public domain (published 1791; LOC: no known restrictions)",
+  "source": "https://www.loc.gov/item/98650590/",
+  "width": 1104,
+  "height": 1824
+ },
+ "pamphlet": {
+  "title": "Copy of a letter from Benjamin Banneker to the secretary of state, with his answer (title page)",
+  "artist": "Daniel Lawrence, Philadelphia; Library of Congress",
+  "date": "1792",
+  "license": "Public domain (published 1792; LOC: no known restrictions)",
+  "source": "https://www.loc.gov/item/17022848/",
+  "width": 930,
+  "height": 1384
+ },
+ "reply": {
+  "title": "Letter, Thomas Jefferson to Benjamin Banneker, 30 August 1791",
+  "artist": "Thomas Jefferson; Library of Congress Manuscript Division (mcc.028)",
+  "date": "1791-08-30",
+  "license": "Public domain (1791)",
+  "source": "https://www.loc.gov/item/mcc.028/",
+  "width": 1329,
+  "height": 1646
+ }
+}

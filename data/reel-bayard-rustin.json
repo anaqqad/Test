@@ -1,0 +1,389 @@
+{
+ "id": "reel-bayard-rustin",
+ "title": "King Had the Dream. He Built the March.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "King had the dream. He built the march.",
+   "section": "hook",
+   "visual": {
+    "kind": "photo",
+    "image": "mic",
+    "focus": [
+     0.49,
+     0.45
+    ],
+    "zoom": [
+     1.5,
+     1.58
+    ],
+    "anchor": [
+     0.5,
+     0.28
+    ]
+   },
+   "overlays": {
+    "hook": "King had the dream. *He built the march.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Bayard Rustin.",
+   "section": "who",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "crop": [
+     0.04,
+     0.0,
+     0.62,
+     0.6
+    ],
+    "caption": "Bayard Rustin, 1964"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Bayard Rustin",
+     "sub": "Civil rights organizer"
+    }
+   }
+  },
+  {
+   "id": "ride",
+   "text": "In 1947, he rode buses through the South to challenge segregation, and was sentenced to a chain gang.",
+   "section": "story",
+   "visual": {
+    "kind": "title",
+    "title": "Chain gang",
+    "sub": "North Carolina, 1947"
+   }
+  },
+  {
+   "id": "king",
+   "text": "In Montgomery, he became a close adviser to a young Martin Luther King Jr.",
+   "visual": {
+    "kind": "card",
+    "image": "group",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.85
+    ],
+    "caption": "Rustin with young volunteers, 1964"
+   }
+  },
+  {
+   "id": "gay",
+   "text": "But Rustin was gay, and some leaders feared it would be used against the movement.",
+   "section": "cost",
+   "visual": {
+    "kind": "title",
+    "title": "Pushed aside",
+    "sub": "by his own movement"
+   }
+  },
+  {
+   "id": "march",
+   "text": "In 1963, he had less than two months to organize the March on Washington.",
+   "visual": {
+    "kind": "title",
+    "title": "Two months",
+    "sub": "to organize the March on Washington"
+   },
+   "overlays": {
+    "stamp": "Summer 1963"
+   }
+  },
+  {
+   "id": "crowd",
+   "text": "On August 28, more than 250,000 people came. It was one of the largest demonstrations the country had ever seen.",
+   "visual": {
+    "kind": "card",
+    "image": "crowd",
+    "crop": [
+     0.25,
+     0.0,
+     1.0,
+     0.75
+    ],
+    "caption": "Martin Luther King Jr. at the March on Washington, August 28, 1963"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Washington",
+     "sub": "D.C."
+    }
+   }
+  },
+  {
+   "id": "thurmond",
+   "text": "Days before, Senator Strom Thurmond attacked him on the Senate floor, calling him a communist, a draft dodger and a homosexual.",
+   "visual": {
+    "kind": "title",
+    "title": "Attacked",
+    "sub": "on the Senate floor, 1963"
+   }
+  },
+  {
+   "id": "deputy",
+   "text": "His title was only deputy director, and for years his name stayed in the background.",
+   "visual": {
+    "kind": "photo",
+    "image": "mic",
+    "focus": [
+     0.49,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "medal",
+   "text": "In 2013, fifty years later, he was awarded the Presidential Medal of Freedom.",
+   "section": "legacy",
+   "visual": {
+    "kind": "title",
+    "title": "Medal of Freedom",
+    "sub": "awarded in 2013"
+   }
+  },
+  {
+   "id": "pardon",
+   "text": "And in 2020, California pardoned him for his 1953 conviction.",
+   "visual": {
+    "kind": "title",
+    "title": "Pardoned",
+    "sub": "California, 2020"
+   }
+  },
+  {
+   "id": "legacy",
+   "text": "King had the dream. Bayard Rustin built the march.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "crop": [
+     0.04,
+     0.0,
+     0.62,
+     0.6
+    ],
+    "caption": "Bayard Rustin, 1964"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "section": "cta",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sources": {
+  "NPR": {
+   "name": "NPR Code Switch: Bayard Rustin, the man who organized the March on Washington (2013)",
+   "url": "https://www.npr.org/sections/codeswitch/2013/08/15/212338844/bayard-rustin-the-man-who-organized-the-march-on-washington"
+  },
+  "VU": {
+   "name": "Vanderbilt University, Who Speaks for the Negro?: Bayard Rustin biographical sketch",
+   "url": "https://whospeaks.library.vanderbilt.edu/media/bayard-rustin-biographical-sketch"
+  },
+  "EJI": {
+   "name": "Equal Justice Initiative: Bayard Rustin pardoned (2020)",
+   "url": "https://eji.org/news/civil-rights-leader-bayard-rustin-pardoned-for-conviction-under-anti-gay-laws/"
+  },
+  "PN": {
+   "name": "Pasadena Now: King confidante arrested in Pasadena receives posthumous pardon",
+   "url": "https://www.pasadenanow.com/main/king-confidante-arrested-in-pasadena-receives-posthumous-pardon"
+  },
+  "NARA": {
+   "name": "National Archives press release nr13-125 (2013): March on Washington",
+   "url": "https://www.archives.gov/press/press-releases/2013/nr13-125"
+  },
+  "SI": {
+   "name": "Smithsonian: 1963 March on Washington",
+   "url": "https://si.edu/spotlight/1963-march-on-washington"
+  },
+  "ADV": {
+   "name": "The Advocate: 10 things to know about Bayard Rustin (20 Nov 2013)",
+   "url": "https://www.advocate.com/politics/2013/11/20/10-things-know-bayard-rustin"
+  },
+  "EJS": {
+   "name": "Equal Justice Society: Bayard Rustin awarded the Presidential Medal of Freedom (2013)",
+   "url": "https://equaljusticesociety.org/2013/08/15/bayard-rustin-awarded-the-presidential-medal-of-freedom/"
+  }
+ },
+ "facts": [
+  {
+   "beat": "hook",
+   "claim": "Rustin was the main organizer of the 1963 March on Washington.",
+   "sources": [
+    "NPR",
+    "VU"
+   ]
+  },
+  {
+   "beat": "ride",
+   "claim": "1947 Journey of Reconciliation; arrested in North Carolina, chain gang.",
+   "sources": [
+    "VU",
+    "EJI"
+   ]
+  },
+  {
+   "beat": "king",
+   "claim": "Advised King during the Montgomery bus boycott.",
+   "sources": [
+    "VU",
+    "NPR"
+   ]
+  },
+  {
+   "beat": "gay",
+   "claim": "1953 Pasadena arrest; pushed aside because he was gay.",
+   "sources": [
+    "EJI",
+    "PN",
+    "NPR"
+   ]
+  },
+  {
+   "beat": "march",
+   "claim": "Less than two months to organize the march.",
+   "sources": [
+    "NPR",
+    "ADV"
+   ]
+  },
+  {
+   "beat": "crowd",
+   "claim": "More than 250,000 people, 28 Aug 1963.",
+   "sources": [
+    "NARA",
+    "SI"
+   ]
+  },
+  {
+   "beat": "thurmond",
+   "claim": "Thurmond attacked him on the Senate floor (communist, draft dodger, homosexual).",
+   "sources": [
+    "NPR",
+    "ADV"
+   ]
+  },
+  {
+   "beat": "deputy",
+   "claim": "Title: deputy director of the march.",
+   "sources": [
+    "VU",
+    "NPR"
+   ]
+  },
+  {
+   "beat": "medal",
+   "claim": "Posthumous Presidential Medal of Freedom, 20 Nov 2013, President Obama.",
+   "sources": [
+    "ADV",
+    "EJS",
+    "NPR"
+   ]
+  },
+  {
+   "beat": "pardon",
+   "claim": "California Gov. Newsom pardoned him in 2020.",
+   "sources": [
+    "EJI",
+    "PN"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Birth year (sources say 1910 or 1912)",
+  "Length of the chain-gang sentence (22/28/30 days)",
+  "D.C. police estimate 210,000"
+ ],
+ "faces": {
+  "mic": [
+   [
+    0.43,
+    0.37,
+    0.54,
+    0.54
+   ]
+  ],
+  "portrait": [
+   [
+    0.22,
+    0.07,
+    0.53,
+    0.43
+   ],
+   [
+    0.61,
+    0.2,
+    0.88,
+    0.48
+   ]
+  ],
+  "group": [
+   [
+    0.0,
+    0.05,
+    1.0,
+    0.6
+   ]
+  ],
+  "crowd": [
+   [
+    0.49,
+    0.07,
+    0.76,
+    0.35
+   ]
+  ]
+ }
+}

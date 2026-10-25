@@ -1,0 +1,47 @@
+{
+ "portrait": {
+  "title": "File:Mumbett70.jpg (Elizabeth Freeman, aged about 70)",
+  "artist": "Susan Anne Ridley Sedgwick; Massachusetts Historical Society",
+  "date": "c. 1812",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Mumbett70.jpg",
+  "width": 1280,
+  "height": 1767
+ },
+ "sedgwick": {
+  "title": "File:Gilbert Stuart - Theodore Sedgwick - 33.508 - Museum of Fine Arts.jpg",
+  "artist": "Gilbert Stuart; Museum of Fine Arts, Boston",
+  "date": "1808",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_-_Theodore_Sedgwick_-_33.508_-_Museum_of_Fine_Arts.jpg",
+  "width": 1280,
+  "height": 1560
+ },
+ "house": {
+  "title": "Colonel John Ashley House, Cooper Road vicinity, Sheffield, Berkshire County, MA (HABS MA-401, photo 1 (a))",
+  "artist": "Arthur C. Haskell, Historic American Buildings Survey; Library of Congress",
+  "date": "1935-08-04",
+  "license": "Public domain (U.S. Government work, no known restrictions)",
+  "source": "https://www.loc.gov/pictures/item/ma0514/",
+  "width": 950,
+  "height": 627
+ },
+ "house2": {
+  "title": "Colonel John Ashley House, Cooper Road vicinity, Sheffield, Berkshire County, MA (HABS MA-401, photo 2 (b))",
+  "artist": "Arthur C. Haskell, Historic American Buildings Survey; Library of Congress",
+  "date": "1935-08-04",
+  "license": "Public domain (U.S. Government work, no known restrictions)",
+  "source": "https://www.loc.gov/pictures/item/ma0514/",
+  "width": 626,
+  "height": 890
+ },
+ "interior": {
+  "title": "Colonel John Ashley House, Cooper Road vicinity, Sheffield, Berkshire County, MA (HABS MA-401, photo 5 (e), interior)",
+  "artist": "Arthur C. Haskell, Historic American Buildings Survey; Library of Congress",
+  "date": "1935-08-04",
+  "license": "Public domain (U.S. Government work, no known restrictions)",
+  "source": "https://www.loc.gov/pictures/item/ma0514/",
+  "width": 950,
+  "height": 624
+ }
+}

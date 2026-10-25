@@ -1,0 +1,370 @@
+{
+ "id": "reel-lewis-latimer",
+ "title": "Edison Invented the Bulb. He Made It Last.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Edison invented the bulb. He made it last.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait2",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Edison invented the bulb. *He made it last.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Lewis Latimer.",
+   "visual": {
+    "kind": "title",
+    "title": "Lewis Latimer",
+    "sub": "inventor and draftsman"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born in Massachusetts in 1848, to parents who had escaped slavery in Virginia.",
+   "visual": {
+    "kind": "title",
+    "title": "Chelsea, 1848",
+    "sub": "son of two people who fled slavery"
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Chelsea",
+     "sub": "Massachusetts"
+    }
+   }
+  },
+  {
+   "id": "navy",
+   "text": "At sixteen, he joined the Union Navy and served on a gunboat in the Civil War.",
+   "visual": {
+    "kind": "title",
+    "title": "Union Navy",
+    "sub": "at sixteen, 1864"
+   }
+  },
+  {
+   "id": "office",
+   "text": "As an office boy at a patent law firm, he taught himself drawing, and rose to chief draftsman.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.7
+    ],
+    "caption": "Lewis H. Latimer, c. 1882"
+   }
+  },
+  {
+   "id": "bell",
+   "text": "In 1876, he drew the patent drawings for Alexander Graham Bell's telephone.",
+   "visual": {
+    "kind": "title",
+    "title": "The telephone",
+    "sub": "Bell's patent drawings, 1876"
+   },
+   "section": "turn"
+  },
+  {
+   "id": "maxim",
+   "text": "In 1880, Edison's rival Hiram Maxim hired him to work on electric light.",
+   "visual": {
+    "kind": "title",
+    "title": "Electric light",
+    "sub": "U.S. Electric Lighting Co., 1880"
+   }
+  },
+  {
+   "id": "patent",
+   "text": "In 1882, he patented a better way to make the carbon filament, the part that glows.",
+   "visual": {
+    "kind": "card",
+    "image": "patent",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.7
+    ],
+    "caption": "U.S. Patent 252,386, Process of Manufacturing Carbons, 1882"
+   },
+   "overlays": {
+    "stamp": "1882"
+   }
+  },
+  {
+   "id": "cities",
+   "text": "He then supervised electric lighting installations in New York, Montreal and London.",
+   "visual": {
+    "kind": "photo",
+    "image": "bulb",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "edison",
+   "text": "In 1884, Edison's own company hired him as a patent expert. He wrote the standard book on electric lighting.",
+   "visual": {
+    "kind": "title",
+    "title": "Hired by Edison",
+    "sub": "1884; his book, 1890"
+   }
+  },
+  {
+   "id": "pioneers",
+   "text": "In 1918, he was named one of the 28 Edison Pioneers. The only Black member.",
+   "visual": {
+    "kind": "card",
+    "image": "couple",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.75
+    ],
+    "caption": "Lewis and Mary Latimer, 1924"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "death",
+   "text": "Lewis Latimer died in 1928, at 80. Edison invented the bulb. Latimer made it last.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait2",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.72
+    ],
+    "caption": "Lewis Latimer, 1848-1928"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "LEM": {
+   "name": "Lemelson-MIT Program: Lewis Latimer",
+   "url": "https://lemelson.mit.edu/resources/lewis-latimer"
+  },
+  "ETHW": {
+   "name": "Engineering and Technology History Wiki (IEEE): Lewis Latimer",
+   "url": "https://ethw.org/Lewis_Latimer"
+  },
+  "RUT": {
+   "name": "Thomas A. Edison Papers, Rutgers University: Lewis Latimer, introduction",
+   "url": "https://edison.rutgers.edu/resources/latimer/introduction"
+  },
+  "LLH": {
+   "name": "Lewis Latimer House Museum: About",
+   "url": "https://www.lewislatimerhouse.org/about"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Lewis Howard Latimer (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Lewis_Howard_Latimer"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born 4 Sep 1848, Chelsea, Massachusetts; parents George and Rebecca Latimer had escaped slavery in Virginia (1842).",
+   "sources": [
+    "LEM",
+    "ETHW",
+    "LLH",
+    "RUT"
+   ]
+  },
+  {
+   "beat": "navy",
+   "claim": "Enlisted in the Union Navy in 1864 at 16; landsman on the gunboat USS Massasoit.",
+   "sources": [
+    "LLH",
+    "RUT",
+    "ETHW"
+   ]
+  },
+  {
+   "beat": "office",
+   "claim": "Office boy at the Boston patent firm Crosby & Gould; learned drafting by watching; rose to chief draftsman.",
+   "sources": [
+    "ETHW",
+    "RUT",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "bell",
+   "claim": "Drew the patent drawings for Bell's telephone, 1876.",
+   "sources": [
+    "LEM",
+    "WIKI",
+    "ETHW"
+   ]
+  },
+  {
+   "beat": "maxim",
+   "claim": "Hired in 1880 by Hiram Maxim's U.S. Electric Lighting Company.",
+   "sources": [
+    "LEM",
+    "ETHW"
+   ]
+  },
+  {
+   "beat": "patent",
+   "claim": "U.S. Patent 252,386, Process of Manufacturing Carbons, 17 Jan 1882.",
+   "sources": [
+    "LEM",
+    "ETHW",
+    "RUT"
+   ]
+  },
+  {
+   "beat": "cities",
+   "claim": "Supervised electric-lighting installations in New York, Montreal and London (Lemelson also lists Philadelphia).",
+   "sources": [
+    "LEM",
+    "RUT"
+   ]
+  },
+  {
+   "beat": "edison",
+   "claim": "Joined Edison Electric Light Co. in 1884 as draftsman and patent expert; book Incandescent Electric Lighting, 1890.",
+   "sources": [
+    "LEM",
+    "WIKI",
+    "ETHW"
+   ]
+  },
+  {
+   "beat": "pioneers",
+   "claim": "Named one of the 28 charter Edison Pioneers, 24 Jan 1918; the only Black member.",
+   "sources": [
+    "ETHW",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died 11 Dec 1928, Flushing, Queens, aged 80.",
+   "sources": [
+    "ETHW",
+    "LLH",
+    "LEM"
+   ]
+  }
+ ],
+ "notUsed": [
+  "'Edison invented the bulb' is the popular shorthand; many contributed to the incandescent lamp",
+  "ETHW gives 1885 in one place for the Edison hire; 1884 (Lemelson, Wikipedia) is used",
+  "Philadelphia as a lighting site (Lemelson only)",
+  "His 1874 railroad-car toilet patent, the air-conditioning forerunner, his poetry and teaching"
+ ],
+ "faces": {
+  "portrait2": [
+   [
+    0.35,
+    0.2,
+    0.65,
+    0.57
+   ]
+  ],
+  "portrait": [
+   [
+    0.33,
+    0.12,
+    0.64,
+    0.5
+   ]
+  ],
+  "couple": [
+   [
+    0.28,
+    0.27,
+    0.46,
+    0.39
+   ],
+   [
+    0.58,
+    0.03,
+    0.76,
+    0.18
+   ]
+  ]
+ }
+}

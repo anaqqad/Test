@@ -1,0 +1,301 @@
+{
+ "id": "reel-phillis-wheatley",
+ "title": "They Didn't Believe She Wrote Her Own Poems.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "They didn't believe she wrote her own poems.",
+   "visual": {
+    "kind": "photo",
+    "image": "met",
+    "focus": [
+     0.55,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "They didn't believe *she wrote her own poems.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Phillis Wheatley.",
+   "visual": {
+    "kind": "title",
+    "title": "Phillis Wheatley",
+    "sub": "c. 1753-1784"
+   },
+   "section": "who"
+  },
+  {
+   "id": "taken",
+   "text": "Around 1761, a girl of about seven was kidnapped from West Africa and shipped to Boston on a slave ship, the Phillis.",
+   "visual": {
+    "kind": "card",
+    "image": "boston",
+    "crop": [
+     0.03,
+     0.06,
+     0.97,
+     0.9
+    ],
+    "caption": "The town of Boston, engraving by Paul Revere, 1770"
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Boston",
+     "sub": "Massachusetts"
+    }
+   }
+  },
+  {
+   "id": "named",
+   "text": "John Wheatley bought her for his wife. They named her after the ship.",
+   "visual": {
+    "kind": "title",
+    "title": "Named after",
+    "sub": "the slave ship Phillis"
+   }
+  },
+  {
+   "id": "learn",
+   "text": "Within a few years she was reading Greek and Latin. At about fourteen, she published her first poem.",
+   "visual": {
+    "kind": "title",
+    "title": "Greek and Latin",
+    "sub": "first poem, 1767"
+   }
+  },
+  {
+   "id": "doubt",
+   "text": "But when she had a book of poems, people wanted proof. Could an enslaved African girl really write them?",
+   "visual": {
+    "kind": "photo",
+    "image": "met",
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   },
+   "section": "turn"
+  },
+  {
+   "id": "signed",
+   "text": "So eighteen powerful Boston men, the governor and John Hancock among them, signed a statement: she wrote them.",
+   "visual": {
+    "kind": "title",
+    "title": "18 signatures",
+    "sub": "\"written by Phillis, a young Negro girl\""
+   },
+   "overlays": {
+    "stamp": "1773"
+   }
+  },
+  {
+   "id": "book",
+   "text": "In 1773, her book was printed in London: the first book of poems by an African American.",
+   "visual": {
+    "kind": "card",
+    "image": "titlepage",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Poems on Various Subjects, Religious and Moral, London, 1773"
+   }
+  },
+  {
+   "id": "free",
+   "text": "Soon after, she was freed. In 1775 she sent a poem to George Washington. He wrote back.",
+   "visual": {
+    "kind": "title",
+    "title": "He wrote back",
+    "sub": "George Washington, 1776"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "end",
+   "text": "She married, lost her children, and fell into poverty. She died in 1784, about thirty-one.",
+   "visual": {
+    "kind": "card",
+    "image": "book",
+    "crop": [
+     0.02,
+     0.0,
+     0.98,
+     1.0
+    ],
+    "caption": "Her book of poems, 1773, Old South Meeting House, Boston"
+   }
+  },
+  {
+   "id": "close",
+   "text": "They didn't believe she wrote her own poems. She did.",
+   "visual": {
+    "kind": "card",
+    "image": "met",
+    "crop": [
+     0.05,
+     0.03,
+     0.95,
+     0.8
+    ],
+    "caption": "Phillis Wheatley, frontispiece of her book, 1773"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "BOOK": {
+   "name": "Phillis Wheatley, Poems on Various Subjects, Religious and Moral (London, 1773), attestation 'To the Publick' (Project Gutenberg #409)",
+   "url": "https://www.gutenberg.org/ebooks/409"
+  },
+  "NWHM": {
+   "name": "National Women's History Museum: Phillis Wheatley",
+   "url": "https://www.womenshistory.org/education-resources/biographies/phillis-wheatley"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Phillis Wheatley (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Phillis_Wheatley"
+  }
+ },
+ "facts": [
+  {
+   "beat": "taken",
+   "claim": "Born c. 1753 in West Africa (Senegal/Gambia region); kidnapped and brought to Boston in 1761 on the slave ship Phillis.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "named",
+   "claim": "Bought by John Wheatley for his wife Susanna; named after the ship.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "learn",
+   "claim": "Tutored by the Wheatley children; read the Bible, Greek and Latin classics; first poem published 1767 (about 14).",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "signed",
+   "claim": "The book's attestation, signed by 18 Boston men incl. Governor Hutchinson, Lt-Governor Oliver and John Hancock (plus her master), says the poems were 'written by Phillis, a young Negro Girl'.",
+   "sources": [
+    "BOOK",
+    "WIKI",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "book",
+   "claim": "Poems on Various Subjects, Religious and Moral, London, 1 Sept 1773; first African American to publish a book of poetry.",
+   "sources": [
+    "NWHM",
+    "WIKI",
+    "BOOK"
+   ]
+  },
+  {
+   "beat": "free",
+   "claim": "Freed by late 1773; poem to Washington 26 Oct 1775; Washington invited her to his headquarters.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "end",
+   "claim": "Married John Peters 1778; children died; died 5 Dec 1784 at about 31.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Whether an oral 'examination' by the 18 men actually took place (the attestation says she 'has been examined by some of the best Judges'; scholars debate the scene)",
+  "Whether she actually visited Washington (NWHM: likely never accepted)",
+  "Exact age at capture; '16 months' to learn English",
+  "'In poverty': her husband jailed for debt, she worked as a scullery maid (Wikipedia only) - the reel says 'fell into poverty', post gives detail"
+ ],
+ "faces": {
+  "met": [
+   [
+    0.48,
+    0.2,
+    0.64,
+    0.4
+   ]
+  ]
+ }
+}

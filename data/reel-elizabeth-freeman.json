@@ -1,0 +1,356 @@
+{
+ "id": "reel-elizabeth-freeman",
+ "title": "Enslaved, She Sued Her Master. And Won.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Enslaved, she sued her master. And won.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.45,
+     0.27
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Enslaved, she sued her master. *And won.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Elizabeth Freeman. They called her Mum Bett.",
+   "visual": {
+    "kind": "title",
+    "title": "Mum Bett",
+    "sub": "Elizabeth Freeman, c. 1744-1829"
+   },
+   "section": "who"
+  },
+  {
+   "id": "ashley",
+   "text": "For nearly thirty years, she was enslaved by Colonel John Ashley, in Sheffield, Massachusetts.",
+   "visual": {
+    "kind": "photo",
+    "image": "house",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ]
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Sheffield",
+     "sub": "Massachusetts"
+    }
+   }
+  },
+  {
+   "id": "shovel",
+   "text": "One day, Mrs. Ashley swung a red-hot shovel at a young enslaved girl. Bett took the blow, and kept the scar.",
+   "visual": {
+    "kind": "card",
+    "image": "interior",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "The Ashley House, Sheffield, Massachusetts (photographed 1935)"
+   }
+  },
+  {
+   "id": "words",
+   "text": "In 1780, Massachusetts adopted a new constitution. Bett heard its words: all men are born free and equal.",
+   "visual": {
+    "kind": "title",
+    "title": "Free and equal",
+    "sub": "Massachusetts Constitution, 1780"
+   },
+   "section": "turn",
+   "overlays": {
+    "stamp": "1780"
+   }
+  },
+  {
+   "id": "lawyer",
+   "text": "So she went to a lawyer, Theodore Sedgwick, and asked him to take her case.",
+   "visual": {
+    "kind": "card",
+    "image": "sedgwick",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.8
+    ],
+    "caption": "Theodore Sedgwick, by Gilbert Stuart, 1808"
+   }
+  },
+  {
+   "id": "verdict",
+   "text": "On August 22, 1781, a jury ruled that she was not anyone's property. She was free.",
+   "visual": {
+    "kind": "title",
+    "title": "Free",
+    "sub": "Great Barrington, August 22, 1781"
+   },
+   "overlays": {
+    "stamp": "1781"
+   }
+  },
+  {
+   "id": "end",
+   "text": "Her case, and others after it, helped end slavery in Massachusetts.",
+   "visual": {
+    "kind": "title",
+    "title": "No more slavery",
+    "sub": "in Massachusetts, by 1783"
+   }
+  },
+  {
+   "id": "name2",
+   "text": "She chose a new name: Elizabeth Freeman.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.75
+    ],
+    "caption": "Elizabeth Freeman, by Susan Sedgwick, c. 1812"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "later",
+   "text": "She became a paid worker, a respected midwife, and bought her own house.",
+   "visual": {
+    "kind": "photo",
+    "image": "house2",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   }
+  },
+  {
+   "id": "death",
+   "text": "She died in 1829, and was buried in the Sedgwick family plot, the only one there not of the family.",
+   "visual": {
+    "kind": "title",
+    "title": "Buried as family",
+    "sub": "Sedgwick plot, Stockbridge, 1829"
+   }
+  },
+  {
+   "id": "close",
+   "text": "Enslaved, she sued her master. And won.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.75
+    ],
+    "caption": "Elizabeth \"Mum Bett\" Freeman"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "MM": {
+   "name": "Mass Moments (Mass Humanities): Jury decides in favor of Elizabeth 'Mum Bett' Freeman, August 22, 1781",
+   "url": "https://www.massmoments.org/moment-details/jury-decides-in-favor-of-elizabeth-mum-bett-freeman.html"
+  },
+  "NCC": {
+   "name": "National Constitution Center: Elizabeth Freeman, her case for freedom and the Massachusetts Constitution",
+   "url": "https://constitutioncenter.org/blog/elizabeth-freeman-her-case-for-freedom-and-the-massachusetts-constitution"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Elizabeth Freeman (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Elizabeth_Freeman"
+  }
+ },
+ "facts": [
+  {
+   "beat": "ashley",
+   "claim": "Enslaved in Col. John Ashley's household, Sheffield, Massachusetts, from the 1740s; gravestone: 'remained a slave for nearly thirty years'.",
+   "sources": [
+    "MM",
+    "NCC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "shovel",
+   "claim": "Mrs. Ashley raised a red-hot kitchen shovel at another enslaved girl; Bett took the blow and bore the scar for life.",
+   "sources": [
+    "MM",
+    "NCC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "words",
+   "claim": "1780 Massachusetts Constitution: 'All men are born free and equal'; Bett heard it discussed.",
+   "sources": [
+    "MM",
+    "NCC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "lawyer",
+   "claim": "Lawyer Theodore Sedgwick of Stockbridge took the case (with Tapping Reeve).",
+   "sources": [
+    "MM",
+    "NCC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "verdict",
+   "claim": "Brom and Bett v. Ashley; jury verdict 22 Aug 1781, Great Barrington; declared free, 30 shillings damages.",
+   "sources": [
+    "MM",
+    "NCC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "end",
+   "claim": "With the Quock Walker cases, helped end slavery in Massachusetts; Chief Justice Cushing, 1783.",
+   "sources": [
+    "MM",
+    "NCC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "name2",
+   "claim": "Took the name Elizabeth Freeman.",
+   "sources": [
+    "MM",
+    "NCC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "later",
+   "claim": "Paid worker for the Sedgwicks; midwife, healer and nurse; bought her own house.",
+   "sources": [
+    "NCC",
+    "MM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died 28 Dec 1829; buried in the Sedgwick family plot in Stockbridge, the only non-family member.",
+   "sources": [
+    "MM",
+    "NCC",
+    "WIKI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Her reported quote that she would take 'one minute' of freedom and die (not in the fetched sources)",
+  "Her quoted reply 'By keepin' still and mindin' things' (Mass Moments only)",
+  "Whether the scar was on her arm (Wikipedia) or face (Mass Moments): the reel just says 'the scar'",
+  "The co-plaintiff Brom (kept for the post)",
+  "Her exact birth year (c. 1742-1744)"
+ ],
+ "faces": {
+  "portrait": [
+   [
+    0.27,
+    0.07,
+    0.62,
+    0.45
+   ]
+  ],
+  "sedgwick": [
+   [
+    0.3,
+    0.12,
+    0.7,
+    0.5
+   ]
+  ]
+ }
+}

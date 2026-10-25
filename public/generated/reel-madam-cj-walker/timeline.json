@@ -1,0 +1,977 @@
+{
+ "fps": 30,
+ "durationInFrames": 1893,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 170,
+ "wpm": 161.7,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.322,
+   "words": [
+    {
+     "text": "Her",
+     "start": 0.0,
+     "end": 0.151
+    },
+    {
+     "text": "hair",
+     "start": 0.209,
+     "end": 0.36
+    },
+    {
+     "text": "fell",
+     "start": 0.418,
+     "end": 0.592
+    },
+    {
+     "text": "out.",
+     "start": 0.65,
+     "end": 0.871
+    },
+    {
+     "text": "She",
+     "start": 1.184,
+     "end": 1.312
+    },
+    {
+     "text": "built",
+     "start": 1.37,
+     "end": 1.544
+    },
+    {
+     "text": "an",
+     "start": 1.591,
+     "end": 1.637
+    },
+    {
+     "text": "empire.",
+     "start": 1.683,
+     "end": 2.322
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 82
+  },
+  {
+   "id": "name",
+   "speechEnd": 4.262,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.822,
+     "end": 3.089
+    },
+    {
+     "text": "Madam",
+     "start": 3.147,
+     "end": 3.391
+    },
+    {
+     "text": "Walker.",
+     "start": 3.449,
+     "end": 4.262
+    }
+   ],
+   "cues": {},
+   "startFrame": 82,
+   "endFrame": 140
+  },
+  {
+   "id": "born",
+   "speechEnd": 10.95,
+   "words": [
+    {
+     "text": "Born",
+     "start": 4.762,
+     "end": 5.099
+    },
+    {
+     "text": "Sarah",
+     "start": 5.168,
+     "end": 5.459
+    },
+    {
+     "text": "Breedlove",
+     "start": 5.493,
+     "end": 5.946
+    },
+    {
+     "text": "in",
+     "start": 5.969,
+     "end": 6.027
+    },
+    {
+     "text": "1867,",
+     "start": 6.062,
+     "end": 7.096
+    },
+    {
+     "text": "on",
+     "start": 7.328,
+     "end": 7.467
+    },
+    {
+     "text": "a",
+     "start": 7.514,
+     "end": 7.537
+    },
+    {
+     "text": "Louisiana",
+     "start": 7.583,
+     "end": 8.094
+    },
+    {
+     "text": "plantation,",
+     "start": 8.141,
+     "end": 8.884
+    },
+    {
+     "text": "the",
+     "start": 9.197,
+     "end": 9.302
+    },
+    {
+     "text": "first",
+     "start": 9.36,
+     "end": 9.603
+    },
+    {
+     "text": "in",
+     "start": 9.65,
+     "end": 9.708
+    },
+    {
+     "text": "her",
+     "start": 9.754,
+     "end": 9.824
+    },
+    {
+     "text": "family",
+     "start": 9.882,
+     "end": 10.184
+    },
+    {
+     "text": "born",
+     "start": 10.23,
+     "end": 10.462
+    },
+    {
+     "text": "free.",
+     "start": 10.532,
+     "end": 10.95
+    }
+   ],
+   "cues": {},
+   "startFrame": 140,
+   "endFrame": 338
+  },
+  {
+   "id": "orphan",
+   "speechEnd": 15.443,
+   "words": [
+    {
+     "text": "Orphaned",
+     "start": 11.368,
+     "end": 11.763
+    },
+    {
+     "text": "at",
+     "start": 11.798,
+     "end": 11.856
+    },
+    {
+     "text": "seven.",
+     "start": 11.925,
+     "end": 12.401
+    },
+    {
+     "text": "Married",
+     "start": 12.761,
+     "end": 13.121
+    },
+    {
+     "text": "at",
+     "start": 13.156,
+     "end": 13.226
+    },
+    {
+     "text": "fourteen.",
+     "start": 13.284,
+     "end": 14.015
+    },
+    {
+     "text": "A",
+     "start": 14.375,
+     "end": 14.468
+    },
+    {
+     "text": "widow",
+     "start": 14.549,
+     "end": 14.793
+    },
+    {
+     "text": "at",
+     "start": 14.851,
+     "end": 14.932
+    },
+    {
+     "text": "twenty.",
+     "start": 14.967,
+     "end": 15.443
+    }
+   ],
+   "cues": {},
+   "startFrame": 338,
+   "endFrame": 473
+  },
+  {
+   "id": "laundry",
+   "speechEnd": 19.623,
+   "words": [
+    {
+     "text": "In",
+     "start": 15.861,
+     "end": 16.012
+    },
+    {
+     "text": "St.",
+     "start": 16.082,
+     "end": 16.314
+    },
+    {
+     "text": "Louis,",
+     "start": 16.337,
+     "end": 16.79
+    },
+    {
+     "text": "she",
+     "start": 16.929,
+     "end": 17.069
+    },
+    {
+     "text": "washed",
+     "start": 17.138,
+     "end": 17.44
+    },
+    {
+     "text": "clothes",
+     "start": 17.487,
+     "end": 17.788
+    },
+    {
+     "text": "for",
+     "start": 17.823,
+     "end": 17.928
+    },
+    {
+     "text": "a",
+     "start": 17.974,
+     "end": 17.997
+    },
+    {
+     "text": "dollar",
+     "start": 18.044,
+     "end": 18.299
+    },
+    {
+     "text": "fifty",
+     "start": 18.346,
+     "end": 18.624
+    },
+    {
+     "text": "a",
+     "start": 18.671,
+     "end": 18.694
+    },
+    {
+     "text": "day.",
+     "start": 18.752,
+     "end": 19.623
+    }
+   ],
+   "cues": {},
+   "startFrame": 473,
+   "endFrame": 601
+  },
+  {
+   "id": "hair",
+   "speechEnd": 24.569,
+   "words": [
+    {
+     "text": "In",
+     "start": 20.122,
+     "end": 20.273
+    },
+    {
+     "text": "the",
+     "start": 20.308,
+     "end": 20.377
+    },
+    {
+     "text": "1890s,",
+     "start": 20.412,
+     "end": 21.062
+    },
+    {
+     "text": "a",
+     "start": 21.086,
+     "end": 21.109
+    },
+    {
+     "text": "scalp",
+     "start": 21.155,
+     "end": 21.446
+    },
+    {
+     "text": "disease",
+     "start": 21.492,
+     "end": 21.805
+    },
+    {
+     "text": "took",
+     "start": 21.84,
+     "end": 22.003
+    },
+    {
+     "text": "most",
+     "start": 22.061,
+     "end": 22.258
+    },
+    {
+     "text": "of",
+     "start": 22.305,
+     "end": 22.351
+    },
+    {
+     "text": "her",
+     "start": 22.398,
+     "end": 22.479
+    },
+    {
+     "text": "hair.",
+     "start": 22.537,
+     "end": 22.92
+    },
+    {
+     "text": "She",
+     "start": 23.28,
+     "end": 23.408
+    },
+    {
+     "text": "went",
+     "start": 23.454,
+     "end": 23.605
+    },
+    {
+     "text": "looking",
+     "start": 23.64,
+     "end": 23.884
+    },
+    {
+     "text": "for",
+     "start": 23.93,
+     "end": 24.035
+    },
+    {
+     "text": "a",
+     "start": 24.081,
+     "end": 24.104
+    },
+    {
+     "text": "cure.",
+     "start": 24.151,
+     "end": 24.569
+    }
+   ],
+   "cues": {},
+   "startFrame": 601,
+   "endFrame": 747
+  },
+  {
+   "id": "denver",
+   "speechEnd": 28.888,
+   "words": [
+    {
+     "text": "In",
+     "start": 24.987,
+     "end": 25.126
+    },
+    {
+     "text": "1905,",
+     "start": 25.172,
+     "end": 26.02
+    },
+    {
+     "text": "she",
+     "start": 26.043,
+     "end": 26.148
+    },
+    {
+     "text": "moved",
+     "start": 26.217,
+     "end": 26.426
+    },
+    {
+     "text": "to",
+     "start": 26.449,
+     "end": 26.496
+    },
+    {
+     "text": "Denver",
+     "start": 26.554,
+     "end": 26.867
+    },
+    {
+     "text": "and",
+     "start": 26.914,
+     "end": 26.983
+    },
+    {
+     "text": "sold",
+     "start": 27.042,
+     "end": 27.262
+    },
+    {
+     "text": "her",
+     "start": 27.297,
+     "end": 27.367
+    },
+    {
+     "text": "own",
+     "start": 27.413,
+     "end": 27.541
+    },
+    {
+     "text": "hair",
+     "start": 27.599,
+     "end": 27.761
+    },
+    {
+     "text": "grower",
+     "start": 27.808,
+     "end": 28.075
+    },
+    {
+     "text": "door",
+     "start": 28.133,
+     "end": 28.307
+    },
+    {
+     "text": "to",
+     "start": 28.365,
+     "end": 28.412
+    },
+    {
+     "text": "door.",
+     "start": 28.47,
+     "end": 28.888
+    }
+   ],
+   "cues": {},
+   "startFrame": 747,
+   "endFrame": 874
+  },
+  {
+   "id": "factory",
+   "speechEnd": 32.486,
+   "words": [
+    {
+     "text": "By",
+     "start": 29.247,
+     "end": 29.387
+    },
+    {
+     "text": "1910,",
+     "start": 29.433,
+     "end": 30.037
+    },
+    {
+     "text": "she",
+     "start": 30.06,
+     "end": 30.153
+    },
+    {
+     "text": "had",
+     "start": 30.199,
+     "end": 30.304
+    },
+    {
+     "text": "a",
+     "start": 30.327,
+     "end": 30.35
+    },
+    {
+     "text": "factory",
+     "start": 30.408,
+     "end": 30.791
+    },
+    {
+     "text": "and",
+     "start": 30.838,
+     "end": 30.908
+    },
+    {
+     "text": "beauty",
+     "start": 30.966,
+     "end": 31.209
+    },
+    {
+     "text": "school",
+     "start": 31.244,
+     "end": 31.5
+    },
+    {
+     "text": "in",
+     "start": 31.558,
+     "end": 31.616
+    },
+    {
+     "text": "Indianapolis.",
+     "start": 31.674,
+     "end": 32.486
+    }
+   ],
+   "cues": {},
+   "startFrame": 874,
+   "endFrame": 979
+  },
+  {
+   "id": "agents",
+   "speechEnd": 39.627,
+   "words": [
+    {
+     "text": "Thousands",
+     "start": 32.719,
+     "end": 33.195
+    },
+    {
+     "text": "of",
+     "start": 33.23,
+     "end": 33.276
+    },
+    {
+     "text": "Black",
+     "start": 33.322,
+     "end": 33.543
+    },
+    {
+     "text": "women",
+     "start": 33.589,
+     "end": 33.81
+    },
+    {
+     "text": "became",
+     "start": 33.845,
+     "end": 34.135
+    },
+    {
+     "text": "Walker",
+     "start": 34.17,
+     "end": 34.483
+    },
+    {
+     "text": "agents.",
+     "start": 34.541,
+     "end": 35.017
+    },
+    {
+     "text": "One",
+     "start": 35.215,
+     "end": 35.401
+    },
+    {
+     "text": "had",
+     "start": 35.424,
+     "end": 35.505
+    },
+    {
+     "text": "earned",
+     "start": 35.54,
+     "end": 35.726
+    },
+    {
+     "text": "five",
+     "start": 35.772,
+     "end": 36.028
+    },
+    {
+     "text": "dollars",
+     "start": 36.062,
+     "end": 36.353
+    },
+    {
+     "text": "a",
+     "start": 36.387,
+     "end": 36.411
+    },
+    {
+     "text": "week",
+     "start": 36.469,
+     "end": 36.666
+    },
+    {
+     "text": "as",
+     "start": 36.701,
+     "end": 36.782
+    },
+    {
+     "text": "a",
+     "start": 36.829,
+     "end": 36.852
+    },
+    {
+     "text": "maid.",
+     "start": 36.91,
+     "end": 37.328
+    },
+    {
+     "text": "Now,",
+     "start": 37.641,
+     "end": 38.083
+    },
+    {
+     "text": "250.",
+     "start": 38.222,
+     "end": 39.627
+    }
+   ],
+   "cues": {},
+   "startFrame": 979,
+   "endFrame": 1201
+  },
+  {
+   "id": "naacp",
+   "speechEnd": 46.617,
+   "words": [
+    {
+     "text": "In",
+     "start": 40.127,
+     "end": 40.301
+    },
+    {
+     "text": "1919,",
+     "start": 40.359,
+     "end": 41.346
+    },
+    {
+     "text": "she",
+     "start": 41.462,
+     "end": 41.601
+    },
+    {
+     "text": "gave",
+     "start": 41.66,
+     "end": 41.845
+    },
+    {
+     "text": "five",
+     "start": 41.892,
+     "end": 42.159
+    },
+    {
+     "text": "thousand",
+     "start": 42.194,
+     "end": 42.519
+    },
+    {
+     "text": "dollars",
+     "start": 42.565,
+     "end": 42.879
+    },
+    {
+     "text": "to",
+     "start": 42.925,
+     "end": 42.983
+    },
+    {
+     "text": "the",
+     "start": 43.041,
+     "end": 43.111
+    },
+    {
+     "text": "NAACP",
+     "start": 43.18,
+     "end": 43.912
+    },
+    {
+     "text": "to",
+     "start": 44.074,
+     "end": 44.156
+    },
+    {
+     "text": "fight",
+     "start": 44.225,
+     "end": 44.434
+    },
+    {
+     "text": "lynching,",
+     "start": 44.492,
+     "end": 45.015
+    },
+    {
+     "text": "its",
+     "start": 45.282,
+     "end": 45.456
+    },
+    {
+     "text": "largest",
+     "start": 45.514,
+     "end": 45.874
+    },
+    {
+     "text": "gift",
+     "start": 45.92,
+     "end": 46.153
+    },
+    {
+     "text": "ever.",
+     "start": 46.211,
+     "end": 46.617
+    }
+   ],
+   "cues": {},
+   "startFrame": 1201,
+   "endFrame": 1410
+  },
+  {
+   "id": "villa",
+   "speechEnd": 50.17,
+   "words": [
+    {
+     "text": "She",
+     "start": 47.105,
+     "end": 47.244
+    },
+    {
+     "text": "built",
+     "start": 47.302,
+     "end": 47.488
+    },
+    {
+     "text": "a",
+     "start": 47.534,
+     "end": 47.557
+    },
+    {
+     "text": "mansion",
+     "start": 47.615,
+     "end": 47.964
+    },
+    {
+     "text": "on",
+     "start": 48.01,
+     "end": 48.08
+    },
+    {
+     "text": "the",
+     "start": 48.115,
+     "end": 48.184
+    },
+    {
+     "text": "Hudson,",
+     "start": 48.231,
+     "end": 48.695
+    },
+    {
+     "text": "by",
+     "start": 48.893,
+     "end": 49.043
+    },
+    {
+     "text": "a",
+     "start": 49.102,
+     "end": 49.125
+    },
+    {
+     "text": "Black",
+     "start": 49.171,
+     "end": 49.427
+    },
+    {
+     "text": "architect.",
+     "start": 49.485,
+     "end": 50.17
+    }
+   ],
+   "cues": {},
+   "startFrame": 1410,
+   "endFrame": 1517
+  },
+  {
+   "id": "death",
+   "speechEnd": 58.889,
+   "words": [
+    {
+     "text": "She",
+     "start": 50.657,
+     "end": 50.797
+    },
+    {
+     "text": "died",
+     "start": 50.866,
+     "end": 51.087
+    },
+    {
+     "text": "there",
+     "start": 51.11,
+     "end": 51.261
+    },
+    {
+     "text": "in",
+     "start": 51.296,
+     "end": 51.342
+    },
+    {
+     "text": "1919,",
+     "start": 51.389,
+     "end": 52.352
+    },
+    {
+     "text": "at",
+     "start": 52.468,
+     "end": 52.619
+    },
+    {
+     "text": "51,",
+     "start": 52.689,
+     "end": 53.374
+    },
+    {
+     "text": "worth",
+     "start": 53.688,
+     "end": 53.978
+    },
+    {
+     "text": "over",
+     "start": 54.048,
+     "end": 54.28
+    },
+    {
+     "text": "a",
+     "start": 54.349,
+     "end": 54.373
+    },
+    {
+     "text": "million",
+     "start": 54.431,
+     "end": 54.733
+    },
+    {
+     "text": "dollars.",
+     "start": 54.779,
+     "end": 55.325
+    },
+    {
+     "text": "The",
+     "start": 55.557,
+     "end": 55.673
+    },
+    {
+     "text": "washerwoman",
+     "start": 55.731,
+     "end": 56.3
+    },
+    {
+     "text": "became",
+     "start": 56.358,
+     "end": 56.648
+    },
+    {
+     "text": "one",
+     "start": 56.695,
+     "end": 56.811
+    },
+    {
+     "text": "of",
+     "start": 56.834,
+     "end": 56.88
+    },
+    {
+     "text": "America's",
+     "start": 56.927,
+     "end": 57.368
+    },
+    {
+     "text": "richest",
+     "start": 57.484,
+     "end": 57.867
+    },
+    {
+     "text": "Black",
+     "start": 57.937,
+     "end": 58.204
+    },
+    {
+     "text": "women.",
+     "start": 58.25,
+     "end": 58.889
+    }
+   ],
+   "cues": {},
+   "startFrame": 1517,
+   "endFrame": 1779
+  },
+  {
+   "id": "cta",
+   "speechEnd": 61.897,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 59.389,
+     "end": 59.737
+    },
+    {
+     "text": "The",
+     "start": 59.784,
+     "end": 59.853
+    },
+    {
+     "text": "Black",
+     "start": 59.888,
+     "end": 60.074
+    },
+    {
+     "text": "History",
+     "start": 60.12,
+     "end": 60.411
+    },
+    {
+     "text": "Room",
+     "start": 60.469,
+     "end": 60.643
+    },
+    {
+     "text": "for",
+     "start": 60.701,
+     "end": 60.805
+    },
+    {
+     "text": "one",
+     "start": 60.875,
+     "end": 61.014
+    },
+    {
+     "text": "story",
+     "start": 61.049,
+     "end": 61.328
+    },
+    {
+     "text": "a",
+     "start": 61.374,
+     "end": 61.398
+    },
+    {
+     "text": "day.",
+     "start": 61.444,
+     "end": 61.897
+    }
+   ],
+   "cues": {},
+   "startFrame": 1779,
+   "endFrame": 1893
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "id": "reel-benjamin-banneker",
+ "title": "He Called Out Thomas Jefferson. In Writing.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "He called out Thomas Jefferson. In writing.",
+   "visual": {
+    "kind": "photo",
+    "image": "woodcut",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "He called out Thomas Jefferson. *In writing.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Benjamin Banneker.",
+   "visual": {
+    "kind": "title",
+    "title": "Banneker",
+    "sub": "Benjamin Banneker, 1731-1806"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born free in Maryland in 1731, he had almost no schooling.",
+   "visual": {
+    "kind": "title",
+    "title": "Born free",
+    "sub": "Baltimore County, Maryland, 1731"
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Baltimore County",
+     "sub": "Maryland"
+    }
+   }
+  },
+  {
+   "id": "clock",
+   "text": "At about twenty-two, he built a striking clock almost entirely out of wood. It reportedly ran for decades.",
+   "visual": {
+    "kind": "title",
+    "title": "A wooden clock",
+    "sub": "built from his own drawings"
+   }
+  },
+  {
+   "id": "stars",
+   "text": "Later, with borrowed books, he taught himself astronomy, and predicted a solar eclipse.",
+   "visual": {
+    "kind": "title",
+    "title": "The stars",
+    "sub": "self-taught astronomer"
+   }
+  },
+  {
+   "id": "survey",
+   "text": "In 1791, he helped survey the land for the new capital, the future Washington, D.C.",
+   "visual": {
+    "kind": "title",
+    "title": "The capital",
+    "sub": "federal district survey, 1791"
+   },
+   "overlays": {
+    "stamp": "1791"
+   }
+  },
+  {
+   "id": "letter",
+   "text": "That year, he wrote to Thomas Jefferson, who wrote that all men are created equal, and held people in slavery.",
+   "visual": {
+    "kind": "card",
+    "image": "pamphlet",
+    "crop": [
+     0.05,
+     0.05,
+     0.95,
+     0.75
+    ],
+    "caption": "Copy of a Letter from Benjamin Banneker to the Secretary of State, 1792"
+   },
+   "section": "turn"
+  },
+  {
+   "id": "charge",
+   "text": "Banneker quoted his own words back to him, and accused him of holding people by fraud and violence.",
+   "visual": {
+    "kind": "title",
+    "title": "Fraud and violence",
+    "sub": "Banneker to Jefferson, August 19, 1791"
+   }
+  },
+  {
+   "id": "almanac",
+   "text": "He enclosed his own almanac, as proof of what a Black man could do.",
+   "visual": {
+    "kind": "card",
+    "image": "almanac",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.62
+    ],
+    "caption": "Banneker's almanac for 1792, Baltimore"
+   }
+  },
+  {
+   "id": "reply",
+   "text": "Jefferson wrote back, and sent the almanac to the Academy of Sciences in Paris.",
+   "visual": {
+    "kind": "card",
+    "image": "reply",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.6
+    ],
+    "caption": "Jefferson's reply to Banneker, August 30, 1791"
+   }
+  },
+  {
+   "id": "death",
+   "text": "Banneker died in 1806. On the day of his funeral, his house burned, and his clock with it.",
+   "visual": {
+    "kind": "title",
+    "title": "The fire",
+    "sub": "the day of his funeral, 1806"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "close",
+   "text": "He called out Thomas Jefferson. In writing.",
+   "visual": {
+    "kind": "card",
+    "image": "woodcut",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.8
+    ],
+    "caption": "Benjamin Banneker, woodcut from his almanac, 1795"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "PBS": {
+   "name": "PBS, Africans in America: Benjamin Banneker (and 'Banneker's letter to Jefferson')",
+   "url": "https://www.pbs.org/wgbh/aia/part2/2p84.html"
+  },
+  "PBSL": {
+   "name": "PBS, Africans in America: Benjamin Banneker's letter to Thomas Jefferson, 1791",
+   "url": "https://www.pbs.org/wgbh/aia/part2/2h71.html"
+  },
+  "LOCX": {
+   "name": "Library of Congress exhibit 'Thomas Jefferson': Jefferson to Banneker, 30 August 1791",
+   "url": "https://www.loc.gov/exhibits/jefferson/79.html"
+  },
+  "LOCP": {
+   "name": "Library of Congress: Copy of a letter from Benjamin Banneker to the Secretary of State, with his answer (Philadelphia, 1792)",
+   "url": "https://www.loc.gov/item/17022848/"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Benjamin Banneker (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Benjamin_Banneker"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born 9 Nov 1731, Baltimore County, Maryland, to a free mother; little schooling.",
+   "sources": [
+    "PBS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "clock",
+   "claim": "About age 22, built a striking clock almost entirely of wood from his own drawings; reportedly ran ~40 years.",
+   "sources": [
+    "PBS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "stars",
+   "claim": "From 1788, with books/instruments lent by George Ellicott, taught himself astronomy and calculated a solar eclipse.",
+   "sources": [
+    "PBS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "survey",
+   "claim": "1791: worked with Andrew Ellicott on the survey of the federal district (about two months).",
+   "sources": [
+    "PBS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "letter",
+   "claim": "Letter to Jefferson, 19 Aug 1791, quoting 'all men are created equal' against slavery.",
+   "sources": [
+    "PBSL",
+    "WIKI",
+    "LOCP"
+   ]
+  },
+  {
+   "beat": "charge",
+   "claim": "The letter says Jefferson was 'detaining by fraud and violence' people in bondage.",
+   "sources": [
+    "WIKI",
+    "LOCP"
+   ]
+  },
+  {
+   "beat": "almanac",
+   "claim": "Enclosed his almanac manuscript/ephemeris.",
+   "sources": [
+    "PBSL",
+    "LOCX",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "reply",
+   "claim": "Jefferson replied 30 Aug 1791 and sent the almanac to Condorcet, Secretary of the Academy of Sciences in Paris.",
+   "sources": [
+    "LOCX",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died 1806; his house and its contents, including the clock, burned on the day of his funeral.",
+   "sources": [
+    "PBS",
+    "WIKI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "That he laid out Washington D.C. or redrew L'Enfant's plan from memory: a myth",
+  "'America's first clock' or 'first striking clock': unproven",
+  "Grandmother Molly Welsh story (disputed)",
+  "Exact death date (9 or 19 Oct 1806, sources differ)",
+  "Wikipedia says the clock worked until his death but doesn't mention the fire destroying it; PBS says the fire destroyed it"
+ ],
+ "faces": {
+  "woodcut": [
+   [
+    0.3,
+    0.12,
+    0.68,
+    0.5
+   ]
+  ]
+ }
+}

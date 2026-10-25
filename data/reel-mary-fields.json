@@ -1,0 +1,350 @@
+{
+ "id": "reel-mary-fields",
+ "title": "She Was 60, Armed, and Carrying the Mail.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "She was sixty, armed, and carrying the mail.",
+   "visual": {
+    "kind": "photo",
+    "image": "fields",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.28
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "She was 60, armed, *and carrying the mail.*"
+   },
+   "captions": false,
+   "speed": 1.1
+  },
+  {
+   "id": "name",
+   "text": "Meet Stagecoach Mary Fields.",
+   "visual": {
+    "kind": "title",
+    "title": "Mary Fields",
+    "sub": "\"Stagecoach Mary\", c. 1832-1914"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born enslaved in Tennessee around 1832, freed after the Civil War.",
+   "visual": {
+    "kind": "title",
+    "title": "Born enslaved",
+    "sub": "Tennessee, c. 1832"
+   },
+   "section": "story"
+  },
+  {
+   "id": "toledo",
+   "text": "She kept the grounds at a convent in Toledo. God help anyone who walked on her lawn, a nun said.",
+   "visual": {
+    "kind": "title",
+    "title": "The lawn",
+    "sub": "Ursuline convent, Toledo, Ohio"
+   }
+  },
+  {
+   "id": "montana",
+   "text": "In 1885, she went to Montana to nurse a sick nun, and stayed on at the mission.",
+   "visual": {
+    "kind": "photo",
+    "title": "Montana",
+    "sub": "St. Peter's Mission, 1885",
+    "image": "mission",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Cascade",
+     "sub": "Montana"
+    }
+   }
+  },
+  {
+   "id": "fired",
+   "text": "She drank, she cursed, and she faced down an armed man. The bishop threw her out.",
+   "visual": {
+    "kind": "card",
+    "title": "Thrown out",
+    "sub": "by the bishop",
+    "image": "nuns",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Mother Amadeus and the Ursulines of St. Peter's Mission, 1897"
+   },
+   "section": "turn"
+  },
+  {
+   "id": "mail",
+   "text": "So in 1895, in her sixties, she won a U.S. mail contract, the first Black woman ever to.",
+   "visual": {
+    "kind": "card",
+    "image": "fields",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.62
+    ],
+    "caption": "Mary Fields, c. 1895"
+   },
+   "overlays": {
+    "stamp": "1895"
+   }
+  },
+  {
+   "id": "route",
+   "text": "Her route ran from Cascade to the mission. She carried a gun.",
+   "visual": {
+    "kind": "photo",
+    "image": "convent",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "id": "snow",
+   "text": "When the snow was too deep for horses, she put on snowshoes and carried the sacks herself.",
+   "visual": {
+    "kind": "title",
+    "title": "Snow shoes",
+    "sub": "the mail still got through"
+   }
+  },
+  {
+   "id": "record",
+   "text": "Eight years. She never missed a day.",
+   "visual": {
+    "kind": "title",
+    "title": "Eight years",
+    "sub": "never missed a day"
+   }
+  },
+  {
+   "id": "laundry",
+   "text": "She retired, opened a laundry, and drank in the saloons of Cascade, which celebrated her.",
+   "visual": {
+    "kind": "title",
+    "title": "Cascade",
+    "sub": "laundry, saloons, and a town that loved her"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "death",
+   "text": "Mary Fields died in 1914, at about 82. The armed woman who carried the mail.",
+   "visual": {
+    "kind": "card",
+    "image": "fields",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.62
+    ],
+    "caption": "Mary Fields, c. 1832-1914"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "NPS": {
+   "name": "National Park Service: Mary Fields",
+   "url": "https://www.nps.gov/people/mary-fields.htm"
+  },
+  "JSTOR": {
+   "name": "JSTOR Daily: How Mary Fields became Stagecoach Mary",
+   "url": "https://daily.jstor.org/how-mary-fields-became-stagecoach-mary"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Mary Fields (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Mary_Fields"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born enslaved in Tennessee, 1832 or 1833; emancipated around 1863 / after the Civil War.",
+   "sources": [
+    "NPS",
+    "JSTOR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "toledo",
+   "claim": "Groundskeeper at the Ursuline convent in Toledo, Ohio; the nun's lawn remark.",
+   "sources": [
+    "JSTOR",
+    "NPS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "montana",
+   "claim": "Went to St. Peter's Mission, Montana, in 1885 to nurse Mother Amadeus; stayed and did heavy work / hauling.",
+   "sources": [
+    "NPS",
+    "JSTOR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "fired",
+   "claim": "The bishop barred her from the mission (c. 1894) after complaints about drinking, cursing and an armed standoff with a man.",
+   "sources": [
+    "JSTOR",
+    "WIKI",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "mail",
+   "claim": "1895 star route contract, Cascade to St. Peter's Mission; first African American woman star route carrier; aged about 60-63.",
+   "sources": [
+    "NPS",
+    "JSTOR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "route",
+   "claim": "She carried firearms on the route.",
+   "sources": [
+    "JSTOR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "snow",
+   "claim": "Used snowshoes and carried the mail on foot when snow was too deep.",
+   "sources": [
+    "NPS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "record",
+   "claim": "Eight years (two four-year contracts, 1895-1903) without missing a day.",
+   "sources": [
+    "NPS",
+    "JSTOR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "laundry",
+   "claim": "Ran a laundry from her home afterwards; drank in Cascade's saloons; the town celebrated her.",
+   "sources": [
+    "NPS",
+    "WIKI",
+    "JSTOR"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died 1914 (Great Falls hospital, buried at Cascade), aged about 82.",
+   "sources": [
+    "NPS",
+    "WIKI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "The mule Moses",
+  "Cascade closing its schools on her birthday (Wikipedia and Find a Grave only)",
+  "'Second woman' to hold a star route contract (NPS only)",
+  "Wolves, bandits and the 1959 Gary Cooper article in Ebony",
+  "Her exact birth date; whether she ever actually drove a stagecoach (she mostly used a wagon and horses)"
+ ],
+ "faces": {
+  "fields": [
+   [
+    0.3,
+    0.08,
+    0.7,
+    0.35
+   ]
+  ]
+ }
+}

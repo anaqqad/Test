@@ -1,0 +1,38 @@
+{
+ "mic": {
+  "title": "File:Bayard Rustin NYWTS 2.jpg",
+  "artist": "Stanley Wolfson, World Telegram & Sun; Library of Congress",
+  "date": "1965",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Bayard_Rustin_NYWTS_2.jpg",
+  "width": 1920,
+  "height": 1475
+ },
+ "portrait": {
+  "title": "File:Bayard Rustin NYWTS 1.jpg",
+  "artist": "Stanley Wolfson, World Telegram & Sun; Library of Congress",
+  "date": "1964",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Bayard_Rustin_NYWTS_1.jpg",
+  "width": 1920,
+  "height": 2407
+ },
+ "group": {
+  "title": "File:Bayard Rustin before demonstration NYWTS.jpg",
+  "artist": "World Telegram & Sun; Library of Congress",
+  "date": "1964",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Bayard_Rustin_before_demonstration_NYWTS.jpg",
+  "width": 1280,
+  "height": 899
+ },
+ "crowd": {
+  "title": "File:Martin Luther King - March on Washington.jpg",
+  "artist": "U.S. National Archives (USIA)",
+  "date": "1963-08-28",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_-_March_on_Washington.jpg",
+  "width": 1280,
+  "height": 1386
+ }
+}

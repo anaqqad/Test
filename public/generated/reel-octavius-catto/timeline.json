@@ -1,0 +1,966 @@
+{
+ "fps": 30,
+ "durationInFrames": 1954,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 166,
+ "wpm": 152.9,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 1.254,
+   "words": [
+    {
+     "text": "He",
+     "start": 0.0,
+     "end": 0.116
+    },
+    {
+     "text": "was",
+     "start": 0.163,
+     "end": 0.267
+    },
+    {
+     "text": "shot",
+     "start": 0.313,
+     "end": 0.534
+    },
+    {
+     "text": "for",
+     "start": 0.58,
+     "end": 0.673
+    },
+    {
+     "text": "voting.",
+     "start": 0.72,
+     "end": 1.254
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 50
+  },
+  {
+   "id": "name",
+   "speechEnd": 3.333,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 1.754,
+     "end": 1.998
+    },
+    {
+     "text": "Octavius",
+     "start": 2.056,
+     "end": 2.543
+    },
+    {
+     "text": "Catto.",
+     "start": 2.602,
+     "end": 3.333
+    }
+   ],
+   "cues": {},
+   "startFrame": 50,
+   "endFrame": 112
+  },
+  {
+   "id": "born",
+   "speechEnd": 9.127,
+   "words": [
+    {
+     "text": "Born",
+     "start": 3.833,
+     "end": 4.146
+    },
+    {
+     "text": "free",
+     "start": 4.216,
+     "end": 4.425
+    },
+    {
+     "text": "in",
+     "start": 4.448,
+     "end": 4.506
+    },
+    {
+     "text": "Charleston",
+     "start": 4.553,
+     "end": 5.029
+    },
+    {
+     "text": "in",
+     "start": 5.075,
+     "end": 5.133
+    },
+    {
+     "text": "1839,",
+     "start": 5.168,
+     "end": 6.143
+    },
+    {
+     "text": "he",
+     "start": 6.306,
+     "end": 6.376
+    },
+    {
+     "text": "grew",
+     "start": 6.434,
+     "end": 6.585
+    },
+    {
+     "text": "up",
+     "start": 6.631,
+     "end": 6.724
+    },
+    {
+     "text": "in",
+     "start": 6.77,
+     "end": 6.817
+    },
+    {
+     "text": "Philadelphia",
+     "start": 6.852,
+     "end": 7.432
+    },
+    {
+     "text": "and",
+     "start": 7.479,
+     "end": 7.548
+    },
+    {
+     "text": "graduated",
+     "start": 7.595,
+     "end": 8.105
+    },
+    {
+     "text": "top",
+     "start": 8.152,
+     "end": 8.338
+    },
+    {
+     "text": "of",
+     "start": 8.384,
+     "end": 8.431
+    },
+    {
+     "text": "his",
+     "start": 8.477,
+     "end": 8.547
+    },
+    {
+     "text": "class.",
+     "start": 8.593,
+     "end": 9.127
+    }
+   ],
+   "cues": {},
+   "startFrame": 112,
+   "endFrame": 283
+  },
+  {
+   "id": "teacher",
+   "speechEnd": 13.492,
+   "words": [
+    {
+     "text": "He",
+     "start": 9.545,
+     "end": 9.638
+    },
+    {
+     "text": "became",
+     "start": 9.696,
+     "end": 9.94
+    },
+    {
+     "text": "a",
+     "start": 9.975,
+     "end": 9.998
+    },
+    {
+     "text": "teacher,",
+     "start": 10.044,
+     "end": 10.509
+    },
+    {
+     "text": "and",
+     "start": 10.59,
+     "end": 10.729
+    },
+    {
+     "text": "in",
+     "start": 10.787,
+     "end": 10.845
+    },
+    {
+     "text": "the",
+     "start": 10.88,
+     "end": 10.95
+    },
+    {
+     "text": "Civil",
+     "start": 10.996,
+     "end": 11.24
+    },
+    {
+     "text": "War",
+     "start": 11.298,
+     "end": 11.519
+    },
+    {
+     "text": "he",
+     "start": 11.6,
+     "end": 11.658
+    },
+    {
+     "text": "recruited",
+     "start": 11.728,
+     "end": 12.111
+    },
+    {
+     "text": "Black",
+     "start": 12.146,
+     "end": 12.39
+    },
+    {
+     "text": "regiments.",
+     "start": 12.448,
+     "end": 13.492
+    }
+   ],
+   "cues": {},
+   "startFrame": 283,
+   "endFrame": 417
+  },
+  {
+   "id": "streetcar",
+   "speechEnd": 19.542,
+   "words": [
+    {
+     "text": "In",
+     "start": 13.992,
+     "end": 14.143
+    },
+    {
+     "text": "1865,",
+     "start": 14.178,
+     "end": 15.199
+    },
+    {
+     "text": "he",
+     "start": 15.362,
+     "end": 15.432
+    },
+    {
+     "text": "refused",
+     "start": 15.501,
+     "end": 15.861
+    },
+    {
+     "text": "to",
+     "start": 15.884,
+     "end": 15.931
+    },
+    {
+     "text": "leave",
+     "start": 15.977,
+     "end": 16.151
+    },
+    {
+     "text": "a",
+     "start": 16.186,
+     "end": 16.21
+    },
+    {
+     "text": "whites-only",
+     "start": 16.268,
+     "end": 16.778
+    },
+    {
+     "text": "streetcar.",
+     "start": 16.825,
+     "end": 17.498
+    },
+    {
+     "text": "They",
+     "start": 17.916,
+     "end": 18.067
+    },
+    {
+     "text": "left",
+     "start": 18.102,
+     "end": 18.276
+    },
+    {
+     "text": "him",
+     "start": 18.323,
+     "end": 18.404
+    },
+    {
+     "text": "sitting",
+     "start": 18.473,
+     "end": 18.74
+    },
+    {
+     "text": "in",
+     "start": 18.775,
+     "end": 18.822
+    },
+    {
+     "text": "it",
+     "start": 18.868,
+     "end": 18.938
+    },
+    {
+     "text": "all",
+     "start": 18.973,
+     "end": 19.112
+    },
+    {
+     "text": "night.",
+     "start": 19.17,
+     "end": 19.542
+    }
+   ],
+   "cues": {},
+   "startFrame": 417,
+   "endFrame": 601
+  },
+  {
+   "id": "law",
+   "speechEnd": 25.683,
+   "words": [
+    {
+     "text": "In",
+     "start": 20.122,
+     "end": 20.25
+    },
+    {
+     "text": "1867,",
+     "start": 20.285,
+     "end": 21.271
+    },
+    {
+     "text": "Pennsylvania",
+     "start": 21.469,
+     "end": 22.049
+    },
+    {
+     "text": "outlawed",
+     "start": 22.107,
+     "end": 22.49
+    },
+    {
+     "text": "segregation",
+     "start": 22.537,
+     "end": 23.106
+    },
+    {
+     "text": "on",
+     "start": 23.164,
+     "end": 23.234
+    },
+    {
+     "text": "its",
+     "start": 23.28,
+     "end": 23.384
+    },
+    {
+     "text": "streetcars.",
+     "start": 23.408,
+     "end": 24.128
+    },
+    {
+     "text": "His",
+     "start": 24.487,
+     "end": 24.638
+    },
+    {
+     "text": "campaign",
+     "start": 24.685,
+     "end": 25.068
+    },
+    {
+     "text": "forced",
+     "start": 25.126,
+     "end": 25.405
+    },
+    {
+     "text": "it.",
+     "start": 25.439,
+     "end": 25.683
+    }
+   ],
+   "cues": {},
+   "startFrame": 601,
+   "endFrame": 782
+  },
+  {
+   "id": "baseball",
+   "speechEnd": 31.419,
+   "words": [
+    {
+     "text": "He",
+     "start": 26.171,
+     "end": 26.287
+    },
+    {
+     "text": "co-founded",
+     "start": 26.357,
+     "end": 26.868
+    },
+    {
+     "text": "a",
+     "start": 26.914,
+     "end": 26.938
+    },
+    {
+     "text": "Black",
+     "start": 26.996,
+     "end": 27.239
+    },
+    {
+     "text": "baseball",
+     "start": 27.309,
+     "end": 27.727
+    },
+    {
+     "text": "club.",
+     "start": 27.774,
+     "end": 28.145
+    },
+    {
+     "text": "In",
+     "start": 28.377,
+     "end": 28.505
+    },
+    {
+     "text": "1867,",
+     "start": 28.54,
+     "end": 29.445
+    },
+    {
+     "text": "the",
+     "start": 29.469,
+     "end": 29.538
+    },
+    {
+     "text": "national",
+     "start": 29.585,
+     "end": 29.921
+    },
+    {
+     "text": "association",
+     "start": 29.956,
+     "end": 30.583
+    },
+    {
+     "text": "voted",
+     "start": 30.641,
+     "end": 30.897
+    },
+    {
+     "text": "them",
+     "start": 30.931,
+     "end": 31.048
+    },
+    {
+     "text": "out.",
+     "start": 31.094,
+     "end": 31.419
+    }
+   ],
+   "cues": {},
+   "startFrame": 782,
+   "endFrame": 945
+  },
+  {
+   "id": "vote",
+   "speechEnd": 34.589,
+   "words": [
+    {
+     "text": "In",
+     "start": 31.616,
+     "end": 31.756
+    },
+    {
+     "text": "1870,",
+     "start": 31.791,
+     "end": 32.464
+    },
+    {
+     "text": "the",
+     "start": 32.487,
+     "end": 32.557
+    },
+    {
+     "text": "Fifteenth",
+     "start": 32.603,
+     "end": 32.986
+    },
+    {
+     "text": "Amendment",
+     "start": 33.021,
+     "end": 33.381
+    },
+    {
+     "text": "gave",
+     "start": 33.416,
+     "end": 33.59
+    },
+    {
+     "text": "Black",
+     "start": 33.625,
+     "end": 33.857
+    },
+    {
+     "text": "men",
+     "start": 33.915,
+     "end": 34.055
+    },
+    {
+     "text": "the",
+     "start": 34.101,
+     "end": 34.171
+    },
+    {
+     "text": "vote.",
+     "start": 34.217,
+     "end": 34.589
+    }
+   ],
+   "cues": {},
+   "startFrame": 945,
+   "endFrame": 1042
+  },
+  {
+   "id": "election",
+   "speechEnd": 40.254,
+   "words": [
+    {
+     "text": "On",
+     "start": 34.821,
+     "end": 34.983
+    },
+    {
+     "text": "Election",
+     "start": 35.041,
+     "end": 35.401
+    },
+    {
+     "text": "Day,",
+     "start": 35.459,
+     "end": 35.645
+    },
+    {
+     "text": "October",
+     "start": 35.668,
+     "end": 36.075
+    },
+    {
+     "text": "10,",
+     "start": 36.133,
+     "end": 36.377
+    },
+    {
+     "text": "1871,",
+     "start": 36.411,
+     "end": 37.421
+    },
+    {
+     "text": "white",
+     "start": 37.654,
+     "end": 37.932
+    },
+    {
+     "text": "mobs",
+     "start": 37.979,
+     "end": 38.269
+    },
+    {
+     "text": "attacked",
+     "start": 38.304,
+     "end": 38.64
+    },
+    {
+     "text": "Black",
+     "start": 38.687,
+     "end": 38.919
+    },
+    {
+     "text": "voters",
+     "start": 38.977,
+     "end": 39.291
+    },
+    {
+     "text": "in",
+     "start": 39.325,
+     "end": 39.383
+    },
+    {
+     "text": "Philadelphia.",
+     "start": 39.43,
+     "end": 40.254
+    }
+   ],
+   "cues": {},
+   "startFrame": 1042,
+   "endFrame": 1215
+  },
+  {
+   "id": "shot",
+   "speechEnd": 45.479,
+   "words": [
+    {
+     "text": "On",
+     "start": 40.614,
+     "end": 40.777
+    },
+    {
+     "text": "his",
+     "start": 40.823,
+     "end": 40.916
+    },
+    {
+     "text": "way",
+     "start": 40.963,
+     "end": 41.067
+    },
+    {
+     "text": "to",
+     "start": 41.113,
+     "end": 41.16
+    },
+    {
+     "text": "vote,",
+     "start": 41.218,
+     "end": 41.613
+    },
+    {
+     "text": "a",
+     "start": 41.775,
+     "end": 41.845
+    },
+    {
+     "text": "man",
+     "start": 41.926,
+     "end": 42.112
+    },
+    {
+     "text": "named",
+     "start": 42.17,
+     "end": 42.391
+    },
+    {
+     "text": "Frank",
+     "start": 42.449,
+     "end": 42.692
+    },
+    {
+     "text": "Kelly",
+     "start": 42.75,
+     "end": 43.029
+    },
+    {
+     "text": "shot",
+     "start": 43.099,
+     "end": 43.308
+    },
+    {
+     "text": "him",
+     "start": 43.343,
+     "end": 43.424
+    },
+    {
+     "text": "dead.",
+     "start": 43.482,
+     "end": 43.83
+    },
+    {
+     "text": "He",
+     "start": 44.144,
+     "end": 44.237
+    },
+    {
+     "text": "was",
+     "start": 44.283,
+     "end": 44.387
+    },
+    {
+     "text": "32.",
+     "start": 44.457,
+     "end": 45.479
+    }
+   ],
+   "cues": {},
+   "startFrame": 1215,
+   "endFrame": 1376
+  },
+  {
+   "id": "trial",
+   "speechEnd": 50.344,
+   "words": [
+    {
+     "text": "Kelly",
+     "start": 45.979,
+     "end": 46.281
+    },
+    {
+     "text": "was",
+     "start": 46.327,
+     "end": 46.432
+    },
+    {
+     "text": "tried",
+     "start": 46.478,
+     "end": 46.757
+    },
+    {
+     "text": "in",
+     "start": 46.792,
+     "end": 46.85
+    },
+    {
+     "text": "1877.",
+     "start": 46.908,
+     "end": 48.057
+    },
+    {
+     "text": "An",
+     "start": 48.417,
+     "end": 48.568
+    },
+    {
+     "text": "all-white",
+     "start": 48.638,
+     "end": 49.195
+    },
+    {
+     "text": "jury",
+     "start": 49.241,
+     "end": 49.532
+    },
+    {
+     "text": "set",
+     "start": 49.59,
+     "end": 49.764
+    },
+    {
+     "text": "him",
+     "start": 49.799,
+     "end": 49.88
+    },
+    {
+     "text": "free.",
+     "start": 49.95,
+     "end": 50.344
+    }
+   ],
+   "cues": {},
+   "startFrame": 1376,
+   "endFrame": 1525
+  },
+  {
+   "id": "statue",
+   "speechEnd": 56.892,
+   "words": [
+    {
+     "text": "In",
+     "start": 50.925,
+     "end": 51.064
+    },
+    {
+     "text": "2017,",
+     "start": 51.122,
+     "end": 52.214
+    },
+    {
+     "text": "Philadelphia",
+     "start": 52.33,
+     "end": 52.933
+    },
+    {
+     "text": "raised",
+     "start": 53.003,
+     "end": 53.247
+    },
+    {
+     "text": "a",
+     "start": 53.282,
+     "end": 53.317
+    },
+    {
+     "text": "statue",
+     "start": 53.375,
+     "end": 53.804
+    },
+    {
+     "text": "of",
+     "start": 53.827,
+     "end": 53.885
+    },
+    {
+     "text": "him",
+     "start": 53.932,
+     "end": 54.025
+    },
+    {
+     "text": "at",
+     "start": 54.071,
+     "end": 54.129
+    },
+    {
+     "text": "City",
+     "start": 54.176,
+     "end": 54.396
+    },
+    {
+     "text": "Hall.",
+     "start": 54.443,
+     "end": 54.791
+    },
+    {
+     "text": "Its",
+     "start": 55.209,
+     "end": 55.418
+    },
+    {
+     "text": "first",
+     "start": 55.488,
+     "end": 55.766
+    },
+    {
+     "text": "of",
+     "start": 55.813,
+     "end": 55.871
+    },
+    {
+     "text": "a",
+     "start": 55.929,
+     "end": 55.952
+    },
+    {
+     "text": "Black",
+     "start": 55.998,
+     "end": 56.242
+    },
+    {
+     "text": "American.",
+     "start": 56.289,
+     "end": 56.892
+    }
+   ],
+   "cues": {},
+   "startFrame": 1525,
+   "endFrame": 1716
+  },
+  {
+   "id": "end",
+   "speechEnd": 60.933,
+   "words": [
+    {
+     "text": "He",
+     "start": 57.31,
+     "end": 57.426
+    },
+    {
+     "text": "was",
+     "start": 57.473,
+     "end": 57.589
+    },
+    {
+     "text": "shot",
+     "start": 57.635,
+     "end": 57.879
+    },
+    {
+     "text": "for",
+     "start": 57.926,
+     "end": 58.03
+    },
+    {
+     "text": "voting.",
+     "start": 58.088,
+     "end": 58.518
+    },
+    {
+     "text": "Remember",
+     "start": 58.936,
+     "end": 59.307
+    },
+    {
+     "text": "Octavius",
+     "start": 59.377,
+     "end": 59.957
+    },
+    {
+     "text": "Catto.",
+     "start": 60.015,
+     "end": 60.933
+    }
+   ],
+   "cues": {},
+   "startFrame": 1716,
+   "endFrame": 1840
+  },
+  {
+   "id": "cta",
+   "speechEnd": 63.94,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 61.432,
+     "end": 61.769
+    },
+    {
+     "text": "The",
+     "start": 61.815,
+     "end": 61.885
+    },
+    {
+     "text": "Black",
+     "start": 61.92,
+     "end": 62.117
+    },
+    {
+     "text": "History",
+     "start": 62.163,
+     "end": 62.454
+    },
+    {
+     "text": "Room",
+     "start": 62.5,
+     "end": 62.674
+    },
+    {
+     "text": "for",
+     "start": 62.732,
+     "end": 62.837
+    },
+    {
+     "text": "one",
+     "start": 62.906,
+     "end": 63.069
+    },
+    {
+     "text": "story",
+     "start": 63.104,
+     "end": 63.382
+    },
+    {
+     "text": "a",
+     "start": 63.429,
+     "end": 63.452
+    },
+    {
+     "text": "day.",
+     "start": 63.499,
+     "end": 63.94
+    }
+   ],
+   "cues": {},
+   "startFrame": 1840,
+   "endFrame": 1954
+  }
+ ]
+}

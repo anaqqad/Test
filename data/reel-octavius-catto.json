@@ -1,0 +1,356 @@
+{
+ "id": "reel-octavius-catto",
+ "title": "He Was Shot for Voting.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "He was shot for voting.",
+   "visual": {
+    "kind": "photo",
+    "image": "catto2",
+    "focus": [
+     0.48,
+     0.25
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.28
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "He was shot *for voting.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Octavius Catto.",
+   "visual": {
+    "kind": "title",
+    "title": "Octavius Catto",
+    "sub": "1839-1871"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born free in Charleston in 1839, he grew up in Philadelphia and graduated top of his class.",
+   "visual": {
+    "kind": "title",
+    "title": "Top of his class",
+    "sub": "Institute for Colored Youth, 1858"
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Philadelphia",
+     "sub": "Pennsylvania"
+    }
+   }
+  },
+  {
+   "id": "teacher",
+   "text": "He became a teacher, and in the Civil War he recruited Black regiments.",
+   "visual": {
+    "kind": "title",
+    "title": "To arms",
+    "sub": "recruiting Black troops, 1863"
+   }
+  },
+  {
+   "id": "streetcar",
+   "text": "In 1865, he refused to leave a whites-only streetcar. They left him sitting in it all night.",
+   "visual": {
+    "kind": "card",
+    "image": "chestnut1870",
+    "crop": [
+     0.04,
+     0.1,
+     0.5,
+     0.9
+    ],
+    "caption": "Chestnut Street, Philadelphia, c. 1870"
+   },
+   "section": "turn"
+  },
+  {
+   "id": "law",
+   "text": "In 1867, Pennsylvania outlawed segregation on its streetcars. His campaign forced it.",
+   "visual": {
+    "kind": "title",
+    "title": "Open streetcars",
+    "sub": "Pennsylvania law, March 1867"
+   }
+  },
+  {
+   "id": "baseball",
+   "text": "He co-founded a Black baseball club. In 1867, the national association voted them out.",
+   "visual": {
+    "kind": "title",
+    "title": "The color line",
+    "sub": "Pythian Base Ball Club, 1867"
+   }
+  },
+  {
+   "id": "vote",
+   "text": "In 1870, the Fifteenth Amendment gave Black men the vote.",
+   "visual": {
+    "kind": "title",
+    "title": "The vote",
+    "sub": "Fifteenth Amendment, 1870"
+   },
+   "overlays": {
+    "stamp": "1870"
+   }
+  },
+  {
+   "id": "election",
+   "text": "On Election Day, October 10, 1871, white mobs attacked Black voters in Philadelphia.",
+   "visual": {
+    "kind": "card",
+    "image": "chestnut1863",
+    "crop": [
+     0.16,
+     0.09,
+     0.74,
+     0.39
+    ],
+    "caption": "Chestnut Street, Philadelphia, c. 1863"
+   },
+   "overlays": {
+    "stamp": "1871"
+   }
+  },
+  {
+   "id": "shot",
+   "text": "On his way to vote, a man named Frank Kelly shot him dead. He was 32.",
+   "visual": {
+    "kind": "card",
+    "image": "catto_loc",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.85
+    ],
+    "caption": "Octavius V. Catto, engraving after a photograph, 1871"
+   }
+  },
+  {
+   "id": "trial",
+   "text": "Kelly was tried in 1877. An all-white jury set him free.",
+   "visual": {
+    "kind": "title",
+    "title": "Set free",
+    "sub": "an all-white jury, 1877"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "statue",
+   "text": "In 2017, Philadelphia raised a statue of him at City Hall. Its first of a Black American.",
+   "visual": {
+    "kind": "title",
+    "title": "City Hall",
+    "sub": "the first statue of a Black American, 2017"
+   }
+  },
+  {
+   "id": "end",
+   "text": "He was shot for voting. Remember Octavius Catto.",
+   "visual": {
+    "kind": "card",
+    "image": "catto2",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.7
+    ],
+    "caption": "Octavius V. Catto, 1839-1871"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "SABR": {
+   "name": "Society for American Baseball Research, BioProject: Octavius Catto",
+   "url": "https://sabr.org/bioproj/person/octavius-catto/"
+  },
+  "NPS": {
+   "name": "National Park Service: Octavius Catto",
+   "url": "https://www.nps.gov/people/octavius-catto.htm"
+  },
+  "EGP": {
+   "name": "Encyclopedia of Greater Philadelphia: Murder of Octavius Catto",
+   "url": "https://philadelphiaencyclopedia.org/essays/murder-of-octavius-catto/"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Octavius Catto (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Octavius_Catto"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born free, Charleston SC, 22 Feb 1839; Institute for Colored Youth, Philadelphia; graduated 1858 (valedictorian per NPS).",
+   "sources": [
+    "NPS",
+    "SABR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "teacher",
+   "claim": "Taught at the ICY; recruited Black soldiers in the Civil War; slogan 'Men of color to arms! Now or never!' (SABR).",
+   "sources": [
+    "NPS",
+    "SABR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "streetcar",
+   "claim": "18 May 1865: refused to leave a streetcar and was left sitting in it overnight.",
+   "sources": [
+    "SABR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "law",
+   "claim": "March 1867 Pennsylvania law barring removal of passengers by colour; Catto's campaign / 'bill of rights' behind it.",
+   "sources": [
+    "SABR",
+    "EGP",
+    "NPS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "baseball",
+   "claim": "Co-founded the Pythian Base Ball Club (1866/67); 1867 the National Association of Base Ball Players denied them membership, formalising a colour line.",
+   "sources": [
+    "SABR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "vote",
+   "claim": "Fifteenth Amendment ratified 1870; Catto a persistent advocate.",
+   "sources": [
+    "SABR",
+    "NPS",
+    "EGP"
+   ]
+  },
+  {
+   "beat": "election",
+   "claim": "Election Day 10 Oct 1871: violence against Black voters in Philadelphia; police did little to intervene.",
+   "sources": [
+    "EGP",
+    "WIKI",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "shot",
+   "claim": "Shot by Frank Kelly near his home on South Street, aged 32.",
+   "sources": [
+    "EGP",
+    "NPS",
+    "SABR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "trial",
+   "claim": "Funeral among the largest in the city's history; Kelly tried April 1877 and acquitted by a jury with no African Americans.",
+   "sources": [
+    "SABR",
+    "EGP",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "statue",
+   "claim": "Memorial 'A Quest for Parity' with a 12-foot bronze statue unveiled at City Hall, 26 Sept 2017; first public statue of an individual African American in Philadelphia.",
+   "sources": [
+    "SABR",
+    "EGP",
+    "WIKI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Number of shots (three or four; sources differ)",
+  "'Eleven regiments' (SABR only); 'conductor unhitched the horses' (not in fetched sources)",
+  "Funeral size figures (5,000 mourners vs 'tens of thousands'; sources differ)",
+  "Caroline LeCount's own streetcar case, 1867",
+  "Major's commission (he never saw combat)"
+ ],
+ "faces": {
+  "catto2": [
+   [
+    0.33,
+    0.1,
+    0.64,
+    0.4
+   ]
+  ],
+  "catto_loc": [
+   [
+    0.33,
+    0.12,
+    0.65,
+    0.45
+   ]
+  ]
+ }
+}

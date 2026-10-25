@@ -1,0 +1,38 @@
+{
+ "carney": {
+  "title": "File:William Harvey Carney.jpg (Library of Congress cph.3c18558, Du Bois Paris Exposition album)",
+  "artist": "unknown; collected by W. E. B. Du Bois",
+  "date": "c. 1900",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:William_Harvey_Carney.jpg",
+  "width": 1280,
+  "height": 1770
+ },
+ "portrait1900": {
+  "title": "Sgt. William Carney, head-and-shoulders portrait, facing front",
+  "artist": "unknown; Library of Congress cph.3a50353",
+  "date": "c. 1900",
+  "license": "No known restrictions on publication",
+  "source": "https://www.loc.gov/item/97506080/",
+  "width": 450,
+  "height": 640
+ },
+ "charge": {
+  "title": "The gallant charge of the fifty fourth Massachusetts (colored) regiment: on the rebel works at Fort Wagner",
+  "artist": "Currier & Ives; Library of Congress ppmsca.35357",
+  "date": "1863",
+  "license": "No known restrictions on publication",
+  "source": "https://www.loc.gov/item/2001699787/",
+  "width": 1024,
+  "height": 730
+ },
+ "storming": {
+  "title": "Storming Fort Wagner",
+  "artist": "Kurz & Allison; Library of Congress pga.01949",
+  "date": "1890",
+  "license": "Public domain (published 1890)",
+  "source": "https://www.loc.gov/item/2012647346/",
+  "width": 1024,
+  "height": 803
+ }
+}

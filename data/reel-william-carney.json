@@ -1,0 +1,340 @@
+{
+ "id": "reel-william-carney",
+ "title": "Shot Twice. He Never Dropped the Flag.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Shot twice. He never dropped the flag.",
+   "visual": {
+    "kind": "photo",
+    "image": "carney",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Shot twice. *He never dropped the flag.*"
+   },
+   "captions": false,
+   "speed": 1.1
+  },
+  {
+   "id": "name",
+   "text": "Meet William Carney.",
+   "visual": {
+    "kind": "title",
+    "title": "William Carney",
+    "sub": "1840-1908"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born enslaved in Norfolk, Virginia, in 1840, he found freedom up north, in New Bedford, Massachusetts.",
+   "visual": {
+    "kind": "title",
+    "title": "Born enslaved",
+    "sub": "Norfolk, Virginia, 1840"
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Norfolk",
+     "sub": "Virginia"
+    }
+   }
+  },
+  {
+   "id": "enlist",
+   "text": "In 1863, when Black men were finally allowed to fight, he joined the 54th Massachusetts.",
+   "visual": {
+    "kind": "title",
+    "title": "The 54th",
+    "sub": "Massachusetts Infantry, 1863"
+   }
+  },
+  {
+   "id": "wagner",
+   "text": "On July 18, 1863, the 54th charged Fort Wagner, near Charleston.",
+   "visual": {
+    "kind": "card",
+    "image": "charge",
+    "crop": [
+     0.07,
+     0.04,
+     0.91,
+     0.78
+    ],
+    "caption": "The charge of the 54th Massachusetts at Fort Wagner, Currier & Ives, 1863"
+   },
+   "section": "turn",
+   "overlays": {
+    "stamp": "July 18, 1863"
+   }
+  },
+  {
+   "id": "flag",
+   "text": "The color sergeant was shot down. Carney grabbed the flag and carried it to the top of the wall.",
+   "visual": {
+    "kind": "photo",
+    "image": "storming",
+    "focus": [
+     0.6,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.3
+    ],
+    "anchor": [
+     0.55,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "wounds",
+   "text": "He was severely wounded, twice. When the regiment fell back, he brought the flag back with it.",
+   "visual": {
+    "kind": "title",
+    "title": "Shot twice",
+    "sub": "still holding the flag"
+   }
+  },
+  {
+   "id": "quote",
+   "text": "He told the men: Boys, I only did my duty. The old flag never touched the ground.",
+   "visual": {
+    "kind": "title",
+    "title": "The old flag",
+    "sub": "never touched the ground"
+   }
+  },
+  {
+   "id": "after",
+   "text": "Discharged in 1864, he went home and delivered the mail.",
+   "visual": {
+    "kind": "title",
+    "title": "Mail carrier",
+    "sub": "New Bedford, Massachusetts"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "medal",
+   "text": "The army took 37 years. In 1900, he received the Medal of Honor, for the earliest action by any Black soldier honored.",
+   "visual": {
+    "kind": "card",
+    "image": "carney",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.8
+    ],
+    "caption": "Sgt. William Carney wearing his Medal of Honor, c. 1900"
+   },
+   "overlays": {
+    "stamp": "1900"
+   }
+  },
+  {
+   "id": "death",
+   "text": "He died in 1908. At the Massachusetts State House, the flag flew at half-mast.",
+   "visual": {
+    "kind": "title",
+    "title": "Half-mast",
+    "sub": "Massachusetts State House, 1908"
+   }
+  },
+  {
+   "id": "end",
+   "text": "Shot twice. William Carney never dropped the flag.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait1900",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.8
+    ],
+    "caption": "Sgt. William Carney, c. 1900"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "LVA": {
+   "name": "Library of Virginia, Virginia Changemakers: William Harvey Carney (1840-1908)",
+   "url": "https://www.lva.virginia.gov/collections/educator-resources/changemakers/items/show/249"
+  },
+  "ABT": {
+   "name": "American Battlefield Trust: William Carney",
+   "url": "https://www.battlefields.org/learn/biographies/william-carney"
+  },
+  "DICK": {
+   "name": "Dickinson College, House Divided: William H. Carney, Medal of Honor citation",
+   "url": "https://housedivided.dickinson.edu/sites/patriots/?p=319"
+  },
+  "WIKI": {
+   "name": "Wikipedia: William Harvey Carney (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/William_Harvey_Carney"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born enslaved in Norfolk, Virginia, 29 Feb 1840; freedom in New Bedford, Massachusetts (sources differ on how: Underground Railroad, or his father buying the family's freedom).",
+   "sources": [
+    "LVA",
+    "ABT",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "enlist",
+   "claim": "Joined the 54th Massachusetts Volunteer Infantry in 1863 after Black men were allowed to enlist.",
+   "sources": [
+    "LVA",
+    "ABT",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "wagner",
+   "claim": "Assault on Fort Wagner, Morris Island near Charleston, 18 July 1863.",
+   "sources": [
+    "LVA",
+    "ABT"
+   ]
+  },
+  {
+   "beat": "flag",
+   "claim": "When the color sergeant was shot, Carney took the flag and planted it on the parapet.",
+   "sources": [
+    "DICK",
+    "LVA",
+    "ABT"
+   ]
+  },
+  {
+   "beat": "wounds",
+   "claim": "Medal of Honor citation: brought off the flag 'under a fierce fire in which he was twice severely wounded'.",
+   "sources": [
+    "DICK",
+    "LVA",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "quote",
+   "claim": "'Boys, I only did my duty; the old flag never touched the ground!' (as reported).",
+   "sources": [
+    "ABT",
+    "LVA",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "after",
+   "claim": "Discharged June 1864; letter carrier in New Bedford (32 years per Wikipedia).",
+   "sources": [
+    "LVA",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "medal",
+   "claim": "Medal of Honor issued 23 May 1900, 37 years after the battle; the earliest action for which a Black soldier received the medal.",
+   "sources": [
+    "LVA",
+    "ABT",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died 9 Dec 1908; the flag at the Massachusetts State House flew at half-mast.",
+   "sources": [
+    "LVA",
+    "WIKI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "The elevator accident at the State House as cause of death (Wikipedia and a forum only)",
+  "Wounds in the leg, chest and arm (Wikipedia only); the citation says 'twice severely wounded'",
+  "'First Black Medal of Honor recipient': wrong, 20 Black men received it before him; his was the earliest action",
+  "32 years as a mail carrier (Wikipedia only)"
+ ],
+ "faces": {
+  "carney": [
+   [
+    0.33,
+    0.17,
+    0.66,
+    0.43
+   ]
+  ],
+  "portrait1900": [
+   [
+    0.33,
+    0.2,
+    0.66,
+    0.46
+   ]
+  ]
+ }
+}
