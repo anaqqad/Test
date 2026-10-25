@@ -7,16 +7,29 @@ YouTube description with chapters. Strategy, format analysis and the first four 
 ## Run
     npm i
     npm run studio                                   # preview and scrub in the browser
-    node scripts/render.mjs korean-war-demo          # out/<id>/<id>.mp4, thumbnail.jpg, description.txt
-    node scripts/render.mjs korean-war-demo --qc     # one still per event, to check fronts against sources
-    node scripts/render.mjs korean-war-demo --range=0-299 --scale=0.5   # quick partial preview
+    node scripts/render.mjs korean-war          # out/<id>/<id>.mp4, thumbnail.jpg, description.txt
+    node scripts/render.mjs korean-war --qc     # one still per event, to check fronts against sources
+    node scripts/render.mjs korean-war --keyframes   # one still per territory keyframe
+    node scripts/render.mjs korean-war --range=0-299 --scale=0.5   # quick partial preview
     npm run typecheck
 
 Without internet access to download Remotion's Chrome, point it at an installed one:
 `REMOTION_BROWSER=/path/to/chrome node scripts/render.mjs ...` (also read by `npx remotion` via `remotion.config.ts`).
 
+## Videos
+- `korean-war` - built by `python3 tools/build_korean_war.py` from front lines researched in the US Army CMH
+  official histories (Appleman; Mossman) and the Natural Earth line of control.
+- `mongol-empire` - built by `python3 tools/build_mongol_empire.py` from `tools/mongol/extents.geojson`
+  (regions drawn from Wikipedia campaign articles, cross-checked against Taagepera's areas; `build_extents.py`
+  regenerates it with shapely). Labels and leaders: `tools/mongol/static.json`.
+Edit the builder, rerun it, then check with `--keyframes` before rendering.
+
+Music: Scott Buckley (CC BY 4.0). His Content ID system claims any video whose description lacks the credit, so
+the credit line is part of each video's `youtube.credits` and goes into the generated description. Upload with
+that description from the start.
+
 ## New video
-1. Copy `data/videos/korean-war-demo.json`, change `id`, keep `"draft": true`.
+1. Copy `data/videos/korean-war.json`, change `id`, keep `"draft": true`.
 2. Register it in `src/videos.ts`.
 3. Set `map.bounds` (west/south, east/north) and `map.theatre` (Natural Earth country names, e.g. "South Korea";
    unknown names raise an error listing them).

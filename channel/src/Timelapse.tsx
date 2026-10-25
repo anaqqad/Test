@@ -11,7 +11,7 @@ import { theme } from "./lib/theme";
 
 export type EventMeta = { frame: number; title: string; chapter: boolean; date: string };
 
-export const Timelapse: React.FC<{ video: Video; events?: EventMeta[] }> = ({ video }) => {
+export const Timelapse: React.FC<{ video: Video; events?: EventMeta[]; keyframes?: { date: string; frame: number }[] }> = ({ video }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const tl = useMemo(() => buildTimeline(video), [video]);

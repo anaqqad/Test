@@ -121,7 +121,7 @@ export class MapEngine {
   private landIdx: Int32Array; // land pixels inside the theatre: the only pixels territory is painted on
   private pixelKm2: Float32Array; // area of one map pixel, per row
   private keyDays: number[];
-  private sdfCache = new Map<number, Float32Array[]>();
+  private sdfCache = new Map<number, { sdf: Float32Array[]; max: number[] }>();
   private candidates: { x: number; y: number; i: number; r: number }[] = [];
   private last: DayState | null = null;
   private colors: Rgb[];
@@ -244,9 +244,10 @@ export class MapEngine {
     return c;
   }
 
-  private keyframeSdf(k: number): Float32Array[] {
-    let sdf = this.sdfCache.get(k);
-    if (!sdf) {
+  // Per faction: the signed distance field, and its maximum (-Infinity when the faction is absent).
+  private keyframeSdf(k: number): { sdf: Float32Array[]; max: number[] } {
+    let entry = this.sdfCache.get(k);
+    if (!entry) {
       const { w, h } = this;
       const ids = this.video.factions.map((f) => f.id);
       const masks = ids.map(() => new Uint8Array(w * h));
@@ -256,11 +257,17 @@ export class MapEngine {
         const m = rasterize(this.layerGeo(layer), this.projection, w, h);
         for (let i = 0; i < m.length; i++) if (m[i]) for (let g = 0; g < masks.length; g++) masks[g][i] = g === f ? 1 : 0;
       }
-      sdf = masks.map((m) => signedDistance(m, w, h));
+      const sdf = masks.map((m) => signedDistance(m, w, h));
+      const max = masks.map((m, f) => {
+        let best = -Infinity;
+        for (let i = 0; i < m.length; i++) if (m[i] && sdf[f][i] > best) best = sdf[f][i];
+        return best;
+      });
+      entry = { sdf, max };
       if (this.sdfCache.size >= 4) this.sdfCache.delete(this.sdfCache.keys().next().value!);
-      this.sdfCache.set(k, sdf);
+      this.sdfCache.set(k, entry);
     }
-    return sdf;
+    return entry;
   }
 
   // Territory of the keyframe in force on `day`, as vector shapes in paint order (for the globe intro).
@@ -286,9 +293,15 @@ export class MapEngine {
     let b = keyDays.findIndex((d) => d > day);
     if (b === -1) b = keyDays.length - 1;
     const a = Math.max(0, day >= keyDays[b] ? b : b - 1);
-    const t = a === b ? 0 : smoothstep((day - keyDays[a]) / (keyDays[b] - keyDays[a]));
-    const A = this.keyframeSdf(a), B = this.keyframeSdf(b);
+    const t = a === b || this.video.territories[b].cut ? 0 : smoothstep((day - keyDays[a]) / (keyDays[b] - keyDays[a]));
+    const KA = this.keyframeSdf(a), KB = this.keyframeSdf(b);
     const F = this.video.factions.length;
+    // A faction missing from one end of the interval grows from (or shrinks to) the core of its other shape,
+    // instead of popping in at the very end: its missing field is the other one shifted below zero.
+    const A = KA.sdf.map((s, f) => (KA.max[f] === -Infinity && KB.max[f] > -Infinity ? KB.sdf[f] : s));
+    const B = KB.sdf.map((s, f) => (KB.max[f] === -Infinity && KA.max[f] > -Infinity ? KA.sdf[f] : s));
+    const offA = KA.sdf.map((_, f) => (KA.max[f] === -Infinity && KB.max[f] > -Infinity ? KB.max[f] + 1 : 0));
+    const offB = KB.sdf.map((_, f) => (KB.max[f] === -Infinity && KA.max[f] > -Infinity ? KA.max[f] + 1 : 0));
 
     const wash = canvas2d(w, h), front = canvas2d(w, h);
     const washImg = wash.ctx.createImageData(w, h), frontImg = front.ctx.createImageData(w, h);
@@ -303,7 +316,8 @@ export class MapEngine {
     for (const i of this.landIdx) {
       let best = -1, d1 = -Infinity, d2 = -Infinity;
       for (let f = 0; f < F; f++) {
-        const d = A[f][i] + (B[f][i] - A[f][i]) * t;
+        const da = A[f][i] - offA[f], db = B[f][i] - offB[f];
+        const d = da + (db - da) * t;
         if (d > d1) (d2 = d1), (d1 = d), (best = f);
         else if (d > d2) d2 = d;
       }

@@ -1,0 +1,293 @@
+{
+ "labels": [
+  {
+   "text": "Jin",
+   "at": [
+    115.5,
+    36.5
+   ],
+   "kind": "country",
+   "to": "1234-02-09"
+  },
+  {
+   "text": "Western Xia",
+   "at": [
+    104.5,
+    38.8
+   ],
+   "kind": "country",
+   "to": "1227-08-01"
+  },
+  {
+   "text": "Song",
+   "at": [
+    114,
+    27.5
+   ],
+   "kind": "country",
+   "to": "1279-03-19"
+  },
+  {
+   "text": "Qara Khitai",
+   "at": [
+    76,
+    43
+   ],
+   "kind": "country",
+   "to": "1218-06-01"
+  },
+  {
+   "text": "Khwarazm",
+   "at": [
+    61,
+    38
+   ],
+   "kind": "country",
+   "to": "1221-12-01"
+  },
+  {
+   "text": "Rus'",
+   "at": [
+    33,
+    54
+   ],
+   "kind": "country",
+   "to": "1240-12-06"
+  },
+  {
+   "text": "Abbasid Caliphate",
+   "at": [
+    44,
+    32
+   ],
+   "kind": "country",
+   "to": "1258-02-10"
+  },
+  {
+   "text": "Mamluks",
+   "at": [
+    31,
+    27
+   ],
+   "kind": "country",
+   "from": "1250-05-02"
+  },
+  {
+   "text": "Delhi Sultanate",
+   "at": [
+    78,
+    26
+   ],
+   "kind": "country"
+  },
+  {
+   "text": "Hungary",
+   "at": [
+    19.5,
+    47
+   ],
+   "kind": "country"
+  },
+  {
+   "text": "Poland",
+   "at": [
+    19.5,
+    52
+   ],
+   "kind": "country"
+  },
+  {
+   "text": "Goryeo",
+   "at": [
+    127.6,
+    37.5
+   ],
+   "kind": "country",
+   "size": 18
+  },
+  {
+   "text": "Japan",
+   "at": [
+    137.5,
+    36.5
+   ],
+   "kind": "country"
+  },
+  {
+   "text": "Tibet",
+   "at": [
+    88,
+    31.5
+   ],
+   "kind": "country"
+  },
+  {
+   "text": "Dali",
+   "at": [
+    101,
+    25
+   ],
+   "kind": "country",
+   "to": "1254-01-01",
+   "size": 18
+  },
+  {
+   "text": "Dai Viet",
+   "at": [
+    105.8,
+    20.5
+   ],
+   "kind": "country",
+   "size": 16
+  },
+  {
+   "text": "Caspian Sea",
+   "at": [
+    50.6,
+    42
+   ],
+   "kind": "sea",
+   "size": 16
+  },
+  {
+   "text": "Karakorum",
+   "at": [
+    102.83,
+    47.2
+   ],
+   "kind": "city"
+  },
+  {
+   "text": "Zhongdu",
+   "at": [
+    116.4,
+    39.9
+   ],
+   "kind": "city",
+   "to": "1271-12-18"
+  },
+  {
+   "text": "Khanbaliq",
+   "at": [
+    116.4,
+    39.9
+   ],
+   "kind": "city",
+   "from": "1271-12-18"
+  },
+  {
+   "text": "Samarkand",
+   "at": [
+    66.97,
+    39.65
+   ],
+   "kind": "city"
+  },
+  {
+   "text": "Baghdad",
+   "at": [
+    44.4,
+    33.3
+   ],
+   "kind": "city"
+  },
+  {
+   "text": "Kiev",
+   "at": [
+    30.52,
+    50.45
+   ],
+   "kind": "city"
+  },
+  {
+   "text": "Sarai",
+   "at": [
+    47.2,
+    47.0
+   ],
+   "kind": "city",
+   "from": "1250-01-01"
+  },
+  {
+   "text": "Tabriz",
+   "at": [
+    46.3,
+    38.08
+   ],
+   "kind": "city"
+  },
+  {
+   "text": "Hangzhou",
+   "at": [
+    120.15,
+    30.25
+   ],
+   "kind": "city"
+  },
+  {
+   "text": "Kaifeng",
+   "at": [
+    114.3,
+    34.8
+   ],
+   "kind": "city"
+  }
+ ],
+ "leaders": [
+  {
+   "factionId": "mongol",
+   "name": "Chinggis Khan",
+   "role": "Great Khan",
+   "to": "1227-08-18"
+  },
+  {
+   "factionId": "mongol",
+   "name": "Tolui",
+   "role": "Regent",
+   "from": "1227-08-18",
+   "to": "1229-09-13"
+  },
+  {
+   "factionId": "mongol",
+   "name": "Ögedei Khan",
+   "role": "Great Khan",
+   "from": "1229-09-13",
+   "to": "1241-12-11"
+  },
+  {
+   "factionId": "mongol",
+   "name": "Töregene Khatun",
+   "role": "Regent",
+   "from": "1241-12-11",
+   "to": "1246-08-24"
+  },
+  {
+   "factionId": "mongol",
+   "name": "Güyük Khan",
+   "role": "Great Khan",
+   "from": "1246-08-24",
+   "to": "1248-04-20"
+  },
+  {
+   "factionId": "mongol",
+   "name": "Oghul Qaimish",
+   "role": "Regent",
+   "from": "1248-04-20",
+   "to": "1251-07-01"
+  },
+  {
+   "factionId": "mongol",
+   "name": "Möngke Khan",
+   "role": "Great Khan",
+   "from": "1251-07-01",
+   "to": "1259-08-11"
+  },
+  {
+   "factionId": "yuan",
+   "name": "Kublai Khan",
+   "role": "Great Khan, Yuan emperor",
+   "from": "1260-05-05",
+   "to": "1294-02-18"
+  }
+ ]
+}

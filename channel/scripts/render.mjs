@@ -1,8 +1,9 @@
 // Render a video from its JSON, plus thumbnail, YouTube description with chapters, and optional QC stills.
-//   node scripts/render.mjs korean-war-demo              -> out/<id>/<id>.mp4, thumbnail.jpg, description.txt
-//   node scripts/render.mjs korean-war-demo --qc         -> out/<id>/qc/ one still per event, for fact-checking
-//   node scripts/render.mjs korean-war-demo --frames=0,450,900
-//   node scripts/render.mjs korean-war-demo --range=0-299 -> render only these frames (timing / previews)
+//   node scripts/render.mjs korean-war              -> out/<id>/<id>.mp4, thumbnail.jpg, description.txt
+//   node scripts/render.mjs korean-war --qc         -> out/<id>/qc/ one still per event, for fact-checking
+//   node scripts/render.mjs korean-war --keyframes  -> out/<id>/keys/ one still per territory keyframe
+//   node scripts/render.mjs korean-war --frames=0,450,900
+//   node scripts/render.mjs korean-war --range=0-299 -> render only these frames (timing / previews)
 //   options: --concurrency=N, --scale=0.5 (fast preview), --browser=/path/to/chrome (or env REMOTION_BROWSER)
 import fs from "node:fs";
 import { spawnSync } from "node:child_process";
@@ -43,6 +44,12 @@ const still = async (frame, file, comp = composition) => {
 
 if (opt("frames")) {
   for (const f of String(opt("frames")).split(",").map(Number)) await still(f, path.join(outDir, `frame-${String(f).padStart(5, "0")}.jpg`));
+} else if (opt("keyframes")) {
+  const dir = path.join(outDir, "keys");
+  fs.mkdirSync(dir, { recursive: true });
+  for (const [i, k] of composition.props.keyframes.entries()) {
+    await still(Math.min(composition.durationInFrames - 1, k.frame), path.join(dir, `${String(i).padStart(2, "0")}-${k.date}.jpg`));
+  }
 } else if (opt("qc")) {
   const dir = path.join(outDir, "qc");
   fs.mkdirSync(dir, { recursive: true });

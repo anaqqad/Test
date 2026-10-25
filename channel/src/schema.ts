@@ -88,6 +88,7 @@ export const VideoSchema = z.object({
             }),
         ),
         note: z.string().optional(), // source / reasoning, for the fact-check pass
+        cut: z.boolean().default(false), // switch to this keyframe instantly instead of morphing (e.g. a recolour)
       }),
     )
     .min(1),
@@ -127,7 +128,9 @@ export const VideoSchema = z.object({
     .array(
       z.discriminatedUnion("kind", [
         // Area held, measured from the rendered territory (equal-area projection recommended).
-        z.object({ kind: z.literal("area"), label: z.string().default("Territory held") }),
+        // "share" compares the sides (wars); "total" shows the combined area and its share of the world's land
+        // outside Antarctica (empires).
+        z.object({ kind: z.literal("area"), label: z.string().default("Territory held"), mode: z.enum(["share", "total"]).default("share") }),
         // Any sourced number that changes over time, e.g. casualties; linearly interpolated between points.
         z.object({
           kind: z.literal("series"),
@@ -139,7 +142,7 @@ export const VideoSchema = z.object({
         }),
       ]),
     )
-    .default([{ kind: "area", label: "Territory held" }]),
+    .default([{ kind: "area", label: "Territory held", mode: "share" }]),
 
   leaders: z
     .array(

@@ -6,6 +6,7 @@ import { theme } from "../lib/theme";
 
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const fmt = (n: number) => Math.round(n).toLocaleString("en-US");
+const WORLD_LAND_KM2 = 134.9e6; // land area excluding Antarctica
 
 type Props = {
   video: Video;
@@ -59,7 +60,25 @@ export const Sidebar: React.FC<Props> = ({ video, day, startDay, frame, eventFra
       <div style={{ fontSize: 22, color: theme.muted, marginTop: 6 }}>{video.header.subtitle}</div>
 
       {video.counters.map((c, ci) =>
-        c.kind === "area" ? (
+        c.kind === "area" && c.mode === "total" ? (
+          <Section key={ci} label={c.label}>
+            <div style={{ fontFamily: theme.display, fontWeight: 700, fontSize: 46, fontVariantNumeric: "tabular-nums" }}>
+              {(total / 1e6).toFixed(1)}M km²
+            </div>
+            <div style={{ fontSize: 22, color: theme.muted }}>
+              {((100 * total) / WORLD_LAND_KM2).toFixed(1)}% of all land outside Antarctica
+            </div>
+            {video.factions.filter((_, i) => areaKm2[i] > 0).length > 1 &&
+              video.factions.map((f, i) =>
+                areaKm2[i] > 0 ? (
+                  <div key={f.id} style={{ display: "flex", justifyContent: "space-between", fontSize: 22, marginTop: 6 }}>
+                    <span><span style={{ color: f.color }}>■</span> {f.name}</span>
+                    <span style={{ fontVariantNumeric: "tabular-nums" }}>{(areaKm2[i] / 1e6).toFixed(1)}M km²</span>
+                  </div>
+                ) : null,
+              )}
+          </Section>
+        ) : c.kind === "area" ? (
           <Section key={ci} label={c.label}>
             <div style={{ display: "flex", height: 16, borderRadius: 3, overflow: "hidden", background: "#3a332a" }}>
               {video.factions.map((f, i) => (
