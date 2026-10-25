@@ -17,7 +17,7 @@ Later, in 1788, with books and instruments lent to him by a neighbour, George El
 
 That same year, on August 19, 1791, he wrote to the Secretary of State, Thomas Jefferson: the man who had written that "all men are created equal", and who held people in slavery. Banneker quoted Jefferson's own words back to him and accused him of "detaining by fraud and violence" people in bondage. With the letter he enclosed his own almanac, full of his astronomical calculations, as proof of what a Black man could do.
 
-Jefferson replied eleven days later. He wrote that "no body wishes more than I do to see such proofs as you exhibit", and sent the almanac to the Marquis de Condorcet, secretary of the Academy of Sciences in Paris. Banneker had both letters printed in 1792. His almanacs sold in at least 28 editions.
+Jefferson replied eleven days later. He wrote that "no body wishes more than I do to see such proofs as you exhibit", and sent the almanac to the Marquis de Condorcet, secretary of the Academy of Sciences in Paris. Both letters were printed and sold in Philadelphia in 1792. His almanacs sold in at least 28 editions.
 
 Banneker died in 1806. On the day of his funeral, his house burned to the ground, and his wooden clock with it.
 
