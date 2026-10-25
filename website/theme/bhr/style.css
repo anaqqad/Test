@@ -334,6 +334,11 @@ figcaption, .wp-element-caption { font-size: 0.9rem; line-height: 1.5; color: va
 .entry-content h3 { font-size: 22px; margin-top: 1.6em; }
 .entry-content blockquote { margin-inline: 0; padding-left: 1.25rem; border-left: 4px solid var(--red); font-style: italic; }
 .entry-content .wp-block-image img { margin-inline: auto; border-radius: 8px; }
+.entry-content .bhr-figure { margin-block: 2rem 2.25rem; }
+.entry-content .bhr-figure img { display: block; width: 100%; height: auto; max-height: 80vh; object-fit: contain; background: var(--paper-2); }
+.entry-content .bhr-figure figcaption { font: 400 0.9rem/1.5 var(--sans); text-align: left; }
+.bhr-credit { display: block; font-size: 0.78rem; color: #8a8071; margin-top: 0.15rem; }
+.bhr-credit a { color: inherit; text-decoration: underline; }
 .has-drop-cap:not(:focus)::first-letter { font-family: var(--display); font-weight: 900; color: var(--red); font-size: 4.2em; line-height: 0.8; margin: 0.08em 0.1em 0 0; }
 .toc { background: var(--paper-2); border-left: 4px solid var(--gold); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin-bottom: 2rem; font: 400 1rem var(--sans); }
 .toc-title { font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78rem; margin: 0 0 0.5rem; }

@@ -1,0 +1,625 @@
+{
+ "_about": "Inline archival images per story (max 3, cover excluded): caption written by hand, credit/licence/source from public/pd/reel-<reel>/credits.json. \"after\" = the H2 section (1-based) the figure follows.",
+ "stories": {
+  "bass-reeves": {
+   "reel": "bass-reeves",
+   "images": [
+    {
+     "key": "oath",
+     "file": "oath.jpg",
+     "after": 2,
+     "caption": "Bass Reeves’ oath of office as a deputy U.S. marshal for the Western District of Arkansas, from the U.S. National Archives.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AOath_of_Deputy_Marshal_for_Bass_Reeves_%288495459432%29.jpg",
+     "credit": "U.S. District Court, Western District of Arkansas, Fort Smith; U.S. National Archives (ARC ID 6851120)",
+     "alt": "Bass Reeves’ oath of office as a deputy US marshal for the Western District of Arkansas, from the US National Archives"
+    },
+    {
+     "key": "cabinet",
+     "file": "cabinet.jpg",
+     "after": 3,
+     "caption": "Bass Reeves, cabinet-card portrait, about 1902.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3ABass_reeves_cabinetphoto.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Bass Reeves, cabinet-card portrait, about 1902"
+    },
+    {
+     "key": "family",
+     "file": "family.jpg",
+     "after": 4,
+     "caption": "Reeves (back row) among the federal officers at Muskogee, Indian Territory, 16 November 1907.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3ABass_reeves_family_photo.jpg",
+     "credit": "Unknown photographer (\"Federal Official Family\", Muskogee)",
+     "alt": "Reeves among the federal officers at Muskogee, Indian Territory, 16 November 1907"
+    }
+   ]
+  },
+  "bessie-coleman": {
+   "reel": "bessie-coleman",
+   "images": [
+    {
+     "key": "nasa",
+     "file": "nasa.jpg",
+     "after": 2,
+     "caption": "Bessie Coleman, photographed on 15 June 1921, the day she received her international pilot’s licence in France.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Bessie_Coleman,_First_African_American_Pilot_-_GPN-2004-00027.jpg",
+     "credit": "National Air and Space Museum",
+     "alt": "Bessie Coleman, photographed on 15 June 1921, the day she received her international pilot’s licence in France"
+    },
+    {
+     "key": "p1922",
+     "file": "p1922.jpg",
+     "after": 3,
+     "caption": "Coleman in flying dress, about 1922, when she began performing in air shows in the United States.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Bessie_Coleman,_c1922.jpg",
+     "credit": "Dove & Porter",
+     "alt": "Coleman in flying dress, about 1922, when she began performing in air shows in the United States"
+    },
+    {
+     "key": "p1920s",
+     "file": "p1920s.jpg",
+     "after": 4,
+     "caption": "Bessie Coleman in the 1920s.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Bessie_Coleman,_1920s.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Bessie Coleman in the 1920s"
+    }
+   ]
+  },
+  "booker-t-washington": {
+   "reel": "booker-t-washington",
+   "images": [
+    {
+     "key": "faculty",
+     "file": "faculty.jpg",
+     "after": 2,
+     "caption": "The Tuskegee Institute faculty council in 1902, Washington seated at centre.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AThe_Tuskegee_Faculty_Council%2C_1902.jpg",
+     "credit": "Frances Benjamin Johnston",
+     "alt": "The Tuskegee Institute faculty council in 1902, Washington seated at centre"
+    },
+    {
+     "key": "tr",
+     "file": "tr.jpg",
+     "after": 3,
+     "caption": "President Theodore Roosevelt in 1901, the year he invited Washington to dine at the White House.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3ATheodore_Roosevelt_1901_Portrait_%283x4_cropped%29.jpg",
+     "credit": "Unknown photographer; Library of Congress",
+     "alt": "President Theodore Roosevelt in 1901, the year he invited Washington to dine at the White House"
+    },
+    {
+     "key": "seated",
+     "file": "seated.jpg",
+     "after": 4,
+     "caption": "Booker T. Washington, studio portrait by Harris & Ewing, between 1905 and 1915.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AWASHINGTON%2C_BOOKER_T._LCCN2016857182.jpg",
+     "credit": "Harris & Ewing; Library of Congress",
+     "alt": "Booker T Washington, studio portrait by Harris & Ewing, between 1905 and 1915"
+    }
+   ]
+  },
+  "ellen-craft": {
+   "reel": "ellen-craft",
+   "images": [
+    {
+     "key": "siebert",
+     "file": "siebert.jpg",
+     "after": 2,
+     "caption": "Ellen Craft in the clothes of her disguise, from an engraving first published in 1851; this print from 1898.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Ellen_Craft_escaped_slave.jpg",
+     "credit": "Macmillan, publisher",
+     "alt": "Ellen Craft in the clothes of her disguise, from an engraving first published in 1851; this print from 1898"
+    },
+    {
+     "key": "couple",
+     "file": "couple.jpg",
+     "after": 3,
+     "caption": "Ellen and William Craft, from William Still’s Underground Rail Road Records, 1886.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Ellen_and_William_Craft_(72a234fc-4e0a-4e3a-95f9-71aa2401000b).jpg",
+     "credit": "Still's Underground Rail Road Records",
+     "alt": "Ellen and William Craft, from William Still’s Underground Rail Road Records, 1886"
+    },
+    {
+     "key": "titlepage",
+     "file": "titlepage.jpg",
+     "after": 4,
+     "caption": "Title page of the Crafts’ own account, Running a Thousand Miles for Freedom, London, 1860.",
+     "license": "Public domain (published 1860)",
+     "source": "https://archive.org/details/runningthousandm00craf",
+     "credit": "William and Ellen Craft, Running a Thousand Miles for Freedom (London: William Tweedie, 1860); scan: Boston Public Library via Internet Archive",
+     "alt": "Title page of the Crafts’ own account, Running a Thousand Miles for Freedom, London, 1860"
+    }
+   ]
+  },
+  "frederick-douglass": {
+   "reel": "frederick-douglass",
+   "images": [
+    {
+     "key": "met1855",
+     "file": "met1855.jpg",
+     "after": 1,
+     "caption": "Frederick Douglass, ambrotype, about 1855.",
+     "license": "CC0",
+     "source": "https://commons.wikimedia.org/wiki/File%3AFrederick_Douglass_MET_DT1144.jpg",
+     "credit": "Unknown artist, sixth-plate ambrotype; The Metropolitan Museum of Art",
+     "alt": "Frederick Douglass, ambrotype, about 1855"
+    },
+    {
+     "key": "young1855",
+     "file": "young1855.jpg",
+     "after": 2,
+     "caption": "Douglass as a younger man, 1855, the year he published My Bondage and My Freedom.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AFrederick_Douglass_as_a_younger_man.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Douglass as a younger man, 1855, the year he published My Bondage and My Freedom"
+    },
+    {
+     "key": "p1879",
+     "file": "p1879.jpg",
+     "after": 3,
+     "caption": "Frederick Douglass about 1879.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AFrederick_Douglass_%28circa_1879%29.jpg",
+     "credit": "Unknown photographer (National Archives / Library of Congress copy)",
+     "alt": "Frederick Douglass about 1879"
+    }
+   ]
+  },
+  "garrett-morgan": {
+   "reel": "garrett-morgan",
+   "images": [
+    {
+     "key": "rescue",
+     "file": "rescue.jpg",
+     "after": 2,
+     "caption": "Garrett Morgan, in his safety hood, at the Lake Erie waterworks tunnel disaster, Cleveland, 1917.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Morgan_rescue.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Garrett Morgan, in his safety hood, at the Lake Erie waterworks tunnel disaster, Cleveland, 1917"
+    },
+    {
+     "key": "signal",
+     "file": "signal.jpg",
+     "after": 3,
+     "caption": "First sheet of Morgan’s traffic-signal patent, US 1,475,024, granted 20 November 1923.",
+     "license": "Public domain (US patent drawing, 1923)",
+     "source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/1475024",
+     "credit": "Garrett A. Morgan; United States Patent Office",
+     "alt": "First sheet of Morgan’s traffic-signal patent, US 1,475,024, granted 20 November 1923"
+    }
+   ]
+  },
+  "george-washington-carver": {
+   "reel": "george-washington-carver",
+   "images": [
+    {
+     "key": "c1906",
+     "file": "c1906.jpg",
+     "after": 1,
+     "caption": "George Washington Carver, photographed by Frances Benjamin Johnston at Tuskegee, 1906.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AGeorge_Washington_Carver_by_Frances_Benjamin_Johnston.jpg",
+     "credit": "Frances Benjamin Johnston",
+     "alt": "George Washington Carver, photographed by Frances Benjamin Johnston at Tuskegee, 1906"
+    },
+    {
+     "key": "field",
+     "file": "field.jpg",
+     "after": 2,
+     "caption": "Carver standing in a field at Tuskegee holding a piece of soil, 1906.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AGeorge_Washington_Carver%2C_full-length_portrait%2C_standing_in_field%2C_probably_at_Tuskegee%2C_holding_piece_of_soil_LCCN95507555.jpg",
+     "credit": "Frances Benjamin Johnston; Library of Congress",
+     "alt": "Carver standing in a field at Tuskegee holding a piece of soil, 1906"
+    }
+   ]
+  },
+  "harriet-tubman": {
+   "reel": "harriet-tubman-raid",
+   "images": [
+    {
+     "key": "raid",
+     "file": "raid.jpg",
+     "after": 2,
+     "caption": "The Combahee River raid of 2 June 1863, as engraved for Harper’s Weekly a month later.",
+     "license": "Public domain (no known restrictions on publication, Library of Congress)",
+     "source": "https://www.loc.gov/item/2014645368/",
+     "credit": "Harper's Weekly, July 4, 1863, p. 429; Library of Congress Prints and Photographs, LC-USZ62-105556 / ds.05099",
+     "alt": "The Combahee River raid of 2 June 1863, as engraved for Harper’s Weekly a month later"
+    },
+    {
+     "key": "p1868",
+     "file": "p1868.jpg",
+     "after": 3,
+     "caption": "Harriet Tubman, photographed by Benjamin F. Powelson in Auburn, New York, 1868 or 1869.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Harriet_Tubman_c1868-69.jpg",
+     "credit": "Benjamin F. Powelson",
+     "alt": "Harriet Tubman, photographed by Benjamin F Powelson in Auburn, New York, 1868 or 1869"
+    },
+    {
+     "key": "late",
+     "file": "late.jpg",
+     "after": 4,
+     "caption": "Tubman late in life, 1911, two years before her death.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Harriet_Tubman_late_in_life3.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Tubman late in life, 1911, two years before her death"
+    }
+   ]
+  },
+  "henry-box-brown": {
+   "reel": "henry-box-brown",
+   "images": [
+    {
+     "key": "boxrep",
+     "file": "boxrep.jpg",
+     "after": 2,
+     "caption": "“Representation of the Box”, from the Narrative of Henry Box Brown, 1849.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:NHBB_D094_Representation_of_the_Box.jpg",
+     "credit": "Henry Box Brown with Charles Stearns",
+     "alt": "Representation of the Box, from the Narrative of Henry Box Brown, 1849"
+    },
+    {
+     "key": "litho",
+     "file": "litho.jpg",
+     "after": 3,
+     "caption": "“The Resurrection of Henry Box Brown at Philadelphia”, lithograph by Samuel W. Rowse, 1850.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:The_resurrection_of_Henry_Box_Brown_at_Philadelphia,_who_escaped_from_Richmond_Va._in_a_bx_3_feet_long_2_1-2_ft._deep_and_2_ft_wide_LCCN2004665363.jpg",
+     "credit": "Samuel W. Rowse",
+     "alt": "The Resurrection of Henry Box Brown at Philadelphia, lithograph by Samuel W Rowse, 1850"
+    },
+    {
+     "key": "titlepage",
+     "file": "titlepage.jpg",
+     "after": 4,
+     "caption": "Title page of the Narrative of Henry Box Brown, Boston, 1849.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:NHBB_D001_Title_Page.jpg",
+     "credit": "Henry Box Brown, Charles Stearns",
+     "alt": "Title page of the Narrative of Henry Box Brown, Boston, 1849"
+    }
+   ]
+  },
+  "hiram-revels": {
+   "reel": "hiram-revels",
+   "images": [
+    {
+     "key": "group",
+     "file": "group.jpg",
+     "after": 2,
+     "caption": "Hiram Revels (far left) with the first Black members of the 41st and 42nd Congresses, Currier & Ives lithograph, 1872.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:The_first_colored_senator_and_representatives_-_in_the_41st_and_42nd_Congress_of_the_United_States_LCCN98501907.jpg",
+     "credit": "Currier & Ives, lithograph; Library of Congress",
+     "alt": "Hiram Revels with the first Black members of the 41st and 42nd Congresses, Currier & Ives lithograph, 1872"
+    }
+   ]
+  },
+  "ida-b-wells": {
+   "reel": "ida-b-wells",
+   "images": [
+    {
+     "key": "ida2",
+     "file": "ida2.jpg",
+     "after": 2,
+     "caption": "Ida B. Wells in the late nineteenth century.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AIda-b-wells-barnett1.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Ida B Wells in the late nineteenth century"
+    },
+    {
+     "key": "children",
+     "file": "children.jpg",
+     "after": 4,
+     "caption": "Ida B. Wells-Barnett with her children, 1909.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AIda_B_Wells_with_her_children%2C_1909_%28cropped%29.jpg",
+     "credit": "Unknown photographer; University of Chicago Library",
+     "alt": "Ida B Wells-Barnett with her children, 1909"
+    }
+   ]
+  },
+  "jack-johnson": {
+   "reel": "jack-johnson",
+   "images": [
+    {
+     "key": "smile",
+     "file": "smile.jpg",
+     "after": 2,
+     "caption": "Jack Johnson and his “golden smile”, 1909, the year after he won the world title.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Jack_Johnson_and_his_%22golden_smile%22_LCCN2011649817.jpg",
+     "credit": "Unknown photographer; Library of Congress",
+     "alt": "Jack Johnson and his golden smile, 1909, the year after he won the world title"
+    },
+    {
+     "key": "etta",
+     "file": "etta.jpg",
+     "after": 4,
+     "caption": "Johnson with his wife Etta Duryea, 1910.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Jack_Johnson_and_his_wife_Etta_LCCN2011649815_(cropped).jpg",
+     "credit": "Unknown photographer; Library of Congress",
+     "alt": "Johnson with his wife Etta Duryea, 1910"
+    },
+    {
+     "key": "portrait",
+     "file": "portrait.jpg",
+     "after": 5,
+     "caption": "Jack Johnson, between 1910 and 1915.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Jack_Johnson_boxer.jpg",
+     "credit": "Unknown photographer (D.W.A.); Library of Congress",
+     "alt": "Jack Johnson, between 1910 and 1915"
+    }
+   ]
+  },
+  "jesse-owens": {
+   "reel": "jesse-owens",
+   "images": [
+    {
+     "key": "y1936",
+     "file": "y1936.jpg",
+     "after": 3,
+     "caption": "Jesse Owens in 1936, the summer of the Berlin Games.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Jesse_Owens_1936.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Jesse Owens in 1936, the summer of the Berlin Games"
+    },
+    {
+     "key": "ford",
+     "file": "ford.jpg",
+     "after": 5,
+     "caption": "President Gerald Ford presents Owens with the Presidential Medal of Freedom at the White House, 1976.",
+     "license": "Public domain (U.S. federal government work)",
+     "source": "https://commons.wikimedia.org/wiki/File:Photograph_of_President_Gerald_Ford_and_Jesse_Owens_during_the_Presentation_of_the_Presidential_Medal_of_Freedom_in_the_East_Garden_of_the_White_House_-_NARA_-_7062576.jpg",
+     "credit": "White House photographer; U.S. National Archives",
+     "alt": "President Gerald Ford presents Owens with the Presidential Medal of Freedom at the White House, 1976"
+    }
+   ]
+  },
+  "major-taylor": {
+   "reel": "major-taylor",
+   "images": [
+    {
+     "key": "vn1898",
+     "file": "vn1898.jpg",
+     "after": 2,
+     "caption": "Major Taylor in 1898, photographed by Van Norman.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AMajor_Taylor_1898_%28Van_Norman%29.jpg",
+     "credit": "Van Norman (photographer); New York Public Library, Mid-Manhattan Picture Collection",
+     "alt": "Major Taylor in 1898, photographed by Van Norman"
+    },
+    {
+     "key": "buffalo",
+     "file": "buffalo.jpg",
+     "after": 3,
+     "caption": "Taylor at the Vélodrome Buffalo, Paris, 1908.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AMajor_Taylor%2C_V%C3%A9lodrome_Buffalo_1908_%281%29.jpg",
+     "credit": "Agence Rol (Bibliothèque nationale de France)",
+     "alt": "Taylor at the Vélodrome Buffalo, Paris, 1908"
+    },
+    {
+     "key": "hourlier",
+     "file": "hourlier.jpg",
+     "after": 4,
+     "caption": "Taylor with the French sprinter Léon Hourlier at the Vélodrome Buffalo, 1909.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File%3AMajor_Taylor_and_L%C3%A9on_Hourlier%2C_V%C3%A9lodrome_Buffalo_1909.jpg",
+     "credit": "Agence Rol (Bibliothèque nationale de France)",
+     "alt": "Taylor with the French sprinter Léon Hourlier at the Vélodrome Buffalo, 1909"
+    }
+   ]
+  },
+  "mansa-musa": {
+   "reel": "mansa-musa",
+   "images": [
+    {
+     "key": "caillie",
+     "file": "caillie.jpg",
+     "after": 4,
+     "caption": "Timbuktu as drawn by René Caillié, the first European to return from the city, 1830.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Caillie_1830_Timbuktu_view.jpg",
+     "credit": "René Caillié (1799-1838)",
+     "alt": "Timbuktu as drawn by René Caillié, the first European to return from the city, 1830"
+    },
+    {
+     "key": "mosque",
+     "file": "mosque.jpg",
+     "after": 4,
+     "caption": "The Djinguereber Mosque in Timbuktu, built in Mansa Musa’s reign; photograph by Edmond Fortier, 1905 or 1906.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Fortier_372_Timbuktu_Djingereber_Mosque.jpg",
+     "credit": "Edmond Fortier (1862-1928)",
+     "alt": "The Djinguereber Mosque in Timbuktu, built in Mansa Musa’s reign; photograph by Edmond Fortier, 1905 or 1906"
+    },
+    {
+     "key": "barth",
+     "file": "barth.jpg",
+     "after": 5,
+     "caption": "Timbuktu seen from a terrace, after a sketch by Heinrich Barth, 1858.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Barth_1858_Timbuktu_from_terrace.jpg",
+     "credit": "Drawn by Martin Bernatz (1802–1878) after a sketch by Heinrich Barth (1821-1865). The lithograph was produced and printed by M. & N. Hanhart",
+     "alt": "Timbuktu seen from a terrace, after a sketch by Heinrich Barth, 1858"
+    }
+   ]
+  },
+  "matthew-henson": {
+   "reel": "matthew-henson",
+   "images": [
+    {
+     "key": "furhat",
+     "file": "furhat.jpg",
+     "after": 2,
+     "caption": "Matthew Henson in fur hat and coat, 1910.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Matthew_Alexander_Henson,_head-and-shoulders_portrait,_facing_front,_wearing_fur_hat_and_fur_coat_LCCN00650163.jpg",
+     "credit": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+     "alt": "Matthew Henson in fur hat and coat, 1910"
+    },
+    {
+     "key": "p1910",
+     "file": "p1910.jpg",
+     "after": 3,
+     "caption": "Henson in 1910, the year after the expedition.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Matthew_Henson_1910.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Henson in 1910, the year after the expedition"
+    },
+    {
+     "key": "lc1910",
+     "file": "lc1910.jpg",
+     "after": 4,
+     "caption": "Henson on a trading card issued in 1910.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Matthew_A._Henson_LCCN2018646109.jpg",
+     "credit": "American Tobacco Company, sponsor",
+     "alt": "Henson on a trading card issued in 1910"
+    }
+   ]
+  },
+  "muhammad-ali": {
+   "reel": "muhammad-ali",
+   "images": [
+    {
+     "key": "elijah",
+     "file": "elijah.jpg",
+     "after": 1,
+     "caption": "Elijah Muhammad, leader of the Nation of Islam, with the young champion in 1964.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Elijah_Muhammad_and_Cassius_Clay_NYWTS.jpg",
+     "credit": "Stanley Wolfson, World Telegram & Sun; Library of Congress",
+     "alt": "Elijah Muhammad, leader of the Nation of Islam, with the young champion in 1964"
+    }
+   ]
+  },
+  "robert-smalls": {
+   "reel": "robert-smalls",
+   "images": [
+    {
+     "key": "heroes",
+     "file": "heroes.jpg",
+     "after": 1,
+     "caption": "“Heroes in Ebony”: Robert Smalls and the men who took the Planter, as published in 1862.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Heroes_in_Ebony-The_captors_of_the_Rebel_steamer_Planter,_Robert_Small,_W._Morrison,_A._Gradine_and_John_Small_LCCN99403228.jpg",
+     "credit": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+     "alt": "Heroes in Ebony: Robert Smalls and the men who took the Planter, as published in 1862"
+    },
+    {
+     "key": "harpers",
+     "file": "harpers.jpg",
+     "after": 2,
+     "caption": "Robert Smalls and the gunboat Planter, Harper’s Weekly, 1862.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Robert_Smalls,_captain_of_the_gun-boat_%22Planter%22_The_gun-boat_%22Planter,%22_run_out_of_Charleston,_S.C.,_by_Robert_Smalls,_May_1862._LCCN97512451.jpg",
+     "credit": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+     "alt": "Robert Smalls and the gunboat Planter, Harper’s Weekly, 1862"
+    },
+    {
+     "key": "gunboat",
+     "file": "gunboat.jpg",
+     "after": 3,
+     "caption": "The Planter, run out of Charleston by Smalls in May 1862.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Gunboat_Planter.png",
+     "credit": "Unknown photographer",
+     "alt": "The Planter, run out of Charleston by Smalls in May 1862"
+    }
+   ]
+  },
+  "rosa-parks": {
+   "reel": "rosa-parks",
+   "images": [
+    {
+     "key": "nixon",
+     "file": "nixon.jpg",
+     "after": 3,
+     "caption": "Rosa Parks arrives at court on 5 December 1955, the day of her trial and the first day of the boycott.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_1955_2.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Rosa Parks arrives at court on 5 December 1955, the day of her trial and the first day of the boycott"
+    },
+    {
+     "key": "court",
+     "file": "court.jpg",
+     "after": 4,
+     "caption": "Parks on 24 February 1956, after her indictment with other boycott leaders.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_1955.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Parks on 24 February 1956, after her indictment with other boycott leaders"
+    },
+    {
+     "key": "bus",
+     "file": "bus.jpg",
+     "after": 4,
+     "caption": "Parks seated at the front of a Montgomery bus on 21 December 1956, the day segregation on the buses ended.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_1956.jpg",
+     "credit": "Unknown photographer",
+     "alt": "Parks seated at the front of a Montgomery bus on 21 December 1956, the day segregation on the buses ended"
+    }
+   ]
+  },
+  "sojourner-truth": {
+   "reel": "sojourner-truth",
+   "images": [
+    {
+     "key": "grandson",
+     "file": "grandson.jpg",
+     "after": 3,
+     "caption": "Sojourner Truth with a photograph of her grandson James Caldwell of the 54th Massachusetts on her lap, 1863.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Sojourner_Truth_seated_with_photograph_of_her_grandson,_James_Caldwell_of_Co._H,_54th_Massachusetts_Infantry_Regiment,_on_her_lap_LCCN2017648645.jpg",
+     "credit": "Unknown photographer; Library of Congress",
+     "alt": "Sojourner Truth with a photograph of her grandson James Caldwell of the 54th Massachusetts on her lap, 1863"
+    },
+    {
+     "key": "cdv",
+     "file": "cdv.jpg",
+     "after": 5,
+     "caption": "One of the portrait cards Truth sold to support her work, 1864.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Sojourner_Truth_LCCN98501244.jpg",
+     "credit": "Unknown photographer; Library of Congress",
+     "alt": "One of the portrait cards Truth sold to support her work, 1864"
+    },
+    {
+     "key": "c1864",
+     "file": "c1864.jpg",
+     "after": 5,
+     "caption": "Sojourner Truth, about 1864.",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Sojourner_Truth_c1864.jpg",
+     "credit": "Unknown photographer; Library of Congress",
+     "alt": "Sojourner Truth, about 1864"
+    }
+   ]
+  }
+ }
+}
