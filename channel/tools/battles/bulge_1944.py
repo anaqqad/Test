@@ -101,5 +101,5 @@ v = video(
     tags=["Battle of the Bulge", "1944", "WW2", "Bastogne", "Ardennes", "WW2 map", "every day"],
     summary="The Battle of the Bulge, day by day on one map: the German offensive through the Ardennes, the siege of Bastogne, the high-water mark near the Meuse and the Allied counteroffensive.",
 )
-v["short"] = {"seconds": 45, "zoom": 1.1, "title": "The Battle of the Bulge"}
+v["short"] = {"seconds": 45, "zoom": 1.4, "title": "The Battle of the Bulge"}
 write(v)

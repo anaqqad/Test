@@ -222,7 +222,11 @@ export const MapView: React.FC<Props> = ({ video, engine, day, frame, eventFrame
           }
         }
       }
-      const [x, y] = engine.project(at);
+      // Keep the counter on screen (the vertical Short shows much less width), then back to map coordinates.
+      const [px0, py0] = engine.project(at);
+      const sx = Math.min(engine.vw - 300, Math.max(40, px0 * k + tx));
+      const sy = Math.min(engine.vh - 160, Math.max(engine.vh > engine.vw ? 800 : 300, py0 * k + ty));
+      const x = (sx - tx) / k, y = (sy - ty) / k;
       const value = sampleSeries(fc.points.map(([d, v]) => [dayNumber(d), v]), day);
       const f = video.factions.find((q) => q.id === fc.factionId);
       const id = fc.flag ?? f?.flags[0]?.flag;

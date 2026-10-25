@@ -42,6 +42,7 @@ export const ShortHud: React.FC<Props> = ({ video, day, startDay, endDay, frame,
 
   return (
     <div style={{ position: "absolute", inset: 0, pointerEvents: "none" }}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: 760, background: "linear-gradient(180deg, rgba(10,12,14,0.78) 0%, rgba(10,12,14,0.55) 70%, rgba(10,12,14,0) 100%)" }} />
       <div style={{ position: "absolute", left: 0, right: 0, top: 70, textAlign: "center", textShadow: "0 3px 18px rgba(0,0,0,0.8)" }}>
         <div style={{ fontFamily: theme.display, fontWeight: 700, fontSize: 84, lineHeight: 1, color: "#fff" }}>
           {yearly ? y : `${d} ${MONTHS[m - 1].slice(0, 3)} `}

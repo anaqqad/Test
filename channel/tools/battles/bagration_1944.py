@@ -106,5 +106,5 @@ v = video(
     tags=["Operation Bagration", "1944", "WW2", "Eastern Front", "Army Group Centre", "WW2 map", "every day"],
     summary="Operation Bagration, day by day on one map: the Soviet summer offensive of 1944 that destroyed Germany's Army Group Centre, from Vitebsk and Bobruisk to Minsk, Vilnius, the Baltic and the Vistula.",
 )
-v["short"] = {"seconds": 45, "zoom": 1.1, "title": "Operation Bagration"}
+v["short"] = {"seconds": 45, "zoom": 1.4, "title": "Operation Bagration"}
 write(v)

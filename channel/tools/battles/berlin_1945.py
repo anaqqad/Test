@@ -117,5 +117,5 @@ v = video(
     tags=["Battle of Berlin", "1945", "WW2", "Seelow Heights", "Reichstag", "WW2 map", "every day"],
     summary="The Battle of Berlin, day by day on one map: Seelow Heights, the encirclement of Berlin and the Halbe pocket, Elbe Day at Torgau, the fight for the Reichstag and the surrender.",
 )
-v["short"] = {"seconds": 45, "zoom": 1.1, "title": "The Fall of Berlin"}
+v["short"] = {"seconds": 45, "zoom": 1.4, "title": "The Fall of Berlin"}
 write(v)

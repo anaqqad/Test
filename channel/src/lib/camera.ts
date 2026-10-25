@@ -29,6 +29,8 @@ export function viewTransform(engine: MapEngine, cam: Camera, scale: number) {
   const [cx, cy] = engine.project(cam.center);
   const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v));
   const tx = clamp(engine.vw / 2 - cx * k, engine.vw - engine.w * k, 0);
-  const ty = clamp(engine.vh / 2 - cy * k, engine.vh - engine.h * k, 0);
+  // In the vertical Short the HUD fills the top third, so the camera's focus sits lower in the frame.
+  const focusY = engine.vh > engine.vw ? 0.62 : 0.5;
+  const ty = clamp(engine.vh * focusY - cy * k, engine.vh - engine.h * k, 0);
   return { k, tx, ty };
 }
