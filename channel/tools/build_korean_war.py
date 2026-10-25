@@ -204,6 +204,7 @@ video = {
     },
     "map": {
         "projection": "conicEqualArea",
+        "markerDensity": 0.55,
         "bounds": [[124.0, 33.0], [131.0, 43.0]],
         "theatre": ["South Korea", "North Korea"],
         "labels": [
@@ -225,8 +226,14 @@ video = {
         ],
     },
     "factions": [
-        {"id": "north", "name": "North Korea & China", "color": "#c0473b", "ink": "#7a1f17", "marker": "diamond"},
-        {"id": "south", "name": "South Korea & UN", "color": "#3f6f9a", "ink": "#1d3d5c", "marker": "square"},
+        # Units: North Korean, then Chinese from the Yalu crossing; South Korean, US from 1 July 1950 (Task Force
+        # Smith landed then), British and other UN contingents from the 27th Brigade's arrival on 29 Aug 1950.
+        {"id": "north", "name": "North Korea & China", "color": "#c0473b", "ink": "#7a1f17", "marker": "diamond",
+         "flags": [{"flag": "dprk"}, {"flag": "prc", "weight": 0.5, "from": "1950-10-19", "to": "1950-11-25"},
+                   {"flag": "prc", "weight": 1.4, "from": "1950-11-25"}]},
+        {"id": "south", "name": "South Korea & UN", "color": "#3f6f9a", "ink": "#1d3d5c", "marker": "square",
+         "flags": [{"flag": "rok"}, {"flag": "usa", "weight": 0.9, "from": "1950-07-01"},
+                   {"flag": "uk", "weight": 0.15, "from": "1950-08-29"}, {"flag": "un", "weight": 0.2, "from": "1950-08-29"}]},
     ],
     "territories": territories,
     "timeline": {

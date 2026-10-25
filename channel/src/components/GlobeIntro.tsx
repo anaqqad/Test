@@ -39,7 +39,7 @@ export const GlobeIntro: React.FC<{ video: Video; engine: MapEngine; frame: numb
     const lon = globe.from[0] + (globe.to[0] - globe.from[0]) * turn;
     const lat = globe.from[1] + (globe.to[1] - globe.from[1]) * turn;
     const r = 400 * Math.pow(4, zoom);
-    const cx = 1180 - 220 * zoom, cy = H / 2;
+    const cx = 1320 - 300 * zoom, cy = H / 2;
     const proj = d3.geoOrthographic().rotate([-lon, -lat]).scale(r).translate([cx, cy]).clipAngle(90);
     const path = d3.geoPath(proj, ctx);
 
@@ -128,7 +128,7 @@ export const GlobeIntro: React.FC<{ video: Video; engine: MapEngine; frame: numb
   return (
     <div style={{ position: "absolute", inset: 0, opacity }}>
       <canvas ref={ref} width={1920} height={1080} style={{ position: "absolute", inset: 0 }} />
-      <div style={{ position: "absolute", left: 110, top: 0, bottom: 0, width: 760, display: "flex", flexDirection: "column", justifyContent: "center", opacity: textIn * textOut, transform: `translateY(${(1 - textIn) * 20}px)`, color: theme.panelText }}>
+      <div style={{ position: "absolute", left: 100, top: 0, bottom: 0, width: 700, display: "flex", flexDirection: "column", justifyContent: "center", opacity: textIn * textOut, transform: `translateY(${(1 - textIn) * 20}px)`, color: theme.panelText }}>
         <div style={{ fontFamily: theme.display, fontWeight: 700, fontSize: 92, lineHeight: 1.02, textShadow: "0 4px 30px rgba(0,0,0,0.7)" }}>{video.header.title}</div>
         <div style={{ fontFamily: theme.number, fontWeight: 700, fontSize: 34, color: theme.front, letterSpacing: 6, marginTop: 20 }}>{video.header.subtitle.toUpperCase()}</div>
         {video.header.hook && <div style={{ fontFamily: theme.number, fontWeight: 500, fontSize: 40, marginTop: 34, lineHeight: 1.25 }}>{video.header.hook}</div>}

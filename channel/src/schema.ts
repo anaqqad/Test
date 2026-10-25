@@ -14,7 +14,12 @@ export const FactionSchema = z.object({
   name: z.string(),
   color: z.string(), // territory wash
   ink: z.string().optional(), // markers and text; defaults to a darkened color
-  marker: z.enum(["square", "circle", "diamond", "triangle"]).default("square"),
+  marker: z.enum(["square", "circle", "diamond", "triangle", "banner"]).default("square"),
+  // Unit markers as national flags (sprites drawn in src/lib/flags.ts), mixed by weight and limited to the dates
+  // each contingent was in the field. When set, these replace the plain marker shape.
+  flags: z
+    .array(z.object({ flag: z.string(), weight: z.number().default(1), from: IsoDate.optional(), to: IsoDate.optional() }))
+    .default([]),
 });
 
 export const VideoSchema = z.object({
@@ -46,7 +51,10 @@ export const VideoSchema = z.object({
     landDetail: z.enum(["10m", "50m"]).default("10m"),
     // Countries (Natural Earth names) where territory is painted; other land is drawn as neutral. Empty = all.
     theatre: z.array(z.string()).default([]),
-    markers: z.boolean().default(true), // unit markers (wars); off for empires
+    markers: z.boolean().default(true), // unit markers
+    // "line": units crowd every front (wars). "advancing": only where a border is moving (empires on campaign).
+    markerFront: z.enum(["line", "advancing"]).default("line"),
+    markerDensity: z.number().min(0).max(1).default(0.3), // share of interior positions that show a unit
     edgeGlow: z.boolean().default(true), // glow where a faction borders unclaimed land (an empire's frontier)
     labels: z
       .array(

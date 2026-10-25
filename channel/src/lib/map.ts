@@ -110,7 +110,7 @@ export type DayState = {
   wash: OffscreenCanvas; // territory colours, composited with "multiply" over the paper
   front: OffscreenCanvas; // glowing front line, composited normally
   areaKm2: number[]; // per faction, same order as video.factions
-  markers: { x: number; y: number; faction: number; front: boolean }[];
+  markers: { x: number; y: number; faction: number; front: boolean; pick: number }[];
 };
 
 export class MapEngine {
@@ -122,7 +122,9 @@ export class MapEngine {
   private pixelKm2: Float32Array; // area of one map pixel, per row
   private keyDays: number[];
   private sdfCache = new Map<number, { sdf: Float32Array[]; max: number[] }>();
-  private candidates: { x: number; y: number; i: number; r: number }[] = [];
+  // Unit positions: a sparse grid for the interior and a dense one used only near fronts. Each has fixed random
+  // draws (r: shown or not, pick: which flag) so units don't flicker between frames.
+  private candidates: { x: number; y: number; i: number; r: number; pick: number; front: boolean }[] = [];
   private last: DayState | null = null;
   private colors: Rgb[];
   // Per-frame buffers, reused: allocating two full-size images per frame dominated render time.
@@ -153,15 +155,15 @@ export class MapEngine {
     this.keyDays = video.territories.map((k) => dayNumber(k.date));
     this.colors = video.factions.map((f) => rgb(f.color));
 
-    // Marker candidates: a jittered grid on land; each has a fixed random draw so markers don't flicker.
     const rand = mulberry32(7);
-    const step = 22 * s;
-    for (let y = step / 2; y < this.h; y += step)
-      for (let x = step / 2; x < this.w; x += step) {
-        const px = Math.round(x + (rand() - 0.5) * step * 0.8), py = Math.round(y + (rand() - 0.5) * step * 0.8);
-        const i = py * this.w + px;
-        if (px >= 0 && py >= 0 && px < this.w && py < this.h && landMask[i] && theatre[i]) this.candidates.push({ x: px, y: py, i, r: rand() });
-      }
+    for (const [step, front] of [[24 * s, false], [9 * s, true]] as const)
+      for (let y = step / 2; y < this.h; y += step)
+        for (let x = step / 2; x < this.w; x += step) {
+          const px = Math.round(x + (rand() - 0.5) * step * 0.8), py = Math.round(y + (rand() - 0.5) * step * 0.8);
+          const i = py * this.w + px;
+          const r = rand(), pick = rand();
+          if (px >= 0 && py >= 0 && px < this.w && py < this.h && landMask[i] && theatre[i]) this.candidates.push({ x: px, y: py, i, r, pick, front });
+        }
   }
 
   private countries(names: string[]): Geo {
@@ -361,11 +363,21 @@ export class MapEngine {
     front.ctx.putImageData(frontImg, 0, 0);
 
     const markers: DayState["markers"] = [];
-    if (this.video.map.markers) for (const c of this.candidates) {
+    const { markers: showMarkers, markerFront, markerDensity } = this.video.map;
+    const band = 22 * s; // units crowd within this distance of a front
+    if (showMarkers) for (const c of this.candidates) {
       const f = owner[c.i];
       if (f < 0) continue;
-      const nearFront = gap[c.i] < frontZone;
-      if (nearFront ? c.r < 0.85 : c.r < 0.12) markers.push({ x: c.x, y: c.y, faction: f, front: nearFront });
+      let nearFront: boolean;
+      if (markerFront === "advancing") {
+        // Only where this faction's border is actually moving during the current interval: armies on campaign.
+        const da = A[f][c.i] - offA[f], db = B[f][c.i] - offB[f];
+        const d = da + (db - da) * t;
+        nearFront = t > 0 && t < 1 && d < 2.5 * band && Math.abs(db - da) > 10 * s;
+      } else nearFront = gap[c.i] < band;
+      if (c.front ? nearFront && c.r < 0.75 : !nearFront && c.r < markerDensity) {
+        markers.push({ x: c.x, y: c.y, faction: f, front: nearFront, pick: c.pick });
+      }
     }
 
     this.last = { day, wash: wash.c, front: front.c, areaKm2, markers };

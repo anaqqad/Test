@@ -21,6 +21,7 @@
  },
  "map": {
   "projection": "conicEqualArea",
+  "markerDensity": 0.55,
   "bounds": [
    [
     124.0,
@@ -170,14 +171,50 @@
    "name": "North Korea & China",
    "color": "#c0473b",
    "ink": "#7a1f17",
-   "marker": "diamond"
+   "marker": "diamond",
+   "flags": [
+    {
+     "flag": "dprk"
+    },
+    {
+     "flag": "prc",
+     "weight": 0.5,
+     "from": "1950-10-19",
+     "to": "1950-11-25"
+    },
+    {
+     "flag": "prc",
+     "weight": 1.4,
+     "from": "1950-11-25"
+    }
+   ]
   },
   {
    "id": "south",
    "name": "South Korea & UN",
    "color": "#3f6f9a",
    "ink": "#1d3d5c",
-   "marker": "square"
+   "marker": "square",
+   "flags": [
+    {
+     "flag": "rok"
+    },
+    {
+     "flag": "usa",
+     "weight": 0.9,
+     "from": "1950-07-01"
+    },
+    {
+     "flag": "uk",
+     "weight": 0.15,
+     "from": "1950-08-29"
+    },
+    {
+     "flag": "un",
+     "weight": 0.2,
+     "from": "1950-08-29"
+    }
+   ]
   }
  ],
  "territories": [

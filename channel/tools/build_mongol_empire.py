@@ -17,12 +17,15 @@ def unified(date, key, note="", cut=False):
     return k
 
 
-def khanates(date, year, note="", cut=False):
-    chag = "Chagatai" if year == "1264" else "Chagatai_Kaidu"
+def khanates(date, year, note="", cut=False, western=None):
+    # western: year to use for the three western khanates. Their 1264->1279 border changes (Smolensk census,
+    # Khwarazm, Afghanistan) were not campaigns, so they are fixed early to keep army banners on real wars.
+    w = western or year
+    chag = "Chagatai" if w == "1264" else "Chagatai_Kaidu"
     layers = [{"faction": "yuan", "geometry": ext[f"{year}_Yuan"]},
-              {"faction": "golden", "geometry": ext[f"{year}_GoldenHorde"]},
-              {"faction": "chagatai", "geometry": ext[f"{year}_{chag}"]},
-              {"faction": "ilkhanate", "geometry": ext[f"{year}_Ilkhanate"]}]
+              {"faction": "golden", "geometry": ext[f"{w}_GoldenHorde"]},
+              {"faction": "chagatai", "geometry": ext[f"{w}_{chag}"]},
+              {"faction": "ilkhanate", "geometry": ext[f"{w}_Ilkhanate"]}]
     if year != "1264":
         layers.append({"faction": "yuan", "geometry": ext["Hainan_Yuan_1279_1294"]} if "Hainan_Yuan_1279_1294" in ext else None)
         layers = [l for l in layers if l]
@@ -49,8 +52,8 @@ territories = [
     unified("1259-08-11", "1259", "Goryeo vassal; Mongke dies"),
     unified("1260-03-01", "1260_JanSep_peak", "Aleppo and Damascus taken: peak of the united empire"),
     unified("1260-09-03", "1260", "Ain Jalut: Syria lost"),
-    khanates("1264-08-21", "1264", "Ariq Boke surrenders; four khanates", cut=True),
-    khanates("1268-01-01", "1264", "Song conquest resumes"),
+    khanates("1264-08-21", "1264", "Ariq Boke surrenders; four khanates", cut=True, western="1279"),
+    khanates("1268-01-01", "1264", "Song conquest resumes", western="1279"),
     khanates("1279-03-19", "1279", "Battle of Yamen: Song destroyed"),
     khanates("1294-02-18", "1294", "Kublai Khan dies"),
 ]
@@ -96,15 +99,17 @@ video = {
         "projection": "conicEqualArea",
         "bounds": [[12, 14], [146, 63]],
         "landDetail": "50m",
-        "markers": False,
+        "markers": True,
+        "markerFront": "advancing",
+        "markerDensity": 0.04,
         "labels": static["labels"],
     },
     "factions": [
-        {"id": "mongol", "name": "Mongol Empire", "color": "#b8322a"},
-        {"id": "yuan", "name": "Yuan dynasty", "color": "#b8322a"},
-        {"id": "golden", "name": "Golden Horde", "color": "#c99a2e"},
-        {"id": "chagatai", "name": "Chagatai Khanate", "color": "#5f8a4a"},
-        {"id": "ilkhanate", "name": "Ilkhanate", "color": "#3f6f9a"},
+        {"id": "mongol", "name": "Mongol Empire", "color": "#b8322a", "ink": "#8e1f19", "marker": "banner"},
+        {"id": "yuan", "name": "Yuan dynasty", "color": "#b8322a", "ink": "#8e1f19", "marker": "banner"},
+        {"id": "golden", "name": "Golden Horde", "color": "#c99a2e", "ink": "#9a7016", "marker": "banner"},
+        {"id": "chagatai", "name": "Chagatai Khanate", "color": "#5f8a4a", "ink": "#3f6630", "marker": "banner"},
+        {"id": "ilkhanate", "name": "Ilkhanate", "color": "#3f6f9a", "ink": "#24496b", "marker": "banner"},
     ],
     "territories": territories,
     "timeline": {

@@ -4,6 +4,7 @@ import { cameraAt, viewTransform, type Camera } from "../lib/camera";
 import { VIEWPORT, type MapEngine } from "../lib/map";
 import { theme } from "../lib/theme";
 import { dayNumber } from "../lib/time";
+import { FLAG_H, FLAG_W, flagSprite } from "../lib/flags";
 
 type Props = {
   video: Video;
@@ -50,11 +51,27 @@ export const MapView: React.FC<Props> = ({ video, engine, day, frame, eventFrame
     // Front line (core and halo are baked into the layer: a canvas blur filter is very slow without a GPU).
     ctx.drawImage(state.front, 0, 0);
 
-    // Unit markers, sized in screen pixels so zooming in doesn't inflate them.
+    // Unit markers, sized in screen pixels so zooming in doesn't inflate them. Flags (or banners) when the
+    // faction has them, mixed by weight among the contingents in the field on this day.
     const r = 4.2 / k;
     ctx.lineWidth = 1.1 / k;
     ctx.strokeStyle = theme.paper;
+    const flagSets = video.factions.map((f) => {
+      const active = f.flags.filter((x) => (!x.from || day >= dayNumber(x.from)) && (!x.to || day < dayNumber(x.to)));
+      if (!active.length && f.marker === "banner") return [{ id: `banner:${f.ink ?? f.color}`, cum: 1 }];
+      const total = active.reduce((a, x) => a + x.weight, 0);
+      let acc = 0;
+      return active.map((x) => ({ id: x.flag, cum: (acc += x.weight) / total }));
+    });
     for (const m of state.markers) {
+      const set = flagSets[m.faction];
+      if (set.length) {
+        const id = (set.find((x) => m.pick <= x.cum) ?? set[set.length - 1]).id;
+        const scale = (m.front ? 0.56 : 0.5) / k;
+        const sw = (FLAG_W + 4) * scale, sh = (FLAG_H + 4) * scale;
+        ctx.drawImage(flagSprite(id), m.x - sw / 2, m.y - sh / 2, sw, sh);
+        continue;
+      }
       const f = video.factions[m.faction];
       ctx.fillStyle = f.ink ?? f.color;
       drawMarker(ctx, f.marker, m.x, m.y, m.front ? r * 1.15 : r * 0.85);
