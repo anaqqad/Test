@@ -81,7 +81,7 @@ if (opt("frames")) {
 
   // Two-pass loudness normalisation to YouTube's -14 LUFS, true peak -1 dBTP; video stream copied untouched.
   const target = "I=-14:TP=-1:LRA=11";
-  const m = ffmpeg(["-hide_banner", "-i", raw, "-af", `loudnorm=${target}:print_format=json`, "-f", "null", "-"]);
+  const m = ffmpeg(["-hide_banner", "-i", raw, "-vn", "-af", `loudnorm=${target}:print_format=json`, "-f", "null", "-"]);
   const j = JSON.parse(m.slice(m.lastIndexOf("{"), m.lastIndexOf("}") + 1));
   ffmpeg(["-hide_banner", "-y", "-i", raw, "-c:v", "copy", "-af",
     `loudnorm=${target}:measured_I=${j.input_i}:measured_TP=${j.input_tp}:measured_LRA=${j.input_lra}:measured_thresh=${j.input_thresh}:offset=${j.target_offset}:linear=true`,

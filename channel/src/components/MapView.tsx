@@ -47,11 +47,7 @@ export const MapView: React.FC<Props> = ({ video, engine, day, frame, eventFrame
     ctx.globalCompositeOperation = "source-over";
     ctx.globalAlpha = 1;
 
-    // Front line: a soft wide glow under a crisp core.
-    ctx.save();
-    ctx.filter = `blur(${3 * s}px)`;
-    ctx.drawImage(state.front, 0, 0);
-    ctx.restore();
+    // Front line (core and halo are baked into the layer: a canvas blur filter is very slow without a GPU).
     ctx.drawImage(state.front, 0, 0);
 
     // Unit markers, sized in screen pixels so zooming in doesn't inflate them.

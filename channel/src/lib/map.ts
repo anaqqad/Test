@@ -125,6 +125,11 @@ export class MapEngine {
   private candidates: { x: number; y: number; i: number; r: number }[] = [];
   private last: DayState | null = null;
   private colors: Rgb[];
+  // Per-frame buffers, reused: allocating two full-size images per frame dominated render time.
+  private washLayer = canvas2d(1, 1);
+  private frontLayer = canvas2d(1, 1);
+  private washImg: ImageData | null = null;
+  private frontImg: ImageData | null = null;
   private frontRgb = rgb(theme.front);
 
   constructor(private video: Video, private world: any) {
@@ -303,8 +308,16 @@ export class MapEngine {
     const offA = KA.sdf.map((_, f) => (KA.max[f] === -Infinity && KB.max[f] > -Infinity ? KB.max[f] + 1 : 0));
     const offB = KB.sdf.map((_, f) => (KB.max[f] === -Infinity && KA.max[f] > -Infinity ? KA.max[f] + 1 : 0));
 
-    const wash = canvas2d(w, h), front = canvas2d(w, h);
-    const washImg = wash.ctx.createImageData(w, h), frontImg = front.ctx.createImageData(w, h);
+    if (!this.washImg) {
+      this.washLayer = canvas2d(w, h);
+      this.frontLayer = canvas2d(w, h);
+      this.washImg = this.washLayer.ctx.createImageData(w, h);
+      this.frontImg = this.frontLayer.ctx.createImageData(w, h);
+    }
+    const wash = this.washLayer, front = this.frontLayer;
+    const washImg = this.washImg, frontImg = this.frontImg!;
+    washImg.data.fill(0);
+    frontImg.data.fill(0);
     const owner = new Int8Array(w * h).fill(-1);
     const gap = new Float32Array(w * h).fill(1e9);
     const areaKm2 = new Array(F).fill(0);
@@ -322,10 +335,11 @@ export class MapEngine {
         else if (d > d2) d2 = d;
       }
       const o = i * 4;
-      if (edgeGlow && (F === 1 || d2 <= -frontZone) && Math.abs(d1) < 2 * frontWidth) {
+      if (edgeGlow && (F === 1 || d2 <= -frontZone) && Math.abs(d1) < 6 * frontWidth) {
         // Frontier with unclaimed land: a fainter glow straddling the border.
+        const a = Math.abs(d1);
         frontImg.data[o] = fr, frontImg.data[o + 1] = fg, frontImg.data[o + 2] = fb;
-        frontImg.data[o + 3] = 190 * (1 - Math.abs(d1) / (2 * frontWidth));
+        frontImg.data[o + 3] = 190 * Math.max(1 - a / (2 * frontWidth), 0.35 * (1 - a / (6 * frontWidth)));
       }
       if (d1 <= -0.5) continue;
       owner[i] = best;
@@ -335,7 +349,8 @@ export class MapEngine {
       washImg.data[o + 3] = 255 * Math.min(1, d1 + 0.5);
       if (F > 1 && d2 > -frontZone) {
         gap[i] = d1 - d2;
-        const glow = Math.max(0, 1 - (d1 - d2) / (2 * frontWidth));
+        const g = d1 - d2;
+        const glow = Math.max(0, 1 - g / (2 * frontWidth), 0.45 * (1 - g / (7 * frontWidth)));
         if (glow > 0) {
           frontImg.data[o] = fr, frontImg.data[o + 1] = fg, frontImg.data[o + 2] = fb;
           frontImg.data[o + 3] = 255 * glow;
