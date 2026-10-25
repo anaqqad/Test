@@ -1,0 +1,984 @@
+{
+ "map": {
+  "bounds_fit": [
+   [
+    11.2,
+    50.85
+   ],
+   [
+    15.5,
+    53.65
+   ]
+  ],
+  "bounds_16x9_mercator": [
+   [
+    9.4,
+    50.85
+   ],
+   [
+    17.2,
+    53.65
+   ]
+  ],
+  "center": [
+   13.3,
+   52.25
+  ],
+  "labels": [
+   {
+    "text": "Berlin",
+    "at": [
+     13.405,
+     52.52
+    ],
+    "kind": "capital"
+   },
+   {
+    "text": "Potsdam",
+    "at": [
+     13.064,
+     52.396
+    ],
+    "kind": "city"
+   },
+   {
+    "text": "Spandau",
+    "at": [
+     13.2,
+     52.536
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Küstrin",
+    "at": [
+     14.648,
+     52.588
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Seelow",
+    "at": [
+     14.381,
+     52.533
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Frankfurt (Oder)",
+    "at": [
+     14.55,
+     52.342
+    ],
+    "kind": "city"
+   },
+   {
+    "text": "Cottbus",
+    "at": [
+     14.334,
+     51.756
+    ],
+    "kind": "city"
+   },
+   {
+    "text": "Halbe",
+    "at": [
+     13.704,
+     52.11
+    ],
+    "kind": "village"
+   },
+   {
+    "text": "Beelitz",
+    "at": [
+     12.927,
+     52.238
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Brandenburg",
+    "at": [
+     12.556,
+     52.412
+    ],
+    "kind": "city"
+   },
+   {
+    "text": "Oranienburg",
+    "at": [
+     13.237,
+     52.754
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Eberswalde",
+    "at": [
+     13.82,
+     52.833
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Prenzlau",
+    "at": [
+     13.862,
+     53.316
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Stettin",
+    "at": [
+     14.553,
+     53.428
+    ],
+    "kind": "city"
+   },
+   {
+    "text": "Torgau",
+    "at": [
+     13.005,
+     51.561
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Dresden",
+    "at": [
+     13.738,
+     51.05
+    ],
+    "kind": "city"
+   },
+   {
+    "text": "Bautzen",
+    "at": [
+     14.424,
+     51.181
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Görlitz",
+    "at": [
+     14.988,
+     51.153
+    ],
+    "kind": "city"
+   },
+   {
+    "text": "Magdeburg",
+    "at": [
+     11.628,
+     52.121
+    ],
+    "kind": "city"
+   },
+   {
+    "text": "Wittenberg",
+    "at": [
+     12.648,
+     51.866
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Treuenbrietzen",
+    "at": [
+     12.873,
+     52.097
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Jüterbog",
+    "at": [
+     13.073,
+     51.993
+    ],
+    "kind": "town"
+   }
+  ],
+  "extra_labels": [
+   {
+    "text": "Zossen",
+    "at": [
+     13.448,
+     52.217
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Ketzin",
+    "at": [
+     12.846,
+     52.477
+    ],
+    "kind": "village"
+   },
+   {
+    "text": "Nauen",
+    "at": [
+     12.877,
+     52.605
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Strehla",
+    "at": [
+     13.226,
+     51.353
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Tangermünde",
+    "at": [
+     11.969,
+     52.541
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Fürstenwalde",
+    "at": [
+     14.065,
+     52.357
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Spremberg",
+    "at": [
+     14.38,
+     51.57
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Ferch",
+    "at": [
+     12.928,
+     52.322
+    ],
+    "kind": "village"
+   },
+   {
+    "text": "Zerbst",
+    "at": [
+     12.083,
+     51.966
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Barby",
+    "at": [
+     11.884,
+     51.968
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Rathenow",
+    "at": [
+     12.338,
+     52.604
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Wittenberge",
+    "at": [
+     11.752,
+     53.0
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Neubrandenburg",
+    "at": [
+     13.261,
+     53.557
+    ],
+    "kind": "town"
+   },
+   {
+    "text": "Reichstag",
+    "at": [
+     13.376,
+     52.519
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Führerbunker",
+    "at": [
+     13.381,
+     52.512
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Tiergarten",
+    "at": [
+     13.35,
+     52.514
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Tempelhof",
+    "at": [
+     13.403,
+     52.473
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Alexanderplatz",
+    "at": [
+     13.413,
+     52.522
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Charlottenburg",
+    "at": [
+     13.296,
+     52.521
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Olympiastadion",
+    "at": [
+     13.239,
+     52.515
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Moltke Bridge",
+    "at": [
+     13.368,
+     52.522
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Gatow",
+    "at": [
+     13.138,
+     52.474
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Zehlendorf",
+    "at": [
+     13.26,
+     52.434
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Köpenick",
+    "at": [
+     13.58,
+     52.445
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Marzahn",
+    "at": [
+     13.56,
+     52.545
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Pankow",
+    "at": [
+     13.4,
+     52.57
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Neukölln",
+    "at": [
+     13.44,
+     52.48
+    ],
+    "kind": "district"
+   },
+   {
+    "text": "Karlshorst",
+    "at": [
+     13.527,
+     52.481
+    ],
+    "kind": "district"
+   }
+  ]
+ },
+ "arrows": [
+  {
+   "id": "zhukov-main",
+   "side": "soviet",
+   "label": "1st Belorussian (Zhukov)",
+   "from": "1945-04-16",
+   "to": "1945-04-30",
+   "path": [
+    [
+     14.65,
+     52.59
+    ],
+    [
+     14.38,
+     52.53
+    ],
+    [
+     14.14,
+     52.51
+    ],
+    [
+     13.85,
+     52.56
+    ],
+    [
+     13.6,
+     52.53
+    ],
+    [
+     13.4,
+     52.52
+    ]
+   ]
+  },
+  {
+   "id": "north-envelopment",
+   "side": "soviet",
+   "label": "2nd Gds Tank / 3rd Shock (north arm)",
+   "from": "1945-04-19",
+   "to": "1945-04-25",
+   "path": [
+    [
+     14.42,
+     52.66
+    ],
+    [
+     14.14,
+     52.72
+    ],
+    [
+     13.59,
+     52.68
+    ],
+    [
+     13.24,
+     52.75
+    ],
+    [
+     13.2,
+     52.64
+    ],
+    [
+     13.2,
+     52.55
+    ]
+   ]
+  },
+  {
+   "id": "47th-army-west",
+   "side": "soviet",
+   "label": "47th Army to Ketzin",
+   "from": "1945-04-22",
+   "to": "1945-04-25",
+   "path": [
+    [
+     13.2,
+     52.64
+    ],
+    [
+     13.0,
+     52.63
+    ],
+    [
+     12.88,
+     52.6
+    ],
+    [
+     12.85,
+     52.48
+    ]
+   ]
+  },
+  {
+   "id": "konev-3gta",
+   "side": "soviet",
+   "label": "1st Ukrainian (Konev): 3rd Gds Tank",
+   "from": "1945-04-16",
+   "to": "1945-04-27",
+   "path": [
+    [
+     14.72,
+     51.63
+    ],
+    [
+     14.33,
+     51.62
+    ],
+    [
+     14.05,
+     51.79
+    ],
+    [
+     13.5,
+     52.04
+    ],
+    [
+     13.45,
+     52.22
+    ],
+    [
+     13.27,
+     52.4
+    ],
+    [
+     13.3,
+     52.47
+    ]
+   ]
+  },
+  {
+   "id": "konev-4gta",
+   "side": "soviet",
+   "label": "4th Gds Tank to Potsdam/Ketzin",
+   "from": "1945-04-16",
+   "to": "1945-04-25",
+   "path": [
+    [
+     14.7,
+     51.58
+    ],
+    [
+     14.33,
+     51.52
+    ],
+    [
+     13.7,
+     51.66
+    ],
+    [
+     13.07,
+     51.99
+    ],
+    [
+     12.95,
+     52.22
+    ],
+    [
+     12.86,
+     52.47
+    ]
+   ]
+  },
+  {
+   "id": "konev-elbe",
+   "side": "soviet",
+   "label": "5th Gds Army to the Elbe",
+   "from": "1945-04-16",
+   "to": "1945-04-25",
+   "path": [
+    [
+     14.72,
+     51.55
+    ],
+    [
+     14.38,
+     51.55
+    ],
+    [
+     14.0,
+     51.52
+    ],
+    [
+     13.52,
+     51.46
+    ],
+    [
+     13.23,
+     51.37
+    ],
+    [
+     13.01,
+     51.56
+    ]
+   ]
+  },
+  {
+   "id": "rokossovsky",
+   "side": "soviet",
+   "label": "2nd Belorussian (Rokossovsky)",
+   "from": "1945-04-20",
+   "to": "1945-05-02",
+   "path": [
+    [
+     14.47,
+     53.33
+    ],
+    [
+     14.22,
+     53.3
+    ],
+    [
+     13.86,
+     53.32
+    ],
+    [
+     13.4,
+     53.35
+    ],
+    [
+     13.07,
+     53.36
+    ],
+    [
+     12.4,
+     53.2
+    ],
+    [
+     11.78,
+     53.02
+    ]
+   ]
+  },
+  {
+   "id": "wenck",
+   "side": "german",
+   "label": "Wenck's 12th Army relief attack",
+   "from": "1945-04-24",
+   "to": "1945-04-29",
+   "path": [
+    [
+     12.55,
+     52.12
+    ],
+    [
+     12.8,
+     52.13
+    ],
+    [
+     12.93,
+     52.24
+    ],
+    [
+     12.93,
+     52.32
+    ]
+   ]
+  },
+  {
+   "id": "busse-breakout",
+   "side": "german",
+   "label": "9th Army breakout via Halbe",
+   "from": "1945-04-26",
+   "to": "1945-05-01",
+   "path": [
+    [
+     13.85,
+     52.18
+    ],
+    [
+     13.7,
+     52.11
+    ],
+    [
+     13.48,
+     52.12
+    ],
+    [
+     13.36,
+     52.11
+    ],
+    [
+     13.15,
+     52.16
+    ],
+    [
+     12.97,
+     52.22
+    ]
+   ]
+  },
+  {
+   "id": "bautzen",
+   "side": "german",
+   "label": "Schörner counterattack at Bautzen (optional)",
+   "from": "1945-04-21",
+   "to": "1945-04-26",
+   "path": [
+    [
+     14.88,
+     51.15
+    ],
+    [
+     14.66,
+     51.19
+    ],
+    [
+     14.48,
+     51.24
+    ],
+    [
+     14.4,
+     51.37
+    ]
+   ]
+  }
+ ],
+ "events": [
+  {
+   "date": "1945-04-16",
+   "at": [
+    14.4,
+    52.55
+   ],
+   "text": "Zhukov opens the offensive with a pre-dawn barrage at Seelow"
+  },
+  {
+   "date": "1945-04-16",
+   "at": [
+    14.7,
+    51.63
+   ],
+   "text": "Konev's troops cross the Neisse under a smokescreen"
+  },
+  {
+   "date": "1945-04-19",
+   "at": [
+    14.38,
+    52.53
+   ],
+   "text": "Seelow Heights line broken after four days of fighting"
+  },
+  {
+   "date": "1945-04-20",
+   "at": [
+    13.381,
+    52.512
+   ],
+   "text": "Hitler's 56th and last birthday in the Führerbunker"
+  },
+  {
+   "date": "1945-04-20",
+   "at": [
+    14.47,
+    53.33
+   ],
+   "text": "Rokossovsky's front crosses the Oder south of Stettin"
+  },
+  {
+   "date": "1945-04-21",
+   "at": [
+    13.4,
+    52.52
+   ],
+   "text": "Soviet artillery begins shelling central Berlin"
+  },
+  {
+   "date": "1945-04-21",
+   "at": [
+    13.56,
+    52.54
+   ],
+   "text": "Soviet troops cross Berlin's city limits at Marzahn"
+  },
+  {
+   "date": "1945-04-21",
+   "at": [
+    13.46,
+    52.18
+   ],
+   "text": "Soviet tanks overrun army headquarters at Zossen"
+  },
+  {
+   "date": "1945-04-22",
+   "at": [
+    13.381,
+    52.512
+   ],
+   "text": "Hitler declares the war lost; Wenck's army turned east"
+  },
+  {
+   "date": "1945-04-22",
+   "at": [
+    13.26,
+    52.77
+   ],
+   "text": "Sachsenhausen concentration camp liberated near Oranienburg"
+  },
+  {
+   "date": "1945-04-24",
+   "at": [
+    13.85,
+    52.15
+   ],
+   "text": "German 9th Army encircled southeast of Berlin"
+  },
+  {
+   "date": "1945-04-25",
+   "at": [
+    12.85,
+    52.48
+   ],
+   "text": "Berlin encircled as Soviet fronts meet at Ketzin"
+  },
+  {
+   "date": "1945-04-25",
+   "at": [
+    13.005,
+    51.561
+   ],
+   "text": "US and Soviet troops meet on the Elbe at Torgau"
+  },
+  {
+   "date": "1945-04-26",
+   "at": [
+    14.55,
+    53.43
+   ],
+   "text": "Stettin falls to the 2nd Belorussian Front"
+  },
+  {
+   "date": "1945-04-26",
+   "at": [
+    14.42,
+    51.18
+   ],
+   "text": "German counterattack retakes Bautzen"
+  },
+  {
+   "date": "1945-04-27",
+   "at": [
+    13.86,
+    53.32
+   ],
+   "text": "Prenzlau falls; German 3rd Panzer Army collapses"
+  },
+  {
+   "date": "1945-04-28",
+   "at": [
+    12.93,
+    52.32
+   ],
+   "text": "Wenck's attack stalls at Lake Schwielow, 32 km from Berlin"
+  },
+  {
+   "date": "1945-04-28",
+   "at": [
+    13.7,
+    52.11
+   ],
+   "text": "9th Army breaks out westward through Halbe"
+  },
+  {
+   "date": "1945-04-29",
+   "at": [
+    13.368,
+    52.522
+   ],
+   "text": "Soviet troops storm across the Moltke Bridge"
+  },
+  {
+   "date": "1945-04-30",
+   "at": [
+    13.381,
+    52.512
+   ],
+   "text": "Hitler kills himself in the Führerbunker"
+  },
+  {
+   "date": "1945-04-30",
+   "at": [
+    13.376,
+    52.519
+   ],
+   "text": "Soviet flag raised on the Reichstag"
+  },
+  {
+   "date": "1945-05-01",
+   "at": [
+    12.93,
+    52.24
+   ],
+   "text": "9th Army survivors reach Wenck's lines near Beelitz"
+  },
+  {
+   "date": "1945-05-02",
+   "at": [
+    13.385,
+    52.484
+   ],
+   "text": "General Weidling surrenders the Berlin garrison"
+  },
+  {
+   "date": "1945-05-07",
+   "at": [
+    11.97,
+    52.54
+   ],
+   "text": "Wenck's troops cross the Elbe at Tangermünde to surrender"
+  },
+  {
+   "date": "1945-05-08",
+   "at": [
+    13.527,
+    52.481
+   ],
+   "text": "Germany's unconditional surrender takes effect at midnight"
+  }
+ ],
+ "meetings": [
+  {
+   "date": "1945-04-25",
+   "at": [
+    13.24,
+    51.37
+   ],
+   "text": "First US-Soviet contact (Kotzebue patrol), Strehla/Lorenzkirch–Kreinitz, ~12:00–13:30"
+  },
+  {
+   "date": "1945-04-25",
+   "at": [
+    13.005,
+    51.561
+   ],
+   "text": "Torgau, ruined Elbe bridge, ~16:00 (Robertson–Silvashko); staged photo 26 Apr"
+  },
+  {
+   "date": "1945-05-02",
+   "at": [
+    11.6,
+    53.3
+   ],
+   "text": "US 9th Army (Ludwigslust/Grabow) meets 2nd Belorussian Front ~2–3 May (low confidence on exact spot)"
+  },
+  {
+   "date": "1945-05-03",
+   "at": [
+    11.5,
+    53.85
+   ],
+   "text": "British 2nd Army meets 3rd Gds Tank Corps SW of Wismar (just off map)"
+  }
+ ]
+}

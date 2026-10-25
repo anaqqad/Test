@@ -91,7 +91,7 @@ export const BattleHud: React.FC<Props> = ({ video, day, startDay, endDay, frame
                       <div>{id ? <FlagBadge id={id} size={26} /> : <div style={{ width: 26, height: 26, borderRadius: 13, background: f?.color }} />}</div>
                       {r.series.map((pts, i) => (
                         <div key={i} style={{ fontSize: 28, fontWeight: 700, textAlign: "right", fontVariantNumeric: "tabular-nums" }}>
-                          {fmt(sampleSeries(pts.map(([dd, v]) => [dayNumber(dd), v]), day))}
+                          {pts ? fmt(sampleSeries(pts.map(([dd, v]) => [dayNumber(dd), v]), day)) : "—"}
                         </div>
                       ))}
                     </React.Fragment>

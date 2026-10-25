@@ -93,8 +93,14 @@ function drawArrow(ctx: CanvasRenderingContext2D, pts: [number, number][], progr
 }
 
 // Flags (or banners) in the field for a faction on a given day, with cumulative weights for picking.
-function flagSet(f: Video["factions"][number], day: number) {
-  const active = f.flags.filter((x) => (!x.from || day >= dayNumber(x.from)) && (!x.to || day < dayNumber(x.to)));
+type Region = [[number, number], [number, number]] | undefined;
+const inRegion = (r: Region, lon: number, lat: number) => !r || (lon >= r[0][0] && lon <= r[1][0] && lat >= r[0][1] && lat <= r[1][1]);
+
+// Flags in the field for a faction on a given day (optionally at a place), with cumulative weights for picking.
+function flagSet(f: Video["factions"][number], day: number, lon?: number, lat?: number) {
+  const active = f.flags.filter(
+    (x) => (!x.from || day >= dayNumber(x.from)) && (!x.to || day < dayNumber(x.to)) && (lon === undefined || inRegion(x.region, lon, lat!)),
+  );
   if (!active.length && f.marker === "banner") return [{ id: `banner:${f.ink ?? f.color}`, cum: 1 }];
   const total = active.reduce((a, x) => a + x.weight, 0);
   let acc = 0;
@@ -154,8 +160,9 @@ export const MapView: React.FC<Props> = ({ video, engine, day, frame, eventFrame
     ctx.lineWidth = 1.1 / k;
     ctx.strokeStyle = theme.paper;
     const flagSets = video.factions.map((f) => flagSet(f, day));
+    const regional = video.factions.map((f) => f.flags.some((x) => x.region));
     for (const m of state.markers) {
-      const set = flagSets[m.faction];
+      const set = regional[m.faction] ? flagSet(video.factions[m.faction], day, m.lon, m.lat) : flagSets[m.faction];
       if (set.length) {
         const id = (set.find((x) => m.pick <= x.cum) ?? set[set.length - 1]).id;
         const sprite = flagSprite(id, round);
@@ -203,7 +210,19 @@ export const MapView: React.FC<Props> = ({ video, engine, day, frame, eventFrame
     // Army strength on the map: badge + big number + label, in screen-space sizes.
     for (const fc of video.forces) {
       if ((fc.from && day < dayNumber(fc.from)) || (fc.to && day >= dayNumber(fc.to))) continue;
-      const [x, y] = engine.project(fc.at);
+      let at = fc.at;
+      if (fc.moves.length) {
+        const ks = fc.moves.map(([d, p]) => ({ d: dayNumber(d), p }));
+        at = ks[0].p;
+        for (let i = 0; i < ks.length; i++) {
+          if (day >= ks[i].d) at = ks[i].p;
+          if (i + 1 < ks.length && day >= ks[i].d && day < ks[i + 1].d) {
+            const t = smoothstep((day - ks[i].d) / (ks[i + 1].d - ks[i].d));
+            at = [ks[i].p[0] + (ks[i + 1].p[0] - ks[i].p[0]) * t, ks[i].p[1] + (ks[i + 1].p[1] - ks[i].p[1]) * t];
+          }
+        }
+      }
+      const [x, y] = engine.project(at);
       const value = sampleSeries(fc.points.map(([d, v]) => [dayNumber(d), v]), day);
       const f = video.factions.find((q) => q.id === fc.factionId);
       const id = fc.flag ?? f?.flags[0]?.flag;

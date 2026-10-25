@@ -10,7 +10,8 @@ import { signedDistance } from "./sdf";
 import { theme } from "./theme";
 
 // Map area: 1440x1080 next to the 480 px sidebar, or the full frame for the battle layout.
-export const viewportFor = (video: Video) => (video.layout === "full" ? { w: 1920, h: 1080 } : { w: 1440, h: 1080 });
+export const viewportFor = (video: Video) =>
+  video.layout === "full" ? { w: 1920, h: 1080 } : video.layout === "short" ? { w: 1080, h: 1920 } : { w: 1440, h: 1080 };
 
 type Terrain = { z: number; x0: number; y0: number; x1: number; y1: number; tiles: Map<string, Float32Array> };
 type Extras = { terrain?: Terrain; hydro?: { rivers: any; lakes: any } };
@@ -114,7 +115,7 @@ export type DayState = {
   wash: OffscreenCanvas; // territory colours, composited with "multiply" over the paper
   front: OffscreenCanvas; // glowing front line, composited normally
   areaKm2: number[]; // per faction, same order as video.factions
-  markers: { x: number; y: number; faction: number; front: boolean; pick: number }[];
+  markers: { x: number; y: number; lon: number; lat: number; faction: number; front: boolean; pick: number }[];
 };
 
 export class MapEngine {
@@ -132,7 +133,7 @@ export class MapEngine {
   private sdfCache = new Map<number, { sdf: Float32Array[]; max: number[] }>();
   // Unit positions: a sparse grid for the interior and a dense one used only near fronts. Each has fixed random
   // draws (r: shown or not, pick: which flag) so units don't flicker between frames.
-  private candidates: { x: number; y: number; i: number; r: number; pick: number; front: boolean }[] = [];
+  private candidates: { x: number; y: number; lon: number; lat: number; i: number; r: number; pick: number; front: boolean }[] = [];
   private last: DayState | null = null;
   private colors: Rgb[];
   // Per-frame buffers, reused: allocating two full-size images per frame dominated render time.
@@ -179,7 +180,10 @@ export class MapEngine {
           const px = Math.round(x + (rand() - 0.5) * step * 0.8), py = Math.round(y + (rand() - 0.5) * step * 0.8);
           const i = py * this.w + px;
           const r = rand(), pick = rand();
-          if (px >= 0 && py >= 0 && px < this.w && py < this.h && landMask[i] && theatre[i]) this.candidates.push({ x: px, y: py, i, r, pick, front });
+          if (px >= 0 && py >= 0 && px < this.w && py < this.h && landMask[i] && theatre[i]) {
+            const [lon, lat] = this.projection.invert!([px, py]) ?? [0, 0];
+            this.candidates.push({ x: px, y: py, lon, lat, i, r, pick, front });
+          }
         }
   }
 
@@ -464,7 +468,7 @@ export class MapEngine {
         nearFront = t > 0 && t < 1 && d < 2.5 * band && Math.abs(db - da) > 10 * s;
       } else nearFront = gap[c.i] < band;
       if (c.front ? nearFront && c.r < 0.75 : !nearFront && c.r < markerDensity) {
-        markers.push({ x: c.x, y: c.y, faction: f, front: nearFront, pick: c.pick });
+        markers.push({ x: c.x, y: c.y, lon: c.lon, lat: c.lat, faction: f, front: nearFront, pick: c.pick });
       }
     }
 
@@ -483,7 +487,7 @@ export function loadEngine(video: Video): Promise<MapEngine> {
     const file = `geo/countries-${video.map.landDetail}.json`;
     if (!worlds.has(file)) worlds.set(file, fetch(staticFile(file)).then((r) => r.json()));
     const hydro = video.map.rivers ? fetch(staticFile("geo/hydro.json")).then((r) => r.json()) : Promise.resolve(undefined);
-    const terrain = video.map.relief ? loadTerrain(video.id) : Promise.resolve(undefined);
+    const terrain = video.map.relief ? loadTerrain(video.id.replace(/-short$/, "")) : Promise.resolve(undefined);
     p = Promise.all([worlds.get(file)!, hydro, terrain]).then(([world, h, t]) => new MapEngine(video, world, { hydro: h, terrain: t }));
     engines.set(key, p);
   }

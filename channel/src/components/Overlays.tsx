@@ -4,14 +4,14 @@ import type { Video } from "../schema";
 import { theme } from "../lib/theme";
 
 // Cold open: the title and one hook line over the starting map, gone before the clock starts.
-export const TitleCard: React.FC<{ video: Video; frame: number; fps: number; vw: number }> = ({ video, frame, fps, vw }) => {
+export const TitleCard: React.FC<{ video: Video; frame: number; fps: number; vw: number; vh?: number }> = ({ video, frame, fps, vw, vh = 1080 }) => {
   const end = video.timeline.introSeconds * fps;
   if (end < 24) return null; // no room for a title card
   const opacity = interpolate(frame, [0, 6, end - 12, end], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   if (opacity <= 0) return null;
   const rise = interpolate(frame, [0, 18], [24, 0], { extrapolateRight: "clamp" });
   return (
-    <div style={{ position: "absolute", left: 0, top: 0, width: vw, height: 1080, opacity, background: "radial-gradient(ellipse at center, rgba(29,25,20,0.55), rgba(29,25,20,0.85))", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", color: theme.panelText }}>
+    <div style={{ position: "absolute", left: 0, top: 0, width: vw, height: vh, opacity, padding: 40, boxSizing: "border-box", background: "radial-gradient(ellipse at center, rgba(29,25,20,0.55), rgba(29,25,20,0.85))", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", color: theme.panelText }}>
       <div style={{ transform: `translateY(${rise}px)`, fontFamily: theme.display, fontWeight: 700, fontSize: 84, lineHeight: 1.05, maxWidth: 1200, textShadow: "0 4px 24px rgba(0,0,0,0.6)" }}>{video.header.title}</div>
       <div style={{ fontFamily: theme.number, fontWeight: 700, fontSize: 34, color: theme.front, letterSpacing: 6, marginTop: 18 }}>{video.header.subtitle.toUpperCase()}</div>
       {video.header.hook && <div style={{ fontFamily: theme.number, fontWeight: 500, fontSize: 38, marginTop: 34, maxWidth: 1000 }}>{video.header.hook}</div>}
@@ -60,12 +60,12 @@ export const DraftBanner: React.FC = () => (
 
 // End card: the final map dims and one closing line sits at the top, leaving room for YouTube's end-screen
 // elements (video + subscribe) in the middle and bottom.
-export const EndCard: React.FC<{ video: Video; frame: number; fps: number; durationInFrames: number; vw: number }> = ({ video, frame, fps, durationInFrames, vw }) => {
+export const EndCard: React.FC<{ video: Video; frame: number; fps: number; durationInFrames: number; vw: number; vh?: number }> = ({ video, frame, fps, durationInFrames, vw, vh = 1080 }) => {
   const start = durationInFrames - video.timeline.outroSeconds * fps;
   const t = interpolate(frame, [start + fps, start + 2 * fps], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   if (t <= 0) return null;
   return (
-    <div style={{ position: "absolute", left: 0, top: 0, width: vw, height: 1080, background: `rgba(29,25,20,${0.5 * t})` }}>
+    <div style={{ position: "absolute", left: 0, top: 0, width: vw, height: vh, background: `rgba(29,25,20,${0.5 * t})` }}>
       {video.header.outro && (
         <div style={{ position: "absolute", left: 80, right: 80, top: 90, opacity: t, textAlign: "center", fontFamily: theme.display, fontWeight: 700, fontSize: 52, lineHeight: 1.2, color: theme.panelText, textShadow: "0 4px 24px rgba(0,0,0,0.6)" }}>
           {video.header.outro}

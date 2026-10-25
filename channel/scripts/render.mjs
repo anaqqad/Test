@@ -1,6 +1,7 @@
 // Render a video from its JSON, plus thumbnail, YouTube description with chapters, and optional QC stills.
 //   node scripts/render.mjs korean-war              -> out/<id>/<id>.mp4, thumbnail.jpg, description.txt
 //   node scripts/render.mjs korean-war --qc         -> out/<id>/qc/ one still per event, for fact-checking
+//   node scripts/render.mjs korean-war --short      -> out/<id>/<id>-short.mp4 (vertical 1080x1920) + short-description.txt
 //   node scripts/render.mjs korean-war --keyframes  -> out/<id>/keys/ one still per territory keyframe
 //   node scripts/render.mjs korean-war --frames=0,450,900
 //   node scripts/render.mjs korean-war --range=0-299 -> render only these frames (timing / previews)
@@ -12,11 +13,13 @@ import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
 
 const args = process.argv.slice(2);
-const id = args.find((a) => !a.startsWith("--"));
+const baseId = args.find((a) => !a.startsWith("--"));
 const opt = (name) => args.find((a) => a.startsWith(`--${name}`))?.split("=")[1] ?? (args.includes(`--${name}`) ? true : undefined);
-if (!id) throw new Error("usage: node scripts/render.mjs <video-id> [--qc] [--frames=a,b] [--scale=0.5]");
+if (!baseId) throw new Error("usage: node scripts/render.mjs <video-id> [--short] [--qc] [--frames=a,b] [--scale=0.5]");
+const isShort = Boolean(opt("short"));
+const id = isShort ? `${baseId}-short` : baseId;
 
-const outDir = path.resolve("out", id);
+const outDir = path.resolve("out", baseId);
 fs.mkdirSync(outDir, { recursive: true });
 const browserExecutable = opt("browser") || process.env.REMOTION_BROWSER || null;
 const scale = Number(opt("scale") ?? 1);
@@ -90,6 +93,14 @@ if (opt("frames")) {
   console.log(`wrote ${path.relative(".", mp4)} (audio ${j.input_i} -> -14 LUFS)`);
   if (opt("range")) process.exit(0);
 
+  if (isShort) {
+    // Shorts: no chapters or thumbnail upload; title + one line + credits.
+    const yt = video.youtube;
+    fs.writeFileSync(path.join(outDir, "short-description.txt"),
+      [`${video.header.title}, day by day`, "", yt.summary, "", "Full video on the channel.", "", ...(yt.credits.length ? ["Music / data:", ...yt.credits] : []), ""].join("\n"));
+    console.log("wrote", path.relative(".", path.join(outDir, "short-description.txt")));
+    process.exit(0);
+  }
   const thumb = await selectComposition({ ...common, id: `${id}-thumb` });
   await still(0, path.join(outDir, "thumbnail.jpg"), thumb);
 

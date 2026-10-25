@@ -8,7 +8,10 @@ import path from "node:path";
 const id = process.argv[2];
 const video = JSON.parse(fs.readFileSync(`data/videos/${id}.json`, "utf8"));
 const [[w0, s0], [e0, n0]] = video.map.bounds;
-const padX = (e0 - w0) * 0.35, padY = (n0 - s0) * 0.35; // the camera can show beyond the bounds
+// The camera can show beyond the bounds; the vertical Short shows ~1.8x the width in height.
+const latMid = ((s0 + n0) / 2) * (Math.PI / 180);
+const padX = (e0 - w0) * 0.35;
+const padY = Math.max((n0 - s0) * 0.35, ((e0 - w0) * Math.cos(latMid) * 1.8 - (n0 - s0)) / 2 + 0.3);
 const w = w0 - padX, e = e0 + padX, s = Math.max(-80, s0 - padY), n = Math.min(80, n0 + padY);
 
 // One tile pixel per ~1.5 output pixels at zoom 1 is plenty for a hillshade.

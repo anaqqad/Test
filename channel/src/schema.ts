@@ -18,7 +18,15 @@ export const FactionSchema = z.object({
   // Unit markers as national flags (sprites drawn in src/lib/flags.ts), mixed by weight and limited to the dates
   // each contingent was in the field. When set, these replace the plain marker shape.
   flags: z
-    .array(z.object({ flag: z.string(), weight: z.number().default(1), from: IsoDate.optional(), to: IsoDate.optional() }))
+    .array(
+      z.object({
+        flag: z.string(),
+        weight: z.number().default(1),
+        from: IsoDate.optional(),
+        to: IsoDate.optional(),
+        region: z.tuple([LonLat, LonLat]).optional(), // only units inside this [[west, south], [east, north]] box
+      }),
+    )
     .default([]),
 });
 
@@ -31,7 +39,12 @@ export const VideoSchema = z.object({
   draft: z.boolean().default(false),
   style: z.enum(["atlas", "warroom"]).default("atlas"),
   // "sidebar": 1440 px map + 480 px dashboard (long-form). "full": full-frame map with a HUD (battle format).
-  layout: z.enum(["sidebar", "full"]).default("sidebar"),
+  // "short": 1080x1920 vertical, generated automatically from any video by toShort() (src/short.ts).
+  layout: z.enum(["sidebar", "full", "short"]).default("sidebar"),
+  // Tuning for the generated Short.
+  short: z
+    .object({ seconds: z.number().default(45), zoom: z.number().default(1.25), title: z.string().optional() })
+    .default({ seconds: 45, zoom: 1.25 }),
 
   header: z.object({
     title: z.string(),
@@ -163,6 +176,7 @@ export const VideoSchema = z.object({
         factionId: z.string(),
         flag: z.string().optional(),
         at: LonLat,
+        moves: z.array(z.tuple([IsoDate, LonLat])).default([]), // optional dated positions, so it follows the camera
         label: z.string(),
         points: z.array(z.tuple([IsoDate, z.number()])).min(1),
         from: IsoDate.optional(),
@@ -183,7 +197,7 @@ export const VideoSchema = z.object({
             z.object({
               factionId: z.string(),
               flag: z.string().optional(),
-              series: z.array(z.array(z.tuple([IsoDate, z.number()])).min(1)),
+              series: z.array(z.array(z.tuple([IsoDate, z.number()])).min(1).nullable()), // null: no figure ("—")
             }),
           ),
           source: z.string().optional(),

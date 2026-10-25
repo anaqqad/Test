@@ -90,8 +90,20 @@ export function buildTimeline(video: Video): Timeline {
     endDay,
     dayAt,
     frameAt,
-    eventFrames: events.map((e) => frameAt(dayNumber(e.date))),
+    eventFrames: staggered(events.map((e) => frameAt(dayNumber(e.date))), fps),
   };
+}
+
+// Events that land on (nearly) the same frame play one after another, so each caption gets read.
+function staggered(frames: number[], fps: number): number[] {
+  const order = frames.map((f, i) => ({ f, i })).sort((a, b) => a.f - b.f || a.i - b.i);
+  const out = frames.slice();
+  let last = -Infinity;
+  for (const { f, i } of order) {
+    out[i] = Math.max(f, last + Math.round(2.4 * fps));
+    last = out[i];
+  }
+  return out;
 }
 
 export const smoothstep = (t: number) => (t <= 0 ? 0 : t >= 1 ? 1 : t * t * (3 - 2 * t));
