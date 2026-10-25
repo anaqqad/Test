@@ -843,3 +843,19 @@ The marginal cost of a video is now mostly research. The template, rendering, th
 automated, so Borderclock can cover the **long tail** of wars, empires and borders that slower channels never get
 to (the Mexican–American War result suggests under-served topics can outperform). The engine also gives every
 video a *measured* number (territory held), a format competitors can't easily copy.
+
+---
+
+## Status (production log)
+
+| Video | Data | Length | Music | Notes |
+|---|---|---|---|---|
+| The Korean War, Day by Day (1950–1953) | `channel/tools/build_korean_war.py`: 37 front keyframes from the US Army CMH histories (Appleman; Mossman) and the Natural Earth line of control | 3:25 | Uprising by Scott Buckley (CC BY 4.0) | Flag units: DPRK; PRC from 19 Oct 1950 (most from 25 Nov); ROK; US from 1 Jul 1950; UK and UN from 29 Aug 1950 |
+| The Mongol Empire, Year by Year (1206–1294) | `channel/tools/build_mongol_empire.py`: 20 yearly extents checked against Taagepera's areas | 3:12 | Ride The Wind by Scott Buckley (CC BY 4.0, from 0:20) | Army banners only where borders are moving |
+
+Both share:
+- An atlas style with a globe cold open, the sidebar dashboard and an end card.
+- Audio loudness-normalised to −14 LUFS.
+- A description generated with chapters, sources and the music credit.
+
+Render with `node scripts/render.mjs <id>`.

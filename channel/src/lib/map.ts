@@ -9,7 +9,11 @@ import { dayNumber, smoothstep } from "./time";
 import { signedDistance } from "./sdf";
 import { theme } from "./theme";
 
-export const VIEWPORT = { w: 1440, h: 1080 }; // map area; the sidebar takes the remaining 480 px
+// Map area: 1440x1080 next to the 480 px sidebar, or the full frame for the battle layout.
+export const viewportFor = (video: Video) => (video.layout === "full" ? { w: 1920, h: 1080 } : { w: 1440, h: 1080 });
+
+type Terrain = { z: number; x0: number; y0: number; x1: number; y1: number; tiles: Map<string, Float32Array> };
+type Extras = { terrain?: Terrain; hydro?: { rivers: any; lakes: any } };
 
 type Geo = d3.GeoPermissibleObjects;
 type Rgb = [number, number, number];
@@ -116,6 +120,10 @@ export type DayState = {
 export class MapEngine {
   readonly w: number;
   readonly h: number;
+  readonly vw: number; // viewport size in output pixels
+  readonly vh: number;
+  readonly relief: OffscreenCanvas | null = null; // hillshade at half resolution, composited with "overlay"
+  readonly hydro: OffscreenCanvas | null = null; // rivers and lakes, drawn over the territory washes
   readonly projection: d3.GeoProjection;
   readonly base: OffscreenCanvas;
   private landIdx: Int32Array; // land pixels inside the theatre: the only pixels territory is painted on
@@ -134,16 +142,22 @@ export class MapEngine {
   private frontImg: ImageData | null = null;
   private frontRgb = rgb(theme.front);
 
-  constructor(private video: Video, private world: any) {
+  constructor(private video: Video, private world: any, extras: Extras = {}) {
     const s = video.map.resolutionScale;
-    this.w = Math.round(VIEWPORT.w * s);
-    this.h = Math.round(VIEWPORT.h * s);
+    const vp = viewportFor(video);
+    this.vw = vp.w;
+    this.vh = vp.h;
+    this.w = Math.round(vp.w * s);
+    this.h = Math.round(vp.h * s);
     this.projection = makeProjection(video, this.w, this.h);
     const countries = world.objects.countries;
     const land = topojson.merge(world, countries.geometries) as Geo;
     // Modern borders inside the theatre are anachronistic (they are what the war decided), so skip them.
     const inTheatre = (g: any) => video.map.theatre.includes(g.properties.name);
-    const borders = topojson.mesh(world, countries, (a: any, b: any) => a !== b && !(inTheatre(a) && inTheatre(b))) as Geo;
+    const borderMode = video.map.borders;
+    const borders = topojson.mesh(world, countries, (a: any, b: any) =>
+      a !== b && borderMode !== "none" && (borderMode === "all" || !(inTheatre(a) && inTheatre(b))),
+    ) as Geo;
 
     const landMask = rasterize(land, this.projection, this.w, this.h);
     const theatre = video.map.theatre.length ? rasterize(this.countries(video.map.theatre), this.projection, this.w, this.h) : landMask;
@@ -152,11 +166,14 @@ export class MapEngine {
     this.landIdx = Int32Array.from(idx);
     this.pixelKm2 = this.measurePixels();
     this.base = this.paintBase(land, borders, landMask, theatre);
+    if (extras.terrain) this.relief = this.paintRelief(extras.terrain, landMask);
+    if (extras.hydro) this.hydro = this.paintHydro(extras.hydro);
     this.keyDays = video.territories.map((k) => dayNumber(k.date));
     this.colors = video.factions.map((f) => rgb(f.color));
 
     const rand = mulberry32(7);
-    for (const [step, front] of [[24 * s, false], [9 * s, true]] as const)
+    const [interiorStep, frontStep] = video.map.markerSpacing;
+    for (const [step, front] of [[interiorStep * s, false], [frontStep * s, true]] as const)
       for (let y = step / 2; y < this.h; y += step)
         for (let x = step / 2; x < this.w; x += step) {
           const px = Math.round(x + (rand() - 0.5) * step * 0.8), py = Math.round(y + (rand() - 0.5) * step * 0.8);
@@ -181,6 +198,71 @@ export class MapEngine {
     return { type: "Sphere" } as Geo;
   }
 
+  // Hillshade from terrarium elevation tiles, at half the map raster resolution (it is soft anyway).
+  private paintRelief(t: Terrain, landMask: Uint8Array): OffscreenCanvas {
+    const hw = Math.ceil(this.w / 2), hh = Math.ceil(this.h / 2);
+    const elev = new Float32Array(hw * hh);
+    const n = 2 ** t.z;
+    const sample = (lon: number, lat: number) => {
+      const X = ((lon + 180) / 360) * n * 256;
+      const r = (lat * Math.PI) / 180;
+      const Y = ((1 - Math.log(Math.tan(r) + 1 / Math.cos(r)) / Math.PI) / 2) * n * 256;
+      const tx = Math.floor(X / 256), ty = Math.floor(Y / 256);
+      const tile = t.tiles.get(`${tx}-${ty}`);
+      if (!tile) return 0;
+      const px = Math.min(255, Math.max(0, Math.floor(X - tx * 256))), py = Math.min(255, Math.max(0, Math.floor(Y - ty * 256)));
+      return tile[py * 256 + px];
+    };
+    for (let y = 0; y < hh; y++)
+      for (let x = 0; x < hw; x++) {
+        const ll = this.projection.invert!([x * 2 + 1, y * 2 + 1]);
+        elev[y * hw + x] = ll ? Math.max(0, sample(ll[0], ll[1])) : 0;
+      }
+    const { c, ctx } = canvas2d(hw, hh);
+    const img = ctx.createImageData(hw, hh);
+    const zf = 2.5 * this.video.map.reliefStrength; // vertical exaggeration
+    const az = (315 * Math.PI) / 180, alt = (40 * Math.PI) / 180;
+    for (let y = 1; y < hh - 1; y++) {
+      const cell = Math.sqrt(this.pixelKm2[Math.min(this.h - 1, y * 2)]) * 2 * 1000; // metres per half-res pixel
+      for (let x = 1; x < hw - 1; x++) {
+        const i = y * hw + x;
+        if (!landMask[Math.min(this.h - 1, y * 2) * this.w + Math.min(this.w - 1, x * 2)]) continue;
+        const dzdx = ((elev[i + 1] - elev[i - 1]) / (2 * cell)) * zf;
+        const dzdy = ((elev[i + hw] - elev[i - hw]) / (2 * cell)) * zf;
+        const slope = Math.atan(Math.hypot(dzdx, dzdy));
+        const aspect = Math.atan2(dzdy, -dzdx);
+        const shade = Math.cos(Math.PI / 2 - alt) * Math.cos(slope) + Math.sin(Math.PI / 2 - alt) * Math.sin(slope) * Math.cos(az - aspect);
+        const flat = Math.cos(Math.PI / 2 - alt);
+        const v = Math.max(0, Math.min(255, 128 + (shade - flat) * 260));
+        const o = i * 4;
+        img.data[o] = img.data[o + 1] = img.data[o + 2] = v;
+        img.data[o + 3] = 255;
+      }
+    }
+    ctx.putImageData(img, 0, 0);
+    return c;
+  }
+
+  private paintHydro(h: { rivers: any; lakes: any }): OffscreenCanvas {
+    const s = this.video.map.resolutionScale;
+    const { c, ctx } = canvas2d(this.w, this.h);
+    const path = d3.geoPath(this.projection, ctx as unknown as CanvasRenderingContext2D);
+    ctx.fillStyle = theme.sea;
+    ctx.beginPath();
+    // Shapefile rings wind the other way from d3's spherical convention; normalise or a lake fills the globe.
+    for (const f of h.lakes.features) if (f.properties.scalerank <= 8) path(normalize(f.geometry));
+    ctx.fill();
+    ctx.strokeStyle = theme.river;
+    ctx.lineJoin = ctx.lineCap = "round";
+    for (const [maxRank, width] of [[12, 0.9], [6, 1.5], [3, 2.3]] as const) {
+      ctx.lineWidth = width * s;
+      ctx.beginPath();
+      for (const f of h.rivers.features) if ((f.properties.scalerank ?? 10) <= maxRank) path(f);
+      ctx.stroke();
+    }
+    return c;
+  }
+
   // km² covered by one pixel in each row (exact for equal-area and cylindrical projections).
   private measurePixels(): Float32Array {
     const out = new Float32Array(this.h);
@@ -203,13 +285,14 @@ export class MapEngine {
     // Sea with engraved coastline ripples, from the distance to land.
     const img = ctx.createImageData(w, h);
     const sea = rgb(theme.sea), paper = rgb(theme.paper), paperDim = rgb(theme.paperDim), ink = rgb(theme.ink);
-    const dist = signedDistance(landMask, w, h, 400);
+    const dist = theme.ripples ? signedDistance(landMask, w, h, 400) : null;
     const spacing = 6 * s;
     const rand = mulberry32(11);
     for (let i = 0; i < w * h; i++) {
-      const grain = (rand() - 0.5) * 10;
+      const grain = (rand() - 0.5) * theme.grain;
       let r: number, g: number, b: number;
       if (landMask[i]) [r, g, b] = theatre[i] ? paper : paperDim;
+      else if (!dist) [r, g, b] = sea;
       else {
         [r, g, b] = sea;
         const d = -dist[i];
@@ -242,7 +325,7 @@ export class MapEngine {
     path(borders);
     ctx.stroke();
     ctx.setLineDash([]);
-    ctx.globalAlpha = 0.85;
+    ctx.globalAlpha = theme.coastAlpha;
     ctx.lineWidth = 1.3 * s;
     ctx.beginPath();
     path(land);
@@ -287,6 +370,11 @@ export class MapEngine {
       geo: l.everywhere ? clip ?? ({ type: "Sphere" } as Geo) : this.layerGeo(l),
     }));
     return { clip, shapes };
+  }
+
+  // Kilometres per map-raster pixel at the given raster row (for scale bars).
+  kmPerPx(row = this.h / 2): number {
+    return Math.sqrt(this.pixelKm2[Math.max(0, Math.min(this.h - 1, Math.round(row)))]);
   }
 
   project(lonLat: [number, number]): [number, number] {
@@ -389,13 +477,41 @@ const engines = new Map<string, Promise<MapEngine>>();
 const worlds = new Map<string, Promise<any>>();
 
 export function loadEngine(video: Video): Promise<MapEngine> {
-  const key = JSON.stringify([video.id, video.map, video.factions, video.territories]);
+  const key = JSON.stringify([video.id, video.style, video.layout, video.map, video.factions, video.territories]);
   let p = engines.get(key);
   if (!p) {
     const file = `geo/countries-${video.map.landDetail}.json`;
     if (!worlds.has(file)) worlds.set(file, fetch(staticFile(file)).then((r) => r.json()));
-    p = worlds.get(file)!.then((world) => new MapEngine(video, world));
+    const hydro = video.map.rivers ? fetch(staticFile("geo/hydro.json")).then((r) => r.json()) : Promise.resolve(undefined);
+    const terrain = video.map.relief ? loadTerrain(video.id) : Promise.resolve(undefined);
+    p = Promise.all([worlds.get(file)!, hydro, terrain]).then(([world, h, t]) => new MapEngine(video, world, { hydro: h, terrain: t }));
     engines.set(key, p);
   }
   return p;
+}
+
+// Terrarium tiles: elevation in metres = R * 256 + G + B / 256 - 32768.
+async function loadTerrain(id: string): Promise<Terrain> {
+  const res = await fetch(staticFile(`terrain/${id}/manifest.json`));
+  if (!res.ok) throw new Error(`No terrain for "${id}": run node scripts/fetch-terrain.mjs ${id}`);
+  const m = await res.json();
+  const tiles = new Map<string, Float32Array>();
+  const jobs: Promise<void>[] = [];
+  for (let y = m.y0; y <= m.y1; y++)
+    for (let x = m.x0; x <= m.x1; x++)
+      jobs.push(
+        fetch(staticFile(`terrain/${id}/${m.z}-${x}-${y}.png`))
+          .then((r) => r.blob())
+          .then((b) => createImageBitmap(b, { colorSpaceConversion: "none", premultiplyAlpha: "none" }))
+          .then((bmp) => {
+            const { ctx } = canvas2d(256, 256);
+            ctx.drawImage(bmp, 0, 0);
+            const d = ctx.getImageData(0, 0, 256, 256).data;
+            const e = new Float32Array(256 * 256);
+            for (let i = 0; i < e.length; i++) e[i] = d[i * 4] * 256 + d[i * 4 + 1] + d[i * 4 + 2] / 256 - 32768;
+            tiles.set(`${x}-${y}`, e);
+          }),
+      );
+  await Promise.all(jobs);
+  return { ...m, tiles };
 }

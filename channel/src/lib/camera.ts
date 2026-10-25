@@ -1,6 +1,5 @@
 import type { Video } from "../schema";
 import type { MapEngine } from "./map";
-import { VIEWPORT } from "./map";
 import { dayNumber, smoothstep } from "./time";
 
 export type Camera = { center: [number, number]; zoom: number };
@@ -29,7 +28,7 @@ export function viewTransform(engine: MapEngine, cam: Camera, scale: number) {
   const k = cam.zoom / scale;
   const [cx, cy] = engine.project(cam.center);
   const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v));
-  const tx = clamp(VIEWPORT.w / 2 - cx * k, VIEWPORT.w - engine.w * k, 0);
-  const ty = clamp(VIEWPORT.h / 2 - cy * k, VIEWPORT.h - engine.h * k, 0);
+  const tx = clamp(engine.vw / 2 - cx * k, engine.vw - engine.w * k, 0);
+  const ty = clamp(engine.vh / 2 - cy * k, engine.vh - engine.h * k, 0);
   return { k, tx, ty };
 }

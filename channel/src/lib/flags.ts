@@ -111,6 +111,73 @@ const painters: Record<string, (ctx: Ctx, w: number, h: number) => void> = {
     ctx.fillStyle = "#c8102e";
     ctx.fillRect(w * 0.44, 0, w * 0.12, h), ctx.fillRect(0, h * 0.4, w, h * 0.2);
   },
+  // Wehrmacht Balkenkreuz (military insignia, used on campaign maps instead of the national flag)
+  germany: (ctx, w, h) => {
+    ctx.fillStyle = "#e9e6dc";
+    ctx.fillRect(0, 0, w, h);
+    const cx = w / 2, cy = h / 2, L = h * 0.42, T = h * 0.13;
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(cx - L, cy - T - 2, 2 * L, 2 * T + 4);
+    ctx.fillRect(cx - T - 2, cy - L, 2 * T + 4, 2 * L);
+    ctx.fillStyle = "#111";
+    ctx.fillRect(cx - L + 2, cy - T, 2 * L - 4, 2 * T);
+    ctx.fillRect(cx - T, cy - L + 2, 2 * T, 2 * L - 4);
+  },
+  france: (ctx, w, h) => {
+    ctx.fillStyle = "#0055a4";
+    ctx.fillRect(0, 0, w / 3, h);
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(w / 3, 0, w / 3, h);
+    ctx.fillStyle = "#ef4135";
+    ctx.fillRect((2 * w) / 3, 0, w / 3 + 1, h);
+  },
+  belgium: (ctx, w, h) => {
+    ctx.fillStyle = "#000";
+    ctx.fillRect(0, 0, w / 3, h);
+    ctx.fillStyle = "#fdda24";
+    ctx.fillRect(w / 3, 0, w / 3, h);
+    ctx.fillStyle = "#ef3340";
+    ctx.fillRect((2 * w) / 3, 0, w / 3 + 1, h);
+  },
+  netherlands: (ctx, w, h) => {
+    ctx.fillStyle = "#ae1c28";
+    ctx.fillRect(0, 0, w, h / 3);
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(0, h / 3, w, h / 3);
+    ctx.fillStyle = "#21468b";
+    ctx.fillRect(0, (2 * h) / 3, w, h / 3 + 1);
+  },
+  poland: (ctx, w, h) => {
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(0, 0, w, h / 2);
+    ctx.fillStyle = "#dc143c";
+    ctx.fillRect(0, h / 2, w, h / 2);
+  },
+  italy: (ctx, w, h) => {
+    ctx.fillStyle = "#009246";
+    ctx.fillRect(0, 0, w / 3, h);
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(w / 3, 0, w / 3, h);
+    ctx.fillStyle = "#ce2b37";
+    ctx.fillRect((2 * w) / 3, 0, w / 3 + 1, h);
+  },
+  // Soviet Union: red field, gold star over a simplified hammer and sickle (centred so it survives the roundel crop)
+  ussr: (ctx, w, h) => {
+    ctx.fillStyle = "#cc0000";
+    ctx.fillRect(0, 0, w, h);
+    ctx.fillStyle = "#ffd700";
+    ctx.strokeStyle = "#ffd700";
+    star(ctx, w * 0.5, h * 0.25, h * 0.1);
+    ctx.lineWidth = 2.2;
+    ctx.beginPath();
+    ctx.arc(w * 0.5, h * 0.58, h * 0.2, Math.PI * 1.05, Math.PI * 0.35, false);
+    ctx.stroke();
+    ctx.lineWidth = 2.4;
+    ctx.beginPath();
+    ctx.moveTo(w * 0.4, h * 0.82), ctx.lineTo(w * 0.62, h * 0.45);
+    ctx.stroke();
+    ctx.fillRect(w * 0.55, h * 0.38, w * 0.12, h * 0.08);
+  },
 };
 
 // A swallow-tailed army banner on a pole, in the faction's colour (for periods before national flags).
@@ -134,7 +201,38 @@ function banner(color: string): (ctx: Ctx, w: number, h: number) => void {
 
 const cache = new Map<string, OffscreenCanvas>();
 
-export function flagSprite(id: string): OffscreenCanvas {
+// Round badge: the flag cropped to a circle with a white ring, like campaign-map unit roundels.
+function roundSprite(id: string): OffscreenCanvas {
+  const D = 40;
+  const c = new OffscreenCanvas(D, D);
+  const ctx = c.getContext("2d")!;
+  const flat = flagSprite(id, false);
+  ctx.save();
+  ctx.beginPath();
+  ctx.arc(D / 2, D / 2, D / 2 - 3, 0, Math.PI * 2);
+  ctx.clip();
+  const h = D, w = (flat.width / flat.height) * h;
+  ctx.drawImage(flat, 2, 2, flat.width - 4, flat.height - 4, (D - w) / 2, 0, w, h);
+  ctx.restore();
+  ctx.lineWidth = 3;
+  ctx.strokeStyle = "#fff";
+  ctx.beginPath();
+  ctx.arc(D / 2, D / 2, D / 2 - 3, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.lineWidth = 1.2;
+  ctx.strokeStyle = "rgba(10,12,14,0.9)";
+  ctx.beginPath();
+  ctx.arc(D / 2, D / 2, D / 2 - 0.8, 0, Math.PI * 2);
+  ctx.stroke();
+  return c;
+}
+
+export function flagSprite(id: string, round = false): OffscreenCanvas {
+  if (round && !id.startsWith("banner:")) {
+    let r = cache.get(`round:${id}`);
+    if (!r) cache.set(`round:${id}`, (r = roundSprite(id)));
+    return r;
+  }
   let c = cache.get(id);
   if (!c) {
     c = new OffscreenCanvas(FLAG_W + 4, FLAG_H + 4);

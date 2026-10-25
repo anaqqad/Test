@@ -2,7 +2,7 @@
 
 One JSON file in `data/videos/` describes one video: map framing, sides, territory keyframes, pace, camera,
 events and captions, counters, leaders, audio and thumbnail. The engine renders the video, the thumbnail, and a
-YouTube description with chapters. Strategy, format analysis and the first four videos: `../docs/channel-plan.md`.
+YouTube description with chapters. Strategy, format analysis and the first four videos: `../docs/blueprints/01-borderclock-longform.md`.
 
 ## Run
     npm i

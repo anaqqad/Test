@@ -29,6 +29,9 @@ export const VideoSchema = z.object({
   height: z.number().int().default(1080),
   // Marks data that has not been fact-checked; rendered as a visible banner so it can never ship by accident.
   draft: z.boolean().default(false),
+  style: z.enum(["atlas", "warroom"]).default("atlas"),
+  // "sidebar": 1440 px map + 480 px dashboard (long-form). "full": full-frame map with a HUD (battle format).
+  layout: z.enum(["sidebar", "full"]).default("sidebar"),
 
   header: z.object({
     title: z.string(),
@@ -55,6 +58,13 @@ export const VideoSchema = z.object({
     // "line": units crowd every front (wars). "advancing": only where a border is moving (empires on campaign).
     markerFront: z.enum(["line", "advancing"]).default("line"),
     markerDensity: z.number().min(0).max(1).default(0.3), // share of interior positions that show a unit
+    flagShape: z.enum(["rect", "round"]).default("rect"),
+    markerSpacing: z.tuple([z.number(), z.number()]).default([24, 9]), // interior grid, front grid (px at zoom 1)
+    relief: z.boolean().default(false), // hillshaded terrain; needs `node scripts/fetch-terrain.mjs <id>` first
+    reliefStrength: z.number().default(1),
+    rivers: z.boolean().default(false), // Natural Earth rivers and lakes
+    // Which modern borders to draw: inside the theatre they are usually anachronistic.
+    borders: z.enum(["outsideTheatre", "all", "none"]).default("outsideTheatre"),
     edgeGlow: z.boolean().default(true), // glow where a faction borders unclaimed land (an empire's frontier)
     labels: z
       .array(
@@ -132,9 +142,52 @@ export const VideoSchema = z.object({
     )
     .default([]),
 
+  // Offensive arrows: grow along `path` from `from` to `to`, then fade out.
+  arrows: z
+    .array(
+      z.object({
+        faction: z.string(),
+        from: IsoDate,
+        to: IsoDate,
+        path: z.array(LonLat).min(2),
+        width: z.number().default(1),
+        color: z.string().optional(), // defaults to the faction colour, lightened
+      }),
+    )
+    .default([]),
+
+  // Army strength shown on the map: a flag badge and a big number that changes over time.
+  forces: z
+    .array(
+      z.object({
+        factionId: z.string(),
+        flag: z.string().optional(),
+        at: LonLat,
+        label: z.string(),
+        points: z.array(z.tuple([IsoDate, z.number()])).min(1),
+        from: IsoDate.optional(),
+        to: IsoDate.optional(),
+      }),
+    )
+    .default([]),
+
   counters: z
     .array(
       z.discriminatedUnion("kind", [
+        // A losses table: one row per side, one column per measure (e.g. killed, wounded, captured).
+        z.object({
+          kind: z.literal("table"),
+          label: z.string(),
+          columns: z.array(z.string()),
+          rows: z.array(
+            z.object({
+              factionId: z.string(),
+              flag: z.string().optional(),
+              series: z.array(z.array(z.tuple([IsoDate, z.number()])).min(1)),
+            }),
+          ),
+          source: z.string().optional(),
+        }),
         // Area held, measured from the rendered territory (equal-area projection recommended).
         // "share" compares the sides (wars); "total" shows the combined area and its share of the world's land
         // outside Antarctica (empires).

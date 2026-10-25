@@ -5,10 +5,11 @@ import { buildTimeline, dayNumber, formatDate } from "./lib/time";
 import { cameraAt, viewTransform } from "./lib/camera";
 import { useEngine } from "./lib/useEngine";
 import { MapView } from "./components/MapView";
-import { theme } from "./lib/theme";
+import { applyTheme, theme } from "./lib/theme";
 
 // 1920x1080 still from the same data: the map at its most telling date, cropped 16:9, plus 0-4 words.
 export const Thumbnail: React.FC<{ video: Video }> = ({ video }) => {
+  applyTheme(video.style);
   const engine = useEngine(video);
   const tl = buildTimeline(video);
   const day = video.thumbnail.date ? dayNumber(video.thumbnail.date) : tl.endDay;
@@ -16,7 +17,7 @@ export const Thumbnail: React.FC<{ video: Video }> = ({ video }) => {
   const base = cameraAt(video, day);
   const camera = { center: video.thumbnail.center ?? base.center, zoom: video.thumbnail.zoom ?? base.zoom };
   // The map viewport is 4:3; scale it to 1920 wide and crop top and bottom.
-  const scale = 1920 / 1440;
+  const scale = 1920 / engine.vw;
   const top = (1080 - 1080 * scale) / 2;
   const [tv, th] = video.thumbnail.textAt.split("-");
   const ring = video.thumbnail.highlight && (() => {
@@ -26,7 +27,7 @@ export const Thumbnail: React.FC<{ video: Video }> = ({ video }) => {
   })();
   return (
     <AbsoluteFill style={{ background: theme.panel, overflow: "hidden" }}>
-      <div style={{ position: "absolute", left: 0, top, width: 1440, height: 1080, transform: `scale(${scale})`, transformOrigin: "top left" }}>
+      <div style={{ position: "absolute", left: 0, top, width: engine.vw, height: 1080, transform: `scale(${scale})`, transformOrigin: "top left" }}>
         <MapView video={video} engine={engine} day={day} frame={-1000} eventFrames={tl.eventFrames} camera={camera} />
       </div>
       <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg, rgba(29,25,20,0.0) 50%, rgba(29,25,20,0.35))" }} />

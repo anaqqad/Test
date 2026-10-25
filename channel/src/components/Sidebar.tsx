@@ -60,7 +60,7 @@ export const Sidebar: React.FC<Props> = ({ video, day, startDay, frame, eventFra
       <div style={{ fontSize: 22, color: theme.muted, marginTop: 6 }}>{video.header.subtitle}</div>
 
       {video.counters.map((c, ci) =>
-        c.kind === "area" && c.mode === "total" ? (
+        c.kind === "table" ? null : c.kind === "area" && c.mode === "total" ? (
           <Section key={ci} label={c.label}>
             <div style={{ fontFamily: theme.display, fontWeight: 700, fontSize: 46, fontVariantNumeric: "tabular-nums" }}>
               {(total / 1e6).toFixed(1)}M km²

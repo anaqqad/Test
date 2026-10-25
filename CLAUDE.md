@@ -12,7 +12,7 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - `blender/install_vps.sh`: Ubuntu/Debian install of Blender 4.2 LTS + Rhubarb Lip Sync.
 - `channel/`: Remotion project for the "Borderclock" map-timelapse channel: one JSON per video
   (`channel/data/videos/`) -> MP4 + thumbnail + description with chapters. See `channel/README.md`.
-- `docs/channel-plan.md`: reference-channel analysis (History on Maps), channel concept, first 4 videos, pipeline.
+- `docs/blueprints/`: 01 Borderclock long-form (after History on Maps), 02 battle "every day" premium format (after Visual History). Terrain tiles: `node channel/scripts/fetch-terrain.mjs <id>` (not committed).
 
 ## Running on this PC (Windows)
 1. Install Blender 4.2 LTS from blender.org and make sure `blender` is on PATH (or use the full path to
