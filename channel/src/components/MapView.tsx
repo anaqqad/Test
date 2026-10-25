@@ -176,26 +176,38 @@ export const MapView: React.FC<Props> = ({ video, engine, day, frame, eventFrame
       drawMarker(ctx, f.marker, m.x, m.y, m.front ? r * 1.15 : r * 0.85);
     }
 
-    // Labels.
+    // Labels. Cities go largest first; one that would overlap a placed label flips to the left of its dot,
+    // or is left out, so district names never sit on top of a capital at city zoom.
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
-    for (const l of video.map.labels) {
-      if ((l.from && day < dayNumber(l.from)) || (l.to && day >= dayNumber(l.to))) continue;
+    const placed: [number, number, number, number][] = [];
+    const free = (b: [number, number, number, number]) => placed.every((p) => b[2] < p[0] || b[0] > p[2] || b[3] < p[1] || b[1] > p[3]);
+    const labels = video.map.labels
+      .filter((l) => !(l.from && day < dayNumber(l.from)) && !(l.to && day >= dayNumber(l.to)))
+      .map((l, i) => ({ l, i }))
+      .sort((a, b) => (a.l.kind === "city" ? 0 : 1) - (b.l.kind === "city" ? 0 : 1) || (b.l.size ?? 17) - (a.l.size ?? 17) || a.i - b.i);
+    for (const { l } of labels) {
       const [x, y] = engine.project(l.at);
       const big = video.layout === "full" ? 1.3 : 1; // full-frame battle maps are read at a glance
       const px = ((l.size ?? (l.kind === "city" ? 17 : l.kind === "sea" ? 20 : 26)) * big) / Math.sqrt(k);
       ctx.fillStyle = theme.labelInk;
       if (l.kind === "city") {
+        ctx.font = `700 ${px}px "${theme.number}"`;
+        const w = ctx.measureText(l.text).width, pad = 6 / k, h = px * 0.6;
+        const right: [number, number, number, number] = [x + pad, y - h, x + pad + w, y + h];
+        const left: [number, number, number, number] = [x - pad - w, y - h, x - pad, y + h];
+        const box = free(right) ? right : free(left) ? left : null;
+        if (!box) continue;
+        placed.push(box);
         ctx.globalAlpha = 0.95;
         ctx.beginPath();
         ctx.arc(x, y, 3.2 / k, 0, Math.PI * 2);
         ctx.fill();
-        ctx.font = `700 ${px}px "${theme.number}"`;
-        ctx.textAlign = "left";
+        ctx.textAlign = box === right ? "left" : "right";
         ctx.lineWidth = 3.5 / k;
         ctx.strokeStyle = theme.labelHalo;
-        ctx.strokeText(l.text, x + 6 / k, y);
-        ctx.fillText(l.text, x + 6 / k, y);
+        ctx.strokeText(l.text, box === right ? x + pad : x - pad, y);
+        ctx.fillText(l.text, box === right ? x + pad : x - pad, y);
         ctx.textAlign = "center";
       } else {
         ctx.globalAlpha = l.kind === "sea" ? 0.45 : 0.5;
