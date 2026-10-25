@@ -1,0 +1,967 @@
+{
+ "fps": 30,
+ "durationInFrames": 1774,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 168,
+ "wpm": 170.4,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.368,
+   "words": [
+    {
+     "text": "He",
+     "start": 0.0,
+     "end": 0.116
+    },
+    {
+     "text": "called",
+     "start": 0.163,
+     "end": 0.383
+    },
+    {
+     "text": "out",
+     "start": 0.406,
+     "end": 0.511
+    },
+    {
+     "text": "Thomas",
+     "start": 0.546,
+     "end": 0.801
+    },
+    {
+     "text": "Jefferson.",
+     "start": 0.859,
+     "end": 1.335
+    },
+    {
+     "text": "In",
+     "start": 1.474,
+     "end": 1.614
+    },
+    {
+     "text": "writing.",
+     "start": 1.649,
+     "end": 2.368
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 83
+  },
+  {
+   "id": "name",
+   "speechEnd": 4.447,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.868,
+     "end": 3.1
+    },
+    {
+     "text": "Benjamin",
+     "start": 3.158,
+     "end": 3.507
+    },
+    {
+     "text": "Banneker.",
+     "start": 3.553,
+     "end": 4.447
+    }
+   ],
+   "cues": {},
+   "startFrame": 83,
+   "endFrame": 145
+  },
+  {
+   "id": "born",
+   "speechEnd": 8.697,
+   "words": [
+    {
+     "text": "Born",
+     "start": 4.947,
+     "end": 5.249
+    },
+    {
+     "text": "free",
+     "start": 5.319,
+     "end": 5.539
+    },
+    {
+     "text": "in",
+     "start": 5.574,
+     "end": 5.632
+    },
+    {
+     "text": "Maryland",
+     "start": 5.678,
+     "end": 6.05
+    },
+    {
+     "text": "in",
+     "start": 6.12,
+     "end": 6.178
+    },
+    {
+     "text": "1731,",
+     "start": 6.236,
+     "end": 7.199
+    },
+    {
+     "text": "he",
+     "start": 7.315,
+     "end": 7.385
+    },
+    {
+     "text": "had",
+     "start": 7.432,
+     "end": 7.513
+    },
+    {
+     "text": "almost",
+     "start": 7.548,
+     "end": 7.838
+    },
+    {
+     "text": "no",
+     "start": 7.908,
+     "end": 8.047
+    },
+    {
+     "text": "schooling.",
+     "start": 8.117,
+     "end": 8.697
+    }
+   ],
+   "cues": {},
+   "startFrame": 145,
+   "endFrame": 270
+  },
+  {
+   "id": "clock",
+   "speechEnd": 15.199,
+   "words": [
+    {
+     "text": "At",
+     "start": 9.115,
+     "end": 9.231
+    },
+    {
+     "text": "about",
+     "start": 9.266,
+     "end": 9.463
+    },
+    {
+     "text": "twenty-two,",
+     "start": 9.498,
+     "end": 10.171
+    },
+    {
+     "text": "he",
+     "start": 10.253,
+     "end": 10.334
+    },
+    {
+     "text": "built",
+     "start": 10.392,
+     "end": 10.589
+    },
+    {
+     "text": "a",
+     "start": 10.636,
+     "end": 10.659
+    },
+    {
+     "text": "striking",
+     "start": 10.717,
+     "end": 11.112
+    },
+    {
+     "text": "clock",
+     "start": 11.17,
+     "end": 11.46
+    },
+    {
+     "text": "almost",
+     "start": 11.53,
+     "end": 11.855
+    },
+    {
+     "text": "entirely",
+     "start": 11.913,
+     "end": 12.401
+    },
+    {
+     "text": "out",
+     "start": 12.459,
+     "end": 12.598
+    },
+    {
+     "text": "of",
+     "start": 12.633,
+     "end": 12.691
+    },
+    {
+     "text": "wood.",
+     "start": 12.749,
+     "end": 13.109
+    },
+    {
+     "text": "It",
+     "start": 13.376,
+     "end": 13.504
+    },
+    {
+     "text": "reportedly",
+     "start": 13.562,
+     "end": 14.061
+    },
+    {
+     "text": "ran",
+     "start": 14.13,
+     "end": 14.351
+    },
+    {
+     "text": "for",
+     "start": 14.421,
+     "end": 14.525
+    },
+    {
+     "text": "decades.",
+     "start": 14.583,
+     "end": 15.199
+    }
+   ],
+   "cues": {},
+   "startFrame": 270,
+   "endFrame": 468
+  },
+  {
+   "id": "stars",
+   "speechEnd": 20.11,
+   "words": [
+    {
+     "text": "Later,",
+     "start": 15.686,
+     "end": 15.988
+    },
+    {
+     "text": "with",
+     "start": 16.011,
+     "end": 16.151
+    },
+    {
+     "text": "borrowed",
+     "start": 16.197,
+     "end": 16.499
+    },
+    {
+     "text": "books,",
+     "start": 16.534,
+     "end": 16.905
+    },
+    {
+     "text": "he",
+     "start": 17.021,
+     "end": 17.091
+    },
+    {
+     "text": "taught",
+     "start": 17.149,
+     "end": 17.37
+    },
+    {
+     "text": "himself",
+     "start": 17.393,
+     "end": 17.695
+    },
+    {
+     "text": "astronomy,",
+     "start": 17.753,
+     "end": 18.426
+    },
+    {
+     "text": "and",
+     "start": 18.542,
+     "end": 18.682
+    },
+    {
+     "text": "predicted",
+     "start": 18.728,
+     "end": 19.123
+    },
+    {
+     "text": "a",
+     "start": 19.158,
+     "end": 19.193
+    },
+    {
+     "text": "solar",
+     "start": 19.239,
+     "end": 19.529
+    },
+    {
+     "text": "eclipse.",
+     "start": 19.576,
+     "end": 20.11
+    }
+   ],
+   "cues": {},
+   "startFrame": 468,
+   "endFrame": 611
+  },
+  {
+   "id": "survey",
+   "speechEnd": 25.799,
+   "words": [
+    {
+     "text": "In",
+     "start": 20.47,
+     "end": 20.597
+    },
+    {
+     "text": "1791,",
+     "start": 20.644,
+     "end": 21.596
+    },
+    {
+     "text": "he",
+     "start": 21.735,
+     "end": 21.793
+    },
+    {
+     "text": "helped",
+     "start": 21.851,
+     "end": 22.049
+    },
+    {
+     "text": "survey",
+     "start": 22.083,
+     "end": 22.385
+    },
+    {
+     "text": "the",
+     "start": 22.443,
+     "end": 22.513
+    },
+    {
+     "text": "land",
+     "start": 22.559,
+     "end": 22.745
+    },
+    {
+     "text": "for",
+     "start": 22.803,
+     "end": 22.885
+    },
+    {
+     "text": "the",
+     "start": 22.919,
+     "end": 22.989
+    },
+    {
+     "text": "new",
+     "start": 23.035,
+     "end": 23.152
+    },
+    {
+     "text": "capital,",
+     "start": 23.21,
+     "end": 23.686
+    },
+    {
+     "text": "the",
+     "start": 23.802,
+     "end": 23.895
+    },
+    {
+     "text": "future",
+     "start": 23.941,
+     "end": 24.255
+    },
+    {
+     "text": "Washington,",
+     "start": 24.289,
+     "end": 24.777
+    },
+    {
+     "text": "D.C.",
+     "start": 24.8,
+     "end": 25.799
+    }
+   ],
+   "cues": {},
+   "startFrame": 611,
+   "endFrame": 786
+  },
+  {
+   "id": "letter",
+   "speechEnd": 31.837,
+   "words": [
+    {
+     "text": "That",
+     "start": 26.299,
+     "end": 26.531
+    },
+    {
+     "text": "year,",
+     "start": 26.578,
+     "end": 26.798
+    },
+    {
+     "text": "he",
+     "start": 26.833,
+     "end": 26.891
+    },
+    {
+     "text": "wrote",
+     "start": 26.938,
+     "end": 27.135
+    },
+    {
+     "text": "to",
+     "start": 27.158,
+     "end": 27.205
+    },
+    {
+     "text": "Thomas",
+     "start": 27.251,
+     "end": 27.53
+    },
+    {
+     "text": "Jefferson,",
+     "start": 27.588,
+     "end": 28.017
+    },
+    {
+     "text": "who",
+     "start": 28.04,
+     "end": 28.133
+    },
+    {
+     "text": "wrote",
+     "start": 28.18,
+     "end": 28.412
+    },
+    {
+     "text": "that",
+     "start": 28.435,
+     "end": 28.563
+    },
+    {
+     "text": "all",
+     "start": 28.621,
+     "end": 28.842
+    },
+    {
+     "text": "men",
+     "start": 28.911,
+     "end": 29.085
+    },
+    {
+     "text": "are",
+     "start": 29.155,
+     "end": 29.283
+    },
+    {
+     "text": "created",
+     "start": 29.318,
+     "end": 29.678
+    },
+    {
+     "text": "equal,",
+     "start": 29.724,
+     "end": 30.142
+    },
+    {
+     "text": "and",
+     "start": 30.339,
+     "end": 30.49
+    },
+    {
+     "text": "held",
+     "start": 30.56,
+     "end": 30.746
+    },
+    {
+     "text": "people",
+     "start": 30.792,
+     "end": 31.071
+    },
+    {
+     "text": "in",
+     "start": 31.106,
+     "end": 31.175
+    },
+    {
+     "text": "slavery.",
+     "start": 31.233,
+     "end": 31.837
+    }
+   ],
+   "cues": {},
+   "startFrame": 786,
+   "endFrame": 967
+  },
+  {
+   "id": "charge",
+   "speechEnd": 37.131,
+   "words": [
+    {
+     "text": "Banneker",
+     "start": 32.325,
+     "end": 32.719
+    },
+    {
+     "text": "quoted",
+     "start": 32.777,
+     "end": 33.068
+    },
+    {
+     "text": "his",
+     "start": 33.102,
+     "end": 33.207
+    },
+    {
+     "text": "own",
+     "start": 33.253,
+     "end": 33.393
+    },
+    {
+     "text": "words",
+     "start": 33.439,
+     "end": 33.671
+    },
+    {
+     "text": "back",
+     "start": 33.729,
+     "end": 33.927
+    },
+    {
+     "text": "to",
+     "start": 33.973,
+     "end": 34.031
+    },
+    {
+     "text": "him,",
+     "start": 34.101,
+     "end": 34.356
+    },
+    {
+     "text": "and",
+     "start": 34.519,
+     "end": 34.658
+    },
+    {
+     "text": "accused",
+     "start": 34.693,
+     "end": 35.041
+    },
+    {
+     "text": "him",
+     "start": 35.065,
+     "end": 35.146
+    },
+    {
+     "text": "of",
+     "start": 35.192,
+     "end": 35.25
+    },
+    {
+     "text": "holding",
+     "start": 35.308,
+     "end": 35.575
+    },
+    {
+     "text": "people",
+     "start": 35.633,
+     "end": 35.889
+    },
+    {
+     "text": "by",
+     "start": 35.924,
+     "end": 36.028
+    },
+    {
+     "text": "fraud",
+     "start": 36.098,
+     "end": 36.388
+    },
+    {
+     "text": "and",
+     "start": 36.423,
+     "end": 36.504
+    },
+    {
+     "text": "violence.",
+     "start": 36.551,
+     "end": 37.131
+    }
+   ],
+   "cues": {},
+   "startFrame": 967,
+   "endFrame": 1126
+  },
+  {
+   "id": "almanac",
+   "speechEnd": 40.707,
+   "words": [
+    {
+     "text": "He",
+     "start": 37.619,
+     "end": 37.712
+    },
+    {
+     "text": "enclosed",
+     "start": 37.758,
+     "end": 38.13
+    },
+    {
+     "text": "his",
+     "start": 38.164,
+     "end": 38.246
+    },
+    {
+     "text": "own",
+     "start": 38.292,
+     "end": 38.42
+    },
+    {
+     "text": "almanac,",
+     "start": 38.455,
+     "end": 38.966
+    },
+    {
+     "text": "as",
+     "start": 39.035,
+     "end": 39.163
+    },
+    {
+     "text": "proof",
+     "start": 39.233,
+     "end": 39.442
+    },
+    {
+     "text": "of",
+     "start": 39.5,
+     "end": 39.546
+    },
+    {
+     "text": "what",
+     "start": 39.592,
+     "end": 39.709
+    },
+    {
+     "text": "a",
+     "start": 39.743,
+     "end": 39.767
+    },
+    {
+     "text": "Black",
+     "start": 39.801,
+     "end": 40.01
+    },
+    {
+     "text": "man",
+     "start": 40.057,
+     "end": 40.196
+    },
+    {
+     "text": "could",
+     "start": 40.243,
+     "end": 40.382
+    },
+    {
+     "text": "do.",
+     "start": 40.417,
+     "end": 40.707
+    }
+   ],
+   "cues": {},
+   "startFrame": 1126,
+   "endFrame": 1238
+  },
+  {
+   "id": "reply",
+   "speechEnd": 45.572,
+   "words": [
+    {
+     "text": "Jefferson",
+     "start": 41.369,
+     "end": 41.752
+    },
+    {
+     "text": "wrote",
+     "start": 41.798,
+     "end": 41.996
+    },
+    {
+     "text": "back,",
+     "start": 42.031,
+     "end": 42.39
+    },
+    {
+     "text": "and",
+     "start": 42.46,
+     "end": 42.599
+    },
+    {
+     "text": "sent",
+     "start": 42.658,
+     "end": 42.82
+    },
+    {
+     "text": "the",
+     "start": 42.855,
+     "end": 42.925
+    },
+    {
+     "text": "almanac",
+     "start": 42.971,
+     "end": 43.319
+    },
+    {
+     "text": "to",
+     "start": 43.366,
+     "end": 43.412
+    },
+    {
+     "text": "the",
+     "start": 43.459,
+     "end": 43.528
+    },
+    {
+     "text": "Academy",
+     "start": 43.563,
+     "end": 43.911
+    },
+    {
+     "text": "of",
+     "start": 43.958,
+     "end": 44.004
+    },
+    {
+     "text": "Sciences",
+     "start": 44.039,
+     "end": 44.457
+    },
+    {
+     "text": "in",
+     "start": 44.504,
+     "end": 44.562
+    },
+    {
+     "text": "Paris.",
+     "start": 44.62,
+     "end": 45.572
+    }
+   ],
+   "cues": {},
+   "startFrame": 1238,
+   "endFrame": 1379
+  },
+  {
+   "id": "death",
+   "speechEnd": 51.702,
+   "words": [
+    {
+     "text": "Banneker",
+     "start": 46.071,
+     "end": 46.501
+    },
+    {
+     "text": "died",
+     "start": 46.559,
+     "end": 46.802
+    },
+    {
+     "text": "in",
+     "start": 46.837,
+     "end": 46.884
+    },
+    {
+     "text": "1806.",
+     "start": 46.919,
+     "end": 47.859
+    },
+    {
+     "text": "On",
+     "start": 48.172,
+     "end": 48.312
+    },
+    {
+     "text": "the",
+     "start": 48.347,
+     "end": 48.416
+    },
+    {
+     "text": "day",
+     "start": 48.463,
+     "end": 48.59
+    },
+    {
+     "text": "of",
+     "start": 48.625,
+     "end": 48.672
+    },
+    {
+     "text": "his",
+     "start": 48.706,
+     "end": 48.799
+    },
+    {
+     "text": "funeral,",
+     "start": 48.846,
+     "end": 49.345
+    },
+    {
+     "text": "his",
+     "start": 49.542,
+     "end": 49.67
+    },
+    {
+     "text": "house",
+     "start": 49.717,
+     "end": 49.937
+    },
+    {
+     "text": "burned,",
+     "start": 49.984,
+     "end": 50.483
+    },
+    {
+     "text": "and",
+     "start": 50.68,
+     "end": 50.831
+    },
+    {
+     "text": "his",
+     "start": 50.866,
+     "end": 50.947
+    },
+    {
+     "text": "clock",
+     "start": 50.994,
+     "end": 51.237
+    },
+    {
+     "text": "with",
+     "start": 51.284,
+     "end": 51.423
+    },
+    {
+     "text": "it.",
+     "start": 51.47,
+     "end": 51.702
+    }
+   ],
+   "cues": {},
+   "startFrame": 1379,
+   "endFrame": 1561
+  },
+  {
+   "id": "close",
+   "speechEnd": 55.034,
+   "words": [
+    {
+     "text": "He",
+     "start": 52.12,
+     "end": 52.236
+    },
+    {
+     "text": "called",
+     "start": 52.282,
+     "end": 52.526
+    },
+    {
+     "text": "out",
+     "start": 52.561,
+     "end": 52.7
+    },
+    {
+     "text": "Thomas",
+     "start": 52.758,
+     "end": 53.06
+    },
+    {
+     "text": "Jefferson.",
+     "start": 53.118,
+     "end": 53.71
+    },
+    {
+     "text": "In",
+     "start": 53.908,
+     "end": 54.047
+    },
+    {
+     "text": "writing.",
+     "start": 54.105,
+     "end": 55.034
+    }
+   ],
+   "cues": {},
+   "startFrame": 1561,
+   "endFrame": 1663
+  },
+  {
+   "id": "cta",
+   "speechEnd": 57.949,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 55.534,
+     "end": 55.847
+    },
+    {
+     "text": "The",
+     "start": 55.894,
+     "end": 55.964
+    },
+    {
+     "text": "Black",
+     "start": 55.987,
+     "end": 56.184
+    },
+    {
+     "text": "History",
+     "start": 56.219,
+     "end": 56.498
+    },
+    {
+     "text": "Room",
+     "start": 56.544,
+     "end": 56.695
+    },
+    {
+     "text": "for",
+     "start": 56.741,
+     "end": 56.846
+    },
+    {
+     "text": "one",
+     "start": 56.904,
+     "end": 57.043
+    },
+    {
+     "text": "story",
+     "start": 57.078,
+     "end": 57.345
+    },
+    {
+     "text": "a",
+     "start": 57.392,
+     "end": 57.415
+    },
+    {
+     "text": "day.",
+     "start": 57.461,
+     "end": 57.949
+    }
+   ],
+   "cues": {},
+   "startFrame": 1663,
+   "endFrame": 1774
+  }
+ ]
+}
