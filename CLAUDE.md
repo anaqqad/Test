@@ -32,6 +32,19 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - Remotion map timelapse (`channel/`), same VM: ~0.9 s per 1080p frame (CPU canvas; more cores help). Measure on
   the PC with `node scripts/render.mjs korean-war-demo --range=0-239` and note it here.
 
+## Channel status (handover from the cloud session, 25 Oct 2026)
+- Rendered and sent to the owner (main + thumbnail + description + Short): Battle of France 1940, Battle of the
+  Bulge 1944, Operation Bagration 1944, Battle of Berlin 1945, Korean War, Mongol Empire. Renders live in
+  `channel/out/` (gitignored), so they are not in the repo; re-render locally if needed.
+- Still to render with the latest code: `battle-of-berlin-1945` main (the label-overlap fix; the Short already has
+  it) and `mongol-empire` main (banner unit markers).
+- Local setup: `cd channel && npm i`, then per battle video `node scripts/fetch-terrain.mjs <id>` (terrain tiles are
+  not committed), then `node scripts/render.mjs <id>` and `node scripts/render.mjs <id> --short`. QC first with
+  `--keyframes`. Remotion fetches its own headless Chrome; `REMOTION_BROWSER` is only needed to override it.
+- Upload order suggested to the owner: Bulge, France, Berlin, Bagration (one every 2-3 days), each Short a day after
+  its video, with `description.txt` pasted as-is (the Scott Buckley CC-BY credit avoids Content ID claims).
+- Blueprints: `docs/blueprints/01-borderclock-longform.md`, `docs/blueprints/02-battle-every-day.md`.
+
 ## Next ideas (not started)
 - Photoreal Earth from space (NASA Blue Marble + clouds + night lights), real-terrain flyovers from
   elevation data, museum-style artefact close-ups, smoke/fire, collapsing walls.
