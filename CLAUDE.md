@@ -61,6 +61,14 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
 - Easiest languages (done): `lingo/easy.json` rendered with `node vulgar.mjs --set easy` (explicit `rank` field). Rank = FSI weeks, ties broken by Swadesh look-alike % (`easy_score.py`, Wiktionary appendices in `easy_data/`).
 - Next-videos to-do list from the owner: `lingo/ideas/TODO.md` (polite ranking, Arabic variants, masculine ranking, hardest and easiest rankings).
 
+## Uploading to YouTube (local session on the owner's PC)
+- `python lingo/upload_youtube.py <key> lingo/videos/<file>.mp4` reads title, description, tags, category, kids,
+  synthetic flag and thumbnail from `lingo/meta/<key>.md`; uploads as **private** by default (`--public` to publish,
+  `--dry-run` to check). Needs `pip install google-api-python-client google-auth-oauthlib`.
+- Credentials: `lingo/client_secret.json` (Google Cloud OAuth client, Desktop app, YouTube Data API v3 enabled) and
+  `lingo/youtube_token.json` (created on first sign-in). Both are gitignored: never print or commit them.
+- Ask the owner before publishing anything public. Free API, quota ~10,000 units/day (an upload costs about 1,600).
+
 ## Continue from here
 1. `cd lingo && npm i && pip install faster-whisper`
 2. `python3 fetch_audio.py` (resumable; cached clips are skipped. Commons answers HTTP 429 when downloading fast;

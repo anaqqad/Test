@@ -15,3 +15,7 @@ pipeline.log
 analysis.txt
 out/*_timeline.json
 out/hardest_links.*
+
+# YouTube upload credentials (upload_youtube.py)
+client_secret*.json
+youtube_token.json
