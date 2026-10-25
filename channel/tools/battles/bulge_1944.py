@@ -96,7 +96,7 @@ v = video(
              "Charles B. MacDonald, The Last Offensive (US Army CMH), ch. II and Map II",
              "West Point Atlas, Ardennes 16-25 Dec 1944", "Wikipedia: Battle of the Bulge; Siege of Bastogne; Battle of St. Vith; Battle of Elsenborn Ridge",
              "Natural Earth (map data)"],
-    thumbnail={"date": "1944-12-24", "text": "Surrounded", "textAt": "bottom-left", "highlight": [5.717, 50.002], "zoom": 1.6, "center": [5.55, 50.15]},
+    thumbnail={"date": "1944-12-24", "text": "Surrounded", "textAt": "top-left", "highlight": [5.717, 50.002], "zoom": 1.6, "center": [5.55, 50.15]},
     globe_to=[5.7, 50.1], spacing=(56, 15), density=0.45, relief_strength=1.2,
     tags=["Battle of the Bulge", "1944", "WW2", "Bastogne", "Ardennes", "WW2 map", "every day"],
     summary="The Battle of the Bulge, day by day on one map: the German offensive through the Ardennes, the siege of Bastogne, the high-water mark near the Meuse and the Allied counteroffensive.",
