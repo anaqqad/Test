@@ -27,3 +27,10 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
    Arabic, Hindi, Mandarin and Japanese are in neither IDS nor WOLD complete: planned as a separate bonus round from
    Wiktionary translation tables on the same core words, with English measured the same way (Arabic "hundreds of
    words for lion" myth: mostly poetic epithets from classical lexicons).
+
+7. Languages with No Written Form be like (owner, 2026-10-26)
+   Example from the owner: Moroccan Darija. Careful framing: Darija is written informally (Arabic letters, or Latin
+   "Arabizi" with numbers like 3 and 7 on phones) but has no official standard spelling; school and government use
+   Standard Arabic. So the hook is "spoken by millions, never officially written" (also Swiss German, Egyptian Arabic,
+   Neapolitan, Haitian Creole until the 1980s; and truly unwritten ones). Real recordings only (Lingua Libre,
+   Wikitongues), credit every recording.
