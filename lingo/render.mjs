@@ -89,8 +89,8 @@ function storyPage(video, item, idx, dur, audio) {
   #count{right:46px;top:16px;text-align:right}
   #count .n{font-weight:800;font-size:54px;color:#18181d;line-height:1}
   #count .l{font-weight:700;font-size:19px;letter-spacing:3px;text-transform:uppercase;color:${accent};margin-top:6px}
-  #brand{left:40px;top:38px;font-weight:800;font-size:26px;color:#18181d;opacity:.85;display:flex;align-items:center;gap:12px}
-  #brand small{display:block;font-weight:600;font-size:16px;color:#888;letter-spacing:1px}
+  #brand{left:28px;top:20px;display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+  #brand small{display:block;font-weight:800;font-size:22px;color:#6c6f7a;letter-spacing:2px;text-transform:uppercase;margin-left:6px}
   #char{left:10px;bottom:-60px;width:660px;height:951px;transform-origin:50% 100%}
   #char svg{width:100%;height:100%;filter:drop-shadow(0 18px 30px rgba(0,0,0,.35))}
   #cards{left:690px;top:178px;width:890px;display:flex;flex-direction:column;gap:26px}
@@ -120,7 +120,7 @@ function storyPage(video, item, idx, dur, audio) {
   ${listen}
   <div id="cap" class="abs pill"><span>🔊</span><span class="w"></span></div>
   <div id="bar" class="abs">${flagHtml(item.flag, 66)}<h1>${esc(item.name)}</h1></div>
-  <div id="brand" class="abs"><div>${CHANNEL}<small>${esc(video.part || "")}</small></div></div>
+  <div id="brand" class="abs">${logoSvg(62, true)}${video.part ? `<small>${esc(video.part)}</small>` : ""}</div>
   <div id="count" class="abs"><div class="n">${esc(item.speakers)}</div><div class="l">${video.counterLabel}</div></div>
   <div id="fade" class="abs"></div>
   <script>

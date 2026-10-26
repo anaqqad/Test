@@ -432,7 +432,7 @@ export const VIDEOS = {
           "Its words are not borrowed from any existing language, so nobody gets a head start when learning it.",
           "The voice you are hearing is Luce Vergneaux, who has also recorded thousands of Kotava words for Wikimedia Commons.",
         ],
-        audio: { file: "cache/conlangs3/src/kotava_lucekotavusik.m4a", start: 0.7 },
+        audio: { file: "cache/conlangs3/src/kotava_lucekotavusik.m4a", start: 8.0 },
       },
       {
         name: "Pandunia", wojak: "c_pan", flag: null, speakers: "a handful", scene: "grassland", loc: null,

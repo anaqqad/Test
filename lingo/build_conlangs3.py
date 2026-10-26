@@ -15,7 +15,7 @@ CLIPS = {  # name: (source file, start, title, author, licence)
     "Kunyotóri'an": ("kunyotorian_catlover82.mp3", 0.8, "Song about eight cats in Modern Latin Kunyotóri'an", "catlover82 (@orion_cat823)", "used with permission"),
     "Occidental": ("occidental_paulineauster.weba", 1.6, "Dorlota parla Interlingue-Occidental - Dorlota speaks Interlingue-Occidental", "Pauline Auster", "CC BY"),
     "Interslavic": ("interslavic_thecandle.m4a", 87.0, "Interslavic language", "The candle", "CC BY"),
-    "Kotava": ("kotava_lucekotavusik.m4a", 0.7, "Inde Va Kotava Al Ravé", "Luce kotavusik", "CC BY"),
+    "Kotava": ("kotava_lucekotavusik.m4a", 8.0, "Inde Va Kotava Al Ravé", "Luce kotavusik", "CC BY"),
     "Pandunia": ("pandunia_ristokupsala.m4a", 2.3, "mi salama dunia", "Risto Kupsala", "CC BY"),
 }
 YOUTUBE = {"Occidental": "https://www.youtube.com/watch?v=0IdbAmu4Mek", "Interslavic": "https://www.youtube.com/watch?v=topy2bN0Um8",
