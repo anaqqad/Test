@@ -450,7 +450,7 @@ export const VIDEOS = {
         cards: [
           "Solresol was invented by the French musician François Sudre, starting in 1817. Every word is built from the seven notes do, re, mi, fa, sol, la, si.",
           "So it can be spoken, sung, played on an instrument, or even written with seven colours.",
-          "Turn a word around and you get its opposite: fala means good, lafa means bad. These are real recordings of Solresol words.",
+          "Turn a word around and you get its opposite: fala means good, lafa means bad. The voice is Luce Vergneaux, the same speaker as in Kotava.",
         ],
         audio: { file: "cache/conlangs3/src/solresol.wav", start: 0.0 },
       },
