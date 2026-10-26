@@ -39,7 +39,7 @@ export const docSpecSchema = z.object({
   brand: z.object({
     page: z.string(),
     cta: z.string(),
-    ctaLine: z.string().default("One story history tried to forget, every day."),
+    ctaLine: z.string().default(""),
     theme: z.enum(["bhr", "bbu"]).default("bhr"),
   }),
   assets: z.record(z.string(), z.object({ commons: z.string() })).default({}),
