@@ -1,0 +1,1394 @@
+{
+ "id": "doc-robert-smalls",
+ "title": "He Stole a Confederate Warship. Then He Bought His Master's House.",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1,
+  "seed": 1234,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "One story history tried to forget, every day.",
+  "theme": "bhr"
+ },
+ "assets": {
+  "portrait": {
+   "commons": "File:Robert Smalls - Brady-Handy.jpg"
+  },
+  "mc": {
+   "commons": "File:Robert Smalls, S.C. M.C. Born in Beaufort, SC, April 1839 Trim.jpg"
+  },
+  "heroes": {
+   "commons": "File:Heroes in Ebony-The captors of the Rebel steamer Planter, Robert Small, W. Morrison, A. Gradine and John Small LCCN99403228.jpg"
+  },
+  "harpers": {
+   "commons": "File:Robert Smalls, captain of the gun-boat \"Planter\" The gun-boat \"Planter,\" run out of Charleston, S.C., by Robert Smalls, May 1862. LCCN97512451.jpg"
+  },
+  "gunboat": {
+   "commons": "File:Gunboat Planter.png"
+  },
+  "planter": {
+   "commons": "File:USS Planter 1860s.jpg"
+  },
+  "sumter": {
+   "commons": "File:Fort Sumter - 1861.jpg"
+  },
+  "harbor1865": {
+   "commons": "File:Fort Sumter, in Charleston Harbor - Harper's weekly 1865.jpg"
+  },
+  "house": {
+   "commons": "File:SOUTH (FRONT) ELEVATION - McKee-Smalls House, 511 Prince Street, Beaufort, Beaufort County, SC HABS SC,7-BEAUF,32-2.tif"
+  },
+  "plantation": {
+   "commons": "File:Five generations on Smith's Plantation, Beaufort, South Carolina LCCN98504449.jpg"
+  },
+  "wharf": {
+   "commons": "File:View of boats and ships at wharf, Charleston, South Carolina LCCN90713000.jpg"
+  },
+  "steamers": {
+   "commons": "File:Charleston, South Carolina (vicinity).) Steamers at wharf LOC cwpb.03212.jpg"
+  },
+  "harbormap": {
+   "commons": "File:Charleston Harbor and its approaches. 1863.jpg"
+  },
+  "bombard": {
+   "commons": "File:Bombardment of Fort Sumter by the batteries of the Confederate states, April 13, 1861 LCCN2013646579.jpg"
+  },
+  "pinckney": {
+   "commons": "File:Castle Pinckney - showing early light beacon.jpg"
+  },
+  "blockade": {
+   "commons": "File:The blockade of Charleston LCCN00652823.jpg"
+  },
+  "saxton": {
+   "commons": "File:Gen. Rufus Saxton - NARA - 528079.jpg"
+  },
+  "stanton": {
+   "commons": "File:Edwin M. Stanton, Secretary of War - NARA - 528682 (page 2) (3x4a).jpg"
+  },
+  "keokuk": {
+   "commons": "File:USS Keokuk h59546.jpg"
+  },
+  "keokukiln": {
+   "commons": "File:The Civil War in America - The Federal Ironclad Keokuk as she appeared the morning after the fight - ILN 1863 (cropped).jpg"
+  },
+  "ruins": {
+   "commons": "File:Ruins in Charleston, South Carolina by George N. Barnard - crop.jpg"
+  },
+  "radical": {
+   "commons": "File:Radical members of the first legislature after the war, South Carolina LCCN97504690.jpg"
+  },
+  "tillman": {
+   "commons": "File:Benjamin Tillman cph.3a02079.jpg"
+  },
+  "signature": {
+   "commons": "File:Signature of Robert Smalls.png"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook1",
+   "text": "In the spring of 1862, an enslaved man stole a Confederate warship.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.45,
+     0.28
+    ],
+    "zoom": [
+     1.05,
+     1.18
+    ]
+   },
+   "overlays": {
+    "hook": "He stole a *Confederate warship.*"
+   }
+  },
+  {
+   "id": "hook2",
+   "text": "He did it in the dark, with his wife and children on board, right past the guns of Fort Sumter.",
+   "visual": {
+    "kind": "card",
+    "image": "harbor1865",
+    "caption": "Fort Sumter in Charleston harbor, Harper's Weekly, 1865"
+   }
+  },
+  {
+   "id": "hook3",
+   "text": "If they were caught, he had promised to sink the ship rather than surrender.",
+   "visual": {
+    "kind": "photo",
+    "image": "planter",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": [
+     1,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "hook4",
+   "text": "His name was Robert Smalls. And the escape is not even the most surprising part of his story.",
+   "visual": {
+    "kind": "photo",
+    "image": "mc",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Robert Smalls",
+     "sub": "1839 – 1915"
+    }
+   }
+  },
+  {
+   "id": "hook5",
+   "text": "Because of what he did next, and what he bought when the war was over.",
+   "visual": {
+    "kind": "photo",
+    "image": "house",
+    "zoom": [
+     1.02,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "born1",
+   "text": "Robert Smalls was born into slavery on April the fifth, 1839, in Beaufort, South Carolina.",
+   "visual": {
+    "kind": "photo",
+    "image": "plantation",
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1839,
+     "to": 1839
+    },
+    "pin": {
+     "label": "Beaufort",
+     "sub": "South Carolina"
+    }
+   },
+   "section": "harbor"
+  },
+  {
+   "id": "born2",
+   "text": "His mother, Lydia Polite, was enslaved too. Robert grew up in the shadow of their enslaver's house, a large house on Prince Street.",
+   "visual": {
+    "kind": "photo",
+    "image": "house",
+    "motion": "panLeft",
+    "zoom": [
+     1.05,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "born3",
+   "text": "Remember that house. It comes back at the end of this story.",
+   "visual": {
+    "kind": "card",
+    "image": "house",
+    "caption": "The house on Prince Street, Beaufort",
+    "crop": [
+     0.05,
+     0.1,
+     0.95,
+     0.9
+    ]
+   }
+  },
+  {
+   "id": "chs1",
+   "text": "When he was about twelve, he was sent to Charleston and hired out.",
+   "visual": {
+    "kind": "photo",
+    "image": "wharf",
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Charleston",
+     "sub": "South Carolina"
+    }
+   }
+  },
+  {
+   "id": "chs2",
+   "text": "He lit the city's street lamps. He worked on the docks, as a rigger and a sailor.",
+   "visual": {
+    "kind": "photo",
+    "image": "steamers",
+    "motion": "panRight"
+   }
+  },
+  {
+   "id": "chs3",
+   "text": "But the money he earned was not his. Most of his wages went to his owner.",
+   "visual": {
+    "kind": "title",
+    "title": "His wages",
+    "sub": "went to his owner"
+   }
+  },
+  {
+   "id": "chs4",
+   "text": "Year by year, he learned the water. The tides, the channels, the sandbars of Charleston harbor.",
+   "visual": {
+    "kind": "card",
+    "image": "harbormap",
+    "caption": "Charleston Harbor and its approaches, 1863",
+    "crop": [
+     0.2,
+     0.15,
+     0.85,
+     0.85
+    ]
+   }
+  },
+  {
+   "id": "chs5",
+   "text": "He became so skilled that he was steering ships, doing the work of a pilot. The law would never give him that title.",
+   "visual": {
+    "kind": "photo",
+    "image": "steamers",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "fam1",
+   "text": "In 1856, he married Hannah Jones, an enslaved woman who worked in Charleston hotels. They started a family.",
+   "visual": {
+    "kind": "photo",
+    "image": "wharf",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1856,
+     "to": 1856
+    }
+   },
+   "section": "family"
+  },
+  {
+   "id": "fam2",
+   "text": "And Robert tried to do it the legal way. He asked what it would cost to buy his wife and their little daughter.",
+   "visual": {
+    "kind": "photo",
+    "image": "wharf",
+    "focus": [
+     0.35,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "fam3",
+   "text": "The answer was about eight hundred dollars.",
+   "visual": {
+    "kind": "title",
+    "title": "$800",
+    "sub": "the price of his wife and daughter"
+   }
+  },
+  {
+   "id": "fam4",
+   "text": "He had saved about one hundred.",
+   "visual": {
+    "kind": "title",
+    "title": "$100",
+    "sub": "what he had saved"
+   }
+  },
+  {
+   "id": "fam4b",
+   "text": "A man who did the work of a pilot could not afford to buy his own wife and child.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.47,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.18
+    ]
+   }
+  },
+  {
+   "id": "fam5",
+   "text": "At that rate, it could take him most of his life. And at any moment, his family could be sold away from him.",
+   "visual": {
+    "kind": "photo",
+    "image": "plantation",
+    "motion": "panLeft",
+    "zoom": [
+     1.05,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "fam6",
+   "text": "So he started to think about another way out. It would mean risking everything.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.47,
+     0.3
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "fam7",
+   "text": "If the plan failed, the men could lose their lives, and their wives and children could be sold. He would need the right ship, the right night, and nerves of steel.",
+   "visual": {
+    "kind": "card",
+    "image": "harbor1865",
+    "caption": "Fort Sumter in Charleston harbor, Harper's Weekly, 1865"
+   }
+  },
+  {
+   "id": "war1",
+   "text": "In April 1861, Confederate guns opened fire on Fort Sumter. The Civil War had begun.",
+   "visual": {
+    "kind": "photo",
+    "image": "bombard",
+    "zoom": [
+     1,
+     1.12
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1861,
+     "to": 1861
+    }
+   },
+   "section": "night"
+  },
+  {
+   "id": "war2",
+   "text": "Smalls was working aboard a Confederate steamer called the Planter. It carried guns, ammunition and supplies around Charleston harbor.",
+   "visual": {
+    "kind": "photo",
+    "image": "planter",
+    "motion": "panLeft"
+   }
+  },
+  {
+   "id": "war3",
+   "text": "Smalls was its wheelman. He knew the ship, the harbor, and every signal the captain gave to pass the forts.",
+   "visual": {
+    "kind": "card",
+    "image": "gunboat",
+    "caption": "The Planter, from Harper's Weekly, 14 June 1862"
+   }
+  },
+  {
+   "id": "war4",
+   "text": "On May the twelfth, 1862, the Planter took on four big guns from a dismantled fort, along with ammunition.",
+   "visual": {
+    "kind": "photo",
+    "image": "gunboat",
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   },
+   "overlays": {
+    "stamp": "12 May 1862"
+   }
+  },
+  {
+   "id": "war5",
+   "text": "That evening, the three white officers went ashore for the night, as they often did, leaving the ship to the enslaved crew.",
+   "visual": {
+    "kind": "photo",
+    "image": "steamers",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "war6",
+   "text": "It was the chance Smalls had been waiting for.",
+   "visual": {
+    "kind": "title",
+    "title": "3 a.m.",
+    "sub": "the boilers are lit"
+   }
+  },
+  {
+   "id": "esc1",
+   "text": "Around three in the morning, the crew fired up the boilers and slipped away from the wharf.",
+   "visual": {
+    "kind": "map",
+    "step": "wharf"
+   }
+  },
+  {
+   "id": "esc2",
+   "text": "They stopped at another wharf to pick up their families, including Hannah and the children. Sixteen people were now aboard.",
+   "visual": {
+    "kind": "title",
+    "title": "16",
+    "sub": "people on board"
+   }
+  },
+  {
+   "id": "esc3",
+   "text": "Then they headed for the harbor mouth, past fort after fort. Castle Pinckney. Fort Johnson. Fort Moultrie.",
+   "visual": {
+    "kind": "map",
+    "step": "forts"
+   }
+  },
+  {
+   "id": "esc3b",
+   "text": "Every one of those forts had guns that could sink the Planter in minutes. One wrong signal, and it was over.",
+   "visual": {
+    "kind": "photo",
+    "image": "bombard",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "esc4",
+   "text": "Smalls put on the captain's straw hat, folded his arms, and stood the way the captain stood, so that from a distance, in the dark, he would look like him.",
+   "visual": {
+    "kind": "photo",
+    "image": "heroes",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "esc5",
+   "text": "At each fort, he gave the right whistle signals. And one after another, the forts let them pass.",
+   "visual": {
+    "kind": "card",
+    "image": "pinckney",
+    "caption": "Castle Pinckney, Charleston harbor"
+   }
+  },
+  {
+   "id": "esc6",
+   "text": "At about half past four in the morning, they steamed past Fort Sumter itself.",
+   "visual": {
+    "kind": "map",
+    "step": "sumter"
+   }
+  },
+  {
+   "id": "esc6b",
+   "text": "Fort Sumter. Where the war had begun, thirteen months earlier. They were sailing right under its walls.",
+   "visual": {
+    "kind": "card",
+    "image": "harbor1865",
+    "caption": "Fort Sumter in Charleston harbor, Harper's Weekly, 1865"
+   }
+  },
+  {
+   "id": "esc7",
+   "text": "Once they were out of range, the crew pulled down the Confederate flag and raised a white bedsheet.",
+   "visual": {
+    "kind": "photo",
+    "image": "sumter",
+    "motion": "panRight"
+   }
+  },
+  {
+   "id": "esc8",
+   "text": "As the sun came up, they steered for the Union ships blockading the harbor.",
+   "visual": {
+    "kind": "map",
+    "step": "fleet"
+   }
+  },
+  {
+   "id": "esc9",
+   "text": "In the morning fog, the crew of the U.S.S. Onward saw a Confederate steamer coming straight at them. They swung a gun toward it.",
+   "visual": {
+    "kind": "photo",
+    "image": "blockade",
+    "zoom": [
+     1,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "esc10",
+   "text": "They were about to fire, when someone shouted that he could see a white flag.",
+   "visual": {
+    "kind": "title",
+    "title": "Hold fire",
+    "sub": "a white flag"
+   }
+  },
+  {
+   "id": "esc11",
+   "text": "Robert Smalls handed over the Planter, its guns, and its cargo to the United States Navy.",
+   "visual": {
+    "kind": "photo",
+    "image": "harpers",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "esc12",
+   "text": "Sixteen people had gone to sleep enslaved. By sunrise, they were free.",
+   "visual": {
+    "kind": "photo",
+    "image": "heroes",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "wo1",
+   "text": "The news spread across the North. Harper's Weekly put Smalls's face in its pages.",
+   "visual": {
+    "kind": "card",
+    "image": "harpers",
+    "caption": "Harper's Weekly, 1862"
+   },
+   "section": "worth"
+  },
+  {
+   "id": "wo2",
+   "text": "Congress passed a bill to reward him and his crew. Smalls received fifteen hundred dollars.",
+   "visual": {
+    "kind": "title",
+    "title": "$1,500",
+    "sub": "his share of the prize"
+   }
+  },
+  {
+   "id": "wo3",
+   "text": "But what Smalls carried in his head was worth as much as the ship. He knew the channels, the forts, and where the mines were laid.",
+   "visual": {
+    "kind": "card",
+    "image": "harbormap",
+    "caption": "Charleston Harbor, 1863",
+    "crop": [
+     0.3,
+     0.3,
+     0.8,
+     0.8
+    ]
+   }
+  },
+  {
+   "id": "wo4",
+   "text": "Within days, Union forces used what he told them to take positions near Charleston that the Confederates had abandoned.",
+   "visual": {
+    "kind": "card",
+    "image": "harbormap",
+    "caption": "Charleston Harbor and its approaches, 1863"
+   }
+  },
+  {
+   "id": "wo5",
+   "text": "And he did more than escape. The Union command in the region sent Smalls to Washington.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.47,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "wo6",
+   "text": "He carried a message for President Lincoln and the Secretary of War, Edwin Stanton. Let Black men fight.",
+   "visual": {
+    "kind": "card",
+    "image": "stanton",
+    "caption": "Edwin M. Stanton, Secretary of War"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Edwin M. Stanton",
+     "sub": "Secretary of War"
+    }
+   }
+  },
+  {
+   "id": "wo7",
+   "text": "Soon after, the Secretary of War authorized up to five thousand Black soldiers to be raised in the area.",
+   "visual": {
+    "kind": "photo",
+    "image": "saxton",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "overlays": {
+    "stamp": "5,000 soldiers"
+   }
+  },
+  {
+   "id": "cap1",
+   "text": "Smalls went back to the war, this time on the Union side.",
+   "visual": {
+    "kind": "photo",
+    "image": "planter",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   },
+   "section": "captain"
+  },
+  {
+   "id": "cap2",
+   "text": "He piloted the Planter and the ironclad Keokuk in at least twelve engagements.",
+   "visual": {
+    "kind": "card",
+    "image": "keokuk",
+    "caption": "The ironclad USS Keokuk"
+   }
+  },
+  {
+   "id": "cap3",
+   "text": "In April 1863 the Keokuk was hit again and again off Charleston.",
+   "visual": {
+    "kind": "card",
+    "image": "keokukiln",
+    "caption": "The Keokuk the morning after the fight, Illustrated London News, 1863"
+   }
+  },
+  {
+   "id": "cap4",
+   "text": "In one battle aboard the Planter, under heavy fire, the white captain lost his nerve. Smalls took command and brought the ship to safety.",
+   "visual": {
+    "kind": "photo",
+    "image": "gunboat",
+    "motion": "panRight",
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "cap5",
+   "text": "Afterward, he was made the Planter's captain. The man who had once steered the Planter for the Confederacy now commanded it for the United States.",
+   "visual": {
+    "kind": "title",
+    "title": "Captain",
+    "sub": "of the Planter"
+   }
+  },
+  {
+   "id": "cap6",
+   "text": "Even as a war hero, he was not treated as an equal. In December 1864, in Philadelphia, he was thrown off a streetcar reserved for white passengers.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.47,
+     0.32
+    ],
+    "zoom": [
+     1.15,
+     1.22
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1864,
+     "to": 1864
+    }
+   }
+  },
+  {
+   "id": "cap7",
+   "text": "He joined a mass boycott. And in 1867, a new law opened Philadelphia's streetcars to Black passengers.",
+   "visual": {
+    "kind": "title",
+    "title": "1867",
+    "sub": "Philadelphia's streetcars open to all"
+   }
+  },
+  {
+   "id": "ho1",
+   "text": "The war ended in 1865. Charleston lay in ruins.",
+   "visual": {
+    "kind": "photo",
+    "image": "ruins",
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1865,
+     "to": 1865
+    }
+   },
+   "section": "house"
+  },
+  {
+   "id": "ho2",
+   "text": "Robert Smalls went home to Beaufort, to a house he now owned. It was the house where he had been enslaved. He had bought it at a tax sale.",
+   "visual": {
+    "kind": "photo",
+    "image": "house",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "ho3",
+   "text": "The boy who grew up in the shadow of that house now owned it.",
+   "visual": {
+    "kind": "card",
+    "image": "house",
+    "caption": "511 Prince Street, Beaufort",
+    "crop": [
+     0,
+     0.05,
+     1,
+     0.95
+    ]
+   }
+  },
+  {
+   "id": "ho4",
+   "text": "Imagine walking through the front door of a house you were once only allowed to serve in.",
+   "visual": {
+    "kind": "photo",
+    "image": "house",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.2,
+     1.35
+    ]
+   }
+  },
+  {
+   "id": "ho5",
+   "text": "He opened a store, and a school for Black children. In 1868, he helped write a new constitution for South Carolina.",
+   "visual": {
+    "kind": "photo",
+    "image": "radical",
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1868,
+     "to": 1868
+    }
+   }
+  },
+  {
+   "id": "ho6",
+   "text": "He served in the state house, then the state senate.",
+   "visual": {
+    "kind": "photo",
+    "image": "radical",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.15,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "ho7",
+   "text": "And in 1875, he took his seat in the United States House of Representatives. Over the years, he served five terms in Congress.",
+   "visual": {
+    "kind": "photo",
+    "image": "mc",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.12
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Rep. Robert Smalls",
+     "sub": "South Carolina · 5 terms"
+    }
+   }
+  },
+  {
+   "id": "st1",
+   "text": "But Reconstruction did not last. White supremacists took back power in South Carolina, and set out to take the vote away from Black citizens.",
+   "visual": {
+    "kind": "photo",
+    "image": "ruins",
+    "motion": "panLeft",
+    "zoom": [
+     1.05,
+     1.12
+    ]
+   },
+   "section": "stand"
+  },
+  {
+   "id": "st1b",
+   "text": "In 1877, as Reconstruction collapsed, the new Democratic state government charged Smalls with taking a five-thousand-dollar bribe years earlier. He was convicted and sentenced to three years in prison.",
+   "visual": {
+    "kind": "title",
+    "title": "1877",
+    "sub": "convicted"
+   }
+  },
+  {
+   "id": "st1c",
+   "text": "He called the case political. In 1879 the governor pardoned him, and voters later sent him back to Congress.",
+   "visual": {
+    "kind": "photo",
+    "image": "mc",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "st2",
+   "text": "In 1895, South Carolina held a convention to write a new constitution, designed to strip Black men of the right to vote.",
+   "visual": {
+    "kind": "card",
+    "image": "tillman",
+    "caption": "Benjamin Tillman"
+   },
+   "overlays": {
+    "year": {
+     "from": 1895,
+     "to": 1895
+    },
+    "lowerThird": {
+     "name": "Benjamin Tillman",
+     "sub": "Force behind the 1895 constitution"
+    }
+   }
+  },
+  {
+   "id": "st3",
+   "text": "Robert Smalls was one of only six Black delegates. He stood up and spoke against it.",
+   "visual": {
+    "kind": "title",
+    "title": "6",
+    "sub": "Black delegates"
+   }
+  },
+  {
+   "id": "st4",
+   "text": "He said of his people: all they need is an equal chance in the battle of life.",
+   "visual": {
+    "kind": "quote",
+    "quote": "All they need is an equal chance in the battle of life.",
+    "by": "Robert Smalls, 1895"
+   }
+  },
+  {
+   "id": "st5",
+   "text": "He lost that vote. But he did not stay silent.",
+   "visual": {
+    "kind": "photo",
+    "image": "mc",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "st6",
+   "text": "He served for years as the collector of customs at the port of Beaufort, until 1913.",
+   "visual": {
+    "kind": "photo",
+    "image": "wharf",
+    "motion": "panRight"
+   }
+  },
+  {
+   "id": "st7",
+   "text": "On February the twenty-third, 1915, Robert Smalls died, in the house where he had once been enslaved. He was seventy-five years old.",
+   "visual": {
+    "kind": "photo",
+    "image": "house",
+    "zoom": [
+     1.1,
+     1
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1915,
+     "to": 1915
+    }
+   }
+  },
+  {
+   "id": "end1",
+   "text": "A boy whose wages belonged to someone else.",
+   "visual": {
+    "kind": "photo",
+    "image": "steamers",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.18
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "end2",
+   "text": "A father who could not afford to buy his own family.",
+   "visual": {
+    "kind": "photo",
+    "image": "plantation",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.18
+    ]
+   }
+  },
+  {
+   "id": "end3",
+   "text": "A man who took a warship, sailed past Fort Sumter, and came home to own the house where he had been enslaved.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.47,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "end4",
+   "text": "That was Robert Smalls. Every fact in this video is sourced at the black history room dot com. If you want the next story, subscribe, because tomorrow we tell another one history tried to forget.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "facts": [
+  {
+   "beat": "hook",
+   "claim": "In 1862 an enslaved man took a Confederate vessel.",
+   "sources": [
+    "H",
+    "N",
+    "D"
+   ],
+   "note": "'Warship': the Planter was an armed Confederate transport/dispatch steamer ('lightly armed by the Confederate Navy', N; 'her usual armament', D; Harper's 1862 calls it a 'gun-boat', HW). 'Warship' is a fair headline word; 'armed Confederate steamer' is the strict description."
+  },
+  {
+   "beat": "born",
+   "claim": "Born enslaved in Beaufort, South Carolina, on 5 April 1839.",
+   "sources": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "beat": "docks",
+   "claim": "Hired out to work on the Charleston waterfront.",
+   "sources": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "beat": "steered",
+   "claim": "Worked aboard the Confederate steamer Planter (as wheelman, the role of pilot in practice).",
+   "sources": [
+    "H",
+    "N",
+    "D"
+   ],
+   "note": "Sources call him 'pilot' (D, H) or wheelman; the script says 'steered' to cover both."
+  },
+  {
+   "beat": "ashore",
+   "claim": "On the evening of 12 May 1862 the white officers went ashore for the night.",
+   "sources": [
+    "N",
+    "D"
+   ],
+   "note": "D: 'while her captain, C. J. Relyea, was absent on shore'."
+  },
+  {
+   "beat": "castoff",
+   "claim": "Before dawn on 13 May (about 3-4 a.m.) Smalls and the enslaved crew took the ship from the wharf.",
+   "sources": [
+    "N",
+    "D",
+    "G"
+   ],
+   "note": "N: ~3 a.m.; D: 0400."
+  },
+  {
+   "beat": "families",
+   "claim": "They stopped to pick up their wives and children.",
+   "sources": [
+    "H",
+    "N",
+    "G"
+   ],
+   "note": "G: at the West Atlantic Wharf."
+  },
+  {
+   "beat": "sixteen",
+   "claim": "Sixteen people were aboard.",
+   "sources": [
+    "H",
+    "D",
+    "P"
+   ],
+   "note": "G gives 17 (nine men, five women, three children). Open question; 16 is the count of three government sources."
+  },
+  {
+   "beat": "hat",
+   "claim": "Smalls wore the captain's straw hat.",
+   "sources": [
+    "N",
+    "G"
+   ]
+  },
+  {
+   "beat": "signals",
+   "claim": "He gave the expected whistle signals at the forts.",
+   "sources": [
+    "N",
+    "D",
+    "G"
+   ]
+  },
+  {
+   "beat": "sumter",
+   "claim": "They passed Fort Sumter.",
+   "sources": [
+    "H",
+    "N",
+    "P",
+    "G"
+   ]
+  },
+  {
+   "beat": "flag",
+   "claim": "Out of range they lowered the Confederate flag and raised a white bedsheet.",
+   "sources": [
+    "D",
+    "P",
+    "G"
+   ],
+   "note": "D: 'hoisted a white one'; P and G: a bed sheet."
+  },
+  {
+   "beat": "handed",
+   "claim": "They surrendered the ship to the Union blockade (USS Onward).",
+   "sources": [
+    "N",
+    "D",
+    "G"
+   ]
+  },
+  {
+   "beat": "house",
+   "claim": "Smalls later bought the Beaufort house where he had been enslaved.",
+   "sources": [
+    "H",
+    "R",
+    "G"
+   ],
+   "note": "R: bought at a tax sale in 1863; G: 'following the war'. The script says 'Later' to avoid the conflict."
+  },
+  {
+   "beat": "congress",
+   "claim": "He served five terms in the US House (1875-1879, 1882-1883, 1884-1887).",
+   "sources": [
+    "H",
+    "G"
+   ]
+  },
+  {
+   "beat": "legacy",
+   "claim": "Public service after the war: Congress, and Collector of the Port of Beaufort until 1913.",
+   "sources": [
+    "H"
+   ],
+   "note": "Legacy line is a summary of the House record, not a new fact."
+  }
+ ],
+ "sourcesByClaim": {
+  "birth, mother, McKee, Charleston hiring out, wages, marriage 1856": [
+   "US House History, Art & Archives: SMALLS, Robert",
+   "NPS, Robert Smalls House NHL nomination",
+   "Lowcountry Walking Tours"
+  ],
+  "$800 for wife and daughter, about $100 saved": [
+   "Henry Louis Gates Jr., PBS Many Rivers to Cross",
+   "Ancestral Findings",
+   "Lowcountry Walking Tours"
+  ],
+  "Planter, officers ashore, time, families, 16 aboard, straw hat, signals, Sumter, white sheet, USS Onward": [
+   "National Archives, Prologue",
+   "Naval History and Heritage Command, DANFS: Planter",
+   "NPS Reconstruction Era NHP",
+   "Gates, PBS",
+   "US House History"
+  ],
+  "prize money $1,500": [
+   "New World Encyclopedia",
+   "Gale blog: Robert Smalls",
+   "SC General Assembly resolution (2022)"
+  ],
+  "message to Lincoln and Stanton; up to 5,000 Black soldiers": [
+   "US House History",
+   "New World Encyclopedia",
+   "Britannica"
+  ],
+  "12 engagements, Keokuk; took command under fire, made captain": [
+   "US House History",
+   "SC General Assembly resolution",
+   "Mental Floss",
+   "Digital History (Univ. of Houston)"
+  ],
+  "Philadelphia streetcar 1864, 1867 law": [
+   "US House History",
+   "SC General Assembly resolution"
+  ],
+  "bought the house": [
+   "US House History",
+   "NPS, 1863 Beaufort District Tax Sale",
+   "NPS NHL nomination"
+  ],
+  "school, 1868 convention, state house and senate, Congress": [
+   "US House History",
+   "Digital History (Univ. of Houston)"
+  ],
+  "1895 convention, quote": [
+   "US House History (quote)",
+   "NPS Reconstruction Era NHP / his Beaufort monument inscription"
+  ],
+  "customs collector, death 23 Feb 1915 at home": [
+   "US House History",
+   "CBP history: Collector of Customs",
+   "NPS NHL nomination"
+  ],
+  "promise to sink the ship rather than surrender": [
+   "Gates, PBS",
+   "HistoryNet, The Unstoppable Mr. Smalls"
+  ],
+  "Onward nearly fired": [
+   "Gates, PBS",
+   "American Battlefield Trust",
+   "HistoryNet"
+  ],
+  "four guns loaded May 12; officers ashore as usual; ~4:30 a.m. past Sumter; harbor knowledge": [
+   "National Archives, Prologue",
+   "Naval History and Heritage Command, DANFS",
+   "NPS Reconstruction Era NHP (route map)",
+   "Gates, PBS"
+  ],
+  "intelligence after escape (abandoned Stono / Coles Island positions)": [
+   "National Archives, Prologue",
+   "Naval History and Heritage Command, DANFS: Planter"
+  ]
+ },
+ "sources": {
+  "H": {
+   "name": "US House of Representatives, History, Art & Archives: SMALLS, Robert",
+   "url": "https://history.house.gov/People/Detail/21764",
+   "kind": "US House history site"
+  },
+  "N": {
+   "name": "National Archives, Prologue blog: Robert Smalls and the Planter",
+   "url": "https://prologue.blogs.archives.gov/?p=33416",
+   "kind": "National Archives"
+  },
+  "G": {
+   "name": "Henry Louis Gates Jr., 'Which Slave Sailed Himself to Freedom?', PBS The African Americans: Many Rivers to Cross",
+   "url": "https://www.pbs.org/wnet/african-americans-many-rivers-to-cross/history/which-slave-sailed-himself-to-freedom/",
+   "kind": "scholar (Harvard historian)"
+  },
+  "D": {
+   "name": "Naval History and Heritage Command, DANFS: Planter I (Side-wheel Steamer)",
+   "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/p/planter-i.html",
+   "kind": "US Navy official history"
+  },
+  "NHC": {
+   "name": "Naval Historical Center, Online Library: Planter (1862)",
+   "url": "https://ibiblio.org/hyperwar/OnlineLibrary/photos/sh-civil/civsh-p/planter.htm",
+   "kind": "US Navy (mirror)"
+  },
+  "P": {
+   "name": "National Park Service, Reconstruction Era NHP: The Planter, A Strike for Freedom",
+   "url": "https://www.nps.gov/reer/learn/historyculture/the-planter-a-strike-for-freedom.htm",
+   "kind": "National Park Service"
+  },
+  "P2": {
+   "name": "National Park Service: The Underground Railroad and Fort Sumter",
+   "url": "https://www.nps.gov/articles/000/the-underground-railroad-and-fort-sumter.htm",
+   "kind": "National Park Service"
+  },
+  "R": {
+   "name": "National Park Service, National Historic Landmark nomination: Robert Smalls House (74001823)",
+   "url": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/74001823_text",
+   "kind": "National Park Service"
+  },
+  "HW": {
+   "name": "Harper's Weekly, 14 June 1862, p. 372 (Library of Congress LCCN 97512451)",
+   "url": "https://lccn.loc.gov/97512451",
+   "kind": "Library of Congress (primary source)"
+  }
+ }
+}

@@ -6,7 +6,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'BHR_VERSION', '1.3.6' );
+define( 'BHR_VERSION', '1.3.7' );
 
 require __DIR__ . '/inc/content.php';
 require __DIR__ . '/inc/podcast.php';
