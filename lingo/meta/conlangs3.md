@@ -11,7 +11,7 @@ Thank you to catlover82 (@orion_cat823) for sending us the Kunyotóri'an song!
 Which language should we cover next? Tell us in the comments 👇
 
 0:00 Intro
-0:03 Kunyotóri'an (shared by a subscriber)
+0:03 Kunyotóri'an (speakers: a handful)
 0:20 Occidental / Interlingue (speakers: 100s)
 0:38 Interslavic (speakers: 1,000s)
 0:56 Kotava (speakers: dozens)

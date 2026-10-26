@@ -395,7 +395,7 @@ export const VIDEOS = {
     accent: "#6c5ce7",
     items: [
       {
-        name: "Kunyotóri'an", wojak: "c_kun_f", flag: null, speakers: "?", scene: "village", loc: null,
+        name: "Kunyotóri'an", wojak: "c_kun_f", flag: null, speakers: "a handful", scene: "village", loc: null,
         char: { skin: "light", hair: "long", hairColor: "brown", outfit: { type: "shirt", color: "#c97b4a", vest: "#c97b4a" }, expression: "smile" },
         cards: [
           "Modern Latin Kunyotóri’an, in its own words Kunyotóri’an Laónn Motóryo, was sent to us by one of our subscribers. Thank you, catlover82!",
