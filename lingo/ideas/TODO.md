@@ -34,3 +34,14 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
    Standard Arabic. So the hook is "spoken by millions, never officially written" (also Swiss German, Egyptian Arabic,
    Neapolitan, Haitian Creole until the 1980s; and truly unwritten ones). Real recordings only (Lingua Libre,
    Wikitongues), credit every recording.
+
+8. Revived Languages be like (Part 2) and (Part 3) (owner, 2026-10-26)
+   Part 1 is `revived` ("Revived Languages be like…": Hebrew, Cornish, Manx, Māori, Latin, Sanskrit). The owner
+   asked for Parts 2 and 3, so the "no Part 2 on the original six" rule does not apply here (like rules2/conlangs2).
+   Same format as Part 1, Part 1 thumbnail gets a PART 1 label. Candidates (check real recordings first, drop any
+   language without one):
+   - Brought back after the last native speaker died: Wampanoag (Wôpanâak), Myaamia (Miami), Kaurna, Barngarla,
+     Livonian (last native speaker died 2013), Mutsun, Chochenyo (Ohlone), Tunica, Mohegan, Wendat (Huron).
+   - Saved from near extinction: Hawaiian, Ainu, Inari Sámi, Welsh, Breton, Irish, Scottish Gaelic, Basque,
+     Wiradjuri, Yugambeh, Occitan, Romansh.
+   Split by theme: Part 2 = languages brought back from zero speakers, Part 3 = languages pulled back from the edge.
