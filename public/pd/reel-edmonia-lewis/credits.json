@@ -1,0 +1,38 @@
+{
+ "rocher": {
+  "title": "File:Edmonia Lewis by Henry Rocher.jpg",
+  "artist": "Henry Rocher (restoration Adam Cuerden)",
+  "date": "c. 1870",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Edmonia_Lewis_by_Henry_Rocher.jpg",
+  "width": 1280,
+  "height": 2297
+ },
+ "lewis2": {
+  "title": "File:Edmonia-lewis 01.jpg",
+  "artist": "unknown",
+  "date": "c. 1870s",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Edmonia-lewis_01.jpg",
+  "width": 1280,
+  "height": 2067
+ },
+ "saam1": {
+  "title": "The Death of Cleopatra, Edmonia Lewis, 1876 (image SAAM-1994.17_1)",
+  "artist": "Smithsonian American Art Museum, gift of the Historical Society of Forest Park, Illinois",
+  "date": "1876 (photo: SAAM)",
+  "license": "CC0 (Smithsonian Open Access)",
+  "source": "https://www.si.edu/object/death-cleopatra:saam_1994.17",
+  "width": 1200,
+  "height": 1600
+ },
+ "saam2": {
+  "title": "The Death of Cleopatra, Edmonia Lewis, 1876 (image SAAM-1994.17_2)",
+  "artist": "Smithsonian American Art Museum, gift of the Historical Society of Forest Park, Illinois",
+  "date": "1876 (photo: SAAM)",
+  "license": "CC0 (Smithsonian Open Access)",
+  "source": "https://www.si.edu/object/death-cleopatra:saam_1994.17",
+  "width": 1265,
+  "height": 1600
+ }
+}

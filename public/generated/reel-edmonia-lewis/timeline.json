@@ -1,0 +1,977 @@
+{
+ "fps": 30,
+ "durationInFrames": 1823,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 170,
+ "wpm": 167.8,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.229,
+   "words": [
+    {
+     "text": "Her",
+     "start": 0.0,
+     "end": 0.139
+    },
+    {
+     "text": "masterpiece",
+     "start": 0.186,
+     "end": 0.72
+    },
+    {
+     "text": "ended",
+     "start": 0.755,
+     "end": 0.964
+    },
+    {
+     "text": "up",
+     "start": 0.998,
+     "end": 1.08
+    },
+    {
+     "text": "on",
+     "start": 1.126,
+     "end": 1.184
+    },
+    {
+     "text": "a",
+     "start": 1.219,
+     "end": 1.242
+    },
+    {
+     "text": "horse's",
+     "start": 1.289,
+     "end": 1.567
+    },
+    {
+     "text": "grave.",
+     "start": 1.614,
+     "end": 2.229
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 79
+  },
+  {
+   "id": "name",
+   "speechEnd": 4.308,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.729,
+     "end": 2.984
+    },
+    {
+     "text": "Edmonia",
+     "start": 3.042,
+     "end": 3.437
+    },
+    {
+     "text": "Lewis.",
+     "start": 3.495,
+     "end": 4.308
+    }
+   ],
+   "cues": {},
+   "startFrame": 79,
+   "endFrame": 141
+  },
+  {
+   "id": "born",
+   "speechEnd": 10.474,
+   "words": [
+    {
+     "text": "Born",
+     "start": 4.808,
+     "end": 5.063
+    },
+    {
+     "text": "in",
+     "start": 5.098,
+     "end": 5.145
+    },
+    {
+     "text": "New",
+     "start": 5.18,
+     "end": 5.272
+    },
+    {
+     "text": "York",
+     "start": 5.319,
+     "end": 5.551
+    },
+    {
+     "text": "around",
+     "start": 5.597,
+     "end": 5.841
+    },
+    {
+     "text": "1844,",
+     "start": 5.899,
+     "end": 7.049
+    },
+    {
+     "text": "to",
+     "start": 7.165,
+     "end": 7.269
+    },
+    {
+     "text": "a",
+     "start": 7.339,
+     "end": 7.362
+    },
+    {
+     "text": "Black",
+     "start": 7.409,
+     "end": 7.629
+    },
+    {
+     "text": "father",
+     "start": 7.687,
+     "end": 8.001
+    },
+    {
+     "text": "and",
+     "start": 8.059,
+     "end": 8.152
+    },
+    {
+     "text": "an",
+     "start": 8.21,
+     "end": 8.268
+    },
+    {
+     "text": "Ojibwe",
+     "start": 8.326,
+     "end": 8.721
+    },
+    {
+     "text": "mother,",
+     "start": 8.767,
+     "end": 9.162
+    },
+    {
+     "text": "she",
+     "start": 9.301,
+     "end": 9.429
+    },
+    {
+     "text": "was",
+     "start": 9.475,
+     "end": 9.58
+    },
+    {
+     "text": "orphaned",
+     "start": 9.649,
+     "end": 9.974
+    },
+    {
+     "text": "young.",
+     "start": 10.021,
+     "end": 10.474
+    }
+   ],
+   "cues": {},
+   "startFrame": 141,
+   "endFrame": 326
+  },
+  {
+   "id": "oberlin",
+   "speechEnd": 16.871,
+   "words": [
+    {
+     "text": "At",
+     "start": 10.961,
+     "end": 11.101
+    },
+    {
+     "text": "Oberlin",
+     "start": 11.147,
+     "end": 11.449
+    },
+    {
+     "text": "College,",
+     "start": 11.507,
+     "end": 11.995
+    },
+    {
+     "text": "two",
+     "start": 12.111,
+     "end": 12.296
+    },
+    {
+     "text": "white",
+     "start": 12.366,
+     "end": 12.575
+    },
+    {
+     "text": "classmates",
+     "start": 12.598,
+     "end": 13.144
+    },
+    {
+     "text": "said",
+     "start": 13.179,
+     "end": 13.341
+    },
+    {
+     "text": "she",
+     "start": 13.376,
+     "end": 13.469
+    },
+    {
+     "text": "had",
+     "start": 13.515,
+     "end": 13.597
+    },
+    {
+     "text": "poisoned",
+     "start": 13.643,
+     "end": 13.991
+    },
+    {
+     "text": "them.",
+     "start": 14.015,
+     "end": 14.282
+    },
+    {
+     "text": "She",
+     "start": 14.595,
+     "end": 14.723
+    },
+    {
+     "text": "was",
+     "start": 14.781,
+     "end": 14.885
+    },
+    {
+     "text": "beaten.",
+     "start": 14.944,
+     "end": 15.385
+    },
+    {
+     "text": "The",
+     "start": 15.698,
+     "end": 15.814
+    },
+    {
+     "text": "charges",
+     "start": 15.861,
+     "end": 16.197
+    },
+    {
+     "text": "were",
+     "start": 16.244,
+     "end": 16.348
+    },
+    {
+     "text": "dropped.",
+     "start": 16.372,
+     "end": 16.871
+    }
+   ],
+   "cues": {},
+   "startFrame": 326,
+   "endFrame": 518
+  },
+  {
+   "id": "rome",
+   "speechEnd": 21.201,
+   "words": [
+    {
+     "text": "She",
+     "start": 17.358,
+     "end": 17.486
+    },
+    {
+     "text": "became",
+     "start": 17.544,
+     "end": 17.811
+    },
+    {
+     "text": "a",
+     "start": 17.834,
+     "end": 17.858
+    },
+    {
+     "text": "sculptor,",
+     "start": 17.904,
+     "end": 18.496
+    },
+    {
+     "text": "and",
+     "start": 18.612,
+     "end": 18.763
+    },
+    {
+     "text": "moved",
+     "start": 18.821,
+     "end": 19.03
+    },
+    {
+     "text": "to",
+     "start": 19.053,
+     "end": 19.111
+    },
+    {
+     "text": "Rome",
+     "start": 19.169,
+     "end": 19.448
+    },
+    {
+     "text": "to",
+     "start": 19.483,
+     "end": 19.541
+    },
+    {
+     "text": "carve",
+     "start": 19.599,
+     "end": 19.866
+    },
+    {
+     "text": "white",
+     "start": 19.901,
+     "end": 20.087
+    },
+    {
+     "text": "marble.",
+     "start": 20.121,
+     "end": 21.201
+    }
+   ],
+   "cues": {},
+   "startFrame": 518,
+   "endFrame": 648
+  },
+  {
+   "id": "cleo",
+   "speechEnd": 28.435,
+   "words": [
+    {
+     "text": "In",
+     "start": 21.701,
+     "end": 21.875
+    },
+    {
+     "text": "1876,",
+     "start": 21.922,
+     "end": 23.048
+    },
+    {
+     "text": "she",
+     "start": 23.164,
+     "end": 23.303
+    },
+    {
+     "text": "sent",
+     "start": 23.361,
+     "end": 23.559
+    },
+    {
+     "text": "The",
+     "start": 23.593,
+     "end": 23.663
+    },
+    {
+     "text": "Death",
+     "start": 23.733,
+     "end": 23.953
+    },
+    {
+     "text": "of",
+     "start": 24.0,
+     "end": 24.046
+    },
+    {
+     "text": "Cleopatra,",
+     "start": 24.104,
+     "end": 24.894
+    },
+    {
+     "text": "two",
+     "start": 24.987,
+     "end": 25.172
+    },
+    {
+     "text": "tons",
+     "start": 25.23,
+     "end": 25.439
+    },
+    {
+     "text": "of",
+     "start": 25.486,
+     "end": 25.544
+    },
+    {
+     "text": "marble,",
+     "start": 25.614,
+     "end": 26.066
+    },
+    {
+     "text": "to",
+     "start": 26.182,
+     "end": 26.287
+    },
+    {
+     "text": "the",
+     "start": 26.357,
+     "end": 26.426
+    },
+    {
+     "text": "Centennial",
+     "start": 26.461,
+     "end": 26.984
+    },
+    {
+     "text": "Exhibition",
+     "start": 27.042,
+     "end": 27.518
+    },
+    {
+     "text": "in",
+     "start": 27.564,
+     "end": 27.622
+    },
+    {
+     "text": "Philadelphia.",
+     "start": 27.669,
+     "end": 28.435
+    }
+   ],
+   "cues": {},
+   "startFrame": 648,
+   "endFrame": 861
+  },
+  {
+   "id": "crowds",
+   "speechEnd": 31.442,
+   "words": [
+    {
+     "text": "It",
+     "start": 28.795,
+     "end": 28.922
+    },
+    {
+     "text": "drew",
+     "start": 28.969,
+     "end": 29.155
+    },
+    {
+     "text": "bigger",
+     "start": 29.213,
+     "end": 29.445
+    },
+    {
+     "text": "crowds",
+     "start": 29.503,
+     "end": 29.816
+    },
+    {
+     "text": "than",
+     "start": 29.851,
+     "end": 29.967
+    },
+    {
+     "text": "almost",
+     "start": 30.014,
+     "end": 30.281
+    },
+    {
+     "text": "anything",
+     "start": 30.327,
+     "end": 30.629
+    },
+    {
+     "text": "else",
+     "start": 30.676,
+     "end": 30.838
+    },
+    {
+     "text": "in",
+     "start": 30.873,
+     "end": 30.931
+    },
+    {
+     "text": "the",
+     "start": 30.966,
+     "end": 31.035
+    },
+    {
+     "text": "hall.",
+     "start": 31.082,
+     "end": 31.442
+    }
+   ],
+   "cues": {},
+   "startFrame": 861,
+   "endFrame": 946
+  },
+  {
+   "id": "lost",
+   "speechEnd": 39.615,
+   "words": [
+    {
+     "text": "Then",
+     "start": 31.639,
+     "end": 31.825
+    },
+    {
+     "text": "it",
+     "start": 31.871,
+     "end": 31.941
+    },
+    {
+     "text": "vanished.",
+     "start": 31.999,
+     "end": 32.568
+    },
+    {
+     "text": "It",
+     "start": 32.881,
+     "end": 33.021
+    },
+    {
+     "text": "turned",
+     "start": 33.056,
+     "end": 33.311
+    },
+    {
+     "text": "up",
+     "start": 33.357,
+     "end": 33.45
+    },
+    {
+     "text": "in",
+     "start": 33.497,
+     "end": 33.555
+    },
+    {
+     "text": "a",
+     "start": 33.59,
+     "end": 33.613
+    },
+    {
+     "text": "Chicago",
+     "start": 33.659,
+     "end": 34.101
+    },
+    {
+     "text": "saloon.",
+     "start": 34.17,
+     "end": 34.716
+    },
+    {
+     "text": "A",
+     "start": 34.983,
+     "end": 35.053
+    },
+    {
+     "text": "racetrack",
+     "start": 35.145,
+     "end": 35.587
+    },
+    {
+     "text": "owner",
+     "start": 35.656,
+     "end": 35.842
+    },
+    {
+     "text": "bought",
+     "start": 35.9,
+     "end": 36.097
+    },
+    {
+     "text": "it",
+     "start": 36.121,
+     "end": 36.179
+    },
+    {
+     "text": "to",
+     "start": 36.214,
+     "end": 36.26
+    },
+    {
+     "text": "mark",
+     "start": 36.318,
+     "end": 36.504
+    },
+    {
+     "text": "his",
+     "start": 36.55,
+     "end": 36.643
+    },
+    {
+     "text": "horse's",
+     "start": 36.69,
+     "end": 37.003
+    },
+    {
+     "text": "grave.",
+     "start": 37.049,
+     "end": 37.514
+    },
+    {
+     "text": "The",
+     "start": 37.827,
+     "end": 37.943
+    },
+    {
+     "text": "horse",
+     "start": 38.001,
+     "end": 38.245
+    },
+    {
+     "text": "was",
+     "start": 38.28,
+     "end": 38.396
+    },
+    {
+     "text": "named",
+     "start": 38.454,
+     "end": 38.686
+    },
+    {
+     "text": "Cleopatra.",
+     "start": 38.768,
+     "end": 39.615
+    }
+   ],
+   "cues": {},
+   "startFrame": 946,
+   "endFrame": 1195
+  },
+  {
+   "id": "yard",
+   "speechEnd": 42.738,
+   "words": [
+    {
+     "text": "Covered",
+     "start": 39.929,
+     "end": 40.219
+    },
+    {
+     "text": "in",
+     "start": 40.254,
+     "end": 40.3
+    },
+    {
+     "text": "graffiti,",
+     "start": 40.347,
+     "end": 40.858
+    },
+    {
+     "text": "it",
+     "start": 40.881,
+     "end": 40.974
+    },
+    {
+     "text": "ended",
+     "start": 41.02,
+     "end": 41.217
+    },
+    {
+     "text": "up",
+     "start": 41.264,
+     "end": 41.357
+    },
+    {
+     "text": "in",
+     "start": 41.403,
+     "end": 41.461
+    },
+    {
+     "text": "a",
+     "start": 41.496,
+     "end": 41.519
+    },
+    {
+     "text": "salvage",
+     "start": 41.577,
+     "end": 41.96
+    },
+    {
+     "text": "yard.",
+     "start": 41.995,
+     "end": 42.738
+    }
+   ],
+   "cues": {},
+   "startFrame": 1195,
+   "endFrame": 1294
+  },
+  {
+   "id": "saved",
+   "speechEnd": 48.8,
+   "words": [
+    {
+     "text": "A",
+     "start": 43.239,
+     "end": 43.332
+    },
+    {
+     "text": "local",
+     "start": 43.413,
+     "end": 43.645
+    },
+    {
+     "text": "historical",
+     "start": 43.703,
+     "end": 44.121
+    },
+    {
+     "text": "society",
+     "start": 44.179,
+     "end": 44.621
+    },
+    {
+     "text": "rescued",
+     "start": 44.702,
+     "end": 45.097
+    },
+    {
+     "text": "and",
+     "start": 45.131,
+     "end": 45.201
+    },
+    {
+     "text": "restored",
+     "start": 45.259,
+     "end": 45.607
+    },
+    {
+     "text": "it.",
+     "start": 45.642,
+     "end": 45.898
+    },
+    {
+     "text": "In",
+     "start": 46.385,
+     "end": 46.513
+    },
+    {
+     "text": "1994,",
+     "start": 46.559,
+     "end": 47.384
+    },
+    {
+     "text": "they",
+     "start": 47.407,
+     "end": 47.523
+    },
+    {
+     "text": "gave",
+     "start": 47.558,
+     "end": 47.732
+    },
+    {
+     "text": "it",
+     "start": 47.755,
+     "end": 47.813
+    },
+    {
+     "text": "to",
+     "start": 47.837,
+     "end": 47.883
+    },
+    {
+     "text": "the",
+     "start": 47.929,
+     "end": 47.999
+    },
+    {
+     "text": "Smithsonian.",
+     "start": 48.022,
+     "end": 48.8
+    }
+   ],
+   "cues": {},
+   "startFrame": 1294,
+   "endFrame": 1481
+  },
+  {
+   "id": "today",
+   "speechEnd": 51.923,
+   "words": [
+    {
+     "text": "Today,",
+     "start": 49.462,
+     "end": 49.857
+    },
+    {
+     "text": "her",
+     "start": 49.903,
+     "end": 50.019
+    },
+    {
+     "text": "Cleopatra",
+     "start": 50.066,
+     "end": 50.646
+    },
+    {
+     "text": "is",
+     "start": 50.693,
+     "end": 50.774
+    },
+    {
+     "text": "on",
+     "start": 50.832,
+     "end": 50.936
+    },
+    {
+     "text": "view",
+     "start": 50.983,
+     "end": 51.134
+    },
+    {
+     "text": "in",
+     "start": 51.18,
+     "end": 51.238
+    },
+    {
+     "text": "Washington.",
+     "start": 51.296,
+     "end": 51.923
+    }
+   ],
+   "cues": {},
+   "startFrame": 1481,
+   "endFrame": 1565
+  },
+  {
+   "id": "close",
+   "speechEnd": 56.66,
+   "words": [
+    {
+     "text": "Her",
+     "start": 52.283,
+     "end": 52.422
+    },
+    {
+     "text": "masterpiece",
+     "start": 52.469,
+     "end": 53.003
+    },
+    {
+     "text": "ended",
+     "start": 53.049,
+     "end": 53.247
+    },
+    {
+     "text": "up",
+     "start": 53.282,
+     "end": 53.351
+    },
+    {
+     "text": "on",
+     "start": 53.398,
+     "end": 53.456
+    },
+    {
+     "text": "a",
+     "start": 53.491,
+     "end": 53.514
+    },
+    {
+     "text": "horse's",
+     "start": 53.56,
+     "end": 53.85
+    },
+    {
+     "text": "grave.",
+     "start": 53.897,
+     "end": 54.419
+    },
+    {
+     "text": "Now",
+     "start": 55.0,
+     "end": 55.162
+    },
+    {
+     "text": "it's",
+     "start": 55.209,
+     "end": 55.313
+    },
+    {
+     "text": "in",
+     "start": 55.348,
+     "end": 55.394
+    },
+    {
+     "text": "the",
+     "start": 55.429,
+     "end": 55.499
+    },
+    {
+     "text": "Smithsonian.",
+     "start": 55.522,
+     "end": 56.66
+    }
+   ],
+   "cues": {},
+   "startFrame": 1565,
+   "endFrame": 1712
+  },
+  {
+   "id": "cta",
+   "speechEnd": 59.575,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 57.16,
+     "end": 57.473
+    },
+    {
+     "text": "The",
+     "start": 57.52,
+     "end": 57.59
+    },
+    {
+     "text": "Black",
+     "start": 57.613,
+     "end": 57.81
+    },
+    {
+     "text": "History",
+     "start": 57.845,
+     "end": 58.124
+    },
+    {
+     "text": "Room",
+     "start": 58.17,
+     "end": 58.321
+    },
+    {
+     "text": "for",
+     "start": 58.367,
+     "end": 58.472
+    },
+    {
+     "text": "one",
+     "start": 58.542,
+     "end": 58.681
+    },
+    {
+     "text": "story",
+     "start": 58.716,
+     "end": 58.983
+    },
+    {
+     "text": "a",
+     "start": 59.029,
+     "end": 59.052
+    },
+    {
+     "text": "day.",
+     "start": 59.099,
+     "end": 59.575
+    }
+   ],
+   "cues": {},
+   "startFrame": 1712,
+   "endFrame": 1823
+  }
+ ]
+}

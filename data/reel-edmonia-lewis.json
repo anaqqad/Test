@@ -1,0 +1,339 @@
+{
+ "id": "reel-edmonia-lewis",
+ "title": "Her Masterpiece Ended Up on a Horse's Grave.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Her masterpiece ended up on a horse's grave.",
+   "visual": {
+    "kind": "photo",
+    "image": "rocher",
+    "focus": [
+     0.47,
+     0.27
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Her masterpiece *ended up on a horse's grave.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Edmonia Lewis.",
+   "visual": {
+    "kind": "title",
+    "title": "Edmonia Lewis",
+    "sub": "sculptor, c. 1844-1907"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born in New York around 1844, to a Black father and an Ojibwe mother, she was orphaned young.",
+   "visual": {
+    "kind": "title",
+    "title": "Two peoples",
+    "sub": "African American and Ojibwe"
+   },
+   "section": "story"
+  },
+  {
+   "id": "oberlin",
+   "text": "At Oberlin College, two white classmates said she had poisoned them. She was beaten. The charges were dropped.",
+   "visual": {
+    "kind": "title",
+    "title": "Oberlin, 1862",
+    "sub": "accused, beaten, cleared"
+   }
+  },
+  {
+   "id": "rome",
+   "text": "She became a sculptor, and moved to Rome to carve white marble.",
+   "visual": {
+    "kind": "card",
+    "image": "lewis2",
+    "crop": [
+     0.0,
+     0.03,
+     1.0,
+     0.6
+    ],
+    "caption": "Edmonia Lewis, c. 1870"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Rome",
+     "sub": "Italy"
+    }
+   }
+  },
+  {
+   "id": "cleo",
+   "text": "In 1876, she sent The Death of Cleopatra, two tons of marble, to the Centennial Exhibition in Philadelphia.",
+   "visual": {
+    "kind": "photo",
+    "image": "saam1",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   },
+   "section": "turn",
+   "overlays": {
+    "stamp": "1876"
+   }
+  },
+  {
+   "id": "crowds",
+   "text": "It drew bigger crowds than almost anything else in the hall.",
+   "visual": {
+    "kind": "title",
+    "title": "The crowds",
+    "sub": "Centennial Exhibition, Philadelphia"
+   }
+  },
+  {
+   "id": "lost",
+   "text": "Then it vanished. It turned up in a Chicago saloon. A racetrack owner bought it to mark his horse's grave. The horse was named Cleopatra.",
+   "visual": {
+    "kind": "title",
+    "title": "A horse's grave",
+    "sub": "Harlem racetrack, near Chicago"
+   }
+  },
+  {
+   "id": "yard",
+   "text": "Covered in graffiti, it ended up in a salvage yard.",
+   "visual": {
+    "kind": "photo",
+    "image": "saam2",
+    "focus": [
+     0.45,
+     0.35
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "saved",
+   "text": "A local historical society rescued and restored it. In 1994, they gave it to the Smithsonian.",
+   "visual": {
+    "kind": "title",
+    "title": "Rescued",
+    "sub": "to the Smithsonian, 1994"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "today",
+   "text": "Today, her Cleopatra is on view in Washington.",
+   "visual": {
+    "kind": "card",
+    "image": "saam1",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "The Death of Cleopatra, Edmonia Lewis, 1876, Smithsonian American Art Museum"
+   }
+  },
+  {
+   "id": "close",
+   "text": "Her masterpiece ended up on a horse's grave. Now it's in the Smithsonian.",
+   "visual": {
+    "kind": "card",
+    "image": "rocher",
+    "crop": [
+     0.0,
+     0.08,
+     1.0,
+     0.6
+    ],
+    "caption": "Edmonia Lewis, photographed by Henry Rocher, c. 1870"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "SMAG": {
+   "name": "Smithsonian Magazine: When Cleopatra Died Again",
+   "url": "https://www.smithsonianmag.com/smithsonian-institution/when-cleopatra-died-again-180979562/"
+  },
+  "SAAM": {
+   "name": "Smithsonian American Art Museum: The Death of Cleopatra (1994.17), label and record",
+   "url": "https://www.si.edu/object/death-cleopatra:saam_1994.17"
+  },
+  "FPR": {
+   "name": "Forest Park Review: From salvage yard to Smithsonian (2020)",
+   "url": "https://www.forestparkreview.com/2020/02/25/from-salvage-yard-to-smithsonian/"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Edmonia Lewis; The Death of Cleopatra (Edmonia Lewis)",
+   "url": "https://en.wikipedia.org/wiki/Edmonia_Lewis"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born c. 1844 in upstate New York to a free Black father and an Ojibwe/Chippewa mother; orphaned young.",
+   "sources": [
+    "SMAG",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "oberlin",
+   "claim": "1862 at Oberlin: accused of poisoning two white roommates; beaten by vigilantes; charges dismissed / acquitted.",
+   "sources": [
+    "SMAG",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "rome",
+   "claim": "Settled in Rome among expatriate American sculptors, worked in marble.",
+   "sources": [
+    "SMAG",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "cleo",
+   "claim": "The Death of Cleopatra shown at the 1876 Centennial Exhibition, Philadelphia; marble, about two tons (Yale unit) / nearly three tons (Wikipedia).",
+   "sources": [
+    "SMAG",
+    "SAAM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "crowds",
+   "claim": "People's Advocate: it 'excites more admiration and gathers larger crowds' than other works in Memorial Hall.",
+   "sources": [
+    "SMAG",
+    "SAAM"
+   ]
+  },
+  {
+   "beat": "lost",
+   "claim": "Lost for nearly a century; d\u00e9cor in a Chicago saloon; a racetrack owner (Blind John Condon) bought it to mark the grave of his horse Cleopatra.",
+   "sources": [
+    "SMAG",
+    "FPR",
+    "WIKI",
+    "SAAM"
+   ]
+  },
+  {
+   "beat": "yard",
+   "claim": "Graffiti removed in restoration; found in a salvage/storage yard (late 1970s or 1980s).",
+   "sources": [
+    "SMAG",
+    "FPR",
+    "SAAM"
+   ]
+  },
+  {
+   "beat": "saved",
+   "claim": "Restored by the Historical Society of Forest Park, given to the Smithsonian American Art Museum in 1994.",
+   "sources": [
+    "SMAG",
+    "WIKI",
+    "SAAM"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Exact weight (two tons vs nearly three): the reel says 'almost two tons'",
+  "Boy Scouts painting it (Forest Park Review only)",
+  "The year it was found (late 1970s vs 1980s)",
+  "Her death in London, 1907 (Wikipedia only in the fetched sources); her grave rediscovered and restored 2017",
+  "Busts of Robert Gould Shaw, 'Forever Free' (1867), Grant's portrait 1877"
+ ],
+ "faces": {
+  "rocher": [
+   [
+    0.38,
+    0.2,
+    0.56,
+    0.36
+   ]
+  ],
+  "lewis2": [
+   [
+    0.38,
+    0.11,
+    0.6,
+    0.25
+   ]
+  ]
+ }
+}
