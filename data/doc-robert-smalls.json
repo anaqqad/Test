@@ -188,17 +188,6 @@
    }
   },
   {
-   "id": "c1",
-   "text": "Chapter one. The harbor.",
-   "visual": {
-    "kind": "chapter",
-    "num": 1,
-    "title": "The Harbor"
-   },
-   "section": "harbor",
-   "captions": false
-  },
-  {
    "id": "born1",
    "text": "Robert Smalls was born into slavery on April the fifth, 1839, in Beaufort, South Carolina.",
    "visual": {
@@ -218,7 +207,8 @@
      "label": "Beaufort",
      "sub": "South Carolina"
     }
-   }
+   },
+   "section": "harbor"
   },
   {
    "id": "born2",
@@ -316,17 +306,6 @@
    }
   },
   {
-   "id": "c2",
-   "text": "Chapter two. The price of a family.",
-   "visual": {
-    "kind": "chapter",
-    "num": 2,
-    "title": "The Price of a Family"
-   },
-   "section": "family",
-   "captions": false
-  },
-  {
    "id": "fam1",
    "text": "In 1856, he married Hannah Jones, an enslaved woman who worked in Charleston hotels. They started a family.",
    "visual": {
@@ -346,7 +325,8 @@
      "from": 1856,
      "to": 1856
     }
-   }
+   },
+   "section": "family"
   },
   {
    "id": "fam2",
@@ -437,17 +417,6 @@
    }
   },
   {
-   "id": "c3",
-   "text": "Chapter three. The night of May the twelfth.",
-   "visual": {
-    "kind": "chapter",
-    "num": 3,
-    "title": "The Night of May 12"
-   },
-   "section": "night",
-   "captions": false
-  },
-  {
    "id": "war1",
    "text": "In April 1861, Confederate guns opened fire on Fort Sumter. The Civil War had begun.",
    "visual": {
@@ -463,7 +432,8 @@
      "from": 1861,
      "to": 1861
     }
-   }
+   },
+   "section": "night"
   },
   {
    "id": "war2",
@@ -674,24 +644,14 @@
    }
   },
   {
-   "id": "c4",
-   "text": "Chapter four. Worth more than the ship.",
-   "visual": {
-    "kind": "chapter",
-    "num": 4,
-    "title": "Worth More Than the Ship"
-   },
-   "section": "worth",
-   "captions": false
-  },
-  {
    "id": "wo1",
    "text": "The news spread across the North. Harper's Weekly put Smalls's face in its pages.",
    "visual": {
     "kind": "card",
     "image": "harpers",
     "caption": "Harper's Weekly, 1862"
-   }
+   },
+   "section": "worth"
   },
   {
    "id": "wo2",
@@ -777,17 +737,6 @@
    }
   },
   {
-   "id": "c5",
-   "text": "Chapter five. Captain Smalls.",
-   "visual": {
-    "kind": "chapter",
-    "num": 5,
-    "title": "Captain Smalls"
-   },
-   "section": "captain",
-   "captions": false
-  },
-  {
    "id": "cap1",
    "text": "Smalls went back to the war, this time on the Union side.",
    "visual": {
@@ -801,7 +750,8 @@
      1.1,
      1.2
     ]
-   }
+   },
+   "section": "captain"
   },
   {
    "id": "cap2",
@@ -875,17 +825,6 @@
    }
   },
   {
-   "id": "c6",
-   "text": "Chapter six. The house on Prince Street.",
-   "visual": {
-    "kind": "chapter",
-    "num": 6,
-    "title": "The House on Prince Street"
-   },
-   "section": "house",
-   "captions": false
-  },
-  {
    "id": "ho1",
    "text": "The war ended in 1865. Charleston lay in ruins.",
    "visual": {
@@ -901,7 +840,8 @@
      "from": 1865,
      "to": 1865
     }
-   }
+   },
+   "section": "house"
   },
   {
    "id": "ho2",
@@ -1003,17 +943,6 @@
    }
   },
   {
-   "id": "c7",
-   "text": "Chapter seven. The last stand.",
-   "visual": {
-    "kind": "chapter",
-    "num": 7,
-    "title": "The Last Stand"
-   },
-   "section": "stand",
-   "captions": false
-  },
-  {
    "id": "st1",
    "text": "But Reconstruction did not last. White supremacists took back power in South Carolina, and set out to take the vote away from Black citizens.",
    "visual": {
@@ -1024,7 +953,8 @@
      1.05,
      1.12
     ]
-   }
+   },
+   "section": "stand"
   },
   {
    "id": "st1b",

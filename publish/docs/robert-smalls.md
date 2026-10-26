@@ -1,8 +1,10 @@
+Published 2026-10-26: https://youtu.be/o3DpFTgG4BE (Public, 4K, Education, AI voice disclosed)
+
 # Long-form: Robert Smalls, "He Stole a Confederate Warship. Then He Bought His Master's House."
 
 Channel: The Black History Room (YouTube, long-form 16:9)
-Video: `out/doc-robert-smalls.mp4` (1920x1080, 30 fps, 8:10, ElevenLabs Andrew). Thumbnail: `out/doc-robert-smalls-thumb.png`.
-Spec: `data/doc-robert-smalls.json` (built by `data/build_doc_robert_smalls.mjs`). Narration: 1,385 words, 7,622 ElevenLabs characters.
+Video: `out/doc-robert-smalls-4k.mp4` (3840x2160, 30 fps, 8:09, ElevenLabs Andrew, slowed to 94% with pitch kept; no spoken chapter titles). Thumbnail: `out/doc-robert-smalls-thumb.png`.
+Spec: `data/doc-robert-smalls.json` (built by `data/build_doc_robert_smalls.mjs`). Narration: 1,343 words (7,622 ElevenLabs characters billed for the first version; the edit reused that recording).
 
 ## Title
 
@@ -16,16 +18,16 @@ In May 1862, Robert Smalls, an enslaved wheelman in Charleston, South Carolina, 
 
 Every fact in this video comes from at least two reliable sources. Full story, sources and archival photos: https://theblackhistoryroom.com/story/robert-smalls/
 
-Chapters
-0:00 A Confederate warship
-0:24 The Harbor
-1:15 The Price of a Family
-2:03 The Night of May 12
-4:08 Worth More Than the Ship
-4:56 Captain Smalls
-5:49 The House on Prince Street
-6:34 The Last Stand
-7:39 Legacy
+In this video
+0:00 He stole a Confederate warship
+0:26 Beaufort and the Charleston harbor
+1:16 The price of a family
+2:02 The night of May 12, 1862
+4:10 Worth more than the ship
+4:57 Captain Smalls
+5:49 The house on Prince Street
+6:32 The last stand
+7:37 Legacy
 
 Sources
 US House of Representatives, History, Art & Archives: SMALLS, Robert. https://history.house.gov/People/Detail/21764

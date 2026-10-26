@@ -143,6 +143,17 @@ const beats = [
   ['end4', 'That was Robert Smalls. Every fact in this video is sourced at the black history room dot com. If you want the next story, subscribe, because tomorrow we tell another one history tried to forget.', { kind: 'endcard' }, null, { captions: false }],
 ];
 
+// No chapter announcements (owner, 2026-10-26: "feels like a book"): drop the chapter beats and move
+// their section break onto the next beat, so the pause and music structure stay.
+for (let i = beats.length - 1; i >= 0; i--) {
+  if (beats[i][2].kind === 'chapter') {
+    const section = beats[i][4]?.section;
+    beats.splice(i, 1);
+    const next = beats[i];
+    if (next && section) next[4] = { ...(next[4] || {}), section };
+  }
+}
+
 // Images too small to fill a 1920x1080 frame without visible upscaling are shown as captioned cards.
 const CARD_CAPTIONS = {
   harbor1865: "Fort Sumter in Charleston harbor, Harper's Weekly, 1865",
