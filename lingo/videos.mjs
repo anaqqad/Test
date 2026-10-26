@@ -387,6 +387,75 @@ export const VIDEOS = {
   },
 
   // ------------------------------------------------------------------ 5
+  conlangs3: {
+    title: "People Actually Speak These Made-Up Languages", // YouTube: "... (Part 3)"
+    part: "Part 3",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#6c5ce7",
+    items: [
+      {
+        name: "Kunyotóri'an", wojak: "c_kun_f", flag: null, speakers: "?", scene: "village", loc: null,
+        char: { skin: "light", hair: "long", hairColor: "brown", outfit: { type: "shirt", color: "#c97b4a", vest: "#c97b4a" }, expression: "smile" },
+        cards: [
+          "Modern Latin Kunyotóri’an, in its own words Kunyotóri’an Laónn Motóryo, was sent to us by one of our subscribers. Thank you, catlover82!",
+          "What you are hearing is a local song about eight cats: 'Tenyo ítho navos ne me caal' means 'I have eight cats in my house'.",
+          "The cats are black, white, orange, striped, non-striped and grey-striped. 'Who knows where they came from, but they are mine!'",
+        ],
+        audio: { file: "cache/conlangs3/src/kunyotorian_catlover82.mp3", start: 0.8 }, // catlover82 (@orion_cat823), used with permission; built by build_conlangs3.py
+      },
+      {
+        name: "Occidental", wojak: "c_ile_f", flag: null, speakers: "100s", scene: "abstract", loc: null,
+        char: { skin: "light", hair: "bob", hairColor: "brown", outfit: { type: "shirt", color: "#1f8a8a", vest: "#1f8a8a" }, expression: "smile" },
+        cards: [
+          "Occidental was published in 1922 by Edgar de Wahl, a teacher in Tallinn, Estonia. In 1949 it was renamed Interlingue.",
+          "It was built to look natural, so Europeans can often read it at first sight: 'Salute, mi nómine es…' means 'Hello, my name is…'.",
+          "The voice you are hearing is Dorlota, an avatar in the virtual world Second Life, introducing herself in Occidental.",
+        ],
+        audio: { file: "cache/conlangs3/src/occidental_paulineauster.weba", start: 1.6 },
+      },
+      {
+        name: "Interslavic", wojak: "c_isv", flag: null, speakers: "1,000s", scene: "forest", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "brown", outfit: { type: "shirt", color: "#2f5d3a", vest: "#2f5d3a" }, expression: "smile" },
+        cards: [
+          "Interslavic is built from what Russian, Polish, Czech, Serbian and the other Slavic languages share, so Slavs can understand it without studying it.",
+          "The man you are hearing had discovered it only the day before. He reads it using the Slavic languages he already speaks.",
+          "It is written in both Latin and Cyrillic letters, so every Slav can read it in their own alphabet.",
+        ],
+        audio: { file: "cache/conlangs3/src/interslavic_thecandle.m4a", start: 87.0 },
+      },
+      {
+        name: "Kotava", wojak: "c_avk_f", flag: null, speakers: "dozens", scene: "hills", loc: null,
+        char: { skin: "pale", hair: "short", hairColor: "grey", glasses: true, outfit: { type: "coat", color: "#5b3a7a", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Kotava was created in 1978 by Staren Fetcey in France, as a language that belongs to no people at all.",
+          "Its words are not borrowed from any existing language, so nobody gets a head start when learning it.",
+          "The voice you are hearing is Luce Vergneaux, who has also recorded thousands of Kotava words for Wikimedia Commons.",
+        ],
+        audio: { file: "cache/conlangs3/src/kotava_lucekotavusik.m4a", start: 0.7 },
+      },
+      {
+        name: "Pandunia", wojak: "c_pan", flag: null, speakers: "a handful", scene: "grassland", loc: null,
+        char: { skin: "pale", hair: "short", hairColor: "blond", beard: true, outfit: { type: "coat", color: "#2b4a8a", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Pandunia was created by Risto Kupsala from Finland, as a world language that takes its words from every continent.",
+          "Its name says it: 'pan' means all and 'dunia' means world, a word shared by Arabic, Persian, Hindi, Malay and Swahili.",
+          "The voice you are hearing is Risto Kupsala himself, saying hello in his own language: 'Salam!'",
+        ],
+        audio: { file: "cache/conlangs3/src/pandunia_ristokupsala.m4a", start: 2.3 },
+      },
+      {
+        name: "Solresol", wojak: "c_sol_f", flag: null, speakers: "a handful", scene: "dusk", loc: null,
+        char: { skin: "pale", hair: "short", hairColor: "grey", glasses: true, outfit: { type: "coat", color: "#8a2b2b", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Solresol was invented by the French musician François Sudre, starting in 1817. Every word is built from the seven notes do, re, mi, fa, sol, la, si.",
+          "So it can be spoken, sung, played on an instrument, or even written with seven colours.",
+          "Turn a word around and you get its opposite: fala means good, lafa means bad. These are real recordings of Solresol words.",
+        ],
+        audio: { file: "cache/conlangs3/src/solresol.wav", start: 0.0 },
+      },
+    ],
+  },
   conlangs2: {
     title: "People Actually Speak These Made-Up Languages", // Part 1's YouTube title (owner); YouTube: "... (Part 2)"
     part: "Part 2",

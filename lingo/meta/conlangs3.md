@@ -1,0 +1,46 @@
+# YouTube metadata: People Actually Speak These Made-Up Languages (Part 3)
+
+## Title
+People Actually Speak These Made-Up Languages (Part 3)
+
+## Description
+Six more languages that somebody simply invented, and the people who actually speak them: a song about eight cats sent in by one of our subscribers, a 1922 language you can read at first sight, a language every Slav can understand, one with no borrowed words at all, a world language spoken by its own creator, and a language made only of musical notes. Every voice you hear is a real recording.
+
+Thank you to catlover82 (@orion_cat823) for sending us the Kunyotóri'an song!
+
+Which language should we cover next? Tell us in the comments 👇
+
+0:00 Intro
+0:03 Kunyotóri'an (shared by a subscriber)
+0:20 Occidental / Interlingue (speakers: 100s)
+0:38 Interslavic (speakers: 1,000s)
+0:56 Kotava (speakers: dozens)
+1:13 Pandunia (speakers: a handful)
+1:31 Solresol (speakers: a handful)
+
+RECORDINGS
+Kunyotóri'an: audio sample and song in Modern Latin Kunyotóri'an shared by catlover82 (@orion_cat823), used with permission
+Occidental: "Dorlota parla Interlingue-Occidental - Dorlota speaks Interlingue-Occidental" by Pauline Auster, CC BY (Creative Commons Attribution), YouTube, https://www.youtube.com/watch?v=0IdbAmu4Mek
+Interslavic: "Interslavic language" by The candle, CC BY (Creative Commons Attribution), YouTube, https://www.youtube.com/watch?v=topy2bN0Um8
+Kotava: "Inde Va Kotava Al Ravé" by Luce kotavusik, CC BY (Creative Commons Attribution), YouTube, https://www.youtube.com/watch?v=8PZOHH6YHPA
+Pandunia: "mi salama dunia" by Risto Kupsala, CC BY (Creative Commons Attribution), YouTube, https://www.youtube.com/watch?v=TgO8AwX4OCU
+Solresol: "Solresol (solresol).wav" by Luce Vergneaux (Kotavusik), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ASolresol_%28solresol%29.wav
+Solresol: "Siredore.wav" by Luce Vergneaux (Kotavusik), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ASiredore.wav
+Solresol: "Solsol.wav" by Luce Vergneaux (Kotavusik), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ASolsol.wav
+Solresol: "Sisidore.wav" by Luce Vergneaux (Kotavusik), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ASisidore.wav
+Solresol: "Solsi.wav" by Luce Vergneaux (Kotavusik), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ASolsi.wav
+Solresol: "Sollasila.wav" by Luce Vergneaux (Kotavusik), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ASollasila.wav
+Solresol: "Sol (so).wav" by Luce Vergneaux (Kotavusik), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ASol_%28so%29.wav
+
+Thumbnail photo: Tuning fork on sheet music: photo by Lukasz Kobus, © European Union (European Commission Audiovisual Service, CC BY 4.0), via Wikimedia Commons
+
+#languages #conlang #linguistics
+
+## Tags
+constructed languages, conlangs, made up languages, invented languages, Kunyotóri'an, Occidental, Interlingue, Interslavic, Kotava, Pandunia, Solresol, musical language, auxiliary languages, people actually speak, LingoDude
+
+## Settings
+- Category: Education
+- Made for kids: No
+- Altered or synthetic content: No (all real recordings)
+- Thumbnail: lingo/videos/thumbP_conlangs3.png
