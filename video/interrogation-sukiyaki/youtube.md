@@ -1,7 +1,7 @@
 # YouTube upload: WWII Frontlines
 
 **Published** 27 Oct 2026, public: https://youtu.be/4Jf9ahvXZ74 (thumbnail A, English SRT, Education, altered content = Yes).
-Not done yet: pinned comment, end screen.
+Pinned comment posted and pinned; end screen = Camp McCoy episode (31HQjrOZs4U) + subscribe, last 20 s.
 
 ## Title
 ```
@@ -69,7 +69,7 @@ WWII Frontlines: prisoner of war stories, documented.
 japanese pow, japanese prisoners of war, pow in america, camp tracy, byron hot springs, angel island, ww2 interrogation, secret interrogation camp, military intelligence service, nisei interpreters, mis language school, ww2 pow camps, california ww2, sukiyaki, world war 2 history, ww2 documentary, pacific war
 
 ## Pinned comment
-The hotel at Byron Hot Springs is still standing, abandoned, in the hills east of San Francisco Bay. Its twin on the East Coast, Fort Hunt in Virginia, is now a National Park Service site, and the park later tracked down and interviewed veterans who had worked at the two centers. Which prisoner story should we cover next?
+The hotel at Byron Hot Springs is still standing, abandoned, in the hills east of San Francisco Bay. Its twin on the East Coast, Fort Hunt in Virginia, is now a National Park Service site, and the Park Service later recorded interviews with veterans who served there. Which prisoner story should we cover next?
 
 ## Upload settings
 - Category: Education. Language: English. Made for kids: No. Visibility: **Private** first (the uploader always sets this).
