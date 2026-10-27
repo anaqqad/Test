@@ -111,7 +111,7 @@ def make_split(name, line1, line2, left_tag, right_tag, arrow_pts):
     print("wrote", T / f"{name}.jpg")
 
 
-def from_image(src, name, line1, line2, small, arrow_pts, text_x=None):
+def from_image(src, name, line1, line2, small, arrow_pts, text_x=None, size=None):
     """Thumbnail from a generated/supplied image (e.g. made in ChatGPT): fit to 1280x720, B&W except the
     warm lights, caps question on the window side, red grease arrow, house tag."""
     im = Image.open(src).convert("RGB")
@@ -126,7 +126,7 @@ def from_image(src, name, line1, line2, small, arrow_pts, text_x=None):
     img = Image.fromarray((np.clip(out, 0, 1) * 255).astype(np.uint8))
     d = ImageDraw.Draw(img)
     x = text_x if text_x is not None else 700
-    size = 128 if max(len(line1), len(line2)) <= 9 else 108
+    size = size or (128 if max(len(line1), len(line2)) <= 9 else 108)
     text(d, (x, 26), line1, size)
     text(d, (x, 26 + size * 0.94), line2, size)
     arrow(img, arrow_pts)
