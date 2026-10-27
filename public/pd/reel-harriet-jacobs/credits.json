@@ -1,0 +1,29 @@
+{
+  "portrait": {
+    "title": "File:Gilbert Studios photograph of Harriet Jacobs (cropped).jpg",
+    "artist": "Adam Cuerden",
+    "date": "1894",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Studios_photograph_of_Harriet_Jacobs_(cropped).jpg",
+    "width": 1920,
+    "height": 2731
+  },
+  "portraitfull": {
+    "title": "File:Gilbert Studios photograph of Harriet Jacobs.jpg",
+    "artist": "Adam Cuerden",
+    "date": "1894",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Studios_photograph_of_Harriet_Jacobs.jpg",
+    "width": 1920,
+    "height": 2938
+  },
+  "book": {
+    "title": "File:Frontmatter Incidents of the Life of A Slave Girl.jpg",
+    "artist": "Harriet Jacobs",
+    "date": "1861",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Frontmatter_Incidents_of_the_Life_of_A_Slave_Girl.jpg",
+    "width": 500,
+    "height": 800
+  }
+}

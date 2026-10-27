@@ -82,7 +82,7 @@ export const reelSpecSchema = z.object({
   brand: z.object({
     page: z.string(),
     cta: z.string(),
-    ctaLine: z.string().default("for one story a day."),
+    ctaLine: z.string().default("for more."),
     theme: z.enum(["bhr", "bbu"]).default("bhr"),
   }),
   assets: z.record(z.string(), z.object({ commons: z.string() })).default({}),
