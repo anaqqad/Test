@@ -45,3 +45,21 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
    - Saved from near extinction: Hawaiian, Ainu, Inari Sámi, Welsh, Breton, Irish, Scottish Gaelic, Basque,
      Wiradjuri, Yugambeh, Occitan, Romansh.
    Split by theme: Part 2 = languages brought back from zero speakers, Part 3 = languages pulled back from the edge.
+
+9. Undeciphered / Lost Languages (owner, 2026-10-27)
+   Owner's list: Minoan, Harappan (Indus Valley), Illyrian, Thracian, Dacian, Celtiberian, Xiongnu.
+   Accuracy notes for the script: only Minoan (Linear A) and Harappan are truly undeciphered scripts. Illyrian,
+   Thracian and Dacian are known only from a few words, names and glosses (no texts to decipher). Celtiberian's
+   script IS readable and the language is Celtic, but most texts are still not understood. The Xiongnu language is
+   unknown (only a few words in Chinese records). Title idea: "Languages Nobody Can Understand Anymore".
+   Audio problem: nobody can know how they sounded, so no recordings exist. Options to agree with the owner:
+   show real inscriptions and artefacts (Commons photos) with no voice, or play the few attested words read by a
+   modern scholar if a real recording exists. No AI voice unless the owner asks (as with the AI simulation series).
+10. Ranking Languages by How Beautiful They Are (owner, 2026-10-27)
+   Subjective, so it needs a published basis, e.g. a large listener study rating how pleasant languages sound
+   (find and verify the source first, e.g. Lund University's language attractiveness study), or a big public poll.
+   Say on screen whose ranking it is. Real recordings of each language.
+11. Ancient Languages be like (owner, 2026-10-27)
+   Different from the AI simulation series: use real modern recordings of people reading ancient texts
+   (Latin, Ancient Greek, Sanskrit, Biblical Hebrew, Classical Chinese, Old Norse, Old English...) from Commons /
+   LibriVox (public domain). Facts about each language.
