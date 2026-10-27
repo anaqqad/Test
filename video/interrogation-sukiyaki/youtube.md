@@ -1,6 +1,6 @@
 # YouTube upload: WWII Frontlines
 
-**Published** 27 Oct 2026, public: https://youtu.be/4Jf9ahvXZ74 (thumbnail A, English SRT, Education, altered content was set to Yes by mistake at upload; should be No).
+**Published** 27 Oct 2026, public: https://youtu.be/4Jf9ahvXZ74 (thumbnail A, English SRT, Education, AI use = No, checked in Studio 27 Oct).
 Pinned comment posted and pinned; end screen = Camp McCoy episode (31HQjrOZs4U) + subscribe, last 20 s.
 
 ## Title
