@@ -1,5 +1,8 @@
 # YouTube upload: WWII Frontlines
 
+**Published** 27 Oct 2026, public: https://youtu.be/4Jf9ahvXZ74 (thumbnail A, English SRT, Education, altered content = Yes).
+Not done yet: pinned comment, end screen.
+
 ## Title
 ```
 Japanese POWs Expected Torture. America Served Them Sukiyaki.
