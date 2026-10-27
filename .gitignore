@@ -12,3 +12,7 @@ video/*/remotion/out/
 video/*/thumbnail/*.tif
 video/*/thumbnail/preview_*
 video/*/thumbnail/*.png
+# YouTube API secrets: never commit (the uploader keeps them in ~/.config/wwii-frontlines/ by default)
+client_secret*.json
+token*.json
+.env
