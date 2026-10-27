@@ -54,7 +54,7 @@ This is the documented story of Camp Tracy: the meal, the clock it started, the 
 - New York Times, July 8, 1945 and July 11, 1947, as cited by Krammer
 
 🎞️ Archive
-Film: U.S. Navy and Marine Corps film from the National Archives, December 7th (1943), Know Your Enemy: Japan (1945) and other public-domain collections on the Internet Archive. Photographs: Wikimedia Commons (public domain unless credited on screen). Some scenes stand in for places and moments that were never filmed; these are marked on screen.
+Film: U.S. Navy and Marine Corps film from the National Archives, December 7th (1943), Know Your Enemy: Japan (1945) and other public-domain collections on the Internet Archive. Photographs: Wikimedia Commons, public domain except: Byron Hot Springs hotel, 2008, by Captndelta (CC BY-SA 3.0); prisoner's note at Angel Island via DPLA (CC BY-SA 3.0); Angel Island aerial by Taras Bobrovytsky (CC0). Historic American Buildings Survey photo of Fort McDowell (public domain). Some scenes stand in for places and moments that were never filmed; these are marked on screen.
 
 If you know of a prisoner or an interrogator who passed through Byron Hot Springs, put it in the comments.
 

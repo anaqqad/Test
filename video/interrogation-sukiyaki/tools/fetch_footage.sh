@@ -11,5 +11,4 @@ KnowYourEnemyJapan|KnowYourEnemyJapan.mp4|know_your_enemy_japan.mp4
 December7th|December7th_512kb.mp4|december_7th.mp4
 September21945Newsreel-JapaneseSurrenderSigningOnMissouri|September21945Newsreel-JapaneseSurrenderSigningOnMissouri.mp4|surrender_1945.mp4
 passenger_train|passenger_train_512kb.mp4|passenger_train_1940.mp4
-428-npc-22250|428-npc-22250.mp4|golden_gate_aerials_1945.mp4
 EOF

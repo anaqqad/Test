@@ -4,9 +4,10 @@
    black-and-white, scaled into 1920x1080 (4:3 film is pillarboxed on black, as in the reference)
    and encoded to an exact frame count.
 2. The shots are concatenated with hard cuts (dissolves happen on the cards' own fades).
-3. Overlay cards (ProRes 4444 with alpha from remotion/render.mjs) are laid over at their times.
+3. Overlay cards (VP9 WebM with alpha from remotion/render.mjs) are laid over at their times.
 4. Narration + music bed (about 26 dB under the voice) are mixed and loudness-normalised.
-Usage: python3 tools/assemble.py [--only-base] [--name chicago-lights]"""
+Usage: python3 tools/assemble.py [--only-base] [--name chicago-lights] [--hd]
+Default output is 1280x720 (what the channel publishes; less than half the disk of 1080p). --hd builds 1920x1080."""
 import json, subprocess, sys
 from pathlib import Path
 
@@ -15,6 +16,7 @@ sb = json.load(open(ROOT / "build/storyboard.json", encoding="utf-8"))
 FPS = sb["fps"]
 name = sys.argv[sys.argv.index("--name") + 1] if "--name" in sys.argv else "interrogation-sukiyaki"
 clips = ROOT / "build/clips"; clips.mkdir(parents=True, exist_ok=True)
+W, H = (1920, 1080) if "--hd" in sys.argv else (1280, 720)
 # per-film corrections (washed-out prints)
 GRADE = {"pow_control_1944": "eq=gamma=0.72:contrast=1.18:brightness=-0.03,", "pows_noumea_1943": "eq=gamma=0.6:contrast=1.3:brightness=-0.06,", "pows_noumea_b_1943": "eq=gamma=0.8:contrast=1.15,", "iwo_nisei_prisoners_1945": "eq=gamma=0.8:contrast=1.2,"}
 
@@ -29,13 +31,13 @@ for i, s in enumerate(sb["shots"]):
     n = f1 - f0
     if n <= 0: continue
     out = clips / f"{i:03d}.mp4"
-    key = f"{s['file']}|{s['in']}|{n}|{s['keep']}|{GRADE.get(s['file'], '')}"
+    key = f"{s['file']}|{s['in']}|{n}|{s['keep']}|{GRADE.get(s['file'], '')}|{H}"
     tag = out.with_suffix(".key")
     if not (out.exists() and tag.exists() and tag.read_text(encoding="utf-8") == key):
-        vf = (f"crop=iw:ih*{s['keep']}:0:0,hue=s=0,{GRADE.get(s['file'], '')}scale=1920:1080:force_original_aspect_ratio=decrease:flags=lanczos,"
-              f"pad=1920:1080:(ow-iw)/2:(oh-ih)/2:black,eq=contrast=1.06:brightness=-0.01,noise=alls=4:allf=t,fps={FPS},format=yuv420p")
+        vf = (f"crop=iw:ih*{s['keep']}:0:0,hue=s=0,{GRADE.get(s['file'], '')}scale={W}:{H}:force_original_aspect_ratio=decrease:flags=lanczos,"
+              f"pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:black,eq=contrast=1.06:brightness=-0.01,noise=alls=4:allf=t,fps={FPS},format=yuv420p")
         run(["ffmpeg", "-v", "error", "-y", "-ss", f"{s['in']:.3f}", "-i", str(ROOT / f"assets/footage/{s['file']}.mp4"),
-             "-vf", vf, "-frames:v", str(n), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-r", str(FPS), str(out)])
+             "-vf", vf, "-frames:v", str(n), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-r", str(FPS), str(out)])
         got = int(subprocess.check_output(["ffprobe", "-v", "error", "-count_frames", "-select_streams", "v:0", "-show_entries", "stream=nb_read_frames", "-of", "csv=p=0", str(out)]).strip() or 0)
         if got < n:  # film ran out: hold the last frame
             run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-vf", f"tpad=stop_mode=clone:stop={n - got}", "-frames:v", str(n), "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", str(out) + ".tmp.mp4"])
@@ -50,16 +52,17 @@ run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(ROOT
 if "--only-base" in sys.argv: raise SystemExit(0)
 
 # 3 + 4. overlays and audio in one pass
-ov = [o for o in sb["overlays"] if (ROOT / f"build/overlays/{o['id']}.mov").exists()]
+ov = [o for o in sb["overlays"] if (ROOT / f"build/overlays/{o['id']}.webm").exists()]
 missing = [o["id"] for o in sb["overlays"] if o not in ov]
 if missing: print("WARNING: overlays not rendered:", missing)
 cmd = ["ffmpeg", "-v", "error", "-stats", "-y", "-i", str(base), "-i", str(ROOT / "audio/narration.wav"), "-i", str(ROOT / "assets/music/bed.wav")]
 for o in ov:
-    cmd += ["-itsoffset", f"{o['start']:.3f}", "-i", str(ROOT / f"build/overlays/{o['id']}.mov")]
+    cmd += ["-itsoffset", f"{o['start']:.3f}", "-c:v", "libvpx-vp9", "-i", str(ROOT / f"build/overlays/{o['id']}.webm")]  # libvpx keeps the alpha
 fc, last = [], "[0:v]"
 for k, o in enumerate(ov):
     nxt = f"[v{k}]"
-    fc.append(f"{last}[{k + 3}:v]overlay=0:0:eof_action=pass:enable='between(t,{o['start']:.3f},{o['end'] + 0.05:.3f})'{nxt}")
+    fc.append(f"[{k + 3}:v]scale={W}:{H}[s{k}]")
+    fc.append(f"{last}[s{k}]overlay=0:0:eof_action=pass:enable='between(t,{o['start']:.3f},{o['end'] + 0.05:.3f})'{nxt}")
     last = nxt
 fc.append(f"{last}format=yuv420p[vout]")
 fc.append("[1:a]aresample=48000,pan=stereo|c0=c0|c1=c0[nar]")

@@ -1,4 +1,5 @@
-// Renders every overlay card in ../storyboard.json to ../build/overlays/<id>.mov (ProRes 4444 with alpha).
+// Renders every overlay card in ../storyboard.json to ../build/overlays/<id>.webm (VP9 with alpha: a few MB each,
+// where ProRes 4444 needed hundreds; tools/assemble.py decodes it with libvpx-vp9 to keep the alpha).
 // Usage: node render.mjs [cardId ...]   (no ids = all cards that are missing or older than the storyboard)
 import fs from "node:fs";
 import path from "node:path";
@@ -28,10 +29,10 @@ for (const card of sb.overlays) {
     console.log("still", out);
     continue;
   }
-  const out = path.join(outDir, `${card.id}.mov`);
+  const out = path.join(outDir, `${card.id}.webm`);
   const t = Date.now();
   await renderMedia({
-    composition, serveUrl, codec: "prores", proResProfile: "4444", pixelFormat: "yuva444p10le", imageFormat: "png",
+    composition, serveUrl, codec: "vp9", pixelFormat: "yuva420p", imageFormat: "png", crf: 18,
     outputLocation: out, inputProps, browserExecutable, concurrency: 3, muted: true,
   });
   console.log(card.id, frames, "frames", ((Date.now() - t) / 1000).toFixed(0) + "s");

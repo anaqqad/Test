@@ -19,129 +19,154 @@ CUT_LEAD = 0.1
 F = {  # film key -> (file in assets/footage, fraction of height kept)
     "D7": ("december_7th", 1), "KYE": ("know_your_enemy_japan", 1), "NOU": ("pows_noumea_1943", 1),
     "NOUB": ("pows_noumea_b_1943", 1), "IWO": ("iwo_nisei_prisoners_1945", 1), "SAI": ("saipan_prisoners_1944", 0.8),
-    "SNOW": ("snow_1945", 1), "TRN": ("passenger_train_1940", 1), "TT": ("troop_train_1943", 1),
-    "CHD": ("challenge_democracy_1944", 1), "POW": ("pow_control_1944", 1), "SUR": ("surrender_1945", 1),
-    "MID": ("midget_sub_1945", 1), "CITY": ("the_city_1939", 1), "AH": ("american_harvest_1955", 1),
-    "ASL": ("and_so_they_live_1940", 1), "XM": ("x_marks_the_spot_1942", 1), "TUE": ("tuesday_in_november_1945", 1),
+    "TRN": ("passenger_train_1940", 1), "SUR": ("surrender_1945", 1),
 }
 
 
 def T(m, s=0.0):
     return m * 60 + s
 
+KR = "A. Krammer, “Japanese Prisoners of War in America”, Pacific Historical Review 52 (1983)"
+NOU_TAG = "Stand-in · Japanese prisoners, New Caledonia, 1943"
 # (anchor, film, source time). Context tags: ("@", anchor, text). Cards: ("#", anchor, until_anchor|None, {...})
 P = [
-    # 0 cold open
-    [("On the morning after", "D7", T(22, 10.6)), ("@", "On the morning after", "Oahu, Hawaii · from December 7th (1943)"),
-     ("found an American rifle", "IWO", T(6, 43)), ("His name was", "KYE", T(34, 40.5)),
-     ("#", "His name was", None, {"type": "Slug", "title": "Ensign Kazuo Sakamaki", "subtitle": "Imperial Japanese Navy · midget submarine HA-19"}),
-     ("The day before", "D7", T(8, 6.8)), ("The submarine had failed", "D7", T(16, 42.5)), ("@", "The submarine had failed", "Sakamaki's submarine aground off Oahu, December 1941"),
-     ("He had jumped into the sea", "D7", T(16, 47.5))],
+    # 0 cold open: the lunch
+    [("On September sixteenth", "NOU", T(6, 14.1)),
+     ("#", "On September sixteenth", None, {"type": "Slug", "title": "September 16, 1944", "subtitle": "Angel Island, San Francisco Bay"}),
+     ("Every one of them knew", "NOUB", T(3, 28.4)), ("@", "Every one of them knew", NOU_TAG),
+     ("Torture first", "NOUB", T(6, 29.6)), ("Lunch was sukiyaki", "KYE", T(34, 13.1)), ("@", "Lunch was sukiyaki", "Japanese meal · from Know Your Enemy: Japan (1945)")],
     # 1
-    [("He asked his captors", "NOUB", T(3, 26.6)), ("They refused", "NOU", T(1, 48.1))],
+    [("Nobody had beaten them", "NOU", T(5, 11.8)), ("The prisoners played cards", "KYE", T(43, 39.5)),
+     ("@", "The prisoners played cards", "Stand-in · Japan, 1930s · from Know Your Enemy: Japan"), ("and whispered among themselves", "NOUB", T(3, 46.5))],
     # 2
-    [("Ten young men", "D7", T(12, 26.4)), ("Japan would soon celebrate", "KYE", T(13, 44.4)), ("@", "Japan would soon celebrate", "Japan · from Know Your Enemy: Japan (1945)"),
-     ("There was no place", "KYE", T(18, 58.4))],
-    # 3
-    [("Sakamaki had been taught", "KYE", T(17, 39.9)),
-     ("#", "Sakamaki had been taught", None, {"type": "LedgerQuote", "file": "FILE 01 — THE FIELD CODE", "head": "What every soldier was told",
+    [("They were right to wonder", "NOUB", T(7, 42.1)), ("It was the first step", "NOUB", T(10, 43.3)),
+     ("Within days", "TRN", T(5, 8.8)), ("@", "Within days", "Stand-in · hill country, 1940"), ("where the walls were wired", "D7", T(4, 3.4))],
+    # 3 the field code
+    [("These men were rare", "SAI", T(6, 46.7)), ("The Japanese military field code", "KYE", T(8, 37.0)),
+     ("#", "The Japanese military field code", None, {"type": "LedgerQuote", "file": "FILE 01 — THE FIELD CODE", "head": "What every soldier was told",
         "before": "Rather than live and bear the shame of imprisonment by the enemy, ", "key": "he should die", "after": " and avoid leaving a dishonorable name!",
-        "who": "Japanese Military Field Code, 1941", "source": "Quoted in A. Krammer, Pacific Historical Review 52 (1983)"}),
-     ("A soldier was expected", "KYE", T(4, 34.8))],
-    # 4
-    [("The rule worked", "KYE", T(55, 36.7)),
-     ("#", "In the Burma campaign", None, {"type": "LedgerBars", "file": "FILE 02 — THE RULE WORKED", "head": "Burma campaign: dead vs. captured", "max": 17466,
-        "bars": [{"label": "Japanese dead", "value": 17466, "figure": "17,466", "note": "Allied count, Burma campaign"},
-                 {"label": "Japanese captured", "value": 142, "figure": "142", "note": "fewer than 1 in 120"}],
-        "source": "A. Krammer, “Japanese Prisoners of War in America”, Pacific Historical Review 52 (1983)"}),
-     ("Across the whole war", "SAI", T(6, 46.7)), ("So what do you do", "NOUB", T(8, 31.0)), ("In Wisconsin", "SNOW", T(4, 59.7)),
-     ("@", "In Wisconsin", "Stand-in · northern winter, 1940s")],
+        "who": "Japanese Military Field Code, 1941", "source": f"Quoted in {KR}"}),
+     ("From the first shots", "D7", T(5, 40.8)), ("Midway, Guadalcanal and Tarawa", "KYE", T(60, 26.4))],
+    # 4 the ice cream memo
+    [("Some of that was the code", "KYE", T(4, 26.3)), ("Some of it was the Americans", "IWO", T(3, 1.0)),
+     ("@", "Some of it was the Americans", "U.S. Marines with Japanese prisoners, Iwo Jima, 1945"),
+     ("were reluctant to take prisoners", "IWO", T(4, 27.2)), ("One confidential intelligence memo", "IWO", T(6, 45.1)),
+     ("#", "One confidential intelligence memo", None, {"type": "LedgerQuote", "file": "FILE 02 — THE FIRST LIVE PRISONER", "head": "What it took",
+        "before": "It took the promise of ", "key": "three days leave and some ice cream", "after": " to bring in the first live prisoner.",
+        "who": "U.S. Fourth Army, G-2, Intelligence Memo no. 4, 22 July 1943", "source": f"Quoted in {KR}"})],
     # 5
-    [("Sakamaki spent his first weeks", "NOU", T(3, 44.5)), ("@", "Sakamaki spent his first weeks", "Stand-in · prisoner compound, Pacific, 1943"),
-     ("He later called it", "NOU", T(4, 1.1)), ("He thought constantly", "NOUB", T(3, 30.0))],
+    [("On Guadalcanal", "IWO", T(5, 36.1)), ("@", "On Guadalcanal", "Stand-in · Japanese prisoner, Iwo Jima, 1945"),
+     ("Thirty-three of them", "NOU", T(5, 11.8)), ("To army intelligence", "NOUB", T(7, 5.8))],
     # 6
-    [("On February twenty-ninth", "TT", T(6, 11)), ("@", "On February twenty-ninth", "Stand-in · wartime train, 1943"),
-     ("held briefly at Angel Island", "TRN", T(5, 3.2)), ("and put on a train", "TT", T(8, 54)), ("Nobody told him", "TT", T(9, 48)),
-     ("When he finally stepped down", "SNOW", T(1, 33.0))],
-    # 7
-    [("He was at Camp McCoy", "SNOW", T(5, 20.4)), ("For the next six months", "POW", T(14, 40)), ("@", "For the next six months", "Prisoner of war camp, 1944"),
-     ("In July nineteen forty-two", "NOUB", T(6, 42.3)), ("By the summer", "SAI", T(6, 50.0))],
-    # 8
-    [("Japanese soldiers had been told", "KYE", T(5, 53.3)), ("What they found at McCoy", "NOU", T(6, 14.1)),
-     ("Steamed rice was served", "NOU", T(6, 30.7)), ("The prisoners were allowed to plant", "CHD", T(4, 5.2)), ("@", "The prisoners were allowed to plant", "Stand-in · camp garden plots, 1944")],
-    # 9
-    [("None of this made", "NOUB", T(9, 14.5)),
-     ("#", "Sakamaki later wrote", None, {"type": "LedgerQuote", "file": "FILE 04 — I ATTACKED PEARL HARBOR", "head": "In his own words",
-        "before": "We had no knives to cut our throats. We had no ropes to hang ourselves with… ", "key": "We wanted to die and yet we could not die.", "after": "",
-        "who": "Kazuo Sakamaki, I Attacked Pearl Harbor, 1949", "source": "Sakamaki (1949), pp. 81–82, quoted in Krammer (1983)"})],
+    [("So the Americans kept", "NOUB", T(7, 24.0)), ("Under an agreement with Australia", "D7", T(25, 41.6)),
+     ("The men shipped to the United States", "D7", T(26, 14.0)), ("what they might know", "NOUB", T(3, 28.4))],
+    # 7 Angel Island
+    [("They came ashore", "D7", T(26, 46.5)), ("They were deloused", "NOUB", T(4, 4.6)), ("@", "They were deloused", NOU_TAG),
+     ("given serial numbers", "NOUB", T(0, 27.2)), ("examined for malaria", "NOU", T(0, 48.5)), ("worms and wounds", "NOU", T(1, 16.2))],
+    # 8 the postal card
+    [("Then came a postal card", "NOUB", T(0, 9.1)), ("Every prisoner could send one", "NOU", T(1, 30.1)),
+     ("Nearly all of them asked", "IWO", T(2, 43.7)), ("Better to be thought dead", "KYE", T(18, 1.0))],
+    # 9 the menu
+    [("They expected to be tortured", "NOUB", T(6, 29.6)), ("They despised their captors", "KYE", T(52, 34.4)),
+     ("What they got instead", "NOU", T(6, 21.0)), ("Sukiyaki and caramel pudding", "NOUB", T(2, 52.1)), ("Spaghetti and hash", "KYE", T(31, 35.7)),
+     ("#", "What they got instead", None, {"type": "LedgerTimeline", "file": "FILE 03 — ANGEL ISLAND, 16 SEPT. 1944", "head": "The menu they were served",
+        "rows": [{"date": "BREAKFAST", "text": "Sausages, rice, apples, coffee"}, {"date": "LUNCH", "text": "Sukiyaki, cabbage salad, caramel pudding"},
+                 {"date": "DINNER", "text": "Spaghetti and hash, baked tomatoes, cocoa"}],
+        "source": f"Red Cross / State Dept. inspection report, 16 Sept. 1944 (RG 389), in {KR}"})],
     # 10
-    [("The Americans discovered", "POW", T(8, 32)), ("Prisoners were allowed to write", "TUE", T(8, 44)), ("@", "Prisoners were allowed to write", "Stand-in · wartime mail, 1945"),
-     ("A letter would tell", "NOUB", T(3, 30.0)), ("So when a Japanese prisoner", "POW", T(11, 27)), ("It usually ended", "NOU", T(1, 31.5))],
-    # 11
-    [("The camp commander", "POW", T(2, 5)),
-     ("#", "The camp commander", None, {"type": "Slug", "title": "Lt. Col. Horace I. Rogers", "subtitle": "Commandant, Camp McCoy, from 1943"}),
-     ("At first, many", "NOUB", T(7, 4.0)), ("Then boredom won", "NOUB", T(7, 25.8))],
-    # 12
-    [("They built a stage", "KYE", T(21, 35.4)), ("@", "They built a stage", "Japanese theatre · from Know Your Enemy: Japan"),
-     ("Up to three productions", "KYE", T(22, 53.9)), ("Rogers had one condition", "POW", T(3, 3)), ("Without tools for wood", "CHD", T(9, 36.2)),
-     ("@", "Without tools for wood", "Stand-in · camp crafts, 1944")],
+    [("The meals were written down", "SAI", T(7, 19.9)), ("better fed in captivity", "KYE", T(34, 13.1)),
+     ("But for a newly captured man", "NOUB", T(3, 10.3))],
+    # 11 the plan
+    [("The War Department had its reasons", "NOUB", T(10, 43.3)), ("@", "The War Department had its reasons", "Stand-in · U.S. officer and Japanese prisoner, New Caledonia, 1943"),
+     ("frightened men made poor sources", "NOUB", T(3, 46.5)), ("Army intelligence had already learned", "IWO", T(7, 2.3)),
+     ("Get the timing right", "NOUB", T(8, 0.2))],
+    # 12 three phases
+    [("In the first forty-eight hours", "IWO", T(5, 53.4)),
+     ("#", "In the first forty-eight hours", None, {"type": "LedgerTimeline", "file": "FILE 04 — THE THREE PHASES", "head": "Fear, gratitude, silence",
+        "rows": [{"date": "0–48 HOURS", "text": "Sure of torture. Useless as a source"}, {"date": "AFTER SEVERAL DAYS", "text": "Fear turns to gratitude. He talks"},
+                 {"date": "10–14 DAYS ON", "text": "Used to kindness. Withdraws into a shell"}],
+        "source": f"U.S. Army intelligence findings, in {KR}"}),
+     ("He realized nobody was going to hurt him", "NOU", T(4, 57.9)), ("Fear turned into gratitude", "IWO", T(2, 43.7))],
     # 13
-    [("Then the YMCA donated", "CHD", T(9, 16.2)), ("@", "Then the YMCA donated", "Stand-in · baseball in a Japanese American camp, 1944"),
-     ("Baseball became", "CHD", T(9, 21.2)), ("Teams formed", "CHD", T(9, 33.8)), ("and met in a camp championship", "CHD", T(9, 18.8)),
-     ("When inspectors toured", "CHD", T(9, 31.2))],
-    # 14
-    [("On Saturdays", "POW", T(10, 9)), ("The War Department had expected", "POW", T(12, 6)), ("On the way to the movies", "NOUB", T(9, 36.2))],
+    [("That window lasted", "NOUB", T(7, 5.8)), ("Then came the third phase", "NOU", T(5, 25.6)), ("and withdrew into a shell", "NOU", T(5, 39.5)),
+     ("The sukiyaki was not the end", "KYE", T(34, 13.1)), ("It started the clock", "D7", T(31, 6.1))],
+    # 14 the hotel
+    [("The clock ran at a place called", "TRN", T(6, 42.4)), ("@", "The clock ran at a place called", "Stand-in · hill country, 1940"),
+     ("In the nineteen-twenties", "TRN", T(7, 1.1))],
     # 15
-    [("McCoy was not a holiday camp", "NOU", T(3, 44.5)), ("The Japanese prisoners complained", "NOUB", T(10, 19.7)),
-     ("They did not want to wash", "ASL", T(5, 3)), ("On one morning in May", "POW", T(11, 7)),
-     ("#", "On one morning in May", None, {"type": "Slug", "title": "May 31, 1944", "subtitle": "Sit-down strike in the Japanese compound"}),
-     ("Rogers sent in", "POW", T(12, 5)), ("The men went to work", "AH", T(10, 26))],
-    # 16
-    [("And some still ran", "POW", T(14, 40)),
-     ("#", "Across the whole country", None, {"type": "LedgerTimeline", "file": "FILE 06 — THE ESCAPES", "head": "Fourteen tries, no way home",
-        "rows": [{"date": "22 MAY 1945", "text": "Three dig under the fence"}, {"date": "JULY 1945", "text": "A knock at a farmhouse door"},
-                 {"date": "29 AUG 1945", "text": "Yuzo Ohashi heads for “Mexico”"}, {"date": "TOTAL", "text": "14 attempts · 0 successful"}],
-        "source": "Krammer (1983); Fournier, Fort McCoy (2003); Monroe County Democrat; Sparta Herald"}),
-     ("In May nineteen forty-five", "XM", T(25, 35)), ("A farmer spotted", "TRN", T(5, 25.7)), ("@", "A farmer spotted", "Stand-in · river country, 1940"),
-     ("The other two were caught", "AH", T(2, 23))],
+    [("The resort closed", "TRN", T(6, 23.7)), ("In May nineteen forty-two", "NOUB", T(1, 21.5)), ("The other was Fort Hunt", "NOUB", T(1, 39.7)),
+     ("On paper", "TRN", T(5, 27.5)),
+     ("#", "On paper", None, {"type": "Slug", "title": "P.O. Box 651, Tracy, California", "subtitle": "Byron Hot Springs · secret interrogation center, 1942–45"})],
+    # 16 wired for sound
+    [("The construction plans were labeled", "NOUB", T(1, 3.4)), ("eight-foot fences", "NOU", T(3, 48.6)),
+     ("Microphones were hidden", "D7", T(4, 3.4)), ("@", "Microphones were hidden", "Stand-in · radio operators · from December 7th (1943)"),
+     ("Wires ran through hollow walls", "D7", T(4, 35.9)), ("where the prisoners' conversations", "NOUB", T(2, 15.9))],
     # 17
-    [("In July, another escapee", "ASL", T(13, 48)), ("@", "In July, another escapee", "Stand-in · farm country, 1940"),
-     ("The farm wife gave him bread", "XM", T(2, 11)), ("When the highway patrol", "XM", T(9, 30))],
-    # 18
-    [("The last Japanese prisoner", "IWO", T(2, 35.1)), ("@", "The last Japanese prisoner", "Japanese prisoner, Iwo Jima, March 1945"),
-     ("He believed Mexico", "SNOW", T(9, 49.1)), ("He was caught", "SUR", T(0, 46.5)),
-     ("#", "He was caught", None, {"type": "Slug", "title": "September 2, 1945", "subtitle": "Japan surrenders · Ohashi caught at Cashton, Wisconsin"}),
-     ("He told his guards", "IWO", T(2, 40.0)), ("It was escape", "NOUB", T(3, 26.6))],
+    [("The camp never held", "NOUB", T(4, 22.8)), ("Some vents let a man", "NOU", T(4, 30.2)), ("Even the trees outside", "TRN", T(5, 8.8))],
+    # 18 the interrogators
+    [("There were forty-five interrogators", "IWO", T(7, 2.3)), ("@", "There were forty-five interrogators", "Nisei Marine interpreter with Japanese prisoners, Iwo Jima, 1945"),
+     ("Each interrogator was given one prisoner", "NOUB", T(10, 43.3))],
     # 19
-    [("That was exactly", "SUR", T(1, 42.2)), ("A Japanese language newspaper", "TUE", T(8, 44))],
-    # 20
-    [("It never happened", "NOUB", T(8, 52.8)), ("Before the prisoners were sent home", "CHD", T(10, 6.5)), ("@", "Before the prisoners were sent home", "Stand-in · wartime classroom, 1944"),
-     ("There were no suicides", "TRN", T(5, 25.7))],
-    # 21
-    [("Kazuo Sakamaki went home", "SUR", T(2, 38.0)), ("He became a lifelong pacifist", "KYE", T(32, 3.5)), ("For decades", "D7", T(1, 37.4))],
+    [("On the surface", "IWO", T(5, 36.1)), ("two or three times a day", "NOUB", T(0, 27.2)), ("Underneath, every question", "NOU", T(1, 2.4)),
+     ("A long checklist covered weapons", "SAI", T(2, 2.6)), ("and what a man expected", "NOUB", T(6, 29.6))],
+    # 20 the reports
+    [("Every four days or so", "SAI", T(7, 19.9)), ("@", "Every four days or so", "Stand-in · U.S. servicemen, Saipan, 1944"),
+     ("the number of boiler rooms", "D7", T(26, 14.0)), ("The camp's report for", "SAI", T(7, 34.3)),
+     ("#", "The camp's report for", None, {"type": "LedgerBars", "file": "FILE 05 — P.O. BOX 651", "head": "1,077 questioned in 1944", "max": 174,
+        "bars": [{"label": "January 1944", "value": 13, "figure": "13", "note": "Japanese prisoners interrogated"},
+                 {"label": "August 1944", "value": 174, "figure": "174", "note": "the busiest month"}],
+        "source": f"“Report of Activities, MIS Section, P.O. Box 651, Tracy”, 1944, in {KR}"})],
+    # 21 the threat
+    [("What made them talk", "NOUB", T(7, 42.1)), ("no threat of violence", "NOU", T(4, 2.5)),
+     ("the threat to send", "SAI", T(7, 48.8)), ("The men who had asked", "IWO", T(2, 43.7))],
     # 22
-    [("In nineteen sixty-six", "SNOW", T(4, 39.0)),
-     ("#", "For him, he wrote", None, {"type": "LedgerQuote", "file": "FILE 07 — A LETTER, 1966", "head": "Twenty-one years later",
-        "before": "I have been longing to visit [Camp McCoy] again… for me this place signifies ", "key": "a second starting point in my life.", "after": "",
-        "who": "Yasuichiro Hayashi, former prisoner, 21 September 1966", "source": "Letter to Fort McCoy, quoted in B. J. Scott, University of Wisconsin (2010)"})],
-    # 23
-    [("If you know", "SNOW", T(5, 41.0)),
-     ("#", "put it in the comments", None, {"type": "Slug", "title": "Know another prisoner account?", "subtitle": "Tell us in the comments"})],
+    [("Another lesson surprised", "NOUB", T(8, 18.3)), ("With the Japanese", "NOUB", T(8, 36.4)),
+     ("Older prisoners told new arrivals", "NOUB", T(2, 15.9)), ("Some came back the next day", "NOUB", T(0, 9.1))],
+    # 23 Geneva
+    [("None of this was strictly legal", "NOU", T(3, 48.6)),
+     ("#", "The secret centers, the historian", None, {"type": "LedgerQuote", "file": "FILE 06 — BENDING THE RULES", "head": "Worth the risk",
+        "before": "These interrogation centers ", "key": "contravened or, at the very least, “bent” a dozen or so articles", "after": " of the Geneva Convention of 1929.",
+        "who": "Arnold Krammer, historian, 1983", "source": f"{KR}, p. 74"}),
+     ("Japan had never ratified", "KYE", T(9, 39.7)), ("reasoned that the treatment", "KYE", T(55, 43.2)),
+     ("@", "reasoned that the treatment", "Prisoners in Japanese hands · from Know Your Enemy: Japan (1945)"), ("The comfort was real", "NOU", T(6, 21.0))],
     # 24
-    [("The field code", "KYE", T(17, 39.9)), ("In the middle of Wisconsin", "SNOW", T(5, 20.4)), ("Someone handed them", "CHD", T(9, 21.2))],
+    [("And the questions had an end", "NOUB", T(8, 54.6)), ("shipped out to an ordinary camp", "TRN", T(3, 53.9)),
+     ("@", "shipped out to an ordinary camp", "Stand-in · passenger train, 1940")],
+    # 25 a new page
+    [("For some, the change", "IWO", T(9, 3.0)), ("They had been taught", "KYE", T(4, 57.7)), ("When their requests", "NOUB", T(9, 12.7)), ("many started over", "NOUB", T(9, 30.8)),
+     ("In nineteen forty-six", "KYE", T(60, 26.4)),
+     ("#", "In nineteen forty-six", "and flew with American", {"type": "LedgerQuote", "file": "FILE 07 — A NEW PAGE", "head": "Guiding the bombers",
+        "before": "Old [Japanese] Army hands… wrote our propaganda and ",
+        "key": "flew with our bombing pilots", "after": " to guide them to military targets.",
+        "who": "Ruth Benedict, The Chrysanthemum and the Sword, 1946", "source": f"Benedict (1946), pp. 28–29, quoted in {KR}"}),
+     ("and flew with American", "KYE", T(61, 29.3)), ("@", "and flew with American", "Bombing raid · from Know Your Enemy: Japan (1945)")],
+    # 26
+    [("One group of prisoners", "IWO", T(3, 1.0)),
+     ("#", "One group of prisoners", None, {"type": "Slug", "title": "New York Times, July 8, 1945", "subtitle": "Prisoners ask to fight their way back to Japan"}),
+     ("badly misled by the Emperor", "KYE", T(7, 34.3)), ("and asked to fight their way back", "KYE", T(59, 54.9)),
+     ("Benedict's explanation", "NOUB", T(9, 48.9)), ("Having put everything", "NOUB", T(3, 28.4))],
+    # 27
+    [("In September nineteen forty-five", "SUR", T(1, 42.2)),
+     ("#", "In September nineteen forty-five", None, {"type": "Slug", "title": "September 1945", "subtitle": "Camp Tracy ordered closed"}),
+     ("One of the two centers", "TRN", T(6, 23.7)), ("That same year", "TRN", T(5, 27.5))],
+    # 28 comment request
+    [("If you know of a prisoner", "IWO", T(2, 43.7)),
+     ("#", "If you know of a prisoner", None, {"type": "Slug", "title": "Know a prisoner or interrogator?", "subtitle": "Tell us in the comments"})],
+    # 29 echo
+    [("The brick hotel still stands", "TRN", T(6, 42.4)), ("The prisoners who arrived there", "NOU", T(6, 14.1)),
+     ("What the Americans used instead", "KYE", T(34, 13.1)), ("and someone willing to listen", "D7", T(4, 3.4))],
 ]
 
-LOC = "Library of Congress"
+WC = "Wikimedia Commons"
 PHOTOS = [
-    (2, "Ten young men", None, "midget_sub_raised_1943.jpg", "03", "A midget submarine", "A Japanese midget submarine raised by a U.S. Navy tug, 1943", f"{LOC} · LC-USZ62-106360", {"focus": [0.5, 0.5]}),
-    (4, "Across the whole war", None, "saipan_cave_surrender_1944.jpg", "05", "Coming out", "A Japanese soldier surrenders from a cave on Saipan, July 1944", f"{LOC} · LC-USZ6-1891", {"focus": [0.55, 0.5], "circle": [0.56, 0.48, 0.12, 0.2]}),
-    (5, "He thought constantly", None, "wounded_prisoner_newcaledonia_1942.jpg", "06", "Alive, against orders", "A wounded Japanese prisoner in an American clearing station, New Caledonia, 1942", f"U.S. Army · {LOC} · LC-USW33-000299-ZC", {"focus": [0.6, 0.45]}),
-    (7, "He was at Camp McCoy", None, "mccoy_north_gate_habs.jpg", "08", "Camp McCoy", "North entrance gate, Camp McCoy near Sparta, Wisconsin", f"Fort McCoy photograph · HABS WI-229 · {LOC}", {"focus": [0.5, 0.55]}),
-    (9, "None of this made", "Sakamaki later wrote", "brodie_prisoner_sketch_1943.jpg", "10", "“Wanted to die”", "Three soldiers carry a Japanese prisoner “who wouldn't walk and wanted to die.” Guadalcanal, 1943", f"Howard Brodie, Yank magazine · {LOC} · LC-DIG-ppmsca-22726", {"focus": [0.4, 0.35], "crop": [0.2, 0.05, 0.6, 0.6]}),
-    (11, "At first, many", None, "mccoy_pow_barracks_c.jpg", "13", "Compound under snow", "Prisoner of War Area 'A', barracks and fences, Camp McCoy", f"Fort McCoy photograph B-36 · HABS WI-229 · {LOC}", {"focus": [0.5, 0.5]}),
-    (15, "McCoy was not a holiday camp", None, "mccoy_pow_tower5.jpg", "16", "Guard Tower No. 5", "Prisoner of War Area 'A', Camp McCoy, Wisconsin", f"Fort McCoy photograph B-33 · HABS WI-229 · {LOC}", {"focus": [0.5, 0.4], "circle": [0.42, 0.35, 0.12, 0.2]}),
-    (20, "It never happened", None, "prisoners_guarded_1944.jpg", "21", "Going home", "Japanese prisoners of war under American guard, probably the Philippines", f"{LOC} · LC-USW33-058838", {"focus": [0.5, 0.5]}),
-    (21, "He finally spoke", None, "ha19_submarine_highsmith.jpg", "22", "HA-19 today", "Sakamaki's submarine, National Museum of the Pacific War, Fredericksburg, Texas", f"Carol M. Highsmith, 2014 · {LOC}", {"focus": [0.35, 0.6]}),
+    (7, "They came ashore at Angel Island", None, "angel_island_aerial_2019.jpg", "07", "Angel Island", "Angel Island in San Francisco Bay today, with the city behind it", f"Taras Bobrovytsky, 2019 · CC0 · {WC}", {"focus": [0.45, 0.55]}),
+    (8, "They asked that their families", None, "angel_island_pow_note.png", "08", "A prisoner's note", "A note left by a Japanese prisoner of war held at Angel Island (exhibit, Angel Island State Park)", f"DPLA · CC BY-SA 3.0 · {WC}", {"focus": [0.35, 0.3]}),
+    (14, "A resort had opened there", None, "byron_pre1905.jpg", "14", "Byron Hot Springs", "Founder Lewis Mead at the White Sulphur Spring, before 1905", f"Unknown photographer · public domain · {WC}", {"focus": [0.55, 0.5], "circle": [0.62, 0.6, 0.09, 0.26]}),
+    (14, "A four-story brick hotel", None, "byron_1914.jpg", "15", "The brick hotel", "The third hotel building at Byron Hot Springs, 1914 (postcard)", f"Public domain · {WC}", {"focus": [0.5, 0.5]}),
+    (18, "trained at the army's Military", None, "camp_savage_1946.jpg", "18", "MIS Language School", "Camp Savage, Minnesota, second home of the Military Intelligence Service Language School", f"MISLS yearbook, 1946 · public domain · {WC}", {"focus": [0.5, 0.5]}),
+    (24, "or back to Angel Island", None, "fort_mcdowell_admin_habs.jpg", "24", "Fort McDowell", "Administration building of Fort McDowell, the Army post on Angel Island", f"James W. Rosenthal · HABS CAL,21-ANGEL,2G-1 · {WC}", {"focus": [0.6, 0.5]}),
+    (27, "That same year", None, "byron_2008_020.jpg", "27", "Byron Hot Springs", "The hotel that housed Camp Tracy, August 2008", f"Captndelta · CC BY-SA 3.0 · {WC}", {"focus": [0.5, 0.35]}),
+    (29, "The brick hotel still stands", None, "byron_2008_024.jpg", "29", "Still standing", "The abandoned hotel at Byron Hot Springs, August 2008", f"Captndelta · CC BY-SA 3.0 · {WC}", {"focus": [0.45, 0.35]}),
 ]
 
 
