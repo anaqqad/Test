@@ -66,6 +66,6 @@ to return legally to his wife and his bookshop in Chicago. Which prisoner story 
 
 ## Upload settings
 - Category: Education. Language: English. Captions: upload `out/chicago-lights.srt` if generated, or use auto-captions after checking the names (Pabel, Volturno, Peoria).
-- Altered or synthetic content: **Yes**. The narration is an AI voice. The photos and film are real archive material.
+- Altered or synthetic content: **No**, always (owner's rule: nothing in our videos shows realistic AI-generated people).
 - Made for kids: No.
 - End screen: the latest prisoner-of-war video plus a subscribe button, over the last 10 s.

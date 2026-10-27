@@ -143,7 +143,7 @@ def main():
         body = {"snippet": {"title": title, "description": desc, "tags": tags, "categoryId": "27",  # Education
                             "defaultLanguage": "en", "defaultAudioLanguage": "en"},
                 "status": {"privacyStatus": "private", "selfDeclaredMadeForKids": False,
-                           "containsSyntheticMedia": True,  # AI narration and AI thumbnail (altered or synthetic content)
+                           "containsSyntheticMedia": False,  # owner's rule: always No (no realistic AI-generated people)
                            "embeddable": True, "license": "youtube"}}
         vid = upload_video(s, video, body)
     print(f"video id: {vid} (private)  https://studio.youtube.com/video/{vid}/edit")

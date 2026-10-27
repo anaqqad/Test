@@ -68,5 +68,5 @@ Kazuo Sakamaki later became president of Toyota's Brazilian subsidiary and a lif
 ## Upload settings
 - Category: Education. Language: English. Made for kids: No.
 - Captions: `out/mccoy-baseball.srt`
-- Altered or synthetic content: **Yes**. The narration is an AI voice, and the thumbnail is AI-generated. Photos and film are real archive material.
+- Altered or synthetic content: **No**, always (owner's rule: nothing in our videos shows realistic AI-generated people).
 - End screen: the Chicago episode plus a subscribe button, over the last 10 s.

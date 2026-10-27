@@ -51,7 +51,7 @@ The cloud session had no YouTube access. To upload from the PC, use the YouTube 
 `thumbnails.set`, `captions.insert`) with an OAuth client the owner creates in Google Cloud Console. The API is free (quota),
 but keep the client secret and token in environment variables or a git-ignored file and **never commit them**. Alternatively
 the owner uploads by hand using `youtube.md` (title, description with chapters, tags, pinned comment, "altered/synthetic
-content = Yes" because the voice and thumbnail are AI).
+content = No": the owner's rule, since nothing shows realistic AI-generated people).
 
 ## Next episode (researched, not built): the secret interrogation camp
 **Working title:** "Japanese POWs Were Sure They'd Be Tortured. Then They Were Served Sukiyaki."

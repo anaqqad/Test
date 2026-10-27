@@ -1,6 +1,6 @@
 # YouTube upload: WWII Frontlines
 
-**Published** 27 Oct 2026, public: https://youtu.be/4Jf9ahvXZ74 (thumbnail A, English SRT, Education, altered content = Yes).
+**Published** 27 Oct 2026, public: https://youtu.be/4Jf9ahvXZ74 (thumbnail A, English SRT, Education, altered content was set to Yes by mistake at upload; should be No).
 Pinned comment posted and pinned; end screen = Camp McCoy episode (31HQjrOZs4U) + subscribe, last 20 s.
 
 ## Title
@@ -74,6 +74,6 @@ The hotel at Byron Hot Springs is still standing, abandoned, in the hills east o
 ## Upload settings
 - Category: Education. Language: English. Made for kids: No. Visibility: **Private** first (the uploader always sets this).
 - Captions: `out/interrogation-sukiyaki.srt`
-- Altered or synthetic content: **Yes**. The narration is an AI voice, and the thumbnail is AI-generated. Photos and film are real archive material.
+- Altered or synthetic content: **No**, always (owner's rule: nothing in our videos shows realistic AI-generated people).
 - End screen: the Camp McCoy episode plus a subscribe button, over the last 10 s.
 - Upload: `python tools/upload_youtube.py video/interrogation-sukiyaki` (see `tools/README_upload.md`).

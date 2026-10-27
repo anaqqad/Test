@@ -41,3 +41,4 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - Never print, log or commit API keys; secrets come from environment variables.
 - Ask before any paid API usage.
 - Don't touch unrelated projects or folders on this machine.
+- YouTube "altered or synthetic content": always **No**. Our videos don't show realistic AI-generated people.

@@ -1,7 +1,7 @@
 # Uploading to YouTube (Data API v3, free)
 
 `tools/upload_youtube.py` uploads an episode as **Private** with the title, description (with chapters), tags, category
-Education, "made for kids: no", "altered or synthetic content: yes", the custom thumbnail and the English captions. You
+Education, "made for kids: no", "altered or synthetic content: no", the custom thumbnail and the English captions. You
 then review it in YouTube Studio, add the end screen and pinned comment, and publish by hand.
 
 ## One-time setup (owner, ~10 minutes)
