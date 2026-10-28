@@ -65,8 +65,11 @@ def npc_tint(im, level=170):
 def load_char(name, tint=None, _cache={}):
     key = (name, tint)
     if key not in _cache:
-        im = Image.open(BRAND / "nobo" / f"{name}.png").convert("RGBA")
-        im = black_and_grey(im)
+        drawn = HERE / "assets" / "chars" / f"{name}.png"
+        if drawn.exists():  # characters from draw_niqabi.py are already black and grey
+            im = Image.open(drawn).convert("RGBA")
+        else:
+            im = black_and_grey(Image.open(BRAND / "nobo" / f"{name}.png").convert("RGBA"))
         if tint == "npc":
             im = npc_tint(im)
         elif tint == "light":
@@ -79,7 +82,7 @@ def load_char(name, tint=None, _cache={}):
 def load_bg(name, tint=None, blur=3, _cache={}):
     key = (name, tint, blur)
     if key not in _cache:
-        im = Image.open(HERE / "assets" / "bg" / name).convert("RGB")
+        im = Image.open(HERE / "assets" / (name if "/" in name else f"bg/{name}")).convert("RGB")
         im = ImageOps.fit(im, (W, H), Image.LANCZOS, centering=(0.5, 0.5))
         im = ImageEnhance.Color(im).enhance(0.75)
         im = ImageEnhance.Contrast(im).enhance(0.95)
@@ -165,6 +168,17 @@ def sfx(name, rng=np.random.default_rng(3)):
             x = t(0.22)
             out.append(0.3 * np.sin(2 * np.pi * f * x) * np.exp(-x / 0.12))
         return np.concatenate(out)
+    if name == "impact":  # deep cinematic hit (title card)
+        x = t(1.2)
+        return 0.9 * np.sin(2 * np.pi * (45 + 30 * np.exp(-x / 0.1)) * x) * np.exp(-x / 0.45) + \
+            0.25 * rng.normal(0, 1, x.size) * np.exp(-x / 0.05)
+    if name == "horn":
+        x = t(0.5)
+        return 0.3 * (np.sign(np.sin(2 * np.pi * 330 * x)) + np.sign(np.sin(2 * np.pi * 415 * x))) * \
+            np.minimum(1, (0.5 - x) / 0.05)
+    if name == "ding":
+        x = t(0.8)
+        return 0.35 * (np.sin(2 * np.pi * 1320 * x) + 0.5 * np.sin(2 * np.pi * 1980 * x)) * np.exp(-x / 0.25)
     if name == "door":
         x = t(0.3)
         return 0.8 * np.sin(2 * np.pi * 55 * x) * np.exp(-x / 0.08) + 0.3 * rng.normal(0, 1, x.size) * \
@@ -184,11 +198,13 @@ def sfx(name, rng=np.random.default_rng(3)):
     raise ValueError(name)
 
 
-def music(dur):
-    """Soft lo-fi pluck loop (procedural, so no licence issues). Kept quiet under the voice."""
+def music(dur, mood="lofi"):
+    """Soft pluck loop (procedural, so no licence issues). "sad" = slower minor piano-like loop, louder (no voice)."""
     x = np.zeros(int(dur * SR))
     chords = [(220.0, 261.6, 329.6), (174.6, 220.0, 261.6), (196.0, 246.9, 293.7), (164.8, 207.7, 246.9)]
-    beat = 60 / 84
+    if mood == "sad":
+        chords = [(220.0, 261.6, 329.6), (174.6, 220.0, 261.6), (130.8, 196.0, 261.6), (146.8, 196.0, 246.9)]
+    beat = 60 / (88 if mood == "sad" else 84)
     i = 0
     while i * beat < dur:
         chord = chords[(i // 4) % 4]
@@ -201,7 +217,7 @@ def music(dur):
             note += 0.5 * np.sin(2 * np.pi * chord[0] / 2 * tt) * np.exp(-tt / 0.6)
         x[s:s + n] += note[: max(0, min(n, x.size - s))]
         i += 1
-    return 0.05 * x
+    return (0.11 if mood == "sad" else 0.05) * x
 
 
 # ------------------------------------------------------------------ drawing helpers
@@ -280,6 +296,75 @@ def caption_image(words, keywords):
     return im
 
 
+def text_caption(txt, keywords):
+    """Reference-style sentence caption: top-left, white with a black outline, one or two lines."""
+    fnt = font("baloo", int(H * 0.052))
+    lines = wrap(txt, fnt, int(W * 0.62))
+    lh = int(fnt.size * 1.12)
+    im = Image.new("RGBA", (int(W * 0.7), lh * len(lines) + 30), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    y = 6
+    for line in lines:
+        x = 6
+        for word in line.split():
+            col = TAG if word.strip(".,!?\"'…:").upper() in keywords else WHITE
+            d.text((x, y), word, font=fnt, fill=col, stroke_width=max(4, fnt.size // 9), stroke_fill=INK)
+            x += text_size(word + " ", fnt)[0] + fnt.size // 5
+        y += lh
+    return im
+
+
+def big_text(txt, size, color):
+    fnt = font("baloo", size)
+    tw, th = text_size(txt, fnt)
+    im = Image.new("RGBA", (tw + size, int(size * 1.6)), (0, 0, 0, 0))
+    ImageDraw.Draw(im).text((size // 2, size // 6), txt, font=fnt, fill=color, stroke_width=max(6, size // 12),
+                            stroke_fill=INK)
+    return im
+
+
+def draw_fx(frame, f, age):
+    """Literal visual gags drawn on top: flames, sweat, question marks, exclamation, hearts, steam."""
+    d = ImageDraw.Draw(frame)
+    kind, cx, cy, size = f["kind"], f["x"] * W, f["y"] * H, f.get("size", 1.0) * H * 0.12
+    rnd = random.Random(int(age * 12) + int(cx))
+    if kind == "flames":
+        for i, dx in enumerate((-1.2, -0.4, 0.4, 1.2)):
+            h = size * (1.0 + 0.25 * rnd.random()) * (1.25 if i in (1, 2) else 0.85)
+            x0, y0 = cx + dx * size * 0.55, cy
+            for col, k in (((236, 80, 20), 1.0), ((255, 170, 30), 0.68), ((255, 235, 120), 0.36)):
+                w, hh = size * 0.42 * k, h * k
+                sway = (rnd.random() - 0.5) * size * 0.25
+                d.polygon([(x0 - w, y0), (x0 - w * 0.6, y0 - hh * 0.5), (x0 + sway, y0 - hh), (x0 + w * 0.6, y0 - hh * 0.5),
+                           (x0 + w, y0), (x0, y0 + w * 0.5)], fill=col)
+    elif kind == "sweat":
+        for i in range(f.get("n", 3)):
+            x0 = cx + (i - 1) * size * 0.7
+            y0 = cy + ((age * 0.9 + i * 0.3) % 1.0) * size * 1.5
+            d.polygon([(x0, y0 - size * 0.35), (x0 - size * 0.16, y0), (x0, y0 + size * 0.14), (x0 + size * 0.16, y0)],
+                      fill=(130, 205, 250), outline=INK)
+    elif kind in ("question", "exclaim"):
+        fnt = font("lilita", int(size * 1.3))
+        for i, dx in enumerate((-0.8, 0.0, 0.8)):
+            bob = math.sin(age * 6 + i) * size * 0.08
+            d.text((cx + dx * size, cy + bob), "?" if kind == "question" else "!", font=fnt, fill=TAG,
+                   stroke_width=6, stroke_fill=INK, anchor="mm")
+    elif kind == "hearts":
+        for i in range(4):
+            a = age * 0.8 + i * 0.25
+            x0 = cx + math.sin(i * 2.1 + age) * size
+            y0 = cy - (a % 1.0) * size * 2.2
+            r = size * 0.22
+            d.ellipse((x0 - r, y0 - r, x0, y0), fill=(235, 70, 90), outline=INK, width=3)
+            d.ellipse((x0, y0 - r, x0 + r, y0), fill=(235, 70, 90), outline=INK, width=3)
+            d.polygon([(x0 - r, y0 - r * 0.45), (x0 + r, y0 - r * 0.45), (x0, y0 + r * 0.9)], fill=(235, 70, 90))
+    elif kind == "steam":
+        for i in range(3):
+            x0 = cx + (i - 1) * size * 0.6
+            pts = [(x0 + math.sin(age * 5 + k * 0.9 + i) * size * 0.15, cy - k * size * 0.18) for k in range(8)]
+            d.line(pts, fill=(235, 235, 235), width=int(size * 0.12), joint="curve")
+
+
 def ease_out(p):
     return 1 - (1 - min(max(p, 0), 1)) ** 3
 
@@ -330,11 +415,15 @@ def build(ep):
         vo = tts(sc["vo"], ls) if sc.get("vo") else np.zeros(0, np.float32)
         lead = sc.get("lead", 0.25)
         vo_dur = vo.size / SR
-        dur = sc.get("dur") or (lead + vo_dur + sc.get("hold", 0.45))
+        if not sc.get("vo") and sc.get("text") and not sc.get("dur"):
+            lead = 0.0
+            dur = max(3.2, 1.0 + 0.25 * len(sc["text"].split()))  # reading time for on-screen text
+        else:
+            dur = sc.get("dur") or (lead + vo_dur + sc.get("hold", 0.45))
         vo_end = lead + vo_dur
         s = dict(sc, start=t0, dur=dur, vo_audio=vo, vo_start=lead, vo_end=vo_end)
         s["caps"] = caption_chunks(sc["vo"], lead, vo_dur) if sc.get("vo") else []
-        for key in ("beats", "bubbles", "labels", "extras", "sfx"):
+        for key in ("beats", "bubbles", "labels", "extras", "sfx", "fx", "lines"):
             s[key] = [dict(item, t=resolve_time(item.get("t", 0), dur, vo_end),
                            **({"t1": resolve_time(item["t1"], dur, vo_end)} if "t1" in item else {}))
                       for item in sc.get(key, [])]
@@ -361,7 +450,7 @@ def build(ep):
                 add(sfx(f"talk{b.get('talk_dur', 1.1)}"), s["start"] + b["t"], 0.55)
         if s is scenes[0]:
             add(sfx("thwack"), 0.0, 0.7)
-    bed = music(audio.size / SR)[: audio.size]
+    bed = music(audio.size / SR, ep.get("music", "lofi"))[: audio.size]
     duck = np.convolve((np.abs(voice) > 0.02).astype(np.float32), np.ones(4000) / 4000, "same")
     audio[: bed.size] += bed * (1 - 0.6 * np.clip(duck[: bed.size] * 3, 0, 1))
     audio += voice
@@ -398,7 +487,9 @@ def render_frame(s, lt, gt, ep, title_img):
         place_char(world, img, ex["pos"], ex.get("size", 0.4), ex.get("flip", False),
                    0.008 * math.sin(gt * 2.2 + 1), slide)
     # lead character: latest beat wins
-    state = {"char": s.get("char"), "pos": tuple(s.get("pos", (0.5, 1.03))), "size": s.get("size", 0.45),
+    wide = W > H
+    state = {"char": s.get("char"), "pos": tuple(s.get("pos", (0.5, 1.16) if wide else (0.5, 1.03))),
+             "size": s.get("size", 1.05 if wide else 0.45),
              "flip": s.get("flip", False), "tint": s.get("char_tint")}
     zoom, shake = 1.0, 0.0
     for b in s["beats"]:
@@ -450,6 +541,19 @@ def render_frame(s, lt, gt, ep, title_img):
         if sc != 1:
             im = im.resize((max(1, int(im.width * sc)), max(1, int(im.height * sc))), Image.BILINEAR)
         paste_clipped(frame, im, int(lb["x"] * W - im.width / 2), int(lb["y"] * H - im.height / 2))
+    for f in s["fx"]:
+        if lt >= f["t"] and not ("t1" in f and lt >= f["t1"]):
+            draw_fx(frame, f, lt - f["t"])
+    for ln in s["lines"]:
+        if lt >= ln["t"]:
+            im = big_text(ln["text"], ln.get("size", 120), ln.get("color", WHITE))
+            sc = pop_scale(lt - ln["t"], 0.18)
+            if sc != 1:
+                im = im.resize((max(1, int(im.width * sc)), max(1, int(im.height * sc))), Image.BILINEAR)
+            paste_clipped(frame, im, int(W / 2 - im.width / 2), int(ln["y"] * H - im.height / 2))
+    if s.get("text"):
+        im = text_caption(s["text"], set(k.upper() for k in s.get("keywords", [])))
+        paste_clipped(frame, im, int(0.03 * W), int(0.035 * H))
     for c0, c1, words in s["caps"]:
         if c0 <= lt < c1:
             cap = caption_image(words, set(k.upper() for k in s.get("keywords", [])))
@@ -457,7 +561,7 @@ def render_frame(s, lt, gt, ep, title_img):
             if sc != 1:
                 cap = cap.resize((max(1, int(cap.width * sc)), max(1, int(cap.height * sc))), Image.BILINEAR)
             paste_clipped(frame, cap, int(W / 2 - cap.width / 2), int(s.get("cap_y", 0.17) * H))
-    if not s.get("no_title"):
+    if not s.get("no_title") and not ep.get("no_title"):
         im = title_img
         if gt < 0.25:  # tag slap
             p = ease_out(gt / 0.25)
@@ -482,6 +586,8 @@ def main():
     ap.add_argument("--out")
     args = ap.parse_args()
     ep = load_episode(args.episode)
+    global W, H
+    W, H = ep.get("size", (W, H))
     name = pathlib.Path(args.episode).stem
     outdir = HERE / "out"
     outdir.mkdir(exist_ok=True)
