@@ -149,7 +149,7 @@ EPISODE = {
              extras=[dict(t=0.0, **dict(MOM, img="mom_happy"))],
              fx=[dict(t=0.8, kind="hearts", x=0.42, y=0.45, size=0.8)], hold=1.0),
         # ---- end
-        dict(bg=B + "moroccan_room.jpg", blur=12, char="girl_happy", dur=2.6,
+        dict(bg=B + "moroccan_room.jpg", blur=12, char="girl_happy", pos=(0.5, 1.4), dur=2.6,
              labels=[dict(t=0.2, text="PART 3?", x=0.5, y=0.3, size=110)], sfx=[dict(t=0.2, name="thwack")]),
     ],
 }
