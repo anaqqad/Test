@@ -69,7 +69,7 @@ P = [
     [("The camp's provost marshal", "AZ", T(17, 59.0)), ("@", "The camp's provost marshal", AZ_TAG), ("Part of the officers", "DES", T(1, 42.5)),
      ("#", "I knew they would", "In September", {"type": "LedgerQuote", "file": "FILE 04 — THE BLIND SPOT", "head": "What the provost marshal knew",
         "before": "I knew they would discover ", "key": "that blind spot", "after": ".", "who": "Capt. Cecil Parshall, provost marshal, Camp Papago Park", "source": f"Quoted in {BA}"}),
-     ("In September", "SURV", T(5, 18.9))],
+     ("In September", "SURV", T(1, 8.8))],
     # 8 the entrance
     [("The entrance was in", "DES", T(1, 47.5)), ("They loosened a board", "AZ", T(4, 52.5)), ("The Americans even lent them", "AZ", T(26, 3.3)),
      ("@", "The Americans even lent them", "Irrigated field, Arizona, 1940")],

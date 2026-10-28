@@ -1,5 +1,8 @@
 # YouTube upload: WWII Frontlines
 
+**Published** 28 Oct 2026, public: https://youtu.be/Uc5En0vNx24 (thumbnail A, English SRT published, Education,
+altered content = No, 17 tags). End screen = Camp Tracy episode (4Jf9ahvXZ74) + subscribe, last 20 s. Pinned comment: not posted yet.
+
 ## Title
 ```
 German POWs Dug a Tunnel to Float to Mexico. The River Was Dry.
