@@ -10,6 +10,9 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
   with overlapping contours removed (Blender's text fill drops letters on fonts with overlaps).
 - `blender/globe_tex.mjs`: regenerates the textures for another empire (edit `ring`).
 - `blender/install_vps.sh`: Ubuntu/Debian install of Blender 4.2 LTS + Rhubarb Lip Sync.
+- `lifelings/`: separate project, a faceless "Life as…" meme-animation YouTube channel. `README.md` is the
+  channel bible, `episodes/` has the first 5 scripts and storyboards, and `brand/draw_cast.py` redraws the cast
+  sheet, profile picture and style frames (Node Playwright + Chromium).
 
 ## Running on this PC (Windows)
 1. Install Blender 4.2 LTS from blender.org and make sure `blender` is on PATH (or use the full path to
