@@ -1,4 +1,4 @@
-"""Life as a Muslim girl (part 2): remake of the reference format with new points, 16:9, ~80 s.
+"""Life as a Muslim girl: remake of the reference format with new points, 16:9, ~80 s.
 
 Reference style: one veiled Wojak girl over real photos, a sentence caption top-left, no voice, a sad music
 loop, impact hits under the title, literal visual gags (flames, sweat, "?!"). Characters come from
@@ -150,6 +150,6 @@ EPISODE = {
              fx=[dict(t=0.8, kind="hearts", x=0.42, y=0.45, size=0.8)], hold=1.0),
         # ---- end
         dict(bg=B + "moroccan_room.jpg", blur=12, char="girl_happy", pos=(0.5, 1.4), dur=2.6,
-             labels=[dict(t=0.2, text="PART 3?", x=0.5, y=0.3, size=110)], sfx=[dict(t=0.2, name="thwack")]),
+             labels=[dict(t=0.2, text="PART 2?", x=0.5, y=0.3, size=110)], sfx=[dict(t=0.2, name="thwack")]),
     ],
 }
