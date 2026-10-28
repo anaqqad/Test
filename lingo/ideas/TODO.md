@@ -77,3 +77,13 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
    the Weather Today?" WiMYKegVxhQ), Ticuna (Rising Voices "Abel Antonio Santos - tikuna" u2nvEfLybv4), Purépecha
    (Michoacán Intercultural "Learn greetings in Purépecha" 3rnkCjvO0kg). Not enough new isolates for a Part 3
    unless it reuses Basque, Ainu, Kusunda (earlier videos) or new recordings turn up (Zuni, Nivkh, Kutenai, Yuchi, Seri...).
+
+15. Languages That Sound Like a Different Language (Part 2) and (Part 3) (owner, 2026-10-28).
+   Part 1 = `soundlike` (Maltese, European Portuguese, Romanian, Dutch, West Frisian, Afrikaans, Luxembourgish,
+   Esperanto, Hungarian, Persian, Korean, Welsh). Part 1 thumbnail and title get a PART 1 label.
+   Candidates, none used in Part 1 (check real recordings first; "sounds like" is how listeners often describe it):
+   - Part 2: Finnish (sounds like Japanese / "Elvish"), Catalan (Portuguese + French), Sardinian (Latin / Spanish),
+     Faroese (Icelandic + Danish), Mongolian (Russian / Korean), Tagalog (Spanish words in an Asian language),
+     Greek (Spanish), Scottish Gaelic (Russian / Arabic).
+   - Part 3: Hawaiian or Maori (Japanese), Kazakh (Russian), Corsican (Italian), Occitan (Catalan / Italian),
+     Swahili (Japanese), Lithuanian (Latin), Slovene (Croatian / Russian), Irish (Russian).
