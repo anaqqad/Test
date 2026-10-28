@@ -1,0 +1,50 @@
+{
+ "eastland.jpg": [
+  0,
+  0,
+  1,
+  0.85
+ ],
+ "byron_price.jpg": [
+  0,
+  0,
+  1,
+  0.62
+ ],
+ "ramcke_brest_1944.jpg": [
+  0.2,
+  0.05,
+  0.32,
+  0.7
+ ],
+ "tunisia_pow_trucks_1943.jpg": [
+  0.02,
+  0.05,
+  0.96,
+  0.82
+ ],
+ "trent_park_house.jpg": [
+  0,
+  0.1,
+  1,
+  0.85
+ ],
+ "tunisia_pow_camp_aerial_1943.jpg": [
+  0.02,
+  0.15,
+  0.96,
+  0.75
+ ],
+ "river_model_overview.jpg": [
+  0,
+  0,
+  1,
+  0.83
+ ],
+ "river_model_aerial.jpg": [
+  0,
+  0,
+  1,
+  1
+ ]
+}
