@@ -387,6 +387,65 @@ export const VIDEOS = {
   },
 
   // ------------------------------------------------------------------ 5
+  isolates: {
+    title: "Language Isolates be like…", // languages with no known relatives; none of these was in an earlier video
+    part: "",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#00a8a8",
+    items: [
+      {
+        name: "Burushaski", wojak: "i_bsk", flag: "pk", speakers: "~100,000", scene: "himalaya", loc: null,
+        char: { skin: "tan", hair: "short", hairColor: "black", beard: true, outfit: { type: "coat", color: "#6b4a2b", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Burushaski is spoken by around 100,000 people in the Hunza, Nagar and Yasin valleys of northern Pakistan, among the highest mountains on Earth.",
+          "Linguists have tried to link it to the languages of the Caucasus, to Siberia's Yeniseian languages, even to Indo-European. Nothing has been proven.",
+          "It sorts every noun into four classes: men, women, animals and countable things, and everything else. The voice is Izhar Hunzai, telling how he survived COVID-19.",
+        ],
+        audio: { file: "cache/isolates/src/burushaski.m4a", start: 112.0 }, // built by build_isolates.py
+      },
+      {
+        name: "Mapudungun", wojak: "i_arn", flag: "cl", speakers: "100,000s", scene: "patagonia", loc: null,
+        char: { skin: "tan", hair: "long", hairColor: "black", outfit: { type: "coat", color: "#3a2a2a", inner: "#b22222" }, expression: "smile" },
+        cards: [
+          "Mapudungun is the language of the Mapuche people of Chile and Argentina. Its name means 'the speech of the land'.",
+          "The Mapuche held off both the Inca and the Spanish Empire for centuries, and their language has no proven relative anywhere.",
+          "Its verbs can stack many endings into one long word to say who did what, how and when. The voice is Victor, recorded by Wikitongues.",
+        ],
+        audio: { file: "cache/isolates/src/mapudungun.m4a", start: 12.0 },
+      },
+      {
+        name: "Sandawe", wojak: "i_sad", flag: "tz", speakers: "~60,000", scene: "savanna", loc: null,
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#7fb2d9", vest: "#7fb2d9" }, expression: "smile" },
+        cards: [
+          "Sandawe is spoken by about 60,000 people in central Tanzania.",
+          "It uses click sounds, like the languages of the Kalahari more than 2,000 km away. For a long time they were grouped together, but no family link has ever been proven.",
+          "It is also a tonal language, so the pitch of a syllable changes its meaning. These are real recordings of Sandawe words, made in 1991.",
+        ],
+        audio: { file: "cache/isolates/src/sandawe.m4a", start: 194.0 },
+      },
+      {
+        name: "Warao", wojak: "i_wba", flag: "ve", speakers: "~30,000", scene: "tropical", loc: null,
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#f4f1e8", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Warao is spoken by about 30,000 people in the Orinoco river delta of Venezuela, and in Guyana and Suriname. Its name is often translated as 'the canoe people'.",
+          "It is one of the very few languages whose usual word order is object, subject, verb: 'the fish the man caught'.",
+          "No relative has ever been found for it. What you are hearing is a reading of the Book of Genesis in Warao.",
+        ],
+        audio: { file: "cache/isolates/src/warao.m4a", start: 36.0 },
+      },
+      {
+        name: "Tiwi", wojak: "i_tiw", flag: "au", speakers: "~2,000", scene: "andaman", loc: null,
+        char: { skin: "dark", hair: "short", hairColor: "grey", beard: true, outfit: { type: "shirt", color: "#2f5d3a", vest: "#2f5d3a" }, expression: "smile" },
+        cards: [
+          "Tiwi is spoken on the Tiwi Islands, off the coast of northern Australia, by about 2,000 people. It is not related to any language on the Australian mainland.",
+          "Its verbs can pack a whole sentence into one word. Young people today speak 'New Tiwi', a simpler form mixed with English.",
+          "The voice is Marius Puruntatameri, reading Tiwi words in 1976.",
+        ],
+        audio: { file: "cache/isolates/src/tiwi.webm", start: 29.0 },
+      },
+    ],
+  },
   conlangs3: {
     title: "People Actually Speak These Made-Up Languages", // YouTube: "... (Part 3)"
     part: "Part 3",
