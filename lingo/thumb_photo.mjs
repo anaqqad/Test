@@ -24,6 +24,7 @@ export const PHOTO_CREDITS = {
   conlangs2: "Pont Mirabeau over the Seine, Paris: photo by Hilader, CC BY-SA 4.0, via Wikimedia Commons",
   conlangs: "Old Town Market Square, Warsaw: photo by Rhododendrites, CC BY-SA 4.0, via Wikimedia Commons",
   extinct: "Terraced hills of Dhading, Nepal: photo by Everhard van Eimeren, CC BY-SA 4.0, via Wikimedia Commons",
+  soundlike2: "Helsinki Cathedral seen from the sea: photo by Varcos, CC BY-SA 3.0, via Wikimedia Commons",
   soundlike: "Valletta from the Grand Harbour: photo by Martin Furtschegger, CC BY 3.0, via Wikimedia Commons",
   a2usa: "Times Square: photo by Jerry Steinfield, CC BY-SA 4.0, via Wikimedia Commons",
   revived: "Jerusalem Old City: photo by Nettadi, CC BY-SA 3.0, via Wikimedia Commons",
@@ -71,7 +72,8 @@ const T = {
   conlangs3: { part: "PART 3", name: "Solresol", photo: "conlangs3", pos: "50% 55%", flagUrl: pathToFileURL(path.join(HERE, "flags", "solresol.svg")).href, hook: ["Made of", "Music?!"] },
   conlangs2: { part: "PART 2", name: "Uropi", photo: "conlangs2", pos: "50% 50%", flagUrl: pathToFileURL(path.join(HERE, "flags", "uropi.svg")).href, hook: ["Someone", "Invented It"] },
   extinct: { part: "PART 1", name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },
-  soundlike: { name: "Maltese", photo: "soundlike", pos: "50% 50%", flag: "mt", hook: ["This Isn't", "Arabic?!"] },
+  soundlike2: { part: "PART 2", name: "Finnish", photo: "soundlike2", pos: "50% 50%", flag: "fi", hook: ["This Isn't", "Japanese?!"] },
+  soundlike: { part: "PART 1", name: "Maltese", photo: "soundlike", pos: "50% 50%", flag: "mt", hook: ["This Isn't", "Arabic?!"] },
   a2usa: { name: "A2 English", photo: "a2usa", pos: "50% 40%", flag: "us", hook: ["Yes.", "Thank You."] },
   revived: { name: "Hebrew", photo: "revived", pos: "50% 50%", flag: "il", hook: ["Back From", "the Dead"] },
 };

@@ -81,12 +81,12 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
 15. Languages That Sound Like a Different Language (Part 2), (Part 3) and (Part 4) (owner, 2026-10-28).
    Part 1 = `soundlike` (Maltese, European Portuguese, Romanian, Dutch, West Frisian, Afrikaans, Luxembourgish,
    Esperanto, Hungarian, Persian, Korean, Welsh). Part 1 thumbnail and title get a PART 1 label.
-   Candidates, none used in Part 1 (check real recordings first; "sounds like" is how listeners often describe it):
-   - Part 2: Finnish (sounds like Japanese / "Elvish"), Catalan (Portuguese + French), Sardinian (Latin / Spanish),
-     Faroese (Icelandic + Danish), Mongolian (Russian / Korean), Tagalog (Spanish words in an Asian language),
-     Greek (Spanish), Scottish Gaelic (Russian / Arabic).
-   - Part 3: Hawaiian or Maori (Japanese), Kazakh (Russian), Corsican (Italian), Occitan (Catalan / Italian),
-     Swahili (Japanese), Lithuanian (Latin), Slovene (Croatian / Russian), Irish (Russian).
+   DONE Part 2 = `soundlike2` (2026-10-28): Finnish, Sardinian, Tagalog, Greek, Scottish Gaelic, Kazakh, Lithuanian,
+   Icelandic, Estonian, Georgian, Neapolitan, Polish (all Wikitongues on Commons). Part 1 now labelled PART 1.
+   Part 3 candidates still need recordings (no Wikitongues file on Commons found for these): Catalan, Faroese,
+   Mongolian, Corsican, Occitan, Swahili, Slovene, Irish, Hawaiian, Basque. Found but unused: Breton (Commons search
+   was throttled; file names not confirmed), Tamil (Sai, Marapun), second voices for Greek (Kostas), Gaelic (Iain),
+   Kazakh (Mereinur). Owner could download CC YouTube clips for the rest.
 
 16. New series approved by the owner (2026-10-28), each planned as Part 1, 2, 3... with its own playlist:
    - Click Languages be like: Xhosa, Zulu, Hadza, Sandawe, Taa (!Xóõ), Ju|'hoan, Nama (Khoekhoe), Sotho; Dahalo.

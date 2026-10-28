@@ -707,7 +707,7 @@ export const VIDEOS = {
   // ------------------------------------------------------------------ 7
   soundlike: {
     title: "Languages That Sound Like a Different Language",
-    part: "",
+    part: "Part 1",
     layout: "story",
     counterLabel: "speakers",
     items: [
@@ -818,6 +818,123 @@ export const VIDEOS = {
           "Its famous 'll' sound: put your tongue up as for an L, then blow air out the sides, as in 'Llanelli'.",
         ],
         audio: { file: "WIKITONGUES- Sandra speaking Welsh.webm", start: "auto", voice: "f" },
+      },
+    ],
+  },
+  // ------------------------------------------------------------------ 7b
+  soundlike2: {
+    title: "Languages That Sound Like a Different Language",
+    part: "Part 2",
+    layout: "story",
+    counterLabel: "speakers",
+    items: [
+      {
+        name: "Finnish", flag: "fi", speakers: "~5.5M", like: "Japanese", verdict: ["NOPE", "#ff3b30"], scene: "dalarna", loc: [60.17, 24.94, "Helsinki, Finland"],
+        char: F({ skin: "pale", hair: "long", hairColor: "blonde", outfit: { type: "coat", color: "#1f4e8c", inner: "#f4f1e8" }, expression: "smile" }),
+        cards: [
+          "Both love vowels and care about length: Finnish 'tuli' is fire but 'tuuli' is wind, like Japanese 'obasan' (aunt) and 'obaasan' (grandma).",
+          "Finnish is Uralic, related to Estonian and distantly to Hungarian. Tolkien used it to build Quenya, the High-Elvish language.",
+        ],
+        audio: { file: "WIKITONGUES- Jenni speaking Finnish.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Sardinian", flag: "it", speakers: "~1M", like: "Latin", verdict: ["CLOSEST THING", "#34c759"], scene: "canary", loc: [40.32, 9.33, "Sardinia, Italy"],
+        char: { skin: "olive", hair: "short", hairColor: "black", beard: true, outfit: { type: "shirt", color: "#f4f1e8", vest: "#1d1d1d" }, hat: { type: "flatcap", color: "#1d1d1d" }, expression: "grin" },
+        cards: [
+          "Sardinian is often called the living Romance language closest to Latin: 'domo' is house, from Latin 'domus'.",
+          "It isn't an Italian dialect but a language of its own, officially recognised by Italy in 1999.",
+        ],
+        audio: { file: "WIKITONGUES- Ricardo speaking Sardinian.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Tagalog", flag: "ph", speakers: "~28M", like: "Spanish", verdict: ["BORROWED A LOT", "#ff9500"], scene: "andaman", loc: [14.6, 120.98, "Manila, Philippines"],
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#f4f1e8", vest: "#e9dcc4" }, expression: "grin" },
+        cards: [
+          "After 300+ years of Spanish rule, Tagalog took thousands of Spanish words: 'kumusta' (how are you), 'mesa' (table), 'sapatos' (shoes).",
+          "But it is Austronesian, related to Malay, Hawaiian and Malagasy. Two o'clock is often 'alas dos', straight from Spanish.",
+        ],
+        audio: { file: "WIKITONGUES- Josh speaking Tagalog.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Greek", flag: "gr", speakers: "~13M", like: "Spanish", verdict: ["NOPE", "#ff3b30"], scene: "adriatic", loc: [37.97, 23.72, "Athens, Greece"],
+        char: F({ skin: "olive", hair: "long", hairColor: "black", outfit: { type: "dress", color: "#1f6fb5", color2: "#f4f1e8", trim: "#f4f1e8" }, earrings: "#e9c46a", expression: "smile" }),
+        cards: [
+          "Greek and Spanish both have just five vowels, a, e, i, o, u, and a similar rhythm, so to outsiders they can sound alike.",
+          "Greek is its own branch of Indo-European and the oldest one still spoken, with texts from about 1400 BC.",
+        ],
+        audio: { file: "WIKITONGUES- Ioanna speaking Greek.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Scottish Gaelic", flag: "gb-sct", speakers: "~60,000", like: "Russian", verdict: ["NOPE", "#ff3b30"], scene: "moorland", loc: [57.3, -6.2, "Isle of Skye, Scotland"],
+        char: F({ skin: "pale", hair: "bob", hairColor: "auburn", outfit: { type: "coat", color: "#2e6b4f", inner: "#f4f1e8", pattern: "check", color2: "#7a1f1f" }, expression: "smile" }),
+        cards: [
+          "Gaelic consonants come in 'broad' and 'slender' pairs, a bit like the hard and soft consonants of Russian, so it can sound Slavic.",
+          "It came over from Ireland about 1,500 years ago. 'Whisky' comes from Gaelic 'uisge beatha', water of life.",
+        ],
+        audio: { file: "WIKITONGUES- Rosemary speaking Scottish Gaelic.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Kazakh", flag: "kz", speakers: "~13M", like: "Russian", verdict: ["NOPE", "#ff3b30"], scene: "steppe", loc: [43.24, 76.89, "Almaty, Kazakhstan"],
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "coat", color: "#1f5f8b", inner: "#f2c94c" }, expression: "smile" },
+        cards: [
+          "Kazakh is written in Cyrillic and full of Russian loanwords, but it is a Turkic language, a cousin of Turkish and Uzbek.",
+          "Kazakhstan is moving Kazakh to the Latin alphabet, with the switch planned to finish by 2031.",
+        ],
+        audio: { file: "WIKITONGUES- Yernur speaking Kazakh.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Lithuanian", flag: "lt", speakers: "~3M", like: "Sanskrit", verdict: ["DISTANT COUSIN", "#ff9500"], scene: "baltic", loc: [54.69, 25.28, "Vilnius, Lithuania"],
+        char: F({ skin: "pale", hair: "braids", hairColor: "blonde", outfit: { type: "dress", color: "#2e6b4f", color2: "#f4f1e8", trim: "#c0392b" }, expression: "smile" }),
+        cards: [
+          "Lithuanian kept many very old Indo-European features, so linguists love comparing it with Sanskrit: 'sūnus' (son) is Sanskrit 'sūnu'.",
+          "It still has seven noun cases and a pitch accent, which very few European languages keep today.",
+        ],
+        audio: { file: "WIKITONGUES- Erika speaking Lithuanian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Icelandic", flag: "is", speakers: "~350,000", like: "Vikings", verdict: ["PRETTY MUCH", "#34c759"], scene: "faroe", loc: [64.15, -21.94, "Reykjavík, Iceland"],
+        char: { skin: "pale", hair: "short", hairColor: "blonde", beard: true, beardColor: "#9a6b2f", outfit: { type: "coat", color: "#3a3a3a", inner: "#f4f1e8" }, hat: { type: "beanie", color: "#1f4e8c", color2: "#f4f1e8" }, expression: "grin" },
+        cards: [
+          "Icelandic changed so little that Icelanders can still read sagas written down over 700 years ago.",
+          "Instead of borrowing words it builds them: computer is 'tölva', from 'tala' (number) and 'völva' (prophetess).",
+        ],
+        audio: { file: "WIKITONGUES- Ljóni speaking Icelandic.webm", start: "auto" },
+      },
+      {
+        name: "Estonian", flag: "ee", speakers: "~1.1M", like: "Finnish", verdict: ["CLOSE COUSIN", "#34c759"], scene: "forest", loc: [59.44, 24.75, "Tallinn, Estonia"],
+        char: F({ skin: "pale", hair: "ponytail", hairColor: "brown", outfit: { type: "tunic", color: "#1f5f8b", trim: "#f4f1e8" }, glasses: true, expression: "smile" }),
+        cards: [
+          "Estonian and Finnish are close Finnic relatives and share many basic words: fish is 'kala' in both.",
+          "It has 14 noun cases, and vowel pileups like 'jäääär', the edge of the ice, with four ä in a row.",
+        ],
+        audio: { file: "WIKITONGUES- Liisi speaking Estonian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Georgian", flag: "ge", speakers: "~4M", like: "an alien language", verdict: ["VERY REAL", "#34c759"], scene: "tbilisi", loc: [41.72, 44.79, "Tbilisi, Georgia"],
+        char: F({ skin: "light", hair: "long", hairColor: "black", outfit: { type: "dress", color: "#7a1f1f", color2: "#f4f1e8", trim: "#e9c46a" }, expression: "grin" }),
+        cards: [
+          "Georgian loves consonant pileups: 'gvprtskvni' means 'you peel us', with eight consonant sounds in a row.",
+          "It isn't related to Russian, Turkish or Armenian, and has its own alphabet. The oldest Georgian inscriptions are from the 400s AD.",
+        ],
+        audio: { file: "WIKITONGUES- Mariam speaking Georgian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Neapolitan", flag: "it", speakers: "~5M", like: "Italian", verdict: ["OWN LANGUAGE", "#ff9500"], scene: "adriatic", loc: [40.85, 14.27, "Naples, Italy"],
+        char: { skin: "olive", hair: "curly", hairColor: "black", beard: true, outfit: { type: "shirt", color: "#1f4e8c", vest: "#f4f1e8" }, expression: "grin" },
+        cards: [
+          "Neapolitan grew out of Latin alongside Italian, so it isn't just Italian with an accent. It blurs final vowels into a soft 'uh'.",
+          "Many famous songs are in Neapolitan, like ’O sole mio and Funiculì, Funiculà.",
+        ],
+        audio: { file: "WIKITONGUES- Foffo speaking Neapolitan.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Polish", flag: "pl", speakers: "~40M", like: "Russian", verdict: ["SAME FAMILY", "#34c759"], scene: "prague", loc: [52.23, 21.01, "Warsaw, Poland"],
+        char: F({ skin: "pale", hair: "long", hairColor: "brown", outfit: { type: "coat", color: "#c0392b", inner: "#f4f1e8" }, expression: "smile" }),
+        cards: [
+          "Polish and Russian are both Slavic, but Polish uses the Latin alphabet, and its sz, cz and rz give it a shushing sound.",
+          "Famous tongue twister: 'W Szczebrzeszynie chrząszcz brzmi w trzcinie', a beetle buzzes in the reeds in Szczebrzeszyn.",
+        ],
+        audio: { file: "WIKITONGUES- Marta speaking Polish.webm", start: "auto", voice: "f" },
       },
     ],
   },
