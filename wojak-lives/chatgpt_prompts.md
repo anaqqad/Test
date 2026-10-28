@@ -58,6 +58,16 @@ thousand-yard stare, gritted-teeth rage (red face), shocked tiny pupils, smug sm
 smile with sweat drop. Every face must look like a Wojak meme, not a person. No text.
 ```
 
+### ✅ Approved master (v2)
+The v2 prompt worked. The approved sheet is saved as `brand/nobo/nobo_master.webp`, with transparent
+PNG cut-outs ready for CapCut: `bust_front`, `bust_side`, `bust_back`, and `face_stare`, `face_rage`,
+`face_shocked`, `face_smug`, `face_tear`, `face_forced_smile` (all `.png` in `brand/nobo/`).
+**Upload `nobo_master.webp` with every future prompt.**
+
+Two faces need a redo because **smug** and **forced smile** look almost the same. Regenerate them with:
+- `Use the exact same character as in the attached image. Head close-up, SMUG: one eyebrow raised high, eyes half-closed looking sideways at the viewer, a one-sided smirk pulled up on the right, chin slightly raised. Same simple Wojak meme style, transparent background.`
+- `Use the exact same character as in the attached image. Head close-up, FORCED SMILE: huge wide grin showing a full row of teeth, eyes completely dead and staring, big sweat drop, one eye twitching. Same simple Wojak meme style, transparent background.`
+
 ## 2. Single expressions (upload `nobo_master.png` first)
 Start each with: *"Use the exact same character as in the attached image: same face, scar, stubble and hoodie."* Then add:
 

@@ -29,6 +29,7 @@ Brand files (already made, in `brand/`; regenerate with `python3 wojak-lives/bra
 | `brand/thumbnail_mock.png` | 16:9 thumbnail layout example |
 | `brand/*.svg` | Vector sources. Every body part is its own `<g>`/path, so they double as a cut-out rig |
 | `brand/fonts/` | Lilita One + Baloo 2 ExtraBold (both free, SIL Open Font License) |
+| **`brand/nobo/`** | **Approved Nobo master sheet from ChatGPT (`nobo_master.webp`) + transparent PNG cut-outs: 3 busts, 6 faces** |
 | **`chatgpt_prompts.md`** | **The final character art: ChatGPT prompts for the detailed "badass" doomer-style Wojak cast, profile picture, thumbnails and props** |
 
 ---
