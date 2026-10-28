@@ -67,7 +67,7 @@ const T = {
   conlangs: { part: "PART 1", name: "Esperanto", photo: "conlangs", pos: "50% 50%", flagUrl: EO, hook: ["Someone", "Invented It"] },
   easy: { name: "Dutch", photo: "easy", pos: "50% 50%", flag: "nl", hook: ["Easiest", "Language?!"] },
   polite: { name: "Japanese", photo: "polite", pos: "50% 45%", flag: "jp", hook: ["Too", "Polite?!"] },
-  isolates: { name: "Burushaski", photo: "isolates", pos: "50% 50%", flag: "pk", hook: ["No Relatives", "At All?!"] },
+  isolates: { part: "PART 1", name: "Burushaski", photo: "isolates", pos: "50% 50%", flag: "pk", hook: ["No Relatives", "At All?!"] },
   conlangs3: { part: "PART 3", name: "Solresol", photo: "conlangs3", pos: "50% 55%", flagUrl: pathToFileURL(path.join(HERE, "flags", "solresol.svg")).href, hook: ["Made of", "Music?!"] },
   conlangs2: { part: "PART 2", name: "Uropi", photo: "conlangs2", pos: "50% 50%", flagUrl: pathToFileURL(path.join(HERE, "flags", "uropi.svg")).href, hook: ["Someone", "Invented It"] },
   extinct: { part: "PART 1", name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },

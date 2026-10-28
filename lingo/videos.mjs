@@ -388,8 +388,8 @@ export const VIDEOS = {
 
   // ------------------------------------------------------------------ 5
   isolates: {
-    title: "Language Isolates be like…", // languages with no known relatives; none of these was in an earlier video
-    part: "",
+    title: "Language Isolates be like…", // YouTube: "... (Part 1)"; languages with no known relatives, none in an earlier video
+    part: "Part 1",
     layout: "story",
     counterLabel: "speakers",
     accent: "#00a8a8",

@@ -70,3 +70,10 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
 13. Tonal Languages be like (owner, 2026-10-28): Mandarin, Cantonese, Vietnamese, Thai, Yoruba, Hmong, Igbo,
    Navajo, Punjabi (has tones!), Swedish/Norwegian pitch accent as a bonus. Same syllable, different tones, real
    recordings (e.g. Mandarin ma1-ma4 on Commons).
+
+14. Language Isolates be like (Part 2) (2026-10-28). Part 1 = `isolates` (Burushaski, Mapudungun, Sandawe, Warao, Tiwi).
+   New isolates with free (CC BY) recordings found on YouTube, owner downloads them:
+   Hadza (UCLA Phonetics Lab "Hadza audio: hts_story_1991_01" IeFQs6SCd-s), Haida (X̱aad Kíl "Haida Language: How is
+   the Weather Today?" WiMYKegVxhQ), Ticuna (Rising Voices "Abel Antonio Santos - tikuna" u2nvEfLybv4), Purépecha
+   (Michoacán Intercultural "Learn greetings in Purépecha" 3rnkCjvO0kg). Not enough new isolates for a Part 3
+   unless it reuses Basque, Ainu, Kusunda (earlier videos) or new recordings turn up (Zuni, Nivkh, Kutenai, Yuchi, Seri...).

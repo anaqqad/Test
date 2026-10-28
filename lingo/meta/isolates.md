@@ -1,7 +1,7 @@
-# YouTube metadata: Language Isolates be like
+# YouTube metadata: Language Isolates be like (Part 1)
 
 ## Title
-Language Isolates be like…
+Language Isolates be like… (Part 1)
 
 ## Description
 Most languages have relatives: Spanish and Hindi share an ancestor, Arabic and Hebrew are cousins. Language isolates have none. These five languages are related to nothing else on Earth, and every voice you hear is a real speaker: a COVID survivor in the mountains of Pakistan, a Mapuche speaker from Chile, click words from central Tanzania, a Bible reading from the Orinoco delta, and an islander from northern Australia.
