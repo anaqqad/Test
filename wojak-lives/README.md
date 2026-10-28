@@ -29,6 +29,7 @@ Brand files (already made, in `brand/`; regenerate with `python3 wojak-lives/bra
 | `brand/thumbnail_mock.png` | 16:9 thumbnail layout example |
 | `brand/*.svg` | Vector sources. Every body part is its own `<g>`/path, so they double as a cut-out rig |
 | `brand/fonts/` | Lilita One + Baloo 2 ExtraBold (both free, SIL Open Font License) |
+| **`chatgpt_prompts.md`** | **The final character art: ChatGPT prompts for the detailed "badass" doomer-style Wojak cast, profile picture, thumbnails and props** |
 
 ---
 
@@ -91,6 +92,30 @@ animation. That's under an hour per video in CapCut.
 
 Do **not** reuse: their specific niqab/thobe Wojak drawings (or any downloaded Wojak edits), their fonts/caption layout, their photos, the meme cut-in image, or
 their audio.
+
+### Reference channels (saved)
+
+**Broke & Famous**: https://www.youtube.com/@brokeandfamous22 (saved Oct 2026). **The closest competitor and the art target.**
+- 3.75K subscribers, 20 videos, ~43K views in the past week. One recurring doomer Wojak (black beanie,
+  black tank top, stippled stubble, black-and-white) who "battles greedy bosses, bizarre customers and the
+  endless struggle to make rent". Weekly uploads.
+- **Long-form, not Shorts:** 16:9, 5–10 minutes each (e.g. 8:14, 8:07, 8:46).
+- Topics/titles (newest first): Living In A Tent (30K views, 1 day) · Living In A Car (96K, 2 weeks) ·
+  Inflation In 2026 (61K) · Job Interviews · Rent In 2026 · Pre Ordering GTA 6 Be Like · Unemployment ·
+  Job Hunting In 2026 · Life Of A Truck Driver · Living With Your Parents · Life Of A Night Shift Worker ·
+  Life Of A Fast Food Employee · Life Of A Retail Employee · Applying For A Job · Wojaks Night Out ·
+  Being An Introvert Be Like · Being A Gym Rat Be Like · When You Forget Your Anniversary · Wojak Becomes
+  Unemployed · Buying Your First House Be Like.
+- Thumbnails: the Wojak's face huge on one side (gritted teeth, eye bags), a blurred real photo behind,
+  one big prop (tent, car, a "GROCERIES $2500" sign), and almost no text.
+- **Take:** the detailed "badass" doomer-Wojak art quality, blurred-photo thumbnails, a money/jobs topic
+  pillar, and a long-form version of our episodes.
+- **Don't take:** their character design (beanie + tank top), titles or thumbnails 1:1. Our differences:
+  the coral hoodie on a bald, scarred Wojak, a named family cast, culture episodes, and the "Life as…" brand.
+- Overlap to manage: their "Being An Introvert" and money episodes overlap our EP001 and EP003. Ours need
+  different jokes and our own angle.
+
+**Wojak Lore**: https://www.youtube.com/@WOJAKLORE77: archetype Shorts ("Types of Girlfriends", "Mandarin"), detailed coloured Wojak girls.
 
 ---
 
@@ -269,7 +294,12 @@ over 1 minute that pick up a Content ID claim can be blocked, and ours are all o
 
 ## 7. The characters (Wojak style)
 
-See `brand/character_sheet.png` and `brand/expressions.png`. **The whole cast is Wojak-style**: the meme
+**Art direction (updated):** the final art is the detailed doomer-Wojak style (ink lines, stipple stubble,
+hatching, dark eye bags), generated in ChatGPT with `chatgpt_prompts.md`. Nobo is now bald with a buzz-cut,
+has a scar through his eyebrow and heavy stubble, and wears the coral hoodie. The flat SVG cast in `brand/`
+is only for layouts and animatics.
+
+See `brand/character_sheet.png` and `brand/expressions.png` for the layout versions. **The whole cast is Wojak-style**: the meme
 face audiences already know and read instantly. **We draw every Wojak ourselves** (the rig in
 `brand/draw_cast.py`) and never download Wojak PNGs from the web. Those are other artists' edits, and
 re-using them is the fastest way to look like every other Wojak channel. What makes ours recognisable is
