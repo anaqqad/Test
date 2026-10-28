@@ -34,6 +34,8 @@ for (const card of sb.overlays) {
   await renderMedia({
     composition, serveUrl, codec: "vp9", pixelFormat: "yuva420p", imageFormat: "png", crf: 18,
     outputLocation: out, inputProps, browserExecutable, concurrency: 3, muted: true,
+    // HEIGHT=720 renders 1280x720 (the published size): frames are written to temp as PNGs first, ~2 MB each at 1080p
+    scale: Number(process.env.HEIGHT || 1080) / 1080,
   });
   console.log(card.id, frames, "frames", ((Date.now() - t) / 1000).toFixed(0) + "s");
 }

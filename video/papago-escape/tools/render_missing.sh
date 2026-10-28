@@ -12,12 +12,16 @@ for c in o:
     ok = os.path.exists(f) and subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f], capture_output=True, text=True).stdout.strip() not in ('', 'N/A')
     if not ok:
         bad.append(c['id'])
-        if os.path.exists(f): os.remove(f)
-print(' '.join(bad))")
-  [ -z "$ids" ] && { echo ALLDONE; exit 0; }
+        try:
+            os.remove(f)
+        except OSError:
+            pass
+print(' '.join(bad) or 'NONE')")
+  [ "$ids" = NONE ] && { echo ALLDONE; exit 0; }
+  [ -z "$ids" ] && { echo "check failed, retrying"; sleep 20; continue; }
   free=$(df -m /c | awk 'NR==2{print $4}')
   if [ "$free" -lt 300 ]; then echo "attempt $attempt: only ${free} MB free, waiting"; sleep 60; continue; fi
   echo "attempt $attempt: $(echo $ids | wc -w) cards to render (${free} MB free)"
-  node render.mjs $ids 2>&1 | grep -E "frames [0-9]+s$|No space" | tail -3
+  HEIGHT=${HEIGHT:-720} node render.mjs $ids 2>&1 | grep -E "frames [0-9]+s$|No space" | tail -3
 done
 echo GAVEUP

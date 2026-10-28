@@ -66,7 +66,7 @@ P = [
      ("#", "One of them", None, {"type": "LedgerQuote", "file": "FILE 03 — THE FENCE", "head": "Three ways past it",
         "before": "Go through it, fly over it, ", "key": "or dig under it", "after": ".", "who": "Lt. Wolfgang Clarus, U-boat officer, Papago Park", "source": f"Quoted in {BA}"})],
     # 7 the blind spot
-    [("The camp's provost marshal", "AZ", T(5, 0.8)), ("@", "The camp's provost marshal", AZ_TAG),
+    [("The camp's provost marshal", "AZ", T(17, 59.0)), ("@", "The camp's provost marshal", AZ_TAG), ("Part of the officers", "DES", T(1, 42.5)),
      ("#", "I knew they would", "In September", {"type": "LedgerQuote", "file": "FILE 04 — THE BLIND SPOT", "head": "What the provost marshal knew",
         "before": "I knew they would discover ", "key": "that blind spot", "after": ".", "who": "Capt. Cecil Parshall, provost marshal, Camp Papago Park", "source": f"Quoted in {BA}"}),
      ("In September", "SURV", T(5, 18.9))],
@@ -154,13 +154,13 @@ P = [
     # 26 punishment
     [("Some of the escapees", "SURV", T(3, 26.4)),
      ("#", "Instead, each man got", None, {"type": "Slug", "title": "Bread and water", "subtitle": "One day for every day gone"}),
-     ("No American officer", "AZ", T(5, 0.8)), ("The F B I looked into", "AZ", T(37, 29.4))],
+     ("No American officer", "AZ", T(17, 59.0)), ("The F B I looked into", "AZ", T(37, 29.4))],
     # 27
     [("Clarus later said", "DES", T(32, 17.5)), ("In May", "U858", T(4, 13.3)),
      ("#", "In May", None, {"type": "Slug", "title": "May 1945", "subtitle": "Germany surrenders"}),
      ("After the war", "U858", T(9, 28.1))],
     # 28 reunion
-    [("Wattenberg came back", "AZ", T(39, 19.4)), ("@", "Wattenberg came back", AZ_TAG),
+    [("Wattenberg came back", "AZ", T(39, 13.0)), ("At one of them", "AZ", T(37, 43.1)), ("He died in Hamburg", "AZ", T(31, 49.2)), ("@", "Wattenberg came back", AZ_TAG),
      ("#", "At one of them", None, {"type": "LedgerQuote", "file": "FILE 13 — 1985", "head": "At a reunion in Arizona",
         "before": "Strange we have to ", "key": "kill each other before we become friends", "after": ".", "who": "Jürgen Wattenberg, 1985",
         "source": "Quoted in D. Towne, “Nazis in Papago”, PHOENIX magazine (Nov. 2023)"})],

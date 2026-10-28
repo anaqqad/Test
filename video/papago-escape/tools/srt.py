@@ -36,7 +36,7 @@ def flush():
 for t in timed:
     if t is None: flush(); continue
     line = " ".join(w for w, _, _ in cur + [t])
-    if cur and len(line) > MAX: flush()
+    if cur and len(line) > MAX and not (re.search(r"[.!?]$", t[0]) and len(line) <= MAX + 8): flush()  # keep a sentence's last word on its line
     cur.append(t)
     if re.search(r"[.!?:;]$", t[0]) or (re.search(r",$", t[0]) and len(" ".join(w for w, _, _ in cur)) > MAX * 0.6): flush()
 flush()

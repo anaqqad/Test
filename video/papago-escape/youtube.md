@@ -33,7 +33,16 @@ This is the documented story of the largest escape of enemy prisoners from an Am
 
 ⏱️ Chapters
 0:00 Twenty-five men and a boat
-CHAPTERS_TBD
+0:47 Camp Papago Park and the U-boat men
+2:24 The blind spot
+3:23 Hiding the dirt: the faustball court
+4:25 The three mad boatmen
+5:08 December 23, 1944
+6:22 Cold, rain and cactus: the desert wins
+7:32 The river
+8:08 The last man: 75 cents in Phoenix
+9:13 Bread and water
+10:16 Where the tunnel came up
 
 📚 Sources
 - John Hammond Moore, The Faustball Tunnel: German POWs in America and Their Great Escape (Random House, 1978)
