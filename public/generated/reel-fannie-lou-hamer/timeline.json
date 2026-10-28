@@ -1,0 +1,957 @@
+{
+ "fps": 30,
+ "durationInFrames": 1887,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 166,
+ "wpm": 158.3,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.229,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.0,
+     "end": 0.128
+    },
+    {
+     "text": "President",
+     "start": 0.163,
+     "end": 0.557
+    },
+    {
+     "text": "tried",
+     "start": 0.58,
+     "end": 0.789
+    },
+    {
+     "text": "to",
+     "start": 0.813,
+     "end": 0.859
+    },
+    {
+     "text": "pull",
+     "start": 0.894,
+     "end": 1.045
+    },
+    {
+     "text": "cameras",
+     "start": 1.103,
+     "end": 1.463
+    },
+    {
+     "text": "off",
+     "start": 1.521,
+     "end": 1.66
+    },
+    {
+     "text": "her.",
+     "start": 1.695,
+     "end": 2.229
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 79
+  },
+  {
+   "id": "name",
+   "speechEnd": 4.354,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.729,
+     "end": 2.961
+    },
+    {
+     "text": "Fannie",
+     "start": 3.019,
+     "end": 3.298
+    },
+    {
+     "text": "Lou",
+     "start": 3.344,
+     "end": 3.484
+    },
+    {
+     "text": "Hamer.",
+     "start": 3.565,
+     "end": 4.354
+    }
+   ],
+   "cues": {},
+   "startFrame": 79,
+   "endFrame": 143
+  },
+  {
+   "id": "born",
+   "speechEnd": 9.894,
+   "words": [
+    {
+     "text": "The",
+     "start": 4.855,
+     "end": 5.018
+    },
+    {
+     "text": "youngest",
+     "start": 5.087,
+     "end": 5.435
+    },
+    {
+     "text": "of",
+     "start": 5.482,
+     "end": 5.54
+    },
+    {
+     "text": "twenty",
+     "start": 5.586,
+     "end": 5.877
+    },
+    {
+     "text": "children",
+     "start": 5.923,
+     "end": 6.26
+    },
+    {
+     "text": "of",
+     "start": 6.283,
+     "end": 6.329
+    },
+    {
+     "text": "Mississippi",
+     "start": 6.388,
+     "end": 6.829
+    },
+    {
+     "text": "sharecroppers,",
+     "start": 6.875,
+     "end": 7.734
+    },
+    {
+     "text": "she",
+     "start": 7.932,
+     "end": 8.083
+    },
+    {
+     "text": "picked",
+     "start": 8.164,
+     "end": 8.408
+    },
+    {
+     "text": "cotton",
+     "start": 8.466,
+     "end": 8.837
+    },
+    {
+     "text": "from",
+     "start": 8.895,
+     "end": 9.035
+    },
+    {
+     "text": "age",
+     "start": 9.104,
+     "end": 9.336
+    },
+    {
+     "text": "six.",
+     "start": 9.383,
+     "end": 9.894
+    }
+   ],
+   "cues": {},
+   "startFrame": 143,
+   "endFrame": 305
+  },
+  {
+   "id": "vote",
+   "speechEnd": 16.372,
+   "words": [
+    {
+     "text": "In",
+     "start": 10.254,
+     "end": 10.393
+    },
+    {
+     "text": "1962,",
+     "start": 10.451,
+     "end": 11.496
+    },
+    {
+     "text": "she",
+     "start": 11.531,
+     "end": 11.658
+    },
+    {
+     "text": "tried",
+     "start": 11.716,
+     "end": 11.972
+    },
+    {
+     "text": "to",
+     "start": 12.007,
+     "end": 12.053
+    },
+    {
+     "text": "register",
+     "start": 12.134,
+     "end": 12.529
+    },
+    {
+     "text": "to",
+     "start": 12.587,
+     "end": 12.634
+    },
+    {
+     "text": "vote.",
+     "start": 12.692,
+     "end": 13.11
+    },
+    {
+     "text": "That",
+     "start": 13.423,
+     "end": 13.667
+    },
+    {
+     "text": "night,",
+     "start": 13.737,
+     "end": 13.992
+    },
+    {
+     "text": "she",
+     "start": 14.015,
+     "end": 14.131
+    },
+    {
+     "text": "was",
+     "start": 14.178,
+     "end": 14.282
+    },
+    {
+     "text": "thrown",
+     "start": 14.34,
+     "end": 14.665
+    },
+    {
+     "text": "off",
+     "start": 14.712,
+     "end": 14.851
+    },
+    {
+     "text": "the",
+     "start": 14.898,
+     "end": 14.967
+    },
+    {
+     "text": "plantation",
+     "start": 15.002,
+     "end": 15.548
+    },
+    {
+     "text": "where",
+     "start": 15.594,
+     "end": 15.734
+    },
+    {
+     "text": "she",
+     "start": 15.768,
+     "end": 15.85
+    },
+    {
+     "text": "worked.",
+     "start": 15.919,
+     "end": 16.372
+    }
+   ],
+   "cues": {},
+   "startFrame": 305,
+   "endFrame": 499
+  },
+  {
+   "id": "winona",
+   "speechEnd": 22.549,
+   "words": [
+    {
+     "text": "In",
+     "start": 16.732,
+     "end": 16.883
+    },
+    {
+     "text": "1963,",
+     "start": 16.941,
+     "end": 18.021
+    },
+    {
+     "text": "in",
+     "start": 18.056,
+     "end": 18.172
+    },
+    {
+     "text": "a",
+     "start": 18.218,
+     "end": 18.241
+    },
+    {
+     "text": "Winona",
+     "start": 18.288,
+     "end": 18.624
+    },
+    {
+     "text": "jail,",
+     "start": 18.683,
+     "end": 19.124
+    },
+    {
+     "text": "police",
+     "start": 19.263,
+     "end": 19.623
+    },
+    {
+     "text": "ordered",
+     "start": 19.669,
+     "end": 19.936
+    },
+    {
+     "text": "two",
+     "start": 19.971,
+     "end": 20.134
+    },
+    {
+     "text": "Black",
+     "start": 20.192,
+     "end": 20.401
+    },
+    {
+     "text": "prisoners",
+     "start": 20.459,
+     "end": 20.842
+    },
+    {
+     "text": "to",
+     "start": 20.888,
+     "end": 20.935
+    },
+    {
+     "text": "beat",
+     "start": 20.993,
+     "end": 21.155
+    },
+    {
+     "text": "her",
+     "start": 21.19,
+     "end": 21.26
+    },
+    {
+     "text": "with",
+     "start": 21.295,
+     "end": 21.411
+    },
+    {
+     "text": "a",
+     "start": 21.446,
+     "end": 21.469
+    },
+    {
+     "text": "blackjack.",
+     "start": 21.504,
+     "end": 22.549
+    }
+   ],
+   "cues": {},
+   "startFrame": 499,
+   "endFrame": 688
+  },
+  {
+   "id": "party",
+   "speechEnd": 29.283,
+   "words": [
+    {
+     "text": "In",
+     "start": 23.048,
+     "end": 23.211
+    },
+    {
+     "text": "1964,",
+     "start": 23.269,
+     "end": 24.209
+    },
+    {
+     "text": "her",
+     "start": 24.244,
+     "end": 24.337
+    },
+    {
+     "text": "Freedom",
+     "start": 24.395,
+     "end": 24.662
+    },
+    {
+     "text": "Democratic",
+     "start": 24.708,
+     "end": 25.126
+    },
+    {
+     "text": "Party",
+     "start": 25.184,
+     "end": 25.416
+    },
+    {
+     "text": "challenged",
+     "start": 25.474,
+     "end": 25.939
+    },
+    {
+     "text": "Mississippi's",
+     "start": 26.009,
+     "end": 26.543
+    },
+    {
+     "text": "all-white",
+     "start": 26.601,
+     "end": 27.077
+    },
+    {
+     "text": "delegation",
+     "start": 27.111,
+     "end": 27.704
+    },
+    {
+     "text": "at",
+     "start": 27.901,
+     "end": 28.052
+    },
+    {
+     "text": "the",
+     "start": 28.087,
+     "end": 28.156
+    },
+    {
+     "text": "Democratic",
+     "start": 28.203,
+     "end": 28.667
+    },
+    {
+     "text": "convention.",
+     "start": 28.702,
+     "end": 29.283
+    }
+   ],
+   "cues": {},
+   "startFrame": 688,
+   "endFrame": 885
+  },
+  {
+   "id": "testify",
+   "speechEnd": 32.069,
+   "words": [
+    {
+     "text": "On",
+     "start": 29.596,
+     "end": 29.77
+    },
+    {
+     "text": "live",
+     "start": 29.84,
+     "end": 30.107
+    },
+    {
+     "text": "television,",
+     "start": 30.13,
+     "end": 30.629
+    },
+    {
+     "text": "she",
+     "start": 30.653,
+     "end": 30.745
+    },
+    {
+     "text": "told",
+     "start": 30.803,
+     "end": 30.978
+    },
+    {
+     "text": "the",
+     "start": 31.012,
+     "end": 31.082
+    },
+    {
+     "text": "committee",
+     "start": 31.117,
+     "end": 31.43
+    },
+    {
+     "text": "everything.",
+     "start": 31.488,
+     "end": 32.069
+    }
+   ],
+   "cues": {},
+   "startFrame": 885,
+   "endFrame": 972
+  },
+  {
+   "id": "lbj",
+   "speechEnd": 36.19,
+   "words": [
+    {
+     "text": "President",
+     "start": 32.487,
+     "end": 32.905
+    },
+    {
+     "text": "Johnson",
+     "start": 32.951,
+     "end": 33.311
+    },
+    {
+     "text": "called",
+     "start": 33.381,
+     "end": 33.613
+    },
+    {
+     "text": "a",
+     "start": 33.636,
+     "end": 33.671
+    },
+    {
+     "text": "sudden",
+     "start": 33.706,
+     "end": 33.938
+    },
+    {
+     "text": "press",
+     "start": 33.984,
+     "end": 34.193
+    },
+    {
+     "text": "conference,",
+     "start": 34.251,
+     "end": 34.704
+    },
+    {
+     "text": "to",
+     "start": 34.727,
+     "end": 34.797
+    },
+    {
+     "text": "pull",
+     "start": 34.855,
+     "end": 35.006
+    },
+    {
+     "text": "the",
+     "start": 35.052,
+     "end": 35.122
+    },
+    {
+     "text": "cameras",
+     "start": 35.157,
+     "end": 35.494
+    },
+    {
+     "text": "away",
+     "start": 35.529,
+     "end": 35.714
+    },
+    {
+     "text": "from",
+     "start": 35.749,
+     "end": 35.877
+    },
+    {
+     "text": "her.",
+     "start": 35.935,
+     "end": 36.19
+    }
+   ],
+   "cues": {},
+   "startFrame": 972,
+   "endFrame": 1097
+  },
+  {
+   "id": "aired",
+   "speechEnd": 40.939,
+   "words": [
+    {
+     "text": "It",
+     "start": 36.678,
+     "end": 36.806
+    },
+    {
+     "text": "didn't",
+     "start": 36.84,
+     "end": 37.061
+    },
+    {
+     "text": "work.",
+     "start": 37.096,
+     "end": 37.479
+    },
+    {
+     "text": "That",
+     "start": 38.141,
+     "end": 38.35
+    },
+    {
+     "text": "night,",
+     "start": 38.408,
+     "end": 38.733
+    },
+    {
+     "text": "the",
+     "start": 38.849,
+     "end": 38.953
+    },
+    {
+     "text": "networks",
+     "start": 39.011,
+     "end": 39.395
+    },
+    {
+     "text": "aired",
+     "start": 39.441,
+     "end": 39.662
+    },
+    {
+     "text": "her",
+     "start": 39.696,
+     "end": 39.766
+    },
+    {
+     "text": "testimony",
+     "start": 39.813,
+     "end": 40.312
+    },
+    {
+     "text": "anyway.",
+     "start": 40.381,
+     "end": 40.939
+    }
+   ],
+   "cues": {},
+   "startFrame": 1097,
+   "endFrame": 1257
+  },
+  {
+   "id": "quote",
+   "speechEnd": 47.104,
+   "words": [
+    {
+     "text": "Is",
+     "start": 41.995,
+     "end": 42.169
+    },
+    {
+     "text": "this",
+     "start": 42.216,
+     "end": 42.367
+    },
+    {
+     "text": "America,",
+     "start": 42.425,
+     "end": 43.029
+    },
+    {
+     "text": "she",
+     "start": 43.145,
+     "end": 43.272
+    },
+    {
+     "text": "asked,",
+     "start": 43.342,
+     "end": 43.806
+    },
+    {
+     "text": "the",
+     "start": 44.224,
+     "end": 44.317
+    },
+    {
+     "text": "land",
+     "start": 44.375,
+     "end": 44.584
+    },
+    {
+     "text": "of",
+     "start": 44.631,
+     "end": 44.689
+    },
+    {
+     "text": "the",
+     "start": 44.724,
+     "end": 44.793
+    },
+    {
+     "text": "free",
+     "start": 44.84,
+     "end": 45.13
+    },
+    {
+     "text": "and",
+     "start": 45.188,
+     "end": 45.327
+    },
+    {
+     "text": "the",
+     "start": 45.374,
+     "end": 45.443
+    },
+    {
+     "text": "home",
+     "start": 45.478,
+     "end": 45.641
+    },
+    {
+     "text": "of",
+     "start": 45.676,
+     "end": 45.722
+    },
+    {
+     "text": "the",
+     "start": 45.757,
+     "end": 45.827
+    },
+    {
+     "text": "brave?",
+     "start": 45.861,
+     "end": 47.104
+    }
+   ],
+   "cues": {},
+   "startFrame": 1257,
+   "endFrame": 1425
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 53.862,
+   "words": [
+    {
+     "text": "She",
+     "start": 47.604,
+     "end": 47.767
+    },
+    {
+     "text": "died",
+     "start": 47.836,
+     "end": 48.092
+    },
+    {
+     "text": "in",
+     "start": 48.126,
+     "end": 48.173
+    },
+    {
+     "text": "1977.",
+     "start": 48.219,
+     "end": 49.334
+    },
+    {
+     "text": "Her",
+     "start": 49.752,
+     "end": 49.891
+    },
+    {
+     "text": "gravestone",
+     "start": 49.938,
+     "end": 50.448
+    },
+    {
+     "text": "reads:",
+     "start": 50.495,
+     "end": 50.994
+    },
+    {
+     "text": "I",
+     "start": 51.354,
+     "end": 51.4
+    },
+    {
+     "text": "am",
+     "start": 51.482,
+     "end": 51.575
+    },
+    {
+     "text": "sick",
+     "start": 51.656,
+     "end": 51.865
+    },
+    {
+     "text": "and",
+     "start": 51.911,
+     "end": 51.993
+    },
+    {
+     "text": "tired",
+     "start": 52.051,
+     "end": 52.434
+    },
+    {
+     "text": "of",
+     "start": 52.469,
+     "end": 52.527
+    },
+    {
+     "text": "being",
+     "start": 52.596,
+     "end": 52.817
+    },
+    {
+     "text": "sick",
+     "start": 52.898,
+     "end": 53.119
+    },
+    {
+     "text": "and",
+     "start": 53.165,
+     "end": 53.246
+    },
+    {
+     "text": "tired.",
+     "start": 53.293,
+     "end": 53.862
+    }
+   ],
+   "cues": {},
+   "startFrame": 1425,
+   "endFrame": 1624
+  },
+  {
+   "id": "close",
+   "speechEnd": 58.703,
+   "words": [
+    {
+     "text": "The",
+     "start": 54.222,
+     "end": 54.338
+    },
+    {
+     "text": "President",
+     "start": 54.384,
+     "end": 54.767
+    },
+    {
+     "text": "tried",
+     "start": 54.802,
+     "end": 55.023
+    },
+    {
+     "text": "to",
+     "start": 55.046,
+     "end": 55.092
+    },
+    {
+     "text": "pull",
+     "start": 55.139,
+     "end": 55.29
+    },
+    {
+     "text": "the",
+     "start": 55.336,
+     "end": 55.406
+    },
+    {
+     "text": "cameras",
+     "start": 55.441,
+     "end": 55.835
+    },
+    {
+     "text": "off",
+     "start": 55.894,
+     "end": 56.044
+    },
+    {
+     "text": "her.",
+     "start": 56.091,
+     "end": 56.381
+    },
+    {
+     "text": "The",
+     "start": 56.648,
+     "end": 56.764
+    },
+    {
+     "text": "country",
+     "start": 56.811,
+     "end": 57.101
+    },
+    {
+     "text": "heard",
+     "start": 57.159,
+     "end": 57.345
+    },
+    {
+     "text": "her",
+     "start": 57.391,
+     "end": 57.472
+    },
+    {
+     "text": "anyway.",
+     "start": 57.531,
+     "end": 58.703
+    }
+   ],
+   "cues": {},
+   "startFrame": 1624,
+   "endFrame": 1773
+  },
+  {
+   "id": "cta",
+   "speechEnd": 61.711,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 59.203,
+     "end": 59.551
+    },
+    {
+     "text": "The",
+     "start": 59.598,
+     "end": 59.667
+    },
+    {
+     "text": "Black",
+     "start": 59.702,
+     "end": 59.911
+    },
+    {
+     "text": "History",
+     "start": 59.958,
+     "end": 60.248
+    },
+    {
+     "text": "Room",
+     "start": 60.294,
+     "end": 60.457
+    },
+    {
+     "text": "for",
+     "start": 60.515,
+     "end": 60.619
+    },
+    {
+     "text": "one",
+     "start": 60.689,
+     "end": 60.852
+    },
+    {
+     "text": "story",
+     "start": 60.898,
+     "end": 61.212
+    },
+    {
+     "text": "a",
+     "start": 61.258,
+     "end": 61.281
+    },
+    {
+     "text": "day.",
+     "start": 61.328,
+     "end": 61.711
+    }
+   ],
+   "cues": {},
+   "startFrame": 1773,
+   "endFrame": 1887
+  }
+ ]
+}
