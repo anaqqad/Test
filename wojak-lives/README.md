@@ -295,6 +295,10 @@ over 1 minute that pick up a Content ID claim can be blocked, and ours are all o
 
 ## 7. The characters (Wojak style)
 
+> **Decision (owner, latest):** no recurring cast and no coral brand colour. Each video draws its own
+> Wojaks for its story. The channel's only fixed character is the **black-and-grey profile picture**
+> (`chatgpt_prompts.md`, prompt 4). The cast below is optional inspiration, not a requirement.
+
 **Art direction (updated):** the final art is the doomer-Wojak *meme* style (simple MS-Paint Wojak face,
 thin lines, flat colours, a few stubble dots, dark eye bags; not realistic), generated in ChatGPT with
 `chatgpt_prompts.md`. Nobo is bald with a faint buzz-cut, a scar through his eyebrow and a little stubble,

@@ -1,5 +1,9 @@
 # Wojak Lives: ChatGPT image prompt pack (badass Wojak art)
 
+**Decision (owner):** no recurring cast. **Each video draws its own Wojaks** for that story. The only fixed
+character is the **profile picture**: black and grey only, no orange (prompt 4). Nobo's sheet in `brand/nobo/`
+is just a style sample; use prompts 1–3 as templates for each video's own characters.
+
 The final character art comes from **ChatGPT image generation**, not the flat SVG rig in `brand/`. The rig
 is now only for quick layout tests and animatics. The target look is the "doomer Wojak" meme style: the
 simple MS-Paint Wojak face template, thin black lines, flat colours, a few stubble dots, dark eye bags, tough
@@ -95,12 +99,15 @@ Begin each with: *"Same simple Wojak-meme drawing style as the attached image (t
 - **Bro:** `a "Chad"-style Wojak friend with blond swept hair, square jaw, huge enthusiastic grin, yellow t-shirt, arms open wide. Half-body, transparent background.`
 - **NPC crowd:** `three grey "NPC Wojak" characters side by side: flat grey skin, dot eyes, triangle nose, straight line mouth, plain grey clothes, identical blank expressions. Transparent background.`
 
-## 4. Profile picture
+## 4. Profile picture (black and grey only)
 ```
-Square 1:1 YouTube profile picture. Use the exact same character as in the attached image (Nobo).
-Head-and-shoulders, centred, filling most of the frame, three-quarter view, thousand-yard stare,
-simple MS-Paint doomer-Wojak meme style with a few stubble dots and dark eye bags, coral-orange hoodie (#FF6B4A)
-with hood down. Background: flat solid royal blue (#3D7BFF) circle. No text. Must read clearly at tiny sizes.
+Square 1:1 YouTube profile picture. One original Wojak meme character, head and shoulders, centred,
+filling most of the frame. Classic simple MS Paint Wojak face template: bald egg-shaped head with a faint
+grey buzz-cut tone, three-quarter view facing right, heavy droopy eyelids, dark grey eye bags, tired
+thousand-yard stare, the hooked one-line Wojak nose, short flat mouth, a few scattered black stubble dots,
+a thin black scar line through his left eyebrow. Plain black hoodie with the hood down.
+STRICTLY black, white and grey only: no colour anywhere. Background: flat light-grey circle.
+Thin wobbly black lines, flat fills, no realism, no texture. No text. Must read clearly at tiny sizes.
 ```
 
 ## 5. Thumbnail (16:9, landscape)
