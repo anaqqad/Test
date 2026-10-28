@@ -613,3 +613,21 @@ driver's licence · flat-sharing with strangers · graduate looking for a job
 
 **Jobs:** waiter · nurse on night shift · primary school teacher · IT support · delivery rider · call centre
 agent · barista · pharmacist · taxi driver · content creator · intern · supermarket cashier
+
+---
+
+## 14. Channel bio (YouTube "About")
+
+```
+Every life is a little ridiculous. 🫠
+
+Wojak tries a different life every episode: the introvert dragged to a party, the broke student with
+€12 left, the eldest daughter running the whole family, the new guy at his first job… and somehow it
+always goes wrong.
+
+New "Life as…" episodes every week.
+Comment the life you want Wojak to live next 👇
+
+Disclaimer: Wojak Lives is satirical parody made for entertainment. All characters, names and events are
+fictional. Any resemblance to your own life is painfully accurate.
+```
