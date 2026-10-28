@@ -5,7 +5,6 @@
 | **Title** | Life as an Introvert (someone actually invited me) |
 | Alt titles | Life as an introvert 🫠 · Life as an introvert at a party |
 | **Title tag** | LIFE AS AN INTROVERT |
-| **Chest tag** | ME |
 | **Lead / cast** | Nobo · Bro (bestie) · NPC "Alex" · a cat |
 | **Story engine** | One event spirals |
 | **Length** | ~72 s (script ≈ 175 words) |
@@ -13,7 +12,7 @@
 
 ## Hook (0:00–0:03)
 Black-out bedroom, phone lights up Nobo's face. **Bubble on the phone: "party at mine tonight. you're
-coming 🙂"**. The curl goes **BOING**. VO: *"Every introvert's horror movie starts with one text."*
+coming 🙂"**. His eyes pop (**BOING**). VO: *"Every introvert's horror movie starts with one text."*
 
 **Stronger-hook options to A/B test:** (a) open on the bubble alone, full screen, with a horror-sting
 sound, then reveal Nobo; (b) start on the line "My thumbs betrayed me." with the phone already showing
@@ -43,20 +42,20 @@ sound, then reveal Nobo; (b) start on the line "My thumbs betrayed me." with the
 
 | # | Time | Background | Action & expression | VO / dialogue | On-screen text | Camera | Sound |
 |---|---|---|---|---|---|---|---|
-| 1 | 0:00–0:03 | BG-A bedroom, night | Nobo P08 blanket burrito in bed, phone glow on face. Deadpan → **Shocked**, curl boing | "Every introvert's horror movie starts with one text." | Title tag slap. Phone bubble: "party at mine tonight. you're coming 🙂" | Static, then punch-in 120 % on boing | Tag slap · phone buzz · BOING · horror-movie sting (short) |
-| 2 | 0:03–0:07 | BG-A | P15 typing, thumbs blurred. **Panic**. A "haha sure!!" bubble pops and a *sent* tick appears | "And my thumbs said 'sure' before my brain could stop them." | "haha sure!!" ✓✓ | Slow push 100→108 % | Typing clicks · whoosh-send |
-| 3 | 0:07–0:12 | BG-A, lights on | Nobo P12 flopped face-up on bed. **Dead inside** | "Now I have six hours to prepare. Emotionally. Like an astronaut." | Countdown "T-MINUS 05:59:59" ticking | Static; small NASA helmet sticker pops on Nobo for 1 s on "astronaut" | Clock ticks · tiny rocket-launch rumble |
-| 4 | 0:12–0:19 | BG-B bathroom mirror | Nobo P02 waving at mirror (two Nobos, one is the reflection). Faces cycle **Deadpan → Happy → Panic** | "I practised saying 'hey' in the mirror. Forty times. Version thirty-seven was too excited. They'd think I'm starting a cult." | Popping: "hey." / "hey!" / "HEY!!!" / counter "#37" | Hard cuts on each "hey" | Each "hey" a pop · gasp on #37 |
+| 1 | 0:00–0:03 | BG-A bedroom, night | Nobo P08 blanket burrito in bed, phone glow on face. Feels → **Soy**, eyes pop (BOING) | "Every introvert's horror movie starts with one text." | Title tag slap. Phone bubble: "party at mine tonight. you're coming 🙂" | Static, then punch-in 120 % on boing | Tag slap · phone buzz · BOING · horror-movie sting (short) |
+| 2 | 0:03–0:07 | BG-A | P15 typing, thumbs blurred. **Soy**. A "haha sure!!" bubble pops and a *sent* tick appears | "And my thumbs said 'sure' before my brain could stop them." | "haha sure!!" ✓✓ | Slow push 100→108 % | Typing clicks · whoosh-send |
+| 3 | 0:07–0:12 | BG-A, lights on | Nobo P12 flopped face-up on bed. **Doomer** | "Now I have six hours to prepare. Emotionally. Like an astronaut." | Countdown "T-MINUS 05:59:59" ticking | Static; small NASA helmet sticker pops on Nobo for 1 s on "astronaut" | Clock ticks · tiny rocket-launch rumble |
+| 4 | 0:12–0:19 | BG-B bathroom mirror | Nobo P02 waving at mirror (two Nobos, one is the reflection). Faces cycle **Feels → Bloomer → Soy** | "I practised saying 'hey' in the mirror. Forty times. Version thirty-seven was too excited. They'd think I'm starting a cult." | Popping: "hey." / "hey!" / "HEY!!!" / counter "#37" | Hard cuts on each "hey" | Each "hey" a pop · gasp on #37 |
 | 5 | 0:19–0:24 | BG-C apartment hallway, door | Nobo P01 in front of the door, small. **Side-eye**. Door edges pulse with bass | "I arrive. I stand outside the door for eleven minutes, listening to people having fun." | Timer "11:00" fast-forwarding | Slow push in; then a hard cut | Muffled party bass through the door · clock tick |
-| 6 | 0:24–0:28 | BG-C, door open, warm light | Bro P11 arms up bursts in from the right. Nobo **Panic**, shake | BRO: "YOU CAME!!!" · VO: "Then the door opens and someone yells my name. Out loud. In front of witnesses." | Bubble "YOU CAME!!!" | Shake 6 frames, punch-in on Nobo | Door bang · gibberish shout · crowd "ooh" |
+| 6 | 0:24–0:28 | BG-C, door open, warm light | Bro P11 arms up bursts in from the right. Nobo **Soy**, shake | BRO: "YOU CAME!!!" · VO: "Then the door opens and someone yells my name. Out loud. In front of witnesses." | Bubble "YOU CAME!!!" | Shake 6 frames, punch-in on Nobo | Door bang · gibberish shout · crowd "ooh" |
 | 7 | 0:28–0:33 | BG-D party kitchen | Nobo P14 eating chips next to the snack table. **Smug**. NPCs blurred in background | "I find my spot. Next to the snacks. Strategic. If anyone talks to me, I'm chewing." | Yellow arrow + label "SAFE ZONE" | Static | Crunch crunch · lo-fi bed returns softly under the bass |
-| 8 | 0:33–0:42 | BG-D | NPC "Alex" slides in (gets tag **ALEX**). Nobo **Happy (forced)** → bubble → **Dead inside**. Curl droops | ALEX: "Hi! I'm Alex!" · NOBO: "Thanks, you too!" · VO: "…'You too.' He told me his name. Why did I say 'you too'." | Bubbles; then caption "…you too?" | **Record scratch → freeze → punch-in 130 % on Nobo** | Gibberish · record scratch · silence 0.4 s · slide-whistle droop |
-| 9 | 0:42–0:49 | BG-E quiet bedroom/balcony with a cat on the bed | Nobo sitting next to a drawn cat (prop). **Happy**. Cat bubble "…", Nobo bubble "same." | "So I did what any mature adult would do. I found the cat. Best conversation of the night." | "BEST FRIEND FOUND ✓" | Slow push in | Party muffled · soft purr · lo-fi swells |
+| 8 | 0:33–0:42 | BG-D | NPC "Alex" slides in (a yellow **ALEX** label pops next to him). Nobo **Bloomer (forced)** → bubble → **Doomer**, grey face flash | ALEX: "Hi! I'm Alex!" · NOBO: "Thanks, you too!" · VO: "…'You too.' He told me his name. Why did I say 'you too'." | Bubbles; then caption "…you too?" | **Record scratch → freeze → punch-in 130 % on Nobo** | Gibberish · record scratch · silence 0.4 s · slide-whistle droop |
+| 9 | 0:42–0:49 | BG-E quiet bedroom/balcony with a cat on the bed | Nobo sitting next to a drawn cat (prop). **Bloomer**. Cat bubble "…", Nobo bubble "same." | "So I did what any mature adult would do. I found the cat. Best conversation of the night." | "BEST FRIEND FOUND ✓" | Slow push in | Party muffled · soft purr · lo-fi swells |
 | 10 | 0:49–0:55 | BG-D, party | Nobo P13 tiptoe sneaking left across frame; three NPCs' eyes slide to follow him | "At 10:04, I performed the introvert's greatest move: leaving without saying goodbye to anyone." | "10:04 PM" · "STEALTH MODE" | Slide out left | Pizzicato sneak music · door click |
-| 11 | 0:55–1:01 | BG-A bedroom, lamp on | P08 burrito again, **Happy**. Breathing loop | "Home. Pyjamas. Silence. Perfect." | — | Static, slow push | Silence + crickets, then the cozy bed |
-| 12 | 1:01–1:07 | BG-A | Phone buzz. Bubble from Bro. **Shocked → Dead inside**, curl droops | BRO (phone): "ur so fun!!! same time next week??" · VO: "…They liked me. Being likeable is a trap." | Phone bubble | Punch-in 120 % | Buzz · slide-whistle droop |
-| 13 | 1:07–1:11 | BG-A | Same framing as shot 2: P15 typing, **Panic**. "haha sure!!" sent | "And my thumbs said 'sure.'" | "haha sure!!" ✓✓ | **Identical to shot 2 → loops** | Whoosh-send · hard cut to black (for TikTok) or end card (YouTube) |
-| 14 | 1:11–1:13 | End card | Nobo, tag flips to "?" | "Who should I be next?" | Pinned-comment arrow | — | End sting |
+| 11 | 0:55–1:01 | BG-A bedroom, lamp on | P08 burrito again, **Bloomer**. Breathing loop | "Home. Pyjamas. Silence. Perfect." | — | Static, slow push | Silence + crickets, then the cozy bed |
+| 12 | 1:01–1:07 | BG-A | Phone buzz. Bubble from Bro. **Soy → Doomer**, grey face flash | BRO (phone): "ur so fun!!! same time next week??" · VO: "…They liked me. Being likeable is a trap." | Phone bubble | Punch-in 120 % | Buzz · slide-whistle droop |
+| 13 | 1:07–1:11 | BG-A | Same framing as shot 2: P15 typing, **Soy**. "haha sure!!" sent | "And my thumbs said 'sure.'" | "haha sure!!" ✓✓ | **Identical to shot 2 → loops** | Whoosh-send · hard cut to black (for TikTok) or end card (YouTube) |
+| 14 | 1:11–1:13 | End card | Nobo (feels) + yellow tag "WHO'S NEXT?" | "Who should I be next?" | Pinned-comment arrow | — | End sting |
 
 **Punchlines:** 0:12–0:19 (version 37/cult) · **0:33–0:42 "you too" (main)** · 0:42 cat · 0:49 Irish exit · 1:01 "likeable is a trap" · 1:07 loop.
 
@@ -74,16 +73,16 @@ sound, then reveal Nobo; (b) start on the line "My thumbs betrayed me." with the
 | BG-E | a quiet bedroom in someone else's apartment, coats piled on the bed, door half open with party light spilling in |
 
 **Character/props** (use the SVG rig for Nobo, Bro and NPCs; generate only these props, then remove the background):
-- *Cat:* `Simple hand-drawn cartoon cat sitting, side view, thick uniform black marker outline, flat grey colour, two big round white eyes with dot pupils, deadpan expression, no shading, plain white background`
-- *Astronaut helmet sticker:* `Simple hand-drawn cartoon astronaut helmet, round glass visor (transparent centre), thick black outline, flat white and light grey, no shading, plain white background`
-- *Phone with glowing screen* (for P15): `Simple hand-drawn cartoon smartphone held in two round mitten hands, thick black outline, flat colours, screen glowing white, plain white background`
+- *Cat:* `Simple hand-drawn cartoon cat sitting, side view, thin slightly wobbly MS-Paint style black outline (Wojak-meme style), flat grey colour, heavy-lidded tired Wojak eyes with eye bags, deadpan expression, no shading, plain white background`
+- *Astronaut helmet sticker:* `Simple hand-drawn cartoon astronaut helmet, round glass visor (transparent centre), thin wobbly black outline, flat white and light grey, no shading, plain white background`
+- *Phone with glowing screen* (for P15): `Simple hand-drawn cartoon smartphone held in two simple Wojak hands with thumbs, thick black outline, flat colours, screen glowing white, plain white background`
 
 ## Animation instructions
 - Nobo breathes in every shot (36-frame loop); blink every 3 s in shots 3, 9 and 11.
 - Shot 2/13: thumbs = swap two hand positions every 2 frames (blur feel).
 - Shot 4: the reflection is the same Nobo layer flipped horizontally at 85 % opacity inside the mirror area.
 - Shot 6: Bro slides in from the right (8 frames, overshoot); 2-state mouth flap during the shout.
-- Shot 8: Alex slides in from the left; his **tag pops in** (an NPC becoming a person is a gag of its own).
+- Shot 8: Alex slides in from the left; a yellow **ALEX** label pops in next to him (an NPC becoming a person is a gag of its own).
 - Shot 10: P13 tiptoe = 2 frames alternating every 6 frames while the layer moves left; NPC pupils slide with him.
 
 ## Editing instructions
@@ -95,7 +94,7 @@ sound, then reveal Nobo; (b) start on the line "My thumbs betrayed me." with the
 - **Loop:** shot 13 is a frame-exact copy of shot 2's framing so the TikTok loop is seamless.
 
 ## Thumbnail
-Nobo in **Panic**, burrito blanket, phone glowing; yellow tag "INTROVERT"; phone bubble "you're coming 🙂".
+Nobo in **Soy**, burrito blanket, phone glowing; yellow tag "INTROVERT"; phone bubble "you're coming 🙂".
 
 ## Virality
 - **Why click:** about a third of people call themselves introverts; the title is an identity badge.

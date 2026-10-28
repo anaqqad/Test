@@ -1,4 +1,4 @@
-# LIFELINGS: channel bible v1
+# WOJAK LIVES: channel bible v2
 
 > **"Life as…" → a funny 60–90 s animated story → upload.**
 > Tagline: **Every life is a little ridiculous.**
@@ -8,9 +8,9 @@ Contents
 2. [Channel positioning](#2-channel-positioning)
 3. [30 channel names](#3-30-channel-names)
 4. [Top 10 ranked](#4-top-10-ranked)
-5. [Final name: Lifelings](#5-final-name-lifelings)
+5. [Final name: Wojak Lives](#5-final-name-wojak-lives)
 6. [Brand identity](#6-brand-identity)
-7. [The characters](#7-the-characters)
+7. [The characters (Wojak style)](#7-the-characters-wojak-style)
 8. [Profile picture](#8-profile-picture)
 9. [The first five videos](#9-the-first-five-videos) (full scripts, storyboards, prompts → `episodes/`)
 10. [Global animation and editing rules](#10-global-animation-and-editing-rules)
@@ -18,13 +18,13 @@ Contents
 12. [Repeatable production template](#12-repeatable-production-template)
 13. [Idea bank: 60 future episodes](#13-idea-bank-60-future-episodes)
 
-Brand files (already made, in `brand/`; regenerate with `python3 lifelings/brand/draw_cast.py`):
+Brand files (already made, in `brand/`; regenerate with `python3 wojak-lives/brand/draw_cast.py`):
 
 | File | What it is |
 |---|---|
-| `brand/character_sheet.png` | The cast built on one shared body: Nobo, Lulu, Mama, Mom (alt), Dad, Boss, Bestie, NPC |
-| `brand/expressions.png` | The 8 faces |
-| `brand/pfp.png` | Ready-to-upload profile picture (1024×1024). `pfp_small_test.png` shows it at 98/48/30 px |
+| `brand/character_sheet.png` | The Wojak cast built on one shared head and body: Nobo, Lulu, Mama, Dad, Boss, Bro, Zoomer, NPC |
+| `brand/expressions.png` | The 8 Wojak faces (feels, bloomer, crying, rage, soy, smug, side-eye, doomer) |
+| `brand/pfp.png` | Ready-to-upload profile picture: Nobo's Wojak face (1024×1024). `pfp_small_test.png` shows it at 98/48/30 px |
 | `brand/caption_style.png` | 9:16 style frame: title tag, caption style, Shorts safe zones |
 | `brand/thumbnail_mock.png` | 16:9 thumbnail layout example |
 | `brand/*.svg` | Vector sources. Every body part is its own `<g>`/path, so they double as a cut-out rig |
@@ -80,23 +80,23 @@ animation. That's under an hour per video in CapCut.
 
 | Copy the *format* | Make it *ours* |
 |---|---|
-| Drawn character pasted on real photos | Our own cast (Nobo & co.), our own line/colour system, contact shadows, slightly softened photos so the cartoon pops |
+| Wojak-style character pasted on real photos | Our own hand-built Wojak cast (Nobo & co.) with names, the coral hoodie, the face flash, slightly softened photos so the cartoon pops |
 | One idea per shot, 2–4 s rhythm | A real story arc with escalation and a punchline, 60–90 s, not a list that just stops |
-| Identity in the title | A **"LIFE AS…" yellow name-tag** title that stays on screen all video and is the brand's signature |
+| Identity in the title | A **"LIFE AS…" yellow tag** title that stays on screen all video and is the brand's signature |
 | Literal visual metaphors + meme-style cut-ins | Our own drawn props/stickers instead of borrowed meme photos (copyright-safe, consistent) |
 | Big readable text | Large centred word-chunk captions (not tiny top-left sentences) + a deadpan first-person voiceover |
-| Minimal animation | Same minimalism, plus 6 cheap signature moves (tag slap, curl boing, pop-in, punch-in, slide, shake) |
+| Minimal animation | Same minimalism, plus 6 cheap signature moves (tag slap, face flash, pop-in, punch-in, slide, shake) |
 | Loopable ending | Endings written to loop back into the first line on purpose |
 | — | **Tone: relatable, affectionate, "laughing with, not at."** No grievance or shock framing. Better for ads, brand deals, sharing, and long-term trust |
 
-Do **not** reuse: the niqab/thobe drawings, their fonts/caption layout, their photos, the meme cut-in image, or
+Do **not** reuse: their specific niqab/thobe Wojak drawings (or any downloaded Wojak edits), their fonts/caption layout, their photos, the meme cut-in image, or
 their audio.
 
 ---
 
 ## 2. Channel positioning
 
-**Lifelings is a short-form animated sketch channel where every episode drops you into someone else's life
+**Wojak Lives is a short-form Wojak-animation sketch channel where every episode drops you into someone else's life
 for 60–90 seconds.** Promise to the viewer: *you'll see yourself, or someone you need to send this to.*
 
 **Decisions**
@@ -135,82 +135,94 @@ for 60–90 seconds.** Promise to the viewer: *you'll see yourself, or someone y
 
 ## 3. 30 channel names
 
-Rejected on purpose: **Oddlings** (too close to TheOdd1sOut), anything with "Noggin" (Life Noggin), anything
-with "Wojak", and "Life As" alone (unsearchable, ungoogleable).
+The name says **Wojak** up front, like *Wojak Lore*: Wojak fans search for it, and it tells a scroller
+exactly what the videos look like.
+
+**The Wojak space today** (web search, Oct 2026): *Lord Wojak* (~226K subs, Doomer/Boomer/Chad meme
+stories), *Wojak Explainer* (~63K, explains topics), *Low Budget Stories* (everyday situations), *Pointless
+Fiction* ("Life of a tram driver" style; one video ~3.7M views, now dormant), *Wojak Lore* (archetypes), and
+small new ones like *Wojak Story Hall*. The "Life in/of X" Wojak format is proven, and nobody owns
+**"Life as…" + a named recurring cast + voiced mini-stories**. That's our lane.
+
+Rejected on purpose: anything already taken or too close (*Wojak Lore*, *Lord Wojak*, *Wojak Explainer*,
+*Wojak World* (an NFT collection), *Wojak Reality*), and bare "Wojak" (unsearchable).
 
 | # | Name | Note |
 |---|---|---|
-| 1 | **Lifelings** | "Life" + "-lings" (little beings) |
-| 2 | **Plainfolk** | Ordinary people, plain drawings |
-| 3 | **Lifeslice** | Slice of life, literally |
-| 4 | **Doodle Lives** | Describes the product |
-| 5 | **Odd Lives** | Short, but generic |
-| 6 | **Pocket Lives** | Tiny lives you carry around |
-| 7 | **Beanfolk** | Our characters have bean heads |
-| 8 | **Tiny Lives** | Cute, broad |
-| 9 | **Lifestamp** | Echoes the name-tag device |
-| 10 | **Tagged** | Name-tag device; hard to search |
-| 11 | **Inkfolk** | Line-art people |
-| 12 | **Livesketch** | Sketch = drawing + comedy sketch |
-| 13 | **Wobbly Lives** | Matches the wobbly line |
-| 14 | **Mundanes** | Everyday people; slightly negative |
-| 15 | **AsLife** | Inverts "Life as"; awkward to say |
-| 16 | **Lifeloop** | Loopable shorts; sounds like an app |
-| 17 | **Being Bean** | Cute, close to "Mr. Bean" (risk) |
-| 18 | **Paper Lives** | Cut-out look |
-| 19 | **Every Life** | Mission statement; generic |
-| 20 | **Lifeskits** | Life + skits |
-| 21 | **Dotface** | Our pupils are dots; doesn't say "life" |
-| 22 | **Humble Beans** | Warm, food-ish |
-| 23 | **Side Lives** | "Side character" energy |
-| 24 | **Daily Lore** | Gen-Z "lore" slang; may age |
-| 25 | **Smallfolk** | Fantasy undertone (Game of Thrones term) |
-| 26 | **Lifegag** | Clear, a bit cheap-sounding |
-| 27 | **Okay Lives** | Deadpan; low energy |
-| 28 | **Sketchy Lives** | Funny double meaning; "sketchy" is negative |
-| 29 | **Livd** | Short, unpronounceable to some |
-| 30 | **Nobo & Friends** | Character-led; locks the brand to one mascot |
+| 1 | **Wojak Lives** | Every episode is a different life, and it reads as "Wojak lives!" |
+| 2 | **Life as Wojak** | The format in the name; a bit long |
+| 3 | **Wojak Diaries** | Story-time feel |
+| 4 | **Wojak IRL** | Wojaks pasted into real photos = "in real life" |
+| 5 | **Wojak POV** | Trendy; "POV" may age |
+| 6 | **Wojak Tales** | Warm, story-led |
+| 7 | **Wojak Daily** | Promises frequent uploads |
+| 8 | **Wojak Files** | "Case files" of different lives |
+| 9 | **Wojak Chronicles** | Epic; long |
+| 10 | **Wojak Simulator** | Game-y; fits HUD episodes |
+| 11 | **Wojak Life** | Plain; very generic |
+| 12 | **Wojakverse** | Universe of characters; crypto/NFT vibe |
+| 13 | **Wojak Saga** | Serial feel |
+| 14 | **Wojak Society** | Archetypes of society |
+| 15 | **Wojak Town** | A place with recurring residents |
+| 16 | **Wojak Hours** | Late-night meme energy |
+| 17 | **Wojak Mode** | "Entering Wojak mode" |
+| 18 | **Wojak Shorts** | Literal; ungoogleable |
+| 19 | **Just Wojak** | Casual |
+| 20 | **Wojak Feels** | Nods to the original "Feels Guy" |
+| 21 | **Feels Guy Stories** | Deep-cut name for meme insiders |
+| 22 | **Wojak Episodes** | Literal |
+| 23 | **Wojak Experience** | "The ___ experience" meme |
+| 24 | **Wojak Unfiltered** | Edgy; sets a darker tone than we want |
+| 25 | **Every Wojak** | "Every type of…" archetype energy |
+| 26 | **Wojak Again** | Running gag potential; weak meaning |
+| 27 | **Wojak Moments** | Clip-channel feel |
+| 28 | **The Wojak Show** | Sitcom feel |
+| 29 | **Wojak & Friends** | Kid-show feel |
+| 30 | **Wojak Logs** | Vlog parody; flat |
 
 ## 4. Top 10 ranked
 
-| Rank | Name | Memorable | International | Expandable | Searchable | Why it ranks here |
+| Rank | Name | Memorable | Says the format | Expandable | Searchable | Why it ranks here |
 |---|---|---|---|---|---|---|
-| 1 | **Lifelings** | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | Owns "life", names the characters and the fans, no existing major channel found |
-| 2 | **Plainfolk** | ★★★★ | ★★★★ | ★★★★★ | ★★★★ | Strong but "folk" reads as music to some |
-| 3 | **Lifeslice** | ★★★★ | ★★★★ | ★★★★ | ★★★ | Clear meaning; close to the generic phrase "slice of life" |
-| 4 | **Doodle Lives** | ★★★★ | ★★★★★ | ★★★ | ★★★ | Describes the look, but two common words |
-| 5 | **Pocket Lives** | ★★★★ | ★★★★ | ★★★★ | ★★★ | Lovely image, less punchy |
-| 6 | **Beanfolk** | ★★★★ | ★★★ | ★★★★ | ★★★★ | Ties to the bean heads; "folk" again |
-| 7 | **Livesketch** | ★★★ | ★★★★ | ★★★★ | ★★★★ | Clever double meaning; "live" vs "liv" pronunciation clash |
-| 8 | **Lifestamp** | ★★★ | ★★★★ | ★★★★ | ★★★★ | Fits the tag device; sounds like a SaaS product |
-| 9 | **Tiny Lives** | ★★★★ | ★★★★★ | ★★★ | ★★ | Very generic to search |
-| 10 | **Odd Lives** | ★★★★ | ★★★★★ | ★★★ | ★★ | Short; too generic, and "odd" is near TheOdd1sOut |
+| 1 | **Wojak Lives** | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★ | Two words, double meaning, every "Life as…" episode fits under it; no channel found with this name |
+| 2 | **Life as Wojak** | ★★★★ | ★★★★★ | ★★★ | ★★★★★ | Matches every title exactly, but locks the channel to one format |
+| 3 | **Wojak Diaries** | ★★★★ | ★★★★ | ★★★★ | ★★★★ | Story-time feel; no channel found |
+| 4 | **Wojak IRL** | ★★★★ | ★★★ | ★★★★ | ★★★ | Clever (photo backgrounds); "IRL" means little to non-English speakers |
+| 5 | **Wojak POV** | ★★★★ | ★★★★ | ★★★ | ★★★ | Trendy now, may age |
+| 6 | **Wojak Tales** | ★★★★ | ★★★ | ★★★★ | ★★★ | Warm, a little soft |
+| 7 | **Wojak Daily** | ★★★ | ★★ | ★★★★ | ★★★ | Pressure to post daily |
+| 8 | **Wojak Files** | ★★★ | ★★★ | ★★★★ | ★★★ | Good series feel, less funny |
+| 9 | **Wojak Chronicles** | ★★★ | ★★★ | ★★★★ | ★★★ | Too long for a handle |
+| 10 | **Wojak Simulator** | ★★★★ | ★★★ | ★★ | ★★★ | Funny, but implies games |
 
-## 5. Final name: **Lifelings**
+## 5. Final name: **Wojak Lives**
 
-**Handle:** `@lifelings` (fallbacks: `@lifelingstoons`, `@thelifelings`). Before you commit, check the
-handle on YouTube, TikTok and Instagram, and check `lifelings.com/.tv`. My web search found no existing
-animation channel by that name, but small or new accounts aren't always indexed.
+**Handle:** `@wojaklives` (fallbacks: `@wojak.lives`, `@wojaklivestv`). My searches found no channel with
+this name, but small or new accounts aren't always indexed, so check the handle on YouTube, TikTok and
+Instagram before you commit.
 
 Why it's #1:
-1. **It contains the format.** "Life" is in the name, so "Life as… | Lifelings" reads like a series title.
-2. **It names the characters.** Nobo, Lulu and Mama are *Lifelings*. "-ling" means a small creature, which matches small bean-headed people.
-3. **It names the community.** Fans can be "Lifelings" ("Hi Lifelings, who should I be next?").
-4. **It's culture-neutral and easy to say** in English, French, Arabic and Spanish. Three syllables, no tricky sounds.
-5. **It scales**: spin-offs ("Lifelings Explain", "Lifelings at Work"), merch (a Nobo plush with a blank name
-   tag you can write on), and a kids-friendly version if ever wanted.
+1. **"Wojak" up front.** Instantly tells the viewer the style, and catches people who search "wojak".
+2. **"Lives" is the format.** Every episode is a different life: "Life as an Introvert | Wojak Lives" reads like a series.
+3. **Double meaning.** "Wojak lives!", i.e. the meme is still alive. Good for the channel trailer and the pinned post.
+4. **Short and easy to say** in English, French, Arabic and Spanish.
+5. **It scales**: "Wojak Lives at Work", "Wojak Lives: Ramadan Special", country-language channels
+   ("Wojak Lives FR", "Wojak Lives عربي").
+
+**Brand note:** nobody owns "Wojak", so you can't stop copycats using the word. What you *can* own is the
+whole package: the exact name and handle, your own drawings, the named cast (Nobo, Lulu, Mama, Gary), the
+yellow "LIFE AS…" title tag and your voice. Build recognition on those.
 
 ---
 
 ## 6. Brand identity
 
-### Signature device: the yellow name tag
-Every Lifeling wears a small yellow name tag that says **who they are in this video** (ME, NEW, MAMA, BOSS,
-FASTING…). The same yellow tag appears:
-- **0:00 "tag slap":** a big tag **LIFE AS A ___** slaps onto the top of the frame with a *thwack* (6 frames, slight overshoot). It **stays on screen the whole video**, so a viewer who scrolls in mid-video knows what they're watching. The reference only shows its title for 7 s.
-- **On the chest:** tags change mid-episode as a joke engine (episode 2 runs on it).
-- **Thumbnails, channel banner, profile picture:** the tag is the logo.
-- **End card:** Nobo's tag flips to **"?"**, with the VO line "Who should I be next?" pointing to the pinned comment.
+### Signature device: the yellow "LIFE AS…" tag
+The characters themselves are **Wojak faces only**: no logos or badges on them. The brand lives around them:
+- **0:00 "tag slap":** a big yellow tag **LIFE AS A ___** slaps onto the top of the frame with a *thwack* (6 frames, slight overshoot). It **stays on screen the whole video**, so a viewer who scrolls in mid-video knows what they're watching. The reference only shows its title for 7 s.
+- **Label stickers:** small yellow labels that slap on screen *next to* a character for a gag: the job titles in episode 2, an NPC suddenly getting a name ("GARY"), the "SAFE ZONE" arrow.
+- **Thumbnails and banner:** the yellow tag carries the 1–3 words.
+- **End card:** Nobo in feels face beside a yellow tag **"WHO'S NEXT?"**, with the VO line "Who should I be next?" pointing to the pinned comment.
 
 ### Palette
 
@@ -218,14 +230,16 @@ FASTING…). The same yellow tag appears:
 |---|---|---|
 | Ink | `#151515` | All outlines, text outlines |
 | Paper | `#FFF8EC` | Brand backgrounds, end card |
-| Tag Yellow | `#FFD23F` | Name tags, title tag, highlighted caption words |
+| Tag Yellow | `#FFD23F` | Title tag, label stickers, highlighted caption words |
 | Signal Blue | `#3D7BFF` | Profile picture background, banner, links |
 | Nobo Coral | `#FF6B4A` | Nobo's hoodie, the brand's "hero" colour |
-| NPC Grey | `#9AA0A6` | Extras / crowds |
-| Skin S1–S5 | `#FFE0C7 #F2C29B #D9A273 #A86B45 #6B4329` | Flat skin tones, no shading |
+| NPC Grey | `#A9AEB4` | Extras / crowds |
+| Wojak skin | `#FBF7F1` | Nobo and the classic pale Wojaks |
+| Skin S1–S5 | `#FBDCC4 #EDBF98 #D29E73 #A86B45 #6B4329` | Flat skin tones for other characters |
+| Face flash | red `#F0625A` · pink `#F7A8C4` · grey `#B9BEC3` · green `#B5D98A` | One-beat emotion recolour of the whole face |
 
 ### Type
-- **Lilita One** for title tags, chest tags and thumbnails. Always on a yellow tag, black text, rotated −3° to −5°.
+- **Lilita One** for the title tag, label stickers and thumbnails. Always on a yellow tag, black text, rotated −3° to −5°.
 - **Baloo 2 ExtraBold** for captions: white, 16 px black outline, 70–80 px at 1080 wide, max 2 lines,
   2–5 words per chunk, one key word per caption in Tag Yellow.
 
@@ -239,9 +253,9 @@ sharpest, most saturated thing on screen. Characters always get a soft oval **co
 
 | Cue | Sound | When |
 |---|---|---|
-| Tag slap | Short paper/cardboard *thwack* | 0:00 every video, and every chest-tag change |
-| Curl boing | Rubber-band *boing* | Nobo's curl straightens: shock |
-| Curl droop | Descending slide-whistle (0.4 s) | Curl wilts: disappointment |
+| Tag slap | Short paper/cardboard *thwack* | 0:00 every video, and every label sticker |
+| Eye pop | Rubber-band *boing* | Face swaps to Soy: shock |
+| Face flash | Red: kettle whistle · Pink: "awkward" cricket · Grey: descending slide-whistle (0.4 s) · Green: cartoon gulp | Whole face recolours for one beat |
 | Pop | Bubble *pop* | Captions/props/speech bubbles appearing |
 | Gibberish | Pitched "blip-blop" voice | Any character except the narrator speaking |
 | Record scratch | Vinyl scratch, then silence | Before the punchline |
@@ -253,88 +267,109 @@ over 1 minute that pick up a Content ID claim can be blocked, and ours are all o
 
 ---
 
-## 7. The characters
+## 7. The characters (Wojak style)
 
-See `brand/character_sheet.png` and `brand/expressions.png`.
+See `brand/character_sheet.png` and `brand/expressions.png`. **The whole cast is Wojak-style**: the meme
+face audiences already know and read instantly. **We draw every Wojak ourselves** (the rig in
+`brand/draw_cast.py`) and never download Wojak PNGs from the web. Those are other artists' edits, and
+re-using them is the fastest way to look like every other Wojak channel. What makes ours recognisable is
+in the faces themselves (the classic creases, the **face flash**), Nobo's **coral hoodie**, and a fixed cast
+with names. The characters carry **no badges or logos**: Wojak faces only.
 
 ### Main character: **Nobo**
-"Nobo" (from *nobody*) is the everyman, and he plays the lead in most episodes. His tag changes with the
-episode's identity.
+"Nobo" (from *nobody*) is the classic bald, sad-eyed Wojak, the everyman. He plays the lead in most
+episodes; the yellow title tag says who he is this time.
 
 | Trait | Spec |
 |---|---|
-| **Silhouette** | Big bean head + tiny sack body + one curly hair strand on top. Recognisable as a black silhouette at 30 px. |
-| **Proportions** | 2.2 heads tall; the head is ~55 % of total height. Body as wide as the head's lower half. Stubby legs, black oval shoes. |
-| **Head** | Bean/egg shape, slightly wider at the top, slightly lopsided. Bald except the curl. No ears, no nose. |
-| **Eyes** | Two large white **saucer** ovals with small black dot pupils. This is the main difference from Wojak's narrow, baggy slits. Expression comes from the lids (a flat skin-coloured lid cutting across the eye) and pupil size and position. |
-| **Mouth** | One line by default. Opens into a dark-red shape only for shock or laughter. |
-| **The curl** | Nobo's emotion antenna, the signature gag: **straight up + boing** = shock; **drooped** = sad; **spinning** = overwhelmed; **heart-shaped** = in love (rare, save it). |
-| **Clothing** | Coral hoodie (no logos), navy trousers, black shoes, yellow name tag on the chest. |
-| **Line** | Uniform thick black outline (~2 % of character height), a slight hand-drawn wobble, flat colours, no gradients, no shading. |
-| **Arms/hands** | Noodle arms with round mitten hands (no fingers). Any pose is just a new curve, so they're easy to animate. |
+| **Framing** | **Half-body, cropped at the waist** (the meme's natural framing, same as the reference). Full-body drawings only for special shots (walking, lying in bed). |
+| **Head** | Bald Wojak skull in 3/4 view **facing right**: rounded back of the head, flat forehead, jaw sloping to a small chin, ear on the left. Head ≈ 50 % of the visible height. |
+| **Eyes** | Heavy-lidded almond eyes with a thick upper lid line, thin lower line and **eye bags**. The near eye is larger than the far one. Small black pupils. |
+| **Brows / nose / mouth** | Thin worried brows (inner ends up), the hooked one-line Wojak nose, a short slightly downturned mouth line. |
+| **Classic creases** | Two forehead worry lines, a cheek line beside the far eye, a chin crease, and soft grey shading on the back of the skull and under the jaw. These make it read as Wojak rather than a generic cartoon. |
+| **Skin** | Classic near-white Wojak `#FBF7F1` for Nobo; other characters use S1–S5 flat skin tones. |
+| **Clothing** | Coral hoodie (`#FF6B4A`) with drawstrings, no logos, no badges. |
+| **Line** | Thin, slightly wobbly MS-Paint-style black line (6 px outline, 4–5 px features at sheet scale). Flat colours, no shading. |
+| **Hands** | Simple rounded hands with a thumb bump, on thick sleeve "noodles". Gestures in the rig: idle, point, phone, facepalm, raise. |
 
-### Expression system (8 faces; only the eyes, brows and mouth swap)
+### Signature gag: the **face flash**
+Instead of animating emotion, the whole face is recoloured for one beat: **red** = rage, **pink** = cringe
+or embarrassment, **grey** = dead inside, **green** = jealous or sick. It's a 2-frame swap with a sound
+(see section 6), it reads instantly even at phone size, and it's what makes Wojak Lives Wojaks feel like *ours*.
 
-| Face | Eyes | Mouth | Use |
-|---|---|---|---|
-| **Deadpan** (default) | 40 % lids, centred pupils | flat line | Narration, the "this is my life" look at camera |
-| **Happy** | closed arcs + blush | open smile | Rare, so it means something |
-| **Panic** | full eyes, tiny pupils, angry-worried brows | open oval + sweat drop | Escalation |
-| **Side-eye** | 40 % lids, pupils hard right + sweat | wonky line | Awkward moments (the most-used face) |
-| **Sad** | tilted lids, pupils low, tears | frown | Fake drama |
-| **Shocked** | eyes enlarged 115 %, pin pupils | tiny "o" | Punchline reactions, plus curl boing |
-| **Smug** | 50 % tilted lids, pupils side | crooked smirk | Small victories |
-| **Dead inside** | no pupils, grey wash over the face | wobbly line | The bottom of the story arc |
+### Expression system (8 Wojak faces; only the eyes, brows and mouth swap)
+
+| Face | Meme it comes from | Eyes | Mouth | Use |
+|---|---|---|---|---|
+| **Feels** (default) | the original sad Wojak | heavy lids, bags, sad brows | slight frown | Narration, the "this is my life" look |
+| **Bloomer** | Bloomer | closed happy arcs, blush | wide smile | Rare joy, so it means something |
+| **Crying** | Crying Wojak | wet eyes, sad brows, tear streams | wobbly line | Fake drama, defeat |
+| **Rage** | Angry/red Wojak | wide, tiny pupils, V brows, **red flash** | open, teeth | Explosions of frustration |
+| **Soy** | open-mouth "soyjak" reaction | huge eyes, raised brows | huge open mouth | Shock, panic, hype (our panic/shocked face) |
+| **Smug** | Smug Wojak | half-closed, looking back | smirk | Small victories, bosses, mums |
+| **Side-eye** | — | heavy lids, pupils to the side, sweat drop | flat wonky line | Awkward moments (the most-used face) |
+| **Doomer** | Doomer | very heavy lids, dark bags, **grey flash** | flat line | The bottom of the story arc |
 
 ### Pose library (draw once, reuse forever)
-`P01 idle` · `P02 wave` · `P03 facepalm` · `P04 shrug` · `P05 point` · `P06 phone` (P01–P06 are already in
-the SVG rig) · `P07 sit at desk (3/4)` · `P08 blanket burrito in bed` · `P09 walk (2 frames)` · `P10 hold
+`P01 idle` · `P02 raise/wave` · `P03 facepalm` · `P05 point` · `P06 phone` (all in the SVG rig) ·
+`P04 shrug` · `P07 sit at desk (3/4)` · `P08 blanket burrito in bed` · `P09 walk (2 frames)` · `P10 hold
 object with both hands` · `P11 arms up celebrate` · `P12 flopped face-down` · `P13 tiptoe sneak (2 frames)` ·
-`P14 eating` · `P15 typing on phone (thumbs blur)`.
+`P14 eating` · `P15 typing on phone`. P04 and P07–P15 still need drawing (or generating with the style
+block in section 12); P08, P09, P12 and P13 are full-body.
 
 Any pose × any face × any character = thousands of combinations with no new drawing.
 
-### Secondary cast (same body kit, different head piece and colours)
+### Secondary cast (same head and body kit, different hair, headwear and colours)
 
-| Character | Look | Role / personality |
-|---|---|---|
-| **Lulu** | Black bob with side fringe, teal top, skin S3 | Default female lead. Dry wit, the competent one |
-| **Mama** | Purple hijab, green top, skin S3, permanent smug face | The universal mum. Loving, loud, always has a task for you. **Likely breakout character; give her catchphrases** ("Just five minutes." "Are you eating well?") |
-| **Mom (alt)** | Brown bun, pink top, skin S1 | Mum for non-Muslim family episodes |
-| **Dad** | Three hairs, round glasses, mustache, white shirt, skin S4 | Shrugs, says "too much salt" about everything |
-| **Boss** | Comb-over, grey suit, red tie | Speaks fluent corporate |
-| **Bestie / "Bro"** | Blue cap, yellow top, skin S5 | Over-enthusiastic extrovert friend |
-| **NPCs** | All grey, half-lid eyes, **no tag** | Crowds, strangers, coworkers. They react only with their eyes (sliding to look at the protagonist). An NPC who becomes important **gets a tag** (e.g. GARY in episode 4), which is a joke of its own |
+| Character | Wojak type | Look | Role / personality |
+|---|---|---|---|
+| **Lulu** | Wojak girl | Long dark hair with fringe, eyelashes, no bags, teal top, skin S3 | Default female lead. Dry wit, the competent one |
+| **Mama** | Hijabi Wojak mum | Purple hijab framing the face, green top, skin S2, smug | The universal mum. Loving, loud, always has a task for you. **Likely breakout character; give her catchphrases** ("Just five minutes." "Are you eating well?") |
+| **Dad** | Boomer | Black sunglasses, grey side hair, mustache, white polo, skin S4 | Says "too much salt" about everything |
+| **Boss** | Smug corporate Wojak | Comb-over, grey suit, red tie | Speaks fluent corporate |
+| **Bro** | Chad-ish | Blond swept hair, yellow top, bloomer smile | Over-enthusiastic extrovert friend |
+| **Zoomer** | Zoomer | Black beanie, headphones, purple hoodie, phone, doomer stubble | The new intern in episode 5's twist; Gen Z lead in future episodes |
+| **NPCs** | NPC Wojak | All grey, dot eyes, triangle nose, flat mouth, **no name** | Crowds, strangers, coworkers. They react only with their eyes (pupils slide to look at the protagonist). An NPC who becomes important **gets a yellow name label** popped next to them (e.g. GARY in episode 4), which is a joke of its own |
 
-**Situation rules:** at work, add a lanyard to the tag. Night scenes get a blue tint on the character (multiply
-layer at 15 %). Characters keep the same face style with any headwear (hijab, cap, chef hat, graduation cap);
-the body never changes.
+A "Mom (alt)" with a bun for non-Muslim family episodes: reuse Lulu's long-hair piece pinned up (to draw when needed).
+
+**Situation rules:** at work, add a plain lanyard. Night scenes get a blue tint on the character (multiply
+layer at 15 %). Any headwear works (hijab, cap, beanie, chef hat, graduation cap); the face style never changes.
+
+**Wojak rules (brand safety):**
+- No ethnic-caricature Wojaks. Many circulating Wojak variants exaggerate a nationality or race; none of
+  ours do. Characters from any culture get the same face, a different skin tone and their own clothing.
+- No politically coded variants (the specific "nordic gamer", "groyper" and similar edits). Stick to the
+  everyday emotional set above.
+- "Wojak" is in the channel name, but keep it out of individual video titles (titles lead with "Life as…"),
+  and remember nobody owns the word: the exact name, the cast, the drawings and the tag are what's yours.
+- YouTube can demonetise channels as "reused content" when they're mostly templates. Original scripts, your
+  own voice and our own drawings keep this channel clearly original.
 
 ---
 
 ## 8. Profile picture
 
-**Already made:** `brand/pfp.png`: Nobo head-and-shoulders, side-eye, sweat drop, on a Signal Blue circle,
-wearing a name tag that just says **"?"**. That means "who will I be next?", which is the whole "Life as…"
-concept in one symbol. It's tested legible at 48 px (`brand/pfp_small_test.png`). Use this vector version:
-it will match the videos exactly.
+**Already made:** `brand/pfp.png`: Nobo, the classic sad Wojak, head-and-shoulders on a Signal Blue circle,
+in his coral hoodie: a Wojak face only, nothing else, like the big Wojak channels. The sad feels face is
+the most recognisable Wojak there is, and the blue + coral colours make it ours. It's tested at 98/48/30 px (`brand/pfp_small_test.png`). Use this
+vector version so it matches the videos exactly.
 
 If you want an image-model variant (e.g. a painterly banner version), use this prompt:
 
 ```
-Square 1:1 YouTube profile picture. A single simple hand-drawn cartoon character, head and shoulders,
-centred, filling 80% of the frame: a large bald bean-shaped head (wider at the top) with one small curly
-hair strand sticking straight up, two big round white "saucer" eyes with small black dot pupils looking
-sideways with heavy half-closed eyelids (awkward side-eye), a tiny wobbly single-line mouth, no nose, no
-ears, one light-blue sweat drop on the temple. Wearing a plain coral-orange hoodie (#FF6B4A) with a small
-bright-yellow rectangular name tag on the chest showing only a black question mark "?". Thick uniform black
-marker outlines, slightly wobbly hand-drawn line, completely flat colours, no shading, no gradients.
-Solid flat royal-blue circular background (#3D7BFF). Funny, deadpan, meme-comic style, very readable at
-tiny sizes. No other text, no logo, no watermark, no Wojak, no realistic features.
+Square 1:1 YouTube profile picture. One original Wojak-style meme character, head and shoulders, centred,
+filling 80% of the frame: bald near-white head (#FBF7F1) in three-quarter view facing right, ear on the left
+side, heavy-lidded sad almond eyes with eye bags and small black pupils, thin worried eyebrows with two
+forehead worry lines, the classic hooked one-line nose, a cheek crease, a short slightly downturned mouth,
+a chin crease, soft grey shading on the back of the head. Wearing a plain coral-orange hoodie (#FF6B4A)
+with drawstrings. Thin slightly wobbly black MS-Paint style outlines, completely flat colours, no shading, no gradients.
+Solid flat royal-blue circular background (#3D7BFF). Deadpan, melancholic, funny, very readable at tiny sizes.
+No text, no logo, no watermark, no realistic features.
 ```
 
 **Banner (2560×1440, safe area 1546×423 centred):** Paper background, the whole cast in a line
-(`character_sheet` order), each with their tag, and a big yellow tag **"LIFE AS… EVERYONE."** with a
+(`character_sheet` order), each with a small yellow name label under them, and a big yellow tag **"LIFE AS… EVERYONE."** with a
 small "New episodes Mon · Wed · Fri" beneath.
 
 ---
@@ -347,7 +382,7 @@ has a baseline audience; and the finale has the strongest loop.
 | # | File | Title | Lead | Story engine |
 |---|---|---|---|---|
 | 1 | [`episodes/01-introvert.md`](episodes/01-introvert.md) | Life as an Introvert | Nobo | **One event spirals** (a party invite) |
-| 2 | [`episodes/02-eldest-daughter.md`](episodes/02-eldest-daughter.md) | Life as the Eldest Daughter | Lulu | **Job titles** (the name tag keeps changing) |
+| 2 | [`episodes/02-eldest-daughter.md`](episodes/02-eldest-daughter.md) | Life as the Eldest Daughter | Lulu | **Job titles** (a new yellow job-title label slaps next to her every scene) |
 | 3 | [`episodes/03-broke-student.md`](episodes/03-broke-student.md) | Life as a Broke Student | Nobo | **Survival game HUD** (money counter) |
 | 4 | [`episodes/04-ramadan-in-europe.md`](episodes/04-ramadan-in-europe.md) | Life as a Muslim in Europe During Ramadan | Nobo | **Countdown clock** (iftar timer) |
 | 5 | [`episodes/05-gen-z-first-job.md`](episodes/05-gen-z-first-job.md) | Life as a Gen Z at Their First Job | Nobo | **Translation subtitles** (corporate → real) |
@@ -358,8 +393,8 @@ every background and special asset, animation instructions, editing instructions
 virality breakdown.
 
 Shared across all five, so they feel like one channel: same cast and rig, tag slap at 0:00, persistent title
-tag, the same caption style, deadpan VO, gibberish for other characters, the curl as the emotion meter, a
-record scratch before the main punchline, a loop or warm-beat ending, and the "?" end card.
+tag, the same caption style, deadpan VO, gibberish for other characters, the face flash as the emotion meter, a
+record scratch before the main punchline, a loop or warm-beat ending, and the "WHO'S NEXT?" end card.
 
 ---
 
@@ -393,7 +428,7 @@ inner voice. Other characters get a 2-state mouth flap (open/closed every 4 fram
 6. **Transitions:** location change = **whip pan** (6-frame directional blur slide) or a **hard cut on a
    sound**. Never cross-dissolve.
 7. **Punchline pattern:** record scratch → 0.4 s silence → punch-in on the face → line → SFX.
-8. **End:** last line → 1.5 s end card (Paper background, Nobo with a "?" tag, VO: "Who should I be next?",
+8. **End:** last line → 1.5 s end card (Paper background, Nobo in feels face beside a yellow "WHO'S NEXT?" tag, VO: "Who should I be next?",
    end sting). Cut the end card from the TikTok version if the loop is the ending.
 
 ---
@@ -413,7 +448,7 @@ the title tag, the character in a strong expression, and the hook bubble already
 choose a mid-video thumbnail frame with the funniest face plus the tag.
 
 **16:9 thumbnails (compilations and channel page)**: see `brand/thumbnail_mock.png`:
-- Max **two characters**, the lead ≥ 50 % of frame height, in the most extreme face (panic/shocked/dead inside).
+- Max **two characters**, the lead ≥ 50 % of frame height, in the most extreme face (soy/rage/doomer).
 - **One yellow tag with 1–3 words** (the identity, not the title: "FIRST JOB", "ELDEST DAUGHTER").
 - A plain, softened background so the silhouette reads instantly.
 - Consistent placement: lead left, tag top-right. The channel page then looks like a series.
@@ -438,7 +473,7 @@ contact-shadow PNG, the SFX folder and the cast PNG library. Every episode start
 ### Script template (copy for each episode)
 ```
 TITLE:            Life as ______ (twist)
-IDENTITY TAG:     LIFE AS ______           CHEST TAG: ______
+TITLE TAG:        LIFE AS ______           LABEL GAGS: ______
 LEAD / CAST:      ______
 STORY ENGINE:     one-event spiral | job titles | HUD/counter | countdown | translation | expectation vs reality | day-in-the-life | then vs now
 AUDIENCE:         who sends this to whom? "_____ sends to _____"
@@ -449,8 +484,8 @@ AUDIENCE:         who sends this to whom? "_____ sends to _____"
 0:45–1:05  CLIMAX         (record scratch → the biggest absurdity)
 1:05–1:20  BUTTON         (a twist, a warm beat, or a line that loops back to 0:00)
 
-RECURRING ELEMENTS CHECK: [ ] tag slap  [ ] curl gag  [ ] NPC eye-slide  [ ] a chest-tag change or HUD
-                          [ ] record scratch before punchline  [ ] loop/warm ending  [ ] "?" end card
+RECURRING ELEMENTS CHECK: [ ] tag slap  [ ] face flash  [ ] NPC eye-slide  [ ] a label sticker or HUD
+                          [ ] record scratch before punchline  [ ] loop/warm ending  [ ] "WHO'S NEXT?" end card
 ```
 
 ### Prompt blocks (copy-paste)
@@ -460,13 +495,13 @@ RECURRING ELEMENTS CHECK: [ ] tag slap  [ ] curl gag  [ ] NPC eye-slide  [ ] a c
 **Character style block.** Use it only for poses the SVG rig doesn't have yet, and always attach
 `brand/character_sheet.png` as the image reference (most current image models accept a reference image):
 ```
-Simple hand-drawn cartoon character in the exact style of the reference sheet: large bald bean-shaped head
-(55% of total height, slightly wider at the top), two big round white eyes with small black dot pupils,
-flat skin-coloured eyelid cutting across the top of the eyes, tiny single-line mouth, no nose, no ears,
-one small curly hair strand on top, short sack-shaped body in a plain coral-orange hoodie (#FF6B4A),
-navy trousers, black oval shoes, noodle arms with round mitten hands (no fingers), small yellow rectangular
-name tag on the chest. Thick uniform black marker outline, slightly wobbly line, completely flat colours,
-no shading, no gradients. [POSE], [EXPRESSION]. Full body, centred, plain white background.
+Original Wojak-style meme character in the exact style of the reference sheet: bald near-white head
+(#FBF7F1) in three-quarter view facing right, ear on the left, heavy-lidded almond eyes with eye bags and
+small black pupils, thin worried eyebrows, forehead worry lines, the classic hooked one-line Wojak nose,
+cheek crease, short mouth line, chin crease, soft grey shading on the back of the head. Plain coral-orange
+hoodie (#FF6B4A) with drawstrings, dark jeans, simple rounded hands with a thumb. Thin slightly wobbly black
+MS-Paint style outline, completely flat colours, no badges, no logos. [POSE], [EXPRESSION].
+Centred, plain white background.
 ```
 
 | Pose | `[POSE]` text |
