@@ -88,8 +88,15 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
    - Part 3: Hawaiian or Maori (Japanese), Kazakh (Russian), Corsican (Italian), Occitan (Catalan / Italian),
      Swahili (Japanese), Lithuanian (Latin), Slovene (Croatian / Russian), Irish (Russian).
 
-16. Series ideas for new playlists (suggested 2026-10-28, not yet approved by the owner):
-   Creole Languages be like (Haitian Creole, Papiamento, Tok Pisin, Jamaican Patois, Chavacano, Bislama, Seychellois),
-   Mixed Languages be like (Michif, Media Lengua, Gurindji Kriol, Mednyj Aleut), Click Languages be like,
-   Languages Spoken by Fewer Than 1,000 People, Island Languages be like, Writing Systems be like,
-   One Word in 10 Languages (series by word), Languages That Count Differently.
+16. New series approved by the owner (2026-10-28), each planned as Part 1, 2, 3... with its own playlist:
+   - Click Languages be like: Xhosa, Zulu, Hadza, Sandawe, Taa (!Xóõ), Ju|'hoan, Nama (Khoekhoe), Sotho; Dahalo.
+   - Mixed Languages be like: Michif (French nouns + Cree verbs), Media Lengua (Spanish words + Quechua grammar),
+     Gurindji Kriol, Mednyj Aleut, Light Warlpiri, Mbugu (Ma'a).
+   - Island Languages be like: Faroese, Rapa Nui, Chamorro, Tiwi, Jèrriais, Guernésiais, Palauan, Nauruan,
+     Hawaiian, Kalaallisut (Greenlandic), Corsican, Sardinian.
+   - Creole Languages be like: Haitian Creole, Papiamento, Tok Pisin, Jamaican Patois, Chavacano, Bislama,
+     Seychellois, Mauritian, Cape Verdean, Sranan Tongo, Krio.
+   Real recordings only (Commons, Lingua Libre, Wikitongues, Creative Commons YouTube), credit every recording,
+   skip languages already used unless the owner agrees.
+Other suggestions, not yet approved: Languages Spoken by Fewer Than 1,000 People, Writing Systems be like,
+One Word in 10 Languages, Languages That Count Differently.
