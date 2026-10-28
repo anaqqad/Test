@@ -294,9 +294,10 @@ over 1 minute that pick up a Content ID claim can be blocked, and ours are all o
 
 ## 7. The characters (Wojak style)
 
-**Art direction (updated):** the final art is the detailed doomer-Wojak style (ink lines, stipple stubble,
-hatching, dark eye bags), generated in ChatGPT with `chatgpt_prompts.md`. Nobo is now bald with a buzz-cut,
-has a scar through his eyebrow and heavy stubble, and wears the coral hoodie. The flat SVG cast in `brand/`
+**Art direction (updated):** the final art is the doomer-Wojak *meme* style (simple MS-Paint Wojak face,
+thin lines, flat colours, a few stubble dots, dark eye bags; not realistic), generated in ChatGPT with
+`chatgpt_prompts.md`. Nobo is bald with a faint buzz-cut, a scar through his eyebrow and a little stubble,
+and wears the coral hoodie. The flat SVG cast in `brand/`
 is only for layouts and animatics.
 
 See `brand/character_sheet.png` and `brand/expressions.png` for the layout versions. **The whole cast is Wojak-style**: the meme
