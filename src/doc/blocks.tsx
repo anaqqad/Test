@@ -124,11 +124,10 @@ export const DocEndCard: React.FC<{ page: string; line: string }> = ({ page, lin
     <AbsoluteFill style={{ backgroundColor: B.black }}>
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, rgba(226,178,74,0.16) 0%, rgba(14,12,10,0) 60%)" }} />
       <div style={{ position: "absolute", left: 0, right: 0, top: 330, display: "flex", flexDirection: "column", alignItems: "center", gap: 26, textAlign: "center" }}>
-        <div style={{ fontFamily: sans, fontWeight: 700, fontSize: 34, letterSpacing: 10, color: B.creamDim, textTransform: "uppercase", opacity: a }}>Subscribe to</div>
+        <div style={{ fontFamily: sans, fontWeight: 700, fontSize: 34, letterSpacing: 10, color: B.creamDim, textTransform: "uppercase", opacity: a }}>Subscribe for more</div>
         <div style={{ fontFamily: serif, fontWeight: 900, fontSize: 118, color: B.gold, opacity: a, transform: `scale(${0.95 + 0.05 * a})` }}>{page}</div>
         <div style={{ height: 5, width: 160, background: B.gold, opacity: b }} />
-        <div style={{ fontFamily: serif, fontStyle: "italic", fontSize: 54, color: B.cream, opacity: b }}>{line}</div>
-        <div style={{ fontFamily: sans, fontWeight: 600, fontSize: 30, letterSpacing: 4, color: B.creamDim, opacity: b, marginTop: 20 }}>Sources: theblackhistoryroom.com</div>
+        {line ? <div style={{ fontFamily: serif, fontStyle: "italic", fontSize: 54, color: B.cream, opacity: b }}>{line}</div> : null}
       </div>
     </AbsoluteFill>
   );

@@ -1,0 +1,321 @@
+{
+ "id": "reel-harriet-jacobs",
+ "title": "She Hid in a Tiny Attic for Seven Years.",
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.1,
+  "leadInSeconds": 0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "assets": {
+  "portrait": {
+   "commons": "File:Gilbert Studios photograph of Harriet Jacobs (cropped).jpg"
+  },
+  "portraitfull": {
+   "commons": "File:Gilbert Studios photograph of Harriet Jacobs.jpg"
+  },
+  "book": {
+   "commons": "File:Frontmatter Incidents of the Life of A Slave Girl.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "She hid in a tiny attic for seven years.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.535,
+     0.3
+    ],
+    "zoom": [
+     1.9,
+     2
+    ],
+    "anchor": [
+     0.535,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "She hid in a tiny attic *for seven years.*"
+   },
+   "captions": false,
+   "speed": 1.25
+  },
+  {
+   "id": "name",
+   "text": "Meet Harriet Jacobs.",
+   "visual": {
+    "kind": "title",
+    "title": "Harriet Jacobs",
+    "sub": "1813-1897"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born enslaved in Edenton, North Carolina, in 1813.",
+   "visual": {
+    "kind": "title",
+    "title": "Born enslaved",
+    "sub": "Edenton, North Carolina, 1813"
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Edenton",
+     "sub": "North Carolina"
+    }
+   }
+  },
+  {
+   "id": "norcom",
+   "text": "As a girl, she was sent to the household of Dr. James Norcom, who harassed her for years.",
+   "visual": {
+    "kind": "title",
+    "title": "Dr. James Norcom",
+    "sub": "harassed her for years"
+   }
+  },
+  {
+   "id": "flee",
+   "text": "In 1835, she ran. He put out a notice for her capture.",
+   "visual": {
+    "kind": "title",
+    "title": "1835",
+    "sub": "she ran"
+   }
+  },
+  {
+   "id": "attic",
+   "text": "She hid in a crawlspace above her grandmother's house. Nine feet long. Three feet high at its highest. She could not stand up.",
+   "visual": {
+    "kind": "title",
+    "title": "3 feet",
+    "sub": "at the highest point"
+   }
+  },
+  {
+   "id": "holes",
+   "text": "She bored tiny holes in the wall, and through them, she watched her children grow.",
+   "visual": {
+    "kind": "photo",
+    "image": "portraitfull",
+    "focus": [
+     0.53,
+     0.3
+    ],
+    "zoom": [
+     1.2,
+     1.35
+    ],
+    "anchor": [
+     0.53,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "years",
+   "text": "Summer heat. Winter cold. For almost seven years.",
+   "visual": {
+    "kind": "title",
+    "title": "7 years",
+    "sub": "in the crawlspace"
+   }
+  },
+  {
+   "id": "escape",
+   "text": "In 1842, she finally escaped north, by boat.",
+   "visual": {
+    "kind": "title",
+    "title": "1842",
+    "sub": "escape by boat"
+   }
+  },
+  {
+   "id": "book",
+   "text": "In 1861, she told her story in a book, under a false name, Linda Brent.",
+   "visual": {
+    "kind": "card",
+    "image": "book",
+    "caption": "Incidents in the Life of a Slave Girl, 1861"
+   }
+  },
+  {
+   "id": "doubt",
+   "text": "For years, many believed it was a novel. Then historian Jean Fagan Yellin proved Harriet Jacobs wrote it herself.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.535,
+     0.32
+    ],
+    "zoom": [
+     1.4,
+     1.55
+    ],
+    "anchor": [
+     0.535,
+     0.32
+    ]
+   },
+   "section": "twist"
+  },
+  {
+   "id": "end",
+   "text": "Seven years in an attic, and she never gave up on freedom.",
+   "visual": {
+    "kind": "card",
+    "image": "portraitfull",
+    "caption": "Harriet Jacobs, 1894"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {
+  "portrait": [
+   [
+    0.44,
+    0.23,
+    0.63,
+    0.38
+   ]
+  ]
+ },
+ "sources": {
+  "NCPEDIA": {
+   "name": "NCpedia (Dictionary of North Carolina Biography): Jacobs, Harriet Ann",
+   "url": "https://www.ncpedia.org/biography/jacobs-harriet"
+  },
+  "DNCR": {
+   "name": "North Carolina Department of Natural and Cultural Resources: Harriet Jacobs of Edenton and Her Compelling Life Story (2014)",
+   "url": "https://www.dncr.nc.gov/blog/2014/02/11/harriet-jacobs-of-edenton-and-her-compelling-life-story"
+  },
+  "WHE": {
+   "name": "World History Encyclopedia: Harriet Jacobs",
+   "url": "https://www.worldhistory.org/Harriet_Jacobs/"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Harriet Jacobs",
+   "url": "https://en.wikipedia.org/wiki/Harriet_Jacobs"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born enslaved, Edenton, North Carolina, 1813.",
+   "sources": [
+    "NCPEDIA",
+    "DNCR"
+   ]
+  },
+  {
+   "beat": "norcom",
+   "claim": "Placed under Dr. James Norcom, who harassed her for years.",
+   "sources": [
+    "NCPEDIA",
+    "DNCR"
+   ]
+  },
+  {
+   "beat": "flee",
+   "claim": "Fled in 1835; runaway notice published (American Beacon, July 1835).",
+   "sources": [
+    "DNCR",
+    "NCPEDIA",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "attic",
+   "claim": "Hid in a crawlspace at the top of her grandmother's house, 9 ft x 7 ft, 3 ft at the highest; could not stand.",
+   "sources": [
+    "WHE",
+    "WIKI",
+    "DNCR"
+   ]
+  },
+  {
+   "beat": "holes",
+   "claim": "Bored small holes in the wall; through them could see her children.",
+   "sources": [
+    "WHE",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "years",
+   "claim": "Almost seven years (1835-1842), through heat and cold.",
+   "sources": [
+    "DNCR",
+    "WHE",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "escape",
+   "claim": "1842 escape north by boat (to Philadelphia, then New York).",
+   "sources": [
+    "WHE",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "book",
+   "claim": "Incidents in the Life of a Slave Girl, 1861, under the pseudonym Linda Brent.",
+   "sources": [
+    "NCPEDIA",
+    "WHE",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "doubt",
+   "claim": "Long treated as a novel (attributed to editor Lydia Maria Child); Jean Fagan Yellin's research (1980s) established Jacobs's authorship.",
+   "sources": [
+    "WHE",
+    "WIKI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Freedom bought by Cornelia Willis in 1852 for $300 (WHE, Wikipedia): true, cut for length; in the post text.",
+  "Grandmother's house 'a block from Norcom' (NC DNCR only).",
+  "Reward amount of the 1835 notice (not confirmed in two sources).",
+  "Runaway notice image and Dr. Norcom portrait: Commons lists them as No known restrictions, not public domain; shown as title cards instead."
+ ]
+}
