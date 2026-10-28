@@ -1,0 +1,58 @@
+{
+ "bedroom.jpg": {
+  "source": "https://www.pexels.com/photo/cozy-bedroom-scene-with-nightstand-lamp-29252558/",
+  "license": "Pexels License (free to use, no attribution required)"
+ },
+ "bathroom.jpg": {
+  "source": "https://www.pexels.com/photo/mirror-on-wall-2203743/",
+  "license": "Pexels License"
+ },
+ "hallway.jpg": {
+  "source": "https://www.pexels.com/photo/apartment-hallway-with-open-doors-19878508/",
+  "license": "Pexels License"
+ },
+ "party_kitchen.jpg": {
+  "source": "https://www.pexels.com/photo/people-standing-and-sitting-in-front-of-table-4781415/",
+  "license": "Pexels License"
+ },
+ "cat_bed.jpg": {
+  "source": "https://www.pexels.com/photo/a-black-tabby-cat-sitting-on-bed-9414319/",
+  "license": "Pexels License"
+ },
+ "atm.jpg": {
+  "source": "https://www.pexels.com/photo/gray-atm-machine-with-graffiti-53311/",
+  "license": "Pexels License"
+ },
+ "supermarket.jpg": {
+  "source": "https://www.pexels.com/photo/rack-of-grains-17546505/",
+  "license": "Pexels License"
+ },
+ "lecture_hall.jpg": {
+  "source": "https://www.pexels.com/photo/room-chair-lot-356065/",
+  "license": "Pexels License"
+ },
+ "cafe.jpg": {
+  "source": "https://www.pexels.com/photo/cakes-and-drinks-on-a-table-5091144/",
+  "license": "Pexels License"
+ },
+ "kitchen.jpg": {
+  "source": "https://www.pexels.com/photo/interior-of-a-messy-kitchen-20374786/",
+  "license": "Pexels License"
+ },
+ "elevator.jpg": {
+  "source": "https://www.pexels.com/photo/modern-elevator-interior-with-warm-lighting-28951258/",
+  "license": "Pexels License"
+ },
+ "office.jpg": {
+  "source": "https://www.pexels.com/photo/an-empty-office-5483236/",
+  "license": "Pexels License"
+ },
+ "desk.jpg": {
+  "source": "https://www.pexels.com/photo/empty-messy-desk-inside-an-office-8297846/",
+  "license": "Pexels License"
+ },
+ "meeting_room.jpg": {
+  "source": "https://www.pexels.com/photo/empty-conference-room-with-a-table-and-chairs-22718136/",
+  "license": "Pexels License"
+ }
+}
