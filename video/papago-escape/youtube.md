@@ -8,19 +8,21 @@ German POWs Dug a Tunnel to Float to Mexico. The River Was Dry.
 - 25 German POWs Tunneled Out of Arizona. The Desert Caught Them. (62)
 - The Great Escape in the Arizona Desert: 25 U-Boat Men and a Dry River (68)
 
-## Thumbnail: prompt for ChatGPT
+## Thumbnail
+`thumbnail/thumbnail_A.jpg` ("THE RIVER WAS DRY") and `thumbnail_B.jpg` ("WHERE'S THE RIVER?") for Test & compare, both from
+a real archive frame: 32:52 of *Land and Live in the Desert* (USAAF, 1944, public domain), a lone man crossing a dry flat
+(`thumbnail/desert_runner_1944.jpg`; rebuild with `python tools/thumbnail.py`). No AI image.
+
+Optional ChatGPT prompt, if a staged image is wanted later:
 ```
 Create a photorealistic black-and-white 16:9 image (1792x1024), styled like a 1940s press photograph with fine film grain.
-
-A German prisoner of war in 1944, about 28, stands in a wide, completely dry, cracked desert riverbed in Arizona. He is on the LEFT third of the frame, shown from the knees up, three-quarter view. He wears plain dark prisoner fatigues with the letters "PW" painted on the back of the shirt and on the trouser leg, and carries a crude homemade wooden boat frame with canvas over one shoulder. He looks down at the dry riverbed in disbelief.
-
-Behind him: flat desert, saguaro cactus, low rocky mountains, a pale empty sky. Leave the upper right third of the frame (sky) fairly empty for text.
-
-No text other than "PW" on the clothes, no logos, no flags, no insignia or symbols of any kind, no modern objects.
+A German prisoner of war in 1944, about 28, stands in a wide, completely dry, cracked desert riverbed in Arizona, on the LEFT
+third of the frame, from the knees up. Plain dark prisoner fatigues with "PW" painted on the trouser leg; a crude homemade
+wooden boat frame with canvas over one shoulder. He looks down at the dry riverbed in disbelief. Flat desert, saguaro cactus,
+low rocky mountains, pale empty sky; leave the upper right third empty for text. No other text, no flags, no insignia or
+symbols of any kind, no modern objects.
 ```
-Then put the image in `thumbnail/` and run `python tools/thumbnail.py <image>` to add the text, arrow and tag.
-Suggested text: **"THE RIVER WAS DRY"**, arrow pointing at the boat, tag "25 GERMAN POWS · ARIZONA 1944".
-Second option for Test & compare: **"178 FEET TO FREEDOM?"**.
+Then `python tools/thumbnail.py <image>`.
 
 ## Description
 On the night of December 23, 1944, twenty-five German prisoners of war crawled out of Camp Papago Park, Arizona, through a 178-foot tunnel they had dug by hand. Three of them carried a folding boat in pieces. Their plan was to paddle it down the Salt, the Gila and the Colorado rivers to Mexico.

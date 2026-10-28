@@ -137,9 +137,7 @@ def from_image(src, name, line1, line2, small, arrow_pts, text_x=None, size=None
 
 if __name__ == "__main__":
     import sys
-    if len(sys.argv) > 1:  # python3 tools/thumbnail.py <image from ChatGPT>
-        from_image(sys.argv[1], "thumbnail_C", "NO", "BLACKOUT?", "ESCAPED POW · CHICAGO 1945", [(1170, 300), (1210, 410), (1060, 430)], text_x=680)
-        from_image(sys.argv[1], "thumbnail_D", "WHY ISN'T IT", "DARK?", "ESCAPED POW · CHICAGO 1945", [(990, 245), (1080, 330), (1000, 420)], text_x=640)
-    else:
-        make_split("thumbnail_A", "CAPTURED.", "THEN THIS?", "GERMAN POWs · 1944", "CHICAGO · 1945", [(760, 275), (820, 420), (1060, 360)])
-        make_split("thumbnail_B", "NO", "BLACKOUT?", "GERMAN POWs · 1944", "CHICAGO · 1945", [(760, 275), (820, 420), (1060, 360)])
+    # Papago Park: frame 32:52 of Land and Live in the Desert (USAAF, 1944, public domain), a lone man crossing a dry flat
+    src = sys.argv[1] if len(sys.argv) > 1 else T / "desert_runner_1944.jpg"
+    from_image(src, "thumbnail_A", "THE RIVER", "WAS DRY", "25 GERMAN POWs · ARIZONA 1944", [(1060, 300), (1010, 500), (700, 520)], text_x=60, size=150)
+    from_image(src, "thumbnail_B", "WHERE'S THE", "RIVER?", "25 GERMAN POWs · ARIZONA 1944", [(1060, 300), (1010, 500), (700, 520)], text_x=60, size=150)

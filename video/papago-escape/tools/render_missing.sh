@@ -2,7 +2,7 @@
 # Renders overlay cards that are missing or unreadable, retrying while the drive is nearly full
 # (on this PC free space swings by gigabytes as Windows grows the page file).
 cd "$(dirname "$0")/../remotion"
-for attempt in $(seq 1 30); do
+for attempt in $(seq 1 200); do
   ids=$(python -c "
 import json, subprocess, os
 o = json.load(open('../build/storyboard.json', encoding='utf-8'))['overlays']
