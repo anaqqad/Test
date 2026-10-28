@@ -1,5 +1,7 @@
 # YouTube upload: WWII Frontlines
 
+**Published** 28 Oct 2026, public: https://youtu.be/snlT7vOSOkc (thumbnail A, Education, altered content = No, 17 tags).
+
 ## Title
 ```
 Hitler's Generals in Mississippi. One Escaped Just to Mail a Letter.
