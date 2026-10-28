@@ -67,18 +67,18 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
 12. Agglutinative Languages be like (owner, 2026-10-28): languages that glue many endings onto one word
    (Turkish, Finnish, Hungarian, Japanese, Korean, Swahili, Quechua, Greenlandic...). Show one long word built
    piece by piece, real recordings.
-13. Tonal Languages be like (owner, 2026-10-28): Mandarin, Cantonese, Vietnamese, Thai, Yoruba, Hmong, Igbo,
+13. Tonal Languages be like (Part 1), planned as a series (owner, 2026-10-28): Mandarin, Cantonese, Vietnamese, Thai, Yoruba, Hmong, Igbo,
    Navajo, Punjabi (has tones!), Swedish/Norwegian pitch accent as a bonus. Same syllable, different tones, real
    recordings (e.g. Mandarin ma1-ma4 on Commons).
 
-14. Language Isolates be like (Part 2) (2026-10-28). Part 1 = `isolates` (Burushaski, Mapudungun, Sandawe, Warao, Tiwi).
+14. Language Isolates be like (Part 2) and (Part 3) (owner wants both, 2026-10-28). Part 1 = `isolates` (Burushaski, Mapudungun, Sandawe, Warao, Tiwi).
    New isolates with free (CC BY) recordings found on YouTube, owner downloads them:
    Hadza (UCLA Phonetics Lab "Hadza audio: hts_story_1991_01" IeFQs6SCd-s), Haida (X̱aad Kíl "Haida Language: How is
    the Weather Today?" WiMYKegVxhQ), Ticuna (Rising Voices "Abel Antonio Santos - tikuna" u2nvEfLybv4), Purépecha
    (Michoacán Intercultural "Learn greetings in Purépecha" 3rnkCjvO0kg). Not enough new isolates for a Part 3
    unless it reuses Basque, Ainu, Kusunda (earlier videos) or new recordings turn up (Zuni, Nivkh, Kutenai, Yuchi, Seri...).
 
-15. Languages That Sound Like a Different Language (Part 2) and (Part 3) (owner, 2026-10-28).
+15. Languages That Sound Like a Different Language (Part 2), (Part 3) and (Part 4) (owner, 2026-10-28).
    Part 1 = `soundlike` (Maltese, European Portuguese, Romanian, Dutch, West Frisian, Afrikaans, Luxembourgish,
    Esperanto, Hungarian, Persian, Korean, Welsh). Part 1 thumbnail and title get a PART 1 label.
    Candidates, none used in Part 1 (check real recordings first; "sounds like" is how listeners often describe it):
@@ -87,3 +87,9 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
      Greek (Spanish), Scottish Gaelic (Russian / Arabic).
    - Part 3: Hawaiian or Maori (Japanese), Kazakh (Russian), Corsican (Italian), Occitan (Catalan / Italian),
      Swahili (Japanese), Lithuanian (Latin), Slovene (Croatian / Russian), Irish (Russian).
+
+16. Series ideas for new playlists (suggested 2026-10-28, not yet approved by the owner):
+   Creole Languages be like (Haitian Creole, Papiamento, Tok Pisin, Jamaican Patois, Chavacano, Bislama, Seychellois),
+   Mixed Languages be like (Michif, Media Lengua, Gurindji Kriol, Mednyj Aleut), Click Languages be like,
+   Languages Spoken by Fewer Than 1,000 People, Island Languages be like, Writing Systems be like,
+   One Word in 10 Languages (series by word), Languages That Count Differently.
