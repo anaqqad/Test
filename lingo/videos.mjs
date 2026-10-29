@@ -948,19 +948,19 @@ export const VIDEOS = {
     items: [
       {
         name: "Navajo", wojak: "n_nav", flag: "us", speakers: "~170,000", scene: "sierra", loc: [35.67, -109.05, "Navajo Nation, Arizona"],
-        char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1f4e8c", vest: "#f4f1e8" }, expression: "smile" },
+        char: F({ skin: "brown", hair: "bun", hairColor: "black", outfit: { type: "shirt", color: "#1f4e8c", vest: "#f4f1e8" }, earrings: "#3fb8af", expression: "smile" }),
         cards: [
-          "Navajo has more speakers than any other Native language in the US, and it's tonal: a high or low pitch can change a word's meaning.",
+          "Navajo has more speakers than any other Native language in the US, and it’s tonal: a high or low pitch can change a word’s meaning.",
           "In World War II, Navajo Code Talkers sent US Marine messages in a code built on Navajo. The enemy never broke it.",
         ],
-        audio: { file: "US Department of Labor - A message in Navajo about workers' compensation benefits (2023).opus", start: "auto" },
+        audio: { file: "US Department of Labor - A message in Navajo about workers' compensation benefits (2023).opus", start: 7.5, voice: "f" },
       },
       {
         name: "Cherokee", wojak: "n_chr", flag: "us", speakers: "~2,000", scene: "forest", loc: [35.9, -94.97, "Oklahoma & North Carolina"],
         char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#7a1f1f", vest: "#f4f1e8" }, expression: "smile" },
         cards: [
-          "Each Cherokee letter is a whole syllable. Sequoyah finished his syllabary in 1821, and within a few years most Cherokee could read it.",
-          "Cherokee is Iroquoian, a cousin of Mohawk and Seneca. 'Osiyo' means hello.",
+          "Speakers call the language Tsalagi, and 'osiyo' means hello.",
+          "Cherokee is Iroquoian, a cousin of Mohawk and Seneca far to the north. It is the only Iroquoian language of the South still spoken.",
         ],
         audio: { file: "WIKITONGUES- Hassan speaking Cherokee.webm", start: "auto", voice: "m" },
       },
@@ -971,14 +971,14 @@ export const VIDEOS = {
           "English got words from Ojibwe: 'Mississippi' is 'misi-ziibi', great river, and 'Michigan' comes from 'mishigami', great water.",
           "Every Ojibwe noun is either animate or inanimate, and some things you might not expect count as 'alive', like a rock: 'asin'.",
         ],
-        audio: { file: "Casey speaking Ojibwe.webm", start: "auto" },
+        audio: { file: "Casey speaking Ojibwe.webm", start: 18, voice: "m" },
       },
       {
         name: "Lakota", wojak: "n_lkt", flag: "us", speakers: "~2,000", scene: "grassland", loc: [43.5, -101.5, "South & North Dakota"],
         char: F({ skin: "tan", hair: "long", hairColor: "black", outfit: { type: "shirt", color: "#c0392b", vest: "#f4f1e8" }, expression: "smile" }),
         cards: [
-          "In Lakota, men and women end some sentences differently: a man gives a command with 'yo', a woman with 'ye'.",
-          "'Mitákuye oyás’iŋ', all my relatives, is said at the end of prayers to include all living things.",
+          "Lakota, Dakota and Nakota are close varieties of one Sioux language. 'Dakota' is usually said to mean friends or allies.",
+          "Lakota has sounds English lacks, like k’, said with a little pop of air from the throat.",
         ],
         audio: { file: "Kimberly speaking Lakota.webm", start: "auto", voice: "f" },
       },
