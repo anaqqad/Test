@@ -938,6 +938,70 @@ export const VIDEOS = {
       },
     ],
   },
+  // ------------------------------------------------------------------ US audience
+  native: {
+    title: "Native American Languages be like…", // YouTube: "... (Part 1)"
+    part: "Part 1",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#b5452f",
+    items: [
+      {
+        name: "Navajo", wojak: "n_nav", flag: "us", speakers: "~170,000", scene: "sierra", loc: [35.67, -109.05, "Navajo Nation, Arizona"],
+        char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1f4e8c", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Navajo has more speakers than any other Native language in the US, and it's tonal: a high or low pitch can change a word's meaning.",
+          "In World War II, Navajo Code Talkers sent US Marine messages in a code built on Navajo. The enemy never broke it.",
+        ],
+        audio: { file: "US Department of Labor - A message in Navajo about workers' compensation benefits (2023).opus", start: "auto" },
+      },
+      {
+        name: "Cherokee", wojak: "n_chr", flag: "us", speakers: "~2,000", scene: "forest", loc: [35.9, -94.97, "Oklahoma & North Carolina"],
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#7a1f1f", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Each Cherokee letter is a whole syllable. Sequoyah finished his syllabary in 1821, and within a few years most Cherokee could read it.",
+          "Cherokee is Iroquoian, a cousin of Mohawk and Seneca. 'Osiyo' means hello.",
+        ],
+        audio: { file: "WIKITONGUES- Hassan speaking Cherokee.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Ojibwe", wojak: "n_oji", flag: "us", speakers: "~20,000", scene: "dalarna", loc: [47.5, -92.5, "Great Lakes, US & Canada"],
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "coat", color: "#2e6b4f", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "English got words from Ojibwe: 'Mississippi' is 'misi-ziibi', great river, and 'Michigan' comes from 'mishigami', great water.",
+          "Every Ojibwe noun is either animate or inanimate, and some things you might not expect count as 'alive', like a rock: 'asin'.",
+        ],
+        audio: { file: "Casey speaking Ojibwe.webm", start: "auto" },
+      },
+      {
+        name: "Lakota", wojak: "n_lkt", flag: "us", speakers: "~2,000", scene: "grassland", loc: [43.5, -101.5, "South & North Dakota"],
+        char: F({ skin: "tan", hair: "long", hairColor: "black", outfit: { type: "shirt", color: "#c0392b", vest: "#f4f1e8" }, expression: "smile" }),
+        cards: [
+          "In Lakota, men and women end some sentences differently: a man gives a command with 'yo', a woman with 'ye'.",
+          "'Mitákuye oyás’iŋ', all my relatives, is said at the end of prayers to include all living things.",
+        ],
+        audio: { file: "Kimberly speaking Lakota.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Crow", wojak: "n_cro", flag: "us", speakers: "~3,000", scene: "patagonia", loc: [45.6, -107.5, "Crow Reservation, Montana"],
+        char: F({ skin: "tan", hair: "long", hairColor: "black", outfit: { type: "coat", color: "#1f5f8b", inner: "#f4f1e8" }, expression: "smile" }),
+        cards: [
+          "The Crow call themselves Apsáalooke, 'children of the large-beaked bird'. English speakers turned that into 'Crow'.",
+          "Crow is a Siouan language, and its closest relative is Hidatsa, spoken in North Dakota.",
+        ],
+        audio: { file: "WIKITONGUES- Roanne speaking Crow.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Gwich’in", wojak: "n_gwi", flag: "us", speakers: "a few hundred", scene: "alaska", loc: [66.56, -145.27, "Alaska & northern Canada"],
+        char: { skin: "light", hair: "short", hairColor: "grey", outfit: { type: "coat", color: "#3a3a3a", inner: "#c0392b" }, expression: "smile" },
+        cards: [
+          "Gwich’in is spoken around the Arctic Circle in Alaska and northern Canada, where caribou have fed its people for thousands of years.",
+          "It is Athabaskan, a relative of Navajo, even though the two are thousands of kilometres apart.",
+        ],
+        audio: { file: "WIKITONGUES- Allan speaking Gwich'in.webm", start: "auto", voice: "m" },
+      },
+    ],
+  },
   // ------------------------------------------------------------------ 8
   // Simulated: the owner asked for AI voices here. Each phrase is a published scholarly reconstruction, written in IPA
   // and read by a Piper voice (ipa_say.py / sim_audio.py). The video labels every clip as an AI simulation.
