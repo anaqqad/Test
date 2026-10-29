@@ -1,5 +1,8 @@
 # YouTube upload: WWII Frontlines
 
+**Published** 29 Oct 2026, public: https://youtu.be/63uAb8UnP1I (thumbnail A, English SRT uploaded, Education, altered content = No,
+17 tags). End screen = Camp Clinton episode (snlT7vOSOkc) + subscribe, last 20 s.
+
 ## Title
 ```
 A German POW Hid in America for 40 Years. Then His Wife Packed Her Bags.

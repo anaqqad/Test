@@ -59,7 +59,7 @@ P = [
         "rows": [{"date": "HELD", "text": "About 425,000 German prisoners"}, {"date": "CAMPS", "text": "About 700, across the country"},
                  {"date": "HIS CAMP", "text": "Deming, New Mexico · camp translator"}],
         "source": f"Wikipedia, “German prisoners of war in the United States”; {LA}"}),
-     ("He became the camp's translator", "AZ", T(17, 59.0)), ("@", "He became the camp's translator", AZ_TAG)],
+     ("He became the camp's translator", "RR", T(2, 22.2)), ("@", "He became the camp's translator", "The desert Southwest · from This Is My Railroad (1940)")],
     # 6 peace
     [("In May", "RR", T(5, 6.8)), ("@", "In May", RR_TAG), ("For most of the prisoners", "RR2", T(2, 45.3)), ("They expected to be sent", "RR", T(6, 51.5))],
     # 7 not quickly
@@ -119,7 +119,7 @@ P = [
     # 19 Boulder
     [("By", "RR", T(7, 6.5))],
     # 20 the bags
-    [("Early in", "RR2", T(4, 35.5)), ("Jean became so frightened", "RR2", T(3, 16.8)), ("The bags were packed", "SF", T(4, 15.9)), ("Dennis Whiles told her", "RR2", T(5, 22.7))],
+    [("Early in", "RR", T(10, 21.0)), ("Jean became so frightened", "RR2", T(3, 16.8)), ("The bags were packed", "SF", T(4, 15.9)), ("Dennis Whiles told her", "RR2", T(5, 22.7))],
     # 21 the book
     [("She did not leave", "SF", T(2, 17.8)),
      ("#", "They called the book", None, {"type": "Slug", "title": "Hitler's Last Soldier in America", "subtitle": "Georg Gaertner with Arnold Krammer, Stein & Day, 1985"}),
