@@ -74,5 +74,19 @@
   "captions": [],
   "start": 5
  },
- "Gwich’in": null
+ "Gwich’in": {
+  "sig": "{\"file\": \"WIKITONGUES- Allan speaking Gwich'in.webm\", \"start\": \"auto\", \"voice\": \"m\"}|12.6",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Allan speaking Gwich'in.webm",
+    "url": "https://upload.wikimedia.org/x/WIKITONGUES-_Allan_speaking_Gwich%27in.webm",
+    "size": null,
+    "artist": "Wikitongues, Allan Hayton, Sam Osborn",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Allan_speaking_Gwich%27in.webm"
+   }
+  ],
+  "captions": [],
+  "start": 80
+ }
 }
