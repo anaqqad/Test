@@ -100,6 +100,14 @@ CAST = {  # who: (rig kwargs, props, pose)
     "askid": (dict(skin=dc.SKIN["S1"], shirt="#F39C12", hair="sidepart", hair_color="#141414"), [], "idle"),
     "askid_report": (dict(skin=dc.SKIN["S1"], shirt="#F39C12", hair="sidepart", hair_color="#141414"),
                      ["report:98%"], "phone"),
+    # oldest-daughter episode
+    "oldsis": (dict(skin=dc.SKIN["S2"], shirt="#1FB5A8", hair="long", hair_color="#3B2314", female=True), [], "idle"),
+    "oldsis_phone": (dict(skin=dc.SKIN["S2"], shirt="#1FB5A8", hair="long", hair_color="#3B2314", female=True), [],
+                     "phone"),
+    "omom": (dict(skin=dc.SKIN["S1"], shirt="#3D7BFF", hair="bun", hair_color="#7A4B2A", female=True), [], "idle"),
+    "odad": (dict(skin=dc.SKIN["S1"], shirt="#ECECEC", hair="dadstache", hair_color="#4A3426"), ["polo"], "idle"),
+    "lilbro": (dict(skin=dc.SKIN["S2"], shirt="#E74C3C", hair="messy", hair_color="#3B2314"), [], "idle"),
+    "lilsis": (dict(skin=dc.SKIN["S2"], shirt="#FF8FB1", hair="long", hair_color="#8A5A36", female=True), [], "idle"),
 }
 
 
