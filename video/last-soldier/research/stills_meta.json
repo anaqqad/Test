@@ -1,0 +1,44 @@
+{
+ "gaertner_2009.jpg": {
+  "commons": "File:Dennis while.jpg",
+  "license": "Public domain",
+  "artist": "FaKK",
+  "date": "2009-07-04",
+  "desc": "Dennis at the age of 89 (4th of July 2009)."
+ },
+ "schweidnitz_street.jpg": {
+  "commons": "File:Schweidnitz, Schlesien - Friedrichstraße (Zeno Ansichtskarten).jpg",
+  "license": "Public domain",
+  "artist": "\nOttmar Zieher, München",
+  "date": "1907date QS:P571,+1907-00-00T00:00:00Z/9",
+  "desc": "Friedrichstraße"
+ },
+ "schweidnitz_church.jpg": {
+  "commons": "File:Schweidnitz, Schlesien - Pfarrkirche (Zeno Ansichtskarten).jpg",
+  "license": "Public domain",
+  "artist": "\nTrinks &amp; Co. GmbH, Leipzig",
+  "date": "circa 1900date QS:P571,+1900-00-00T00:00:00Z/9,P1480,Q5727902",
+  "desc": "Pfarrkirche"
+ },
+ "sp_boxcar.jpg": {
+  "commons": "File:Southern Pacific Railroad boxcar in the Ralston Steel Car Company yards - DPLA - 91d91b70242fe4b6b2abc10de7b86c99.jpg",
+  "license": "No restrictions",
+  "artist": "",
+  "date": "",
+  "desc": "\nWooden sided Southern Pacific Railroad boxcar with external steel framing sits on a siding at the Ralston Steel Car Company yards. Houses of the adjoining neig"
+ },
+ "terminal_island.jpg": {
+  "commons": "File:Terminal Island and San Pedro Harbor.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Photograph © P. Alejandro Díaz, 30 March 2002.",
+  "date": "",
+  "desc": "Terminal Island and San Pedro Harbor"
+ },
+ "flatirons_boulder.jpg": {
+  "commons": "File:Flatirons Winter Sunrise.jpg",
+  "license": "CC BY-SA 2.5",
+  "artist": "Jesse Varner",
+  "date": "2005-01-06",
+  "desc": "Boulder's iconic rock formations, the Flatirons, near Boulder, Colorado. Panorama assembled from 3 images."
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "schweidnitz_street.jpg": [
+  0,
+  0,
+  1,
+  0.82
+ ],
+ "sp_boxcar.jpg": [
+  0.02,
+  0.08,
+  0.96,
+  0.85
+ ],
+ "schweidnitz_church.jpg": [
+  0,
+  0,
+  1,
+  0.9
+ ],
+ "flatirons_boulder.jpg": [
+  0.1,
+  0,
+  0.8,
+  1
+ ],
+ "terminal_island.jpg": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "gaertner_2009.jpg": [
+  0,
+  0,
+  1,
+  0.75
+ ]
+}
