@@ -13,3 +13,4 @@ public/generated/*/*.wav
 # local scratch voice runs (Kokoro timing previews)
 public/generated/*-scratch/
 public/pd/*-scratch
+_parked/
