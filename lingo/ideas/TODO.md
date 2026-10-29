@@ -100,3 +100,29 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
    skip languages already used unless the owner agrees.
 Other suggestions, not yet approved: Languages Spoken by Fewer Than 1,000 People, Writing Systems be like,
 One Word in 10 Languages, Languages That Count Differently.
+
+17. US audience ideas (owner, 2026-10-29). Goal: more viewers from the USA. The owner explicitly asked for these,
+   so they are an exception to the "no single country or region" rule. Check real recordings first
+   (Wikitongues, Commons, Creative Commons YouTube, or the owner downloads clips).
+   Owner's ideas:
+   - American Accents be like / Why Do Americans Pronounce These Words Differently? Southern drawl, Boston,
+     New York, Appalachian, Midwest (Northern Cities Vowel Shift), California, Texas, Pittsburgh "yinz",
+     Minnesota. Series: Part 1, 2... Words to compare: pecan, caramel, aunt, Mary/marry/merry, cot/caught, crayon.
+   - The Lost Dialects of North America: Gullah, Louisiana French (Cajun), Pennsylvania Dutch, Ocracoke
+     "Hoi Toider", Tangier Island, Yiddish-English, Chinook Jargon, Texas German, Hawaiian Pidgin.
+   - Native American Languages be like (Part 1, 2...): Navajo, Cherokee, Ojibwe, Lakota, Hopi, Cree, Inuktitut,
+     Yup'ik, Choctaw, Mohawk, Tlingit, Hawaiian. Cherokee and Lakota were already in `extinct`: use new ones first.
+   Suggested (Claude):
+   - Navajo Code Talkers: The Language That Won a War (one-language format, real Navajo recordings).
+   - Words Americans Say That the Rest of the World Doesn't (US vs UK vs Australia; real speakers).
+   - English Words That Came From Native American Languages (raccoon, moose, skunk, chipmunk, Chicago,
+     Massachusetts), said by real speakers of the source languages where recordings exist.
+   - Languages Spoken in the USA That You Didn't Know About (Gullah, Pennsylvania Dutch, Cajun French, Yupik,
+     Hawaiian, Chamorro).
+   - Spanglish be like / Spanish in the USA: Puerto Rican vs Mexican vs Cuban Spanish.
+   - Can Americans Understand These English Dialects? (Scots, Geordie, Jamaican Patois, Singlish, Nigerian Pidgin)
+     as a series.
+   - US State Names and What They Mean in Their Original Languages (map-tour format).
+   - Ranking American Accents by How Easy They Are to Understand (method needed first, like the other rankings).
+   Thumbnails: same channel look; US flag or state flag; US landmarks for the photo (Grand Canyon, New Orleans,
+   Appalachians, Monument Valley).
