@@ -532,7 +532,8 @@ def render_frame(s, lt, gt, ep, title_img):
         sc = pop_scale(lt - b["t"])
         if sc != 1:
             im = im.resize((max(1, int(im.width * sc)), max(1, int(im.height * sc))), Image.BILINEAR)
-        paste_clipped(frame, im, int(b["x"] * W - im.width / 2), int(b["y"] * H - im.height / 2))
+        bx = min(max(int(b["x"] * W - im.width / 2), 12), W - im.width - 12)
+        paste_clipped(frame, im, bx, int(b["y"] * H - im.height / 2))
     for lb in s["labels"]:
         if lt < lb["t"] or ("t1" in lb and lt >= lb["t1"]):
             continue
@@ -540,7 +541,8 @@ def render_frame(s, lt, gt, ep, title_img):
         sc = pop_scale(lt - lb["t"])
         if sc != 1:
             im = im.resize((max(1, int(im.width * sc)), max(1, int(im.height * sc))), Image.BILINEAR)
-        paste_clipped(frame, im, int(lb["x"] * W - im.width / 2), int(lb["y"] * H - im.height / 2))
+        lx = min(max(int(lb["x"] * W - im.width / 2), 12), W - im.width - 12)  # keep stickers inside the frame
+        paste_clipped(frame, im, lx, int(lb["y"] * H - im.height / 2))
     for f in s["fx"]:
         if lt >= f["t"] and not ("t1" in f and lt >= f["t1"]):
             draw_fx(frame, f, lt - f["t"])
