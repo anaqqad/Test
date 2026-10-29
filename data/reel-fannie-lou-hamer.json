@@ -1,0 +1,346 @@
+{
+ "id": "reel-fannie-lou-hamer",
+ "title": "The President Tried to Pull the Cameras Off Her.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "The President tried to pull cameras off her.",
+   "visual": {
+    "kind": "photo",
+    "image": "hamer64",
+    "focus": [
+     0.45,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "The President tried *to pull cameras off her.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "name",
+   "text": "Meet Fannie Lou Hamer.",
+   "visual": {
+    "kind": "title",
+    "title": "Fannie Lou Hamer",
+    "sub": "1917-1977"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "The youngest of twenty children of Mississippi sharecroppers, she picked cotton from age six.",
+   "visual": {
+    "kind": "title",
+    "title": "Twenty children",
+    "sub": "Mississippi, 1917"
+   },
+   "section": "story"
+  },
+  {
+   "id": "vote",
+   "text": "In 1962, she tried to register to vote. That night, she was thrown off the plantation where she worked.",
+   "visual": {
+    "kind": "title",
+    "title": "Thrown out",
+    "sub": "for trying to vote, 1962"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Sunflower County",
+     "sub": "Mississippi"
+    }
+   }
+  },
+  {
+   "id": "winona",
+   "text": "In 1963, in a Winona jail, police ordered two Black prisoners to beat her with a blackjack.",
+   "visual": {
+    "kind": "title",
+    "title": "Winona jail",
+    "sub": "June 1963"
+   }
+  },
+  {
+   "id": "party",
+   "text": "In 1964, her Freedom Democratic Party challenged Mississippi's all-white delegation at the Democratic convention.",
+   "visual": {
+    "kind": "card",
+    "image": "signs",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Freedom Democratic Party supporters, Atlantic City, August 1964"
+   },
+   "section": "turn",
+   "overlays": {
+    "stamp": "1964"
+   }
+  },
+  {
+   "id": "testify",
+   "text": "On live television, she told the committee everything.",
+   "visual": {
+    "kind": "card",
+    "image": "committee",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "The Credentials Committee, Atlantic City, August 22, 1964"
+   }
+  },
+  {
+   "id": "lbj",
+   "text": "President Johnson called a sudden press conference, to pull the cameras away from her.",
+   "visual": {
+    "kind": "title",
+    "title": "The cutaway",
+    "sub": "President Johnson, August 22, 1964"
+   }
+  },
+  {
+   "id": "aired",
+   "text": "It didn't work. That night, the networks aired her testimony anyway.",
+   "visual": {
+    "kind": "photo",
+    "image": "hamer64",
+    "focus": [
+     0.45,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   }
+  },
+  {
+   "id": "quote",
+   "text": "Is this America, she asked, the land of the free and the home of the brave?",
+   "visual": {
+    "kind": "title",
+    "title": "Is this America?",
+    "sub": "Fannie Lou Hamer, 1964"
+   }
+  },
+  {
+   "id": "legacy",
+   "text": "She died in 1977. Her gravestone reads: I am sick and tired of being sick and tired.",
+   "visual": {
+    "kind": "card",
+    "image": "hamer64b",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Fannie Lou Hamer at the convention, August 1964"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "close",
+   "text": "The President tried to pull the cameras off her. The country heard her anyway.",
+   "visual": {
+    "kind": "card",
+    "image": "hamer64",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.75
+    ],
+    "caption": "Fannie Lou Hamer, August 22, 1964"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "NWHM": {
+   "name": "National Women's History Museum: Fannie Lou Hamer",
+   "url": "https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer"
+  },
+  "ARW": {
+   "name": "American RadioWorks, Say It Plain: Hamer's testimony before the Credentials Committee, 22 Aug 1964 (transcript)",
+   "url": "https://americanradioworks.publicradio.org/features/sayitplain/flhamer.html"
+  },
+  "AP": {
+   "name": "Associated Press (via theGrio, 21 Aug 2024): Fannie Lou Hamer rattled the Democratic convention with her 'Is this America?' speech",
+   "url": "https://thegrio.com/2024/08/21/fannie-lou-hamer-rattled-the-democratic-convention-with-her-is-this-america-speech-60-years-ago/"
+  },
+  "BRI": {
+   "name": "Bill of Rights Institute: Hamer's testimony, 22 Aug 1964",
+   "url": "https://billofrightsinstitute.org/activities/fannie-lou-hamer-testimony-before-the-credentials-committee-democratic-national-convention-august-22-1964"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Fannie Lou Hamer (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Fannie_Lou_Hamer"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born 6 Oct 1917, youngest of 20 children of sharecroppers; picked cotton from age 6.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "vote",
+   "claim": "Aug 1962 tried to register; the plantation owner told her to withdraw or leave; she left that night.",
+   "sources": [
+    "ARW",
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "winona",
+   "claim": "June 1963, Winona jail: patrolmen ordered two Black prisoners to beat her with a blackjack; lasting injuries.",
+   "sources": [
+    "ARW",
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "party",
+   "claim": "1964 MFDP challenge to the all-white regular delegation at the Democratic National Convention.",
+   "sources": [
+    "NWHM",
+    "BRI",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "testify",
+   "claim": "Testified to the Credentials Committee, 22 Aug 1964, televised.",
+   "sources": [
+    "NWHM",
+    "ARW",
+    "AP"
+   ]
+  },
+  {
+   "beat": "lbj",
+   "claim": "Johnson called an impromptu press conference during her testimony to divert attention.",
+   "sources": [
+    "NWHM",
+    "AP"
+   ]
+  },
+  {
+   "beat": "aired",
+   "claim": "The networks broadcast her testimony later (that evening).",
+   "sources": [
+    "AP",
+    "BRI"
+   ]
+  },
+  {
+   "beat": "quote",
+   "claim": "'Is this America, the land of the free and the home of the brave...'",
+   "sources": [
+    "ARW",
+    "WIKI",
+    "AP"
+   ]
+  },
+  {
+   "beat": "legacy",
+   "claim": "Died 14 March 1977; gravestone: 'I am sick and tired of being sick and tired.'",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Whether the press conference actually cut her off mid-testimony (contested); the reel says 'tried to pull the cameras away'",
+  "Her forced sterilization in 1961 (kept for the post)",
+  "'That same day' vs 'the day after' for the eviction: her testimony says the same night, the ARW intro says the day after",
+  "The 2025 Presidential Medal of Freedom (one fetched source)",
+  "'Freedom Farm' and the two-seat compromise (kept for the post)"
+ ],
+ "faces": {
+  "hamer64": [
+   [
+    0.3,
+    0.15,
+    0.68,
+    0.45
+   ]
+  ],
+  "hamer64b": [
+   [
+    0.38,
+    0.15,
+    0.58,
+    0.45
+   ]
+  ]
+ }
+}
