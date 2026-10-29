@@ -940,8 +940,8 @@ export const VIDEOS = {
   },
   // ------------------------------------------------------------------ US audience
   native: {
-    title: "Native American Languages be like…", // YouTube: "... (Part 1)"
-    part: "Part 1",
+    title: "Native American Languages be like…",
+    part: "",
     layout: "story",
     counterLabel: "speakers",
     accent: "#b5452f",

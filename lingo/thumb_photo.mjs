@@ -73,7 +73,7 @@ const T = {
   conlangs3: { part: "PART 3", name: "Solresol", photo: "conlangs3", pos: "50% 55%", flagUrl: pathToFileURL(path.join(HERE, "flags", "solresol.svg")).href, hook: ["Made of", "Music?!"] },
   conlangs2: { part: "PART 2", name: "Uropi", photo: "conlangs2", pos: "50% 50%", flagUrl: pathToFileURL(path.join(HERE, "flags", "uropi.svg")).href, hook: ["Someone", "Invented It"] },
   extinct: { part: "PART 1", name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },
-  native: { part: "PART 1", name: "Navajo", photo: "native", pos: "50% 40%", flag: "us", hook: ["Spoken Before", "English"], hookSize: 84 },
+  native: { name: "Navajo", photo: "native", pos: "50% 40%", flag: "us", hook: ["Spoken Before", "English"], hookSize: 84 },
   soundlike2: { part: "PART 2", name: "Finnish", photo: "soundlike2", pos: "50% 50%", flag: "fi", hook: ["This Isn't", "Japanese?!"] },
   soundlike: { part: "PART 1", name: "Maltese", photo: "soundlike", pos: "50% 50%", flag: "mt", hook: ["This Isn't", "Arabic?!"] },
   a2usa: { name: "A2 English", photo: "a2usa", pos: "50% 40%", flag: "us", hook: ["Yes.", "Thank You."] },
