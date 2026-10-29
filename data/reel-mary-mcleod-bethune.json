@@ -1,0 +1,354 @@
+{
+ "id": "reel-mary-mcleod-bethune",
+ "title": "$1.50 and Five Girls. Now It's a University.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "She started a school with a dollar fifty.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.45,
+     0.32
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "She started a school *with $1.50.*"
+   },
+   "captions": false,
+   "speed": 1.1
+  },
+  {
+   "id": "name",
+   "text": "Meet Mary McLeod Bethune.",
+   "visual": {
+    "kind": "title",
+    "title": "Mary McLeod Bethune",
+    "sub": "1875-1955"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born in South Carolina in 1875 to formerly enslaved parents, she was picking cotton by age nine.",
+   "visual": {
+    "kind": "title",
+    "title": "Seventeen children",
+    "sub": "Mayesville, South Carolina, 1875"
+   },
+   "section": "story"
+  },
+  {
+   "id": "school",
+   "text": "She became a teacher. In 1904, in Daytona, Florida, she rented a small house and opened her own school.",
+   "visual": {
+    "kind": "title",
+    "title": "Daytona, 1904",
+    "sub": "a rented house"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Daytona",
+     "sub": "Florida"
+    }
+   }
+  },
+  {
+   "id": "money",
+   "text": "She had a dollar fifty. Her first students were five little girls, and her son.",
+   "visual": {
+    "kind": "title",
+    "title": "$1.50",
+    "sub": "five girls and her son"
+   },
+   "section": "turn",
+   "overlays": {
+    "stamp": "1904"
+   }
+  },
+  {
+   "id": "grew",
+   "text": "In two years, she had two hundred and fifty students.",
+   "visual": {
+    "kind": "card",
+    "image": "bowing",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Bethune with the college choir, Daytona Beach, 1943"
+   }
+  },
+  {
+   "id": "college",
+   "text": "It merged with a men's college to become Bethune-Cookman. She led it for decades.",
+   "visual": {
+    "kind": "card",
+    "image": "desk",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.85
+    ],
+    "caption": "Bethune in her office at Bethune-Cookman College, 1943"
+   }
+  },
+  {
+   "id": "dc",
+   "text": "In 1935, she founded the National Council of Negro Women. Then Roosevelt brought her into his government.",
+   "visual": {
+    "kind": "card",
+    "image": "untitled",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.9
+    ],
+    "caption": "Bethune with Eleanor Roosevelt"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "cabinet",
+   "text": "She led his informal Black Cabinet, and befriended Eleanor Roosevelt.",
+   "visual": {
+    "kind": "title",
+    "title": "Black Cabinet",
+    "sub": "Washington, 1930s-40s"
+   }
+  },
+  {
+   "id": "un",
+   "text": "In 1945, she was the only Black woman at the founding of the United Nations.",
+   "visual": {
+    "kind": "title",
+    "title": "The UN",
+    "sub": "San Francisco, 1945"
+   }
+  },
+  {
+   "id": "death",
+   "text": "She died in 1955. In 2022, she became the first Black American with a state statue in the Capitol.",
+   "visual": {
+    "kind": "title",
+    "title": "The Capitol",
+    "sub": "Statuary Hall, 2022"
+   }
+  },
+  {
+   "id": "close",
+   "text": "A dollar fifty and five girls. Now: Bethune-Cookman University.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.8
+    ],
+    "caption": "Mary McLeod Bethune, by Gordon Parks, 1943"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "NWHM": {
+   "name": "National Women's History Museum: Mary McLeod Bethune",
+   "url": "https://www.womenshistory.org/education-resources/biographies/mary-mcleod-bethune"
+  },
+  "FM": {
+   "name": "Florida Memory (State Archives of Florida): Mary McLeod Bethune learning unit",
+   "url": "https://floridamemory.com/learn/classroom/learning-units/mary-mcleod-bethune/photos/"
+  },
+  "DB": {
+   "name": "City of Daytona Beach: Mary McLeod Bethune",
+   "url": "https://daytonabeach.gov/index.aspx?nid=507"
+  },
+  "HMDB": {
+   "name": "Historical Marker Database: Bethune-Cookman marker",
+   "url": "https://www.hmdb.org/m.asp?m=310974"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Mary McLeod Bethune (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Mary_McLeod_Bethune"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born 10 July 1875 near Mayesville, SC; one of the last (15th) of 17 children of formerly enslaved parents; picked 250 lb of cotton a day by age 9.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "school",
+   "claim": "October 1904, rented a house in Daytona and opened a school for Black girls.",
+   "sources": [
+    "NWHM",
+    "WIKI",
+    "DB"
+   ]
+  },
+  {
+   "beat": "money",
+   "claim": "Opened with $1.50 and five girls (plus her son).",
+   "sources": [
+    "FM",
+    "DB",
+    "HMDB"
+   ]
+  },
+  {
+   "beat": "grew",
+   "claim": "In less than two years, 250 students.",
+   "sources": [
+    "HMDB",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "college",
+   "claim": "Merged with Cookman Institute (1923-1929; sources differ) to form Bethune-Cookman; president until 1942.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "dc",
+   "claim": "Founded the National Council of Negro Women in 1935; National Youth Administration 1936.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "cabinet",
+   "claim": "Leader of FDR's informal 'Black Cabinet'; close friend of Eleanor Roosevelt.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "un",
+   "claim": "Only Black woman / woman of colour at the 1945 founding conference of the UN.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died 1955; July 2022 first African American with a state statue in National Statuary Hall.",
+   "sources": [
+    "NWHM",
+    "WIKI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Exact merger year (1923, 1925, 1929, 1931 depending on the step)",
+  "Whether her son counts among the first students (some accounts: five girls only)",
+  "'First Black woman to head a federal agency' (not in the sources; NWHM: highest-ranking African American woman in government)",
+  "Elderberry ink and crate desks (popular, not in the fetched sources)"
+ ],
+ "faces": {
+  "portrait": [
+   [
+    0.3,
+    0.12,
+    0.62,
+    0.45
+   ]
+  ],
+  "desk": [
+   [
+    0.38,
+    0.33,
+    0.52,
+    0.47
+   ]
+  ],
+  "bowing": [
+   [
+    0.43,
+    0.4,
+    0.55,
+    0.55
+   ]
+  ],
+  "untitled": [
+   [
+    0.22,
+    0.3,
+    0.35,
+    0.45
+   ],
+   [
+    0.55,
+    0.03,
+    0.68,
+    0.17
+   ]
+  ]
+ }
+}
