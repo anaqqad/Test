@@ -19,3 +19,5 @@ out/hardest_links.*
 # YouTube upload credentials (upload_youtube.py)
 client_secret*.json
 youtube_token.json
+youtube_token_read.json
+comments/

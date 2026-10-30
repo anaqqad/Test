@@ -67,7 +67,8 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
   `--dry-run` to check). Needs `pip install google-api-python-client google-auth-oauthlib`.
 - Credentials: `lingo/client_secret.json` (Google Cloud OAuth client, Desktop app, YouTube Data API v3 enabled) and
   `lingo/youtube_token.json` (created on first sign-in). Both are gitignored: never print or commit them.
-- Ask the owner before publishing anything public. Free API, quota ~10,000 units/day (an upload costs about 1,600).
+- Ask the owner before publishing anything public.
+- Viewer requests: `python lingo/read_comments.py [--days 14]` reads every video's comments (own token `youtube_token_read.json`, gitignored) and writes `lingo/comments/summary.txt` with the most requested languages; the owner sends that file. Free API, quota ~10,000 units/day (an upload costs about 1,600).
 
 ## Continue from here
 1. `cd lingo && npm i && pip install faster-whisper`
