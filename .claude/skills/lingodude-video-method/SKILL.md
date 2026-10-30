@@ -57,7 +57,7 @@ Code lives in `lingo/` (repo anaqqad/Test). Commit and push every finished step 
 - Always the channel look:
   - white name strip with the language name;
   - real landscape photo (free licence from Commons, credited in the description);
-  - Wojak on the left, flag top right;
+  - Wojak on the left, touching the bottom edge (transparent margin trimmed, no gap), flag top right;
   - red PART label for series;
   - hook of 2 short lines in **red text with a white outline**, never another hook colour.
 - Hook examples: "This Isn't / Japanese?!", "No Relatives / At All?!", "Too / Polite?!".

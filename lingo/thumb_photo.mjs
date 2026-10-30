@@ -2,6 +2,7 @@
 // node thumb_photo.mjs [key ...] -> out/brand/thumbP_<key>.png. Photos are free-licence Wikimedia Commons
 // files in cache/photos; their credits are in PHOTO_CREDITS below and go into the video description.
 import fs from "node:fs";
+import { execFileSync } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { chromium } from "playwright-core";
@@ -97,7 +98,12 @@ const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-119
 for (const k of keys) {
   // a character drawn elsewhere (e.g. made in ChatGPT, transparent PNG) wins over the built-in drawing
   const own = path.join(HERE, "wojaks", `${k}.png`);
-  if (fs.existsSync(own)) T[k].img = pathToFileURL(own).href;
+  if (fs.existsSync(own)) {
+    // trim the transparent margin so the character sits right on the bottom edge (owner: no gap under the Wojak)
+    const trimmed = path.join(HERE, "cache", "pages", `wj_${k}.png`);
+    execFileSync("convert", [own, "-trim", "+repage", trimmed]);
+    T[k].img = pathToFileURL(trimmed).href;
+  }
   const f = path.join(HERE, "cache", "pages", `thumbP_${k}.html`);
   fs.writeFileSync(f, page(T[k]));
   const p = await b.newPage({ viewport: { width: 1280, height: 720 } });
