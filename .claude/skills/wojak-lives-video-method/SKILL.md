@@ -91,6 +91,7 @@ EPISODE = {"title": "LIFE WITH ___", "size": (1920, 1080), "no_title": True, "mu
 - **fx:** flames (anger), sweat, question, exclaim, hearts, steam.
 - **sfx:** impact, thwack, scratch (before the main punchline), boing, pop, ding, whoosh, buzz (phone), horn, slide_down, sting, door, tick.
 - **Bubbles:** `style="phone"` for texts and group chats.
+- **Sticker placement (never on a face):** next to a centred character `x=0.84, y=0.52`; centred stickers `x=0.5, y=0.88` (over the shirt); above the kid in two-character scenes `x=0.33, y=0.36`. The renderer keeps stickers and bubbles inside the frame.
 - **Commands:**
   - Check stills first: `python3 wojak-lives/render/render.py wojak-lives/render/episodes/ep_<slug>.py --still N` (scene N; scene 1 is the title).
   - Full render: `python3 wojak-lives/render/render.py wojak-lives/render/episodes/ep_<slug>.py` → `out/ep_<slug>.mp4`. About 4–5 min, so run it in the background; two renders in parallel are fine.
