@@ -1,0 +1,962 @@
+{
+ "fps": 30,
+ "durationInFrames": 1931,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 167,
+ "wpm": 155.7,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.043,
+   "words": [
+    {
+     "text": "She",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "text": "started",
+     "start": 0.209,
+     "end": 0.476
+    },
+    {
+     "text": "a",
+     "start": 0.511,
+     "end": 0.546
+    },
+    {
+     "text": "school",
+     "start": 0.58,
+     "end": 0.824
+    },
+    {
+     "text": "with",
+     "start": 0.859,
+     "end": 0.987
+    },
+    {
+     "text": "a",
+     "start": 1.022,
+     "end": 1.057
+    },
+    {
+     "text": "dollar",
+     "start": 1.115,
+     "end": 1.382
+    },
+    {
+     "text": "fifty.",
+     "start": 1.44,
+     "end": 2.043
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 73
+  },
+  {
+   "id": "name",
+   "speechEnd": 4.308,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.543,
+     "end": 2.787
+    },
+    {
+     "text": "Mary",
+     "start": 2.856,
+     "end": 3.1
+    },
+    {
+     "text": "McLeod",
+     "start": 3.147,
+     "end": 3.495
+    },
+    {
+     "text": "Bethune.",
+     "start": 3.541,
+     "end": 4.308
+    }
+   ],
+   "cues": {},
+   "startFrame": 73,
+   "endFrame": 141
+  },
+  {
+   "id": "born",
+   "speechEnd": 11.368,
+   "words": [
+    {
+     "text": "Born",
+     "start": 4.808,
+     "end": 5.133
+    },
+    {
+     "text": "in",
+     "start": 5.18,
+     "end": 5.238
+    },
+    {
+     "text": "South",
+     "start": 5.307,
+     "end": 5.539
+    },
+    {
+     "text": "Carolina",
+     "start": 5.574,
+     "end": 6.085
+    },
+    {
+     "text": "in",
+     "start": 6.166,
+     "end": 6.271
+    },
+    {
+     "text": "1875",
+     "start": 6.329,
+     "end": 7.293
+    },
+    {
+     "text": "to",
+     "start": 7.362,
+     "end": 7.432
+    },
+    {
+     "text": "formerly",
+     "start": 7.513,
+     "end": 7.896
+    },
+    {
+     "text": "enslaved",
+     "start": 7.943,
+     "end": 8.349
+    },
+    {
+     "text": "parents,",
+     "start": 8.395,
+     "end": 8.976
+    },
+    {
+     "text": "she",
+     "start": 9.336,
+     "end": 9.464
+    },
+    {
+     "text": "was",
+     "start": 9.522,
+     "end": 9.626
+    },
+    {
+     "text": "picking",
+     "start": 9.684,
+     "end": 9.963
+    },
+    {
+     "text": "cotton",
+     "start": 10.021,
+     "end": 10.358
+    },
+    {
+     "text": "by",
+     "start": 10.416,
+     "end": 10.532
+    },
+    {
+     "text": "age",
+     "start": 10.601,
+     "end": 10.822
+    },
+    {
+     "text": "nine.",
+     "start": 10.88,
+     "end": 11.368
+    }
+   ],
+   "cues": {},
+   "startFrame": 141,
+   "endFrame": 351
+  },
+  {
+   "id": "school",
+   "speechEnd": 19.019,
+   "words": [
+    {
+     "text": "She",
+     "start": 11.786,
+     "end": 11.913
+    },
+    {
+     "text": "became",
+     "start": 11.971,
+     "end": 12.227
+    },
+    {
+     "text": "a",
+     "start": 12.25,
+     "end": 12.273
+    },
+    {
+     "text": "teacher.",
+     "start": 12.32,
+     "end": 12.819
+    },
+    {
+     "text": "In",
+     "start": 13.399,
+     "end": 13.539
+    },
+    {
+     "text": "1904,",
+     "start": 13.597,
+     "end": 14.386
+    },
+    {
+     "text": "in",
+     "start": 14.433,
+     "end": 14.56
+    },
+    {
+     "text": "Daytona,",
+     "start": 14.618,
+     "end": 15.094
+    },
+    {
+     "text": "Florida,",
+     "start": 15.118,
+     "end": 15.721
+    },
+    {
+     "text": "she",
+     "start": 16.035,
+     "end": 16.163
+    },
+    {
+     "text": "rented",
+     "start": 16.244,
+     "end": 16.522
+    },
+    {
+     "text": "a",
+     "start": 16.557,
+     "end": 16.581
+    },
+    {
+     "text": "small",
+     "start": 16.627,
+     "end": 16.894
+    },
+    {
+     "text": "house",
+     "start": 16.952,
+     "end": 17.207
+    },
+    {
+     "text": "and",
+     "start": 17.242,
+     "end": 17.324
+    },
+    {
+     "text": "opened",
+     "start": 17.382,
+     "end": 17.625
+    },
+    {
+     "text": "her",
+     "start": 17.66,
+     "end": 17.73
+    },
+    {
+     "text": "own",
+     "start": 17.788,
+     "end": 17.892
+    },
+    {
+     "text": "school.",
+     "start": 17.939,
+     "end": 19.019
+    }
+   ],
+   "cues": {},
+   "startFrame": 351,
+   "endFrame": 583
+  },
+  {
+   "id": "money",
+   "speechEnd": 23.908,
+   "words": [
+    {
+     "text": "She",
+     "start": 19.519,
+     "end": 19.658
+    },
+    {
+     "text": "had",
+     "start": 19.705,
+     "end": 19.798
+    },
+    {
+     "text": "a",
+     "start": 19.832,
+     "end": 19.856
+    },
+    {
+     "text": "dollar",
+     "start": 19.902,
+     "end": 20.158
+    },
+    {
+     "text": "fifty.",
+     "start": 20.216,
+     "end": 20.726
+    },
+    {
+     "text": "Her",
+     "start": 21.144,
+     "end": 21.272
+    },
+    {
+     "text": "first",
+     "start": 21.342,
+     "end": 21.562
+    },
+    {
+     "text": "students",
+     "start": 21.597,
+     "end": 21.969
+    },
+    {
+     "text": "were",
+     "start": 22.015,
+     "end": 22.154
+    },
+    {
+     "text": "five",
+     "start": 22.201,
+     "end": 22.445
+    },
+    {
+     "text": "little",
+     "start": 22.48,
+     "end": 22.677
+    },
+    {
+     "text": "girls,",
+     "start": 22.712,
+     "end": 23.13
+    },
+    {
+     "text": "and",
+     "start": 23.165,
+     "end": 23.292
+    },
+    {
+     "text": "her",
+     "start": 23.35,
+     "end": 23.432
+    },
+    {
+     "text": "son.",
+     "start": 23.49,
+     "end": 23.908
+    }
+   ],
+   "cues": {},
+   "startFrame": 583,
+   "endFrame": 734
+  },
+  {
+   "id": "grew",
+   "speechEnd": 27.646,
+   "words": [
+    {
+     "text": "In",
+     "start": 24.569,
+     "end": 24.72
+    },
+    {
+     "text": "two",
+     "start": 24.79,
+     "end": 24.964
+    },
+    {
+     "text": "years,",
+     "start": 25.045,
+     "end": 25.545
+    },
+    {
+     "text": "she",
+     "start": 25.707,
+     "end": 25.835
+    },
+    {
+     "text": "had",
+     "start": 25.893,
+     "end": 26.009
+    },
+    {
+     "text": "two",
+     "start": 26.044,
+     "end": 26.206
+    },
+    {
+     "text": "hundred",
+     "start": 26.299,
+     "end": 26.566
+    },
+    {
+     "text": "and",
+     "start": 26.589,
+     "end": 26.659
+    },
+    {
+     "text": "fifty",
+     "start": 26.706,
+     "end": 26.973
+    },
+    {
+     "text": "students.",
+     "start": 27.031,
+     "end": 27.646
+    }
+   ],
+   "cues": {},
+   "startFrame": 734,
+   "endFrame": 841
+  },
+  {
+   "id": "college",
+   "speechEnd": 33.683,
+   "words": [
+    {
+     "text": "It",
+     "start": 28.134,
+     "end": 28.285
+    },
+    {
+     "text": "merged",
+     "start": 28.354,
+     "end": 28.749
+    },
+    {
+     "text": "with",
+     "start": 28.807,
+     "end": 28.946
+    },
+    {
+     "text": "a",
+     "start": 28.993,
+     "end": 29.016
+    },
+    {
+     "text": "men's",
+     "start": 29.086,
+     "end": 29.376
+    },
+    {
+     "text": "college",
+     "start": 29.434,
+     "end": 29.852
+    },
+    {
+     "text": "to",
+     "start": 29.887,
+     "end": 29.956
+    },
+    {
+     "text": "become",
+     "start": 30.014,
+     "end": 30.293
+    },
+    {
+     "text": "Bethune-Cookman.",
+     "start": 30.328,
+     "end": 31.233
+    },
+    {
+     "text": "She",
+     "start": 31.814,
+     "end": 31.942
+    },
+    {
+     "text": "led",
+     "start": 32.011,
+     "end": 32.162
+    },
+    {
+     "text": "it",
+     "start": 32.197,
+     "end": 32.255
+    },
+    {
+     "text": "for",
+     "start": 32.302,
+     "end": 32.394
+    },
+    {
+     "text": "decades.",
+     "start": 32.453,
+     "end": 33.683
+    }
+   ],
+   "cues": {},
+   "startFrame": 841,
+   "endFrame": 1022
+  },
+  {
+   "id": "dc",
+   "speechEnd": 39.837,
+   "words": [
+    {
+     "text": "In",
+     "start": 34.183,
+     "end": 34.369
+    },
+    {
+     "text": "1935,",
+     "start": 34.427,
+     "end": 35.367
+    },
+    {
+     "text": "she",
+     "start": 35.39,
+     "end": 35.483
+    },
+    {
+     "text": "founded",
+     "start": 35.553,
+     "end": 35.832
+    },
+    {
+     "text": "the",
+     "start": 35.866,
+     "end": 35.936
+    },
+    {
+     "text": "National",
+     "start": 35.983,
+     "end": 36.354
+    },
+    {
+     "text": "Council",
+     "start": 36.412,
+     "end": 36.749
+    },
+    {
+     "text": "of",
+     "start": 36.807,
+     "end": 36.853
+    },
+    {
+     "text": "Negro",
+     "start": 36.923,
+     "end": 37.202
+    },
+    {
+     "text": "Women.",
+     "start": 37.271,
+     "end": 37.666
+    },
+    {
+     "text": "Then",
+     "start": 37.933,
+     "end": 38.107
+    },
+    {
+     "text": "Roosevelt",
+     "start": 38.177,
+     "end": 38.606
+    },
+    {
+     "text": "brought",
+     "start": 38.641,
+     "end": 38.85
+    },
+    {
+     "text": "her",
+     "start": 38.873,
+     "end": 38.943
+    },
+    {
+     "text": "into",
+     "start": 38.99,
+     "end": 39.14
+    },
+    {
+     "text": "his",
+     "start": 39.199,
+     "end": 39.28
+    },
+    {
+     "text": "government.",
+     "start": 39.338,
+     "end": 39.837
+    }
+   ],
+   "cues": {},
+   "startFrame": 1022,
+   "endFrame": 1199
+  },
+  {
+   "id": "cabinet",
+   "speechEnd": 43.494,
+   "words": [
+    {
+     "text": "She",
+     "start": 40.069,
+     "end": 40.197
+    },
+    {
+     "text": "led",
+     "start": 40.267,
+     "end": 40.429
+    },
+    {
+     "text": "his",
+     "start": 40.476,
+     "end": 40.58
+    },
+    {
+     "text": "informal",
+     "start": 40.627,
+     "end": 41.068
+    },
+    {
+     "text": "Black",
+     "start": 41.126,
+     "end": 41.37
+    },
+    {
+     "text": "Cabinet,",
+     "start": 41.416,
+     "end": 41.869
+    },
+    {
+     "text": "and",
+     "start": 41.892,
+     "end": 42.02
+    },
+    {
+     "text": "befriended",
+     "start": 42.066,
+     "end": 42.507
+    },
+    {
+     "text": "Eleanor",
+     "start": 42.577,
+     "end": 42.867
+    },
+    {
+     "text": "Roosevelt.",
+     "start": 42.914,
+     "end": 43.494
+    }
+   ],
+   "cues": {},
+   "startFrame": 1199,
+   "endFrame": 1313
+  },
+  {
+   "id": "un",
+   "speechEnd": 48.219,
+   "words": [
+    {
+     "text": "In",
+     "start": 43.854,
+     "end": 43.993
+    },
+    {
+     "text": "1945,",
+     "start": 44.04,
+     "end": 45.096
+    },
+    {
+     "text": "she",
+     "start": 45.235,
+     "end": 45.363
+    },
+    {
+     "text": "was",
+     "start": 45.409,
+     "end": 45.514
+    },
+    {
+     "text": "the",
+     "start": 45.56,
+     "end": 45.63
+    },
+    {
+     "text": "only",
+     "start": 45.7,
+     "end": 45.932
+    },
+    {
+     "text": "Black",
+     "start": 45.978,
+     "end": 46.211
+    },
+    {
+     "text": "woman",
+     "start": 46.257,
+     "end": 46.478
+    },
+    {
+     "text": "at",
+     "start": 46.512,
+     "end": 46.57
+    },
+    {
+     "text": "the",
+     "start": 46.605,
+     "end": 46.675
+    },
+    {
+     "text": "founding",
+     "start": 46.721,
+     "end": 47.046
+    },
+    {
+     "text": "of",
+     "start": 47.081,
+     "end": 47.128
+    },
+    {
+     "text": "the",
+     "start": 47.163,
+     "end": 47.232
+    },
+    {
+     "text": "United",
+     "start": 47.279,
+     "end": 47.592
+    },
+    {
+     "text": "Nations.",
+     "start": 47.639,
+     "end": 48.219
+    }
+   ],
+   "cues": {},
+   "startFrame": 1313,
+   "endFrame": 1454
+  },
+  {
+   "id": "death",
+   "speechEnd": 54.953,
+   "words": [
+    {
+     "text": "She",
+     "start": 48.579,
+     "end": 48.707
+    },
+    {
+     "text": "died",
+     "start": 48.765,
+     "end": 48.974
+    },
+    {
+     "text": "in",
+     "start": 49.009,
+     "end": 49.067
+    },
+    {
+     "text": "1955.",
+     "start": 49.101,
+     "end": 50.135
+    },
+    {
+     "text": "In",
+     "start": 50.553,
+     "end": 50.68
+    },
+    {
+     "text": "2022,",
+     "start": 50.738,
+     "end": 51.551
+    },
+    {
+     "text": "she",
+     "start": 51.586,
+     "end": 51.69
+    },
+    {
+     "text": "became",
+     "start": 51.749,
+     "end": 52.016
+    },
+    {
+     "text": "the",
+     "start": 52.05,
+     "end": 52.12
+    },
+    {
+     "text": "first",
+     "start": 52.166,
+     "end": 52.445
+    },
+    {
+     "text": "Black",
+     "start": 52.515,
+     "end": 52.759
+    },
+    {
+     "text": "American",
+     "start": 52.805,
+     "end": 53.246
+    },
+    {
+     "text": "with",
+     "start": 53.304,
+     "end": 53.444
+    },
+    {
+     "text": "a",
+     "start": 53.478,
+     "end": 53.502
+    },
+    {
+     "text": "state",
+     "start": 53.548,
+     "end": 53.815
+    },
+    {
+     "text": "statue",
+     "start": 53.85,
+     "end": 54.21
+    },
+    {
+     "text": "in",
+     "start": 54.233,
+     "end": 54.279
+    },
+    {
+     "text": "the",
+     "start": 54.314,
+     "end": 54.384
+    },
+    {
+     "text": "Capitol.",
+     "start": 54.419,
+     "end": 54.953
+    }
+   ],
+   "cues": {},
+   "startFrame": 1454,
+   "endFrame": 1663
+  },
+  {
+   "id": "close",
+   "speechEnd": 60.189,
+   "words": [
+    {
+     "text": "A",
+     "start": 55.533,
+     "end": 55.615
+    },
+    {
+     "text": "dollar",
+     "start": 55.684,
+     "end": 55.975
+    },
+    {
+     "text": "fifty",
+     "start": 56.033,
+     "end": 56.3
+    },
+    {
+     "text": "and",
+     "start": 56.334,
+     "end": 56.404
+    },
+    {
+     "text": "five",
+     "start": 56.462,
+     "end": 56.729
+    },
+    {
+     "text": "girls.",
+     "start": 56.776,
+     "end": 57.321
+    },
+    {
+     "text": "Now:",
+     "start": 57.681,
+     "end": 58.064
+    },
+    {
+     "text": "Bethune-Cookman",
+     "start": 58.134,
+     "end": 58.889
+    },
+    {
+     "text": "University.",
+     "start": 58.958,
+     "end": 60.189
+    }
+   ],
+   "cues": {},
+   "startFrame": 1663,
+   "endFrame": 1818
+  },
+  {
+   "id": "cta",
+   "speechEnd": 63.15,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 60.689,
+     "end": 61.014
+    },
+    {
+     "text": "The",
+     "start": 61.061,
+     "end": 61.13
+    },
+    {
+     "text": "Black",
+     "start": 61.165,
+     "end": 61.374
+    },
+    {
+     "text": "History",
+     "start": 61.42,
+     "end": 61.699
+    },
+    {
+     "text": "Room",
+     "start": 61.746,
+     "end": 61.908
+    },
+    {
+     "text": "for",
+     "start": 61.966,
+     "end": 62.071
+    },
+    {
+     "text": "one",
+     "start": 62.129,
+     "end": 62.28
+    },
+    {
+     "text": "story",
+     "start": 62.314,
+     "end": 62.593
+    },
+    {
+     "text": "a",
+     "start": 62.639,
+     "end": 62.663
+    },
+    {
+     "text": "day.",
+     "start": 62.709,
+     "end": 63.15
+    }
+   ],
+   "cues": {},
+   "startFrame": 1818,
+   "endFrame": 1931
+  }
+ ]
+}
