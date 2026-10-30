@@ -67,9 +67,17 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
 12. Agglutinative Languages be like (owner, 2026-10-28): languages that glue many endings onto one word
    (Turkish, Finnish, Hungarian, Japanese, Korean, Swahili, Quechua, Greenlandic...). Show one long word built
    piece by piece, real recordings.
-13. Tonal Languages be like (Part 1), planned as a series (owner, 2026-10-28): Mandarin, Cantonese, Vietnamese, Thai, Yoruba, Hmong, Igbo,
-   Navajo, Punjabi (has tones!), Swedish/Norwegian pitch accent as a bonus. Same syllable, different tones, real
-   recordings (e.g. Mandarin ma1-ma4 on Commons).
+13. Tonal Languages be like, series (owner, 2026-10-28; episode count checked 2026-10-30). Real recordings found on
+   Commons (Wikitongues) and Lingua Libre, no language twice in the series. Enough for 3 parts, a 4th is possible:
+   - Part 1 = `tonal` (in progress): Mandarin (Lingua Libre 买/卖), Vietnamese (Lingua Libre má/mà/mạ), Thai (Dang),
+     Lao (La), Burmese (Naw), Hmong (May), Yoruba (Olaniyan), Igbo (Valentine).
+   - Part 2, Chinese family and West Africa: Hakka (Sanda), Shanghainese (Ivy), Penang Hokkien (Timothy), Taishanese /
+     Siyi Yue (Joseph), Henan Chinese (Ying), Twi (Raphael), Hausa (Abubakar), Tày (Ming).
+   - Part 3, Africa and the Americas: Kpelle (Jerry), Vai (Varney and Omoru), Dagbani (Mohammed), Ibibio (Itoro),
+     Venda (Edna), Tsonga (Lourenço), Nuyoo Mixtec (Nezahualcoyotl), Chicahuaxtla Triqui (José Manuel).
+   - Part 4 (possible), "You didn't know these were tonal": Norwegian (Emily), Latvian (Jānis), Bosnian (Mirela),
+     Punjabi (Randeep), Dzongkha (Kinley), Navajo (US Dept of Labor). Check each clip first.
+   Missing on Commons: standard Cantonese (no Lingua Libre cache yet), Zulu, Xhosa, Ewe.
 
 14. Language Isolates be like (Part 2) and (Part 3) (owner wants both, 2026-10-28). Part 1 = `isolates` (Burushaski, Mapudungun, Sandawe, Warao, Tiwi).
    New isolates with free (CC BY) recordings found on YouTube, owner downloads them:

@@ -1002,6 +1002,88 @@ export const VIDEOS = {
       },
     ],
   },
+  // ------------------------------------------------------------------ tonal series (plan in ideas/TODO.md item 13)
+  tonal: {
+    title: "Tonal Languages be like…", // YouTube: "... (Part 1)"
+    part: "Part 1",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#8e44ad",
+    items: [
+      {
+        name: "Mandarin", wojak: "t_cmn", flag: "cn", speakers: "~1.1B", scene: "hongkong", loc: [39.9, 116.4, "China"],
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#c0392b", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Mandarin has four tones. Mǎi with a dipping tone means buy, mài with a falling tone means sell. Listen to both.",
+          "Linguist Chao Yuen Ren wrote a whole poem, the Lion-Eating Poet, using only the syllable 'shi' in different tones.",
+        ],
+        audio: { ll: "cmn", words: ["买", "卖"], n: 2, repeat: 2 },
+      },
+      {
+        name: "Vietnamese", wojak: "t_vie", flag: "vn", speakers: "~85M", scene: "andaman", loc: [21.03, 105.85, "Vietnam"],
+        char: F({ skin: "light", hair: "long", hairColor: "black", outfit: { type: "dress", color: "#f4f1e8", color2: "#c0392b", trim: "#f2c94c" }, expression: "smile" }),
+        cards: [
+          "Vietnamese has six tones, marked on the vowels: 'má' is mom in the South, 'mà' means but, and 'mạ' is a rice seedling.",
+          "It’s written in a Latin alphabet made by missionaries in the 1600s. Before that, Vietnamese used Chinese-based characters.",
+        ],
+        audio: { ll: "vie", words: ["má", "mà", "mạ"], n: 3, repeat: 2 },
+      },
+      {
+        name: "Thai", wojak: "t_tha", flag: "th", speakers: "~60M", scene: "andaman", loc: [13.75, 100.5, "Thailand"],
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1f4e8c", vest: "#f4f1e8" }, expression: "grin" },
+        cards: [
+          "Thai has five tones. A famous sentence: 'mái mài mâi mâi mǎi', does new wood not burn?",
+          "Thai writing uses four little tone marks above the letters, and puts no spaces between words.",
+        ],
+        audio: { file: "WIKITONGUES- Dang speaking Thai.webm", start: "auto" },
+      },
+      {
+        name: "Lao", wojak: "t_lao", flag: "la", speakers: "~7.5M", scene: "andaman", loc: [17.97, 102.6, "Vientiane, Laos"],
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#2e6b4f", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Lao and Thai are close relatives, and many Lao and Thai speakers can understand each other.",
+          "Vientiane Lao has six tones, and the tones change from province to province.",
+        ],
+        audio: { file: "WIKITONGUES- La speaking Lao.webm", start: "auto" },
+      },
+      {
+        name: "Burmese", wojak: "t_mya", flag: "mm", speakers: "~33M", scene: "andaman", loc: [16.8, 96.15, "Myanmar"],
+        char: F({ skin: "tan", hair: "bun", hairColor: "black", outfit: { type: "dress", color: "#d9b13b", color2: "#f4f1e8", trim: "#7a1f1f" }, expression: "smile" }),
+        cards: [
+          "Burmese has a 'creaky' tone, said with a tight, crackly voice: in tone languages it isn’t only about pitch.",
+          "Its round letters are often said to come from writing on palm leaves, where straight lines would tear the leaf.",
+        ],
+        audio: { file: "WIKITONGUES- Naw speaking Burmese.webm", start: "auto" },
+      },
+      {
+        name: "Hmong", wojak: "t_hmn", flag: "la", speakers: "~4M", scene: "himalaya", loc: [19.9, 102.1, "Laos, Vietnam, China & USA"],
+        char: F({ skin: "light", hair: "long", hairColor: "black", outfit: { type: "dress", color: "#1d1d1d", color2: "#c0392b", trim: "#2e8b57", pattern: "zigzag" }, expression: "smile" }),
+        cards: [
+          "In written Hmong the last letter of a word is its tone, not a sound: in 'Hmoob' (Hmong) the b just means high tone.",
+          "Hmong has about seven tones, and the qeej, a bamboo mouth organ, can 'speak' by playing the tones of words.",
+        ],
+        audio: { file: "May speaking Hmong Don.webm", start: "auto" },
+      },
+      {
+        name: "Yoruba", wojak: "t_yor", flag: "ng", speakers: "~45M", scene: "savanna", loc: [7.38, 3.9, "Nigeria & Benin"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#2e8b57", vest: "#f2c94c" }, expression: "grin" },
+        cards: [
+          "Three tones, marked with accents: 'ọkọ' is husband, 'ọkọ́' is hoe, and 'ọkọ̀' is a vehicle.",
+          "Yoruba talking drums copy the tones of speech so closely that drummers can send real messages.",
+        ],
+        audio: { file: "WIKITONGUES- Olaniyan speaking Yoruba.webm", start: "auto" },
+      },
+      {
+        name: "Igbo", wojak: "t_ibo", flag: "ng", speakers: "~30M", scene: "savanna", loc: [6.0, 7.5, "Southeastern Nigeria"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#7a1f1f", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Same letters, four meanings: 'ákwá' cry, 'àkwà' bed, 'àkwá' egg and 'ákwà' cloth. Only the tones change.",
+          "Chinua Achebe’s novel Things Fall Apart is full of Igbo words and proverbs.",
+        ],
+        audio: { file: "WIKITONGUES- Valentine speaking Igbo.webm", start: "auto" },
+      },
+    ],
+  },
   // ------------------------------------------------------------------ 8
   // Simulated: the owner asked for AI voices here. Each phrase is a published scholarly reconstruction, written in IPA
   // and read by a Piper voice (ipa_say.py / sim_audio.py). The video labels every clip as an AI simulation.
