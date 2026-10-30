@@ -1012,12 +1012,12 @@ export const VIDEOS = {
     items: [
       {
         name: "Mandarin", wojak: "t_cmn", flag: "cn", speakers: "~1.1B", scene: "hongkong", loc: [39.9, 116.4, "China"],
-        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#c0392b", vest: "#f4f1e8" }, expression: "smile" },
+        char: F({ skin: "light", hair: "long", hairColor: "black", outfit: { type: "shirt", color: "#c0392b", vest: "#f4f1e8" }, expression: "smile" }),
         cards: [
           "Mandarin has four tones. Mǎi with a dipping tone means buy, mài with a falling tone means sell. Listen to both.",
           "Linguist Chao Yuen Ren wrote a whole poem, the Lion-Eating Poet, using only the syllable 'shi' in different tones.",
         ],
-        audio: { ll: "cmn", words: ["买", "卖"], n: 2, repeat: 2 },
+        audio: { seq: ["File:LL-Q9192 (cmn)-Luilui6666-买.wav", "File:LL-Q9192 (cmn)-Luilui6666-卖.wav"], repeat: 5, voice: "f" },
       },
       {
         name: "Vietnamese", wojak: "t_vie", flag: "vn", speakers: "~85M", scene: "andaman", loc: [21.03, 105.85, "Vietnam"],
@@ -1026,7 +1026,7 @@ export const VIDEOS = {
           "Vietnamese has six tones, marked on the vowels: 'má' is mom in the South, 'mà' means but, and 'mạ' is a rice seedling.",
           "It’s written in a Latin alphabet made by missionaries in the 1600s. Before that, Vietnamese used Chinese-based characters.",
         ],
-        audio: { ll: "vie", words: ["má", "mà", "mạ"], n: 3, repeat: 2 },
+        audio: { seq: ["File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-má.wav", "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mà.wav", "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mạ.wav"], repeat: 3, voice: "f" },
       },
       {
         name: "Thai", wojak: "t_tha", flag: "th", speakers: "~60M", scene: "andaman", loc: [13.75, 100.5, "Thailand"],
@@ -1039,12 +1039,12 @@ export const VIDEOS = {
       },
       {
         name: "Lao", wojak: "t_lao", flag: "la", speakers: "~7.5M", scene: "andaman", loc: [17.97, 102.6, "Vientiane, Laos"],
-        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#2e6b4f", vest: "#f4f1e8" }, expression: "smile" },
+        char: F({ skin: "tan", hair: "long", hairColor: "black", outfit: { type: "dress", color: "#2e6b4f", color2: "#f4f1e8", trim: "#d9b13b" }, expression: "smile" }),
         cards: [
           "Lao and Thai are close relatives, and many Lao and Thai speakers can understand each other.",
           "Vientiane Lao has six tones, and the tones change from province to province.",
         ],
-        audio: { file: "WIKITONGUES- La speaking Lao.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- La speaking Lao.webm", start: "auto", voice: "f" },
       },
       {
         name: "Burmese", wojak: "t_mya", flag: "mm", speakers: "~33M", scene: "andaman", loc: [16.8, 96.15, "Myanmar"],
@@ -1062,7 +1062,7 @@ export const VIDEOS = {
           "In written Hmong the last letter of a word is its tone, not a sound: in 'Hmoob' (Hmong) the b just means high tone.",
           "Hmong has about seven tones, and the qeej, a bamboo mouth organ, can 'speak' by playing the tones of words.",
         ],
-        audio: { file: "May speaking Hmong Don.webm", start: "auto" },
+        audio: { file: "May speaking Hmong Don.webm", start: "auto", voice: "f" },
       },
       {
         name: "Yoruba", wojak: "t_yor", flag: "ng", speakers: "~45M", scene: "savanna", loc: [7.38, 3.9, "Nigeria & Benin"],
