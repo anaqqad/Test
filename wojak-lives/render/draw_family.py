@@ -108,6 +108,9 @@ CAST = {  # who: (rig kwargs, props, pose)
     "odad": (dict(skin=dc.SKIN["S1"], shirt="#ECECEC", hair="dadstache", hair_color="#4A3426"), ["polo"], "idle"),
     "lilbro": (dict(skin=dc.SKIN["S2"], shirt="#E74C3C", hair="messy", hair_color="#3B2314"), [], "idle"),
     "lilsis": (dict(skin=dc.SKIN["S2"], shirt="#FF8FB1", hair="long", hair_color="#8A5A36", female=True), [], "idle"),
+    # immigrant-parents episode: one kid, parents borrowed from every family above
+    "ikid": (dict(skin=dc.SKIN["S4"], shirt="#27AE60", hair="sidepart", hair_color="#1A1A1A"), [], "idle"),
+    "ikid_phone": (dict(skin=dc.SKIN["S4"], shirt="#27AE60", hair="sidepart", hair_color="#1A1A1A"), [], "phone"),
 }
 
 

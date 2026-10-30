@@ -17,8 +17,8 @@ A topic must have all four:
 - Title formula: `Life as a ___` / `Life with ___` + one emoji. The identity comes first.
 - Don't repeat an identity that's already done; pick a *different* community.
 - **US audience:** American topics, `$`, °F, miles, US spelling (mom, neighbor, pajamas), and US places (Walmart, Costco, DMV, high school, porch, suburban kitchen).
-- **Done:** Muslim girl, Mexican mom, Asian parents, oldest daughter.
-- **Ideas still open:** Arab son, hijabi in America/Europe, desi girl, Arab mom, Florida man, kid of immigrant parents.
+- **Done:** Muslim girl, Mexican mom, Asian parents, oldest daughter, immigrant parents.
+- **Ideas still open:** Arab son, hijabi in America/Europe, desi girl, Arab mom, Florida man.
 
 ## 2. Write the script (main format: 16:9, text only, ~75–80 s)
 - **Structure:**
@@ -40,7 +40,7 @@ A topic must have all four:
 - **Same Wojak face for everyone.** Only skin tone, hair, clothes and props change. **No ethnic caricature** (no slanted eyes, no exaggerated features).
 - **Veiled characters:** `python3 wojak-lives/render/draw_niqabi.py` → `assets/chars/{girl,mom,aunty_red,aunty_green}_{tired,wide,angry,side,sad,cry,happy,roll,dead}.png`, plus `girl_{tired,side,wide,happy}_phone`.
 - **Family characters (shared rig in `brand/draw_cast.py`):** `python3 wojak-lives/render/draw_family.py` → `<who>_<expr>.png`.
-  - **who:** mxmom, mxmom_chancla, mxmom_spoon, mxdad, mxkid, tia, asmom, asmom_spoon, asdad, asdad_report, askid, askid_report, oldsis, oldsis_phone, omom, odad, lilbro, lilsis.
+  - **who:** mxmom, mxmom_chancla, mxmom_spoon, mxdad, mxkid, tia, asmom, asmom_spoon, asdad, asdad_report, askid, askid_report, oldsis, oldsis_phone, omom, odad, lilbro, lilsis, ikid, ikid_phone.
   - **expr:** feels, bloomer, crying, rage (red face), soy (shocked), smug, side-eye, doomer.
   - To add a new family, add a `CAST` entry (skin, shirt, hair, props) and, if needed, a hair style in `hair_front` and a prop in `PROPS`.
 - **Men / extras:** the Nobo cut-outs (`brand/nobo/face_*`), recoloured to black and grey automatically. Use `tint="npc"` for grey extras.
