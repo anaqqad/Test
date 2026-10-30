@@ -2,8 +2,12 @@ Audio credits (Tonal Languages be like… Part 1)
 
 Mandarin: "LL-Q9192 (cmn)-Luilui6666-买.wav" by Luilui6666 (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:LL-Q9192_%28cmn%29-Luilui6666-%E4%B9%B0.wav
 Mandarin: "LL-Q9192 (cmn)-Luilui6666-卖.wav" by Luilui6666 (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:LL-Q9192_%28cmn%29-Luilui6666-%E5%8D%96.wav
-Vietnamese: "LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-má.wav" by Jessica Nguyen (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%C3%A1.wav
-Vietnamese: "LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mà.wav" by Jessica Nguyen (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%C3%A0.wav
-Vietnamese: "LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mạ.wav" by Jessica Nguyen (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%E1%BA%A1.wav
-Lao: "WIKITONGUES- La speaking Lao.webm" by Wikitongues, TBD, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:WIKITONGUES-_La_speaking_Lao.webm
-Hmong: "May speaking Hmong Don.webm" by Wikitongues, TBD, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:May_speaking_Hmong_Don.webm
+Vietnamese: "LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-má.wav" by Jessica Nguyen, recorded by Pamputt (Lingua Libre), CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%C3%A1.wav
+Vietnamese: "LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mà.wav" by Jessica Nguyen, recorded by Pamputt (Lingua Libre), CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%C3%A0.wav
+Vietnamese: "LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mạ.wav" by Jessica Nguyen, recorded by Pamputt (Lingua Libre), CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%E1%BA%A1.wav
+Thai: "WIKITONGUES- Dang speaking Thai.webm" by Wikitongues, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Dang_speaking_Thai.webm
+Lao: "WIKITONGUES- La speaking Lao.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:WIKITONGUES-_La_speaking_Lao.webm
+Burmese: "WIKITONGUES- Naw speaking Burmese.webm" by Wikitongues, Teddy Nee, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Naw_speaking_Burmese.webm
+Hmong: "May speaking Hmong Don.webm" by Wikitongues, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:May_speaking_Hmong_Don.webm
+Yoruba: "WIKITONGUES- Olaniyan speaking Yoruba.webm" by Bogreudell, CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Olaniyan_speaking_Yoruba.webm
+Igbo: "WIKITONGUES- Valentine speaking Igbo.webm" by Wikitongues, CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Valentine_speaking_Igbo.webm

@@ -1030,12 +1030,12 @@ export const VIDEOS = {
       },
       {
         name: "Thai", wojak: "t_tha", flag: "th", speakers: "~60M", scene: "andaman", loc: [13.75, 100.5, "Thailand"],
-        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1f4e8c", vest: "#f4f1e8" }, expression: "grin" },
+        char: F({ skin: "tan", hair: "long", hairColor: "black", outfit: { type: "shirt", color: "#1f4e8c", vest: "#f4f1e8" }, expression: "grin" }),
         cards: [
           "Thai has five tones. A famous sentence: 'mái mài mâi mâi mǎi', does new wood not burn?",
           "Thai writing uses four little tone marks above the letters, and puts no spaces between words.",
         ],
-        audio: { file: "WIKITONGUES- Dang speaking Thai.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Dang speaking Thai.webm", start: "auto", voice: "f" },
       },
       {
         name: "Lao", wojak: "t_lao", flag: "la", speakers: "~7.5M", scene: "andaman", loc: [17.97, 102.6, "Vientiane, Laos"],
@@ -1053,7 +1053,7 @@ export const VIDEOS = {
           "Burmese has a 'creaky' tone, said with a tight, crackly voice: in tone languages it isn’t only about pitch.",
           "Its round letters are often said to come from writing on palm leaves, where straight lines would tear the leaf.",
         ],
-        audio: { file: "WIKITONGUES- Naw speaking Burmese.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Naw speaking Burmese.webm", start: "auto", voice: "f" },
       },
       {
         name: "Hmong", wojak: "t_hmn", flag: "la", speakers: "~4M", scene: "himalaya", loc: [19.9, 102.1, "Laos, Vietnam, China & USA"],
@@ -1066,12 +1066,12 @@ export const VIDEOS = {
       },
       {
         name: "Yoruba", wojak: "t_yor", flag: "ng", speakers: "~45M", scene: "savanna", loc: [7.38, 3.9, "Nigeria & Benin"],
-        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#2e8b57", vest: "#f2c94c" }, expression: "grin" },
+        char: F({ skin: "dark", hair: "bun", hairColor: "black", outfit: { type: "dress", color: "#2e8b57", color2: "#f2c94c", trim: "#f4f1e8" }, hat: { type: "headscarf", color: "#2e8b57", color2: "#f2c94c" }, expression: "grin" }),
         cards: [
           "Three tones, marked with accents: 'ọkọ' is husband, 'ọkọ́' is hoe, and 'ọkọ̀' is a vehicle.",
           "Yoruba talking drums copy the tones of speech so closely that drummers can send real messages.",
         ],
-        audio: { file: "WIKITONGUES- Olaniyan speaking Yoruba.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Olaniyan speaking Yoruba.webm", start: "auto", voice: "f" },
       },
       {
         name: "Igbo", wojak: "t_ibo", flag: "ng", speakers: "~30M", scene: "savanna", loc: [6.0, 7.5, "Southeastern Nigeria"],
@@ -1080,7 +1080,7 @@ export const VIDEOS = {
           "Same letters, four meanings: 'ákwá' cry, 'àkwà' bed, 'àkwá' egg and 'ákwà' cloth. Only the tones change.",
           "Chinua Achebe’s novel Things Fall Apart is full of Igbo words and proverbs.",
         ],
-        audio: { file: "WIKITONGUES- Valentine speaking Igbo.webm", start: "auto" },
+        audio: { file: "WIKITONGUES- Valentine speaking Igbo.webm", start: "auto", voice: "m" },
       },
     ],
   },
