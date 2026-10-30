@@ -50,6 +50,7 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
   Exception the owner asked for: `ancient` ("Extinct Languages Simulated by AI (Part 1)") uses Piper voices
   reading scholarly IPA reconstructions (`lingo/sim_audio.py`, `lingo/ipa_say.py`), labelled "AI SIMULATION" on screen
   and in the description. Tick YouTube's altered/synthetic content box for it.
+- Exception (owner, 2026-10-30): the whistled-language song series (`lingo/song/`) may use a computer-made beat; the whistles stay real recordings (tuned/cut). Say so in the description.
 - Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).
 - Map-tour videos: `lingo/maptour.mjs` + `lingo/maptour_episodes.mjs` (done: `official`, Countries With the Most Official Languages).
   Saved idea the owner liked, **option 2**: `lingo/ideas/same_language_different_countries.md` (the original country says it first, then each other country's version, then the next language).
