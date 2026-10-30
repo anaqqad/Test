@@ -1,0 +1,354 @@
+{
+ "id": "reel-henry-johnson",
+ "title": "Wounded 21 Times. He Kept Fighting.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_flash_v2_5",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Wounded twenty-one times. He kept fighting.",
+   "visual": {
+    "kind": "photo",
+    "image": "returnhome",
+    "focus": [
+     0.39,
+     0.27
+    ],
+    "zoom": [
+     1.9,
+     2
+    ],
+    "anchor": [
+     0.39,
+     0.27
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Wounded 21 times. *He kept fighting.*"
+   },
+   "captions": false,
+   "speed": 1.2
+  },
+  {
+   "id": "name",
+   "text": "Meet Henry Johnson.",
+   "visual": {
+    "kind": "title",
+    "title": "Henry Johnson",
+    "sub": "1892-1929"
+   },
+   "section": "who"
+  },
+  {
+   "id": "porter",
+   "text": "A railroad porter from Albany, New York, he joined the Harlem Hellfighters in 1917.",
+   "visual": {
+    "kind": "card",
+    "image": "bearers",
+    "caption": "Color bearers of the 15th New York, 1917"
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Albany",
+     "sub": "New York"
+    }
+   }
+  },
+  {
+   "id": "france",
+   "text": "The U.S. Army kept Black units out of combat, so the regiment was lent to France.",
+   "visual": {
+    "kind": "title",
+    "title": "Lent to France",
+    "sub": "March 1918"
+   }
+  },
+  {
+   "id": "night",
+   "text": "On May 15, 1918, he and Needham Roberts were on sentry duty at a small outpost.",
+   "visual": {
+    "kind": "photo",
+    "image": "argonne",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "overlays": {
+    "stamp": "15 May 1918"
+   }
+  },
+  {
+   "id": "raid",
+   "text": "A German raiding party attacked. At least a dozen men.",
+   "visual": {
+    "kind": "title",
+    "title": "At least 12",
+    "sub": "German raiders"
+   }
+  },
+  {
+   "id": "fight",
+   "text": "Roberts was badly wounded. Johnson threw every grenade he had. His rifle jammed, so he swung it like a club. Then he drew his knife.",
+   "visual": {
+    "kind": "photo",
+    "image": "raid",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "save",
+   "text": "He would not let them take Roberts prisoner. The raiders pulled back.",
+   "visual": {
+    "kind": "card",
+    "image": "pair",
+    "caption": "Henry Johnson and Needham Roberts, 1918"
+   }
+  },
+  {
+   "id": "wounds",
+   "text": "He had been wounded twenty-one times.",
+   "visual": {
+    "kind": "title",
+    "title": "21",
+    "sub": "wounds"
+   }
+  },
+  {
+   "id": "croix",
+   "text": "France gave him the Croix de Guerre.",
+   "visual": {
+    "kind": "card",
+    "image": "pairmedals",
+    "caption": "Johnson and Roberts with the Croix de Guerre"
+   }
+  },
+  {
+   "id": "home",
+   "text": "His own army sent him home with papers that did not mention a single wound. No disability pay.",
+   "visual": {
+    "kind": "photo",
+    "image": "returnhome",
+    "focus": [
+     0.42,
+     0.35
+    ],
+    "zoom": [
+     1.3,
+     1.4
+    ]
+   },
+   "section": "twist"
+  },
+  {
+   "id": "death",
+   "text": "He died in 1929, at thirty-six, with almost nothing.",
+   "visual": {
+    "kind": "title",
+    "title": "1929",
+    "sub": "age 36"
+   }
+  },
+  {
+   "id": "moh",
+   "text": "In 2015, ninety-seven years after that night, he was awarded the Medal of Honor.",
+   "visual": {
+    "kind": "photo",
+    "image": "moh2",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {
+  "returnhome": [
+   [
+    0.35,
+    0.2,
+    0.44,
+    0.33
+   ]
+  ]
+ },
+ "sources": {
+  "NPS": {
+   "name": "National Park Service: Henry Johnson (1892-1929)",
+   "url": "https://www.nps.gov/people/henry-johnson-1892-1929.htm"
+  },
+  "ARMY": {
+   "name": "U.S. Army: Medal of Honor, Sergeant Henry Johnson",
+   "url": "https://www.army.mil/medalofhonor/johnson/"
+  },
+  "HIST": {
+   "name": "History.com: How Harlem Hellfighter Henry Johnson Earned His WWI Medal of Honor",
+   "url": "https://www.history.com/articles/wwi-hero-henry-johnson-finally-receives-medal-of-honor"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Henry Johnson (World War I soldier)",
+   "url": "https://en.wikipedia.org/wiki/Henry_Johnson_(World_War_I_soldier)"
+  }
+ },
+ "facts": [
+  {
+   "beat": "porter",
+   "claim": "Redcap porter at Albany Union Station; enlisted June 1917 in the 15th New York (369th, Harlem Hellfighters).",
+   "sources": [
+    "NPS",
+    "ARMY",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "france",
+   "claim": "Pershing kept Black units out of front-line combat; the 369th was assigned to the French in March 1918.",
+   "sources": [
+    "NPS",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "night",
+   "claim": "Sentry duty with Needham Roberts, 15 May 1918.",
+   "sources": [
+    "NPS",
+    "ARMY",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "raid",
+   "claim": "Raiding party of at least 12 (Medal of Honor citation); other accounts more.",
+   "sources": [
+    "ARMY",
+    "NPS",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "fight",
+   "claim": "Roberts badly wounded; grenades, rifle jammed and used as a club, bolo knife.",
+   "sources": [
+    "ARMY",
+    "HIST",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "save",
+   "claim": "Prevented Roberts's capture; raiders retreated.",
+   "sources": [
+    "ARMY",
+    "NPS",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "wounds",
+   "claim": "21 wounds.",
+   "sources": [
+    "NPS",
+    "ARMY",
+    "HIST",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "croix",
+   "claim": "Croix de Guerre with palm.",
+   "sources": [
+    "NPS",
+    "ARMY",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "home",
+   "claim": "Discharge papers did not mention his wounds; no disability pay.",
+   "sources": [
+    "NPS",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died July 1929, aged 36, nearly penniless.",
+   "sources": [
+    "NPS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "moh",
+   "claim": "Medal of Honor presented 2 June 2015 by President Obama.",
+   "sources": [
+    "ARMY",
+    "WIKI",
+    "HIST"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Exact number of raiders beyond 'at least 12' (sources give 12, about 25, up to 36).",
+  "The bolo-knife blow described in the citation (no graphic violence)."
+ ]
+}
