@@ -22,8 +22,13 @@ A topic must have all four:
 - **Series: "Life with a ___ mom" (one episode per country).** Reuse the Mexican-mom episode structure.
   - New mom = same rig, new skin, hair and clothes, plus 1–2 iconic props (no costumes or caricature).
   - The 18 points must come from that culture's own well-known mom memes.
-  - Priority, for the biggest US communities: Indian, Filipino, Nigerian, Italian, Korean, Puerto Rican, Arab, Brazilian.
-  - Then the rest: German, Canadian, British, Russian, Polish, Irish.
+  - **High-RPM audiences only.** Ad revenue depends on where the *viewers* live, and a topic pulls viewers from
+    its own country. So pick moms whose fans live in high-RPM countries: US, Canada, UK, Australia, New Zealand,
+    Germany, Switzerland, Netherlands, Nordics.
+  - **Order:** Southern mom (US South), Midwest mom, Canadian mom, British mom, Australian mom, Italian-American mom,
+    Irish mom, German mom, Texas mom, New York mom.
+  - **Avoid** (low RPM; the topic pulls home-country viewers): Indian, Filipino, Nigerian, Pakistani,
+    Indonesian, Brazilian, Egyptian moms.
 
 ## 2. Write the script (main format: 16:9, text only, ~75–80 s)
 - **Structure:**
