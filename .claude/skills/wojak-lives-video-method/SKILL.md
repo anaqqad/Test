@@ -19,6 +19,11 @@ A topic must have all four:
 - **US audience:** American topics, `$`, °F, miles, US spelling (mom, neighbor, pajamas), and US places (Walmart, Costco, DMV, high school, porch, suburban kitchen).
 - **Done:** Muslim girl, Mexican mom, Asian parents, oldest daughter, immigrant parents.
 - **Ideas still open:** Arab son, hijabi in America/Europe, desi girl, Arab mom, Florida man.
+- **Series: "Life with a ___ mom" (one episode per country).** Reuse the Mexican-mom episode structure.
+  - New mom = same rig, new skin, hair and clothes, plus 1–2 iconic props (no costumes or caricature).
+  - The 18 points must come from that culture's own well-known mom memes.
+  - Priority, for the biggest US communities: Indian, Filipino, Nigerian, Italian, Korean, Puerto Rican, Arab, Brazilian.
+  - Then the rest: German, Canadian, British, Russian, Polish, Irish.
 
 ## 2. Write the script (main format: 16:9, text only, ~75–80 s)
 - **Structure:**
