@@ -113,13 +113,16 @@ EPISODE = {"title": "LIFE WITH ___", "size": (1920, 1080), "no_title": True, "mu
 - Piper TTS narrator (`pip install piper-tts`), auto captions, a yellow "LIFE AS…" tag at 0:00, Nobo faces.
 - 60–75 s, about 160–200 words, a loop ending, and a "WHO'S NEXT?" end card.
 
-## 6. Cover (thumbnail)
-Copy the reference: **one big calm Wojak face, centred, on the episode's photo, no text, no red face, no props by default.**
-```
-python3 wojak-lives/render/thumbnail.py <who>_feels bg169/<bg>.jpg "out/<Video title> - cover.png" --y 0.1 --scale 1.3 --dx -0.05
-```
-- Nudge `--dx` until the head is centred (glasses or props shift the bounding box; e.g. asdad `--dx -0.16`).
-- Optional second cover with the iconic prop (e.g. chancla) for A/B testing.
+## 6. Cover (thumbnail): built for click-through
+Calm, text-free covers had low CTR on a new channel. Default now: `python3 wojak-lives/render/cover.py [key-prefix]` →
+`out/covers/<key>.png` (add each video to `COVERS` in `cover.py`). Make **2 options per video** and upload both
+with YouTube Studio **Test & Compare** (up to 3 thumbnails; YouTube picks the winner by watch time).
+- **A: conflict.** Kid crying on the left, parent smug/side-eye on the right, faces fill ~60 % of the height.
+- **B: solo.** One huge face with the strongest emotion; the red rage face is allowed here, as a test option.
+- **Text:** one yellow tag, max 3–4 words, the hook or punchline, never the title ("98%?!", "6:01 = LATE", "FULL NAME = RUN").
+- **Look:** white sticker outline + shadow on characters; background darker, softer and slightly more saturated, with a vignette.
+- **Never use the open-mouth `soy` face on covers:** at small size it reads as laughing. Use `crying`/`side-eye` instead.
+- Optional C: the old calm-face cover (`thumbnail.py`) as a third test.
 
 ## 7. Upload metadata (save in `render/metadata/<slug>.md`, give it to the user as copy-paste blocks)
 - **Title:** `Life with ___ <emoji>`
