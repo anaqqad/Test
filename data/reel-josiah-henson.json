@@ -1,0 +1,133 @@
+{
+ "id": "reel-josiah-henson",
+ "title": "The Real \"Uncle Tom\" Led 118 People to Freedom.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_flash_v2_5",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": { "volume": 0.06 },
+ "mix": { "targetLufs": -14, "ceilingDbtp": -1.5, "musicUnderVoiceDb": 21, "duckDb": 3, "hookBoostDb": 2 },
+ "brand": { "page": "The Black History Room", "cta": "Follow The Black History Room for more.", "theme": "bhr" },
+ "assets": {
+  "portrait": { "commons": "File:Josiah Henson bw.jpg" },
+  "utctitle": { "commons": "File:Harriet Beecher Stowe, Uncle Tom's Cabin, vol. 1, 1852, title page (clean).jpg" },
+  "eliza": { "commons": "File:Uncle Tom's Cabin - Eliza, Harry, Chloe, Tom and Old Bruno.jpg" },
+  "signature": { "commons": "File:Father Henson's story of his own life - Josiah Henson signature.png" }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "The real Uncle Tom led 118 people to freedom.",
+   "visual": { "kind": "photo", "image": "portrait", "focus": [0.5, 0.28], "zoom": [1.0, 1.06], "anchor": [0.5, 0.28] },
+   "section": "hook",
+   "overlays": { "hook": "The real \"Uncle Tom\" *led 118 people to freedom.*" },
+   "captions": false,
+   "speed": 1.15
+  },
+  {
+   "id": "name",
+   "text": "Meet Josiah Henson.",
+   "visual": { "kind": "title", "title": "Josiah Henson", "sub": "1789-1883" },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born enslaved in Maryland in 1789, he saw his family sold at auction as a boy.",
+   "visual": { "kind": "title", "title": "Sold apart", "sub": "Charles County, Maryland" },
+   "section": "story",
+   "overlays": { "pin": { "label": "Charles County", "sub": "Maryland" } }
+  },
+  {
+   "id": "trust",
+   "text": "He grew up to run his enslaver's farm. In 1825, he was sent to lead eighteen enslaved people to Kentucky.",
+   "visual": { "kind": "photo", "image": "portrait", "focus": [0.5, 0.3], "zoom": [1.1, 1.18], "anchor": [0.5, 0.3] }
+  },
+  {
+   "id": "promise",
+   "text": "He had been promised his freedom. He saved 350 dollars to buy himself.",
+   "visual": { "kind": "title", "title": "$350", "sub": "the price of his freedom" }
+  },
+  {
+   "id": "cheat",
+   "text": "His enslaver changed the price to 1,000. Then Henson learned he would be sold to New Orleans, away from his wife and children.",
+   "visual": { "kind": "title", "title": "$1,000", "sub": "the price, changed" }
+  },
+  {
+   "id": "escape",
+   "text": "So in 1830, he ran. He crossed the free states with his wife and children, carrying the smallest ones.",
+   "visual": { "kind": "card", "image": "eliza", "caption": "Uncle Tom's Cabin, illustration, 1852" },
+   "section": "twist"
+  },
+  {
+   "id": "free",
+   "text": "On October 28, 1830, they reached Canada. Free.",
+   "visual": { "kind": "title", "title": "Free", "sub": "Upper Canada, 28 October 1830" }
+  },
+  {
+   "id": "dawn",
+   "text": "There he helped build the Dawn Settlement, a community and a school for people who had escaped slavery.",
+   "visual": { "kind": "photo", "image": "portrait", "focus": [0.5, 0.32], "zoom": [1.2, 1.3], "anchor": [0.5, 0.32] },
+   "overlays": { "pin": { "label": "Dresden", "sub": "Ontario" } }
+  },
+  {
+   "id": "return",
+   "text": "And he kept going back. By his own count, he guided 118 people to freedom.",
+   "visual": { "kind": "title", "title": "118", "sub": "people led to freedom" }
+  },
+  {
+   "id": "book",
+   "text": "In 1849, he published his life story. Many believe it inspired Uncle Tom's Cabin.",
+   "visual": { "kind": "card", "image": "utctitle", "caption": "Uncle Tom's Cabin, 1852" },
+   "section": "legacy"
+  },
+  {
+   "id": "end",
+   "text": "Today Uncle Tom is an insult. The man behind the name was anything but.",
+   "visual": { "kind": "photo", "image": "portrait", "focus": [0.5, 0.28], "zoom": [1.05, 1.12], "anchor": [0.5, 0.28] }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": { "kind": "endcard" },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "TCE": { "name": "The Canadian Encyclopedia: Josiah Henson", "url": "https://www.thecanadianencyclopedia.ca/en/article/josiah-henson" },
+  "WIKI": { "name": "Wikipedia: Josiah Henson", "url": "https://en.wikipedia.org/wiki/Josiah_Henson" },
+  "MP": { "name": "Montgomery Parks: Josiah Henson Museum and Park", "url": "https://montgomeryparks.org/parks-and-trails/josiah-henson-museum-and-park/" },
+  "OHT": { "name": "Ontario Heritage Trust: Josiah Henson Museum of African-Canadian History", "url": "https://www.heritagetrust.on.ca/properties/josiah-henson-museum" },
+  "MEMOIR": { "name": "Josiah Henson, Truth Stranger Than Fiction (1858), DocSouth, UNC", "url": "https://docsouth.unc.edu/neh/henson58/henson58.html" }
+ },
+ "facts": [
+  { "beat": "born", "claim": "Born enslaved 15 June 1789, Charles County, Maryland; family sold apart at auction.", "sources": ["TCE", "WIKI", "MEMOIR"] },
+  { "beat": "trust", "claim": "Became supervisor of Isaac Riley's farm; in 1825 led 18 enslaved people to Kentucky.", "sources": ["TCE", "WIKI"] },
+  { "beat": "promise", "claim": "Promised manumission; saved $350 to buy himself.", "sources": ["TCE", "WIKI", "MEMOIR"] },
+  { "beat": "cheat", "claim": "Riley altered the price to $1,000; Henson was to be sold in New Orleans away from wife and four children.", "sources": ["WIKI", "TCE", "MEMOIR"] },
+  { "beat": "escape", "claim": "1830 escape with wife and children; carried the smallest.", "sources": ["TCE", "WIKI"] },
+  { "beat": "free", "claim": "Reached Upper Canada 28 October 1830.", "sources": ["TCE", "WIKI"] },
+  { "beat": "dawn", "claim": "Dawn Settlement and British-American Institute near Dresden, Ontario.", "sources": ["TCE", "WIKI", "OHT"] },
+  { "beat": "return", "claim": "By his own count, guided 118 people to freedom.", "sources": ["MEMOIR", "MP", "OHT"] },
+  { "beat": "book", "claim": "1849 autobiography; widely considered an inspiration for Uncle Tom's Cabin (1852).", "sources": ["TCE", "WIKI"] }
+ ],
+ "notUsed": [
+  "Meeting Queen Victoria (no date in two sources).",
+  "First Black man on a Canadian stamp (Wikipedia only).",
+  "His father's punishment (graphic; left out)."
+ ]
+}
