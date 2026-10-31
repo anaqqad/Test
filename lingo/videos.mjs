@@ -1084,6 +1084,97 @@ export const VIDEOS = {
       },
     ],
   },
+  tonal2: {
+    title: "Tonal Languages be like…", // YouTube: "... (Part 2)"; on-screen pitch line (viewer: "all the tones sound the same")
+    part: "Part 2",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#8e44ad",
+    pitchLine: true,
+    items: [
+      {
+        name: "Cantonese", wojak: "t2_yue", flag: "hk", speakers: "~85M", scene: "hongkong", loc: [22.3, 114.17, "Hong Kong & Guangdong"],
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1f4e8c", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Cantonese has six tones. Just counting to ten uses most of them: watch the pitch line jump around.",
+          "It keeps old sounds Mandarin lost, which is why Tang dynasty poems are often said to rhyme better in Cantonese.",
+        ],
+        audio: { file: "Zero to ten in Cantonese Chinese.ogg", start: 0 },
+      },
+      {
+        name: "Hakka", wojak: "t2_hak", flag: "cn", speakers: "~45M", scene: "hills", loc: [24.3, 116.1, "Guangdong, Taiwan & beyond"],
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "coat", color: "#2e6b4f", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Hakka means ‘guest families’: their ancestors moved south from northern China over many centuries.",
+          "It has six tones, and since 2018 it’s one of Taiwan’s national languages.",
+        ],
+        audio: { file: "WIKITONGUES- Sanda speaking Hakka.webm", start: "auto" },
+      },
+      {
+        name: "Shanghainese", wojak: "t2_wuu", flag: "cn", speakers: "~14M", scene: "hongkong", loc: [31.23, 121.47, "Shanghai, China"],
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "coat", color: "#7a1f1f", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "In Shanghainese the first syllable’s tone spreads over the whole word, so it can sound almost like Japanese.",
+          "It’s a Wu language, and Mandarin speakers can’t understand it without learning it.",
+        ],
+        audio: { file: "WIKITONGUES- Ivy speaking Shanghainese.webm", start: "auto" },
+      },
+      {
+        name: "Hokkien", wojak: "t2_nan", flag: "my", speakers: "~28M", scene: "andaman", loc: [5.41, 100.33, "Penang, Malaysia"],
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#c0392b", vest: "#f4f1e8" }, expression: "grin" },
+        cards: [
+          "English ‘tea’ comes from Hokkien ‘tê’. Mandarin says ‘chá’, which became ‘chai’.",
+          "Hokkien has seven or eight tones, and a word’s tone changes when another word comes after it.",
+        ],
+        audio: { file: "WIKITONGUES- Timothy speaking Penang Hokkien.webm", start: "auto" },
+      },
+      {
+        name: "Taishanese", wojak: "t2_tai", flag: "cn", speakers: "a few million", scene: "village", loc: [22.25, 112.79, "Taishan, Guangdong"],
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#d9b13b", vest: "#1d1d1d" }, expression: "smile" },
+        cards: [
+          "Taishanese was the main language of the first Chinatowns in America, like San Francisco’s.",
+          "It’s a cousin of Cantonese, but Cantonese speakers often find it hard to follow.",
+        ],
+        audio: { file: "WIKITONGUES- Joseph speaking Siyi Yue.webm", start: "auto" },
+      },
+      {
+        name: "Henan Chinese", wojak: "t2_hen", flag: "cn", speakers: "~100M", scene: "steppe", loc: [34.75, 113.62, "Henan, China"],
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "coat", color: "#3a3a3a", inner: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Henan Chinese is a kind of Mandarin from the old heart of China, around the ancient capitals Luoyang and Kaifeng.",
+          "Its tones sit in different places than Beijing Mandarin: same words, different melody.",
+        ],
+        audio: { file: "WIKITONGUES- Ying speaking Henan Chinese.webm", start: "auto" },
+      },
+      {
+        name: "Tày", wojak: "t2_tay", flag: "vn", speakers: "~1.8M", scene: "himalaya", loc: [22.0, 105.8, "Northern Vietnam"],
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1f3a5f", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Tày is the biggest minority language of Vietnam, and a cousin of Thai and Lao.",
+          "It has six tones, and was once written with Chinese-style characters adapted for Tày.",
+        ],
+        audio: { file: "Ming speaking Tày.webm", start: "auto" },
+      },
+      {
+        name: "Twi", wojak: "t2_twi", flag: "gh", speakers: "~9M native", scene: "savanna", loc: [6.69, -1.62, "Kumasi, Ghana"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#d9b13b", vest: "#2e8b57" }, expression: "grin" },
+        cards: [
+          "Twi has high and low tones, and Akan ‘talking drums’ copy them to send messages.",
+          "Ghana’s famous welcome, ‘akwaaba’, is Twi.",
+        ],
+        audio: { file: "WIKITONGUES- Raphael speaking Twi.webm", start: "auto" },
+      },
+      {
+        name: "Hausa", wojak: "t2_hau", flag: "ng", speakers: "~80M", scene: "savanna", loc: [12.0, 8.52, "Kano, Nigeria & Niger"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "robe", color: "#f4f1e8", trim: "#2e8b57" }, hat: { type: "fez", color: "#f4f1e8", color2: "#2e8b57" }, expression: "smile" },
+        cards: [
+          "Hausa has tones, but they usually aren’t written, so readers work them out from context.",
+          "It’s spoken by tens of millions across West Africa, and it’s a distant cousin of Arabic and Hebrew.",
+        ],
+        audio: { file: "WIKITONGUES- Abubakar speaking Hausa.webm", start: "auto" },
+      },
+    ],
+  },
   // ------------------------------------------------------------------ 8
   // Simulated: the owner asked for AI voices here. Each phrase is a published scholarly reconstruction, written in IPA
   // and read by a Piper voice (ipa_say.py / sim_audio.py). The video labels every clip as an AI simulation.
