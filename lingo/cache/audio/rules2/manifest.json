@@ -1,0 +1,103 @@
+{
+ "kal": {
+  "len": 7.3,
+  "seq": [
+   {
+    "rec": "greenlandic",
+    "t": 0.0,
+    "d": 7.0
+   }
+  ],
+  "f0": 136,
+  "voice": "male"
+ },
+ "kat": {
+  "len": 7.07,
+  "seq": [
+   {
+    "rec": "kat_word",
+    "t": 0.0,
+    "d": 1.07
+   },
+   {
+    "rec": "georgian",
+    "t": 1.77,
+    "d": 5.0
+   }
+  ],
+  "f0": 201,
+  "voice": "female"
+ },
+ "hmn": {
+  "len": 7.3,
+  "seq": [
+   {
+    "rec": "hmong",
+    "t": 0.0,
+    "d": 7.0
+   }
+  ],
+  "f0": 249,
+  "voice": "female"
+ },
+ "que": {
+  "len": 7.3,
+  "seq": [
+   {
+    "rec": "quechua",
+    "t": 0.0,
+    "d": 7.0
+   }
+  ],
+  "f0": 130,
+  "voice": "male"
+ },
+ "lkt": {
+  "len": 7.3,
+  "seq": [
+   {
+    "rec": "lakota",
+    "t": 0.0,
+    "d": 7.0
+   }
+  ],
+  "f0": 114,
+  "voice": "male"
+ },
+ "chr": {
+  "len": 7.3,
+  "seq": [
+   {
+    "rec": "cherokee",
+    "t": 0.0,
+    "d": 7.0
+   }
+  ],
+  "f0": 108,
+  "voice": "male"
+ },
+ "nah": {
+  "len": 7.3,
+  "seq": [
+   {
+    "rec": "nahuatl",
+    "t": 0.0,
+    "d": 7.0
+   }
+  ],
+  "f0": 130,
+  "voice": "male"
+ },
+ "eus": {
+  "len": 7.3,
+  "seq": [
+   {
+    "rec": "basque",
+    "t": 0.0,
+    "d": 7.0
+   }
+  ],
+  "f0": 106,
+  "voice": "male"
+ }
+}

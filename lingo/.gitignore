@@ -1,0 +1,24 @@
+node_modules/
+cache/
+out/*.png
+out/clips/
+*.log
+checks_*.txt
+cache_fetch*.log
+out/*.mp4
+out/needed.json
+out/links.json
+incoming/
+go*.log
+render_*.log
+pipeline.log
+analysis.txt
+out/*_timeline.json
+out/hardest_links.*
+
+# YouTube upload credentials (upload_youtube.py)
+client_secret*.json
+youtube_token.json
+youtube_token_read.json
+comments/
+song/out/

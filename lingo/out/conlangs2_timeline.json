@@ -1,0 +1,32 @@
+[
+ {
+  "name": "intro",
+  "start": 0,
+  "dur": 3.2
+ },
+ {
+  "name": "Interlingua",
+  "start": 3.2,
+  "dur": 17.6
+ },
+ {
+  "name": "Lingua Franca Nova",
+  "start": 20.8,
+  "dur": 17.6
+ },
+ {
+  "name": "Uropi",
+  "start": 38.4,
+  "dur": 17.6
+ },
+ {
+  "name": "Láadan",
+  "start": 56,
+  "dur": 15.24
+ },
+ {
+  "name": "outro",
+  "start": 71.24,
+  "dur": 4
+ }
+]

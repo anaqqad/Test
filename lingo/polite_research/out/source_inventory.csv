@@ -1,0 +1,32 @@
+source,status,url,what was used / why not,licence,lemmas_supported
+English Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/dictionary/,"machine-readable extraction of en.wiktionary, dump of 2026-10; ~110 languages streamed",CC BY-SA 4.0 / GFDL,2429
+ja Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/jawiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,842
+ko Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/kowiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,74
+zh Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/zhwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,462
+th Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/thwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,643
+vi Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/viwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,19
+id Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/idwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,11
+ms Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/mswiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,21
+it Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/itwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,1
+pt Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/ptwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,
+tr Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/trwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,1
+pl Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/plwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,61
+es Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/eswiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,
+nl Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/nlwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,6
+ru Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/ruwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,24
+de Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/dewiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,11
+fr Wiktionary (kaikki.org wiktextract),used,https://kaikki.org/frwiktionary/,"native-edition extraction, all languages, scanned for politeness labels in the edition's own language",CC BY-SA 4.0 / GFDL,140
+JMdict,used,https://www.edrdg.org/jmdict/j_jmdict.html,JMdict_e.gz of 2026-10-24; senses tagged hon/hum/pol or with a stated function,CC BY-SA 4.0 (EDRDG),904
+CC-CEDICT,used,https://www.mdbg.net/chinese/dictionary?page=cc-cedict,cedict release of 2026-10-23; definitions labelled polite/honorific/humble or with a stated function,CC BY-SA 4.0,352
+Poedjosoedarmo 1969 (Cornell),used,https://ecommons.cornell.edu/server/api/core/bitstreams/1055992b-f295-4083-bc22-08923e6f3684/content,"S. Poedjosoedarmo, 'Wordlist of Javanese Non-Ngoko Vocabularies', Indonesia (Cornell). Krama and Krama Inggil/Andap columns, OCR + column recovery","journal article, open access",808
+Poedjosoedarmo 1968 'Javanese Speech Levels',"consulted, not parsed",https://ecommons.cornell.edu/bitstream/handle/1813/53445/INDO_6_0_1107138592_54_81.pdf,PDF link returned an HTML page from the sandbox,open access,
+Wikipedia: Thai honorifics / Royal Thai vocabulary (rachasap),consulted (background),https://en.wikipedia.org/wiki/Thai_honorifics,no word count used,CC BY-SA,
+Royal Institute Dictionary (Thai),inaccessible,https://dictionary.orst.go.th/,no bulk download / licence for reuse,copyright,
+NIKL Standard Korean Dictionary / Urimalsaem,inaccessible,https://opendict.korean.go.kr/,bulk download needs a registered account; not attempted,CC BY-SA 2.0 KR,
+Zhe sa'i tshig mdzod rab gsal me long (1993); Zhe sa'i lag deb (2002),inaccessible,https://mandala.library.virginia.edu/,"Tibetan honorific (zhesa) dictionaries; cited in literature, no open digital text found",copyright,
+Kyoto University paper on Tibetan honorifics,consulted (background),https://repository.kulib.kyoto-u.ac.jp/,describes the zhesa system; no list extracted,open access,
+Kbuon Reach Sap (1941); Chuon Nath Khmer dictionary,inaccessible,,Khmer royal vocabulary; no open digital text found,copyright,
+Bausastra Jawa (Poerwadarminta 1939),not used,,scans exist; not parsed in this pass (Poedjosoedarmo used instead),public domain in some jurisdictions,
+Mendeley Indonesian-Javanese dataset,"consulted, not used",https://data.mendeley.com/datasets/y3hstv4bfn,"parallel corpus, no register labels per word",CC BY 4.0,
+"Kamus Dewan (Malay), KBBI (Indonesian)",inaccessible,https://kbbi.kemdikbud.go.id/,"online lookup only, no bulk labels",copyright,
+Lingua Libre / Wikimedia Commons,used for audio status only,https://commons.wikimedia.org/,audio availability checked for the shortlist; does not affect counts,various CC,

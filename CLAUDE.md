@@ -36,3 +36,46 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 - Never print, log or commit API keys; secrets come from environment variables.
 - Ask before any paid API usage.
 - Don't touch unrelated projects or folders on this machine.
+
+# LingoDude (YouTube channel about languages): `lingo/`
+Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Extinct Languages be like" style
+(reference channel: youtube.com/@thatsquiteinteresting). Details: `lingo/README.md`, analysis: `lingo/ANALYSIS.md`.
+
+## Owner rules for these videos
+- Build **6 videos** around the same idea (keys in `lingo/videos.mjs`: extinct, niche, hardest, sounds, conlangs, revived; plus `soundlike` "Languages That Sound Like a Different Language", 2:38, done).
+- Topics must match the reference channel's style: meme-category titles ("X Languages be like…", rankings) + interesting
+  facts. No "Part 2" on the original six (they have no part 1), except where the owner asks for one: "These Languages Break the Rules of Speech (Part 2)" (`rules2`, Part 1 is `sounds`) and "People Actually Speak These Made-Up Languages (Part 2)" (`conlangs2`, Part 1 is `conlangs`), both requested by the owner (2026-10-22/23). Exception: the AI-simulation series is a real series, "Extinct Languages Simulated by AI (Part 1)" is `ancient`; Part 2 (Lost empires) is `ancient2`, Part 3 (Medieval) is `ancient3`, Part 4 `ancient4`, Part 5 `ancient5` (follower requests), Part 6 `ancient6` (full sentences), all done. Thumbnails: `node thumb_ancient.mjs 1|2|3`. **Not** videos about one country or region (owner rejected "Italy's languages" and "Middle East").
+- **Only use sounds that were actually found**: real recordings from Wikimedia Commons. No synthesized speech or
+  generated music. A language with no recording found gets replaced or dropped, never faked.
+  Exception the owner asked for: `ancient` ("Extinct Languages Simulated by AI (Part 1)") uses Piper voices
+  reading scholarly IPA reconstructions (`lingo/sim_audio.py`, `lingo/ipa_say.py`), labelled "AI SIMULATION" on screen
+  and in the description. Tick YouTube's altered/synthetic content box for it.
+- Exception (owner, 2026-10-30): the whistled-language song series (`lingo/song/`) may use a computer-made beat; the whistles stay real recordings (tuned/cut). Say so in the description.
+- Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).
+- Map-tour videos: `lingo/maptour.mjs` + `lingo/maptour_episodes.mjs` (done: `official`, Countries With the Most Official Languages).
+  Saved idea the owner liked, **option 2**: `lingo/ideas/same_language_different_countries.md` (the original country says it first, then each other country's version, then the next language).
+- Thumbnails (`thumb_photo.mjs`): always the channel look: white name strip, photo, Wojak, flag, PART label for series, and the hook in **red** text with a white outline (owner: "keep it"). Never another hook colour.
+- Similar-languages video: `lingo/similar.mjs` + `similar_pairs.json` + `swadesh.json` (owner: random words are no basis; every pair is scored on the same 41 Swadesh core words, `similar_score.py`: vocabulary = same root, sound = spelling edit distance, grammar = 6-point checklist, averaged to a %; 10 of the words are played per pair, real Lingua Libre recordings; `fetch_pairs.py` downloads the mp3 transcodes, `--rescore` refreshes scores only). Czech–Slovak and Danish–Norwegian dropped: no Czech/Danish core-word recordings on Lingua Libre.
+- Wojaks are generated with ChatGPT through the Codex CLI (device-code sign-in by the owner). Stay signed in between batches; the owner says "logout" when they want the session closed (owner, 2026-10-20). ChatGPT sometimes fails to save the image: retry the job, it is not a content problem.
+- Babies video: `lingo/babycry.mjs` (cries from public YouTube videos the owner is asking permission for; pitch traced with `baby_analyze.py`), Wojak crying babies `wojaks/baby_*.png`.
+
+- Easiest languages (done): `lingo/easy.json` rendered with `node vulgar.mjs --set easy` (explicit `rank` field). Rank = FSI weeks, ties broken by Swadesh look-alike % (`easy_score.py`, Wiktionary appendices in `easy_data/`).
+- Next-videos to-do list from the owner: `lingo/ideas/TODO.md` (polite ranking, Arabic variants, masculine ranking, hardest and easiest rankings).
+
+## Uploading to YouTube (local session on the owner's PC)
+- `python lingo/upload_youtube.py <key> lingo/videos/<file>.mp4` reads title, description, tags, category, kids,
+  synthetic flag and thumbnail from `lingo/meta/<key>.md`; uploads as **private** by default (`--public` to publish,
+  `--dry-run` to check). Needs `pip install google-api-python-client google-auth-oauthlib`.
+- Credentials: `lingo/client_secret.json` (Google Cloud OAuth client, Desktop app, YouTube Data API v3 enabled) and
+  `lingo/youtube_token.json` (created on first sign-in). Both are gitignored: never print or commit them.
+- Ask the owner before publishing anything public.
+- Viewer requests: `python lingo/read_comments.py [--days 14]` reads every video's comments (own token `youtube_token_read.json`, gitignored) and writes `lingo/comments/summary.txt` with the most requested languages; the owner sends that file. Free API, quota ~10,000 units/day (an upload costs about 1,600).
+
+## Continue from here
+1. `cd lingo && npm i && pip install faster-whisper`
+2. `python3 fetch_audio.py` (resumable; cached clips are skipped. Commons answers HTTP 429 when downloading fast;
+   the script waits as long as Retry-After asks)
+3. `node render.mjs <video>` for each of the 6 → `lingo/out/<video>.mp4`; check stills first with `--still 3,12`.
+4. Look at each `out/<video>_credits.txt`; listen to the clips in `cache/audio/<video>/`, since the auto-pick
+   (Whisper language ID) can land on the wrong language in recordings that mix languages.
+5. MP4s are large: don't commit them; upload them to YouTube.

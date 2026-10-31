@@ -1,0 +1,241 @@
+{
+ "Mandarin": {
+  "sig": "{\"repeat\": 5, \"seq\": [\"File:LL-Q9192 (cmn)-Luilui6666-买.wav\", \"File:LL-Q9192 (cmn)-Luilui6666-卖.wav\"], \"voice\": \"f\"}|12.6",
+  "credits": [
+   {
+    "title": "File:LL-Q9192 (cmn)-Luilui6666-买.wav",
+    "url": "https://upload.wikimedia.org/x/LL-Q9192_%28cmn%29-Luilui6666-%E4%B9%B0.wav",
+    "size": null,
+    "artist": "Luilui6666 (Lingua Libre)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q9192_%28cmn%29-Luilui6666-%E4%B9%B0.wav"
+   },
+   {
+    "title": "File:LL-Q9192 (cmn)-Luilui6666-卖.wav",
+    "url": "https://upload.wikimedia.org/x/LL-Q9192_%28cmn%29-Luilui6666-%E5%8D%96.wav",
+    "size": null,
+    "artist": "Luilui6666 (Lingua Libre)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q9192_%28cmn%29-Luilui6666-%E5%8D%96.wav"
+   }
+  ],
+  "captions": [
+   {
+    "t": 0.6,
+    "d": 0.36,
+    "text": "买 mǎi = buy"
+   },
+   {
+    "t": 1.51,
+    "d": 0.38,
+    "text": "卖 mài = sell"
+   },
+   {
+    "t": 2.44,
+    "d": 0.36,
+    "text": "买 mǎi = buy"
+   },
+   {
+    "t": 3.34,
+    "d": 0.38,
+    "text": "卖 mài = sell"
+   },
+   {
+    "t": 4.27,
+    "d": 0.36,
+    "text": "买 mǎi = buy"
+   },
+   {
+    "t": 5.18,
+    "d": 0.38,
+    "text": "卖 mài = sell"
+   },
+   {
+    "t": 6.11,
+    "d": 0.36,
+    "text": "买 mǎi = buy"
+   },
+   {
+    "t": 7.01,
+    "d": 0.38,
+    "text": "卖 mài = sell"
+   },
+   {
+    "t": 7.94,
+    "d": 0.36,
+    "text": "买 mǎi = buy"
+   },
+   {
+    "t": 8.85,
+    "d": 0.38,
+    "text": "卖 mài = sell"
+   }
+  ]
+ },
+ "Vietnamese": {
+  "sig": "{\"repeat\": 3, \"seq\": [\"File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-má.wav\", \"File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mà.wav\", \"File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mạ.wav\"], \"voice\": \"f\"}|12.6",
+  "credits": [
+   {
+    "title": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-má.wav",
+    "url": "https://upload.wikimedia.org/x/LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%C3%A1.wav",
+    "size": null,
+    "artist": "Jessica Nguyen, recorded by Pamputt (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%C3%A1.wav"
+   },
+   {
+    "title": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mà.wav",
+    "url": "https://upload.wikimedia.org/x/LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%C3%A0.wav",
+    "size": null,
+    "artist": "Jessica Nguyen, recorded by Pamputt (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%C3%A0.wav"
+   },
+   {
+    "title": "File:LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-mạ.wav",
+    "url": "https://upload.wikimedia.org/x/LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%E1%BA%A1.wav",
+    "size": null,
+    "artist": "Jessica Nguyen, recorded by Pamputt (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q9199_%28vie%29-Jessica_Nguyen_%28Pamputt%29-m%E1%BA%A1.wav"
+   }
+  ],
+  "captions": [
+   {
+    "t": 0.6,
+    "d": 0.83,
+    "text": "má = mom"
+   },
+   {
+    "t": 1.98,
+    "d": 0.69,
+    "text": "mà = but"
+   },
+   {
+    "t": 3.22,
+    "d": 0.84,
+    "text": "mạ = rice seedling"
+   },
+   {
+    "t": 4.6,
+    "d": 0.83,
+    "text": "má = mom"
+   },
+   {
+    "t": 5.98,
+    "d": 0.69,
+    "text": "mà = but"
+   },
+   {
+    "t": 7.22,
+    "d": 0.84,
+    "text": "mạ = rice seedling"
+   },
+   {
+    "t": 8.61,
+    "d": 0.83,
+    "text": "má = mom"
+   },
+   {
+    "t": 9.98,
+    "d": 0.69,
+    "text": "mà = but"
+   },
+   {
+    "t": 11.22,
+    "d": 0.84,
+    "text": "mạ = rice seedling"
+   }
+  ]
+ },
+ "Thai": {
+  "sig": "{\"file\": \"WIKITONGUES- Dang speaking Thai.webm\", \"start\": \"auto\", \"voice\": \"f\"}|12.6",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Dang speaking Thai.webm",
+    "url": "https://upload.wikimedia.org/x/WIKITONGUES-_Dang_speaking_Thai.webm",
+    "size": null,
+    "artist": "Wikitongues",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Dang_speaking_Thai.webm"
+   }
+  ],
+  "captions": [],
+  "start": 5
+ },
+ "Lao": {
+  "sig": "{\"file\": \"WIKITONGUES- La speaking Lao.webm\", \"start\": \"auto\", \"voice\": \"f\"}|12.6",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- La speaking Lao.webm",
+    "url": "https://upload.wikimedia.org/x/WIKITONGUES-_La_speaking_Lao.webm",
+    "size": null,
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_La_speaking_Lao.webm"
+   }
+  ],
+  "captions": [],
+  "start": 20
+ },
+ "Burmese": {
+  "sig": "{\"file\": \"WIKITONGUES- Naw speaking Burmese.webm\", \"start\": \"auto\", \"voice\": \"f\"}|12.6",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Naw speaking Burmese.webm",
+    "url": "https://upload.wikimedia.org/x/WIKITONGUES-_Naw_speaking_Burmese.webm",
+    "size": null,
+    "artist": "Wikitongues, Teddy Nee",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Naw_speaking_Burmese.webm"
+   }
+  ],
+  "captions": [],
+  "start": 0
+ },
+ "Hmong": {
+  "sig": "{\"file\": \"May speaking Hmong Don.webm\", \"start\": \"auto\", \"voice\": \"f\"}|12.6",
+  "credits": [
+   {
+    "title": "File:May speaking Hmong Don.webm",
+    "url": "https://upload.wikimedia.org/x/May_speaking_Hmong_Don.webm",
+    "size": null,
+    "artist": "Wikitongues",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:May_speaking_Hmong_Don.webm"
+   }
+  ],
+  "captions": [],
+  "start": 0
+ },
+ "Yoruba": {
+  "sig": "{\"file\": \"WIKITONGUES- Olaniyan speaking Yoruba.webm\", \"start\": \"auto\", \"voice\": \"f\"}|12.6",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Olaniyan speaking Yoruba.webm",
+    "url": "https://upload.wikimedia.org/x/WIKITONGUES-_Olaniyan_speaking_Yoruba.webm",
+    "size": null,
+    "artist": "Bogreudell",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Olaniyan_speaking_Yoruba.webm"
+   }
+  ],
+  "captions": [],
+  "start": 120
+ },
+ "Igbo": {
+  "sig": "{\"file\": \"WIKITONGUES- Valentine speaking Igbo.webm\", \"start\": \"auto\", \"voice\": \"m\"}|12.6",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Valentine speaking Igbo.webm",
+    "url": "https://upload.wikimedia.org/x/WIKITONGUES-_Valentine_speaking_Igbo.webm",
+    "size": null,
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Valentine_speaking_Igbo.webm"
+   }
+  ],
+  "captions": [],
+  "start": 135
+ }
+}

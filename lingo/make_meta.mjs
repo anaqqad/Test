@@ -1,0 +1,103 @@
+// node make_meta.mjs <video> -> meta/<video>.md (YouTube title, description with chapters + credits, tags)
+import fs from "node:fs";
+import { VIDEOS } from "./videos.mjs";
+const k = process.argv[2], v = VIDEOS[k];
+const man = JSON.parse(fs.readFileSync(`cache/audio/${k}/manifest.json`));
+const INTRO = 3.2, seg = (it) => (v.layout === "ranking" ? 11.0 : +(1.4 + 5.0 * it.cards.length + 1.2).toFixed(2));
+const ts = (t) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
+const clean = (s) => String(s).replace(/</g, "under ").replace(/>/g, "over ").replace(/~/g, "~");
+const items = v.items.filter((it) => man[it.name]);
+const tl = fs.existsSync(`out/${k}_timeline.json`) ? Object.fromEntries(JSON.parse(fs.readFileSync(`out/${k}_timeline.json`)).map((e) => [e.name, e])) : {};
+let t = INTRO;
+const chapters = ["0:00 Intro"];
+for (const it of items) {
+  if (tl[it.name]) t = tl[it.name].start;
+  const extra = v.sim ? clean(it.speakers) : v.layout === "ranking" ? `${it.score}/10` : it.speakers ? (/^[~<\d][\d,.~<kM–]*$/.test(it.speakers) ? `${clean(it.speakers)} ${/^~?1$/.test(it.speakers) ? "speaker" : "speakers"}` : it.speakers === "revival" ? "revival" : (/native$/.test(it.speakers) ? `${clean(it.speakers)} speakers` : `speakers: ${clean(it.speakers)}`)) : "";
+  chapters.push(`${ts(t)} ${it.name}${extra ? ` (${extra})` : ""}`);
+  t += tl[it.name] ? tl[it.name].dur : seg(it);
+}
+const credits = [];
+const lic = new Set();
+const artistOf = (a) => a
+  .replace(/^Spoken by (.+?); recorded and published by (.+)$/, "$2 (speaker: $1)")
+  .replace(/^No machine-readable author provided\. (\S+) assumed.*$/, "$1")
+  .replace(/^Speaker: (.+?) Recorder: .*$/, "$1")
+  .replace(/^The original uploader was (.+?) at (.+?)\.?$/, "$1 ($2)")
+  .replace(/^https?:\/\/\S*wikitongues\S*$/i, "Wikitongues")
+  .replace(/^Max (Max Planck.*)$/, "$1")
+  .replace(/~commonswiki$/, "")
+  .replace(/^Wikitongues, Inc$/, "Wikitongues");
+for (const it of items) {
+  const groups = new Map();
+  for (const c of man[it.name].credits || []) {
+    const key = artistOf(c.artist) + "|" + c.license;
+    const word = c.title.slice(5).replace(/\.\w+$/, "").trim();
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(/^LL-Q/.test(word) ? (word.match(/^LL-Q\d+ \(\w+\)-[^-]+-(.*?)-?$/) || [0, word])[1] : word);
+    if (/BY-SA 4/.test(c.license)) lic.add("https://creativecommons.org/licenses/by-sa/4.0/");
+    else if (/BY-SA 3/.test(c.license)) lic.add("https://creativecommons.org/licenses/by-sa/3.0/");
+    else if (/BY 4/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/4.0/");
+    else if (/BY 3/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/3.0/");
+    else if (/BY 2.5/.test(c.license)) lic.add("https://creativecommons.org/licenses/by/2.5/");
+  }
+  for (const [key, titles] of groups) {
+    const [artist, license] = key.split("|");
+    const isWords = (man[it.name].credits || []).some((c) => /^File:LL-Q/.test(c.title));
+    credits.push(isWords ? `${it.name}: ${titles.length > 1 ? "words" : "word"} ${titles.map((t) => `"${t}"`).join(", ")} by ${artist} (Lingua Libre), ${license}` : `${it.name}: ${titles.map((t) => `"${t}"`).join(", ")} by ${artist}, ${license}`);
+  }
+}
+const intro = {
+  extinct: "Some of these languages have only a handful of speakers left. Some are being brought back from the brink. Every voice you hear is a real recording of the language.",
+  niche: "Languages you've probably never heard of, with real speakers you can hear. Every voice in this video is a real recording of the language.",
+  sounds: "Clicks, whistles, tones and words with no vowels. Every sound you hear is a real recording of the language.",
+  conlangs: "Languages that somebody simply invented, and the people who actually speak them. Every voice you hear is a real recording.",
+  revived: "Languages that died, or nearly did, and came back. Every voice you hear is a real recording of the language.",
+  tonal: "In these languages the same syllable can mean completely different things depending on your pitch: buy or sell in Mandarin, mom or but in Vietnamese, egg or cloth in Igbo. Every voice you hear is a real recording of the language.",
+  native: "Long before English, hundreds of languages were spoken across North America, and many still are. Navajo, Cherokee, Ojibwe, Lakota, Crow and Gwich’in: hear real speakers and learn what makes each language special. Every voice you hear is a real recording of the language.",
+  soundlike2: "Finnish that sounds like Japanese, Kazakh that sounds like Russian, Icelandic that sounds like the Vikings. Guess first, then find out why. Every voice you hear is a real recording of the language.",
+  soundlike: "Maltese that sounds like Arabic, Portuguese that sounds like Russian, Welsh that sounds like Elvish. Guess first, then find out why. Every voice you hear is a real recording of the language.",
+  english: "What did English sound like 1,000 years ago? One voice reads English from the oldest poem in the language to today, using reconstructed pronunciations. Listen to when you can first understand it.",
+  whistled: "Some languages don't need a voice at all. In these places people talk by whistling: real recordings of whistled Yoruba, Greek, Occitan, Turkish and Spanish.",
+  ancient6: "What did Genghis Khan, El Cid, the Aztecs and the monks of Kyiv sound like? Ten languages in the form they had centuries ago, read from real texts that survive. Simulated with AI.",
+  ancient5: "You asked, we simulated: Beothuk, Charrúa, Polabian, Kenaboi, Old Saxon and more, from 4,500-year-old Sumerian to the last words written down in the 1800s. Simulated with AI from what really survives.",
+  ancient4: "Last speakers and last echoes: languages that died within the last few centuries, some only a few years ago, and the words they left behind. Simulated with AI from real texts.",
+  ancient3: "What did the troubadours, Charlemagne's knights, Irish monks and Tang poets sound like? Ten medieval languages that are gone today, simulated with AI from real texts.",
+  ancient2: "What did the Maya, the Persians, the Phoenicians and the Gauls sound like? Ten lost languages of lost empires, simulated with AI from real ancient texts.",
+  ancient: "What did the Vikings, Romans, Egyptians and Sumerians actually sound like? We go back 6,000 years, one dead language at a time.",
+  hardest: "How hard is each language for an English speaker? Based on the US Foreign Service Institute's estimates of class time. Every voice you hear is a real recording.",
+}[k] || "";
+const tags = {
+  extinct: "nearly extinct languages, endangered languages, extinct languages, languages be like, rare languages, dying languages, last speakers, language isolate, Wymysorys, Kusunda, Nuxalk, Cherokee language, Vepsian, Lakota language, Yugambeh, Ladino, Boruca, linguistics, Wikitongues, LingoDude",
+  niche: "niche languages, rare languages, minority languages, languages be like, Romansh, Faroese, North Frisian, Siwi, Mingrelian, Tuvan, Gagauz, Jerriais, Mirandese, Greenlandic, Luxembourgish, linguistics, LingoDude",
+  sounds: "weird languages, click languages, whistled language, tonal languages, languages be like, Xhosa, Taa, Silbo Gomero, Hmong, Yoruba, Piraha, Cantonese, Georgian, Czech, Danish, Welsh, Hawaiian, linguistics, LingoDude",
+  conlangs: "constructed languages, conlangs, invented languages, Esperanto, Toki Pona, Klingon, Volapuk, Lojban, Ido, languages be like, linguistics, LingoDude",
+  revived: "revived languages, language revival, dead languages, Hebrew, Cornish, Manx, Maori, Latin, Sanskrit, languages be like, linguistics, LingoDude",
+  tonal: "tonal languages, tones, Mandarin tones, Vietnamese tones, Thai tones, Lao, Burmese, Hmong, Yoruba, Igbo, talking drums, languages be like, linguistics, LingoDude",
+  native: "Native American languages, Indigenous languages, Navajo, Navajo Code Talkers, Cherokee, Ojibwe, Anishinaabemowin, Lakota, Crow, Apsaalooke, Gwich'in, endangered languages, languages be like, linguistics, LingoDude",
+  soundlike2: "languages that sound like other languages, languages be like, Finnish, Sardinian, Tagalog, Greek, Scottish Gaelic, Kazakh, Lithuanian, Icelandic, Estonian, Georgian, Neapolitan, Polish, linguistics, LingoDude",
+  soundlike: "languages that sound like other languages, languages be like, Maltese, European Portuguese, Romanian, Dutch, West Frisian, Afrikaans, Luxembourgish, Esperanto, Hungarian, Persian, Korean, Welsh, linguistics, LingoDude",
+  english: "history of English, Old English, Middle English, Chaucer, Shakespeare original pronunciation, how English sounded, Great Vowel Shift, Lord's Prayer, Beowulf, AI simulation, linguistics, LingoDude",
+  whistled: "whistled languages, whistled language, Silbo Gomero, Kuşköy bird language, kuş dili, Sfyria, Antia, Aas Occitan whistle, Yoruba whistle, languages be like, linguistics, LingoDude",
+  ancient6: "extinct languages, dead languages, medieval languages, AI simulation, Classical Nahuatl, Old Javanese, Galician-Portuguese, Middle Mongolian, Secret History of the Mongols, Middle High German, Nibelungenlied, Old Spanish, Cantar de mio Cid, Old Hungarian, Old East Slavic, Classical Armenian, Pali, reconstructed pronunciation, linguistics, LingoDude",
+  ancient5: "extinct languages, dead languages, AI simulation, Beothuk, Charrua, Polabian, Kenaboi, Old English, Old Saxon, Heliand, Avestan, Vedic Sanskrit, Rigveda, Ugaritic, Sumerian, reconstructed pronunciation, linguistics, LingoDude",
+  ancient4: "extinct languages, last speaker, dead languages, AI simulation, Livonian, Dalmatian, Norn, Cornish, Massachusett, Old Tupi, Crimean Gothic, Taino, Cumbric, yan tan tethera, reconstructed pronunciation, linguistics, LingoDude",
+  ancient3: "extinct languages, medieval languages, dead languages, AI simulation, Old Prussian, Old Occitan, Old French, Mozarabic, Old Japanese, Old Church Slavonic, Old High German, Old Irish, Middle Chinese, Coptic, reconstructed pronunciation, linguistics, LingoDude",
+  ancient2: "extinct languages, dead languages, ancient languages, AI simulation, Classical Maya, Tocharian, Meroitic, Gaulish, Old Persian, Aramaic, Etruscan, Old Chinese, Phoenician, Mycenaean Greek, Linear B, reconstructed pronunciation, linguistics, LingoDude",
+  ancient: "dead languages, extinct languages, ancient languages, what did ancient languages sound like, Ancient Egyptian, Sumerian, Akkadian, Hittite, Ancient Greek, Latin, Gothic, Old English, Old Norse, Proto-Indo-European, reconstructed pronunciation, linguistics, LingoDude",
+  hardest: "hardest languages, language difficulty, FSI, ranking languages, languages for English speakers, learn languages, linguistics, LingoDude",
+}[k] || "";
+const title = v.title;
+const desc = [intro, "", "Which language should we cover next? Tell us in the comments 👇", "", ...chapters, "",
+  ...(v.simMethod ? ["HOW WE SIMULATED IT", ...v.simMethod, "", `Texts: ${v.simTexts}.`] : v.sim ? ["HOW WE SIMULATED THEM",
+    "Nobody alive has heard these languages, so every voice in this video is an AI simulation, not a recording. The method:",
+    "1. A real surviving text: every line is an actual ancient text, not invented sentences.",
+    "2. Reconstructed pronunciation: linguists rebuild how a language sounded from its descendants (Coptic for Egyptian, Icelandic for Old Norse), from how foreigners spelled it (Babylonian scribes wrote Egyptian names with vowels), from ancient grammarians (Romans described their own v and c), and from poetry, rhyme and spelling mistakes. We wrote each line in the International Phonetic Alphabet (IPA) following these standard reconstructions.",
+    `3. AI voice reading the sounds directly: open-source Piper text-to-speech voices were fed the IPA sounds themselves, so they say exactly what the reconstruction says instead of reading the words in their own language. Each language got a voice from a modern language with similar sounds: ${v.simVoices}.`,
+    `Limits: the modern voice's accent comes through, sounds a voice was never trained on are replaced with the closest one, and ${v.simLimits}. Think of it as a best guess built on real scholarship.`,
+    "",
+    `Texts: ${v.simTexts}.`]
+    : ["Audio credits (all via Wikimedia Commons):", ...credits, `Licences: ${[...lic].join(" and ")}`,
+  "Speaker counts are estimates; sources disagree for many small languages."]), "", "#languages #linguistics #languagesbelike"].join("\n").replace(/[<>]/g, "");
+fs.mkdirSync("meta", { recursive: true });
+fs.writeFileSync(`meta/${k}.md`, `# YouTube metadata: ${title}\n\n## Title\n${title}\n\n## Description\n${desc}\n\n## Tags\n${tags}\n\n## Settings\n- Category: Education\n- Made for kids: No\n- Thumbnail: lingo/out/brand/thumb_${k}.png\n`);
+console.log(`meta/${k}.md`);

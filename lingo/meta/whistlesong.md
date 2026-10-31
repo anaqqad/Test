@@ -1,0 +1,50 @@
+# YouTube metadata: I Made a Song Using Only Whistled Languages (Part 1)
+
+## Title
+I Made a Song Using Only Whistled Languages (Part 1)
+
+## Description
+9 whistled languages. 0 words. 1 song. Real whistlers from the Canary Islands, Turkey, Greece, the French Pyrenees, Nigeria, Laos, Mexico, Brazil and French Guiana, tuned to one melody over a beat. The breakdown plays the original recordings untouched.
+
+Which whistled language should join Part 2? Tell us in the comments 👇
+
+0:00 Intro: Silbo Gomero
+0:04 Silbo Gomero (Spain)
+0:09 Turkish Bird Language (Kuşköy)
+0:14 Sfyria (Greece)
+0:19 Whistled Occitan (France)
+0:24 Whistled Yoruba (Nigeria)
+0:28 Hmong (Laos)
+0:33 Chinantec (Mexico)
+0:38 Pirahã (Brazil)
+0:43 Wayãpi (French Guiana)
+0:48 Chorus: everybody
+0:57 Breakdown: the original recordings
+1:02 Final chorus
+
+The whistles are real recordings, pitch-tuned and cut to the beat. The beat was made on a computer.
+
+RECORDINGS
+Whistled Yoruba: "Yoruba-whistle-language-slow", "Yoruba-whistle-language-fast" by Walkuraxx, CC BY-SA 4.0, via Wikimedia Commons
+Sfyria: "Sfiria Antia" by UCL Whistled Languages Project, Attribution, via Wikimedia Commons
+Whistled Occitan: "Occitan whistle-adishatz", "Occitan whistle-petit" by Hugo en résidence (Lingua Libre), CC0; "adiu", "Aas" by Philippe (Lingua Libre), CC0, via Wikimedia Commons
+Turkish Bird Language: "VOA Learning English - UN- Technology Threatens Whistled Language in Turkey" by Bryan Lynn for VOA Learning English, Public domain
+Silbo Gomero: "Silbo" by Florival fr (French Wikipedia), CC BY-SA 3.0, via Wikimedia Commons
+Chinantec: "Chiflidos en la neblina" and "Whistle Ex8", videos by Mark Sicoli, https://www.youtube.com/watch?v=QPuE0UMEMEs and https://www.youtube.com/watch?v=lRWy868lQpE (used with permission)
+Hmong: "Birdsong: the dying whistled language of the Hmong people in northern Laos", The Guardian, https://www.youtube.com/watch?v=_KIYwCieaMs (used with permission)
+Pirahã: "piraha", uploaded by Cathy Lightfoot, https://www.youtube.com/watch?v=XyceRHzoMdM (used with permission)
+Wayãpi: "A world of sound in the Amazon, wildlife imitations and whistled speech of the Wayãpi people", Labo LEEISA (CNRS, French Guiana), research of Julien Meyer and Damien Davy, https://www.youtube.com/watch?v=0rGkGw2l7p4 (used with permission)
+Licences: https://creativecommons.org/licenses/by-sa/4.0/ and https://creativecommons.org/licenses/by-sa/3.0/
+
+Thumbnail photo: Valle Gran Rey, La Gomera by Llez, CC BY-SA 3.0, via Wikimedia Commons
+
+#whistledlanguage #languages #music
+
+## Tags
+whistled languages, whistled language song, Silbo Gomero, Kuşköy bird language, Sfyria, whistled Occitan, Yoruba, Hmong, Chinantec, Piraha, Wayapi, language remix, languages be like, linguistics, LingoDude
+
+## Settings
+- Category: Education
+- Made for kids: No
+- Altered or synthetic content: No (real recordings; pitch-tuned whistles and a computer-made beat are ordinary editing)
+- Thumbnail: lingo/videos/thumbP_whistlesong.png

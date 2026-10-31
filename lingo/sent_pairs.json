@@ -1,0 +1,197 @@
+{
+ "_note": "Sentence video: the same sentence (Universal Declaration of Human Rights, article 1, official translations) read in both languages by Piper AI voices (owner's labelled-AI exception: no real recording of one sentence exists in both languages under a free licence). 'noncog' = words of the first sentence that have no cognate in the second one; 'noncog_b' the same for the second sentence.",
+ "pairs": {
+  "spa_por": {
+   "a": "spa",
+   "b": "por",
+   "na": "Spanish",
+   "nb": "Portuguese",
+   "fa": "es",
+   "fb": "pt",
+   "scene": "tuscany",
+   "noncog": [
+    "como",
+    "están",
+    "comportarse"
+   ],
+   "noncog_b": [
+    "agir",
+    "para",
+    "espírito"
+   ],
+   "cards": [
+    "Almost every word has a twin, but Portuguese squeezes its vowels and swallows syllables. That is why Portuguese speakers follow Spanish easily, and Spanish speakers get lost in Portuguese.",
+    "Sound is where they drift apart: the written sentences are 70% identical letter for letter, the spoken ones feel much further apart."
+   ]
+  },
+  "ces_slk": {
+   "a": "ces",
+   "b": "slk",
+   "na": "Czech",
+   "nb": "Slovak",
+   "fa": "cz",
+   "fb": "sk",
+   "scene": "prague",
+   "noncog": [
+    "do",
+    "jednat",
+    "nadáni",
+    "spolu",
+    "svědomím"
+   ],
+   "noncog_b": [
+    "ich",
+    "konať",
+    "navzájom",
+    "obdarení",
+    "týka",
+    "čo"
+   ],
+   "cards": [
+    "Czechoslovakia split in 1993, but TV still runs in both languages without subtitles. The sentences are the same words with slightly different endings.",
+    "Older people understand each other perfectly. Young Czechs, who grew up without Slovak TV, are starting to struggle."
+   ]
+  },
+  "dan_nor": {
+   "a": "dan",
+   "b": "nor",
+   "na": "Danish",
+   "nb": "Norwegian",
+   "fa": "dk",
+   "fb": "no",
+   "scene": "copenhagen",
+   "noncog": [
+    "lige",
+    "en"
+   ],
+   "noncog_b": [
+    "samme"
+   ],
+   "cards": [
+    "Norway was ruled by Denmark for 400 years, so written Norwegian is almost Danish. The sound is another story.",
+    "Danes swallow their consonants, so Norwegians read Danish easily but struggle to hear it. The joke: Norwegian is Danish spoken in Swedish."
+   ]
+  },
+  "swe_nor": {
+   "a": "swe",
+   "b": "nor",
+   "na": "Swedish",
+   "nb": "Norwegian",
+   "fa": "se",
+   "fb": "no",
+   "scene": "dalarna",
+   "noncog": [
+    "lika",
+    "har",
+    "en",
+    "av",
+    "gemenskap"
+   ],
+   "noncog_b": [
+    "samme",
+    "brorskapets"
+   ],
+   "cards": [
+    "Swedes and Norwegians usually just talk, each in their own language. Norwegians understand Swedish better, because they grew up with Swedish TV and music.",
+    "The Swedish translation says 'spirit of community' where the others say 'brotherhood', the one real word swap in the sentence."
+   ]
+  },
+  "rus_ukr": {
+   "a": "rus",
+   "b": "ukr",
+   "na": "Russian",
+   "nb": "Ukrainian",
+   "fa": "ru",
+   "fb": "ua",
+   "scene": "hills",
+   "noncog": [
+    "свободными",
+    "достоинстве",
+    "должны",
+    "поступать",
+    "друг",
+    "друга"
+   ],
+   "noncog_b": [
+    "вільними",
+    "гідності",
+    "повинні",
+    "діяти",
+    "один",
+    "одного"
+   ],
+   "cards": [
+    "Same alphabet, same grammar, but a quarter of the words are different: Ukrainian shares more vocabulary with Polish than with Russian.",
+    "Most Ukrainians understand Russian because they grew up hearing it. The other way round, Russians who never heard Ukrainian miss a lot."
+   ]
+  },
+  "nld_deu": {
+   "a": "nld",
+   "b": "deu",
+   "na": "Dutch",
+   "nb": "German",
+   "fa": "nl",
+   "fb": "de",
+   "scene": "village",
+   "noncog": [
+    "worden",
+    "verstand",
+    "behoren",
+    "jegens",
+    "een",
+    "van",
+    "te",
+    "gedragen"
+   ],
+   "noncog_b": [
+    "sind",
+    "Vernunft",
+    "sollen",
+    "begegnen"
+   ],
+   "cards": [
+    "Dutch sits between English and German. Dutch speakers read German fairly well; Germans find Dutch funny-sounding and only half understandable.",
+    "German keeps four noun cases and three genders. Dutch dropped the cases and merged two of the genders, which is why it feels simpler."
+   ]
+  }
+ },
+ "sentences": {
+  "spa": "Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia, deben comportarse fraternalmente los unos con los otros.",
+  "por": "Todos os seres humanos nascem livres e iguais em dignidade e em direitos. Dotados de razão e de consciência, devem agir uns para com os outros em espírito de fraternidade.",
+  "ces": "Všichni lidé rodí se svobodní a sobě rovní co do důstojnosti a práv. Jsou nadáni rozumem a svědomím a mají spolu jednat v duchu bratrství.",
+  "slk": "Všetci ľudia sa rodia slobodní a sebe rovní, čo sa týka ich dôstojnosti a práv. Sú obdarení rozumom a majú navzájom konať v bratskom duchu.",
+  "dan": "Alle mennesker er født frie og lige i værdighed og rettigheder. De er udstyret med fornuft og samvittighed, og de bør handle mod hverandre i en broderskabets ånd.",
+  "nor": "Alle mennesker er født frie og med samme menneskeverd og menneskerettigheter. De er utstyrt med fornuft og samvittighet og bør handle mot hverandre i brorskapets ånd.",
+  "swe": "Alla människor är födda fria och lika i värde och rättigheter. De har utrustats med förnuft och samvete och bör handla gentemot varandra i en anda av gemenskap.",
+  "rus": "Все люди рождаются свободными и равными в своём достоинстве и правах. Они наделены разумом и совестью и должны поступать в отношении друг друга в духе братства.",
+  "ukr": "Всі люди народжуються вільними і рівними у своїй гідності та правах. Вони наділені розумом і совістю і повинні діяти у відношенні один до одного в дусі братерства.",
+  "nld": "Alle mensen worden vrij en gelijk in waardigheid en rechten geboren. Zij zijn begiftigd met verstand en geweten, en behoren zich jegens elkander in een geest van broederschap te gedragen.",
+  "deu": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen."
+ },
+ "voices": {
+  "spa": "es_ES-davefx-medium",
+  "por": "pt_PT-tugão-medium",
+  "ces": "cs_CZ-jirka-medium",
+  "slk": "sk_SK-lili-medium",
+  "dan": "da_DK-talesyntese-medium",
+  "nor": "no_NO-talesyntese-medium",
+  "swe": "sv_SE-nst-medium",
+  "rus": "ru_RU-denis-medium",
+  "ukr": "uk_UA-oleksa-high",
+  "nld": "nl_NL-ronnie-medium",
+  "deu": "de_DE-thorsten-medium"
+ },
+ "wojaks": {
+  "spa": "s_spa",
+  "por": "s_por",
+  "ces": "s_ces",
+  "slk": "s_slk_f",
+  "dan": "s_dan",
+  "nor": "s_nor",
+  "swe": "s_swe",
+  "rus": "s_rus",
+  "ukr": "s_ukr",
+  "nld": "s_nld",
+  "deu": "s_deu"
+ }
+}

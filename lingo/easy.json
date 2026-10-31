@@ -1,0 +1,173 @@
+{
+  "_note": "Ranking the World's Easiest Languages (for English speakers). Rank = FSI weeks of class (U.S. Foreign Service Institute), ties broken by the share of the 207 Swadesh core words that look like English (easy_score.py, Wiktionary Swadesh appendices). Each example word is a real Lingua Libre recording of a word that looks like its English twin.",
+  "title": "Ranking the World's Easiest Languages",
+  "subtitle": "FOR ENGLISH SPEAKERS, BY CLASS TIME NEEDED",
+  "meter": "Weeks of class to learn it (FSI)",
+  "meter_unit": "WEEKS",
+  "word_label": "Looks like English",
+  "lit_label": "MEANS",
+  "outro": "Which language was easiest for you?",
+  "accent": "#2bb673",
+  "items": [
+    {
+      "key": "nld",
+      "name": "Dutch",
+      "flag": "nl",
+      "count": 24,
+      "rank": 1,
+      "wojak": "s_nld",
+      "scene": "grassland",
+      "word": "appel",
+      "lit": "apple",
+      "rec": "File:LL-Q7411 (nld)-Robin van der Vliet-appel.wav",
+      "cards": [
+        "The U.S. diplomats' school (FSI) says about 24 weeks (600 class hours) of full-time study. And 37% of the 207 core words look like their English twins.",
+        "Dutch is English's closest big relative: 'appel' is apple, 'water' is water, 'hand' is hand. The catch: verbs jump to the end of some sentences."
+      ]
+    },
+    {
+      "key": "nor",
+      "name": "Norwegian",
+      "flag": "no",
+      "count": 24,
+      "rank": 2,
+      "wojak": "s_nor",
+      "scene": "faroe",
+      "word": "melk",
+      "lit": "milk",
+      "rec": "File:LL-Q9043 (nor)-Telaneo-melk.wav",
+      "cards": [
+        "The U.S. diplomats' school (FSI) says about 24 weeks (600 class hours) of full-time study. And 36% of the 207 core words look like their English twins.",
+        "Norwegian verbs never change for the person: jeg er, du er, han er means I am, you are, he is. No cases, no conjugation tables."
+      ]
+    },
+    {
+      "key": "swe",
+      "name": "Swedish",
+      "flag": "se",
+      "count": 24,
+      "rank": 3,
+      "wojak": "s_swe",
+      "scene": "dalarna",
+      "word": "vatten",
+      "lit": "water",
+      "rec": "File:LL-Q9027 (swe)-Punsisil-vatten.wav",
+      "cards": [
+        "The U.S. diplomats' school (FSI) says about 24 weeks (600 class hours) of full-time study. And 35% of the 207 core words look like their English twins.",
+        "Swedish verbs don't change for the person either (jag är, du är). The hard part is the sing-song melody: some words differ only by their pitch."
+      ]
+    },
+    {
+      "key": "dan",
+      "name": "Danish",
+      "flag": "dk",
+      "count": 24,
+      "rank": 4,
+      "wojak": "s_dan",
+      "scene": "baltic",
+      "word": "fisk",
+      "lit": "fish",
+      "rec": "File:LL-Q9035 (dan)-EskildDood-fisk.wav",
+      "cards": [
+        "The U.S. diplomats' school (FSI) says about 24 weeks (600 class hours) of full-time study. And 34% of the 207 core words look like their English twins.",
+        "Danish grammar is easy, the sounds are not: Danes swallow so many consonants that even Swedes and Norwegians struggle to understand them."
+      ]
+    },
+    {
+      "key": "ita",
+      "name": "Italian",
+      "flag": "it",
+      "count": 24,
+      "rank": 5,
+      "wojak": "e_ita",
+      "scene": "adriatic",
+      "word": "famiglia",
+      "lit": "family",
+      "rec": "File:LL-Q652 (ita)-LangPao-famiglia.wav",
+      "cards": [
+        "The U.S. diplomats' school (FSI) says about 24 weeks (600 class hours) of full-time study. And 22% of the 207 core words look like their English twins.",
+        "Italian is written almost exactly as it sounds, and thousands of English words share its Latin roots: famiglia, family; notte, nocturnal."
+      ]
+    },
+    {
+      "key": "spa",
+      "name": "Spanish",
+      "flag": "es",
+      "count": 24,
+      "rank": 6,
+      "wojak": "s_spa",
+      "scene": "sierra",
+      "word": "chocolate",
+      "lit": "chocolate",
+      "rec": "File:LL-Q1321 (spa)-AdrianAbdulBaha-chocolate.wav",
+      "cards": [
+        "The U.S. diplomats' school (FSI) says about 24 weeks (600 class hours) of full-time study. And 20% of the 207 core words look like their English twins.",
+        "English got 'chocolate' from Spanish, which took it from Nahuatl, the Aztec language. Spanish is spelled the way it sounds, with only five vowel sounds."
+      ]
+    },
+    {
+      "key": "ron",
+      "name": "Romanian",
+      "flag": "ro",
+      "count": 24,
+      "rank": 7,
+      "wojak": "e_ron",
+      "scene": "hills",
+      "word": "lună",
+      "lit": "moon",
+      "rec": "File:LL-Q7913 (ron)-Andreea Teodoraa-lună.wav",
+      "cards": [
+        "The U.S. diplomats' school (FSI) says about 24 weeks (600 class hours) of full-time study. And 20% of the 207 core words look like their English twins.",
+        "Romanian is the Latin language of Eastern Europe: lună is the moon, as in 'lunar'. The twist: 'the' goes at the end, lup is wolf, lupul is the wolf."
+      ]
+    },
+    {
+      "key": "por",
+      "name": "Portuguese",
+      "flag": "pt",
+      "count": 24,
+      "rank": 8,
+      "wojak": "s_por",
+      "scene": "jersey",
+      "word": "animal",
+      "lit": "animal",
+      "rec": "File:LL-Q5146 (por)-Nelson Ricardo 2500-animal.wav",
+      "cards": [
+        "The U.S. diplomats' school (FSI) says about 24 weeks (600 class hours) of full-time study. And 19% of the 207 core words look like their English twins.",
+        "Many Portuguese words are spelled like English (animal, hotel, hospital), but the nasal vowels, like in pão (bread), take practice."
+      ]
+    },
+    {
+      "key": "fra",
+      "name": "French",
+      "flag": "fr",
+      "count": 30,
+      "rank": 9,
+      "wojak": "s_fra_calm",
+      "scene": "village",
+      "word": "table",
+      "lit": "table",
+      "rec": "File:LL-Q150 (fra)-Roptat-table.wav",
+      "cards": [
+        "The U.S. diplomats' school (FSI) says about 30 weeks (750 class hours) of full-time study. And 21% of the 207 core words look like their English twins.",
+        "Around 30% of English words come from French, after the Norman conquest of 1066. But French needs 30 weeks: silent letters and tricky sounds."
+      ]
+    },
+    {
+      "key": "deu",
+      "name": "German",
+      "flag": "de",
+      "count": 36,
+      "rank": 10,
+      "wojak": "s_deu",
+      "scene": "alps",
+      "word": "Hand",
+      "lit": "hand",
+      "rec": "File:LL-Q188 (deu)-Lucas Werkmeister-Hand.wav",
+      "cards": [
+        "The U.S. diplomats' school (FSI) says about 36 weeks (900 class hours) of full-time study. And 36% of the 207 core words look like their English twins.",
+        "German core words look most like English (Hand, Haus, Wasser), but it needs 36 weeks: three genders and four cases give 'the' six forms."
+      ]
+    }
+  ]
+}
