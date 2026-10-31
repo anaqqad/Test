@@ -911,3 +911,41 @@ Camera: opening on the door bursting open; quick hard cuts during the scolding; 
 - Hashtags: #funny #parenting #dadlife #knock #comedy #plottwist #family #relatable #fyp #reels #viral #aistory
 - Cover frame: the closed door with the dad waiting (15 s) or his shocked face (25 s)
 - AI label: turn on "AI-generated content"
+
+## 25. "No Reflection" (Dracula, 1897, public domain: Jonathan Harker's journal, chapter 2, the shaving mirror)
+
+```
+Vertical 9:16, 30s. Cinematic photoreal gothic horror, 1890s, a cold stone bedroom high in a Transylvanian castle at dawn: grey early light through a tall narrow window, one guttering candle, a heavy wooden door, old tapestries, a small round shaving mirror hanging by the window. Shallow depth of field, natural skin texture, light film grain, muted cold colors. Exactly 2 characters, identical faces and wardrobe in every shot, no other people. Both characters are original and do not resemble any actor or any film version of Dracula: no cape, no slicked widow's peak, no tuxedo. No blood except one thin trickle from a small razor nick. The video starts mid-moment on the first frame: no fade-in, no establishing shot.
+
+Characters:
+- JONATHAN (late 20s): young English solicitor, slim, short neat brown hair, clean-shaven with shaving lather on his jaw, white linen shirt open at the collar, braces, a small silver crucifix on a string of dark rosary beads around his neck, holding a straight razor.
+- THE COUNT (old, looks 70): very tall, thin, deathly pale, clean-shaven except a long heavy white moustache, high thin aquiline nose, thick bushy white eyebrows that almost meet, pointed tips to his ears, red lips over sharp white teeth, long white hair swept back, cold long-fingered hands with sharp pointed nails, dressed entirely in plain black from head to foot.
+
+Location: the bedroom; the window and the shaving mirror on the left; the door on the right. In the mirror there is NEVER any reflection of the Count: it only ever shows Jonathan and the room behind him. Screen direction never flips.
+
+0s-2s: Extreme close-up of the small shaving mirror, sharp from the very first frame: Jonathan's lathered face reflected, shaving by candlelight; a pale long-fingered hand with sharp nails rests on his shoulder in real life, yet the mirror shows no one behind him at all. THE COUNT (off-screen, a deep quiet whisper, close to his ear, from the very first frame): "Good morning."
+2s-4s: Close-up Jonathan flinching hard; the razor nicks his chin; he spins around: the Count is standing right behind him, inches away, pale and unblinking.
+4s-6s: Close-up Jonathan turning back to the mirror, breathing hard: the mirror shows only Jonathan and the empty room behind him.
+6s-8s: Insert: a thin trickle of blood running from the nick on his chin.
+8s-10s: Extreme close-up of the Count's eyes locking onto the blood, blazing with sudden fury, his red lips parting over sharp white teeth.
+10s-12s: Medium shot, the Count lunges for Jonathan's throat; his clawed hand touches the rosary beads and the small silver crucifix at Jonathan's neck.
+12s-14s: Close-up the Count jerking his hand back as if burned, the fury vanishing from his face in an instant.
+14s-17s: Close-up the Count, perfectly calm again, cold and polite. THE COUNT (deep, slow, Eastern European accent): "Take care how you cut yourself. It is more dangerous than you think in this country."
+17s-19s: Medium shot, the Count tears the shaving mirror off its hook. THE COUNT: "A foul bauble of man's vanity. Away with it!"
+19s-21s: Medium shot, he throws open the tall window and hurls the mirror out; it spins down into the stone courtyard far below and shatters.
+21s-23s: Close-up Jonathan frozen against the wall, clutching the crucifix at his throat, blood on his chin.
+23s-25s: Medium shot, the Count turns and walks out without another word; the heavy door closes behind him with a deep thud.
+25s-27s: Close-up Jonathan alone, staring at the empty hook where the mirror hung. JONATHAN (whispering): "He has no reflection."
+27s-30s: Extreme close-up Jonathan, horror dawning in his eyes, the grey dawn light on his face. JONATHAN (whispering): "What manner of man is this?"
+
+Camera: opening extreme close-up on the mirror; a sharp whip-pan when Jonathan spins around; slow push-ins on the Count's face; static and cold everywhere else; hard cuts; end on Jonathan's eyes. Audio: the Count's whisper at 0.0s right beside Jonathan's ear is the first sound, close and clear, no fade-in; then the scrape of the razor, a sharp intake of breath, the candle flame fluttering, a low string drone that swells when the Count lunges and cuts out when he touches the crucifix, the window creaking, glass shattering far below, the heavy door thudding shut, wind outside, silence on the final whisper. No subtitles, no text overlays, no watermark, no logos.
+```
+
+### Posting metadata
+- Hook text (first 2 s): HE WAS STANDING RIGHT BEHIND HIM… BUT NOT IN THE MIRROR 😱
+- Caption: Dracula, 1897. Jonathan Harker was shaving when a hand touched his shoulder. The mirror showed no one. 🪞🧛
+  This scene is straight from Bram Stoker's novel. Have you read it? 👇
+- YouTube Shorts title: The Mirror Showed No One Behind Him… (Dracula, 1897) 😱 #shorts
+- Hashtags: #dracula #bramstoker #classicbooks #booktok #gothic #horror #vampire #classicliterature #storytime #fyp #reels #aistory
+- Cover frame: the mirror with the hand on his shoulder and no one behind him (0-1 s)
+- AI label: turn on "AI-generated content"
