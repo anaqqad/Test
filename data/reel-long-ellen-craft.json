@@ -1,0 +1,1552 @@
+{
+ "id": "reel-long-ellen-craft",
+ "title": "She Escaped Slavery Disguised as a White Man. Her Husband Played Her Slave.",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1,
+  "seed": 1234,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "ctaLine": "for more.",
+  "theme": "bhr"
+ },
+ "beats": [
+  {
+   "id": "h1",
+   "text": "In December 1848, a young white gentleman boarded a train in Macon, Georgia. He wore a top hat and green glasses. His right arm was in a sling.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "hook": "A *thousand miles* in disguise."
+   }
+  },
+  {
+   "id": "h2",
+   "text": "His enslaved servant travelled with him, a tall young man who never left his side.",
+   "visual": {
+    "kind": "photo",
+    "image": "couple",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "h3",
+   "text": "But the gentleman was not a gentleman. He was not white, and he was not free. He was an enslaved woman. And the servant was her husband.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "h4",
+   "text": "For four days, they would travel through the heart of the slave South, by train and by steamboat, in plain sight.",
+   "visual": {
+    "kind": "photo",
+    "image": "train",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "h5",
+   "text": "Their names were Ellen and William Craft. And getting out of Georgia was only the first time they would have to run.",
+   "visual": {
+    "kind": "photo",
+    "image": "couple",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Ellen & William Craft",
+     "sub": "Escaped December 1848"
+    }
+   }
+  },
+  {
+   "id": "m1",
+   "text": "Ellen was born in 1826, in Clinton, Georgia.",
+   "visual": {
+    "kind": "photo",
+    "image": "savmap",
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1826,
+     "to": 1826
+    },
+    "pin": {
+     "label": "Clinton",
+     "sub": "Georgia"
+    }
+   },
+   "section": "macon"
+  },
+  {
+   "id": "m2",
+   "text": "Her mother, Maria, was enslaved. Her father was the man who enslaved them both, a wealthy planter named James Smith.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "m3",
+   "text": "Ellen looked so much like her father that she could pass for white. And his wife resented her for it.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "m4",
+   "text": "When Ellen was eleven years old, she was given away. A wedding present, for her white half-sister.",
+   "visual": {
+    "kind": "title",
+    "title": "Age 11",
+    "sub": "given away as a wedding present"
+   }
+  },
+  {
+   "id": "m5",
+   "text": "She was taken to Macon, to work in the house of the sister who now owned her.",
+   "visual": {
+    "kind": "photo",
+    "image": "savmap",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Macon",
+     "sub": "Georgia"
+    }
+   }
+  },
+  {
+   "id": "w1",
+   "text": "William Craft was born in 1824, also in Georgia.",
+   "visual": {
+    "kind": "photo",
+    "image": "couple",
+    "focus": [
+     0.62,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1824,
+     "to": 1824
+    }
+   }
+  },
+  {
+   "id": "w2",
+   "text": "When he was sixteen, his owner sold the family apart to pay his debts. His mother, his father, his brother and his sister all went to different slaveholders.",
+   "visual": {
+    "kind": "card",
+    "image": "auction",
+    "caption": "A slave auction in Richmond, Virginia"
+   }
+  },
+  {
+   "id": "w3",
+   "text": "William later wrote that watching his sister sold at auction filled him with red-hot indignation.",
+   "visual": {
+    "kind": "title",
+    "title": "“",
+    "sub": "Red-hot indignation. — William Craft, on watching his sister sold"
+   }
+  },
+  {
+   "id": "w4",
+   "text": "In Macon, he was trained as a cabinetmaker and hired out. Most of what he earned went to his owner. But he was allowed to keep a little, and he saved it.",
+   "visual": {
+    "kind": "photo",
+    "image": "couple",
+    "focus": [
+     0.68,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "w5",
+   "text": "In 1846, William and Ellen were married.",
+   "visual": {
+    "kind": "title",
+    "title": "1846",
+    "sub": "William and Ellen marry"
+   }
+  },
+  {
+   "id": "w6",
+   "text": "But no law protected an enslaved family. Any child they had could be sold away, the way William's family had been.",
+   "visual": {
+    "kind": "photo",
+    "image": "couple",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "p1",
+   "text": "So they began to talk about escape. But Georgia was deep in the South, about a thousand miles from the free states, and every road was watched.",
+   "visual": {
+    "kind": "photo",
+    "image": "savmap",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "plan"
+  },
+  {
+   "id": "p2",
+   "text": "Then William had an idea. Ellen could pass for white. What if she travelled as a white slaveholder, and he travelled as her slave?",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "p3",
+   "text": "And she would not go as a lady. She would go as a man.",
+   "visual": {
+    "kind": "title",
+    "title": "A man",
+    "sub": "a young white planter"
+   }
+  },
+  {
+   "id": "p4",
+   "text": "William bought the pieces of the disguise one at a time, in different shops, so no one would notice.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.65
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "d1",
+   "text": "Ellen cut her hair short. She put on men's clothes, a top hat, and a pair of green-tinted glasses.",
+   "visual": {
+    "kind": "card",
+    "image": "ellen",
+    "caption": "Ellen Craft in her disguise, from their 1860 book"
+   }
+  },
+  {
+   "id": "d2",
+   "text": "She tied a bandage around her face, like a man with a bad toothache, to hide that she had no beard.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.22
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "d3",
+   "text": "And she put her right arm in a sling.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.45,
+     0.6
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "d4",
+   "text": "The sling was the cleverest part of the plan. Neither of them could read or write. In Georgia, it was against the law to teach them.",
+   "visual": {
+    "kind": "title",
+    "title": "The sling",
+    "sub": "because she could not write"
+   }
+  },
+  {
+   "id": "d5",
+   "text": "If someone asked the gentleman to sign his name, he could not. But with his arm in a sling, no one would ask.",
+   "visual": {
+    "kind": "card",
+    "image": "siebert",
+    "caption": "Ellen Craft, engraving, 1898"
+   }
+  },
+  {
+   "id": "d6",
+   "text": "Ellen's new name was William Johnson. A young planter, very sick, on his way to Philadelphia to see a doctor.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "\"Mr. William Johnson\"",
+     "sub": "Ellen Craft, in disguise"
+    }
+   }
+  },
+  {
+   "id": "d7",
+   "text": "Just before Christmas, both of them asked for a few days off. Holiday passes were common, and they were trusted. So their owners said yes.",
+   "visual": {
+    "kind": "title",
+    "title": "Christmas",
+    "sub": "a few days' head start"
+   }
+  },
+  {
+   "id": "j1",
+   "text": "On the morning of December the twenty-first, 1848, they slipped out to the station.",
+   "visual": {
+    "kind": "photo",
+    "image": "train",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "21 Dec 1848"
+   },
+   "section": "journey"
+  },
+  {
+   "id": "j2",
+   "text": "Before they parted, William later wrote, he told her: come, my dear, let us make a desperate leap for liberty.",
+   "visual": {
+    "kind": "title",
+    "title": "“",
+    "sub": "Come, my dear, let us make a desperate leap for liberty! — William Craft, 21 December 1848"
+   }
+  },
+  {
+   "id": "j3",
+   "text": "Ellen took her seat on the train to Savannah. William rode separately.",
+   "visual": {
+    "kind": "photo",
+    "image": "train",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "j4",
+   "text": "Then a man sat down right next to her. Mr. Cray. A close friend of the man who had enslaved her.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "j5",
+   "text": "He turned to her and said: it is a very fine morning, sir.",
+   "visual": {
+    "kind": "title",
+    "title": "\"A very fine morning, sir.\"",
+    "sub": "Mr. Cray, a friend of her enslaver"
+   }
+  },
+  {
+   "id": "j6",
+   "text": "Ellen pretended she could not hear him. For the rest of the ride, she played deaf. And he left her alone.",
+   "visual": {
+    "kind": "photo",
+    "image": "train",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "j7",
+   "text": "In Savannah, they boarded a steamer for Charleston, South Carolina.",
+   "visual": {
+    "kind": "card",
+    "image": "steamboat",
+    "caption": "A coastal steamboat of the 1840s"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Savannah",
+     "sub": "Georgia"
+    }
+   }
+  },
+  {
+   "id": "j8",
+   "text": "Ellen had a cabin. William had nowhere to sleep. He spent the night outside on the deck.",
+   "visual": {
+    "kind": "card",
+    "image": "steamboat",
+    "caption": "A coastal steamboat of the 1840s"
+   }
+  },
+  {
+   "id": "j9",
+   "text": "At breakfast, a slave dealer at the table offered to buy William from his young master. Ellen said no.",
+   "visual": {
+    "kind": "card",
+    "image": "steamboat",
+    "caption": "A coastal steamboat of the 1840s"
+   }
+  },
+  {
+   "id": "j10",
+   "text": "In Charleston, they needed tickets north. And the ticket office wanted the gentleman to sign for himself, and for his slave.",
+   "visual": {
+    "kind": "photo",
+    "image": "savmap",
+    "focus": [
+     0.7,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Charleston",
+     "sub": "South Carolina"
+    }
+   }
+  },
+  {
+   "id": "j11",
+   "text": "With his arm in a sling, Mr. Johnson could not. And the clerk would not sign for him.",
+   "visual": {
+    "kind": "title",
+    "title": "Sign here",
+    "sub": "the one thing she could not do"
+   }
+  },
+  {
+   "id": "j12",
+   "text": "Then an army officer who had travelled with them on the steamer stepped in, and vouched for the young planter. They got their tickets.",
+   "visual": {
+    "kind": "photo",
+    "image": "couple",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "j13",
+   "text": "From there, a steamer to Wilmington, North Carolina. Then train after train. Richmond. Washington. And finally, Baltimore.",
+   "visual": {
+    "kind": "photo",
+    "image": "train",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "j14",
+   "text": "Baltimore was the last stop in a slave state before Pennsylvania. And it was the most dangerous station of all.",
+   "visual": {
+    "kind": "card",
+    "image": "baltimore",
+    "caption": "President Street Station, Baltimore"
+   }
+  },
+  {
+   "id": "j15",
+   "text": "It was Christmas Eve.",
+   "visual": {
+    "kind": "title",
+    "title": "Christmas Eve",
+    "sub": "24 December 1848"
+   }
+  },
+  {
+   "id": "j16",
+   "text": "An officer stopped them. No one could take a slave into Pennsylvania, he said, without proof of ownership.",
+   "visual": {
+    "kind": "card",
+    "image": "baltimore"
+   }
+  },
+  {
+   "id": "j17",
+   "text": "They had no proof. They had come all this way, and now, a few hours from freedom, they were stuck.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "j18",
+   "text": "Then a train conductor spoke up for them. The bell rang for departure. And the officer, looking at the sick young man in bandages, let them go.",
+   "visual": {
+    "kind": "photo",
+    "image": "train",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "j19",
+   "text": "On Christmas morning, 1848, William saw the lights of Philadelphia.",
+   "visual": {
+    "kind": "card",
+    "image": "philly",
+    "caption": "Philadelphia, about 1845"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Philadelphia",
+     "sub": "Pennsylvania"
+    }
+   }
+  },
+  {
+   "id": "j20",
+   "text": "They were in a free state. They were free.",
+   "visual": {
+    "kind": "title",
+    "title": "Free",
+    "sub": "Christmas Day, 1848"
+   }
+  },
+  {
+   "id": "b1",
+   "text": "Abolitionists in Philadelphia took them in, and began to teach them to read and write.",
+   "visual": {
+    "kind": "card",
+    "image": "philly",
+    "caption": "Philadelphia, about 1845"
+   },
+   "section": "boston"
+  },
+  {
+   "id": "b2",
+   "text": "A few weeks later, they moved on to Boston, a city full of people who hated slavery.",
+   "visual": {
+    "kind": "photo",
+    "image": "boston",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Boston",
+     "sub": "Massachusetts"
+    }
+   }
+  },
+  {
+   "id": "b3",
+   "text": "They lived in the boarding house of Lewis and Harriet Hayden, on Beacon Hill.",
+   "visual": {
+    "kind": "card",
+    "image": "hayden",
+    "caption": "Lewis Hayden"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Lewis Hayden",
+     "sub": "Abolitionist, Boston"
+    }
+   }
+  },
+  {
+   "id": "b4",
+   "text": "William worked as a cabinetmaker again. Ellen worked as a seamstress. This time, they were paid for their own work.",
+   "visual": {
+    "kind": "photo",
+    "image": "bostonharbor",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "b5",
+   "text": "And they began to tell their story at anti-slavery meetings all across New England. People came to see the woman who had fooled the slave South.",
+   "visual": {
+    "kind": "photo",
+    "image": "couple",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "k1",
+   "text": "Then, in September 1850, Congress passed the Fugitive Slave Act.",
+   "visual": {
+    "kind": "photo",
+    "image": "fsl",
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1850,
+     "to": 1850
+    }
+   }
+  },
+  {
+   "id": "k2",
+   "text": "It forced the free states to help capture people who had escaped slavery, and send them back. Suddenly, Boston was not safe.",
+   "visual": {
+    "kind": "photo",
+    "image": "fsl",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "k3",
+   "text": "In October 1850, two men arrived in Boston from Macon. Willis Hughes and John Knight. They had come for the Crafts.",
+   "visual": {
+    "kind": "title",
+    "title": "Hughes & Knight",
+    "sub": "slave catchers from Macon"
+   }
+  },
+  {
+   "id": "k4",
+   "text": "They got a warrant for their arrest.",
+   "visual": {
+    "kind": "card",
+    "image": "poster",
+    "caption": "Warning poster, Boston, 1851"
+   }
+  },
+  {
+   "id": "k5",
+   "text": "But Boston fought back. The Vigilance Committee, Black and white Bostonians together, hid Ellen and moved her from house to house.",
+   "visual": {
+    "kind": "card",
+    "image": "poster",
+    "caption": "Warning poster, Boston, 1851"
+   }
+  },
+  {
+   "id": "k6",
+   "text": "The slave catchers were hounded through the city. Within days, they gave up, and left Boston without them.",
+   "visual": {
+    "kind": "photo",
+    "image": "boston",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "k7",
+   "text": "Before the Crafts left Boston, the minister Theodore Parker married them again. This time, he said, according to the laws of a free state.",
+   "visual": {
+    "kind": "card",
+    "image": "parker",
+    "caption": "Theodore Parker"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Theodore Parker",
+     "sub": "Minister and abolitionist"
+    }
+   }
+  },
+  {
+   "id": "k8",
+   "text": "Because Hughes and Knight would not be the last. As long as they stayed in America, the Crafts could be taken.",
+   "visual": {
+    "kind": "title",
+    "title": "“",
+    "sub": "According to the laws of a free State. — Theodore Parker, marrying the Crafts, November 1850"
+   }
+  },
+  {
+   "id": "e1",
+   "text": "So they ran again. North through Maine and Canada to Halifax, and from there, across the Atlantic to Liverpool.",
+   "visual": {
+    "kind": "card",
+    "image": "halifax"
+   },
+   "section": "england"
+  },
+  {
+   "id": "e2",
+   "text": "They had escaped from slavery. Now they had to escape from the United States itself.",
+   "visual": {
+    "kind": "photo",
+    "image": "ship",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "e3",
+   "text": "In England, they went to school, at Ockham in Surrey. Two people who had been forbidden to learn now studied in a classroom.",
+   "visual": {
+    "kind": "title",
+    "title": "Ockham",
+    "sub": "Surrey, England"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "In 1851, at the Great Exhibition in London, they walked among the crowds to protest American slavery, in front of the world.",
+   "visual": {
+    "kind": "photo",
+    "image": "crystal",
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1851,
+     "to": 1851
+    }
+   }
+  },
+  {
+   "id": "e5",
+   "text": "They had five children. All of them born free.",
+   "visual": {
+    "kind": "title",
+    "title": "5",
+    "sub": "children, born free"
+   }
+  },
+  {
+   "id": "e6",
+   "text": "In 1852, a rumor spread in America that Ellen was unhappy in England, and wanted to go back.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "e7",
+   "text": "She answered in print. She would much rather starve in England, a free woman, than be a slave.",
+   "visual": {
+    "kind": "title",
+    "title": "“",
+    "sub": "I had much rather starve in England, a free woman, than be a slave. — Ellen Craft, 1852"
+   }
+  },
+  {
+   "id": "e8",
+   "text": "And in 1860, they published their story in a book. Running a Thousand Miles for Freedom.",
+   "visual": {
+    "kind": "card",
+    "image": "titlepage",
+    "caption": "Running a Thousand Miles for Freedom, London, 1860"
+   }
+  },
+  {
+   "id": "r1",
+   "text": "In 1865, the Civil War ended, and slavery ended with it.",
+   "visual": {
+    "kind": "photo",
+    "image": "crystal",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1865,
+     "to": 1865
+    }
+   },
+   "section": "home"
+  },
+  {
+   "id": "r2",
+   "text": "In 1868, after almost twenty years in England, the Crafts came home. To Georgia.",
+   "visual": {
+    "kind": "photo",
+    "image": "savmap",
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1868,
+     "to": 1868
+    }
+   }
+  },
+  {
+   "id": "r3",
+   "text": "They settled near Savannah, and in 1873 they opened the Woodville Co-operative Farm School, to teach and employ people who had just been freed.",
+   "visual": {
+    "kind": "title",
+    "title": "1873",
+    "sub": "Woodville Co-operative Farm School"
+   }
+  },
+  {
+   "id": "r4",
+   "text": "A school and a farm, run by two people who had once been forbidden to learn to read.",
+   "visual": {
+    "kind": "photo",
+    "image": "couple",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "r5",
+   "text": "It did not last. Funders accused William of misusing money. He sued for libel in 1878, and lost. Cotton prices fell, and the school closed.",
+   "visual": {
+    "kind": "photo",
+    "image": "savmap",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "r6",
+   "text": "In 1890, they moved to Charleston, to live with their daughter.",
+   "visual": {
+    "kind": "photo",
+    "image": "bostonharbor",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "r7",
+   "text": "Ellen Craft died in 1891. William died in 1900.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1891,
+     "to": 1891
+    }
+   }
+  },
+  {
+   "id": "c1",
+   "text": "A girl, given away as a wedding present.",
+   "visual": {
+    "kind": "photo",
+    "image": "ellen",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "c2",
+   "text": "A boy who watched his family sold off, one by one.",
+   "visual": {
+    "kind": "card",
+    "image": "auction",
+    "caption": "A slave auction in Richmond, Virginia"
+   }
+  },
+  {
+   "id": "c3",
+   "text": "Together, they bought a top hat, a pair of green glasses and a sling, and rode a thousand miles to freedom, in plain sight.",
+   "visual": {
+    "kind": "photo",
+    "image": "couple",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "c4",
+   "text": "That was Ellen and William Craft. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "facts": [
+  {
+   "beat": "hook",
+   "claim": "In December 1848 Ellen Craft, enslaved, escaped disguised as a white male slaveholder/planter.",
+   "sources": [
+    "NGE",
+    "NPS",
+    "NATGEO",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "husband",
+   "claim": "William Craft, her husband, posed as her enslaved servant.",
+   "sources": [
+    "NGE",
+    "NPS",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "names",
+   "claim": "Both were enslaved in Macon, Georgia.",
+   "sources": [
+    "NGE",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "looked",
+   "claim": "Ellen was the daughter of an enslaved woman and her white enslaver, and looked white.",
+   "sources": [
+    "NGE",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "disguise",
+   "claim": "She cut her hair short and wore a top hat and green spectacles.",
+   "sources": [
+    "NPS",
+    "NATGEO",
+    "NGE"
+   ],
+   "note": "Green spectacles: NPS, NATGEO. Top hat and short hair: NGE, NATGEO."
+  },
+  {
+   "beat": "bandage",
+   "claim": "She bandaged/poulticed her face (hiding a beardless face) as an invalid.",
+   "sources": [
+    "NPS",
+    "HIST",
+    "NATGEO"
+   ]
+  },
+  {
+   "beat": "sling",
+   "claim": "Her right arm in a sling, because she could not write and would be asked to sign.",
+   "sources": [
+    "NPS",
+    "LOC",
+    "HIST",
+    "NATGEO"
+   ]
+  },
+  {
+   "beat": "train",
+   "claim": "In December 1848 they took the train from Macon to Savannah.",
+   "sources": [
+    "NGE",
+    "NPS",
+    "HIST"
+   ],
+   "note": "Start date varies: 21 Dec (NPSP, NATGEO), 18-20 Dec (NPS), 24 Dec (LOC). Script says December 1848."
+  },
+  {
+   "beat": "friend",
+   "claim": "A friend of Ellen's enslaver sat next to her on the train.",
+   "sources": [
+    "NPS",
+    "LOC",
+    "NATGEO"
+   ]
+  },
+  {
+   "beat": "deaf",
+   "claim": "She pretended to be deaf/hard of hearing to avoid talking to him.",
+   "sources": [
+    "NPS",
+    "NATGEO"
+   ]
+  },
+  {
+   "beat": "route",
+   "claim": "They travelled north by train and steamboat (Savannah, Charleston, Wilmington, Virginia, Washington, Baltimore).",
+   "sources": [
+    "NGE",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "baltimore",
+   "claim": "In Baltimore an official stopped them and demanded proof William belonged to Ellen; they were allowed to board.",
+   "sources": [
+    "NPS",
+    "NATGEO"
+   ]
+  },
+  {
+   "beat": "christmas",
+   "claim": "They reached Philadelphia on Christmas Day 1848.",
+   "sources": [
+    "NGE",
+    "NPSP",
+    "LOC",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "hunters",
+   "claim": "In 1850, after the Fugitive Slave Act, slave catchers (Hughes and Knight) came to Boston for them.",
+   "sources": [
+    "NGE",
+    "NPSP",
+    "NATGEO"
+   ]
+  },
+  {
+   "beat": "england",
+   "claim": "They fled to England and published Running a Thousand Miles for Freedom (1860).",
+   "sources": [
+    "NGE",
+    "NPSP",
+    "LOC"
+   ]
+  },
+  {
+   "beat": "legacy",
+   "claim": "'A thousand miles' follows the title of their book; an approximation, not a measured distance.",
+   "sources": [
+    "RTM",
+    "NGE"
+   ]
+  }
+ ],
+ "sourcesByClaim": {
+  "m1": [
+   "NPSP",
+   "HIST",
+   "WIKI"
+  ],
+  "m2": [
+   "HIST",
+   "LOC"
+  ],
+  "m3": [
+   "NPSA",
+   "HIST",
+   "LOC"
+  ],
+  "m4": [
+   "HIST",
+   "NPSP",
+   "NATGEO",
+   "WIKI"
+  ],
+  "w1": [
+   "NPSA",
+   "HIST"
+  ],
+  "w2": [
+   "HIST",
+   "NATGEO"
+  ],
+  "w3": [
+   "NPSA",
+   "RTM"
+  ],
+  "w4": [
+   "NPSA",
+   "HIST",
+   "LOC",
+   "NATGEO"
+  ],
+  "w5": [
+   "HIST",
+   "WIKI"
+  ],
+  "p2": [
+   "NPSA",
+   "HIST"
+  ],
+  "p4": [
+   "NPSA",
+   "HIST"
+  ],
+  "d1": [
+   "NPSA",
+   "HIST",
+   "NATGEO"
+  ],
+  "d2": [
+   "NPSA",
+   "HIST",
+   "NATGEO"
+  ],
+  "d4": [
+   "NPSA",
+   "HIST",
+   "LOC"
+  ],
+  "d6": [
+   "NPSA",
+   "NATGEO",
+   "LOC"
+  ],
+  "d7": [
+   "NPSA",
+   "LOC"
+  ],
+  "j1": [
+   "NPSA",
+   "NPSP",
+   "HIST"
+  ],
+  "j2": [
+   "NPSA",
+   "RTM"
+  ],
+  "j4": [
+   "NPSA",
+   "HIST",
+   "LOC"
+  ],
+  "j5": [
+   "HIST",
+   "LOC"
+  ],
+  "j6": [
+   "NPSA",
+   "HIST"
+  ],
+  "j7": [
+   "NPSA",
+   "HIST"
+  ],
+  "j8": [
+   "NPSA",
+   "HIST"
+  ],
+  "j9": [
+   "NPSA",
+   "HIST"
+  ],
+  "j10": [
+   "NPSA",
+   "LOC"
+  ],
+  "j12": [
+   "NPSA",
+   "LOC"
+  ],
+  "j13": [
+   "NPSA",
+   "HIST",
+   "NATGEO"
+  ],
+  "j16": [
+   "NPSA",
+   "HIST",
+   "NATGEO"
+  ],
+  "j18": [
+   "NPSA",
+   "HIST"
+  ],
+  "j19": [
+   "NPSA",
+   "HIST",
+   "NPSP"
+  ],
+  "b1": [
+   "NATGEO",
+   "NPSA"
+  ],
+  "b2": [
+   "NPSA",
+   "HIST"
+  ],
+  "b3": [
+   "NPSA",
+   "NPSP"
+  ],
+  "b4": [
+   "NPSA",
+   "HIST",
+   "NPSP"
+  ],
+  "b5": [
+   "NPSA",
+   "HIST",
+   "NPSP"
+  ],
+  "k1": [
+   "NPSA",
+   "HIST"
+  ],
+  "k3": [
+   "NPSA",
+   "HIST",
+   "WIKI"
+  ],
+  "k4": [
+   "NPSA",
+   "NPSP"
+  ],
+  "k5": [
+   "NPSA",
+   "NPSP",
+   "HIST"
+  ],
+  "k6": [
+   "NPSA",
+   "WIKI"
+  ],
+  "k7": [
+   "NPSA",
+   "NPSP"
+  ],
+  "e1": [
+   "NPSA",
+   "WIKI"
+  ],
+  "e3": [
+   "NPSA",
+   "WIKI"
+  ],
+  "e4": [
+   "NPSA",
+   "NPSP"
+  ],
+  "e5": [
+   "NPSA",
+   "HIST",
+   "NATGEO",
+   "WIKI"
+  ],
+  "e6": [
+   "NPSP",
+   "NATGEO"
+  ],
+  "e7": [
+   "NATGEO",
+   "WIKI"
+  ],
+  "e8": [
+   "NPSA",
+   "NATGEO",
+   "LOC"
+  ],
+  "r2": [
+   "NATGEO",
+   "WIKI",
+   "NPSA"
+  ],
+  "r3": [
+   "NPSA",
+   "NPSP",
+   "WIKI",
+   "HIST"
+  ],
+  "r5": [
+   "NPSA",
+   "NATGEO",
+   "WIKI"
+  ],
+  "r6": [
+   "NATGEO",
+   "WIKI",
+   "NPSA"
+  ],
+  "r7": [
+   "NPSA",
+   "NATGEO",
+   "WIKI"
+  ]
+ },
+ "sources": {
+  "NPS": {
+   "name": "National Park Service: \"A Desperate Leap for Liberty\": The Escape of William and Ellen Craft",
+   "url": "https://www.nps.gov/articles/-a-desperate-leap-for-liberty-the-escape-of-william-and-ellen-craft.htm"
+  },
+  "NPSP": {
+   "url": "https://www.nps.gov/people/ellen-craft.htm"
+  },
+  "NGE": {
+   "name": "New Georgia Encyclopedia: William and Ellen Craft (1824-1900; 1826-1891)",
+   "url": "https://www.georgiaencyclopedia.org/articles/history-archaeology/william-and-ellen-craft-1824-1900-1826-1891/"
+  },
+  "LOC": {
+   "url": "https://blogs.loc.gov/loc/2018/12/an-1848-christmas-story-the-gift-of-freedom/"
+  },
+  "NATGEO": {
+   "url": "https://www.nationalgeographic.com/history/history-magazine/article/ellen-craft-the-appearance-of-freedom"
+  },
+  "HIST": {
+   "url": "https://www.history.com/articles/slavery-escape-william-ellen-craft"
+  },
+  "RTM": {
+   "url": "https://archive.org/details/runningthousandm00craf"
+  },
+  "NPSA": {
+   "url": "https://www.nps.gov/articles/-a-desperate-leap-for-liberty-the-escape-of-william-and-ellen-craft.htm"
+  },
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Ellen_and_William_Craft"
+  }
+ },
+ "notUsed": [
+  "Ellen's line 'Thank God, William, we're safe!' (National Geographic, from the 1860 narrative): not used, no second source checked.",
+  "'Stayed at the best hotel in Charleston' (NATGEO only): not used.",
+  "'Rode first class' (not verified): not used.",
+  "Gunpowder keg under the Hayden house, 200 guards, revolver from Parker (NPS only).",
+  "Schools burned by night riders in 1870 (National Geographic only).",
+  "Harriet Martineau arranging the Ockham schooling (Wikipedia only)."
+ ]
+}

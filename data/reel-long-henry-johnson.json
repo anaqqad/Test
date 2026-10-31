@@ -1,0 +1,1327 @@
+{
+ "id": "reel-long-henry-johnson",
+ "title": "He Fought Off a German Raid Almost Alone. America Took 97 Years to Thank Him.",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1,
+  "seed": 1234,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "ctaLine": "for more.",
+  "theme": "bhr"
+ },
+ "beats": [
+  {
+   "id": "h1",
+   "text": "In May 1918, in a trench in France, a railroad porter from Albany, New York, fought off a German raiding party almost alone.",
+   "visual": {
+    "kind": "photo",
+    "image": "returnhome",
+    "focus": [
+     0.39,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "hook": "He fought off a German raid *almost alone.*"
+   }
+  },
+  {
+   "id": "h2",
+   "text": "He was wounded twenty-one times. And he would not let them take the young soldier beside him.",
+   "visual": {
+    "kind": "title",
+    "title": "21",
+    "sub": "wounds in one night"
+   }
+  },
+  {
+   "id": "h3",
+   "text": "France gave him one of its highest honors for bravery. His own army sent him home with discharge papers that did not mention a single wound.",
+   "visual": {
+    "kind": "photo",
+    "image": "returnhome",
+    "focus": [
+     0.45,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "h4",
+   "text": "It would take his country ninety-seven years to give him the Medal of Honor.",
+   "visual": {
+    "kind": "title",
+    "title": "97 years",
+    "sub": "to the Medal of Honor"
+   }
+  },
+  {
+   "id": "h5",
+   "text": "His name was Henry Johnson. And this is how a man the army barely wanted became one of the bravest soldiers of the First World War.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "caption": "Henry Johnson, 1919"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Henry Johnson",
+     "sub": "1892 – 1929"
+    }
+   }
+  },
+  {
+   "id": "a1",
+   "text": "Henry Johnson was born in 1892, in Winston-Salem, North Carolina.",
+   "visual": {
+    "kind": "photo",
+    "image": "crowds",
+    "focus": [
+     0.58,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1892,
+     "to": 1892
+    },
+    "pin": {
+     "label": "Winston-Salem",
+     "sub": "North Carolina"
+    }
+   },
+   "section": "albany"
+  },
+  {
+   "id": "a2",
+   "text": "When he was a boy, his family moved north, to Albany, New York, the state capital, on the Hudson River.",
+   "visual": {
+    "kind": "photo",
+    "image": "crowds",
+    "focus": [
+     0.58,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Albany",
+     "sub": "New York"
+    }
+   }
+  },
+  {
+   "id": "a3",
+   "text": "He took whatever work he could find. He mixed sodas. He worked in a coal yard. He drove a car for other people.",
+   "visual": {
+    "kind": "photo",
+    "image": "crowds",
+    "focus": [
+     0.58,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "a4",
+   "text": "Then he became a redcap, a porter at Albany's Union Station, carrying other people's bags onto the trains.",
+   "visual": {
+    "kind": "title",
+    "title": "Redcap",
+    "sub": "Union Station, Albany"
+   }
+  },
+  {
+   "id": "a5",
+   "text": "It was steady work, and hard work. And nobody in that station would have guessed what this man was capable of.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "caption": "Henry Johnson"
+   }
+  },
+  {
+   "id": "a6",
+   "text": "He was not a big man. By the Army's own account, he weighed about a hundred and thirty pounds.",
+   "visual": {
+    "kind": "title",
+    "title": "130 lbs",
+    "sub": "Henry Johnson"
+   }
+  },
+  {
+   "id": "e1",
+   "text": "In April 1917, the United States entered the First World War.",
+   "visual": {
+    "kind": "card",
+    "image": "bearers",
+    "caption": "Color bearers of the 15th New York, 1917"
+   },
+   "overlays": {
+    "year": {
+     "from": 1917,
+     "to": 1917
+    }
+   },
+   "section": "regiment"
+  },
+  {
+   "id": "e2",
+   "text": "On June the fifth, 1917, Henry Johnson enlisted in the 15th New York, an all-Black National Guard regiment based in Harlem.",
+   "visual": {
+    "kind": "card",
+    "image": "fifteenth"
+   },
+   "overlays": {
+    "stamp": "5 June 1917"
+   }
+  },
+  {
+   "id": "e2b",
+   "text": "Its men came from Harlem and from Black neighborhoods across New York City.",
+   "visual": {
+    "kind": "card",
+    "image": "bearers",
+    "caption": "Color bearers of the 15th New York, 1917"
+   }
+  },
+  {
+   "id": "e3",
+   "text": "In the war, the regiment would become the 369th Infantry. History remembers them by another name. The Harlem Hellfighters.",
+   "visual": {
+    "kind": "photo",
+    "image": "parade2",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "369th Infantry",
+     "sub": "\"The Harlem Hellfighters\""
+    }
+   }
+  },
+  {
+   "id": "e3b",
+   "text": "First, they were sent to train at Camp Wadsworth, in Spartanburg, South Carolina.",
+   "visual": {
+    "kind": "title",
+    "title": "Spartanburg",
+    "sub": "South Carolina, 1917"
+   }
+  },
+  {
+   "id": "e3c",
+   "text": "Many people in the town did not want Black soldiers from New York there. The hostility was so bad that the regiment was moved out in less than two weeks.",
+   "visual": {
+    "kind": "card",
+    "image": "bearers",
+    "caption": "Color bearers of the 15th New York, 1917"
+   }
+  },
+  {
+   "id": "e3d",
+   "text": "In December 1917, they sailed for France, and landed at Brest, two days after Christmas.",
+   "visual": {
+    "kind": "title",
+    "title": "27 December 1917",
+    "sub": "landing in France"
+   }
+  },
+  {
+   "id": "e3e",
+   "text": "And there, the army handed them shovels instead of rifles. At the port of Saint-Nazaire, they built docks and laid railroad track.",
+   "visual": {
+    "kind": "card",
+    "image": "fifteenth"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "But the commander of American forces in Europe, General John Pershing, kept Black units out of front-line combat.",
+   "visual": {
+    "kind": "title",
+    "title": "Gen. John J. Pershing",
+    "sub": "kept Black units out of combat"
+   }
+  },
+  {
+   "id": "e4b",
+   "text": "They had volunteered to fight. Now their own army would not send them into battle.",
+   "visual": {
+    "kind": "card",
+    "image": "bearers",
+    "caption": "Color bearers of the 15th New York, 1917"
+   }
+  },
+  {
+   "id": "e5",
+   "text": "France needed them. After almost four years of war, the French army was desperate for men. So in March 1918, the 369th was handed over to the French.",
+   "visual": {
+    "kind": "title",
+    "title": "March 1918",
+    "sub": "lent to the French army"
+   }
+  },
+  {
+   "id": "e6",
+   "text": "The French gave them French rifles and French helmets, trained them, and sent them to the front.",
+   "visual": {
+    "kind": "card",
+    "image": "croix1",
+    "caption": "A private of the 369th Infantry with the Croix de Guerre"
+   }
+  },
+  {
+   "id": "e7",
+   "text": "Black Americans, fighting for their country, under another country's command.",
+   "visual": {
+    "kind": "card",
+    "image": "croix2",
+    "caption": "A private of the 369th Infantry with the Croix de Guerre"
+   }
+  },
+  {
+   "id": "e8",
+   "text": "In April 1918, the 369th went into the front-line trenches in the Champagne region of France.",
+   "visual": {
+    "kind": "photo",
+    "image": "argonne",
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Champagne",
+     "sub": "France"
+    }
+   }
+  },
+  {
+   "id": "n1",
+   "text": "That spring, they held a stretch of the line at the western edge of the Argonne Forest.",
+   "visual": {
+    "kind": "photo",
+    "image": "argonne",
+    "focus": [
+     0.5,
+     0.65
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "night"
+  },
+  {
+   "id": "n2",
+   "text": "In the early hours of May the fifteenth, 1918, Henry Johnson and a young private from Trenton, New Jersey, named Needham Roberts were on sentry duty at a small outpost.",
+   "visual": {
+    "kind": "photo",
+    "image": "raid",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "15 May 1918"
+   }
+  },
+  {
+   "id": "n2b",
+   "text": "Their job was simple. Stay awake. Watch the dark. Warn the others if anything moved.",
+   "visual": {
+    "kind": "photo",
+    "image": "raid",
+    "focus": [
+     0.35,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "n2d",
+   "text": "It was cold, and it was quiet. The kind of quiet that soldiers on the front learned not to trust.",
+   "visual": {
+    "kind": "photo",
+    "image": "argonne",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "n2c",
+   "text": "Around two in the morning, they heard it. The snip of wire cutters, out in the dark.",
+   "visual": {
+    "kind": "title",
+    "title": "2 a.m.",
+    "sub": "the sound of wire cutters"
+   }
+  },
+  {
+   "id": "n3",
+   "text": "It was a German raiding party, come to take prisoners. By the official count, at least a dozen men. Some accounts say twice that.",
+   "visual": {
+    "kind": "title",
+    "title": "At least 12",
+    "sub": "German raiders"
+   }
+  },
+  {
+   "id": "n4",
+   "text": "The first grenades landed in their position. Roberts was hit and badly wounded.",
+   "visual": {
+    "kind": "photo",
+    "image": "raid",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "n5",
+   "text": "Johnson threw grenades until he had none left. Then he fired his rifle, until it jammed.",
+   "visual": {
+    "kind": "photo",
+    "image": "argonne",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "n6",
+   "text": "He swung the empty rifle like a club.",
+   "visual": {
+    "kind": "title",
+    "title": "No ammunition",
+    "sub": "and he kept fighting"
+   }
+  },
+  {
+   "id": "n6b",
+   "text": "Think about where he was. Alone in the dark, in a foreign country, wounded, with no bullets left, and the man beside him unable to stand.",
+   "visual": {
+    "kind": "photo",
+    "image": "raid",
+    "focus": [
+     0.45,
+     0.55
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "n7",
+   "text": "Then he saw the raiders trying to carry Roberts away as a prisoner.",
+   "visual": {
+    "kind": "photo",
+    "image": "raid",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "n8",
+   "text": "Johnson had one weapon left, a heavy bolo knife. He went after them.",
+   "visual": {
+    "kind": "photo",
+    "image": "litho",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "n9",
+   "text": "He fought them off in the dark, wounded again and again. He would not let them take Roberts.",
+   "visual": {
+    "kind": "card",
+    "image": "litho",
+    "caption": "\"Our Colored Heroes\", lithograph, 1918"
+   }
+  },
+  {
+   "id": "n10",
+   "text": "Finally, the raiders pulled back. They left weapons and equipment behind them.",
+   "visual": {
+    "kind": "photo",
+    "image": "argonne",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "n11",
+   "text": "Henry Johnson had been wounded twenty-one times.",
+   "visual": {
+    "kind": "title",
+    "title": "21",
+    "sub": "wounds"
+   }
+  },
+  {
+   "id": "n12",
+   "text": "He is credited with killing four of the attackers and wounding many more. And Needham Roberts was still alive.",
+   "visual": {
+    "kind": "card",
+    "image": "pair",
+    "caption": "Henry Johnson and Needham Roberts, 1918"
+   }
+  },
+  {
+   "id": "n13",
+   "text": "Stop and picture it. Two men, at night, in a trench, against a raiding party. And both of them came out alive.",
+   "visual": {
+    "kind": "photo",
+    "image": "litho",
+    "focus": [
+     0.4,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "f1",
+   "text": "The French did not wait. The next day, their army orders praised Private Johnson.",
+   "visual": {
+    "kind": "photo",
+    "image": "raid",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "honor"
+  },
+  {
+   "id": "f2",
+   "text": "He gave, the orders said, a magnificent example of courage and energy.",
+   "visual": {
+    "kind": "title",
+    "title": "“",
+    "sub": "A magnificent example of courage and energy. — French army orders, 16 May 1918"
+   }
+  },
+  {
+   "id": "f3",
+   "text": "Johnson and Roberts both received the Croix de Guerre. Johnson's came with the palm, for extraordinary bravery. They were among the first American soldiers to receive it.",
+   "visual": {
+    "kind": "card",
+    "image": "pairmedals",
+    "caption": "Johnson and Roberts with their Croix de Guerre, 1918"
+   }
+  },
+  {
+   "id": "f4",
+   "text": "Even General Pershing praised the two sentries. In his words, they continued fighting after receiving wounds, despite the use of grenades by a superior force.",
+   "visual": {
+    "kind": "title",
+    "title": "“",
+    "sub": "Continued fighting after receiving wounds and despite the use of grenades by a superior force. — Gen. John J. Pershing, 1918"
+   }
+  },
+  {
+   "id": "f5",
+   "text": "Newspapers in New York told the story. Henry Johnson was promoted to sergeant. And he earned a nickname. Black Death.",
+   "visual": {
+    "kind": "card",
+    "image": "nyt",
+    "caption": "The New York Times, 28 June 1918"
+   }
+  },
+  {
+   "id": "f5b",
+   "text": "On May the twenty-first, 1918, The New York Times carried the story of the two Black soldiers from New York who had beaten off a German raid.",
+   "visual": {
+    "kind": "card",
+    "image": "nyt2",
+    "caption": "The New York Times, 21 May 1918"
+   }
+  },
+  {
+   "id": "f6",
+   "text": "The 369th went on to spend 191 days in combat, more than any other American unit in the war.",
+   "visual": {
+    "kind": "title",
+    "title": "191 days",
+    "sub": "in combat"
+   }
+  },
+  {
+   "id": "f6b",
+   "text": "France later awarded the Croix de Guerre to the whole regiment.",
+   "visual": {
+    "kind": "card",
+    "image": "croix2",
+    "caption": "A private of the 369th Infantry with the Croix de Guerre"
+   }
+  },
+  {
+   "id": "f7",
+   "text": "Their regimental band, led by James Reese Europe, became famous too. It is credited with bringing jazz to France.",
+   "visual": {
+    "kind": "card",
+    "image": "band",
+    "caption": "James Reese Europe and the 369th band, Fifth Avenue, 1919"
+   }
+  },
+  {
+   "id": "p1",
+   "text": "In February 1919, the Hellfighters came home to New York.",
+   "visual": {
+    "kind": "photo",
+    "image": "arrives",
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1919,
+     "to": 1919
+    }
+   },
+   "section": "home"
+  },
+  {
+   "id": "p2",
+   "text": "They marched up Fifth Avenue, past enormous crowds.",
+   "visual": {
+    "kind": "photo",
+    "image": "parade",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "p3",
+   "text": "Sergeant Henry Johnson rode near the front, in an open car, holding flowers, still recovering from his wounds.",
+   "visual": {
+    "kind": "photo",
+    "image": "returnhome",
+    "focus": [
+     0.42,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "p4",
+   "text": "He was a hero. For a while.",
+   "visual": {
+    "kind": "photo",
+    "image": "parade2",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "p4b",
+   "text": "Because the welcome lasted one day. The wounds lasted the rest of his life.",
+   "visual": {
+    "kind": "photo",
+    "image": "returnhome",
+    "focus": [
+     0.42,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "p5",
+   "text": "When the Army discharged him, his papers did not mention his wounds. Not one of the twenty-one.",
+   "visual": {
+    "kind": "title",
+    "title": "0",
+    "sub": "wounds on his discharge papers"
+   }
+  },
+  {
+   "id": "p6",
+   "text": "Without that record, he received no disability pay.",
+   "visual": {
+    "kind": "photo",
+    "image": "crowds",
+    "focus": [
+     0.58,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "p7",
+   "text": "He went back to Albany. His injuries made it hard to work as a porter again.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "caption": "Henry Johnson"
+   }
+  },
+  {
+   "id": "p8",
+   "text": "He spoke in public about how Black soldiers had been treated. After that, the paid speaking work dried up.",
+   "visual": {
+    "kind": "photo",
+    "image": "band",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "p9",
+   "text": "His family left him.",
+   "visual": {
+    "kind": "title",
+    "title": "Alone",
+    "sub": "Albany, 1920s"
+   }
+  },
+  {
+   "id": "p10",
+   "text": "The soldier France had decorated was now a man in pain, out of work, and alone.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "caption": "Henry Johnson"
+   }
+  },
+  {
+   "id": "d1",
+   "text": "In July 1929, Henry Johnson died. He was thirty-six years old, and he had almost nothing.",
+   "visual": {
+    "kind": "photo",
+    "image": "parade",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "year": {
+     "from": 1929,
+     "to": 1929
+    }
+   }
+  },
+  {
+   "id": "d2",
+   "text": "He was buried at Arlington National Cemetery, with military honors.",
+   "visual": {
+    "kind": "title",
+    "title": "Arlington",
+    "sub": "National Cemetery, 1929"
+   }
+  },
+  {
+   "id": "d3",
+   "text": "And for decades, his story was mostly forgotten.",
+   "visual": {
+    "kind": "photo",
+    "image": "parade2",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "d4",
+   "text": "The Hellfighters were remembered as a regiment. The man who had fought hardest that night in May was not.",
+   "visual": {
+    "kind": "photo",
+    "image": "band",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "r1",
+   "text": "It took people who would not let it go.",
+   "visual": {
+    "kind": "card",
+    "image": "bearers",
+    "caption": "Color bearers of the 15th New York, 1917"
+   },
+   "section": "recognition"
+  },
+  {
+   "id": "r1b",
+   "text": "Year after year, people kept telling his story, and kept asking why his own country had never honored him.",
+   "visual": {
+    "kind": "photo",
+    "image": "crowds",
+    "focus": [
+     0.58,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "r2",
+   "text": "In 1996, President Bill Clinton awarded him the Purple Heart.",
+   "visual": {
+    "kind": "title",
+    "title": "1996",
+    "sub": "the Purple Heart"
+   }
+  },
+  {
+   "id": "r3",
+   "text": "In 2002, the Army awarded him the Distinguished Service Cross, the nation's second-highest award for valor.",
+   "visual": {
+    "kind": "title",
+    "title": "2002",
+    "sub": "the Distinguished Service Cross"
+   }
+  },
+  {
+   "id": "r4",
+   "text": "His supporters kept pushing for the highest one. New evidence was found, including General Pershing's own words of praise. And the Department of Defense reviewed his record again.",
+   "visual": {
+    "kind": "card",
+    "image": "pairmedals",
+    "caption": "Johnson and Roberts with their Croix de Guerre, 1918"
+   }
+  },
+  {
+   "id": "r5",
+   "text": "On June the second, 2015, at the White House, President Barack Obama awarded Henry Johnson the Medal of Honor.",
+   "visual": {
+    "kind": "photo",
+    "image": "moh2",
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "2 June 2015"
+   }
+  },
+  {
+   "id": "r6",
+   "text": "He was honored that day alongside another soldier of the First World War, Sergeant William Shemin. Command Sergeant Major Louis Wilson accepted Johnson's medal on his behalf.",
+   "visual": {
+    "kind": "photo",
+    "image": "moh",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "r7",
+   "text": "Ninety-seven years after that night in France.",
+   "visual": {
+    "kind": "title",
+    "title": "97 years",
+    "sub": "after that night"
+   }
+  },
+  {
+   "id": "r8",
+   "text": "Henry Johnson never knew any of it. He never saw the Purple Heart, the cross, or the medal. But his name is no longer forgotten.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "caption": "Sgt. Henry Johnson"
+   }
+  },
+  {
+   "id": "c1",
+   "text": "A porter who carried other people's bags.",
+   "visual": {
+    "kind": "photo",
+    "image": "returnhome",
+    "focus": [
+     0.39,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "c2",
+   "text": "A soldier his own army would not send into battle.",
+   "visual": {
+    "kind": "card",
+    "image": "bearers",
+    "caption": "Color bearers of the 15th New York, 1917"
+   }
+  },
+  {
+   "id": "c3",
+   "text": "A man wounded twenty-one times, sent home with nothing, and honored by his country almost a century too late.",
+   "visual": {
+    "kind": "photo",
+    "image": "returnhome",
+    "focus": [
+     0.42,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "c3b",
+   "text": "And one night in France, when it mattered most, he did not leave a fellow soldier behind.",
+   "visual": {
+    "kind": "card",
+    "image": "pair"
+   }
+  },
+  {
+   "id": "c4",
+   "text": "That was Henry Johnson. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "h1": [
+   "NPS",
+   "ARMY",
+   "HIST"
+  ],
+  "h2": [
+   "NPS",
+   "ARMY",
+   "HIST",
+   "WIKI"
+  ],
+  "h3": [
+   "NPS",
+   "ARMY",
+   "HIST"
+  ],
+  "h4": [
+   "ARMY",
+   "WIKI",
+   "HIST"
+  ],
+  "a1": [
+   "NPS",
+   "WIKI",
+   "ARMY"
+  ],
+  "a2": [
+   "NPS",
+   "WIKI"
+  ],
+  "a3": [
+   "NPS",
+   "ARMY",
+   "WIKI"
+  ],
+  "a4": [
+   "NPS",
+   "ARMY",
+   "HIST",
+   "WIKI"
+  ],
+  "e2": [
+   "NPS",
+   "ARMY",
+   "WIKI"
+  ],
+  "e3": [
+   "ARMY",
+   "HIST",
+   "WIKI"
+  ],
+  "e4": [
+   "NPS",
+   "HIST"
+  ],
+  "e5": [
+   "NPS",
+   "HIST"
+  ],
+  "e6": [
+   "NPS",
+   "WIKI"
+  ],
+  "n1": [
+   "ARMY",
+   "WIKI"
+  ],
+  "n2": [
+   "NPS",
+   "ARMY",
+   "ARMY2",
+   "HIST"
+  ],
+  "n3": [
+   "ARMY",
+   "NPS",
+   "HIST"
+  ],
+  "n4": [
+   "NPS",
+   "ARMY",
+   "HIST"
+  ],
+  "n5": [
+   "ARMY",
+   "HIST",
+   "WIKI"
+  ],
+  "n6": [
+   "ARMY",
+   "HIST"
+  ],
+  "n7": [
+   "ARMY",
+   "NPS",
+   "HIST"
+  ],
+  "n8": [
+   "ARMY",
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "n10": [
+   "NPS",
+   "ARMY"
+  ],
+  "n11": [
+   "NPS",
+   "ARMY",
+   "HIST",
+   "WIKI"
+  ],
+  "n12": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "f1": [
+   "NPS",
+   "ARMY",
+   "HIST"
+  ],
+  "f2": [
+   "NPS",
+   "ARMY2"
+  ],
+  "f3": [
+   "NPS",
+   "ARMY",
+   "ARMY2",
+   "HIST"
+  ],
+  "f4": [
+   "NPS",
+   "WIKI"
+  ],
+  "f5": [
+   "NPS",
+   "HIST"
+  ],
+  "p1": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "p3": [
+   "NPS",
+   "HIST"
+  ],
+  "p5": [
+   "NPS",
+   "HIST"
+  ],
+  "p6": [
+   "NPS",
+   "HIST"
+  ],
+  "p7": [
+   "NPS",
+   "ARMY"
+  ],
+  "p8": [
+   "WIKI",
+   "HIST"
+  ],
+  "p9": [
+   "NPS",
+   "HIST"
+  ],
+  "d1": [
+   "NPS",
+   "WIKI",
+   "HIST"
+  ],
+  "d2": [
+   "NPS",
+   "HIST",
+   "ARMY"
+  ],
+  "r2": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "r3": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "e2b": [
+   "HIST",
+   "WIKI"
+  ],
+  "e8": [
+   "ARMY2",
+   "ARMY"
+  ],
+  "n2c": [
+   "NPS",
+   "ARMY2"
+  ],
+  "e3b": [
+   "NYSMM",
+   "SMITH"
+  ],
+  "e3c": [
+   "NYSMM",
+   "SMITH"
+  ],
+  "e3d": [
+   "NYSMM",
+   "WIKI"
+  ],
+  "e3e": [
+   "NYSMM",
+   "SMITH"
+  ],
+  "f6": [
+   "NPS",
+   "HIST",
+   "NYSMM",
+   "SMITH"
+  ],
+  "f7": [
+   "BRIT",
+   "ARMY3",
+   "SMITH"
+  ],
+  "a6": [
+   "ARMY2",
+   "HIST"
+  ],
+  "f6b": [
+   "ARMY2",
+   "BRIT"
+  ],
+  "r4": [
+   "HIST",
+   "ARMY2"
+  ],
+  "f5b": [
+   "ARMY2",
+   "ARMY"
+  ],
+  "r5": [
+   "ARMY",
+   "WIKI",
+   "HIST"
+  ],
+  "r6": [
+   "ARMY",
+   "WIKI",
+   "HIST"
+  ]
+ },
+ "sources": {
+  "NYSMM": {
+   "url": "https://museum.dmna.ny.gov/unit-history/conflict/world-war-1-1914-1918/369th-infantry-regiment"
+  },
+  "SMITH": {
+   "url": "https://www.smithsonianmag.com/history/one-hundred-years-ago-harlem-hellfighters-bravely-led-us-wwi-180968977/"
+  },
+  "BRIT": {
+   "url": "https://www.britannica.com/topic/Harlem-Hellfighters"
+  },
+  "ARMY3": {
+   "url": "https://www.army.mil/article/199913/african_american_wwi_harlem_hell_fighters_proved_their_mettle_patriotism_in_combat"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/people/henry-johnson-1892-1929.htm"
+  },
+  "ARMY": {
+   "url": "https://www.army.mil/medalofhonor/johnson/"
+  },
+  "ARMY2": {
+   "url": "https://www.army.mil/article/204920/ny_national_guardsman_henry_johnson_fought_for_his_life_with_a_knife_on_may_15_1918"
+  },
+  "HIST": {
+   "url": "https://www.history.com/articles/wwi-hero-henry-johnson-finally-receives-medal-of-honor"
+  },
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Henry_Johnson_(World_War_I_soldier)"
+  }
+ },
+ "notUsed": [
+  "Exact size of the raiding party: 12 (Medal of Honor citation), about 25 (NPS), up to 36 (Wikipedia); the script says \"at least a dozen, some accounts say twice that\".",
+  "Needham Roberts aged 17, Roberts passing grenades, rifle butt splintering, 5 ft 6 in and 130 lb (History.com only).",
+  "Theodore Roosevelt \"five bravest Americans\": sources disagree whether it was Theodore Roosevelt or Theodore Roosevelt Jr.",
+  "Place of death: Washington, D.C. (Wikipedia) vs New Lenox, Illinois (NPS); age at death 36 (NPS, Wikipedia) vs 32 (History.com): script uses 36 and no place.",
+  "Fort Polk renamed Fort Johnson in 2023 (NPS, Wikipedia) and renamed back in 2025 (Wikipedia only): left out.",
+  "His son Herman as the leader of the campaign (History.com only).",
+  "The bolo-knife blow described in the citation: left out (no graphic violence)."
+ ]
+}
