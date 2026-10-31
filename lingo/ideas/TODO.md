@@ -134,3 +134,9 @@ One Word in 10 Languages, Languages That Count Differently.
    - Ranking American Accents by How Easy They Are to Understand (method needed first, like the other rankings).
    Thumbnails: same channel look; US flag or state flag; US landmarks for the photo (Grand Canyon, New Orleans,
    Appalachians, Monument Valley).
+
+18. From viewer comments (2026-10-31):
+   - "Top languages with the most diacritics / letter variations (á, ä, ~ …)" (camiloantoniobaratolozano9795). Ranking video.
+   - Tonal Part 1 feedback: "all the tones sound the same to me" (PotatoSoundSystem). For Part 2: play each tone pair
+     slower, twice, with a pitch line drawn on screen so the difference is visible.
+   - Lao: count Isan (northeast Thailand, ~20M+) as Lao in the speaker number next time (Super_Harambe799).
