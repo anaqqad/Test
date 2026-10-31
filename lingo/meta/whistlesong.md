@@ -1,12 +1,12 @@
-# YouTube metadata: I Made a Song Using Only Whistled Languages (Part 1)
+# YouTube metadata: I Made a Song Using Only Whistled Languages
 
 ## Title
-I Made a Song Using Only Whistled Languages (Part 1)
+I Made a Song Using Only Whistled Languages
 
 ## Description
 9 whistled languages. 0 words. 1 song. Real whistlers from the Canary Islands, Turkey, Greece, the French Pyrenees, Nigeria, Laos, Mexico, Brazil and French Guiana, tuned to one melody over a beat. The breakdown plays the original recordings untouched.
 
-Which whistled language should join Part 2? Tell us in the comments 👇
+Which whistled language should we add next? Tell us in the comments 👇
 
 0:00 Intro: Silbo Gomero
 0:04 Silbo Gomero (Spain)

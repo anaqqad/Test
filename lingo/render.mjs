@@ -111,6 +111,9 @@ function storyPage(video, item, idx, dur, audio) {
   #like{white-space:nowrap}
   #like small{display:block;font-weight:700;font-size:26px;margin-bottom:2px}
   #verdict{border:6px solid var(--v);color:var(--v);background:rgba(255,255,255,.92);font-weight:800;font-size:34px;letter-spacing:2px;padding:4px 16px;border-radius:12px;white-space:nowrap;opacity:0}
+  #pitch{left:700px;top:650px;width:1180px;height:230px;background:rgba(12,14,24,.94);border-radius:22px;box-shadow:0 12px 30px rgba(0,0,0,.35);opacity:0}
+  #pitch small{position:absolute;left:24px;top:14px;color:#cfd6e6;font-weight:800;font-size:22px;letter-spacing:2px}
+  #pitch svg{position:absolute;left:0;top:0;width:1180px;height:230px}
   </style></head><body>
   <div id="bg" class="abs">${scene(item.scene, item.name)}</div>
   <div id="char" class="abs">${item.wojak && fs.existsSync(path.join(HERE, "wojaks", item.wojak + ".png")) ? `<img src="${fileUrl(path.join(HERE, "wojaks", item.wojak + ".png"))}" style="position:absolute;left:0;bottom:60px;width:720px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.35))">` : character(withGender(item.char, audio && audio.voice), "c" + idx)}</div>
@@ -119,12 +122,14 @@ function storyPage(video, item, idx, dur, audio) {
   ${item.loc ? `<div id="globe" class="abs">${globe(item.loc)}<br><span class="lab">📍 ${esc(item.loc[2])}</span></div>` : ""}
   ${listen}
   <div id="cap" class="abs pill"><span>🔊</span><span class="w"></span></div>
+  ${video.pitchLine && audio?.pitch ? `<div id="pitch" class="abs"><small>🎵 PITCH OF THE VOICE (THE TONES)</small><svg viewBox="0 0 1180 230"><text x="1160" y="70" text-anchor="end" fill="#8b93a7" font-size="20" font-weight="700">HIGH</text><text x="1160" y="205" text-anchor="end" fill="#8b93a7" font-size="20" font-weight="700">LOW</text><path id="pl" fill="none" stroke="#ffd23f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle id="pd" r="11" fill="#fff"/></svg></div>` : ""}
   <div id="bar" class="abs">${flagHtml(item.flag, 66)}<h1>${esc(item.name)}</h1></div>
   <div id="brand" class="abs">${logoSvg(62, true)}${video.part ? `<small>${esc(video.part)}</small>` : ""}</div>
   <div id="count" class="abs"><div class="n">${esc(item.speakers)}</div><div class="l">${video.counterLabel}</div></div>
   <div id="fade" class="abs"></div>
   <script>
   const D=${dur}, T=${JSON.stringify(times)}, CAPS=${JSON.stringify(caps)};
+  const PITCH=${JSON.stringify(video.pitchLine && audio?.pitch ? audio.pitch : null)}, AOFF=0.25, WIN=4.0;
   const $=(s)=>document.querySelector(s), cards=[...document.querySelectorAll('.card')], eq=[...document.querySelectorAll('.eq i')];
   const ease=(x)=>1-Math.pow(1-Math.min(1,Math.max(0,x)),3), back=(x)=>{x=Math.min(1,Math.max(0,x));const c=1.5;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
   window.setT=(t)=>{
@@ -140,6 +145,12 @@ function storyPage(video, item, idx, dur, audio) {
     const cap=CAPS.find(c=>t>=c.t-0.15&&t<=c.t+Math.max(c.d,0.9)+0.35); const ce=$('#cap');
     if(cap){ce.style.opacity=1; ce.querySelector('.w').textContent=cap.text;} else ce.style.opacity=0;
     $('#bar').style.transform='translateY('+(-(1-ease(t/0.45))*140)+'px)';
+    if(PITCH){ // scrolling pitch trace of the real recording: last WIN seconds, newest at the right
+      const pe=$('#pitch'); pe.style.opacity=ease((t-0.9)/0.4); const ct=t-AOFF; let d='', pen=false, last=null;
+      for(const [pt,v] of PITCH){ if(pt>ct) break; if(pt<ct-WIN) continue;
+        if(v===null){pen=false;continue;} const x=60+(1-(ct-pt)/WIN)*1060, y=200-v*150; d+=(pen?'L':'M')+x.toFixed(1)+' '+y.toFixed(1); pen=true; last=[x,y]; }
+      $('#pl').setAttribute('d',d); const dot=$('#pd'); if(last&&pen){dot.setAttribute('cx',last[0]);dot.setAttribute('cy',last[1]);dot.style.opacity=1;} else dot.style.opacity=0;
+    }
     $('#fade').style.opacity=Math.max(0,1-t/0.35, (t-(D-0.3))/0.3);
   };
   </script></body></html>`;

@@ -68,8 +68,7 @@ const html = `<!doctype html><html><head><meta charset="utf-8">${FONT_CSS}<style
 <div id="plate" class="abs plate" style="left:70px;bottom:40px"></div>
 <div id="eq" class="abs">${"<i></i>".repeat(10)}</div>
 <div id="bar" class="abs"><h1>I Made a Song Using Only Whistled Languages</h1></div>
-<div id="brand" class="abs">${logoSvg(52, true)}<small>PART 1</small></div>
-<div id="credit" class="abs"></div>
+<div id="brand" class="abs">${logoSvg(52, true)}</div>
 <script>
 const TL=${JSON.stringify(TL)}, WHO=${JSON.stringify(WHO)}, NAMES=${JSON.stringify(names)}, FLAG=${JSON.stringify(Object.fromEntries(names.map((n) => [n, flag(WHO[n].flag)])))};
 const $=(id)=>document.getElementById(id);
@@ -104,7 +103,6 @@ function layout(sec){
   $("big").style.fontSize=sec.section==="intro"?"84px":"100px";
   $("big").innerHTML=sec.section==="intro"?"9 languages.<br>0 words.<br>1 song.":"";
   if(sec.section!=="intro") $("big").textContent=sec.section==="chorus"?"EVERYBODY NOW 🎶":sec.section==="outro"?"9 languages, 0 words 🐦":"";
-  $("credit").textContent=solo?"Real recording: "+(sec.section==="intro"?"Silbo Gomero":who[0])+" · tuned to the melody · credits in the description":"Real whistled-language recordings · credits in the description";
 }
 window.setT=(t)=>{
   const sec=TL.sections.find(s=>t>=s.start&&t<s.end)||TL.sections[TL.sections.length-1];
