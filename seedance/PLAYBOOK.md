@@ -77,3 +77,11 @@ Winners: "The Little House" (gift reveal) and "The Payroll" (owner catches a man
 - Small wardrobe words drift: "hairnet" became a knit beanie. Write "thin black hairnet, no hat".
 - Free fixes before re-generating: cut the bad shot, or keep its audio and lay an earlier good shot over it
   (J-cut), crop into the good part of the frame, or end on the previous shot.
+
+## Niche strategy: older US Facebook audience (owner's goal)
+- Core niche: emotional "kindness / justice" stories with grandparents, bikers, veterans, small-town America.
+- Second series: public-domain Americana and classics (westerns like The Virginian 1902, Riders of the Purple Sage
+  1912; Dickens, Twain, O. Henry, Sherlock Holmes; faith classics).
+- Make them look and sound like the audience: heroes 50-80, small towns, diners, farms, churches, Christmas.
+- Clear, slow-ish dialogue, warm music, no slang; post on US Eastern evenings; label AI content; avoid
+  engagement bait ("type YES"), ask real questions instead.
