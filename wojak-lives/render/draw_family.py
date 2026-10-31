@@ -111,6 +111,21 @@ CAST = {  # who: (rig kwargs, props, pose)
     # immigrant-parents episode: one kid, parents borrowed from every family above
     "ikid": (dict(skin=dc.SKIN["S4"], shirt="#27AE60", hair="sidepart", hair_color="#1A1A1A"), [], "idle"),
     "ikid_phone": (dict(skin=dc.SKIN["S4"], shirt="#27AE60", hair="sidepart", hair_color="#1A1A1A"), [], "phone"),
+    # German-mom episode
+    "demom": (dict(skin=dc.SKIN["S1"], shirt="#5D6D7E", hair="long", hair_color="#C9A86A", female=True), [],
+              "idle"),
+    "demom_point": (dict(skin=dc.SKIN["S1"], shirt="#5D6D7E", hair="long", hair_color="#C9A86A", female=True), [],
+                    "point"),
+    "dedad": (dict(skin=dc.SKIN["S1"], shirt="#2E4053", hair="sidepart_glasses", hair_color="#7A5A3A"), ["polo"],
+              "idle"),
+    "dekid": (dict(skin=dc.SKIN["S1"], shirt="#E67E22", hair="messy", hair_color="#D4B06A"), [], "idle"),
+    # Southern-mom episode
+    "somom": (dict(skin=dc.SKIN["S1"], shirt="#FF7EB6", hair="perm", hair_color="#E2C46B", female=True), [], "idle"),
+    "somom_spoon": (dict(skin=dc.SKIN["S1"], shirt="#FF7EB6", hair="perm", hair_color="#E2C46B", female=True),
+                    ["spoon"], "raise"),
+    "sodad": (dict(skin=dc.SKIN["S1"], shirt="#2471A3", hair="boomer"), ["polo"], "idle"),
+    "sokid": (dict(skin=dc.SKIN["S1"], shirt="#8E44AD", hair="sidepart", hair_color="#6E4B2A"), [], "idle"),
+    "sokid_phone": (dict(skin=dc.SKIN["S1"], shirt="#8E44AD", hair="sidepart", hair_color="#6E4B2A"), [], "phone"),
 }
 
 
