@@ -1,0 +1,904 @@
+1
+00:00:00,250 --> 00:00:02,148
+During the Second World War,
+
+2
+00:00:02,168 --> 00:00:04,066
+not far from the Pentagon,
+
+3
+00:00:04,086 --> 00:00:07,134
+German prisoners sat in small rooms and talked.
+
+4
+00:00:07,154 --> 00:00:08,668
+U-boat officers, army officers,
+
+5
+00:00:08,688 --> 00:00:09,052
+scientists.
+
+6
+00:00:09,072 --> 00:00:10,970
+They talked about the war,
+
+7
+00:00:10,990 --> 00:00:14,038
+and about the Americans who had captured them.
+
+8
+00:00:14,058 --> 00:00:16,723
+They thought they were only talking to
+
+9
+00:00:16,743 --> 00:00:17,543
+each other.
+
+10
+00:00:18,725 --> 00:00:20,501
+In another building, young American
+
+11
+00:00:20,521 --> 00:00:23,374
+soldiers in headphones were writing it all down.
+
+12
+00:00:23,394 --> 00:00:26,965
+Many of them had been born in Germany or Austria.
+
+13
+00:00:26,985 --> 00:00:29,479
+Many were Jewish, and had escaped the
+
+14
+00:00:29,499 --> 00:00:31,634
+Nazis only a few years before.
+
+15
+00:00:31,654 --> 00:00:34,507
+Now they were listening to the men they
+
+16
+00:00:34,527 --> 00:00:35,327
+had fled.
+
+17
+00:00:36,575 --> 00:00:39,094
+The place did not officially exist.
+
+18
+00:00:39,114 --> 00:00:42,479
+It had no name, only a mailing address:
+
+19
+00:00:42,499 --> 00:00:42,902
+P.O.
+
+20
+00:00:42,922 --> 00:00:43,749
+Box 1142.
+
+21
+00:00:43,769 --> 00:00:46,711
+This is the documented story of America's
+
+22
+00:00:46,731 --> 00:00:50,096
+secret listening post, and of the men who
+
+23
+00:00:50,116 --> 00:00:52,655
+kept its secret for sixty years.
+
+24
+00:00:54,375 --> 00:00:56,475
+The address belonged to Fort Hunt,
+
+25
+00:00:56,495 --> 00:00:58,948
+an old coastal artillery fort on the
+
+26
+00:00:58,968 --> 00:01:00,362
+Potomac River in Virginia,
+
+27
+00:01:00,382 --> 00:01:03,542
+on land that had once been part of George
+
+28
+00:01:03,562 --> 00:01:05,308
+Washington's estate at Mount Vernon.
+
+29
+00:01:05,328 --> 00:01:09,220
+In April 1942, the Army began using it to
+
+30
+00:01:09,240 --> 00:01:10,040
+question prisoners.
+
+31
+00:01:11,150 --> 00:01:13,368
+The site was chosen with care.
+
+32
+00:01:13,388 --> 00:01:16,351
+It was isolated enough to keep a secret,
+
+33
+00:01:16,371 --> 00:01:19,334
+and close enough to the Pentagon to send
+
+34
+00:01:19,354 --> 00:01:21,199
+what it learned there quickly.
+
+35
+00:01:21,219 --> 00:01:23,436
+At its height, there were eighty-seven
+
+36
+00:01:23,456 --> 00:01:24,928
+buildings behind the wire.
+
+37
+00:01:24,948 --> 00:01:27,165
+Neighbors saw unmarked buses with darkened
+
+38
+00:01:27,185 --> 00:01:29,050
+windows driving in and out.
+
+39
+00:01:30,275 --> 00:01:34,006
+On paper, it was not a prison camp at all.
+
+40
+00:01:34,026 --> 00:01:35,882
+It was a processing center.
+
+41
+00:01:35,902 --> 00:01:36,632
+That mattered.
+
+42
+00:01:36,652 --> 00:01:39,633
+Prisoners could be held for days or weeks
+
+43
+00:01:39,653 --> 00:01:42,259
+before anyone told the Red Cross where
+
+44
+00:01:42,279 --> 00:01:43,009
+they were.
+
+45
+00:01:43,029 --> 00:01:44,509
+Under the Geneva Convention,
+
+46
+00:01:44,529 --> 00:01:47,155
+the Red Cross was supposed to know.
+
+47
+00:01:48,825 --> 00:01:51,505
+To make it work, the Army needed something
+
+48
+00:01:51,525 --> 00:01:51,843
+rare:
+
+49
+00:01:51,863 --> 00:01:54,543
+soldiers who spoke German the way Germans did.
+
+50
+00:01:54,563 --> 00:01:57,244
+Many of the people it found were refugees.
+
+51
+00:01:57,264 --> 00:01:59,944
+They had fled Nazi Germany and Austria as
+
+52
+00:01:59,964 --> 00:02:01,969
+boys, often because they were Jewish,
+
+53
+00:02:01,989 --> 00:02:05,365
+and they had every reason to want the war won.
+
+54
+00:02:06,625 --> 00:02:08,972
+The Navy was just as choosy.
+
+55
+00:02:08,992 --> 00:02:11,338
+It interviewed four hundred and fifty
+
+56
+00:02:11,358 --> 00:02:12,916
+candidates for interrogation work,
+
+57
+00:02:12,936 --> 00:02:14,099
+and took thirty-five.
+
+58
+00:02:14,119 --> 00:02:17,649
+Some of the Army's men had trained at Camp
+
+59
+00:02:17,669 --> 00:02:20,016
+Ritchie, in Maryland, the school for
+
+60
+00:02:20,036 --> 00:02:20,836
+military intelligence.
+
+61
+00:02:22,150 --> 00:02:24,473
+One of them was Peter Weiss,
+
+62
+00:02:24,493 --> 00:02:26,815
+a young sergeant born in Vienna.
+
+63
+00:02:26,835 --> 00:02:29,939
+Decades later he described his job in a
+
+64
+00:02:29,959 --> 00:02:30,720
+single sentence.
+
+65
+00:02:30,740 --> 00:02:33,453
+My job, he said, was to listen,
+
+66
+00:02:33,473 --> 00:02:35,014
+and listen very carefully.
+
+67
+00:02:35,034 --> 00:02:37,357
+Sometimes that listening happened when the
+
+68
+00:02:37,377 --> 00:02:40,110
+prisoners did not know anyone was listening.
+
+69
+00:02:41,850 --> 00:02:45,630
+Between 1942 and the summer of 1945,
+
+70
+00:02:45,650 --> 00:02:48,294
+more than three thousand four hundred
+
+71
+00:02:48,314 --> 00:02:50,070
+prisoners passed through P.O.
+
+72
+00:02:50,090 --> 00:02:50,958
+Box 1142.
+
+73
+00:02:50,978 --> 00:02:53,178
+They were not ordinary soldiers.
+
+74
+00:02:53,198 --> 00:02:56,730
+They were picked for what they might know:
+
+75
+00:02:56,750 --> 00:02:58,950
+U-boat commanders and their crews,
+
+76
+00:02:58,970 --> 00:03:01,190
+senior officers, engineers and scientists.
+
+77
+00:03:02,550 --> 00:03:04,909
+Among them was General Reinhard Gehlen,
+
+78
+00:03:04,929 --> 00:03:07,288
+who had run German intelligence against
+
+79
+00:03:07,308 --> 00:03:10,064
+the Soviet army on the Eastern Front.
+
+80
+00:03:10,084 --> 00:03:12,840
+For the Americans, men like him were
+
+81
+00:03:12,860 --> 00:03:15,219
+becoming more valuable by the month.
+
+82
+00:03:15,239 --> 00:03:17,994
+The war against Germany was being won.
+
+83
+00:03:18,014 --> 00:03:20,790
+The next rival was already in view.
+
+84
+00:03:22,500 --> 00:03:25,064
+The rooms where the prisoners lived and
+
+85
+00:03:25,084 --> 00:03:27,278
+talked were wired with hidden microphones.
+
+86
+00:03:27,298 --> 00:03:29,862
+At first, even some American officers were
+
+87
+00:03:29,882 --> 00:03:30,969
+uneasy about it.
+
+88
+00:03:30,989 --> 00:03:33,922
+There was an old feeling that gentlemen do
+
+89
+00:03:33,942 --> 00:03:35,767
+not read each other's mail.
+
+90
+00:03:35,787 --> 00:03:38,740
+But the results were hard to argue with.
+
+91
+00:03:39,975 --> 00:03:41,576
+The interrogations were useful.
+
+92
+00:03:41,596 --> 00:03:43,602
+The recordings were often better.
+
+93
+00:03:43,622 --> 00:03:46,033
+Some of the most important discoveries
+
+94
+00:03:46,053 --> 00:03:48,465
+came not from questioning at all,
+
+95
+00:03:48,485 --> 00:03:50,491
+but from prisoners talking among
+
+96
+00:03:50,511 --> 00:03:52,922
+themselves, sure that they were alone.
+
+97
+00:03:52,942 --> 00:03:54,948
+There were also stool pigeons:
+
+98
+00:03:54,968 --> 00:03:57,785
+men placed among the prisoners to steer
+
+99
+00:03:57,805 --> 00:03:58,615
+the conversation.
+
+100
+00:04:00,050 --> 00:04:01,968
+Not every prisoner was fooled.
+
+101
+00:04:01,988 --> 00:04:04,295
+Some guessed the rooms were bugged,
+
+102
+00:04:04,315 --> 00:04:06,233
+and talked endlessly about nothing,
+
+103
+00:04:06,253 --> 00:04:08,947
+leaving American clerks to type up hours
+
+104
+00:04:08,967 --> 00:04:10,130
+of meaningless chatter.
+
+105
+00:04:11,900 --> 00:04:14,949
+The veterans of Fort Hunt insisted that
+
+106
+00:04:14,969 --> 00:04:17,141
+they did not beat anyone.
+
+107
+00:04:17,161 --> 00:04:19,332
+Instead, they rewarded prisoners who
+
+108
+00:04:19,352 --> 00:04:21,086
+cooperated, with books, newspapers,
+
+109
+00:04:21,106 --> 00:04:22,401
+cigarettes and liquor.
+
+110
+00:04:22,421 --> 00:04:25,908
+Some prisoners were taken out to steak dinners.
+
+111
+00:04:25,928 --> 00:04:28,120
+Others were drawn into games.
+
+112
+00:04:29,425 --> 00:04:31,729
+Henry Kolm, a young physicist who later
+
+113
+00:04:31,749 --> 00:04:33,721
+worked at the Massachusetts Institute of
+
+114
+00:04:33,741 --> 00:04:36,377
+Technology, said that a game of chess or
+
+115
+00:04:36,397 --> 00:04:38,701
+Ping-Pong got more information out of a
+
+116
+00:04:38,721 --> 00:04:40,693
+German general than torture does today.
+
+117
+00:04:40,713 --> 00:04:43,017
+Arno Mayer, who later became a historian
+
+118
+00:04:43,037 --> 00:04:45,673
+at Princeton, said his job was to keep
+
+119
+00:04:45,693 --> 00:04:47,665
+certain prisoners happy, because the Army
+
+120
+00:04:47,685 --> 00:04:50,321
+hoped they would come to work for the
+
+121
+00:04:50,341 --> 00:04:51,141
+United States.
+
+122
+00:04:52,325 --> 00:04:54,085
+For the most stubborn men,
+
+123
+00:04:54,105 --> 00:04:56,577
+there was a harder card to play.
+
+124
+00:04:56,597 --> 00:04:58,713
+Interrogators threatened to hand them over
+
+125
+00:04:58,733 --> 00:05:00,137
+to the Soviet Union.
+
+126
+00:05:00,157 --> 00:05:01,917
+To make the threat believable,
+
+127
+00:05:01,937 --> 00:05:03,341
+Russian-speaking American soldiers dressed
+
+128
+00:05:03,361 --> 00:05:06,901
+up as officers of the Red Army and sat in
+
+129
+00:05:06,921 --> 00:05:07,969
+on the questioning.
+
+130
+00:05:07,989 --> 00:05:11,173
+It was a bluff, and for some prisoners it
+
+131
+00:05:11,193 --> 00:05:11,993
+was enough.
+
+132
+00:05:13,575 --> 00:05:15,555
+By the end of August 1945,
+
+133
+00:05:15,575 --> 00:05:17,412
+the people of P.O.
+
+134
+00:05:17,432 --> 00:05:20,662
+Box 1142 had written more than five
+
+135
+00:05:20,682 --> 00:05:21,591
+thousand reports.
+
+136
+00:05:21,611 --> 00:05:23,912
+Interrogations helped point Allied bombers
+
+137
+00:05:23,932 --> 00:05:27,162
+at Peenemünde, the German rocket base on
+
+138
+00:05:27,182 --> 00:05:28,575
+the Baltic coast.
+
+139
+00:05:29,975 --> 00:05:31,714
+Interrogations and recordings revealed
+
+140
+00:05:31,734 --> 00:05:34,352
+that the Germans had started loading
+
+141
+00:05:34,372 --> 00:05:36,110
+supplies at railway crossings,
+
+142
+00:05:36,130 --> 00:05:38,749
+because the stations were being bombed.
+
+143
+00:05:38,769 --> 00:05:41,826
+They revealed that the German navy had
+
+144
+00:05:41,846 --> 00:05:44,464
+built dummy concrete structures at its
+
+145
+00:05:44,484 --> 00:05:47,102
+submarine pens, to fool Allied bombers.
+
+146
+00:05:47,122 --> 00:05:50,180
+Both discoveries changed where the bombs fell.
+
+147
+00:05:50,200 --> 00:05:52,379
+Questioning U-boat crews about Germany's
+
+148
+00:05:52,399 --> 00:05:55,017
+acoustic torpedo also helped the Americans
+
+149
+00:05:55,037 --> 00:05:57,235
+develop a defense against it.
+
+150
+00:05:58,800 --> 00:06:01,153
+One prisoner never left.
+
+151
+00:06:01,173 --> 00:06:04,713
+Werner Henke commanded the U-boat U-515.
+
+152
+00:06:04,733 --> 00:06:08,668
+In December 1942, his boat sank the
+
+153
+00:06:08,688 --> 00:06:10,599
+British liner Ceramic, and British radio
+
+154
+00:06:10,619 --> 00:06:13,175
+later accused him of firing on the survivors.
+
+155
+00:06:13,195 --> 00:06:15,428
+Henke believed the British would put him
+
+156
+00:06:15,448 --> 00:06:17,380
+on trial as a war criminal.
+
+157
+00:06:18,700 --> 00:06:21,893
+He was captured in April 1944 and brought
+
+158
+00:06:21,913 --> 00:06:23,173
+to Fort Hunt.
+
+159
+00:06:23,193 --> 00:06:24,879
+According to his biographer,
+
+160
+00:06:24,899 --> 00:06:27,865
+the interrogators used his fear of the
+
+161
+00:06:27,885 --> 00:06:29,145
+British against him.
+
+162
+00:06:29,165 --> 00:06:33,368
+On June fifteenth, 1944, Henke ran to the
+
+163
+00:06:33,388 --> 00:06:35,534
+fence and started to climb.
+
+164
+00:06:35,554 --> 00:06:38,566
+He kept climbing after the guards ordered
+
+165
+00:06:38,586 --> 00:06:42,465
+him to stop, and a guard shot him dead.
+
+166
+00:06:42,485 --> 00:06:45,064
+No prisoner ever escaped from P.O.
+
+167
+00:06:45,084 --> 00:06:45,950
+Box 1142.
+
+168
+00:06:47,050 --> 00:06:49,175
+Fort Hunt had a second secret,
+
+169
+00:06:49,195 --> 00:06:51,676
+kept even from its own commanding officer.
+
+170
+00:06:51,696 --> 00:06:53,821
+In another part of the post,
+
+171
+00:06:53,841 --> 00:06:56,323
+a separate team built escape kits for
+
+172
+00:06:56,343 --> 00:06:58,130
+American prisoners held in Germany.
+
+173
+00:06:59,500 --> 00:07:01,922
+They hid compasses inside uniform buttons,
+
+174
+00:07:01,942 --> 00:07:03,551
+five million of them.
+
+175
+00:07:03,571 --> 00:07:07,214
+They printed maps on silk and on tissue paper.
+
+176
+00:07:07,234 --> 00:07:10,064
+They packed radio parts into baseballs and
+
+177
+00:07:10,084 --> 00:07:12,506
+maps into decks of playing cards,
+
+178
+00:07:12,526 --> 00:07:16,169
+and sent it all to German prison camps in
+
+179
+00:07:16,189 --> 00:07:18,205
+care packages from relief organizations
+
+180
+00:07:18,225 --> 00:07:19,833
+that did not exist.
+
+181
+00:07:19,853 --> 00:07:23,204
+By 1944, eighty to a hundred and twenty
+
+182
+00:07:23,224 --> 00:07:25,080
+packages were going out every day.
+
+183
+00:07:26,750 --> 00:07:30,650
+When the war ended, so did P.O.
+
+184
+00:07:30,670 --> 00:07:31,770
+Box 1142.
+
+185
+00:07:31,790 --> 00:07:35,327
+In August 1945, the War Department ordered
+
+186
+00:07:35,347 --> 00:07:37,199
+the escape program's records destroyed.
+
+187
+00:07:37,219 --> 00:07:40,567
+The men who had worked there were sworn to
+
+188
+00:07:40,587 --> 00:07:44,746
+secrecy, and in 1946 the barracks were bulldozed.
+
+189
+00:07:44,766 --> 00:07:47,990
+By 1948, the land was a park again.
+
+190
+00:07:49,225 --> 00:07:51,515
+Most of the veterans kept the oath.
+
+191
+00:07:51,535 --> 00:07:53,495
+They did not tell their wives,
+
+192
+00:07:53,515 --> 00:07:54,485
+or their children.
+
+193
+00:07:54,505 --> 00:07:57,455
+As Arno Mayer put it, when you swear to
+
+194
+00:07:57,475 --> 00:07:59,765
+secrecy, you don't really know when the
+
+195
+00:07:59,785 --> 00:08:00,585
+oath expires.
+
+196
+00:08:02,225 --> 00:08:04,540
+Sixty years later, the National Park
+
+197
+00:08:04,560 --> 00:08:06,875
+Service started asking questions about the
+
+198
+00:08:06,895 --> 00:08:07,654
+old fort.
+
+199
+00:08:07,674 --> 00:08:10,767
+It tracked down the men who had served
+
+200
+00:08:10,787 --> 00:08:12,713
+there and recorded their memories.
+
+201
+00:08:12,733 --> 00:08:15,048
+One ranger, Brandon Bies, interviewed more
+
+202
+00:08:15,068 --> 00:08:16,625
+than seventy of them.
+
+203
+00:08:17,875 --> 00:08:20,626
+In October 2007, about two dozen veterans
+
+204
+00:08:20,646 --> 00:08:21,418
+of P.O.
+
+205
+00:08:21,438 --> 00:08:24,189
+Box 1142 came back to Fort Hunt,
+
+206
+00:08:24,209 --> 00:08:27,357
+most of them in their eighties and nineties.
+
+207
+00:08:27,377 --> 00:08:30,524
+A flag was raised and a marker unveiled,
+
+208
+00:08:30,544 --> 00:08:33,315
+at exactly eleven forty-two in the morning.
+
+209
+00:08:34,650 --> 00:08:36,808
+They came back during another war,
+
+210
+00:08:36,828 --> 00:08:39,349
+and another argument about how to question
+
+211
+00:08:39,369 --> 00:08:39,712
+prisoners.
+
+212
+00:08:39,732 --> 00:08:42,979
+Several of them had something to say about it.
+
+213
+00:08:42,999 --> 00:08:44,067
+George Frenkel, eighty-seven,
+
+214
+00:08:44,087 --> 00:08:46,608
+said they had extracted information in a
+
+215
+00:08:46,628 --> 00:08:49,875
+battle of wits, and that he was proud he
+
+216
+00:08:49,895 --> 00:08:51,710
+had never compromised his humanity.
+
+217
+00:08:53,100 --> 00:08:55,160
+If someone in your family served at Fort
+
+218
+00:08:55,180 --> 00:08:57,500
+Hunt, or ever spoke about a secret job in
+
+219
+00:08:57,520 --> 00:08:59,340
+the war, tell us in the comments.
+
+220
+00:09:01,100 --> 00:09:03,426
+Today, Fort Hunt is a park.
+
+221
+00:09:03,446 --> 00:09:06,163
+Families have picnics in a pavilion built
+
+222
+00:09:06,183 --> 00:09:08,509
+where the old post hospital stood,
+
+223
+00:09:08,529 --> 00:09:11,246
+the building where the escape kits were
+
+224
+00:09:11,266 --> 00:09:12,028
+once planned.
+
+225
+00:09:12,048 --> 00:09:13,983
+The microphones are long gone.
+
+226
+00:09:14,003 --> 00:09:16,740
+For sixty years, so was the story.
+
