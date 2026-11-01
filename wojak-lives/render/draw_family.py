@@ -126,6 +126,13 @@ CAST = {  # who: (rig kwargs, props, pose)
     "sodad": (dict(skin=dc.SKIN["S1"], shirt="#2471A3", hair="boomer"), ["polo"], "idle"),
     "sokid": (dict(skin=dc.SKIN["S1"], shirt="#8E44AD", hair="sidepart", hair_color="#6E4B2A"), [], "idle"),
     "sokid_phone": (dict(skin=dc.SKIN["S1"], shirt="#8E44AD", hair="sidepart", hair_color="#6E4B2A"), [], "phone"),
+    # Midwest-mom episode
+    "mwmom": (dict(skin=dc.SKIN["S1"], shirt="#8E2C3A", hair="long", hair_color="#9C4A22", female=True), [], "idle"),
+    "mwmom_spoon": (dict(skin=dc.SKIN["S1"], shirt="#8E2C3A", hair="long", hair_color="#9C4A22", female=True),
+                    ["spoon"], "raise"),
+    "mwdad": (dict(skin=dc.SKIN["S1"], shirt="#2E7D32", hair="dadstache", hair_color="#5B4636"), ["polo"], "idle"),
+    "mwkid": (dict(skin=dc.SKIN["S1"], shirt="#1565C0", hair="messy", hair_color="#5B4636"), [], "idle"),
+    "mwkid_phone": (dict(skin=dc.SKIN["S1"], shirt="#1565C0", hair="messy", hair_color="#5B4636"), [], "phone"),
 }
 
 

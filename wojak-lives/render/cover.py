@@ -96,6 +96,8 @@ COVERS = {
     "german_mom_B": (B + "us_living.jpg", solo("demom_rage"), "NO ICE."),
     "southern_mom_A": (B + "us_porch.jpg", duo("sokid_crying", "somom_spoon_smug"), "BLESS YOUR HEART"),
     "southern_mom_B": (B + "us_porch.jpg", solo("somom_spoon_rage"), "FULL NAME = RUN"),
+    "midwest_mom_A": (B + "us_porch.jpg", duo("mwkid_crying", "mwmom_bloomer"), "45 MIN GOODBYE"),
+    "midwest_mom_B": (B + "us_living.jpg", solo("mwmom_side-eye"), "\"THAT'S DIFFERENT\""),
 }
 
 if __name__ == "__main__":
