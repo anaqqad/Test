@@ -1,6 +1,7 @@
 # YouTube upload: WWII Frontlines
 
-Not yet published.
+**Published** 1 Nov 2026, public: https://youtu.be/ipiVGsnmUxc (thumbnail A, English SRT published, Education, altered content = No,
+17 tags). End screen = Chicago episode (gjZxZbBWOAk) + subscribe, last 20 s.
 
 ## Title
 ```
