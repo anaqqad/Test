@@ -1,0 +1,311 @@
+{
+ "id": "reel-daniel-hale-williams",
+ "title": "In 1893, He Stitched Around a Beating Heart.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0.0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0.0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for one story a day.",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "He operated beside a beating heart.",
+   "visual": {
+    "kind": "photo",
+    "image": "dhw",
+    "focus": [
+     0.52,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.02
+    ],
+    "anchor": [
+     0.46,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "He operated *beside a beating heart.*"
+   },
+   "captions": false,
+   "speed": 1.1
+  },
+  {
+   "id": "name",
+   "text": "Meet Dr. Daniel Hale Williams.",
+   "visual": {
+    "kind": "title",
+    "title": "Dr. Williams",
+    "sub": "Daniel Hale Williams, 1856-1931"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "Born in Pennsylvania in 1856, a barber's son, he worked as a shoemaker's apprentice and a barber.",
+   "visual": {
+    "kind": "title",
+    "title": "A barber",
+    "sub": "Hollidaysburg, Pennsylvania"
+   },
+   "section": "story"
+  },
+  {
+   "id": "school",
+   "text": "In 1883, he graduated from Chicago Medical College.",
+   "visual": {
+    "kind": "title",
+    "title": "M.D.",
+    "sub": "Chicago, 1883"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Chicago",
+     "sub": "Illinois"
+    }
+   }
+  },
+  {
+   "id": "provident",
+   "text": "Black patients were turned away, and Black nurses had nowhere to train. So in 1891, he opened Provident Hospital.",
+   "visual": {
+    "kind": "card",
+    "image": "provident1941",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "caption": "Provident Hospital, Chicago (photographed 1941)"
+   }
+  },
+  {
+   "id": "stab",
+   "text": "One summer night in 1893, a young man named James Cornish was carried in, stabbed in the chest.",
+   "visual": {
+    "kind": "title",
+    "title": "Stabbed",
+    "sub": "James Cornish, July 1893"
+   },
+   "section": "turn",
+   "overlays": {
+    "stamp": "1893"
+   }
+  },
+  {
+   "id": "surgery",
+   "text": "With no X-rays and no transfusions, Williams opened his chest and sewed the torn sac around his heart, as it beat.",
+   "visual": {
+    "kind": "title",
+    "title": "The heart",
+    "sub": "repairing the pericardium"
+   }
+  },
+  {
+   "id": "lived",
+   "text": "Fifty-one days later, Cornish walked out. He lived for more than twenty years.",
+   "visual": {
+    "kind": "card",
+    "image": "dhw",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.8
+    ],
+    "caption": "Daniel Hale Williams, c. 1900"
+   }
+  },
+  {
+   "id": "second",
+   "text": "It was one of the first successful operations of its kind in America.",
+   "visual": {
+    "kind": "title",
+    "title": "One of the first",
+    "sub": "heart-wound surgery, 1893"
+   }
+  },
+  {
+   "id": "legacy",
+   "text": "He went on to run Freedmen's Hospital in Washington, and became the first Black member of the American College of Surgeons.",
+   "visual": {
+    "kind": "card",
+    "image": "dhw3",
+    "crop": [
+     0.0,
+     0.0,
+     1.0,
+     0.85
+    ],
+    "caption": "Daniel H. Williams, M.D."
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "close",
+   "text": "A barber's son stitched around a beating heart. His patient walked out alive.",
+   "visual": {
+    "kind": "card",
+    "image": "dhw3",
+    "crop": [
+     0.05,
+     0.02,
+     0.95,
+     0.7
+    ],
+    "caption": "Dr. Daniel Hale Williams, 1856-1931"
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for one story a day.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "HIST": {
+   "name": "HISTORY.com, This Day in History, July 10: Daniel Hale Williams, pioneering Black doctor",
+   "url": "https://www.history.com/this-day-in-history/July-10/daniel-hale-williams-pioneering-black-doctor-open-heart-surgery"
+  },
+  "CUMC": {
+   "name": "Columbia Surgery: Daniel Hale Williams and the first successful heart surgery",
+   "url": "https://columbiasurgery.org/node/9486"
+  },
+  "WIKI": {
+   "name": "Wikipedia: Daniel Hale Williams (with its cited sources)",
+   "url": "https://en.wikipedia.org/wiki/Daniel_Hale_Williams"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born Hollidaysburg, PA, 1856 (Columbia: 1858); son of a barber; shoemaker's apprentice and barber.",
+   "sources": [
+    "HIST",
+    "CUMC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "school",
+   "claim": "Graduated Chicago Medical College (Northwestern) 1883.",
+   "sources": [
+    "HIST",
+    "CUMC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "provident",
+   "claim": "May 1891 opened Provident Hospital and Training School for Nurses, interracial staff.",
+   "sources": [
+    "HIST",
+    "CUMC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "stab",
+   "claim": "July 1893, James Cornish, 24, stabbed in the chest.",
+   "sources": [
+    "HIST",
+    "CUMC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "surgery",
+   "claim": "Opened the chest and sutured the torn pericardium while the heart was beating.",
+   "sources": [
+    "HIST",
+    "CUMC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "lived",
+   "claim": "Cornish left after 51 days (30 Aug) and lived 20+ more years.",
+   "sources": [
+    "HIST",
+    "CUMC"
+   ]
+  },
+  {
+   "beat": "second",
+   "claim": "Second known successful pericardium suture in the US (Henry Dalton, 1891, was first).",
+   "sources": [
+    "HIST",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "legacy",
+   "claim": "Chief surgeon, Freedmen's Hospital 1894; first/only Black charter member of the American College of Surgeons 1913.",
+   "sources": [
+    "HIST",
+    "CUMC",
+    "WIKI"
+   ]
+  }
+ ],
+ "notUsed": [
+  "'First open-heart surgery': not accurate (Dalton 1891 earlier; Rehn 1896 sutured the heart muscle); the reel says 'one of the first'",
+  "'No X-rays': X-rays were discovered in 1895, so true by definition; transfusions were not yet possible",
+  "Exact birth year (1856 vs 1858)",
+  "Co-founding the National Medical Association, 1895"
+ ],
+ "faces": {
+  "dhw": [
+   [
+    0.3,
+    0.1,
+    0.75,
+    0.55
+   ]
+  ],
+  "dhw3": [
+   [
+    0.3,
+    0.08,
+    0.75,
+    0.55
+   ]
+  ]
+ }
+}

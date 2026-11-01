@@ -1,0 +1,938 @@
+{
+ "fps": 30,
+ "durationInFrames": 1968,
+ "voice": "Andrew - Smooth audio books",
+ "engine": "elevenlabs eleven_multilingual_v2",
+ "words": 164,
+ "wpm": 150.0,
+ "beats": [
+  {
+   "id": "hook",
+   "speechEnd": 2.043,
+   "words": [
+    {
+     "text": "He",
+     "start": 0.0,
+     "end": 0.139
+    },
+    {
+     "text": "operated",
+     "start": 0.197,
+     "end": 0.569
+    },
+    {
+     "text": "beside",
+     "start": 0.615,
+     "end": 0.894
+    },
+    {
+     "text": "a",
+     "start": 0.917,
+     "end": 0.94
+    },
+    {
+     "text": "beating",
+     "start": 0.987,
+     "end": 1.254
+    },
+    {
+     "text": "heart.",
+     "start": 1.312,
+     "end": 2.043
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 73
+  },
+  {
+   "id": "name",
+   "speechEnd": 4.819,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 2.543,
+     "end": 2.798
+    },
+    {
+     "text": "Dr.",
+     "start": 2.856,
+     "end": 3.158
+    },
+    {
+     "text": "Daniel",
+     "start": 3.193,
+     "end": 3.541
+    },
+    {
+     "text": "Hale",
+     "start": 3.611,
+     "end": 3.843
+    },
+    {
+     "text": "Williams.",
+     "start": 3.878,
+     "end": 4.819
+    }
+   ],
+   "cues": {},
+   "startFrame": 73,
+   "endFrame": 157
+  },
+  {
+   "id": "born",
+   "speechEnd": 11.623,
+   "words": [
+    {
+     "text": "Born",
+     "start": 5.319,
+     "end": 5.586
+    },
+    {
+     "text": "in",
+     "start": 5.621,
+     "end": 5.667
+    },
+    {
+     "text": "Pennsylvania",
+     "start": 5.725,
+     "end": 6.352
+    },
+    {
+     "text": "in",
+     "start": 6.422,
+     "end": 6.526
+    },
+    {
+     "text": "1856,",
+     "start": 6.584,
+     "end": 7.711
+    },
+    {
+     "text": "a",
+     "start": 7.85,
+     "end": 7.931
+    },
+    {
+     "text": "barber's",
+     "start": 8.024,
+     "end": 8.396
+    },
+    {
+     "text": "son,",
+     "start": 8.43,
+     "end": 8.837
+    },
+    {
+     "text": "he",
+     "start": 9.104,
+     "end": 9.174
+    },
+    {
+     "text": "worked",
+     "start": 9.22,
+     "end": 9.429
+    },
+    {
+     "text": "as",
+     "start": 9.464,
+     "end": 9.533
+    },
+    {
+     "text": "a",
+     "start": 9.58,
+     "end": 9.615
+    },
+    {
+     "text": "shoemaker's",
+     "start": 9.661,
+     "end": 10.137
+    },
+    {
+     "text": "apprentice",
+     "start": 10.172,
+     "end": 10.729
+    },
+    {
+     "text": "and",
+     "start": 10.787,
+     "end": 11.019
+    },
+    {
+     "text": "a",
+     "start": 11.078,
+     "end": 11.101
+    },
+    {
+     "text": "barber.",
+     "start": 11.147,
+     "end": 11.623
+    }
+   ],
+   "cues": {},
+   "startFrame": 157,
+   "endFrame": 358
+  },
+  {
+   "id": "school",
+   "speechEnd": 15.385,
+   "words": [
+    {
+     "text": "In",
+     "start": 12.041,
+     "end": 12.169
+    },
+    {
+     "text": "1883,",
+     "start": 12.204,
+     "end": 13.098
+    },
+    {
+     "text": "he",
+     "start": 13.26,
+     "end": 13.33
+    },
+    {
+     "text": "graduated",
+     "start": 13.388,
+     "end": 13.864
+    },
+    {
+     "text": "from",
+     "start": 13.899,
+     "end": 14.015
+    },
+    {
+     "text": "Chicago",
+     "start": 14.061,
+     "end": 14.479
+    },
+    {
+     "text": "Medical",
+     "start": 14.549,
+     "end": 14.851
+    },
+    {
+     "text": "College.",
+     "start": 14.909,
+     "end": 15.385
+    }
+   ],
+   "cues": {},
+   "startFrame": 358,
+   "endFrame": 468
+  },
+  {
+   "id": "provident",
+   "speechEnd": 22.873,
+   "words": [
+    {
+     "text": "Black",
+     "start": 15.698,
+     "end": 15.954
+    },
+    {
+     "text": "patients",
+     "start": 16.012,
+     "end": 16.337
+    },
+    {
+     "text": "were",
+     "start": 16.36,
+     "end": 16.476
+    },
+    {
+     "text": "turned",
+     "start": 16.499,
+     "end": 16.72
+    },
+    {
+     "text": "away,",
+     "start": 16.743,
+     "end": 17.196
+    },
+    {
+     "text": "and",
+     "start": 17.312,
+     "end": 17.451
+    },
+    {
+     "text": "Black",
+     "start": 17.509,
+     "end": 17.741
+    },
+    {
+     "text": "nurses",
+     "start": 17.799,
+     "end": 18.125
+    },
+    {
+     "text": "had",
+     "start": 18.171,
+     "end": 18.299
+    },
+    {
+     "text": "nowhere",
+     "start": 18.368,
+     "end": 18.624
+    },
+    {
+     "text": "to",
+     "start": 18.647,
+     "end": 18.693
+    },
+    {
+     "text": "train.",
+     "start": 18.74,
+     "end": 19.228
+    },
+    {
+     "text": "So",
+     "start": 19.645,
+     "end": 19.796
+    },
+    {
+     "text": "in",
+     "start": 19.866,
+     "end": 19.924
+    },
+    {
+     "text": "1891,",
+     "start": 19.947,
+     "end": 20.76
+    },
+    {
+     "text": "he",
+     "start": 20.795,
+     "end": 20.876
+    },
+    {
+     "text": "opened",
+     "start": 20.957,
+     "end": 21.213
+    },
+    {
+     "text": "Provident",
+     "start": 21.248,
+     "end": 21.642
+    },
+    {
+     "text": "Hospital.",
+     "start": 21.7,
+     "end": 22.873
+    }
+   ],
+   "cues": {},
+   "startFrame": 468,
+   "endFrame": 698
+  },
+  {
+   "id": "stab",
+   "speechEnd": 29.735,
+   "words": [
+    {
+     "text": "One",
+     "start": 23.373,
+     "end": 23.663
+    },
+    {
+     "text": "summer",
+     "start": 23.71,
+     "end": 23.965
+    },
+    {
+     "text": "night",
+     "start": 24.023,
+     "end": 24.232
+    },
+    {
+     "text": "in",
+     "start": 24.279,
+     "end": 24.348
+    },
+    {
+     "text": "1893,",
+     "start": 24.383,
+     "end": 25.416
+    },
+    {
+     "text": "a",
+     "start": 25.614,
+     "end": 25.683
+    },
+    {
+     "text": "young",
+     "start": 25.776,
+     "end": 25.962
+    },
+    {
+     "text": "man",
+     "start": 26.032,
+     "end": 26.252
+    },
+    {
+     "text": "named",
+     "start": 26.322,
+     "end": 26.566
+    },
+    {
+     "text": "James",
+     "start": 26.659,
+     "end": 26.995
+    },
+    {
+     "text": "Cornish",
+     "start": 27.042,
+     "end": 27.425
+    },
+    {
+     "text": "was",
+     "start": 27.471,
+     "end": 27.587
+    },
+    {
+     "text": "carried",
+     "start": 27.645,
+     "end": 27.982
+    },
+    {
+     "text": "in,",
+     "start": 28.029,
+     "end": 28.296
+    },
+    {
+     "text": "stabbed",
+     "start": 28.528,
+     "end": 28.981
+    },
+    {
+     "text": "in",
+     "start": 29.015,
+     "end": 29.073
+    },
+    {
+     "text": "the",
+     "start": 29.108,
+     "end": 29.178
+    },
+    {
+     "text": "chest.",
+     "start": 29.224,
+     "end": 29.735
+    }
+   ],
+   "cues": {},
+   "startFrame": 698,
+   "endFrame": 906
+  },
+  {
+   "id": "surgery",
+   "speechEnd": 37.178,
+   "words": [
+    {
+     "text": "With",
+     "start": 30.316,
+     "end": 30.49
+    },
+    {
+     "text": "no",
+     "start": 30.56,
+     "end": 30.699
+    },
+    {
+     "text": "X-rays",
+     "start": 30.769,
+     "end": 31.198
+    },
+    {
+     "text": "and",
+     "start": 31.245,
+     "end": 31.337
+    },
+    {
+     "text": "no",
+     "start": 31.407,
+     "end": 31.535
+    },
+    {
+     "text": "transfusions,",
+     "start": 31.593,
+     "end": 32.51
+    },
+    {
+     "text": "Williams",
+     "start": 32.673,
+     "end": 33.091
+    },
+    {
+     "text": "opened",
+     "start": 33.149,
+     "end": 33.45
+    },
+    {
+     "text": "his",
+     "start": 33.497,
+     "end": 33.601
+    },
+    {
+     "text": "chest",
+     "start": 33.648,
+     "end": 33.996
+    },
+    {
+     "text": "and",
+     "start": 34.054,
+     "end": 34.147
+    },
+    {
+     "text": "sewed",
+     "start": 34.217,
+     "end": 34.519
+    },
+    {
+     "text": "the",
+     "start": 34.553,
+     "end": 34.623
+    },
+    {
+     "text": "torn",
+     "start": 34.681,
+     "end": 34.948
+    },
+    {
+     "text": "sac",
+     "start": 35.029,
+     "end": 35.285
+    },
+    {
+     "text": "around",
+     "start": 35.332,
+     "end": 35.576
+    },
+    {
+     "text": "his",
+     "start": 35.622,
+     "end": 35.726
+    },
+    {
+     "text": "heart,",
+     "start": 35.784,
+     "end": 36.168
+    },
+    {
+     "text": "as",
+     "start": 36.365,
+     "end": 36.528
+    },
+    {
+     "text": "it",
+     "start": 36.597,
+     "end": 36.678
+    },
+    {
+     "text": "beat.",
+     "start": 36.737,
+     "end": 37.178
+    }
+   ],
+   "cues": {},
+   "startFrame": 906,
+   "endFrame": 1139
+  },
+  {
+   "id": "lived",
+   "speechEnd": 43.319,
+   "words": [
+    {
+     "text": "Fifty-one",
+     "start": 38.083,
+     "end": 38.606
+    },
+    {
+     "text": "days",
+     "start": 38.641,
+     "end": 38.826
+    },
+    {
+     "text": "later,",
+     "start": 38.884,
+     "end": 39.337
+    },
+    {
+     "text": "Cornish",
+     "start": 39.604,
+     "end": 39.999
+    },
+    {
+     "text": "walked",
+     "start": 40.057,
+     "end": 40.312
+    },
+    {
+     "text": "out.",
+     "start": 40.359,
+     "end": 40.73
+    },
+    {
+     "text": "He",
+     "start": 41.508,
+     "end": 41.636
+    },
+    {
+     "text": "lived",
+     "start": 41.706,
+     "end": 41.926
+    },
+    {
+     "text": "for",
+     "start": 41.973,
+     "end": 42.077
+    },
+    {
+     "text": "more",
+     "start": 42.135,
+     "end": 42.286
+    },
+    {
+     "text": "than",
+     "start": 42.321,
+     "end": 42.449
+    },
+    {
+     "text": "twenty",
+     "start": 42.483,
+     "end": 42.785
+    },
+    {
+     "text": "years.",
+     "start": 42.832,
+     "end": 43.319
+    }
+   ],
+   "cues": {},
+   "startFrame": 1139,
+   "endFrame": 1311
+  },
+  {
+   "id": "second",
+   "speechEnd": 48.219,
+   "words": [
+    {
+     "text": "It",
+     "start": 43.807,
+     "end": 43.935
+    },
+    {
+     "text": "was",
+     "start": 43.981,
+     "end": 44.086
+    },
+    {
+     "text": "one",
+     "start": 44.144,
+     "end": 44.248
+    },
+    {
+     "text": "of",
+     "start": 44.271,
+     "end": 44.318
+    },
+    {
+     "text": "the",
+     "start": 44.364,
+     "end": 44.434
+    },
+    {
+     "text": "first",
+     "start": 44.515,
+     "end": 44.829
+    },
+    {
+     "text": "successful",
+     "start": 44.922,
+     "end": 45.479
+    },
+    {
+     "text": "operations",
+     "start": 45.548,
+     "end": 46.083
+    },
+    {
+     "text": "of",
+     "start": 46.129,
+     "end": 46.187
+    },
+    {
+     "text": "its",
+     "start": 46.245,
+     "end": 46.361
+    },
+    {
+     "text": "kind",
+     "start": 46.408,
+     "end": 46.686
+    },
+    {
+     "text": "in",
+     "start": 46.733,
+     "end": 46.791
+    },
+    {
+     "text": "America.",
+     "start": 46.837,
+     "end": 48.219
+    }
+   ],
+   "cues": {},
+   "startFrame": 1311,
+   "endFrame": 1459
+  },
+  {
+   "id": "legacy",
+   "speechEnd": 55.72,
+   "words": [
+    {
+     "text": "He",
+     "start": 48.719,
+     "end": 48.87
+    },
+    {
+     "text": "went",
+     "start": 48.928,
+     "end": 49.102
+    },
+    {
+     "text": "on",
+     "start": 49.16,
+     "end": 49.311
+    },
+    {
+     "text": "to",
+     "start": 49.369,
+     "end": 49.439
+    },
+    {
+     "text": "run",
+     "start": 49.52,
+     "end": 49.776
+    },
+    {
+     "text": "Freedmen's",
+     "start": 49.915,
+     "end": 50.437
+    },
+    {
+     "text": "Hospital",
+     "start": 50.484,
+     "end": 50.913
+    },
+    {
+     "text": "in",
+     "start": 50.96,
+     "end": 51.018
+    },
+    {
+     "text": "Washington,",
+     "start": 51.076,
+     "end": 51.738
+    },
+    {
+     "text": "and",
+     "start": 51.9,
+     "end": 52.051
+    },
+    {
+     "text": "became",
+     "start": 52.098,
+     "end": 52.423
+    },
+    {
+     "text": "the",
+     "start": 52.457,
+     "end": 52.527
+    },
+    {
+     "text": "first",
+     "start": 52.597,
+     "end": 52.887
+    },
+    {
+     "text": "Black",
+     "start": 52.968,
+     "end": 53.27
+    },
+    {
+     "text": "member",
+     "start": 53.363,
+     "end": 53.676
+    },
+    {
+     "text": "of",
+     "start": 53.758,
+     "end": 53.851
+    },
+    {
+     "text": "the",
+     "start": 53.909,
+     "end": 53.978
+    },
+    {
+     "text": "American",
+     "start": 54.025,
+     "end": 54.454
+    },
+    {
+     "text": "College",
+     "start": 54.524,
+     "end": 54.93
+    },
+    {
+     "text": "of",
+     "start": 54.954,
+     "end": 55.012
+    },
+    {
+     "text": "Surgeons.",
+     "start": 55.081,
+     "end": 55.72
+    }
+   ],
+   "cues": {},
+   "startFrame": 1459,
+   "endFrame": 1681
+  },
+  {
+   "id": "close",
+   "speechEnd": 61.304,
+   "words": [
+    {
+     "text": "A",
+     "start": 56.138,
+     "end": 56.231
+    },
+    {
+     "text": "barber's",
+     "start": 56.312,
+     "end": 56.718
+    },
+    {
+     "text": "son",
+     "start": 56.753,
+     "end": 56.974
+    },
+    {
+     "text": "stitched",
+     "start": 57.09,
+     "end": 57.485
+    },
+    {
+     "text": "around",
+     "start": 57.531,
+     "end": 57.833
+    },
+    {
+     "text": "a",
+     "start": 57.891,
+     "end": 57.914
+    },
+    {
+     "text": "beating",
+     "start": 57.984,
+     "end": 58.286
+    },
+    {
+     "text": "heart.",
+     "start": 58.367,
+     "end": 58.796
+    },
+    {
+     "text": "His",
+     "start": 59.11,
+     "end": 59.284
+    },
+    {
+     "text": "patient",
+     "start": 59.354,
+     "end": 59.772
+    },
+    {
+     "text": "walked",
+     "start": 59.841,
+     "end": 60.143
+    },
+    {
+     "text": "out",
+     "start": 60.178,
+     "end": 60.306
+    },
+    {
+     "text": "alive.",
+     "start": 60.352,
+     "end": 61.304
+    }
+   ],
+   "cues": {},
+   "startFrame": 1681,
+   "endFrame": 1851
+  },
+  {
+   "id": "cta",
+   "speechEnd": 64.405,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 61.804,
+     "end": 62.141
+    },
+    {
+     "text": "The",
+     "start": 62.187,
+     "end": 62.257
+    },
+    {
+     "text": "Black",
+     "start": 62.292,
+     "end": 62.501
+    },
+    {
+     "text": "History",
+     "start": 62.547,
+     "end": 62.826
+    },
+    {
+     "text": "Room",
+     "start": 62.884,
+     "end": 63.058
+    },
+    {
+     "text": "for",
+     "start": 63.116,
+     "end": 63.232
+    },
+    {
+     "text": "one",
+     "start": 63.302,
+     "end": 63.476
+    },
+    {
+     "text": "story",
+     "start": 63.511,
+     "end": 63.801
+    },
+    {
+     "text": "a",
+     "start": 63.847,
+     "end": 63.871
+    },
+    {
+     "text": "day.",
+     "start": 63.929,
+     "end": 64.405
+    }
+   ],
+   "cues": {},
+   "startFrame": 1851,
+   "endFrame": 1968
+  }
+ ]
+}
