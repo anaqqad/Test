@@ -1,6 +1,7 @@
 # YouTube upload: WWII Frontlines
 
-Not yet published.
+**Published** 31 Oct 2026, public (by the owner): https://youtu.be/v9ReFoU6Tdg (thumbnail A, Education, altered content = No, 17 tags).
+Captions and end screen not added yet.
 
 ## Title
 ```
