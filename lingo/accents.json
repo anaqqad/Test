@@ -65,7 +65,7 @@
    "flag": "cz",
    "count": 15,
    "rank": 3,
-   "wojak": "a_ces",
+   "wojak": "sl2_est",
    "scene": "prague",
    "cards": [
     "á č ď é ě í ň ó ř š ť ú ů ý ž: 15, including ř, a sound almost no other language has.",
@@ -90,7 +90,7 @@
    "flag": "fr",
    "count": 14,
    "rank": 4,
-   "wojak": "a_fra",
+   "wojak": "s_fra_calm",
    "scene": "village",
    "cards": [
     "à â ç é è ê ë î ï ô ù û ü ÿ: 14. The letter ù appears in just one word: 'où', where.",
@@ -115,7 +115,7 @@
    "flag": "pt",
    "count": 12,
    "rank": 5,
-   "wojak": "a_por",
+   "wojak": "e_ita",
    "scene": "adriatic",
    "cards": [
     "á à â ã ç é ê í ó ô õ ú: 12. The tilde makes vowels nasal: 'pão' is bread.",
@@ -140,7 +140,7 @@
    "flag": "lv",
    "count": 11,
    "rank": 6,
-   "wojak": "a_lav",
+   "wojak": "r_isl",
    "scene": "baltic",
    "cards": [
     "ā č ē ģ ī ķ ļ ņ š ū ž: 11. A line on top makes a vowel long.",
@@ -165,7 +165,7 @@
    "flag": "pl",
    "count": 9,
    "rank": 7,
-   "wojak": "a_pol",
+   "wojak": "sl2_pol",
    "scene": "prague",
    "cards": [
     "ą ć ę ł ń ó ś ź ż: 9, with four different kinds of marks. And ł sounds like an English w.",
@@ -190,7 +190,7 @@
    "flag": "lt",
    "count": 9,
    "rank": 7,
-   "wojak": "a_lit",
+   "wojak": "r_pol_calm",
    "scene": "baltic",
    "cards": [
     "ą č ę ė į š ų ū ž: also 9, also four kinds of marks. The little tail on ą ę į ų is called an ogonek.",
@@ -215,7 +215,7 @@
    "flag": "hu",
    "count": 9,
    "rank": 9,
-   "wojak": "a_hun",
+   "wojak": "e_ron",
    "scene": "grassland",
    "cards": [
     "á é í ó ö ő ú ü ű: 9, including the double acute ő and ű, long versions of ö and ü.",
@@ -240,7 +240,7 @@
    "flag": "es",
    "count": 7,
    "rank": 10,
-   "wojak": "a_spa",
+   "wojak": "sl2_ell",
    "scene": "canary",
    "cards": [
     "á é í ó ú ü ñ: 7. The ñ started as a little n written over another n: 'anno' became 'año'.",
