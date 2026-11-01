@@ -15,12 +15,24 @@
    "flag": "vn",
    "count": 67,
    "rank": 1,
-   "wojak": "t_vie",
+   "wojak": "a_vie",
    "scene": "andaman",
    "cards": [
     "67 accented letters: 12 vowels, each with up to five tone marks, plus ă, â, ê, ô, ơ, ư and đ.",
     "Some letters stack two marks: the ệ in 'Việt' has a hat for the vowel and a dot below for the tone."
-   ]
+   ],
+   "word": "Việt Nam",
+   "lit": "Vietnam",
+   "local": {
+    "file": "incoming/accents/vie.wav",
+    "start": 0,
+    "end": 0.968
+   },
+   "credit": {
+    "title": "File:LL-Q9199 (vie)-Penn Zero MSSJ-Việt Nam.wav",
+    "artist": "Penn Zero MSSJ (Lingua Libre)",
+    "license": "CC0"
+   }
   },
   {
    "key": "slk",
@@ -28,12 +40,24 @@
    "flag": "sk",
    "count": 17,
    "rank": 2,
-   "wojak": "s_slk",
+   "wojak": "a_slk",
    "scene": "alps",
    "cards": [
     "Slovak has 17, more than Czech: it adds ä, ĺ, ľ, ô and ŕ.",
     "Long ĺ and ŕ are consonants that work as vowels: 'vŕba' means willow."
-   ]
+   ],
+   "word": "kľúč",
+   "lit": "key",
+   "local": {
+    "file": "incoming/accents/slk.wav",
+    "start": 0,
+    "end": 1.029
+   },
+   "credit": {
+    "title": "File:LL-Q9058 (slk)-TomášPolonec-kľúč.wav",
+    "artist": "TomášPolonec (Lingua Libre)",
+    "license": "CC BY 4.0"
+   }
   },
   {
    "key": "ces",
@@ -41,12 +65,24 @@
    "flag": "cz",
    "count": 15,
    "rank": 3,
-   "wojak": "s_ces",
+   "wojak": "a_ces",
    "scene": "prague",
    "cards": [
     "Czech has 15, including ř, a sound that almost no other language has.",
     "The little ring in ů shows where an o used to be: 'kůň' (horse) was once 'kóň'."
-   ]
+   ],
+   "word": "tři",
+   "lit": "three",
+   "local": {
+    "file": "incoming/accents/ces.wav",
+    "start": 0,
+    "end": 1.05
+   },
+   "credit": {
+    "title": "File:Cs-tři.ogg",
+    "artist": "Veronika Daňková, Vion Nicolas",
+    "license": "CC BY 2.0 fr"
+   }
   },
   {
    "key": "fra",
@@ -54,12 +90,24 @@
    "flag": "fr",
    "count": 14,
    "rank": 4,
-   "wojak": "s_fra_calm",
+   "wojak": "a_fra",
    "scene": "village",
    "cards": [
     "French has 14. The letter ù appears in just one word: 'où', where.",
     "The circumflex often marks a lost s: 'forêt' was 'forest' and 'hôpital' was 'hospital'."
-   ]
+   ],
+   "word": "élèves",
+   "lit": "students",
+   "local": {
+    "file": "incoming/accents/fra.wav",
+    "start": 0,
+    "end": 1.309
+   },
+   "credit": {
+    "title": "File:LL-Q150 (fra)-0x010C-élèves.wav",
+    "artist": "0x010C (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "key": "por",
@@ -67,12 +115,24 @@
    "flag": "pt",
    "count": 12,
    "rank": 5,
-   "wojak": "s_por",
+   "wojak": "a_por",
    "scene": "adriatic",
    "cards": [
     "The tilde makes vowels nasal: 'pão' is bread and 'corações' is hearts.",
     "A 1990 spelling agreement between Portuguese-speaking countries removed some accents, like the ü."
-   ]
+   ],
+   "word": "maçã",
+   "lit": "apple",
+   "local": {
+    "file": "incoming/accents/por.wav",
+    "start": 0,
+    "end": 1.057
+   },
+   "credit": {
+    "title": "File:Pt-pt-maçã.ogg",
+    "artist": "Malafaya",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "key": "lav",
@@ -80,12 +140,24 @@
    "flag": "lv",
    "count": 11,
    "rank": 6,
-   "wojak": "sl2_lit",
+   "wojak": "a_lav",
    "scene": "baltic",
    "cards": [
     "A line on top makes a vowel long: ā, ē, ī, ū.",
     "ķ, ļ and ņ get a little comma underneath for a soft sound, and ģ gets one on top."
-   ]
+   ],
+   "word": "vārdnīca",
+   "lit": "dictionary",
+   "local": {
+    "file": "incoming/accents/lav.wav",
+    "start": 0,
+    "end": 1.221
+   },
+   "credit": {
+    "title": "File:LL-Q9078 (lvs)-Archtheodus-vārdnīca.wav",
+    "artist": "Archtheodus (Lingua Libre)",
+    "license": "CC0"
+   }
   },
   {
    "key": "pol",
@@ -93,12 +165,24 @@
    "flag": "pl",
    "count": 9,
    "rank": 7,
-   "wojak": "s_pol",
+   "wojak": "a_pol",
    "scene": "prague",
    "cards": [
     "Nine letters: ą ć ę ł ń ó ś ź ż, with four different kinds of marks. And ł sounds like an English w.",
     "'Zażółć gęślą jaźń' (paint the soul yellow with a fiddle) uses all nine in three words."
-   ]
+   ],
+   "word": "żółw",
+   "lit": "turtle",
+   "local": {
+    "file": "incoming/accents/pol.wav",
+    "start": 0,
+    "end": 1.139
+   },
+   "credit": {
+    "title": "File:LL-Q809 (pol)-Gower-żółw.wav",
+    "artist": "Gower (Lingua Libre)",
+    "license": "CC0"
+   }
   },
   {
    "key": "lit",
@@ -106,12 +190,24 @@
    "flag": "lt",
    "count": 9,
    "rank": 7,
-   "wojak": "sl2_lit",
+   "wojak": "a_lit",
    "scene": "baltic",
    "cards": [
     "Also nine, also four kinds of marks: ą ę į ų have a little tail called an ogonek, and ė is a closed e.",
     "Lithuanian took č, š and ž from Czech spelling in the 1800s."
-   ]
+   ],
+   "word": "dešinė",
+   "lit": "right (side)",
+   "local": {
+    "file": "incoming/accents/lit.wav",
+    "start": 0,
+    "end": 1.091
+   },
+   "credit": {
+    "title": "File:LL-Q9083 (lit)-Trimkev-dešinė.wav",
+    "artist": "Trimkev (Lingua Libre)",
+    "license": "CC0"
+   }
   },
   {
    "key": "hun",
@@ -119,12 +215,24 @@
    "flag": "hu",
    "count": 9,
    "rank": 9,
-   "wojak": "p6_hungarian",
+   "wojak": "a_hun",
    "scene": "grassland",
    "cards": [
     "Hungarian is famous for the double acute: ő and ű are long versions of ö and ü.",
     "'Árvíztűrő tükörfúrógép' (flood-proof mirror drill) contains all nine accented letters."
-   ]
+   ],
+   "word": "repülőtér",
+   "lit": "airport",
+   "local": {
+    "file": "incoming/accents/hun.wav",
+    "start": 0,
+    "end": 1.651
+   },
+   "credit": {
+    "title": "File:LL-Q9067 (hun)-Beaudine Wilson-repülőtér.wav",
+    "artist": "Beaudine Wilson (Lingua Libre)",
+    "license": "CC0"
+   }
   },
   {
    "key": "spa",
@@ -132,12 +240,24 @@
    "flag": "es",
    "count": 7,
    "rank": 10,
-   "wojak": "s_spa",
+   "wojak": "a_spa",
    "scene": "canary",
    "cards": [
     "The ñ started as a little n written over another n to save space: 'anno' became 'año'.",
     "Accents change meaning: 'papa' is potato, 'papá' is dad."
-   ]
+   ],
+   "word": "mañana",
+   "lit": "tomorrow",
+   "local": {
+    "file": "incoming/accents/spa.wav",
+    "start": 0,
+    "end": 1.407
+   },
+   "credit": {
+    "title": "File:LL-Q1321 (spa)-Eavqwiki-mañana.wav",
+    "artist": "Eavqwiki (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   }
   }
  ]
 }
