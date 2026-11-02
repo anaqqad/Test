@@ -116,6 +116,21 @@ their audio.
 - Overlap to manage: their "Being An Introvert" and money episodes overlap our EP001 and EP003. Ours need
   different jokes and our own angle.
 
+**Jesús bros**: https://www.youtube.com/@Jes%C3%BAsbros-209/videos (saved Nov 2026). **Wojak meme "___ be like" lists.**
+- 6.23K subscribers, a Venezuelan creator making Wojak videos in Spanish and English. 1–4 min, 16:9, each entry is one
+  subdivision or group drawn as a Wojak.
+- Best performers: Mexican states be like (82K), South American music be like (76K), main ethnic and migrant groups of
+  Canada (65K), districts of Portugal be like (53K), Republics of the Soviet Union be like (41K), Provinces of the
+  Dominican Republic be like (40K), States of Austria be like (33K), Counties of England be like (28K), Latin America
+  in the 60s be like (28K).
+- **Take:** the "[places] be like" list format with one Wojak per entry. High-RPM versions for us: US states, Canadian
+  provinces, Counties of England, German states, Australian states, Austrian states.
+- **Don't take:** "main ethnic groups of ___" videos (ethnic stereotyping breaks our tone rules and is
+  a demonetisation risk).
+
+**List-format references (uploaded clips, Nov 2026):** "Every dictator #1–#60" (8.5 min) and "#1–#30" groups
+(3.5 min). Studied frame by frame; the format is now `render/listvid.py` (see the skill, section 10).
+
 **Wojak Lore**: https://www.youtube.com/@WOJAKLORE77: archetype Shorts ("Types of Girlfriends", "Mandarin"), detailed coloured Wojak girls.
 
 ---
