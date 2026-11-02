@@ -75,6 +75,13 @@ def duo(kid, parent):  # kid left facing right, parent right facing left, faces 
             dict(name=parent, x=0.72, top=0.2, height=H * 1.12, flip=True)]
 
 
+def row(*names):  # list videos: a line-up of characters
+    n = len(names)
+    return [dict(name=nm, x=0.08 + 0.84 * (i + 0.5) / n, top=0.3 + 0.04 * (i % 2), height=H * (0.82 if n <= 3 else 0.72),
+                 flip=i >= n / 2)
+            for i, nm in enumerate(names)]
+
+
 def solo(name, x=0.5):
     return [dict(name=name, x=x, top=0.24, height=H * 1.15)]
 
@@ -96,6 +103,10 @@ COVERS = {
     "german_mom_B": (B + "us_living.jpg", solo("demom_rage"), "NO ICE."),
     "southern_mom_A": (B + "us_porch.jpg", duo("sokid_crying", "somom_spoon_smug"), "BLESS YOUR HEART"),
     "southern_mom_B": (B + "us_porch.jpg", solo("somom_spoon_rage"), "FULL NAME = RUN"),
+    "every_mom_A": (B + "us_porch.jpg", row("somom_smug", "mxmom_chancla_smug", "krmom_smug",
+                                            "ukmom_smug"), "WHICH ONE IS YOURS?"),
+    "every_mom_B": (B + "us_kitchen2.jpg", row("mxmom_chancla_rage", "itmom_spoon_smug", "somom_spoon_rage"),
+                    "EVERY TYPE OF MOM"),
     "midwest_mom_A": (B + "us_porch.jpg", duo("mwkid_crying", "mwmom_bloomer"), "45 MIN GOODBYE"),
     "midwest_mom_B": (B + "us_living.jpg", solo("mwmom_side-eye"), "\"THAT'S DIFFERENT\""),
 }

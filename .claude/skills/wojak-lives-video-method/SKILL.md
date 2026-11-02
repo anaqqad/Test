@@ -155,3 +155,29 @@ with YouTube Studio **Test & Compare** (up to 3 thumbnails; YouTube picks the wi
 - Commit the code, episode file and metadata, then push.
 - `out/` is git-ignored: send the MP4 and the cover with SendUserFile.
 - Keep replies short, and give metadata as copyable blocks.
+
+## 10. Second format: ranked lists ("Every ___", "#1 … #N")
+Learned frame by frame from two reference clips ("Every dictator #1–#60", "#1–#30" list). Engine:
+`python3 wojak-lives/render/listvid.py wojak-lives/render/episodes/list_<slug>.py` (`--still N` for entry N).
+Example: `episodes/list_every_mom.py` (16 moms, 2:08).
+- **Rhythm:** one entry every 7–8.5 s (`entry_dur`), hard cuts, no intro, no outro, no voice. 12–20 entries for
+  2–3 min; 60+ entries for 8+ min (mid-roll ads).
+- **Frame:**
+  - **Background:** a static, sharp real photo of the place.
+  - **Title bar:** black, 11 % high. Yellow `#N`, the name in bold, `(detail)` lighter, and the flag on the right
+    (drawn flags: us mx de ca gb ie au kr fr se jp nl).
+  - **Wojak:** a big bust bottom-left (80 % of the height) that sways about ±1.2° on a 3.6 s cycle.
+  - **Photo:** top-right, in a black frame, tilted, with a red rubber-stamp verdict ("UNDEFEATED", "SORRY").
+  - **Fact cards:** three white cards (black border, hard shadow, slight tilt) that pop in at 5 % / 35 % / 64 % of
+    the entry. Max about 40 characters each.
+  - **Credit:** a "♫ <track> — Wojak Lives" pill bottom-right.
+- **Music:** a different procedural piece per entry, matched to the place (`STYLES`: bluegrass, waltz, mariachi,
+  polka, tarantella, lullaby, minuet, jig, swing, march, folk, pentatonic, musette, nordic, koto, street_organ).
+  A soft pop under each card.
+- **Assets:** backgrounds in `assets/list/bg/`, item photos in `assets/list/photo/` (Pexels), characters from
+  `draw_family.py` (one mom per country: `itmom camom ukmom iemom nymom soccermom aumom krmom frmom semom jpmom
+  nlmom` + earlier families).
+- **Topics** (high RPM, proven by the "Jesús bros" reference): Every Type of Mom/Dad/Teacher, US states be like,
+  Canadian provinces, Counties of England, German states, Australian states. **Never** "ethnic groups of ___".
+- **Covers:** `cover.py` with `row(...)` (a line-up of 3–4 characters) + a hook tag ("WHICH ONE IS YOURS?").
+- **Metadata:** add chapter timestamps (one per entry) in the description.

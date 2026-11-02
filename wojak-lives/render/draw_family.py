@@ -133,6 +133,20 @@ CAST = {  # who: (rig kwargs, props, pose)
     "mwdad": (dict(skin=dc.SKIN["S1"], shirt="#2E7D32", hair="dadstache", hair_color="#5B4636"), ["polo"], "idle"),
     "mwkid": (dict(skin=dc.SKIN["S1"], shirt="#1565C0", hair="messy", hair_color="#5B4636"), [], "idle"),
     "mwkid_phone": (dict(skin=dc.SKIN["S1"], shirt="#1565C0", hair="messy", hair_color="#5B4636"), [], "phone"),
+    # 'Every Type of Mom' list video
+    "itmom": (dict(skin=dc.SKIN["S2"], shirt="#1C1C1C", hair="bun", hair_color="#141414", female=True), [], "idle"),
+    "itmom_spoon": (dict(skin=dc.SKIN["S2"], shirt="#1C1C1C", hair="bun", hair_color="#141414", female=True), ["spoon"], "raise"),
+    "camom": (dict(skin=dc.SKIN["S1"], shirt="#B03A2E", hair="long", hair_color="#6D4C33", female=True), [], "idle"),
+    "ukmom": (dict(skin=dc.SKIN["S1"], shirt="#2C3E50", hair="bun", hair_color="#A47551", female=True), [], "idle"),
+    "iemom": (dict(skin=dc.SKIN["S1"], shirt="#2E7D32", hair="long", hair_color="#B5482A", female=True), [], "idle"),
+    "nymom": (dict(skin=dc.SKIN["S2"], shirt="#262626", hair="perm", hair_color="#141414", female=True), [], "idle"),
+    "soccermom": (dict(skin=dc.SKIN["S1"], shirt="#7E57C2", hair="bun", hair_color="#D9B26A", female=True), [], "idle"),
+    "aumom": (dict(skin=dc.SKIN["S1"], shirt="#00897B", hair="long", hair_color="#E8C77A", female=True), [], "idle"),
+    "krmom": (dict(skin=dc.SKIN["S1"], shirt="#F48FB1", hair="long", hair_color="#141414", female=True), [], "idle"),
+    "frmom": (dict(skin=dc.SKIN["S1"], shirt="#1F3A93", hair="long", hair_color="#3E2723", female=True), [], "idle"),
+    "semom": (dict(skin=dc.SKIN["S1"], shirt="#5DADE2", hair="long", hair_color="#F0E1B0", female=True), [], "idle"),
+    "jpmom": (dict(skin=dc.SKIN["S1"], shirt="#D7CCC8", hair="bun", hair_color="#141414", female=True), [], "idle"),
+    "nlmom": (dict(skin=dc.SKIN["S1"], shirt="#F57C00", hair="long", hair_color="#E2C46B", female=True), [], "idle"),
 }
 
 
