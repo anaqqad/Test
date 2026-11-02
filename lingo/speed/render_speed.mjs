@@ -29,7 +29,7 @@ const CSS = `*{margin:0;padding:0;box-sizing:border-box}body{width:1920px;height
 .row{display:flex;gap:40px;align-items:flex-end}.k{font-weight:800;font-size:22px;letter-spacing:2px;color:#ffcf5c}
 .big{font-weight:800;font-size:120px;line-height:1}.mid{font-weight:800;font-size:64px;line-height:1.1}.u{font-size:26px;color:#aab;font-weight:700;margin-left:8px}
 #gauge{height:30px;border-radius:15px;background:rgba(255,255,255,.12);margin-top:18px;overflow:hidden}#gauge i{display:block;height:100%;width:0;background:linear-gradient(90deg,#34c759,#ffcc00 55%,#e8262b)}
-#txt{left:760px;top:540px;width:1110px;height:380px;background:rgba(255,255,255,.95);border-radius:22px;padding:24px 30px;font-weight:600;font-size:32px;line-height:1.45;color:#18181d;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.35)}
+#txt{left:760px;top:540px;width:1110px;height:auto;max-height:380px;background:rgba(255,255,255,.95);border-radius:22px;padding:24px 30px;font-weight:600;font-size:32px;line-height:1.45;color:#18181d;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.35)}
 #txt .s{color:#c9cdd6}#txt .n{color:#e8262b}
 #stamp{left:760px;top:360px;width:1110px;text-align:center;opacity:0}#stamp div{display:inline-block;background:#e8262b;color:#fff;font-weight:800;font-size:76px;padding:14px 36px;border-radius:18px;border:6px solid #fff;box-shadow:0 12px 30px rgba(0,0,0,.5);transform:rotate(-3deg)}
 #fade{inset:0;background:#000;pointer-events:none}`;
