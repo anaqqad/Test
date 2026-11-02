@@ -121,6 +121,21 @@ def flag(code, w=150):
     elif code == "jp":
         r = H_ * 0.3
         d.ellipse((W_ / 2 - r, H_ / 2 - r, W_ / 2 + r, H_ / 2 + r), fill=(188, 0, 45))
+    elif code == "it":
+        vstripes([(0, 146, 70), "white", (206, 43, 55)])
+    elif code == "cn":
+        d.rectangle((0, 0, W_, H_), fill=(222, 41, 16))
+        for x, y, r in ((.17, .27, 40), (.33, .12, 13), (.4, .22, 13), (.4, .37, 13), (.33, .47, 13)):
+            d.regular_polygon((W_ * x, H_ * y, r), 5, rotation=0, fill=(255, 222, 0))
+    elif code == "co":
+        d.rectangle((0, 0, W_, H_ / 2), fill=(252, 209, 22))
+        d.rectangle((0, H_ / 2, W_, H_ * 3 / 4), fill=(0, 56, 147))
+        d.rectangle((0, H_ * 3 / 4, W_, H_), fill=(206, 17, 38))
+    elif code == "br":
+        d.rectangle((0, 0, W_, H_), fill=(0, 156, 59))
+        d.polygon([(W_ * .08, H_ / 2), (W_ / 2, H_ * .1), (W_ * .92, H_ / 2), (W_ / 2, H_ * .9)], fill=(255, 223, 0))
+        r = H_ * 0.24
+        d.ellipse((W_ / 2 - r, H_ / 2 - r, W_ / 2 + r, H_ / 2 + r), fill=(0, 39, 118))
     elif code == "nl":
         hstripes([(174, 28, 40), "white", (33, 70, 139)])
     im = im.resize((w, h), Image.LANCZOS)

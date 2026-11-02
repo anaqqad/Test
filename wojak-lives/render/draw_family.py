@@ -33,6 +33,41 @@ def curls(cx, cy, r, n, spread, color):
 
 
 def hair_front(kind, color):
+    if "+" in kind:  # combos, e.g. "fedora+stache": first part uses hair_color, the rest are dark
+        first, *rest = kind.split("+")
+        return hair_front(first, color) + "".join(hair_front(k, "#141414") for k in rest)
+    if kind == "fedora":
+        return (p("M -150,-238 C -100,-262 120,-268 170,-232 C 120,-214 -100,-212 -150,-238 Z", fill=color, w=LW) +
+                p("M -104,-240 C -110,-330 -40,-356 20,-352 C 90,-350 132,-320 126,-238 C 60,-226 -40,-226 -104,-240 Z",
+                  fill=color, w=LW) +
+                p("M -104,-262 C -40,-252 60,-252 128,-262 L 127,-240 C 60,-228 -40,-228 -104,-240 Z", fill="#2b2b2b",
+                  w=3) + p("M -10,-350 C 0,-330 20,-326 30,-350", w=4, color="#555"))
+    if kind == "flatcap":
+        return p("M -116,-226 C -120,-300 -40,-332 30,-326 C 100,-320 136,-290 150,-246 C 170,-236 176,-222 150,-214 "
+                 "C 80,-212 -40,-214 -116,-226 Z", fill=color, w=LW) + p("M 60,-240 C 100,-238 130,-232 150,-222", w=4)
+    if kind == "bandana":
+        return (p("M -116,-210 C -120,-300 -40,-338 20,-336 C 90,-334 136,-290 132,-214 C 60,-232 -40,-232 -116,-210 Z",
+                  fill=color, w=LW) +
+                p("M -112,-220 C -150,-226 -168,-200 -150,-176 C -140,-196 -128,-204 -112,-206 Z", fill=color, w=4) +
+                "".join(f'<circle cx="{x}" cy="{y}" r="5" fill="white" opacity=".85"/>' for x, y in
+                        ((-60, -280), (-10, -300), (40, -296), (90, -270), (-80, -244), (20, -258), (70, -240))))
+    if kind == "slick":
+        return p("M -110,-196 C -122,-296 -40,-334 30,-328 C 104,-322 138,-276 130,-214 C 104,-246 50,-264 0,-262 "
+                 "C -50,-258 -90,-236 -100,-180 Z", fill=color, w=LW) + p("M -60,-300 C -20,-280 30,-276 80,-290", w=3,
+                                                                            color="#666")
+    if kind == "buzz":
+        return p("M -110,-200 C -120,-296 -40,-332 26,-328 C 100,-324 136,-280 128,-216 C 80,-240 -40,-240 -110,-200 Z",
+                 fill=color, w=2, extra=' opacity=".55"')
+    if kind == "cap":
+        return (p("M -112,-226 C -116,-310 -30,-340 24,-336 C 96,-332 134,-292 128,-232 Z", fill=color, w=LW) +
+                p("M 70,-236 C 120,-246 170,-240 186,-224 L 76,-218 Z", fill=color, w=LW))
+    if kind == "shades":
+        return p("M 0,-188 L 128,-190 L 124,-160 C 112,-142 82,-144 76,-164 L 64,-166 C 56,-144 18,-140 4,-160 Z",
+                 fill=INK, w=3)
+    if kind == "stache":
+        return p("M 40,-104 C 52,-126 80,-128 108,-108 C 88,-96 62,-96 40,-104 Z", fill=color, w=3)
+    if kind == "goatee":
+        return p("M 56,-70 C 64,-50 92,-50 100,-70 C 90,-60 66,-60 56,-70 Z", fill=color, w=3)
     if kind == "bun":  # pulled back with a centre part
         return (p("M -112,-170 C -126,-280 -50,-322 18,-320 C 96,-318 136,-272 130,-212 C 96,-252 50,-262 20,-258 "
                   "C -20,-256 -70,-236 -100,-160 Z", fill=color, w=LW) + p("M 22,-318 C 30,-290 34,-270 30,-256",
@@ -133,6 +168,26 @@ CAST = {  # who: (rig kwargs, props, pose)
     "mwdad": (dict(skin=dc.SKIN["S1"], shirt="#2E7D32", hair="dadstache", hair_color="#5B4636"), ["polo"], "idle"),
     "mwkid": (dict(skin=dc.SKIN["S1"], shirt="#1565C0", hair="messy", hair_color="#5B4636"), [], "idle"),
     "mwkid_phone": (dict(skin=dc.SKIN["S1"], shirt="#1565C0", hair="messy", hair_color="#5B4636"), [], "phone"),
+    # 'Most notorious gangs' list video (same Wojak face for everyone; no ethnic features, only clothes)
+    "g_sicily": (dict(skin=dc.SKIN["S2"], shirt="#1E1E1E", hair="fedora+stache", hair_color="#1A1A1A"), ["polo"], "idle"),
+    "g_usmafia": (dict(skin=dc.SKIN["S1"], shirt="#22304A", hair="fedora", hair_color="#5A5A5A"), ["polo"], "idle"),
+    "g_yakuza": (dict(skin=dc.SKIN["S1"], shirt="#111111", hair="slick+shades", hair_color="#141414"), ["polo"], "idle"),
+    "g_triad": (dict(skin=dc.SKIN["S1"], shirt="#2B2B2B", hair="slick", hair_color="#141414"), [], "idle"),
+    "g_camorra": (dict(skin=dc.SKIN["S2"], shirt="#ECECEC", hair="buzz+shades", hair_color="#3A3A3A"), [], "idle"),
+    "g_ndrangheta": (dict(skin=dc.SKIN["S2"], shirt="#3B2F2F", hair="slick+stache", hair_color="#8A8A8A"), ["polo"], "idle"),
+    "g_peaky": (dict(skin=dc.SKIN["S1"], shirt="#3E3A36", hair="flatcap", hair_color="#4A4A4A"), ["polo"], "idle"),
+    "g_hells": (dict(skin=dc.SKIN["S1"], shirt="#151515", hair="bandana+shades+goatee", hair_color="#1A1A1A"), [], "idle"),
+    "g_krays": (dict(skin=dc.SKIN["S1"], shirt="#1E1E1E", hair="slick", hair_color="#141414"), ["polo"], "idle"),
+    "g_latinkings": (dict(skin=dc.SKIN["S3"], shirt="#141414", hair="cap", hair_color="#E0B000"), [], "idle"),
+    "g_eme": (dict(skin=dc.SKIN["S3"], shirt="#ECECEC", hair="buzz+shades+stache", hair_color="#3A3A3A"), [], "idle"),
+    "g_crips": (dict(skin=dc.SKIN["S5"], shirt="#1E4FB0", hair="bandana", hair_color="#1E4FB0"), [], "idle"),
+    "g_bloods": (dict(skin=dc.SKIN["S5"], shirt="#B0201E", hair="bandana", hair_color="#B0201E"), [], "idle"),
+    "g_westies": (dict(skin=dc.SKIN["S1"], shirt="#2E5E3A", hair="flatcap", hair_color="#6B4F2A"), [], "idle"),
+    "g_medellin": (dict(skin=dc.SKIN["S3"], shirt="#ECECEC", hair="perm+stache", hair_color="#141414"), [], "idle"),
+    "g_cali": (dict(skin=dc.SKIN["S3"], shirt="#22304A", hair="sidepart+shades", hair_color="#141414"), ["polo"], "idle"),
+    "g_ms13": (dict(skin=dc.SKIN["S3"], shirt="#ECECEC", hair="buzz+shades", hair_color="#3A3A3A"), [], "idle"),
+    "g_sinaloa": (dict(skin=dc.SKIN["S3"], shirt="#5A3E2B", hair="cap+stache", hair_color="#141414"), [], "idle"),
+    "g_pcc": (dict(skin=dc.SKIN["S4"], shirt="#2B2B2B", hair="buzz", hair_color="#3A3A3A"), [], "idle"),
     # 'Every Type of Mom' list video
     "itmom": (dict(skin=dc.SKIN["S2"], shirt="#1C1C1C", hair="bun", hair_color="#141414", female=True), [], "idle"),
     "itmom_spoon": (dict(skin=dc.SKIN["S2"], shirt="#1C1C1C", hair="bun", hair_color="#141414", female=True), ["spoon"], "raise"),

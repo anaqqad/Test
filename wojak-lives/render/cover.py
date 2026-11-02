@@ -109,6 +109,10 @@ COVERS = {
                     "EVERY TYPE OF MOM"),
     "midwest_mom_A": (B + "us_porch.jpg", duo("mwkid_crying", "mwmom_bloomer"), "45 MIN GOODBYE"),
     "midwest_mom_B": (B + "us_living.jpg", solo("mwmom_side-eye"), "\"THAT'S DIFFERENT\""),
+    "gangs_A": ("list/bg/nyc.jpg", row("g_sicily_smug", "g_yakuza_side-eye", "g_peaky_smug", "g_hells_rage"),
+                "WHO RUNS THE STREETS?"),
+    "gangs_B": ("list/bg/la2.jpg", row("g_crips_side-eye", "g_usmafia_smug", "g_bloods_side-eye"),
+                "MOST NOTORIOUS"),
 }
 
 if __name__ == "__main__":
