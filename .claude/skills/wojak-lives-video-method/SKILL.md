@@ -172,9 +172,19 @@ Examples: `episodes/list_every_mom.py` (16 moms, 2:08), `episodes/list_gangs.py`
   - **Fact cards:** three white cards (black border, hard shadow, slight tilt) that pop in at 5 % / 35 % / 64 % of
     the entry. Max about 40 characters each.
   - **Credit:** a "♫ <track> — Wojak Lives" pill bottom-right.
-- **Music:** a different procedural piece per entry, matched to the place (`STYLES`: bluegrass, waltz, mariachi,
-  polka, tarantella, lullaby, minuet, jig, swing, march, folk, pentatonic, musette, nordic, koto, street_organ).
-  A soft pop under each card.
+- **Music: real Kevin MacLeod tracks**, like the references (their pills read "♫ Tyrant — Kevin MacLeod").
+  Entry key `music=dict(track="<exact incompetech title>")` (+ optional `start` seconds). listvid downloads it
+  from incompetech.com into `.cache/music/`, skips a quiet intro, levels the loudness, and the pill reads
+  "♫ <title> — Kevin MacLeod". Pick by feel from `https://incompetech.com/music/royalty-free/pieces.json`
+  (title, genre, feel, description). **CC-BY 4.0:** the description must credit "Music by Kevin MacLeod
+  (incompetech.com)", the licence link and the track titles. The procedural `music=dict(style, title)` is only
+  a fallback. A soft pop under each card.
+- **Wojaks: ChatGPT-drawn crude MS-Paint memes**, like the references; the vector rig is only a placeholder.
+  Write a prompt sheet (`wojak-lives/prompts_gangs.md` is the template: 4 busts per image, white background,
+  far apart, clothes and era only, no gang names, no logos or weapons). The owner generates them in ChatGPT
+  with the reference style sheet attached and uploads them. Then
+  `python3 render/import_gpt.py sheet.png name1 name2 ...` cuts each one out into `assets/gpt/<name>.png`,
+  and `load_char` uses it for every expression of that name.
 - **Assets:** backgrounds in `assets/list/bg/`, item photos in `assets/list/photo/` (Pexels), characters from
   `draw_family.py` (one mom per country: `itmom camom ukmom iemom nymom soccermom aumom krmom frmom semom jpmom
   nlmom`; gang members `g_<gang>` with fedora/flatcap/bandana/slick/buzz/cap/shades/stache/goatee

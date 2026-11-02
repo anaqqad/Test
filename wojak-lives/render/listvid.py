@@ -11,7 +11,7 @@ Measured from the references and reproduced here:
 - Top-right: the photo in a black frame, tilted, with a red rubber-stamp verdict.
 - Three white fact cards (black border, hard shadow, slight tilt) pop in at 5 %, 35 % and 64 % of the entry.
 - Each entry has its own music piece, with a small "♫ track" credit bottom-right.
-Entry keys: name, detail, flag, char, bg, photo, stamp, facts[3], music{style, title}.
+Entry keys: name, detail, flag, char, bg, photo, stamp, facts[3], music{track[, start]} (real Kevin MacLeod track,\nlike the references) or music{style, title} (procedural fallback).
 """
 import argparse
 import importlib.util
@@ -19,6 +19,7 @@ import json
 import math
 import pathlib
 import subprocess
+import urllib.parse
 import wave
 
 import numpy as np
@@ -28,7 +29,7 @@ import render  # fonts, character loader, sfx/ music helpers
 
 HERE = pathlib.Path(__file__).resolve().parent
 LIST = HERE / "assets" / "list"
-W, H, FPS, SR = 1920, 1080, 30, 22050
+W, H, FPS, SR = 1920, 1080, 30, 44100
 BAR = int(H * 0.11)
 YELLOW, WHITE, INK, RED = (255, 205, 40), (255, 255, 255), (12, 12, 12), (214, 40, 40)
 NOTE_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
@@ -210,10 +211,10 @@ def fact_card(text, rot):
     return im.rotate(rot, expand=True, resample=Image.BICUBIC)
 
 
-def credit(title):
+def credit(title, artist="Wojak Lives"):
     fn = ImageFont.truetype(NOTE_FONT, 24)
     ft = font("baloo", 26)
-    t = f"{title} — Wojak Lives"
+    t = f"{title} — {artist}"
     w = text_w(t, ft) + 64
     im = Image.new("RGBA", (w, 44), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
@@ -308,6 +309,56 @@ def piece(style, dur, seed):
     return out / max(1e-6, np.abs(out).max()) * 0.6
 
 
+# ------------------------------------------------------------------ real music: Kevin MacLeod (incompetech.com)
+# Same source as the reference channels. CC-BY 4.0: credit "Kevin MacLeod (incompetech.com)" + the track titles in
+# the description. Tracks are downloaded once into .cache/music/ (git-ignored).
+MUSIC_CACHE = HERE / ".cache" / "music"
+
+
+def track_audio(title):
+    MUSIC_CACHE.mkdir(parents=True, exist_ok=True)
+    mp3 = MUSIC_CACHE / f"{title}.mp3"
+    if not mp3.exists():
+        url = "https://incompetech.com/music/royalty-free/mp3-royaltyfree/" + urllib.parse.quote(title) + ".mp3"
+        subprocess.run(["curl", "-sSfL", "-o", str(mp3), url], check=True)
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(mp3), "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
+                         check=True, capture_output=True).stdout
+    return np.frombuffer(raw, np.float32).astype(np.float64)
+
+
+def track_clip(title, dur, start=None):
+    """dur seconds of a real track. start=None skips a quiet intro: first second whose loudness reaches 60 % of
+    the track's loud parts."""
+    a = track_audio(title)
+    if start is None:
+        cs = np.concatenate([[0.0], np.cumsum(a ** 2)])
+        idx = np.arange(0, max(1, a.size - SR), SR // 4)
+        rms = np.sqrt((cs[idx + SR] - cs[idx]) / SR) if a.size > SR else np.array([1.0])
+        loud = np.percentile(rms, 80)
+        start = (np.argmax(rms >= 0.6 * loud) / 4) if loud > 0 else 0.0
+    s0 = int(start * SR)
+    if s0 + int(dur * SR) > a.size:
+        s0 = max(0, a.size - int(dur * SR))
+    out = np.zeros(int(dur * SR))
+    seg = a[s0:s0 + out.size]
+    out[:seg.size] = seg
+    fi, fo = int(0.03 * SR), int(0.25 * SR)
+    out[:fi] *= np.linspace(0, 1, fi)
+    out[-fo:] *= np.linspace(1, 0, fo)
+    return out / max(1e-6, np.sqrt(np.mean(out ** 2))) * 0.12  # equal loudness across entries
+
+
+def entry_music(m, dur, seed):
+    if "track" in m:
+        return track_clip(m["track"], dur, m.get("start"))
+    return piece(m["style"], dur, seed)  # synthesised at SR directly
+
+
+def pop():
+    p = render.sfx("pop")
+    return np.interp(np.arange(int(p.size * SR / 22050)) / SR, np.arange(p.size) / 22050, p)
+
+
 # ------------------------------------------------------------------ build + render
 def load(path):
     spec = importlib.util.spec_from_file_location("lst", path)
@@ -325,7 +376,8 @@ def prepare(lst):
         base.alpha_composite(title_bar(n, e["name"], e.get("detail"), e.get("flag")), (0, 0))
         pf = photo_frame(LIST / "photo" / e["photo"], e["stamp"])
         base.alpha_composite(pf, (W - pf.width - 6, int(H * 0.06)))
-        cr = credit(e["music"]["title"])
+        m = e["music"]
+        cr = credit(m["track"], "Kevin MacLeod") if "track" in m else credit(m["title"])
         base.alpha_composite(cr, (W - cr.width - 24, H - cr.height - 20))
         cards = [fact_card(t, r) for t, r in zip(e["facts"], (-2.2, -1.0, -1.6))]
         entries.append(dict(base=base, cards=cards, woj=wojak(e["char"], H * 0.8), start=(n - 1) * dur, dur=dur))
@@ -372,11 +424,11 @@ def main():
         print(out / f"{name}_entry{a.still}.png")
         return
     total = dur * len(entries)
-    audio = np.concatenate([piece(e["music"]["style"], dur, 100 + i) for i, e in enumerate(lst["entries"])])
+    audio = np.concatenate([entry_music(e["music"], dur, 100 + i) for i, e in enumerate(lst["entries"])])
     for i, e in enumerate(entries):  # soft card "pop" on every card
         for k in range(3):
             s0 = int((e["start"] + CARD_AT[k] * dur) * SR)
-            p = render.sfx("pop") * 0.25
+            p = pop() * 0.25
             audio[s0:s0 + p.size] += p[: max(0, audio.size - s0)]
     audio = audio / max(1.0, np.abs(audio).max() / 0.95)
     wav = out / f"{name}.wav"

@@ -33,6 +33,10 @@ Which one would you NOT want to owe money to? 👇
 
 History explained with Wojaks, for entertainment and education. We don't glorify crime; every gang on this list ended in prison, exile or worse.
 
+Music by Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0
+creativecommons.org/licenses/by/4.0/
+Monkoto · Sneaky Snitch · Shenyang · Bushwick Tarantella · Tango de Manzana · Gaslamp Funworks · Night on the Docks - Sax · Desert of Lost Souls · Spy Glass · Latin Industries · Del Rio Bravo · Galway · Galactic Rap · Basic Implosion · No Frills Cumbia · No Frills Salsa · Chase Pulse · Peppy Pepe · Suvaco do Cristo
+
 #history #gangs #wojak
 ```
 

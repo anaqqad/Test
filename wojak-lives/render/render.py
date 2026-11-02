@@ -66,7 +66,11 @@ def load_char(name, tint=None, _cache={}):
     key = (name, tint)
     if key not in _cache:
         drawn = HERE / "assets" / "chars" / f"{name}.png"
-        if drawn.exists():  # characters from draw_niqabi.py are already black and grey
+        gpt = [HERE / "assets" / "gpt" / f"{n}.png" for n in (name, name.rsplit("_", 1)[0])]
+        gpt = [p for p in gpt if p.exists()]
+        if gpt:  # ChatGPT-drawn meme Wojak (import_gpt.py) beats the vector rig; one drawing serves every expression
+            im = Image.open(gpt[0]).convert("RGBA")
+        elif drawn.exists():  # characters from draw_niqabi.py are already black and grey
             im = Image.open(drawn).convert("RGBA")
         else:
             im = black_and_grey(Image.open(BRAND / "nobo" / f"{name}.png").convert("RGBA"))
