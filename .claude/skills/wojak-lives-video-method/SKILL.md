@@ -181,8 +181,14 @@ Examples: `episodes/list_every_mom.py` (16 moms, 2:08), `episodes/list_gangs.py`
   a fallback. A soft pop under each card.
 - **Wojaks: ChatGPT-drawn crude MS-Paint memes**, like the references; the vector rig is only a placeholder.
   Write a prompt sheet (`wojak-lives/prompts_gangs.md` is the template: 4 busts per image, white background,
-  far apart, clothes and era only, no gang names, no logos or weapons). The owner generates them in ChatGPT
-  with the reference style sheet attached and uploads them. Then
+  far apart, clothes and era only, no gang names, no logos or weapons). **Generate them yourself with the
+  owner's ChatGPT subscription via the Codex CLI** (`npm i -g @openai/codex`; login once with
+  `codex login --device-auth`: send the owner the URL + code; check with `codex login status`). One image per
+  call, run several in parallel, **stdin must be closed** or it hangs:
+  `codex exec --skip-git-repo-check -s workspace-write -i ref_wojaks.png "Generate ONE square image with your
+  image generation tool, save it here as sheet1.png. Do nothing else. IMAGE PROMPT: <style + characters>" < /dev/null`
+  (about 1–2 min each). Style reference = busts cropped from the reference videos. Look at every sheet before
+  importing. Source sheets + prompts are kept in `assets/gpt/sheets/`. Then
   `python3 render/import_gpt.py sheet.png name1 name2 ...` cuts each one out into `assets/gpt/<name>.png`,
   and `load_char` uses it for every expression of that name.
 - **Assets:** backgrounds in `assets/list/bg/`, item photos in `assets/list/photo/` (Pexels), characters from

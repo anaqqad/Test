@@ -1,0 +1,4 @@
+Layout: 3 characters in one row instead of a 2x2 grid (landscape image), far apart.
+Left: shaved head, black sunglasses, plain white T-shirt, a few small blue tattoo dots on the face, blank stare.
+Middle: Mexican man, white cowboy hat, thick black moustache, plaid western shirt, smug face.
+Right: Brazilian man from São Paulo, shaved head, thin chain, plain grey tank top, tired stare.

@@ -233,6 +233,7 @@ def bg_image(name):
 def wojak(name, height):
     im = render.load_char(name)
     im = im.crop(im.getbbox())
+    height = min(height, W * 0.42 * im.height / im.width)  # wide ChatGPT busts: keep clear of the fact cards
     return im.resize((int(im.width * height / im.height), int(height)), Image.LANCZOS)
 
 
