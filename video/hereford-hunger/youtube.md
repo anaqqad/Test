@@ -1,5 +1,8 @@
 # YouTube upload: WWII Frontlines
 
+**Published** 2 Nov 2026, public: https://youtu.be/mVmR4twaHJg (thumbnail A, English SRT published, Education, altered content = No,
+17 tags, checks: no issues). End screen = POW trains episode (ipiVGsnmUxc) + subscribe, last 20 s.
+
 ## Title
 ```
 Hungry Italian POWs Ate Rattlesnakes in Texas. Then a Church Fed Them.
