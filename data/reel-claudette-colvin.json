@@ -1,0 +1,328 @@
+{
+ "id": "reel-claudette-colvin",
+ "title": "Nine Months Before Rosa Parks, She Refused to Move.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_flash_v2_5",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "assets": {
+  "portrait": {
+   "commons": "File:Claudette Colvin.jpg"
+  },
+  "bus": {
+   "commons": "File:Morris Thomas defying segregated bus seating - Tallahassee, Florida (RC12424).jpg"
+  },
+  "waiting": {
+   "commons": "File:JimCrowInDurhamNC.jpg"
+  },
+  "parks": {
+   "commons": "File:1956 face detail, Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott (cropped).jpg"
+  },
+  "flyer": {
+   "commons": "File:Montgomery Improvement Association, flyer on bus desegregation, c. 1956 (NYPL).jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Nine months before Rosa Parks, she refused to move.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Nine months before Rosa Parks, *she refused to move.*"
+   },
+   "captions": false,
+   "speed": 1.2
+  },
+  {
+   "id": "name",
+   "text": "Meet Claudette Colvin.",
+   "visual": {
+    "kind": "title",
+    "title": "Claudette Colvin",
+    "sub": "1939-2026"
+   },
+   "section": "who"
+  },
+  {
+   "id": "ride",
+   "text": "On March 2, 1955, in Montgomery, Alabama, she was fifteen, riding the bus home from school.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.12,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Montgomery",
+     "sub": "Alabama"
+    }
+   }
+  },
+  {
+   "id": "order",
+   "text": "The driver told her to give up her seat to a white woman. She stayed put.",
+   "visual": {
+    "kind": "card",
+    "image": "bus",
+    "caption": "A segregated city bus, Tallahassee, 1956"
+   }
+  },
+  {
+   "id": "right",
+   "text": "She said it was her constitutional right to sit there.",
+   "visual": {
+    "kind": "title",
+    "title": "\"My constitutional right\"",
+    "sub": "Claudette Colvin, 1955"
+   }
+  },
+  {
+   "id": "arrest",
+   "text": "Two police officers pulled her off the bus in handcuffs. She spent hours in jail before her minister paid her bail.",
+   "visual": {
+    "kind": "card",
+    "image": "waiting",
+    "caption": "Segregated waiting room, Durham, North Carolina, 1940"
+   }
+  },
+  {
+   "id": "pass",
+   "text": "Civil rights leaders chose not to build their fight around her. She was a teenager, and soon pregnant.",
+   "visual": {
+    "kind": "title",
+    "title": "Passed over",
+    "sub": "too young, they decided"
+   },
+   "section": "twist"
+  },
+  {
+   "id": "parks",
+   "text": "Nine months later, Rosa Parks was arrested, and the bus boycott began.",
+   "visual": {
+    "kind": "card",
+    "image": "parks",
+    "caption": "Rosa Parks, 1956"
+   }
+  },
+  {
+   "id": "court",
+   "text": "But in 1956, Claudette became one of four plaintiffs in a federal lawsuit, Browder versus Gayle.",
+   "visual": {
+    "kind": "card",
+    "image": "flyer",
+    "caption": "Flyer on bus desegregation, Montgomery, 1956"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "win",
+   "text": "They won. The Supreme Court upheld the ruling, and segregation on Montgomery's buses was over.",
+   "visual": {
+    "kind": "title",
+    "title": "Won",
+    "sub": "Browder v. Gayle, 1956"
+   }
+  },
+  {
+   "id": "record",
+   "text": "Her own arrest record stayed on the books until 2021, when a judge finally wiped it clean. She was eighty-two.",
+   "visual": {
+    "kind": "title",
+    "title": "Expunged",
+    "sub": "2021, age 82"
+   }
+  },
+  {
+   "id": "end",
+   "text": "History remembers Rosa Parks. Claudette Colvin went first.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "name": "Wikipedia: Claudette Colvin",
+   "url": "https://en.wikipedia.org/wiki/Claudette_Colvin"
+  },
+  "BIO": {
+   "name": "Biography.com: Claudette Colvin",
+   "url": "https://www.biography.com/activists/claudette-colvin"
+  },
+  "CBS": {
+   "name": "CBS News: Claudette Colvin's record expunged",
+   "url": "https://www.cbsnews.com/news/claudette-colvin-record-expunged/"
+  },
+  "EJI": {
+   "name": "Equal Justice Initiative: EJI Remembers Civil Rights Pioneer Claudette Colvin",
+   "url": "https://eji.org/news/eji-remembers-civil-rights-pioneer-claudette-colvin/"
+  }
+ },
+ "facts": [
+  {
+   "beat": "name",
+   "claim": "Born 5 Sept 1939; died 13 Jan 2026, aged 86.",
+   "sources": [
+    "WIKI",
+    "BIO",
+    "EJI"
+   ]
+  },
+  {
+   "beat": "ride",
+   "claim": "2 March 1955, Montgomery, aged 15, riding home from school.",
+   "sources": [
+    "WIKI",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "order",
+   "claim": "Refused the driver's order to give up her seat to a white woman.",
+   "sources": [
+    "WIKI",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "right",
+   "claim": "Said it was her constitutional right to sit there.",
+   "sources": [
+    "BIO",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "arrest",
+   "claim": "Removed and handcuffed by two officers; hours in jail; minister paid bail.",
+   "sources": [
+    "WIKI",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "pass",
+   "claim": "Leaders/NAACP decided against her case: age and unwed pregnancy.",
+   "sources": [
+    "WIKI",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "parks",
+   "claim": "Rosa Parks arrested 1 Dec 1955 (nine months later); boycott began.",
+   "sources": [
+    "WIKI",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "court",
+   "claim": "One of four plaintiffs in Browder v. Gayle (filed 1 Feb 1956).",
+   "sources": [
+    "WIKI",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "win",
+   "claim": "District court ruled bus segregation unconstitutional (June 1956); Supreme Court upheld (Nov 1956).",
+   "sources": [
+    "WIKI",
+    "BIO"
+   ]
+  },
+  {
+   "beat": "record",
+   "claim": "Juvenile record expunged by Montgomery judge in 2021, aged 82.",
+   "sources": [
+    "WIKI",
+    "BIO",
+    "CBS"
+   ]
+  }
+ ],
+ "notUsed": [
+  "'History had me glued to the seat' / Tubman and Truth quote (not checked in two sources this time).",
+  "Exact month of the expungement order (sources differ: Nov 24 vs December 2021)."
+ ]
+}
