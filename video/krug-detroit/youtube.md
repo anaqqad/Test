@@ -67,3 +67,6 @@ Not posted unless asked.
 - Altered or synthetic content: **No**, always (owner's rule).
 - Captions: `out/krug-detroit.srt` (Languages → Upload manual; if it lands as a draft, Edit subtitles → Publish).
 - End screen: the Camp Hereford episode (mVmR4twaHJg) plus a subscribe button, last 20 s.
+
+**Published** 4 Nov 2026, public: https://youtu.be/Q5RCVPH9p4w (thumbnail A, Education, not made for kids, altered content
+No, 17 tags, English captions from `out/krug-detroit.srt` published, end screen: Camp Hereford + subscribe, last 20 s).
