@@ -1175,6 +1175,88 @@ export const VIDEOS = {
       },
     ],
   },
+  tonal3: {
+    title: "Tonal Languages be like…", // YouTube: "... (Part 3)"; Africa and the Americas, with the pitch line
+    part: "Part 3",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#8e44ad",
+    pitchLine: true,
+    items: [
+      {
+        name: "Kpelle", wojak: "t3_kpe", flag: "lr", speakers: "~1.3M", scene: "forest", loc: [7.0, -9.5, "Liberia & Guinea"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1f4e8c", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Kpelle is the biggest language of Liberia, spoken by about one person in five.",
+          "In the 1930s a Kpelle chief named Gbili invented a script just for it, one of several created in West Africa.",
+        ],
+        audio: { file: "WIKITONGUES- Jerry speaking Kpelle.webm", start: "auto" },
+      },
+      {
+        name: "Vai", wojak: "t3_vai", flag: "lr", speakers: "~120,000", scene: "andaman", loc: [6.9, -11.2, "Liberia & Sierra Leone"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "robe", color: "#f4f1e8", trim: "#1f4e8c" }, expression: "smile" },
+        cards: [
+          "Around 1833 Momolu Duwalu Bukele created the Vai syllabary, one of the few scripts invented in Africa in modern times.",
+          "Vai has high and low tones, and its script has its own block in Unicode, so you can type it on a phone.",
+        ],
+        audio: { file: "WIKITONGUES- Varney and Omoru speaking Vai.webm", start: "auto" },
+      },
+      {
+        name: "Dagbani", wojak: "t3_dag", flag: "gh", speakers: "~1.2M", scene: "savanna", loc: [9.4, -0.85, "Northern Ghana"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "robe", color: "#c0392b", trim: "#f2c94c" }, expression: "smile" },
+        cards: [
+          "Dagbani is the language of the Dagbon kingdom in northern Ghana, from a different branch than Twi.",
+          "Dagbon's drummers keep its history, reciting the names of past kings on talking drums.",
+        ],
+        audio: { file: "WIKITONGUES- Mohammed speaking Dagbani.webm", start: "auto" },
+      },
+      {
+        name: "Ibibio", wojak: "t3_ibb", flag: "ng", speakers: "~2M", scene: "amazon", loc: [5.0, 7.9, "Akwa Ibom, Nigeria"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#2e8b57", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Ibibio is spoken in Akwa Ibom in southeastern Nigeria, and it's a close relative of Efik.",
+          "Nsibidi, an old sign system of the Cross River region, was used by Ibibio, Efik and Ejagham peoples.",
+        ],
+        audio: { file: "Itoro speaking Ibibio.webm", start: "auto" },
+      },
+      {
+        name: "Venda", wojak: "t3_ven", flag: "za", speakers: "~1.3M", scene: "savanna", loc: [-22.9, 30.5, "Limpopo, South Africa"],
+        char: F({ skin: "dark", hair: "bun", hairColor: "black", outfit: { type: "dress", color: "#d9b13b", color2: "#1f4e8c", trim: "#c0392b" }, expression: "smile" }),
+        cards: [
+          "Tshivenda is one of South Africa's 12 official languages, also spoken across the border in Zimbabwe.",
+          "It has high and low tones, and Venda is home to Lake Fundudzi, a sacred lake in Venda tradition.",
+        ],
+        audio: { file: "Edna speaking TshiVenda.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Tsonga", wojak: "t3_tso", flag: "mz", speakers: "~3.7M", scene: "kalahari", loc: [-24.0, 32.5, "Mozambique & South Africa"],
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#c0392b", vest: "#f2c94c" }, expression: "grin" },
+        cards: [
+          "Xitsonga is spoken in southern Mozambique and South Africa. Good morning is 'avuxeni'.",
+          "Besides tones, it has whistled s sounds, a rare kind of consonant also found in Shona.",
+        ],
+        audio: { file: "WIKITONGUES- Lourenço speaking Tsonga.webm", start: "auto" },
+      },
+      {
+        name: "Nuyoo Mixtec", wojak: "t3_mix", flag: "mx", speakers: "a few thousand", scene: "sierra", loc: [16.9, -97.6, "Oaxaca, Mexico"],
+        char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#f4f1e8", vest: "#8a6a3b" }, expression: "smile" },
+        cards: [
+          "Mixtec is a family of tonal languages from Oaxaca, with dozens of varieties that often can't understand each other.",
+          "Before the Spanish arrived, the Mixtec painted their history in picture books called codices, some still in museums today.",
+        ],
+        audio: { file: "WIKITONGUES- Nezahualcoyotl speaking Nuyoo Mixtec.webm", start: "auto" },
+      },
+      {
+        name: "Triqui", wojak: "t3_trc", flag: "mx", speakers: "a few thousand", scene: "sierra", loc: [17.1, -97.9, "Chicahuaxtla, Oaxaca"],
+        char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#c0392b", vest: "#1d1d1d" }, expression: "smile" },
+        cards: [
+          "Triqui is one of the most tonal languages on Earth: some varieties have about eight different tones.",
+          "Tones are written with little numbers on the words, because the alphabet alone isn't enough.",
+        ],
+        audio: { file: "WIKITONGUES- José Manuel speaking Chicahuaxtla Triqui.webm", start: "auto" },
+      },
+    ],
+  },
   // ------------------------------------------------------------------ 8
   // Simulated: the owner asked for AI voices here. Each phrase is a published scholarly reconstruction, written in IPA
   // and read by a Piper voice (ipa_say.py / sim_audio.py). The video labels every clip as an AI simulation.
