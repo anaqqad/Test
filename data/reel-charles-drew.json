@@ -1,0 +1,376 @@
+{
+ "id": "reel-charles-drew",
+ "title": "He Banked America's Blood. Then They Segregated It.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_flash_v2_5",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "assets": {
+  "portrait": {
+   "commons": "File:Charles R. Drew - NARA - 559199.jpg"
+  },
+  "bgb": {
+   "commons": "File:BGBBFJ Charles R. Drew.jpg"
+  },
+  "letter": {
+   "commons": "File:Letter from Charles R. Drew to the American Red Cross Reporting on Facilities for Collecting Blood in American Cities - DPLA - 51c42c8611c0de6d94b88d657d99a383 (page 1).gif"
+  },
+  "poster": {
+   "commons": "File:Keep Both Life Lines Flowing - Whole Blood Flown Overseas Daily Blood Plasma Shipped Overseas Daily - American Red Cross Blood Donor Service - DPLA - 22dc23d6f00e3c3b36095bed326539ef.jpg"
+  },
+  "cars": {
+   "commons": "File:Red Cross blood donor service cars from Syracuse, New York 8d31698v.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "He banked America's blood. Then they segregated it.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.45,
+     0.27
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.45,
+     0.27
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "He banked America's blood. *Then they segregated it.*"
+   },
+   "captions": false,
+   "speed": 1.2
+  },
+  {
+   "id": "name",
+   "text": "Meet Dr. Charles Drew.",
+   "visual": {
+    "kind": "title",
+    "title": "Dr. Charles Drew",
+    "sub": "1904-1950"
+   },
+   "section": "who"
+  },
+  {
+   "id": "degree",
+   "text": "In 1940, he earned a doctorate at Columbia, with a study on how to store blood. He was the first African American to earn one there.",
+   "visual": {
+    "kind": "title",
+    "title": "\"Banked Blood\"",
+    "sub": "Columbia University, 1940"
+   },
+   "section": "story"
+  },
+  {
+   "id": "britain",
+   "text": "That year, Britain was at war and short of blood. Drew ran the Blood for Britain project.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.45,
+     0.27
+    ],
+    "zoom": [
+     1.12,
+     1.2
+    ],
+    "anchor": [
+     0.45,
+     0.27
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "New York",
+     "sub": "1940"
+    }
+   }
+  },
+  {
+   "id": "donors",
+   "text": "Nearly fifteen thousand people gave blood, and the plasma was shipped across the ocean.",
+   "visual": {
+    "kind": "card",
+    "image": "poster",
+    "caption": "American Red Cross Blood Donor Service poster, 1940s"
+   }
+  },
+  {
+   "id": "redcross",
+   "text": "In 1941, he became director of the first American Red Cross Blood Bank.",
+   "visual": {
+    "kind": "card",
+    "image": "letter",
+    "caption": "Drew's letter to the Red Cross, 1941"
+   }
+  },
+  {
+   "id": "trucks",
+   "text": "He set up trucks to collect blood, the idea later known as bloodmobiles.",
+   "visual": {
+    "kind": "card",
+    "image": "cars",
+    "caption": "Red Cross blood donor cars, Syracuse, New York, 1943"
+   }
+  },
+  {
+   "id": "rule",
+   "text": "Then came the rule. Blood from Black donors had to be kept separate.",
+   "visual": {
+    "kind": "title",
+    "title": "Separated",
+    "sub": "by race"
+   },
+   "section": "twist",
+   "overlays": {
+    "stamp": "1942"
+   }
+  },
+  {
+   "id": "science",
+   "text": "There was no scientific reason for it. Blood is blood.",
+   "visual": {
+    "kind": "title",
+    "title": "No scientific basis",
+    "sub": "blood is blood"
+   }
+  },
+  {
+   "id": "quit",
+   "text": "Drew objected, and he resigned.",
+   "visual": {
+    "kind": "title",
+    "title": "He resigned",
+    "sub": "American Red Cross, 1942"
+   }
+  },
+  {
+   "id": "howard",
+   "text": "He went back to Howard University to teach surgery.",
+   "visual": {
+    "kind": "card",
+    "image": "bgb",
+    "caption": "Dr. Charles R. Drew with young doctors, about 1945"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "death",
+   "text": "He died after a car crash in 1950. He was forty-five.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.45,
+     0.27
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.45,
+     0.27
+    ]
+   }
+  },
+  {
+   "id": "myth",
+   "text": "And the story that a white hospital refused to treat him? Historians call it a myth.",
+   "visual": {
+    "kind": "title",
+    "title": "Myth",
+    "sub": "He was treated. His injuries were too severe."
+   }
+  },
+  {
+   "id": "end",
+   "text": "He built the blood bank, and he would not accept its color line.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.45,
+     0.27
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.45,
+     0.27
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "name": "Wikipedia: Charles R. Drew",
+   "url": "https://en.wikipedia.org/wiki/Charles_R._Drew"
+  },
+  "NARA": {
+   "name": "National Archives, Prologue: Dr. Charles Drew, a Pioneer in Blood Transfusions",
+   "url": "https://prologue.blogs.archives.gov/?p=35631"
+  },
+  "LOC": {
+   "name": "Library of Congress, Headlines and Heroes: Dr. Charles R. Drew, blood bank pioneer",
+   "url": "https://blogs.loc.gov/headlinesandheroes/2021/02/dr-charles-r-drew-blood-bank-pioneer/"
+  },
+  "NATGEO": {
+   "name": "National Geographic: Meet the inventor of the Bloodmobile",
+   "url": "https://www.nationalgeographic.com/premium/article/blood-mobile-inventor-charles-drew"
+  }
+ },
+ "facts": [
+  {
+   "beat": "name",
+   "claim": "Died 1 April 1950 aged 45 (born 1904).",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "degree",
+   "claim": "Columbia doctorate 1940, thesis Banked Blood; first African American to earn it there.",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "britain",
+   "claim": "Medical director of Blood for Britain, New York, 1940.",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "donors",
+   "claim": "Nearly 15,000 donors (WIKI) / over 14,500 donations, plasma shipped to Britain (NARA).",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "redcross",
+   "claim": "Director of the first (WIKI) / new (NARA) American Red Cross Blood Bank, 1941.",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "trucks",
+   "claim": "Developed collection trucks later known as bloodmobiles.",
+   "sources": [
+    "WIKI",
+    "NATGEO"
+   ]
+  },
+  {
+   "beat": "rule",
+   "claim": "Blood of Black donors kept separate (Red Cross announced segregation Jan 1942).",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "science",
+   "claim": "No scientific basis for segregating blood.",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "quit",
+   "claim": "Objected and resigned (1942).",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "howard",
+   "claim": "Returned to Howard University / Freedmen's Hospital as surgeon and professor.",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "death",
+   "claim": "Died after a car crash near Burlington, NC, 1950, aged 45.",
+   "sources": [
+    "WIKI",
+    "NARA",
+    "LOC"
+   ]
+  },
+  {
+   "beat": "myth",
+   "claim": "Story that a white hospital refused him is a myth; injuries too severe.",
+   "sources": [
+    "WIKI",
+    "NARA",
+    "LOC"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Exact plasma volume (5,000 liters only in NARA; Wikipedia gives 5,500 vials).",
+  "Bloodmobile stated as his invention outright: worded as \"later known as bloodmobiles\"."
+ ]
+}

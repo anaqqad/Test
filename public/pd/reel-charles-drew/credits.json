@@ -1,0 +1,47 @@
+{
+ "portrait": {
+  "title": "File:Charles R. Drew - NARA - 559199.jpg",
+  "artist": "Betsy Graves Reyneau",
+  "date": "",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Charles_R._Drew_-_NARA_-_559199.jpg",
+  "width": 1920,
+  "height": 2532
+ },
+ "bgb": {
+  "title": "File:BGBBFJ Charles R. Drew.jpg",
+  "artist": "Harris and Ewing",
+  "date": "circa 1945",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:BGBBFJ_Charles_R._Drew.jpg",
+  "width": 1920,
+  "height": 1528
+ },
+ "letter": {
+  "title": "File:Letter from Charles R. Drew to the American Red Cross Reporting on Facilities for Collecting Blood in American Cities - DPLA - 51c42c8611c0de6d94b88d657d99a383 (page 1).gif",
+  "artist": "American Red Cross 2/12/1978",
+  "date": "9 January 1941",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Letter_from_Charles_R._Drew_to_the_American_Red_Cross_Reporting_on_Facilities_for_Collecting_Blood_in_American_Cities_-_DPLA_-_51c42c8611c0de6d94b88d657d99a383_(page_1).gif",
+  "width": 500,
+  "height": 644
+ },
+ "poster": {
+  "title": "File:Keep Both Life Lines Flowing - Whole Blood Flown Overseas Daily Blood Plasma Shipped Overseas Daily - American Red Cross Blood Donor Service - DPLA - 22dc23d6f00e3c3b36095bed326539ef.jpg",
+  "artist": "Kronengold, Adolph, 1900-1986",
+  "date": "",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Keep_Both_Life_Lines_Flowing_-_Whole_Blood_Flown_Overseas_Daily_Blood_Plasma_Shipped_Overseas_Daily_-_American_Red_Cross_Blood_Donor_Service_-_DPLA_-_22dc23d6f00e3c3b36095bed326539ef.jpg",
+  "width": 1920,
+  "height": 1450
+ },
+ "cars": {
+  "title": "File:Red Cross blood donor service cars from Syracuse, New York 8d31698v.jpg",
+  "artist": "Marjory Collins",
+  "date": "June 1943",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Red_Cross_blood_donor_service_cars_from_Syracuse,_New_York_8d31698v.jpg",
+  "width": 960,
+  "height": 971
+ }
+}
