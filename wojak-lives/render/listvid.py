@@ -39,8 +39,28 @@ def font(name, size):
     return render.font(name, size)
 
 
-# ------------------------------------------------------------------ flags (drawn, 3:2)
+# ------------------------------------------------------------------ flags (drawn, 3:2; any other ISO code from flagcdn)
+DRAWN_FLAGS = {"us", "mx", "de", "ca", "gb", "ie", "au", "kr", "fr", "se", "jp", "nl", "it", "cn", "co", "br"}
+FLAG_CACHE = HERE / "assets" / "list" / "flags"
+
+
 def flag(code, w=150):
+    if code in DRAWN_FLAGS:
+        return drawn_flag(code, w)
+    png = FLAG_CACHE / f"{code}.png"
+    if not png.exists():
+        FLAG_CACHE.mkdir(parents=True, exist_ok=True)
+        subprocess.run(["curl", "-sSfL", "-o", str(png), f"https://flagcdn.com/w640/{code}.png"], check=True)
+    im = Image.open(png).convert("RGBA")
+    h = w * 2 // 3
+    im.thumbnail((w, h), Image.LANCZOS)  # keeps odd shapes (Nepal) intact
+    out = Image.new("RGBA", (im.width + 6, im.height + 6), (255, 255, 255, 255) if im.getextrema()[3][0] == 255
+                    else (0, 0, 0, 0))
+    out.alpha_composite(im, (3, 3))
+    return out
+
+
+def drawn_flag(code, w=150):
     h = w * 2 // 3
     S = 4
     im = Image.new("RGB", (w * S, h * S), "white")
@@ -163,8 +183,8 @@ def title_bar(n, name, detail, code):
     d.text((x, BAR * 0.2), name, font=fn, fill=WHITE)
     d.text((x + text_w(name, fn) + 6, BAR * 0.29), detail, font=fd, fill=(205, 205, 205))
     if code:
-        f = flag(code, int(BAR * 0.92))
-        bar.paste(f, (W - f.width - int(W * 0.022), (BAR - f.height) // 2))
+        f = flag(code, int(BAR * 0.92)).convert("RGBA")
+        bar.alpha_composite(f, (W - f.width - int(W * 0.022), (BAR - f.height) // 2))
     return bar
 
 
@@ -319,8 +339,14 @@ MUSIC_CACHE = HERE / ".cache" / "music"
 def track_audio(title):
     MUSIC_CACHE.mkdir(parents=True, exist_ok=True)
     mp3 = MUSIC_CACHE / f"{title}.mp3"
-    if not mp3.exists():
-        url = "https://incompetech.com/music/royalty-free/mp3-royaltyfree/" + urllib.parse.quote(title) + ".mp3"
+    if not mp3.exists():  # file names differ from titles for ~120 tracks: look them up in the catalogue
+        cat = MUSIC_CACHE / "pieces.json"
+        if not cat.exists():
+            subprocess.run(["curl", "-sSfL", "-o", str(cat), "https://incompetech.com/music/royalty-free/pieces.json"],
+                           check=True)
+        names = {p["title"]: p["filename"] for p in json.load(open(cat))}
+        fn = urllib.parse.unquote(names.get(title, title + ".mp3"))
+        url = "https://incompetech.com/music/royalty-free/mp3-royaltyfree/" + urllib.parse.quote(fn)
         subprocess.run(["curl", "-sSfL", "-o", str(mp3), url], check=True)
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(mp3), "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
                          check=True, capture_output=True).stdout

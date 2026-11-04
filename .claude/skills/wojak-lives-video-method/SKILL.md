@@ -160,7 +160,17 @@ with YouTube Studio **Test & Compare** (up to 3 thumbnails; YouTube picks the wi
 Learned frame by frame from two reference clips ("Every dictator #1–#60", "#1–#30" list). Engine:
 `python3 wojak-lives/render/listvid.py wojak-lives/render/episodes/list_<slug>.py` (`--still N` for entry N).
 Examples: `episodes/list_every_mom.py` (16 moms, 2:08), `episodes/list_gangs.py` (19 gangs oldest→newest, 2:32).
-**Lists done:** Every Type of Mom, Most Notorious Gangs.
+**Lists done:** Every Type of Mom, Most Notorious Gangs, Languages With Mysterious Origins, Types of Guys During NNN.
+**Short lists (owner's LingoDude-style references, ~31k views):** 10 entries x 7.5 s = 1:15, e.g.
+`list_languages.py`, `list_nnn.py`. Topics that work: language facts (mysterious origins, almost no speakers
+left, hardest to learn) and seasonal "Types of guys during ___" (NNN in November). Covers for these use
+`cover.py` `LIST_COVERS` / `cover_list()`: white header band with the entry name + flag, a big ChatGPT Wojak
+on the left, 2 huge red words with a white outline on the right ("NO RELATIVES", "SEND HELP").
+**Flags:** any ISO code works (`flag="np"`); codes not drawn in listvid are downloaded from flagcdn.com.
+`flag=None` hides it. **Images:** `python3 render/fetch_images.py render/sources_<slug>.json` pulls CC0 /
+public-domain photos from Openverse (no credit needed). Always check a contact sheet: wrong hits (real
+politicians, unrelated objects) get replaced with photoreal images generated through Codex (same command
+as the Wojaks, "photorealistic", "no people").
 - **Rhythm:** one entry every 7–8.5 s (`entry_dur`), hard cuts, no intro, no outro, no voice. 12–20 entries for
   2–3 min; 60+ entries for 8+ min (mid-roll ads).
 - **Frame:**

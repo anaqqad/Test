@@ -86,6 +86,54 @@ def solo(name, x=0.5):
     return [dict(name=name, x=x, top=0.24, height=H * 1.15)]
 
 
+def cover_list(key, bg, char, header, flag_code, lines):
+    """Reference list-channel look (LingoDude-style): white header band with the entry name + flag, a big
+    ChatGPT Wojak bottom-left on a sharp photo, huge red words with a white outline on the right."""
+    import listvid
+    render.W, render.H = W, H
+    band = int(H * 0.16)
+    base = Image.new("RGBA", (W, H), "white")
+    ph = ImageOps.fit(Image.open(HERE / "assets" / bg).convert("RGB"), (W, H - band), Image.LANCZOS)
+    base.paste(ImageEnhance.Color(ph).enhance(1.15), (0, band))
+    d = ImageDraw.Draw(base)
+    fh = render.font("baloo", int(band * 0.62))
+    fl = listvid.flag(flag_code, int(band * 0.78)).convert("RGBA") if flag_code else None
+    tw = d.textlength(header, font=fh) + (fl.width + 24 if fl else 0)
+    x = (W - tw) / 2
+    d.text((x, band * 0.12), header, font=fh, fill=(0, 0, 0))
+    if fl:
+        base.alpha_composite(fl, (int(x + d.textlength(header, font=fh) + 24), (band - fl.height) // 2))
+    im = char_img(char)
+    hgt = (H - band) * 1.02
+    im = im.resize((int(im.width * hgt / im.height), int(hgt)), Image.LANCZOS)
+    if im.width > W * 0.52:
+        im = im.resize((int(W * 0.52), int(im.height * W * 0.52 / im.width)), Image.LANCZOS)
+    base.alpha_composite(im, (-int(im.width * 0.04), H - im.height))
+    fr = render.font("lilita", 10)
+    size = min(int(H * 0.26), *(int(10 * W * 0.44 / max(1, d.textlength(l, font=fr))) for l in lines))
+    fr = render.font("lilita", size)
+    total = len(lines) * size * 1.08
+    y = band + (H - band - total) / 2
+    cx = W * 0.73
+    for l in lines:
+        lw = d.textlength(l, font=fr)
+        d.text((cx - lw / 2 + 6, y + 8), l, font=fr, fill=(0, 0, 0, 120), stroke_width=int(size * 0.09),
+               stroke_fill=(0, 0, 0, 120))
+        d.text((cx - lw / 2, y), l, font=fr, fill=(232, 32, 42), stroke_width=int(size * 0.09),
+               stroke_fill="white")
+        y += size * 1.08
+    OUT.mkdir(parents=True, exist_ok=True)
+    base.convert("RGB").save(OUT / f"{key}.png", quality=95)
+    print(OUT / f"{key}.png")
+
+
+LIST_COVERS = {
+    "languages_A": ("list/bg/lang_island.jpg", "l_sentinel", "Sentinelese", "in", ["NOBODY", "KNOWS IT"]),
+    "languages_B": ("list/bg/lang_iran.jpg", "l_kusunda", "Sumerian", "iq", ["NO", "RELATIVES"]),
+    "nnn_A": ("list/bg/nnn_night.jpg", "n_doomer", "NNN: Day 25", None, ["SEND", "HELP"]),
+    "nnn_B": ("list/bg/nnn_bathroom.jpg", "n_cold", "NNN: Day 9", None, ["3 COLD", "SHOWERS"]),
+}
+
 B = "bg169/"
 COVERS = {
     # key: (background, characters, tag text)
@@ -120,3 +168,6 @@ if __name__ == "__main__":
     for key, (bg, chars, text) in COVERS.items():
         if key.startswith(want):
             cover(key, bg, chars, text)
+    for key, args in LIST_COVERS.items():
+        if key.startswith(want):
+            cover_list(key, *args)
