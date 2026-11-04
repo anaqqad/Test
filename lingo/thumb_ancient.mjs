@@ -39,7 +39,7 @@ ${P.tag ? `<div class="a" style="right:28px;top:26px;background:#c0392b;color:#f
 </div>`;
 const f = path.join(HERE, "cache", "pages", `thumb_ancient${PART}.html`);
 fs.writeFileSync(f, html);
-const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
 const p = await b.newPage({ viewport: { width: 1280, height: 720 } });
 await p.goto(pathToFileURL(f).href); await p.evaluate(() => document.fonts.ready);
 await p.screenshot({ path: path.join(HERE, "out", "brand", P.out) });

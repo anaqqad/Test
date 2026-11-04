@@ -18,7 +18,7 @@ const html = `<!doctype html><meta charset="utf-8">${font}<style>*{margin:0;padd
 <div style="display:inline-block;margin-top:28px;background:#e74c3c;color:#fff;font-weight:800;font-size:58px;padding:8px 30px;border-radius:18px;box-shadow:0 8px 0 rgba(0,0,0,.5)">"YES. THANK YOU."</div></div>`;
 const f = path.join(HERE, "cache", "pages", "thumb_a2.html");
 fs.writeFileSync(f, html);
-const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
 const p = await b.newPage({ viewport: { width: 1280, height: 720 } });
 await p.goto(pathToFileURL(f).href); await p.evaluate(() => document.fonts.ready);
 await p.screenshot({ path: path.join(HERE, "out", "brand", "thumb_a2usa.png") });

@@ -13,7 +13,7 @@ const html = `<!doctype html><meta charset="utf-8">${css}<style>*{margin:0;paddi
 <img class="a" src="${url("wojaks/babycry.png")}" style="left:-10px;bottom:0;height:640px;max-width:640px;object-fit:contain;object-position:left bottom">
 <div class="a" style="right:44px;top:112px;display:flex;flex-direction:column;gap:22px;align-items:flex-end">${flagBox("fr", "↗", "#1d8fe0")}${flagBox("de", "↘", "#e8262b")}</div>
 <div class="a" style="right:40px;bottom:46px;width:760px;text-align:right;font-weight:800;font-size:96px;line-height:1.02;color:#e8262b;text-shadow:${stroke(7, "#fff")},0 10px 20px rgba(0,0,0,.35)">Crying With<br>an Accent?!</div>`;
-const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
 const p = await b.newPage({ viewport: { width: 1280, height: 720 } });
 const f = path.join(HERE, "cache", "pages", "thumb_babycry.html");
 (await import("node:fs")).writeFileSync(f, html);

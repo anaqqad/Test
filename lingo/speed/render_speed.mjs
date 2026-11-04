@@ -100,7 +100,7 @@ document.getElementById('fade').style.opacity=Math.max(0,1-t/0.4,(t-${dur - 0.4}
 
 const pages = [["00_intro", ...titlePage()], ...order.map((k, i) => [`${String(i + 1).padStart(2, "0")}_${k}`, ...langPage(k, i)]), ["99_board", ...boardPage()]];
 const TMP = path.join(L, "cache", "clips", "speed"); fs.mkdirSync(TMP, { recursive: true });
-const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
 for (const [name, dur, html] of pages) {
   const f = path.join(TMP, name + ".mp4");
   await renderClip(b, html, dur, f, stills);

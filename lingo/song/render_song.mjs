@@ -131,7 +131,7 @@ window.setT=(t)=>{
 </script></body></html>`;
 
 const outFile = path.join(LINGO, "out", "whistle_song_video.mp4");
-const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
 await renderClip(b, html, TL.duration, outFile, stills);
 await b.close();
 if (!stills) {

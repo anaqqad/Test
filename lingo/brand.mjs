@@ -43,7 +43,7 @@ for (const [k, [t1, t2, i, col]] of Object.entries(thumbs)) {
       <div style="display:inline-block;margin-top:26px;background:${col};color:#fff;font-weight:800;font-size:64px;padding:8px 34px;border-radius:18px;box-shadow:0 8px 0 rgba(0,0,0,.5)">${t2}</div></div>
     </body>`];
 }
-const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
 for (const [name, [w, h, body]] of Object.entries(pages)) {
   const page = await browser.newPage({ viewport: { width: w, height: h } });
   const f = path.join(HERE, "cache", "pages", `brand_${name}.html`);

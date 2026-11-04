@@ -324,7 +324,7 @@ async function main() {
   const itemsArg = opt("items", null);
   let sel = video.items.map((_, i) => i);
   if (itemsArg) { const [a, b] = String(itemsArg).split("-").map(Number); sel = sel.filter((i) => i >= a && i <= (b ?? a)); }
-  const browser = await chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--font-render-hinting=none", "--disable-lcd-text"] });
+  const browser = await chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none", "--disable-lcd-text"] });
   const dir = path.join(CACHE, "clips", vkey);
   fs.mkdirSync(dir, { recursive: true });
   const jobs = [];

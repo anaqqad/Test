@@ -123,7 +123,7 @@ function cardPage(title, sub, dur) {
 }
 
 async function main() {
-  const browser = await chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--font-render-hinting=none"] });
+  const browser = await chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none"] });
   const clipDir = path.join(HERE, "cache", "clips", SKIT.key);
   fs.mkdirSync(clipDir, { recursive: true });
   const jobs = [{ name: "intro", dur: 3.5, html: cardPage(SKIT.title, "😅 a survival story", 3.5) }];

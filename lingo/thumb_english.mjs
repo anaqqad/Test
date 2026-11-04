@@ -33,7 +33,7 @@ ${stops.map(([yr, say, ch, col], i) => {
 ${[0, 1, 2].map((i) => `<div class="a" style="left:${40 + (i + 1) * W - 26}px;top:658px;font-weight:800;font-size:44px;color:#ffd75e;text-shadow:${outline(3)}">➜</div>`).join("")}`;
 const f = path.join(HERE, "cache", "pages", "thumb_english.html");
 fs.writeFileSync(f, html);
-const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
 const p = await b.newPage({ viewport: { width: 1280, height: 720 } });
 await p.goto(pathToFileURL(f).href); await p.evaluate(() => document.fonts.ready);
 await p.screenshot({ path: path.join(HERE, "out", "brand", "thumb_english.png") });

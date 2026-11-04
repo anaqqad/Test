@@ -129,7 +129,7 @@ add("outro", 6, `<div class="a" id="bg" style="opacity:.35">${scene("abstract", 
 
 // ---------- render ----------
 const stills = opt("still", null);
-const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--font-render-hinting=none"] });
+const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none"] });
 const clips = [];
 for (const [i, s] of scenes.entries()) {
   const f = path.join(TMP, `${String(i).padStart(2, "0")}_${s.name}.mp4`);

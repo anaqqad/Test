@@ -99,7 +99,7 @@ add("outro", 7, `<div class="a" id="bg" style="opacity:.35">${scene("abstract", 
     <div data-in="1.4" class="f" style="margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:10px 80px;font-weight:700;font-size:32px;text-align:left">${[...items].reverse().map((it, i) => `<div>#${it.rank || i + 1} ${esc(it.name)} <span style="color:#ffcf5c">${it.count.toLocaleString("en-US")}</span></div>`).join("")}</div></div>`);
 
 const stills = opt("still", null);
-const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--font-render-hinting=none"] });
+const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none"] });
 const clips = [];
 for (const [i, s] of scenes.entries()) {
   const f = path.join(TMP, `${String(i).padStart(2, "0")}_${s.name}.mp4`);

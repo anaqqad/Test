@@ -82,7 +82,7 @@ const T = {
   conlangs2: { part: "PART 2", name: "Uropi", photo: "conlangs2", pos: "50% 50%", flagUrl: pathToFileURL(path.join(HERE, "flags", "uropi.svg")).href, hook: ["Someone", "Invented It"] },
   extinct: { part: "PART 1", name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },
   whistlesong: { name: "Whistled Languages", photo: "whistled", pos: "50% 50%", flag: "es", hook: ["I Made", "a Song?!"] },
-  tonal3: { part: "PART 3", name: "Triqui", photo: "tonal3", pos: "50% 50%", flag: "mx", hook: ["8 Tones", "in 1 Word?!"], hookSize: 96 },
+  tonal3: { part: "PART 3", name: "Triqui", photo: "tonal3", pos: "50% 50%", flag: "mx", hook: ["Up to", "8 Tones?!"] },
   tonal2: { part: "PART 2", name: "Cantonese", photo: "tonal2", pos: "50% 50%", flag: "hk", hook: ["6 Tones", "for 1 Word?!"], hookSize: 92 },
   tonal: { part: "PART 1", name: "Mandarin", photo: "tonal", pos: "50% 40%", flag: "cn", hook: ["Buy or", "Sell?!"] },
   native: { name: "Navajo", photo: "native", pos: "50% 40%", flag: "us", hook: ["Spoken Before", "English"], hookSize: 84 },
@@ -103,7 +103,7 @@ ${t.flag2 ? `<div class="a" style="right:360px;top:112px;width:300px;height:200p
 <div class="a" style="right:40px;bottom:56px;width:720px;text-align:right;font-weight:800;font-size:${t.hookSize || 104}px;line-height:1.02;color:${t.hookColor || "#e8262b"};text-shadow:${stroke(7, "#fff")},0 10px 20px rgba(0,0,0,.45)">${t.hook.join("<br>")}</div>`;
 
 const keys = process.argv.slice(2).length ? process.argv.slice(2) : Object.keys(T);
-const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
 for (const k of keys) {
   // a character drawn elsewhere (e.g. made in ChatGPT, transparent PNG) wins over the built-in drawing
   const own = path.join(HERE, "wojaks", `${k}.png`);

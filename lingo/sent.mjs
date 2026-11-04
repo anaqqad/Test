@@ -118,7 +118,7 @@ add("outro", 6, `<div class="a" id="bg" style="opacity:.35">${scene("abstract", 
     <div data-in="1.4" class="f" style="margin-top:50px;display:flex;flex-direction:column;gap:14px;font-weight:700;font-size:34px">${[...order].reverse().map((o, i) => `<div>#${i + 1} ${esc(PAIRS[o.k].na)} – ${esc(PAIRS[o.k].nb)} <span style="color:#34c759">${o.sc.total}%</span></div>`).join("")}</div></div>`);
 
 const stills = opt("still", null);
-const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--font-render-hinting=none"] });
+const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none"] });
 const clips = [];
 for (const [i, s] of scenes.entries()) {
   const f = path.join(TMP, `${String(i).padStart(2, "0")}_${s.name}.mp4`);

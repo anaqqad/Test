@@ -286,7 +286,7 @@ async function main() {
   const ep = EPISODES[key], items = episodeData(ep);
   const html = page(ep, items);
   const dur = T.cold + T.title + items.length * T.block + T.outro;
-  const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+  const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
   const video = path.join(OUT, `${key}_video.mp4`);
   const stills = opt("still", null);
   await renderClip(browser, html, dur, video, stills ? String(stills).split(",").map(Number) : null);
