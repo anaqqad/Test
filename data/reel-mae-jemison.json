@@ -1,0 +1,372 @@
+{
+ "id": "reel-mae-jemison",
+ "title": "She Went to Space, Then Onto Star Trek.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_flash_v2_5",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "assets": {
+  "portrait": {
+   "commons": "File:Mae Carol Jemison.jpg"
+  },
+  "cand": {
+   "commons": "File:Mae Jemison - Official portrait of 1987 astronaut candidate.jpg"
+  },
+  "launch": {
+   "commons": "File:STS-047 shuttle.jpg"
+  },
+  "float": {
+   "commons": "File:Mae Jemison in Space.jpg"
+  },
+  "sensors": {
+   "commons": "File:Mae Jemison floating in space during STS-47.jpg"
+  },
+  "lab": {
+   "commons": "File:S47-235-031 - STS-047 - MS Jemison at various stations in SLJ - DPLA - f062fc192046da8d41a71ea4efc0e2b0.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "She went to space, then onto Star Trek.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.52,
+     0.2
+    ],
+    "zoom": [
+     1.25,
+     1.32
+    ],
+    "anchor": [
+     0.52,
+     0.2
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "She went to space, *then onto Star Trek.*"
+   },
+   "captions": false,
+   "speed": 1.2
+  },
+  {
+   "id": "name",
+   "text": "Meet Dr. Mae Jemison.",
+   "visual": {
+    "kind": "title",
+    "title": "Dr. Mae Jemison",
+    "sub": "born 1956"
+   },
+   "section": "who"
+  },
+  {
+   "id": "kid",
+   "text": "Growing up in Chicago, she watched Star Trek, and Lieutenant Uhura, played by Nichelle Nichols.",
+   "visual": {
+    "kind": "title",
+    "title": "Lt. Uhura",
+    "sub": "played by Nichelle Nichols"
+   },
+   "section": "story"
+  },
+  {
+   "id": "school",
+   "text": "At sixteen, she went to Stanford. Then she became a medical doctor.",
+   "visual": {
+    "kind": "title",
+    "title": "Stanford at 16",
+    "sub": "then a medical degree, 1981"
+   }
+  },
+  {
+   "id": "peace",
+   "text": "She served as a Peace Corps doctor in Sierra Leone and Liberia.",
+   "visual": {
+    "kind": "title",
+    "title": "Peace Corps doctor",
+    "sub": "Sierra Leone and Liberia"
+   }
+  },
+  {
+   "id": "nasa",
+   "text": "In 1987, NASA picked her, one of fifteen chosen from about two thousand applicants.",
+   "visual": {
+    "kind": "card",
+    "image": "cand",
+    "caption": "Astronaut candidate Mae Jemison, 1987"
+   }
+  },
+  {
+   "id": "launch",
+   "text": "On September 12, 1992, the shuttle Endeavour lifted off.",
+   "visual": {
+    "kind": "card",
+    "image": "launch",
+    "caption": "Endeavour lifts off, September 12, 1992"
+   },
+   "overlays": {
+    "stamp": "1992"
+   }
+  },
+  {
+   "id": "first",
+   "text": "She became the first African American woman in space.",
+   "visual": {
+    "kind": "photo",
+    "image": "float",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   },
+   "section": "twist"
+  },
+  {
+   "id": "hail",
+   "text": "And she opened her shifts with Uhura's own line: hailing frequencies open.",
+   "visual": {
+    "kind": "title",
+    "title": "\"Hailing frequencies open\"",
+    "sub": "on board Endeavour, 1992"
+   }
+  },
+  {
+   "id": "coleman",
+   "text": "She also carried a photo of the aviator Bessie Coleman.",
+   "visual": {
+    "kind": "card",
+    "image": "lab",
+    "caption": "Mae Jemison at work in Spacelab, 1992"
+   }
+  },
+  {
+   "id": "science",
+   "text": "For eight days she ran experiments, on bone cells, frog eggs and motion sickness.",
+   "visual": {
+    "kind": "card",
+    "image": "sensors",
+    "caption": "Testing motion sickness training in orbit"
+   }
+  },
+  {
+   "id": "quit",
+   "text": "1993, she left NASA.",
+   "visual": {
+    "kind": "title",
+    "title": "She left NASA",
+    "sub": "1993"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "trek",
+   "text": "That same year, she appeared on Star Trek: The Next Generation. The first real astronaut on Star Trek.",
+   "visual": {
+    "kind": "title",
+    "title": "Star Trek",
+    "sub": "The Next Generation, 1993"
+   }
+  },
+  {
+   "id": "end",
+   "text": "Star Trek showed her space. She went, and came back a real astronaut.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.52,
+     0.2
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.52,
+     0.2
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "name": "Wikipedia: Mae Jemison",
+   "url": "https://en.wikipedia.org/wiki/Mae_Jemison"
+  },
+  "NASA": {
+   "name": "NASA: Mae C. Jemison",
+   "url": "https://www.nasa.gov/?p=319207"
+  },
+  "NWHM": {
+   "name": "National Women's History Museum: Mae Jemison",
+   "url": "https://www.womenshistory.org/education-resources/biographies/mae-jemison"
+  },
+  "SLASH": {
+   "name": "SlashFilm: Nichelle Nichols inspired the first African American woman to go to space",
+   "url": "https://www.slashfilm.com/947294/nichelle-nichols-inspired-the-first-african-american-woman-to-go-to-space"
+  },
+  "STARTREK": {
+   "name": "StarTrek.com: Catching up with Dr. Mae Jemison",
+   "url": "https://www.startrek.com/news/catching-up-with-dr-mae-jemison"
+  },
+  "GRYPHON": {
+   "name": "The Gryphon: Mae Jemison, the first Black woman in space",
+   "url": "https://thegryphon.co.uk/2022/11/15/mae-jemison-the-first-black-woman-in-space"
+  }
+ },
+ "facts": [
+  {
+   "beat": "name",
+   "claim": "Born 17 Oct 1956, Decatur, Alabama.",
+   "sources": [
+    "WIKI",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "kid",
+   "claim": "Raised in Chicago; Star Trek and Nichols as Uhura inspired her.",
+   "sources": [
+    "WIKI",
+    "SLASH"
+   ]
+  },
+  {
+   "beat": "school",
+   "claim": "Left for Stanford at 16 (1973); MD Cornell 1981.",
+   "sources": [
+    "WIKI",
+    "NWHM",
+    "NASA"
+   ]
+  },
+  {
+   "beat": "peace",
+   "claim": "Peace Corps medical officer, Sierra Leone and Liberia, 1983-85.",
+   "sources": [
+    "WIKI",
+    "NASA",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "nasa",
+   "claim": "Selected 1987, one of 15 from about 2,000 applicants.",
+   "sources": [
+    "WIKI",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "launch",
+   "claim": "STS-47 Endeavour launched 12 Sept 1992.",
+   "sources": [
+    "WIKI",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "first",
+   "claim": "First African American woman in space.",
+   "sources": [
+    "WIKI",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "hail",
+   "claim": "Opened communications/shifts with \"Hailing frequencies open.\"",
+   "sources": [
+    "WIKI",
+    "GRYPHON"
+   ]
+  },
+  {
+   "beat": "coleman",
+   "claim": "Carried a photo of Bessie Coleman.",
+   "sources": [
+    "WIKI",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "science",
+   "claim": "About 8 days (12-20 Sept); bone cell, frog, motion sickness experiments.",
+   "sources": [
+    "WIKI",
+    "NASA"
+   ]
+  },
+  {
+   "beat": "quit",
+   "claim": "Left NASA in 1993 (March).",
+   "sources": [
+    "WIKI",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "trek",
+   "claim": "Appeared in TNG \"Second Chances\" (1993); first real astronaut on Star Trek.",
+   "sources": [
+    "WIKI",
+    "SLASH",
+    "STARTREK"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Nichols visiting the set (sources hedge).",
+  "Her rank in the episode (sources say Lieutenant or Ensign Palmer).",
+  "Exact hours in space (190 h 30 min) not in a second checked source."
+ ]
+}

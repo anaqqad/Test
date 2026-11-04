@@ -1,0 +1,56 @@
+{
+  "portrait": {
+    "title": "File:Mae Carol Jemison.jpg",
+    "artist": "NASA",
+    "date": "Taken on 1 July 1992",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Mae_Carol_Jemison.jpg",
+    "width": 1920,
+    "height": 2400
+  },
+  "cand": {
+    "title": "File:Mae Jemison - Official portrait of 1987 astronaut candidate.jpg",
+    "artist": "NASA",
+    "date": "Taken on 15 October 1987",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Mae_Jemison_-_Official_portrait_of_1987_astronaut_candidate.jpg",
+    "width": 1920,
+    "height": 2400
+  },
+  "launch": {
+    "title": "File:STS-047 shuttle.jpg",
+    "artist": "NASA",
+    "date": "Taken on 12 September 1992",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:STS-047_shuttle.jpg",
+    "width": 1920,
+    "height": 2884
+  },
+  "float": {
+    "title": "File:Mae Jemison in Space.jpg",
+    "artist": "NASA",
+    "date": "between 12 September 1992 and 20 September 1992",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Mae_Jemison_in_Space.jpg",
+    "width": 1920,
+    "height": 1276
+  },
+  "sensors": {
+    "title": "File:Mae Jemison floating in space during STS-47.jpg",
+    "artist": "NASA",
+    "date": "between 12 September 1992 and 20 September 1992",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Mae_Jemison_floating_in_space_during_STS-47.jpg",
+    "width": 1920,
+    "height": 2921
+  },
+  "lab": {
+    "title": "File:S47-235-031 - STS-047 - MS Jemison at various stations in SLJ - DPLA - f062fc192046da8d41a71ea4efc0e2b0.jpg",
+    "artist": "National Aeronautics and Space Administration. Lyndon B. Johnson Space Center. 2/17/1973",
+    "date": "between 12 September 1992 and 20 September 1992",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:S47-235-031_-_STS-047_-_MS_Jemison_at_various_stations_in_SLJ_-_DPLA_-_f062fc192046da8d41a71ea4efc0e2b0.jpg",
+    "width": 1920,
+    "height": 3051
+  }
+}
