@@ -66,3 +66,7 @@ Not posted unless asked.
 - Altered or synthetic content: **No**, always (owner's rule).
 - Captions: `out/whitewater-camp.srt` (Languages → Upload manual; if it lands as a draft, Edit subtitles → Publish).
 - End screen: the Krug and Stephan episode (Q5RCVPH9p4w) plus a subscribe button, last 20 s.
+
+**Published** 4 Nov 2026, public: https://youtu.be/jeCUV-vg0a8 (thumbnail A, Education, not made for kids, altered content
+No, 17 tags, checks complete with no issues, English captions from `out/whitewater-camp.srt` published, end screen: Krug and
+Stephan + subscribe, last 20 s).

@@ -19,7 +19,7 @@ Manitoba, in western Canada.
 At about half past ten, someone knocked on
 
 6
-00:00:13,165 --> 00:00:13,000
+00:00:13,165 --> 00:00:14,000
 the door.
 
 7
@@ -339,11 +339,11 @@ work hard once they arrived.
 The work was cutting firewood.
 
 86
-00:03:24,713 --> 00:03:27,472
+00:03:24,712 --> 00:03:27,472
 The men worked in gangs, eight hours a
 
 87
-00:03:27,493 --> 00:03:29,210
+00:03:27,492 --> 00:03:29,210
 day, six days a week.
 
 88
@@ -963,11 +963,11 @@ In the middle of 1944, the camp was cut to
 about two hundred men.
 
 242
-00:09:41,979 --> 00:09:45,783
+00:09:41,979 --> 00:09:45,782
 By the spring of 1945, the prisoners were
 
 243
-00:09:45,803 --> 00:09:48,530
+00:09:45,802 --> 00:09:48,530
 bored with cutting wood, and slowed down
 
 244

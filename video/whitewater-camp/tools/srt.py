@@ -43,7 +43,9 @@ flush()
 for a, b in zip(cues, cues[1:]):
     a[2] = min(max(a[2], a[1] + 0.8), b[1] - 0.02)  # at least 0.8 s on screen, never overlapping the next cue
 
-ts = lambda s: f"{int(s // 3600):02d}:{int(s % 3600 // 60):02d}:{int(s % 60):02d},{int(round(s % 1 * 1000)) % 1000:03d}"
+def ts(s):  # round to whole milliseconds first, so 13.9996 becomes 14,000 and not 13,000
+    ms = round(s * 1000)
+    return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
 out = ROOT / f"out/{ROOT.name}.srt"
 out.parent.mkdir(exist_ok=True)
 out.write_text("".join(f"{i}\n{ts(a)} --> {ts(b)}\n{t}\n\n" for i, (t, a, b) in enumerate(cues, 1)), encoding="utf-8")
