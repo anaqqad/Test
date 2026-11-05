@@ -1,7 +1,7 @@
 {
  "_note": "Ranking Languages by How Many Sounds They Have. Count = median total of consonants + vowels + tones across all PHOIBLE 2.0 inventories for the language (marginal sounds excluded; sounds_data/count.py, sounds_data/ranking.json). Languages whose studies disagree a lot (Japanese 18-40, Spanish 25-45, Finnish 19-42, Hawaiian 13-19, Hungarian 39-65, Hindi 51-94) are left out. Circassian: Kabardian median 55 (Adyghe 59 in one study). Abkhaz dropped (no speech recording); Rotokas (11) has no recording, Pirahã (11, two studies agree) used instead.",
  "title": "Ranking Languages by How Many Sounds They Have",
- "subtitle": "CONSONANTS + VOWELS + TONES (SOURCE: PHOIBLE)",
+ "subtitle": "CONSONANTS + VOWELS + TONES",
  "meter": "Sounds in the language",
  "meter_unit": "SOUNDS",
  "word_label": "Signature sound",
@@ -21,7 +21,7 @@
    "word": "ǃ ǂ ǀ ǁ",
    "lit": "clicks, the bulk of its 130 consonants",
    "cards": [
-    "161 sounds in the study PHOIBLE lists: 130 consonants, most of them clicks, plus vowels and tones.",
+    "161 sounds in the main study: 130 consonants, most of them clicks, plus vowels and tones.",
     "Only a few thousand people speak it, in Botswana and Namibia."
    ],
    "local": {
@@ -47,7 +47,7 @@
    "word": "c, q, x",
    "lit": "written letters for clicks",
    "cards": [
-    "84 sounds in PHOIBLE's study, including about 15 to 20 clicks written with c, q and x.",
+    "84 sounds in the main study, including about 15 to 20 clicks written with c, q and x.",
     "Xhosa was Nelson Mandela's mother tongue."
    ],
    "local": {
