@@ -446,6 +446,65 @@ export const VIDEOS = {
       },
     ],
   },
+  isolates2: {
+    title: "Language Isolates be like…", // YouTube: "... (Part 2)"; Part 1 = isolates
+    part: "Part 2",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#00a8a8",
+    items: [
+      {
+        name: "Purépecha", wojak: "i2_tsz_f", flag: "mx", speakers: "~140,000", scene: "sierra", loc: null,
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#b22222", vest: "#b22222" }, expression: "smile" },
+        cards: [
+          "Purépecha is spoken by about 140,000 people in Michoacán, western Mexico, around Lake Pátzcuaro.",
+          "Its speakers built the Tarascan state, which the Aztecs tried to conquer and never could. Their language has no known relative.",
+          "It has a different greeting for morning, afternoon and night. The voice is from Michoacán Intercultural, which teaches Purépecha online.",
+        ],
+        audio: { file: "cache/isolates2/src/purepecha.m4a", start: 341.2 }, // built by build_isolates2.py
+      },
+      {
+        name: "Ticuna", wojak: "i2_tca", flag: "br", speakers: "~50,000", scene: "amazon", loc: null,
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#2f5d3a", vest: "#2f5d3a" }, expression: "smile" },
+        cards: [
+          "Ticuna is spoken by about 50,000 people along the Amazon River, where Brazil, Peru and Colombia meet.",
+          "It is one of the most tonal languages of the Americas: the pitch of each syllable changes what a word means.",
+          "No relative has ever been proven. The voice is Abel Antonio Santos, a Ticuna speaker from Colombia, recorded by Rising Voices.",
+        ],
+        audio: { file: "cache/isolates2/src/ticuna.webm", start: 8.3 },
+      },
+      {
+        name: "Hadza", wojak: "i2_hts", flag: "tz", speakers: "~1,000", scene: "savanna", loc: null,
+        char: { skin: "dark", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#a0673f", vest: "#a0673f" }, expression: "smile" },
+        cards: [
+          "Hadza is spoken by about 1,000 people near Lake Eyasi in Tanzania, some of the last hunter-gatherers in Africa.",
+          "Like Sandawe from Part 1, it uses click sounds, yet the two are not related to each other or to any other language.",
+          "Most Hadza children still learn it at home. This is a story told in Hadza, recorded in 1991.",
+        ],
+        audio: { file: "cache/isolates2/src/hadza.mp4", start: 2.0 },
+      },
+      {
+        name: "Haida", wojak: "i2_hai", flag: "ca", speakers: "a few dozen", scene: "alaska", loc: null,
+        char: { skin: "tan", hair: "long", hairColor: "black", outfit: { type: "coat", color: "#1f3a5a", inner: "#b22222" }, expression: "smile" },
+        cards: [
+          "Haida is spoken on Haida Gwaii, islands off the coast of British Columbia, Canada, and in southern Alaska.",
+          "It was once grouped with the Na-Dene languages, like Navajo, but most linguists now see it as an isolate. Only a few elders speak it as a first language.",
+          "Learners are bringing it back. This is a clapping chant: 'Sán uu áayaad sangée g̱íidang?' means 'How is the weather today?'",
+        ],
+        audio: { file: "cache/isolates2/src/haida.mp4", start: 0.4 },
+      },
+      {
+        name: "Karuk", wojak: "i2_kyh", flag: "us", speakers: "a few fluent", scene: "forest", loc: null,
+        char: { skin: "tan", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#4a5a2a", vest: "#4a5a2a" }, expression: "smile" },
+        cards: [
+          "Karuk is spoken along the Klamath River in northern California, USA.",
+          "Its neighbours, Yurok and Hupa, speak languages from completely different families. Karuk has no proven relative at all.",
+          "Only a handful of elders spoke it fluently, so learners now study recordings like this one: a conversation lesson by Julian Lang.",
+        ],
+        audio: { file: "cache/isolates2/src/karuk.webm", start: 32.0 },
+      },
+    ],
+  },
   conlangs3: {
     title: "People Actually Speak These Made-Up Languages", // YouTube: "... (Part 3)"
     part: "Part 3",
