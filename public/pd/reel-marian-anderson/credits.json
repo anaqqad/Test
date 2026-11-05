@@ -1,0 +1,65 @@
+{
+  "portrait": {
+    "title": "File:Portrait of Marian Anderson LCCN2004662517.jpg",
+    "artist": "Carl Van Vechten",
+    "date": "1940",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Marian_Anderson_LCCN2004662517.jpg",
+    "width": 1920,
+    "height": 2399
+  },
+  "color": {
+    "title": "File:Marian Anderson by Carl Van Vechten.jpg",
+    "artist": "Carl Van Vechten",
+    "date": "1940-01-14",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten.jpg",
+    "width": 1920,
+    "height": 2768
+  },
+  "hall": {
+    "title": "File:Constitution Hall, Washington, D.C. LOC gsc.5a17022.jpg",
+    "artist": "Gottscho-Schleisner Collection",
+    "date": "1944",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Constitution_Hall,_Washington,_D.C._LOC_gsc.5a17022.jpg",
+    "width": 305,
+    "height": 420
+  },
+  "crowd": {
+    "title": "File:Masses listen while negress sings. Washington, D.C., April 9. An estimated 75,000 people of all races massed before the Lincoln Memorial today while negro contralto Marian Anderson staged on LCCN2016875406.jpg",
+    "artist": "Harris & Ewing, photographer",
+    "date": "1939",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Masses_listen_while_negress_sings._Washington,_D.C.,_April_9._An_estimated_75,000_people_of_all_races_massed_before_the_Lincoln_Memorial_today_while_negro_contralto_Marian_Anderson_staged_on_LCCN2016875406.jpg",
+    "width": 1920,
+    "height": 1531
+  },
+  "lincoln": {
+    "title": "File:Negro contralto and the great emancipator. Washington, D.C., April 9. Not since Shirley Temple visited Washington last year has anybody been photographed before the sculpture of Lincoln in LCCN2016875405.jpg",
+    "artist": "Harris & Ewing, photographer",
+    "date": "1939",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Negro_contralto_and_the_great_emancipator._Washington,_D.C.,_April_9._Not_since_Shirley_Temple_visited_Washington_last_year_has_anybody_been_photographed_before_the_sculpture_of_Lincoln_in_LCCN2016875405.jpg",
+    "width": 1920,
+    "height": 2420
+  },
+  "mic": {
+    "title": "File:Marian Anderson broadcasting a Negro spiritual 8d11638v.jpg",
+    "artist": "Gordon Parks",
+    "date": "1943-01-06",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_broadcasting_a_Negro_spiritual_8d11638v.jpg",
+    "width": 960,
+    "height": 765
+  },
+  "late": {
+    "title": "File:Marian Anderson 1951.JPG",
+    "artist": "S. Hurok-classical concert promoter",
+    "date": "October 25, 1951-year is faint",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_1951.JPG",
+    "width": 500,
+    "height": 597
+  }
+}

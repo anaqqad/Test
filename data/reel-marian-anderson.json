@@ -1,0 +1,367 @@
+{
+ "id": "reel-marian-anderson",
+ "title": "Banned From a Hall, She Sang to 75,000.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_flash_v2_5",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "assets": {
+  "portrait": {
+   "commons": "File:Portrait of Marian Anderson LCCN2004662517.jpg"
+  },
+  "color": {
+   "commons": "File:Marian Anderson by Carl Van Vechten.jpg"
+  },
+  "hall": {
+   "commons": "File:Constitution Hall, Washington, D.C. LOC gsc.5a17022.jpg"
+  },
+  "crowd": {
+   "commons": "File:Masses listen while negress sings. Washington, D.C., April 9. An estimated 75,000 people of all races massed before the Lincoln Memorial today while negro contralto Marian Anderson staged on LCCN2016875406.jpg"
+  },
+  "lincoln": {
+   "commons": "File:Negro contralto and the great emancipator. Washington, D.C., April 9. Not since Shirley Temple visited Washington last year has anybody been photographed before the sculpture of Lincoln in LCCN2016875405.jpg"
+  },
+  "mic": {
+   "commons": "File:Marian Anderson broadcasting a Negro spiritual 8d11638v.jpg"
+  },
+  "late": {
+   "commons": "File:Marian Anderson 1951.JPG"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Banned from a hall, she sang to seventy-five thousand.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.22
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Banned from a hall, *she sang to 75,000.*"
+   },
+   "captions": false,
+   "speed": 1.2
+  },
+  {
+   "id": "name",
+   "text": "Meet Marian Anderson.",
+   "visual": {
+    "kind": "title",
+    "title": "Marian Anderson",
+    "sub": "1897-1993"
+   },
+   "section": "who"
+  },
+  {
+   "id": "star",
+   "text": "Born in Philadelphia, by 1939 she was a celebrated singer, famous in Europe and America.",
+   "visual": {
+    "kind": "card",
+    "image": "color",
+    "caption": "Marian Anderson, photographed by Carl Van Vechten"
+   },
+   "section": "story"
+  },
+  {
+   "id": "howard",
+   "text": "That year, Howard University tried to book her at Washington's Constitution Hall.",
+   "visual": {
+    "kind": "card",
+    "image": "hall",
+    "caption": "Constitution Hall, Washington, D.C."
+   },
+   "overlays": {
+    "pin": {
+     "label": "Washington",
+     "sub": "1939"
+    }
+   }
+  },
+  {
+   "id": "ban",
+   "text": "The owners, the Daughters of the American Revolution, said no. The hall was for white performers only.",
+   "visual": {
+    "kind": "title",
+    "title": "Refused",
+    "sub": "white performers only"
+   },
+   "section": "twist",
+   "overlays": {
+    "stamp": "1939"
+   }
+  },
+  {
+   "id": "eleanor",
+   "text": "First Lady Eleanor Roosevelt quit the group in protest.",
+   "visual": {
+    "kind": "title",
+    "title": "Eleanor Roosevelt",
+    "sub": "resigned from the DAR"
+   }
+  },
+  {
+   "id": "steps",
+   "text": "So the government offered a bigger stage: the steps of the Lincoln Memorial.",
+   "visual": {
+    "kind": "card",
+    "image": "lincoln",
+    "caption": "Marian Anderson at the Lincoln Memorial, April 9, 1939"
+   }
+  },
+  {
+   "id": "crowd",
+   "text": "On Easter Sunday, April 9, 1939, about seventy-five thousand people came, Black and white together.",
+   "visual": {
+    "kind": "card",
+    "image": "crowd",
+    "caption": "The crowd at the Lincoln Memorial, April 9, 1939"
+   }
+  },
+  {
+   "id": "radio",
+   "text": "Millions more listened on the radio.",
+   "visual": {
+    "kind": "card",
+    "image": "mic",
+    "caption": "Marian Anderson at the Interior Department, 1943"
+   }
+  },
+  {
+   "id": "song",
+   "text": "Her first song: My Country, 'Tis of Thee.",
+   "visual": {
+    "kind": "title",
+    "title": "\"My Country, 'Tis of Thee\"",
+    "sub": "her first song, 1939"
+   }
+  },
+  {
+   "id": "met",
+   "text": "In 1955, she became the first African American to sing with the Metropolitan Opera.",
+   "visual": {
+    "kind": "title",
+    "title": "The Met",
+    "sub": "New York, 1955"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "march",
+   "text": "And in 1963, she sang again in Washington, at the March on Washington.",
+   "visual": {
+    "kind": "photo",
+    "image": "late",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "end",
+   "text": "They closed a hall to her. She sang to the whole country instead.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "name": "Wikipedia: Marian Anderson",
+   "url": "https://en.wikipedia.org/wiki/Marian_Anderson"
+  },
+  "NPS": {
+   "name": "National Park Service: Marian Anderson and Constitution Hall",
+   "url": "https://www.nps.gov/articles/000/marian-anderson-and-constitution-hall.htm"
+  },
+  "NPSHOUSE": {
+   "name": "National Park Service: Marian Anderson House",
+   "url": "https://home.nps.gov/places/marian-anderson-house.htm"
+  },
+  "LOC": {
+   "name": "Library of Congress, In the Muse: Marian Anderson's Lincoln Memorial Moment",
+   "url": "https://blogs.loc.gov/music/2022/05/marian-andersons-lincoln-memorial-moment/"
+  },
+  "NARA": {
+   "name": "National Archives: Marian Anderson",
+   "url": "https://www.archives.gov/research/african-americans/individuals/marian-anderson"
+  },
+  "NPR": {
+   "name": "NPR: Marian Anderson's groundbreaking Met Opera moment",
+   "url": "https://www.npr.org/sections/deceptivecadence/2015/01/07/375440168/marian-andersons-groundbreaking-met-opera-moment"
+  }
+ },
+ "facts": [
+  {
+   "beat": "name",
+   "claim": "Born 27 Feb 1897 Philadelphia; died 8 Apr 1993.",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "star",
+   "claim": "Celebrated concert singer, toured Europe and the US by 1939 (\"a great artist\" per E. Roosevelt).",
+   "sources": [
+    "WIKI",
+    "LOC"
+   ]
+  },
+  {
+   "beat": "howard",
+   "claim": "Howard University sought to book her at DAR Constitution Hall, 1939.",
+   "sources": [
+    "WIKI",
+    "LOC"
+   ]
+  },
+  {
+   "beat": "ban",
+   "claim": "DAR refused: white-performers-only policy / banned Black performers.",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "LOC"
+   ]
+  },
+  {
+   "beat": "eleanor",
+   "claim": "Eleanor Roosevelt resigned from the DAR in protest.",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "LOC"
+   ]
+  },
+  {
+   "beat": "steps",
+   "claim": "Interior Secretary Ickes / the government arranged the Lincoln Memorial concert.",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "NPSHOUSE"
+   ]
+  },
+  {
+   "beat": "crowd",
+   "claim": "Easter Sunday 9 April 1939; about 75,000; integrated crowd.",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "radio",
+   "claim": "Millions listened by radio.",
+   "sources": [
+    "WIKI",
+    "NPSHOUSE",
+    "LOC"
+   ]
+  },
+  {
+   "beat": "song",
+   "claim": "Opened with My Country, 'Tis of Thee (America).",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "LOC"
+   ]
+  },
+  {
+   "beat": "met",
+   "claim": "First African American to sing with the Metropolitan Opera, 7 Jan 1955.",
+   "sources": [
+    "WIKI",
+    "NPR"
+   ]
+  },
+  {
+   "beat": "march",
+   "claim": "Sang at the March on Washington, 28 Aug 1963.",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Toscanini \"once in a hundred years\" quote (wording differs between sources).",
+  "Exact crowd count: stated as \"about 75,000\" (an estimate).",
+  "Photo \"mic\" is from 1943 (Interior Dept mural dedication), captioned as 1943, not the 1939 concert."
+ ]
+}
