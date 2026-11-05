@@ -140,3 +140,22 @@ One Word in 10 Languages, Languages That Count Differently.
    - Tonal Part 1 feedback: "all the tones sound the same to me" (PotatoSoundSystem). For Part 2: play each tone pair
      slower, twice, with a pitch line drawn on screen so the difference is visible.
    - Lao: count Isan (northeast Thailand, ~20M+) as Lao in the speaker number next time (Super_Harambe799).
+
+19. From the owner (2026-11-05), titles seen on the reference channel's feed (new on our channel, own take):
+   - Oldest Living Languages be like (Basque, Tamil, Greek, Chinese, Hebrew, Lithuanian...): hook "Older Than Europe?!"
+   - Languages English Speakers Can Almost Understand (Scots, Jamaican Patois, Frisian, Tok Pisin, Nigerian Pidgin,
+     Krio, Singlish): play the clip, then the subtitle, "how much did you understand?"
+   - Languages You Didn't Know Are Related be like (Korean and Japanese debate, Hungarian and Finnish, Persian and
+     English, Hindi and Irish, Basque and nothing): hook "Only ONE Relative?!"
+   - Ranking Languages by How Many Grammar Cases They Have (Hungarian ~18, Finnish 15, Estonian 14, Russian 6,
+     German 4...). Needs a defensible count rule, like the sound-count video (sources disagree for Hungarian).
+
+20. Ranking Banned Words by How Much Trouble They Get You In (owner, 2026-11-05). One top banned word per country,
+   ordered by the penalty, each played from a real recording:
+   - France: "email" -> "courriel". FranceTerme list: 7,203 official replacements in 2020, +200 to 300 a year;
+     compulsory only in government texts.
+   - Russia (2023 law, officials only): pick the most cited word.
+   - Iran (2006 decree): "pizza" -> "elastic loaf"; "helicopter" -> "balgard".
+   - Turkey (until 2013): letters q, w, x on official papers, e.g. the Kurdish name "Welat".
+   - Malaysia: "Allah" in non-Muslim publications (court rulings 2013, partly reversed 2021).
+   - North Korea (2023 law): "oppa" for a boyfriend; reported maximum penalty death.
