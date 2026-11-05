@@ -16,14 +16,24 @@
    "flag": "bw",
    "count": 161,
    "rank": 1,
-   "wojak": "",
+   "wojak": "sc_taa_f",
    "scene": "kalahari",
    "word": "ǃ ǂ ǀ ǁ",
    "lit": "clicks, the bulk of its 130 consonants",
    "cards": [
     "161 sounds in the study PHOIBLE lists: 130 consonants, most of them clicks, plus vowels and tones.",
     "Only a few thousand people speak it, in Botswana and Namibia."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/TWa040429-0101 2 (1).wav",
+    "start": 171.85,
+    "end": 178.9
+   },
+   "credit": {
+    "title": "File:TWa040429-0101 2 (1).wav",
+    "artist": "Max Planck Institute for Psycholinguistics, The Language Archive",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "key": "xho",
@@ -32,14 +42,24 @@
    "flag": "za",
    "count": 84,
    "rank": 2,
-   "wojak": "",
-   "scene": "sounds",
+   "wojak": "sc_xho_f",
+   "scene": "hills",
    "word": "c, q, x",
    "lit": "written letters for clicks",
    "cards": [
     "84 sounds in PHOIBLE's study, including about 15 to 20 clicks written with c, q and x.",
     "Xhosa was Nelson Mandela's mother tongue."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/IbalilikaNomathemba.ogg",
+    "start": 0.0,
+    "end": 5.8
+   },
+   "credit": {
+    "title": "File:IbalilikaNomathemba.ogg",
+    "artist": "Xoliswa Matrokko",
+    "license": "CC BY 2.5"
+   }
   },
   {
    "key": "cir",
@@ -48,14 +68,24 @@
    "flag": "ru",
    "count": 55,
    "rank": 3,
-   "wojak": "",
+   "wojak": "sc_cir",
    "scene": "caucasus",
    "word": "3 vowels",
    "lit": "Adyghe may have only about three",
    "cards": [
     "Kabardian has about 55 sounds (studies say 51 to 63) and Adyghe about 59, almost all of them consonants.",
     "A cousin, Ubykh, had over 80 consonants. It died with its last speaker in 1992."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/WIKITONGUES- Yenal speaking Circassian.webm",
+    "start": 6.65,
+    "end": 11.55
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Yenal speaking Circassian.webm",
+    "artist": "Wikitongues, John Kazaklis",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "key": "eng",
@@ -64,14 +94,24 @@
    "flag": "gb",
    "count": 40,
    "rank": 4,
-   "wojak": "",
+   "wojak": "p_eng_f",
    "scene": "moorland",
    "word": "th",
    "lit": "think, this",
    "cards": [
     "About 40 sounds (studies say 38 to 45, by dialect) but only 26 letters, which is why English spelling is so messy.",
     "Its two th sounds, in 'think' and 'this', are rare among the world's languages."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/Recording of speaker of British English (Received Pronunciation).ogg",
+    "start": 0.0,
+    "end": 6.3
+   },
+   "credit": {
+    "title": "File:Recording of speaker of British English (Received Pronunciation).ogg",
+    "artist": "P. Roach, International Phonetic Association",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "key": "deu",
@@ -80,14 +120,24 @@
    "flag": "de",
    "count": 40,
    "rank": 4,
-   "wojak": "",
+   "wojak": "a_slk",
    "scene": "forest",
    "word": "ch",
    "lit": "ich and Bach",
    "cards": [
     "About 40 sounds (studies say 39 to 40), including ü and ö.",
     "Two different ch sounds: soft in 'ich', throaty in 'Bach'."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/NordwindSonne.wav",
+    "start": 0.0,
+    "end": 5.95
+   },
+   "credit": {
+    "title": "File:NordwindSonne.wav",
+    "artist": "Jeytas",
+    "license": "Public domain"
+   }
   },
   {
    "key": "rus",
@@ -96,14 +146,24 @@
    "flag": "ru",
    "count": 38,
    "rank": 6,
-   "wojak": "",
-   "scene": "forest",
+   "wojak": "s_rus",
+   "scene": "steppe",
    "word": "мат / мять",
    "lit": "hard and soft",
    "cards": [
     "About 38 sounds (studies say 37 to 42).",
     "Most consonants come in hard and soft pairs: 'мат' (checkmate) and 'мять' (to crumple)."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/WIKITONGUES- Amir speaking Russian and Hebrew.webm",
+    "start": 39.8,
+    "end": 43.9
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Amir speaking Russian and Hebrew.webm",
+    "artist": "Wikitongues (uploaded by Bogreudell)",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "key": "pol",
@@ -112,14 +172,24 @@
    "flag": "pl",
    "count": 36,
    "rank": 7,
-   "wojak": "",
+   "wojak": "sl2_pol",
    "scene": "prague",
    "word": "sz / ś",
    "lit": "two different sh sounds",
    "cards": [
     "About 36 sounds (studies say 35 to 37).",
     "sz and ś sound alike to English ears, but to Poles they are two different sounds."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/WIKITONGUES- Marta speaking Polish.webm",
+    "start": 38.7,
+    "end": 45.35
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Marta speaking Polish.webm",
+    "artist": "Wikitongues, Marta Sawicka",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "key": "swh",
@@ -128,14 +198,24 @@
    "flag": "tz",
    "count": 35,
    "rank": 8,
-   "wojak": "",
+   "wojak": "sc_swh",
    "scene": "savanna",
    "word": "ng'ombe",
    "lit": "cow",
    "cards": [
     "About 35 sounds (studies say 33 to 36) and just five vowels.",
     "Words can start with the ng of 'sing': 'ng'ombe' means cow."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/WIKITONGUES- Iddy speaking Swahili.webm",
+    "start": 12.2,
+    "end": 17.45
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Iddy speaking Swahili.webm",
+    "artist": "Wikitongues (uploaded by Bogreudell)",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "key": "kat",
@@ -144,14 +224,24 @@
    "flag": "ge",
    "count": 33,
    "rank": 9,
-   "wojak": "",
+   "wojak": "sl2_kat",
    "scene": "tbilisi",
    "word": "gvprtskvni",
    "lit": "you peel us",
    "cards": [
     "33 sounds in most studies: 28 consonants and only 5 vowels.",
     "With so few vowels, consonants pile up: 'gvprtskvni' means 'you peel us'."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/WIKITONGUES- Mariam speaking Georgian.webm",
+    "start": 0.0,
+    "end": 8.0
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Mariam speaking Georgian.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "key": "yor",
@@ -160,14 +250,24 @@
    "flag": "ng",
    "count": 31,
    "rank": 10,
-   "wojak": "",
+   "wojak": "t_yor",
    "scene": "savanna",
    "word": "gb / kp",
    "lit": "lips and throat at once",
    "cards": [
     "About 31 sounds (studies say 27 to 32), plus three tones on top.",
     "gb and kp are made with the lips and the back of the mouth at the same time."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/WIKITONGUES- Olaniyan speaking Yoruba.webm",
+    "start": 4.2,
+    "end": 10.15
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Olaniyan speaking Yoruba.webm",
+    "artist": "Wikitongues (uploaded by Bogreudell)",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "key": "heb",
@@ -176,14 +276,24 @@
    "flag": "il",
    "count": 27,
    "rank": 11,
-   "wojak": "",
+   "wojak": "sc_heb",
    "scene": "arabia",
    "word": "ח = כ",
    "lit": "most people say them the same",
    "cards": [
     "About 27 sounds (studies say 25 to 30) and only 5 vowels.",
     "Most Israelis no longer pronounce the old throat sounds of ע and ח differently from א and כ."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/WIKITONGUES- Amir speaking Russian and Hebrew.webm",
+    "start": 103.8,
+    "end": 108.2
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Amir speaking Russian and Hebrew.webm",
+    "artist": "Wikitongues (uploaded by Bogreudell)",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "key": "ind",
@@ -192,14 +302,24 @@
    "flag": "id",
    "count": 27,
    "rank": 12,
-   "wojak": "",
+   "wojak": "p_ind_f",
    "scene": "andaman",
    "word": "c",
    "lit": "always the ch of church",
    "cards": [
     "About 27 sounds (studies say 26 to 27).",
     "Spelling matches sound almost perfectly, which makes it easy to read aloud."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/WIKITONGUES- Nila speaking Indonesian.webm",
+    "start": 7.85,
+    "end": 12.75
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Nila speaking Indonesian.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "key": "myp",
@@ -208,14 +328,24 @@
    "flag": "br",
    "count": 11,
    "rank": 13,
-   "wojak": "",
+   "wojak": "sc_myp_f",
    "scene": "amazon",
    "word": "ʔíʙogi",
    "lit": "a real Pirahã word (with a rare lip trill)",
    "cards": [
     "Only 11 sounds: 8 consonants and 3 vowels, both studies agree. One of the smallest sound systems known.",
     "Pirahã can also be whistled and hummed, and it has no words for exact numbers."
-   ]
+   ],
+   "local": {
+    "file": "incoming/sounds/ʔíʙogi.wav",
+    "start": 0.0,
+    "end": 1.08
+   },
+   "credit": {
+    "title": "File:ʔíʙogi.wav",
+    "artist": "PashtoPromoter",
+    "license": "CC BY-SA 4.0"
+   }
   }
  ]
 }

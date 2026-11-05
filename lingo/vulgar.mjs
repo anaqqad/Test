@@ -78,8 +78,8 @@ add("intro", 5, `<div class="a" id="bg" style="opacity:.35">${scene("abstract", 
 
 for (const [idx, it] of items.entries()) {
   const m = MAN[it.key], rank = it.rank || items.length - idx;
-  const say = m ? [{ t: 4.2, d: m.d }, { t: 4.2 + m.d + 0.9, d: m.d }] : [];
-  const wordAt = 3.6, cardsAt = m ? say[1].t + m.d + 1.2 : 6.5, dur = +(cardsAt + 8.5).toFixed(2);
+  const say = m ? (m.d > 2.5 ? [{ t: 4.2, d: m.d }] : [{ t: 4.2, d: m.d }, { t: 4.2 + m.d + 0.9, d: m.d }]) : [];  // longer speech clips play once
+  const wordAt = 3.6, cardsAt = m ? say[say.length - 1].t + m.d + 1.2 : 6.5, dur = +(cardsAt + 8.5).toFixed(2);
   const html = `<div class="a" id="bg">${scene(it.scene, it.key)}</div>
     <div class="a" id="flash" style="left:0;top:0;width:1920px;height:1080px;background:${ACC};opacity:0;pointer-events:none"></div>
     <div class="a who" id="who">${wj(it) ? `<img src="${wj(it)}">` : ""}</div>
