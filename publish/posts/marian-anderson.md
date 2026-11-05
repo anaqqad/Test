@@ -1,5 +1,5 @@
 # Facebook post: Marian Anderson
-nPublished 2026-11-05: Facebook photo post on the page (Public, AI label off).
+Published 2026-11-05: Facebook photo post on the page (Public, AI label off).
 
 Image: `publish/posts/marian-anderson.jpg` (public domain: Carl Van Vechten portrait, 1940; Harris & Ewing, April 9, 1939; all via the Library of Congress).
 Reel: `publish/reels/marian-anderson.md`.
