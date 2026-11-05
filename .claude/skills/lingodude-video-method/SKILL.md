@@ -27,6 +27,7 @@ Code lives in `lingo/` (repo anaqqad/Test). Commit and push every finished step 
 
 ## 3. Finding recordings
 - Commons API: `list=search` with `intitle:WIKITONGUES intitle:"speaking <Lang>"`. When the API returns 429, use the HTML search `commons.wikimedia.org/w/index.php?search=...&ns6=1&fulltext=1`, retry slowly and honour Retry-After.
+- If Commons keeps answering 429 to scripts, fetch through headless Chromium (Playwright `page.request.get` on `Special:FilePath/<name>` or the API): it worked at once when plain HTTP was blocked for hours.
 - Images: use standard thumbnail sizes only (`/thumb/h/hh/Name/1280px-Name`). Audio: `/transcoded/.../Name.mp3`.
 - YouTube Creative Commons search: `results?search_query=...&sp=EgIwAQ%253D%253D`. YouTube blocks downloads from the cloud, so give the owner video IDs or links. The owner downloads the files and uploads them (to chat uploads or `lingo/incoming/`).
 - Lingua Libre (via Wikidata P443) for single words.
