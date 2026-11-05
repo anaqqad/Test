@@ -1,0 +1,221 @@
+{
+ "_note": "Ranking Languages by How Many Sounds They Have. Count = median total of consonants + vowels + tones across all PHOIBLE 2.0 inventories for the language (marginal sounds excluded; sounds_data/count.py, sounds_data/ranking.json). Languages whose studies disagree a lot (Japanese 18-40, Spanish 25-45, Finnish 19-42, Hawaiian 13-19, Hungarian 39-65, Hindi 51-94) are left out. Circassian: Kabardian median 55 (Adyghe 59 in one study). Abkhaz dropped (no speech recording); Rotokas (11) has no recording, Pirahã (11, two studies agree) used instead.",
+ "title": "Ranking Languages by How Many Sounds They Have",
+ "subtitle": "CONSONANTS + VOWELS + TONES (SOURCE: PHOIBLE)",
+ "meter": "Sounds in the language",
+ "meter_unit": "SOUNDS",
+ "word_label": "Signature sound",
+ "lit_label": "",
+ "outro": "Which sound is the hardest for you?",
+ "accent": "#e8262b",
+ "items": [
+  {
+   "key": "nmn",
+   "iso": "nmn",
+   "name": "!Xóõ (Taa)",
+   "flag": "bw",
+   "count": 161,
+   "rank": 1,
+   "wojak": "",
+   "scene": "kalahari",
+   "word": "ǃ ǂ ǀ ǁ",
+   "lit": "clicks, the bulk of its 130 consonants",
+   "cards": [
+    "161 sounds in the study PHOIBLE lists: 130 consonants, most of them clicks, plus vowels and tones.",
+    "Only a few thousand people speak it, in Botswana and Namibia."
+   ]
+  },
+  {
+   "key": "xho",
+   "iso": "xho",
+   "name": "Xhosa",
+   "flag": "za",
+   "count": 84,
+   "rank": 2,
+   "wojak": "",
+   "scene": "sounds",
+   "word": "c, q, x",
+   "lit": "written letters for clicks",
+   "cards": [
+    "84 sounds in PHOIBLE's study, including about 15 to 20 clicks written with c, q and x.",
+    "Xhosa was Nelson Mandela's mother tongue."
+   ]
+  },
+  {
+   "key": "cir",
+   "iso": "kbd",
+   "name": "Circassian",
+   "flag": "ru",
+   "count": 55,
+   "rank": 3,
+   "wojak": "",
+   "scene": "caucasus",
+   "word": "3 vowels",
+   "lit": "Adyghe may have only about three",
+   "cards": [
+    "Kabardian has about 55 sounds (studies say 51 to 63) and Adyghe about 59, almost all of them consonants.",
+    "A cousin, Ubykh, had over 80 consonants. It died with its last speaker in 1992."
+   ]
+  },
+  {
+   "key": "eng",
+   "iso": "eng",
+   "name": "English",
+   "flag": "gb",
+   "count": 40,
+   "rank": 4,
+   "wojak": "",
+   "scene": "moorland",
+   "word": "th",
+   "lit": "think, this",
+   "cards": [
+    "About 40 sounds (studies say 38 to 45, by dialect) but only 26 letters, which is why English spelling is so messy.",
+    "Its two th sounds, in 'think' and 'this', are rare among the world's languages."
+   ]
+  },
+  {
+   "key": "deu",
+   "iso": "deu",
+   "name": "German",
+   "flag": "de",
+   "count": 40,
+   "rank": 4,
+   "wojak": "",
+   "scene": "forest",
+   "word": "ch",
+   "lit": "ich and Bach",
+   "cards": [
+    "About 40 sounds (studies say 39 to 40), including ü and ö.",
+    "Two different ch sounds: soft in 'ich', throaty in 'Bach'."
+   ]
+  },
+  {
+   "key": "rus",
+   "iso": "rus",
+   "name": "Russian",
+   "flag": "ru",
+   "count": 38,
+   "rank": 6,
+   "wojak": "",
+   "scene": "forest",
+   "word": "мат / мять",
+   "lit": "hard and soft",
+   "cards": [
+    "About 38 sounds (studies say 37 to 42).",
+    "Most consonants come in hard and soft pairs: 'мат' (checkmate) and 'мять' (to crumple)."
+   ]
+  },
+  {
+   "key": "pol",
+   "iso": "pol",
+   "name": "Polish",
+   "flag": "pl",
+   "count": 36,
+   "rank": 7,
+   "wojak": "",
+   "scene": "prague",
+   "word": "sz / ś",
+   "lit": "two different sh sounds",
+   "cards": [
+    "About 36 sounds (studies say 35 to 37).",
+    "sz and ś sound alike to English ears, but to Poles they are two different sounds."
+   ]
+  },
+  {
+   "key": "swh",
+   "iso": "swh",
+   "name": "Swahili",
+   "flag": "tz",
+   "count": 35,
+   "rank": 8,
+   "wojak": "",
+   "scene": "savanna",
+   "word": "ng'ombe",
+   "lit": "cow",
+   "cards": [
+    "About 35 sounds (studies say 33 to 36) and just five vowels.",
+    "Words can start with the ng of 'sing': 'ng'ombe' means cow."
+   ]
+  },
+  {
+   "key": "kat",
+   "iso": "kat",
+   "name": "Georgian",
+   "flag": "ge",
+   "count": 33,
+   "rank": 9,
+   "wojak": "",
+   "scene": "tbilisi",
+   "word": "gvprtskvni",
+   "lit": "you peel us",
+   "cards": [
+    "33 sounds in most studies: 28 consonants and only 5 vowels.",
+    "With so few vowels, consonants pile up: 'gvprtskvni' means 'you peel us'."
+   ]
+  },
+  {
+   "key": "yor",
+   "iso": "yor",
+   "name": "Yoruba",
+   "flag": "ng",
+   "count": 31,
+   "rank": 10,
+   "wojak": "",
+   "scene": "savanna",
+   "word": "gb / kp",
+   "lit": "lips and throat at once",
+   "cards": [
+    "About 31 sounds (studies say 27 to 32), plus three tones on top.",
+    "gb and kp are made with the lips and the back of the mouth at the same time."
+   ]
+  },
+  {
+   "key": "heb",
+   "iso": "heb",
+   "name": "Hebrew",
+   "flag": "il",
+   "count": 27,
+   "rank": 11,
+   "wojak": "",
+   "scene": "arabia",
+   "word": "ח = כ",
+   "lit": "most people say them the same",
+   "cards": [
+    "About 27 sounds (studies say 25 to 30) and only 5 vowels.",
+    "Most Israelis no longer pronounce the old throat sounds of ע and ח differently from א and כ."
+   ]
+  },
+  {
+   "key": "ind",
+   "iso": "ind",
+   "name": "Indonesian",
+   "flag": "id",
+   "count": 27,
+   "rank": 12,
+   "wojak": "",
+   "scene": "andaman",
+   "word": "c",
+   "lit": "always the ch of church",
+   "cards": [
+    "About 27 sounds (studies say 26 to 27).",
+    "Spelling matches sound almost perfectly, which makes it easy to read aloud."
+   ]
+  },
+  {
+   "key": "myp",
+   "iso": "myp",
+   "name": "Pirahã",
+   "flag": "br",
+   "count": 11,
+   "rank": 13,
+   "wojak": "",
+   "scene": "amazon",
+   "word": "ʔíʙogi",
+   "lit": "a real Pirahã word (with a rare lip trill)",
+   "cards": [
+    "Only 11 sounds: 8 consonants and 3 vowels, both studies agree. One of the smallest sound systems known.",
+    "Pirahã can also be whistled and hummed, and it has no words for exact numbers."
+   ]
+  }
+ ]
+}

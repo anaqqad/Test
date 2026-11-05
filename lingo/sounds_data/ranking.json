@@ -1,0 +1,198 @@
+{
+ "nmn": {
+  "name": "!Xóõ (Taa)",
+  "median": 161,
+  "n_inv": 1,
+  "range": [
+   161,
+   161
+  ],
+  "c": 130,
+  "v": 28,
+  "t": 3,
+  "inv": "1379",
+  "src": "ph"
+ },
+ "xho": {
+  "name": "Xhosa",
+  "median": 84,
+  "n_inv": 1,
+  "range": [
+   84,
+   84
+  ],
+  "c": 75,
+  "v": 7,
+  "t": 2,
+  "inv": "1319",
+  "src": "ph"
+ },
+ "kbd": {
+  "name": "Circassian (Kabardian)",
+  "median": 55,
+  "n_inv": 5,
+  "range": [
+   51,
+   63
+  ],
+  "c": 48,
+  "v": 7,
+  "t": 0,
+  "inv": "391",
+  "src": "upsid"
+ },
+ "ady": {
+  "name": "Circassian (Adyghe)",
+  "median": 59,
+  "n_inv": 1,
+  "range": [
+   59,
+   59
+  ],
+  "c": 56,
+  "v": 3,
+  "t": 0,
+  "inv": "2349",
+  "src": "ea"
+ },
+ "eng": {
+  "name": "English",
+  "median": 40,
+  "n_inv": 9,
+  "range": [
+   38,
+   45
+  ],
+  "c": 27,
+  "v": 13,
+  "t": 0,
+  "inv": "160",
+  "src": "spa"
+ },
+ "deu": {
+  "name": "German",
+  "median": 40.0,
+  "n_inv": 4,
+  "range": [
+   39,
+   40
+  ],
+  "c": 21,
+  "v": 19,
+  "t": 0,
+  "inv": "304",
+  "src": "upsid"
+ },
+ "rus": {
+  "name": "Russian",
+  "median": 38,
+  "n_inv": 3,
+  "range": [
+   37,
+   42
+  ],
+  "c": 33,
+  "v": 5,
+  "t": 0,
+  "inv": "166",
+  "src": "spa"
+ },
+ "pol": {
+  "name": "Polish",
+  "median": 36.0,
+  "n_inv": 2,
+  "range": [
+   35,
+   37
+  ],
+  "c": 31,
+  "v": 6,
+  "t": 0,
+  "inv": "1046",
+  "src": "ph"
+ },
+ "swh": {
+  "name": "Swahili",
+  "median": 34.5,
+  "n_inv": 2,
+  "range": [
+   33,
+   36
+  ],
+  "c": 31,
+  "v": 5,
+  "t": 0,
+  "inv": "145",
+  "src": "spa"
+ },
+ "kat": {
+  "name": "Georgian",
+  "median": 33.0,
+  "n_inv": 4,
+  "range": [
+   33,
+   35
+  ],
+  "c": 27,
+  "v": 6,
+  "t": 0,
+  "inv": "390",
+  "src": "upsid"
+ },
+ "yor": {
+  "name": "Yoruba",
+  "median": 31,
+  "n_inv": 3,
+  "range": [
+   27,
+   32
+  ],
+  "c": 19,
+  "v": 12,
+  "t": 0,
+  "inv": "847",
+  "src": "aa"
+ },
+ "heb": {
+  "name": "Hebrew",
+  "median": 27,
+  "n_inv": 3,
+  "range": [
+   25,
+   30
+  ],
+  "c": 22,
+  "v": 5,
+  "t": 0,
+  "inv": "2189",
+  "src": "ph"
+ },
+ "ind": {
+  "name": "Indonesian",
+  "median": 26.5,
+  "n_inv": 2,
+  "range": [
+   26,
+   27
+  ],
+  "c": 18,
+  "v": 9,
+  "t": 0,
+  "inv": "1144",
+  "src": "ph"
+ },
+ "myp": {
+  "name": "Pirahã",
+  "median": 11.0,
+  "n_inv": 2,
+  "range": [
+   11,
+   11
+  ],
+  "c": 8,
+  "v": 3,
+  "t": 0,
+  "inv": "477",
+  "src": "upsid"
+ }
+}
