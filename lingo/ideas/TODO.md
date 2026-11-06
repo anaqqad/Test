@@ -175,3 +175,10 @@ One Word in 10 Languages, Languages That Count Differently.
    - Science: share of research papers (Scopus / Web of Science).
    - Movies and music: most-watched non-English Netflix titles, Spotify global chart songs by language.
    - Most new speakers per year / fastest growing (Ethnologue).
+
+22. SAVED BY THE OWNER (2026-11-06), the four to do next:
+   - Ranking Languages by Nobel Prizes in Literature (nobelprize.org, language of the winning work).
+   - Ranking Languages by Share of Science / Research Papers (Scopus or Web of Science).
+   - Ranking Languages by Presence Online (W3Techs share of websites; see item 21).
+   - "The White House Has Had a Secret Bunker S..." (title sent cut off; not a language topic, maybe for the
+     history-documentary Blender work; ask the owner for the full title and which channel).
