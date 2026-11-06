@@ -159,3 +159,7 @@ One Word in 10 Languages, Languages That Count Differently.
    - Turkey (until 2013): letters q, w, x on official papers, e.g. the Kurdish name "Welat".
    - Malaysia: "Allah" in non-Muslim publications (court rulings 2013, partly reversed 2021).
    - North Korea (2023 law): "oppa" for a boyfriend; reported maximum penalty death.
+
+21. Ranking Languages by Their Presence Online (owner, 2026-11-06). Data: W3Techs share of websites by content
+   language (English ~49.5%, Spanish and German ~6% each, 2026), with Wikipedia article counts as a second angle
+   (twist: Cebuano and Swedish rank high because of bot-written articles). Owner has more angles to add.
