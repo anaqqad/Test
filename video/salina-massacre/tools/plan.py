@@ -166,15 +166,15 @@ P = [
         "who": "Editorial", "source": TRIB}),
      ("But some telegrams", "COM", T(8, 3.0))],
     # 30 the funeral
-    [("On Thursday", "MEM", T(0, 27.3)), ("@", "On Thursday", MEM_TAG),
+    [("On Thursday", "MEM", T(0, 28.0)), ("@", "On Thursday", MEM_TAG), ("in Salt Lake City", "MEM", T(1, 56.0)),
      ("#", "On Thursday", None, {"type": "Slug", "title": "July 12, 1945", "subtitle": "Fort Douglas, Salt Lake City · closed to the public"}),
-     ("They wore American khaki", "MEM", T(1, 58.4)), ("An American chaplain", "MEM", T(0, 9.1))],
+     ("They wore American khaki", "MEM", T(1, 52.5)), ("An American chaplain", "MEM", T(0, 9.1))],
     # 31 the choir
-    [("The public was not allowed", "TUN", T(13, 38.3)), ("@", "The public was not allowed", TUNS_TAG), ("A choir of German", "MEM", T(1, 58.4)), ("@", "A choir of German", UTA_TAG)],
+    [("The public was not allowed", "TUN", T(13, 38.3)), ("@", "The public was not allowed", TUNS_TAG), ("A choir of German", "MEM", T(1, 56.0)), ("@", "A choir of German", UTA_TAG), ("Then a bugler", "MEM", T(0, 28.0))],
     # 32 Ritter
     [("The next day", "HOS", T(7, 58.7)), ("@", "The next day", HOS_TAG)],
     # 33 the nine
-    [("The rest of the dead", "MEM", T(0, 27.3)),
+    [("The rest of the dead", "UTA", T(3, 33.3)),
      ("#", "The rest of the dead", None, {"type": "LedgerTimeline", "file": "FILE 13 — THE NINE", "head": "Killed at Salina, July 1945",
         "rows": [{"date": "AGE 24-25", "text": "Ernst Fuchs · Hans Meyer · Fritz Stockmann · Otto Bross"},
                  {"date": "AGE 28-29", "text": "Adolf Paul · Gottfried Gaag"},
@@ -196,7 +196,7 @@ P = [
      ("#", "In August", None, {"type": "Slug", "title": "August 1945", "subtitle": "Army doctors find Pvt. Bertucci “mentally unbalanced”"}),
      ("There was no court-martial", "HOS", T(10, 17.4)), ("He was sent to", "TT", T(10, 30.8)), ("@", "He was sent to", TT_TAG)],
     # 37 never tried
-    [("He spent much of", "HOS", T(7, 58.7)), ("@", "He spent much of", HOS_TAG), ("Nobody was ever tried", "MEM", T(1, 58.4))],
+    [("He spent much of", "HOS", T(7, 58.7)), ("@", "He spent much of", HOS_TAG), ("Nobody was ever tried", "MEM", T(1, 56.0))],
     # 38 the wounded
     [("The wounded recovered", "HOS", T(6, 21.6)), ("@", "The wounded recovered", HOS_TAG), ("A later agreement", "TT", T(10, 31.8)), ("@", "A later agreement", TT_TAG)],
     # 39 the camp empties
@@ -207,12 +207,12 @@ P = [
         "before": "He said he ", "key": "received excellent care", "after": ", and left strongly opposed to war.",
         "who": "Deseret News", "source": DN})],
     # 41 memory
-    [("In nineteen eighty-eight", "MEM", T(0, 27.3)), ("@", "In nineteen eighty-eight", MEM_TAG), ("Two men wounded", "MEM", T(1, 58.4)), ("In 2016", "UTA", T(3, 33.3)), ("@", "In 2016", UTA_TAG)],
+    [("In nineteen eighty-eight", "MEM", T(1, 56.0)), ("@", "In nineteen eighty-eight", MEM_TAG), ("Two men wounded", "MEM", T(1, 52.5)), ("In 2016", "UTA", T(3, 33.3)), ("@", "In 2016", UTA_TAG)],
     # 42 comment ask
     [("If your family", "SHO", T(1, 26.2)), ("@", "If your family", SHO_TAG),
      ("#", "If your family", None, {"type": "Slug", "title": "POWs in the beet fields, in your family's story?", "subtitle": "Tell us in the comments"})],
     # 43 echo
-    [("In the back corner", "MEM", T(0, 27.3)), ("They had outlived", "UTA", T(3, 33.3)), ("@", "They had outlived", UTA_TAG)],
+    [("In the back corner", "MEM", T(1, 56.0)), ("a long way from the sea", "UTA", T(3, 33.3)), ("They had outlived", "UTA", T(3, 33.3)), ("@", "They had outlived", UTA_TAG)],
 ]
 
 WC = "Wikimedia Commons"
