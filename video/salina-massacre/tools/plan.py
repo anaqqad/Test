@@ -170,7 +170,7 @@ P = [
      ("#", "On Thursday", None, {"type": "Slug", "title": "July 12, 1945", "subtitle": "Fort Douglas, Salt Lake City · closed to the public"}),
      ("They wore American khaki", "MEM", T(1, 58.4)), ("An American chaplain", "MEM", T(0, 9.1))],
     # 31 the choir
-    [("The public was not allowed", "TUN", T(13, 38.3)), ("@", "The public was not allowed", TUNS_TAG), ("A choir of German", "MEM", T(0, 27.3)), ("@", "A choir of German", UTA_TAG)],
+    [("The public was not allowed", "TUN", T(13, 38.3)), ("@", "The public was not allowed", TUNS_TAG), ("A choir of German", "MEM", T(1, 58.4)), ("@", "A choir of German", UTA_TAG)],
     # 32 Ritter
     [("The next day", "HOS", T(7, 58.7)), ("@", "The next day", HOS_TAG)],
     # 33 the nine
@@ -196,7 +196,7 @@ P = [
      ("#", "In August", None, {"type": "Slug", "title": "August 1945", "subtitle": "Army doctors find Pvt. Bertucci “mentally unbalanced”"}),
      ("There was no court-martial", "HOS", T(10, 17.4)), ("He was sent to", "TT", T(10, 30.8)), ("@", "He was sent to", TT_TAG)],
     # 37 never tried
-    [("He spent much of", "HOS", T(7, 30.9)), ("@", "He spent much of", HOS_TAG), ("Nobody was ever tried", "MEM", T(1, 58.4))],
+    [("He spent much of", "HOS", T(7, 58.7)), ("@", "He spent much of", HOS_TAG), ("Nobody was ever tried", "MEM", T(1, 58.4))],
     # 38 the wounded
     [("The wounded recovered", "HOS", T(6, 21.6)), ("@", "The wounded recovered", HOS_TAG), ("A later agreement", "TT", T(10, 31.8)), ("@", "A later agreement", TT_TAG)],
     # 39 the camp empties
