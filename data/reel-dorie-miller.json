@@ -1,0 +1,351 @@
+{
+ "id": "reel-dorie-miller",
+ "title": "They Made Him a Cook. Then Pearl Harbor.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_flash_v2_5",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "assets": {
+  "portrait": {
+   "commons": "File:Dorie Miller - Restoration, full.jpg"
+  },
+  "uniform": {
+   "commons": "File:Doris (Dorie) Miller in uniform at Pearl Harbor (10006682).jpg"
+  },
+  "poster": {
+   "commons": "File:\"Above and Beyond the Call of Duty.\", 1943 - NARA - 535886.jpg"
+  },
+  "wv1": {
+   "commons": "File:USS West Virginia2.jpg"
+  },
+  "wvafter": {
+   "commons": "File:Aftermath of a Japanese sneak attack on these three stricken U.S. battleships, from left to right, USS West Virginia... - NARA - 196243.jpg"
+  },
+  "planeview": {
+   "commons": "File:Attack on Pearl Harbor Japanese planes view.jpg"
+  },
+  "burning": {
+   "commons": "File:Burning ships at Pearl Harbor.jpg"
+  },
+  "ph2": {
+   "commons": "File:Pearl Harbor Attack, 7 December 1941 - 80-G-32920.jpg"
+  },
+  "nimitz": {
+   "commons": "File:Admiral Chester W. Nimitz pins the Navy Cross on Doris Miller, Pearl Harbor, May 27, 1942.jpg"
+  },
+  "liscome": {
+   "commons": "File:USS Liscome Bay CVE56.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "They made him a cook. Then Pearl Harbor.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.18
+    ],
+    "zoom": [
+     1.15,
+     1.22
+    ],
+    "anchor": [
+     0.5,
+     0.18
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "They made him a cook. *Then Pearl Harbor.*"
+   },
+   "captions": false,
+   "speed": 1.2
+  },
+  {
+   "id": "name",
+   "text": "Meet Dorie Miller.",
+   "visual": {
+    "kind": "title",
+    "title": "Dorie Miller",
+    "sub": "1919-1943"
+   },
+   "section": "who"
+  },
+  {
+   "id": "navy",
+   "text": "In 1939, this Texas farm boy joined the Navy, where Black sailors were kept to feeding and serving the officers.",
+   "visual": {
+    "kind": "card",
+    "image": "uniform",
+    "caption": "Doris Miller, U.S. Navy"
+   },
+   "section": "story"
+  },
+  {
+   "id": "laundry",
+   "text": "On December 7, 1941, he was collecting laundry on the battleship West Virginia when the torpedoes hit.",
+   "visual": {
+    "kind": "card",
+    "image": "wv1",
+    "caption": "USS West Virginia, Pearl Harbor, 7 December 1941"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Pearl Harbor",
+     "sub": "1941"
+    }
+   }
+  },
+  {
+   "id": "station",
+   "text": "His battle station was destroyed. So he helped carry the wounded.",
+   "visual": {
+    "kind": "card",
+    "image": "burning",
+    "caption": "Pearl Harbor, 7 December 1941"
+   }
+  },
+  {
+   "id": "gun",
+   "text": "Then he took a fifty-caliber machine gun he had never been trained to use, and fired at the planes until the ammunition ran out.",
+   "visual": {
+    "kind": "title",
+    "title": ".50 caliber",
+    "sub": "no training on that gun"
+   },
+   "section": "twist",
+   "overlays": {
+    "stamp": "1941"
+   }
+  },
+  {
+   "id": "quote",
+   "text": "Later he said, I just pulled the trigger, and she worked fine.",
+   "visual": {
+    "kind": "title",
+    "title": "\"She worked fine.\"",
+    "sub": "Dorie Miller"
+   }
+  },
+  {
+   "id": "unnamed",
+   "text": "The Navy praised him without giving his name. A Black newspaper found it.",
+   "visual": {
+    "kind": "card",
+    "image": "planeview",
+    "caption": "Pearl Harbor, seen from a Japanese plane"
+   }
+  },
+  {
+   "id": "cross",
+   "text": "In May 1942, Admiral Nimitz pinned on the Navy Cross. He was the first Black sailor to receive it.",
+   "visual": {
+    "kind": "card",
+    "image": "nimitz",
+    "caption": "Admiral Nimitz and Doris Miller, 27 May 1942"
+   }
+  },
+  {
+   "id": "back",
+   "text": "But his job did not change. The hero was still a mess attendant.",
+   "visual": {
+    "kind": "card",
+    "image": "poster",
+    "caption": "U.S. Navy poster, 1943"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "lost",
+   "text": "In 1943, a Japanese submarine sank his ship, the Liscome Bay. He was twenty-four.",
+   "visual": {
+    "kind": "card",
+    "image": "liscome",
+    "caption": "USS Liscome Bay, 1943"
+   }
+  },
+  {
+   "id": "end",
+   "text": "They gave him a tray. He picked up a gun.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.18
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.18
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "name": "WIKI",
+   "url": "https://en.wikipedia.org/wiki/Doris_Miller"
+  },
+  "NHHC": {
+   "name": "NHHC",
+   "url": "https://www.history.navy.mil/research/histories/biographies-list/bios-m/miller-doris.html"
+  },
+  "HN": {
+   "name": "HN",
+   "url": "https://historynet.com/valor-pearl-harbors-unlikely-hero/"
+  },
+  "NT": {
+   "name": "NT",
+   "url": "https://www.navytimes.com/military-honor/salute-veterans/2019/11/01/how-dorie-millers-bravery-helped-fight-bigotry-in-the-navy/"
+  },
+  "MF": {
+   "name": "MF",
+   "url": "https://mentalfloss.com/article/642783/doris-miller-naval-cook-pearl-harbor-hero"
+  },
+  "SHIP": {
+   "name": "SHIP",
+   "url": "https://en.wikipedia.org/wiki/USS_Doris_Miller"
+  },
+  "STRIPES": {
+   "name": "STRIPES",
+   "url": "https://www.stripes.com/branches/navy/2026-08-28/future-aircraft-carrier-doris-miller-name-change-22685891.html"
+  },
+  "NBC": {
+   "name": "NBC",
+   "url": "https://www.nbcnews.com/politics/trump-administration/navy-discusses-renaming-aircraft-carrier-trump-black-uss-doris-miller-rcna593667"
+  },
+  "HILL": {
+   "name": "HILL",
+   "url": "https://thehill.com/policy/defense/6044226-navy-doris-miller-trump-aircraft-carrier/"
+  }
+ },
+ "facts": [
+  {
+   "beat": "navy",
+   "claim": "Enlisted Sept 1939; Black recruits largely restricted to the messman branch.",
+   "sources": [
+    "WIKI",
+    "NT"
+   ]
+  },
+  {
+   "beat": "laundry",
+   "claim": "Collecting laundry on USS West Virginia when torpedoes hit, 7 Dec 1941.",
+   "sources": [
+    "WIKI",
+    "HN",
+    "MF"
+   ]
+  },
+  {
+   "beat": "station",
+   "claim": "Station destroyed; helped wounded and moved Capt. Bennion.",
+   "sources": [
+    "WIKI",
+    "HN"
+   ]
+  },
+  {
+   "beat": "gun",
+   "claim": ".50-caliber machine gun with no training on it.",
+   "sources": [
+    "HN",
+    "MF",
+    "NT"
+   ]
+  },
+  {
+   "beat": "quote",
+   "claim": "\"I just pulled the trigger, and she worked fine.\"",
+   "sources": [
+    "HN",
+    "MF"
+   ]
+  },
+  {
+   "beat": "unnamed",
+   "claim": "Navy commendation 1 Jan 1942 unnamed; Pittsburgh Courier identified him, March 1942.",
+   "sources": [
+    "WIKI",
+    "NT",
+    "MF"
+   ]
+  },
+  {
+   "beat": "cross",
+   "claim": "Navy Cross from Nimitz 27 May 1942; first Black recipient.",
+   "sources": [
+    "WIKI",
+    "NT",
+    "HN"
+   ]
+  },
+  {
+   "beat": "back",
+   "claim": "Stayed in the messman branch.",
+   "sources": [
+    "WIKI",
+    "NT"
+   ]
+  },
+  {
+   "beat": "lost",
+   "claim": "Cook third class; lost on Liscome Bay 24 Nov 1943, aged 24.",
+   "sources": [
+    "WIKI",
+    "HN",
+    "NT",
+    "MF"
+   ]
+  }
+ ],
+ "notUsed": [
+  "Planes hit: disputed.",
+  "CVN-81 left out of the reel: its name is in question in 2026 reports; the long video covers it."
+ ]
+}

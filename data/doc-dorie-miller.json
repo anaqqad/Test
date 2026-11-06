@@ -1,0 +1,1508 @@
+{
+ "id": "doc-dorie-miller",
+ "title": "The Navy Made Him Serve Meals. At Pearl Harbor, He Manned a Machine Gun.",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_multilingual_v2",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1,
+  "seed": 1234,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "portrait": {
+   "commons": "File:Dorie Miller - Restoration, full.jpg"
+  },
+  "uniform": {
+   "commons": "File:Doris (Dorie) Miller in uniform at Pearl Harbor (10006682).jpg"
+  },
+  "nimitz": {
+   "commons": "File:Nimitz and miller.jpg"
+  },
+  "nimitz2": {
+   "commons": "File:Admiral Chester W. Nimitz pins the Navy Cross on Doris Miller, Pearl Harbor, May 27, 1942.jpg"
+  },
+  "awards": {
+   "commons": "File:Doris Miller and other sailors presented with awards.jpg"
+  },
+  "speech": {
+   "commons": "File:Doris Miller speaking at Naval Station Great Lakes January 1943.jpg"
+  },
+  "lakes": {
+   "commons": "File:Doris Miller at Naval Station Great Lakes January 1943.jpg"
+  },
+  "poster": {
+   "commons": "File:\"Above and Beyond the Call of Duty.\", 1943 - NARA - 535886.jpg"
+  },
+  "wv1": {
+   "commons": "File:USS West Virginia2.jpg"
+  },
+  "wvafter": {
+   "commons": "File:Aftermath of a Japanese sneak attack on these three stricken U.S. battleships, from left to right, USS West Virginia... - NARA - 196243.jpg"
+  },
+  "planeview": {
+   "commons": "File:Attack on Pearl Harbor Japanese planes view.jpg"
+  },
+  "recon": {
+   "commons": "File:Pearl Harbor Japanese recon photo of battleship row 80G30551.jpg"
+  },
+  "ph1": {
+   "commons": "File:Pearl Harbor Attack, 7 December 1941 - 80-G-6683.jpg"
+  },
+  "ph2": {
+   "commons": "File:Pearl Harbor Attack, 7 December 1941 - 80-G-32920.jpg"
+  },
+  "burning": {
+   "commons": "File:Burning ships at Pearl Harbor.jpg"
+  },
+  "aftermath": {
+   "commons": "File:Pearl harbor aftermath.jpg"
+  },
+  "liscome": {
+   "commons": "File:USS Liscome Bay CVE56.jpg"
+  },
+  "frigate": {
+   "commons": "File:USS Miller (FF-1091).jpg"
+  },
+  "commission": {
+   "commons": "File:USS Miller (FF-1091) commissioning ceremony 1973.jpg"
+  },
+  "announce": {
+   "commons": "File:Doris Miller Announcement 01.jpg"
+  },
+  "wvnew": {
+   "commons": "File:USS West Virginia (BB-48) (69b306da-1dd8-b71b-0b8a-c53abdc88fff).jpg"
+  },
+  "profile": {
+   "commons": "File:USS West Virginia (BB-48) inboard and outboard profiles 1930s.png"
+  },
+  "stamp": {
+   "commons": "File:US Navy 100204-N-1281L-048 The Distinguished Sailors commemorative stamps series is unveiled.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "h1",
+   "text": "On the morning of December 7, 1941, a young sailor was collecting laundry on a battleship at Pearl Harbor.",
+   "visual": {
+    "kind": "photo",
+    "image": "wv1",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "overlays": {
+    "hook": "He was collecting laundry. *Then Pearl Harbor.*"
+   }
+  },
+  {
+   "id": "h2",
+   "text": "The Navy had given him one kind of job. Feed the officers. Serve their meals. It was the only branch open to a Black recruit.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "caption": "Doris \"Dorie\" Miller, May 1942"
+   }
+  },
+  {
+   "id": "h3",
+   "text": "Before that morning was over, he was behind a machine gun, firing at Japanese planes. He had never been trained to use it.",
+   "visual": {
+    "kind": "photo",
+    "image": "burning",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "h4",
+   "text": "The Navy praised his courage, but it did not give his name. A Black newspaper had to find it.",
+   "visual": {
+    "kind": "title",
+    "title": "No name",
+    "sub": "the Navy's first account"
+   }
+  },
+  {
+   "id": "h5",
+   "text": "He became the first Black sailor to receive the Navy Cross. And he still went back to work as a mess attendant.",
+   "visual": {
+    "kind": "card",
+    "image": "nimitz2",
+    "caption": "Admiral Nimitz pins the Navy Cross on Doris Miller, 27 May 1942"
+   }
+  },
+  {
+   "id": "h6",
+   "text": "His name was Doris Miller. History knows him as Dorie. This is the story of the sailor the Navy was not ready for.",
+   "visual": {
+    "kind": "card",
+    "image": "uniform",
+    "caption": "Doris Miller at Pearl Harbor, 1942"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Doris \"Dorie\" Miller",
+     "sub": "1919 – 1943"
+    }
+   }
+  },
+  {
+   "id": "w1",
+   "text": "Doris Miller was born on October 12, 1919, in Waco, Texas.",
+   "visual": {
+    "kind": "title",
+    "title": "Waco",
+    "sub": "Texas, 1919"
+   },
+   "overlays": {
+    "year": {
+     "from": 1919,
+     "to": 1919
+    },
+    "pin": {
+     "label": "Waco",
+     "sub": "Texas"
+    }
+   },
+   "section": "waco"
+  },
+  {
+   "id": "w2",
+   "text": "His parents were farmers, and he was one of four sons. He worked the land with his family.",
+   "visual": {
+    "kind": "title",
+    "title": "One of four sons",
+    "sub": "a farming family in Waco"
+   }
+  },
+  {
+   "id": "w3",
+   "text": "He grew up big and strong, and he played fullback on his high school football team.",
+   "visual": {
+    "kind": "title",
+    "title": "Fullback",
+    "sub": "Moore High School, Waco"
+   }
+  },
+  {
+   "id": "w4",
+   "text": "But he left school without graduating. His family needed the money, and there were few good jobs around Waco for a young Black man.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.16
+    ],
+    "zoom": [
+     1.75,
+     1.85
+    ]
+   }
+  },
+  {
+   "id": "w5",
+   "text": "So he looked to the Navy, for steady pay and a way out of Waco.",
+   "visual": {
+    "kind": "title",
+    "title": "The U.S. Navy",
+    "sub": "steady pay, and a way out"
+   }
+  },
+  {
+   "id": "w6",
+   "text": "On September 16, 1939, two weeks after war broke out in Europe, he walked into a recruiting station in Dallas and signed up for six years.",
+   "visual": {
+    "kind": "title",
+    "title": "16 September 1939",
+    "sub": "Dallas, Texas"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Dallas",
+     "sub": "Texas"
+    }
+   }
+  },
+  {
+   "id": "w7",
+   "text": "He was nineteen years old.",
+   "visual": {
+    "kind": "title",
+    "title": "19",
+    "sub": "years old"
+   }
+  },
+  {
+   "id": "m1",
+   "text": "But the Navy had a separate place for men like him.",
+   "visual": {
+    "kind": "photo",
+    "image": "poster",
+    "focus": [
+     0.5,
+     0.36
+    ],
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "section": "navy"
+  },
+  {
+   "id": "m2",
+   "text": "At that time, a Black recruit had almost no choice. He went into the messman branch.",
+   "visual": {
+    "kind": "title",
+    "title": "The messman branch",
+    "sub": "U.S. Navy, 1939"
+   }
+  },
+  {
+   "id": "m3",
+   "text": "Messmen fed and served the white officers. They looked after their meals and their laundry. It was a segregated branch, made up mostly of Black and Filipino sailors.",
+   "visual": {
+    "kind": "title",
+    "title": "Messmen",
+    "sub": "fed and served the officers"
+   }
+  },
+  {
+   "id": "m4",
+   "text": "White sailors were not allowed to serve in it. And for Black sailors, there was almost no way out of it.",
+   "visual": {
+    "kind": "title",
+    "title": "Segregated",
+    "sub": "by Navy policy"
+   }
+  },
+  {
+   "id": "m5",
+   "text": "Miller enlisted as a mess attendant, third class. He trained at Norfolk, Virginia, and was sent to the ammunition ship Pyro.",
+   "visual": {
+    "kind": "title",
+    "title": "Mess attendant",
+    "sub": "third class"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Norfolk",
+     "sub": "Virginia"
+    }
+   }
+  },
+  {
+   "id": "m6",
+   "text": "Then, on January 2, 1940, he joined the crew of the battleship USS West Virginia.",
+   "visual": {
+    "kind": "card",
+    "image": "wvnew",
+    "caption": "USS West Virginia"
+   },
+   "overlays": {
+    "stamp": "2 January 1940"
+   }
+  },
+  {
+   "id": "m7",
+   "text": "On a ship full of men, he made his name another way. He became the heavyweight boxing champion of the West Virginia.",
+   "visual": {
+    "kind": "title",
+    "title": "Heavyweight champion",
+    "sub": "USS West Virginia"
+   }
+  },
+  {
+   "id": "m8",
+   "text": "His battle station, if the alarm ever rang, was below decks, at an ammunition magazine serving the anti-aircraft guns.",
+   "visual": {
+    "kind": "card",
+    "image": "profile",
+    "caption": "USS West Virginia, inboard and outboard profiles, 1930s"
+   }
+  },
+  {
+   "id": "m9",
+   "text": "He would pass the ammunition. Other men would do the fighting.",
+   "visual": {
+    "kind": "title",
+    "title": "Pass the ammunition",
+    "sub": "his job in battle"
+   }
+  },
+  {
+   "id": "a1",
+   "text": "Sunday, December 7, 1941. Pearl Harbor, Hawaii.",
+   "visual": {
+    "kind": "photo",
+    "image": "recon",
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "overlays": {
+    "stamp": "7 December 1941",
+    "pin": {
+     "label": "Pearl Harbor",
+     "sub": "Hawaii"
+    }
+   },
+   "section": "attack"
+  },
+  {
+   "id": "a2",
+   "text": "West Virginia was moored along Battleship Row, with the rest of the Pacific Fleet around her.",
+   "visual": {
+    "kind": "photo",
+    "image": "recon",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.3,
+     1.4
+    ]
+   }
+  },
+  {
+   "id": "a3",
+   "text": "Just before eight in the morning, Dorie Miller was below decks, collecting laundry.",
+   "visual": {
+    "kind": "title",
+    "title": "7:55 a.m.",
+    "sub": "Pearl Harbor"
+   }
+  },
+  {
+   "id": "a4",
+   "text": "Then Japanese planes came in over the harbor.",
+   "visual": {
+    "kind": "photo",
+    "image": "planeview",
+    "zoom": [
+     1,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "a5",
+   "text": "The first torpedo hit West Virginia. Then more. Water poured into the ship.",
+   "visual": {
+    "kind": "photo",
+    "image": "wv1",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "a6",
+   "text": "Miller ran for his battle station. He found it destroyed.",
+   "visual": {
+    "kind": "photo",
+    "image": "ph2",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "a7",
+   "text": "There was no ammunition to pass. So he started helping the injured men he could reach.",
+   "visual": {
+    "kind": "photo",
+    "image": "burning",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "a8",
+   "text": "An officer sent him up to the bridge. The captain of the West Virginia, Mervyn Bennion, had been badly wounded.",
+   "visual": {
+    "kind": "photo",
+    "image": "wv1",
+    "focus": [
+     0.45,
+     0.25
+    ],
+    "zoom": [
+     1.3,
+     1.4
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Capt. Mervyn Bennion",
+     "sub": "USS West Virginia"
+    }
+   }
+  },
+  {
+   "id": "a9",
+   "text": "Miller was the ship's boxing champion. He and others carried the captain to a safer spot behind the conning tower.",
+   "visual": {
+    "kind": "photo",
+    "image": "wv1",
+    "focus": [
+     0.55,
+     0.3
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "a10",
+   "text": "Captain Bennion did not survive the attack.",
+   "visual": {
+    "kind": "title",
+    "title": "Capt. Mervyn Bennion",
+    "sub": "did not survive"
+   }
+  },
+  {
+   "id": "a11",
+   "text": "Then came the moment people still remember.",
+   "visual": {
+    "kind": "photo",
+    "image": "ph1",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "a12",
+   "text": "Near the conning tower stood fifty-caliber anti-aircraft machine guns. Miller was told to help feed them ammunition.",
+   "visual": {
+    "kind": "title",
+    "title": ".50 caliber",
+    "sub": "anti-aircraft machine guns"
+   }
+  },
+  {
+   "id": "a13",
+   "text": "Then he took one of the guns himself.",
+   "visual": {
+    "kind": "card",
+    "image": "poster",
+    "caption": "\"Above and Beyond the Call of Duty\", U.S. Navy poster, 1943"
+   }
+  },
+  {
+   "id": "a14",
+   "text": "He had never been trained on it. A mess attendant was not supposed to be there.",
+   "visual": {
+    "kind": "title",
+    "title": "No training",
+    "sub": "on that gun"
+   }
+  },
+  {
+   "id": "a15",
+   "text": "He aimed at the planes and fired, and he kept firing until the ammunition ran out.",
+   "visual": {
+    "kind": "photo",
+    "image": "ph2",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "a16",
+   "text": "Afterward, he made it sound simple. It was not hard, he said. I just pulled the trigger, and she worked fine.",
+   "visual": {
+    "kind": "quote",
+    "quote": "I just pulled the trigger, and she worked fine.",
+    "by": "Dorie Miller"
+   }
+  },
+  {
+   "id": "a17",
+   "text": "How many planes he hit is still argued over. He believed he hit one. The Navy never settled it.",
+   "visual": {
+    "kind": "photo",
+    "image": "planeview",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "a18",
+   "text": "And it almost does not matter. A man the Navy had trained to serve meals was shooting back.",
+   "visual": {
+    "kind": "photo",
+    "image": "poster",
+    "focus": [
+     0.5,
+     0.42
+    ],
+    "zoom": [
+     1.3,
+     1.4
+    ]
+   }
+  },
+  {
+   "id": "a19",
+   "text": "West Virginia could not be saved. She settled onto the bottom of the harbor, on fire.",
+   "visual": {
+    "kind": "photo",
+    "image": "wvafter",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "a20",
+   "text": "Miller helped pull sailors out of the water.",
+   "visual": {
+    "kind": "photo",
+    "image": "wv1",
+    "focus": [
+     0.5,
+     0.82
+    ],
+    "zoom": [
+     1.3,
+     1.4
+    ]
+   }
+  },
+  {
+   "id": "a21",
+   "text": "More than a hundred men of the West Virginia were lost that morning.",
+   "visual": {
+    "kind": "title",
+    "title": "100+",
+    "sub": "men of the West Virginia lost"
+   }
+  },
+  {
+   "id": "a22",
+   "text": "Across Pearl Harbor, more than two thousand Americans died. The next day, the United States went to war.",
+   "visual": {
+    "kind": "photo",
+    "image": "aftermath",
+    "zoom": [
+     1,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "u1",
+   "text": "A few days later, Miller was transferred to the cruiser USS Indianapolis. He was back at work as a mess attendant.",
+   "visual": {
+    "kind": "title",
+    "title": "USS Indianapolis",
+    "sub": "back at work as a mess attendant"
+   },
+   "section": "unnamed"
+  },
+  {
+   "id": "u2",
+   "text": "Meanwhile, a story began to spread about a Black sailor at Pearl Harbor who had manned a machine gun.",
+   "visual": {
+    "kind": "title",
+    "title": "The unnamed sailor",
+    "sub": "December 1941"
+   }
+  },
+  {
+   "id": "u3",
+   "text": "Newspapers carried it before the month was out. There was no name.",
+   "visual": {
+    "kind": "photo",
+    "image": "burning",
+    "focus": [
+     0.4,
+     0.45
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "u4",
+   "text": "On January 1, 1942, the Navy issued a commendation for the sailor. It still did not name him.",
+   "visual": {
+    "kind": "title",
+    "title": "1 January 1942",
+    "sub": "commended, but not named"
+   },
+   "overlays": {
+    "year": {
+     "from": 1942,
+     "to": 1942
+    }
+   }
+  },
+  {
+   "id": "u5",
+   "text": "Black Americans wanted to know who he was. And they wanted to know why the Navy would not say.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.16
+    ],
+    "zoom": [
+     1.75,
+     1.85
+    ]
+   }
+  },
+  {
+   "id": "u6",
+   "text": "The Pittsburgh Courier, one of the leading Black newspapers in the country, went looking for him.",
+   "visual": {
+    "kind": "title",
+    "title": "The Pittsburgh Courier",
+    "sub": "looking for the sailor"
+   }
+  },
+  {
+   "id": "u7",
+   "text": "In March 1942, it printed his name. It called him Dorie Miller. And that is the name that stuck.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "caption": "Doris \"Dorie\" Miller, May 1942"
+   },
+   "overlays": {
+    "stamp": "March 1942"
+   }
+  },
+  {
+   "id": "u8",
+   "text": "Now the pressure grew. Bills went to Congress calling for the Medal of Honor, the highest award there is.",
+   "visual": {
+    "kind": "title",
+    "title": "Medal of Honor",
+    "sub": "bills in Congress, 1942"
+   }
+  },
+  {
+   "id": "u9",
+   "text": "Navy Secretary Frank Knox recommended against it.",
+   "visual": {
+    "kind": "title",
+    "title": "Frank Knox",
+    "sub": "Secretary of the Navy"
+   }
+  },
+  {
+   "id": "u10",
+   "text": "On May 11, 1942, President Roosevelt approved a different award: the Navy Cross.",
+   "visual": {
+    "kind": "title",
+    "title": "11 May 1942",
+    "sub": "the Navy Cross approved"
+   }
+  },
+  {
+   "id": "c1",
+   "text": "On May 27, 1942, sailors stood in lines on the flight deck of the carrier USS Enterprise, at Pearl Harbor.",
+   "visual": {
+    "kind": "photo",
+    "image": "awards",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "overlays": {
+    "stamp": "27 May 1942"
+   },
+   "section": "cross"
+  },
+  {
+   "id": "c2",
+   "text": "Admiral Chester Nimitz, commander of the Pacific Fleet, stepped up to Dorie Miller and pinned the medal on his chest.",
+   "visual": {
+    "kind": "card",
+    "image": "nimitz",
+    "caption": "Nimitz and Miller on the USS Enterprise"
+   }
+  },
+  {
+   "id": "c3",
+   "text": "The citation praised his distinguished devotion to duty, extraordinary courage, and disregard for his own personal safety.",
+   "visual": {
+    "kind": "quote",
+    "quote": "Distinguished devotion to duty, extraordinary courage and disregard for his own personal safety.",
+    "by": "Navy Cross citation, 1942"
+   }
+  },
+  {
+   "id": "c4",
+   "text": "He was the first Black sailor ever to receive it.",
+   "visual": {
+    "kind": "card",
+    "image": "nimitz2",
+    "caption": "Doris Miller receives the Navy Cross"
+   }
+  },
+  {
+   "id": "c5",
+   "text": "The Navy was starting to change, slowly. That April, it had said Black recruits could train for general service, at a new camp named for Robert Smalls, the man who sailed a Confederate ship to freedom.",
+   "visual": {
+    "kind": "photo",
+    "image": "lakes",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "c6",
+   "text": "But Dorie Miller, now a national hero, was still a mess attendant.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "caption": "Doris \"Dorie\" Miller, May 1942"
+   }
+  },
+  {
+   "id": "c7",
+   "text": "Late in 1942, after nearly a year at sea, he was brought back, and the Navy sent him on a tour.",
+   "visual": {
+    "kind": "photo",
+    "image": "speech",
+    "focus": [
+     0.62,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "c8",
+   "text": "For more than two months, he spoke to crowds and to sailors, and helped sell war bonds.",
+   "visual": {
+    "kind": "photo",
+    "image": "speech",
+    "focus": [
+     0.68,
+     0.32
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "c9",
+   "text": "In January 1943, he stood at Great Lakes, Illinois, in front of the first class of Black recruits to graduate from Camp Robert Smalls.",
+   "visual": {
+    "kind": "card",
+    "image": "lakes",
+    "caption": "Doris Miller at Naval Station Great Lakes, January 1943"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Great Lakes",
+     "sub": "Illinois"
+    }
+   }
+  },
+  {
+   "id": "c10",
+   "text": "They were training for jobs he had never been offered.",
+   "visual": {
+    "kind": "photo",
+    "image": "lakes",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "c11",
+   "text": "That year, the Navy put his face on a recruiting poster. Above and beyond the call of duty, it said.",
+   "visual": {
+    "kind": "card",
+    "image": "poster",
+    "caption": "\"Above and Beyond the Call of Duty\", 1943"
+   }
+  },
+  {
+   "id": "c12",
+   "text": "Then it sent him back to sea.",
+   "visual": {
+    "kind": "title",
+    "title": "Back to sea",
+    "sub": "1943"
+   }
+  },
+  {
+   "id": "l1",
+   "text": "In the spring of 1943, Miller joined a new escort carrier, the USS Liscome Bay.",
+   "visual": {
+    "kind": "card",
+    "image": "liscome",
+    "caption": "USS Liscome Bay, 1943"
+   },
+   "section": "liscome"
+  },
+  {
+   "id": "l2",
+   "text": "He was promoted to cook, third class. It was a higher rank, in the same kitchen.",
+   "visual": {
+    "kind": "title",
+    "title": "Cook, third class",
+    "sub": "June 1943"
+   }
+  },
+  {
+   "id": "l3",
+   "text": "In November, Liscome Bay sailed for the Gilbert Islands in the Pacific, for the invasion of Makin.",
+   "visual": {
+    "kind": "card",
+    "image": "liscome",
+    "caption": "USS Liscome Bay"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Makin",
+     "sub": "Gilbert Islands"
+    }
+   }
+  },
+  {
+   "id": "l4",
+   "text": "On November 24, 1943, a Japanese submarine fired a torpedo into her side.",
+   "visual": {
+    "kind": "title",
+    "title": "24 November 1943",
+    "sub": "off Makin"
+   },
+   "overlays": {
+    "year": {
+     "from": 1943,
+     "to": 1943
+    }
+   }
+  },
+  {
+   "id": "l5",
+   "text": "The blast set off the bombs stored aboard. The ship went down in about twenty-three minutes.",
+   "visual": {
+    "kind": "title",
+    "title": "23 minutes",
+    "sub": "and she was gone"
+   }
+  },
+  {
+   "id": "l6",
+   "text": "More than six hundred men were lost. Dorie Miller was one of them.",
+   "visual": {
+    "kind": "title",
+    "title": "600+",
+    "sub": "men lost"
+   }
+  },
+  {
+   "id": "l7",
+   "text": "He was twenty-four years old. His body was never recovered.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "caption": "Doris \"Dorie\" Miller, May 1942"
+   }
+  },
+  {
+   "id": "z1",
+   "text": "Four months after he died, in March 1944, the Navy commissioned its first thirteen Black officers.",
+   "visual": {
+    "kind": "title",
+    "title": "13",
+    "sub": "first Black Navy officers, 1944"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "z2",
+   "text": "It came too late for the man who had helped force the question.",
+   "visual": {
+    "kind": "photo",
+    "image": "poster",
+    "focus": [
+     0.5,
+     0.36
+    ],
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "z3",
+   "text": "In 1973, the Navy commissioned a ship in his name, the USS Miller.",
+   "visual": {
+    "kind": "card",
+    "image": "commission",
+    "caption": "Commissioning of the USS Miller, 1973"
+   }
+  },
+  {
+   "id": "z3b",
+   "text": "She sailed for eighteen years.",
+   "visual": {
+    "kind": "photo",
+    "image": "frigate",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "z4",
+   "text": "In 2010, he appeared on a United States postage stamp, among the distinguished sailors of the Navy.",
+   "visual": {
+    "kind": "photo",
+    "image": "stamp",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "z5",
+   "text": "And on January 20, 2020, Martin Luther King Day, the Navy announced that a future aircraft carrier would be named USS Doris Miller.",
+   "visual": {
+    "kind": "card",
+    "image": "announce",
+    "caption": "The USS Doris Miller announcement, 20 January 2020"
+   }
+  },
+  {
+   "id": "z6",
+   "text": "It would be the first aircraft carrier named for a Black American, and the first named for an enlisted sailor.",
+   "visual": {
+    "kind": "title",
+    "title": "CVN-81",
+    "sub": "announced as USS Doris Miller"
+   }
+  },
+  {
+   "id": "z7",
+   "text": "In 2026, reports said the Navy was weighing a new name for that ship, and that the Medal of Honor was under consideration. So far, nothing has been announced.",
+   "visual": {
+    "kind": "title",
+    "title": "2026",
+    "sub": "nothing announced so far"
+   }
+  },
+  {
+   "id": "z8",
+   "text": "The first bills for his Medal of Honor went to Congress in 1942. People are still asking.",
+   "visual": {
+    "kind": "card",
+    "image": "poster",
+    "caption": "Doris Miller, Navy poster, 1943"
+   }
+  },
+  {
+   "id": "e1",
+   "text": "A farm boy from Waco, who wanted a way out.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.16
+    ],
+    "zoom": [
+     1.75,
+     1.85
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "e2",
+   "text": "A sailor the Navy would let serve meals, but not much more.",
+   "visual": {
+    "kind": "photo",
+    "image": "wv1",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "e3",
+   "text": "A hero it praised before it would name him, and sent back to the kitchen after it did.",
+   "visual": {
+    "kind": "card",
+    "image": "nimitz",
+    "caption": "Nimitz and Miller, 1942"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "Nobody had trained him for that gun. He fired back anyway.",
+   "visual": {
+    "kind": "card",
+    "image": "portrait",
+    "caption": "Doris \"Dorie\" Miller, May 1942"
+   }
+  },
+  {
+   "id": "e5",
+   "text": "That was Dorie Miller. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "h1": [
+   "WIKI",
+   "HN",
+   "MF"
+  ],
+  "h2": [
+   "WIKI",
+   "NT"
+  ],
+  "h3": [
+   "HN",
+   "MF",
+   "NT"
+  ],
+  "h4": [
+   "WIKI",
+   "NT"
+  ],
+  "h5": [
+   "WIKI",
+   "HN",
+   "NT"
+  ],
+  "w1": [
+   "WIKI",
+   "MF",
+   "HN"
+  ],
+  "w2": [
+   "WIKI",
+   "MF"
+  ],
+  "w3": [
+   "WIKI",
+   "MF"
+  ],
+  "w4": [
+   "WIKI",
+   "MF"
+  ],
+  "w6": [
+   "NHHC",
+   "WIKI",
+   "NT",
+   "MF"
+  ],
+  "m2": [
+   "WIKI",
+   "NT"
+  ],
+  "m3": [
+   "WIKI",
+   "NT"
+  ],
+  "m4": [
+   "WIKI",
+   "NT"
+  ],
+  "m5": [
+   "NHHC",
+   "WIKI"
+  ],
+  "m6": [
+   "NHHC",
+   "WIKI",
+   "NT",
+   "HN"
+  ],
+  "m7": [
+   "WIKI",
+   "HN"
+  ],
+  "m8": [
+   "HN",
+   "WIKI"
+  ],
+  "a3": [
+   "WIKI",
+   "HN",
+   "MF"
+  ],
+  "a5": [
+   "HN",
+   "WIKI"
+  ],
+  "a6": [
+   "HN",
+   "WIKI"
+  ],
+  "a7": [
+   "HN",
+   "WIKI"
+  ],
+  "a8": [
+   "HN",
+   "WIKI",
+   "MF"
+  ],
+  "a9": [
+   "HN",
+   "WIKI",
+   "MF"
+  ],
+  "a10": [
+   "HN",
+   "WIKI"
+  ],
+  "a12": [
+   "MF",
+   "HN",
+   "WIKI"
+  ],
+  "a13": [
+   "HN",
+   "MF",
+   "NT"
+  ],
+  "a14": [
+   "HN",
+   "MF",
+   "NT"
+  ],
+  "a15": [
+   "WIKI",
+   "HN",
+   "MF"
+  ],
+  "a16": [
+   "HN",
+   "MF"
+  ],
+  "a17": [
+   "WIKI",
+   "MF"
+  ],
+  "a19": [
+   "HN",
+   "WIKI"
+  ],
+  "a20": [
+   "NT",
+   "MF"
+  ],
+  "a21": [
+   "HN",
+   "MF"
+  ],
+  "u1": [
+   "WIKI",
+   "NT"
+  ],
+  "u2": [
+   "MF",
+   "NT"
+  ],
+  "u3": [
+   "NT",
+   "MF"
+  ],
+  "u4": [
+   "WIKI",
+   "NT"
+  ],
+  "u6": [
+   "WIKI",
+   "NT",
+   "MF"
+  ],
+  "u7": [
+   "WIKI",
+   "NT",
+   "MF"
+  ],
+  "u8": [
+   "WIKI",
+   "MF"
+  ],
+  "u9": [
+   "WIKI",
+   "NT"
+  ],
+  "u10": [
+   "WIKI",
+   "NT"
+  ],
+  "c1": [
+   "WIKI",
+   "NT",
+   "HN"
+  ],
+  "c2": [
+   "WIKI",
+   "NT",
+   "HN",
+   "MF"
+  ],
+  "c3": [
+   "HN",
+   "WIKI"
+  ],
+  "c4": [
+   "HN",
+   "NT",
+   "WIKI"
+  ],
+  "c5": [
+   "NT",
+   "WIKI"
+  ],
+  "c6": [
+   "WIKI",
+   "HN"
+  ],
+  "c7": [
+   "NT",
+   "HN"
+  ],
+  "c8": [
+   "NT",
+   "WIKI"
+  ],
+  "c9": [
+   "NT",
+   "WIKI"
+  ],
+  "c11": [
+   "WIKI",
+   "MF"
+  ],
+  "l1": [
+   "WIKI",
+   "HN",
+   "NT"
+  ],
+  "l2": [
+   "WIKI",
+   "NT",
+   "HN"
+  ],
+  "l3": [
+   "WIKI",
+   "HN"
+  ],
+  "l4": [
+   "WIKI",
+   "HN",
+   "NT",
+   "MF"
+  ],
+  "l5": [
+   "HN",
+   "WIKI",
+   "NT"
+  ],
+  "l6": [
+   "MF",
+   "HN",
+   "WIKI"
+  ],
+  "l7": [
+   "HN",
+   "NT",
+   "MF"
+  ],
+  "z1": [
+   "NT",
+   "WIKI"
+  ],
+  "z3": [
+   "WIKI",
+   "NT"
+  ],
+  "z3b": [
+   "WIKI",
+   "SHIP"
+  ],
+  "z4": [
+   "WIKI",
+   "SHIP"
+  ],
+  "z5": [
+   "WIKI",
+   "MF",
+   "SHIP"
+  ],
+  "z6": [
+   "WIKI",
+   "SHIP"
+  ],
+  "z7": [
+   "STRIPES",
+   "NBC",
+   "HILL",
+   "WIKI"
+  ],
+  "z8": [
+   "WIKI",
+   "STRIPES"
+  ]
+ },
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Doris_Miller"
+  },
+  "NHHC": {
+   "url": "https://www.history.navy.mil/research/histories/biographies-list/bios-m/miller-doris.html"
+  },
+  "HN": {
+   "url": "https://historynet.com/valor-pearl-harbors-unlikely-hero/"
+  },
+  "NT": {
+   "url": "https://www.navytimes.com/military-honor/salute-veterans/2019/11/01/how-dorie-millers-bravery-helped-fight-bigotry-in-the-navy/"
+  },
+  "MF": {
+   "url": "https://mentalfloss.com/article/642783/doris-miller-naval-cook-pearl-harbor-hero"
+  },
+  "SHIP": {
+   "url": "https://en.wikipedia.org/wiki/USS_Doris_Miller"
+  },
+  "STRIPES": {
+   "url": "https://www.stripes.com/branches/navy/2026-08-28/future-aircraft-carrier-doris-miller-name-change-22685891.html"
+  },
+  "NBC": {
+   "url": "https://www.nbcnews.com/politics/trump-administration/navy-discusses-renaming-aircraft-carrier-trump-black-uss-doris-miller-rcna593667"
+  },
+  "HILL": {
+   "url": "https://thehill.com/policy/defense/6044226-navy-doris-miller-trump-aircraft-carrier/"
+  }
+ },
+ "notUsed": [
+  "Number of planes hit: claims range from one to six; the script says it is argued over.",
+  "Crew lost on West Virginia: 130 (HistoryNet) vs 106 (Mental Floss): script says more than a hundred.",
+  "Liscome Bay dead: 644 (HistoryNet) vs 702 (Wikipedia): script says more than six hundred.",
+  "Gun training: he attended a secondary-battery gunnery school on USS Nevada (HistoryNet, NHHC), which was not the .50-caliber gun; several sources say no training on that weapon, and Wikipedia also says officers instructed him during the attack.",
+  "The \"Dorie\" typo story: the origin is uncertain. The script only says the Courier used the name and it stuck.",
+  "His mother recognising the story; the \"busboy\" quote; Delano and Johnson by name: single source.",
+  "Who else may be named for CVN-81 in the reports: left out on purpose. Re-check for any Navy announcement before publishing."
+ ]
+}
