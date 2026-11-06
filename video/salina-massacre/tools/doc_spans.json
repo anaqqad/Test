@@ -1,0 +1,28 @@
+{
+ "firing_fear": {
+  "image": "doc_salina_sun_p1.jpg",
+  "pw": 1600,
+  "ph": 1200,
+  "phrase": "Fear was expressed by many that the Nazis were making a break, until the word was circulated as to what had happened at the site.",
+  "rects": [
+   [
+    451,
+    943,
+    213,
+    29
+   ],
+   [
+    32,
+    968,
+    632,
+    25
+   ],
+   [
+    31,
+    990,
+    474,
+    28
+   ]
+  ]
+ }
+}

@@ -268,6 +268,15 @@ def main():
                 return max(0.0, ws[i]["start"] - CUT_LEAD)
         raise SystemExit(f"anchor not found in paragraph {pi}: {phrase!r}\n{' '.join(toks)}")
 
+    def said(pi, phrase):  # first and last word times of a phrase in the spoken text
+        ws, target = words[pi], [norm(x) for x in phrase.split()]
+        toks = [norm(w["text"]) for w in ws]
+        for i in range(len(toks) - len(target) + 1):
+            if toks[i:i + len(target)] == target:
+                return ws[i]["start"], ws[i + len(target) - 1]["end"]
+        raise SystemExit(f"highlight not spoken in paragraph {pi}: {phrase!r}; spoken: {' '.join(toks)}")
+
+    docs = json.load(open(ROOT / "tools/doc_spans.json", encoding="utf-8")) if (ROOT / "tools/doc_spans.json").exists() else {}
     cuts, overlays = [], []
     for pi, items in enumerate(P):
         for it in items:
@@ -283,6 +292,15 @@ def main():
                     card["dur"] = 6.5
                 else:  # full card runs to the end of its paragraph (7-12 s)
                     card["end"] = min(card["start"] + 12.0, max(card["start"] + 7.0, paras[pi]["end"] + 0.3))
+                if card["type"] == "LedgerDocument":  # spans: [{"doc": key in tools/doc_spans.json, "say": spoken words}]
+                    spans = []
+                    for sp in card["spans"]:
+                        d = docs[sp["doc"]]
+                        t0, t1 = said(pi, sp["say"])
+                        card.update(image=d["image"], pw=d["pw"], ph=d["ph"])
+                        spans.append({"rects": d["rects"], "at": round(t0 - card["start"], 3), "dur": round(t1 - t0, 3)})
+                    card["spans"] = spans
+                    card["end"] = max(card["end"], card["start"] + spans[-1]["at"] + spans[-1]["dur"] + 0.7)
                 overlays.append(card)
             else:
                 t = 0.0 if (pi == 0 and it is items[0]) else at(pi, it[0])

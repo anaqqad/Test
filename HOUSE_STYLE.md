@@ -50,6 +50,10 @@ is always typed at the bottom.
   speaker in mono. Quote only what the source says. Mark any cuts with `…`.
 - **LedgerClipping**: a newspaper report as torn newsprint pinned slightly rotated on the ledger, with
   a red bracket in the margin. Label it "as quoted in …" when it is reconstructed from a book.
+- **LedgerDocument** (`remotion/src/document.tsx`): one sentence on a real scanned page. The scan lies on the
+  ledger, the view closes in just before the sentence is read, a grease-pencil highlighter runs along the
+  printed lines in step with the narration, and a bracket draws in the margin. The narration reads those words
+  verbatim. Always grease red, never another channel's green, and never a page that is not a real scan.
 - **LedgerMap**: state lines in thin ink, with the region of interest hatched. The route is drawn in
   grease pencil, stops in caps, and distances or modes in red mono.
 - Hold 7–12 s, never two ledger cards back to back. Use 5–7 per video.

@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, Composition } from "remotion";
 import { BigNumber, ContextTag, Slug } from "./overlays";
 import { PhotoCard } from "./photo";
+import { LedgerDocument } from "./document";
 import { LedgerBars, LedgerClipping, LedgerMap, LedgerQuote, LedgerTimeline } from "./ledger";
 
 // One overlay = one entry of build/storyboard.json, rendered alone (ProRes 4444 with alpha) and laid
@@ -12,6 +13,7 @@ const Overlay: React.FC<{ card: Record<string, any>; frames: number }> = ({ card
     case "Slug": return <Slug title={c.title} subtitle={c.subtitle} />;
     case "BigNumber": return <BigNumber value={c.value} label={c.label} source={c.source} />;
     case "PhotoCard": return <PhotoCard {...(c as any)} />;
+    case "LedgerDocument": return <LedgerDocument {...(c as any)} />;
     case "LedgerTimeline": return <LedgerTimeline file={c.file} head={c.head} rows={c.rows} source={c.source} />;
     case "LedgerBars": return <LedgerBars file={c.file} head={c.head} bars={c.bars} max={c.max} source={c.source} />;
     case "LedgerQuote": return <LedgerQuote file={c.file} head={c.head} before={c.before} key_={c.key} after={c.after} who={c.who} source={c.source} />;
