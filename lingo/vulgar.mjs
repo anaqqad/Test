@@ -88,7 +88,11 @@ for (const [idx, it] of items.entries()) {
       <div data-in="${wordAt}" class="f" id="word"><div class="hd">${esc(D.word_label || "Signature swear word")}</div><div class="w${/[\u1000-\u109F\u0B80-\u0BFF\u0E00-\u0E7F]/.test(it.word) ? " tall" : ""}">${esc(it.word)}</div>${it.roman ? `<div class="rom">${esc(it.roman)}</div>` : ""}<div class="lit"><b>${esc(D.lit_label || "LITERALLY")}</b>${esc(it.lit)}</div>${m?.ai ? `<div class="norec">AI VOICE (no native recording exists yet)</div>` : ""}</div>
       ${it.cards.map((c, i) => `<div data-in="${(cardsAt + i * 3.6).toFixed(2)}" class="f card">${esc(c)}</div>`).join("")}</div>
     <div id="bar" class="a"><img src="${flag(it.flag)}">${esc(it.name)}</div>
-    ${brand(`#${rank}`)}`;
+    ${brand(`#${rank}`)}
+    <script>(()=>{ // long examples: shrink the word until the panel (meter, word box, every card) fits on screen
+      const p=document.getElementById('panel'), w=document.querySelector('#word .w'), l=document.querySelector('#word .lit');
+      let f=84; while(p.getBoundingClientRect().bottom>1050 && f>40){ f-=4; w.style.fontSize=f+'px'; if(f<64&&l) l.style.fontSize='28px'; }
+    })();</script>`;
   add(it.key, dur, html, { say, count: it.count, max: MAX, acc: ACC }, m ? say.map((s) => ({ file: path.join(A, it.key + ".wav"), at: s.t })) : []);
 }
 
