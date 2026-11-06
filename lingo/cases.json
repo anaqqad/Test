@@ -1,0 +1,322 @@
+{
+ "_note": "Case counts: the number taught in each language's standard grammar. Experts disagree for some (Hungarian 17 to 27, or none if the endings are counted as postpositions); languages with very large disagreements (Tsez, Archi, Basque, Lezgian) left out. Owner approved the list 2026-11-06. Audio built by build_cases.py.",
+ "title": "Ranking Languages by How Many Grammar Cases They Have",
+ "subtitle": "THE ENDINGS THAT SHOW WHO DOES WHAT TO WHOM",
+ "meter": "Grammar cases",
+ "meter_unit": "CASES",
+ "word_label": "Example",
+ "lit_label": "MEANING",
+ "outro": "Which language's cases drive you crazy?",
+ "accent": "#e8262b",
+ "items": [
+  {
+   "key": "hun",
+   "name": "Hungarian",
+   "flag": "hu",
+   "count": 18,
+   "rank": 1,
+   "scene": "prague",
+   "word": "ház → házban → házból → házba",
+   "lit": "house → in the house → out of the house → into the house",
+   "local": {
+    "file": "incoming/cases/WIKITONGUES- Orsolya speaking Hungarian.webm",
+    "start": 45.3,
+    "end": 49.75
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Orsolya speaking Hungarian.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0"
+   },
+   "cards": [
+    "18 cases. Endings do the job of English words like in, on, from and to.",
+    "One word, many endings: háznál 'at the house', házhoz 'towards the house', házon 'on the house'."
+   ],
+   "wojak": "cs_hun_f"
+  },
+  {
+   "key": "fin",
+   "name": "Finnish",
+   "flag": "fi",
+   "count": 15,
+   "rank": 2,
+   "scene": "dalarna",
+   "word": "Suomi → Suomen → suomea → Suomessa → Suomesta",
+   "lit": "Finland → Finland's → (I speak) Finnish → in Finland → from Finland",
+   "seq": [
+    "LL-Q1412 (fin)-Seqv-Suomi.wav",
+    "LL-Q1412 (fin)-Seqv-Suomen.wav",
+    "LL-Q1412 (fin)-Seqv-suomea.wav",
+    "LL-Q1412 (fin)-Seqv-Suomessa.wav",
+    "LL-Q1412 (fin)-Seqv-Suomesta.wav"
+   ],
+   "credit": {
+    "title": "File:LL-Q1412 (fin)-Seqv-Suomi.wav",
+    "artist": "Seqv (Lingua Libre)",
+    "license": "CC0"
+   },
+   "cards": [
+    "15 cases, and a noun can take every one of them in the singular and the plural.",
+    "There is even a case for 'without': rahatta means 'without money'."
+   ],
+   "wojak": "cs_fin",
+   "local": {
+    "file": "incoming/cases/seq_fin.wav",
+    "start": 0,
+    "end": 4.86
+   }
+  },
+  {
+   "key": "est",
+   "name": "Estonian",
+   "flag": "ee",
+   "count": 14,
+   "rank": 3,
+   "scene": "baltic",
+   "word": "aasta → aastal → aastast → aastat",
+   "lit": "year → in the year → from the year → (two) years",
+   "seq": [
+    "LL-Q9072 (est)-Superpositsiooniprintsiip-aasta.wav",
+    "LL-Q9072 (est)-Superpositsiooniprintsiip-aastal.wav",
+    "LL-Q9072 (est)-Superpositsiooniprintsiip-aastast.wav",
+    "LL-Q9072 (est)-Superpositsiooniprintsiip-aastat.wav"
+   ],
+   "credit": {
+    "title": "File:LL-Q9072 (est)-Superpositsiooniprintsiip-aasta.wav",
+    "artist": "Superpositsiooniprintsiip (Lingua Libre)",
+    "license": "CC BY 4.0"
+   },
+   "cards": [
+    "14 cases. Estonian is a close relative of Finnish.",
+    "Many cases are just an ending added to the word: aastal 'in the year', aastast 'from the year'."
+   ],
+   "wojak": "cs_est",
+   "local": {
+    "file": "incoming/cases/seq_est.wav",
+    "start": 0,
+    "end": 2.92
+   }
+  },
+  {
+   "key": "tam",
+   "name": "Tamil",
+   "flag": "in",
+   "count": 8,
+   "rank": 4,
+   "scene": "andaman",
+   "word": "வீடு → வீட்டில் → வீட்டுக்கு",
+   "roman": "vīṭu → vīṭṭil → vīṭṭukku",
+   "lit": "house → in the house → to the house",
+   "local": {
+    "file": "incoming/cases/WIKITONGUES- Sai speaking Tamil.webm",
+    "start": 50.0,
+    "end": 56.0
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Sai speaking Tamil.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0"
+   },
+   "cards": [
+    "8 cases. Tamil grammarians already listed them about 2,000 years ago.",
+    "Tamil is one of the oldest languages still spoken today, in India, Sri Lanka and Singapore."
+   ],
+   "wojak": "cs_tam"
+  },
+  {
+   "key": "pol",
+   "name": "Polish",
+   "flag": "pl",
+   "count": 7,
+   "rank": 5,
+   "scene": "village",
+   "word": "dom → domu → domowi → domem → domie",
+   "lit": "house → of the house → to the house → with the house → in the house",
+   "seq": [
+    "LL-Q809 (pol)-KaMan-dom.wav",
+    "LL-Q809 (pol)-KaMan-domu.wav",
+    "LL-Q809 (pol)-KaMan-domowi.wav",
+    "LL-Q809 (pol)-KaMan-domem.wav",
+    "LL-Q809 (pol)-KaMan-domie.wav"
+   ],
+   "credit": {
+    "title": "File:LL-Q809 (pol)-KaMan-dom.wav",
+    "artist": "KaMan (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "cards": [
+    "7 cases, and every noun changes its ending for them.",
+    "Even names change: Marta becomes Marty, Marcie, Martę or Martą."
+   ],
+   "wojak": "r_pol_calm",
+   "local": {
+    "file": "incoming/cases/seq_pol.wav",
+    "start": 0,
+    "end": 5.48
+   }
+  },
+  {
+   "key": "lit",
+   "name": "Lithuanian",
+   "flag": "lt",
+   "count": 7,
+   "rank": 5,
+   "scene": "forest",
+   "word": "namas → namo → namui → namą → name",
+   "lit": "house → of the house → to the house → the house (object) → in the house",
+   "local": {
+    "file": "incoming/cases/WIKITONGUES- Erika speaking Lithuanian.webm",
+    "start": 34.6,
+    "end": 40.6
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Erika speaking Lithuanian.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0"
+   },
+   "cards": [
+    "7 cases. Many of its endings are close to those of ancient Sanskrit.",
+    "It is often called the most old-fashioned Indo-European language still spoken."
+   ],
+   "wojak": "sl2_lit"
+  },
+  {
+   "key": "rus",
+   "name": "Russian",
+   "flag": "ru",
+   "count": 6,
+   "rank": 7,
+   "scene": "steppe",
+   "word": "дом → дому → доме",
+   "roman": "dom → domu → dome",
+   "lit": "house → to the house → (about) the house",
+   "seq": [
+    "LL-Q7737 (rus)-Infovarius-дом.wav",
+    "LL-Q7737 (rus)-Infovarius-дому.wav",
+    "LL-Q7737 (rus)-Infovarius-доме.wav"
+   ],
+   "credit": {
+    "title": "File:LL-Q7737 (rus)-Infovarius-дом.wav",
+    "artist": "Infovarius (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "cards": [
+    "6 cases, with different endings for masculine, feminine and neuter words.",
+    "Numbers change the case too: один дом (one house), два дома (two houses), пять домов (five houses)."
+   ],
+   "wojak": "s_rus",
+   "local": {
+    "file": "incoming/cases/seq_rus.wav",
+    "start": 0,
+    "end": 2.68
+   }
+  },
+  {
+   "key": "tur",
+   "name": "Turkish",
+   "flag": "tr",
+   "count": 6,
+   "rank": 7,
+   "scene": "istanbul",
+   "word": "Ankara'ya → Ankara'da",
+   "lit": "to Ankara → in Ankara",
+   "local": {
+    "file": "incoming/cases/WIKITONGUES- Ela speaking Turkish.webm",
+    "start": 17.4,
+    "end": 24.5
+   },
+   "credit": {
+    "title": "File:WIKITONGUES- Ela speaking Turkish.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0"
+   },
+   "cards": [
+    "6 cases, made by sticking endings onto the word.",
+    "You just heard two of them: Ankara'ya gittim 'I went to Ankara', then Ankara'da 'in Ankara'."
+   ],
+   "wojak": "cs_tur_f"
+  },
+  {
+   "key": "deu",
+   "name": "German",
+   "flag": "de",
+   "count": 4,
+   "rank": 9,
+   "scene": "alps",
+   "word": "der → den → dem → des",
+   "lit": "'the', in its four cases",
+   "local": {
+    "file": "incoming/cases/NordwindSonne.wav",
+    "start": 0.0,
+    "end": 5.95
+   },
+   "credit": {
+    "title": "File:NordwindSonne.wav",
+    "artist": "Jeytas",
+    "license": "Public domain"
+   },
+   "cards": [
+    "4 cases, shown mostly by the word for 'the'.",
+    "Der Mann (the man) can become den Mann, dem Mann or des Mannes."
+   ],
+   "wojak": "s_deu"
+  },
+  {
+   "key": "ara",
+   "name": "Arabic",
+   "flag": "sa",
+   "count": 3,
+   "rank": 10,
+   "scene": "arabia",
+   "word": "كتابٌ → كتابًا → كتابٍ",
+   "roman": "kitābun → kitāban → kitābin",
+   "lit": "a book, in its three cases",
+   "local": {
+    "file": "incoming/cases/موجز الأخبار من إذاعة ويكيبيديا العربية 30 يونيو 2020.wav",
+    "start": 35.2,
+    "end": 43.95
+   },
+   "credit": {
+    "title": "File:موجز الأخبار من إذاعة ويكيبيديا العربية 30 يونيو 2020.wav",
+    "artist": "إيهاب السماك (Arabic Wikipedia Radio)",
+    "license": "CC BY-SA 4.0"
+   },
+   "cards": [
+    "3 cases, marked by a short vowel at the end of the word.",
+    "Everyday spoken Arabic dropped them. You hear them in formal Arabic, like this news report."
+   ],
+   "wojak": "r_ara"
+  },
+  {
+   "key": "eng",
+   "name": "English",
+   "flag": "gb",
+   "count": 0,
+   "rank": 11,
+   "scene": "moorland",
+   "word": "I → me → my → mine",
+   "lit": "only pronouns still change",
+   "seq": [
+    "LL-Q1860 (eng)-Wodencafe-I.wav",
+    "LL-Q1860 (eng)-Wodencafe-me.wav",
+    "LL-Q1860 (eng)-Wodencafe-my.wav",
+    "LL-Q1860 (eng)-Wodencafe-mine.wav"
+   ],
+   "credit": {
+    "title": "File:LL-Q1860 (eng)-Wodencafe-I.wav",
+    "artist": "Wodencafe (Lingua Libre)",
+    "license": "CC0"
+   },
+   "cards": [
+    "0 cases for nouns: 'the house' stays 'the house' whatever it does in the sentence.",
+    "Old English had 4 cases. Today only pronouns keep them: I, me, my."
+   ],
+   "wojak": "s_eng_calm",
+   "local": {
+    "file": "incoming/cases/seq_eng.wav",
+    "start": 0,
+    "end": 2.94
+   }
+  }
+ ]
+}
