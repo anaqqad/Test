@@ -11,8 +11,8 @@ The War Was Over. An American Guard Machine-Gunned Sleeping German POWs.
 Why this topic: see `research/sources.md` ("Why this topic").
 
 ## Thumbnail
-`thumbnail/thumbnail_A.jpg` and `thumbnail_B.jpg` for Test & compare. A: the guard tower at Camp Salina today (CC BY 2.0). B: the
-Salina Sun, 13 July 1945 ("American Guard Shoots Sleeping Nazi P W's", no copyright). Rebuild with `python tools/thumbnail.py`. No AI image.
+`thumbnail/thumbnail_A.jpg` and `thumbnail_B.jpg` for Test & compare. A: the Salina Sun, 13 July 1945 ("American Guard Shoots Sleeping
+Nazi P W's", no copyright). B: the guard tower at Camp Salina today (CC BY 2.0). Rebuild with `python tools/thumbnail.py`. No AI image.
 
 ## Description
 On a Saturday night in July 1945, a 23-year-old American soldier told a waitress in Salina, Utah, that something exciting was going to happen tonight. At midnight he reported for guard duty, climbed a tower, and loaded a machine gun. Below him, about 250 German prisoners of war were asleep in their tents. The war in Europe had been over for exactly two months.
@@ -60,3 +60,5 @@ Not posted unless asked.
 - Altered or synthetic content: **No**, always (owner's rule).
 - Captions: `out/salina-massacre.srt` (Languages → Upload manual; if it lands as a draft, Edit subtitles → Publish).
 - End screen: the Hearne episode (RvWbz2mYmQA) plus a subscribe button, last 20 s.
+
+**Published** 6 Nov 2026, public: https://youtu.be/W9r4UWNCCe8 (thumbnail A, Education, not made for kids, altered content No, 17 tags, checks complete with no issues, English captions from `out/salina-massacre.srt` published, end screen: Hearne + subscribe, last 20 s).
