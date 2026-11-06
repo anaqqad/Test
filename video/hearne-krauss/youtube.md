@@ -61,3 +61,7 @@ Not posted unless asked.
 - Altered or synthetic content: **No**, always (owner's rule).
 - Captions: `out/hearne-krauss.srt` (Languages → Upload manual; if it lands as a draft, Edit subtitles → Publish).
 - End screen: the Whitewater episode (jeCUV-vg0a8) plus a subscribe button, last 20 s.
+
+**Published** 6 Nov 2026, public: https://youtu.be/RvWbz2mYmQA (thumbnail A, Education, not made for kids, altered content
+No, 17 tags, checks complete with no issues, English captions from `out/hearne-krauss.srt` published, end screen: Whitewater +
+subscribe, last 20 s).
