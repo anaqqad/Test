@@ -163,3 +163,15 @@ One Word in 10 Languages, Languages That Count Differently.
 21. Ranking Languages by Their Presence Online (owner, 2026-11-06). Data: W3Techs share of websites by content
    language (English ~49.5%, Spanish and German ~6% each, 2026), with Wikipedia article counts as a second angle
    (twist: Cebuano and Swedish rank high because of bot-written articles). Owner has more angles to add.
+   Owner (2026-11-06): make a whole "Ranking Languages by..." series on angles OUTSIDE the language itself
+   (not sounds/grammar, but the world around it). Each needs one public, exact data source:
+   - Online presence: share of websites (W3Techs).
+   - Wikipedia: number of articles, and a fair version with bot-written articles left out (Wikimedia statistics).
+   - Most learned: Duolingo learners by course (Duolingo Language Report, yearly).
+   - Most countries where it is official (CIA World Factbook / Wikipedia list).
+   - Most translated INTO and FROM (UNESCO Index Translationum).
+   - Nobel Prizes in Literature by language (nobelprize.org).
+   - Economic power: combined GDP of the countries that speak it (World Bank).
+   - Science: share of research papers (Scopus / Web of Science).
+   - Movies and music: most-watched non-English Netflix titles, Spotify global chart songs by language.
+   - Most new speakers per year / fastest growing (Ethnologue).
