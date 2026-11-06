@@ -1,3 +1,5 @@
+Published 2026-11-06: https://youtu.be/2uZd040pLcg (Public, 4K, Education, AI label No). Facebook: one-line link post on the page.
+
 # Long-form: Dorie Miller, "The Navy Made Him Serve Meals. At Pearl Harbor, He Manned a Machine Gun."
 
 Channel: The Black History Room (YouTube, long-form 16:9)
@@ -47,4 +49,4 @@ Dorie Miller, Doris Miller, Pearl Harbor, USS West Virginia, Navy Cross, USS Lis
 
 ## Facebook
 
-Watch the full video about Dorie Miller on YouTube: LINK
+Watch the full video about Dorie Miller on YouTube: https://youtu.be/2uZd040pLcg

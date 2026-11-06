@@ -1,5 +1,5 @@
 # Facebook post: Dorie Miller
-nPublished 2026-11-06: Facebook photo post on the page (Public, AI label off).
+Published 2026-11-06: Facebook photo post on the page (Public, AI label off).
 
 Image: `publish/posts/dorie-miller.jpg` (public domain: U.S. Navy, National Archives).
 Reel: `publish/reels/dorie-miller.md`. Long video: `publish/docs/dorie-miller.md`. Facts and sources: `data/doc-dorie-miller.json`.
