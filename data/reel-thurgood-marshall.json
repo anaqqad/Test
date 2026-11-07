@@ -1,0 +1,328 @@
+{
+ "id": "reel-thurgood-marshall",
+ "title": "Shut Out of Law School, He Forced It Open.",
+ "voice": {
+  "engine": "elevenlabs",
+  "voiceId": "gUABw7pXQjhjt0kNFBTF",
+  "voiceName": "Andrew - Smooth audio books",
+  "model": "eleven_flash_v2_5",
+  "stability": 0.6,
+  "similarity": 0.75,
+  "style": 0,
+  "speed": 1.05,
+  "seed": 1234,
+  "leadInSeconds": 0,
+  "sectionGapSeconds": 0.5
+ },
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "assets": {
+  "portrait": {
+   "commons": "File:Thurgoodmarshall1967.jpg"
+  },
+  "young": {
+   "commons": "File:Thurgood Marshall 1925.jpg"
+  },
+  "thirties": {
+   "commons": "File:Thurgood-Marshall.jpg"
+  },
+  "houston": {
+   "commons": "File:Charles Hamilton Houston.jpg"
+  },
+  "brown": {
+   "commons": "File:George Edward Chalmer Hayes, Thurgood Marshall, and James Nabrit in 1954 winning Brown case.jpg"
+  },
+  "y1957": {
+   "commons": "File:Thurgood Marshall 1957-09-17.jpg"
+  },
+  "court": {
+   "commons": "File:Warren Court (1967 - 1969).jpg"
+  },
+  "painting": {
+   "commons": "File:Betsy Graves Reyneau - Thurgood Marshall - Google Art Project.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Shut out of law school, he forced it open.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.15,
+     1.22
+    ],
+    "anchor": [
+     0.5,
+     0.25
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Shut out of law school, *he forced it open.*"
+   },
+   "captions": false,
+   "speed": 1.2
+  },
+  {
+   "id": "name",
+   "text": "Meet Thurgood Marshall.",
+   "visual": {
+    "kind": "title",
+    "title": "Thurgood Marshall",
+    "sub": "1908-1993"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "He was born in Baltimore in 1908. After college, he wanted to study law at home.",
+   "visual": {
+    "kind": "card",
+    "image": "young",
+    "caption": "Thurgood Marshall, 1925"
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Baltimore",
+     "sub": "Maryland"
+    }
+   }
+  },
+  {
+   "id": "refused",
+   "text": "But the law school in his own state, the University of Maryland, did not admit Black students.",
+   "visual": {
+    "kind": "title",
+    "title": "Refused",
+    "sub": "University of Maryland law school"
+   },
+   "section": "twist",
+   "overlays": {
+    "stamp": "1930"
+   }
+  },
+  {
+   "id": "howard",
+   "text": "So he went to Howard University in Washington instead, and graduated first in his class in 1933.",
+   "visual": {
+    "kind": "title",
+    "title": "First in his class",
+    "sub": "Howard Law, 1933"
+   }
+  },
+  {
+   "id": "houston",
+   "text": "His teacher there, Charles Hamilton Houston, trained lawyers to fight segregation in court.",
+   "visual": {
+    "kind": "card",
+    "image": "houston",
+    "caption": "Charles Hamilton Houston"
+   }
+  },
+  {
+   "id": "murray",
+   "text": "Two years later, Marshall and Houston sued the school that had shut him out, for a young Black man named Donald Murray.",
+   "visual": {
+    "kind": "card",
+    "image": "thirties",
+    "caption": "Thurgood Marshall, 1930s"
+   }
+  },
+  {
+   "id": "won",
+   "text": "They won. Murray was admitted to the University of Maryland law school.",
+   "visual": {
+    "kind": "title",
+    "title": "Admitted",
+    "sub": "Donald Murray, 1936"
+   }
+  },
+  {
+   "id": "brown",
+   "text": "Then Marshall took on segregated schools across the country. In 1954, in Brown versus Board of Education, the Supreme Court ruled for him, nine to nothing.",
+   "visual": {
+    "kind": "card",
+    "image": "brown",
+    "caption": "Hayes, Marshall and Nabrit after the Brown decision, 1954"
+   }
+  },
+  {
+   "id": "court",
+   "text": "In 1967, he became the first Black justice on the Supreme Court. He served for twenty-four years.",
+   "visual": {
+    "kind": "card",
+    "image": "court",
+    "caption": "The Supreme Court, 1967"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "library",
+   "text": "In 2019, Maryland renamed its state law library after him.",
+   "visual": {
+    "kind": "photo",
+    "image": "painting",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.25
+    ]
+   }
+  },
+  {
+   "id": "end",
+   "text": "They kept him out. He opened the door for everyone.",
+   "visual": {
+    "kind": "photo",
+    "image": "portrait",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.25
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "name": "Wikipedia: Thurgood Marshall",
+   "url": "https://en.wikipedia.org/wiki/Thurgood_Marshall"
+  },
+  "LDF": {
+   "name": "NAACP Legal Defense Fund: Thurgood Marshall",
+   "url": "https://www.naacpldf.org/about-us/history/thurgood-marshall/"
+  },
+  "MURRAY": {
+   "name": "Wikipedia: Murray v. Pearson",
+   "url": "https://en.wikipedia.org/wiki/Murray_v._Pearson"
+  },
+  "NWE": {
+   "name": "New World Encyclopedia: Thurgood Marshall",
+   "url": "https://www.newworldencyclopedia.org/entry/Thurgood_Marshall"
+  },
+  "MDM": {
+   "name": "Maryland Matters: Judiciary to commemorate renaming of Thurgood Marshall Law Library",
+   "url": "https://marylandmatters.org/2019/10/01/judiciary-to-commemorate-renaming-of-thurgood-marshall-law-library/"
+  },
+  "MDC": {
+   "name": "Maryland Courts: About our namesake",
+   "url": "https://mdcourts.gov/lawlib/about-us/thurgood-marshall-biography"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Born 2 July 1908, Baltimore.",
+   "sources": [
+    "WIKI",
+    "LDF"
+   ]
+  },
+  {
+   "beat": "refused",
+   "claim": "Denied admission to University of Maryland law school (segregated).",
+   "sources": [
+    "WIKI",
+    "LDF"
+   ]
+  },
+  {
+   "beat": "howard",
+   "claim": "Howard Law, first in class, 1933.",
+   "sources": [
+    "WIKI",
+    "LDF"
+   ]
+  },
+  {
+   "beat": "houston",
+   "claim": "Mentor Charles Hamilton Houston.",
+   "sources": [
+    "WIKI",
+    "LDF"
+   ]
+  },
+  {
+   "beat": "murray",
+   "claim": "Murray v. Pearson 1935, with Houston, for Donald Gaines Murray; Murray admitted.",
+   "sources": [
+    "WIKI",
+    "LDF",
+    "MURRAY",
+    "NWE"
+   ]
+  },
+  {
+   "beat": "brown",
+   "claim": "Brown v. Board, 17 May 1954, unanimous.",
+   "sources": [
+    "WIKI",
+    "LDF"
+   ]
+  },
+  {
+   "beat": "court",
+   "claim": "Confirmed 30 Aug 1967, first Black justice; served 1967-1991 (24 years).",
+   "sources": [
+    "WIKI",
+    "LDF"
+   ]
+  },
+  {
+   "beat": "library",
+   "claim": "Maryland State Law Library renamed Thurgood Marshall State Law Library, 2019.",
+   "sources": [
+    "MDM",
+    "MDC"
+   ]
+  }
+ ]
+}
