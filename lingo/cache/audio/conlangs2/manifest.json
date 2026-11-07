@@ -1,0 +1,158 @@
+{
+ "Interlingua": {
+  "sig": "conlangs2|Interlingua",
+  "credits": [
+   {
+    "title": "Populo (People) - article from the Interlingua Wikipedia",
+    "artist": "mithradates",
+    "license": "used with permission",
+    "page": "https://www.youtube.com/watch?v=tGCdGSX5fBc"
+   }
+  ],
+  "captions": [],
+  "start": 8.0
+ },
+ "Lingua Franca Nova": {
+  "sig": "conlangs2|Lingua Franca Nova",
+  "credits": [
+   {
+    "title": "File:Introdui1.ogg",
+    "artist": "lingua-franca-nova.net",
+    "license": "GFDL, CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIntrodui1.ogg"
+   }
+  ],
+  "captions": [],
+  "start": 0.0
+ },
+ "Uropi": {
+  "sig": "conlangs2|Uropi",
+  "credits": [
+   {
+    "title": "File:PontMirabo3.ogg",
+    "artist": "Joël Landais, creator of Uropi",
+    "license": "public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3APontMirabo3.ogg"
+   }
+  ],
+  "captions": [],
+  "start": 0.0
+ },
+ "Láadan": {
+  "sig": "conlangs2|Láadan",
+  "credits": [
+   {
+    "title": "File:LL-Q35757 (ldn)-Arlo Barnes-Láadan.wav",
+    "artist": "Arlo Barnes (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q35757_%28ldn%29-Arlo_Barnes-L%C3%A1adan.wav"
+   },
+   {
+    "title": "File:LL-Q35757 (ldn)-Arlo Barnes-osháana.wav",
+    "artist": "Arlo Barnes (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q35757_%28ldn%29-Arlo_Barnes-osh%C3%A1ana.wav"
+   },
+   {
+    "title": "File:LL-Q35757 (ldn)-Arlo Barnes-héeya.wav",
+    "artist": "Arlo Barnes (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q35757_%28ldn%29-Arlo_Barnes-h%C3%A9eya.wav"
+   },
+   {
+    "title": "File:LL-Q35757 (ldn)-Arlo Barnes-lóolo.wav",
+    "artist": "Arlo Barnes (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q35757_%28ldn%29-Arlo_Barnes-l%C3%B3olo.wav"
+   },
+   {
+    "title": "File:LL-Q35757 (ldn)-Arlo Barnes-shebasheb.wav",
+    "artist": "Arlo Barnes (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q35757_%28ldn%29-Arlo_Barnes-shebasheb.wav"
+   },
+   {
+    "title": "File:LL-Q35757 (ldn)-Arlo Barnes-ramíili.wav",
+    "artist": "Arlo Barnes (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q35757_%28ldn%29-Arlo_Barnes-ram%C3%ADili.wav"
+   },
+   {
+    "title": "File:LL-Q35757 (ldn)-Arlo Barnes-dóhin.wav",
+    "artist": "Arlo Barnes (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q35757_%28ldn%29-Arlo_Barnes-d%C3%B3hin.wav"
+   },
+   {
+    "title": "File:LL-Q35757 (ldn)-Arlo Barnes-híya.wav",
+    "artist": "Arlo Barnes (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q35757_%28ldn%29-Arlo_Barnes-h%C3%ADya.wav"
+   },
+   {
+    "title": "File:LL-Q35757 (ldn)-Arlo Barnes-rahen.wav",
+    "artist": "Arlo Barnes (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q35757_%28ldn%29-Arlo_Barnes-rahen.wav"
+   },
+   {
+    "title": "File:LL-Q35757 (ldn)-Arlo Barnes-mime.wav",
+    "artist": "Arlo Barnes (Lingua Libre)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q35757_%28ldn%29-Arlo_Barnes-mime.wav"
+   }
+  ],
+  "captions": [
+   {
+    "t": 0.6,
+    "d": 0.91,
+    "text": "Láadan"
+   },
+   {
+    "t": 2.41,
+    "d": 0.71,
+    "text": "osháana"
+   },
+   {
+    "t": 4.02,
+    "d": 0.53,
+    "text": "héeya"
+   },
+   {
+    "t": 5.45,
+    "d": 0.72,
+    "text": "lóolo"
+   },
+   {
+    "t": 7.07,
+    "d": 0.55,
+    "text": "shebasheb"
+   },
+   {
+    "t": 8.52,
+    "d": 0.78,
+    "text": "ramíili"
+   },
+   {
+    "t": 10.2,
+    "d": 0.41,
+    "text": "dóhin"
+   },
+   {
+    "t": 11.51,
+    "d": 0.36,
+    "text": "híya"
+   },
+   {
+    "t": 12.77,
+    "d": 0.38,
+    "text": "rahen"
+   },
+   {
+    "t": 14.05,
+    "d": 0.37,
+    "text": "mime"
+   }
+  ]
+ }
+}

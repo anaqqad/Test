@@ -1,0 +1,50 @@
+# YouTube metadata: Ranking the World's Easiest Languages
+
+## Title
+Ranking the World's Easiest Languages (for English Speakers)
+
+## Description
+Which language can an English speaker learn the fastest? We ranked the top 10 using the class time the U.S. Foreign Service Institute (FSI), the school that trains American diplomats, needs to bring English speakers to professional working level, from Dutch to German. Every word you hear is a real recording by a native speaker, and every one of them looks like its English twin.
+
+How we ranked: first by FSI class time (24 weeks / 600 hours for most of the top 10, 30 weeks for French, 36 weeks for German). Eight languages tie at 24 weeks, so the tie is broken by how many of the 207 Swadesh core words (water, hand, fish, moon...) look like their English versions, measured by spelling similarity on the Wiktionary Swadesh lists. Dutch, Norwegian, Swedish and Danish come first because their core words are closest to English. Older FSI lists also put Afrikaans in the easiest group; the current list does not, so it is not ranked here. This is a ranking for native English speakers: the order would be different for a Spanish or Chinese speaker.
+
+Which language was easiest for you? Tell us in the comments 👇
+
+0:00 Intro
+0:05 #10 German (36 weeks)
+0:20 #9 French (30 weeks)
+0:36 #8 Portuguese (24 weeks)
+0:52 #7 Romanian (24 weeks)
+1:07 #6 Spanish (24 weeks)
+1:24 #5 Italian (24 weeks)
+1:40 #4 Danish (24 weeks)
+1:55 #3 Swedish (24 weeks)
+2:11 #2 Norwegian (24 weeks)
+2:27 #1 Dutch (24 weeks)
+
+Sources: U.S. Department of State, Foreign Service Institute, language learning timelines; Wiktionary Swadesh lists for Germanic and Romance languages (CC BY-SA).
+
+RECORDINGS (via Wikimedia Commons)
+Dutch: "LL-Q7411 (nld)-Robin van der Vliet-appel.wav" by Robin van der Vliet (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q7411_%28nld%29-Robin_van_der_Vliet-appel.wav
+Norwegian: "LL-Q9043 (nor)-Telaneo-melk.wav" by Telaneo (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9043_%28nor%29-Telaneo-melk.wav
+Swedish: "LL-Q9027 (swe)-Punsisil-vatten.wav" by Punsisil (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9027_%28swe%29-Punsisil-vatten.wav
+Danish: "LL-Q9035 (dan)-EskildDood-fisk.wav" by EskildDood (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9035_%28dan%29-EskildDood-fisk.wav
+Italian: "LL-Q652 (ita)-LangPao-famiglia.wav" by LangPao (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q652_%28ita%29-LangPao-famiglia.wav
+Spanish: "LL-Q1321 (spa)-AdrianAbdulBaha-chocolate.wav" by AdrianAbdulBaha (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q1321_%28spa%29-AdrianAbdulBaha-chocolate.wav
+Romanian: "LL-Q7913 (ron)-Andreea Teodoraa-lună.wav" by Andreea Teodoraa (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q7913_%28ron%29-Andreea_Teodoraa-lun%C4%83.wav
+Portuguese: "LL-Q5146 (por)-Nelson Ricardo 2500-animal.wav" by Nelson Ricardo 2500 (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q5146_%28por%29-Nelson_Ricardo_2500-animal.wav
+French: "LL-Q150 (fra)-Roptat-table.wav" by Roptat (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q150_%28fra%29-Roptat-table.wav
+German: "LL-Q188 (deu)-Lucas Werkmeister-Hand.wav" by Lucas Werkmeister (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q188_%28deu%29-Lucas_Werkmeister-Hand.wav
+
+Thumbnail photo: Dutch windmills at sunset: photo by Bas (Flickr), CC BY 2.0, via Wikimedia Commons
+
+#languages #linguistics #languagelearning
+
+## Tags
+easiest languages, easiest languages to learn, easiest language for english speakers, FSI language ranking, Dutch, Norwegian, Swedish, Danish, Italian, Spanish, Romanian, Portuguese, French, German, language learning, LingoDude
+
+## Settings
+- Category: Education
+- Made for kids: No
+- Altered or synthetic content: No (all real recordings)
+- Thumbnail: lingo/videos/thumbP_easy.png

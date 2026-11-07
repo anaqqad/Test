@@ -1,0 +1,47 @@
+[
+ {
+  "name": "intro",
+  "start": 0,
+  "dur": 5
+ },
+ {
+  "name": "kijetesantakalu",
+  "start": 5,
+  "dur": 15.35
+ },
+ {
+  "name": "ui",
+  "start": 20.35,
+  "dur": 14.54
+ },
+ {
+  "name": "oshaana",
+  "start": 34.89,
+  "dur": 16.11
+ },
+ {
+  "name": "samideano",
+  "start": 51,
+  "dur": 16.66
+ },
+ {
+  "name": "ua",
+  "start": 67.66,
+  "dur": 15.19
+ },
+ {
+  "name": "pu",
+  "start": 82.85,
+  "dur": 16.76
+ },
+ {
+  "name": "krokodili",
+  "start": 99.61,
+  "dur": 17.98
+ },
+ {
+  "name": "outro",
+  "start": 117.59,
+  "dur": 7
+ }
+]

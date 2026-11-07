@@ -1,0 +1,62 @@
+[
+ {
+  "name": "intro",
+  "start": 0,
+  "dur": 5
+ },
+ {
+  "name": "msa",
+  "start": 5,
+  "dur": 15.5
+ },
+ {
+  "name": "ind",
+  "start": 20.5,
+  "dur": 17.38
+ },
+ {
+  "name": "vie",
+  "start": 37.88,
+  "dur": 15.78
+ },
+ {
+  "name": "eng",
+  "start": 53.66,
+  "dur": 15.8
+ },
+ {
+  "name": "mya",
+  "start": 69.46,
+  "dur": 15.26
+ },
+ {
+  "name": "kor",
+  "start": 84.72,
+  "dur": 16.3
+ },
+ {
+  "name": "tha",
+  "start": 101.02,
+  "dur": 16.6
+ },
+ {
+  "name": "zho",
+  "start": 117.62,
+  "dur": 15.92
+ },
+ {
+  "name": "jav",
+  "start": 133.54,
+  "dur": 15.8
+ },
+ {
+  "name": "jpn",
+  "start": 149.34,
+  "dur": 16.88
+ },
+ {
+  "name": "outro",
+  "start": 166.22,
+  "dur": 7
+ }
+]
