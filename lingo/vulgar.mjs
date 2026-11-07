@@ -89,9 +89,9 @@ for (const [idx, it] of items.entries()) {
       ${it.cards.map((c, i) => `<div data-in="${(cardsAt + i * 3.6).toFixed(2)}" class="f card">${esc(c)}</div>`).join("")}</div>
     <div id="bar" class="a"><img src="${flag(it.flag)}">${esc(it.name)}</div>
     ${brand(`#${rank}`)}
-    <script>(()=>{ // long examples: shrink the word until the panel (meter, word box, every card) fits on screen
+    <script>(()=>{ // long examples: smaller red example (explanations keep their size) until the whole panel fits with a margin
       const p=document.getElementById('panel'), w=document.querySelector('#word .w'), l=document.querySelector('#word .lit');
-      let f=84; while(p.getBoundingClientRect().bottom>1050 && f>40){ f-=4; w.style.fontSize=f+'px'; if(f<64&&l) l.style.fontSize='28px'; }
+      let f=w.textContent.length>14?60:84; w.style.fontSize=f+'px'; while(p.getBoundingClientRect().bottom>1000 && f>36){ f-=4; w.style.fontSize=f+'px'; }
     })();</script>`;
   add(it.key, dur, html, { say, count: it.count, max: MAX, acc: ACC }, m ? say.map((s) => ({ file: path.join(A, it.key + ".wav"), at: s.t })) : []);
 }
