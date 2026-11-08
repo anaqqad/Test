@@ -165,6 +165,10 @@ Examples: `episodes/list_every_mom.py` (16 moms, 2:08), `episodes/list_gangs.py`
 History queue: Most Notorious Pirates (done), Most Famous Prison Escapes, Biggest Heists, Most Legendary Spies.
 Language queue: Hardest Languages to Learn, Made-Up Languages People Actually Speak, Words That Don't Exist
 in English, Weirdest Alphabets. Seasonal "Types of Guys" (Dec 1, Thanksgiving...) only when the owner asks.
+**Saved idea (owner): "Ranking the Most Annoying ___"** — ranked countdown, #10 = mildly annoying -> #1 = most
+annoying, a stamp verdict per entry ("MILDLY ANNOYING" ... "FINAL BOSS"). Series: Ranking the Most Annoying
+Moms (high-RPM countries / US regions only, reuse the mom cast), then Dads, Teachers, Coworkers, Roommates,
+Siblings, Customers. Same short-list blueprint (10 x 7.5 s), reuse `list_every_mom.py` facts as a start.
 **Short lists (owner's LingoDude-style references, ~31k views):** 10 entries x 7.5 s = 1:15, e.g.
 `list_languages.py`, `list_nnn.py`. Topics that work: language facts (mysterious origins, almost no speakers
 left, hardest to learn) and seasonal "Types of guys during ___" (NNN in November). Covers for these use
