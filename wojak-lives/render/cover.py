@@ -134,6 +134,8 @@ LIST_COVERS = {
     "nnn_B": ("list/bg/nnn_bathroom.jpg", "n_cold", "NNN: Day 9", None, ["3 COLD", "SHOWERS"]),
     "last_speakers_A": ("list/bg/ls_amazon.jpg", "s_taushiro", "Taushiro", "pe", ["1 SPEAKER", "LEFT"]),
     "last_speakers_B": ("list/bg/ls_tabasco.jpg", "s_ayapaneco", "Ayapaneco", "mx", ["THEY DON'T", "TALK"]),
+    "pirates_A": ("list/bg/pir_carolina.jpg", "pir_blackbeard", "Blackbeard", "gb", ["BEARD", "ON FIRE"]),
+    "pirates_B": ("list/bg/pir_southchina.jpg", "pir_chingshih", "Ching Shih", "cn", ["1,500", "SHIPS"]),
 }
 
 B = "bg169/"

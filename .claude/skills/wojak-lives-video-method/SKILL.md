@@ -161,6 +161,10 @@ Learned frame by frame from two reference clips ("Every dictator #1–#60", "#1�
 `python3 wojak-lives/render/listvid.py wojak-lives/render/episodes/list_<slug>.py` (`--still N` for entry N).
 Examples: `episodes/list_every_mom.py` (16 moms, 2:08), `episodes/list_gangs.py` (19 gangs oldest→newest, 2:32).
 **Lists done:** Every Type of Mom, Most Notorious Gangs, Languages With Mysterious Origins, Types of Guys During NNN, Languages With Almost No Speakers Left.
+**Schedule (owner, Nov 2026): alternate a HISTORY list and a LANGUAGE list**, one per video.
+History queue: Most Notorious Pirates (done), Most Famous Prison Escapes, Biggest Heists, Most Legendary Spies.
+Language queue: Hardest Languages to Learn, Made-Up Languages People Actually Speak, Words That Don't Exist
+in English, Weirdest Alphabets. Seasonal "Types of Guys" (Dec 1, Thanksgiving...) only when the owner asks.
 **Short lists (owner's LingoDude-style references, ~31k views):** 10 entries x 7.5 s = 1:15, e.g.
 `list_languages.py`, `list_nnn.py`. Topics that work: language facts (mysterious origins, almost no speakers
 left, hardest to learn) and seasonal "Types of guys during ___" (NNN in November). Covers for these use
