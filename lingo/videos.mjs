@@ -505,6 +505,65 @@ export const VIDEOS = {
       },
     ],
   },
+  turkic: {
+    title: "Languages Turkish Speakers Can Almost Understand", // viewer request (@arpetr3458); audio: build_turkic.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#e30a17",
+    items: [
+      {
+        name: "Kyrgyz", wojak: "t_kir", flag: "kg", speakers: "~5 million", scene: "himalaya", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#8a8f98", vest: "#8a8f98" }, expression: "smile" },
+        cards: [
+          "Kyrgyz is spoken in Kyrgyzstan, in the mountains of Central Asia. Its national epic, Manas, is one of the longest poems ever recorded.",
+          "Turkish and Kyrgyz split into different branches of the Turkic family long ago, so many everyday words no longer match.",
+          "Two friends wish each other good grades on their exams. 'Jakshy' (good) survives in Turkish only as the rare old word 'yahşi'.",
+        ],
+        audio: { file: "incoming/turkic/An example of a dialogue in Kyrgyz. Two friends are communicating.wav", start: 0.0 },
+      },
+      {
+        name: "Kazakh", wojak: "t_kaz", flag: "kz", speakers: "~13 million", scene: "steppe", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1f3a68", vest: "#1f3a68" }, expression: "smile" },
+        cards: [
+          "Kazakh is spoken across the steppe of Kazakhstan, the biggest landlocked country in the world.",
+          "Kazakh is switching from the Cyrillic alphabet to the Latin one, the same move Turkey made in 1928.",
+          "He said: 'The time it takes the Earth to go once around the Sun is called a year. The year has twelve months.' 'Jyl' and 'on eki ai' are Turkish 'yıl' and 'on iki ay'.",
+        ],
+        audio: { file: "incoming/turkic/Qazaqsha zhyl sanau.ogg", start: 0.0 },
+      },
+      {
+        name: "Uzbek", wojak: "t_uzb_f", flag: "uz", speakers: "~35 million", scene: "dunes", loc: null,
+        char: { skin: "light", hair: "long", hairColor: "black", outfit: { type: "shirt", color: "#3a6fd8", vest: "#3a6fd8" }, expression: "smile" },
+        cards: [
+          "Uzbek is the most spoken Turkic language after Turkish, with about 35 million speakers, mostly in Uzbekistan.",
+          "Centuries next to Persian wore away most of its vowel harmony, the rule that makes Turkish words sound so smooth.",
+          "She said: 'In one of the battles of World War Two, Captain Farhod Abbasov is taken prisoner by the fascists.' 'Ikkinchi' and 'asir tushadi' are Turkish 'ikinci' and 'esir düşer'.",
+        ],
+        audio: { file: "incoming/turkic/Farhodning jasorati.ogg", start: 13.4 },
+      },
+      {
+        name: "Tatar", wojak: "t_tat", flag: "ru", speakers: "~4 million", scene: "forest", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "brown", beard: true, outfit: { type: "shirt", color: "#2f5d3a", vest: "#2f5d3a" }, expression: "smile" },
+        cards: [
+          "Tatar is spoken in Tatarstan, a republic inside Russia, around the city of Kazan on the Volga river.",
+          "Tatar shifted its vowels: Turkish 'göz' (eye) became 'küz', and 'kol' (arm) became 'kul'.",
+          "He read the first line of the Declaration of Human Rights: 'All human beings are born free and equal in dignity and rights.' 'Tualar' is Turkish 'doğarlar': 'they are born'.",
+        ],
+        audio: { file: "incoming/turkic/Article 1 in Tatar.flac", start: 0.0 },
+      },
+      {
+        name: "Azerbaijani", wojak: "t_aze", flag: "az", speakers: "~30 million", scene: "caucasus", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "grey", beard: true, outfit: { type: "shirt", color: "#7a5230", vest: "#7a5230" }, expression: "smile" },
+        cards: [
+          "Azerbaijani is spoken in Azerbaijan and in north-west Iran, where even more Azerbaijanis live than in Azerbaijan itself.",
+          "It is so close to Turkish that the two countries call themselves 'one nation, two states'.",
+          "He began a fairy tale: 'Biri var imiş, biri yox imiş. Bir padşah var imiş.' In Turkish: 'Bir varmış, bir yokmuş. Bir padişah varmış.' Once upon a time, there was a king.",
+        ],
+        audio: { file: "incoming/turkic/Qazax ləhcəsində nağıl.ogg", start: 2.0 },
+      },
+    ],
+  },
   understand: {
     title: "Languages English Speakers Can Almost Understand", // YouTube: "... (Part 1)"; Part 2 candidates: Gullah, Jamaican Patois, Bislama, Sranan, Shetlandic, Afrikaans
     part: "Part 1",
