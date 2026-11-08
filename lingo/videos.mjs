@@ -505,6 +505,66 @@ export const VIDEOS = {
       },
     ],
   },
+  understand: {
+    title: "Languages English Speakers Can Almost Understand", // YouTube: "... (Part 1)"; Part 2 candidates: Gullah, Jamaican Patois, Bislama, Sranan, Shetlandic, Afrikaans
+    part: "Part 1",
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#2e86de",
+    items: [
+      {
+        name: "Guyanese Creole", wojak: "u_gcr_f", flag: "gy", speakers: "~800,000", scene: "andaman", loc: null,
+        char: { skin: "dark", hair: "bob", hairColor: "black", outfit: { type: "shirt", color: "#e84393", vest: "#e84393" }, expression: "smile" },
+        cards: [
+          "Guyanese Creole is spoken in Guyana, the only country in South America where English is the official language.",
+          "It grew out of English and the African languages of people forced to work on the sugar plantations. Listen first: how much did you get?",
+          "She said: 'When we were little, we always wanted to fly in a plane to come to America or go to a different country, and it came true.'",
+        ],
+        audio: { file: "incoming/understand/WIKITONGUES- Sandra speaking English and Guyanese Creole.wav", start: 17.0 }, // built by build_understand.py
+      },
+      {
+        name: "Afro-Seminole Creole", wojak: "u_afs_f", flag: "us", speakers: "a few hundred", scene: "oklahoma", loc: null,
+        char: { skin: "brown", hair: "long", hairColor: "grey", outfit: { type: "shirt", color: "#2e5fd8", vest: "#2e5fd8" }, expression: "smile" },
+        cards: [
+          "Afro-Seminole Creole is spoken by a few hundred people in Texas, Oklahoma and northern Mexico.",
+          "Its speakers descend from Black Seminoles who escaped to Mexico in the 1850s. Its closest relative is Gullah, from the Carolina coast.",
+          "She said: 'Every summer my family went to the little ranch at the foot of the hills. My grandma kept the ranch going.'",
+        ],
+        audio: { file: "incoming/understand/WIKITONGUES- Bertha speaking Seminole Creole.wav", start: 67.3 },
+      },
+      {
+        name: "Doric Scots", wojak: "u_sco", flag: "gb-sct", speakers: "1.5 million (Scots)", scene: "moorland", loc: null,
+        char: { skin: "light", hair: "long", hairColor: "grey", beard: true, outfit: { type: "shirt", color: "#4a6fa5", vest: "#4a6fa5" }, expression: "smile" },
+        cards: [
+          "Doric is the Scots of north-east Scotland, around Aberdeen. About 1.5 million people in Scotland say they can speak Scots.",
+          "Scots and English grew from the same old language, but Doric has its own words: 'fit' means 'what' and 'loon' means 'boy'.",
+          "In David's story a skipper is hiring his crew, and a young man says: 'I'd never touch a drink. That's the devil's thing!'",
+        ],
+        audio: { file: "incoming/understand/WIKITONGUES- David speaking Doric Scots and English.wav", start: 59.6 },
+      },
+      {
+        name: "Tok Pisin", wojak: "u_tpi_f", flag: "pg", speakers: "~4 million", scene: "bougainville", loc: null,
+        char: { skin: "dark", hair: "curly", hairColor: "black", outfit: { type: "shirt", color: "#f4f1e8", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Tok Pisin is an official language of Papua New Guinea, a country with more than 800 languages. It lets all of them talk to each other.",
+          "Its name comes from 'talk pidgin'. 'Nem bilong mi' means 'my name', word for word 'name belong me'.",
+          "She said: 'My name is Priscilla. I study at university. I study international affairs and diplomacy.'",
+        ],
+        audio: { file: "incoming/understand/WIKITONGUES- Priscilla speaking Tok Pisin.wav", start: 0.0 },
+      },
+      {
+        name: "West Frisian", wojak: "u_fry_f", flag: "nl", speakers: "~400,000", scene: "baltic", loc: null,
+        char: { skin: "light", hair: "bun", hairColor: "blonde", outfit: { type: "shirt", color: "#2f5d3a", vest: "#2f5d3a" }, expression: "smile" },
+        cards: [
+          "West Frisian is spoken in Friesland, in the north of the Netherlands. The Frisian languages are English's closest living relatives on the continent.",
+          "A famous test: 'bûter, brea en griene tsiis' means 'butter, bread and green cheese'. Sounds close, right?",
+          "She said: 'Hi, I'm Sjoukje. I live in Friesland, one of the northern provinces of the Netherlands. In Friesland we speak Frisian.'",
+        ],
+        audio: { file: "incoming/understand/WIKITONGUES- Sjoukje speaking West Frisian.wav", start: 0.0 },
+      },
+    ],
+  },
   conlangs3: {
     title: "People Actually Speak These Made-Up Languages", // YouTube: "... (Part 3)"
     part: "Part 3",

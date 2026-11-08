@@ -75,6 +75,7 @@ function storyPage(video, item, idx, dur, audio) {
   const accent = video.accent || "#d1495b";
   const n = item.cards.length, step = n > 1 ? Math.min(5.0, (dur - 1.1 - 2.2) / (n - 1)) : 0;
   const times = item.cards.map((_, i) => 1.1 + i * step);
+  if (video.reveal && n > 1) times[n - 1] = Math.max(times[n - 1], +(dur - 6.5).toFixed(2)); // reveal videos: the translation card waits until the clip has finished
   const caps = item.noCaptions ? [] : audio?.captions || [];
   const listen = caps.length ? "" : `<div id="listen" class="abs pill"><span class="eq"><i></i><i></i><i></i><i></i></span>Listen</div>`;
   return `<!doctype html><html><head><meta charset="utf-8">${FONT_CSS}${item.script ? SCRIPT_CSS : ""}<style>${BASE_CSS}
@@ -274,6 +275,7 @@ export function logoSvg(h = 120, dark = false) {
 // screen never sits on silence ("switch as soon as the voice stops").
 export function segDuration(video, item, an) {
   const full = video.layout === "ranking" ? 11.0 : +(1.4 + 5.0 * item.cards.length + 1.2).toFixed(2);
+  if (video.reveal) return +Math.max(full, (an && an.end ? an.end : 0) + 7.0).toFixed(2); // reveal: listen first, then 6.5 s to read the translation
   if (video.sim && an && an.end) return +Math.max(an.end + 0.8, 9.5).toFixed(2); // generated audio: fit the voice exactly
   if (!an || !an.end || an.end >= full - 1.0) return full;
   const floor = video.layout === "ranking" ? 5.0 : 1.2 + 1.6 * item.cards.length;
