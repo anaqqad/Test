@@ -188,3 +188,9 @@ One Word in 10 Languages, Languages That Count Differently.
    - Languages TURKISH Speakers Can Almost Understand: Azerbaijani, Gagauz, Turkmen, Crimean Tatar, Uzbek.
    - Languages RUSSIAN Speakers Can Almost Understand: Belarusian, Ukrainian, Rusyn, Bulgarian, Serbian, Polish.
    Same format as `understand` (reveal translation at the end), real Commons/Lingua Libre recordings only.
+
+24. How Spanish Sounded Through Time (owner, 2026-11-08): Latin (100 AD) -> Vulgar Latin -> Old Spanish
+   (Cantar de mio Cid, ~1200) -> Golden Age (Don Quijote, 1605) -> earliest real recordings (wax cylinders,
+   ~1900) -> today. Before ~1900 no recordings exist, so those steps are either real modern readings of the old
+   texts in reconstructed pronunciation (Commons / Lingua Libre / CC YouTube) or the labelled AI-simulation
+   method of the `ancient` series. Can become a series: English, French, Arabic, Chinese through time.
