@@ -182,3 +182,9 @@ One Word in 10 Languages, Languages That Count Differently.
    - Ranking Languages by Presence Online (W3Techs share of websites; see item 21).
    - "The White House Has Had a Secret Bunker S..." (title sent cut off; not a language topic, maybe for the
      history-documentary Blender work; ask the owner for the full title and which channel).
+
+23. Viewer request (@arpetr3458, 2026-11-08), spin-offs of "Languages English Speakers Can Almost Understand":
+   - Languages HINDI Speakers Can Almost Understand: Urdu, Punjabi, Nepali, Marathi, Bhojpuri, Gujarati.
+   - Languages TURKISH Speakers Can Almost Understand: Azerbaijani, Gagauz, Turkmen, Crimean Tatar, Uzbek.
+   - Languages RUSSIAN Speakers Can Almost Understand: Belarusian, Ukrainian, Rusyn, Bulgarian, Serbian, Polish.
+   Same format as `understand` (reveal translation at the end), real Commons/Lingua Libre recordings only.
