@@ -161,6 +161,12 @@ Learned frame by frame from two reference clips ("Every dictator #1–#60", "#1�
 `python3 wojak-lives/render/listvid.py wojak-lives/render/episodes/list_<slug>.py` (`--still N` for entry N).
 Examples: `episodes/list_every_mom.py` (16 moms, 2:08), `episodes/list_gangs.py` (19 gangs oldest→newest, 2:32).
 **Lists done:** Every Type of Mom, Most Notorious Gangs, Languages With Mysterious Origins, Types of Guys During NNN, Languages With Almost No Speakers Left.
+**Saved idea (owner): "Which Country Has the Most Annoying Moms?"**: a countdown ranking, #10 least
+annoying to #1 most annoying, so the reveal is at the end (retention) and the comments argue about the order.
+High-RPM countries only. Draft order: 10 Swedish, 9 Dutch, 8 Australian, 7 Canadian, 6 British, 5 French,
+4 German, 3 Korean, 2 Italian-American, 1 Mexican (the chancla). Stamp = an "ANNOYING: x/10" score. Redraw the moms
+with ChatGPT (the old ones are vector rig). Title options: "Which Country Has the Most Annoying Moms? 💀",
+"Every Country's Mom, Ranked by How Annoying She Is", "I Ranked Moms From Every Country... #1 Is Unbeatable".
 **Schedule (owner, Nov 2026): alternate a HISTORY list and a LANGUAGE list**, one per video.
 History queue: Most Notorious Pirates (done), Most Famous Prison Escapes, Biggest Heists, Most Legendary Spies.
 Language queue: Hardest Languages to Learn, Made-Up Languages People Actually Speak, Words That Don't Exist
