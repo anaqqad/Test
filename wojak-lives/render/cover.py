@@ -136,7 +136,7 @@ LIST_COVERS = {
     "last_speakers_B": ("list/bg/ls_tabasco.jpg", "s_ayapaneco", "Ayapaneco", "mx", ["THEY DON'T", "TALK"]),
     "pirates_A": ("list/bg/pir_carolina.jpg", "pir_blackbeard", "Blackbeard", "gb", ["BEARD", "ON FIRE"]),
     "pirates_B": ("list/bg/pir_southchina.jpg", "pir_chingshih", "Ching Shih", "cn", ["1,500", "SHIPS"]),
-    "annoying_moms_A": ("list/bg/mexico.jpg", "am_mexican", "#1 Mexican Mom", "mx", ["11/10", "ANNOYING"]),
+    "annoying_moms_A": ("list/bg/mexico.jpg", "am_mexican", "Mexican Mom", "mx", ["NEVER", "MISSES"]),
     "annoying_moms_B": ("list/bg/germany.jpg", "am_german", "German Mom", "de", ["6:01 =", "LATE"]),
 }
 
