@@ -524,7 +524,7 @@ export const VIDEOS = {
         audio: { file: "incoming/understand/WIKITONGUES- Sandra speaking English and Guyanese Creole.wav", start: 17.0 }, // built by build_understand.py
       },
       {
-        name: "Afro-Seminole Creole", wojak: "u_afs_f", flag: "us", speakers: "a few hundred", scene: "oklahoma", loc: null,
+        name: "Afro-Seminole Creole", wojak: "u_afs_f", flag: "us", speakers: "100s", scene: "oklahoma", loc: null,
         char: { skin: "brown", hair: "long", hairColor: "grey", outfit: { type: "shirt", color: "#2e5fd8", vest: "#2e5fd8" }, expression: "smile" },
         cards: [
           "Afro-Seminole Creole is spoken by a few hundred people in Texas, Oklahoma and northern Mexico.",
@@ -539,7 +539,7 @@ export const VIDEOS = {
         cards: [
           "Doric is the Scots of north-east Scotland, around Aberdeen. About 1.5 million people in Scotland say they can speak Scots.",
           "Scots and English grew from the same old language, but Doric has its own words: 'fit' means 'what' and 'loon' means 'boy'.",
-          "In David's story a skipper is hiring his crew, and a young man says: 'I'd never touch a drink. That's the devil's thing!'",
+          "In David’s story a skipper is hiring his crew, and a young man says: 'I’d never touch a drink. That’s the devil’s thing!'",
         ],
         audio: { file: "incoming/understand/WIKITONGUES- David speaking Doric Scots and English.wav", start: 59.6 },
       },
@@ -557,9 +557,9 @@ export const VIDEOS = {
         name: "West Frisian", wojak: "u_fry_f", flag: "nl", speakers: "~400,000", scene: "baltic", loc: null,
         char: { skin: "light", hair: "bun", hairColor: "blonde", outfit: { type: "shirt", color: "#2f5d3a", vest: "#2f5d3a" }, expression: "smile" },
         cards: [
-          "West Frisian is spoken in Friesland, in the north of the Netherlands. The Frisian languages are English's closest living relatives on the continent.",
+          "West Frisian is spoken in Friesland, in the north of the Netherlands. The Frisian languages are English’s closest living relatives on the continent.",
           "A famous test: 'bûter, brea en griene tsiis' means 'butter, bread and green cheese'. Sounds close, right?",
-          "She said: 'Hi, I'm Sjoukje. I live in Friesland, one of the northern provinces of the Netherlands. In Friesland we speak Frisian.'",
+          "She said: 'Hi, I’m Sjoukje. I live in Friesland, one of the northern provinces of the Netherlands. In Friesland we speak Frisian.'",
         ],
         audio: { file: "incoming/understand/WIKITONGUES- Sjoukje speaking West Frisian.wav", start: 0.0 },
       },
