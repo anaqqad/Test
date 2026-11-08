@@ -1,0 +1,379 @@
+{
+ "id": "reel-tuskegee-airmen",
+ "title": "They Said Black Men Could Not Fly.",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Tuskegee": "Tuss-kee-ghee",
+  "Pantelleria": "Pan-tell-uh-ree-uh",
+  "Ramitelli": "Rah-mee-tell-ee",
+  "Momyer": "Mo-my-er",
+  "Eleanor": "Ellen-or",
+  "Monte Cassino": "Mon-tay Cah-see-no",
+  "Selway": "Sell-way",
+  "Godman": "God-man"
+ },
+ "assets": {
+  "pilots": {
+   "commons": "File:Tuskegee Airmen 332nd Fighter Group pilots ppmsca13245u.jpg"
+  },
+  "airmen2": {
+   "commons": "File:Tuskegee airmen 2.jpg"
+  },
+  "mustangs": {
+   "commons": "File:P-51Cs 332nd FG with goats Ramitelli 1945.jpg"
+  },
+  "eleanor": {
+   "commons": "File:First Lady Eleanor Roosevelt and C. Alfred “Chief” Anderson.jpg"
+  },
+  "firstclass": {
+   "commons": "File:First Tuskeegee Class.jpg"
+  },
+  "coldavis": {
+   "commons": "File:Col Benjamin O. Davis Jr.jpg"
+  },
+  "sq99": {
+   "commons": "File:\"Members of the 99th Fighter Squadron of the Army Air Forces, famous all-Negro outfit, who are rapidly making themselves - NARA - 520624.jpg"
+  },
+  "map": {
+   "commons": "File:\"With an officer giving them pointers from a giant map, pilots of an American P-51 Mustang fighter-bomber group learn th - NARA - 535766.jpg"
+  },
+  "freeman": {
+   "commons": "File:Freeman Field Mutiny.jpg"
+  },
+  "bush": {
+   "commons": "File:President George W. Bush Presents the Congressional Gold Medal to Dr. Roscoe Brown Jr., During Ceremonies Honoring the Tuskegee Airmen at the U.S. Capitol.jpg"
+  },
+  "airman2": {
+   "commons": "File:Tuskegee airman2.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "They said Black men could not fly.",
+   "visual": {
+    "kind": "photo",
+    "image": "pilots",
+    "focus": [
+     0.45,
+     0.2
+    ],
+    "zoom": [
+     1.1,
+     1.17
+    ],
+    "anchor": [
+     0.45,
+     0.2
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "They said Black men *could not fly.*"
+   },
+   "captions": false,
+   "speed": 1.25
+  },
+  {
+   "id": "name",
+   "text": "Meet the Tuskegee Airmen.",
+   "visual": {
+    "kind": "title",
+    "title": "The Tuskegee Airmen",
+    "sub": "1941-1946"
+   },
+   "section": "who"
+  },
+  {
+   "id": "study",
+   "text": "In 1925, an Army War College study claimed Black men did not have what it takes to lead, or to fly.",
+   "visual": {
+    "kind": "card",
+    "image": "airman2",
+    "caption": "A Tuskegee Airman, 1945"
+   },
+   "section": "story"
+  },
+  {
+   "id": "start",
+   "text": "In 1941, the Army started a test program at Tuskegee, Alabama. Thirteen men began the first class. Five finished.",
+   "visual": {
+    "kind": "card",
+    "image": "firstclass",
+    "caption": "A class of Tuskegee cadets"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Tuskegee",
+     "sub": "Alabama"
+    }
+   }
+  },
+  {
+   "id": "eleanor",
+   "text": "That spring, First Lady Eleanor Roosevelt went up in a plane with their chief instructor.",
+   "visual": {
+    "kind": "card",
+    "image": "eleanor",
+    "caption": "Eleanor Roosevelt and Chief Anderson, 1941"
+   }
+  },
+  {
+   "id": "momyer",
+   "text": "In 1943 they went to war. Their own commander reported they lacked discipline and aggressiveness.",
+   "visual": {
+    "kind": "card",
+    "image": "sq99",
+    "caption": "Pilots of the 99th Fighter Squadron"
+   },
+   "section": "twist",
+   "overlays": {
+    "stamp": "1943"
+   }
+  },
+  {
+   "id": "study2",
+   "text": "A War Department study found the opposite. They had performed as well as the white squadrons.",
+   "visual": {
+    "kind": "title",
+    "title": "As well as",
+    "sub": "the white squadrons, 1944"
+   }
+  },
+  {
+   "id": "red",
+   "text": "Then they painted their tails red, and escorted American bombers across Europe.",
+   "visual": {
+    "kind": "title",
+    "title": "The Red Tails",
+    "sub": "332nd Fighter Group"
+   }
+  },
+  {
+   "id": "berlin",
+   "text": "In March 1945 they flew all the way to Berlin, and shot down three German jets.",
+   "visual": {
+    "kind": "card",
+    "image": "map",
+    "caption": "Pilots studying the target, Italy"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Berlin",
+     "sub": "1945"
+    }
+   }
+  },
+  {
+   "id": "arrest",
+   "text": "That same spring in Indiana, more than a hundred Black officers were arrested, in a fight over an officers club for white men only.",
+   "visual": {
+    "kind": "card",
+    "image": "freeman",
+    "caption": "Freeman Field, Indiana, 1945"
+   }
+  },
+  {
+   "id": "truman",
+   "text": "In 1948, President Truman ordered equal treatment in the armed forces.",
+   "visual": {
+    "kind": "title",
+    "title": "1948",
+    "sub": "Executive Order 9981"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "medal",
+   "text": "In 2007, they received the Congressional Gold Medal.",
+   "visual": {
+    "kind": "card",
+    "image": "bush",
+    "caption": "U.S. Capitol, 29 March 2007"
+   }
+  },
+  {
+   "id": "end",
+   "text": "They said Black men could not fly. So they flew.",
+   "visual": {
+    "kind": "photo",
+    "image": "airmen2",
+    "focus": [
+     0.5,
+     0.2
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.2
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Tuskegee_Airmen"
+  },
+  "AFHRA": {
+   "url": "https://www.afhra.af.mil/Portals/16/documents/Timelines/World%20War%20II/Misconceptions_About_the_Tuskegee_Airmen.pdf"
+  },
+  "CENT": {
+   "url": "https://webarchive.library.unt.edu/eot2008/20080916072426/http://centennialofflight.gov/essay/Air_Power/tuskegee/AP26.htm"
+  },
+  "CAF": {
+   "url": "https://cafriseabove.org/the-tuskegee-airmen/tuskegee-airmen-history/war-service/"
+  },
+  "FRIENDS": {
+   "url": "https://www.friendsoftuskegeeairmennhs.org/the-tuskegee-airmen"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/tuai/learn/historyculture/index.htm"
+  },
+  "SI": {
+   "url": "https://si.edu/newsdesk/snapshot/eleanor-roosevelt-tuskegee"
+  },
+  "ANDERSON": {
+   "url": "https://en.wikipedia.org/wiki/C._Alfred_%22Chief%22_Anderson"
+  },
+  "DAVIS": {
+   "url": "https://en.wikipedia.org/wiki/Benjamin_O._Davis_Jr."
+  },
+  "AF": {
+   "url": "https://www.af.mil/News/Article-Display/Article/111740/tuskegee-airman-goes-on-to-become-first-air-force-african-american-general"
+  },
+  "CNN": {
+   "url": "https://abc17news.com/?p=1289409"
+  },
+  "HIST": {
+   "url": "https://www.history.com/articles/tuskegee-airmen-impact-civil-rights-movement"
+  },
+  "FF": {
+   "url": "https://en.wikipedia.org/wiki/Freeman_Field_mutiny"
+  },
+  "TAI": {
+   "url": "https://www.tuskegeeairmen.org/legacy/the-people/"
+  }
+ },
+ "facts": [
+  {
+   "beat": "study",
+   "claim": "See long-form sourcesByClaim h1",
+   "sources": [
+    "CNN",
+    "DAVIS"
+   ]
+  },
+  {
+   "beat": "start",
+   "claim": "See long-form sourcesByClaim t2",
+   "sources": [
+    "CENT",
+    "TAI"
+   ]
+  },
+  {
+   "beat": "eleanor",
+   "claim": "See long-form sourcesByClaim o8",
+   "sources": [
+    "SI",
+    "ANDERSON",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "momyer",
+   "claim": "See long-form sourcesByClaim c3",
+   "sources": [
+    "CENT",
+    "AFHRA"
+   ]
+  },
+  {
+   "beat": "study2",
+   "claim": "See long-form sourcesByClaim c5",
+   "sources": [
+    "CENT",
+    "AFHRA"
+   ]
+  },
+  {
+   "beat": "red",
+   "claim": "See long-form sourcesByClaim c8",
+   "sources": [
+    "AFHRA",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "berlin",
+   "claim": "See long-form sourcesByClaim c14",
+   "sources": [
+    "WIKI",
+    "FRIENDS"
+   ]
+  },
+  {
+   "beat": "arrest",
+   "claim": "See long-form sourcesByClaim f6",
+   "sources": [
+    "HIST",
+    "FF"
+   ]
+  },
+  {
+   "beat": "truman",
+   "claim": "See long-form sourcesByClaim z1",
+   "sources": [
+    "WIKI",
+    "FRIENDS",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "medal",
+   "claim": "See long-form sourcesByClaim z3",
+   "sources": [
+    "WIKI",
+    "TAI"
+   ]
+  }
+ ]
+}
