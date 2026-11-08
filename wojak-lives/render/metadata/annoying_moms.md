@@ -20,7 +20,7 @@ Do you agree with #1? Tell us who should be higher 👇
 0:45 #4 German Mom
 0:52 #3 Korean Mom
 1:00 #2 Italian-American Mom
-1:07 #1 Mexican Mom
+1:07 #1 ??? (watch till the end)
 
 Satire for entertainment, made with love for every mom. All characters are fictional.
 

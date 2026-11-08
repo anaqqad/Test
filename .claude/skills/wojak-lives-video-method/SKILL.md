@@ -167,7 +167,7 @@ High-RPM countries only. Draft order: 10 Swedish, 9 Dutch, 8 Australian, 7 Canad
 4 German, 3 Korean, 2 Italian-American, 1 Mexican (the chancla). Stamp = an "ANNOYING: x/10" score. **Ranking videos: never reveal the ranking on the thumbnail** (no "#1", no score
 that gives away the winner); use a joke instead ("NEVER MISSES"). Redraw the moms
 with ChatGPT (the old ones are vector rig). Title options: "Which Country Has the Most Annoying Moms? 💀",
-"Every Country's Mom, Ranked by How Annoying She Is", "I Ranked Moms From Every Country... #1 Is Unbeatable".
+"Every Country's Mom, Ranked by How Annoying She Is", "I Ranked Moms From Every Country... #1 Is Unbeatable". Done: list_annoying_moms.py (countdown: True).
 **Schedule (owner, Nov 2026): alternate a HISTORY list and a LANGUAGE list**, one per video.
 History queue: Most Notorious Pirates (done), Most Famous Prison Escapes, Biggest Heists, Most Legendary Spies.
 Language queue: Hardest Languages to Learn, Made-Up Languages People Actually Speak, Words That Don't Exist
