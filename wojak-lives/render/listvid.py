@@ -210,6 +210,9 @@ def photo_frame(path, verdict):
     canvas.alpha_composite(sh.filter(ImageFilter.GaussianBlur(8)))
     canvas.alpha_composite(frame, (70, 50))
     canvas = canvas.rotate(-3, expand=False, resample=Image.BICUBIC)
+    room = canvas.width - 40 - 30  # long verdicts ("BACK FROM THE DEAD") shrink instead of running off-frame
+    if st.width > room:
+        st = st.resize((room, int(st.height * room / st.width)), Image.LANCZOS)
     canvas.alpha_composite(st, (40, 50 + frame.height - st.height // 2 - 10))
     return canvas
 
