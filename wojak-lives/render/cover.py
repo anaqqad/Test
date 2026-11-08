@@ -132,6 +132,8 @@ LIST_COVERS = {
     "languages_B": ("list/bg/lang_iran.jpg", "l_kusunda", "Sumerian", "iq", ["NO", "RELATIVES"]),
     "nnn_A": ("list/bg/nnn_night.jpg", "n_doomer", "NNN: Day 25", None, ["SEND", "HELP"]),
     "nnn_B": ("list/bg/nnn_bathroom.jpg", "n_cold", "NNN: Day 9", None, ["3 COLD", "SHOWERS"]),
+    "last_speakers_A": ("list/bg/ls_amazon.jpg", "s_taushiro", "Taushiro", "pe", ["1 SPEAKER", "LEFT"]),
+    "last_speakers_B": ("list/bg/ls_tabasco.jpg", "s_ayapaneco", "Ayapaneco", "mx", ["THEY DON'T", "TALK"]),
 }
 
 B = "bg169/"
