@@ -1,0 +1,126 @@
+{
+ "doc_nrhp_million": {
+  "image": "doc_nrhp_million.png",
+  "pw": 1581,
+  "ph": 2073,
+  "phrase": "over one million servicemen were processed thru Fort Lawton for the combat zones of the Pacific and the Far East.",
+  "rects": [
+   [
+    1242,
+    775,
+    276,
+    43
+   ],
+   [
+    58,
+    807,
+    1440,
+    43
+   ],
+   [
+    60,
+    844,
+    150,
+    39
+   ]
+  ]
+ },
+ "doc_nelson_725": {
+  "image": "doc_nelson_725.png",
+  "pw": 1700,
+  "ph": 2200,
+  "phrase": "Mr. President, do you know how much that was? It was $725, 1944 dollars.",
+  "rects": [
+   [
+    391,
+    480,
+    180,
+    26
+   ],
+   [
+    96,
+    505,
+    475,
+    26
+   ],
+   [
+    96,
+    530,
+    258,
+    26
+   ]
+  ]
+ },
+ "doc_reichert_two": {
+  "image": "doc_reichert_two.png",
+  "pw": 1700,
+  "ph": 2200,
+  "phrase": "only two of the original 28 soldiers are alive today, meaning 26 Army veterans passed away before an extreme personal injustice was rectified.",
+  "rects": [
+   [
+    296,
+    779,
+    300,
+    26
+   ],
+   [
+    121,
+    804,
+    475,
+    26
+   ],
+   [
+    121,
+    829,
+    475,
+    26
+   ],
+   [
+    121,
+    854,
+    298,
+    26
+   ]
+  ]
+ },
+ "doc_hr_tendays": {
+  "image": "doc_hr_tendays.png",
+  "pw": 1700,
+  "ph": 2200,
+  "phrase": "all 43 shared two Army defense counsel, who were given just 10 days to prepare the defense.",
+  "rects": [
+   [
+    490,
+    421,
+    864,
+    43
+   ],
+   [
+    490,
+    493,
+    775,
+    43
+   ]
+  ]
+ },
+ "doc_hr_pronazi": {
+  "image": "doc_hr_pronazi.png",
+  "pw": 1700,
+  "ph": 2200,
+  "phrase": "previously identified as probably pro-Nazi, a fact not made available to the defense.",
+  "rects": [
+   [
+    775,
+    1288,
+    579,
+    43
+   ],
+   [
+    490,
+    1360,
+    864,
+    43
+   ]
+  ]
+ }
+}
