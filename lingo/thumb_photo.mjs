@@ -81,7 +81,7 @@ const T = {
   accents: { name: "Vietnamese", photo: "accents", pos: "50% 50%", flag: "vn", hook: ["67 Accent", "Letters?!"], hookSize: 96 },
   soundcount: { name: "!Xóõ (Taa)", photo: "soundcount", pos: "50% 50%", flag: "bw", hook: ["161", "Sounds?!"] },
   cases: { name: "Hungarian", photo: "cases", pos: "50% 50%", flag: "hu", hook: ["18", "Cases?!"] },
-  understand: { part: "PART 1", name: "Tok Pisin", photo: "understand", pos: "50% 50%", flag: "pg", hook: ["Can You", "Understand?!"] },
+  understand: { part: "PART 1", name: "Tok Pisin", photo: "understand", pos: "50% 50%", flag: "pg", hook: ["Can You", "Understand?!"], hookSize: 90 },
   easy: { name: "Dutch", photo: "easy", pos: "50% 50%", flag: "nl", hook: ["Easiest", "Language?!"] },
   polite: { name: "Japanese", photo: "polite", pos: "50% 45%", flag: "jp", hook: ["Too", "Polite?!"] },
   isolates: { part: "PART 1", name: "Burushaski", photo: "isolates", pos: "50% 50%", flag: "pk", hook: ["No Relatives", "At All?!"] },
