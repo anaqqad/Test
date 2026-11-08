@@ -1,0 +1,43 @@
+"""Ranking the Most Annoying Moms in the World: countdown #10 (least) -> #1 (most), short-list blueprint
+(10 x 7.5 s = 1:15). High-RPM countries only. Comedy stereotypes, affectionate, nothing mean.
+Wojaks: assets/gpt/am_*.png (ChatGPT). Backgrounds/photos reused from Every Type of Mom."""
+L = dict
+LIST = {
+    "title": "Ranking the Most Annoying Moms in the World",
+    "entry_dur": 7.5,
+    "countdown": True,
+    "entries": [
+        L(name="Swedish Mom", detail="Sweden", flag="se", char="am_sweden", bg="stockholm.jpg", photo="cinnamon.jpg",
+          stamp="ANNOYING: 2/10", music=L(track="Fireflies and Stardust"),
+          facts=["Babies nap outside in the snow", "Never yells. Just disappointed.", "Coffee break? Twice a day."]),
+        L(name="Dutch Mom", detail="Netherlands", flag="nl", char="am_dutch", bg="amsterdam.jpg", photo="bike.jpg",
+          stamp="ANNOYING: 3/10", music=L(track="Merry Go"),
+          facts=["\"Your haircut is bad.\" Very direct.", "Bike in a storm? Normal.",
+                 "One cookie. Then the tin closes."]),
+        L(name="Australian Mom", detail="Australia", flag="au", char="am_aussie", bg="sydney.jpg", photo="thongs.jpg",
+          stamp="ANNOYING: 4/10", music=L(track="Surf Shimmy"),
+          facts=["Spider in the bathroom? \"Leave it\"", "104°F: \"Nice beach day\"", "Sunscreen. Every. Single. Hour."]),
+        L(name="Canadian Mom", detail="Canada", flag="ca", char="am_canada", bg="canada.jpg", photo="maple.jpg",
+          stamp="ANNOYING: 5/10", music=L(track="Fiddles McGinty"),
+          facts=["Says sorry when YOU bump into HER", "-22°F: \"Wear a light jacket\"", "Passive-aggressive, but polite"]),
+        L(name="British Mom", detail="United Kingdom", flag="gb", char="am_british", bg="london.jpg", photo="tea.jpg",
+          stamp="ANNOYING: 6/10", music=L(track="Sneaky Snitch"),
+          facts=["Counts the biscuits. She knows.", "\"Fine\" means it is NOT fine", "Tea fixes every problem"]),
+        L(name="French Mom", detail="France", flag="fr", char="am_french", bg="paris.jpg", photo="baguette.jpg",
+          stamp="ANNOYING: 7/10", music=L(track="Zazie"),
+          facts=["Snacks? \"Wait for dinner.\"", "\"Non.\" is a full sentence", "Judges your outfit in silence"]),
+        L(name="German Mom", detail="Germany", flag="de", char="am_german", bg="germany.jpg", photo="recycling.jpg",
+          stamp="ANNOYING: 8/10", music=L(track="Four Beers' Polka"),
+          facts=["Dinner is at 6:00. Not 6:01.", "Six recycling bins, zero mistakes", "Ice is bad for your stomach"]),
+        L(name="Korean Mom", detail="South Korea", flag="kr", char="am_korean", bg="seoul.jpg", photo="skincare.jpg",
+          stamp="ANNOYING: 9/10", music=L(track="Special Spotlight"),
+          facts=["\"Did you eat?\" comes before \"hello\"", "Knows every neighbor kid's grades",
+                 "Sleeping with a fan on? Danger."]),
+        L(name="Italian-American Mom", detail="New Jersey, USA", flag="us", char="am_italian", bg="littleitaly.jpg",
+          photo="sauce.jpg", stamp="ANNOYING: 10/10", music=L(track="Bushwick Tarantella"),
+          facts=["\"You look skinny. Eat.\"", "Sunday sauce cooks for 9 hours", "Guilt trips in two languages"]),
+        L(name="Mexican Mom", detail="Mexico", flag="mx", char="am_mexican", bg="mexico.jpg", photo="chancla.jpg",
+          stamp="ANNOYING: 11/10", music=L(track="Peppy Pepe"),
+          facts=["The chancla can turn corners", "The ice cream tub holds beans", "\"Ahorita\" can mean never"]),
+    ],
+}

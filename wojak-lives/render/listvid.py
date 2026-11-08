@@ -403,7 +403,8 @@ def prepare(lst):
     entries = []
     for n, e in enumerate(lst["entries"], 1):
         base = bg_image(e["bg"])
-        base.alpha_composite(title_bar(n, e["name"], e.get("detail"), e.get("flag")), (0, 0))
+        shown = len(lst["entries"]) - n + 1 if lst.get("countdown") else n  # countdown: #10 ... #1
+        base.alpha_composite(title_bar(shown, e["name"], e.get("detail"), e.get("flag")), (0, 0))
         pf = photo_frame(LIST / "photo" / e["photo"], e["stamp"])
         base.alpha_composite(pf, (W - pf.width - 6, int(H * 0.06)))
         m = e["music"]
