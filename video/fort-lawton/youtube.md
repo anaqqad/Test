@@ -66,3 +66,5 @@ Not posted unless asked.
 - Altered or synthetic content: **No**, always (owner's rule).
 - Captions: `out/fort-lawton.srt` (Languages → Upload manual; if it lands as a draft, Edit subtitles → Publish).
 - End screen: the Salina episode (W9r4UWNCCe8) plus a subscribe button, last 20 s.
+
+**Published** 8 Nov 2026, public: https://youtu.be/cLm9sv1StmQ (thumbnail A, Education, not made for kids, altered content No, 17 tags, checks complete with no issues before publishing, English captions from `out/fort-lawton.srt` published, end screen: Salina + subscribe, last 20 s).
