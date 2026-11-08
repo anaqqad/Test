@@ -9,7 +9,7 @@ Ranking the Most Annoying Moms in the World 💀
 ```
 10 countries. 10 moms. Only one can be #1. 💀
 
-Do you agree with #1? Tell us who should be higher 👇
+Think YOUR mom deserves #1? Comment her country 👇
 
 0:00 #10 Swedish Mom
 0:07 #9 Dutch Mom
@@ -38,7 +38,7 @@ most annoying moms, ranking moms, moms around the world, moms by country, every 
 
 **Pinned comment**
 ```
-Wrong order? Rank them yourself 👇 (Asian moms deserve #1, we know)
+Comment if you think YOUR mom ranks #1 👇
 ```
 
 Category: Comedy · Language: English (United States) · Made for kids: No · Altered or synthetic content: No
