@@ -201,7 +201,9 @@ as the Wojaks, "photorealistic", "no people").
   call, run several in parallel, **stdin must be closed** or it hangs:
   `codex exec --skip-git-repo-check -s workspace-write -i ref_wojaks.png "Generate ONE square image with your
   image generation tool, save it here as sheet1.png. Do nothing else. IMAGE PROMPT: <style + characters>" < /dev/null`
-  (about 1–2 min each). Style reference = busts cropped from the reference videos. Look at every sheet before
+  (about 1–2 min each). **`-i` takes several files: never put it right before the prompt** (put `-o` or
+  another flag after it), or codex reads the prompt as an image and waits for stdin. Batch runner:
+  `render/assets/gpt/sheets/run_codex_job.sh` + a TSV of name/ref/prompt, `xargs -0 -P 8`. Style reference = busts cropped from the reference videos. Look at every sheet before
   importing. Source sheets + prompts are kept in `assets/gpt/sheets/`. Then
   `python3 render/import_gpt.py sheet.png name1 name2 ...` cuts each one out into `assets/gpt/<name>.png`,
   and `load_char` uses it for every expression of that name.
