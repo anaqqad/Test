@@ -1,0 +1,1163 @@
+{
+ "id": "doc-port-chicago",
+ "title": "320 Dead. Then the Navy Put Survivors on Trial for Mutiny.",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Quinault": "Kwin-all",
+  "Suisun": "Suh-soon",
+  "Yerba Buena": "Yerba Bwayna",
+  "Veltmann": "Velt-man",
+  "Kinne": "Kin-ee",
+  "Eleanor": "Ellen-or"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "ammo": {
+   "commons": "File:PortChicagoAmmowork1943.jpg"
+  },
+  "boxcar": {
+   "commons": "File:PortChicagoBoxcarRevetment.jpg"
+  },
+  "ruin": {
+   "commons": "File:Portchicago.jpg"
+  },
+  "quinault": {
+   "commons": "File:Quinault victory.JPG"
+  },
+  "diagram": {
+   "commons": "File:Port Chicago disaster, pier diagram.jpg"
+  },
+  "aerial": {
+   "commons": "File:PortChicago-aerial-construction.jpg"
+  },
+  "p1": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0001.jpg"
+  },
+  "p2": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0002.jpg"
+  },
+  "p3": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0003.jpg"
+  },
+  "p4": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0004.jpg"
+  },
+  "p6": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0006.jpg"
+  },
+  "p7": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0007.jpg"
+  },
+  "p8": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0008.jpg"
+  },
+  "p9": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0009.jpg"
+  },
+  "p10": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0010.jpg"
+  },
+  "p11": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0011.jpg"
+  },
+  "recruits": {
+   "commons": "File:\"Negro recruits at Manhattan Beach Training Station, (NY).\", ca. 1941 - ca. 1945 - NARA - 513165.jpg"
+  },
+  "marshall": {
+   "commons": "File:Thurgood-Marshall.jpg"
+  },
+  "marshall57": {
+   "commons": "File:Thurgood Marshall 1957-09-17.jpg"
+  },
+  "eo": {
+   "commons": "File:Executive Order 9981.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "h1",
+   "text": "On the night of July 17, 1944, at a Navy base in California, two explosions destroyed an ammunition pier in seconds.",
+   "visual": {
+    "kind": "photo",
+    "image": "p9",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   },
+   "overlays": {
+    "hook": "They refused to load bombs. *The Navy said mutiny.*"
+   }
+  },
+  {
+   "id": "h2",
+   "text": "Three hundred twenty people were killed. Two hundred two of them were Black sailors, the men who loaded the bombs.",
+   "visual": {
+    "kind": "title",
+    "title": "320",
+    "sub": "killed at Port Chicago"
+   }
+  },
+  {
+   "id": "h3",
+   "text": "Three weeks later, the survivors were ordered to go back to loading ammunition. Two hundred fifty-eight of them refused.",
+   "visual": {
+    "kind": "photo",
+    "image": "p4",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "h4",
+   "text": "Fifty were charged with mutiny, in time of war, a crime that could carry the death penalty.",
+   "visual": {
+    "kind": "title",
+    "title": "Mutiny",
+    "sub": "charged against 50 sailors"
+   }
+  },
+  {
+   "id": "h5",
+   "text": "It would take the Navy eighty years to clear their names. This is the story of the Port Chicago Fifty.",
+   "visual": {
+    "kind": "photo",
+    "image": "p11",
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "The Port Chicago 50",
+     "sub": "1944 – 2024"
+    }
+   }
+  },
+  {
+   "id": "b1",
+   "text": "Port Chicago sat on Suisun Bay, in California, northeast of San Francisco.",
+   "visual": {
+    "kind": "photo",
+    "image": "aerial",
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Port Chicago",
+     "sub": "California"
+    }
+   },
+   "section": "base"
+  },
+  {
+   "id": "b2",
+   "text": "The first ship was loaded there in December 1942. It became a Navy ammunition pier for the war in the Pacific.",
+   "visual": {
+    "kind": "photo",
+    "image": "p6",
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "overlays": {
+    "stamp": "December 1942"
+   }
+  },
+  {
+   "id": "b3",
+   "text": "The Navy was segregated. Black sailors were barred from nearly all jobs at sea.",
+   "visual": {
+    "kind": "card",
+    "image": "recruits",
+    "caption": "Black Navy recruits, 1940s"
+   }
+  },
+  {
+   "id": "b4",
+   "text": "At Port Chicago, most of the enlisted men were Black. The officers were white.",
+   "visual": {
+    "kind": "title",
+    "title": "Black sailors",
+    "sub": "white officers"
+   }
+  },
+  {
+   "id": "b5",
+   "text": "And the work those Black sailors were given was among the most dangerous in the Navy: moving bombs and shells out of rail cars and into the holds of ships.",
+   "visual": {
+    "kind": "photo",
+    "image": "p6",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "b6",
+   "text": "They were not trained for it. They had little instruction in handling explosives, and not enough equipment.",
+   "visual": {
+    "kind": "card",
+    "image": "p4",
+    "caption": "Loading ammunition at Port Chicago"
+   }
+  },
+  {
+   "id": "b7",
+   "text": "In April 1944, Captain Merrill Kinne took command.",
+   "visual": {
+    "kind": "title",
+    "title": "Capt. Merrill Kinne",
+    "sub": "April 1944"
+   }
+  },
+  {
+   "id": "b8",
+   "text": "Officers pushed the crews to load faster. Each division competed against the others, and the tonnage was kept on a chalkboard.",
+   "visual": {
+    "kind": "photo",
+    "image": "p4",
+    "focus": [
+     0.5,
+     0.65
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "b9",
+   "text": "The men were scared, and they would say so later, under oath.",
+   "visual": {
+    "kind": "title",
+    "title": "Afraid",
+    "sub": "and they said so under oath"
+   }
+  },
+  {
+   "id": "n1",
+   "text": "On July 13, 1944, the Liberty ship E. A. Bryan tied up at the pier. One of her winches had brakes that were stuck in the off position.",
+   "visual": {
+    "kind": "photo",
+    "image": "p2",
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "overlays": {
+    "stamp": "13 July 1944"
+   },
+   "section": "night"
+  },
+  {
+   "id": "n2",
+   "text": "Four days later, she was being loaded with bombs. A second ship, the Quinault Victory, lay on the other side of the pier, waiting her turn.",
+   "visual": {
+    "kind": "card",
+    "image": "diagram",
+    "caption": "U.S. Navy diagram of the pier, July 17, 1944"
+   }
+  },
+  {
+   "id": "n2b",
+   "text": "By that night, about four thousand six hundred tons of bombs, depth charges and ammunition were on the ships and the pier, with about four hundred more tons on nearby rail cars.",
+   "visual": {
+    "kind": "title",
+    "title": "5,000 tons",
+    "sub": "of explosives at the pier"
+   }
+  },
+  {
+   "id": "n3",
+   "text": "At ten eighteen that night, there was a blast on the pier.",
+   "visual": {
+    "kind": "title",
+    "title": "10:18 p.m.",
+    "sub": "17 July 1944"
+   }
+  },
+  {
+   "id": "n4",
+   "text": "Between five and seven seconds later came a much larger explosion.",
+   "visual": {
+    "kind": "photo",
+    "image": "p3",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "n5",
+   "text": "An Army pilot in the air reported a ball of fire three miles wide.",
+   "visual": {
+    "kind": "title",
+    "title": "3 miles",
+    "sub": "wide, an Army pilot reported"
+   }
+  },
+  {
+   "id": "n6",
+   "text": "The pier was gone. The E. A. Bryan was gone. What remained of the Quinault Victory lay upside down in the bay.",
+   "visual": {
+    "kind": "card",
+    "image": "quinault",
+    "caption": "What was left of the Quinault Victory, July 1944"
+   }
+  },
+  {
+   "id": "n7",
+   "text": "The damage reached across the base and into the town.",
+   "visual": {
+    "kind": "photo",
+    "image": "p7",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "n7b",
+   "text": "Every building in the town of Port Chicago, a mile and a half away, was damaged. The blast was felt as far away as Nevada.",
+   "visual": {
+    "kind": "photo",
+    "image": "p7",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "n8",
+   "text": "Three hundred twenty people were dead, and more than three hundred ninety injured.",
+   "visual": {
+    "kind": "photo",
+    "image": "p8",
+    "focus": [
+     0.5,
+     0.65
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "n9",
+   "text": "Two hundred two of the dead were African American sailors. It was one of the worst home-front disasters of the Second World War.",
+   "visual": {
+    "kind": "card",
+    "image": "ruin",
+    "caption": "Port Chicago after the explosion, July 1944"
+   }
+  },
+  {
+   "id": "n10",
+   "text": "And then there was the money. The Navy asked Congress for five thousand dollars for each family. A congressman from Mississippi, John Rankin, pushed to cut it after he learned most of the dead were Black men. Congress settled on three thousand.",
+   "visual": {
+    "kind": "title",
+    "title": "$3,000",
+    "sub": "for each family, not $5,000"
+   }
+  },
+  {
+   "id": "a1",
+   "text": "White sailors were given leave after the blast. The Black sailors were ordered back to work, to clean up the wreckage.",
+   "visual": {
+    "kind": "title",
+    "title": "No leave",
+    "sub": "for the Black sailors"
+   },
+   "section": "refusal"
+  },
+  {
+   "id": "a2",
+   "text": "On July 21, a Navy board of inquiry met. It sat for thirty-nine days. It laid the blame on the way the enlisted men had handled the ammunition.",
+   "visual": {
+    "kind": "photo",
+    "image": "p10",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "a3",
+   "text": "The survivors were moved to Mare Island, across the bay.",
+   "visual": {
+    "kind": "photo",
+    "image": "boxcar",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Mare Island",
+     "sub": "California"
+    }
+   }
+  },
+  {
+   "id": "a4",
+   "text": "On August 9, 1944, three hundred twenty-eight men were marched out and ordered to load ammunition again.",
+   "visual": {
+    "kind": "title",
+    "title": "9 August 1944",
+    "sub": "Mare Island"
+   }
+  },
+  {
+   "id": "a5",
+   "text": "Two hundred fifty-eight of them refused.",
+   "visual": {
+    "kind": "title",
+    "title": "258",
+    "sub": "refused"
+   }
+  },
+  {
+   "id": "a6",
+   "text": "They had been told nothing clear about what caused the explosions, and they had been given no new safety training.",
+   "visual": {
+    "kind": "photo",
+    "image": "p9",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "a7",
+   "text": "They were held on a prison barge. On August 10, one of them, Joe Small, spoke to the men on board.",
+   "visual": {
+    "kind": "title",
+    "title": "A prison barge",
+    "sub": "Mare Island, August 1944"
+   }
+  },
+  {
+   "id": "a8",
+   "text": "The next day, Admiral Carleton Wright warned them that continued refusal to work would be treated as mutinous conduct.",
+   "visual": {
+    "kind": "title",
+    "title": "Adm. Carleton Wright",
+    "sub": "11 August 1944"
+   }
+  },
+  {
+   "id": "a9",
+   "text": "Most of them went back to work. Two hundred eight were convicted in summary courts-martial of disobeying orders.",
+   "visual": {
+    "kind": "photo",
+    "image": "p6",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "a9b",
+   "text": "They lost three months of pay. They were shipped to the Pacific, and when they left the service they received bad conduct discharges, which cost them their veterans benefits.",
+   "visual": {
+    "kind": "title",
+    "title": "208 men",
+    "sub": "bad conduct discharges"
+   }
+  },
+  {
+   "id": "a10",
+   "text": "Fifty were singled out. They would be known as the Port Chicago Fifty.",
+   "visual": {
+    "kind": "title",
+    "title": "The Port Chicago 50",
+    "sub": "charged with mutiny"
+   }
+  },
+  {
+   "id": "t1",
+   "text": "On September 14, 1944, the court-martial began on Yerba Buena Island, in San Francisco Bay.",
+   "visual": {
+    "kind": "title",
+    "title": "Yerba Buena Island",
+    "sub": "San Francisco Bay"
+   },
+   "overlays": {
+    "stamp": "14 September 1944"
+   },
+   "section": "trial"
+  },
+  {
+   "id": "t2",
+   "text": "It was the largest mutiny trial in the history of the United States Navy. All fifty men pleaded not guilty.",
+   "visual": {
+    "kind": "title",
+    "title": "50 men",
+    "sub": "one trial"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "Their lawyer, Gerald Veltmann, argued that a refusal to work was not a mutiny.",
+   "visual": {
+    "kind": "title",
+    "title": "Gerald Veltmann",
+    "sub": "lead defense attorney"
+   }
+  },
+  {
+   "id": "t3b",
+   "text": "One by one, the accused men took the stand. Each said he would obey any order except loading ammunition. Each said he was afraid of another explosion.",
+   "visual": {
+    "kind": "card",
+    "image": "recruits",
+    "caption": "Black Navy recruits, 1940s"
+   }
+  },
+  {
+   "id": "t3c",
+   "text": "A sailor named Ollie Green told the court that officers raced the divisions against each other. I knowed the way they was handling ammunition, he said, it was liable to go off again.",
+   "visual": {
+    "kind": "title",
+    "title": "Ollie Green",
+    "sub": "testifying, 1944"
+   }
+  },
+  {
+   "id": "t4",
+   "text": "On October 9, a visitor sat down to watch. Thurgood Marshall, chief lawyer for the NAACP.",
+   "visual": {
+    "kind": "card",
+    "image": "marshall",
+    "caption": "Thurgood Marshall"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Thurgood Marshall",
+     "sub": "NAACP"
+    }
+   }
+  },
+  {
+   "id": "t5",
+   "text": "A week later, he called for a formal government investigation of the conditions at Port Chicago.",
+   "visual": {
+    "kind": "card",
+    "image": "marshall57",
+    "caption": "Thurgood Marshall"
+   }
+  },
+  {
+   "id": "t6",
+   "text": "His argument was simple. These men were not mutineers. They were victims of gross negligence and racial injustice.",
+   "visual": {
+    "kind": "card",
+    "image": "marshall",
+    "caption": "Thurgood Marshall"
+   }
+  },
+  {
+   "id": "t7",
+   "text": "On October 24, the court returned its verdict. Accounts of how long it took differ. Eight minutes, or eighty. Either way, it found all fifty guilty.",
+   "visual": {
+    "kind": "title",
+    "title": "Guilty",
+    "sub": "all 50, 24 October 1944"
+   }
+  },
+  {
+   "id": "t8",
+   "text": "The sentences ran from eight to fifteen years of hard labor, with dishonorable discharges.",
+   "visual": {
+    "kind": "title",
+    "title": "8 to 15 years",
+    "sub": "hard labor"
+   }
+  },
+  {
+   "id": "t8b",
+   "text": "Ten men got fifteen years. Twenty-four got twelve. Eleven got ten. Five got eight.",
+   "visual": {
+    "kind": "title",
+    "title": "15, 12, 10, 8",
+    "sub": "years, for 50 men"
+   }
+  },
+  {
+   "id": "t9",
+   "text": "Admiral Wright reduced the sentences of forty of the men, and they were sent to prison at Terminal Island.",
+   "visual": {
+    "kind": "title",
+    "title": "Terminal Island",
+    "sub": "prison, late 1944"
+   }
+  },
+  {
+   "id": "r1",
+   "text": "On April 3, 1945, Marshall took their appeal to Washington. In June, the court reaffirmed the convictions.",
+   "visual": {
+    "kind": "card",
+    "image": "marshall57",
+    "caption": "Thurgood Marshall"
+   },
+   "section": "road"
+  },
+  {
+   "id": "r2",
+   "text": "Then the war ended. On reviews, the sentences were cut to between seventeen and twenty-nine months. On January 6, 1946, the Navy announced that forty-seven of the fifty were being released, and they were shipped overseas for another year of duty.",
+   "visual": {
+    "kind": "title",
+    "title": "6 January 1946",
+    "sub": "47 of the 50 released"
+   }
+  },
+  {
+   "id": "r3",
+   "text": "That February, the Navy began to desegregate its forces. In 1948, President Truman ordered equal treatment across the armed forces.",
+   "visual": {
+    "kind": "card",
+    "image": "eo",
+    "caption": "Executive Order 9981, 26 July 1948"
+   }
+  },
+  {
+   "id": "r4",
+   "text": "The National Park Service says the disaster helped lead to that order.",
+   "visual": {
+    "kind": "photo",
+    "image": "p11",
+    "focus": [
+     0.5,
+     0.7
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "r4b",
+   "text": "And ammunition loading itself became far safer, with real training in handling explosives.",
+   "visual": {
+    "kind": "photo",
+    "image": "p2",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "r5",
+   "text": "But the convictions stood. In 1990, a campaign in Congress to exonerate the men failed. In 1994, the Navy admitted that racial prejudice was behind sending only Black sailors to the loading divisions, but it still refused to overturn the convictions.",
+   "visual": {
+    "kind": "title",
+    "title": "Convictions stand",
+    "sub": "1990 and 1994"
+   }
+  },
+  {
+   "id": "r6",
+   "text": "That same year, Port Chicago got a national memorial.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "r7",
+   "text": "In December 1999, President Bill Clinton pardoned one of the fifty, Freddie Meeks. He died in 2003.",
+   "visual": {
+    "kind": "title",
+    "title": "Freddie Meeks",
+    "sub": "pardoned, December 1999"
+   }
+  },
+  {
+   "id": "x1",
+   "text": "On July 17, 2024, eighty years to the day after the explosion, Navy Secretary Carlos Del Toro made an announcement.",
+   "visual": {
+    "kind": "photo",
+    "image": "p11",
+    "zoom": [
+     1.1,
+     1
+    ]
+   },
+   "overlays": {
+    "stamp": "17 July 2024"
+   },
+   "section": "exonerated"
+  },
+  {
+   "id": "x2",
+   "text": "The Navy was exonerating two hundred fifty-six of the sailors, including the Port Chicago Fifty.",
+   "visual": {
+    "kind": "title",
+    "title": "256",
+    "sub": "sailors exonerated"
+   }
+  },
+  {
+   "id": "x3",
+   "text": "Its lawyers had found the trials unfair. The men were tried together. They had no meaningful right to counsel. And they were tried before the investigation of the explosion was finished.",
+   "visual": {
+    "kind": "photo",
+    "image": "p10",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "x3b",
+   "text": "The Navy changed their discharges to honorable. Secretary Del Toro said the decision clears their names and restores their honor.",
+   "visual": {
+    "kind": "title",
+    "title": "Honorable",
+    "sub": "discharges restored, 2024"
+   }
+  },
+  {
+   "id": "x4",
+   "text": "None of the fifty was still alive to hear it.",
+   "visual": {
+    "kind": "title",
+    "title": "None",
+    "sub": "of the 50 lived to hear it"
+   }
+  },
+  {
+   "id": "e1",
+   "text": "They were given the most dangerous job in the Navy, and no training for it.",
+   "visual": {
+    "kind": "photo",
+    "image": "p6",
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "e2",
+   "text": "They watched that job kill two hundred two of their fellow sailors.",
+   "visual": {
+    "kind": "photo",
+    "image": "p3",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "e3",
+   "text": "They asked why. And they were told it was mutiny.",
+   "visual": {
+    "kind": "card",
+    "image": "recruits",
+    "caption": "Black Navy recruits, 1940s"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "Their country took eighty years to say they had been right to ask.",
+   "visual": {
+    "kind": "photo",
+    "image": "p11",
+    "focus": [
+     0.75,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "e5",
+   "text": "Those were the Port Chicago Fifty. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "h1": [
+   "WIKI",
+   "NPS"
+  ],
+  "h2": [
+   "NPS",
+   "WIKI"
+  ],
+  "h3": [
+   "WIKI",
+   "NPS"
+  ],
+  "h4": [
+   "NPST",
+   "WIKI"
+  ],
+  "h5": [
+   "WIKI",
+   "CBS"
+  ],
+  "b2": [
+   "WIKI",
+   "NPS"
+  ],
+  "b3": [
+   "NPR",
+   "WIKI"
+  ],
+  "b4": [
+   "NPR",
+   "WIKI"
+  ],
+  "b5": [
+   "NPS",
+   "WIKI"
+  ],
+  "b6": [
+   "NPS",
+   "WIKI"
+  ],
+  "b7": [
+   "WIKI",
+   "HIST"
+  ],
+  "b8": [
+   "WIKI",
+   "NPR"
+  ],
+  "b9": [
+   "NPST",
+   "WIKI"
+  ],
+  "n1": [
+   "WIKI",
+   "HIST"
+  ],
+  "n2": [
+   "WIKI",
+   "HIST"
+  ],
+  "n3": [
+   "WIKI",
+   "HIST"
+  ],
+  "n4": [
+   "WIKI",
+   "HIST"
+  ],
+  "n5": [
+   "WIKI",
+   "HIST"
+  ],
+  "n6": [
+   "WIKI",
+   "HIST"
+  ],
+  "n8": [
+   "WIKI",
+   "NPR",
+   "NPS"
+  ],
+  "n9": [
+   "NPS",
+   "WIKI"
+  ],
+  "a1": [
+   "NPR",
+   "WIKI"
+  ],
+  "a2": [
+   "WIKI",
+   "HIST"
+  ],
+  "a3": [
+   "WIKI",
+   "KIRK"
+  ],
+  "a4": [
+   "WIKI",
+   "KIRK"
+  ],
+  "a5": [
+   "WIKI",
+   "NPS",
+   "KIRK"
+  ],
+  "a6": [
+   "NPR",
+   "NPS"
+  ],
+  "a7": [
+   "WIKI",
+   "NPST"
+  ],
+  "a8": [
+   "WIKI",
+   "HIST"
+  ],
+  "a9": [
+   "WIKI",
+   "NPR"
+  ],
+  "a10": [
+   "WIKI",
+   "NPST"
+  ],
+  "t1": [
+   "WIKI",
+   "KIRK"
+  ],
+  "t2": [
+   "KIRK",
+   "WIKI"
+  ],
+  "t3": [
+   "NPST",
+   "WIKI"
+  ],
+  "t4": [
+   "WIKI",
+   "KIRK"
+  ],
+  "t5": [
+   "WIKI",
+   "NPST"
+  ],
+  "t6": [
+   "NPST",
+   "WIKI"
+  ],
+  "t7": [
+   "WIKI",
+   "NPST"
+  ],
+  "t8": [
+   "NPST",
+   "CBS"
+  ],
+  "t9": [
+   "WIKI",
+   "NPR"
+  ],
+  "r1": [
+   "WIKI",
+   "NPST"
+  ],
+  "r2": [
+   "WIKI",
+   "NPR"
+  ],
+  "r3": [
+   "WIKI",
+   "NPS"
+  ],
+  "r4": [
+   "NPS",
+   "WIKI"
+  ],
+  "r5": [
+   "WIKI",
+   "HIST"
+  ],
+  "r6": [
+   "WIKI",
+   "NPS"
+  ],
+  "r7": [
+   "WIKI",
+   "NPS"
+  ],
+  "n2b": [
+   "WIKI",
+   "HIST"
+  ],
+  "n7b": [
+   "HIST",
+   "CA"
+  ],
+  "n10": [
+   "WIKI",
+   "CA"
+  ],
+  "t3b": [
+   "WIKI",
+   "NPST"
+  ],
+  "t3c": [
+   "WIKI",
+   "NPST"
+  ],
+  "t8b": [
+   "CA",
+   "WIKI"
+  ],
+  "a9b": [
+   "WIKI",
+   "HIST",
+   "NPR"
+  ],
+  "x3b": [
+   "MT",
+   "NPR"
+  ],
+  "r4b": [
+   "HIST",
+   "NPR"
+  ],
+  "x1": [
+   "WIKI",
+   "NPR",
+   "CBS"
+  ],
+  "x2": [
+   "WIKI",
+   "NPR",
+   "EJS"
+  ],
+  "x3": [
+   "NPR",
+   "ABC"
+  ],
+  "x4": [
+   "CBS",
+   "ABC"
+  ]
+ },
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Port_Chicago_disaster"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/poch/learn/historyculture/index.htm"
+  },
+  "NPST": {
+   "url": "https://www.nps.gov/poch/learn/historyculture/the-mutiny-trial.htm"
+  },
+  "NPR": {
+   "url": "https://www.kpbs.org/news/national/2024/07/18/the-navy-exonerates-256-black-sailors-unjustly-punished-over-1944-wwii-port-explosion"
+  },
+  "CBS": {
+   "url": "https://cbsnews.com/sanfrancisco/news/navy-exonerates-black-sailors-convicted-in-largest-mutiny-in-u-s-history"
+  },
+  "ABC": {
+   "url": "https://abc13.com/post/navy-exonerates-256-black-sailors-unjustly-punished-1944/15065015/"
+  },
+  "EJS": {
+   "url": "https://equaljusticesociety.org/2024/07/17/navy-exonerates-the-port-chicago-50/"
+  },
+  "HIST": {
+   "url": "https://www.history.com/this-day-in-history/july-17/port-chicago-disaster"
+  },
+  "CA": {
+   "url": "https://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0001-0050/sjr_21_cfa_20100225_103046_sen_floor.html"
+  },
+  "MT": {
+   "url": "https://www.militarytimes.com/news/your-military/2024/07/17/navy-clears-black-sailors-unjustly-punished-after-1944-deadly-blast/"
+  },
+  "KIRK": {
+   "url": "https://www.kirkusreviews.com/book-reviews/robert-l-allen-2/the-port-chicago-mutiny-the-story-of-the-larges/"
+  }
+ },
+ "notUsed": [
+  "Verdict time: 8 minutes (NPS) vs 80 minutes (Wikipedia): the script gives both as differing accounts.",
+  "What Joe Small said on the barge and any Marshall quote: wording not confirmed in two sources; paraphrased or left out.",
+  "Whether the sailors testified: the NPS page contradicts itself; Wikipedia says each testified: the script says they would say so under oath, from the trial record.",
+  "Injuries and remains: left out on purpose (no graphic detail)."
+ ]
+}

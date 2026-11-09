@@ -1,0 +1,333 @@
+{
+ "id": "reel-port-chicago",
+ "title": "They Refused to Load Bombs. The Navy Said Mutiny.",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Quinault": "Kwin-all",
+  "Suisun": "Suh-soon",
+  "Yerba Buena": "Yerba Bwayna",
+  "Veltmann": "Velt-man",
+  "Kinne": "Kin-ee",
+  "Eleanor": "Ellen-or"
+ },
+ "assets": {
+  "p4": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0004.jpg"
+  },
+  "p6": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0006.jpg"
+  },
+  "p9": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0009.jpg"
+  },
+  "p8": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0008.jpg"
+  },
+  "quinault": {
+   "commons": "File:Quinault victory.JPG"
+  },
+  "recruits": {
+   "commons": "File:\"Negro recruits at Manhattan Beach Training Station, (NY).\", ca. 1941 - ca. 1945 - NARA - 513165.jpg"
+  },
+  "marshall": {
+   "commons": "File:Thurgood-Marshall.jpg"
+  },
+  "p11": {
+   "commons": "File:Port Chicago Naval Magazine National Memorial POCH 0011.jpg"
+  },
+  "ruin": {
+   "commons": "File:Portchicago.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "They refused to load bombs, and faced mutiny.",
+   "visual": {
+    "kind": "photo",
+    "image": "p4",
+    "focus": [
+     0.2,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.2,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "They refused to load bombs, *and faced mutiny.*"
+   },
+   "captions": false,
+   "speed": 1.45
+  },
+  {
+   "id": "name",
+   "text": "This is Port Chicago, California, 1944.",
+   "visual": {
+    "kind": "title",
+    "title": "Port Chicago",
+    "sub": "California, 1944"
+   },
+   "section": "who"
+  },
+  {
+   "id": "job",
+   "text": "The Navy was segregated. Black sailors, with little training, were given the job of loading bombs onto ships.",
+   "visual": {
+    "kind": "card",
+    "image": "p6",
+    "caption": "Loading ammunition at Port Chicago"
+   },
+   "section": "story"
+  },
+  {
+   "id": "blast",
+   "text": "On July 17, 1944, the pier exploded. Three hundred twenty people were killed. Two hundred two were Black sailors.",
+   "visual": {
+    "kind": "card",
+    "image": "p9",
+    "caption": "Port Chicago after the explosion"
+   },
+   "section": "twist",
+   "overlays": {
+    "stamp": "1944"
+   }
+  },
+  {
+   "id": "leave",
+   "text": "White sailors got leave. Black sailors did not.",
+   "visual": {
+    "kind": "title",
+    "title": "No leave",
+    "sub": "for the Black sailors"
+   }
+  },
+  {
+   "id": "refuse",
+   "text": "Three weeks later, the survivors were ordered to load ammunition again. Two hundred fifty-eight refused.",
+   "visual": {
+    "kind": "title",
+    "title": "258",
+    "sub": "refused"
+   }
+  },
+  {
+   "id": "fifty",
+   "text": "Most went back. Fifty were tried for mutiny, in time of war, a crime that could carry the death penalty.",
+   "visual": {
+    "kind": "card",
+    "image": "recruits",
+    "caption": "Black Navy recruits, 1940s"
+   }
+  },
+  {
+   "id": "marshall",
+   "text": "Thurgood Marshall came to watch the trial, and called them victims of negligence and racial injustice.",
+   "visual": {
+    "kind": "card",
+    "image": "marshall",
+    "caption": "Thurgood Marshall"
+   }
+  },
+  {
+   "id": "guilty",
+   "text": "All fifty were found guilty, and sentenced to as much as fifteen years of hard labor.",
+   "visual": {
+    "kind": "title",
+    "title": "Guilty",
+    "sub": "all 50, October 1944"
+   }
+  },
+  {
+   "id": "free",
+   "text": "Most were released in 1946, and that year the Navy began to desegregate. But the convictions stood.",
+   "visual": {
+    "kind": "title",
+    "title": "1946",
+    "sub": "the Navy begins to desegregate"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "cleared",
+   "text": "On July 17, 2024, eighty years to the day, the Navy finally exonerated them. None of the fifty was still alive.",
+   "visual": {
+    "kind": "card",
+    "image": "p11",
+    "caption": "Port Chicago Naval Magazine National Memorial"
+   }
+  },
+  {
+   "id": "end",
+   "text": "They asked why. It took eighty years to answer.",
+   "visual": {
+    "kind": "photo",
+    "image": "p6",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.16
+    ],
+    "anchor": [
+     0.45,
+     0.5
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Port_Chicago_disaster"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/poch/learn/historyculture/index.htm"
+  },
+  "NPST": {
+   "url": "https://www.nps.gov/poch/learn/historyculture/the-mutiny-trial.htm"
+  },
+  "NPR": {
+   "url": "https://www.kpbs.org/news/national/2024/07/18/the-navy-exonerates-256-black-sailors-unjustly-punished-over-1944-wwii-port-explosion"
+  },
+  "CBS": {
+   "url": "https://cbsnews.com/sanfrancisco/news/navy-exonerates-black-sailors-convicted-in-largest-mutiny-in-u-s-history"
+  },
+  "ABC": {
+   "url": "https://abc13.com/post/navy-exonerates-256-black-sailors-unjustly-punished-1944/15065015/"
+  },
+  "EJS": {
+   "url": "https://equaljusticesociety.org/2024/07/17/navy-exonerates-the-port-chicago-50/"
+  },
+  "HIST": {
+   "url": "https://www.history.com/this-day-in-history/july-17/port-chicago-disaster"
+  },
+  "CA": {
+   "url": "https://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0001-0050/sjr_21_cfa_20100225_103046_sen_floor.html"
+  },
+  "MT": {
+   "url": "https://www.militarytimes.com/news/your-military/2024/07/17/navy-clears-black-sailors-unjustly-punished-after-1944-deadly-blast/"
+  },
+  "KIRK": {
+   "url": "https://www.kirkusreviews.com/book-reviews/robert-l-allen-2/the-port-chicago-mutiny-the-story-of-the-larges/"
+  }
+ },
+ "facts": [
+  {
+   "beat": "job",
+   "claim": "See long-form sourcesByClaim b6",
+   "sources": [
+    "NPS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "blast",
+   "claim": "See long-form sourcesByClaim n9",
+   "sources": [
+    "NPS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "leave",
+   "claim": "See long-form sourcesByClaim a1",
+   "sources": [
+    "NPR",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "refuse",
+   "claim": "See long-form sourcesByClaim a5",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "KIRK"
+   ]
+  },
+  {
+   "beat": "fifty",
+   "claim": "See long-form sourcesByClaim h4",
+   "sources": [
+    "NPST",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "marshall",
+   "claim": "See long-form sourcesByClaim t6",
+   "sources": [
+    "NPST",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "guilty",
+   "claim": "See long-form sourcesByClaim t8",
+   "sources": [
+    "NPST",
+    "CBS"
+   ]
+  },
+  {
+   "beat": "free",
+   "claim": "See long-form sourcesByClaim r3",
+   "sources": [
+    "WIKI",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "cleared",
+   "claim": "See long-form sourcesByClaim x2",
+   "sources": [
+    "WIKI",
+    "NPR",
+    "EJS"
+   ]
+  }
+ ]
+}
