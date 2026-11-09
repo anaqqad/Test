@@ -1,0 +1,54 @@
+{
+ "doc_law_unfit": {
+  "image": "doc_law_unfit.png",
+  "pw": 1700,
+  "ph": 2200,
+  "phrase": "Studies commissioned by the Army War College between 1924 and 1939 concluded that Blacks were unfit for leadership roles and incapable of aviation.",
+  "rects": [
+   [
+    686,
+    1518,
+    709,
+    32
+   ],
+   [
+    560,
+    1546,
+    836,
+    32
+   ],
+   [
+    560,
+    1573,
+    638,
+    32
+   ]
+  ]
+ },
+ "doc_law_pows": {
+  "image": "doc_law_pows.png",
+  "pw": 1700,
+  "ph": 2200,
+  "phrase": "66 of these pilots were killed in combat, while another 32 were either forced down or shot down and captured to become prisoners of war.",
+  "rects": [
+   [
+    475,
+    1315,
+    721,
+    32
+   ],
+   [
+    360,
+    1343,
+    836,
+    32
+   ],
+   [
+    360,
+    1372,
+    335,
+    32
+   ]
+  ]
+ }
+}
