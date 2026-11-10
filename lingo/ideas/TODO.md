@@ -207,7 +207,7 @@ One Word in 10 Languages, Languages That Count Differently.
    - Words English Doesn't Have (untranslatable words: hygge, saudade, schadenfreude, wabi-sabi...).
    - Why Americans and British Say These Words Differently (real US/UK speakers on Lingua Libre).
 
-26. Why Moroccans and Algerians Understand Other Arabs, But Other Arabs Don't Understand Them (owner, 2026-11-10).
+26. DONE 2026-11-10 as "Why Arabs Can't Understand Each Other" (`arabic`). Why Moroccans and Algerians Understand Other Arabs, But Other Arabs Don't Understand Them (owner, 2026-11-10).
    Format: one real speaker per variety, then the answer at the end. Recordings found on Commons (Wikitongues):
    Moroccan (Anass, Nawal), Algerian (Reda, Fayçal), Tunisian (Afek, Mounir, Khalil), Syrian (David),
    Iraqi (Hussien, Mahmoud), Egyptian (Anonymous 20200622 arz.ogg), Levantine (Ahmad Eng-Apc); Modern Standard

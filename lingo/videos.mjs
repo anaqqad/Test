@@ -633,6 +633,85 @@ export const VIDEOS = {
       },
     ],
   },
+  arabic: {
+    title: "Why Arabs Can’t Understand Each Other", // owner's idea 2026-11-10; audio: build_arabic.py; thumbnail: thumb_arabic.mjs
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#007a3d",
+    items: [
+      {
+        name: "Egyptian Arabic", wojak: "a_egy_f", flag: "eg", speakers: "~120 million", scene: "dunes", loc: null,
+        char: { skin: "brown", hair: "long", hairColor: "black", outfit: { type: "shirt", color: "#c8b48a", vest: "#c8b48a" }, expression: "smile" },
+        cards: [
+          "Egyptian Arabic is the most spoken Arabic dialect, with about 120 million speakers.",
+          "For decades Egypt made most of the Arab world’s films and TV, so almost every Arab understands Egyptian.",
+          "She said: 'Hi, I just moved to New York last year because I’m doing a master’s degree.' 'ashan' means 'because'.",
+        ],
+        audio: { file: "incoming/arabic/Anonymous 20200622 arz.ogg", start: 0.0 },
+      },
+      {
+        name: "Syrian Arabic", wojak: "a_syr", flag: "sy", speakers: "~60 million", scene: "hills", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "brown", outfit: { type: "shirt", color: "#8a8f98", vest: "#8a8f98" }, expression: "smile" },
+        cards: [
+          "Syrian Arabic belongs to Levantine Arabic, spoken by about 60 million people in Syria, Lebanon, Jordan and Palestine.",
+          "Syrian TV series are watched all over the Arab world, so Levantine is easy for most Arabs too.",
+          "He said: 'Hello, my name is David, I’m 22. I was born in New York State and I’ve lived in Texas since I was 6.' 'khle’et' means 'I was born'.",
+        ],
+        audio: { file: "incoming/arabic/WIKITONGUES- David speaking Syrian Arabic.wav", start: 0.0 },
+      },
+      {
+        name: "Iraqi Arabic", wojak: "a_irq", flag: "iq", speakers: "~32 million", scene: "village", loc: null,
+        char: { skin: "brown", hair: "short", hairColor: "grey", outfit: { type: "shirt", color: "#5a3e2b", vest: "#5a3e2b" }, expression: "smile" },
+        cards: [
+          "Iraqi Arabic is spoken by about 32 million people along the Tigris and Euphrates rivers.",
+          "Iraqis greet each other with 'shaku maku?', which means 'what’s up?'",
+          "He said: 'I’m Mahmoud al-Rawi from Baghdad. I was born in Baghdad in 1983, and I went to school in Baghdad.'",
+        ],
+        audio: { file: "incoming/arabic/WIKITONGUES- Mahmoud speaking Iraqi Arabic.wav", start: 0.0 },
+      },
+      {
+        name: "Tunisian Arabic", wojak: "a_tun", flag: "tn", speakers: "~13 million", scene: "beach", loc: null,
+        char: { skin: "brown", hair: "short", hairColor: "black", beard: true, outfit: { type: "shirt", color: "#7fb3d5", vest: "#7fb3d5" }, expression: "smile" },
+        cards: [
+          "Tunisian Arabic is spoken by about 13 million people in Tunisia.",
+          "It mixes Arabic with Amazigh (Berber), French and Italian words.",
+          "He said: 'I’m originally from Metlaoui, a small town in the south of Tunisia, and right now I work in Tunis, the capital.' 'nekhdem' means 'I work': in the Maghreb, verbs for 'I' start with n.",
+        ],
+        audio: { file: "incoming/arabic/WIKITONGUES- Mounir speaking Tunisian Arabic.wav", start: 8.6 },
+      },
+      {
+        name: "Algerian Arabic", wojak: "th_alg", flag: "dz", speakers: "~42 million", scene: "mesa", loc: null,
+        char: { skin: "brown", hair: "curly", hairColor: "black", outfit: { type: "shirt", color: "#2f6b3a", vest: "#2f6b3a" }, expression: "smile" },
+        cards: [
+          "Algerian Arabic is spoken by about 42 million people.",
+          "It is full of French: a car is a 'tomobil', and a phone is a 'portable'.",
+          "He said: 'Hello, I’m Fayçal from Oran. … we started a photo club with my friends Amar and Abdou.' 'derna' means 'we made', and 'club photo' is straight from French.",
+        ],
+        audio: { file: "incoming/arabic/WIKITONGUEs- Fayçal speaking Algerian Arabic.wav", start: 0.0 },
+      },
+      {
+        name: "Moroccan Darija", wojak: "a_mar_f", flag: "ma", speakers: "~40 million", scene: "sierra", loc: null,
+        char: { skin: "brown", hair: "long", hairColor: "brown", outfit: { type: "shirt", color: "#8e2b2b", vest: "#8e2b2b" }, expression: "smile" },
+        cards: [
+          "Moroccan Arabic, or Darija, is spoken by about 40 million people.",
+          "Darija drops many short vowels, so words become clusters of consonants: 'ktab' instead of 'kitab' (book).",
+          "She said: 'Peace be upon you, my name is Nawal. I work as a teacher. I teach Darija and Standard Arabic to students from all over the world.' 'kanqrri' means 'I teach': Moroccans start verbs with ka.",
+        ],
+        audio: { file: "incoming/arabic/WIKITONGUES- Nawal speaking Moroccan Arabic.wav", start: 0.0 },
+      },
+      {
+        name: "Standard Arabic", wojak: "a_msa", flag: "arab", speakers: "~335 million", scene: "abstract", loc: null,
+        char: { skin: "brown", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#1f2a44", vest: "#1f2a44" }, expression: "smile" },
+        cards: [
+          "So why do Moroccans and Algerians understand other Arabs, but not the other way round? Every Arab learns Standard Arabic at school, the Arabic of books and the news.",
+          "Reason 1: exposure goes one way. Maghrebis grow up with Egyptian films, Syrian and Gulf series and Lebanese songs, but other Arabs almost never hear Darija.",
+          "Reason 2: Darija moved furthest from Standard Arabic, with dropped vowels, Amazigh (Berber) words and grammar, French and Spanish loans, and verbs for 'I' that start with n.",
+        ],
+        audio: { file: "incoming/arabic/Internet In Algeria Arabic Wikipedia spoken article.ogg", start: 68.5 },
+      },
+    ],
+  },
   understand2: {
     title: "Languages English Speakers Can Almost Understand", // YouTube: "... (Part 2)"; audio: build_understand2.py
     part: "Part 2",
