@@ -1,0 +1,1029 @@
+{
+ "id": "doc-six-triple-eight",
+ "title": "17 Million Letters. 855 Black Women. They Did It in Half the Time.",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Rouen": "Roo-on",
+  "Greenock": "Green-uck",
+  "Eleanor": "Ellen-or",
+  "Ile de France": "Eel duh France",
+  "Bankston": "Bank-stun"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "arrive": {
+   "commons": "File:\"The first Negro WACs to arrive (on) the continent of Europe were 800 girls of the 6888th Central Postal Directory Bn, w - NARA - 531333.jpg"
+  },
+  "wedding": {
+   "commons": "File:\"Chaplain William T. Green reads the benediction at the marriage ceremony of Pfc. Florence A. Collins, a WAC of the 6888 - NARA - 531314.jpg"
+  },
+  "inspect": {
+   "commons": "File:\"Somewhere in England, Maj. Charity E. Adams...and Capt. Abbie N. Campbell...inspect the first contingent of Negro mem - NARA - 531249.jpg"
+  },
+  "adams43": {
+   "commons": "File:\"WAAC Capt. Charity Adams of Columbia, NC, who was commissioned from the first officer candidate class, and the first of - NARA - 531334.jpg"
+  },
+  "adams": {
+   "commons": "File:Charity Adams Earley.jpg"
+  },
+  "parade": {
+   "commons": "File:Members of the 6888th Central Postal Directory Battalion take part in a parade ceremony in honor of Joan d'Arc at the marketplace where she was burned at the stake.jpg"
+  },
+  "parade2": {
+   "commons": "File:Negro WAC battalion's first parade on the continent.jpg"
+  },
+  "members": {
+   "commons": "File:Members of the 6888th Central Postal Directory Battalion.webp"
+  },
+  "medal1": {
+   "commons": "File:6888th Central Postal Directory Batallion Congressional Gold Medal 1.jpg"
+  },
+  "cer18": {
+   "commons": "File:Congressional Gold Medal award ceremony in honor of the 6888th Central Postal Directory Battalion’s contributions during WWII, on April 29, 2025, Washington, D.C - 18.jpg"
+  },
+  "cer48": {
+   "commons": "File:Congressional Gold Medal award ceremony in honor of the 6888th Central Postal Directory Battalion’s contributions during WWII, on April 29, 2025, Washington, D.C - 48.jpg"
+  },
+  "greenock": {
+   "commons": "File:U.S. Army nurses, newly arrived, line the rail of their vessel as it pulls into port of Greenock, Scotland, in European - NARA - 531204.jpg"
+  },
+  "bust": {
+   "commons": "File:Lt. Col. Charity Adams bust statue.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "h1",
+   "text": "In February 1945, in Birmingham, England, warehouses were filled with mail that no one had delivered. About seventeen million letters and packages, for American soldiers fighting in Europe.",
+   "visual": {
+    "kind": "photo",
+    "image": "inspect",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   },
+   "overlays": {
+    "hook": "Seventeen million letters. *Nobody could deliver them.*"
+   }
+  },
+  {
+   "id": "h2",
+   "text": "Some had been sitting there for months. Soldiers were going without word from home, and the Army believed it was hurting morale.",
+   "visual": {
+    "kind": "title",
+    "title": "17 million",
+    "sub": "letters and packages"
+   }
+  },
+  {
+   "id": "h3",
+   "text": "The Army estimated the job would take six months. Then it sent eight hundred fifty-five Black women to do it.",
+   "visual": {
+    "kind": "card",
+    "image": "arrive",
+    "caption": "Women of the 6888th, 1945"
+   }
+  },
+  {
+   "id": "h4",
+   "text": "They cleared it in three.",
+   "visual": {
+    "kind": "title",
+    "title": "3 months",
+    "sub": "instead of 6"
+   }
+  },
+  {
+   "id": "h5",
+   "text": "They were the six thousand eight hundred eighty-eighth Central Postal Directory Battalion. The Six Triple Eight.",
+   "visual": {
+    "kind": "photo",
+    "image": "parade",
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "The Six Triple Eight",
+     "sub": "6888th Central Postal Directory Battalion"
+    }
+   }
+  },
+  {
+   "id": "o1",
+   "text": "When the war began, women could serve in the Army through an auxiliary corps. In July 1943, Congress made it the Women's Army Corps, the WAC.",
+   "visual": {
+    "kind": "title",
+    "title": "Women's Army Corps",
+    "sub": "July 1943"
+   },
+   "section": "origins"
+  },
+  {
+   "id": "o2",
+   "text": "Black women joined it too. But for most of the war, the Army kept them at home, and many were given menial jobs.",
+   "visual": {
+    "kind": "card",
+    "image": "adams43",
+    "caption": "Black WAC officers and enlisted women, 1943"
+   }
+  },
+  {
+   "id": "o3",
+   "text": "Mary McLeod Bethune, the educator and adviser to the President, pushed to change that. So did First Lady Eleanor Roosevelt.",
+   "visual": {
+    "kind": "title",
+    "title": "Mary McLeod Bethune",
+    "sub": "and Eleanor Roosevelt"
+   }
+  },
+  {
+   "id": "o4",
+   "text": "They wanted a role for Black women in the war overseas.",
+   "visual": {
+    "kind": "photo",
+    "image": "adams43",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "o5",
+   "text": "In 1944, the War Department agreed. It created a new unit, made up of Black women.",
+   "visual": {
+    "kind": "title",
+    "title": "1944",
+    "sub": "the 6888th is created"
+   }
+  },
+  {
+   "id": "o5b",
+   "text": "The women came from across the country. Most were African American, and some were of Caribbean and Mexican descent.",
+   "visual": {
+    "kind": "card",
+    "image": "adams43",
+    "caption": "Black WAC officers and enlisted women, 1943"
+   }
+  },
+  {
+   "id": "o5c",
+   "text": "They went through four to six weeks of basic training, and then weeks more of specialist training, before they were sent overseas.",
+   "visual": {
+    "kind": "photo",
+    "image": "adams43",
+    "focus": [
+     0.6,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "o6",
+   "text": "To lead it, the Army chose Major Charity Adams.",
+   "visual": {
+    "kind": "card",
+    "image": "adams",
+    "caption": "Charity Adams"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Maj. Charity Adams",
+     "sub": "commanding officer"
+    }
+   }
+  },
+  {
+   "id": "o7",
+   "text": "She was from Columbia, South Carolina, and she had been in the first officer candidate class of the women's corps. She was now the highest ranking Black woman officer in the Army.",
+   "visual": {
+    "kind": "card",
+    "image": "adams",
+    "caption": "Charity Adams"
+   }
+  },
+  {
+   "id": "s1",
+   "text": "On February 3, 1945, the first of them sailed for Britain, on the liner Ile de France.",
+   "visual": {
+    "kind": "title",
+    "title": "3 February 1945",
+    "sub": "sailing for Britain"
+   },
+   "section": "crossing"
+  },
+  {
+   "id": "s2",
+   "text": "On February 12, they landed at Greenock, near Glasgow in Scotland, and went south by train to Birmingham.",
+   "visual": {
+    "kind": "card",
+    "image": "greenock",
+    "caption": "U.S. Army nurses arriving at Greenock, Scotland, 1944"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Birmingham",
+     "sub": "England"
+    }
+   }
+  },
+  {
+   "id": "s3",
+   "text": "Three days after they landed, two generals came to inspect them.",
+   "visual": {
+    "kind": "card",
+    "image": "inspect",
+    "caption": "Maj. Charity Adams and Capt. Abbie Campbell inspect the first women to arrive, February 1945"
+   }
+  },
+  {
+   "id": "s4",
+   "text": "The battalion had eight hundred fifty-five women in five companies, both officers and enlisted.",
+   "visual": {
+    "kind": "photo",
+    "image": "inspect",
+    "focus": [
+     0.3,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "s4b",
+   "text": "There was a headquarters company and four more, A through D. And they ran their own camp from the start.",
+   "visual": {
+    "kind": "photo",
+    "image": "inspect",
+    "focus": [
+     0.7,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "s5",
+   "text": "And they did not only sort mail. They had their own cooks, mechanics, medics and military police.",
+   "visual": {
+    "kind": "title",
+    "title": "Self-sufficient",
+    "sub": "cooks, mechanics, medics, police"
+   }
+  },
+  {
+   "id": "b1",
+   "text": "What they found in Birmingham was a mess.",
+   "visual": {
+    "kind": "title",
+    "title": "Birmingham",
+    "sub": "February 1945"
+   },
+   "section": "birmingham"
+  },
+  {
+   "id": "b2",
+   "text": "The mail was stacked in cold, dark buildings, with the windows blacked out against air raids. There was little heat.",
+   "visual": {
+    "kind": "title",
+    "title": "Cold and dark",
+    "sub": "windows blacked out"
+   }
+  },
+  {
+   "id": "b3",
+   "text": "Rats had gotten into packages of food sent from home.",
+   "visual": {
+    "kind": "title",
+    "title": "Rats",
+    "sub": "in the packages"
+   }
+  },
+  {
+   "id": "b4",
+   "text": "And so much of it could not be delivered. Letters were addressed only to a first name, or to a nickname, or to \"Junior, U.S. Army.\"",
+   "visual": {
+    "kind": "title",
+    "title": "\"Junior, U.S. Army\"",
+    "sub": "a typical address"
+   }
+  },
+  {
+   "id": "b5",
+   "text": "There were about seven million Americans in Europe, and they kept moving. In one account, seven thousand five hundred of them were named Robert Smith.",
+   "visual": {
+    "kind": "title",
+    "title": "7,500",
+    "sub": "soldiers named Robert Smith"
+   }
+  },
+  {
+   "id": "b6",
+   "text": "So the women built a system. They kept index cards for soldiers, with their serial numbers and their units, and updated them as men moved.",
+   "visual": {
+    "kind": "card",
+    "image": "members",
+    "caption": "Members of the 6888th, 1945"
+   }
+  },
+  {
+   "id": "b7",
+   "text": "In time, the card file grew to seven million cards.",
+   "visual": {
+    "kind": "title",
+    "title": "7 million",
+    "sub": "index cards"
+   }
+  },
+  {
+   "id": "b7b",
+   "text": "Mail for a soldier who had been wounded, or moved, or killed, had to be traced through those cards, one name at a time.",
+   "visual": {
+    "kind": "card",
+    "image": "members",
+    "caption": "Members of the 6888th, 1945"
+   }
+  },
+  {
+   "id": "b8",
+   "text": "They worked three shifts, eight hours each, seven days a week. Each shift handled about sixty-five thousand pieces of mail.",
+   "visual": {
+    "kind": "title",
+    "title": "65,000",
+    "sub": "pieces of mail per shift"
+   }
+  },
+  {
+   "id": "b9",
+   "text": "Their motto was simple. No mail, low morale.",
+   "visual": {
+    "kind": "quote",
+    "quote": "No mail, low morale.",
+    "by": "Motto of the 6888th"
+   }
+  },
+  {
+   "id": "g1",
+   "text": "Not everyone welcomed them.",
+   "visual": {
+    "kind": "photo",
+    "image": "inspect",
+    "focus": [
+     0.7,
+     0.45
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   },
+   "section": "general"
+  },
+  {
+   "id": "g2",
+   "text": "One day, a white general came to inspect, and found only some of the women in formation. He asked where the rest were.",
+   "visual": {
+    "kind": "card",
+    "image": "adams",
+    "caption": "Charity Adams"
+   }
+  },
+  {
+   "id": "g3",
+   "text": "Adams told him. A third were on duty, a third were sleeping, after the night shift.",
+   "visual": {
+    "kind": "title",
+    "title": "Three shifts",
+    "sub": "a third always working"
+   }
+  },
+  {
+   "id": "g4",
+   "text": "He said he was going to send a white first lieutenant down to show her how to run things.",
+   "visual": {
+    "kind": "quote",
+    "quote": "I'm going to send a white first lieutenant down here to show you how to run things.",
+    "by": "A visiting general, 1945"
+   }
+  },
+  {
+   "id": "g5",
+   "text": "Her answer became famous. Over my dead body, sir.",
+   "visual": {
+    "kind": "quote",
+    "quote": "Over my dead body, sir.",
+    "by": "Maj. Charity Adams"
+   }
+  },
+  {
+   "id": "g6",
+   "text": "Her staff found an official memo warning commanders against language that stressed racial segregation. The general backed down.",
+   "visual": {
+    "kind": "title",
+    "title": "He backed down",
+    "sub": ""
+   }
+  },
+  {
+   "id": "g7",
+   "text": "When the Red Cross tried to put the women in a separate hotel in London, Adams refused that too.",
+   "visual": {
+    "kind": "card",
+    "image": "adams43",
+    "caption": "Charity Adams with Black WAC trainees, 1943"
+   }
+  },
+  {
+   "id": "g8",
+   "text": "And when they were offered separate facilities, they ran their own. Their own dining hall, their own beauty shop, their own snack bar.",
+   "visual": {
+    "kind": "card",
+    "image": "wedding",
+    "caption": "A wedding in the 6888th, 1945"
+   }
+  },
+  {
+   "id": "m1",
+   "text": "By May 1945, the backlog in Birmingham was gone. The Army had expected six months. It took them three.",
+   "visual": {
+    "kind": "title",
+    "title": "Three months",
+    "sub": "Birmingham, cleared"
+   },
+   "section": "done"
+  },
+  {
+   "id": "m2",
+   "text": "The war in Europe had just ended. And there was more mail waiting in France.",
+   "visual": {
+    "kind": "title",
+    "title": "More mail",
+    "sub": "waiting in France"
+   }
+  },
+  {
+   "id": "m3",
+   "text": "In the spring of 1945, the battalion moved to Rouen.",
+   "visual": {
+    "kind": "card",
+    "image": "arrive",
+    "caption": "Women of the 6888th, 1945"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Rouen",
+     "sub": "France"
+    }
+   }
+  },
+  {
+   "id": "m4",
+   "text": "There, they marched in a parade in honor of Joan of Arc, in the marketplace where she had been burned at the stake.",
+   "visual": {
+    "kind": "photo",
+    "image": "parade",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "m4b",
+   "text": "In Rouen, they were housed in old French barracks, and they worked in cold, damp buildings that were no better than the ones in England.",
+   "visual": {
+    "kind": "title",
+    "title": "Rouen",
+    "sub": "old barracks, cold, damp buildings"
+   }
+  },
+  {
+   "id": "m5",
+   "text": "The people of Rouen watched American women in uniform, Black women, marching through their square.",
+   "visual": {
+    "kind": "photo",
+    "image": "parade2",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "m6",
+   "text": "In July, three of them, Mary Bankston, Mary Barlow and Dolores Browne, were killed in a jeep accident.",
+   "visual": {
+    "kind": "title",
+    "title": "July 1945",
+    "sub": "three women lost in Rouen"
+   }
+  },
+  {
+   "id": "m7",
+   "text": "They are buried at the Normandy American Cemetery, among the very few women buried there.",
+   "visual": {
+    "kind": "title",
+    "title": "Normandy",
+    "sub": "American Cemetery"
+   }
+  },
+  {
+   "id": "m8",
+   "text": "The Rouen backlog was cleared too. In October 1945, the unit moved to Paris.",
+   "visual": {
+    "kind": "photo",
+    "image": "parade2",
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Paris",
+     "sub": "October 1945"
+    }
+   }
+  },
+  {
+   "id": "r1",
+   "text": "In February 1946, the last of them returned to the United States. The battalion was disbanded at Fort Dix, New Jersey.",
+   "visual": {
+    "kind": "card",
+    "image": "wedding",
+    "caption": "Members of the 6888th, 1945"
+   },
+   "section": "home"
+  },
+  {
+   "id": "r2",
+   "text": "There was no parade. No public ceremony. No welcome home.",
+   "visual": {
+    "kind": "title",
+    "title": "No parade",
+    "sub": "February 1946"
+   }
+  },
+  {
+   "id": "r3",
+   "text": "Many of them went to college on the GI Bill and became teachers, nurses, and civil rights workers.",
+   "visual": {
+    "kind": "card",
+    "image": "members",
+    "caption": "Members of the 6888th, 1945"
+   }
+  },
+  {
+   "id": "r4",
+   "text": "Charity Adams left the Army as a lieutenant colonel. In 1989, she published her memoir, One Woman's Army.",
+   "visual": {
+    "kind": "card",
+    "image": "adams",
+    "caption": "Charity Adams Earley"
+   }
+  },
+  {
+   "id": "r4b",
+   "text": "In 1981, some of the veterans went back to Birmingham, where the mayor honored them. In 1996, the Smithsonian's National Postal Museum honored Charity Adams.",
+   "visual": {
+    "kind": "title",
+    "title": "1981 and 1996",
+    "sub": "Birmingham, then the Smithsonian"
+   }
+  },
+  {
+   "id": "r4c",
+   "text": "In 2019, a blue plaque went up at King Edward's School in Birmingham, where the women had worked through the mail.",
+   "visual": {
+    "kind": "title",
+    "title": "Blue plaque",
+    "sub": "King Edward's School, Birmingham, 2019"
+   }
+  },
+  {
+   "id": "r5",
+   "text": "Slowly, the country began to remember. A monument at Fort Leavenworth in 2018. A unit commendation from the Army in 2019.",
+   "visual": {
+    "kind": "title",
+    "title": "2018 and 2019",
+    "sub": "a monument, a commendation"
+   }
+  },
+  {
+   "id": "r5b",
+   "text": "In 2021, the Senate passed a measure to honor them.",
+   "visual": {
+    "kind": "title",
+    "title": "2021",
+    "sub": "the Senate acts"
+   }
+  },
+  {
+   "id": "r6",
+   "text": "In February 2022, the House of Representatives voted four hundred twenty-two to zero to award the battalion the Congressional Gold Medal. President Biden signed the bill that March.",
+   "visual": {
+    "kind": "title",
+    "title": "422 to 0",
+    "sub": "the House vote, 2022"
+   }
+  },
+  {
+   "id": "r7",
+   "text": "In 2023, the Army renamed Fort Lee, in Virginia, as Fort Gregg-Adams, in part for Charity Adams.",
+   "visual": {
+    "kind": "card",
+    "image": "bust",
+    "caption": "Lt. Col. Charity Adams, Fort Gregg-Adams"
+   }
+  },
+  {
+   "id": "r8",
+   "text": "On April 29, 2025, the medal was presented in Emancipation Hall at the U.S. Capitol. More than three hundred descendants of the women were there.",
+   "visual": {
+    "kind": "card",
+    "image": "cer18",
+    "caption": "The Congressional Gold Medal ceremony, U.S. Capitol, 29 April 2025"
+   },
+   "overlays": {
+    "stamp": "29 April 2025"
+   }
+  },
+  {
+   "id": "r9",
+   "text": "Charity Adams's son accepted it on her behalf.",
+   "visual": {
+    "kind": "card",
+    "image": "cer48",
+    "caption": "The Congressional Gold Medal of the 6888th"
+   }
+  },
+  {
+   "id": "r9b",
+   "text": "And in December 2024, a film about them, The Six Triple Eight, put their story in front of millions of people who had never heard it.",
+   "visual": {
+    "kind": "title",
+    "title": "The Six Triple Eight",
+    "sub": "a film, December 2024"
+   }
+  },
+  {
+   "id": "e1",
+   "text": "Seventeen million letters. Three months.",
+   "visual": {
+    "kind": "card",
+    "image": "medal1",
+    "caption": "The Congressional Gold Medal of the 6888th"
+   },
+   "section": "close"
+  },
+  {
+   "id": "e2",
+   "text": "They worked in the cold and the dark, against a deadline and against the doubts of their own Army.",
+   "visual": {
+    "kind": "photo",
+    "image": "inspect",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "e3",
+   "text": "And every letter they moved meant a soldier somewhere finally heard from home.",
+   "visual": {
+    "kind": "photo",
+    "image": "parade",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "e4",
+   "text": "That was the Six Triple Eight. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "h1": [
+   "WIKI",
+   "ARMY",
+   "NWW2"
+  ],
+  "h2": [
+   "WIKI",
+   "NPS"
+  ],
+  "h3": [
+   "NPS",
+   "HH",
+   "WIKI"
+  ],
+  "h4": [
+   "NPS",
+   "NWW2",
+   "ARMY"
+  ],
+  "o1": [
+   "NPS",
+   "WIKI"
+  ],
+  "o3": [
+   "WIKI",
+   "NPS"
+  ],
+  "o5": [
+   "NPS",
+   "HH"
+  ],
+  "o6": [
+   "WIKI",
+   "NPS"
+  ],
+  "o7": [
+   "NPS",
+   "WIKI"
+  ],
+  "s1": [
+   "WIKI",
+   "NPS"
+  ],
+  "s2": [
+   "WIKI",
+   "HH"
+  ],
+  "s3": [
+   "WIKI",
+   "NWW2"
+  ],
+  "s4": [
+   "WIKI",
+   "HH"
+  ],
+  "s5": [
+   "NWW2",
+   "HH"
+  ],
+  "b2": [
+   "NPS",
+   "HH",
+   "WIKI"
+  ],
+  "b3": [
+   "ARMY",
+   "HH"
+  ],
+  "b4": [
+   "WIKI",
+   "HH"
+  ],
+  "b5": [
+   "HH",
+   "WIKI"
+  ],
+  "b6": [
+   "HH",
+   "WIKI"
+  ],
+  "b7": [
+   "WIKI",
+   "HH"
+  ],
+  "b8": [
+   "NPS",
+   "WIKI",
+   "HH"
+  ],
+  "b9": [
+   "NPS",
+   "ARMY",
+   "HH"
+  ],
+  "g2": [
+   "NWW2",
+   "HH"
+  ],
+  "g3": [
+   "NWW2",
+   "HH"
+  ],
+  "g4": [
+   "NWW2",
+   "HH"
+  ],
+  "g5": [
+   "NWW2",
+   "HH"
+  ],
+  "g6": [
+   "NWW2",
+   "WIKI"
+  ],
+  "g7": [
+   "NWW2",
+   "WIKI"
+  ],
+  "g8": [
+   "HH",
+   "WIKI"
+  ],
+  "m1": [
+   "WIKI",
+   "NPS",
+   "NWW2"
+  ],
+  "m3": [
+   "WIKI",
+   "NWW2"
+  ],
+  "m4": [
+   "WIKI",
+   "HH"
+  ],
+  "m6": [
+   "NWW2",
+   "DB",
+   "WIKI"
+  ],
+  "m7": [
+   "NWW2",
+   "DB"
+  ],
+  "m8": [
+   "NPS",
+   "HH"
+  ],
+  "r1": [
+   "WIKI",
+   "HH"
+  ],
+  "r2": [
+   "NPS",
+   "HH"
+  ],
+  "r3": [
+   "NWW2",
+   "HH"
+  ],
+  "r4": [
+   "NPS",
+   "HH"
+  ],
+  "r5": [
+   "WIKI",
+   "NWW2"
+  ],
+  "r6": [
+   "NPS",
+   "HH",
+   "WIKI"
+  ],
+  "r7": [
+   "WIKI",
+   "ARMY"
+  ],
+  "r8": [
+   "GMA",
+   "ARMY"
+  ],
+  "r9": [
+   "ARMY",
+   "GMA"
+  ],
+  "o5b": [
+   "NPS",
+   "HH"
+  ],
+  "o5c": [
+   "NPS",
+   "WIKI"
+  ],
+  "s4b": [
+   "HH",
+   "WIKI"
+  ],
+  "b7b": [
+   "HH",
+   "WIKI"
+  ],
+  "m4b": [
+   "HH",
+   "NWW2"
+  ],
+  "r4b": [
+   "NPS",
+   "HH"
+  ],
+  "r4c": [
+   "WIKI",
+   "NWW2"
+  ],
+  "r5b": [
+   "NPS",
+   "HH"
+  ],
+  "r9b": [
+   "BIO",
+   "WIKI"
+  ]
+ },
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/6888th_Central_Postal_Directory_Battalion"
+  },
+  "NPS": {
+   "url": "https://home.nps.gov/articles/000/6888th.htm"
+  },
+  "NWW2": {
+   "url": "https://www.nationalww2museum.org/war/articles/the-sixtripleeight-6888th-battalion"
+  },
+  "HH": {
+   "url": "https://www.historyhit.com/no-mail-low-morale-who-were-the-6888th-central-postal-directory-battalion/"
+  },
+  "ARMY": {
+   "url": "https://www.army.mil/article/285120"
+  },
+  "GMA": {
+   "url": "https://www.goodmorningamerica.com/news/story/only-black-female-wwii-unit-receives-congressional-gold-medal-121276809"
+  },
+  "NBC": {
+   "url": "https://www.nbcnews.com/news/us-news/black-female-wwii-unit-recognized-congressional-honor-rcna18071"
+  },
+  "BIO": {
+   "url": "https://www.biography.com/military-figures/a63023908/the-six-triple-eight-true-story"
+  },
+  "DB": {
+   "url": "https://www.database-memoire.eu/prive/en-us/menu-colleville-us/19-colleville-b-us/6708-barlow-mary-j-6888-cpdb-wac"
+  }
+ },
+ "notUsed": [
+  "Number of women: 855 (Wikipedia, History Hit) vs \"over 800\" / \"800 girls\" (National WWII Museum, NARA caption): script uses 855.",
+  "The Greenock photo shows U.S. Army nurses in 1944, not the 6888th; it is captioned as such.",
+  "Exact date and cause of the Rouen accident: left at \"July, jeep accident\"; no detail.",
+  "Promotion of Adams to colonel in 2025: not confirmed."
+ ]
+}

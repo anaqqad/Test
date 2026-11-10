@@ -1,0 +1,294 @@
+{
+ "id": "reel-six-triple-eight",
+ "title": "Seventeen Million Letters. Three Months.",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Rouen": "Roo-on",
+  "Greenock": "Green-uck",
+  "Eleanor": "Ellen-or",
+  "Ile de France": "Eel duh France",
+  "Bankston": "Bank-stun"
+ },
+ "assets": {
+  "inspect": {
+   "commons": "File:\"Somewhere in England, Maj. Charity E. Adams...and Capt. Abbie N. Campbell...inspect the first contingent of Negro mem - NARA - 531249.jpg"
+  },
+  "arrive": {
+   "commons": "File:\"The first Negro WACs to arrive (on) the continent of Europe were 800 girls of the 6888th Central Postal Directory Bn, w - NARA - 531333.jpg"
+  },
+  "adams": {
+   "commons": "File:Charity Adams Earley.jpg"
+  },
+  "members": {
+   "commons": "File:Members of the 6888th Central Postal Directory Battalion.webp"
+  },
+  "parade": {
+   "commons": "File:Members of the 6888th Central Postal Directory Battalion take part in a parade ceremony in honor of Joan d'Arc at the marketplace where she was burned at the stake.jpg"
+  },
+  "cer18": {
+   "commons": "File:Congressional Gold Medal award ceremony in honor of the 6888th Central Postal Directory Battalion’s contributions during WWII, on April 29, 2025, Washington, D.C - 18.jpg"
+  },
+  "medal1": {
+   "commons": "File:6888th Central Postal Directory Batallion Congressional Gold Medal 1.jpg"
+  },
+  "adams43": {
+   "commons": "File:\"WAAC Capt. Charity Adams of Columbia, NC, who was commissioned from the first officer candidate class, and the first of - NARA - 531334.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Seventeen million letters, and three months.",
+   "visual": {
+    "kind": "photo",
+    "image": "inspect",
+    "focus": [
+     0.35,
+     0.45
+    ],
+    "zoom": [
+     1.1,
+     1.17
+    ],
+    "anchor": [
+     0.35,
+     0.45
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Seventeen million letters, *and three months.*"
+   },
+   "captions": false,
+   "speed": 1.45
+  },
+  {
+   "id": "name",
+   "text": "Meet the Six Triple Eight.",
+   "visual": {
+    "kind": "title",
+    "title": "The Six Triple Eight",
+    "sub": "1945"
+   },
+   "section": "who"
+  },
+  {
+   "id": "backlog",
+   "text": "In 1945, in Birmingham, England, warehouses held about seventeen million undelivered letters and packages for American soldiers.",
+   "visual": {
+    "kind": "card",
+    "image": "arrive",
+    "caption": "Women of the 6888th, 1945"
+   },
+   "section": "story",
+   "overlays": {
+    "pin": {
+     "label": "Birmingham",
+     "sub": "England"
+    }
+   }
+  },
+  {
+   "id": "army",
+   "text": "The Army said it would take six months. It sent eight hundred fifty-five Black women of the Women's Army Corps.",
+   "visual": {
+    "kind": "card",
+    "image": "inspect",
+    "caption": "Maj. Charity Adams inspects the first women to arrive, February 1945"
+   }
+  },
+  {
+   "id": "work",
+   "text": "They worked in cold, dark buildings, three shifts a day, seven days a week. Their motto was, no mail, low morale.",
+   "visual": {
+    "kind": "card",
+    "image": "members",
+    "caption": "Members of the 6888th, 1945"
+   },
+   "section": "twist",
+   "overlays": {
+    "stamp": "1945"
+   }
+  },
+  {
+   "id": "general",
+   "text": "When a general threatened to send a white officer to show their commander, Charity Adams, how to run things, she said, over my dead body, sir.",
+   "visual": {
+    "kind": "card",
+    "image": "adams",
+    "caption": "Maj. Charity Adams"
+   }
+  },
+  {
+   "id": "done",
+   "text": "They cleared the backlog in three months, half the time. Then they did it again in France.",
+   "visual": {
+    "kind": "card",
+    "image": "parade",
+    "caption": "The 6888th on parade in Rouen, France, 1945"
+   }
+  },
+  {
+   "id": "home",
+   "text": "In 1946 they came home. There was no parade.",
+   "visual": {
+    "kind": "title",
+    "title": "No parade",
+    "sub": "1946"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "medal",
+   "text": "In April 2025, eighty years later, the battalion received the Congressional Gold Medal.",
+   "visual": {
+    "kind": "card",
+    "image": "cer18",
+    "caption": "U.S. Capitol, 29 April 2025"
+   }
+  },
+  {
+   "id": "end",
+   "text": "No mail, low morale. They made sure the mail got through.",
+   "visual": {
+    "kind": "photo",
+    "image": "arrive",
+    "focus": [
+     0.55,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.55,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/6888th_Central_Postal_Directory_Battalion"
+  },
+  "NPS": {
+   "url": "https://home.nps.gov/articles/000/6888th.htm"
+  },
+  "NWW2": {
+   "url": "https://www.nationalww2museum.org/war/articles/the-sixtripleeight-6888th-battalion"
+  },
+  "HH": {
+   "url": "https://www.historyhit.com/no-mail-low-morale-who-were-the-6888th-central-postal-directory-battalion/"
+  },
+  "ARMY": {
+   "url": "https://www.army.mil/article/285120"
+  },
+  "GMA": {
+   "url": "https://www.goodmorningamerica.com/news/story/only-black-female-wwii-unit-receives-congressional-gold-medal-121276809"
+  },
+  "NBC": {
+   "url": "https://www.nbcnews.com/news/us-news/black-female-wwii-unit-recognized-congressional-honor-rcna18071"
+  },
+  "DB": {
+   "url": "https://www.database-memoire.eu/prive/en-us/menu-colleville-us/19-colleville-b-us/6708-barlow-mary-j-6888-cpdb-wac"
+  }
+ },
+ "facts": [
+  {
+   "beat": "backlog",
+   "claim": "See long-form sourcesByClaim h1",
+   "sources": [
+    "WIKI",
+    "ARMY",
+    "NWW2"
+   ]
+  },
+  {
+   "beat": "army",
+   "claim": "See long-form sourcesByClaim h3",
+   "sources": [
+    "NPS",
+    "HH",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "work",
+   "claim": "See long-form sourcesByClaim b8",
+   "sources": [
+    "NPS",
+    "WIKI",
+    "HH"
+   ]
+  },
+  {
+   "beat": "general",
+   "claim": "See long-form sourcesByClaim g4",
+   "sources": [
+    "NWW2",
+    "HH"
+   ]
+  },
+  {
+   "beat": "done",
+   "claim": "See long-form sourcesByClaim m1",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "NWW2"
+   ]
+  },
+  {
+   "beat": "home",
+   "claim": "See long-form sourcesByClaim r2",
+   "sources": [
+    "NPS",
+    "HH"
+   ]
+  },
+  {
+   "beat": "medal",
+   "claim": "See long-form sourcesByClaim r8",
+   "sources": [
+    "GMA",
+    "ARMY"
+   ]
+  }
+ ]
+}
