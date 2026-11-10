@@ -194,3 +194,15 @@ One Word in 10 Languages, Languages That Count Differently.
    ~1900) -> today. Before ~1900 no recordings exist, so those steps are either real modern readings of the old
    texts in reconstructed pronunciation (Commons / Lingua Libre / CC YouTube) or the labelled AI-simulation
    method of the `ancient` series. Can become a series: English, French, Arabic, Chinese through time.
+
+25. High-RPM ideas for US/UK viewers (owner, 2026-11-10): the Turkish and Russian videos pulled viewers from
+   low-RPM countries, so the next videos keep ENGLISH as the reference point. New ideas (item 17 has more):
+   - How English Sounded Through Time: Old English (Beowulf), Middle English (Chaucer), Shakespeare in original
+     pronunciation, 1890s wax-cylinder English, today. Real readings exist on Commons. Series: Part 1.
+   - Languages English Speakers Can Almost Understand (Part 2): Gullah, Scots (Shetland), Afrikaans, Bislama, Sranan.
+   - Ranking Languages by How Many Words English Stole From Them (Latin ~29%, French ~29%, Germanic ~26%,
+     Greek ~6%, then Norse, Arabic, Hindi, Japanese...), each with words said by a real speaker of the source.
+   - English Words That Mean Something Very Different in Other Languages ('gift' = poison in German,
+     'preservative' = condom in French): Lingua Libre recordings.
+   - Words English Doesn't Have (untranslatable words: hygge, saudade, schadenfreude, wabi-sabi...).
+   - Why Americans and British Say These Words Differently (real US/UK speakers on Lingua Libre).
