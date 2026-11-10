@@ -199,7 +199,7 @@ One Word in 10 Languages, Languages That Count Differently.
    low-RPM countries, so the next videos keep ENGLISH as the reference point. New ideas (item 17 has more):
    - How English Sounded Through Time: Old English (Beowulf), Middle English (Chaucer), Shakespeare in original
      pronunciation, 1890s wax-cylinder English, today. Real readings exist on Commons. Series: Part 1.
-   - Languages English Speakers Can Almost Understand (Part 2): Gullah, Scots (Shetland), Afrikaans, Bislama, Sranan.
+   - Languages English Speakers Can Almost Understand (Part 2): DONE 2026-11-10 (`understand2`: Bislama, Afrikaans, Shetlandic, Nigerian Pidgin, Gullah).
    - Ranking Languages by How Many Words English Stole From Them (Latin ~29%, French ~29%, Germanic ~26%,
      Greek ~6%, then Norse, Arabic, Hindi, Japanese...), each with words said by a real speaker of the source.
    - English Words That Mean Something Very Different in Other Languages ('gift' = poison in German,

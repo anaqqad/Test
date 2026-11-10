@@ -633,8 +633,68 @@ export const VIDEOS = {
       },
     ],
   },
+  understand2: {
+    title: "Languages English Speakers Can Almost Understand", // YouTube: "... (Part 2)"; audio: build_understand2.py
+    part: "Part 2",
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#2e86de",
+    items: [
+      {
+        name: "Bislama", wojak: "u2_bis_f", flag: "vu", speakers: "~200,000", scene: "bougainville", loc: null,
+        char: { skin: "dark", hair: "curly", hairColor: "black", outfit: { type: "shirt", color: "#e84393", vest: "#e84393" }, expression: "smile" },
+        cards: [
+          "Bislama is the national language of Vanuatu, a Pacific country of 300,000 people and more than 100 languages.",
+          "Its name comes from 'bêche-de-mer', the sea cucumbers that traders collected on the islands in the 1800s.",
+          "She introduced herself: 'Nem blong mi…' means 'My name is…', word for word 'name belong me', just like Tok Pisin in Part 1.",
+        ],
+        audio: { file: "incoming/understand/WIKITONGUES- Toukala speaking Bislama.wav", start: 2.3 },
+      },
+      {
+        name: "Afrikaans", wojak: "u2_afr_f", flag: "za", speakers: "~7 million", scene: "savanna", loc: null,
+        char: { skin: "light", hair: "long", hairColor: "brown", outfit: { type: "shirt", color: "#d98c9a", vest: "#d98c9a" }, expression: "smile" },
+        cards: [
+          "Afrikaans grew out of the Dutch spoken by settlers in South Africa, and became a language of its own about 100 years ago.",
+          "It dropped almost all verb endings: 'I am, you are, he is' are simply 'ek is, jy is, hy is'.",
+          "She said: 'Only later did I realise this is one of the most heartbreaking things in life. We try too hard to make other people happy.' 'Ons probeer te hard' is 'we try too hard'.",
+        ],
+        audio: { file: "incoming/understand/Farren speaking Afrikaans.wav", start: 39.3 },
+      },
+      {
+        name: "Shetlandic", wojak: "u2_she_f", flag: "gb-sct", speakers: "~10,000", scene: "faroe", loc: null,
+        char: { skin: "light", hair: "bob", hairColor: "white", outfit: { type: "shirt", color: "#3d5a80", vest: "#3d5a80" }, expression: "smile" },
+        cards: [
+          "Shetlandic is the Scots of the Shetland Islands, in the far north of Scotland, closer to Norway than to London.",
+          "It is full of old Norse words, because Shetland belonged to Norway until 1469.",
+          "She read her own poem: '…a fault line vimmerin through you, this side or that. Only the sea can greet and sing at the same time.' 'Greet' means 'cry', and 'vimmerin' means 'trembling'.",
+        ],
+        audio: { file: "incoming/understand/WIKITONGUES- Christine speaking Shetlandic.wav", start: 528.3 },
+      },
+      {
+        name: "Nigerian Pidgin", wojak: "u2_pcm_f", flag: "ng", speakers: "~120 million", scene: "village", loc: null,
+        char: { skin: "dark", hair: "long", hairColor: "black", outfit: { type: "shirt", color: "#f08a24", vest: "#f08a24" }, expression: "smile" },
+        cards: [
+          "About 120 million Nigerians use Pidgin, mostly as a second language, to talk across a country with more than 500 languages.",
+          "'Chop' means 'eat', 'wahala' means 'trouble', and 'How far?' means 'How are you?'",
+          "She said: 'I come from Nigeria. In Nigeria we are good people. We have plenty of food, we welcome others, and we are very friendly.' 'We get' means 'we have'.",
+        ],
+        audio: { file: "incoming/understand/Tochi speaking Nigerian Pidgin.wav", start: 43.3 },
+      },
+      {
+        name: "Gullah", wojak: "u2_gul_f", flag: "us", speakers: "~5,000", scene: "beach", loc: null,
+        char: { skin: "dark", hair: "short", hairColor: "grey", glasses: true, outfit: { type: "shirt", color: "#c9a227", vest: "#c9a227" }, expression: "smile" },
+        cards: [
+          "Gullah is spoken on the Sea Islands of South Carolina and Georgia, by descendants of enslaved West Africans.",
+          "It was born on the rice plantations of the Carolina coast, where enslaved Africans grew the famous 'Carolina Gold' rice.",
+          "She said: 'Get ready, go into the field, because it’s almost day clean. Come on, girl, we’ve got to go into the field now.' In Gullah, 'day clean' means dawn.",
+        ],
+        audio: { file: "incoming/understand/WIKITONGUES- Caroline speaking Gullah and English.wav", start: 519.3 },
+      },
+    ],
+  },
   understand: {
-    title: "Languages English Speakers Can Almost Understand", // YouTube: "... (Part 1)"; Part 2 candidates: Gullah, Jamaican Patois, Bislama, Sranan, Shetlandic, Afrikaans
+    title: "Languages English Speakers Can Almost Understand", // YouTube: "... (Part 1)"; Part 2 is understand2. Part 3 candidates: Sranan (noisy clip), Jamaican Patois, Krio, Singlish
     part: "Part 1",
     layout: "story",
     reveal: true, // translation card only after the clip ends
