@@ -186,7 +186,7 @@ One Word in 10 Languages, Languages That Count Differently.
 23. Viewer request (@arpetr3458, 2026-11-08), spin-offs of "Languages English Speakers Can Almost Understand":
    - Languages HINDI Speakers Can Almost Understand: Urdu, Punjabi, Nepali, Marathi, Bhojpuri, Gujarati.
    - Languages TURKISH Speakers Can Almost Understand: DONE 2026-11-08 (`turkic`: Kyrgyz, Kazakh, Uzbek, Tatar, Azerbaijani). Not on Commons as speech: Turkmen, Gagauz (song only), Crimean Tatar (anthem only).
-   - Languages RUSSIAN Speakers Can Almost Understand: Belarusian, Ukrainian, Rusyn, Bulgarian, Serbian, Polish.
+   - Languages RUSSIAN Speakers Can Almost Understand: DONE 2026-11-10 (`slavic`: Czech, Polish, Serbian, Bulgarian, Ukrainian, Belarusian). No Rusyn speech on Commons.
    Same format as `understand` (reveal translation at the end), real Commons/Lingua Libre recordings only.
 
 24. How Spanish Sounded Through Time (owner, 2026-11-08): Latin (100 AD) -> Vulgar Latin -> Old Spanish

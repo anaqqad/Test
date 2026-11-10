@@ -505,6 +505,75 @@ export const VIDEOS = {
       },
     ],
   },
+  slavic: {
+    title: "Languages Russian Speakers Can Almost Understand", // viewer request (@arpetr3458); audio: build_slavic.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#0039a6",
+    items: [
+      {
+        name: "Czech", wojak: "s_ces", flag: "cz", speakers: "~10 million", scene: "prague", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "brown", glasses: true, outfit: { type: "shirt", color: "#c8b48a", vest: "#c8b48a" }, expression: "smile" },
+        cards: [
+          "Czech is spoken in the Czech Republic. Its famous 'ř' sound is so hard that Czech children are often the last to learn it.",
+          "Czech and Russian have false friends: Czech 'čerstvý' means 'fresh', but Russian 'чёрствый' means 'stale'.",
+          "He read: 'He was a Czech prince, son of Vratislav I and Drahomíra, the younger brother of Saint Wenceslas.' 'Mladší bratr svatého Václava' is Russian 'младший брат святого Вацлава'.",
+        ],
+        audio: { file: "incoming/slavic/Boleslav I.ogg", start: 10.0 },
+      },
+      {
+        name: "Polish", wojak: "s_pol_f", flag: "pl", speakers: "~40 million", scene: "village", loc: null,
+        char: { skin: "light", hair: "long", hairColor: "brown", outfit: { type: "shirt", color: "#c0392b", vest: "#c0392b" }, expression: "smile" },
+        cards: [
+          "Polish is the most spoken West Slavic language, with about 40 million speakers. It is written in the Latin alphabet, not Cyrillic.",
+          "A famous false friend: Polish 'uroda' means 'beauty', but Russian 'урод' means an ugly person.",
+          "She said: 'Hi, my name is Marta and I come from Poland. I have always loved Polish, mainly because it is very difficult and complicated.' 'Język' is Russian 'язык', and 'trudny' is 'трудный'.",
+        ],
+        audio: { file: "incoming/slavic/WIKITONGUES- Marta speaking Polish.wav", start: 0.0 },
+      },
+      {
+        name: "Serbian", wojak: "s_srp_f", flag: "rs", speakers: "~10 million", scene: "hills", loc: null,
+        char: { skin: "light", hair: "long", hairColor: "black", outfit: { type: "shirt", color: "#1f3a68", vest: "#1f3a68" }, expression: "smile" },
+        cards: [
+          "Serbian is the only European language that uses two alphabets every day: Cyrillic and Latin.",
+          "Serbian kept some old Slavic words with no vowel at all: 'krv' is Russian 'кровь', and 'prst' is the old Russian 'перст' (finger).",
+          "She read: 'A sound is the smallest unit of speech. In everyday language, it is the smallest unit written with a letter.' 'Glas' is the old Russian 'глас', but careful: Serbian 'slovo' means 'letter', not 'word'.",
+        ],
+        audio: { file: "incoming/slavic/Glas-.ogg", start: 0.0 },
+      },
+      {
+        name: "Bulgarian", wojak: "s_bul", flag: "bg", speakers: "~8 million", scene: "grassland", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "grey", outfit: { type: "shirt", color: "#555b63", vest: "#555b63" }, expression: "smile" },
+        cards: [
+          "The Cyrillic alphabet that Russian uses today was created in the First Bulgarian Empire, more than 1,000 years ago.",
+          "Bulgarian lost almost all its noun cases and puts 'the' at the end of the word: 'град' is a city, 'градът' is the city.",
+          "He said: 'The word dobrovolets comes from good will: a person who, of their own free will, takes on some work.' Russian has the same word: 'доброволец', from 'добрая воля'.",
+        ],
+        audio: { file: "incoming/slavic/Dobrovolets.ogg", start: 0.6 },
+      },
+      {
+        name: "Ukrainian", wojak: "s_ukr_f", flag: "ua", speakers: "~35 million", scene: "grassland", loc: null,
+        char: { skin: "light", hair: "long", hairColor: "blonde", outfit: { type: "shirt", color: "#e0a526", vest: "#e0a526" }, expression: "smile" },
+        cards: [
+          "Ukrainian shares a lot of grammar with Russian, but many everyday words differ: 'thank you' is 'дякую', not 'спасибо'.",
+          "In vocabulary, Ukrainian is closer to Belarusian and Polish than to Russian.",
+          "She said: 'My name is Vira. I really love translating Wikipedia articles. I think the more information there is in Ukrainian, the better for everyone.' 'Дуже люблю перекладати' is Russian 'очень люблю переводить'.",
+        ],
+        audio: { file: "incoming/slavic/WIKITONGUES- Vira speaking Ukrainian.wav", start: 0.0 },
+      },
+      {
+        name: "Belarusian", wojak: "s_bel", flag: "by", speakers: "~5 million", scene: "forest", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "brown", outfit: { type: "shirt", color: "#f4f1e8", vest: "#f4f1e8" }, expression: "smile" },
+        cards: [
+          "Belarusian is spoken in Belarus, although most people there use Russian in daily life.",
+          "Belarusian spells words the way Russians actually pronounce them: Russian 'молоко' (milk) is Belarusian 'малако'.",
+          "He recited a poem: 'Трэба дома бываць часцей, трэба дома бываць не госцем.' In Russian: 'Надо дома бывать чаще, надо дома бывать не гостем.' You should come home more often, and not as a guest.",
+        ],
+        audio: { file: "incoming/slavic/WIKITONGUES- Uladzislau speaking Belarusian.wav", start: 0.0 },
+      },
+    ],
+  },
   turkic: {
     title: "Languages Turkish Speakers Can Almost Understand", // viewer request (@arpetr3458); audio: build_turkic.py
     layout: "story",
