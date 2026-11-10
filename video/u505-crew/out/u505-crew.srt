@@ -1,0 +1,924 @@
+1
+00:00:00,250 --> 00:00:03,297
+In the summer of 1944, families across
+
+2
+00:00:03,317 --> 00:00:06,190
+Germany got the news that every sailor's
+
+3
+00:00:06,210 --> 00:00:07,017
+family feared.
+
+4
+00:00:07,037 --> 00:00:09,910
+The submarine U five-oh-five was long overdue.
+
+5
+00:00:09,930 --> 00:00:12,803
+Her crew, the German Navy told them,
+
+6
+00:00:12,823 --> 00:00:14,890
+had to be considered dead.
+
+7
+00:00:16,200 --> 00:00:17,690
+They were not dead.
+
+8
+00:00:17,710 --> 00:00:19,577
+Fifty-eight of them were alive,
+
+9
+00:00:19,597 --> 00:00:22,596
+behind American barbed wire in a corner of
+
+10
+00:00:22,616 --> 00:00:24,483
+a prison camp in Louisiana.
+
+11
+00:00:24,503 --> 00:00:27,124
+No letter of theirs left the camp.
+
+12
+00:00:27,144 --> 00:00:30,143
+The Red Cross was not told their names.
+
+13
+00:00:30,163 --> 00:00:33,560
+Their own country had no idea where they were.
+
+14
+00:00:34,775 --> 00:00:37,247
+The rules of war said their families
+
+15
+00:00:37,267 --> 00:00:38,315
+should have known.
+
+16
+00:00:38,335 --> 00:00:41,163
+The United States Navy decided they could not.
+
+17
+00:00:41,183 --> 00:00:43,299
+One American captain had already written
+
+18
+00:00:43,319 --> 00:00:45,079
+down why the secret mattered,
+
+19
+00:00:45,099 --> 00:00:49,015
+in a memo to his men, under the words top secret.
+
+20
+00:00:50,300 --> 00:00:52,746
+This is the documented story of the crew
+
+21
+00:00:52,766 --> 00:00:54,904
+of U five-oh-five, told from the Navy's
+
+22
+00:00:54,924 --> 00:00:56,446
+own reports, from their captain's
+
+23
+00:00:56,466 --> 00:00:58,603
+statement, and from what came out after
+
+24
+00:00:58,623 --> 00:00:59,423
+the war.
+
+25
+00:01:00,950 --> 00:01:03,637
+U five-oh-five was a long-range submarine,
+
+26
+00:01:03,657 --> 00:01:07,170
+commissioned in August 1941.
+
+27
+00:01:07,190 --> 00:01:08,999
+She did not stay lucky.
+
+28
+00:01:09,019 --> 00:01:12,905
+In November 1942, a bomb from an Allied
+
+29
+00:01:12,925 --> 00:01:15,522
+patrol plane nearly sank her in the Caribbean.
+
+30
+00:01:15,542 --> 00:01:17,290
+She limped home to Lorient,
+
+31
+00:01:17,310 --> 00:01:18,110
+in France.
+
+32
+00:01:19,400 --> 00:01:22,500
+After months of repairs she put to sea
+
+33
+00:01:22,520 --> 00:01:24,840
+again, and turned back within days.
+
+34
+00:01:24,860 --> 00:01:26,790
+Then she did it again.
+
+35
+00:01:26,810 --> 00:01:30,300
+Six times in a row she came home early,
+
+36
+00:01:30,320 --> 00:01:32,250
+with one defect after another.
+
+37
+00:01:32,270 --> 00:01:34,980
+Sabotage by French dockyard workers was suspected.
+
+38
+00:01:35,000 --> 00:01:38,120
+Other U-boat crews made a joke of her.
+
+39
+00:01:39,325 --> 00:01:42,625
+In October 1943, near the Azores,
+
+40
+00:01:42,645 --> 00:01:45,025
+two Allied destroyers caught her with
+
+41
+00:01:45,045 --> 00:01:45,825
+depth charges.
+
+42
+00:01:45,845 --> 00:01:47,545
+Her captain, Peter Zschech,
+
+43
+00:01:47,745 --> 00:01:49,607
+shot himself in the control room,
+
+44
+00:01:49,627 --> 00:01:51,176
+in front of his crew.
+
+45
+00:01:51,196 --> 00:01:53,705
+His second in command brought the boat home.
+
+46
+00:01:54,975 --> 00:01:58,890
+In November 1943 she got a new captain,
+
+47
+00:01:58,910 --> 00:02:00,806
+Harald Lange, a reserve officer.
+
+48
+00:02:00,826 --> 00:02:04,602
+By late spring 1944 she was off the coast
+
+49
+00:02:04,622 --> 00:02:06,995
+of West Africa, at the end of a long patrol.
+
+50
+00:02:08,825 --> 00:02:12,178
+The Americans hunting her had an unusual plan.
+
+51
+00:02:12,198 --> 00:02:14,286
+Captain Daniel Gallery commanded Task
+
+52
+00:02:14,306 --> 00:02:15,972
+Group twenty-two point three:
+
+53
+00:02:15,992 --> 00:02:18,501
+the escort carrier Guadalcanal and five
+
+54
+00:02:18,521 --> 00:02:19,344
+destroyer escorts.
+
+55
+00:02:19,364 --> 00:02:22,717
+He did not want to sink a U-boat.
+
+56
+00:02:22,737 --> 00:02:24,845
+He wanted to take one.
+
+57
+00:02:26,100 --> 00:02:28,089
+Before the cruise, Gallery ordered every
+
+58
+00:02:28,109 --> 00:02:31,102
+ship to plan for a capture and to organize
+
+59
+00:02:31,122 --> 00:02:31,771
+boarding parties.
+
+60
+00:02:31,791 --> 00:02:34,784
+The task group's plan of the day for the
+
+61
+00:02:34,804 --> 00:02:37,463
+fourth of June was printed the evening before.
+
+62
+00:02:37,483 --> 00:02:40,476
+It already listed the men who would crew a
+
+63
+00:02:40,496 --> 00:02:41,500
+captured German submarine.
+
+64
+00:02:43,375 --> 00:02:45,440
+At ten past eleven in the morning on the
+
+65
+00:02:45,460 --> 00:02:48,944
+fourth of June, 1944, two days before
+
+66
+00:02:48,964 --> 00:02:50,875
+D-Day, the destroyer escort Chatelain
+
+67
+00:02:50,895 --> 00:02:52,936
+reported a possible sound contact,
+
+68
+00:02:52,956 --> 00:02:56,233
+about a hundred and fifty miles off the
+
+69
+00:02:56,253 --> 00:02:57,881
+coast of West Africa.
+
+70
+00:02:57,901 --> 00:02:59,942
+Six minutes later she fired.
+
+71
+00:02:59,962 --> 00:03:02,827
+Two fighter pilots overhead could see the
+
+72
+00:03:02,847 --> 00:03:04,495
+submarine below the surface.
+
+73
+00:03:05,825 --> 00:03:08,485
+Inside the boat, Lange had seen three
+
+74
+00:03:08,505 --> 00:03:10,782
+destroyers through his periscope and dived.
+
+75
+00:03:10,802 --> 00:03:12,696
+Then came two heavy shocks.
+
+76
+00:03:12,716 --> 00:03:13,845
+Water came in.
+
+77
+00:03:13,865 --> 00:03:16,908
+The lights went out and the rudders jammed.
+
+78
+00:03:16,928 --> 00:03:19,205
+Not knowing how bad it was,
+
+79
+00:03:19,225 --> 00:03:21,905
+he ordered the boat to the surface.
+
+80
+00:03:23,250 --> 00:03:25,050
+She came up eight hundred yards from
+
+81
+00:03:25,070 --> 00:03:27,190
+Chatelain, and the escorts and fighters
+
+82
+00:03:27,210 --> 00:03:27,870
+opened fire.
+
+83
+00:03:27,890 --> 00:03:29,910
+Lange was hit in both legs,
+
+84
+00:03:29,930 --> 00:03:32,970
+and splinters cut his face and his right eye.
+
+85
+00:03:32,990 --> 00:03:36,030
+A blast threw him down onto the main deck.
+
+86
+00:03:36,050 --> 00:03:39,090
+He ordered his men to leave the boat and
+
+87
+00:03:39,110 --> 00:03:40,130
+to sink her.
+
+88
+00:03:41,325 --> 00:03:43,203
+They opened valves and jumped.
+
+89
+00:03:43,223 --> 00:03:45,480
+But the engines were still running,
+
+90
+00:03:45,500 --> 00:03:47,757
+and the empty submarine kept circling.
+
+91
+00:03:47,777 --> 00:03:51,173
+From a life raft, Lange had the men around
+
+92
+00:03:51,193 --> 00:03:54,210
+him give three cheers for their sinking boat.
+
+93
+00:03:54,230 --> 00:03:56,487
+At eleven twenty-seven, the Navy recorded
+
+94
+00:03:56,507 --> 00:03:58,405
+the official time of surrender.
+
+95
+00:04:00,200 --> 00:04:03,145
+A boat from the destroyer escort Pillsbury
+
+96
+00:04:03,165 --> 00:04:03,993
+came alongside.
+
+97
+00:04:04,013 --> 00:04:06,958
+Lieutenant Albert David led eight men onto
+
+98
+00:04:06,978 --> 00:04:08,229
+the circling submarine.
+
+99
+00:04:08,249 --> 00:04:11,618
+One German sailor lay dead on the deck.
+
+100
+00:04:11,638 --> 00:04:14,180
+He was the only man killed.
+
+101
+00:04:15,575 --> 00:04:17,876
+David went down the hatch first,
+
+102
+00:04:17,896 --> 00:04:21,359
+not knowing if the boat was rigged to explode.
+
+103
+00:04:21,379 --> 00:04:24,454
+His men closed a valve that was letting
+
+104
+00:04:24,474 --> 00:04:27,549
+the sea in, and started passing up papers:
+
+105
+00:04:27,569 --> 00:04:30,258
+codebooks, charts, and an Enigma cipher machine.
+
+106
+00:04:30,278 --> 00:04:32,966
+A second boarding party found and disarmed
+
+107
+00:04:32,986 --> 00:04:34,127
+thirteen demolition charges.
+
+108
+00:04:34,147 --> 00:04:36,855
+The fourteenth was only found weeks later.
+
+109
+00:04:38,125 --> 00:04:39,673
+The carrier's chief engineer,
+
+110
+00:04:39,693 --> 00:04:41,704
+Earl Trosino, kept her afloat.
+
+111
+00:04:41,724 --> 00:04:44,175
+He let the turning propellers drive the
+
+112
+00:04:44,195 --> 00:04:45,587
+electric motors as generators,
+
+113
+00:04:45,607 --> 00:04:46,999
+to recharge the batteries,
+
+114
+00:04:47,019 --> 00:04:49,824
+so her own pumps could empty her tanks.
+
+115
+00:04:49,844 --> 00:04:51,942
+The Guadalcanal took her in tow,
+
+116
+00:04:51,962 --> 00:04:54,766
+and on the nineteenth of June she was
+
+117
+00:04:54,786 --> 00:04:55,845
+towed into Bermuda.
+
+118
+00:04:57,275 --> 00:04:59,838
+If you want more prisoner of war stories
+
+119
+00:04:59,858 --> 00:05:02,555
+told from the documents, subscribe to WWII
+
+120
+00:05:02,575 --> 00:05:03,024
+Frontlines.
+
+121
+00:05:03,044 --> 00:05:05,855
+It helps us keep finding them.
+
+122
+00:05:07,475 --> 00:05:09,703
+Now the Navy had a problem.
+
+123
+00:05:09,723 --> 00:05:12,326
+The codebooks were only useful if Germany
+
+124
+00:05:12,346 --> 00:05:15,698
+believed the boat had gone down with all hands.
+
+125
+00:05:15,718 --> 00:05:17,946
+About three thousand American sailors had
+
+126
+00:05:17,966 --> 00:05:18,766
+seen it.
+
+127
+00:05:19,900 --> 00:05:21,424
+On the fourteenth of June,
+
+128
+00:05:21,444 --> 00:05:24,204
+Gallery wrote to every man in the task group.
+
+129
+00:05:24,224 --> 00:05:27,475
+The capture of the U-505 can be one of the
+
+130
+00:05:27,495 --> 00:05:29,623
+major turning points in World War number
+
+131
+00:05:29,643 --> 00:05:31,772
+two provided repeat provided we keep our
+
+132
+00:05:31,792 --> 00:05:33,020
+mouths shut about it.
+
+133
+00:05:34,200 --> 00:05:37,029
+The enemy must not learn of this capture,
+
+134
+00:05:37,049 --> 00:05:37,741
+he wrote.
+
+135
+00:05:37,761 --> 00:05:40,591
+Their friends would read about it one day
+
+136
+00:05:40,611 --> 00:05:42,015
+in the history books.
+
+137
+00:05:42,035 --> 00:05:44,864
+In Bermuda the crews were told to stay
+
+138
+00:05:44,884 --> 00:05:47,357
+silent, and every souvenir was turned in.
+
+139
+00:05:47,377 --> 00:05:49,494
+According to the historian Clay Blair,
+
+140
+00:05:49,514 --> 00:05:52,343
+Admiral Ernest King was so angry at the
+
+141
+00:05:52,363 --> 00:05:54,500
+risk that he considered court-martialling Gallery.
+
+142
+00:05:56,300 --> 00:05:58,468
+The bigger risk was the prisoners.
+
+143
+00:05:58,488 --> 00:06:00,656
+Fifty-eight Germans could tell their navy
+
+144
+00:06:00,676 --> 00:06:02,844
+that the boat had not sunk.
+
+145
+00:06:02,864 --> 00:06:05,761
+One letter home, or one Red Cross visit,
+
+146
+00:06:05,781 --> 00:06:07,240
+could end the secret.
+
+147
+00:06:08,550 --> 00:06:11,450
+In the summer of 1944 they were taken to
+
+148
+00:06:11,470 --> 00:06:13,251
+Camp Ruston, in northern Louisiana.
+
+149
+00:06:13,271 --> 00:06:16,555
+It was a big camp, about seven miles west
+
+150
+00:06:16,575 --> 00:06:19,957
+of the town, built in 1942 on seven
+
+151
+00:06:19,977 --> 00:06:21,450
+hundred and seventy acres.
+
+152
+00:06:21,470 --> 00:06:24,437
+At its peak it held more than four
+
+153
+00:06:24,457 --> 00:06:27,050
+thousand prisoners, the first of them from
+
+154
+00:06:27,070 --> 00:06:28,190
+Rommel's Afrika Korps.
+
+155
+00:06:29,375 --> 00:06:32,333
+The U five-oh-five men did not join them.
+
+156
+00:06:32,353 --> 00:06:35,684
+They were kept in an isolated part of the
+
+157
+00:06:35,704 --> 00:06:37,918
+camp, away from every other prisoner.
+
+158
+00:06:37,938 --> 00:06:40,897
+Their names were withheld from the Red Cross.
+
+159
+00:06:40,917 --> 00:06:43,895
+The letters they tried to send were confiscated.
+
+160
+00:06:45,375 --> 00:06:47,767
+The rules of war said prisoners could
+
+161
+00:06:47,787 --> 00:06:50,524
+write home, and that the Red Cross would
+
+162
+00:06:50,544 --> 00:06:51,902
+know where they were.
+
+163
+00:06:51,922 --> 00:06:54,658
+The National World War Two Museum put the
+
+164
+00:06:54,678 --> 00:06:55,692
+Navy's view plainly.
+
+165
+00:06:55,712 --> 00:06:57,435
+It could take no chances.
+
+166
+00:06:58,825 --> 00:07:00,625
+Around them, other prisoners picked
+
+167
+00:07:00,645 --> 00:07:02,809
+cotton, cut timber and built roads,
+
+168
+00:07:02,829 --> 00:07:04,629
+for pay in camp money.
+
+169
+00:07:04,649 --> 00:07:07,905
+They had an orchestra, a theater and a library.
+
+170
+00:07:07,925 --> 00:07:10,817
+How much of that life the isolated sailors
+
+171
+00:07:10,837 --> 00:07:13,385
+shared, the published record does not say.
+
+172
+00:07:15,050 --> 00:07:18,110
+In Germany, the boat was long overdue.
+
+173
+00:07:18,130 --> 00:07:21,923
+By August 1944, the German Navy had told
+
+174
+00:07:21,943 --> 00:07:24,281
+the families of her crew that their men
+
+175
+00:07:24,301 --> 00:07:25,459
+must be considered dead.
+
+176
+00:07:25,479 --> 00:07:27,817
+For the rest of the war, their families
+
+177
+00:07:27,837 --> 00:07:29,310
+believed them lost at sea.
+
+178
+00:07:30,600 --> 00:07:32,740
+On the eighth of May, 1945,
+
+179
+00:07:32,760 --> 00:07:33,514
+Germany surrendered.
+
+180
+00:07:33,534 --> 00:07:36,224
+Eight days later, the Navy finally told
+
+181
+00:07:36,244 --> 00:07:36,999
+the world.
+
+182
+00:07:37,019 --> 00:07:39,709
+It called the capture the first boarding
+
+183
+00:07:39,729 --> 00:07:42,806
+of a foreign enemy warship on the high
+
+184
+00:07:42,826 --> 00:07:45,167
+seas since 1815.
+
+185
+00:07:45,187 --> 00:07:46,978
+Fifty-eight of the fifty-nine Germans
+
+186
+00:07:46,998 --> 00:07:49,513
+aboard had survived, and were prisoners in
+
+187
+00:07:49,533 --> 00:07:50,620
+the United States.
+
+188
+00:07:51,900 --> 00:07:54,086
+Albert David received the Medal of Honor,
+
+189
+00:07:54,106 --> 00:07:57,238
+the only one given to a Navy man in the
+
+190
+00:07:57,258 --> 00:07:58,499
+Battle of the Atlantic.
+
+191
+00:07:58,519 --> 00:08:01,020
+He died of a heart attack in September
+
+192
+00:08:01,040 --> 00:08:04,112
+1945, before he could receive it.
+
+193
+00:08:04,132 --> 00:08:06,920
+President Truman gave it to his widow.
+
+194
+00:08:08,250 --> 00:08:11,270
+Only after the war did the families learn
+
+195
+00:08:11,290 --> 00:08:12,030
+the truth.
+
+196
+00:08:12,050 --> 00:08:14,830
+The last prisoners left Camp Ruston in
+
+197
+00:08:14,850 --> 00:08:17,350
+February 1946.
+
+198
+00:08:17,370 --> 00:08:19,843
+The crew of U five-oh-five did not get
+
+199
+00:08:19,863 --> 00:08:22,900
+home to Germany until 1947.
+
+200
+00:08:24,000 --> 00:08:26,335
+The Navy kept the submarine.
+
+201
+00:08:26,355 --> 00:08:29,161
+Gallery's brother, a priest in Chicago,
+
+202
+00:08:29,181 --> 00:08:32,458
+contacted the city's Museum of Science and
+
+203
+00:08:32,478 --> 00:08:32,929
+Industry.
+
+204
+00:08:32,949 --> 00:08:36,650
+In 1954 the Navy gave the boat to the
+
+205
+00:08:36,670 --> 00:08:38,599
+museum, and people in Chicago raised two
+
+206
+00:08:38,619 --> 00:08:40,270
+hundred and fifty thousand dollars to
+
+207
+00:08:40,290 --> 00:08:42,240
+bring her in through the Great Lakes.
+
+208
+00:08:43,575 --> 00:08:47,095
+In 1964, twenty years after the capture,
+
+209
+00:08:47,115 --> 00:08:50,695
+Gallery and Lange met at a reunion at the museum.
+
+210
+00:08:50,715 --> 00:08:53,215
+Gallery gave the German captain back his
+
+211
+00:08:53,235 --> 00:08:54,035
+binoculars.
+
+212
+00:08:54,750 --> 00:08:57,390
+For years, the museum told its visitors
+
+213
+00:08:57,410 --> 00:09:00,050
+the crew had been held in Bermuda.
+
+214
+00:09:00,070 --> 00:09:03,105
+In 1998, a researcher brought it
+
+215
+00:09:03,125 --> 00:09:04,519
+declassified National Archives records
+
+216
+00:09:04,539 --> 00:09:06,642
+showing they had been in Louisiana,
+
+217
+00:09:06,662 --> 00:09:08,430
+and the exhibit was corrected.
+
+218
+00:09:09,775 --> 00:09:12,295
+If your family has a story about the Navy
+
+219
+00:09:12,315 --> 00:09:14,271
+in the Atlantic, or about a German
+
+220
+00:09:14,291 --> 00:09:15,964
+prisoner held in the American South,
+
+221
+00:09:15,984 --> 00:09:17,395
+tell us in the comments.
+
+222
+00:09:19,150 --> 00:09:21,868
+In 2004, the museum moved U five-oh-five
+
+223
+00:09:21,888 --> 00:09:24,214
+into a new hall below ground,
+
+224
+00:09:24,234 --> 00:09:27,343
+and she reopened on the fifth of June,
+
+225
+00:09:27,363 --> 00:09:30,863
+2005, sixty-one years and a day after her capture.
+
+226
+00:09:30,883 --> 00:09:33,670
+In Louisiana, two buildings of Camp Ruston
+
+227
+00:09:33,690 --> 00:09:35,654
+are still standing, on the National
+
+228
+00:09:35,674 --> 00:09:36,977
+Register of Historic Places.
+
+229
+00:09:36,997 --> 00:09:39,954
+They are what is left of the camp where
+
+230
+00:09:39,974 --> 00:09:42,269
+fifty-eight men listed as dead waited out
+
+231
+00:09:42,289 --> 00:09:42,950
+the war.
+

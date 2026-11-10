@@ -1,0 +1,28 @@
+{
+ "doc_memo": {
+  "image": "doc_memo.png",
+  "pw": 1440,
+  "ph": 1955,
+  "phrase": "The capture of the U-505 can be one of the major turning points in World War number two provided repeat provided we keep our mouths shut about it.",
+  "rects": [
+   [
+    375,
+    678,
+    995,
+    58
+   ],
+   [
+    35,
+    755,
+    1365,
+    58
+   ],
+   [
+    35,
+    830,
+    945,
+    58
+   ]
+  ]
+ }
+}
