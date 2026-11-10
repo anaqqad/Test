@@ -635,6 +635,8 @@ export const VIDEOS = {
   },
   arabic: {
     title: "Why Arabs Can’t Understand Each Other", // owner's idea 2026-11-10; audio: build_arabic.py; thumbnail: thumb_arabic.mjs
+    introNote: "The answer is at the end!", // owner: say at the start that the answer comes at the end
+    introDur: 4.0,
     layout: "story",
     reveal: true, // translation card only after the clip ends
     counterLabel: "speakers",

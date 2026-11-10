@@ -249,15 +249,16 @@ function titlePage(video, dur, outro = false) {
   <div id="bg" class="abs">${scene("abstract", "title")}</div>
   <div id="logo" class="abs">${logoSvg(110)}</div>
   <div id="t" class="abs">${outro ? "Which language should we cover next?" : esc(video.title)}</div>
-  <div id="p" class="abs">${outro ? "Tell us in the comments 👇" : esc(video.part || "")}</div>
+  <div id="p" class="abs">${outro ? "Tell us in the comments 👇" : esc(video.part || video.introNote || "")}</div>
   <div id="flags" class="abs">${outro ? "" : flags}</div>
   <div id="fade" class="abs"></div>
-  <script>const D=${dur}; const $=(s)=>document.querySelector(s); const e=(x)=>1-Math.pow(1-Math.min(1,Math.max(0,x)),3);
+  <script>const D=${dur}; const NOW=${!outro && video.introNote ? 1 : 0}; // introNote: everything visible from the first frame (owner: the note must show at 0:00)
+  const $=(s)=>document.querySelector(s); const e=(x)=>NOW?1:1-Math.pow(1-Math.min(1,Math.max(0,x)),3);
   const fl=[...document.querySelectorAll('#flags .flag')];
   window.setT=(t)=>{ $('#t').style.transform='scale('+(0.9+0.1*e(t/0.8))+')'; $('#t').style.opacity=e(t/0.5);
     $('#p').style.opacity=e((t-0.5)/0.5); $('#logo').style.opacity=e((t-0.2)/0.5);
     fl.forEach((f,i)=>{const k=e((t-0.7-i*0.07)/0.4); f.style.opacity=k; f.style.transform='translateY('+(1-k)*40+'px)';});
-    $('#fade').style.opacity=Math.max(0,1-t/0.4,(t-(D-0.4))/0.4); };</script></body></html>`;
+    $('#fade').style.opacity=Math.max(0,NOW?0:1-t/0.4,(t-(D-0.4))/0.4); };</script></body></html>`;
 }
 
 export function logoSvg(h = 120, dark = false) {
@@ -330,7 +331,7 @@ async function main() {
   const dir = path.join(CACHE, "clips", vkey);
   fs.mkdirSync(dir, { recursive: true });
   const jobs = [];
-  const INTRO = 3.2, OUTRO = 4.0;
+  const INTRO = video.introDur || 3.2, OUTRO = 4.0; // introNote: optional line under the title (e.g. "The answer is at the end!")
   if (!itemsArg) {
     jobs.push({ name: "intro", dur: INTRO, html: titlePage(video, INTRO) });
   }
