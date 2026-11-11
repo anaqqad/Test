@@ -1,0 +1,313 @@
+{
+ "id": "reel-cathay-williams",
+ "title": "She Joined the Buffalo Soldiers as a Man",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Cathay": "Kathy",
+  "Cathey": "Kathy",
+  "Sheridan": "Sherridan",
+  "Pueblo": "Pweb-lo",
+  "Bayard": "Bye-erd",
+  "Leavenworth": "Leven-worth"
+ },
+ "assets": {
+  "buffA": {
+   "commons": "File:Buffalo soldier, 25th Infantry, Co. A) - Goff LCCN2010645138.jpg"
+  },
+  "keogh": {
+   "commons": "File:Buffalo soldiers of the 25th Infantry, some wearing buffalo robes, Ft. Keogh, Montana) - Chr. Barthelmess, photographer, Fort Keogh, Montana LCCN98501226.jpg"
+  },
+  "jcity": {
+   "commons": "File:\"Breastworks Thrown up for the Defense of Jefferson City, Missouri.\".jpg"
+  },
+  "discharge": {
+   "commons": "File:Cathay Williams' disability discharge document.png"
+  },
+  "pension2": {
+   "commons": "File:Cathay Williams Pension 002.jpg"
+  },
+  "pension3": {
+   "commons": "File:Cathay Williams Pension 003.jpg"
+  },
+  "furuins": {
+   "commons": "File:Fort Union National Monument archaeological ruins (a2df49b4174f49c4971f3c1b0f3a4428).JPG"
+  },
+  "buff1890": {
+   "commons": "File:Buffalo soldiers1.jpg"
+  },
+  "mccook": {
+   "commons": "File:Camp of General Alexander McDowell McCook near Stevenson, Alabama, summer 1862 LCCN2017647000.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Private William Cathay had a secret.",
+   "visual": {
+    "kind": "photo",
+    "image": "discharge",
+    "focus": [
+     0.35,
+     0.3
+    ],
+    "zoom": [
+     1.3,
+     1.4
+    ],
+    "anchor": [
+     0.35,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Private William Cathay *had a secret.*"
+   },
+   "captions": false,
+   "speed": 1.45
+  },
+  {
+   "id": "name",
+   "text": "William Cathay was a woman, Cathay Williams.",
+   "visual": {
+    "kind": "title",
+    "title": "Cathay Williams",
+    "sub": "Buffalo Soldier"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "She was born enslaved in Missouri. In the Civil War, she cooked and washed for the Union army.",
+   "visual": {
+    "kind": "card",
+    "image": "mccook",
+    "caption": "A Union army camp, 1862"
+   }
+  },
+  {
+   "id": "enlist",
+   "text": "In November 1866, women could not enlist. So she enlisted as a man, in the thirty-eighth Infantry, one of the new Black regiments later called the Buffalo Soldiers.",
+   "visual": {
+    "kind": "card",
+    "image": "keogh",
+    "caption": "Buffalo Soldiers of the 25th Infantry"
+   },
+   "section": "story",
+   "overlays": {
+    "stamp": "1866"
+   }
+  },
+  {
+   "id": "why",
+   "text": "Why? I wanted to make my own living, she said, and not be dependent on relations or friends.",
+   "visual": {
+    "kind": "title",
+    "title": "\"I wanted to make my own living.\"",
+    "sub": "Cathay Williams, 1876"
+   }
+  },
+  {
+   "id": "march",
+   "text": "She marched hundreds of miles, to forts in New Mexico. She was in the hospital five times, and no one found out.",
+   "visual": {
+    "kind": "card",
+    "image": "furuins",
+    "caption": "Fort Union, New Mexico"
+   },
+   "section": "twist"
+  },
+  {
+   "id": "found",
+   "text": "In 1868, an army surgeon finally did. She was discharged. The paper still called her he.",
+   "visual": {
+    "kind": "card",
+    "image": "discharge",
+    "caption": "Her discharge, 14 October 1868"
+   }
+  },
+  {
+   "id": "pension",
+   "text": "Years later, old and sick, she applied for a veteran's pension. Her toes had been amputated. She walked with a crutch.",
+   "visual": {
+    "kind": "card",
+    "image": "pension2",
+    "caption": "Her pension file, National Archives"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "denied",
+   "text": "The claim was rejected. No one knows when she died, or where she is buried.",
+   "visual": {
+    "kind": "card",
+    "image": "pension3",
+    "caption": "Her pension file"
+   }
+  },
+  {
+   "id": "end",
+   "text": "She is the only woman known to have served as a Buffalo Soldier.",
+   "visual": {
+    "kind": "photo",
+    "image": "buff1890",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Cathay_Williams"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/people/cwilliams.htm"
+  },
+  "FOUN": {
+   "url": "https://www.nps.gov/foun/learn/historyculture/william-cathay.htm"
+  },
+  "LOA": {
+   "url": "https://www.legendsofamerica.com/cathay-williams/"
+  },
+  "HN": {
+   "url": "https://historynet.com/buffalo-soldier-secret-life-must-hard-conceal/"
+  },
+  "MT": {
+   "url": "https://www.militarytimes.com/military-honor/black-military-history/2018/02/07/this-ex-slave-pretended-to-be-a-man-and-served-in-the-army/"
+  },
+  "KC": {
+   "url": "https://kcblackhistory.org/articles/cathay-williams"
+  },
+  "LKS": {
+   "url": "https://www.leavenworthks.gov/visitors/page/cathay-williams"
+  },
+  "BSW": {
+   "url": "https://en.wikipedia.org/wiki/Buffalo_Soldier"
+  },
+  "STAT": {
+   "url": "https://memory.loc.gov/cgi-bin/ampage?collId=llsl&fileName=014/llsl014.db&recNum=371"
+  },
+  "MIL": {
+   "url": "https://www.military.com/history/cathay-williams-was-armys-only-female-buffalo-soldier-and-first-black-female-enlistee.html"
+  },
+  "BH": {
+   "url": "https://theblackherald.substack.com/p/pvt-cathay-williams"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "See long-form sourcesByClaim e1",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "MT"
+   ]
+  },
+  {
+   "beat": "enlist",
+   "claim": "See long-form sourcesByClaim n6",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "LKS"
+   ]
+  },
+  {
+   "beat": "why",
+   "claim": "See long-form sourcesByClaim n4",
+   "sources": [
+    "FOUN",
+    "HN"
+   ]
+  },
+  {
+   "beat": "march",
+   "claim": "See long-form sourcesByClaim w8",
+   "sources": [
+    "LOA",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "found",
+   "claim": "See long-form sourcesByClaim d3",
+   "sources": [
+    "FOUN",
+    "HN",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "pension",
+   "claim": "See long-form sourcesByClaim p4",
+   "sources": [
+    "WIKI",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "denied",
+   "claim": "See long-form sourcesByClaim p5",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "LOA",
+    "KC"
+   ]
+  },
+  {
+   "beat": "end",
+   "claim": "See long-form sourcesByClaim m5",
+   "sources": [
+    "NPS",
+    "WIKI"
+   ]
+  }
+ ]
+}
