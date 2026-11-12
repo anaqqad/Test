@@ -4,7 +4,7 @@
 Why Arabs Can't Understand Each Other
 
 ## Description
-Moroccans and Algerians understand Egyptians and Syrians. So why can't Egyptians and Syrians understand Moroccans? Listen to six real speakers, from Egypt to Morocco, the answer is at the end (1:55): there are two reasons. Every voice is a real recording, no AI.
+Moroccans and Algerians understand Egyptians and Syrians. So why can't Egyptians and Syrians understand Moroccans? Listen to six real speakers, from Egypt to Morocco. The answer is at the end (1:55), and there are two reasons. Every voice is a real recording, no AI.
 
 Which one could you understand? Tell us where you're from in the comments 👇
 
