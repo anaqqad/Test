@@ -1,0 +1,5820 @@
+{
+ "fps": 30,
+ "durationInFrames": 12759,
+ "voice": "am_michael",
+ "engine": "kokoro-onnx v1.0",
+ "words": 1034,
+ "wpm": 145.9,
+ "beats": [
+  {
+   "id": "h1",
+   "words": [
+    {
+     "text": "On",
+     "start": 0.4,
+     "end": 0.54
+    },
+    {
+     "text": "the",
+     "start": 0.54,
+     "end": 0.62
+    },
+    {
+     "text": "morning",
+     "start": 0.62,
+     "end": 0.82
+    },
+    {
+     "text": "of",
+     "start": 0.82,
+     "end": 1.18
+    },
+    {
+     "text": "June",
+     "start": 1.18,
+     "end": 1.34
+    },
+    {
+     "text": "the",
+     "start": 1.34,
+     "end": 1.82
+    },
+    {
+     "text": "first,",
+     "start": 1.82,
+     "end": 2.3
+    },
+    {
+     "text": "1921,",
+     "start": 2.3,
+     "end": 3.32
+    },
+    {
+     "text": "black",
+     "start": 4.06,
+     "end": 4.12
+    },
+    {
+     "text": "smoke",
+     "start": 4.12,
+     "end": 4.54
+    },
+    {
+     "text": "rose",
+     "start": 4.54,
+     "end": 4.96
+    },
+    {
+     "text": "over",
+     "start": 4.96,
+     "end": 5.28
+    },
+    {
+     "text": "the",
+     "start": 5.28,
+     "end": 5.44
+    },
+    {
+     "text": "north",
+     "start": 5.44,
+     "end": 5.58
+    },
+    {
+     "text": "side",
+     "start": 5.58,
+     "end": 5.94
+    },
+    {
+     "text": "of",
+     "start": 5.94,
+     "end": 6.12
+    },
+    {
+     "text": "Tulsa,",
+     "start": 6.12,
+     "end": 6.42
+    },
+    {
+     "text": "Oklahoma.",
+     "start": 6.96,
+     "end": 7.3
+    }
+   ],
+   "cues": {},
+   "startFrame": 0,
+   "endFrame": 243
+  },
+  {
+   "id": "h2",
+   "words": [
+    {
+     "text": "By",
+     "start": 8.185,
+     "end": 8.305
+    },
+    {
+     "text": "the",
+     "start": 8.305,
+     "end": 8.465
+    },
+    {
+     "text": "afternoon,",
+     "start": 8.465,
+     "end": 8.965
+    },
+    {
+     "text": "a",
+     "start": 9.185,
+     "end": 9.245
+    },
+    {
+     "text": "whole",
+     "start": 9.245,
+     "end": 9.565
+    },
+    {
+     "text": "Black",
+     "start": 9.565,
+     "end": 9.865
+    },
+    {
+     "text": "neighborhood",
+     "start": 9.865,
+     "end": 10.265
+    },
+    {
+     "text": "had",
+     "start": 10.265,
+     "end": 10.505
+    },
+    {
+     "text": "burned.",
+     "start": 10.505,
+     "end": 10.925
+    },
+    {
+     "text": "Homes,",
+     "start": 12.085,
+     "end": 12.085
+    },
+    {
+     "text": "churches,",
+     "start": 12.365,
+     "end": 12.645
+    },
+    {
+     "text": "shops,",
+     "start": 13.125,
+     "end": 13.325
+    },
+    {
+     "text": "and",
+     "start": 13.585,
+     "end": 13.605
+    },
+    {
+     "text": "a",
+     "start": 13.605,
+     "end": 13.705
+    },
+    {
+     "text": "business",
+     "start": 13.705,
+     "end": 14.005
+    },
+    {
+     "text": "district.",
+     "start": 14.005,
+     "end": 14.465
+    }
+   ],
+   "cues": {},
+   "startFrame": 243,
+   "endFrame": 450
+  },
+  {
+   "id": "h3",
+   "words": [
+    {
+     "text": "Its",
+     "start": 15.096,
+     "end": 15.256
+    },
+    {
+     "text": "name",
+     "start": 15.256,
+     "end": 15.596
+    },
+    {
+     "text": "was",
+     "start": 15.596,
+     "end": 15.836
+    },
+    {
+     "text": "Greenwood.",
+     "start": 15.836,
+     "end": 16.375
+    },
+    {
+     "text": "Its",
+     "start": 17.036,
+     "end": 17.096
+    },
+    {
+     "text": "main",
+     "start": 17.096,
+     "end": 17.376
+    },
+    {
+     "text": "street",
+     "start": 17.376,
+     "end": 17.696
+    },
+    {
+     "text": "was",
+     "start": 17.696,
+     "end": 17.956
+    },
+    {
+     "text": "called",
+     "start": 17.956,
+     "end": 18.216
+    },
+    {
+     "text": "the",
+     "start": 18.216,
+     "end": 18.396
+    },
+    {
+     "text": "Negro",
+     "start": 18.396,
+     "end": 18.796
+    },
+    {
+     "text": "Wall",
+     "start": 18.796,
+     "end": 19.115
+    },
+    {
+     "text": "Street.",
+     "start": 19.115,
+     "end": 19.516
+    },
+    {
+     "text": "Today,",
+     "start": 20.075,
+     "end": 20.316
+    },
+    {
+     "text": "we",
+     "start": 20.536,
+     "end": 20.816
+    },
+    {
+     "text": "know",
+     "start": 20.816,
+     "end": 20.996
+    },
+    {
+     "text": "it",
+     "start": 20.996,
+     "end": 21.176
+    },
+    {
+     "text": "as",
+     "start": 21.176,
+     "end": 21.336
+    },
+    {
+     "text": "Black",
+     "start": 21.336,
+     "end": 21.676
+    },
+    {
+     "text": "Wall",
+     "start": 21.676,
+     "end": 21.996
+    },
+    {
+     "text": "Street.",
+     "start": 21.996,
+     "end": 22.336
+    }
+   ],
+   "cues": {},
+   "startFrame": 450,
+   "endFrame": 682
+  },
+  {
+   "id": "h4",
+   "words": [
+    {
+     "text": "What",
+     "start": 22.847,
+     "end": 23.007
+    },
+    {
+     "text": "happened",
+     "start": 23.007,
+     "end": 23.427
+    },
+    {
+     "text": "there",
+     "start": 23.747,
+     "end": 23.927
+    },
+    {
+     "text": "was",
+     "start": 23.927,
+     "end": 24.067
+    },
+    {
+     "text": "left",
+     "start": 24.067,
+     "end": 24.407
+    },
+    {
+     "text": "out",
+     "start": 24.407,
+     "end": 24.687
+    },
+    {
+     "text": "of",
+     "start": 24.687,
+     "end": 24.807
+    },
+    {
+     "text": "the",
+     "start": 24.807,
+     "end": 24.907
+    },
+    {
+     "text": "history",
+     "start": 24.907,
+     "end": 25.207
+    },
+    {
+     "text": "books",
+     "start": 25.207,
+     "end": 25.587
+    },
+    {
+     "text": "for",
+     "start": 25.587,
+     "end": 25.847
+    },
+    {
+     "text": "most",
+     "start": 25.847,
+     "end": 26.087
+    },
+    {
+     "text": "of",
+     "start": 26.087,
+     "end": 26.247
+    },
+    {
+     "text": "a",
+     "start": 26.247,
+     "end": 26.367
+    },
+    {
+     "text": "century.",
+     "start": 26.367,
+     "end": 26.627
+    }
+   ],
+   "cues": {},
+   "startFrame": 682,
+   "endFrame": 818
+  },
+  {
+   "id": "h5",
+   "words": [
+    {
+     "text": "This",
+     "start": 27.382,
+     "end": 27.562
+    },
+    {
+     "text": "is",
+     "start": 27.562,
+     "end": 27.742
+    },
+    {
+     "text": "the",
+     "start": 27.742,
+     "end": 27.942
+    },
+    {
+     "text": "story",
+     "start": 27.942,
+     "end": 28.282
+    },
+    {
+     "text": "of",
+     "start": 28.282,
+     "end": 28.562
+    },
+    {
+     "text": "how",
+     "start": 28.562,
+     "end": 28.782
+    },
+    {
+     "text": "Greenwood",
+     "start": 28.782,
+     "end": 29.222
+    },
+    {
+     "text": "was",
+     "start": 29.222,
+     "end": 29.522
+    },
+    {
+     "text": "built,",
+     "start": 29.522,
+     "end": 29.882
+    },
+    {
+     "text": "how",
+     "start": 30.322,
+     "end": 30.542
+    },
+    {
+     "text": "it",
+     "start": 30.542,
+     "end": 30.662
+    },
+    {
+     "text": "was",
+     "start": 30.662,
+     "end": 30.802
+    },
+    {
+     "text": "destroyed,",
+     "start": 30.802,
+     "end": 31.342
+    },
+    {
+     "text": "and",
+     "start": 31.862,
+     "end": 31.982
+    },
+    {
+     "text": "how",
+     "start": 31.982,
+     "end": 32.202
+    },
+    {
+     "text": "it",
+     "start": 32.202,
+     "end": 32.342
+    },
+    {
+     "text": "was",
+     "start": 32.342,
+     "end": 32.482
+    },
+    {
+     "text": "forgotten.",
+     "start": 32.482,
+     "end": 32.902
+    }
+   ],
+   "cues": {},
+   "startFrame": 818,
+   "endFrame": 1023
+  },
+  {
+   "id": "g0",
+   "words": [
+    {
+     "text": "Chapter",
+     "start": 34.213,
+     "end": 34.513
+    },
+    {
+     "text": "one.",
+     "start": 34.513,
+     "end": 34.914
+    },
+    {
+     "text": "Greenwood.",
+     "start": 34.914,
+     "end": 35.393
+    }
+   ],
+   "cues": {},
+   "startFrame": 1023,
+   "endFrame": 1080
+  },
+  {
+   "id": "g1",
+   "words": [
+    {
+     "text": "In",
+     "start": 36.104,
+     "end": 36.224
+    },
+    {
+     "text": "the",
+     "start": 36.224,
+     "end": 36.364
+    },
+    {
+     "text": "early",
+     "start": 36.364,
+     "end": 36.664
+    },
+    {
+     "text": "1900s,",
+     "start": 36.664,
+     "end": 37.964
+    },
+    {
+     "text": "oil",
+     "start": 38.244,
+     "end": 38.344
+    },
+    {
+     "text": "was",
+     "start": 38.344,
+     "end": 38.564
+    },
+    {
+     "text": "found",
+     "start": 38.564,
+     "end": 38.884
+    },
+    {
+     "text": "near",
+     "start": 38.884,
+     "end": 39.144
+    },
+    {
+     "text": "Tulsa,",
+     "start": 39.144,
+     "end": 39.524
+    },
+    {
+     "text": "and",
+     "start": 39.914,
+     "end": 40.184
+    },
+    {
+     "text": "the",
+     "start": 40.184,
+     "end": 40.284
+    },
+    {
+     "text": "town",
+     "start": 40.284,
+     "end": 40.604
+    },
+    {
+     "text": "became",
+     "start": 40.604,
+     "end": 41.004
+    },
+    {
+     "text": "a",
+     "start": 41.004,
+     "end": 41.204
+    },
+    {
+     "text": "boom",
+     "start": 41.204,
+     "end": 41.404
+    },
+    {
+     "text": "town.",
+     "start": 41.404,
+     "end": 41.824
+    }
+   ],
+   "cues": {},
+   "startFrame": 1080,
+   "endFrame": 1270
+  },
+  {
+   "id": "g2",
+   "words": [
+    {
+     "text": "Money",
+     "start": 42.431,
+     "end": 42.671
+    },
+    {
+     "text": "poured",
+     "start": 42.671,
+     "end": 43.011
+    },
+    {
+     "text": "in,",
+     "start": 43.011,
+     "end": 43.371
+    },
+    {
+     "text": "and",
+     "start": 43.651,
+     "end": 43.731
+    },
+    {
+     "text": "the",
+     "start": 43.731,
+     "end": 43.851
+    },
+    {
+     "text": "city",
+     "start": 43.851,
+     "end": 44.051
+    },
+    {
+     "text": "grew",
+     "start": 44.051,
+     "end": 44.291
+    },
+    {
+     "text": "fast.",
+     "start": 44.291,
+     "end": 44.651
+    }
+   ],
+   "cues": {},
+   "startFrame": 1270,
+   "endFrame": 1358
+  },
+  {
+   "id": "g3",
+   "words": [
+    {
+     "text": "But",
+     "start": 45.366,
+     "end": 45.506
+    },
+    {
+     "text": "Tulsa",
+     "start": 45.506,
+     "end": 45.826
+    },
+    {
+     "text": "was",
+     "start": 45.826,
+     "end": 46.266
+    },
+    {
+     "text": "a",
+     "start": 46.266,
+     "end": 46.426
+    },
+    {
+     "text": "segregated",
+     "start": 46.426,
+     "end": 47.006
+    },
+    {
+     "text": "city.",
+     "start": 47.006,
+     "end": 47.486
+    },
+    {
+     "text": "Black",
+     "start": 48.246,
+     "end": 48.326
+    },
+    {
+     "text": "residents",
+     "start": 48.326,
+     "end": 48.746
+    },
+    {
+     "text": "were",
+     "start": 48.746,
+     "end": 49.066
+    },
+    {
+     "text": "shut",
+     "start": 49.066,
+     "end": 49.326
+    },
+    {
+     "text": "out",
+     "start": 49.326,
+     "end": 49.566
+    },
+    {
+     "text": "of",
+     "start": 49.566,
+     "end": 49.706
+    },
+    {
+     "text": "the",
+     "start": 49.706,
+     "end": 49.846
+    },
+    {
+     "text": "white",
+     "start": 49.846,
+     "end": 50.086
+    },
+    {
+     "text": "part",
+     "start": 50.086,
+     "end": 50.366
+    },
+    {
+     "text": "of",
+     "start": 50.366,
+     "end": 50.506
+    },
+    {
+     "text": "town.",
+     "start": 50.506,
+     "end": 50.806
+    }
+   ],
+   "cues": {},
+   "startFrame": 1358,
+   "endFrame": 1540
+  },
+  {
+   "id": "g4",
+   "words": [
+    {
+     "text": "So",
+     "start": 51.426,
+     "end": 51.586
+    },
+    {
+     "text": "they",
+     "start": 51.586,
+     "end": 51.726
+    },
+    {
+     "text": "built",
+     "start": 51.726,
+     "end": 51.926
+    },
+    {
+     "text": "their",
+     "start": 51.926,
+     "end": 52.166
+    },
+    {
+     "text": "own,",
+     "start": 52.166,
+     "end": 52.586
+    },
+    {
+     "text": "north",
+     "start": 52.926,
+     "end": 53.166
+    },
+    {
+     "text": "of",
+     "start": 53.166,
+     "end": 53.386
+    },
+    {
+     "text": "the",
+     "start": 53.386,
+     "end": 53.506
+    },
+    {
+     "text": "Frisco",
+     "start": 53.506,
+     "end": 53.886
+    },
+    {
+     "text": "railroad",
+     "start": 53.886,
+     "end": 54.306
+    },
+    {
+     "text": "tracks.",
+     "start": 54.306,
+     "end": 54.786
+    }
+   ],
+   "cues": {},
+   "startFrame": 1540,
+   "endFrame": 1662
+  },
+  {
+   "id": "g5",
+   "words": [
+    {
+     "text": "Black",
+     "start": 55.491,
+     "end": 55.731
+    },
+    {
+     "text": "landowners",
+     "start": 55.731,
+     "end": 56.211
+    },
+    {
+     "text": "such",
+     "start": 56.211,
+     "end": 56.551
+    },
+    {
+     "text": "as",
+     "start": 56.551,
+     "end": 56.811
+    },
+    {
+     "text": "O.",
+     "start": 56.811,
+     "end": 57.071
+    },
+    {
+     "text": "W.",
+     "start": 57.071,
+     "end": 57.611
+    },
+    {
+     "text": "Gurley",
+     "start": 57.911,
+     "end": 58.131
+    },
+    {
+     "text": "and",
+     "start": 58.131,
+     "end": 58.331
+    },
+    {
+     "text": "J.",
+     "start": 58.331,
+     "end": 58.591
+    },
+    {
+     "text": "B.",
+     "start": 58.591,
+     "end": 58.971
+    },
+    {
+     "text": "Stradford",
+     "start": 58.971,
+     "end": 60.071
+    },
+    {
+     "text": "bought",
+     "start": 60.071,
+     "end": 60.371
+    },
+    {
+     "text": "land",
+     "start": 60.371,
+     "end": 60.751
+    },
+    {
+     "text": "there,",
+     "start": 60.751,
+     "end": 61.151
+    },
+    {
+     "text": "and",
+     "start": 61.151,
+     "end": 61.591
+    },
+    {
+     "text": "sold",
+     "start": 61.591,
+     "end": 61.891
+    },
+    {
+     "text": "lots",
+     "start": 61.891,
+     "end": 62.271
+    },
+    {
+     "text": "to",
+     "start": 62.271,
+     "end": 62.531
+    },
+    {
+     "text": "other",
+     "start": 62.531,
+     "end": 62.771
+    },
+    {
+     "text": "Black",
+     "start": 62.771,
+     "end": 63.051
+    },
+    {
+     "text": "families.",
+     "start": 63.051,
+     "end": 63.511
+    }
+   ],
+   "cues": {},
+   "startFrame": 1662,
+   "endFrame": 1924
+  },
+  {
+   "id": "g6",
+   "words": [
+    {
+     "text": "Stradford",
+     "start": 64.243,
+     "end": 64.823
+    },
+    {
+     "text": "built",
+     "start": 64.823,
+     "end": 65.103
+    },
+    {
+     "text": "a",
+     "start": 65.103,
+     "end": 65.403
+    },
+    {
+     "text": "modern",
+     "start": 65.403,
+     "end": 65.803
+    },
+    {
+     "text": "brick",
+     "start": 65.803,
+     "end": 66.083
+    },
+    {
+     "text": "hotel",
+     "start": 66.083,
+     "end": 66.583
+    },
+    {
+     "text": "on",
+     "start": 66.583,
+     "end": 66.903
+    },
+    {
+     "text": "Greenwood",
+     "start": 66.903,
+     "end": 67.323
+    },
+    {
+     "text": "Avenue.",
+     "start": 67.323,
+     "end": 67.683
+    }
+   ],
+   "cues": {},
+   "startFrame": 1924,
+   "endFrame": 2047
+  },
+  {
+   "id": "g7",
+   "words": [
+    {
+     "text": "By",
+     "start": 68.335,
+     "end": 68.475
+    },
+    {
+     "text": "1921,",
+     "start": 68.475,
+     "end": 69.375
+    },
+    {
+     "text": "about",
+     "start": 70.175,
+     "end": 70.275
+    },
+    {
+     "text": "ten",
+     "start": 70.275,
+     "end": 70.715
+    },
+    {
+     "text": "thousand",
+     "start": 70.715,
+     "end": 71.155
+    },
+    {
+     "text": "Black",
+     "start": 71.155,
+     "end": 71.375
+    },
+    {
+     "text": "people",
+     "start": 71.375,
+     "end": 71.815
+    },
+    {
+     "text": "lived",
+     "start": 71.815,
+     "end": 72.075
+    },
+    {
+     "text": "in",
+     "start": 72.075,
+     "end": 72.315
+    },
+    {
+     "text": "Greenwood.",
+     "start": 72.315,
+     "end": 72.655
+    }
+   ],
+   "cues": {},
+   "startFrame": 2047,
+   "endFrame": 2198
+  },
+  {
+   "id": "g8",
+   "words": [
+    {
+     "text": "It",
+     "start": 73.374,
+     "end": 73.474
+    },
+    {
+     "text": "had",
+     "start": 73.474,
+     "end": 73.674
+    },
+    {
+     "text": "two",
+     "start": 73.674,
+     "end": 73.934
+    },
+    {
+     "text": "newspapers,",
+     "start": 73.934,
+     "end": 74.494
+    },
+    {
+     "text": "a",
+     "start": 75.094,
+     "end": 75.234
+    },
+    {
+     "text": "public",
+     "start": 75.234,
+     "end": 75.554
+    },
+    {
+     "text": "library",
+     "start": 75.554,
+     "end": 76.034
+    },
+    {
+     "text": "branch,",
+     "start": 76.034,
+     "end": 76.474
+    },
+    {
+     "text": "churches,",
+     "start": 76.834,
+     "end": 77.014
+    },
+    {
+     "text": "and",
+     "start": 77.394,
+     "end": 77.434
+    },
+    {
+     "text": "scores",
+     "start": 77.434,
+     "end": 77.814
+    },
+    {
+     "text": "of",
+     "start": 77.814,
+     "end": 78.034
+    },
+    {
+     "text": "businesses.",
+     "start": 78.034,
+     "end": 78.354
+    }
+   ],
+   "cues": {},
+   "startFrame": 2198,
+   "endFrame": 2373
+  },
+  {
+   "id": "g9",
+   "words": [
+    {
+     "text": "Grocers",
+     "start": 79.192,
+     "end": 79.712
+    },
+    {
+     "text": "and",
+     "start": 79.712,
+     "end": 79.912
+    },
+    {
+     "text": "barbers,",
+     "start": 79.912,
+     "end": 80.492
+    },
+    {
+     "text": "tailors",
+     "start": 80.892,
+     "end": 81.292
+    },
+    {
+     "text": "and",
+     "start": 81.292,
+     "end": 81.412
+    },
+    {
+     "text": "caf\u00e9s,",
+     "start": 81.412,
+     "end": 82.592
+    },
+    {
+     "text": "doctors",
+     "start": 82.592,
+     "end": 82.592
+    },
+    {
+     "text": "and",
+     "start": 82.592,
+     "end": 82.872
+    },
+    {
+     "text": "lawyers.",
+     "start": 82.872,
+     "end": 83.292
+    },
+    {
+     "text": "And",
+     "start": 83.292,
+     "end": 83.689
+    },
+    {
+     "text": "a",
+     "start": 83.689,
+     "end": 84.086
+    },
+    {
+     "text": "movie",
+     "start": 84.086,
+     "end": 84.483
+    },
+    {
+     "text": "theater,",
+     "start": 84.483,
+     "end": 84.88
+    },
+    {
+     "text": "the",
+     "start": 84.88,
+     "end": 85.277
+    },
+    {
+     "text": "Dreamland.",
+     "start": 85.277,
+     "end": 85.674
+    }
+   ],
+   "cues": {},
+   "startFrame": 2373,
+   "endFrame": 2581
+  },
+  {
+   "id": "g10",
+   "words": [
+    {
+     "text": "Booker",
+     "start": 86.124,
+     "end": 86.384
+    },
+    {
+     "text": "T.",
+     "start": 86.384,
+     "end": 86.824
+    },
+    {
+     "text": "Washington",
+     "start": 87.364,
+     "end": 87.884
+    },
+    {
+     "text": "is",
+     "start": 87.884,
+     "end": 88.224
+    },
+    {
+     "text": "said",
+     "start": 88.224,
+     "end": 88.424
+    },
+    {
+     "text": "to",
+     "start": 88.424,
+     "end": 88.584
+    },
+    {
+     "text": "have",
+     "start": 88.584,
+     "end": 88.724
+    },
+    {
+     "text": "called",
+     "start": 88.724,
+     "end": 88.984
+    },
+    {
+     "text": "it",
+     "start": 88.984,
+     "end": 89.164
+    },
+    {
+     "text": "the",
+     "start": 89.164,
+     "end": 89.284
+    },
+    {
+     "text": "Negro",
+     "start": 89.284,
+     "end": 89.664
+    },
+    {
+     "text": "Wall",
+     "start": 89.664,
+     "end": 90.004
+    },
+    {
+     "text": "Street.",
+     "start": 90.004,
+     "end": 90.344
+    }
+   ],
+   "cues": {},
+   "startFrame": 2581,
+   "endFrame": 2723
+  },
+  {
+   "id": "g11",
+   "words": [
+    {
+     "text": "Most",
+     "start": 90.876,
+     "end": 91.076
+    },
+    {
+     "text": "of",
+     "start": 91.076,
+     "end": 91.276
+    },
+    {
+     "text": "its",
+     "start": 91.276,
+     "end": 91.376
+    },
+    {
+     "text": "people",
+     "start": 91.376,
+     "end": 91.756
+    },
+    {
+     "text": "were",
+     "start": 91.756,
+     "end": 92.016
+    },
+    {
+     "text": "working",
+     "start": 92.016,
+     "end": 92.356
+    },
+    {
+     "text": "people.",
+     "start": 92.356,
+     "end": 92.896
+    },
+    {
+     "text": "Many",
+     "start": 93.456,
+     "end": 93.576
+    },
+    {
+     "text": "worked",
+     "start": 93.576,
+     "end": 93.956
+    },
+    {
+     "text": "in",
+     "start": 93.956,
+     "end": 94.156
+    },
+    {
+     "text": "white",
+     "start": 94.156,
+     "end": 94.456
+    },
+    {
+     "text": "homes",
+     "start": 94.456,
+     "end": 94.936
+    },
+    {
+     "text": "and",
+     "start": 94.936,
+     "end": 95.256
+    },
+    {
+     "text": "businesses",
+     "start": 95.256,
+     "end": 95.636
+    },
+    {
+     "text": "across",
+     "start": 95.636,
+     "end": 96.096
+    },
+    {
+     "text": "the",
+     "start": 96.096,
+     "end": 96.356
+    },
+    {
+     "text": "tracks,",
+     "start": 96.356,
+     "end": 96.696
+    },
+    {
+     "text": "and",
+     "start": 96.696,
+     "end": 97.276
+    },
+    {
+     "text": "came",
+     "start": 97.276,
+     "end": 97.496
+    },
+    {
+     "text": "home",
+     "start": 97.496,
+     "end": 97.916
+    },
+    {
+     "text": "to",
+     "start": 97.916,
+     "end": 98.136
+    },
+    {
+     "text": "Greenwood.",
+     "start": 98.136,
+     "end": 98.436
+    }
+   ],
+   "cues": {},
+   "startFrame": 2723,
+   "endFrame": 2972
+  },
+  {
+   "id": "g12",
+   "words": [
+    {
+     "text": "But",
+     "start": 99.182,
+     "end": 99.302
+    },
+    {
+     "text": "what",
+     "start": 99.302,
+     "end": 99.482
+    },
+    {
+     "text": "they",
+     "start": 99.482,
+     "end": 99.642
+    },
+    {
+     "text": "built",
+     "start": 99.642,
+     "end": 99.922
+    },
+    {
+     "text": "there",
+     "start": 99.922,
+     "end": 100.202
+    },
+    {
+     "text": "was",
+     "start": 100.202,
+     "end": 100.362
+    },
+    {
+     "text": "their",
+     "start": 100.362,
+     "end": 100.562
+    },
+    {
+     "text": "own.",
+     "start": 100.562,
+     "end": 100.842
+    }
+   ],
+   "cues": {},
+   "startFrame": 2972,
+   "endFrame": 3057
+  },
+  {
+   "id": "s0",
+   "words": [
+    {
+     "text": "Chapter",
+     "start": 101.998,
+     "end": 102.258
+    },
+    {
+     "text": "two.",
+     "start": 102.258,
+     "end": 102.678
+    },
+    {
+     "text": "The",
+     "start": 102.678,
+     "end": 102.918
+    },
+    {
+     "text": "spark.",
+     "start": 102.918,
+     "end": 103.218
+    }
+   ],
+   "cues": {},
+   "startFrame": 3057,
+   "endFrame": 3115
+  },
+  {
+   "id": "s1",
+   "words": [
+    {
+     "text": "On",
+     "start": 103.942,
+     "end": 104.102
+    },
+    {
+     "text": "Monday,",
+     "start": 104.102,
+     "end": 104.502
+    },
+    {
+     "text": "May",
+     "start": 104.822,
+     "end": 104.942
+    },
+    {
+     "text": "the",
+     "start": 104.942,
+     "end": 105.142
+    },
+    {
+     "text": "thirtieth,",
+     "start": 105.142,
+     "end": 106.102
+    },
+    {
+     "text": "1921,",
+     "start": 106.102,
+     "end": 106.882
+    },
+    {
+     "text": "a",
+     "start": 107.662,
+     "end": 107.762
+    },
+    {
+     "text": "nineteen-year-old",
+     "start": 107.762,
+     "end": 108.882
+    },
+    {
+     "text": "Black",
+     "start": 108.882,
+     "end": 109.222
+    },
+    {
+     "text": "shoe",
+     "start": 109.222,
+     "end": 109.522
+    },
+    {
+     "text": "shiner",
+     "start": 109.522,
+     "end": 110.002
+    },
+    {
+     "text": "named",
+     "start": 110.002,
+     "end": 110.342
+    },
+    {
+     "text": "Dick",
+     "start": 110.342,
+     "end": 110.622
+    },
+    {
+     "text": "Rowland",
+     "start": 110.622,
+     "end": 111.202
+    },
+    {
+     "text": "stepped",
+     "start": 111.202,
+     "end": 111.842
+    },
+    {
+     "text": "into",
+     "start": 111.842,
+     "end": 112.162
+    },
+    {
+     "text": "an",
+     "start": 112.162,
+     "end": 112.322
+    },
+    {
+     "text": "elevator",
+     "start": 112.322,
+     "end": 112.822
+    },
+    {
+     "text": "in",
+     "start": 112.822,
+     "end": 113.122
+    },
+    {
+     "text": "the",
+     "start": 113.122,
+     "end": 113.262
+    },
+    {
+     "text": "Drexel",
+     "start": 113.262,
+     "end": 113.682
+    },
+    {
+     "text": "Building,",
+     "start": 113.682,
+     "end": 114.062
+    },
+    {
+     "text": "downtown.",
+     "start": 114.542,
+     "end": 114.782
+    }
+   ],
+   "cues": {},
+   "startFrame": 3115,
+   "endFrame": 3466
+  },
+  {
+   "id": "s2",
+   "words": [
+    {
+     "text": "The",
+     "start": 115.617,
+     "end": 115.737
+    },
+    {
+     "text": "elevator",
+     "start": 115.737,
+     "end": 116.137
+    },
+    {
+     "text": "operator",
+     "start": 116.137,
+     "end": 116.757
+    },
+    {
+     "text": "was",
+     "start": 116.757,
+     "end": 117.297
+    },
+    {
+     "text": "a",
+     "start": 117.297,
+     "end": 117.497
+    },
+    {
+     "text": "seventeen-year-old",
+     "start": 117.497,
+     "end": 118.577
+    },
+    {
+     "text": "white",
+     "start": 118.577,
+     "end": 118.857
+    },
+    {
+     "text": "woman",
+     "start": 118.857,
+     "end": 119.237
+    },
+    {
+     "text": "named",
+     "start": 119.237,
+     "end": 119.617
+    },
+    {
+     "text": "Sarah",
+     "start": 119.617,
+     "end": 119.977
+    },
+    {
+     "text": "Page.",
+     "start": 119.977,
+     "end": 120.297
+    }
+   ],
+   "cues": {},
+   "startFrame": 3466,
+   "endFrame": 3631
+  },
+  {
+   "id": "s3",
+   "words": [
+    {
+     "text": "Something",
+     "start": 121.122,
+     "end": 121.522
+    },
+    {
+     "text": "happened",
+     "start": 121.522,
+     "end": 121.862
+    },
+    {
+     "text": "in",
+     "start": 121.862,
+     "end": 122.222
+    },
+    {
+     "text": "that",
+     "start": 122.222,
+     "end": 122.402
+    },
+    {
+     "text": "elevator.",
+     "start": 122.402,
+     "end": 122.902
+    },
+    {
+     "text": "Most",
+     "start": 123.622,
+     "end": 123.762
+    },
+    {
+     "text": "likely,",
+     "start": 123.762,
+     "end": 124.102
+    },
+    {
+     "text": "he",
+     "start": 124.102,
+     "end": 124.422
+    },
+    {
+     "text": "stepped",
+     "start": 124.422,
+     "end": 124.662
+    },
+    {
+     "text": "on",
+     "start": 124.662,
+     "end": 124.882
+    },
+    {
+     "text": "her",
+     "start": 124.882,
+     "end": 124.982
+    },
+    {
+     "text": "foot,",
+     "start": 124.982,
+     "end": 125.302
+    },
+    {
+     "text": "or",
+     "start": 125.302,
+     "end": 125.542
+    },
+    {
+     "text": "stumbled.",
+     "start": 125.542,
+     "end": 126.002
+    },
+    {
+     "text": "She",
+     "start": 126.662,
+     "end": 126.762
+    },
+    {
+     "text": "cried",
+     "start": 126.762,
+     "end": 127.002
+    },
+    {
+     "text": "out,",
+     "start": 127.002,
+     "end": 127.342
+    },
+    {
+     "text": "and",
+     "start": 127.342,
+     "end": 127.502
+    },
+    {
+     "text": "he",
+     "start": 127.502,
+     "end": 127.642
+    },
+    {
+     "text": "ran.",
+     "start": 127.642,
+     "end": 127.902
+    }
+   ],
+   "cues": {},
+   "startFrame": 3631,
+   "endFrame": 3853
+  },
+  {
+   "id": "s4",
+   "words": [
+    {
+     "text": "The",
+     "start": 128.539,
+     "end": 128.659
+    },
+    {
+     "text": "next",
+     "start": 128.659,
+     "end": 128.879
+    },
+    {
+     "text": "morning,",
+     "start": 128.879,
+     "end": 129.399
+    },
+    {
+     "text": "Rowland",
+     "start": 129.399,
+     "end": 130.019
+    },
+    {
+     "text": "was",
+     "start": 130.019,
+     "end": 130.339
+    },
+    {
+     "text": "arrested.",
+     "start": 130.339,
+     "end": 130.699
+    }
+   ],
+   "cues": {},
+   "startFrame": 3853,
+   "endFrame": 3939
+  },
+  {
+   "id": "s5",
+   "words": [
+    {
+     "text": "That",
+     "start": 131.407,
+     "end": 131.567
+    },
+    {
+     "text": "afternoon,",
+     "start": 131.567,
+     "end": 132.127
+    },
+    {
+     "text": "the",
+     "start": 132.607,
+     "end": 132.687
+    },
+    {
+     "text": "Tulsa",
+     "start": 132.687,
+     "end": 132.967
+    },
+    {
+     "text": "Tribune",
+     "start": 132.967,
+     "end": 133.427
+    },
+    {
+     "text": "ran",
+     "start": 133.427,
+     "end": 133.727
+    },
+    {
+     "text": "a",
+     "start": 133.727,
+     "end": 133.887
+    },
+    {
+     "text": "story",
+     "start": 133.887,
+     "end": 134.207
+    },
+    {
+     "text": "on",
+     "start": 134.207,
+     "end": 134.467
+    },
+    {
+     "text": "its",
+     "start": 134.467,
+     "end": 134.587
+    },
+    {
+     "text": "front",
+     "start": 134.587,
+     "end": 134.827
+    },
+    {
+     "text": "page.",
+     "start": 134.827,
+     "end": 135.407
+    },
+    {
+     "text": "Nab",
+     "start": 136.207,
+     "end": 136.287
+    },
+    {
+     "text": "Negro",
+     "start": 136.287,
+     "end": 136.807
+    },
+    {
+     "text": "for",
+     "start": 136.807,
+     "end": 137.107
+    },
+    {
+     "text": "Attacking",
+     "start": 137.107,
+     "end": 137.527
+    },
+    {
+     "text": "Girl",
+     "start": 137.527,
+     "end": 137.967
+    },
+    {
+     "text": "In",
+     "start": 137.967,
+     "end": 138.207
+    },
+    {
+     "text": "an",
+     "start": 138.207,
+     "end": 138.327
+    },
+    {
+     "text": "Elevator.",
+     "start": 138.327,
+     "end": 138.647
+    }
+   ],
+   "cues": {},
+   "startFrame": 3939,
+   "endFrame": 4179
+  },
+  {
+   "id": "s6",
+   "words": [
+    {
+     "text": "Some",
+     "start": 139.416,
+     "end": 139.656
+    },
+    {
+     "text": "people",
+     "start": 139.656,
+     "end": 139.996
+    },
+    {
+     "text": "also",
+     "start": 139.996,
+     "end": 140.476
+    },
+    {
+     "text": "remembered",
+     "start": 140.476,
+     "end": 140.976
+    },
+    {
+     "text": "an",
+     "start": 140.976,
+     "end": 141.196
+    },
+    {
+     "text": "editorial",
+     "start": 141.196,
+     "end": 141.756
+    },
+    {
+     "text": "in",
+     "start": 141.756,
+     "end": 142.096
+    },
+    {
+     "text": "the",
+     "start": 142.096,
+     "end": 142.216
+    },
+    {
+     "text": "same",
+     "start": 142.216,
+     "end": 142.476
+    },
+    {
+     "text": "paper,",
+     "start": 142.476,
+     "end": 143.016
+    },
+    {
+     "text": "headlined",
+     "start": 143.576,
+     "end": 143.796
+    },
+    {
+     "text": "To",
+     "start": 143.796,
+     "end": 144.136
+    },
+    {
+     "text": "Lynch",
+     "start": 144.136,
+     "end": 144.316
+    },
+    {
+     "text": "Negro",
+     "start": 144.316,
+     "end": 144.756
+    },
+    {
+     "text": "Tonight.",
+     "start": 144.756,
+     "end": 145.076
+    }
+   ],
+   "cues": {},
+   "startFrame": 4179,
+   "endFrame": 4366
+  },
+  {
+   "id": "s7",
+   "words": [
+    {
+     "text": "No",
+     "start": 145.647,
+     "end": 145.887
+    },
+    {
+     "text": "copy",
+     "start": 145.887,
+     "end": 146.267
+    },
+    {
+     "text": "of",
+     "start": 146.267,
+     "end": 146.507
+    },
+    {
+     "text": "it",
+     "start": 146.507,
+     "end": 146.647
+    },
+    {
+     "text": "has",
+     "start": 146.647,
+     "end": 146.807
+    },
+    {
+     "text": "ever",
+     "start": 146.807,
+     "end": 147.107
+    },
+    {
+     "text": "been",
+     "start": 147.107,
+     "end": 147.287
+    },
+    {
+     "text": "found.",
+     "start": 147.287,
+     "end": 147.727
+    },
+    {
+     "text": "The",
+     "start": 148.247,
+     "end": 148.467
+    },
+    {
+     "text": "page",
+     "start": 148.467,
+     "end": 148.867
+    },
+    {
+     "text": "is",
+     "start": 148.867,
+     "end": 149.107
+    },
+    {
+     "text": "missing",
+     "start": 149.107,
+     "end": 149.507
+    },
+    {
+     "text": "from",
+     "start": 149.507,
+     "end": 149.787
+    },
+    {
+     "text": "the",
+     "start": 149.787,
+     "end": 149.947
+    },
+    {
+     "text": "archived",
+     "start": 149.947,
+     "end": 150.487
+    },
+    {
+     "text": "copies",
+     "start": 150.487,
+     "end": 150.987
+    },
+    {
+     "text": "of",
+     "start": 150.987,
+     "end": 151.207
+    },
+    {
+     "text": "the",
+     "start": 151.207,
+     "end": 151.327
+    },
+    {
+     "text": "paper.",
+     "start": 151.327,
+     "end": 151.567
+    }
+   ],
+   "cues": {},
+   "startFrame": 4366,
+   "endFrame": 4564
+  },
+  {
+   "id": "s8",
+   "words": [
+    {
+     "text": "Either",
+     "start": 152.237,
+     "end": 152.477
+    },
+    {
+     "text": "way,",
+     "start": 152.477,
+     "end": 152.757
+    },
+    {
+     "text": "word",
+     "start": 152.957,
+     "end": 153.057
+    },
+    {
+     "text": "spread",
+     "start": 153.057,
+     "end": 153.357
+    },
+    {
+     "text": "fast.",
+     "start": 153.357,
+     "end": 153.737
+    }
+   ],
+   "cues": {},
+   "startFrame": 4564,
+   "endFrame": 4647
+  },
+  {
+   "id": "n0",
+   "words": [
+    {
+     "text": "Chapter",
+     "start": 154.995,
+     "end": 155.275
+    },
+    {
+     "text": "three.",
+     "start": 155.275,
+     "end": 155.915
+    },
+    {
+     "text": "The",
+     "start": 155.915,
+     "end": 155.915
+    },
+    {
+     "text": "night.",
+     "start": 155.915,
+     "end": 156.135
+    }
+   ],
+   "cues": {},
+   "startFrame": 4647,
+   "endFrame": 4698
+  },
+  {
+   "id": "n1",
+   "words": [
+    {
+     "text": "By",
+     "start": 156.7,
+     "end": 156.84
+    },
+    {
+     "text": "the",
+     "start": 156.84,
+     "end": 157.0
+    },
+    {
+     "text": "evening,",
+     "start": 157.0,
+     "end": 157.42
+    },
+    {
+     "text": "hundreds",
+     "start": 157.88,
+     "end": 158.14
+    },
+    {
+     "text": "of",
+     "start": 158.14,
+     "end": 158.36
+    },
+    {
+     "text": "white",
+     "start": 158.36,
+     "end": 158.6
+    },
+    {
+     "text": "people",
+     "start": 158.6,
+     "end": 159.0
+    },
+    {
+     "text": "had",
+     "start": 159.0,
+     "end": 159.2
+    },
+    {
+     "text": "gathered",
+     "start": 159.2,
+     "end": 159.6
+    },
+    {
+     "text": "outside",
+     "start": 159.6,
+     "end": 160.04
+    },
+    {
+     "text": "the",
+     "start": 160.04,
+     "end": 160.28
+    },
+    {
+     "text": "courthouse,",
+     "start": 160.28,
+     "end": 160.72
+    },
+    {
+     "text": "where",
+     "start": 161.3,
+     "end": 161.52
+    },
+    {
+     "text": "Rowland",
+     "start": 161.52,
+     "end": 161.92
+    },
+    {
+     "text": "was",
+     "start": 161.92,
+     "end": 162.22
+    },
+    {
+     "text": "held.",
+     "start": 162.22,
+     "end": 162.56
+    }
+   ],
+   "cues": {},
+   "startFrame": 4698,
+   "endFrame": 4894
+  },
+  {
+   "id": "n2",
+   "words": [
+    {
+     "text": "The",
+     "start": 163.22,
+     "end": 163.38
+    },
+    {
+     "text": "sheriff",
+     "start": 163.38,
+     "end": 163.7
+    },
+    {
+     "text": "refused",
+     "start": 163.7,
+     "end": 164.2
+    },
+    {
+     "text": "to",
+     "start": 164.2,
+     "end": 164.5
+    },
+    {
+     "text": "hand",
+     "start": 164.5,
+     "end": 164.72
+    },
+    {
+     "text": "him",
+     "start": 164.72,
+     "end": 164.9
+    },
+    {
+     "text": "over.",
+     "start": 164.9,
+     "end": 165.14
+    }
+   ],
+   "cues": {},
+   "startFrame": 4894,
+   "endFrame": 4969
+  },
+  {
+   "id": "n3",
+   "words": [
+    {
+     "text": "In",
+     "start": 165.725,
+     "end": 165.865
+    },
+    {
+     "text": "Greenwood,",
+     "start": 165.865,
+     "end": 166.265
+    },
+    {
+     "text": "people",
+     "start": 166.585,
+     "end": 166.725
+    },
+    {
+     "text": "feared",
+     "start": 166.725,
+     "end": 167.125
+    },
+    {
+     "text": "a",
+     "start": 167.125,
+     "end": 167.265
+    },
+    {
+     "text": "lynching.",
+     "start": 167.265,
+     "end": 167.765
+    },
+    {
+     "text": "Around",
+     "start": 168.505,
+     "end": 168.725
+    },
+    {
+     "text": "nine,",
+     "start": 168.725,
+     "end": 169.205
+    },
+    {
+     "text": "about",
+     "start": 169.685,
+     "end": 169.825
+    },
+    {
+     "text": "twenty-five",
+     "start": 169.825,
+     "end": 170.305
+    },
+    {
+     "text": "armed",
+     "start": 170.305,
+     "end": 171.085
+    },
+    {
+     "text": "Black",
+     "start": 171.085,
+     "end": 171.425
+    },
+    {
+     "text": "men,",
+     "start": 171.425,
+     "end": 171.825
+    },
+    {
+     "text": "many",
+     "start": 172.285,
+     "end": 172.465
+    },
+    {
+     "text": "of",
+     "start": 172.465,
+     "end": 172.605
+    },
+    {
+     "text": "them",
+     "start": 172.605,
+     "end": 172.805
+    },
+    {
+     "text": "veterans",
+     "start": 172.805,
+     "end": 173.165
+    },
+    {
+     "text": "of",
+     "start": 173.165,
+     "end": 173.465
+    },
+    {
+     "text": "the",
+     "start": 173.465,
+     "end": 173.605
+    },
+    {
+     "text": "First",
+     "start": 173.605,
+     "end": 173.845
+    },
+    {
+     "text": "World",
+     "start": 173.845,
+     "end": 174.205
+    },
+    {
+     "text": "War,",
+     "start": 174.205,
+     "end": 174.665
+    },
+    {
+     "text": "went",
+     "start": 175.025,
+     "end": 175.225
+    },
+    {
+     "text": "to",
+     "start": 175.225,
+     "end": 175.385
+    },
+    {
+     "text": "the",
+     "start": 175.385,
+     "end": 175.525
+    },
+    {
+     "text": "courthouse",
+     "start": 175.525,
+     "end": 175.805
+    },
+    {
+     "text": "to",
+     "start": 175.805,
+     "end": 176.245
+    },
+    {
+     "text": "offer",
+     "start": 176.245,
+     "end": 176.545
+    },
+    {
+     "text": "help.",
+     "start": 176.545,
+     "end": 176.865
+    }
+   ],
+   "cues": {},
+   "startFrame": 4969,
+   "endFrame": 5321
+  },
+  {
+   "id": "n4",
+   "words": [
+    {
+     "text": "They",
+     "start": 177.476,
+     "end": 177.596
+    },
+    {
+     "text": "were",
+     "start": 177.596,
+     "end": 177.696
+    },
+    {
+     "text": "told",
+     "start": 177.696,
+     "end": 177.916
+    },
+    {
+     "text": "they",
+     "start": 177.916,
+     "end": 178.176
+    },
+    {
+     "text": "were",
+     "start": 178.176,
+     "end": 178.256
+    },
+    {
+     "text": "not",
+     "start": 178.256,
+     "end": 178.476
+    },
+    {
+     "text": "needed,",
+     "start": 178.476,
+     "end": 178.936
+    },
+    {
+     "text": "and",
+     "start": 179.316,
+     "end": 179.496
+    },
+    {
+     "text": "they",
+     "start": 179.496,
+     "end": 179.636
+    },
+    {
+     "text": "went",
+     "start": 179.636,
+     "end": 179.816
+    },
+    {
+     "text": "home.",
+     "start": 179.816,
+     "end": 180.176
+    }
+   ],
+   "cues": {},
+   "startFrame": 5321,
+   "endFrame": 5421
+  },
+  {
+   "id": "n5",
+   "words": [
+    {
+     "text": "Around",
+     "start": 180.812,
+     "end": 181.132
+    },
+    {
+     "text": "ten,",
+     "start": 181.132,
+     "end": 181.952
+    },
+    {
+     "text": "about",
+     "start": 181.952,
+     "end": 182.072
+    },
+    {
+     "text": "seventy-five",
+     "start": 182.072,
+     "end": 182.652
+    },
+    {
+     "text": "came",
+     "start": 182.652,
+     "end": 183.092
+    },
+    {
+     "text": "back.",
+     "start": 183.092,
+     "end": 183.512
+    },
+    {
+     "text": "By",
+     "start": 184.192,
+     "end": 184.272
+    },
+    {
+     "text": "then,",
+     "start": 184.272,
+     "end": 184.592
+    },
+    {
+     "text": "the",
+     "start": 184.792,
+     "end": 184.872
+    },
+    {
+     "text": "white",
+     "start": 184.872,
+     "end": 185.132
+    },
+    {
+     "text": "crowd",
+     "start": 185.132,
+     "end": 185.592
+    },
+    {
+     "text": "had",
+     "start": 185.592,
+     "end": 185.792
+    },
+    {
+     "text": "grown",
+     "start": 185.792,
+     "end": 186.032
+    },
+    {
+     "text": "to",
+     "start": 186.032,
+     "end": 186.292
+    },
+    {
+     "text": "about",
+     "start": 186.292,
+     "end": 186.552
+    },
+    {
+     "text": "fifteen",
+     "start": 186.552,
+     "end": 187.079
+    },
+    {
+     "text": "hundred.",
+     "start": 187.079,
+     "end": 187.606
+    }
+   ],
+   "cues": {},
+   "startFrame": 5421,
+   "endFrame": 5639
+  },
+  {
+   "id": "n6",
+   "words": [
+    {
+     "text": "A",
+     "start": 188.056,
+     "end": 188.196
+    },
+    {
+     "text": "white",
+     "start": 188.196,
+     "end": 188.396
+    },
+    {
+     "text": "man",
+     "start": 188.396,
+     "end": 188.796
+    },
+    {
+     "text": "tried",
+     "start": 188.796,
+     "end": 189.076
+    },
+    {
+     "text": "to",
+     "start": 189.076,
+     "end": 189.236
+    },
+    {
+     "text": "take",
+     "start": 189.236,
+     "end": 189.436
+    },
+    {
+     "text": "a",
+     "start": 189.436,
+     "end": 189.576
+    },
+    {
+     "text": "pistol",
+     "start": 189.576,
+     "end": 189.876
+    },
+    {
+     "text": "from",
+     "start": 189.876,
+     "end": 190.096
+    },
+    {
+     "text": "a",
+     "start": 190.096,
+     "end": 190.236
+    },
+    {
+     "text": "Black",
+     "start": 190.236,
+     "end": 190.416
+    },
+    {
+     "text": "veteran.",
+     "start": 190.416,
+     "end": 190.896
+    },
+    {
+     "text": "A",
+     "start": 191.416,
+     "end": 191.536
+    },
+    {
+     "text": "shot",
+     "start": 191.536,
+     "end": 191.776
+    },
+    {
+     "text": "went",
+     "start": 191.776,
+     "end": 192.016
+    },
+    {
+     "text": "off.",
+     "start": 192.016,
+     "end": 192.316
+    }
+   ],
+   "cues": {},
+   "startFrame": 5639,
+   "endFrame": 5785
+  },
+  {
+   "id": "n7",
+   "words": [
+    {
+     "text": "Then",
+     "start": 192.924,
+     "end": 193.144
+    },
+    {
+     "text": "the",
+     "start": 193.144,
+     "end": 193.304
+    },
+    {
+     "text": "shooting",
+     "start": 193.304,
+     "end": 193.644
+    },
+    {
+     "text": "began.",
+     "start": 193.644,
+     "end": 194.124
+    }
+   ],
+   "cues": {},
+   "startFrame": 5785,
+   "endFrame": 5839
+  },
+  {
+   "id": "n8",
+   "words": [
+    {
+     "text": "Outnumbered,",
+     "start": 194.723,
+     "end": 195.243
+    },
+    {
+     "text": "the",
+     "start": 195.443,
+     "end": 195.543
+    },
+    {
+     "text": "Black",
+     "start": 195.543,
+     "end": 195.743
+    },
+    {
+     "text": "men",
+     "start": 195.743,
+     "end": 196.023
+    },
+    {
+     "text": "fell",
+     "start": 196.023,
+     "end": 196.283
+    },
+    {
+     "text": "back",
+     "start": 196.283,
+     "end": 196.583
+    },
+    {
+     "text": "toward",
+     "start": 196.583,
+     "end": 196.883
+    },
+    {
+     "text": "Greenwood.",
+     "start": 196.883,
+     "end": 197.383
+    },
+    {
+     "text": "Fighting",
+     "start": 198.203,
+     "end": 198.343
+    },
+    {
+     "text": "spread",
+     "start": 198.343,
+     "end": 198.763
+    },
+    {
+     "text": "along",
+     "start": 198.763,
+     "end": 199.083
+    },
+    {
+     "text": "the",
+     "start": 199.083,
+     "end": 199.283
+    },
+    {
+     "text": "Frisco",
+     "start": 199.283,
+     "end": 199.623
+    },
+    {
+     "text": "tracks.",
+     "start": 199.623,
+     "end": 200.003
+    }
+   ],
+   "cues": {},
+   "startFrame": 5839,
+   "endFrame": 6019
+  },
+  {
+   "id": "n9",
+   "words": [
+    {
+     "text": "The",
+     "start": 200.721,
+     "end": 200.861
+    },
+    {
+     "text": "police",
+     "start": 200.861,
+     "end": 201.161
+    },
+    {
+     "text": "deputized",
+     "start": 201.161,
+     "end": 202.001
+    },
+    {
+     "text": "white",
+     "start": 202.001,
+     "end": 202.321
+    },
+    {
+     "text": "men",
+     "start": 202.321,
+     "end": 202.621
+    },
+    {
+     "text": "from",
+     "start": 202.621,
+     "end": 202.841
+    },
+    {
+     "text": "the",
+     "start": 202.841,
+     "end": 203.001
+    },
+    {
+     "text": "crowd.",
+     "start": 203.001,
+     "end": 203.281
+    }
+   ],
+   "cues": {},
+   "startFrame": 6019,
+   "endFrame": 6116
+  },
+  {
+   "id": "n10",
+   "words": [
+    {
+     "text": "By",
+     "start": 203.956,
+     "end": 204.096
+    },
+    {
+     "text": "midnight,",
+     "start": 204.096,
+     "end": 204.496
+    },
+    {
+     "text": "the",
+     "start": 204.896,
+     "end": 204.936
+    },
+    {
+     "text": "first",
+     "start": 204.936,
+     "end": 205.236
+    },
+    {
+     "text": "fires",
+     "start": 205.236,
+     "end": 205.736
+    },
+    {
+     "text": "were",
+     "start": 205.736,
+     "end": 205.996
+    },
+    {
+     "text": "burning",
+     "start": 205.996,
+     "end": 206.296
+    },
+    {
+     "text": "at",
+     "start": 206.296,
+     "end": 206.516
+    },
+    {
+     "text": "the",
+     "start": 206.516,
+     "end": 206.616
+    },
+    {
+     "text": "edge",
+     "start": 206.616,
+     "end": 206.836
+    },
+    {
+     "text": "of",
+     "start": 206.836,
+     "end": 207.016
+    },
+    {
+     "text": "Greenwood.",
+     "start": 207.016,
+     "end": 207.316
+    }
+   ],
+   "cues": {},
+   "startFrame": 6116,
+   "endFrame": 6253
+  },
+  {
+   "id": "m0",
+   "words": [
+    {
+     "text": "Chapter",
+     "start": 208.536,
+     "end": 208.836
+    },
+    {
+     "text": "four.",
+     "start": 208.836,
+     "end": 209.316
+    },
+    {
+     "text": "The",
+     "start": 209.316,
+     "end": 209.556
+    },
+    {
+     "text": "morning.",
+     "start": 209.556,
+     "end": 209.816
+    }
+   ],
+   "cues": {},
+   "startFrame": 6253,
+   "endFrame": 6313
+  },
+  {
+   "id": "m1",
+   "words": [
+    {
+     "text": "Through",
+     "start": 210.517,
+     "end": 210.717
+    },
+    {
+     "text": "the",
+     "start": 210.717,
+     "end": 210.857
+    },
+    {
+     "text": "night,",
+     "start": 210.857,
+     "end": 211.217
+    },
+    {
+     "text": "thousands",
+     "start": 211.697,
+     "end": 211.997
+    },
+    {
+     "text": "of",
+     "start": 211.997,
+     "end": 212.237
+    },
+    {
+     "text": "armed",
+     "start": 212.237,
+     "end": 212.577
+    },
+    {
+     "text": "white",
+     "start": 212.577,
+     "end": 212.877
+    },
+    {
+     "text": "men",
+     "start": 212.877,
+     "end": 213.237
+    },
+    {
+     "text": "gathered",
+     "start": 213.237,
+     "end": 213.677
+    },
+    {
+     "text": "along",
+     "start": 213.677,
+     "end": 214.057
+    },
+    {
+     "text": "the",
+     "start": 214.057,
+     "end": 214.237
+    },
+    {
+     "text": "edge",
+     "start": 214.237,
+     "end": 214.477
+    },
+    {
+     "text": "of",
+     "start": 214.477,
+     "end": 214.657
+    },
+    {
+     "text": "Greenwood.",
+     "start": 214.657,
+     "end": 214.937
+    }
+   ],
+   "cues": {},
+   "startFrame": 6313,
+   "endFrame": 6468
+  },
+  {
+   "id": "m2",
+   "words": [
+    {
+     "text": "At",
+     "start": 215.689,
+     "end": 215.829
+    },
+    {
+     "text": "about",
+     "start": 215.829,
+     "end": 216.029
+    },
+    {
+     "text": "five",
+     "start": 216.029,
+     "end": 216.389
+    },
+    {
+     "text": "in",
+     "start": 216.389,
+     "end": 216.549
+    },
+    {
+     "text": "the",
+     "start": 216.549,
+     "end": 216.649
+    },
+    {
+     "text": "morning,",
+     "start": 216.649,
+     "end": 217.009
+    },
+    {
+     "text": "a",
+     "start": 217.429,
+     "end": 217.449
+    },
+    {
+     "text": "whistle",
+     "start": 217.449,
+     "end": 217.709
+    },
+    {
+     "text": "sounded.",
+     "start": 217.709,
+     "end": 218.209
+    }
+   ],
+   "cues": {},
+   "startFrame": 6468,
+   "endFrame": 6562
+  },
+  {
+   "id": "m3",
+   "words": [
+    {
+     "text": "And",
+     "start": 218.833,
+     "end": 218.993
+    },
+    {
+     "text": "they",
+     "start": 218.993,
+     "end": 219.113
+    },
+    {
+     "text": "crossed",
+     "start": 219.113,
+     "end": 219.373
+    },
+    {
+     "text": "the",
+     "start": 219.373,
+     "end": 219.593
+    },
+    {
+     "text": "tracks.",
+     "start": 219.593,
+     "end": 219.913
+    }
+   ],
+   "cues": {},
+   "startFrame": 6562,
+   "endFrame": 6615
+  },
+  {
+   "id": "m4",
+   "words": [
+    {
+     "text": "They",
+     "start": 220.599,
+     "end": 220.719
+    },
+    {
+     "text": "went",
+     "start": 220.719,
+     "end": 220.879
+    },
+    {
+     "text": "from",
+     "start": 220.879,
+     "end": 221.079
+    },
+    {
+     "text": "house",
+     "start": 221.079,
+     "end": 221.319
+    },
+    {
+     "text": "to",
+     "start": 221.319,
+     "end": 221.539
+    },
+    {
+     "text": "house.",
+     "start": 221.539,
+     "end": 222.039
+    },
+    {
+     "text": "They",
+     "start": 222.499,
+     "end": 222.699
+    },
+    {
+     "text": "looted",
+     "start": 222.699,
+     "end": 222.959
+    },
+    {
+     "text": "homes,",
+     "start": 222.959,
+     "end": 223.459
+    },
+    {
+     "text": "and",
+     "start": 223.459,
+     "end": 223.779
+    },
+    {
+     "text": "then",
+     "start": 223.779,
+     "end": 223.899
+    },
+    {
+     "text": "they",
+     "start": 223.899,
+     "end": 224.059
+    },
+    {
+     "text": "set",
+     "start": 224.059,
+     "end": 224.259
+    },
+    {
+     "text": "them",
+     "start": 224.259,
+     "end": 224.439
+    },
+    {
+     "text": "on",
+     "start": 224.439,
+     "end": 224.579
+    },
+    {
+     "text": "fire.",
+     "start": 224.579,
+     "end": 224.919
+    }
+   ],
+   "cues": {},
+   "startFrame": 6615,
+   "endFrame": 6764
+  },
+  {
+   "id": "m5",
+   "words": [
+    {
+     "text": "Black",
+     "start": 225.577,
+     "end": 225.837
+    },
+    {
+     "text": "Tulsans",
+     "start": 225.837,
+     "end": 226.317
+    },
+    {
+     "text": "fought",
+     "start": 226.317,
+     "end": 226.597
+    },
+    {
+     "text": "back,",
+     "start": 226.597,
+     "end": 226.997
+    },
+    {
+     "text": "from",
+     "start": 227.217,
+     "end": 227.477
+    },
+    {
+     "text": "houses",
+     "start": 227.477,
+     "end": 227.977
+    },
+    {
+     "text": "and",
+     "start": 227.977,
+     "end": 228.277
+    },
+    {
+     "text": "from",
+     "start": 228.277,
+     "end": 228.437
+    },
+    {
+     "text": "churches.",
+     "start": 228.437,
+     "end": 228.857
+    },
+    {
+     "text": "But",
+     "start": 229.437,
+     "end": 229.637
+    },
+    {
+     "text": "they",
+     "start": 229.637,
+     "end": 229.777
+    },
+    {
+     "text": "were",
+     "start": 229.777,
+     "end": 229.917
+    },
+    {
+     "text": "badly",
+     "start": 229.917,
+     "end": 230.397
+    },
+    {
+     "text": "outnumbered.",
+     "start": 230.397,
+     "end": 230.917
+    }
+   ],
+   "cues": {},
+   "startFrame": 6764,
+   "endFrame": 6947
+  },
+  {
+   "id": "m6",
+   "words": [
+    {
+     "text": "From",
+     "start": 231.656,
+     "end": 231.816
+    },
+    {
+     "text": "a",
+     "start": 231.816,
+     "end": 231.956
+    },
+    {
+     "text": "grain",
+     "start": 231.956,
+     "end": 232.296
+    },
+    {
+     "text": "elevator,",
+     "start": 232.296,
+     "end": 232.836
+    },
+    {
+     "text": "at",
+     "start": 233.296,
+     "end": 233.476
+    },
+    {
+     "text": "least",
+     "start": 233.476,
+     "end": 233.676
+    },
+    {
+     "text": "one",
+     "start": 233.676,
+     "end": 234.016
+    },
+    {
+     "text": "machine",
+     "start": 234.016,
+     "end": 234.416
+    },
+    {
+     "text": "gun",
+     "start": 234.416,
+     "end": 234.776
+    },
+    {
+     "text": "fired",
+     "start": 234.776,
+     "end": 235.196
+    },
+    {
+     "text": "into",
+     "start": 235.196,
+     "end": 235.496
+    },
+    {
+     "text": "the",
+     "start": 235.496,
+     "end": 235.636
+    },
+    {
+     "text": "district.",
+     "start": 235.636,
+     "end": 235.996
+    }
+   ],
+   "cues": {},
+   "startFrame": 6947,
+   "endFrame": 7096
+  },
+  {
+   "id": "m7",
+   "words": [
+    {
+     "text": "Airplanes",
+     "start": 236.634,
+     "end": 237.114
+    },
+    {
+     "text": "circled",
+     "start": 237.114,
+     "end": 237.594
+    },
+    {
+     "text": "overhead.",
+     "start": 237.594,
+     "end": 238.114
+    },
+    {
+     "text": "A",
+     "start": 238.814,
+     "end": 238.834
+    },
+    {
+     "text": "Black",
+     "start": 238.834,
+     "end": 239.114
+    },
+    {
+     "text": "lawyer",
+     "start": 239.114,
+     "end": 239.614
+    },
+    {
+     "text": "named",
+     "start": 239.614,
+     "end": 239.954
+    },
+    {
+     "text": "Buck",
+     "start": 239.954,
+     "end": 240.234
+    },
+    {
+     "text": "Colbert",
+     "start": 240.234,
+     "end": 240.634
+    },
+    {
+     "text": "Franklin",
+     "start": 240.634,
+     "end": 241.234
+    },
+    {
+     "text": "wrote",
+     "start": 241.234,
+     "end": 241.614
+    },
+    {
+     "text": "what",
+     "start": 241.614,
+     "end": 241.854
+    },
+    {
+     "text": "he",
+     "start": 241.854,
+     "end": 241.974
+    },
+    {
+     "text": "saw.",
+     "start": 241.974,
+     "end": 242.274
+    }
+   ],
+   "cues": {},
+   "startFrame": 7096,
+   "endFrame": 7281
+  },
+  {
+   "id": "m8",
+   "words": [
+    {
+     "text": "I",
+     "start": 242.8,
+     "end": 242.92
+    },
+    {
+     "text": "could",
+     "start": 242.92,
+     "end": 243.06
+    },
+    {
+     "text": "see",
+     "start": 243.06,
+     "end": 243.3
+    },
+    {
+     "text": "planes",
+     "start": 243.3,
+     "end": 243.72
+    },
+    {
+     "text": "circling",
+     "start": 243.72,
+     "end": 244.14
+    },
+    {
+     "text": "in",
+     "start": 244.14,
+     "end": 244.34
+    },
+    {
+     "text": "mid-air.",
+     "start": 244.34,
+     "end": 245.32
+    },
+    {
+     "text": "They",
+     "start": 245.32,
+     "end": 245.44
+    },
+    {
+     "text": "grew",
+     "start": 245.44,
+     "end": 245.64
+    },
+    {
+     "text": "in",
+     "start": 245.64,
+     "end": 245.84
+    },
+    {
+     "text": "number",
+     "start": 245.84,
+     "end": 246.1
+    },
+    {
+     "text": "and",
+     "start": 246.1,
+     "end": 246.36
+    },
+    {
+     "text": "hummed,",
+     "start": 246.36,
+     "end": 246.86
+    },
+    {
+     "text": "darted",
+     "start": 247.32,
+     "end": 247.44
+    },
+    {
+     "text": "and",
+     "start": 247.44,
+     "end": 247.72
+    },
+    {
+     "text": "dipped",
+     "start": 247.72,
+     "end": 247.92
+    },
+    {
+     "text": "low.",
+     "start": 247.92,
+     "end": 248.26
+    }
+   ],
+   "cues": {},
+   "startFrame": 7281,
+   "endFrame": 7463
+  },
+  {
+   "id": "m9",
+   "words": [
+    {
+     "text": "Historians",
+     "start": 248.881,
+     "end": 249.481
+    },
+    {
+     "text": "still",
+     "start": 249.481,
+     "end": 249.801
+    },
+    {
+     "text": "debate",
+     "start": 249.801,
+     "end": 250.201
+    },
+    {
+     "text": "exactly",
+     "start": 250.201,
+     "end": 250.741
+    },
+    {
+     "text": "what",
+     "start": 250.741,
+     "end": 251.141
+    },
+    {
+     "text": "those",
+     "start": 251.141,
+     "end": 251.401
+    },
+    {
+     "text": "planes",
+     "start": 251.401,
+     "end": 251.761
+    },
+    {
+     "text": "did.",
+     "start": 251.761,
+     "end": 252.201
+    }
+   ],
+   "cues": {},
+   "startFrame": 7463,
+   "endFrame": 7577
+  },
+  {
+   "id": "m10",
+   "words": [
+    {
+     "text": "Doctor",
+     "start": 252.671,
+     "end": 253.191
+    },
+    {
+     "text": "A.",
+     "start": 253.191,
+     "end": 253.231
+    },
+    {
+     "text": "C.",
+     "start": 253.451,
+     "end": 253.591
+    },
+    {
+     "text": "Jackson",
+     "start": 253.891,
+     "end": 254.111
+    },
+    {
+     "text": "was",
+     "start": 254.111,
+     "end": 254.771
+    },
+    {
+     "text": "one",
+     "start": 254.771,
+     "end": 254.951
+    },
+    {
+     "text": "of",
+     "start": 254.951,
+     "end": 255.051
+    },
+    {
+     "text": "the",
+     "start": 255.051,
+     "end": 255.171
+    },
+    {
+     "text": "best-known",
+     "start": 255.171,
+     "end": 255.711
+    },
+    {
+     "text": "surgeons",
+     "start": 255.711,
+     "end": 256.251
+    },
+    {
+     "text": "in",
+     "start": 256.251,
+     "end": 256.571
+    },
+    {
+     "text": "Greenwood.",
+     "start": 256.571,
+     "end": 256.931
+    }
+   ],
+   "cues": {},
+   "startFrame": 7577,
+   "endFrame": 7728
+  },
+  {
+   "id": "m11",
+   "words": [
+    {
+     "text": "When",
+     "start": 257.713,
+     "end": 257.833
+    },
+    {
+     "text": "the",
+     "start": 257.833,
+     "end": 257.933
+    },
+    {
+     "text": "mob",
+     "start": 257.933,
+     "end": 258.193
+    },
+    {
+     "text": "came",
+     "start": 258.193,
+     "end": 258.473
+    },
+    {
+     "text": "to",
+     "start": 258.473,
+     "end": 258.653
+    },
+    {
+     "text": "his",
+     "start": 258.653,
+     "end": 258.773
+    },
+    {
+     "text": "home,",
+     "start": 258.773,
+     "end": 259.133
+    },
+    {
+     "text": "he",
+     "start": 259.333,
+     "end": 259.453
+    },
+    {
+     "text": "walked",
+     "start": 259.453,
+     "end": 259.733
+    },
+    {
+     "text": "out",
+     "start": 259.733,
+     "end": 259.973
+    },
+    {
+     "text": "with",
+     "start": 259.973,
+     "end": 260.153
+    },
+    {
+     "text": "his",
+     "start": 260.153,
+     "end": 260.293
+    },
+    {
+     "text": "hands",
+     "start": 260.293,
+     "end": 260.593
+    },
+    {
+     "text": "up.",
+     "start": 260.593,
+     "end": 260.933
+    },
+    {
+     "text": "He",
+     "start": 261.453,
+     "end": 261.593
+    },
+    {
+     "text": "was",
+     "start": 261.593,
+     "end": 261.693
+    },
+    {
+     "text": "shot,",
+     "start": 261.693,
+     "end": 262.093
+    },
+    {
+     "text": "and",
+     "start": 262.093,
+     "end": 262.573
+    },
+    {
+     "text": "he",
+     "start": 262.573,
+     "end": 262.713
+    },
+    {
+     "text": "died",
+     "start": 262.713,
+     "end": 262.993
+    },
+    {
+     "text": "of",
+     "start": 262.993,
+     "end": 263.193
+    },
+    {
+     "text": "his",
+     "start": 263.193,
+     "end": 263.313
+    },
+    {
+     "text": "wounds.",
+     "start": 263.313,
+     "end": 263.613
+    }
+   ],
+   "cues": {},
+   "startFrame": 7728,
+   "endFrame": 7930
+  },
+  {
+   "id": "m12",
+   "words": [
+    {
+     "text": "Mount",
+     "start": 264.448,
+     "end": 264.728
+    },
+    {
+     "text": "Zion",
+     "start": 264.728,
+     "end": 265.188
+    },
+    {
+     "text": "Baptist",
+     "start": 265.188,
+     "end": 265.608
+    },
+    {
+     "text": "Church",
+     "start": 265.608,
+     "end": 266.028
+    },
+    {
+     "text": "had",
+     "start": 266.028,
+     "end": 266.228
+    },
+    {
+     "text": "opened",
+     "start": 266.228,
+     "end": 266.528
+    },
+    {
+     "text": "just",
+     "start": 266.528,
+     "end": 266.788
+    },
+    {
+     "text": "weeks",
+     "start": 266.788,
+     "end": 267.108
+    },
+    {
+     "text": "earlier.",
+     "start": 267.108,
+     "end": 267.668
+    },
+    {
+     "text": "It",
+     "start": 268.168,
+     "end": 268.268
+    },
+    {
+     "text": "burned.",
+     "start": 268.268,
+     "end": 268.588
+    }
+   ],
+   "cues": {},
+   "startFrame": 7930,
+   "endFrame": 8076
+  },
+  {
+   "id": "m13",
+   "words": [
+    {
+     "text": "National",
+     "start": 269.314,
+     "end": 269.754
+    },
+    {
+     "text": "Guard",
+     "start": 269.754,
+     "end": 270.074
+    },
+    {
+     "text": "troops",
+     "start": 270.074,
+     "end": 270.434
+    },
+    {
+     "text": "from",
+     "start": 270.434,
+     "end": 270.734
+    },
+    {
+     "text": "Oklahoma",
+     "start": 270.734,
+     "end": 271.334
+    },
+    {
+     "text": "City",
+     "start": 271.334,
+     "end": 271.814
+    },
+    {
+     "text": "arrived",
+     "start": 271.814,
+     "end": 272.454
+    },
+    {
+     "text": "around",
+     "start": 272.454,
+     "end": 272.774
+    },
+    {
+     "text": "nine.",
+     "start": 272.774,
+     "end": 273.254
+    },
+    {
+     "text": "By",
+     "start": 273.954,
+     "end": 274.094
+    },
+    {
+     "text": "then,",
+     "start": 274.094,
+     "end": 274.414
+    },
+    {
+     "text": "most",
+     "start": 274.894,
+     "end": 275.034
+    },
+    {
+     "text": "of",
+     "start": 275.034,
+     "end": 275.214
+    },
+    {
+     "text": "Greenwood",
+     "start": 275.214,
+     "end": 275.674
+    },
+    {
+     "text": "was",
+     "start": 275.674,
+     "end": 275.954
+    },
+    {
+     "text": "already",
+     "start": 275.954,
+     "end": 276.374
+    },
+    {
+     "text": "burning.",
+     "start": 276.374,
+     "end": 276.754
+    }
+   ],
+   "cues": {},
+   "startFrame": 8076,
+   "endFrame": 8318
+  },
+  {
+   "id": "m14",
+   "words": [
+    {
+     "text": "Black",
+     "start": 277.35,
+     "end": 277.59
+    },
+    {
+     "text": "residents",
+     "start": 277.59,
+     "end": 278.07
+    },
+    {
+     "text": "were",
+     "start": 278.07,
+     "end": 278.31
+    },
+    {
+     "text": "rounded",
+     "start": 278.31,
+     "end": 278.63
+    },
+    {
+     "text": "up",
+     "start": 278.63,
+     "end": 278.93
+    },
+    {
+     "text": "and",
+     "start": 278.93,
+     "end": 279.31
+    },
+    {
+     "text": "taken",
+     "start": 279.31,
+     "end": 279.55
+    },
+    {
+     "text": "away",
+     "start": 279.55,
+     "end": 279.89
+    },
+    {
+     "text": "under",
+     "start": 279.89,
+     "end": 280.23
+    },
+    {
+     "text": "guard.",
+     "start": 280.23,
+     "end": 280.55
+    }
+   ],
+   "cues": {},
+   "startFrame": 8318,
+   "endFrame": 8434
+  },
+  {
+   "id": "m15",
+   "words": [
+    {
+     "text": "At",
+     "start": 281.221,
+     "end": 281.401
+    },
+    {
+     "text": "11:49",
+     "start": 281.401,
+     "end": 282.601
+    },
+    {
+     "text": "that",
+     "start": 282.601,
+     "end": 282.981
+    },
+    {
+     "text": "morning,",
+     "start": 282.981,
+     "end": 283.361
+    },
+    {
+     "text": "the",
+     "start": 283.861,
+     "end": 283.921
+    },
+    {
+     "text": "governor",
+     "start": 283.921,
+     "end": 284.201
+    },
+    {
+     "text": "declared",
+     "start": 284.201,
+     "end": 284.781
+    },
+    {
+     "text": "martial",
+     "start": 284.781,
+     "end": 285.121
+    },
+    {
+     "text": "law.",
+     "start": 285.121,
+     "end": 285.601
+    }
+   ],
+   "cues": {},
+   "startFrame": 8434,
+   "endFrame": 8599
+  },
+  {
+   "id": "a0",
+   "words": [
+    {
+     "text": "Chapter",
+     "start": 286.741,
+     "end": 287.021
+    },
+    {
+     "text": "five.",
+     "start": 287.021,
+     "end": 287.501
+    },
+    {
+     "text": "The",
+     "start": 287.501,
+     "end": 287.781
+    },
+    {
+     "text": "ashes.",
+     "start": 287.781,
+     "end": 288.121
+    }
+   ],
+   "cues": {},
+   "startFrame": 8599,
+   "endFrame": 8663
+  },
+  {
+   "id": "a1",
+   "words": [
+    {
+     "text": "When",
+     "start": 288.852,
+     "end": 288.972
+    },
+    {
+     "text": "it",
+     "start": 288.972,
+     "end": 289.052
+    },
+    {
+     "text": "was",
+     "start": 289.052,
+     "end": 289.172
+    },
+    {
+     "text": "over,",
+     "start": 289.172,
+     "end": 289.552
+    },
+    {
+     "text": "the",
+     "start": 289.952,
+     "end": 289.992
+    },
+    {
+     "text": "heart",
+     "start": 289.992,
+     "end": 290.252
+    },
+    {
+     "text": "of",
+     "start": 290.252,
+     "end": 290.432
+    },
+    {
+     "text": "Greenwood",
+     "start": 290.432,
+     "end": 290.832
+    },
+    {
+     "text": "was",
+     "start": 290.832,
+     "end": 291.112
+    },
+    {
+     "text": "gone.",
+     "start": 291.112,
+     "end": 291.412
+    }
+   ],
+   "cues": {},
+   "startFrame": 8663,
+   "endFrame": 8758
+  },
+  {
+   "id": "a2",
+   "words": [
+    {
+     "text": "Thirty-five",
+     "start": 292.037,
+     "end": 292.657
+    },
+    {
+     "text": "city",
+     "start": 292.657,
+     "end": 293.017
+    },
+    {
+     "text": "blocks",
+     "start": 293.017,
+     "end": 293.417
+    },
+    {
+     "text": "had",
+     "start": 293.417,
+     "end": 293.637
+    },
+    {
+     "text": "burned.",
+     "start": 293.637,
+     "end": 293.957
+    }
+   ],
+   "cues": {},
+   "startFrame": 8758,
+   "endFrame": 8836
+  },
+  {
+   "id": "a3",
+   "words": [
+    {
+     "text": "One",
+     "start": 294.629,
+     "end": 294.925
+    },
+    {
+     "text": "thousand",
+     "start": 294.925,
+     "end": 295.221
+    },
+    {
+     "text": "two",
+     "start": 295.221,
+     "end": 295.517
+    },
+    {
+     "text": "hundred",
+     "start": 295.517,
+     "end": 295.813
+    },
+    {
+     "text": "fifty-six",
+     "start": 295.813,
+     "end": 296.109
+    },
+    {
+     "text": "homes",
+     "start": 296.109,
+     "end": 296.969
+    },
+    {
+     "text": "were",
+     "start": 296.969,
+     "end": 297.229
+    },
+    {
+     "text": "burned.",
+     "start": 297.229,
+     "end": 297.689
+    },
+    {
+     "text": "Two",
+     "start": 297.689,
+     "end": 298.089
+    },
+    {
+     "text": "hundred",
+     "start": 298.089,
+     "end": 298.489
+    },
+    {
+     "text": "fifteen",
+     "start": 298.489,
+     "end": 298.889
+    },
+    {
+     "text": "more",
+     "start": 298.889,
+     "end": 299.489
+    },
+    {
+     "text": "were",
+     "start": 299.489,
+     "end": 299.729
+    },
+    {
+     "text": "looted.",
+     "start": 299.729,
+     "end": 300.009
+    }
+   ],
+   "cues": {},
+   "startFrame": 8836,
+   "endFrame": 9015
+  },
+  {
+   "id": "a4",
+   "words": [
+    {
+     "text": "About",
+     "start": 300.611,
+     "end": 300.891
+    },
+    {
+     "text": "ten",
+     "start": 300.891,
+     "end": 301.271
+    },
+    {
+     "text": "thousand",
+     "start": 301.271,
+     "end": 301.651
+    },
+    {
+     "text": "people",
+     "start": 301.651,
+     "end": 301.931
+    },
+    {
+     "text": "were",
+     "start": 301.931,
+     "end": 302.191
+    },
+    {
+     "text": "left",
+     "start": 302.191,
+     "end": 302.371
+    },
+    {
+     "text": "homeless.",
+     "start": 302.371,
+     "end": 302.771
+    }
+   ],
+   "cues": {},
+   "startFrame": 9015,
+   "endFrame": 9102
+  },
+  {
+   "id": "a5",
+   "words": [
+    {
+     "text": "Newspapers",
+     "start": 303.513,
+     "end": 304.233
+    },
+    {
+     "text": "across",
+     "start": 304.233,
+     "end": 304.553
+    },
+    {
+     "text": "the",
+     "start": 304.553,
+     "end": 304.793
+    },
+    {
+     "text": "country",
+     "start": 304.793,
+     "end": 305.153
+    },
+    {
+     "text": "carried",
+     "start": 305.153,
+     "end": 305.573
+    },
+    {
+     "text": "the",
+     "start": 305.573,
+     "end": 305.773
+    },
+    {
+     "text": "story.",
+     "start": 305.773,
+     "end": 306.273
+    },
+    {
+     "text": "Tulsa",
+     "start": 307.133,
+     "end": 307.193
+    },
+    {
+     "text": "dead",
+     "start": 307.193,
+     "end": 307.533
+    },
+    {
+     "text": "total",
+     "start": 307.533,
+     "end": 307.913
+    },
+    {
+     "text": "eighty-five,",
+     "start": 307.913,
+     "end": 309.233
+    },
+    {
+     "text": "said",
+     "start": 309.233,
+     "end": 309.413
+    },
+    {
+     "text": "the",
+     "start": 309.413,
+     "end": 309.593
+    },
+    {
+     "text": "Boston",
+     "start": 309.593,
+     "end": 310.013
+    },
+    {
+     "text": "Daily",
+     "start": 310.013,
+     "end": 310.413
+    },
+    {
+     "text": "Globe.",
+     "start": 310.413,
+     "end": 310.753
+    }
+   ],
+   "cues": {},
+   "startFrame": 9102,
+   "endFrame": 9342
+  },
+  {
+   "id": "a6",
+   "words": [
+    {
+     "text": "The",
+     "start": 311.499,
+     "end": 311.619
+    },
+    {
+     "text": "official",
+     "start": 311.619,
+     "end": 311.999
+    },
+    {
+     "text": "count",
+     "start": 311.999,
+     "end": 312.399
+    },
+    {
+     "text": "was",
+     "start": 312.399,
+     "end": 312.699
+    },
+    {
+     "text": "later",
+     "start": 312.699,
+     "end": 312.939
+    },
+    {
+     "text": "put",
+     "start": 312.939,
+     "end": 313.219
+    },
+    {
+     "text": "at",
+     "start": 313.219,
+     "end": 313.419
+    },
+    {
+     "text": "thirty-six.",
+     "start": 313.419,
+     "end": 314.919
+    },
+    {
+     "text": "Historians",
+     "start": 314.919,
+     "end": 315.439
+    },
+    {
+     "text": "believe",
+     "start": 315.439,
+     "end": 315.899
+    },
+    {
+     "text": "the",
+     "start": 315.899,
+     "end": 316.179
+    },
+    {
+     "text": "real",
+     "start": 316.179,
+     "end": 316.459
+    },
+    {
+     "text": "number",
+     "start": 316.459,
+     "end": 316.819
+    },
+    {
+     "text": "was",
+     "start": 316.819,
+     "end": 317.059
+    },
+    {
+     "text": "far",
+     "start": 317.059,
+     "end": 317.379
+    },
+    {
+     "text": "higher,",
+     "start": 317.379,
+     "end": 317.899
+    },
+    {
+     "text": "perhaps",
+     "start": 318.279,
+     "end": 318.639
+    },
+    {
+     "text": "as",
+     "start": 318.639,
+     "end": 318.939
+    },
+    {
+     "text": "many",
+     "start": 318.939,
+     "end": 319.199
+    },
+    {
+     "text": "as",
+     "start": 319.199,
+     "end": 319.459
+    },
+    {
+     "text": "three",
+     "start": 319.459,
+     "end": 319.79
+    },
+    {
+     "text": "hundred.",
+     "start": 319.79,
+     "end": 320.12
+    }
+   ],
+   "cues": {},
+   "startFrame": 9342,
+   "endFrame": 9614
+  },
+  {
+   "id": "a7",
+   "words": [
+    {
+     "text": "Up",
+     "start": 320.57,
+     "end": 320.71
+    },
+    {
+     "text": "to",
+     "start": 320.71,
+     "end": 320.93
+    },
+    {
+     "text": "six",
+     "start": 320.93,
+     "end": 321.33
+    },
+    {
+     "text": "thousand",
+     "start": 321.33,
+     "end": 321.73
+    },
+    {
+     "text": "Black",
+     "start": 321.73,
+     "end": 322.03
+    },
+    {
+     "text": "Tulsans",
+     "start": 322.03,
+     "end": 322.55
+    },
+    {
+     "text": "were",
+     "start": 322.55,
+     "end": 322.77
+    },
+    {
+     "text": "held",
+     "start": 322.77,
+     "end": 322.99
+    },
+    {
+     "text": "under",
+     "start": 322.99,
+     "end": 323.27
+    },
+    {
+     "text": "armed",
+     "start": 323.27,
+     "end": 323.67
+    },
+    {
+     "text": "guard,",
+     "start": 323.67,
+     "end": 324.11
+    },
+    {
+     "text": "at",
+     "start": 324.11,
+     "end": 324.73
+    },
+    {
+     "text": "Convention",
+     "start": 324.73,
+     "end": 325.21
+    },
+    {
+     "text": "Hall,",
+     "start": 325.21,
+     "end": 325.63
+    },
+    {
+     "text": "the",
+     "start": 326.07,
+     "end": 326.13
+    },
+    {
+     "text": "fairgrounds,",
+     "start": 326.13,
+     "end": 326.79
+    },
+    {
+     "text": "and",
+     "start": 327.21,
+     "end": 327.33
+    },
+    {
+     "text": "a",
+     "start": 327.33,
+     "end": 327.45
+    },
+    {
+     "text": "baseball",
+     "start": 327.45,
+     "end": 327.85
+    },
+    {
+     "text": "park.",
+     "start": 327.85,
+     "end": 328.27
+    }
+   ],
+   "cues": {},
+   "startFrame": 9614,
+   "endFrame": 9864
+  },
+  {
+   "id": "a8",
+   "words": [
+    {
+     "text": "To",
+     "start": 328.885,
+     "end": 329.025
+    },
+    {
+     "text": "leave,",
+     "start": 329.025,
+     "end": 329.425
+    },
+    {
+     "text": "they",
+     "start": 329.645,
+     "end": 329.765
+    },
+    {
+     "text": "had",
+     "start": 329.765,
+     "end": 329.965
+    },
+    {
+     "text": "to",
+     "start": 329.965,
+     "end": 330.125
+    },
+    {
+     "text": "carry",
+     "start": 330.125,
+     "end": 330.425
+    },
+    {
+     "text": "identification",
+     "start": 330.425,
+     "end": 331.045
+    },
+    {
+     "text": "cards.",
+     "start": 331.045,
+     "end": 331.825
+    }
+   ],
+   "cues": {},
+   "startFrame": 9864,
+   "endFrame": 9972
+  },
+  {
+   "id": "a9",
+   "words": [
+    {
+     "text": "Thousands",
+     "start": 332.496,
+     "end": 332.936
+    },
+    {
+     "text": "spent",
+     "start": 332.936,
+     "end": 333.236
+    },
+    {
+     "text": "the",
+     "start": 333.236,
+     "end": 333.436
+    },
+    {
+     "text": "winter",
+     "start": 333.436,
+     "end": 333.776
+    },
+    {
+     "text": "in",
+     "start": 333.776,
+     "end": 334.016
+    },
+    {
+     "text": "tents.",
+     "start": 334.016,
+     "end": 334.296
+    }
+   ],
+   "cues": {},
+   "startFrame": 9972,
+   "endFrame": 10046
+  },
+  {
+   "id": "a10",
+   "words": [
+    {
+     "text": "Residents",
+     "start": 334.979,
+     "end": 335.379
+    },
+    {
+     "text": "filed",
+     "start": 335.379,
+     "end": 335.819
+    },
+    {
+     "text": "claims",
+     "start": 335.819,
+     "end": 336.299
+    },
+    {
+     "text": "worth",
+     "start": 336.299,
+     "end": 336.579
+    },
+    {
+     "text": "more",
+     "start": 336.579,
+     "end": 336.879
+    },
+    {
+     "text": "than",
+     "start": 336.879,
+     "end": 337.079
+    },
+    {
+     "text": "one",
+     "start": 337.079,
+     "end": 337.379
+    },
+    {
+     "text": "point",
+     "start": 337.379,
+     "end": 337.679
+    },
+    {
+     "text": "eight",
+     "start": 337.679,
+     "end": 337.979
+    },
+    {
+     "text": "million",
+     "start": 337.979,
+     "end": 338.399
+    },
+    {
+     "text": "dollars.",
+     "start": 338.399,
+     "end": 339.279
+    },
+    {
+     "text": "The",
+     "start": 339.279,
+     "end": 339.579
+    },
+    {
+     "text": "claims",
+     "start": 339.579,
+     "end": 339.959
+    },
+    {
+     "text": "were",
+     "start": 339.959,
+     "end": 340.179
+    },
+    {
+     "text": "turned",
+     "start": 340.179,
+     "end": 340.479
+    },
+    {
+     "text": "down.",
+     "start": 340.479,
+     "end": 340.819
+    }
+   ],
+   "cues": {},
+   "startFrame": 10046,
+   "endFrame": 10239
+  },
+  {
+   "id": "a11",
+   "words": [
+    {
+     "text": "The",
+     "start": 341.384,
+     "end": 341.504
+    },
+    {
+     "text": "city",
+     "start": 341.504,
+     "end": 341.764
+    },
+    {
+     "text": "passed",
+     "start": 341.764,
+     "end": 342.204
+    },
+    {
+     "text": "a",
+     "start": 342.204,
+     "end": 342.464
+    },
+    {
+     "text": "new",
+     "start": 342.464,
+     "end": 342.684
+    },
+    {
+     "text": "fire",
+     "start": 342.684,
+     "end": 343.104
+    },
+    {
+     "text": "ordinance",
+     "start": 343.104,
+     "end": 343.644
+    },
+    {
+     "text": "that",
+     "start": 343.644,
+     "end": 344.264
+    },
+    {
+     "text": "would",
+     "start": 344.264,
+     "end": 344.404
+    },
+    {
+     "text": "have",
+     "start": 344.404,
+     "end": 344.504
+    },
+    {
+     "text": "kept",
+     "start": 344.504,
+     "end": 344.724
+    },
+    {
+     "text": "many",
+     "start": 344.724,
+     "end": 345.084
+    },
+    {
+     "text": "from",
+     "start": 345.084,
+     "end": 345.324
+    },
+    {
+     "text": "rebuilding.",
+     "start": 345.324,
+     "end": 345.704
+    }
+   ],
+   "cues": {},
+   "startFrame": 10239,
+   "endFrame": 10389
+  },
+  {
+   "id": "a12",
+   "words": [
+    {
+     "text": "Buck",
+     "start": 346.406,
+     "end": 346.626
+    },
+    {
+     "text": "Colbert",
+     "start": 346.626,
+     "end": 347.046
+    },
+    {
+     "text": "Franklin",
+     "start": 347.046,
+     "end": 347.606
+    },
+    {
+     "text": "and",
+     "start": 347.606,
+     "end": 347.826
+    },
+    {
+     "text": "other",
+     "start": 347.826,
+     "end": 348.086
+    },
+    {
+     "text": "Black",
+     "start": 348.086,
+     "end": 348.326
+    },
+    {
+     "text": "lawyers",
+     "start": 348.326,
+     "end": 348.826
+    },
+    {
+     "text": "challenged",
+     "start": 348.826,
+     "end": 349.326
+    },
+    {
+     "text": "it",
+     "start": 349.326,
+     "end": 349.526
+    },
+    {
+     "text": "in",
+     "start": 349.526,
+     "end": 349.666
+    },
+    {
+     "text": "court,",
+     "start": 349.666,
+     "end": 349.986
+    },
+    {
+     "text": "working",
+     "start": 350.346,
+     "end": 350.586
+    },
+    {
+     "text": "out",
+     "start": 350.586,
+     "end": 350.786
+    },
+    {
+     "text": "of",
+     "start": 350.786,
+     "end": 350.906
+    },
+    {
+     "text": "a",
+     "start": 350.906,
+     "end": 350.946
+    },
+    {
+     "text": "tent.",
+     "start": 350.946,
+     "end": 351.266
+    },
+    {
+     "text": "They",
+     "start": 351.826,
+     "end": 351.966
+    },
+    {
+     "text": "won.",
+     "start": 351.966,
+     "end": 352.246
+    }
+   ],
+   "cues": {},
+   "startFrame": 10389,
+   "endFrame": 10581
+  },
+  {
+   "id": "a13",
+   "words": [
+    {
+     "text": "A",
+     "start": 352.798,
+     "end": 352.958
+    },
+    {
+     "text": "grand",
+     "start": 352.958,
+     "end": 353.278
+    },
+    {
+     "text": "jury",
+     "start": 353.278,
+     "end": 353.758
+    },
+    {
+     "text": "blamed",
+     "start": 353.758,
+     "end": 354.138
+    },
+    {
+     "text": "the",
+     "start": 354.138,
+     "end": 354.358
+    },
+    {
+     "text": "violence",
+     "start": 354.358,
+     "end": 354.818
+    },
+    {
+     "text": "on",
+     "start": 354.818,
+     "end": 355.198
+    },
+    {
+     "text": "Black",
+     "start": 355.198,
+     "end": 355.498
+    },
+    {
+     "text": "Tulsans.",
+     "start": 355.498,
+     "end": 356.838
+    },
+    {
+     "text": "No",
+     "start": 356.838,
+     "end": 356.998
+    },
+    {
+     "text": "white",
+     "start": 356.998,
+     "end": 357.278
+    },
+    {
+     "text": "person",
+     "start": 357.278,
+     "end": 357.778
+    },
+    {
+     "text": "was",
+     "start": 357.778,
+     "end": 357.978
+    },
+    {
+     "text": "ever",
+     "start": 357.978,
+     "end": 358.258
+    },
+    {
+     "text": "sent",
+     "start": 358.258,
+     "end": 358.498
+    },
+    {
+     "text": "to",
+     "start": 358.498,
+     "end": 358.698
+    },
+    {
+     "text": "prison",
+     "start": 358.698,
+     "end": 358.918
+    },
+    {
+     "text": "for",
+     "start": 358.918,
+     "end": 359.278
+    },
+    {
+     "text": "it.",
+     "start": 359.278,
+     "end": 359.378
+    }
+   ],
+   "cues": {},
+   "startFrame": 10581,
+   "endFrame": 10793
+  },
+  {
+   "id": "a14",
+   "words": [
+    {
+     "text": "And",
+     "start": 359.851,
+     "end": 360.011
+    },
+    {
+     "text": "Dick",
+     "start": 360.011,
+     "end": 360.211
+    },
+    {
+     "text": "Rowland?",
+     "start": 360.211,
+     "end": 361.151
+    },
+    {
+     "text": "The",
+     "start": 361.151,
+     "end": 361.311
+    },
+    {
+     "text": "charges",
+     "start": 361.311,
+     "end": 361.751
+    },
+    {
+     "text": "against",
+     "start": 361.751,
+     "end": 362.131
+    },
+    {
+     "text": "him",
+     "start": 362.131,
+     "end": 362.431
+    },
+    {
+     "text": "were",
+     "start": 362.431,
+     "end": 362.591
+    },
+    {
+     "text": "dropped.",
+     "start": 362.591,
+     "end": 362.951
+    }
+   ],
+   "cues": {},
+   "startFrame": 10793,
+   "endFrame": 10922
+  },
+  {
+   "id": "x0",
+   "words": [
+    {
+     "text": "Chapter",
+     "start": 364.163,
+     "end": 364.443
+    },
+    {
+     "text": "six.",
+     "start": 364.443,
+     "end": 364.803
+    },
+    {
+     "text": "The",
+     "start": 364.803,
+     "end": 365.123
+    },
+    {
+     "text": "silence.",
+     "start": 365.123,
+     "end": 365.463
+    }
+   ],
+   "cues": {},
+   "startFrame": 10922,
+   "endFrame": 10985
+  },
+  {
+   "id": "x1",
+   "words": [
+    {
+     "text": "Greenwood",
+     "start": 366.26,
+     "end": 366.66
+    },
+    {
+     "text": "rebuilt,",
+     "start": 366.66,
+     "end": 367.1
+    },
+    {
+     "text": "house",
+     "start": 367.1,
+     "end": 367.58
+    },
+    {
+     "text": "by",
+     "start": 367.58,
+     "end": 367.86
+    },
+    {
+     "text": "house,",
+     "start": 367.86,
+     "end": 368.24
+    },
+    {
+     "text": "with",
+     "start": 368.24,
+     "end": 368.72
+    },
+    {
+     "text": "little",
+     "start": 368.72,
+     "end": 368.94
+    },
+    {
+     "text": "help",
+     "start": 368.94,
+     "end": 369.22
+    },
+    {
+     "text": "from",
+     "start": 369.22,
+     "end": 369.42
+    },
+    {
+     "text": "the",
+     "start": 369.42,
+     "end": 369.6
+    },
+    {
+     "text": "city.",
+     "start": 369.6,
+     "end": 369.82
+    }
+   ],
+   "cues": {},
+   "startFrame": 10985,
+   "endFrame": 11110
+  },
+  {
+   "id": "x2",
+   "words": [
+    {
+     "text": "But",
+     "start": 370.436,
+     "end": 370.556
+    },
+    {
+     "text": "the",
+     "start": 370.556,
+     "end": 370.676
+    },
+    {
+     "text": "massacre",
+     "start": 370.676,
+     "end": 371.136
+    },
+    {
+     "text": "itself",
+     "start": 371.136,
+     "end": 371.576
+    },
+    {
+     "text": "was",
+     "start": 371.576,
+     "end": 371.896
+    },
+    {
+     "text": "left",
+     "start": 371.896,
+     "end": 372.176
+    },
+    {
+     "text": "out",
+     "start": 372.176,
+     "end": 372.456
+    },
+    {
+     "text": "of",
+     "start": 372.456,
+     "end": 372.576
+    },
+    {
+     "text": "the",
+     "start": 372.576,
+     "end": 372.676
+    },
+    {
+     "text": "history",
+     "start": 372.676,
+     "end": 373.036
+    },
+    {
+     "text": "books.",
+     "start": 373.036,
+     "end": 373.536
+    },
+    {
+     "text": "For",
+     "start": 374.096,
+     "end": 374.256
+    },
+    {
+     "text": "decades,",
+     "start": 374.256,
+     "end": 374.736
+    },
+    {
+     "text": "it",
+     "start": 375.216,
+     "end": 375.356
+    },
+    {
+     "text": "was",
+     "start": 375.356,
+     "end": 375.456
+    },
+    {
+     "text": "barely",
+     "start": 375.456,
+     "end": 375.876
+    },
+    {
+     "text": "taught,",
+     "start": 375.876,
+     "end": 376.316
+    },
+    {
+     "text": "even",
+     "start": 376.316,
+     "end": 376.836
+    },
+    {
+     "text": "in",
+     "start": 376.836,
+     "end": 377.056
+    },
+    {
+     "text": "Tulsa.",
+     "start": 377.056,
+     "end": 377.296
+    }
+   ],
+   "cues": {},
+   "startFrame": 11110,
+   "endFrame": 11338
+  },
+  {
+   "id": "x3",
+   "words": [
+    {
+     "text": "In",
+     "start": 378.025,
+     "end": 378.205
+    },
+    {
+     "text": "1997,",
+     "start": 378.205,
+     "end": 379.365
+    },
+    {
+     "text": "Oklahoma",
+     "start": 380.045,
+     "end": 380.345
+    },
+    {
+     "text": "created",
+     "start": 380.345,
+     "end": 381.045
+    },
+    {
+     "text": "a",
+     "start": 381.045,
+     "end": 381.305
+    },
+    {
+     "text": "commission",
+     "start": 381.305,
+     "end": 381.565
+    },
+    {
+     "text": "to",
+     "start": 381.565,
+     "end": 381.905
+    },
+    {
+     "text": "investigate.",
+     "start": 381.905,
+     "end": 382.605
+    },
+    {
+     "text": "Its",
+     "start": 383.285,
+     "end": 383.505
+    },
+    {
+     "text": "report,",
+     "start": 383.505,
+     "end": 383.985
+    },
+    {
+     "text": "in",
+     "start": 383.985,
+     "end": 384.385
+    },
+    {
+     "text": "2001,",
+     "start": 384.385,
+     "end": 385.425
+    },
+    {
+     "text": "recommended",
+     "start": 385.425,
+     "end": 386.405
+    },
+    {
+     "text": "reparations.",
+     "start": 386.405,
+     "end": 387.165
+    }
+   ],
+   "cues": {},
+   "startFrame": 11338,
+   "endFrame": 11638
+  },
+  {
+   "id": "x4",
+   "words": [
+    {
+     "text": "In",
+     "start": 388.029,
+     "end": 388.189
+    },
+    {
+     "text": "2020,",
+     "start": 388.189,
+     "end": 388.909
+    },
+    {
+     "text": "researchers",
+     "start": 389.789,
+     "end": 389.989
+    },
+    {
+     "text": "began",
+     "start": 389.989,
+     "end": 390.529
+    },
+    {
+     "text": "searching",
+     "start": 390.529,
+     "end": 391.029
+    },
+    {
+     "text": "Oaklawn",
+     "start": 391.029,
+     "end": 391.709
+    },
+    {
+     "text": "Cemetery",
+     "start": 391.709,
+     "end": 392.269
+    },
+    {
+     "text": "for",
+     "start": 392.269,
+     "end": 392.589
+    },
+    {
+     "text": "the",
+     "start": 392.589,
+     "end": 392.729
+    },
+    {
+     "text": "graves",
+     "start": 392.729,
+     "end": 393.109
+    },
+    {
+     "text": "of",
+     "start": 393.109,
+     "end": 393.329
+    },
+    {
+     "text": "victims.",
+     "start": 393.329,
+     "end": 393.709
+    }
+   ],
+   "cues": {},
+   "startFrame": 11638,
+   "endFrame": 11830
+  },
+  {
+   "id": "x5",
+   "words": [
+    {
+     "text": "In",
+     "start": 394.425,
+     "end": 394.585
+    },
+    {
+     "text": "January",
+     "start": 394.585,
+     "end": 395.045
+    },
+    {
+     "text": "2025,",
+     "start": 395.045,
+     "end": 396.025
+    },
+    {
+     "text": "the",
+     "start": 396.785,
+     "end": 396.865
+    },
+    {
+     "text": "U.S.",
+     "start": 396.865,
+     "end": 397.785
+    },
+    {
+     "text": "Justice",
+     "start": 397.785,
+     "end": 397.965
+    },
+    {
+     "text": "Department",
+     "start": 397.965,
+     "end": 398.485
+    },
+    {
+     "text": "called",
+     "start": 398.485,
+     "end": 398.885
+    },
+    {
+     "text": "it",
+     "start": 398.885,
+     "end": 399.065
+    },
+    {
+     "text": "a",
+     "start": 399.065,
+     "end": 399.245
+    },
+    {
+     "text": "coordinated,",
+     "start": 399.245,
+     "end": 399.945
+    },
+    {
+     "text": "military-style",
+     "start": 399.945,
+     "end": 401.405
+    },
+    {
+     "text": "attack",
+     "start": 401.405,
+     "end": 401.885
+    },
+    {
+     "text": "on",
+     "start": 401.885,
+     "end": 402.225
+    },
+    {
+     "text": "Greenwood.",
+     "start": 402.225,
+     "end": 402.585
+    }
+   ],
+   "cues": {},
+   "startFrame": 11830,
+   "endFrame": 12098
+  },
+  {
+   "id": "x6",
+   "words": [
+    {
+     "text": "It",
+     "start": 403.352,
+     "end": 403.472
+    },
+    {
+     "text": "also",
+     "start": 403.472,
+     "end": 403.832
+    },
+    {
+     "text": "found",
+     "start": 403.832,
+     "end": 404.192
+    },
+    {
+     "text": "that",
+     "start": 404.192,
+     "end": 404.452
+    },
+    {
+     "text": "no",
+     "start": 404.452,
+     "end": 404.772
+    },
+    {
+     "text": "one",
+     "start": 404.772,
+     "end": 405.032
+    },
+    {
+     "text": "responsible",
+     "start": 405.032,
+     "end": 405.712
+    },
+    {
+     "text": "was",
+     "start": 405.712,
+     "end": 406.332
+    },
+    {
+     "text": "still",
+     "start": 406.332,
+     "end": 406.592
+    },
+    {
+     "text": "alive",
+     "start": 406.592,
+     "end": 407.012
+    },
+    {
+     "text": "to",
+     "start": 407.012,
+     "end": 407.312
+    },
+    {
+     "text": "prosecute.",
+     "start": 407.312,
+     "end": 407.652
+    }
+   ],
+   "cues": {},
+   "startFrame": 12098,
+   "endFrame": 12265
+  },
+  {
+   "id": "c1",
+   "words": [
+    {
+     "text": "Greenwood",
+     "start": 408.95,
+     "end": 409.37
+    },
+    {
+     "text": "was",
+     "start": 409.37,
+     "end": 409.65
+    },
+    {
+     "text": "built",
+     "start": 409.65,
+     "end": 409.91
+    },
+    {
+     "text": "by",
+     "start": 409.91,
+     "end": 410.21
+    },
+    {
+     "text": "people",
+     "start": 410.21,
+     "end": 410.53
+    },
+    {
+     "text": "who",
+     "start": 410.53,
+     "end": 410.71
+    },
+    {
+     "text": "had",
+     "start": 410.71,
+     "end": 410.85
+    },
+    {
+     "text": "been",
+     "start": 410.85,
+     "end": 411.03
+    },
+    {
+     "text": "shut",
+     "start": 411.03,
+     "end": 411.27
+    },
+    {
+     "text": "out,",
+     "start": 411.27,
+     "end": 411.61
+    },
+    {
+     "text": "and",
+     "start": 411.61,
+     "end": 412.11
+    },
+    {
+     "text": "who",
+     "start": 412.11,
+     "end": 412.25
+    },
+    {
+     "text": "made",
+     "start": 412.25,
+     "end": 412.45
+    },
+    {
+     "text": "something",
+     "start": 412.45,
+     "end": 412.83
+    },
+    {
+     "text": "of",
+     "start": 412.83,
+     "end": 413.07
+    },
+    {
+     "text": "their",
+     "start": 413.07,
+     "end": 413.25
+    },
+    {
+     "text": "own.",
+     "start": 413.25,
+     "end": 413.57
+    }
+   ],
+   "cues": {},
+   "startFrame": 12265,
+   "endFrame": 12420
+  },
+  {
+   "id": "c2",
+   "words": [
+    {
+     "text": "In",
+     "start": 414.11,
+     "end": 414.23
+    },
+    {
+     "text": "one",
+     "start": 414.23,
+     "end": 414.49
+    },
+    {
+     "text": "night",
+     "start": 414.49,
+     "end": 414.77
+    },
+    {
+     "text": "and",
+     "start": 414.77,
+     "end": 414.95
+    },
+    {
+     "text": "one",
+     "start": 414.95,
+     "end": 415.13
+    },
+    {
+     "text": "morning,",
+     "start": 415.13,
+     "end": 415.55
+    },
+    {
+     "text": "it",
+     "start": 415.89,
+     "end": 416.01
+    },
+    {
+     "text": "was",
+     "start": 416.01,
+     "end": 416.13
+    },
+    {
+     "text": "burned",
+     "start": 416.13,
+     "end": 416.47
+    },
+    {
+     "text": "to",
+     "start": 416.47,
+     "end": 416.71
+    },
+    {
+     "text": "the",
+     "start": 416.71,
+     "end": 416.81
+    },
+    {
+     "text": "ground.",
+     "start": 416.81,
+     "end": 417.11
+    }
+   ],
+   "cues": {},
+   "startFrame": 12420,
+   "endFrame": 12532
+  },
+  {
+   "id": "c3",
+   "words": [
+    {
+     "text": "Then",
+     "start": 417.818,
+     "end": 418.018
+    },
+    {
+     "text": "the",
+     "start": 418.018,
+     "end": 418.178
+    },
+    {
+     "text": "story",
+     "start": 418.178,
+     "end": 418.478
+    },
+    {
+     "text": "was",
+     "start": 418.478,
+     "end": 418.718
+    },
+    {
+     "text": "buried,",
+     "start": 418.718,
+     "end": 419.158
+    },
+    {
+     "text": "for",
+     "start": 419.158,
+     "end": 419.718
+    },
+    {
+     "text": "most",
+     "start": 419.718,
+     "end": 419.938
+    },
+    {
+     "text": "of",
+     "start": 419.938,
+     "end": 420.118
+    },
+    {
+     "text": "a",
+     "start": 420.118,
+     "end": 420.238
+    },
+    {
+     "text": "century.",
+     "start": 420.238,
+     "end": 420.498
+    }
+   ],
+   "cues": {},
+   "startFrame": 12532,
+   "endFrame": 12635
+  },
+  {
+   "id": "c4",
+   "words": [
+    {
+     "text": "That",
+     "start": 421.26,
+     "end": 421.42
+    },
+    {
+     "text": "was",
+     "start": 421.42,
+     "end": 421.56
+    },
+    {
+     "text": "Black",
+     "start": 421.56,
+     "end": 421.92
+    },
+    {
+     "text": "Wall",
+     "start": 421.92,
+     "end": 422.16
+    },
+    {
+     "text": "Street.",
+     "start": 422.16,
+     "end": 422.54
+    },
+    {
+     "text": "Subscribe",
+     "start": 423.4,
+     "end": 423.4
+    },
+    {
+     "text": "for",
+     "start": 423.4,
+     "end": 423.7
+    },
+    {
+     "text": "more.",
+     "start": 423.7,
+     "end": 423.98
+    }
+   ],
+   "cues": {},
+   "startFrame": 12635,
+   "endFrame": 12759
+  }
+ ]
+}
