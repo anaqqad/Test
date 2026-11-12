@@ -1,0 +1,1319 @@
+{
+ "id": "doc-black-wall-street",
+ "title": "The Destruction of Black Wall Street",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Gurley": "Gurlee",
+  "Stradford": "Stradferd",
+  "Drexel": "Drexel",
+  "Oaklawn": "Oak-lawn"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {},
+ "keywords": [
+  "Greenwood",
+  "Tulsa",
+  "Black Wall Street",
+  "Wall Street",
+  "Rowland",
+  "Stradford",
+  "Gurley",
+  "Dreamland",
+  "Jackson",
+  "Franklin",
+  "Mount Zion",
+  "1921",
+  "thirty-five",
+  "ten thousand",
+  "six thousand",
+  "fifteen hundred",
+  "eighty-five",
+  "thirty-six",
+  "three hundred",
+  "martial law",
+  "whistle",
+  "machine gun",
+  "reparations",
+  "Oaklawn",
+  "military-style",
+  "Justice Department"
+ ],
+ "chapters": {
+  "greenwood": "Greenwood",
+  "spark": "The Spark",
+  "night": "The Night",
+  "morning": "The Morning",
+  "ashes": "The Ashes",
+  "silence": "The Silence"
+ },
+ "grain": true,
+ "beats": [
+  {
+   "id": "h1",
+   "text": "On the morning of June the first, 1921, black smoke rose over the north side of Tulsa, Oklahoma.",
+   "visual": {
+    "kind": "photo",
+    "image": "fire",
+    "focus": [
+     0.45,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.12
+    ]
+   },
+   "overlays": {
+    "hook": "Thirty-five blocks. *One morning.*"
+   }
+  },
+  {
+   "id": "h2",
+   "text": "By the afternoon, a whole Black neighborhood had burned. Homes, churches, shops, and a business district.",
+   "visual": {
+    "kind": "photo",
+    "image": "inflames",
+    "zoom": [
+     1.02,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "h3",
+   "text": "Its name was Greenwood. Its main street was called the Negro Wall Street. Today, we know it as Black Wall Street.",
+   "visual": {
+    "kind": "photo",
+    "image": "panorama",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.05
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Greenwood",
+     "sub": "Tulsa, Oklahoma"
+    }
+   }
+  },
+  {
+   "id": "h4",
+   "text": "What happened there was left out of the history books for most of a century.",
+   "visual": {
+    "kind": "title",
+    "title": "Left out",
+    "sub": "for most of a century"
+   }
+  },
+  {
+   "id": "h5",
+   "text": "This is the story of how Greenwood was built, how it was destroyed, and how it was forgotten.",
+   "visual": {
+    "kind": "photo",
+    "image": "smoke",
+    "zoom": [
+     1,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "g0",
+   "text": "Chapter one. Greenwood.",
+   "visual": {
+    "kind": "chapter",
+    "num": 1,
+    "title": "Greenwood"
+   },
+   "section": "greenwood",
+   "captions": false
+  },
+  {
+   "id": "g1",
+   "text": "In the early 1900s, oil was found near Tulsa, and the town became a boom town.",
+   "visual": {
+    "kind": "card",
+    "image": "oilwell",
+    "caption": "Shooting an oil well near Tulsa, about 1910",
+    "crop": [
+     0,
+     0.06,
+     1,
+     0.92
+    ]
+   }
+  },
+  {
+   "id": "g2",
+   "text": "Money poured in, and the city grew fast.",
+   "visual": {
+    "kind": "photo",
+    "image": "main1910",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.04
+    ]
+   },
+   "overlays": {
+    "stamp": "Tulsa, about 1910"
+   }
+  },
+  {
+   "id": "g3",
+   "text": "But Tulsa was a segregated city. Black residents were shut out of the white part of town.",
+   "visual": {
+    "kind": "photo",
+    "image": "boston1910",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.04
+    ]
+   }
+  },
+  {
+   "id": "g4",
+   "text": "So they built their own, north of the Frisco railroad tracks.",
+   "visual": {
+    "kind": "title",
+    "title": "North of the tracks",
+    "sub": "the Frisco railroad line"
+   }
+  },
+  {
+   "id": "g5",
+   "text": "Black landowners such as O. W. Gurley and J. B. Stradford bought land there, and sold lots to other Black families.",
+   "visual": {
+    "kind": "title",
+    "title": "O. W. Gurley · J. B. Stradford",
+    "sub": "landowners and builders"
+   }
+  },
+  {
+   "id": "g6",
+   "text": "Stradford built a modern brick hotel on Greenwood Avenue.",
+   "visual": {
+    "kind": "title",
+    "title": "The Stradford Hotel",
+    "sub": "Greenwood Avenue"
+   }
+  },
+  {
+   "id": "g7",
+   "text": "By 1921, about ten thousand Black people lived in Greenwood.",
+   "visual": {
+    "kind": "stat",
+    "image": "panorama",
+    "stat": {
+     "to": 10000,
+     "label": "people lived in Greenwood",
+     "prefix": "about "
+    }
+   }
+  },
+  {
+   "id": "g8",
+   "text": "It had two newspapers, a public library branch, churches, and scores of businesses.",
+   "visual": {
+    "kind": "title",
+    "title": "Two newspapers",
+    "sub": "a library branch · churches · scores of businesses"
+   }
+  },
+  {
+   "id": "g9",
+   "text": "Grocers and barbers, tailors and cafés, doctors and lawyers. And a movie theater, the Dreamland.",
+   "visual": {
+    "kind": "title",
+    "title": "The Dreamland",
+    "sub": "a theater on Greenwood Avenue"
+   }
+  },
+  {
+   "id": "g10",
+   "text": "Booker T. Washington is said to have called it the Negro Wall Street.",
+   "visual": {
+    "kind": "quote",
+    "quote": "Negro Wall Street",
+    "by": "a name attributed to Booker T. Washington"
+   }
+  },
+  {
+   "id": "g11",
+   "text": "Most of its people were working people. Many worked in white homes and businesses across the tracks, and came home to Greenwood.",
+   "visual": {
+    "kind": "photo",
+    "image": "panorama",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.05
+    ]
+   }
+  },
+  {
+   "id": "g12",
+   "text": "But what they built there was their own.",
+   "visual": {
+    "kind": "title",
+    "title": "Their own",
+    "sub": "built by Black Tulsans"
+   }
+  },
+  {
+   "id": "s0",
+   "text": "Chapter two. The spark.",
+   "visual": {
+    "kind": "chapter",
+    "num": 2,
+    "title": "The Spark"
+   },
+   "section": "spark",
+   "captions": false
+  },
+  {
+   "id": "s1",
+   "text": "On Monday, May the thirtieth, 1921, a nineteen-year-old Black shoe shiner named Dick Rowland stepped into an elevator in the Drexel Building, downtown.",
+   "visual": {
+    "kind": "title",
+    "title": "May 30, 1921",
+    "sub": "the Drexel Building, downtown Tulsa"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Dick Rowland",
+     "sub": "shoe shiner, 19"
+    }
+   }
+  },
+  {
+   "id": "s2",
+   "text": "The elevator operator was a seventeen-year-old white woman named Sarah Page.",
+   "visual": {
+    "kind": "photo",
+    "image": "main1910",
+    "focus": [
+     0.62,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "s3",
+   "text": "Something happened in that elevator. Most likely, he stepped on her foot, or stumbled. She cried out, and he ran.",
+   "visual": {
+    "kind": "title",
+    "title": "Most likely",
+    "sub": "he stepped on her foot"
+   }
+  },
+  {
+   "id": "s4",
+   "text": "The next morning, Rowland was arrested.",
+   "visual": {
+    "kind": "title",
+    "title": "May 31",
+    "sub": "Rowland is arrested"
+   }
+  },
+  {
+   "id": "s5",
+   "text": "That afternoon, the Tulsa Tribune ran a story on its front page. Nab Negro for Attacking Girl In an Elevator.",
+   "visual": {
+    "kind": "quote",
+    "quote": "Nab Negro for Attacking Girl In an Elevator",
+    "by": "Tulsa Tribune, front page, May 31, 1921"
+   }
+  },
+  {
+   "id": "s6",
+   "text": "Some people also remembered an editorial in the same paper, headlined To Lynch Negro Tonight.",
+   "visual": {
+    "kind": "quote",
+    "quote": "To Lynch Negro Tonight",
+    "by": "an editorial, as some remembered it"
+   }
+  },
+  {
+   "id": "s7",
+   "text": "No copy of it has ever been found. The page is missing from the archived copies of the paper.",
+   "visual": {
+    "kind": "title",
+    "title": "Missing",
+    "sub": "cut from the archived copies"
+   }
+  },
+  {
+   "id": "s8",
+   "text": "Either way, word spread fast.",
+   "visual": {
+    "kind": "photo",
+    "image": "boston1910",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "n0",
+   "text": "Chapter three. The night.",
+   "visual": {
+    "kind": "chapter",
+    "num": 3,
+    "title": "The Night"
+   },
+   "section": "night",
+   "captions": false
+  },
+  {
+   "id": "n1",
+   "text": "By the evening, hundreds of white people had gathered outside the courthouse, where Rowland was held.",
+   "visual": {
+    "kind": "title",
+    "title": "The courthouse",
+    "sub": "hundreds gather"
+   },
+   "overlays": {
+    "stamp": "7:30 PM"
+   }
+  },
+  {
+   "id": "n2",
+   "text": "The sheriff refused to hand him over.",
+   "visual": {
+    "kind": "title",
+    "title": "Refused",
+    "sub": "the sheriff"
+   }
+  },
+  {
+   "id": "n3",
+   "text": "In Greenwood, people feared a lynching. Around nine, about twenty-five armed Black men, many of them veterans of the First World War, went to the courthouse to offer help.",
+   "visual": {
+    "kind": "title",
+    "title": "About 25 men",
+    "sub": "many of them war veterans"
+   },
+   "overlays": {
+    "stamp": "9:00 PM"
+   }
+  },
+  {
+   "id": "n4",
+   "text": "They were told they were not needed, and they went home.",
+   "visual": {
+    "kind": "photo",
+    "image": "smolder",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "n5",
+   "text": "Around ten, about seventy-five came back. By then, the white crowd had grown to about fifteen hundred.",
+   "visual": {
+    "kind": "stat",
+    "stat": {
+     "to": 1500,
+     "label": "in the white crowd, against about 75",
+     "prefix": "about "
+    }
+   },
+   "overlays": {
+    "stamp": "10:00 PM"
+   }
+  },
+  {
+   "id": "n6",
+   "text": "A white man tried to take a pistol from a Black veteran. A shot went off.",
+   "visual": {
+    "kind": "title",
+    "title": "A shot",
+    "sub": "outside the courthouse"
+   }
+  },
+  {
+   "id": "n7",
+   "text": "Then the shooting began.",
+   "visual": {
+    "kind": "photo",
+    "image": "smoke",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "n8",
+   "text": "Outnumbered, the Black men fell back toward Greenwood. Fighting spread along the Frisco tracks.",
+   "visual": {
+    "kind": "title",
+    "title": "The Frisco tracks",
+    "sub": "the line between two Tulsas"
+   }
+  },
+  {
+   "id": "n9",
+   "text": "The police deputized white men from the crowd.",
+   "visual": {
+    "kind": "title",
+    "title": "Deputized",
+    "sub": "white men from the crowd"
+   }
+  },
+  {
+   "id": "n10",
+   "text": "By midnight, the first fires were burning at the edge of Greenwood.",
+   "visual": {
+    "kind": "photo",
+    "image": "smolder",
+    "focus": [
+     0.6,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   },
+   "overlays": {
+    "stamp": "MIDNIGHT"
+   }
+  },
+  {
+   "id": "m0",
+   "text": "Chapter four. The morning.",
+   "visual": {
+    "kind": "chapter",
+    "num": 4,
+    "title": "The Morning"
+   },
+   "section": "morning",
+   "captions": false
+  },
+  {
+   "id": "m1",
+   "text": "Through the night, thousands of armed white men gathered along the edge of Greenwood.",
+   "visual": {
+    "kind": "photo",
+    "image": "inflames",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "m2",
+   "text": "At about five in the morning, a whistle sounded.",
+   "visual": {
+    "kind": "title",
+    "title": "A whistle",
+    "sub": "at dawn"
+   },
+   "overlays": {
+    "stamp": "5:00 AM"
+   }
+  },
+  {
+   "id": "m3",
+   "text": "And they crossed the tracks.",
+   "visual": {
+    "kind": "photo",
+    "image": "fire",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "m4",
+   "text": "They went from house to house. They looted homes, and then they set them on fire.",
+   "visual": {
+    "kind": "card",
+    "image": "furniture",
+    "caption": "Belongings in the street, Greenwood, 1921 (Library of Congress)"
+   }
+  },
+  {
+   "id": "m5",
+   "text": "Black Tulsans fought back, from houses and from churches. But they were badly outnumbered.",
+   "visual": {
+    "kind": "photo",
+    "image": "smoke",
+    "motion": "panLeft",
+    "zoom": [
+     1.05,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "m6",
+   "text": "From a grain elevator, at least one machine gun fired into the district.",
+   "visual": {
+    "kind": "title",
+    "title": "A machine gun",
+    "sub": "from a grain elevator"
+   }
+  },
+  {
+   "id": "m7",
+   "text": "Airplanes circled overhead. A Black lawyer named Buck Colbert Franklin wrote what he saw.",
+   "visual": {
+    "kind": "title",
+    "title": "Buck Colbert Franklin",
+    "sub": "lawyer, eyewitness"
+   }
+  },
+  {
+   "id": "m8",
+   "text": "I could see planes circling in mid-air. They grew in number and hummed, darted and dipped low.",
+   "visual": {
+    "kind": "quote",
+    "quote": "I could see planes circling in mid-air. They grew in number and hummed, darted and dipped low.",
+    "by": "B. C. Franklin, eyewitness account, 1931"
+   }
+  },
+  {
+   "id": "m9",
+   "text": "Historians still debate exactly what those planes did.",
+   "visual": {
+    "kind": "photo",
+    "image": "inflames",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "m10",
+   "text": "Doctor A. C. Jackson was one of the best-known surgeons in Greenwood.",
+   "visual": {
+    "kind": "title",
+    "title": "Dr. A. C. Jackson",
+    "sub": "surgeon"
+   }
+  },
+  {
+   "id": "m11",
+   "text": "When the mob came to his home, he walked out with his hands up. He was shot, and he died of his wounds.",
+   "visual": {
+    "kind": "photo",
+    "image": "houses",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "m12",
+   "text": "Mount Zion Baptist Church had opened just weeks earlier. It burned.",
+   "visual": {
+    "kind": "card",
+    "image": "church",
+    "caption": "A church burns in Greenwood, June 1, 1921 (Library of Congress)",
+    "crop": [
+     0,
+     0.08,
+     1,
+     0.82
+    ]
+   }
+  },
+  {
+   "id": "m13",
+   "text": "National Guard troops from Oklahoma City arrived around nine. By then, most of Greenwood was already burning.",
+   "visual": {
+    "kind": "card",
+    "image": "truck_litan",
+    "caption": "Soldiers and Black Tulsans on a truck downtown, 1921 (Library of Congress)"
+   },
+   "overlays": {
+    "stamp": "9:15 AM"
+   }
+  },
+  {
+   "id": "m14",
+   "text": "Black residents were rounded up and taken away under guard.",
+   "visual": {
+    "kind": "card",
+    "image": "truck",
+    "caption": "A truck carrying Black Tulsans, 1921 (Library of Congress)"
+   }
+  },
+  {
+   "id": "m15",
+   "text": "At 11:49 that morning, the governor declared martial law.",
+   "visual": {
+    "kind": "title",
+    "title": "Martial law",
+    "sub": "declared at 11:49 AM"
+   }
+  },
+  {
+   "id": "a0",
+   "text": "Chapter five. The ashes.",
+   "visual": {
+    "kind": "chapter",
+    "num": 5,
+    "title": "The Ashes"
+   },
+   "section": "ashes",
+   "captions": false
+  },
+  {
+   "id": "a1",
+   "text": "When it was over, the heart of Greenwood was gone.",
+   "visual": {
+    "kind": "photo",
+    "image": "ruins",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "a2",
+   "text": "Thirty-five city blocks had burned.",
+   "visual": {
+    "kind": "stat",
+    "image": "district",
+    "stat": {
+     "to": 35,
+     "label": "city blocks burned"
+    }
+   }
+  },
+  {
+   "id": "a3",
+   "text": "One thousand two hundred fifty-six homes were burned. Two hundred fifteen more were looted.",
+   "visual": {
+    "kind": "stat",
+    "image": "houses",
+    "stat": {
+     "to": 1256,
+     "label": "homes burned"
+    }
+   }
+  },
+  {
+   "id": "a4",
+   "text": "About ten thousand people were left homeless.",
+   "visual": {
+    "kind": "stat",
+    "image": "ruins",
+    "stat": {
+     "to": 10000,
+     "label": "people left homeless",
+     "prefix": "about "
+    }
+   }
+  },
+  {
+   "id": "a5",
+   "text": "Newspapers across the country carried the story. Tulsa dead total eighty-five, said the Boston Daily Globe.",
+   "visual": {
+    "kind": "card",
+    "image": "globe",
+    "caption": "Boston Daily Globe, June 2, 1921",
+    "crop": [
+     0,
+     0.02,
+     1,
+     0.5
+    ],
+    "mark": [
+     0.04,
+     0.165,
+     0.92,
+     0.235
+    ]
+   }
+  },
+  {
+   "id": "a6",
+   "text": "The official count was later put at thirty-six. Historians believe the real number was far higher, perhaps as many as three hundred.",
+   "visual": {
+    "kind": "title",
+    "title": "36 to 300",
+    "sub": "official count · historians' estimates"
+   }
+  },
+  {
+   "id": "a7",
+   "text": "Up to six thousand Black Tulsans were held under armed guard, at Convention Hall, the fairgrounds, and a baseball park.",
+   "visual": {
+    "kind": "stat",
+    "image": "camp",
+    "stat": {
+     "to": 6000,
+     "label": "held under armed guard",
+     "prefix": "up to "
+    }
+   }
+  },
+  {
+   "id": "a8",
+   "text": "To leave, they had to carry identification cards.",
+   "visual": {
+    "kind": "card",
+    "image": "camp",
+    "caption": "Entrance to the camp at the fairgrounds, 1921 (Library of Congress)"
+   }
+  },
+  {
+   "id": "a9",
+   "text": "Thousands spent the winter in tents.",
+   "visual": {
+    "kind": "card",
+    "image": "tents",
+    "caption": "A tent home in Greenwood, 1921 (Library of Congress)"
+   }
+  },
+  {
+   "id": "a10",
+   "text": "Residents filed claims worth more than one point eight million dollars. The claims were turned down.",
+   "visual": {
+    "kind": "stat",
+    "image": "after",
+    "stat": {
+     "to": 1800000,
+     "label": "in claims, turned down",
+     "prefix": "$"
+    }
+   }
+  },
+  {
+   "id": "a11",
+   "text": "The city passed a new fire ordinance that would have kept many from rebuilding.",
+   "visual": {
+    "kind": "card",
+    "image": "shacks",
+    "caption": "Rebuilding in Greenwood, 1921 (Library of Congress)"
+   }
+  },
+  {
+   "id": "a12",
+   "text": "Buck Colbert Franklin and other Black lawyers challenged it in court, working out of a tent. They won.",
+   "visual": {
+    "kind": "title",
+    "title": "They won",
+    "sub": "the ordinance is struck down"
+   }
+  },
+  {
+   "id": "a13",
+   "text": "A grand jury blamed the violence on Black Tulsans. No white person was ever sent to prison for it.",
+   "visual": {
+    "kind": "title",
+    "title": "No one",
+    "sub": "was sent to prison"
+   }
+  },
+  {
+   "id": "a14",
+   "text": "And Dick Rowland? The charges against him were dropped.",
+   "visual": {
+    "kind": "title",
+    "title": "Dick Rowland",
+    "sub": "charges dropped"
+   }
+  },
+  {
+   "id": "x0",
+   "text": "Chapter six. The silence.",
+   "visual": {
+    "kind": "chapter",
+    "num": 6,
+    "title": "The Silence"
+   },
+   "section": "silence",
+   "captions": false
+  },
+  {
+   "id": "x1",
+   "text": "Greenwood rebuilt, house by house, with little help from the city.",
+   "visual": {
+    "kind": "card",
+    "image": "rebuild",
+    "caption": "Rebuilding Greenwood, 1921 (Library of Congress)"
+   }
+  },
+  {
+   "id": "x2",
+   "text": "But the massacre itself was left out of the history books. For decades, it was barely taught, even in Tulsa.",
+   "visual": {
+    "kind": "title",
+    "title": "Silence",
+    "sub": "for decades"
+   }
+  },
+  {
+   "id": "x3",
+   "text": "In 1997, Oklahoma created a commission to investigate. Its report, in 2001, recommended reparations.",
+   "visual": {
+    "kind": "title",
+    "title": "2001",
+    "sub": "the Oklahoma Commission report"
+   }
+  },
+  {
+   "id": "x4",
+   "text": "In 2020, researchers began searching Oaklawn Cemetery for the graves of victims.",
+   "visual": {
+    "kind": "card",
+    "image": "oaklawn",
+    "caption": "Oaklawn Cemetery, Tulsa, 2020 (Carol M. Highsmith, Library of Congress)"
+   }
+  },
+  {
+   "id": "x5",
+   "text": "In January 2025, the U.S. Justice Department called it a coordinated, military-style attack on Greenwood.",
+   "visual": {
+    "kind": "quote",
+    "quote": "A coordinated, military-style attack on Greenwood.",
+    "by": "U.S. Department of Justice, January 2025"
+   }
+  },
+  {
+   "id": "x6",
+   "text": "It also found that no one responsible was still alive to prosecute.",
+   "visual": {
+    "kind": "photo",
+    "image": "ruins",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "c1",
+   "text": "Greenwood was built by people who had been shut out, and who made something of their own.",
+   "visual": {
+    "kind": "photo",
+    "image": "panorama",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.05
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "c2",
+   "text": "In one night and one morning, it was burned to the ground.",
+   "visual": {
+    "kind": "photo",
+    "image": "inflames",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "text": "Then the story was buried, for most of a century.",
+   "visual": {
+    "kind": "photo",
+    "image": "after",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "c4",
+   "text": "That was Black Wall Street. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "h1": [
+   "OHS",
+   "WIKI",
+   "HIST"
+  ],
+  "h2": [
+   "OHS",
+   "HIST"
+  ],
+  "h3": [
+   "WIKIG",
+   "WIKI",
+   "HIST"
+  ],
+  "h4": [
+   "WIKI",
+   "HIST"
+  ],
+  "g1": [
+   "REPORT",
+   "WIKI"
+  ],
+  "g3": [
+   "OHSG",
+   "WIKIG"
+  ],
+  "g4": [
+   "OHS",
+   "WIKIG"
+  ],
+  "g5": [
+   "REPORT",
+   "WIKIG"
+  ],
+  "g6": [
+   "REPORT",
+   "WIKIG"
+  ],
+  "g7": [
+   "OHS",
+   "HIST",
+   "REPORT"
+  ],
+  "g8": [
+   "OHS",
+   "REPORT"
+  ],
+  "g9": [
+   "REPORT",
+   "WIKIG"
+  ],
+  "g10": [
+   "WIKIG",
+   "HIST"
+  ],
+  "g11": [
+   "REPORT",
+   "WIKIG"
+  ],
+  "s1": [
+   "OHS",
+   "WIKI",
+   "HIST"
+  ],
+  "s2": [
+   "WIKI",
+   "HIST"
+  ],
+  "s3": [
+   "OHS",
+   "HIST"
+  ],
+  "s4": [
+   "OHS",
+   "WIKI"
+  ],
+  "s5": [
+   "WIKI",
+   "HIST"
+  ],
+  "s6": [
+   "OHS",
+   "WIKI"
+  ],
+  "s7": [
+   "OHS",
+   "WIKI"
+  ],
+  "n1": [
+   "OHS",
+   "HIST"
+  ],
+  "n2": [
+   "OHS",
+   "HIST"
+  ],
+  "n3": [
+   "OHS",
+   "HIST"
+  ],
+  "n4": [
+   "OHS",
+   "HIST"
+  ],
+  "n5": [
+   "OHS",
+   "HIST",
+   "WIKI"
+  ],
+  "n6": [
+   "OHS",
+   "WIKI"
+  ],
+  "n8": [
+   "OHS",
+   "REPORT"
+  ],
+  "n9": [
+   "OHS",
+   "SMITH",
+   "DOJ"
+  ],
+  "n10": [
+   "OHS",
+   "WIKI"
+  ],
+  "m1": [
+   "OHS",
+   "WIKI"
+  ],
+  "m2": [
+   "REPORT",
+   "WIKI"
+  ],
+  "m4": [
+   "OHS",
+   "HIST"
+  ],
+  "m5": [
+   "OHS",
+   "REPORT"
+  ],
+  "m6": [
+   "OHS",
+   "REPORT"
+  ],
+  "m7": [
+   "SMITH",
+   "WIKI"
+  ],
+  "m8": [
+   "SMITH",
+   "WIKI"
+  ],
+  "m9": [
+   "WIKI",
+   "REPORT"
+  ],
+  "m10": [
+   "OHS",
+   "REPORT"
+  ],
+  "m11": [
+   "OHS",
+   "REPORT"
+  ],
+  "m12": [
+   "REPORT",
+   "WIKI"
+  ],
+  "m13": [
+   "OHS",
+   "WIKI"
+  ],
+  "m14": [
+   "WIKI",
+   "HIST"
+  ],
+  "m15": [
+   "WIKI",
+   "GLOBE"
+  ],
+  "a2": [
+   "OHSG",
+   "HIST",
+   "WIKI",
+   "SMITH"
+  ],
+  "a3": [
+   "REPORT",
+   "HIST",
+   "WIKI"
+  ],
+  "a4": [
+   "REPORT",
+   "WIKI"
+  ],
+  "a5": [
+   "GLOBE"
+  ],
+  "a6": [
+   "HIST",
+   "WIKI",
+   "REPORT"
+  ],
+  "a7": [
+   "REPORT",
+   "WIKI",
+   "HIST"
+  ],
+  "a8": [
+   "REPORT",
+   "WIKI"
+  ],
+  "a9": [
+   "OHS",
+   "REPORT"
+  ],
+  "a10": [
+   "REPORT",
+   "WIKI"
+  ],
+  "a11": [
+   "REPORT",
+   "WIKI"
+  ],
+  "a12": [
+   "SMITH",
+   "WIKI",
+   "REPORT"
+  ],
+  "a13": [
+   "OHS",
+   "REPORT",
+   "WIKI"
+  ],
+  "a14": [
+   "HIST",
+   "OHS"
+  ],
+  "x1": [
+   "OHS",
+   "OHSG",
+   "SMITH"
+  ],
+  "x2": [
+   "WIKI",
+   "HIST"
+  ],
+  "x3": [
+   "OHS",
+   "WIKI",
+   "HIST"
+  ],
+  "x4": [
+   "WIKI",
+   "LOCOAK"
+  ],
+  "x5": [
+   "DOJ",
+   "WIKI",
+   "AXIOS"
+  ],
+  "x6": [
+   "DOJ",
+   "AXIOS"
+  ]
+ },
+ "sources": {
+  "OHS": {
+   "url": "https://www.okhistory.org/publications/enc/entry?entry=TU013"
+  },
+  "OHSG": {
+   "url": "https://www.okhistory.org/publications/enc/entry?entry=GR024"
+  },
+  "REPORT": {
+   "url": "https://www.okhistory.org/research/forms/freport.pdf"
+  },
+  "HIST": {
+   "url": "https://www.history.com/articles/tulsa-race-massacre"
+  },
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Tulsa_race_massacre"
+  },
+  "WIKIG": {
+   "url": "https://en.wikipedia.org/wiki/Greenwood_District,_Tulsa"
+  },
+  "SMITH": {
+   "url": "https://www.smithsonianmag.com/smithsonian-institution/unseen-written-account-offers-eyewitness-perspective-tulsa-race-massacre-1921-180959192/"
+  },
+  "DOJ": {
+   "url": "https://www.justice.gov/crt/media/1384116/dl"
+  },
+  "AXIOS": {
+   "url": "https://www.axios.com/2025/01/10/tulsa-race-massacre-justice-department-report"
+  },
+  "GLOBE": {
+   "url": "https://commons.wikimedia.org/wiki/File:Boston_Daily_Globe_June_2,_1921.jpg"
+  },
+  "LOCOAK": {
+   "url": "https://www.loc.gov/item/2020743572/"
+  }
+ },
+ "notUsed": [
+  "Photos of the dead (several LOC and Commons images): not used.",
+  "Tulsa population in 1921 (sources differ, about 72,000 to 100,000): not used.",
+  "\"Largest Black-owned hotel in the country\" for the Stradford: not confirmed by two sources; script says \"a modern brick hotel\".",
+  "Dreamland seating (750, Report only): not used.",
+  "Gurley buying 40 acres \"only to Black buyers\" (Report notes it may be apocryphal): script says he bought land and sold lots to Black families.",
+  "Turpentine bombs dropped from planes: disputed (Report, Wikipedia); script says historians still debate what the planes did.",
+  "The \"To Lynch Negro Tonight\" editorial: no copy survives; told as \"some people remembered\".",
+  "Green cards / white employer vouching for release (Report only): script says identification cards.",
+  "Church photo: LOC caption calls it a church \"where ammunition was stored\" (a 1921 claim); not identified as Mount Zion on screen, captioned \"a church burns\".",
+  "Hours: 7:30 PM, 9 PM, 10 PM, 5 AM, 9:15 AM are approximate (OHS, Report); martial law 11:49 AM (Wikipedia, Globe subhead)."
+ ]
+}

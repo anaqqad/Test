@@ -21,7 +21,7 @@ export const DocCard: React.FC<{ beat: DocBeat; spec: DocSpec; duration: number 
   const inn = reveal(frame, 0, 14);
   const drift = interpolate(frame, [0, duration], [1, 1.05], { extrapolateRight: "clamp" });
   const pad = 14;
-  const area: Rect = { x: 260, y: 90, w: 1400, h: 760 };
+  const area: Rect = { x: 260, y: 116, w: 1400, h: 734 };
   const { image, crop: c } = fitCrop(iw, ih, crop, { x: area.x + pad, y: area.y + pad, w: area.w - 2 * pad, h: area.h - 2 * pad });
   const local = (r: Rect): Rect => ({ x: r.x - c.x, y: r.y - c.y, w: r.w, h: r.h });
   return (
@@ -47,12 +47,107 @@ export const DocCard: React.FC<{ beat: DocBeat; spec: DocSpec; duration: number 
           <Img src={staticFile(`pd/${spec.id}/${key}.jpg`)} style={{ position: "absolute", ...toCss(local(image)), filter: SEPIA }} />
         </div>
       </div>
+      {v.mark ? <Marker crop={c} image={image} mark={v.mark as [number, number, number, number]} drift={drift} pad={pad} /> : null}
       {v.caption ? (
         <div style={{ position: "absolute", left: 0, right: 0, top: c.y + c.h + pad + 18, textAlign: "center", opacity: reveal(frame, 10, 12) }}>
           <span style={{ fontFamily: serif, fontStyle: "italic", fontSize: 30, color: B.creamDim }}>{v.caption}</span>
         </div>
       ) : null}
     </AbsoluteFill>
+  );
+};
+
+/**
+ * Gold marker drawn around a region of the card's image (fractions of the full image), like a highlighter
+ * on an archive print: the outline draws itself, then the rest of the print dims a little.
+ */
+const Marker: React.FC<{ crop: Rect; image: Rect; mark: [number, number, number, number]; drift: number; pad: number }> = ({ crop, image, mark, drift, pad }) => {
+  const frame = useCurrentFrame();
+  const [mx, my, mw, mh] = mark;
+  // region on screen, clipped to the visible crop
+  const x0 = Math.max(crop.x, image.x + mx * image.w);
+  const y0 = Math.max(crop.y, image.y + my * image.h);
+  const x1 = Math.min(crop.x + crop.w, image.x + (mx + mw) * image.w);
+  const y1 = Math.min(crop.y + crop.h, image.y + (my + mh) * image.h);
+  const w = Math.max(0, x1 - x0);
+  const h = Math.max(0, y1 - y0);
+  const per = 2 * (w + h);
+  const draw = interpolate(frame, [14, 38], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_OUT });
+  const dim = reveal(frame, 30, 14) * 0.45;
+  // the card scales about its own centre; follow it
+  const cx = crop.x + crop.w / 2;
+  const cy = crop.y + crop.h / 2;
+  const tf = `translate(${cx}px, ${cy}px) scale(${drift}) translate(${-cx}px, ${-cy}px)`;
+  return (
+    <AbsoluteFill style={{ transform: tf, transformOrigin: "0 0", pointerEvents: "none" }}>
+      <svg width={1920} height={1080} style={{ position: "absolute", left: 0, top: 0 }}>
+        <defs>
+          <mask id="mk">
+            <rect x={crop.x - pad} y={crop.y - pad} width={crop.w + 2 * pad} height={crop.h + 2 * pad} fill="white" />
+            <rect x={x0} y={y0} width={w} height={h} fill="black" />
+          </mask>
+        </defs>
+        <rect x={crop.x} y={crop.y} width={crop.w} height={crop.h} fill={`rgba(14,12,10,${dim})`} mask="url(#mk)" />
+        <rect x={x0} y={y0} width={w} height={h} fill="none" stroke={B.gold} strokeWidth={7} strokeDasharray={per} strokeDashoffset={per * (1 - draw)} style={{ filter: "drop-shadow(0 0 10px rgba(226,178,74,0.7))" }} />
+      </svg>
+    </AbsoluteFill>
+  );
+};
+
+/** A number that counts up, gold, with a short label: "1,256 / homes burned". Optional blurred image behind. */
+export const StatCard: React.FC<{ spec: DocSpec; image?: string; to: number; from: number; prefix: string; suffix: string; label: string; duration: number }> = ({ spec, image, to, from, prefix, suffix, label, duration }) => {
+  const frame = useCurrentFrame();
+  const p = interpolate(frame, [6, Math.min(54, Math.max(20, duration * 0.5))], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_OUT });
+  const n = Math.round(from + (to - from) * p);
+  const a = reveal(frame, 0, 12);
+  const b = reveal(frame, 22, 14);
+  const pulse = interpolate(frame, [Math.min(54, duration * 0.5), Math.min(54, duration * 0.5) + 10], [1.04, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ backgroundColor: B.black, overflow: "hidden" }}>
+      {image ? (
+        <Img
+          src={staticFile(`pd/${spec.id}/${image}.jpg`)}
+          style={{ position: "absolute", inset: -80, width: "calc(100% + 160px)", height: "calc(100% + 160px)", objectFit: "cover", filter: `${SEPIA} blur(18px) brightness(0.32)`, transform: `scale(${interpolate(frame, [0, duration], [1.05, 1.12])})` }}
+        />
+      ) : null}
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 46%, rgba(226,178,74,0.16) 0%, rgba(14,12,10,0) 60%)" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, top: 250, display: "flex", flexDirection: "column", alignItems: "center", gap: 22, textAlign: "center" }}>
+        <div style={{ fontFamily: serif, fontWeight: 900, fontSize: 250, lineHeight: 1, color: B.gold, opacity: a, fontVariantNumeric: "tabular-nums", transform: `scale(${pulse})`, textShadow: "0 10px 50px rgba(0,0,0,0.85)" }}>
+          {/[a-z]/i.test(prefix) ? <span style={{ fontSize: "0.36em", fontStyle: "italic", fontWeight: 600, color: B.cream, marginRight: 24, verticalAlign: "0.9em" }}>{prefix.trim()}</span> : prefix}
+          {n.toLocaleString("en-US")}
+          {suffix}
+        </div>
+        <div style={{ height: 5, width: 200 * b, background: B.gold }} />
+        <div style={{ fontFamily: sans, fontWeight: 700, fontSize: 46, letterSpacing: 10, color: B.cream, textTransform: "uppercase", opacity: b }}>{label}</div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/** Small chapter tag, top right: "CHAPTER 2 · THE SPARK". Fades in at the start of each chapter, then stays quietly. */
+export const ChapterTag: React.FC<{ num: number; title: string; offset: number }> = ({ num, title, offset }) => {
+  const sinceStart = offset + useCurrentFrame();
+  const a = interpolate(sinceStart, [0, 12, 120, 150], [0, 1, 1, 0.7], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const x = interpolate(sinceStart, [0, 14], [24, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_OUT });
+  return (
+    <div style={{ position: "absolute", right: M, top: 34, opacity: a, padding: "8px 18px", borderRadius: 4, background: "rgba(14,12,10,0.72)", transform: `translateX(${x}px)`, display: "flex", alignItems: "center", gap: 16 }}>
+      <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 22, letterSpacing: 6, color: B.gold }}>CHAPTER {num}</div>
+      <div style={{ width: 2, height: 26, background: B.gold, opacity: 0.8 }} />
+      <div style={{ fontFamily: serif, fontStyle: "italic", fontWeight: 600, fontSize: 30, color: B.cream, textShadow: "0 2px 12px rgba(0,0,0,0.9)" }}>{title}</div>
+    </div>
+  );
+};
+
+/** Film look: soft vignette plus fine grain (a tiled noise image shifted every frame). */
+export const Grain: React.FC = () => {
+  const frame = useCurrentFrame();
+  const ox = (frame * 73) % 256;
+  const oy = (frame * 131) % 256;
+  return (
+    <>
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.42) 100%)", pointerEvents: "none" }} />
+      <AbsoluteFill style={{ backgroundImage: `url(${staticFile("fx/grain.png")})`, backgroundPosition: `${ox}px ${oy}px`, opacity: 0.07, mixBlendMode: "overlay", pointerEvents: "none" }} />
+    </>
   );
 };
 
