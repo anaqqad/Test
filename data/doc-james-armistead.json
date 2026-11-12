@@ -1,0 +1,1204 @@
+{
+ "id": "doc-james-armistead",
+ "title": "The Enslaved Spy Who Helped Win the American Revolution",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Rochambeau": "Roe-shahm-bo",
+  "Armistead": "Armisted",
+  "Blennerhassett": "Blenner-hassett",
+  "Cornwallis": "Corn-wallis"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "james": {
+   "commons": "File:James Lafayette.jpg"
+  },
+  "cert": {
+   "commons": "File:Marquis de Lafayette James Armistead Lafayette.jpeg"
+  },
+  "lafayette82": {
+   "commons": "File:The honble. Marquis Lafayette, major general of the American army LCCN2003689172.jpg"
+  },
+  "lafayette25": {
+   "commons": "File:The Marquis de Lafayette MET DT2057.jpg"
+  },
+  "cornwallis": {
+   "commons": "File:Charles Cornwallis, 1st Marquess Cornwallis.png"
+  },
+  "arnold": {
+   "commons": "File:Benedict Arnold 1.jpg"
+  },
+  "surrender": {
+   "commons": "File:Surrender of Lord Cornwallis.jpg"
+  },
+  "deverger": {
+   "commons": "File:Soldiers at the siege of Yorktown (1781), by Jean-Baptiste-Antoine DeVerger.png"
+  },
+  "yorkplan": {
+   "commons": "File:Siege d'York, 1781. Plan d'York en Virginie avec les attaques et les campemens de l'Armée combinée de France et d'Amérique. LOC gm71002176.jpg"
+  },
+  "portsmouth": {
+   "commons": "File:Plan de Portsmouth en Virginie. LOC gm71002169.jpg"
+  },
+  "environs": {
+   "commons": "File:Plan des environs de Williamsburg, York, Hampton, et Portsmouth. LOC gm71002173.jpg"
+  },
+  "moore": {
+   "commons": "File:Moore House, Yorktown, Va.jpg"
+  },
+  "renault": {
+   "commons": "File:The surrender of Cornwallis at Yorktown A.D. 1781 LCCN2004670530.jpg"
+  },
+  "wlt": {
+   "commons": "File:Washington, Lafayette & Tilghman at Yorktown.jpg"
+  },
+  "medal": {
+   "commons": "File:Medal of the Marquis de Lafayette MET 25792.jpg"
+  },
+  "oldnk": {
+   "commons": "File:Old NewKent6.jpg"
+  },
+  "reddition": {
+   "commons": "File:Reddition armee anglaise a Yorktown 1781 avec blocus naval.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "h1",
+   "text": "In 1781, a British army under Lord Cornwallis was marching through Virginia. An American army under a young French general, the Marquis de Lafayette, was trying to stop it.",
+   "visual": {
+    "kind": "photo",
+    "image": "environs",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ]
+   },
+   "overlays": {
+    "hook": "The spy who helped win Yorktown."
+   }
+  },
+  {
+   "id": "h2",
+   "text": "Lafayette needed to know what the British were planning.",
+   "visual": {
+    "kind": "card",
+    "image": "lafayette82",
+    "caption": "The Marquis de Lafayette, 1782"
+   }
+  },
+  {
+   "id": "h3",
+   "text": "One of the men he relied on was enslaved. His name was James.",
+   "visual": {
+    "kind": "card",
+    "image": "james",
+    "caption": "James Lafayette, portrait by John B. Martin, 1824"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "James Lafayette",
+     "sub": "spy for Lafayette, 1781"
+    }
+   }
+  },
+  {
+   "id": "h4",
+   "text": "James went into the British camp, again and again, and carried what he learned back to Lafayette.",
+   "visual": {
+    "kind": "photo",
+    "image": "james",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "h5",
+   "text": "That October, Cornwallis surrendered at Yorktown.",
+   "visual": {
+    "kind": "card",
+    "image": "surrender",
+    "caption": "The Surrender of Lord Cornwallis, by John Trumbull"
+   },
+   "overlays": {
+    "stamp": "19 October 1781"
+   }
+  },
+  {
+   "id": "h6",
+   "text": "But when the war was over, James was still enslaved. This is the story of how he won his freedom.",
+   "visual": {
+    "kind": "title",
+    "title": "Still enslaved",
+    "sub": "after the war he helped win"
+   }
+  },
+  {
+   "id": "h7",
+   "text": "He never fired a shot. His weapon was what he heard.",
+   "visual": {
+    "kind": "photo",
+    "image": "james",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "e1",
+   "text": "James was born around 1748, most likely in New Kent County, Virginia.",
+   "visual": {
+    "kind": "title",
+    "title": "About 1748",
+    "sub": "New Kent County, Virginia"
+   },
+   "section": "early"
+  },
+  {
+   "id": "e2",
+   "text": "He was enslaved by a man named William Armistead.",
+   "visual": {
+    "kind": "title",
+    "title": "William Armistead",
+    "sub": "his enslaver"
+   }
+  },
+  {
+   "id": "e3",
+   "text": "During the Revolution, Armistead managed military supplies for Virginia.",
+   "visual": {
+    "kind": "card",
+    "image": "environs",
+    "caption": "Williamsburg, York, Hampton and Portsmouth, French map, 1781"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "In 1780, Virginia moved its capital from Williamsburg to Richmond, and James most likely went with Armistead.",
+   "visual": {
+    "kind": "title",
+    "title": "1780",
+    "sub": "Williamsburg to Richmond"
+   }
+  },
+  {
+   "id": "e5",
+   "text": "That is nearly all we know of his early life. Even his birth year is uncertain. He left no diary, and the records are thin.",
+   "visual": {
+    "kind": "photo",
+    "image": "james",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "e6",
+   "text": "Today he is usually called James Armistead Lafayette, after both the family that enslaved him and the general he served.",
+   "visual": {
+    "kind": "card",
+    "image": "james",
+    "caption": "James Lafayette, portrait by John B. Martin, 1824"
+   }
+  },
+  {
+   "id": "l1",
+   "text": "In 1781, the war came to Virginia.",
+   "visual": {
+    "kind": "title",
+    "title": "1781",
+    "sub": "the war comes to Virginia"
+   },
+   "section": "war"
+  },
+  {
+   "id": "l2",
+   "text": "Benedict Arnold, the American general who had gone over to the British, led raids there from a base at Portsmouth.",
+   "visual": {
+    "kind": "card",
+    "image": "arnold",
+    "caption": "Benedict Arnold"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Portsmouth",
+     "sub": "Virginia"
+    }
+   }
+  },
+  {
+   "id": "l3",
+   "text": "Then Lord Cornwallis brought his army north into Virginia.",
+   "visual": {
+    "kind": "card",
+    "image": "cornwallis",
+    "caption": "Charles, Lord Cornwallis"
+   }
+  },
+  {
+   "id": "l4",
+   "text": "Facing him was the Marquis de Lafayette, a young French nobleman in command of the Continental Army in Virginia.",
+   "visual": {
+    "kind": "card",
+    "image": "lafayette82",
+    "caption": "The Marquis de Lafayette, major general of the American army, 1782"
+   }
+  },
+  {
+   "id": "l5",
+   "text": "In the summer of 1781, by most accounts with his enslaver's permission, James went to serve Lafayette.",
+   "visual": {
+    "kind": "photo",
+    "image": "lafayette82",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "l6",
+   "text": "He did not take up arms. On paper he was a servant. In fact, he was a spy.",
+   "visual": {
+    "kind": "title",
+    "title": "A spy",
+    "sub": "not a soldier"
+   }
+  },
+  {
+   "id": "s1",
+   "text": "Most accounts say he posed as a runaway slave, and made his way into the British camp.",
+   "visual": {
+    "kind": "card",
+    "image": "portsmouth",
+    "caption": "Portsmouth, Virginia, French plan, 1781"
+   },
+   "section": "spy"
+  },
+  {
+   "id": "s2",
+   "text": "The British needed men who knew the local roads. He guided their troops, earned their trust, and listened.",
+   "visual": {
+    "kind": "photo",
+    "image": "portsmouth",
+    "focus": [
+     0.55,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.35
+    ]
+   }
+  },
+  {
+   "id": "s2b",
+   "text": "He reported where the British troops were posted, and what arms they had.",
+   "visual": {
+    "kind": "title",
+    "title": "Troops and arms",
+    "sub": "what he reported"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "Many accounts go further. They say he became a servant at Cornwallis's own headquarters, and that the British asked him to spy on the Americans.",
+   "visual": {
+    "kind": "card",
+    "image": "cornwallis",
+    "caption": "Lord Cornwallis"
+   }
+  },
+  {
+   "id": "s3b",
+   "text": "Lafayette's own letters to George Washington, written in July and August 1781, mention an informant in Cornwallis's camp. They do not give his name.",
+   "visual": {
+    "kind": "card",
+    "image": "lafayette82",
+    "caption": "The Marquis de Lafayette"
+   }
+  },
+  {
+   "id": "s4",
+   "text": "If so, he was a double agent. He brought true reports to Lafayette, and false ones back to the British.",
+   "visual": {
+    "kind": "title",
+    "title": "Double agent",
+    "sub": "true reports one way, false ones the other"
+   }
+  },
+  {
+   "id": "s4b",
+   "text": "Every trip across the lines was a risk. One wrong word, one letter found, and it would be over.",
+   "visual": {
+    "kind": "photo",
+    "image": "portsmouth",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "s5",
+   "text": "In late August, Lafayette learned that Cornwallis had moved his army from Portsmouth to Yorktown, on the York River.",
+   "visual": {
+    "kind": "card",
+    "image": "yorkplan",
+    "caption": "Yorktown, French plan of the siege, 1781"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Yorktown",
+     "sub": "Virginia"
+    }
+   }
+  },
+  {
+   "id": "s6",
+   "text": "At Yorktown, with the river at his back, Cornwallis could be trapped by land and by sea.",
+   "visual": {
+    "kind": "photo",
+    "image": "yorkplan",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "s7",
+   "text": "George Washington and the French general Rochambeau marched south. A French fleet sailed into the Chesapeake Bay.",
+   "visual": {
+    "kind": "card",
+    "image": "wlt",
+    "caption": "Washington, Lafayette and Tilghman at Yorktown, by Charles Willson Peale"
+   }
+  },
+  {
+   "id": "s8",
+   "text": "The allied armies dug in around the town, and the siege began.",
+   "visual": {
+    "kind": "card",
+    "image": "deverger",
+    "caption": "Soldiers at the siege of Yorktown, sketched by a French officer, 1781"
+   }
+  },
+  {
+   "id": "s8b",
+   "text": "For about three weeks, cannon fire pounded the British lines.",
+   "visual": {
+    "kind": "photo",
+    "image": "reddition",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "s9",
+   "text": "On October 19, 1781, Cornwallis surrendered his army.",
+   "visual": {
+    "kind": "card",
+    "image": "renault",
+    "caption": "The surrender at Yorktown, engraving"
+   },
+   "overlays": {
+    "stamp": "19 October 1781"
+   }
+  },
+  {
+   "id": "s9b",
+   "text": "Thousands of British and German soldiers marched out and laid down their arms.",
+   "visual": {
+    "kind": "card",
+    "image": "reddition",
+    "caption": "The British surrender at Yorktown, French print, 1781"
+   }
+  },
+  {
+   "id": "s10",
+   "text": "The war was all but won.",
+   "visual": {
+    "kind": "photo",
+    "image": "surrender",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "k1",
+   "text": "How much of the spy story can we prove? Less than the legend.",
+   "visual": {
+    "kind": "title",
+    "title": "What we can prove",
+    "sub": ""
+   },
+   "section": "record"
+  },
+  {
+   "id": "k2",
+   "text": "Historians point out that the surviving papers, his own petition and Lafayette's letter, do not say that he served Cornwallis himself.",
+   "visual": {
+    "kind": "card",
+    "image": "cert",
+    "caption": "Lafayette's 1784 certificate, printed with James's portrait",
+    "focus": [
+     0.5,
+     0.6
+    ]
+   }
+  },
+  {
+   "id": "k2b",
+   "text": "Some of the legend grew later, from a novel and from storytellers who filled in the gaps.",
+   "visual": {
+    "kind": "title",
+    "title": "Legend",
+    "sub": "and record"
+   }
+  },
+  {
+   "id": "k3",
+   "text": "What those papers do say is striking enough.",
+   "visual": {
+    "kind": "photo",
+    "image": "cert",
+    "focus": [
+     0.5,
+     0.65
+    ],
+    "zoom": [
+     1.2,
+     1.35
+    ]
+   }
+  },
+  {
+   "id": "k4",
+   "text": "In his petition, James said he went into the British camp again and again, at the risk of his life, and carried Lafayette's secret messages into enemy lines.",
+   "visual": {
+    "kind": "title",
+    "title": "At the risk of his life",
+    "sub": "from his own petition"
+   }
+  },
+  {
+   "id": "k5",
+   "text": "If he had been caught, he could have been executed.",
+   "visual": {
+    "kind": "title",
+    "title": "If caught",
+    "sub": "execution"
+   }
+  },
+  {
+   "id": "f1",
+   "text": "After the war, Virginia passed a law freeing enslaved men who had served as soldiers.",
+   "visual": {
+    "kind": "title",
+    "title": "A law for soldiers",
+    "sub": "Virginia, after the war"
+   },
+   "section": "freedom"
+  },
+  {
+   "id": "f1b",
+   "text": "It covered men who had been given a gun and sent to fight, often in their owner's place.",
+   "visual": {
+    "kind": "title",
+    "title": "A gun",
+    "sub": "was the test"
+   }
+  },
+  {
+   "id": "f2",
+   "text": "James had not carried a gun. He had been a spy. The law did not cover him, and he stayed enslaved.",
+   "visual": {
+    "kind": "photo",
+    "image": "james",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "f3",
+   "text": "On November 21, 1784, Lafayette wrote a certificate for him.",
+   "visual": {
+    "kind": "card",
+    "image": "cert",
+    "caption": "Lafayette's 1784 certificate, printed with James's portrait"
+   },
+   "overlays": {
+    "stamp": "21 November 1784"
+   }
+  },
+  {
+   "id": "f4",
+   "text": "This is to certify, it began, that the bearer has done essential services to me while I had the honour to command in this State.",
+   "visual": {
+    "kind": "quote",
+    "quote": "This is to certify that the Bearer has done essential services to me while I had the honour to command in this State.",
+    "by": "Marquis de Lafayette, 21 November 1784"
+   }
+  },
+  {
+   "id": "f5",
+   "text": "His intelligences from the enemy's camp were industriously collected and most faithfully delivered.",
+   "visual": {
+    "kind": "quote",
+    "quote": "His intelligences from the enemy's camp were industriously collected and most faithfully delivered.",
+    "by": "Marquis de Lafayette, 21 November 1784"
+   }
+  },
+  {
+   "id": "f6",
+   "text": "He appears to me entitled to every reward his situation can admit of.",
+   "visual": {
+    "kind": "quote",
+    "quote": "He appears to me entitled to every reward his situation can admit of.",
+    "by": "Marquis de Lafayette, 21 November 1784"
+   }
+  },
+  {
+   "id": "f7",
+   "text": "With that letter, James asked the Virginia legislature for his freedom. His first petition failed.",
+   "visual": {
+    "kind": "title",
+    "title": "First petition",
+    "sub": "denied"
+   }
+  },
+  {
+   "id": "f8",
+   "text": "In 1786 he tried again, and this time William Armistead supported him.",
+   "visual": {
+    "kind": "title",
+    "title": "1786",
+    "sub": "a second petition"
+   }
+  },
+  {
+   "id": "f9",
+   "text": "His petition, dated November 30, 1786, is still kept at the Library of Virginia.",
+   "visual": {
+    "kind": "title",
+    "title": "30 November 1786",
+    "sub": "Library of Virginia"
+   }
+  },
+  {
+   "id": "f10",
+   "text": "On January 9, 1787, the act freeing him became law.",
+   "visual": {
+    "kind": "title",
+    "title": "9 January 1787",
+    "sub": "free"
+   }
+  },
+  {
+   "id": "f10b",
+   "text": "Both houses of the Assembly had passed it, and Governor Edmund Randolph signed it.",
+   "visual": {
+    "kind": "title",
+    "title": "Governor Edmund Randolph",
+    "sub": "signs the act"
+   }
+  },
+  {
+   "id": "f11",
+   "text": "The state paid William Armistead two hundred fifty pounds for him.",
+   "visual": {
+    "kind": "title",
+    "title": "250 pounds",
+    "sub": "paid to his enslaver"
+   }
+  },
+  {
+   "id": "f12",
+   "text": "And James chose a last name. Lafayette.",
+   "visual": {
+    "kind": "card",
+    "image": "james",
+    "caption": "James Lafayette, portrait by John B. Martin, 1824"
+   }
+  },
+  {
+   "id": "a1",
+   "text": "James Lafayette settled in New Kent County, on a farm of about forty acres.",
+   "visual": {
+    "kind": "card",
+    "image": "oldnk",
+    "caption": "New Kent County, Virginia, today"
+   },
+   "section": "later"
+  },
+  {
+   "id": "a2",
+   "text": "He married, and raised a family.",
+   "visual": {
+    "kind": "photo",
+    "image": "james",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "a3",
+   "text": "Records show that he, too, came to own enslaved people. History is rarely simple.",
+   "visual": {
+    "kind": "title",
+    "title": "A free man",
+    "sub": "and a slaveowner"
+   }
+  },
+  {
+   "id": "a4",
+   "text": "By 1818 he was about seventy, poor and in failing health. He asked the legislature for help.",
+   "visual": {
+    "kind": "title",
+    "title": "1818",
+    "sub": "about seventy, and poor"
+   }
+  },
+  {
+   "id": "a5",
+   "text": "It gave him sixty dollars at once, and a pension of forty dollars a year.",
+   "visual": {
+    "kind": "title",
+    "title": "$40 a year",
+    "sub": "a pension from Virginia"
+   }
+  },
+  {
+   "id": "r1",
+   "text": "In 1824, the Marquis de Lafayette came back to America, for a long farewell tour.",
+   "visual": {
+    "kind": "card",
+    "image": "lafayette25",
+    "caption": "The Marquis de Lafayette, 1825"
+   },
+   "section": "reunion"
+  },
+  {
+   "id": "r1b",
+   "text": "The tour lasted more than a year, from July 1824 to September 1825, and took him through all twenty-four states.",
+   "visual": {
+    "kind": "card",
+    "image": "medal",
+    "caption": "A medal struck for Lafayette's visit, 1824"
+   }
+  },
+  {
+   "id": "r2",
+   "text": "Crowds came out wherever he went.",
+   "visual": {
+    "kind": "card",
+    "image": "medal",
+    "caption": "A medal struck for Lafayette's visit, 1824"
+   }
+  },
+  {
+   "id": "r3",
+   "text": "In Virginia, the old general saw James in the crowd. He called him by name, and embraced him.",
+   "visual": {
+    "kind": "photo",
+    "image": "lafayette25",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "r3b",
+   "text": "It was more than forty years after Yorktown.",
+   "visual": {
+    "kind": "title",
+    "title": "43 years",
+    "sub": "after Yorktown"
+   }
+  },
+  {
+   "id": "r4",
+   "text": "That same year, an artist named John Blennerhassett Martin painted James's portrait.",
+   "visual": {
+    "kind": "card",
+    "image": "james",
+    "caption": "James Lafayette, portrait by John B. Martin, 1824"
+   }
+  },
+  {
+   "id": "r5",
+   "text": "It shows him in a dark coat with a white collar. A free man.",
+   "visual": {
+    "kind": "photo",
+    "image": "james",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.1
+    ]
+   }
+  },
+  {
+   "id": "r6",
+   "text": "Copies were printed together with Lafayette's certificate.",
+   "visual": {
+    "kind": "card",
+    "image": "cert",
+    "caption": "Lafayette's 1784 certificate, printed with James's portrait"
+   }
+  },
+  {
+   "id": "r7",
+   "text": "In 1828, a Virginia novel, Edge Hill, told the story of a spy named James.",
+   "visual": {
+    "kind": "title",
+    "title": "Edge Hill",
+    "sub": "a novel, 1828"
+   }
+  },
+  {
+   "id": "r8",
+   "text": "James Lafayette died on his farm in 1830.",
+   "visual": {
+    "kind": "title",
+    "title": "1830",
+    "sub": "New Kent County"
+   }
+  },
+  {
+   "id": "c1",
+   "text": "He went into the enemy camp with nothing but his wits, knowing what would happen if he were caught.",
+   "visual": {
+    "kind": "photo",
+    "image": "yorkplan",
+    "zoom": [
+     1,
+     1.08
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "c1b",
+   "text": "He was born enslaved, served in secret, and was freed by a letter of thanks and an act of the legislature.",
+   "visual": {
+    "kind": "card",
+    "image": "cert",
+    "caption": "Lafayette's 1784 certificate, printed with James's portrait"
+   }
+  },
+  {
+   "id": "c2",
+   "text": "He helped bring about the surrender that won the war. Then he had to fight again, on paper, for his own freedom.",
+   "visual": {
+    "kind": "photo",
+    "image": "surrender",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "text": "He won it. And he took the name of the man who had vouched for him.",
+   "visual": {
+    "kind": "card",
+    "image": "james",
+    "caption": "James Lafayette, portrait by John B. Martin, 1824"
+   }
+  },
+  {
+   "id": "c4",
+   "text": "That was James Lafayette. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "h1": [
+   "OAR",
+   "HIST",
+   "LVA"
+  ],
+  "h3": [
+   "WIKI",
+   "OAR",
+   "LVA"
+  ],
+  "h4": [
+   "JAR",
+   "LVA",
+   "WIKI"
+  ],
+  "h5": [
+   "HIST",
+   "OAR"
+  ],
+  "h6": [
+   "WIKI",
+   "HIST",
+   "OAR"
+  ],
+  "e1": [
+   "OAR",
+   "WIKI"
+  ],
+  "e2": [
+   "WIKI",
+   "OAR",
+   "JAR"
+  ],
+  "e3": [
+   "HIST",
+   "OAR"
+  ],
+  "e4": [
+   "OAR",
+   "HIST"
+  ],
+  "e5": [
+   "JAR",
+   "WIKI"
+  ],
+  "e6": [
+   "WIKI",
+   "OAR"
+  ],
+  "l2": [
+   "WIKI",
+   "HIST"
+  ],
+  "l3": [
+   "HIST",
+   "OAR"
+  ],
+  "l4": [
+   "LVA",
+   "OAR"
+  ],
+  "l5": [
+   "HIST",
+   "OAR",
+   "LVA"
+  ],
+  "l6": [
+   "HIST",
+   "OAR",
+   "WIKI"
+  ],
+  "s1": [
+   "WIKI",
+   "HIST"
+  ],
+  "s2": [
+   "WIKI",
+   "HIST"
+  ],
+  "s3": [
+   "OAR",
+   "HIST",
+   "WIKI"
+  ],
+  "s4": [
+   "OAR",
+   "HIST",
+   "WIKI"
+  ],
+  "s5": [
+   "OAR",
+   "HIST"
+  ],
+  "s6": [
+   "HIST",
+   "OAR"
+  ],
+  "s7": [
+   "HIST",
+   "OAR"
+  ],
+  "s9": [
+   "HIST",
+   "OAR"
+  ],
+  "k2": [
+   "JAR",
+   "LVA"
+  ],
+  "k4": [
+   "JAR",
+   "LVA"
+  ],
+  "k5": [
+   "LVA",
+   "JAR"
+  ],
+  "f1": [
+   "WIKI",
+   "HIST",
+   "OAR"
+  ],
+  "f2": [
+   "WIKI",
+   "HIST",
+   "OAR"
+  ],
+  "f3": [
+   "JAR",
+   "OAR",
+   "CERT"
+  ],
+  "f4": [
+   "HIST",
+   "OAR",
+   "CERT"
+  ],
+  "f5": [
+   "OAR",
+   "JAR",
+   "CERT"
+  ],
+  "f6": [
+   "HIST",
+   "CERT"
+  ],
+  "f7": [
+   "LVA",
+   "WIKI"
+  ],
+  "f8": [
+   "WIKI",
+   "OAR"
+  ],
+  "f9": [
+   "JAR",
+   "LVA"
+  ],
+  "f10": [
+   "WIKI",
+   "OAR"
+  ],
+  "f11": [
+   "OAR",
+   "WIKI"
+  ],
+  "f12": [
+   "WIKI",
+   "OAR",
+   "HIST",
+   "LVA"
+  ],
+  "a1": [
+   "WIKI",
+   "OAR",
+   "LVA",
+   "HIST"
+  ],
+  "a2": [
+   "LVA",
+   "HIST",
+   "WIKI"
+  ],
+  "a3": [
+   "WIKI",
+   "OAR"
+  ],
+  "a4": [
+   "OAR",
+   "LVA"
+  ],
+  "a5": [
+   "WIKI",
+   "OAR"
+  ],
+  "r1": [
+   "JAR",
+   "WIKI"
+  ],
+  "s2b": [
+   "WIKI",
+   "OAR"
+  ],
+  "s3b": [
+   "JAR",
+   "OAR"
+  ],
+  "s8b": [
+   "YT",
+   "BRIT"
+  ],
+  "s9b": [
+   "YT",
+   "BRIT"
+  ],
+  "k2b": [
+   "JAR",
+   "WIKI"
+  ],
+  "f1b": [
+   "WIKI",
+   "HIST"
+  ],
+  "f10b": [
+   "WIKI",
+   "SAR"
+  ],
+  "r1b": [
+   "JAR",
+   "TOUR"
+  ],
+  "r3": [
+   "OAR",
+   "WIKI",
+   "LVA"
+  ],
+  "r4": [
+   "WIKI",
+   "JAR"
+  ],
+  "r6": [
+   "WIKI",
+   "CERT"
+  ],
+  "r7": [
+   "WIKI",
+   "JAR"
+  ],
+  "r8": [
+   "OAR",
+   "LVA"
+  ]
+ },
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/James_Armistead_Lafayette"
+  },
+  "JAR": {
+   "url": "https://allthingsliberty.com/2017/09/james-lafayette-james-armistead-american-spy/"
+  },
+  "HIST": {
+   "url": "https://www.history.com/articles/battle-of-yorktown-slave-spy-james-armistead"
+  },
+  "OAR": {
+   "url": "https://ouramericanrevolution.org/index.cfm/people/view/pp0053"
+  },
+  "LVA": {
+   "url": "https://www.lva.virginia.gov/collections/educator-resources/dbva/items/show/277"
+  },
+  "YT": {
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Yorktown"
+  },
+  "BRIT": {
+   "url": "https://www.britannica.com/event/Siege-of-Yorktown-1781"
+  },
+  "SAR": {
+   "url": "https://blog.alssar.org/?p=1843"
+  },
+  "TOUR": {
+   "url": "https://en.wikipedia.org/wiki/Visit_of_the_Marquis_de_Lafayette_to_the_United_States"
+  },
+  "CERT": {
+   "url": "https://commons.wikimedia.org/wiki/File:Marquis_de_Lafayette_James_Armistead_Lafayette.jpeg"
+  }
+ },
+ "notUsed": [
+  "Serving Cornwallis himself / the \"deception\" story (OAR, History.com, Wikipedia) is not confirmed by surviving papers (Journal of the American Revolution): told as \"many accounts say\", then checked.",
+  "Birth year 1748 (OAR, from his 1818 petition) vs 1760 (some sources): script says \"around 1748\" and \"even his birth year is uncertain\".",
+  "Death 1830 (OAR, Library of Virginia) vs 1832 (some sources): script uses 1830.",
+  "Place of the 1824 embrace: Yorktown (OAR, citing the Richmond Enquirer) vs Richmond (Wikipedia): script says \"in Virginia\".",
+  "Le Paon's 1783 \"Lafayette at Yorktown\" shows an unidentified Black man; often claimed to be James, not confirmed: image not used.",
+  "Number of British troops surrendered: not used."
+ ]
+}

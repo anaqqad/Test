@@ -1,0 +1,74 @@
+{
+  "james": {
+    "title": "File:James Lafayette.jpg",
+    "artist": "John Blennerhassett Martin",
+    "date": "1824-01-01",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Lafayette.jpg",
+    "width": 1920,
+    "height": 2326
+  },
+  "cert": {
+    "title": "File:Marquis de Lafayette James Armistead Lafayette.jpeg",
+    "artist": "Marquis de Lafayette",
+    "date": "1784-11-21",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Marquis_de_Lafayette_James_Armistead_Lafayette.jpeg",
+    "width": 500,
+    "height": 603
+  },
+  "lafayette82": {
+    "title": "File:The honble. Marquis Lafayette, major general of the American army LCCN2003689172.jpg",
+    "artist": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+    "date": "1782",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:The_honble._Marquis_Lafayette,_major_general_of_the_American_army_LCCN2003689172.jpg",
+    "width": 960,
+    "height": 1284
+  },
+  "cornwallis": {
+    "title": "File:Charles Cornwallis, 1st Marquess Cornwallis.png",
+    "artist": "Thomas Gainsborough",
+    "date": "1783-01-01",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Cornwallis,_1st_Marquess_Cornwallis.png",
+    "width": 1280,
+    "height": 1524
+  },
+  "yorkplan": {
+    "title": "File:Siege d'York, 1781. Plan d'York en Virginie avec les attaques et les campemens de l'Armée combinée de France et d'Amérique. LOC gm71002176.jpg",
+    "artist": "Querenet De La Combe",
+    "date": "1781",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Siege_d%27York,_1781._Plan_d%27York_en_Virginie_avec_les_attaques_et_les_campemens_de_l%27Arm%C3%A9e_combin%C3%A9e_de_France_et_d%27Am%C3%A9rique._LOC_gm71002176.jpg",
+    "width": 1920,
+    "height": 1415
+  },
+  "surrender": {
+    "title": "File:Surrender of Lord Cornwallis.jpg",
+    "artist": "John Trumbull",
+    "date": "1820, placed 1826",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Surrender_of_Lord_Cornwallis.jpg",
+    "width": 1920,
+    "height": 1266
+  },
+  "oldnk": {
+    "title": "File:Old NewKent6.jpg",
+    "artist": "Urbancam",
+    "date": "2007-08-16",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_NewKent6.jpg",
+    "width": 1920,
+    "height": 2560
+  },
+  "lafayette25": {
+    "title": "File:The Marquis de Lafayette MET DT2057.jpg",
+    "artist": "Rembrandt Peale",
+    "date": "1825",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Marquis_de_Lafayette_MET_DT2057.jpg",
+    "width": 1920,
+    "height": 2389
+  }
+}

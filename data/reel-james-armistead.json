@@ -1,0 +1,293 @@
+{
+ "id": "reel-james-armistead",
+ "title": "The Enslaved Spy Who Helped Win Yorktown",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Rochambeau": "Roe-shahm-bo",
+  "Armistead": "Arm-ih-sted",
+  "Blennerhassett": "Blenner-hassett",
+  "Cornwallis": "Corn-wallis"
+ },
+ "assets": {
+  "james": {
+   "commons": "File:James Lafayette.jpg"
+  },
+  "cert": {
+   "commons": "File:Marquis de Lafayette James Armistead Lafayette.jpeg"
+  },
+  "lafayette82": {
+   "commons": "File:The honble. Marquis Lafayette, major general of the American army LCCN2003689172.jpg"
+  },
+  "cornwallis": {
+   "commons": "File:Charles Cornwallis, 1st Marquess Cornwallis.png"
+  },
+  "yorkplan": {
+   "commons": "File:Siege d'York, 1781. Plan d'York en Virginie avec les attaques et les campemens de l'Armée combinée de France et d'Amérique. LOC gm71002176.jpg"
+  },
+  "surrender": {
+   "commons": "File:Surrender of Lord Cornwallis.jpg"
+  },
+  "oldnk": {
+   "commons": "File:Old NewKent6.jpg"
+  },
+  "lafayette25": {
+   "commons": "File:The Marquis de Lafayette MET DT2057.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "He spied on the British, and stayed enslaved.",
+   "visual": {
+    "kind": "photo",
+    "image": "james",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.17
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "He spied on the British, *and stayed enslaved.*"
+   },
+   "captions": false,
+   "speed": 1.45
+  },
+  {
+   "id": "name",
+   "text": "This is James Lafayette.",
+   "visual": {
+    "kind": "title",
+    "title": "James Lafayette",
+    "sub": "about 1748 to 1830"
+   },
+   "section": "who"
+  },
+  {
+   "id": "spy",
+   "text": "In 1781, enslaved in Virginia, he went to serve the Marquis de Lafayette as a spy, and slipped into the British camp again and again.",
+   "visual": {
+    "kind": "card",
+    "image": "lafayette82",
+    "caption": "The Marquis de Lafayette, 1782"
+   },
+   "section": "story",
+   "overlays": {
+    "stamp": "1781"
+   }
+  },
+  {
+   "id": "york",
+   "text": "Lafayette learned that Cornwallis had moved his army to Yorktown. There, he was trapped.",
+   "visual": {
+    "kind": "card",
+    "image": "yorkplan",
+    "caption": "Yorktown, 1781"
+   }
+  },
+  {
+   "id": "surr",
+   "text": "On October 19, 1781, Cornwallis surrendered.",
+   "visual": {
+    "kind": "card",
+    "image": "surrender",
+    "caption": "The Surrender of Lord Cornwallis, by John Trumbull"
+   }
+  },
+  {
+   "id": "law",
+   "text": "But Virginia freed enslaved men who had served as soldiers. James had been a spy. He stayed enslaved.",
+   "visual": {
+    "kind": "title",
+    "title": "Still enslaved",
+    "sub": "after the war"
+   },
+   "section": "twist"
+  },
+  {
+   "id": "cert",
+   "text": "So Lafayette wrote for him. His intelligences from the enemy's camp were industriously collected, and most faithfully delivered.",
+   "visual": {
+    "kind": "card",
+    "image": "cert",
+    "caption": "Lafayette's certificate, 1784"
+   }
+  },
+  {
+   "id": "free",
+   "text": "On January 9, 1787, Virginia set him free. He took the name Lafayette.",
+   "visual": {
+    "kind": "card",
+    "image": "james",
+    "caption": "James Lafayette, 1824"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "hug",
+   "text": "In 1824, the old general saw him in a crowd, called him by name, and embraced him.",
+   "visual": {
+    "kind": "card",
+    "image": "lafayette25",
+    "caption": "The Marquis de Lafayette, 1825"
+   }
+  },
+  {
+   "id": "end",
+   "text": "He helped win the war, and then had to win his own freedom.",
+   "visual": {
+    "kind": "photo",
+    "image": "james",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/James_Armistead_Lafayette"
+  },
+  "JAR": {
+   "url": "https://allthingsliberty.com/2017/09/james-lafayette-james-armistead-american-spy/"
+  },
+  "HIST": {
+   "url": "https://www.history.com/articles/battle-of-yorktown-slave-spy-james-armistead"
+  },
+  "OAR": {
+   "url": "https://ouramericanrevolution.org/index.cfm/people/view/pp0053"
+  },
+  "LVA": {
+   "url": "https://www.lva.virginia.gov/collections/educator-resources/dbva/items/show/277"
+  },
+  "YT": {
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Yorktown"
+  },
+  "BRIT": {
+   "url": "https://www.britannica.com/event/Siege-of-Yorktown-1781"
+  },
+  "SAR": {
+   "url": "https://blog.alssar.org/?p=1843"
+  },
+  "TOUR": {
+   "url": "https://en.wikipedia.org/wiki/Visit_of_the_Marquis_de_Lafayette_to_the_United_States"
+  },
+  "CERT": {
+   "url": "https://commons.wikimedia.org/wiki/File:Marquis_de_Lafayette_James_Armistead_Lafayette.jpeg"
+  }
+ },
+ "facts": [
+  {
+   "beat": "spy",
+   "claim": "See long-form sourcesByClaim l5",
+   "sources": [
+    "HIST",
+    "OAR",
+    "LVA"
+   ]
+  },
+  {
+   "beat": "york",
+   "claim": "See long-form sourcesByClaim s5",
+   "sources": [
+    "OAR",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "surr",
+   "claim": "See long-form sourcesByClaim s9",
+   "sources": [
+    "HIST",
+    "OAR"
+   ]
+  },
+  {
+   "beat": "law",
+   "claim": "See long-form sourcesByClaim f2",
+   "sources": [
+    "WIKI",
+    "HIST",
+    "OAR"
+   ]
+  },
+  {
+   "beat": "cert",
+   "claim": "See long-form sourcesByClaim f5",
+   "sources": [
+    "OAR",
+    "JAR",
+    "CERT"
+   ]
+  },
+  {
+   "beat": "free",
+   "claim": "See long-form sourcesByClaim f10",
+   "sources": [
+    "WIKI",
+    "OAR"
+   ]
+  },
+  {
+   "beat": "hug",
+   "claim": "See long-form sourcesByClaim r3",
+   "sources": [
+    "OAR",
+    "WIKI",
+    "LVA"
+   ]
+  }
+ ]
+}
