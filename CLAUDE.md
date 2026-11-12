@@ -39,7 +39,7 @@ Handover from a cloud Claude Code session (no GPU) to a local session on the own
 
 # LingoDude (YouTube channel about languages): `lingo/`
 Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Extinct Languages be like" style
-(reference channel: youtube.com/@thatsquiteinteresting). Details: `lingo/README.md`, analysis: `lingo/ANALYSIS.md`.
+(reference channel: youtube.com/@thatsquiteinteresting; second reference for ideas since 2026-11-12: youtube.com/@verbaledgee, slang Shorts, see `lingo/ideas/reference_verbaledgee.md`). Details: `lingo/README.md`, analysis: `lingo/ANALYSIS.md`.
 
 ## Owner rules for these videos
 - Build **6 videos** around the same idea (keys in `lingo/videos.mjs`: extinct, niche, hardest, sounds, conlangs, revived; plus `soundlike` "Languages That Sound Like a Different Language", 2:38, done).
