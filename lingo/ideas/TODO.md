@@ -75,7 +75,7 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
      Siyi Yue (Joseph), Henan Chinese (Ying), Twi (Raphael), Hausa (Abubakar), Tày (Ming).
    - Part 3, Africa and the Americas: Kpelle (Jerry), Vai (Varney and Omoru), Dagbani (Mohammed), Ibibio (Itoro),
      Venda (Edna), Tsonga (Lourenço), Nuyoo Mixtec (Nezahualcoyotl), Chicahuaxtla Triqui (José Manuel).
-   - Part 4 (possible), "You didn't know these were tonal": Norwegian (Emily), Latvian (Jānis), Bosnian (Mirela),
+   - DONE Part 4 = `tonal4` (2026-11-13): Swedish, Norwegian, Lithuanian, Latvian, Bosnian, Punjabi, Dzongkha, Navajo (no Somali speech on Commons). Was: Norwegian (Emily), Latvian (Jānis), Bosnian (Mirela),
      Punjabi (Randeep), Dzongkha (Kinley), Navajo (US Dept of Labor). Check each clip first.
    Missing on Commons: standard Cantonese (no Lingua Libre cache yet), Zulu, Xhosa, Ewe.
 
