@@ -4,6 +4,8 @@ Cluster "Black Wall Street", video 1 of 3. Next: "The Wealthiest Black Community
 
 Channel: The Black History Room (YouTube, long-form 16:9)
 Video: `out/doc-black-wall-street-4k.mp4` (3840x2160, 30 fps, 7:05, free Kokoro voice am_michael). Thumbnail: `out/doc-black-wall-street-thumb.png` (props: `data/thumb-doc-black-wall-street.json`).
+Download copy: `publish/docs/video/Black-Wall-Street-1080p.mp4` (1920x1080, 89 MB; the 4K file is 1.4 GB, too big for GitHub). Thumbnail copy: `publish/docs/video/Black-Wall-Street-thumb.png`.
+4K on your PC (resumable, renders in 9 parts): `bash scripts/render_chunks.sh Doc doc-black-wall-street out/doc-black-wall-street-4k.mp4 12759 1500 --scale 2`
 Spec: `data/doc-black-wall-street.json` (built by `data/build_doc_black_wall_street.mjs`).
 
 New on-screen features in this film: chapter tag top right, subtitles that light up word by word with key names and numbers in gold, numbers that count up (35 blocks, 1,256 homes, 10,000 homeless, 6,000 held, $1.8 million in claims), a gold marker drawn around the 1921 newspaper headline, and light film grain.
