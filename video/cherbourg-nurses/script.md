@@ -1,4 +1,4 @@
-# The Army Captured 16 German Nurses. Then It Drove Them Back to the German Lines.
+# 16 German Nurses Were Captured. The Army Drove Them Back to the Front.
 
 <!-- One paragraph = one scene. Lines starting with "##" are act markers and are not narrated. Write numbers as spoken words; years as digits are converted by tools/tts_*.py. Highlighted document sentences are read verbatim. -->
 
@@ -38,6 +38,8 @@ Before they left, the hospital's commanding officer walked them through it. They
 
 The American staff had a hope of their own. They hoped the women would remember what they had seen, and treat American wounded in German hands with the same kindness.
 
+If you want more prisoner of war stories told from the documents, subscribe to WWII Frontlines. It helps us keep finding them.
+
 ## 5. The truce
 
 Then they waited, while a cease-fire was negotiated with the enemy. Closed ambulances took them to Balleroy, a village close to the front. There they waited about two hours more, while the last arrangements were made with German officers on the other side.
@@ -45,8 +47,6 @@ Then they waited, while a cease-fire was negotiated with the enemy. Closed ambul
 The cease-fire was agreed over the radio. The account names three officers. Captain Fred Ghercke commanded an American team that interrogated prisoners. Captain Quentin Roosevelt served with the First Infantry Division. Major Heeren commanded the reconnaissance battalion of the German second Panzer Division.
 
 An Army photographer was at Balleroy that day. One of his pictures shows an American ambulance parked in front of a house, four of the women, and a group of American soldiers around them. At about six in the evening, the women were taken through the lines at Caumont.
-
-If you want more prisoner of war stories told from the documents, subscribe to WWII Frontlines. It helps us keep finding them.
 
 ## 6. The captain
 

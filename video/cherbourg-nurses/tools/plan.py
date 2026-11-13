@@ -17,8 +17,8 @@ MAX_SHOT = 6.5
 CUT_LEAD = 0.1
 
 F = {  # film key -> (file in assets/footage, fraction of height kept)
-    "A": ("u505_capture_a", 1), "B": ("u505_capture_b", 1), "I": ("u505_interior_1945", 1), "CHI": ("u505_chicago_1954", 1),
-    "CP": ("controlling_pows_1944", 1), "GR": ("gripsholm_red_cross_1943", 1), "CT": ("cotton_1937", 1),
+    "E": ("evac_hospital_1945", 1), "N": ("normandy_medical_1944", 1), "P": ("cherbourg_pows_1944", 1),
+    "D": ("cherbourg_damage_1944", 0.78), "C": ("evac128_1944", 1), "H": ("hospital2_1944", 1), "HB": ("cherbourg_harbor_1944", 1),
 }
 
 
@@ -27,133 +27,114 @@ def T(m, s=0.0):
 
 S = {}
 
-TG = "Task Group 22.3 report, Capture of German Submarine U-505, June 1944"
-LANGE = "Statement of Oblt. Harald Lange, CO of U-505, June 1944 (TG 22.3 report, encl. A8)"
-MEMO = "Capt. D. V. Gallery, memo to Task Group 22.3, Top Secret, June 14, 1944"
-NWW2 = "Kali Martin, National WWII Museum, 2020"
-MSI = "Museum of Science and Industry, Chicago; Navy press release, May 16, 1945"
-A_TAG = "The capture of U-505, June 4, 1944 · U.S. Navy film"
-I_TAG = "Inside U-505 after her capture · U.S. Navy film, 1945"
-CHI_TAG = "U-505 arrives in Chicago, June 26, 1954 · U.S. Navy film"
-CP_TAG = "Stand-in · German prisoners in U.S. Army hands · from Controlling German Prisoners of War (War Dept., 1944)"
-GR_TAG = "Red Cross parcels for prisoners of war, New York, 1943 · U.S. Navy film"
-CT_TAG = "Stand-in · cotton fields, 1937 · U.S. Department of Agriculture film"
+MED = "WW2 US Medical Research Centre, 45th Evacuation Hospital account (citing Yank, British ed., July 30, 1944)"
+SC = "U.S. Army Signal Corps caption, ETO HQ 44 6419, July 2, 1944"
+GEN = "Geneva Convention on the Wounded and Sick, July 27, 1929 · Bevans, vol. 2 · Library of Congress"
+N_TAG = "Stand-in · Army ambulances and aid in Normandy, 1944 · from Medical Service in the Invasion of Normandy (War Dept.)"
+C_TAG = "Stand-in · the 128th Evacuation Hospital, Normandy, June 1944 · Army film"
+CP_TAG = "German prisoners at work at the 128th Evacuation Hospital, June 1944 · Army film"
+H_TAG = "Stand-in · American Army nurses and medics set up a hospital, Normandy, July 1944 · Army film"
+E_TAG = "Stand-in · an evacuation hospital at work · from The Evacuation Hospital (War Dept., 1945)"
+P_TAG = "German prisoners, Cherbourg, June 28, 1944 · Army film"
+D_TAG = "Cherbourg after the battle, June 27, 1944 · Navy film"
+HB_TAG = "The wrecked port of Cherbourg, June 29 – July 1, 1944 · Army film"
 WC = "Wikimedia Commons"
 P = [
-    # 0 families told
-    [("In", "A", 106.8), ("@", "In the summer of", A_TAG),
-     ("#", "In the summer of", None, {"type": "Slug", "title": "Summer, 1944", "subtitle": "Germany · the families of U-505's crew"}),
-     ("The submarine U", "A", 130.0)],
-    # 1 not dead
-    [("They were not dead", "CP", T(12, 8.7)), ("@", "They were not dead", CP_TAG), ("in a corner of a prison camp", "CP", T(11, 42.9)), ("No letter of theirs", "CP", T(8, 42.3)), ("The Red Cross was not told", "GR", T(4, 28.6)), ("@", "The Red Cross was not told", GR_TAG)],
-    # 2 the rules
-    [("The rules of war said", "CP", T(0, 58.0)), ("@", "The rules of war said", "U.S. Army field manual FM 27-10, Rules of Land Warfare · from Controlling German Prisoners of War (1944)"), ("The United States Navy decided", "B", 4.0), ("@", "The United States Navy decided", A_TAG)],
-    # 3 documented story
-    [("This is the documented story", "A", 151.8), ("@", "This is the documented story", A_TAG), ("told from the Navy's own", "I", 17.2), ("@", "told from the Navy's own", I_TAG)],
-    # 4 the boat
-    [("U five-oh-five was a long-range", "I", 28.7), ("@", "U five-oh-five was a long-range", I_TAG), ("In November nineteen forty-two", "A", 500.4), ("@", "In November nineteen forty-two", "Stand-in · a Navy patrol plane, 1944 · U.S. Navy film"), ("She limped home", "A", 106.8)],
-    # 5 six times
-    [("After months of repairs", "I", T(2, 0.7)), ("@", "After months of repairs", I_TAG), ("Six times in a row", "I", T(5, 4.7)), ("Sabotage by French", "I", T(5, 27.7))],
-    # 6 Zschech
-    [("In October nineteen forty-three", "I", 40.2), ("@", "In October nineteen forty-three", I_TAG), ("His second in command", "I", T(3, 21.2))],
-    # 7 Lange
-    [("In November nineteen forty-three she got", "A", 607.0), ("@", "In November nineteen forty-three she got", A_TAG), ("By late spring", "A", 141.0)],
-    # 8 the hunters
-    [("The Americans hunting her", "B", 52.4), ("@", "The Americans hunting her", A_TAG), ("He did not want to sink", "A", 343.0)],
-    # 9 the plan
-    [("Before the cruise", "A", 185.5), ("@", "Before the cruise", A_TAG),
-     ("#", "Before the cruise", None, {"type": "LedgerTimeline", "file": "FILE 01 — THE PLAN", "head": "Task Group 22.3, May–June 1944",
-        "rows": [{"date": "BEFORE THE CRUISE", "text": "Every ship: plan a capture, organize boarding parties"},
-                 {"date": "JUNE 3, EVENING", "text": "The plan of the day for June 4 is printed"},
-                 {"date": "ON IT", "text": "The crew for a captured German submarine"}],
-        "source": TG})],
-    # 10 contact
-    [("At ten past eleven", "A", 126.0),
-     ("#", "At ten past eleven", None, {"type": "Slug", "title": "June 4, 1944 · 11:10 a.m.", "subtitle": "Off West Africa · two days before D-Day"}),
-     ("Six minutes later", "A", 196.8), ("@", "Six minutes later", A_TAG)],
-    # 11 inside
-    [("Inside the boat", "I", T(4, 7.2)), ("@", "Inside the boat", I_TAG), ("Then came two heavy shocks", "I", T(2, 46.7)), ("Not knowing how bad", "I", T(1, 49.2))],
-    # 12 surfaced
-    [("She came up eight hundred", "A", 151.8), ("@", "She came up eight hundred", A_TAG),
-     ("#", "He ordered his men", None, {"type": "LedgerQuote", "file": "FILE 02 — THE ORDER", "head": "Oblt. Harald Lange, wounded on deck",
-        "before": "At once I gave the order ", "key": "to leave the boat and to sink her", "after": ".", "who": "Harald Lange, U-505's captain", "source": LANGE})],
-    # 13 circling
-    [("They opened valves", "A", 264.2), ("@", "They opened valves", A_TAG),
-     ("#", "From a life raft", None, {"type": "LedgerQuote", "file": "FILE 03 — THE RAFT", "head": "Watching from a pipe boat",
-        "before": "I ordered the men around me to give ", "key": "three cheers for our sinking boat", "after": ".", "who": "Harald Lange", "source": LANGE}),
-     ("At eleven twenty-seven", "A", 286.7)],
-    # 14 Pillsbury
-    [("A boat from the destroyer escort", "B", 100.7), ("@", "A boat from the destroyer escort", A_TAG), ("One German sailor lay dead", "B", 128.0)],
-    # 15 down the hatch
-    [("David went down the hatch", "I", T(1, 26.2)), ("@", "David went down the hatch", I_TAG), ("and started passing up papers", "B", 141.0), ("@", "and started passing up papers", A_TAG), ("A second boarding party", "B", 149.1)],
-    # 16 Trosino and the tow
-    [("The carrier's chief engineer", "I", T(4, 53.2)), ("@", "The carrier's chief engineer", I_TAG), ("The Guadalcanal took her in tow", "A", 624.1), ("@", "The Guadalcanal took her in tow", A_TAG)],
-    # 17 subscribe (midpoint)
-    [("If you want more", "A", 421.7),
+    # 0 the ambulances
+    [("On", "N", T(9, 59.1)), ("@", "On the second of July", N_TAG),
+     ("#", "On the second of July", None, {"type": "Slug", "title": "July 2, 1944", "subtitle": "Normandy · toward the front line"}),
+     ("They were prisoners", "C", T(1, 13.4)), ("@", "They were prisoners", C_TAG)],
+    # 1 the truce, briefly
+    [("A short cease-fire", "N", 51.8), ("@", "A short cease-fire", N_TAG), ("One of the Americans", "H", T(2, 47.0)), ("@", "One of the Americans", H_TAG), ("At about six", "C", T(1, 58.1))],
+    # 2 documented story
+    [("Online there are many", "H", 47.3), ("@", "Online there are many", H_TAG), ("This is the documented story", "C", T(1, 19.8))],
+    # 3 Cherbourg
+    [("After D-Day", "HB", 2.0), ("@", "After D-Day", HB_TAG), ("American troops attacked", "D", T(3, 21.9)), ("@", "American troops attacked", D_TAG), ("Four days later", "D", T(5, 24.3))],
+    # 4 the arsenal
+    [("The arsenal held out", "D", T(3, 46.4)), ("Before they gave up", "HB", 17.8), ("@", "Before they gave up", HB_TAG), ("It would be weeks", "HB", 45.5)],
+    # 5 the prisoners
+    [("Tens of thousands", "P", 8.4), ("@", "Tens of thousands", P_TAG), ("And in an underground hospital", "D", T(5, 48.7)),
+     ("#", "An Army photographer's caption", None, {"type": "LedgerQuote", "file": "FILE 01 — THE CAPTION", "head": "Signal Corps, July 2, 1944",
+        "before": "", "key": "The first German Army nurses to fall into American hands,", "after": " captured in an underground hospital in a cave near Cherbourg.",
+        "who": "U.S. Army Signal Corps photo caption", "source": SC})],
+    # 6 Red Cross and navy
+    [("Some of them were nurses", "N", T(11, 13.1)), ("@", "Some of them were nurses", N_TAG), ("The Allied papers", "D", T(4, 23.1)), ("@", "The Allied papers", D_TAG)],
+    # 7 the treaty
+    [("The question was", "N", T(11, 27.9)), ("@", "The question was", N_TAG),
+     ("#", "The answer was in a treaty", None, {"type": "Slug", "title": "July 27, 1929", "subtitle": "Geneva · the wounded and sick of armies in the field"}),
+     ("It protected the wounded", "N", T(5, 18.0))],
+    # 8 article 9
+    [("Its ninth article", "N", T(5, 18.0)),
+     ("#", "Its ninth article", None, {"type": "LedgerDocument", "file": "FILE 02 — ARTICLE 9", "head": "Captured medical staff", "source": GEN,
+        "spans": [{"doc": "doc_art9", "say": "If they fall into the hands of the enemy they shall not be treated as prisoners of war"}]})],
+    # 9 article 12
+    [("Its twelfth article", "N", T(11, 27.9)),
+     ("#", "Its twelfth article", None, {"type": "LedgerDocument", "file": "FILE 03 — ARTICLE 12", "head": "Sent back", "source": GEN,
+        "spans": [{"doc": "doc_art12", "say": "They shall be sent back to the belligerent to whose service they are attached as soon as a way is open for their return and military exigencies permit"}]})],
+    # 10 until then
+    [("Until then", "C", 54.3), ("@", "Until then", CP_TAG), ("Red Cross nurses were covered", "N", T(11, 13.1))],
+    # 11 the 45th Evac
+    [("On the second of July nine", "C", 47.9), ("@", "On the second of July nine", C_TAG),
+     ("#", "On the second of July nine", None, {"type": "Slug", "title": "45th Evacuation Hospital", "subtitle": "Near La Cambe, Normandy · July 2, 1944"}),
+     ("They did not know", "C", T(1, 26.2)), ("According to the hospital's account", "C", T(1, 38.9))],
+    # 12 the tour
+    [("Before they left", "E", T(5, 25.1)), ("@", "Before they left", E_TAG), ("They talked to German patients", "E", T(7, 7.1)), ("What they wanted to know", "E", T(7, 45.3))],
+    # 13 the hope
+    [("The American staff", "E", T(10, 43.8)), ("@", "The American staff", E_TAG)],
+    # 14 subscribe (midpoint)
+    [("If you want more", "C", T(1, 45.3)), ("@", "If you want more", C_TAG),
      ("#", "If you want more", None, {"type": "SubscribeButton", "channel": "WWII Frontlines", "tagline": "Prisoner of war stories, documented", "dur": 6.5})],
-    # 18 the problem
-    [("Now the Navy had a problem", "B", 36.3), ("@", "Now the Navy had a problem", A_TAG), ("About three thousand", "A", 354.2)],
-    # 19 the memo
-    [("On the fourteenth of June", "A", 365.4), ("@", "On the fourteenth of June", A_TAG),
-     ("#", "On the fourteenth of June", None, {"type": "LedgerDocument", "file": "FILE 04 — TOP SECRET", "head": "To all hands, June 14, 1944", "source": MEMO,
-        "spans": [{"doc": "doc_memo", "say": "The capture of the U five-oh-five can be one of the major turning points in World War number two provided repeat provided we keep our mouths shut about it"}]})],
-    # 20 silence
-    [("The enemy must not learn", "A", 376.7), ("In Bermuda the crews", "A", 389.0), ("According to the historian", "A", 118.1)],
-    # 21 the prisoners
-    [("The bigger risk", "A", 545.4), ("@", "The bigger risk", A_TAG), ("One letter home", "A", 556.6)],
-    # 22 Camp Ruston
-    [("In the summer of nineteen forty-four they were", "CP", T(11, 17.1)), ("@", "In the summer of nineteen forty-four they were", CP_TAG),
-     ("#", "In the summer of nineteen forty-four they were", None, {"type": "Slug", "title": "Camp Ruston, Louisiana", "subtitle": "Summer 1944 · about 7 miles west of Ruston"}),
-     ("At its peak", "CP", T(7, 37.8))],
-    # 23 isolated
-    [("The U five-oh-five men did not", "CP", T(11, 42.9)), ("@", "The U five-oh-five men did not", CP_TAG), ("Their names were withheld", "GR", T(7, 27.7)), ("@", "Their names were withheld", GR_TAG), ("The letters they tried", "CP", T(8, 42.3))],
-    # 24 no chances
-    [("The rules of war said prisoners", "CP", T(0, 32.2)), ("@", "The rules of war said prisoners", "The 1929 Geneva Convention · from Controlling German Prisoners of War (1944)"),
-     ("#", "The National World War Two Museum", None, {"type": "LedgerQuote", "file": "FILE 05 — THE RULES", "head": "Why the Red Cross was not told",
-        "before": "", "key": "could take no chances", "after": "", "who": "The National WWII Museum, on why the military kept the Red Cross out", "source": NWW2})],
-    # 25 camp life
-    [("Around them other prisoners", "CT", 3.0), ("@", "Around them other prisoners", CT_TAG), ("They had an orchestra", "CP", T(7, 50.7)), ("@", "They had an orchestra", CP_TAG), ("How much of that life", "CP", T(12, 34.5))],
-    # 26 dead on paper
-    [("In Germany the boat", "A", 118.0), ("@", "In Germany the boat", A_TAG),
-     ("#", "By August", None, {"type": "LedgerTimeline", "file": "FILE 06 — DEAD ON PAPER", "head": "What the families were told",
-        "rows": [{"date": "JUNE 4, 1944", "text": "U-505 captured; 58 of 59 men alive"},
-                 {"date": "BY AUGUST 1944", "text": "Their men “must be considered dead”"},
-                 {"date": "MAY 16, 1945", "text": "The U.S. Navy reveals the capture"},
-                 {"date": "1947", "text": "The crew reaches Germany"}],
-        "source": MSI})],
-    # 27 the Navy tells the world
-    [("On the eighth of May", "A", 343.0), ("@", "On the eighth of May", A_TAG),
-     ("#", "Eight days later", None, {"type": "Slug", "title": "May 16, 1945", "subtitle": "Navy press release: the capture revealed"}),
-     ("It called the capture", "A", 624.1)],
-    # 28 David
-    [("Albert David received", "A", 590.3), ("@", "Albert David received", A_TAG)],
-    # 29 home in 1947
-    [("Only after the war", "CP", T(11, 33.9)), ("@", "Only after the war", CP_TAG), ("The crew of U five-oh-five did not", "A", 596.0)],
-    # 30 Chicago
-    [("The Navy kept the submarine", "CHI", 81.7), ("@", "The Navy kept the submarine", CHI_TAG), ("In nineteen fifty-four", "CHI", 207.4), ("and people in Chicago", "CHI", 245.1)],
-    # 31 reunion
-    [("In nineteen sixty-four", "CHI", 257.7), ("@", "In nineteen sixty-four", CHI_TAG)],
-    # 32 the museum corrected
-    [("For years the museum", "CHI", 320.6), ("@", "For years the museum", CHI_TAG), ("In nineteen ninety-eight", "CHI", 433.7)],
-    # 33 comment ask
-    [("If your family", "CHI", 408.5), ("@", "If your family", CHI_TAG),
-     ("#", "If your family", None, {"type": "Slug", "title": "A sailor or a POW in your family's story?", "subtitle": "Tell us in the comments"})],
-    # 34 underground
-    [("In 2004 the museum", "CHI", 81.7), ("In Louisiana two buildings", "CT", 1.0), ("@", "In Louisiana two buildings", CT_TAG), ("They are what is left", "CP", T(7, 37.8)), ("@", "They are what is left", CP_TAG)],
+    # 15 Balleroy
+    [("Then they waited", "C", T(1, 13.4)), ("@", "Then they waited", C_TAG),
+     ("#", "Closed ambulances took them", None, {"type": "Slug", "title": "Balleroy, Normandy", "subtitle": "About two hours' wait · July 2, 1944"}),
+     ("There they waited", "H", 9.5), ("@", "There they waited", H_TAG)],
+    # 16 the three officers
+    [("The cease-fire was agreed", "H", T(2, 34.4)), ("@", "The cease-fire was agreed", H_TAG),
+     ("#", "The account names three officers", None, {"type": "LedgerTimeline", "file": "FILE 04 — THE TRUCE", "head": "Agreed by radio, July 2, 1944",
+        "rows": [{"date": "U.S. ARMY", "text": "Capt. Fred Ghercke, POW Interrogation Team No. 24"},
+                 {"date": "U.S. ARMY", "text": "Capt. Quentin Roosevelt, 1st Infantry Division"},
+                 {"date": "GERMAN ARMY", "text": "Maj. F. Heeren, reconnaissance battalion, 2nd Panzer Division"},
+                 {"date": "ABOUT 1800 HOURS", "text": "Through the lines at Caumont"}],
+        "source": MED})],
+    # 17 the photo at Balleroy
+    [("An Army photographer was at", "C", T(1, 51.7)), ("@", "An Army photographer was at", C_TAG), ("At about six in the evening the women", "N", T(9, 59.1)), ("@", "At about six in the evening the women", N_TAG)],
+    # 18 Quentin
+    [("Quentin Roosevelt was twenty-four", "H", T(2, 47.0)), ("@", "Quentin Roosevelt was twenty-four", H_TAG), ("On D-Day he had landed", "N", T(4, 4.1)), ("@", "On D-Day he had landed", "Normandy beach, June 1944 · from Medical Service in the Invasion of Normandy (War Dept.)")],
+    # 19 his father
+    [("His father General", "N", T(3, 4.9)), ("Ten days after the truce", "H", 3.2), ("@", "Ten days after the truce", H_TAG)],
+    # 20 the funeral
+    [("Three days later", "H", 22.1), ("Quentin survived the war", "N", T(12, 41.8)), ("@", "Quentin survived the war", "A transport plane, 1944 · from Medical Service in the Invasion of Normandy (War Dept.)")],
+    # 21 the second crossing
+    [("A week after the first", "N", T(11, 57.4)), ("@", "A week after the first", N_TAG),
+     ("On the ninth of July", "C", T(1, 19.8)), ("Sixteen German nurses", "H", 28.4), ("#", "On the ninth of July", None, {"type": "Slug", "title": "July 9, 1944", "subtitle": "The second crossing · Balleroy to Caumont"})],
+    # 22 the MP
+    [("An Army photo dated", "P", T(1, 54.7)), ("@", "An Army photo dated", "Stand-in · an American MP, Cherbourg, June 1944 · Army film")],
+    # 23 the papers
+    [("The story reached the papers", "D", T(5, 36.5)), ("@", "The story reached the papers", D_TAG),
+     ("#", "Yank the Army's own", None, {"type": "LedgerTimeline", "file": "FILE 05 — THE RECORD", "head": "What was published, and when",
+        "rows": [{"date": "JULY 2 & 9, 1944", "text": "Two crossings, sixteen women"},
+                 {"date": "JULY 30, 1944", "text": "Yank, British edition, tells the story"},
+                 {"date": "MAY 14, 1945", "text": "A Signal Corps caption cleared without restriction"}],
+        "source": f"{MED}; {SC}"})],
+    # 24 what is left
+    [("What the sixteen women", "H", 34.7), ("@", "What the sixteen women", H_TAG)],
+    # 25 the rule held
+    [("The rule they were sent", "C", 47.9), ("@", "The rule they were sent", C_TAG), ("In a war that broke", "N", T(9, 59.1))],
+    # 26 comment ask
+    [("If your family", "H", T(2, 55.0)), ("@", "If your family", H_TAG),
+     ("#", "If your family", None, {"type": "Slug", "title": "A nurse in your family's war story?", "subtitle": "Either side · tell us in the comments"})],
+    # 27 Caumont today
+    [("Co-mon was liberated", "N", T(9, 59.1)), ("The road from Bal-roy", "C", T(1, 13.4)), ("@", "The road from Bal-roy", C_TAG), ("long enough for sixteen", "N", T(11, 57.4))],
 ]
 
 PHOTOS = [
-    (2, "One American captain", None, "gallery_portrait.jpg", "02", "Capt. Daniel V. Gallery", "Commander, Task Group 22.3", f"U.S. Navy · public domain · {WC}", {}),
-    (7, "Harald Lange", None, "U-505POWsLangeXfer2.jpg", "07", "Oblt. Harald Lange", "Hoisted aboard the Guadalcanal, wounded, June 4, 1944", "U.S. Navy · public domain · uboatarchive.net", {}),
-    (8, "Captain Daniel Gallery commanded", None, "u505_near_guadalcanal.jpg", "08", "USS Guadalcanal", "With the captured U-505, June 4, 1944", f"U.S. Navy 80-G-49170 · public domain · {WC}", {}),
-    (12, "She came up eight hundred", None, "u505_under_fire.jpg", "12", "U-505 under fire", "June 4, 1944", f"U.S. Navy · public domain · {WC}", {}),
-    (14, "Lieutenant Albert David led", None, "pillsbury_alongside.jpg", "14", "USS Pillsbury", "Alongside the captured U-505", f"U.S. Navy 80-G-324310 · public domain · {WC}", {}),
-    (16, "The Guadalcanal took her in tow", None, "towline_party.jpg", "16", "The tow line", "Americans on U-505's deck, under the U.S. flag", f"U.S. Navy 80-G-49172 · public domain · {WC}", {}),
-    (20, "In Bermuda the crews", None, "abnaki_tow.jpg", "20", "Under tow", "The tug Abnaki takes over the tow", f"U.S. Navy 80-G-324351 · public domain · {WC}", {}),
-    (21, "The bigger risk", None, "pows_exercise.jpg", "21", "U-505's crew", "Prisoners exercise on the Guadalcanal's deck, June 1944", f"U.S. Navy · public domain · {WC}", {}),
-    (28, "Albert David received", None, "david_portrait.jpg", "28", "Lt. Albert L. David", "Medal of Honor · died Sept. 17, 1945", f"U.S. Navy · public domain · {WC}", {}),
-    (31, "Gallery gave the German captain", None, "binoculars_msi.jpg", "31", "U-505's binoculars", "On display in Chicago today", f"Daderot · CC0 · {WC}", {}),
-    (34, "In 2004 the museum", None, "u505_msi_01.jpg", "34", "U-505 today", "Museum of Science and Industry, Chicago", f"GualdimG · CC BY-SA 4.0 · {WC}", {}),
+    (2, "This is the documented story", None, "nurses_balleroy.jpg", "02", "Balleroy, July 2, 1944", "German nurses and navy auxiliaries with American soldiers, before the crossing", f"U.S. Army Signal Corps · via PhotosNormandie · CC BY-SA 2.0 · {WC}", {}),
+    (5, "Tens of thousands", None, "cherbourg_prisoners.jpg", "05", "Cherbourg, 1944", "German prisoners after the city fell", f"U.S. Army · public domain · {WC}", {}),
+    (12, "They saw its supplies", None, "evac_nurse_1944.jpg", "12", "An evacuation hospital", "Normandy, July 5, 1944: Lt. Gertrude A. Nolan, Army nurse, with Sgt. Charles A. Comar", f"U.S. Army Signal Corps SC 191000 · public domain · {WC}", {}),
+    (17, "One of his pictures shows", None, "nurses_balleroy.jpg", "17", "The photograph", "An American ambulance, four of the women, and GIs · Balleroy, July 2, 1944", f"U.S. Army Signal Corps · via PhotosNormandie · CC BY-SA 2.0 · {WC}", {}),
+    (18, "He was the grandson", None, "roosevelt_family_1925.jpg", "18", "The Roosevelts, 1925", "Theodore Roosevelt Jr. with his family", f"Bain News Service · Library of Congress · public domain · {WC}", {}),
+    (20, "Three days later", None, "quentin_funeral.jpg", "20", "Capt. Quentin Roosevelt", "At his father's funeral, Sainte-Mère-Église, July 15, 1944 (left)", f"U.S. Army Signal Corps SC 191974 · public domain · {WC}", {}),
+    (27, "Today a memorial", None, "caumont_memorial.jpg", "27", "Caumont-l'Éventé", "The memorial to the liberation, June 13, 1944", f"Dave osm · CC BY-SA 4.0 · {WC}", {}),
 ]
 
 

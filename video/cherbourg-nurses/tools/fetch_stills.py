@@ -6,22 +6,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 UA = "WWIIFrontlinesResearch/1.0 (documentary research)"
 FILES = {
-    "USS Pillsbury (DE-133) alongside the captured German submarine U-505 on 4 June 1944 (80-G-324310).jpg": "pillsbury_alongside.jpg",
-    "Captured German submarine U-505 lies near USS Guadalcanal (CVE-60) on 4 June 1944 (80-G-49170).jpg": "u505_near_guadalcanal.jpg",
-    "Captain Daniel V. Gallery, USN, on the bridge of the captured German submarine U-505 on 4 June 1944 (80-G-49176).jpg": "gallery_on_u505.jpg",
-    "Captain Daniel V. Gallery and Lieutenant Albert L. David aboard USS Guadalcanal (CVE-60), 1944.jpg": "gallery_david.jpg",
-    "Lieutenant David.jpg": "david_portrait.jpg",
-    "German prisoners of war from the captured submarine U-505 exercise on USS Guadalcanal (CVE-60), in June 1944.jpg": "pows_exercise.jpg",
-    "USS Abnaki (ATF-96) tows the captured German submarine U-505 in the Atlantic Ocean on 4 June 1944 (80-G-324351).jpg": "abnaki_tow.jpg",
-    "A U.S. Navy boarding party working to secure a tow line to the bow of the captured German submarine U-505, 4 June 1944 (80-G-49172).jpg": "towline_party.jpg",
-    "Damaged German submarine U-505 under fire in the Atlantic Ocean on 4 June 1944.jpg": "u505_under_fire.jpg",
-    "Grumman TBM Avenger of VC-8 flies over the captured German submarine U-505, 4 June 1944 (80-G-49168).jpg": "avenger_over_u505.jpg",
-    "Daniel V. Gallery Portrait.jpg": "gallery_portrait.jpg",
-    "Binoculars 7x50, Leitz, U-505 - Museum of Science and Industry (Chicago) - DSC06761.JPG": "binoculars_msi.jpg",
-    "U-505 submarine Museum of Science and Industry (Chicago) 01.jpg": "u505_msi_01.jpg",
-    "U-505 submarine Museum of Science and Industry (Chicago) 02.jpg": "u505_msi_02.jpg",
-    "Museum of Science and Industry (Chicago) U-505 Hall 02Dec08.JPG": "u505_hall_2008.jpg",
-    "U.S. naval officers on the conning tower of the captured German submarine U-505, in June 1944 (NH 10585).jpg": "officers_conning_tower.jpg",
+    "Prisonnières allemandes durant la Seconde Guerre mondiale.jpg": "nurses_balleroy.jpg",
+    "Germanprisonerscherbourg.jpg": "cherbourg_prisoners.jpg",
+    "?SC 191974 Quentin Roosevelt funeral": "quentin_funeral.jpg",
+    "?SC 191000 Gertrude Nolan evacuation hospital": "evac_nurse_1944.jpg",
+    "Theo. Roosevelt Jr. with family LCCN2014718095.jpg": "roosevelt_family_1925.jpg",
+    "Mémorial-Caumont.jpg": "caumont_memorial.jpg",
+    "Plaque BigRedOne-Caumont.jpg": "caumont_plaque.jpg",
+    "Omaha Beach wounded soldiers, 1944-06-06 P012901.jpg": "omaha_wounded.jpg",
+    "208-AAN-Normandy-33716.jpg": "normandy_208aan.jpg",
 }
 
 def api(params):

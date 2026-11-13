@@ -1,1 +1,54 @@
-{}
+{
+ "doc_art9": {
+  "image": "doc_art9.png",
+  "pw": 1403,
+  "ph": 2000,
+  "phrase": "If they fall into the hands of the enemy they shall not be treated as prisoners of war.",
+  "rects": [
+   [
+    876,
+    1601,
+    237,
+    34
+   ],
+   [
+    180,
+    1637,
+    754,
+    34
+   ]
+  ]
+ },
+ "doc_art12": {
+  "image": "doc_art12.png",
+  "pw": 1403,
+  "ph": 2000,
+  "phrase": "they shall be sent back to the belligerent to whose service they are attached as soon as a way is open for their return and military exigencies permit.",
+  "rects": [
+   [
+    735,
+    1139,
+    324,
+    34
+   ],
+   [
+    125,
+    1172,
+    789,
+    34
+   ],
+   [
+    907,
+    1172,
+    152,
+    34
+   ],
+   [
+    125,
+    1207,
+    558,
+    34
+   ]
+  ]
+ }
+}
