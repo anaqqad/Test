@@ -633,6 +633,88 @@ export const VIDEOS = {
       },
     ],
   },
+  oldvoices: {
+    title: "What English Sounded Like in the 1800s", // real wax cylinders 1888-1890; audio: build_oldvoices.py
+    introNote: "Real recordings from 1888 to 1890",
+    introDur: 4.0,
+    layout: "story",
+    reveal: true, // what they said appears after the clip
+    // voices set by hand: wax cylinders raise the pitch (shouting into the horn, playback speed), so the pitch check fails
+    counterLabel: "born",
+    accent: "#8a5a2b",
+    items: [
+      {
+        name: "Alfred Tennyson", wojak: "o_tennyson", flag: "gb", speakers: "1809", scene: "moorland", loc: null,
+        char: { skin: "light", hair: "long", hairColor: "grey", beard: true, outfit: { type: "shirt", color: "#222222", vest: "#222222" }, expression: "neutral" },
+        cards: [
+          "Alfred Tennyson, born in 1809, was Queen Victoria’s Poet Laureate.",
+          "In 1890 he recorded his most famous poem, about a doomed cavalry charge in the Crimean War.",
+          "He read: 'Half a league, half a league, half a league onward, all in the valley of Death rode the six hundred.' A league is about 3 miles.",
+        ],
+        audio: { file: "incoming/oldvoices/LightBrigade-Tennyson.ogg", start: 0.0, voice: "m" },
+      },
+      {
+        name: "P. T. Barnum", wojak: "o_barnum", flag: "us", speakers: "1810", scene: "village", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "white", outfit: { type: "shirt", color: "#222222", vest: "#222222" }, expression: "smile" },
+        cards: [
+          "P. T. Barnum, born in 1810, was the American showman behind 'The Greatest Show on Earth'.",
+          "He recorded this in London in 1890, the year before he died.",
+          "He said: '…so that my voice, like my great show, will reach future generations and be heard centuries after I have joined the great, and as I believe, happy majority.' 'The great majority' meant the dead.",
+        ],
+        audio: { file: "incoming/oldvoices/PT Barnum Phonograph.wav", start: 20.2, voice: "m" },
+      },
+      {
+        name: "Robert Browning", wojak: "o_browning", flag: "gb", speakers: "1812", scene: "adriatic", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "white", beard: true, outfit: { type: "shirt", color: "#222222", vest: "#222222" }, expression: "smile" },
+        cards: [
+          "Robert Browning, born in 1812, was one of the great Victorian poets.",
+          "At a dinner party in 1889 he tried to recite one of his own poems for Edison’s new phonograph.",
+          "He forgot it halfway! 'I’m terribly sorry, but I can’t remember me own verses.' He died eight months later, and this became one of the first voices heard after the speaker’s death.",
+        ],
+        audio: { file: "incoming/oldvoices/Robert Browning recites \"How They Brought The Good News From Ghent To Aix\".ogg", start: 0.0, voice: "m" },
+      },
+      {
+        name: "Walt Whitman", wojak: "o_whitman", flag: "us", speakers: "1819", scene: "forest", loc: null,
+        char: { skin: "light", hair: "long", hairColor: "white", beard: true, outfit: { type: "shirt", color: "#8a8f98", vest: "#8a8f98" }, expression: "neutral" },
+        cards: [
+          "Walt Whitman, born in 1819, is often called the father of American free verse.",
+          "This 1890 cylinder is thought to be his voice, although historians still debate it.",
+          "He read the start of his poem 'America': 'Centre of equal daughters, equal sons, all, all alike endear’d, grown, ungrown, young or old…'",
+        ],
+        audio: { file: "incoming/oldvoices/Walt Whitman - America.ogg", start: 0.0, voice: "m" },
+      },
+      {
+        name: "Florence Nightingale", wojak: "o_nightingale_f", flag: "gb", speakers: "1820", scene: "hills", loc: null,
+        char: { skin: "light", hair: "bun", hairColor: "grey", outfit: { type: "shirt", color: "#222222", vest: "#222222" }, expression: "smile" },
+        cards: [
+          "Florence Nightingale, born in 1820, founded modern nursing during the Crimean War.",
+          "She recorded this in 1890 to raise money for old soldiers of the Light Brigade, the same charge as Tennyson’s poem.",
+          "She said: 'When I am no longer even a memory, just a name, I hope my voice may perpetuate the great work of my life.'",
+        ],
+        audio: { file: "incoming/oldvoices/Florence Nightingale voice - 1576A 2nd Rendition.ogg", start: 13.8, voice: "f" },
+      },
+      {
+        name: "Benjamin Harrison", wojak: "o_harrison", flag: "us", speakers: "1833", scene: "grassland", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "brown", beard: true, outfit: { type: "shirt", color: "#222222", vest: "#222222" }, expression: "neutral" },
+        cards: [
+          "Benjamin Harrison, born in 1833, was the 23rd President of the United States.",
+          "Recorded around 1889, it is the oldest known recording of a US president’s voice.",
+          "He said: 'As President of the United States, I was present at the first Pan-American Congress in Washington, D.C. … with God’s help, our two countries shall continue to live side by side in peace and prosperity.'",
+        ],
+        audio: { file: "incoming/oldvoices/Benjamin Harrison Voice (1889).ogg", start: 0.0, voice: "m" },
+      },
+      {
+        name: "Arthur Sullivan", wojak: "o_sullivan", flag: "gb", speakers: "1842", scene: "copenhagen", loc: null,
+        char: { skin: "light", hair: "short", hairColor: "black", outfit: { type: "shirt", color: "#222222", vest: "#222222" }, expression: "smile" },
+        cards: [
+          "Arthur Sullivan, born in 1842, wrote the music of Gilbert and Sullivan’s comic operas.",
+          "He heard Edison’s phonograph at a party in London in October 1888, and recorded a message for Edison.",
+          "He said he was 'astonished and somewhat terrified … at the thought that so much hideous and bad music may be put on record forever.'",
+        ],
+        audio: { file: "incoming/oldvoices/Arthur Sullivan - wax cylinder recording.ogg", start: 38.7, voice: "m" },
+      },
+    ],
+  },
   arabic: {
     title: "Why Arabs Can’t Understand Each Other", // owner's idea 2026-11-10; audio: build_arabic.py; thumbnail: thumb_arabic.mjs
     introNote: "The answer is at the end!", // owner: say at the start that the answer comes at the end
