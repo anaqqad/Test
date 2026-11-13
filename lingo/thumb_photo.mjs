@@ -1,0 +1,144 @@
+// Photo-style thumbnails (white name strip, real landscape photo, meme-style character, flag, red hook):
+// node thumb_photo.mjs [key ...] -> out/brand/thumbP_<key>.png. Photos are free-licence Wikimedia Commons
+// files in cache/photos; their credits are in PHOTO_CREDITS below and go into the video description.
+import fs from "node:fs";
+import { execFileSync } from "node:child_process";
+import path from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import { chromium } from "playwright-core";
+import { wojak } from "./art.mjs";
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const url = (p) => pathToFileURL(path.join(HERE, p)).href;
+const css = ["montserrat/700.css", "montserrat/800.css"].map((f) => `<link rel="stylesheet" href="${url("node_modules/@fontsource/" + f)}">`).join("");
+
+export const PHOTO_CREDITS = {
+  giza: "Pyramids of Giza: photo by Kallerna, CC BY-SA 3.0, via Wikimedia Commons",
+  persepolis: "Persepolis: photo by Carole Raddato, CC BY-SA 2.0, via Wikimedia Commons",
+  skellig: "Skellig Michael: photo by Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+  bamburgh: "Bamburgh Castle: photo by mattbuck, CC BY-SA 4.0, via Wikimedia Commons",
+  sounds: "Transkei, South Africa: photo by Michael Wittwer, CC BY-SA 4.0, via Wikimedia Commons",
+  niche: "Khandagayty, Tuva: photo by AntonovAlexandr, CC BY-SA 3.0, via Wikimedia Commons",
+  speed: "Brandenburg Gate, Berlin: photo by Thomas Wolf (www.foto-tw.de), CC BY-SA 3.0, via Wikimedia Commons",
+  accents: "Halong Bay, Vietnam: photo by Thomas Hirsch, CC BY-SA 3.0, via Wikimedia Commons",
+  soundcount: "Kalahari Desert, Namibia: photo by Olga Ernst & Hp.Baumeler, CC BY-SA 4.0, via Wikimedia Commons",
+  cases: "Hungarian Parliament, Budapest: photo by Godot13, CC BY-SA 4.0, via Wikimedia Commons",
+  oldvoices: "Edison phonograph with a wax cylinder, Kid Ory Historic House, Louisiana: photo by Infrogmation of New Orleans, CC BY-SA 4.0, via Wikimedia Commons",
+  understand2: "Angel Oak, Johns Island, South Carolina (Gullah Sea Islands): photo by Galen Parks Smith, CC BY-SA 3.0, via Wikimedia Commons",
+  slavic: "Tsarevets fortress, Veliko Tarnovo, Bulgaria: photo by MrPanyGoff, CC BY-SA 3.0, via Wikimedia Commons",
+  turkic: "Maiden Tower, Old City of Baku, Azerbaijan: photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+  understand: "Stilt houses, Port Moresby, Papua New Guinea: photo by gailhampshire, CC BY 2.0, via Wikimedia Commons",
+  easy: "Dutch windmills at sunset: photo by Bas (Flickr), CC BY 2.0, via Wikimedia Commons",
+  polite: "Senbon torii path, Fushimi Inari-taisha, Kyoto: photo by PLBechly, CC BY-SA 4.0, via Wikimedia Commons",
+  isolates: "Hunza Valley, Karimabad, Pakistan: photo by Waleedshahid, CC BY-SA 4.0, via Wikimedia Commons",
+  isolates2: "Totem poles at the Haida Heritage Centre, Haida Gwaii: photo by Karen Neoh, CC BY 2.0, via Wikimedia Commons",
+  conlangs3: "Tuning fork on sheet music: photo by Lukasz Kobus, © European Union (European Commission Audiovisual Service, CC BY 4.0), via Wikimedia Commons",
+  conlangs2: "Pont Mirabeau over the Seine, Paris: photo by Hilader, CC BY-SA 4.0, via Wikimedia Commons",
+  conlangs: "Old Town Market Square, Warsaw: photo by Rhododendrites, CC BY-SA 4.0, via Wikimedia Commons",
+  extinct: "Terraced hills of Dhading, Nepal: photo by Everhard van Eimeren, CC BY-SA 4.0, via Wikimedia Commons",
+  tonal3: "Monte Albán main plaza, Oaxaca: photo by Nosferattus, public domain, via Wikimedia Commons",
+  agglut: "Hot air balloons over valleys near Göreme, Cappadocia, Türkiye: photo by MusikAnimal, CC BY-SA 4.0, via Wikimedia Commons",
+  tonal4: "Geirangerfjord from Flydalsjuvet, Norway: photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+  tonal2: "Hong Kong night skyline: photo by Base64, retouched by CarolSpears, CC BY-SA 3.0, via Wikimedia Commons",
+  tonal: "Great Wall of China at Jinshanling: photo by Jakub Hałun, CC BY-SA 3.0, via Wikimedia Commons",
+  native: "Forrest Gump Point, Monument Valley (Navajo Nation): photo by King of Hearts, CC BY-SA 4.0, via Wikimedia Commons",
+  soundlike2: "Helsinki Cathedral seen from the sea: photo by Varcos, CC BY-SA 3.0, via Wikimedia Commons",
+  soundlike: "Valletta from the Grand Harbour: photo by Martin Furtschegger, CC BY 3.0, via Wikimedia Commons",
+  a2usa: "Times Square: photo by Jerry Steinfield, CC BY-SA 4.0, via Wikimedia Commons",
+  revived: "Jerusalem Old City: photo by Nettadi, CC BY-SA 3.0, via Wikimedia Commons",
+  ancient4: "Saona Island: photo by Danu Widjajanto, CC BY-SA 4.0, via Wikimedia Commons",
+  ancient5: "Newfoundland landscape: photo by Chris Scott, CC BY 3.0, via Wikimedia Commons",
+  whistled: "Valle Gran Rey, La Gomera: photo by Llez, CC BY-SA 3.0, via Wikimedia Commons",
+  similar: "Guadiana International Bridge (Spain-Portugal): photo by Benoît Prieur, CC0, via Wikimedia Commons",
+  vulgar: "Colosseum, Rome: photo by Diliff (David Iliff), CC BY-SA 2.5, via Wikimedia Commons",
+  untrans: "Prague skyline: photo by MurderousPass, CC0, via Wikimedia Commons",
+  whistled2: "Amazon rainforest: photo by CIAT (Neil Palmer), CC BY-SA 2.0, via Wikimedia Commons",
+  extinct2: "Reindeer in Lapland: photo by jill.s (Flickr), CC BY-SA 2.0, via Wikimedia Commons",
+  conwords: "Nile crocodile on the Zambezi River, Zimbabwe: photo by Christoph Strässler, CC BY-SA 2.0, via Wikimedia Commons",
+  rules2: "Sailing through the Ilulissat Icefjord, Greenland: photo by Vincent van Zeijst, CC BY 3.0, via Wikimedia Commons",
+  ancient6: "Mongolian steppes: photo by Francisco Anzola, CC BY 2.0, via Wikimedia Commons",
+};
+// Esperanto has its own flag, not in flag-icons: green field, white canton with a green star
+const EO = "data:image/svg+xml;utf8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><rect width="600" height="400" fill="#009900"/><rect width="200" height="200" fill="#fff"/><path d="M100 30 L118 82 L173 82 L128 114 L145 166 L100 134 L55 166 L72 114 L27 82 L82 82Z" fill="#009900"/></svg>');
+
+const T = {
+  ancient: { part: "PART 1", name: "Ancient Egyptian", photo: "giza", pos: "50% 60%", flag: "eg", hook: ["Unheard for", "4,000 Years"],
+    who: { skin: "brown", hair: "long", hairColor: "black", fem: true, hat: { type: "headband", color: "#d9b13b", color2: "#1f4e8c" }, outfit: { type: "dress", color: "#f4f1e8", color2: "#d9b13b", trim: "#1f4e8c" }, earrings: "#d9b13b", expression: "neutral" } },
+  ancient2: { part: "PART 2", name: "Old Persian", photo: "persepolis", pos: "50% 45%", flag: "ir", hook: ["Lost for", "2,500 Years"],
+    who: { skin: "olive", hair: "long", hairColor: "black", beard: true, hat: { type: "crown", color: "#d9b13b", color2: "#1f4e8c" }, outfit: { type: "coat", color: "#5b2a6b", inner: "#d9b13b" }, expression: "neutral" } },
+  ancient3: { part: "PART 3", name: "Old Irish", photo: "skellig", pos: "50% 50%", flag: "ie", hook: ["1,200", "Years Old"],
+    who: { skin: "pale", hair: "short", hairColor: "auburn", outfit: { type: "wrap", color: "#6b4a2b", color2: "#3b2a16", trim: "#c8a165" }, expression: "neutral" } },
+  english: { name: "Old English", photo: "bamburgh", pos: "50% 50%", flag: "gb-eng", hook: ["This Is", "English?!"],
+    who: { skin: "pale", hair: "short", hairColor: "auburn", beard: true, beardColor: "#7a3b1c", outfit: { type: "tunic", color: "#2f5d3a", trim: "#c8a165" }, expression: "neutral" } },
+  ancient4: { part: "PART 4", name: "Taíno", photo: "ancient4", pos: "50% 60%", flag: "do", hook: ["You Speak It", "Every Day"] },
+  similar: { name: "Spanish vs Portuguese", photo: "similar", pos: "50% 50%", flag: "es", flag2: "pt", imgH: 560, imgW: 760, hook: ["Same", "Language?!"] },
+  whistled: { part: "PART 1", name: "Silbo Gomero", photo: "whistled", pos: "50% 50%", flag: "es", hook: ["NO", "WORDS"] },
+  vulgar: { name: "Italian", photo: "vulgar", pos: "50% 55%", flag: "it", hook: ["Most", "Vulgar?!"] },
+  untrans: { name: "Czech", photo: "untrans", pos: "50% 50%", flag: "cz", hook: ["No English", "Word?!"], hookSize: 86 },
+  whistled2: { part: "PART 2", name: "Pirahã", photo: "whistled2", pos: "50% 50%", flag: "br", hook: ["NO", "WORDS"] },
+  extinct2: { part: "PART 2", name: "Northern Sami", photo: "extinct2", pos: "50% 50%", flag: "no", hook: ["Almost", "Gone"] },
+  conwords: { name: "Esperanto", photo: "conwords", pos: "50% 50%", flag: "eo", flagUrl: pathToFileURL(path.join(HERE, "flags", "eo.svg")).href, hook: ["Crocodile", "Talk?!"] },
+  rules2: { part: "PART 2", name: "Greenlandic", photo: "rules2", pos: "60% 45%", flag: "gl", hook: ["One", "Word?!"] },
+  ancient5: { part: "PART 5", name: "Beothuk", photo: "ancient5", pos: "50% 50%", flag: "ca", hook: ["Not One", "Sentence Left"], hookSize: 86 },
+  ancient6: { part: "PART 6", name: "Middle Mongolian", photo: "ancient6", pos: "50% 50%", flag: "mn", hook: ["Genghis Khan", "Spoke This"], hookSize: 86 },
+  sounds: { part: "PART 1", name: "Xhosa", photo: "sounds", pos: "50% 50%", flag: "za", hook: ["Weirdest", "Sounds Ever"] },
+  niche: { name: "Tuvan", photo: "niche", pos: "50% 50%", flag: "ru", hook: ["Who Speaks", "This?"] },
+  conlangs: { part: "PART 1", name: "Esperanto", photo: "conlangs", pos: "50% 50%", flagUrl: EO, hook: ["Someone", "Invented It"] },
+  speed: { name: "German", photo: "speed", pos: "50% 50%", flag: "de", hook: ["Fastest", "Language?!"] },
+  accents: { name: "Vietnamese", photo: "accents", pos: "50% 50%", flag: "vn", hook: ["67 Accent", "Letters?!"], hookSize: 96 },
+  soundcount: { name: "!Xóõ (Taa)", photo: "soundcount", pos: "50% 50%", flag: "bw", hook: ["161", "Sounds?!"] },
+  cases: { name: "Hungarian", photo: "cases", pos: "50% 50%", flag: "hu", hook: ["18", "Cases?!"] },
+  oldvoices: { name: "Alfred Tennyson", photo: "oldvoices", pos: "70% 50%", flag: "gb", hook: ["Born in", "1809?!"] },
+  understand2: { part: "PART 2", name: "Gullah", photo: "understand2", pos: "50% 50%", flag: "us", hook: ["Can You", "Understand?!"], hookSize: 90 },
+  slavic: { name: "Bulgarian", photo: "slavic", pos: "70% 50%", flag: "bg", hook: ["Can You", "Understand?!"], hookSize: 90 },
+  turkic: { name: "Azerbaijani", photo: "turkic", pos: "50% 50%", flag: "az", hook: ["Can You", "Understand?!"], hookSize: 90 },
+  understand: { part: "PART 1", name: "Tok Pisin", photo: "understand", pos: "50% 50%", flag: "pg", hook: ["Can You", "Understand?!"], hookSize: 90 },
+  easy: { name: "Dutch", photo: "easy", pos: "50% 50%", flag: "nl", hook: ["Easiest", "Language?!"] },
+  polite: { name: "Japanese", photo: "polite", pos: "50% 45%", flag: "jp", hook: ["Too", "Polite?!"] },
+  isolates: { part: "PART 1", name: "Burushaski", photo: "isolates", pos: "50% 50%", flag: "pk", hook: ["No Relatives", "At All?!"] },
+  isolates2: { part: "PART 2", name: "Haida", photo: "isolates2", pos: "50% 40%", flag: "ca", hook: ["Related To", "NOTHING?!"] },
+  conlangs3: { part: "PART 3", name: "Solresol", photo: "conlangs3", pos: "50% 55%", flagUrl: pathToFileURL(path.join(HERE, "flags", "solresol.svg")).href, hook: ["Made of", "Music?!"] },
+  conlangs2: { part: "PART 2", name: "Uropi", photo: "conlangs2", pos: "50% 50%", flagUrl: pathToFileURL(path.join(HERE, "flags", "uropi.svg")).href, hook: ["Someone", "Invented It"] },
+  extinct: { part: "PART 1", name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },
+  whistlesong: { name: "Whistled Languages", photo: "whistled", pos: "50% 50%", flag: "es", hook: ["I Made", "a Song?!"] },
+  tonal3: { part: "PART 3", name: "Triqui", photo: "tonal3", pos: "50% 50%", flag: "mx", hook: ["Up to", "8 Tones?!"] },
+  agglut: { name: "Turkish", photo: "agglut", pos: "50% 50%", flag: "tr", hook: ["Çekoslovakya", "lılaştıramadık", "larımızdanmışsınız"], hookSize: 76, hookW: 900 },
+  tonal4: { part: "PART 4", name: "Norwegian", photo: "tonal4", pos: "50% 50%", flag: "no", hook: ["This Is", "Tonal?!"] },
+  tonal2: { part: "PART 2", name: "Cantonese", photo: "tonal2", pos: "50% 50%", flag: "hk", hook: ["6 Tones", "for 1 Word?!"], hookSize: 92 },
+  tonal: { part: "PART 1", name: "Mandarin", photo: "tonal", pos: "50% 40%", flag: "cn", hook: ["Buy or", "Sell?!"] },
+  native: { name: "Navajo", photo: "native", pos: "50% 40%", flag: "us", hook: ["Spoken Before", "English"], hookSize: 84 },
+  soundlike2: { part: "PART 2", name: "Finnish", photo: "soundlike2", pos: "50% 50%", flag: "fi", hook: ["This Isn't", "Japanese?!"] },
+  soundlike: { part: "PART 1", name: "Maltese", photo: "soundlike", pos: "50% 50%", flag: "mt", hook: ["This Isn't", "Arabic?!"] },
+  a2usa: { name: "A2 English", photo: "a2usa", pos: "50% 40%", flag: "us", hook: ["Yes.", "Thank You."] },
+  revived: { name: "Hebrew", photo: "revived", pos: "50% 50%", flag: "il", hook: ["Back From", "the Dead"] },
+};
+
+const stroke = (w, c) => [...Array(16)].map((_, i) => { const a = (i / 16) * 2 * Math.PI; return `${(Math.cos(a) * w).toFixed(1)}px ${(Math.sin(a) * w).toFixed(1)}px 0 ${c}`; }).join(",");
+const page = (t) => `<!doctype html><meta charset="utf-8">${css}<style>*{margin:0;padding:0}body{width:1280px;height:720px;overflow:hidden;font-family:Montserrat;background:#000}.a{position:absolute}.a>svg{width:100%;height:100%}</style>
+<div class="a" style="inset:0;background:url('${url("cache/photos/" + t.photo + ".jpg")}') ${t.pos}/cover"></div>
+<div class="a" style="left:0;top:0;width:1280px;height:78px;background:#fff;text-align:center;font-weight:700;font-size:50px;line-height:80px;color:#111">${t.name}</div>
+${t.img ? `<img class="a" src="${t.img}" style="left:0;bottom:0;height:${t.imgH || 640}px;max-width:${t.imgW || 600}px;object-fit:contain;object-position:left bottom">` : `<div class="a" style="left:-110px;top:40px;width:660px;height:950px">${wojak(t.who, "p")}</div>`}
+${t.part ? `<div class="a" style="right:40px;top:328px;width:300px;text-align:center;background:#e8262b;color:#fff;font-weight:800;font-size:54px;padding:2px 0 6px;border:5px solid #fff;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.45)">${t.part}</div>` : ""}
+${t.flag2 ? `<div class="a" style="right:360px;top:112px;width:300px;height:200px;background:url('${url("node_modules/flag-icons/flags/4x3/" + t.flag2 + ".svg")}') center/cover;box-shadow:0 6px 18px rgba(0,0,0,.45);border:5px solid #fff;border-radius:10px"></div>` : ""}
+<div class="a" style="right:40px;top:112px;width:300px;height:200px;background:url('${t.flagUrl || url("node_modules/flag-icons/flags/4x3/" + t.flag + ".svg")}') center/${t.flag === "np" ? "contain no-repeat" : "cover"};${t.flag === "np" ? "box-shadow:none;" : ""}box-shadow:0 6px 18px rgba(0,0,0,.45)"></div>
+<div class="a" style="right:40px;bottom:56px;width:${t.hookW || 720}px;text-align:right;font-weight:800;font-size:${t.hookSize || 104}px;line-height:1.02;color:${t.hookColor || "#e8262b"};text-shadow:${stroke(7, "#fff")},0 10px 20px rgba(0,0,0,.45)">${t.hook.join("<br>")}</div>`;
+
+const keys = process.argv.slice(2).length ? process.argv.slice(2) : Object.keys(T);
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
+for (const k of keys) {
+  // a character drawn elsewhere (e.g. made in ChatGPT, transparent PNG) wins over the built-in drawing
+  const own = path.join(HERE, "wojaks", `${k}.png`);
+  if (fs.existsSync(own)) {
+    // trim the transparent margin so the character sits right on the bottom edge (owner: no gap under the Wojak)
+    const trimmed = path.join(HERE, "cache", "pages", `wj_${k}.png`);
+    execFileSync("convert", [own, "-trim", "+repage", trimmed]);
+    T[k].img = pathToFileURL(trimmed).href;
+  }
+  const f = path.join(HERE, "cache", "pages", `thumbP_${k}.html`);
+  fs.writeFileSync(f, page(T[k]));
+  const p = await b.newPage({ viewport: { width: 1280, height: 720 } });
+  await p.goto(pathToFileURL(f).href); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(200);
+  await p.screenshot({ path: path.join(HERE, "out", "brand", `thumbP_${k}.png`) });
+  await p.close();
+  console.log(`out/brand/thumbP_${k}.png`);
+}
+await b.close();

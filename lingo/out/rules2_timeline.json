@@ -1,0 +1,52 @@
+[
+ {
+  "name": "intro",
+  "start": 0,
+  "dur": 5
+ },
+ {
+  "name": "kal",
+  "start": 5,
+  "dur": 21.2
+ },
+ {
+  "name": "kat",
+  "start": 26.2,
+  "dur": 20.97
+ },
+ {
+  "name": "hmn",
+  "start": 47.17,
+  "dur": 21.2
+ },
+ {
+  "name": "que",
+  "start": 68.37,
+  "dur": 21.2
+ },
+ {
+  "name": "lkt",
+  "start": 89.57,
+  "dur": 21.2
+ },
+ {
+  "name": "chr",
+  "start": 110.77,
+  "dur": 21.2
+ },
+ {
+  "name": "nah",
+  "start": 131.97,
+  "dur": 21.2
+ },
+ {
+  "name": "eus",
+  "start": 153.17,
+  "dur": 21.2
+ },
+ {
+  "name": "outro",
+  "start": 174.37,
+  "dur": 7
+ }
+]

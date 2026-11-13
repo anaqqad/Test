@@ -1,0 +1,51 @@
+{
+ "krokodili": {
+  "dw": 0.73,
+  "de": 3.42,
+  "f0": 145,
+  "voice": "male",
+  "words": 8
+ },
+ "pu": {
+  "dw": 0.25,
+  "de": 3.16,
+  "f0": 106,
+  "voice": "male",
+  "words": 8
+ },
+ "ua": {
+  "dw": 0.32,
+  "de": 1.45,
+  "f0": 129,
+  "voice": "male",
+  "words": 5
+ },
+ "oshaana": {
+  "dw": 0.69,
+  "de": 1.63,
+  "f0": 87,
+  "voice": "male",
+  "words": 4
+ },
+ "samideano": {
+  "dw": 0.79,
+  "de": 1.98,
+  "f0": 119,
+  "voice": "male",
+  "words": 4
+ },
+ "ui": {
+  "dw": 0.34,
+  "de": 0.76,
+  "f0": 129,
+  "voice": "male",
+  "words": 2
+ },
+ "kijetesantakalu": {
+  "dw": 0.79,
+  "de": 0.67,
+  "f0": 98,
+  "voice": "male",
+  "words": 1
+ }
+}

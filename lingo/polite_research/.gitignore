@@ -1,0 +1,4 @@
+dicts/
+data_en/
+data_en2/.lock_*/
+*.log
