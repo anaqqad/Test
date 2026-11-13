@@ -56,7 +56,7 @@ def main(videos):
             end = voice_end(a)
             f0, n = f0_median(a)
             g = (it.get("audio") or {}).get("voice") or ("?" if n < 50 else "m" if f0 < 165 else "f")
-            char_g = "f" if it["char"].get("fem") else "m"
+            char_g = "f" if (it.get("char") or {}).get("fem") else "m"  # wojak-only items have no char
             out[it["name"]] = {"end": round(end, 2), "f0": round(f0), "frames": n, "voice": g}
             flag = "  -> avatar becomes " + g if g in ("m", "f") and g != char_g else ""
             print(f"{v:9s} {it['name']:22s} end {end:5.1f}s  f0 {f0:4.0f}Hz ({n:4d})  voice {g}  avatar {char_g}{flag}")

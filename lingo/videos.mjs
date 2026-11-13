@@ -1768,7 +1768,7 @@ export const VIDEOS = {
           "Standard Latvian has up to three syllable tones, called level, falling and broken.",
           "The tones are not written in normal spelling, so learners have to hear them.",
         ],
-        audio: { file: "WIKITONGUES- Jānis speaking Latvian.webm", start: "auto", voice: "m" },
+        audio: { file: "WIKITONGUES- Jānis speaking Latvian.webm", start: 0, voice: "m" },
       },
       {
         name: "Bosnian", wojak: "t4_bos", flag: "ba", speakers: "~2.5M", scene: "adriatic", loc: [43.86, 18.41, "Bosnia and Herzegovina"],
