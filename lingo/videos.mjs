@@ -1730,6 +1730,80 @@ export const VIDEOS = {
   // ------------------------------------------------------------------ 8
   // Simulated: the owner asked for AI voices here. Each phrase is a published scholarly reconstruction, written in IPA
   // and read by a Piper voice (ipa_say.py / sim_audio.py). The video labels every clip as an AI simulation.
+  tonal4: {
+    title: "Tonal Languages be like…", // YouTube: "... (Part 4)"; "You didn't know these were tonal": pitch accents of Europe, plus Punjabi, Dzongkha, Navajo
+    part: "Part 4",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#8e44ad",
+    pitchLine: true,
+    items: [
+      {
+        name: "Swedish", wojak: "t4_swe", flag: "se", speakers: "~10M", scene: "dalarna", loc: [56.7, 12.9, "Halland, Sweden"],
+        cards: [
+          "Most Swedes use two word melodies, so 'anden' with one tune is 'the duck', and with the other it’s 'the spirit'.",
+          "This speaker uses the Halland dialect of the southwest. Most Swedish speakers in Finland have no word melodies at all.",
+        ],
+        audio: { file: "WIKITONGUES- Alexandra speaking Halländska Swedish.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Norwegian", wojak: "t4_nor", flag: "no", speakers: "~5M", scene: "faroe", loc: [60.4, 8.5, "Norway"],
+        cards: [
+          "Norwegian has two tones too: 'bønder' means farmers and 'bønner' means beans, and in speech they differ only by the melody.",
+          "Norwegians even use the melody to tell where someone is from, since every dialect sings it differently.",
+        ],
+        audio: { file: "WIKITONGUES- Emily speaking Norwegian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Lithuanian", wojak: "t4_lit", flag: "lt", speakers: "~2.8M", scene: "baltic", loc: [54.7, 25.3, "Lithuania"],
+        cards: [
+          "Lithuanian has a pitch accent: a long stressed syllable is either rising or falling, and that can change the meaning.",
+          "It kept many very old features, so linguists use it to work out how Proto-Indo-European sounded.",
+        ],
+        audio: { file: "WIKITONGUES- Erika speaking Lithuanian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Latvian", wojak: "t4_lav", flag: "lv", speakers: "~1.5M", scene: "baltic", loc: [56.95, 24.1, "Latvia"],
+        cards: [
+          "Standard Latvian has up to three syllable tones, called level, falling and broken.",
+          "The tones are not written in normal spelling, so learners have to hear them.",
+        ],
+        audio: { file: "WIKITONGUES- Jānis speaking Latvian.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Bosnian", wojak: "t4_bos", flag: "ba", speakers: "~2.5M", scene: "adriatic", loc: [43.86, 18.41, "Bosnia and Herzegovina"],
+        cards: [
+          "Like Serbian and Croatian, standard Bosnian has four word accents: short or long, rising or falling.",
+          "The accent marks appear only in dictionaries and textbooks, never in normal writing.",
+        ],
+        audio: { file: "WIKITONGUES- Mirela speaking Bosnian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Punjabi", wojak: "t4_pan", flag: "in", speakers: "~150M", scene: "village", loc: [30.7, 76.7, "Powadh, Punjab, India"],
+        cards: [
+          "Punjabi is one of the few Indo-European languages with real tones that tell words apart.",
+          "Its tones came from lost breathy sounds: horse is spelled 'ghoṛā' but said like 'kòṛā', with a falling tone.",
+        ],
+        audio: { file: "WIKITONGUES- Randeep speaking Powadhi Punjabi.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Dzongkha", wojak: "t4_dzo", flag: "bt", speakers: "~170,000", scene: "himalaya", loc: [27.47, 89.64, "Thimphu, Bhutan"],
+        cards: [
+          "Dzongkha is Bhutan’s national language, a cousin of Tibetan written in the same script.",
+          "It has a high and a low tone, mostly set by the first consonant of the syllable, like Lhasa Tibetan.",
+        ],
+        audio: { file: "Kinley speaking Dzongkha.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Navajo", wojak: "t4_nav", flag: "us", speakers: "~170,000", scene: "mesa", loc: [36.15, -109.55, "Navajo Nation, Arizona"],
+        cards: [
+          "Navajo has high and low tones, and its spelling marks the high tone with an accent, as in 'Diné bizaad', the Navajo language.",
+          "In World War II, Navajo Code Talkers used it for a code that was never broken.",
+        ],
+        audio: { file: "US Department of Labor - A message in Navajo about workers' compensation benefits (2023).opus", start: 7.5, voice: "f" },
+      },
+    ],
+  },
   ancient: {
     title: "Extinct Languages Simulated by AI (Part 1)",
     simVoices: "Arabic for Egyptian, Hebrew for Akkadian, Icelandic for Old Norse and Gothic, Italian for Latin, Greek for Ancient Greek, Turkish for Hittite, Dutch for Old English, Persian for Sumerian, German for Proto-Indo-European",
