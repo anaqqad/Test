@@ -100,7 +100,7 @@ const T = {
   extinct: { part: "PART 1", name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },
   whistlesong: { name: "Whistled Languages", photo: "whistled", pos: "50% 50%", flag: "es", hook: ["I Made", "a Song?!"] },
   tonal3: { part: "PART 3", name: "Triqui", photo: "tonal3", pos: "50% 50%", flag: "mx", hook: ["Up to", "8 Tones?!"] },
-  tonal4: { part: "PART 4", name: "Norwegian", photo: "tonal4", pos: "50% 50%", flag: "no", hook: ["These Are", "Tonal?!"] },
+  tonal4: { part: "PART 4", name: "Norwegian", photo: "tonal4", pos: "50% 50%", flag: "no", hook: ["This Is", "Tonal?!"] },
   tonal2: { part: "PART 2", name: "Cantonese", photo: "tonal2", pos: "50% 50%", flag: "hk", hook: ["6 Tones", "for 1 Word?!"], hookSize: 92 },
   tonal: { part: "PART 1", name: "Mandarin", photo: "tonal", pos: "50% 40%", flag: "cn", hook: ["Buy or", "Sell?!"] },
   native: { name: "Navajo", photo: "native", pos: "50% 40%", flag: "us", hook: ["Spoken Before", "English"], hookSize: 84 },
