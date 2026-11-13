@@ -64,7 +64,7 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
    (Latin, Ancient Greek, Sanskrit, Biblical Hebrew, Classical Chinese, Old Norse, Old English...) from Commons /
    LibriVox (public domain). Facts about each language.
 
-12. Agglutinative Languages be like (owner, 2026-10-28): languages that glue many endings onto one word
+12. DONE `agglut` (2026-11-13). Agglutinative Languages be like (owner, 2026-10-28): languages that glue many endings onto one word
    (Turkish, Finnish, Hungarian, Japanese, Korean, Swahili, Quechua, Greenlandic...). Show one long word built
    piece by piece, real recordings.
 13. Tonal Languages be like, series (owner, 2026-10-28; episode count checked 2026-10-30). Real recordings found on

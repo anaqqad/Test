@@ -36,6 +36,7 @@ export const PHOTO_CREDITS = {
   conlangs: "Old Town Market Square, Warsaw: photo by Rhododendrites, CC BY-SA 4.0, via Wikimedia Commons",
   extinct: "Terraced hills of Dhading, Nepal: photo by Everhard van Eimeren, CC BY-SA 4.0, via Wikimedia Commons",
   tonal3: "Monte Albán main plaza, Oaxaca: photo by Nosferattus, public domain, via Wikimedia Commons",
+  agglut: "Hot air balloons over valleys near Göreme, Cappadocia, Türkiye: photo by MusikAnimal, CC BY-SA 4.0, via Wikimedia Commons",
   tonal4: "Geirangerfjord from Flydalsjuvet, Norway: photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
   tonal2: "Hong Kong night skyline: photo by Base64, retouched by CarolSpears, CC BY-SA 3.0, via Wikimedia Commons",
   tonal: "Great Wall of China at Jinshanling: photo by Jakub Hałun, CC BY-SA 3.0, via Wikimedia Commons",
@@ -100,6 +101,7 @@ const T = {
   extinct: { part: "PART 1", name: "Kusunda", photo: "extinct", pos: "50% 50%", flag: "np", hook: ["Almost", "Gone"] },
   whistlesong: { name: "Whistled Languages", photo: "whistled", pos: "50% 50%", flag: "es", hook: ["I Made", "a Song?!"] },
   tonal3: { part: "PART 3", name: "Triqui", photo: "tonal3", pos: "50% 50%", flag: "mx", hook: ["Up to", "8 Tones?!"] },
+  agglut: { name: "Turkish", photo: "agglut", pos: "50% 50%", flag: "tr", hook: ["Çekoslovakya", "lılaştıramadık", "larımızdanmışsınız"], hookSize: 76, hookW: 900 },
   tonal4: { part: "PART 4", name: "Norwegian", photo: "tonal4", pos: "50% 50%", flag: "no", hook: ["This Is", "Tonal?!"] },
   tonal2: { part: "PART 2", name: "Cantonese", photo: "tonal2", pos: "50% 50%", flag: "hk", hook: ["6 Tones", "for 1 Word?!"], hookSize: 92 },
   tonal: { part: "PART 1", name: "Mandarin", photo: "tonal", pos: "50% 40%", flag: "cn", hook: ["Buy or", "Sell?!"] },
@@ -118,7 +120,7 @@ ${t.img ? `<img class="a" src="${t.img}" style="left:0;bottom:0;height:${t.imgH 
 ${t.part ? `<div class="a" style="right:40px;top:328px;width:300px;text-align:center;background:#e8262b;color:#fff;font-weight:800;font-size:54px;padding:2px 0 6px;border:5px solid #fff;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.45)">${t.part}</div>` : ""}
 ${t.flag2 ? `<div class="a" style="right:360px;top:112px;width:300px;height:200px;background:url('${url("node_modules/flag-icons/flags/4x3/" + t.flag2 + ".svg")}') center/cover;box-shadow:0 6px 18px rgba(0,0,0,.45);border:5px solid #fff;border-radius:10px"></div>` : ""}
 <div class="a" style="right:40px;top:112px;width:300px;height:200px;background:url('${t.flagUrl || url("node_modules/flag-icons/flags/4x3/" + t.flag + ".svg")}') center/${t.flag === "np" ? "contain no-repeat" : "cover"};${t.flag === "np" ? "box-shadow:none;" : ""}box-shadow:0 6px 18px rgba(0,0,0,.45)"></div>
-<div class="a" style="right:40px;bottom:56px;width:720px;text-align:right;font-weight:800;font-size:${t.hookSize || 104}px;line-height:1.02;color:${t.hookColor || "#e8262b"};text-shadow:${stroke(7, "#fff")},0 10px 20px rgba(0,0,0,.45)">${t.hook.join("<br>")}</div>`;
+<div class="a" style="right:40px;bottom:56px;width:${t.hookW || 720}px;text-align:right;font-weight:800;font-size:${t.hookSize || 104}px;line-height:1.02;color:${t.hookColor || "#e8262b"};text-shadow:${stroke(7, "#fff")},0 10px 20px rgba(0,0,0,.45)">${t.hook.join("<br>")}</div>`;
 
 const keys = process.argv.slice(2).length ? process.argv.slice(2) : Object.keys(T);
 const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });

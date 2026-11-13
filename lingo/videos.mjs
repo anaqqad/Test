@@ -1804,6 +1804,110 @@ export const VIDEOS = {
       },
     ],
   },
+  agglut: {
+    title: "Agglutinative Languages be like…", // languages that glue endings onto one word; one word built piece by piece per language
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#16a085",
+    items: [
+      {
+        name: "Turkish", wojak: "cs_tur_f", flag: "tr", speakers: "~90M", scene: "istanbul", loc: [41.01, 28.98, "Istanbul, Türkiye"],
+        cards: [
+          "Turkish glues endings on one by one: 'ev-ler-im-de' is house + plural + my + in, so 'in my houses'.",
+          "That’s how you get 'Çekoslovakyalılaştıramadıklarımızdanmışsınız': 'you are apparently one of those we couldn’t make Czechoslovakian'.",
+        ],
+        audio: { file: "WIKITONGUES- Ela speaking Turkish.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Hungarian", wojak: "cs_hun_f", flag: "hu", speakers: "~13M", scene: "prague", loc: [47.5, 19.04, "Budapest, Hungary"],
+        cards: [
+          "'Házaimban' is ház + a-i + m + ban: house + plural + my + in, so 'in my houses', all in one word.",
+          "Its famous long word 'megszentségteleníthetetlenségeskedéseitekért' means 'for your continued behaviour as if you could not be desecrated'.",
+        ],
+        audio: { file: "WIKITONGUES- Orsolya speaking Hungarian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Finnish", wojak: "sl2_fin", flag: "fi", speakers: "~5.8M", scene: "dalarna", loc: [60.17, 24.94, "Helsinki, Finland"],
+        cards: [
+          "'Juoksentelisinkohan' is run + around + would + I + question + I wonder: 'I wonder if I should run around aimlessly'.",
+          "Finnish nouns have 15 cases, so one noun can take well over a hundred different forms.",
+        ],
+        audio: { file: "WIKITONGUES- Jenni speaking Finnish.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Estonian", wojak: "sl2_est", flag: "ee", speakers: "~1.1M", scene: "baltic", loc: [59.44, 24.75, "Tallinn, Estonia"],
+        cards: [
+          "Finnish’s cousin has 14 cases: 'raamatu-te-ga' is book + plural + with, so 'with the books'.",
+          "It also stacks whole words: 'sünnipäevanädalalõpupeopärastlõunaväsimatus' is the 'afternoon untiredness of a weekend birthday party'.",
+        ],
+        audio: { file: "WIKITONGUES- Liisi speaking Estonian.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Kazakh", wojak: "sl2_kaz", flag: "kz", speakers: "~13M", scene: "steppe", loc: [43.24, 76.95, "Almaty, Kazakhstan"],
+        cards: [
+          "Like Turkish, Kazakh adds one ending per meaning: 'üi-ler-imiz-de' is house + plural + our + in, so 'in our houses'.",
+          "The endings change their vowels to match the word, so the same ending can look different on every word.",
+        ],
+        audio: { file: "WIKITONGUES- Yernur speaking Kazakh.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Japanese", wojak: "s_jpn_f", flag: "jp", speakers: "~123M", scene: "hongkong", loc: [35.68, 139.69, "Tokyo, Japan"],
+        cards: [
+          "Japanese verbs pile up endings: 'tabe-sase-rare-taku-nakatta' is eat + make + be + want + didn’t.",
+          "Together that’s 'I didn’t want to be made to eat', in one verb, and it never changes for I, you or they.",
+        ],
+        audio: { file: "Spoken Wikinews - Japanese 001 170103 Hakone Ekiden.webm", start: "auto", voice: "f" },
+      },
+      {
+        name: "Korean", wojak: "ag_kor_f", flag: "kr", speakers: "~81M", scene: "hongkong", loc: [37.57, 126.98, "Seoul, South Korea"],
+        cards: [
+          "'Ga-syeo-sseum-ni-kka' is go + respect + past + formal + question: a very polite 'did you go?'.",
+          "Korean verbs carry the politeness level too, so the ending shows who you are talking to.",
+        ],
+        audio: { file: "WIKITONGUES- Hanbid speaking Korean.webm", start: "auto" },
+      },
+      {
+        name: "Tamil", wojak: "cs_tam", flag: "in", speakers: "~80M", scene: "tropical", loc: [13.08, 80.27, "Chennai, India"],
+        cards: [
+          "'Vīṭu-kaḷ-il-iruntu' is house + plural + in + from, so 'from the houses', written as one word.",
+          "Tamil has a written history of over 2,000 years and still uses the same building-block grammar.",
+        ],
+        audio: { file: "WIKITONGUES- Sai speaking Tamil.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Basque", wojak: "r_eus", flag: "es", speakers: "~750,000", scene: "hills", loc: [43.26, -2.93, "Basque Country"],
+        cards: [
+          "'Etxe-eta-tik' is house + plural + from, so 'from the houses'.",
+          "One Basque verb can show the subject and two objects at once: 'dizkiot' means 'I have them to him'.",
+        ],
+        audio: { file: "WIKITONGUES- Jon speaking Basque.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Swahili", wojak: "sc_swh", flag: "tz", speakers: "~200M", scene: "savanna", loc: [-6.8, 39.28, "Dar es Salaam, Tanzania"],
+        cards: [
+          "Swahili glues at the front: 'ha-tu-ku-m-pend-a' is not + we + past + him + love, so 'we did not love him'.",
+          "'Ni-ta-ku-penda' is I + will + you + love: a full sentence, 'I will love you', in one word.",
+        ],
+        audio: { file: "WIKITONGUES- Iddy speaking Swahili.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Quechua", wojak: "r_que", flag: "pe", speakers: "~8M", scene: "sierra", loc: [-13.53, -71.97, "Cusco, Peru"],
+        cards: [
+          "'Wasi-y-kuna-pi' is house + my + plural + in, so 'in my houses'.",
+          "Quechua was the language of the Inca Empire, and endings even show if you saw something yourself or only heard it.",
+        ],
+        audio: { file: "WIKITONGUES- Casiano speaking Quechua.webm", start: "auto", voice: "m" },
+      },
+      {
+        name: "Greenlandic", wojak: "r_kal", flag: "gl", speakers: "~57,000", scene: "greenland", loc: [64.18, -51.72, "Nuuk, Greenland"],
+        cards: [
+          "Greenlandic goes furthest: 'angerlar-niar-aluar-punga' is go home + plan + though + I: 'I was planning to go home, though'.",
+          "Its dictionary’s longest word, 'inuussutissarsiorsinnaajunnaarnersiutilik', has 41 letters.",
+        ],
+        audio: { file: "WIKITONGUES- Mark speaking Greenlandic.webm", start: "auto", voice: "m" },
+      },
+    ],
+  },
   ancient: {
     title: "Extinct Languages Simulated by AI (Part 1)",
     simVoices: "Arabic for Egyptian, Hebrew for Akkadian, Icelandic for Old Norse and Gothic, Italian for Latin, Greek for Ancient Greek, Turkish for Hittite, Dutch for Old English, Persian for Sumerian, German for Proto-Indo-European",
