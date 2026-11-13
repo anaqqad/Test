@@ -1,3 +1,5 @@
+Published 2026-11-13: YouTube Short https://youtube.com/shorts/rJP2_ss8qmk (Public, Education, AI label No, Related video set to the long video) and Facebook Reel on the page (Public, AI label off).
+
 # Reel: Black Wall Street, "Black Wall Street Burned in Less Than a Day"
 
 Page: The Black History Room (Facebook Reels; YouTube Shorts)

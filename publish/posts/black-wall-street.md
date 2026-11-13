@@ -1,5 +1,7 @@
 # Facebook post: Black Wall Street (Greenwood, Tulsa)
 
+Published 2026-11-13: Facebook photo post on the page (Public, AI label off).
+
 Image: `publish/posts/black-wall-street.jpg` (public domain: Library of Congress, American National Red Cross collection; Alvin C. Krupnick Co.).
 Reel: `publish/reels/black-wall-street.md`. Long video: `publish/docs/black-wall-street.md`. Facts and sources: `data/doc-black-wall-street.json`.
 
