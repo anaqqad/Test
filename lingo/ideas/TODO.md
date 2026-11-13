@@ -221,3 +221,5 @@ One Word in 10 Languages, Languages That Count Differently.
 27. Reference channel saved by the owner (2026-11-12): verbal edge (@verbaledgee), English slang/comebacks
    Shorts. Their top videos are slang and generations (325K, 196K, 79K). Analysis and 7 LingoDude ideas:
    `lingo/ideas/reference_verbaledgee.md`.
+
+- DROPPED (owner, 2026-11-13): "What English Sounded Like in the 1800s" (`oldvoices`): too close to an idea already done (how English sounded through time). Don't suggest it again. Its files stay in the repo unused.
