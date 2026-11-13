@@ -1,0 +1,264 @@
+{
+ "id": "reel-black-wall-street",
+ "title": "Black Wall Street Burned in Less Than a Day",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {},
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "They called it Black Wall Street. In less than a day, it was gone.",
+   "visual": {
+    "kind": "photo",
+    "image": "inflames",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.08,
+     1.16
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "They called it Black Wall Street. *In less than a day, it was gone.*"
+   },
+   "captions": false,
+   "speed": 1.4
+  },
+  {
+   "id": "name",
+   "text": "This is Greenwood, in Tulsa, Oklahoma.",
+   "visual": {
+    "kind": "title",
+    "title": "Greenwood",
+    "sub": "Tulsa, Oklahoma"
+   },
+   "section": "who"
+  },
+  {
+   "id": "built",
+   "text": "Tulsa was segregated. So Black Tulsans built their own district, north of the railroad tracks.",
+   "visual": {
+    "kind": "title",
+    "title": "Built by Black Tulsans",
+    "sub": "north of the Frisco tracks"
+   },
+   "section": "story",
+   "overlays": {
+    "stamp": "1900s"
+   }
+  },
+  {
+   "id": "grow",
+   "text": "By 1921, about ten thousand people lived there. Newspapers, churches, doctors, lawyers, and a movie theater, the Dreamland.",
+   "visual": {
+    "kind": "title",
+    "title": "10,000 people",
+    "sub": "Greenwood, 1921"
+   }
+  },
+  {
+   "id": "spark",
+   "text": "On May 31, 1921, a Black teenager was arrested, and a white mob gathered at the courthouse.",
+   "visual": {
+    "kind": "title",
+    "title": "May 31, 1921",
+    "sub": "Tulsa courthouse"
+   },
+   "section": "twist"
+  },
+  {
+   "id": "dawn",
+   "text": "At dawn, armed white men crossed the tracks. They looted homes, and set them on fire.",
+   "visual": {
+    "kind": "card",
+    "image": "fire",
+    "caption": "Greenwood on fire, June 1, 1921"
+   }
+  },
+  {
+   "id": "ash",
+   "text": "Thirty-five city blocks burned. About ten thousand people lost their homes.",
+   "visual": {
+    "kind": "card",
+    "image": "district",
+    "caption": "Part of the burned district, June 1921"
+   }
+  },
+  {
+   "id": "toll",
+   "text": "Historians believe up to three hundred people were killed. No one was ever sent to prison for it.",
+   "visual": {
+    "kind": "card",
+    "image": "ruins",
+    "caption": "Ruins in Greenwood, June 1921"
+   }
+  },
+  {
+   "id": "tents",
+   "text": "And for decades, the story was left out of the history books.",
+   "visual": {
+    "kind": "card",
+    "image": "tents",
+    "caption": "Red Cross tents, Tulsa, 1921"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "rebuild",
+   "text": "But Greenwood rebuilt, house by house.",
+   "visual": {
+    "kind": "card",
+    "image": "rebuild",
+    "caption": "Rebuilding Greenwood, 1921"
+   }
+  },
+  {
+   "id": "end",
+   "text": "They built it, and then they built it again.",
+   "visual": {
+    "kind": "photo",
+    "image": "rebuild",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "OHS": {
+   "url": "https://www.okhistory.org/publications/enc/entry?entry=TU013"
+  },
+  "OHSG": {
+   "url": "https://www.okhistory.org/publications/enc/entry?entry=GR024"
+  },
+  "REPORT": {
+   "url": "https://www.okhistory.org/research/forms/freport.pdf"
+  },
+  "HIST": {
+   "url": "https://www.history.com/articles/tulsa-race-massacre"
+  },
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Tulsa_race_massacre"
+  },
+  "DOJ": {
+   "url": "https://www.justice.gov/crt/media/1384116/dl"
+  }
+ },
+ "facts": [
+  {
+   "beat": "built",
+   "claim": "Same claim as data/doc-black-wall-street.json",
+   "sources": [
+    "OHSG",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "grow",
+   "claim": "Same claim as data/doc-black-wall-street.json",
+   "sources": [
+    "OHSG",
+    "REPORT"
+   ]
+  },
+  {
+   "beat": "spark",
+   "claim": "Same claim as data/doc-black-wall-street.json",
+   "sources": [
+    "OHS",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "dawn",
+   "claim": "Same claim as data/doc-black-wall-street.json",
+   "sources": [
+    "REPORT",
+    "DOJ"
+   ]
+  },
+  {
+   "beat": "ash",
+   "claim": "Same claim as data/doc-black-wall-street.json",
+   "sources": [
+    "OHS",
+    "REPORT"
+   ]
+  },
+  {
+   "beat": "toll",
+   "claim": "Same claim as data/doc-black-wall-street.json",
+   "sources": [
+    "OHS",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "tents",
+   "claim": "Same claim as data/doc-black-wall-street.json",
+   "sources": [
+    "REPORT",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "rebuild",
+   "claim": "Same claim as data/doc-black-wall-street.json",
+   "sources": [
+    "OHSG",
+    "WIKI"
+   ]
+  }
+ ]
+}
