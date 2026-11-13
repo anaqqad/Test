@@ -1,3 +1,5 @@
+Published 2026-11-13: https://youtu.be/KOOSN1Savno (Public, 1080p upload, Education, AI label No, comment pinned). Facebook: one-line link post on the page.
+
 # Long-form: "The Destruction of Black Wall Street" (Tulsa, 1921)
 
 Cluster "Black Wall Street", video 1 of 3. Next: "The Wealthiest Black Community in America" (video 2) and "What Happened to the Survivors of Tulsa?" (video 3). When those are up, add each one to an end screen and pin a comment linking the next video.
@@ -57,7 +59,7 @@ Greenwood rebuilt after 1921. Next in this series: how Black Wall Street was bui
 
 ## Facebook
 
-Watch the full story of the destruction of Black Wall Street on YouTube: <link>
+Watch the full video about the destruction of Black Wall Street on YouTube: https://youtu.be/KOOSN1Savno
 
 ## Notes
 
