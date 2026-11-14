@@ -1,0 +1,42 @@
+{
+ "doc_art2": {
+  "image": "doc_art2.png",
+  "pw": 1403,
+  "ph": 2000,
+  "phrase": "They must at all times be humanely treated and protected, particularly against acts of violence, insults and public curiosity.",
+  "rects": [
+   [
+    221,
+    819,
+    907,
+    35
+   ],
+   [
+    193,
+    852,
+    615,
+    35
+   ]
+  ]
+ },
+ "doc_art11": {
+  "image": "doc_art11.png",
+  "pw": 1403,
+  "ph": 2000,
+  "phrase": "The food ration of prisoners of war shall be equal in quantity and quality to that of troops at base camps.",
+  "rects": [
+   [
+    235,
+    1614,
+    904,
+    34
+   ],
+   [
+    204,
+    1648,
+    371,
+    34
+   ]
+  ]
+ }
+}
