@@ -1,0 +1,285 @@
+{
+ "id": "reel-charles-young",
+ "title": "Born Enslaved, He Rode 497 Miles to Prove the Army Wrong",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {},
+ "assets": {},
+ "beats": [
+  {
+   "id": "hook",
+   "text": "The Army said he was too sick to serve. So he rode four hundred ninety-seven miles.",
+   "visual": {
+    "kind": "photo",
+    "image": "colonel2",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.08,
+     1.16
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "The Army said he was too sick to serve. *So he rode 497 miles.*"
+   },
+   "captions": false,
+   "speed": 1.4
+  },
+  {
+   "id": "name",
+   "text": "This is Charles Young.",
+   "visual": {
+    "kind": "title",
+    "title": "Charles Young",
+    "sub": "1864 to 1922"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "He was born enslaved in Kentucky in 1864.",
+   "visual": {
+    "kind": "card",
+    "image": "cabin",
+    "caption": "The Charles Young birth cabin, Kentucky"
+   },
+   "section": "story",
+   "overlays": {
+    "stamp": "1864"
+   }
+  },
+  {
+   "id": "wp",
+   "text": "In 1889, he became only the third Black graduate of West Point.",
+   "visual": {
+    "kind": "card",
+    "image": "wp",
+    "caption": "Cadets' quarters, West Point"
+   }
+  },
+  {
+   "id": "buff",
+   "text": "He led Buffalo Soldiers, and became the first Black superintendent of a national park, at Sequoia.",
+   "visual": {
+    "kind": "card",
+    "image": "sequoia",
+    "caption": "Captain Charles Young, Sequoia, 1903"
+   }
+  },
+  {
+   "id": "mex",
+   "text": "In 1916, in Mexico, he led a cavalry charge, and lost not a single man.",
+   "visual": {
+    "kind": "card",
+    "image": "major16",
+    "caption": "Major Charles Young, 1916"
+   }
+  },
+  {
+   "id": "war",
+   "text": "When America entered the First World War, he was the highest-ranking Black officer in the Army.",
+   "visual": {
+    "kind": "title",
+    "title": "1917",
+    "sub": "America goes to war"
+   },
+   "section": "twist"
+  },
+  {
+   "id": "refuse",
+   "text": "Some white officers refused to serve under him. Then the Army retired him, for high blood pressure.",
+   "visual": {
+    "kind": "card",
+    "image": "wilson",
+    "caption": "President Woodrow Wilson"
+   }
+  },
+  {
+   "id": "ride",
+   "text": "So in June 1918, he rode on horseback from Ohio to Washington, to prove he was fit.",
+   "visual": {
+    "kind": "card",
+    "image": "house",
+    "caption": "His home in Wilberforce, Ohio"
+   },
+   "overlays": {
+    "stamp": "June 1918"
+   }
+  },
+  {
+   "id": "no",
+   "text": "Four hundred ninety-seven miles. The Army still said no.",
+   "visual": {
+    "kind": "title",
+    "title": "497 miles",
+    "sub": "and still no"
+   }
+  },
+  {
+   "id": "end",
+   "text": "He died in 1922, in Lagos, Nigeria. A century later, the Army made him a general.",
+   "visual": {
+    "kind": "card",
+    "image": "funeral",
+    "caption": "His funeral at Arlington, 1923"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "close",
+   "text": "They said he was not fit. He proved them wrong.",
+   "visual": {
+    "kind": "photo",
+    "image": "colonel2",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Charles_Young_(United_States_Army_officer)"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/chyo/learn/historyculture/charles-young.htm"
+  },
+  "RIDE": {
+   "url": "https://www.nps.gov/articles/000/-h-our-history-lesson-fit-for-service-colonel-charles-young-s-protest-ride.htm"
+  },
+  "RET": {
+   "url": "https://www.nps.gov/articles/000/chyoretirement.htm"
+  },
+  "NMUSA": {
+   "url": "https://thenmusa.org/?p=18101"
+  },
+  "ARMY": {
+   "url": "https://www.army.mil/article/129675/colonel_charles_young_buffalo_soldier_and_intelligence_officer"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "claim": "Same claim as data/doc-charles-young.json",
+   "sources": [
+    "NPS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "wp",
+   "claim": "Same claim as data/doc-charles-young.json",
+   "sources": [
+    "NPS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "buff",
+   "claim": "Same claim as data/doc-charles-young.json",
+   "sources": [
+    "NPS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "mex",
+   "claim": "Same claim as data/doc-charles-young.json",
+   "sources": [
+    "ARMY",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "war",
+   "claim": "Same claim as data/doc-charles-young.json",
+   "sources": [
+    "ARMY",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "refuse",
+   "claim": "Same claim as data/doc-charles-young.json",
+   "sources": [
+    "RET",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "ride",
+   "claim": "Same claim as data/doc-charles-young.json",
+   "sources": [
+    "RIDE",
+    "RET"
+   ]
+  },
+  {
+   "beat": "no",
+   "claim": "Same claim as data/doc-charles-young.json",
+   "sources": [
+    "RIDE",
+    "NMUSA"
+   ]
+  },
+  {
+   "beat": "end",
+   "claim": "Same claim as data/doc-charles-young.json",
+   "sources": [
+    "NPS",
+    "WIKI",
+    "NMUSA"
+   ]
+  }
+ ]
+}

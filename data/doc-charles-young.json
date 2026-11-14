@@ -1,0 +1,1171 @@
+{
+ "id": "doc-charles-young",
+ "title": "Born Enslaved, He Rode 500 Miles to Prove the Army Wrong",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "attaches": "attashays",
+  "attache": "attashay",
+  "Duchesne": "Doo-shayn",
+  "Du Bois": "Doo Boyce",
+  "Huachuca": "Wah-choo-kah",
+  "Agua Caliente": "Ahgwa Calyenteh",
+  "Arminta": "Ar-minta"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "young03": {
+   "commons": "File:Captain Charles Young 9th Cavalry 1903 hpc-000569.jpg"
+  },
+  "sequoia": {
+   "commons": "File:Captain Charles Young, 9th Cavalry, Acting Superintendent of Sequoia National Park (2371cf1606774e7889f5aba6c3a53dac).jpg"
+  },
+  "major16": {
+   "commons": "File:Major Charles Young of the 10th Cavalry who will be made Lieutenant Colonel shortly., 1916 - NARA - 523009.tif"
+  },
+  "colonel": {
+   "commons": "File:COL. CHARLES YOUNG - WEST POINT GRADUATE, MILITARY ATTACHE TO HAITI, LIBERIA - NARA - 535679.jpg"
+  },
+  "colonel2": {
+   "commons": "File:Charles.Young.1919.jpg"
+  },
+  "funeral": {
+   "commons": "File:Funeral, Col. Chas. Young, (6-1-23) LOC npcc.08935.jpg"
+  },
+  "young": {
+   "commons": "File:Charles Young.jpg"
+  },
+  "house": {
+   "commons": "File:Colonel Charles Young House, front.jpg"
+  },
+  "cabin": {
+   "commons": "File:The Charles Young birth cabin (4bd75f9b-bec8-4ca1-bc2b-2993fb01331c).jpg"
+  },
+  "broadside": {
+   "commons": "File:Men of Color Civil War Recruitment Broadside 1863.png"
+  },
+  "wp": {
+   "commons": "File:Cadet's Quarters, U. S. Military Academy, West Point New York, N. Y (NYPL b12647398-62364).tiff"
+  },
+  "wphudson": {
+   "commons": "File:Cavalry Drill, U. S. Military Academy, West Point, N. Y (NYPL b12647398-73774).tiff"
+  },
+  "buffalo": {
+   "commons": "File:Buffalo Soldier, 9th Cavalry, Company D, sharpshooter collar insignia) - C. C. McBride, Crawford, Nebraska LCCN2010645133.jpg"
+  },
+  "ftrob": {
+   "commons": "File:Fort Robinson cavalry barracks.jpg"
+  },
+  "father": {
+   "commons": "File:Father of the Forest, 400 feet long, Cal, by Littleton View Co..jpg"
+  },
+  "pap": {
+   "commons": "File:Port-au-Prince 1907.jpg"
+  },
+  "monrovia": {
+   "commons": "File:JONES(1922) Monrovia, Market Street.jpg"
+  },
+  "charge": {
+   "commons": "File:Practice charge of the 8th Gun Cavalry during the punitive expedition in Mexico LCCN96503334.jpg"
+  },
+  "baker": {
+   "commons": "File:Newton D. Baker, 47th United States Secretary of War.jpg"
+  },
+  "wilson": {
+   "commons": "File:Thomas Woodrow Wilson, Harris & Ewing bw photo portrait, 1919.jpg"
+  },
+  "dubois": {
+   "commons": "File:WEB DuBois 1918.jpg"
+  },
+  "lagos": {
+   "commons": "File:Lagos Railway Station in the 1920s.jpg"
+  },
+  "amph": {
+   "commons": "File:Amphitheater at Arlington National Cemetery, Arlington, Virginia 1920 (30689583561).jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "h1",
+   "text": "In June 1918, a fifty-four-year-old Army officer saddled his horse in Wilberforce, Ohio, and started riding east.",
+   "visual": {
+    "kind": "card",
+    "image": "colonel2",
+    "caption": "Colonel Charles Young"
+   },
+   "overlays": {
+    "hook": "He rode 497 miles to prove them wrong."
+   }
+  },
+  {
+   "id": "h2",
+   "text": "His destination was Washington, D.C., almost five hundred miles away.",
+   "visual": {
+    "kind": "title",
+    "title": "497 miles",
+    "sub": "Wilberforce, Ohio, to Washington, D.C."
+   }
+  },
+  {
+   "id": "h3",
+   "text": "The Army had just told him he was too sick to lead men into the First World War.",
+   "visual": {
+    "kind": "photo",
+    "image": "colonel2",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "h4",
+   "text": "He was the highest-ranking Black officer in the United States Army. And many believed the real reason he was sidelined had nothing to do with his health.",
+   "visual": {
+    "kind": "card",
+    "image": "major16",
+    "caption": "Charles Young, 1916"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Charles Young",
+     "sub": "colonel, United States Army"
+    }
+   }
+  },
+  {
+   "id": "h5",
+   "text": "His name was Charles Young. He was born enslaved. This is his story.",
+   "visual": {
+    "kind": "photo",
+    "image": "colonel2",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "e1",
+   "text": "Charles Young was born on March 12, 1864, in Mays Lick, Kentucky, to enslaved parents, Gabriel and Arminta Young.",
+   "visual": {
+    "kind": "card",
+    "image": "cabin",
+    "caption": "The Charles Young birth cabin"
+   },
+   "overlays": {
+    "stamp": "12 March 1864"
+   },
+   "section": "early"
+  },
+  {
+   "id": "e2",
+   "text": "The Civil War was still being fought. Within a year, his father escaped across the Ohio River.",
+   "visual": {
+    "kind": "photo",
+    "image": "cabin",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "e3",
+   "text": "In February 1865, Gabriel Young joined the Union Army, in the Fifth United States Colored Heavy Artillery. His service helped secure the family's freedom.",
+   "visual": {
+    "kind": "card",
+    "image": "broadside",
+    "caption": "A call to men of color to join the Union Army, 1863"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "After the war, the family settled across the river, in Ripley, Ohio.",
+   "visual": {
+    "kind": "title",
+    "title": "Ripley, Ohio",
+    "sub": "on the Ohio River"
+   }
+  },
+  {
+   "id": "e5",
+   "text": "His mother could read, and she taught him at home. He went on to study French and German, and he played the piano and the violin.",
+   "visual": {
+    "kind": "title",
+    "title": "Languages and music",
+    "sub": "Ripley, Ohio"
+   }
+  },
+  {
+   "id": "e6",
+   "text": "In 1881, at seventeen, he graduated with honors from Ripley's high school, the only Black student in his class.",
+   "visual": {
+    "kind": "title",
+    "title": "1881",
+    "sub": "honors graduate, age 17"
+   }
+  },
+  {
+   "id": "e7",
+   "text": "Then he became a teacher, at the town's school for Black children.",
+   "visual": {
+    "kind": "title",
+    "title": "A teacher",
+    "sub": "Ripley, Ohio"
+   }
+  },
+  {
+   "id": "w1",
+   "text": "In 1883, he sat the entrance exam for the United States Military Academy at West Point, and scored second highest.",
+   "visual": {
+    "kind": "card",
+    "image": "wphudson",
+    "caption": "Cavalry drill, U.S. Military Academy, West Point"
+   },
+   "section": "westpoint"
+  },
+  {
+   "id": "w2",
+   "text": "The next year, an Ohio congressman nominated him. In June 1884, he entered West Point.",
+   "visual": {
+    "kind": "card",
+    "image": "wp",
+    "caption": "Cadets' quarters, West Point"
+   },
+   "overlays": {
+    "stamp": "June 1884"
+   }
+  },
+  {
+   "id": "w3",
+   "text": "Very few Black cadets had made it through. White cadets used what was called silencing. They would not speak to Black cadets unless they had to.",
+   "visual": {
+    "kind": "title",
+    "title": "Silencing",
+    "sub": "West Point, 1880s"
+   }
+  },
+  {
+   "id": "w4",
+   "text": "He was given a heavy load of demerits. He failed mathematics in his first year, and had to repeat it.",
+   "visual": {
+    "kind": "photo",
+    "image": "wp",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "w5",
+   "text": "Near the end, he failed an engineering course. He studied all summer, took it again, and passed.",
+   "visual": {
+    "kind": "title",
+    "title": "One more test",
+    "sub": "and he passed"
+   }
+  },
+  {
+   "id": "w6",
+   "text": "In 1889, Charles Young graduated. He was only the third Black graduate in West Point's history.",
+   "visual": {
+    "kind": "title",
+    "title": "1889",
+    "sub": "the third Black graduate of West Point"
+   }
+  },
+  {
+   "id": "w7",
+   "text": "The next would not come until 1936.",
+   "visual": {
+    "kind": "title",
+    "title": "1936",
+    "sub": "forty-seven years later"
+   }
+  },
+  {
+   "id": "b1",
+   "text": "As a second lieutenant, he joined the Ninth Cavalry, one of the Army's Black regiments, the men known as Buffalo Soldiers.",
+   "visual": {
+    "kind": "card",
+    "image": "buffalo",
+    "caption": "A Buffalo Soldier of the Ninth Cavalry, Nebraska"
+   },
+   "section": "buffalo"
+  },
+  {
+   "id": "b2",
+   "text": "He served at Fort Robinson, Nebraska, and then at Fort Duchesne, Utah.",
+   "visual": {
+    "kind": "card",
+    "image": "ftrob",
+    "caption": "Cavalry barracks, Fort Robinson, Nebraska"
+   }
+  },
+  {
+   "id": "b3",
+   "text": "In 1894, he went to Wilberforce University in Ohio, a historically Black college, to teach military science.",
+   "visual": {
+    "kind": "title",
+    "title": "Wilberforce University",
+    "sub": "Ohio, 1894"
+   }
+  },
+  {
+   "id": "b4",
+   "text": "There he became close friends with a young professor named W. E. B. Du Bois.",
+   "visual": {
+    "kind": "card",
+    "image": "dubois",
+    "caption": "W. E. B. Du Bois"
+   }
+  },
+  {
+   "id": "b5",
+   "text": "In 1898, during the war with Spain, he was made a major of volunteers and given command of the Ninth Ohio, a Black battalion.",
+   "visual": {
+    "kind": "title",
+    "title": "Major Young",
+    "sub": "9th Ohio, 1898"
+   }
+  },
+  {
+   "id": "b6",
+   "text": "The war ended before his men were sent overseas. He went back to the regular Army, and later served in the Philippines.",
+   "visual": {
+    "kind": "photo",
+    "image": "buffalo",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "q1",
+   "text": "In the summer of 1903, Captain Young led a company of Buffalo Soldiers into the Sierra Nevada.",
+   "visual": {
+    "kind": "card",
+    "image": "young03",
+    "caption": "Captain Charles Young, Ninth Cavalry, 1903"
+   },
+   "section": "sequoia"
+  },
+  {
+   "id": "q2",
+   "text": "He was made acting superintendent of Sequoia and General Grant national parks. He was the first Black superintendent of a national park.",
+   "visual": {
+    "kind": "card",
+    "image": "sequoia",
+    "caption": "Captain Charles Young, Acting Superintendent of Sequoia National Park"
+   }
+  },
+  {
+   "id": "q3",
+   "text": "His soldiers guarded the giant trees, and built roads and trails.",
+   "visual": {
+    "kind": "card",
+    "image": "father",
+    "caption": "A fallen giant sequoia, California"
+   }
+  },
+  {
+   "id": "q4",
+   "text": "By mid-August, wagons could reach the Giant Forest for the first time.",
+   "visual": {
+    "kind": "photo",
+    "image": "father",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "q5",
+   "text": "He also built a road toward Moro Rock, and urged the government to buy up private land inside the park.",
+   "visual": {
+    "kind": "photo",
+    "image": "sequoia",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "a1",
+   "text": "In 1904, the Army sent him to Haiti, as one of its first military attaches.",
+   "visual": {
+    "kind": "card",
+    "image": "pap",
+    "caption": "Port-au-Prince, Haiti, 1907"
+   },
+   "section": "abroad"
+  },
+  {
+   "id": "a2",
+   "text": "For about three years, he gathered intelligence, and mapped much of Haiti and the neighboring Dominican Republic.",
+   "visual": {
+    "kind": "photo",
+    "image": "pap",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "a3",
+   "text": "In 1912, he was promoted to major, the first Black man to hold that rank in the regular Army.",
+   "visual": {
+    "kind": "title",
+    "title": "Major",
+    "sub": "August 1912"
+   }
+  },
+  {
+   "id": "a4",
+   "text": "That year he went to Liberia, as military attache. He helped train the Liberian Frontier Force, and supervised the building of roads.",
+   "visual": {
+    "kind": "card",
+    "image": "monrovia",
+    "caption": "Market Street, Monrovia, Liberia"
+   }
+  },
+  {
+   "id": "m1",
+   "text": "In 1916, after Pancho Villa's raid on Columbus, New Mexico, the Army sent troops into Mexico to hunt him down.",
+   "visual": {
+    "kind": "card",
+    "image": "charge",
+    "caption": "U.S. cavalry in Mexico, 1916"
+   },
+   "section": "mexico"
+  },
+  {
+   "id": "m2",
+   "text": "Major Young commanded a squadron of the Tenth Cavalry.",
+   "visual": {
+    "kind": "card",
+    "image": "major16",
+    "caption": "Major Charles Young, Tenth Cavalry, 1916"
+   }
+  },
+  {
+   "id": "m3",
+   "text": "On April 1, 1916, at Agua Caliente, he led a cavalry pistol charge against Villa's forces.",
+   "visual": {
+    "kind": "photo",
+    "image": "charge",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   },
+   "overlays": {
+    "stamp": "1 April 1916"
+   }
+  },
+  {
+   "id": "m4",
+   "text": "They drove back about a hundred and fifty men. His squadron did not lose a single soldier.",
+   "visual": {
+    "kind": "title",
+    "title": "No losses",
+    "sub": "Agua Caliente, 1916"
+   }
+  },
+  {
+   "id": "m5",
+   "text": "That summer he was promoted to lieutenant colonel. The NAACP awarded him its Spingarn Medal.",
+   "visual": {
+    "kind": "photo",
+    "image": "major16",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "s1",
+   "text": "In April 1917, the United States entered the First World War.",
+   "visual": {
+    "kind": "title",
+    "title": "April 1917",
+    "sub": "America goes to war"
+   },
+   "section": "sidelined"
+  },
+  {
+   "id": "s2",
+   "text": "Charles Young was the highest-ranking Black officer in the Army. He was in line for promotion, and for command in France.",
+   "visual": {
+    "kind": "card",
+    "image": "major16",
+    "caption": "Lieutenant Colonel Charles Young"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "But some white officers said they would not take orders from a Black man.",
+   "visual": {
+    "kind": "title",
+    "title": "\"Unwilling to take orders\"",
+    "sub": "white officers under Young"
+   }
+  },
+  {
+   "id": "s4",
+   "text": "President Woodrow Wilson heard from Southern members of Congress. He wrote to his Secretary of War, Newton Baker, about a lieutenant who found it practically impossible to serve under a colored commander.",
+   "visual": {
+    "kind": "card",
+    "image": "wilson",
+    "caption": "President Woodrow Wilson"
+   }
+  },
+  {
+   "id": "s5",
+   "text": "That summer, an Army medical board examined Young. It found high blood pressure.",
+   "visual": {
+    "kind": "card",
+    "image": "baker",
+    "caption": "Newton D. Baker, Secretary of War"
+   }
+  },
+  {
+   "id": "s6",
+   "text": "In July 1917, he was promoted to colonel, and in the same stroke retired, as medically unfit.",
+   "visual": {
+    "kind": "title",
+    "title": "Colonel",
+    "sub": "and retired, July 1917"
+   }
+  },
+  {
+   "id": "s7",
+   "text": "He would not lead troops in the war.",
+   "visual": {
+    "kind": "photo",
+    "image": "major16",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "r1",
+   "text": "So Charles Young decided to prove them wrong.",
+   "visual": {
+    "kind": "card",
+    "image": "house",
+    "caption": "Colonel Charles Young's house, Wilberforce, Ohio"
+   },
+   "section": "ride"
+  },
+  {
+   "id": "r2",
+   "text": "On June 6, 1918, he left his home in Wilberforce on horseback.",
+   "visual": {
+    "kind": "photo",
+    "image": "house",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   },
+   "overlays": {
+    "stamp": "6 June 1918"
+   }
+  },
+  {
+   "id": "r3",
+   "text": "He rode through Ohio, West Virginia, Maryland and Virginia.",
+   "visual": {
+    "kind": "title",
+    "title": "Four states",
+    "sub": "Ohio, West Virginia, Maryland, Virginia"
+   }
+  },
+  {
+   "id": "r4",
+   "text": "On June 22, he rode into Washington. He had covered four hundred ninety-seven miles in a little over two weeks.",
+   "visual": {
+    "kind": "title",
+    "title": "497 miles",
+    "sub": "arrived 22 June 1918"
+   }
+  },
+  {
+   "id": "r5",
+   "text": "A Black newspaper, The Crisis, reported that he arrived in first class condition.",
+   "visual": {
+    "kind": "quote",
+    "quote": "Arrived in first class condition.",
+    "by": "The Crisis, 1918"
+   }
+  },
+  {
+   "id": "r6",
+   "text": "He met with Secretary Baker. Baker did not change the decision.",
+   "visual": {
+    "kind": "card",
+    "image": "baker",
+    "caption": "Newton D. Baker"
+   }
+  },
+  {
+   "id": "r7",
+   "text": "On November 6, 1918, the Army called him back to active duty, and sent him to Camp Grant, in Illinois.",
+   "visual": {
+    "kind": "title",
+    "title": "6 November 1918",
+    "sub": "recalled to duty"
+   }
+  },
+  {
+   "id": "r8",
+   "text": "Five days later, the war was over.",
+   "visual": {
+    "kind": "title",
+    "title": "11 November 1918",
+    "sub": "the Armistice"
+   }
+  },
+  {
+   "id": "f1",
+   "text": "In 1920, he returned to Liberia as military attache.",
+   "visual": {
+    "kind": "card",
+    "image": "monrovia",
+    "caption": "Monrovia, Liberia"
+   },
+   "section": "africa"
+  },
+  {
+   "id": "f2",
+   "text": "In late 1921, on a trip to Nigeria, he fell seriously ill.",
+   "visual": {
+    "kind": "card",
+    "image": "lagos",
+    "caption": "Lagos, Nigeria, 1920s"
+   }
+  },
+  {
+   "id": "f3",
+   "text": "On January 8, 1922, Charles Young died at the British hospital in Lagos, of a kidney infection. He was fifty-seven.",
+   "visual": {
+    "kind": "title",
+    "title": "8 January 1922",
+    "sub": "Lagos, Nigeria"
+   }
+  },
+  {
+   "id": "f4",
+   "text": "British law required that he be buried there, for a year.",
+   "visual": {
+    "kind": "photo",
+    "image": "lagos",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "f5",
+   "text": "His wife and many others pressed to bring him home.",
+   "visual": {
+    "kind": "title",
+    "title": "Bring him home",
+    "sub": ""
+   }
+  },
+  {
+   "id": "f6",
+   "text": "In May 1923, his body reached New York, where crowds came out to meet it.",
+   "visual": {
+    "kind": "card",
+    "image": "colonel",
+    "caption": "A newspaper tribute to Colonel Young after his death"
+   }
+  },
+  {
+   "id": "f7",
+   "text": "On June 1, 1923, he was given a funeral in the Memorial Amphitheater at Arlington National Cemetery. He was only the fourth soldier to be honored there.",
+   "visual": {
+    "kind": "card",
+    "image": "funeral",
+    "caption": "Funeral of Colonel Charles Young, Arlington, 1 June 1923"
+   },
+   "overlays": {
+    "stamp": "1 June 1923"
+   }
+  },
+  {
+   "id": "f7b",
+   "text": "He was buried at Arlington with full military honors.",
+   "visual": {
+    "kind": "card",
+    "image": "amph",
+    "caption": "Memorial Amphitheater, Arlington National Cemetery, 1920"
+   }
+  },
+  {
+   "id": "f8",
+   "text": "W. E. B. Du Bois said the life of Charles Young was a triumph of tragedy.",
+   "visual": {
+    "kind": "quote",
+    "quote": "The life of Charles Young was a triumph of tragedy.",
+    "by": "W. E. B. Du Bois"
+   }
+  },
+  {
+   "id": "l1",
+   "text": "In 2013, his home in Wilberforce became a national monument, the Charles Young Buffalo Soldiers National Monument.",
+   "visual": {
+    "kind": "card",
+    "image": "house",
+    "caption": "The Charles Young Buffalo Soldiers National Monument"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "l2",
+   "text": "And a century after his death, the Army promoted him to brigadier general. The ceremony was held in 2022, at West Point.",
+   "visual": {
+    "kind": "title",
+    "title": "Brigadier General",
+    "sub": "2022"
+   }
+  },
+  {
+   "id": "c1",
+   "text": "He was born enslaved, and became a colonel.",
+   "visual": {
+    "kind": "card",
+    "image": "cabin",
+    "caption": "The Charles Young birth cabin"
+   },
+   "section": "close"
+  },
+  {
+   "id": "c2",
+   "text": "He made it through West Point, guarded the giant sequoias, mapped Haiti, and led a charge in Mexico.",
+   "visual": {
+    "kind": "photo",
+    "image": "sequoia",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "text": "When the Army said he was too sick to serve, he rode nearly five hundred miles to show them otherwise.",
+   "visual": {
+    "kind": "card",
+    "image": "colonel2",
+    "caption": "Colonel Charles Young"
+   }
+  },
+  {
+   "id": "c4",
+   "text": "That was Charles Young. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "h1": [
+   "RIDE",
+   "RET"
+  ],
+  "h2": [
+   "RIDE",
+   "NMUSA",
+   "RET"
+  ],
+  "h3": [
+   "NMUSA",
+   "RET",
+   "WIKI"
+  ],
+  "h4": [
+   "ARMY",
+   "WIKI",
+   "RET"
+  ],
+  "h5": [
+   "NPS",
+   "WIKI"
+  ],
+  "e1": [
+   "NPS",
+   "WIKI",
+   "NMUSA"
+  ],
+  "e2": [
+   "NPS",
+   "WIKI"
+  ],
+  "e3": [
+   "NPS",
+   "WIKI"
+  ],
+  "e4": [
+   "NPS",
+   "WIKI"
+  ],
+  "e5": [
+   "WIKI",
+   "NPS"
+  ],
+  "e6": [
+   "NPS",
+   "WIKI"
+  ],
+  "e7": [
+   "NPS",
+   "WIKI"
+  ],
+  "w1": [
+   "NPS",
+   "WIKI"
+  ],
+  "w2": [
+   "NPS",
+   "WIKI",
+   "NMUSA"
+  ],
+  "w3": [
+   "NMUSA",
+   "WIKI"
+  ],
+  "w4": [
+   "WIKI",
+   "NPS"
+  ],
+  "w5": [
+   "NPS",
+   "WIKI"
+  ],
+  "w6": [
+   "NPS",
+   "WIKI",
+   "NMUSA",
+   "ARMY"
+  ],
+  "w7": [
+   "WIKI",
+   "NMUSA"
+  ],
+  "b1": [
+   "NPS",
+   "WIKI"
+  ],
+  "b2": [
+   "NPS",
+   "WIKI"
+  ],
+  "b3": [
+   "NPS",
+   "WIKI"
+  ],
+  "b4": [
+   "WIKI",
+   "NPS"
+  ],
+  "b5": [
+   "WIKI",
+   "NPS"
+  ],
+  "b6": [
+   "WIKI",
+   "NPS"
+  ],
+  "q1": [
+   "NPS",
+   "WIKI"
+  ],
+  "q2": [
+   "NPS",
+   "WIKI",
+   "ARMY"
+  ],
+  "q3": [
+   "NPS",
+   "WIKI"
+  ],
+  "q4": [
+   "WIKI",
+   "NPS"
+  ],
+  "q5": [
+   "WIKI",
+   "NPS"
+  ],
+  "a1": [
+   "WIKI",
+   "NPS",
+   "ARMY"
+  ],
+  "a2": [
+   "WIKI",
+   "ARMY"
+  ],
+  "a3": [
+   "WIKI",
+   "NPS"
+  ],
+  "a4": [
+   "NPS",
+   "ARMY",
+   "WIKI"
+  ],
+  "m1": [
+   "WIKI",
+   "NPS"
+  ],
+  "m2": [
+   "WIKI",
+   "NMUSA"
+  ],
+  "m3": [
+   "WIKI",
+   "ARMY",
+   "NPS"
+  ],
+  "m4": [
+   "ARMY",
+   "WIKI"
+  ],
+  "m5": [
+   "WIKI",
+   "NMUSA",
+   "NPS"
+  ],
+  "s2": [
+   "ARMY",
+   "WIKI"
+  ],
+  "s3": [
+   "RET",
+   "WIKI"
+  ],
+  "s4": [
+   "WILSON",
+   "RET",
+   "WIKI"
+  ],
+  "s5": [
+   "RET",
+   "NMUSA",
+   "WIKI"
+  ],
+  "s6": [
+   "NPS",
+   "RET",
+   "WIKI"
+  ],
+  "s7": [
+   "ARMY",
+   "RIDE"
+  ],
+  "r2": [
+   "RIDE",
+   "RET"
+  ],
+  "r3": [
+   "RIDE",
+   "NPS"
+  ],
+  "r4": [
+   "RIDE",
+   "RET",
+   "NMUSA"
+  ],
+  "r5": [
+   "RIDE",
+   "WIKI"
+  ],
+  "r6": [
+   "RIDE",
+   "NPS",
+   "NMUSA"
+  ],
+  "r7": [
+   "RET",
+   "WIKI",
+   "NPS"
+  ],
+  "r8": [
+   "RET",
+   "NPS"
+  ],
+  "f1": [
+   "NPS",
+   "WIKI"
+  ],
+  "f2": [
+   "NPS",
+   "WIKI"
+  ],
+  "f3": [
+   "WIKI",
+   "NMUSA",
+   "NPS"
+  ],
+  "f4": [
+   "NPS",
+   "WIKI"
+  ],
+  "f5": [
+   "NPS",
+   "WIKI"
+  ],
+  "f6": [
+   "NPS",
+   "WIKI"
+  ],
+  "f7": [
+   "NPS",
+   "WIKI",
+   "NMUSA"
+  ],
+  "f7b": [
+   "NMUSA",
+   "NPS"
+  ],
+  "f8": [
+   "WIKI",
+   "NPS"
+  ],
+  "l1": [
+   "WIKI",
+   "NPS"
+  ],
+  "l2": [
+   "WIKI",
+   "NMUSA",
+   "NPS"
+  ]
+ },
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Charles_Young_(United_States_Army_officer)"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/chyo/learn/historyculture/charles-young.htm"
+  },
+  "RIDE": {
+   "url": "https://www.nps.gov/articles/000/-h-our-history-lesson-fit-for-service-colonel-charles-young-s-protest-ride.htm"
+  },
+  "RET": {
+   "url": "https://www.nps.gov/articles/000/chyoretirement.htm"
+  },
+  "NMUSA": {
+   "url": "https://thenmusa.org/?p=18101"
+  },
+  "ARMY": {
+   "url": "https://www.army.mil/article/129675/colonel_charles_young_buffalo_soldier_and_intelligence_officer"
+  },
+  "WILSON": {
+   "url": "https://presidentwilson.org/items/show/15726"
+  }
+ },
+ "notUsed": [
+  "Ride length: 16 days (NPS ride article, The Crisis) vs 17 days (NPS retirement article): script says \"a little over two weeks\". Distance 497 miles (NPS x2, NMUSA); the Cleveland Advocate said 650: not used.",
+  "Ride year: 1918 (NPS x2, Wikipedia) vs 1917 and \"at 53\" (army.mil): script uses June 1918; age 54 from birth date.",
+  "Promotion to brigadier general: approved November 1, 2021 (NPS, Wikipedia), effective February 1, 2022, ceremony at West Point April 29, 2022 (Wikipedia, NMUSA citing army.mil): script says \"the ceremony was held in 2022, at West Point\".",
+  "Young's answer \"Combatant!\" to Baker (NPS retirement article only): not used, one source.",
+  "Bright's disease (army.mil) vs kidney infection (Wikipedia, NMUSA) as cause of death: script uses kidney infection; Bright's disease not used."
+ ]
+}

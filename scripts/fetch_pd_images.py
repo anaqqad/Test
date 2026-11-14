@@ -45,7 +45,10 @@ def thumb_url(info: dict) -> str:
         return info["url"]
     w = fitting[-1]
     base, name = info["url"].split("?", 1)[0].rsplit("/", 1)
-    return f"{base.replace('/commons/', '/commons/thumb/', 1)}/{name}/{w}px-{name}"
+    thumb = f"{w}px-{name}"
+    if name.lower().endswith((".tif", ".tiff")):  # TIFF thumbnails are rendered as JPEG
+        thumb = f"lossy-page1-{w}px-{name}.jpg"
+    return f"{base.replace('/commons/', '/commons/thumb/', 1)}/{name}/{thumb}"
 
 
 def fetch(url: str) -> bytes:
