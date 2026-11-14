@@ -1,4 +1,4 @@
-Published 2026-11-14: YouTube Short https://youtube.com/shorts/DDV0ySHdxQI (Public, Education, AI label No; Related video and description link to be added once the long video is up) and Facebook Reel on the page (Public, AI label off).
+Published 2026-11-14: YouTube Short https://youtube.com/shorts/DDV0ySHdxQI (Public, Education, AI label No, Related video set to the long video) and Facebook Reel on the page (Public, AI label off).
 
 # Reel: Colonel Charles Young, "Born Enslaved, He Rode 497 Miles to Prove the Army Wrong"
 
@@ -34,7 +34,7 @@ Title:
 Born Enslaved, He Rode 497 Miles to Prove the Army Wrong #shorts
 
 Description:
-Watch the full video: LINK
+Watch the full video: https://youtu.be/W-CfXGxVFgw
 
 Charles Young was born enslaved in 1864 and became the third Black graduate of West Point. In 1917 the Army retired him as unfit, so he rode 497 miles on horseback from Ohio to Washington to prove it wrong.
 

@@ -31,7 +31,7 @@ Born enslaved. West Point graduate. Colonel. And a man who rode 497 miles to pro
 
 Had you heard of Charles Young?
 
-Watch the full video on YouTube: LINK
+Watch the full video on YouTube: https://youtu.be/W-CfXGxVFgw (not in the published post; it went up before the long video)
 
 Researching and editing these stories takes real time and effort. If you value them, please support our page so we can keep bringing them to light. Thank you!
 https://ko-fi.com/theblackhistoryroom

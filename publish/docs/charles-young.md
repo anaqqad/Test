@@ -1,3 +1,5 @@
+Published 2026-11-14: https://youtu.be/W-CfXGxVFgw (Public, 4K, Education, AI label No, checks: no issues). Facebook: one-line link post on the page.
+
 # Long-form: Colonel Charles Young, "Born Enslaved, He Rode 500 Miles to Prove the Army Wrong"
 
 Channel: The Black History Room (YouTube, long-form 16:9)
@@ -49,4 +51,4 @@ Charles Young, Colonel Charles Young, Buffalo Soldiers, West Point, first Black 
 
 ## Facebook
 
-Watch the full video about Colonel Charles Young on YouTube: LINK
+Watch the full video about Colonel Charles Young on YouTube: https://youtu.be/W-CfXGxVFgw
