@@ -9,13 +9,13 @@ Seven more Native languages of North America, each one real and each one rare: T
 Part 1 (Navajo, Cherokee, Ojibwe, Lakota, Crow, Gwich'in) is on the channel. Which Native language should we add next? Tell us in the comments 👇
 
 0:00 Intro
-0:03 Tlingit (speakers: under 200)
+0:03 Tlingit (under 200 speakers)
 0:15 Tłı̨chǫ (~1,700 speakers)
 0:28 Innu (~10,000 speakers)
-0:41 Okanagan Salish (speakers: ~50 fluent)
-0:53 Karuk (speakers: ~12 fluent)
+0:41 Okanagan Salish (~50 fluent speakers)
+0:53 Karuk (~12 fluent speakers)
 1:05 Kumeyaay (~50 speakers)
-1:18 Comanche (speakers: fewer than 10)
+1:18 Comanche (fewer than 10 speakers)
 
 Audio credits (all via Wikimedia Commons):
 Tlingit: "WIKITONGUES- Lgeik'i and Naakil.aan speaking Lingít" by Wikitongues, A. Douglas Callendar, CC BY-SA 4.0
