@@ -1,0 +1,344 @@
+{
+ "id": "reel-ona-judge",
+ "title": "She Ran Away From George Washington",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Ona": "Oh-nah"
+ },
+ "assets": {
+  "gw": {
+   "commons": "File:Gilbert Stuart - George Washington (The Athenaeum Portrait) - Google Art Project.jpg"
+  },
+  "mw": {
+   "commons": "File:Gilbert Stuart - Martha Washington (The Athenaeum Portrait) - Google Art Project.jpg"
+  },
+  "mv": {
+   "commons": "File:Mount Vernon 1858.jpg"
+  },
+  "house": {
+   "commons": "File:Mansion of Richard Penn (President's House) HSP.jpg"
+  },
+  "eliza": {
+   "commons": "File:Elizabeth Parke Custis Law.jpg"
+  },
+  "ferry": {
+   "commons": "File:Arch Street Ferry Birch's Views Plate 4.jpg"
+  },
+  "ad": {
+   "commons": "File:Oney Judge Runaway Ad.jpg"
+  },
+  "family": {
+   "commons": "File:Edward Savage - The Washington Family - Google Art Project.jpg"
+  },
+  "highst": {
+   "commons": "File:High Street, with the First Presbyterian church Philadelphia. Taken down in 1820 - designed & published by W. Birch enamel painter, 1800. LCCN2013650033.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "She ran away from George Washington. And he never stopped hunting her.",
+   "visual": {
+    "kind": "photo",
+    "image": "gw",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.08,
+     1.18
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "She ran away from George Washington. *He never stopped hunting her.*"
+   },
+   "captions": false,
+   "speed": 1.4
+  },
+  {
+   "id": "name",
+   "text": "Her name was Ona Judge.",
+   "visual": {
+    "kind": "title",
+    "title": "Ona Judge",
+    "sub": "about 1773 to 1848"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "She was born enslaved at Mount Vernon, and became Martha Washington's personal maid.",
+   "visual": {
+    "kind": "photo",
+    "image": "mw",
+    "focus": [
+     0.47,
+     0.33
+    ],
+    "zoom": [
+     2.0,
+     2.15
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "story"
+  },
+  {
+   "id": "gift",
+   "text": "In 1796, she learned she would be given away, to Martha's granddaughter.",
+   "visual": {
+    "kind": "card",
+    "image": "eliza",
+    "caption": "Eliza Custis Law, Martha's granddaughter"
+   }
+  },
+  {
+   "id": "dinner",
+   "text": "So on May 21, 1796, while the President ate dinner, she walked out the door.",
+   "visual": {
+    "kind": "card",
+    "image": "house",
+    "caption": "The President's House, Philadelphia"
+   },
+   "overlays": {
+    "stamp": "21 May 1796"
+   }
+  },
+  {
+   "id": "ship",
+   "text": "Free Black friends got her onto a ship, bound for Portsmouth, New Hampshire.",
+   "visual": {
+    "kind": "card",
+    "image": "ferry",
+    "caption": "The Philadelphia waterfront, 1800"
+   }
+  },
+  {
+   "id": "ad",
+   "text": "A newspaper ad offered ten dollars to bring her back.",
+   "visual": {
+    "kind": "card",
+    "image": "ad",
+    "caption": "Runaway ad for Oney Judge, May 1796"
+   }
+  },
+  {
+   "id": "found",
+   "text": "Washington found her. He sent a customs officer to put her on a ship back. She refused.",
+   "visual": {
+    "kind": "photo",
+    "image": "gw",
+    "focus": [
+     0.52,
+     0.3
+    ],
+    "zoom": [
+     1.5,
+     1.65
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   },
+   "section": "twist"
+  },
+  {
+   "id": "offer",
+   "text": "She offered to return, if they promised to free her someday. Washington said no.",
+   "visual": {
+    "kind": "title",
+    "title": "Totally inadmissible",
+    "sub": "Washington, 1796"
+   }
+  },
+  {
+   "id": "nephew",
+   "text": "In 1799, he sent his nephew to seize her. A senator secretly warned her, and she hid.",
+   "visual": {
+    "kind": "title",
+    "title": "1799",
+    "sub": "a second attempt"
+   }
+  },
+  {
+   "id": "died",
+   "text": "That December, Washington died. She was never caught.",
+   "visual": {
+    "kind": "card",
+    "image": "family",
+    "caption": "The Washington Family, by Edward Savage"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "free",
+   "text": "Asked if she regretted running, she said: No, I am free.",
+   "visual": {
+    "kind": "title",
+    "title": "\"No, I am free.\"",
+    "sub": "Ona Judge, 1845"
+   }
+  },
+  {
+   "id": "end",
+   "text": "She died in 1848. By law, she was still a fugitive.",
+   "visual": {
+    "kind": "photo",
+    "image": "house",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "faces": {},
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Ona_Judge"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/articles/independence-oneyjudge.htm"
+  },
+  "HIST": {
+   "url": "https://www.history.com/articles/george-washington-and-the-slave-who-got-away"
+  },
+  "AD": {
+   "url": "https://commons.wikimedia.org/wiki/File:Oney_Judge_Runaway_Ad.jpg"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "sources": [
+    "WIKI",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "gift",
+   "sources": [
+    "WIKI",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "dinner",
+   "sources": [
+    "NPS",
+    "HIST",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "ship",
+   "sources": [
+    "HIST",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "ad",
+   "sources": [
+    "WIKI",
+    "AD"
+   ]
+  },
+  {
+   "beat": "found",
+   "sources": [
+    "NPS",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "offer",
+   "sources": [
+    "NPS",
+    "HIST",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "nephew",
+   "sources": [
+    "HIST",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "died",
+   "sources": [
+    "WIKI",
+    "HIST"
+   ]
+  },
+  {
+   "beat": "free",
+   "sources": [
+    "NPS",
+    "HIST",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "end",
+   "sources": [
+    "WIKI",
+    "NPS"
+   ]
+  }
+ ]
+}

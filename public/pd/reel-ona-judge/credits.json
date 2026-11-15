@@ -1,0 +1,83 @@
+{
+  "gw": {
+    "title": "File:Gilbert Stuart - George Washington (The Athenaeum Portrait) - Google Art Project.jpg",
+    "artist": "Gilbert Stuart",
+    "date": "April 12, 1796",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_-_George_Washington_(The_Athenaeum_Portrait)_-_Google_Art_Project.jpg",
+    "width": 1920,
+    "height": 2495
+  },
+  "mw": {
+    "title": "File:Gilbert Stuart - Martha Washington (The Athenaeum Portrait) - Google Art Project.jpg",
+    "artist": "Gilbert Stuart",
+    "date": "April 12, 1796",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_-_Martha_Washington_(The_Athenaeum_Portrait)_-_Google_Art_Project.jpg",
+    "width": 1920,
+    "height": 2499
+  },
+  "mv": {
+    "title": "File:Mount Vernon 1858.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1858",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Vernon_1858.jpg",
+    "width": 1280,
+    "height": 835
+  },
+  "house": {
+    "title": "File:Mansion of Richard Penn (President's House) HSP.jpg",
+    "artist": "David Johnson Kennedy",
+    "date": "before 1898",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Mansion_of_Richard_Penn_(President%27s_House)_HSP.jpg",
+    "width": 500,
+    "height": 335
+  },
+  "eliza": {
+    "title": "File:Elizabeth Parke Custis Law.jpg",
+    "artist": "Sarah Miriam Peale / After Gilbert Stuart",
+    "date": "c. 1836, after a painting of 1796",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Parke_Custis_Law.jpg",
+    "width": 500,
+    "height": 601
+  },
+  "ferry": {
+    "title": "File:Arch Street Ferry Birch's Views Plate 4.jpg",
+    "artist": "Drawn & Engraved by W. Birch & Son.",
+    "date": "1800",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Arch_Street_Ferry_Birch%27s_Views_Plate_4.jpg",
+    "width": 500,
+    "height": 412
+  },
+  "ad": {
+    "title": "File:Oney Judge Runaway Ad.jpg",
+    "artist": "Frederick Kitt, steward of the President's House.",
+    "date": "1796-05-24",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Oney_Judge_Runaway_Ad.jpg",
+    "width": 500,
+    "height": 503
+  },
+  "family": {
+    "title": "File:Edward Savage - The Washington Family - Google Art Project.jpg",
+    "artist": "Edward Savage",
+    "date": "from 1789 until 1796",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Edward_Savage_-_The_Washington_Family_-_Google_Art_Project.jpg",
+    "width": 1920,
+    "height": 1433
+  },
+  "highst": {
+    "title": "File:High Street, with the First Presbyterian church Philadelphia. Taken down in 1820 - designed & published by W. Birch enamel painter, 1800. LCCN2013650033.jpg",
+    "artist": "Birch, William Russell, 1755-1834, artist; Charles Desilver (Firm)",
+    "date": "1841",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:High_Street,_with_the_First_Presbyterian_church_Philadelphia._Taken_down_in_1820_-_designed_%26_published_by_W._Birch_enamel_painter,_1800._LCCN2013650033.jpg",
+    "width": 1920,
+    "height": 1228
+  }
+}
