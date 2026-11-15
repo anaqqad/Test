@@ -222,4 +222,13 @@ One Word in 10 Languages, Languages That Count Differently.
    Shorts. Their top videos are slang and generations (325K, 196K, 79K). Analysis and 7 LingoDude ideas:
    `lingo/ideas/reference_verbaledgee.md`.
 
+28. Viewer request (@greomgh, 2026-11-15, saved by the owner): the obscure languages of the British Isles.
+   Their list: Norn, Yola, Fingallian, Polari, Shelta, Scottish Traveller Cant, Angloromani, Cumbric, Pictish,
+   Common Brythonic, plus Scots (Doric, Shetlandic), Welsh, Manx, Cornish, Breton, Irish, Scottish Gaelic.
+   Notes: one-region topics were rejected before ("Italy's languages", "Middle East"), so check with the owner
+   whether a British Isles video is OK (US/UK audience, high RPM). Norn, Cumbric and Cornish are already in the
+   AI-simulation Part 4; extinct ones (Norn, Yola, Fingallian, Cumbric, Pictish, Brythonic) have no real speech
+   recordings, so a real-recordings video would use the living ones (Shelta, Polari, Angloromani, Scots dialects,
+   Manx, Cornish, Welsh, Irish, Gaelic), and the extinct ones could go in an AI-simulation part.
+
 - DROPPED (owner, 2026-11-13): "What English Sounded Like in the 1800s" (`oldvoices`): too close to an idea already done (how English sounded through time). Don't suggest it again. Its files stay in the repo unused.
