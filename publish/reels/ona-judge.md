@@ -1,3 +1,5 @@
+Published 2026-11-15: YouTube Short https://youtube.com/shorts/GMcQxdv7U5s (Public, Education, AI label No) and Facebook Reel on the page (Public, AI label off). No long video for this story.
+
 # Reel: Ona Judge, "She Ran Away From George Washington"
 
 Page: The Black History Room (Facebook Reels; YouTube Shorts)

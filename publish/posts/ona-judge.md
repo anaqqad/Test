@@ -1,5 +1,7 @@
 # Facebook post: Ona Judge
 
+Published 2026-11-15: Facebook photo post on the page (Public, AI label off).
+
 Image: `publish/posts/ona-judge.jpg` (public domain: Gilbert Stuart portraits; runaway ad, 1796; President's House, Philadelphia).
 Reel: `publish/reels/ona-judge.md`. Facts and sources: `data/reel-ona-judge.json`.
 
