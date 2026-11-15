@@ -1,0 +1,13 @@
+{
+ "halloran_a.jpg": [0.065, 0.075, 0.87, 0.86],
+ "halloran_b.jpg": [0.045, 0.06, 0.91, 0.88],
+ "halloran_c.jpg": [0.045, 0.09, 0.91, 0.83],
+ "butner_postcard.jpg": [0.0, 0.05, 1.0, 0.95],
+ "wallace_watchmaker.jpg": [0.0, 0.0, 1.0, 1.0],
+ "wallace_warehouse.jpg": [0.0, 0.08, 1.0, 0.62],
+ "wallace_truck.jpg": [0.0, 0.1, 1.0, 0.6],
+ "dachau_liberation.jpg": [0.0, 0.0, 1.0, 1.0],
+ "pows_normandy_farm.jpg": [0.0, 0.0, 1.0, 0.93],
+ "crossville_main.jpg": [0.0, 0.0, 1.0, 1.0],
+ "crossville_courthouse.jpg": [0.0, 0.0, 1.0, 1.0]
+}
