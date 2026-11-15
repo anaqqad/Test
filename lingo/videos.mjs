@@ -1409,9 +1409,74 @@ export const VIDEOS = {
     ],
   },
   // ------------------------------------------------------------------ US audience
+  native2: {
+    title: "Native American Languages be like…", // YouTube: "... (Part 2)"; languages not in Part 1, US and Canada
+    part: "Part 2",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#b5452f",
+    items: [
+      {
+        name: "Tlingit", wojak: "r_kal", flag: "us", speakers: "under 200", scene: "alaska", loc: [58.3, -134.42, "Southeast Alaska"],
+        cards: [
+          "Tlingit has an almost full set of 'ejective' consonants, popped out with a closed throat.",
+          "It has no 'p', 'b' or 'm' sounds at all, except in a few English loanwords.",
+        ],
+        audio: { file: "WIKITONGUES- Lgeik'i and Naakil.aan speaking Lingít.webm", start: 30, voice: "m" },
+      },
+      {
+        name: "Tłı̨chǫ", wojak: "t3_trc", flag: "ca", speakers: "~1,700", scene: "arctic", loc: [62.8, -116.05, "Northwest Territories, Canada"],
+        cards: [
+          "Tłı̨chǫ is a tonal 'Dene' language: low tones get an accent mark, and high tones are not written.",
+          "It is one of 'nine' official Indigenous languages of Canada’s Northwest Territories.",
+        ],
+        audio: { file: "Tlicho Lesson.webm", start: 195, voice: "m" },
+      },
+      {
+        name: "Innu", wojak: "i2_hai", flag: "ca", speakers: "~10,000", scene: "dalarna", loc: [50.2, -66.4, "Quebec & Labrador, Canada"],
+        cards: [
+          "Innu is a close cousin of 'Cree', spoken in the forests of Quebec and Labrador.",
+          "The rock band 'Kashtin' sang in Innu and made the language famous across Canada.",
+        ],
+        audio: { file: "Innu Aitun Culture à l'école Uashat mak Mani Utenam (Innu).webm", start: 30, voice: "m" },
+      },
+      {
+        name: "Okanagan Salish", wojak: "i2_tsz_f", flag: "us", speakers: "~50 fluent", scene: "hills", loc: [48.4, -119.5, "Washington & British Columbia"],
+        cards: [
+          "This clip is a traditional story, 'Coyote and Dog', told in the language.",
+          "Its word for dog is 'kəkw̓ápaʔ', and the little marks stand for popped and throat-closing sounds.",
+        ],
+        audio: { file: "Sn̓k̓lip naʔł kəkw̓ápaʔ (Coyote and Dog in Colville-Okanagan Salish).webm", start: 103.5, voice: "f" },
+      },
+      {
+        name: "Karuk", wojak: "i2_kyh", flag: "us", speakers: "~12 fluent", scene: "forest", loc: [41.4, -123.5, "Klamath River, California"],
+        cards: [
+          "Karuk is a 'language isolate': it has no known relatives, not even among its neighbours.",
+          "Only about '12' native speakers were left in 2007, plus around 30 people who learned it later.",
+        ],
+        audio: { file: "Conversational Karuk Language Part 1.webm", start: 155.5, voice: "m" },
+      },
+      {
+        name: "Kumeyaay", wojak: "t3_mix", flag: "us", speakers: "~50", scene: "mesa", loc: [32.7, -116.5, "San Diego & Baja California"],
+        cards: [
+          "Kumeyaay is spoken on both sides of the 'US–Mexico border', in San Diego County and Baja California.",
+          "It was long lumped with its neighbours as one 'Diegueño' language, but it is really several languages.",
+        ],
+        audio: { file: "Agustín Speaking Kumeyaay And Spanish.webm", start: 180, voice: "m" },
+      },
+      {
+        name: "Comanche", wojak: "p4_massachusett", flag: "us", speakers: "fewer than 10", scene: "grassland", loc: [34.6, -98.4, "Oklahoma"],
+        cards: [
+          "In World War II, '17 Comanche Code Talkers' sent army messages in Comanche that the enemy could not break.",
+          "In this lesson, 'papi' is head and 'pui' is eye. Fewer than ten fluent native speakers were left in 2022.",
+        ],
+        audio: { file: "I Can Learn Comanche- My Body.webm", start: 15, voice: "f" },
+      },
+    ],
+  },
   native: {
-    title: "Native American Languages be like…",
-    part: "",
+    title: "Native American Languages be like…", // YouTube: "... (Part 1)" since Part 2 (native2) exists
+    part: "Part 1",
     layout: "story",
     counterLabel: "speakers",
     accent: "#b5452f",
