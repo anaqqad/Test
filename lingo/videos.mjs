@@ -1409,6 +1409,79 @@ export const VIDEOS = {
     ],
   },
   // ------------------------------------------------------------------ US audience
+  native3: {
+    title: "Native American Languages be like…", // YouTube: "... (Part 3)"; Mexico, Central and South America
+    part: "Part 3",
+    layout: "story",
+    counterLabel: "speakers",
+    accent: "#b5452f",
+    items: [
+      {
+        name: "Nahuatl", wojak: "r_nah", flag: "mx", speakers: "~1.7M", scene: "mesa", loc: [19.43, -99.13, "Central Mexico"],
+        cards: [
+          "Nahuatl was the language of the 'Aztec Empire', and it is still spoken by over a million people in Mexico.",
+          "English got 'chocolate', 'tomato', 'avocado' and 'chili' from Nahuatl words.",
+        ],
+        audio: { file: "Jorge speaking Nahuatl del Norte de Puebla (ncj).ogg", start: 195, voice: "m" },
+      },
+      {
+        name: "Otomi", wojak: "sl2_kaz", flag: "mx", speakers: "~300,000", scene: "hills", loc: [20.3, -99.2, "Mezquital Valley, Mexico"],
+        cards: [
+          "Otomi is a 'tonal' language: the pitch of a syllable can change the meaning of a word.",
+          "In the Mezquital Valley it is called 'Hñähñu', and it has nasal vowels as well as plain ones.",
+        ],
+        audio: { file: "WIKITONGUES- Evan speaking Hñähñu.webm", start: "auto", avoid: ["en", "es"], voice: "m" },
+      },
+      {
+        name: "Zapotec", wojak: "r_chr", flag: "mx", speakers: "~490,000", scene: "mesa", loc: [16.9, -96.8, "Oaxaca, Mexico"],
+        cards: [
+          "Zapotec is not one language but around '50', and many of them can’t understand each other.",
+          "This speaker uses 'Zaachila Zapotec', a variety near Oaxaca City with very few speakers left.",
+        ],
+        audio: { file: "Raul Speaking Zaachila Zapotec And Spanish.webm", start: "auto", avoid: ["en", "es"], voice: "m" },
+      },
+      {
+        name: "Mixtec", wojak: "i_wba", flag: "mx", speakers: "~530,000", scene: "sierra", loc: [17.3, -97.7, "Oaxaca, Mexico"],
+        cards: [
+          "Mixtec is 'tonal' too: the same syllables with a different melody can be a different word.",
+          "The Mixtecs painted folding picture books called 'codices', and a few survived the Spanish conquest.",
+        ],
+        audio: { file: "Baldemar speaking Mixtepec Mixtec.webm", start: "auto", avoid: ["en", "es"], voice: "m" },
+      },
+      {
+        name: "Lacandon", wojak: "r_lkt", flag: "mx", speakers: "~770", scene: "amazon", loc: [16.9, -91.3, "Lacandon Jungle, Chiapas"],
+        cards: [
+          "Lacandon is a Maya language, a cousin of Yucatec Maya, spoken deep in the 'rainforest' of Chiapas, near the border with Guatemala.",
+          "Only about '770' people spoke it in Mexico’s 2020 census, making it one of the smallest Maya languages.",
+        ],
+        audio: { file: "WIKITONGUES- Ross speaking Lacandon.webm", start: "auto", avoid: ["en", "es"], voice: "m" },
+      },
+      {
+        name: "K’iche’", wojak: "i2_tca", flag: "gt", speakers: "~1M", scene: "sierra", loc: [14.9, -91.4, "Guatemalan Highlands"],
+        cards: [
+          "K’iche’ is the biggest Maya language today, with about a million speakers in Guatemala.",
+          "The 'Popol Vuh', the Maya story of creation, was written down in K’iche’.",
+        ],
+        audio: { file: "WIKITONGUES- Lorenzo speaking K'iche' Mayan.webm", start: "auto", avoid: ["en", "es"], voice: "m" },
+      },
+      {
+        name: "Garifuna", wojak: "t3_kpe", flag: "hn", speakers: "~120,000", scene: "beach", loc: [15.78, -86.8, "Caribbean coast of Honduras"],
+        cards: [
+          "Garifuna began on the Caribbean island of 'St. Vincent', until the British deported its speakers to Honduras in the 1790s.",
+          "It is an 'Arawakan' language, whose relatives are in South America, now spoken from Belize to Nicaragua.",
+        ],
+        audio: { file: "Wikitongues Pablo speaking Garifuna.mp3", start: "auto", avoid: ["en", "es"], voice: "m" },
+      },
+      {
+        name: "Guarani", wojak: "sc_myp_f", flag: "py", speakers: "~6.5M", scene: "tropical", loc: [-25.3, -57.6, "Paraguay"],
+        cards: [
+          "Guarani is an 'official language' of Paraguay, and most Paraguayans speak it, not just Indigenous people.",
+          "English words like 'jaguar' come from the Tupi–Guarani languages.",
+        ],
+        audio: { file: "WIKITONGUES- María speaking Guarani.webm", start: "auto", avoid: ["en", "es"], voice: "f" },
+      },
+    ],
+  },
   native2: {
     title: "Native American Languages be like…", // YouTube: "... (Part 2)"; languages not in Part 1, US and Canada
     part: "Part 2",
