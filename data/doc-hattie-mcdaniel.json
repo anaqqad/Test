@@ -1,0 +1,1511 @@
+{
+ "id": "doc-hattie-mcdaniel",
+ "title": "She Won an Oscar. Hollywood Wouldn't Let Her Be Buried There.",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Cocoanut": "Coconut",
+  "Etta": "Et-tah",
+  "Mo'Nique": "Moe-neek"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "mammy": {
+   "commons": "File:Hattie McDaniel as \"Mammy\" in Gone With the Wind promotional image.webp"
+  },
+  "studio": {
+   "commons": "File:Studio publicity Hattie McDaniel.jpg"
+  },
+  "h1941": {
+   "commons": "File:1941hattie.jpg"
+  },
+  "gwtw": {
+   "commons": "File:Gone With The Wind featuring McDaniel & de Havilland & Leigh.jpg"
+  },
+  "beulah48": {
+   "commons": "File:Hattie Mc Daniel Beulah 1948.jpg"
+  },
+  "beulah51": {
+   "commons": "File:Hattie McDaniel Beulah 1951.jpg"
+  },
+  "victory": {
+   "commons": "File:\"Hattie McDaniel (center), Chairman of the Negro Division of the Hollywood Victory Committee, takes time off from rehear - NARA - 535875.jpg"
+  },
+  "bigwheel": {
+   "commons": "File:Hattie McDaniel and Mary Hatcher in The Big Wheel (1949).jpg"
+  },
+  "jet1": {
+   "commons": "File:Jet 20 Nov 1952 pg PA61.jpg"
+  },
+  "jet2": {
+   "commons": "File:Jet 16 Oct 1952 pg PA60.jpg"
+  },
+  "grove": {
+   "commons": "File:World famous cocoanut grove at the Ambassador Hotel, Los Angeles, California (62250).jpg"
+  },
+  "grove2": {
+   "commons": "File:Ambassador Hotel Cocoanut Grove.jpg"
+  },
+  "premiere": {
+   "commons": "File:Gone With the Wind Atlanta premiere 1939.jpg"
+  },
+  "poster": {
+   "commons": "File:Gone With the Wind Poster 1939.jpg"
+  },
+  "star": {
+   "commons": "File:Hattie.McDaniel's.star.jpg"
+  },
+  "rosedale": {
+   "commons": "File:Rosedale pyramid.jpg"
+  },
+  "usct": {
+   "commons": "File:District of Columbia. Company E, 4th U.S. Colored Infantry, at Fort Lincoln LOC cwpb.04294.jpg"
+  },
+  "denver": {
+   "commons": "File:Sixteenth Street, Denver, Colo. (NBY 186).jpg"
+  },
+  "cbs": {
+   "commons": "File:CBS radio hollywood.JPG"
+  },
+  "monique": {
+   "commons": "File:Mo'Nique attending the 82nd Academy Awards 2010 (cropped).jpg"
+  }
+ },
+ "clips": {
+  "laundry": {
+   "file": "judge_priest.webm",
+   "commons": "File:Judge Priest (1934).webm",
+   "start": 393,
+   "dur": 11
+  },
+  "laundry2": {
+   "file": "judge_priest.webm",
+   "commons": "File:Judge Priest (1934).webm",
+   "start": 399,
+   "dur": 7
+  },
+  "yard": {
+   "file": "judge_priest.webm",
+   "commons": "File:Judge Priest (1934).webm",
+   "start": 413,
+   "dur": 12
+  },
+  "porch": {
+   "file": "judge_priest.webm",
+   "commons": "File:Judge Priest (1934).webm",
+   "start": 2334,
+   "dur": 12
+  },
+  "ladies": {
+   "file": "judge_priest.webm",
+   "commons": "File:Judge Priest (1934).webm",
+   "start": 2384,
+   "dur": 12
+  },
+  "kitchen": {
+   "file": "judge_priest.webm",
+   "commons": "File:Judge Priest (1934).webm",
+   "start": 2583,
+   "dur": 7
+  },
+  "kitchen2": {
+   "file": "judge_priest.webm",
+   "commons": "File:Judge Priest (1934).webm",
+   "start": 2601,
+   "dur": 9
+  },
+  "stairs": {
+   "file": "judge_priest.webm",
+   "commons": "File:Judge Priest (1934).webm",
+   "start": 3794,
+   "dur": 10
+  },
+  "sacred": {
+   "file": "nothing_sacred_clip.mp4",
+   "commons": "File:Nothing Sacred (1937) by William A. Wellman.webm",
+   "start": 0.9,
+   "dur": 2.9,
+   "speed": 0.45
+  }
+ },
+ "beats": [
+  {
+   "id": "o1",
+   "text": "She won an Oscar. And Hollywood still would not let her be buried in its cemetery.",
+   "visual": {
+    "kind": "photo",
+    "image": "mammy",
+    "focus": [
+     0.5,
+     0.36
+    ],
+    "zoom": [
+     1.5,
+     1.58
+    ],
+    "anchor": [
+     0.75,
+     0.45
+    ]
+   },
+   "overlays": {
+    "hook": "She won an Oscar. *Hollywood still wouldn't let her be buried there.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "o2",
+   "text": "On the night of February 29th, 1940, Hollywood's biggest stars gathered at the Ambassador Hotel in Los Angeles, for the Academy Awards.",
+   "visual": {
+    "kind": "card",
+    "image": "grove",
+    "caption": "The Cocoanut Grove, Ambassador Hotel"
+   }
+  },
+  {
+   "id": "o3",
+   "text": "One nominee did not sit with the rest of her film's stars. She sat at a small table, against the far wall.",
+   "visual": {
+    "kind": "photo",
+    "image": "h1941",
+    "focus": [
+     0.5,
+     0.2
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "o4",
+   "text": "Then they read out her name. She had just become the first Black person ever to win an Oscar.",
+   "visual": {
+    "kind": "video",
+    "clip": "porch",
+    "focus": [
+     0.3,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "o5",
+   "text": "Twelve years later, she asked for one last thing: to be buried in Hollywood Cemetery. The answer was no.",
+   "visual": {
+    "kind": "title",
+    "title": "Whites only",
+    "sub": "Hollywood Cemetery, 1952"
+   }
+  },
+  {
+   "id": "o6",
+   "text": "Her name was Hattie McDaniel. This is her story.",
+   "visual": {
+    "kind": "title",
+    "title": "Hattie McDaniel",
+    "sub": "the first Black Oscar winner"
+   }
+  },
+  {
+   "id": "e1",
+   "text": "Hattie McDaniel was born in Wichita, Kansas, in the 1890s, the youngest of thirteen children.",
+   "visual": {
+    "kind": "photo",
+    "image": "studio",
+    "focus": [
+     0.47,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.65,
+     0.4
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Wichita, Kansas"
+    }
+   },
+   "section": "early"
+  },
+  {
+   "id": "e2",
+   "text": "Her parents had both been born into slavery. Her father, Henry, had fought for the Union in the Civil War.",
+   "visual": {
+    "kind": "card",
+    "image": "usct",
+    "caption": "Black Union soldiers, Civil War"
+   }
+  },
+  {
+   "id": "e3",
+   "text": "In the early 1900s, the family moved to Colorado, and settled in Denver.",
+   "visual": {
+    "kind": "card",
+    "image": "denver",
+    "caption": "Sixteenth Street, Denver"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "Hattie loved to perform. At East Denver High School, she won a gold medal in a recitation contest, for a poem called Convict Joe.",
+   "visual": {
+    "kind": "title",
+    "title": "Gold medal",
+    "sub": "East Denver High School"
+   }
+  },
+  {
+   "id": "e5",
+   "text": "Her father and her brothers started a minstrel show, and soon she was on the road with them, singing and dancing.",
+   "visual": {
+    "kind": "video",
+    "clip": "laundry",
+    "focus": [
+     0.42,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "e6",
+   "text": "She and her sister Etta even started a show of their own.",
+   "visual": {
+    "kind": "title",
+    "title": "The McDaniel Sisters",
+    "sub": "Denver, 1914"
+   }
+  },
+  {
+   "id": "e7",
+   "text": "In the 1920s, she toured with George Morrison's orchestra, and sang on Denver radio. She is often called the first Black woman to sing on American radio.",
+   "visual": {
+    "kind": "photo",
+    "image": "beulah48",
+    "focus": [
+     0.5,
+     0.28
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.62,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "s1",
+   "text": "Then her luck ran out. A touring show she was in went broke, and she ended up stranded in Milwaukee.",
+   "visual": {
+    "kind": "title",
+    "title": "Stranded",
+    "sub": "Milwaukee, Wisconsin"
+   },
+   "section": "stranded"
+  },
+  {
+   "id": "s1b",
+   "text": "She was far from home, with no show, and no money.",
+   "visual": {
+    "kind": "video",
+    "clip": "yard",
+    "focus": [
+     0.3,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "s2",
+   "text": "The only work she could find was at a nightclub outside the city, Sam Pick's Club Madrid. Not on the stage. In the washroom, as an attendant.",
+   "visual": {
+    "kind": "title",
+    "title": "Washroom attendant",
+    "sub": "Club Madrid, Milwaukee"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "Black performers were not allowed on that stage. She talked the owner into letting her sing anyway, and she became a regular.",
+   "visual": {
+    "kind": "video",
+    "clip": "laundry2",
+    "focus": [
+     0.42,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "s4",
+   "text": "In 1931, she moved to Los Angeles to try the movies. Her brother Sam and her sister Etta were actors too.",
+   "visual": {
+    "kind": "card",
+    "image": "cbs",
+    "caption": "Hollywood, 1930s"
+   }
+  },
+  {
+   "id": "h1",
+   "text": "Hollywood had one kind of part for her, again and again. The maid. The cook. The mammy.",
+   "visual": {
+    "kind": "video",
+    "clip": "kitchen",
+    "focus": [
+     0.3,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "hollywood"
+  },
+  {
+   "id": "h2",
+   "text": "In 1934, the director John Ford cast her in Judge Priest, opposite Will Rogers. It was her first major role.",
+   "visual": {
+    "kind": "video",
+    "clip": "porch",
+    "focus": [
+     0.3,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.06,
+     1.12
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Judge Priest",
+     "sub": "1934"
+    }
+   }
+  },
+  {
+   "id": "h3",
+   "text": "She even sang a duet with Rogers.",
+   "visual": {
+    "kind": "video",
+    "clip": "yard",
+    "focus": [
+     0.3,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "h4",
+   "text": "Bigger parts followed, including The Little Colonel, with Shirley Temple.",
+   "visual": {
+    "kind": "video",
+    "clip": "ladies",
+    "focus": [
+     0.27,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "h4b",
+   "text": "In film after film, she stole scenes from the stars, with a look, a line, or a song.",
+   "visual": {
+    "kind": "video",
+    "clip": "laundry2",
+    "focus": [
+     0.42,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "h5",
+   "text": "She would appear in hundreds of films. In most of them, her name was not even on the screen.",
+   "visual": {
+    "kind": "video",
+    "clip": "sacred",
+    "focus": [
+     0.24,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Nothing Sacred",
+     "sub": "1937"
+    }
+   }
+  },
+  {
+   "id": "h6",
+   "text": "When people criticized her for the roles she took, her reported answer became famous.",
+   "visual": {
+    "kind": "video",
+    "clip": "kitchen2",
+    "focus": [
+     0.35,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "h7",
+   "text": "Why should I complain about making seven hundred dollars a week playing a maid? If I didn't, I'd be making seven dollars a week being one.",
+   "visual": {
+    "kind": "quote",
+    "quote": "Why should I complain about making $700 a week playing a maid? If I didn't, I'd be making $7 a week being one.",
+    "by": "Hattie McDaniel"
+   }
+  },
+  {
+   "id": "g1",
+   "text": "In 1939, the producer David Selznick was casting Gone with the Wind.",
+   "visual": {
+    "kind": "card",
+    "image": "poster",
+    "caption": "Gone with the Wind, 1939"
+   },
+   "section": "gwtw"
+  },
+  {
+   "id": "g2",
+   "text": "Hattie McDaniel won the part of Mammy, the house servant of Scarlett O'Hara's family.",
+   "visual": {
+    "kind": "photo",
+    "image": "gwtw",
+    "focus": [
+     0.14,
+     0.22
+    ],
+    "zoom": [
+     1.5,
+     1.6
+    ],
+    "anchor": [
+     0.4,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "g3",
+   "text": "The film opened in Atlanta on December 15th, 1939, at Loew's Grand Theatre.",
+   "visual": {
+    "kind": "card",
+    "image": "premiere",
+    "caption": "Loew's Grand Theatre, Atlanta, 1939"
+   },
+   "overlays": {
+    "stamp": "15 December 1939"
+   }
+  },
+  {
+   "id": "g3b",
+   "text": "It should have been one of the biggest nights of her career.",
+   "visual": {
+    "kind": "video",
+    "clip": "stairs",
+    "focus": [
+     0.25,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "g4",
+   "text": "Hattie McDaniel was not there. Under Georgia's segregation laws, the theatre was for white audiences only. None of the film's Black actors could go.",
+   "visual": {
+    "kind": "photo",
+    "image": "premiere",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "g5",
+   "text": "Her co-star Clark Gable was so angry, he threatened to boycott the premiere. She convinced him to go anyway.",
+   "visual": {
+    "kind": "photo",
+    "image": "poster",
+    "focus": [
+     0.5,
+     0.15
+    ],
+    "zoom": [
+     1.6,
+     1.7
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "g6",
+   "text": "In the South, the studio even cut the Black actors out of the film's publicity.",
+   "visual": {
+    "kind": "card",
+    "image": "jet2",
+    "caption": "Jet magazine, 1952",
+    "crop": [
+     0,
+     0.5,
+     1,
+     0.98
+    ]
+   }
+  },
+  {
+   "id": "a1",
+   "text": "Then came the nominations. Hattie McDaniel was nominated for Best Supporting Actress. No Black actor had ever been nominated before.",
+   "visual": {
+    "kind": "photo",
+    "image": "mammy",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   },
+   "section": "oscar"
+  },
+  {
+   "id": "a1b",
+   "text": "Her co-star Olivia de Havilland was nominated in the very same category, for the very same film.",
+   "visual": {
+    "kind": "photo",
+    "image": "gwtw",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.3,
+     1.4
+    ]
+   }
+  },
+  {
+   "id": "a2",
+   "text": "The ceremony was held at the Cocoanut Grove, in the Ambassador Hotel. The hotel did not normally admit Black guests.",
+   "visual": {
+    "kind": "card",
+    "image": "grove2",
+    "caption": "The Cocoanut Grove, Ambassador Hotel"
+   }
+  },
+  {
+   "id": "a3",
+   "text": "She was let in. But she and her escort were seated at a separate table, on the far side of the room, away from her co-stars.",
+   "visual": {
+    "kind": "photo",
+    "image": "grove2",
+    "focus": [
+     0.8,
+     0.5
+    ],
+    "zoom": [
+     1.3,
+     1.4
+    ]
+   }
+  },
+  {
+   "id": "a4",
+   "text": "She wore white gardenias in her hair.",
+   "visual": {
+    "kind": "photo",
+    "image": "h1941",
+    "focus": [
+     0.5,
+     0.15
+    ],
+    "zoom": [
+     1.3,
+     1.4
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "a5",
+   "text": "Then the winner was announced. Hattie McDaniel.",
+   "visual": {
+    "kind": "video",
+    "clip": "laundry2",
+    "focus": [
+     0.42,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "29 February 1940"
+   }
+  },
+  {
+   "id": "a6",
+   "text": "She said: I sincerely hope I shall always be a credit to my race, and to the motion picture industry.",
+   "visual": {
+    "kind": "quote",
+    "quote": "I sincerely hope I shall always be a credit to my race and to the motion picture industry.",
+    "by": "Hattie McDaniel, 1940"
+   }
+  },
+  {
+   "id": "a7",
+   "text": "Her award was not the famous golden statuette. Supporting winners then received a small plaque.",
+   "visual": {
+    "kind": "card",
+    "image": "jet1",
+    "caption": "Hattie McDaniel and her Oscar plaque",
+    "crop": [
+     0,
+     0,
+     1,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "a8",
+   "text": "It would be half a century before another Black woman won an acting Oscar.",
+   "visual": {
+    "kind": "title",
+    "title": "50 years",
+    "sub": "until the next Black woman won"
+   }
+  },
+  {
+   "id": "c1",
+   "text": "Not everyone celebrated. The NAACP, and its leader Walter White, criticized her for playing maids and mammies, roles that kept racist stereotypes alive.",
+   "visual": {
+    "kind": "video",
+    "clip": "kitchen2",
+    "focus": [
+     0.35,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "critics"
+  },
+  {
+   "id": "c2",
+   "text": "She kept working. During World War Two, she led the Negro Division of the Hollywood Victory Committee, bringing entertainment to Black soldiers.",
+   "visual": {
+    "kind": "card",
+    "image": "victory",
+    "caption": "Hattie McDaniel (center), Hollywood Victory Committee"
+   }
+  },
+  {
+   "id": "k1",
+   "text": "By then she owned a large house in West Adams, a Los Angeles neighborhood so popular with Black stars that it was nicknamed Sugar Hill.",
+   "visual": {
+    "kind": "photo",
+    "image": "h1941",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   },
+   "section": "home"
+  },
+  {
+   "id": "k2",
+   "text": "In 1945, some white neighbors went to court. They wanted to use old racial covenants to force the Black homeowners out.",
+   "visual": {
+    "kind": "title",
+    "title": "Sugar Hill",
+    "sub": "Los Angeles, 1945"
+   },
+   "overlays": {
+    "stamp": "1945"
+   }
+  },
+  {
+   "id": "k3",
+   "text": "Hattie McDaniel helped rally her neighbors to fight back. The judge threw the case out.",
+   "visual": {
+    "kind": "video",
+    "clip": "ladies",
+    "focus": [
+     0.27,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "k4",
+   "text": "Three years later, the Supreme Court ruled that courts could not enforce racial covenants anywhere in the country.",
+   "visual": {
+    "kind": "title",
+    "title": "1948",
+    "sub": "covenants unenforceable"
+   }
+  },
+  {
+   "id": "b1",
+   "text": "In 1947, she took over the lead in a radio comedy, The Beulah Show.",
+   "visual": {
+    "kind": "photo",
+    "image": "beulah48",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.25,
+     1.35
+    ],
+    "anchor": [
+     0.62,
+     0.42
+    ]
+   },
+   "section": "beulah"
+  },
+  {
+   "id": "b2",
+   "text": "Later, she began playing Beulah on television too. But she managed only six episodes. She was ill with breast cancer.",
+   "visual": {
+    "kind": "photo",
+    "image": "beulah51",
+    "focus": [
+     0.6,
+     0.22
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "anchor": [
+     0.6,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "b3",
+   "text": "The role went to Louise Beavers, another actress who lived on Sugar Hill.",
+   "visual": {
+    "kind": "photo",
+    "image": "beulah48",
+    "focus": [
+     0.45,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "d1",
+   "text": "Hattie McDaniel died on October 26th, 1952. She was 59.",
+   "visual": {
+    "kind": "photo",
+    "image": "studio",
+    "focus": [
+     0.47,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   },
+   "overlays": {
+    "stamp": "26 October 1952"
+   },
+   "section": "end"
+  },
+  {
+   "id": "d2",
+   "text": "Some three thousand mourners came to her funeral.",
+   "visual": {
+    "kind": "video",
+    "clip": "stairs",
+    "focus": [
+     0.25,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "d2b",
+   "text": "But Hollywood had one more insult left for her.",
+   "visual": {
+    "kind": "title",
+    "title": "One last wish",
+    "sub": "1952"
+   }
+  },
+  {
+   "id": "d3",
+   "text": "In her will, she made one request. She wanted to be buried in Hollywood Cemetery.",
+   "visual": {
+    "kind": "title",
+    "title": "Her last wish",
+    "sub": "Hollywood Cemetery"
+   }
+  },
+  {
+   "id": "d4",
+   "text": "The cemetery refused. It did not bury Black people.",
+   "visual": {
+    "kind": "title",
+    "title": "Refused",
+    "sub": "whites only"
+   }
+  },
+  {
+   "id": "d5",
+   "text": "She was buried across town, at Rosedale Cemetery.",
+   "visual": {
+    "kind": "card",
+    "image": "rosedale",
+    "caption": "Rosedale Cemetery, Los Angeles"
+   }
+  },
+  {
+   "id": "d6",
+   "text": "She left her Oscar plaque to Howard University, the historically Black university in Washington.",
+   "visual": {
+    "kind": "card",
+    "image": "jet1",
+    "caption": "Jet magazine, November 1952",
+    "crop": [
+     0,
+     0,
+     1,
+     0.62
+    ]
+   }
+  },
+  {
+   "id": "d7",
+   "text": "It was displayed there for years. Then, around 1970, it disappeared. It has never been found.",
+   "visual": {
+    "kind": "photo",
+    "image": "jet1",
+    "focus": [
+     0.62,
+     0.18
+    ],
+    "zoom": [
+     1.8,
+     1.95
+    ]
+   }
+  },
+  {
+   "id": "l1",
+   "text": "In 1999, the cemetery that refused her had a new owner. He offered to move her there. Her family said no.",
+   "visual": {
+    "kind": "title",
+    "title": "1999",
+    "sub": "Hollywood Forever"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "l2",
+   "text": "So the cemetery put up a memorial to her instead. It stands there today.",
+   "visual": {
+    "kind": "video",
+    "clip": "porch",
+    "focus": [
+     0.3,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.1,
+     1.16
+    ]
+   }
+  },
+  {
+   "id": "l3",
+   "text": "She has two stars on the Hollywood Walk of Fame, one for film, and one for radio.",
+   "visual": {
+    "kind": "card",
+    "image": "star",
+    "caption": "Hollywood Walk of Fame"
+   }
+  },
+  {
+   "id": "l4",
+   "text": "In 2010, when Mo'Nique won the same Oscar, she wore a blue dress and a gardenia in her hair, as Hattie McDaniel had seventy years before.",
+   "visual": {
+    "kind": "card",
+    "image": "monique",
+    "caption": "Mo'Nique, 2010"
+   }
+  },
+  {
+   "id": "l5",
+   "text": "And in 2023, the Academy gave Howard University a replacement for her lost Oscar. The ceremony was called Hattie's Come Home.",
+   "visual": {
+    "kind": "title",
+    "title": "Hattie's Come Home",
+    "sub": "Howard University, 2023"
+   }
+  },
+  {
+   "id": "z1",
+   "text": "Her parents were born into slavery. She cleaned washrooms. She played maids in hundreds of films.",
+   "visual": {
+    "kind": "video",
+    "clip": "laundry",
+    "focus": [
+     0.42,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "z2",
+   "text": "And she won Hollywood's highest honor, at a table set apart from everyone else.",
+   "visual": {
+    "kind": "photo",
+    "image": "mammy",
+    "focus": [
+     0.5,
+     0.36
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "z2b",
+   "text": "Her Oscar is still missing. But her name is not.",
+   "visual": {
+    "kind": "card",
+    "image": "star",
+    "caption": "Hollywood Walk of Fame"
+   }
+  },
+  {
+   "id": "z3",
+   "text": "That was Hattie McDaniel. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "o2": [
+   "WIKI",
+   "AND"
+  ],
+  "o3": [
+   "WIKI",
+   "AND",
+   "CBS"
+  ],
+  "o4": [
+   "WIKI",
+   "AND",
+   "KSHS"
+  ],
+  "o5": [
+   "WIKI",
+   "NBCLA",
+   "DPL"
+  ],
+  "e1": [
+   "WIKI",
+   "KSHS",
+   "DPL"
+  ],
+  "e2": [
+   "WIKI",
+   "DPL",
+   "KSHS"
+  ],
+  "e3": [
+   "KSHS",
+   "DPL"
+  ],
+  "e4": [
+   "WIKI",
+   "DPL",
+   "BP"
+  ],
+  "e5": [
+   "WIKI",
+   "DPL"
+  ],
+  "e6": [
+   "WIKI",
+   "DPL"
+  ],
+  "e7": [
+   "DPL",
+   "ENC",
+   "WIKI"
+  ],
+  "s1": [
+   "MKE",
+   "DPL",
+   "WIKI"
+  ],
+  "s2": [
+   "WIKI",
+   "MKE",
+   "DPL"
+  ],
+  "s3": [
+   "WIKI",
+   "MKE"
+  ],
+  "s4": [
+   "WIKI",
+   "KSHS",
+   "DPL"
+  ],
+  "h1": [
+   "WIKI",
+   "JET2"
+  ],
+  "h2": [
+   "WIKI",
+   "BRIT",
+   "ENC"
+  ],
+  "h3": [
+   "WIKI",
+   "BRIT"
+  ],
+  "h4": [
+   "BIO",
+   "WIKI"
+  ],
+  "h5": [
+   "WIKI",
+   "JET2"
+  ],
+  "h6": [
+   "WIKI",
+   "AMS"
+  ],
+  "h7": [
+   "WIKI",
+   "AMS"
+  ],
+  "g1": [
+   "WIKI",
+   "ENC"
+  ],
+  "g2": [
+   "WIKI",
+   "KSHS",
+   "ENC"
+  ],
+  "g3": [
+   "WIKI",
+   "AJC"
+  ],
+  "g4": [
+   "WIKI",
+   "ENC",
+   "DPL",
+   "AJC"
+  ],
+  "g5": [
+   "WIKI",
+   "AJC",
+   "WEEK"
+  ],
+  "g6": [
+   "WIKI",
+   "ENC"
+  ],
+  "a1": [
+   "WIKI",
+   "AND"
+  ],
+  "a1b": [
+   "WIKI",
+   "AND"
+  ],
+  "a2": [
+   "WIKI",
+   "YAHOO"
+  ],
+  "a3": [
+   "WIKI",
+   "AND",
+   "CBS"
+  ],
+  "a4": [
+   "WIKI",
+   "NBCLA"
+  ],
+  "a5": [
+   "WIKI",
+   "AND"
+  ],
+  "a6": [
+   "WIKI",
+   "AND"
+  ],
+  "a7": [
+   "WIKI",
+   "AND"
+  ],
+  "a8": [
+   "AND",
+   "WIKI"
+  ],
+  "c1": [
+   "WIKI",
+   "AJC"
+  ],
+  "c2": [
+   "WIKI",
+   "NARA"
+  ],
+  "k1": [
+   "NBCLA",
+   "WIKI"
+  ],
+  "k2": [
+   "WIKI",
+   "NBCLA"
+  ],
+  "k3": [
+   "WIKI",
+   "NBCLA"
+  ],
+  "k4": [
+   "NBCLA",
+   "WIKI"
+  ],
+  "b1": [
+   "ENC",
+   "WIKI"
+  ],
+  "b2": [
+   "WIKI",
+   "ENC"
+  ],
+  "b3": [
+   "WIKI",
+   "NBCLA"
+  ],
+  "d1": [
+   "WIKI",
+   "AND"
+  ],
+  "d2": [
+   "WIKI",
+   "FAG"
+  ],
+  "d3": [
+   "WIKI",
+   "NBCLA",
+   "DPL"
+  ],
+  "d4": [
+   "WIKI",
+   "NBCLA",
+   "DPL"
+  ],
+  "d5": [
+   "WIKI",
+   "NBCLA"
+  ],
+  "d6": [
+   "WIKI",
+   "AND",
+   "JET"
+  ],
+  "d7": [
+   "AND",
+   "DPL",
+   "WIKI"
+  ],
+  "l1": [
+   "WIKI",
+   "HF"
+  ],
+  "l2": [
+   "HF",
+   "NBCLA"
+  ],
+  "l3": [
+   "WIKI",
+   "NBCLA"
+  ],
+  "l4": [
+   "WIKI",
+   "NBCLA"
+  ],
+  "l5": [
+   "AND",
+   "CBS",
+   "WIKI"
+  ]
+ },
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Hattie_McDaniel"
+  },
+  "DPL": {
+   "url": "https://history.denverlibrary.org/colorado-biographies/hattie-mcdaniel-1893-1952"
+  },
+  "KSHS": {
+   "url": "https://www.kansashistory.gov/kansapedia/hattie-mcdaniel/12142"
+  },
+  "ENC": {
+   "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mcdaniel-hattie"
+  },
+  "BP": {
+   "url": "https://www.blackpast.org/african-american-history/mcdaniel-hattie-1895-1952/"
+  },
+  "MKE": {
+   "url": "https://milwaukeebronzevillehistories.org/items/show/7"
+  },
+  "BRIT": {
+   "url": "https://www.britannica.com/biography/Hattie-McDaniel"
+  },
+  "BIO": {
+   "url": "https://www.biography.com/actors/hattie-mcdaniel"
+  },
+  "JET": {
+   "url": "https://commons.wikimedia.org/wiki/File:Jet_20_Nov_1952_pg_PA61.jpg"
+  },
+  "JET2": {
+   "url": "https://commons.wikimedia.org/wiki/File:Jet_16_Oct_1952_pg_PA60.jpg"
+  },
+  "AJC": {
+   "url": "https://www.ajc.com/news/years-ago-actress-hattie-mcdaniel-broke-the-color-barrier-the-oscars/vtEEXYKtaeJqKIEFPhIjAM/"
+  },
+  "WEEK": {
+   "url": "https://theweek.com/articles/539316/remembering-hattie-mcdaniel-75-years-since-historic-oscar-win"
+  },
+  "YAHOO": {
+   "url": "https://ca.movies.yahoo.com/news/oscar-s-first-black-winner-accepted-her-honor-in-a-segregated--no-blacks--hotel-in-l-a-213002304.html"
+  },
+  "AND": {
+   "url": "https://andscape.com/features/film-academy-replaces-hattie-mcdaniels-long-lost-oscar/"
+  },
+  "CBS": {
+   "url": "https://www.cbsnews.com/colorado/news/hattie-mcdaniel-missing-academy-award-replacement-gift-howard-university"
+  },
+  "NBCLA": {
+   "url": "https://nbclosangeles.com/news/local/monique-hattie-mcdaniel-and-west-adams/1867946"
+  },
+  "HF": {
+   "url": "https://en.wikipedia.org/wiki/Hollywood_Forever_Cemetery"
+  },
+  "NARA": {
+   "url": "https://commons.wikimedia.org/wiki/File:%22Hattie_McDaniel_(center),_Chairman_of_the_Negro_Division_of_the_Hollywood_Victory_Committee,_takes_time_off_from_rehear_-_NARA_-_535875.jpg"
+  },
+  "FAG": {
+   "url": "https://www.findagrave.com/memorial/7101"
+  },
+  "AMS": {
+   "url": "https://amsterdamnews.com/news/2017/03/02/film-immortal-hattie-mcdaniel/"
+  }
+ },
+ "notUsed": [
+  "Birth year 1893 (Wikipedia, Denver Public Library) vs 1895 (Kansas Historical Society): script says \"in the 1890s\".",
+  "Year she was stranded in Milwaukee: 1929 (Wikipedia, Milwaukee Bronzeville) vs 1926 (Denver Public Library): no year said.",
+  "Audition in an authentic maid's uniform; Hollywood premiere on Dec 28, 1939; USO shows; working as a maid between film roles: one source each, not used.",
+  "Will asking for white gardenias and a white casket: weak sources only, not used.",
+  "The $700 quote: wording differs between sources; introduced as her \"reported\" answer.",
+  "Oscar disappearance: late 1960s (Andscape), 1972 (Denver Public Library): script says \"around 1970\"."
+ ]
+}

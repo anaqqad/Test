@@ -12,7 +12,9 @@ import { timelineSchema } from "../mathdoc/schema";
 const box = z.tuple([z.number(), z.number(), z.number(), z.number()]);
 
 export const reelVisualSchema = z.object({
-  kind: z.enum(["photo", "card", "map", "title", "thennow", "endcard"]),
+  kind: z.enum(["photo", "video", "card", "map", "title", "thennow", "endcard"]),
+  /** video: clip key (public/pd/<id>/clips/<key>.mp4) */
+  clip: z.string().optional(),
   /** asset key (public/pd/<id>/<key>.jpg) */
   image: z.string().optional(),
   /** photo: image point (0..1) the camera holds on, and where on screen (0..1) it sits */

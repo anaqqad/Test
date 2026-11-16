@@ -8,7 +8,7 @@ import { imageMetaSchema, reelOverlaysSchema, reelVisualSchema } from "../reel/s
  * Adds chapter cards and quote cards; captions are phrase subtitles at the bottom.
  */
 export const docVisualSchema = reelVisualSchema.extend({
-  kind: z.enum(["photo", "card", "map", "title", "thennow", "endcard", "chapter", "quote", "stat"]),
+  kind: z.enum(["photo", "video", "card", "map", "title", "thennow", "endcard", "chapter", "quote", "stat"]),
   /** chapter: number and title */
   num: z.number().optional(),
   /** quote: the words and who said them */

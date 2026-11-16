@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from "react";
-import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Img, interpolate, OffthreadVideo, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { coverCrop, coverLayout, fitCrop, mapBox, type Rect } from "./layout";
 import type { ReelBeat, ReelSpec } from "./schema";
 import { B, CENTER_COL, EASE_IN_OUT, EASE_OUT, QC_CYAN, QC_MAGENTA, reveal, SAFE, SAFE_CX, SAFE_W, SEPIA, sans, serif } from "./style";
@@ -74,6 +74,37 @@ export const PhotoBeat: React.FC<{ beat: ReelBeat; spec: ReelSpec; duration: num
     <AbsoluteFill style={{ backgroundColor: B.black, overflow: "hidden" }}>
       <Img
         src={staticFile(`pd/${spec.id}/${key}.jpg`)}
+        style={{ position: "absolute", left: rect.x, top: rect.y, width: rect.w, height: rect.h, filter: SEPIA }}
+      />
+      <Grade />
+    </AbsoluteFill>
+  );
+};
+
+/**
+ * Full-bleed public-domain film clip (public/pd/<id>/clips/<key>.mp4, cut by scripts/cut_clips.py),
+ * framed like a photo (focus / anchor / zoom), muted, with the same sepia grade and a slow push-in.
+ */
+export const VideoBeat: React.FC<{ beat: ReelBeat; spec: ReelSpec; duration: number }> = ({ beat, spec, duration }) => {
+  const frame = useCurrentFrame();
+  const { width: W, height: H, fps } = useVideoConfig();
+  const qc = useContext(QCContext);
+  const v = beat.visual;
+  const key = v.clip ?? "";
+  // a beat longer than its clip plays the clip a little slower instead of freezing on the last frame
+  const seconds = spec.images?.[`clipsec:${key}`]?.width ?? 0;
+  const rate = seconds > 0 ? Math.min(1, (seconds - 0.1) / (duration / fps)) : 1;
+  const { width: iw, height: ih } = imgSize(spec, `clip:${key}`);
+  const p = interpolate(frame, [0, duration], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_IN_OUT });
+  const [z0, z1] = v.zoom ?? [1.0, 1.06];
+  const rect = coverLayout(iw, ih, W, H, v.focus ?? [0.5, 0.4], v.anchor ?? [0.5, 0.4], z0 + (z1 - z0) * p);
+  if (qc) return <FaceMasks boxes={[]} rect={rect} />;
+  return (
+    <AbsoluteFill style={{ backgroundColor: B.black, overflow: "hidden" }}>
+      <OffthreadVideo
+        muted
+        playbackRate={rate}
+        src={staticFile(`pd/${spec.id}/clips/${key}.mp4`)}
         style={{ position: "absolute", left: rect.x, top: rect.y, width: rect.w, height: rect.h, filter: SEPIA }}
       />
       <Grade />

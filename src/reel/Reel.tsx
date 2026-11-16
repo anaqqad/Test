@@ -2,7 +2,7 @@ import React from "react";
 import { Audio } from "@remotion/media";
 import { AbsoluteFill, type CalculateMetadataFunction, Freeze, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { type MathDocTimeline, timelineSchema } from "../mathdoc/schema";
-import { CardBeat, EndCard, HarborMap, ThenNowBeat, TitleCard, HookText, LowerThird, PhotoBeat, PinChip, QCContext, Stamp, YearCounter } from "./blocks";
+import { CardBeat, VideoBeat, EndCard, HarborMap, ThenNowBeat, TitleCard, HookText, LowerThird, PhotoBeat, PinChip, QCContext, Stamp, YearCounter } from "./blocks";
 import { Captions } from "./Captions";
 import { type ReelBeat, type ReelSpec, reelSpecSchema } from "./schema";
 import { applyTheme, B } from "./style";
@@ -46,6 +46,7 @@ export const calculateReelMetadata: CalculateMetadataFunction<ReelSpec> = async 
   };
   const timeline = await load(`generated/${spec.id}/timeline.json`, (x) => timelineSchema.parse(x));
   const credits = await load(`pd/${spec.id}/credits.json`, (x) => x as Record<string, { width: number; height: number }>);
+  const clips = await load(`pd/${spec.id}/clips/clips.json`, (x) => x as Record<string, { width: number; height: number }>);
   let hasMix = false;
   try {
     hasMix = (await fetch(staticFile(`generated/${spec.id}/mix.wav`), { method: "HEAD", signal: abortSignal })).ok;
@@ -53,7 +54,12 @@ export const calculateReelMetadata: CalculateMetadataFunction<ReelSpec> = async 
     hasMix = false;
   }
   const tl = timeline ?? estimateTimeline(spec);
-  const images = Object.fromEntries(Object.entries(credits ?? {}).map(([k, v]) => [k, { width: v.width, height: v.height }]));
+  const images = Object.fromEntries([
+    ...Object.entries(credits ?? {}).map(([k, v]) => [k, { width: v.width, height: v.height }]),
+    ...Object.entries(clips ?? {}).map(([k, v]) => [`clip:${k}`, { width: v.width, height: v.height }]),
+    // clip length rides along as a fake size so it survives the images schema
+    ...Object.entries(clips ?? {}).map(([k, v]) => [`clipsec:${k}`, { width: (v as { seconds?: number }).seconds ?? 0, height: 0 }]),
+  ]);
   return {
     durationInFrames: tl.durationInFrames,
     fps: spec.fps,
@@ -67,6 +73,7 @@ export const calculateReelMetadata: CalculateMetadataFunction<ReelSpec> = async 
 const Visual: React.FC<{ beat: ReelBeat; spec: ReelSpec; duration: number }> = ({ beat, spec, duration }) => {
   const v = beat.visual;
   if (v.kind === "photo") return <PhotoBeat beat={beat} spec={spec} duration={duration} />;
+  if (v.kind === "video") return <VideoBeat beat={beat} spec={spec} duration={duration} />;
   if (v.kind === "card") return <CardBeat beat={beat} spec={spec} duration={duration} />;
   if (v.kind === "map") return <HarborMap step={v.step ?? "wharf"} duration={duration} />;
   if (v.kind === "title") return <TitleCard title={v.title ?? ""} sub={v.sub} />;

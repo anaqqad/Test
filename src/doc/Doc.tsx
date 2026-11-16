@@ -2,7 +2,7 @@ import React from "react";
 import { Audio } from "@remotion/media";
 import { AbsoluteFill, type CalculateMetadataFunction, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { type MathDocTimeline, timelineSchema } from "../mathdoc/schema";
-import { PhotoBeat, QCContext, ThenNowBeat } from "../reel/blocks";
+import { PhotoBeat, QCContext, ThenNowBeat, VideoBeat } from "../reel/blocks";
 import type { ReelBeat, ReelSpec } from "../reel/schema";
 import { applyTheme, B, serif } from "../reel/style";
 import { BigTitle, ChapterCard, ChapterTag, DocCard, DocEndCard, DocHook, DocLowerThird, DocMap, DocPin, DocStamp, DocYear, Grain, QuoteCard, StatCard } from "./blocks";
@@ -41,6 +41,7 @@ export const calculateDocMetadata: CalculateMetadataFunction<DocSpec> = async ({
   };
   const timeline = await load(`generated/${spec.id}/timeline.json`, (x) => timelineSchema.parse(x));
   const credits = await load(`pd/${spec.id}/credits.json`, (x) => x as Record<string, { width: number; height: number }>);
+  const clips = await load(`pd/${spec.id}/clips/clips.json`, (x) => x as Record<string, { width: number; height: number }>);
   let hasMix = false;
   try {
     hasMix = (await fetch(staticFile(`generated/${spec.id}/mix.wav`), { method: "HEAD", signal: abortSignal })).ok;
@@ -48,7 +49,12 @@ export const calculateDocMetadata: CalculateMetadataFunction<DocSpec> = async ({
     hasMix = false;
   }
   const tl = timeline ?? estimateTimeline(spec);
-  const images = Object.fromEntries(Object.entries(credits ?? {}).map(([k, v]) => [k, { width: v.width, height: v.height }]));
+  const images = Object.fromEntries([
+    ...Object.entries(credits ?? {}).map(([k, v]) => [k, { width: v.width, height: v.height }]),
+    ...Object.entries(clips ?? {}).map(([k, v]) => [`clip:${k}`, { width: v.width, height: v.height }]),
+    // clip length rides along as a fake size so it survives the images schema
+    ...Object.entries(clips ?? {}).map(([k, v]) => [`clipsec:${k}`, { width: (v as { seconds?: number }).seconds ?? 0, height: 0 }]),
+  ]);
   return {
     durationInFrames: tl.durationInFrames,
     fps: spec.fps,
@@ -64,6 +70,7 @@ const Visual: React.FC<{ beat: DocBeat; spec: DocSpec; duration: number }> = ({ 
   // the reel's photo and then/now blocks size themselves from the composition, so they work at 16:9
   const asReel = { beat: beat as unknown as ReelBeat, spec: spec as unknown as ReelSpec, duration };
   if (v.kind === "photo") return <PhotoBeat {...asReel} />;
+  if (v.kind === "video") return <VideoBeat {...asReel} />;
   if (v.kind === "thennow") return <ThenNowBeat {...asReel} />;
   if (v.kind === "card") return <DocCard beat={beat} spec={spec} duration={duration} />;
   if (v.kind === "map") return <DocMap step={v.step ?? "wharf"} duration={duration} />;
