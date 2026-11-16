@@ -260,4 +260,11 @@ One Word in 10 Languages, Languages That Count Differently.
 31. Reference channel saved by the owner (2026-11-16): Langfocus (@Langfocus), for ideas.
    Notes: `lingo/ideas/reference_langfocus.md` (needs screenshots of their popular videos).
 
+32. US Accents be like (owner, 2026-11-16): Boston, New York, Southern, Midwest/Minnesota, California, Appalachian,
+   Pittsburgh, Cajun... High-RPM US topic. Real sources found on Commons: Boston word recordings (Category:Boston
+   accent, ~12 files "En-boston-us-*", CC0: car, chowder, wicked pissa...); Library of Congress dialect recordings,
+   public domain (Smith Island MD, Tangier Island VA; Category:Audio files of Southern U.S. dialects); Wikitongues
+   "speaking English" from New York (AfroCrowd); public-domain US government recordings of speakers with strong
+   regional accents (ask the owner first: these are politicians). Check each regional category before building.
+
 - DROPPED (owner, 2026-11-13): "What English Sounded Like in the 1800s" (`oldvoices`): too close to an idea already done (how English sounded through time). Don't suggest it again. Its files stay in the repo unused.
