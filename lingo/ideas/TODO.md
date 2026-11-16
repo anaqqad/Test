@@ -102,8 +102,11 @@ channel thumbnail look with the hook in red, rankings count down from 10 to 1.
      Gurindji Kriol, Mednyj Aleut, Light Warlpiri, Mbugu (Ma'a).
    - Island Languages be like: Faroese, Rapa Nui, Chamorro, Tiwi, Jèrriais, Guernésiais, Palauan, Nauruan,
      Hawaiian, Kalaallisut (Greenlandic), Corsican, Sardinian.
-   - Creole Languages be like: Haitian Creole, Papiamento, Tok Pisin, Jamaican Patois, Chavacano, Bislama,
-     Seychellois, Mauritian, Cape Verdean, Sranan Tongo, Krio.
+   - Creole Languages be like (owner asked again 2026-11-16: keep it on the list, planned as a series): Haitian
+     Creole, Papiamento, Tok Pisin, Jamaican Patois, Chavacano, Bislama, Seychellois, Mauritian, Cape Verdean,
+     Sranan Tongo, Krio. Already used elsewhere: Tok Pisin and Gullah (understand), Bislama and Nigerian Pidgin
+     (understand2), Guyanese Creole, Afro-Seminole Creole. Lead with the non-English-based ones (French: Haitian,
+     Mauritian, Seychellois; Portuguese/Spanish: Papiamento, Cape Verdean, Chavacano; Dutch: Sranan Tongo).
    Real recordings only (Commons, Lingua Libre, Wikitongues, Creative Commons YouTube), credit every recording,
    skip languages already used unless the owner agrees.
 Other suggestions, not yet approved: Languages Spoken by Fewer Than 1,000 People, Writing Systems be like,
