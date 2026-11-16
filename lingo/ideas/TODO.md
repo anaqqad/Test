@@ -234,4 +234,24 @@ One Word in 10 Languages, Languages That Count Differently.
    recordings, so a real-recordings video would use the living ones (Shelta, Polari, Angloromani, Scots dialects,
    Manx, Cornish, Welsh, Irish, Gaelic), and the extinct ones could go in an AI-simulation part.
 
+29. New ways to classify languages (owner, 2026-11-16: "add them all"). Each one is a "___ Languages be like…" series,
+   real recordings only. Top three by fit: base-20, verb-first, evidential.
+   - Base-20 Languages / "Languages That Count Differently": French quatre-vingts (80 = four-twenties), Danish,
+     Basque, Georgian, Yoruba, Nahuatl, Maya. Lingua Libre has many number recordings. Relatable for English viewers.
+   - Verb-First Languages ("Eat I bread"): Irish, Welsh, Tagalog, Hawaiian, Maori, Classical Arabic; very rare
+     object-first: Hixkaryana (Amazon).
+   - Evidential Languages ("you must say how you know"): grammar marks seen / heard from others / guessed. Quechua,
+     Turkish -mis, Tibetan, Tuyuca.
+   - Mixed Languages (not creoles: two languages fused half and half): Michif (French nouns + Cree verbs), Media
+     Lengua (Spanish words + Quechua grammar), Light Warlpiri.
+   - Sign Languages be like: real languages with their own grammar; ASL and BSL are unrelated. Wikitongues signed
+     videos on Commons (category "Wikitongues videos of signs").
+   - Polysynthetic Languages (one word = a whole sentence): Mohawk, Chukchi, Ainu, Yup'ik, Greenlandic.
+   - Noun-Class Languages (like gender but 10-18 classes): Swahili, Zulu; Dyirbal's class for "women, fire and
+     dangerous things".
+   - Vowel Harmony Languages (vowels in a word must match): Turkish, Finnish, Hungarian, Mongolian.
+   - Ergative Languages ("who did it" marked differently from English): Basque, Georgian, Chechen, Inuit.
+   - Diglossic Languages (a formal written version and a different spoken one): Arabic, Swiss German, Tamil, Greek.
+   - "Languages Without the Word 'Have'" ("at me is a car"): Russian, Irish, Hindi, Arabic, Finnish.
+
 - DROPPED (owner, 2026-11-13): "What English Sounded Like in the 1800s" (`oldvoices`): too close to an idea already done (how English sounded through time). Don't suggest it again. Its files stay in the repo unused.
