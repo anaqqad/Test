@@ -1,0 +1,1263 @@
+{
+ "id": "doc-ona-judge",
+ "title": "She Ran Away From George Washington. He Never Stopped Hunting Her.",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Ona": "Oh-nah",
+  "Oney": "Oh-nee",
+  "Wolcott": "Wool-cut",
+  "Custis": "Kus-tiss",
+  "Burwell": "Burr-well",
+  "dower": "dow-er"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "gw": {
+   "commons": "File:Gilbert Stuart Williamstown Portrait of George Washington.jpg"
+  },
+  "mw": {
+   "commons": "File:Portrait of Martha Washington by Rembrandt Peale adj.JPG"
+  },
+  "mw2": {
+   "commons": "File:Martha Dandridge Washington (Engraved Portrait).jpg"
+  },
+  "mv": {
+   "commons": "File:Mount Vernon 1858.jpg"
+  },
+  "house": {
+   "commons": "File:Mansion of Richard Penn (President's House) HSP.jpg"
+  },
+  "eliza": {
+   "commons": "File:Elizabeth Parke Custis Law.jpg"
+  },
+  "ferry": {
+   "commons": "File:Arch Street Ferry Birch's Views Plate 4.jpg"
+  },
+  "ad": {
+   "commons": "File:Oney Judge Runaway Ad.jpg"
+  },
+  "family": {
+   "commons": "File:Edward Savage - The Washington Family - Google Art Project.jpg"
+  },
+  "highst": {
+   "commons": "File:High Street, with the First Presbyterian church Philadelphia. Taken down in 1820 - designed & published by W. Birch enamel painter, 1800. LCCN2013650033.jpg"
+  },
+  "statehouse": {
+   "commons": "File:Back of the State House, Philadelphia - designed & published by W. Birch enamel painter, 1800. LCCN2010646072.jpg"
+  },
+  "fedhall": {
+   "commons": "File:Federal Hall, N.Y. 1789 ppmsca.15703.jpg"
+  },
+  "wolcott": {
+   "commons": "File:Oliver Wolcott Jr by Gilbert Stuart circa 1820.jpeg"
+  },
+  "brig": {
+   "commons": "File:The Brig 'Ariel' RMG BHC3203.tiff"
+  },
+  "langdonhouse": {
+   "commons": "File:Gov. Langdon House, Portsmouth, NH.jpg"
+  },
+  "tomb": {
+   "commons": "File:Mount Vernon tomb of Washington LCCN2003655710.jpg"
+  },
+  "greenland": {
+   "commons": "File:Greenland, New Hampshire Parade, circa 1880.jpg"
+  },
+  "liberator": {
+   "commons": "File:The Liberator masthead, 1861 Jan 11.jpg"
+  }
+ },
+ "beats": [
+  {
+   "id": "h1",
+   "text": "On the evening of May 21, 1796, the President of the United States sat down to dinner in Philadelphia.",
+   "visual": {
+    "kind": "photo",
+    "image": "gw",
+    "focus": [
+     0.55,
+     0.3
+    ],
+    "zoom": [
+     1.45,
+     1.55
+    ],
+    "anchor": [
+     0.8,
+     0.42
+    ]
+   },
+   "overlays": {
+    "hook": "She ran away from George Washington."
+   }
+  },
+  {
+   "id": "h2",
+   "text": "While George and Martha Washington ate, a young woman they enslaved walked out of the house.",
+   "visual": {
+    "kind": "card",
+    "image": "house",
+    "caption": "The President's House, Philadelphia"
+   }
+  },
+  {
+   "id": "h3",
+   "text": "She never came back. And for the rest of his life, the most powerful man in America tried to get her back.",
+   "visual": {
+    "kind": "photo",
+    "image": "gw",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.15,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "h4",
+   "text": "He wrote letters. He asked his Treasury Department for help. He sent his own nephew to seize her.",
+   "visual": {
+    "kind": "card",
+    "image": "ad",
+    "caption": "Runaway ad for Oney Judge, May 1796"
+   }
+  },
+  {
+   "id": "h5",
+   "text": "Her name was Ona Judge. This is the story of the woman who escaped George Washington, and was never caught.",
+   "visual": {
+    "kind": "title",
+    "title": "Ona Judge",
+    "sub": "about 1773 to 1848"
+   }
+  },
+  {
+   "id": "e1",
+   "text": "Ona Judge was born around 1773 at Mount Vernon, the Washingtons' plantation in Virginia.",
+   "visual": {
+    "kind": "card",
+    "image": "mv",
+    "caption": "Mount Vernon, Virginia"
+   },
+   "overlays": {
+    "stamp": "about 1773"
+   },
+   "section": "early"
+  },
+  {
+   "id": "e2",
+   "text": "Her mother, Betty, was enslaved. Her father, Andrew Judge, was a white English tailor working as an indentured servant.",
+   "visual": {
+    "kind": "photo",
+    "image": "mv",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "e3",
+   "text": "Under Virginia law, a child followed the status of the mother. So Ona was born enslaved.",
+   "visual": {
+    "kind": "title",
+    "title": "Born enslaved",
+    "sub": "the law followed the mother"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "Betty belonged to Martha Washington's first husband's estate. People like her were called dower slaves.",
+   "visual": {
+    "kind": "card",
+    "image": "mw2",
+    "caption": "Martha Washington"
+   }
+  },
+  {
+   "id": "e5",
+   "text": "That mattered. Legally, George Washington could not free them, even if he wanted to. They were held for Martha's heirs.",
+   "visual": {
+    "kind": "title",
+    "title": "Dower slaves",
+    "sub": "held for the Custis heirs"
+   }
+  },
+  {
+   "id": "e6",
+   "text": "When Ona was about ten, she was brought into the mansion house.",
+   "visual": {
+    "kind": "photo",
+    "image": "mv",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.2,
+     1.32
+    ]
+   }
+  },
+  {
+   "id": "e7",
+   "text": "She became Martha Washington's personal maid. She dressed her, served her, and went wherever she went.",
+   "visual": {
+    "kind": "card",
+    "image": "mw",
+    "caption": "Martha Washington"
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "Martha Washington",
+     "sub": "First Lady"
+    }
+   }
+  },
+  {
+   "id": "p1",
+   "text": "In 1789, George Washington became the first President of the United States.",
+   "visual": {
+    "kind": "card",
+    "image": "fedhall",
+    "caption": "Federal Hall, New York, 1789"
+   },
+   "overlays": {
+    "stamp": "1789"
+   },
+   "section": "president"
+  },
+  {
+   "id": "p2",
+   "text": "The government sat in New York, and the Washingtons brought enslaved people from Mount Vernon to run the household. Ona, about sixteen, was one of them.",
+   "visual": {
+    "kind": "photo",
+    "image": "fedhall",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "p3",
+   "text": "The next year, the capital moved to Philadelphia. Ona was one of nine enslaved people taken to the President's House.",
+   "visual": {
+    "kind": "card",
+    "image": "highst",
+    "caption": "High Street, Philadelphia, 1800"
+   }
+  },
+  {
+   "id": "p4",
+   "text": "But Pennsylvania had a law. Under its Gradual Abolition Act, an enslaved person brought into the state who stayed for six months in a row could claim freedom.",
+   "visual": {
+    "kind": "card",
+    "image": "statehouse",
+    "caption": "The State House, Philadelphia, 1800"
+   }
+  },
+  {
+   "id": "p5",
+   "text": "So the Washingtons kept the clock from running out. They rotated the people they enslaved out of Pennsylvania, back to Virginia or across the state line, before the six months were up.",
+   "visual": {
+    "kind": "title",
+    "title": "Six months",
+    "sub": "and never a day longer"
+   }
+  },
+  {
+   "id": "p6",
+   "text": "In 1791, Martha Washington took Ona to Trenton, New Jersey, for two days. Just long enough to reset the clock.",
+   "visual": {
+    "kind": "photo",
+    "image": "mw",
+    "focus": [
+     0.55,
+     0.36
+    ],
+    "zoom": [
+     1.3,
+     1.45
+    ]
+   }
+  },
+  {
+   "id": "p7",
+   "text": "Philadelphia had a large and growing free Black community. Ona saw, every day, people like her living free.",
+   "visual": {
+    "kind": "card",
+    "image": "highst",
+    "caption": "Philadelphia, 1800",
+    "focus": [
+     0.5,
+     0.6
+    ]
+   }
+  },
+  {
+   "id": "g1",
+   "text": "In the spring of 1796, Washington was in his last year as President. Soon the family would go home to Virginia for good.",
+   "visual": {
+    "kind": "photo",
+    "image": "family",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   },
+   "section": "gift"
+  },
+  {
+   "id": "g2",
+   "text": "Then Ona learned something. Martha Washington planned to give her away, to her granddaughter, Eliza Custis Law.",
+   "visual": {
+    "kind": "card",
+    "image": "eliza",
+    "caption": "Eliza Custis Law, Martha Washington's granddaughter"
+   }
+  },
+  {
+   "id": "g3",
+   "text": "She would be handed over like property, to a new owner, and taken back to Virginia.",
+   "visual": {
+    "kind": "photo",
+    "image": "eliza",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.15,
+     1.28
+    ]
+   }
+  },
+  {
+   "id": "g4",
+   "text": "Decades later, she remembered what she thought.",
+   "visual": {
+    "kind": "quote",
+    "quote": "I knew that if I went back to Virginia, I should never get my liberty.",
+    "by": "Ona Judge, 1845"
+   }
+  },
+  {
+   "id": "g5",
+   "text": "So while the Washingtons packed to go to Virginia, she packed too. She did not know where she was going.",
+   "visual": {
+    "kind": "title",
+    "title": "Packing",
+    "sub": "May 1796"
+   }
+  },
+  {
+   "id": "g6",
+   "text": "She had friends among the free Black people of Philadelphia. Quietly, her belongings were carried out of the house ahead of time.",
+   "visual": {
+    "kind": "card",
+    "image": "ferry",
+    "caption": "The Philadelphia waterfront, 1800"
+   }
+  },
+  {
+   "id": "x1",
+   "text": "On May 21, 1796, while the President and the First Lady sat at dinner, Ona Judge walked out the door.",
+   "visual": {
+    "kind": "card",
+    "image": "house",
+    "caption": "The President's House, Philadelphia"
+   },
+   "overlays": {
+    "stamp": "21 May 1796"
+   },
+   "section": "escape"
+  },
+  {
+   "id": "x2",
+   "text": "Her friends got her onto a ship commanded by Captain John Bowles, bound north for Portsmouth, New Hampshire.",
+   "visual": {
+    "kind": "card",
+    "image": "brig",
+    "caption": "A sailing brig, painted in 1811"
+   }
+  },
+  {
+   "id": "x3",
+   "text": "Three days after she vanished, an advertisement appeared in the Philadelphia Gazette.",
+   "visual": {
+    "kind": "card",
+    "image": "ad",
+    "caption": "Philadelphia Gazette, May 24, 1796"
+   },
+   "overlays": {
+    "stamp": "24 May 1796"
+   }
+  },
+  {
+   "id": "x4",
+   "text": "Absconded from the household of the President of the United States, it read. It described her freckles, her very black eyes, and her bushy hair.",
+   "visual": {
+    "kind": "photo",
+    "image": "ad",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.3,
+     1.45
+    ]
+   }
+  },
+  {
+   "id": "x5",
+   "text": "The reward was ten dollars, to anyone who brought her back.",
+   "visual": {
+    "kind": "title",
+    "title": "$10",
+    "sub": "the reward for her return"
+   }
+  },
+  {
+   "id": "x6",
+   "text": "But by then, she was already at sea.",
+   "visual": {
+    "kind": "photo",
+    "image": "brig",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "f1",
+   "text": "In Portsmouth, Ona Judge found work, and began a new life among the town's free Black residents.",
+   "visual": {
+    "kind": "card",
+    "image": "langdonhouse",
+    "caption": "Portsmouth, New Hampshire"
+   },
+   "section": "found"
+  },
+  {
+   "id": "f2",
+   "text": "Then, one day that summer, someone recognized her on the street.",
+   "visual": {
+    "kind": "photo",
+    "image": "langdonhouse",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "f3",
+   "text": "It was Elizabeth Langdon, the daughter of a United States senator, John Langdon. She had visited the Washingtons, and she knew exactly who Ona was.",
+   "visual": {
+    "kind": "title",
+    "title": "Recognized",
+    "sub": "Portsmouth, summer 1796"
+   }
+  },
+  {
+   "id": "f4",
+   "text": "Word reached the President.",
+   "visual": {
+    "kind": "card",
+    "image": "gw",
+    "caption": "George Washington"
+   }
+  },
+  {
+   "id": "f5",
+   "text": "On September 1, 1796, Washington wrote to his Secretary of the Treasury, Oliver Wolcott, asking for help to have her seized and sent back by ship.",
+   "visual": {
+    "kind": "card",
+    "image": "wolcott",
+    "caption": "Oliver Wolcott Jr., Secretary of the Treasury"
+   },
+   "overlays": {
+    "stamp": "1 September 1796"
+   }
+  },
+  {
+   "id": "f6",
+   "text": "Wolcott passed the job to the customs collector in Portsmouth, Joseph Whipple.",
+   "visual": {
+    "kind": "photo",
+    "image": "wolcott",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "f7",
+   "text": "Whipple found Ona and asked her to board a ship back to Virginia.",
+   "visual": {
+    "kind": "title",
+    "title": "Joseph Whipple",
+    "sub": "customs collector, Portsmouth"
+   }
+  },
+  {
+   "id": "f8",
+   "text": "She said no. But she made an offer. She would go back, if the Washingtons promised to free her when they died.",
+   "visual": {
+    "kind": "title",
+    "title": "An offer",
+    "sub": "freedom, someday"
+   }
+  },
+  {
+   "id": "f9",
+   "text": "Whipple would not force her onto a ship. He passed her offer to the President.",
+   "visual": {
+    "kind": "photo",
+    "image": "langdonhouse",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.2,
+     1.32
+    ]
+   }
+  },
+  {
+   "id": "f10",
+   "text": "Washington refused. To enter into such a compromise, he wrote, was totally inadmissible.",
+   "visual": {
+    "kind": "quote",
+    "quote": "To enter into such a compromise... is totally inadmissible.",
+    "by": "George Washington, 1796"
+   }
+  },
+  {
+   "id": "k1",
+   "text": "Ona Judge stayed. In early 1797, she married a free Black sailor named Jack Staines.",
+   "visual": {
+    "kind": "title",
+    "title": "Ona Staines",
+    "sub": "married, 1797"
+   },
+   "section": "hunt"
+  },
+  {
+   "id": "k2",
+   "text": "That March, Washington left the presidency and went home to Mount Vernon. He had not forgotten her.",
+   "visual": {
+    "kind": "card",
+    "image": "mv",
+    "caption": "Mount Vernon"
+   }
+  },
+  {
+   "id": "k3",
+   "text": "In August 1799, he wrote to his nephew, Burwell Bassett Junior, who was going to New Hampshire on business.",
+   "visual": {
+    "kind": "photo",
+    "image": "gw",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.35,
+     1.5
+    ]
+   },
+   "overlays": {
+    "stamp": "August 1799"
+   }
+  },
+  {
+   "id": "k4",
+   "text": "His request: seize Ona, and her baby, and bring them back to Virginia.",
+   "visual": {
+    "kind": "title",
+    "title": "Seize her",
+    "sub": "and her child"
+   }
+  },
+  {
+   "id": "k5",
+   "text": "Bassett found her, and tried to talk her into coming back. She refused.",
+   "visual": {
+    "kind": "photo",
+    "image": "langdonhouse",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "k6",
+   "text": "So he planned to take her by force. And he made a mistake. He told Senator Langdon.",
+   "visual": {
+    "kind": "card",
+    "image": "langdonhouse",
+    "caption": "The Langdon House, Portsmouth"
+   }
+  },
+  {
+   "id": "k7",
+   "text": "Langdon sent her a secret warning. That night, Ona Judge took her baby daughter and fled to the town of Greenland, a few miles away.",
+   "visual": {
+    "kind": "card",
+    "image": "greenland",
+    "caption": "Greenland, New Hampshire"
+   }
+  },
+  {
+   "id": "k8",
+   "text": "Bassett went home empty-handed.",
+   "visual": {
+    "kind": "title",
+    "title": "Empty-handed",
+    "sub": "September 1799"
+   }
+  },
+  {
+   "id": "k9",
+   "text": "On December 14, 1799, George Washington died at Mount Vernon.",
+   "visual": {
+    "kind": "card",
+    "image": "tomb",
+    "caption": "The tomb of George Washington, Mount Vernon"
+   },
+   "overlays": {
+    "stamp": "14 December 1799"
+   }
+  },
+  {
+   "id": "k10",
+   "text": "He had chased her for more than three years. He never got her back.",
+   "visual": {
+    "kind": "photo",
+    "image": "tomb",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "n1",
+   "text": "In his will, Washington freed the people he himself enslaved, after Martha's death.",
+   "visual": {
+    "kind": "card",
+    "image": "family",
+    "caption": "The Washington Family, by Edward Savage"
+   },
+   "section": "free"
+  },
+  {
+   "id": "n2",
+   "text": "But Ona was not his. She was a dower slave, held for the Custis heirs. Nothing in that will could free her, or her children.",
+   "visual": {
+    "kind": "photo",
+    "image": "family",
+    "focus": [
+     0.35,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.32
+    ]
+   }
+  },
+  {
+   "id": "n3",
+   "text": "Martha Washington died in 1802. In law, Ona Judge was still a fugitive slave.",
+   "visual": {
+    "kind": "photo",
+    "image": "mw2",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "n4",
+   "text": "A federal law, the Fugitive Slave Act of 1793, signed by George Washington himself, allowed people who escaped to be captured and returned.",
+   "visual": {
+    "kind": "title",
+    "title": "Fugitive Slave Act",
+    "sub": "1793"
+   }
+  },
+  {
+   "id": "n5",
+   "text": "For the rest of her life, she lived with that.",
+   "visual": {
+    "kind": "card",
+    "image": "greenland",
+    "caption": "Greenland, New Hampshire"
+   }
+  },
+  {
+   "id": "l1",
+   "text": "Freedom was hard. Ona and Jack had three children. Then, in 1803, Jack Staines died.",
+   "visual": {
+    "kind": "title",
+    "title": "1803",
+    "sub": "Jack Staines dies"
+   },
+   "section": "later"
+  },
+  {
+   "id": "l2",
+   "text": "She could not support her family alone. She moved in with the Jacks family in Greenland.",
+   "visual": {
+    "kind": "photo",
+    "image": "greenland",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "l3",
+   "text": "Her daughters were bound out as indentured servants. Both died before her.",
+   "visual": {
+    "kind": "title",
+    "title": "Her daughters",
+    "sub": "Eliza and Nancy"
+   }
+  },
+  {
+   "id": "l4",
+   "text": "In old age, she was poor, and relied on gifts from her community.",
+   "visual": {
+    "kind": "photo",
+    "image": "greenland",
+    "focus": [
+     0.4,
+     0.55
+    ],
+    "zoom": [
+     1.2,
+     1.32
+    ]
+   }
+  },
+  {
+   "id": "l5",
+   "text": "But she had chosen her own faith, and her own church. And she had chosen her own life.",
+   "visual": {
+    "kind": "card",
+    "image": "greenland",
+    "caption": "Greenland, New Hampshire"
+   }
+  },
+  {
+   "id": "v1",
+   "text": "In 1845, an abolitionist newspaper in New Hampshire, the Granite Freeman, published an interview with her. A second one followed in The Liberator.",
+   "visual": {
+    "kind": "card",
+    "image": "liberator",
+    "caption": "The Liberator"
+   },
+   "overlays": {
+    "stamp": "1845"
+   },
+   "section": "words"
+  },
+  {
+   "id": "v2",
+   "text": "She was in her seventies. She told how she had walked out on the President of the United States.",
+   "visual": {
+    "kind": "photo",
+    "image": "liberator",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ]
+   }
+  },
+  {
+   "id": "v3",
+   "text": "She was asked if she was sorry she had ever left the Washingtons.",
+   "visual": {
+    "kind": "title",
+    "title": "Any regrets?",
+    "sub": "The Granite Freeman, 1845"
+   }
+  },
+  {
+   "id": "v5",
+   "text": "Her answer: No, I am free, and have, I trust, been made a child of God by the means.",
+   "visual": {
+    "kind": "quote",
+    "quote": "No, I am free, and have, I trust, been made a child of God by the means.",
+    "by": "Ona Judge, 1845"
+   }
+  },
+  {
+   "id": "d1",
+   "text": "Ona Judge died in Greenland, New Hampshire, on February 25, 1848. She was about seventy-five.",
+   "visual": {
+    "kind": "title",
+    "title": "25 February 1848",
+    "sub": "Greenland, New Hampshire"
+   },
+   "section": "end"
+  },
+  {
+   "id": "d2",
+   "text": "She had outlived George Washington by almost fifty years. By law, she was still a fugitive.",
+   "visual": {
+    "kind": "card",
+    "image": "gw",
+    "caption": "George Washington"
+   }
+  },
+  {
+   "id": "d3",
+   "text": "Today, at the site of the President's House in Philadelphia, her story is told where it happened.",
+   "visual": {
+    "kind": "card",
+    "image": "house",
+    "caption": "The President's House, Philadelphia"
+   }
+  },
+  {
+   "id": "c1",
+   "text": "She was enslaved by the first President of the United States.",
+   "visual": {
+    "kind": "photo",
+    "image": "mw",
+    "focus": [
+     0.55,
+     0.36
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "c2",
+   "text": "She walked out of his house while he ate dinner, and he spent the rest of his life trying to get her back.",
+   "visual": {
+    "kind": "card",
+    "image": "ad",
+    "caption": "Runaway ad for Oney Judge, 1796"
+   }
+  },
+  {
+   "id": "c3",
+   "text": "He never did.",
+   "visual": {
+    "kind": "photo",
+    "image": "gw",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "c4",
+   "text": "That was Ona Judge. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "h1": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "h2": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "h3": [
+   "HIST",
+   "WIKI"
+  ],
+  "h4": [
+   "NPS",
+   "WIKI",
+   "HIST"
+  ],
+  "h5": [
+   "NPS",
+   "WIKI"
+  ],
+  "e1": [
+   "WIKI",
+   "HIST"
+  ],
+  "e2": [
+   "WIKI",
+   "HIST"
+  ],
+  "e3": [
+   "WIKI",
+   "HIST"
+  ],
+  "e4": [
+   "WIKI",
+   "HIST"
+  ],
+  "e5": [
+   "WIKI",
+   "HIST"
+  ],
+  "e6": [
+   "WIKI",
+   "HIST"
+  ],
+  "e7": [
+   "WIKI",
+   "HIST"
+  ],
+  "p1": [
+   "WIKI",
+   "HIST"
+  ],
+  "p2": [
+   "WIKI",
+   "HIST"
+  ],
+  "p3": [
+   "NPS",
+   "WIKI",
+   "HIST"
+  ],
+  "p4": [
+   "WIKI",
+   "HIST"
+  ],
+  "p5": [
+   "WIKI",
+   "HIST"
+  ],
+  "p6": [
+   "WIKI",
+   "HIST"
+  ],
+  "p7": [
+   "HIST",
+   "WIKI"
+  ],
+  "g1": [
+   "HIST",
+   "WIKI"
+  ],
+  "g2": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "g3": [
+   "NPS",
+   "WIKI"
+  ],
+  "g4": [
+   "NPS",
+   "WIKI"
+  ],
+  "g5": [
+   "WIKI",
+   "NPS"
+  ],
+  "g6": [
+   "WIKI",
+   "HIST"
+  ],
+  "x1": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "x2": [
+   "HIST",
+   "WIKI"
+  ],
+  "x3": [
+   "WIKI",
+   "AD"
+  ],
+  "x4": [
+   "WIKI",
+   "AD"
+  ],
+  "x5": [
+   "WIKI",
+   "AD"
+  ],
+  "f1": [
+   "HIST",
+   "WIKI"
+  ],
+  "f2": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "f3": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "f4": [
+   "NPS",
+   "HIST"
+  ],
+  "f5": [
+   "WIKI",
+   "NPS"
+  ],
+  "f6": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "f7": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "f8": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "f9": [
+   "WIKI",
+   "NPS"
+  ],
+  "f10": [
+   "HIST",
+   "WIKI"
+  ],
+  "k1": [
+   "WIKI",
+   "HIST",
+   "NPS"
+  ],
+  "k2": [
+   "WIKI",
+   "HIST"
+  ],
+  "k3": [
+   "WIKI",
+   "HIST",
+   "NPS"
+  ],
+  "k4": [
+   "NPS",
+   "HIST"
+  ],
+  "k5": [
+   "WIKI",
+   "NPS"
+  ],
+  "k6": [
+   "WIKI",
+   "NPS"
+  ],
+  "k7": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "k8": [
+   "HIST",
+   "WIKI"
+  ],
+  "k9": [
+   "WIKI",
+   "HIST"
+  ],
+  "k10": [
+   "HIST",
+   "WIKI"
+  ],
+  "n1": [
+   "WIKI",
+   "HIST"
+  ],
+  "n2": [
+   "WIKI",
+   "HIST"
+  ],
+  "n3": [
+   "WIKI",
+   "HIST",
+   "NPS"
+  ],
+  "n4": [
+   "WIKI",
+   "NPS"
+  ],
+  "l1": [
+   "WIKI",
+   "HIST",
+   "NPS"
+  ],
+  "l2": [
+   "WIKI",
+   "HIST"
+  ],
+  "l3": [
+   "WIKI",
+   "HIST"
+  ],
+  "l4": [
+   "WIKI",
+   "HIST"
+  ],
+  "l5": [
+   "HIST",
+   "WIKI"
+  ],
+  "v1": [
+   "WIKI",
+   "NPS",
+   "HIST"
+  ],
+  "v2": [
+   "NPS",
+   "HIST"
+  ],
+  "v3": [
+   "NPS",
+   "WIKI"
+  ],
+  "v5": [
+   "NPS",
+   "HIST",
+   "WIKI"
+  ],
+  "d1": [
+   "WIKI",
+   "NPS"
+  ],
+  "d2": [
+   "NPS",
+   "WIKI"
+  ],
+  "d3": [
+   "NPS",
+   "WIKI"
+  ]
+ },
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Ona_Judge"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/articles/independence-oneyjudge.htm"
+  },
+  "HIST": {
+   "url": "https://www.history.com/articles/george-washington-and-the-slave-who-got-away"
+  },
+  "AD": {
+   "url": "https://commons.wikimedia.org/wiki/File:Oney_Judge_Runaway_Ad.jpg"
+  }
+ },
+ "notUsed": [
+  "Ship name, the Nancy (Wikipedia only): not used; captain John Bowles is in History.com and Wikipedia.",
+  "Five-day voyage, and Whipple posing as an employer looking for a maid (History.com only): not used.",
+  "Whipple warning of riots, and Washington \"neither politic or just\" (Wikipedia only): not used.",
+  "Delphy freed in 1807, Ona Judge Day in Philadelphia (2026), Virginia marker (2021): one source each, not used.",
+  "Age at moving into the mansion: about 10 (Wikipedia) vs 9 (History.com): script says \"about ten\".",
+  "Bassett trip: August-September 1799 (Wikipedia, History.com); NPS says about two years after the escape: script uses 1799."
+ ]
+}

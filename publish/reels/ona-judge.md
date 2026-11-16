@@ -1,4 +1,4 @@
-Published 2026-11-15: YouTube Short https://youtube.com/shorts/GMcQxdv7U5s (Public, Education, AI label No) and Facebook Reel on the page (Public, AI label off). No long video for this story.
+Published 2026-11-15: YouTube Short https://youtube.com/shorts/GMcQxdv7U5s (Public, Education, AI label No) and Facebook Reel on the page (Public, AI label off). Long video: https://youtu.be/sjd2VIAZjx0 (added 2026-11-16; Short has Related video set and the "Watch the full video" line).
 
 # Reel: Ona Judge, "She Ran Away From George Washington"
 
@@ -38,6 +38,8 @@ Title:
 She Ran Away From George Washington #shorts
 
 Description:
+Watch the full video: https://youtu.be/sjd2VIAZjx0
+
 In 1796, Ona Judge, enslaved by the Washingtons, walked out of the President's House in Philadelphia while they ate dinner. George Washington tried for three years to get her back. She was never caught.
 
 Sources: National Park Service; History.com; Wikipedia.
