@@ -505,6 +505,87 @@ export const VIDEOS = {
       },
     ],
   },
+  german: {
+    title: "Languages German Speakers Can Almost Understand", // same format as slavic/turkic; audio: build_german.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#dd0000",
+    items: [
+      {
+        name: "Luxembourgish", wojak: "s_nld", flag: "lu", speakers: "~400,000", scene: "hills", loc: null,
+        cards: [
+          "Luxembourgish is the national language of Luxembourg, where people also use French and German every day.",
+          "It grew out of a Moselle Franconian dialect of German and became an official language only in 1984.",
+          "He said: 'My name is Mark Schroeder, I come originally from Luxembourg, I am Luxembourgish.' 'M\u00e4in Numm ass' is German 'Mein Name ist'.",
+        ],
+        audio: { file: "WIKITONGUES- Mark speaking Luxembourgish.webm", start: 0.0 },
+      },
+      {
+        name: "Alsatian", wojak: "e_bildts", flag: "fr", speakers: "~500,000", scene: "village", loc: null,
+        cards: [
+          "Alsatian is spoken in Alsace, in eastern France, a region that switched between France and Germany four times between 1871 and 1945.",
+          "Most young people in Alsace now grow up speaking French, so the language is kept alive mostly by older speakers.",
+          "He said: 'My name is Dominique Lang. I'm from here, I live in a small town about 25 kilometres from Strasbourg.' 'Ich heiss' is German 'Ich hei\u00dfe'.",
+        ],
+        audio: { file: "WIKITONGUES- Dominique speaking Alsatian.webm", start: 0.0 },
+      },
+      {
+        name: "Swiss German", wojak: "s_pol_f", flag: "ch", speakers: "~5 million", scene: "alps", loc: null,
+        cards: [
+          "Swiss German is what most people in German-speaking Switzerland speak every day, but they write in Standard German.",
+          "Every region has its own words: in Zurich an apple core is a 'B\u00fctschgi', and other cantons call it something else.",
+          "She said: 'Hello everyone, I'm Fabia, and this is my workplace at the Swiss Federation of the Deaf. I've only worked here a short time.' 'Gr\u00fcezi mitenand' means 'Gr\u00fc\u00df euch alle'.",
+        ],
+        audio: { file: "WIKITONGUES- Fabia speaking Swiss German.webm", start: 0.2 },
+      },
+      {
+        name: "Yiddish", wojak: "s_ces_f", flag: "us", speakers: "~600,000", scene: "prague", loc: null,
+        cards: [
+          "Yiddish grew out of medieval German about 1,000 years ago, but it is written in the Hebrew alphabet.",
+          "Today most native speakers live in Hasidic communities in places like New York, Israel and London.",
+          "Suri said: 'My first language is Yiddish. I still speak Yiddish with my mom, my dad, my sister. No, not my sister, my brother.' 'Bruder' is the same word in German.",
+        ],
+        audio: { file: "WIKITONGUES- Suri speaking Yiddish.webm", start: 2.0, voice: "f" },
+      },
+      {
+        name: "Limburgish", wojak: "s_slk_f", flag: "nl", speakers: "~1.3 million", scene: "village", loc: null,
+        cards: [
+          "Limburgish is spoken in the south of the Netherlands and in Belgium, right next to the German border.",
+          "It is tonal: like Swedish and Norwegian, some Limburgish words differ only in their melody.",
+          "She said: 'Hi, my name is Carolien. I come from Roermond, in the middle of Limburg in the Netherlands. I actually speak dialect, it's the first language I learned.'",
+        ],
+        audio: { file: "WIKITONGUES- Carolien speaking Limburgish.webm", start: 3.4 },
+      },
+      {
+        name: "Dutch", wojak: "s_nld_f", flag: "nl", speakers: "~25 million", scene: "copenhagen", loc: null,
+        cards: [
+          "Dutch is spoken in the Netherlands, Belgium and Suriname, and it sits right between German and English.",
+          "A false friend: Dutch 'bellen' means 'to phone', but German 'bellen' means 'to bark'.",
+          "She said: 'Hi, I'm Eva, I'm from the Netherlands. I've been here in America for about a month. And the funny thing is, before I came here I didn't really think the Netherlands had a culture.'",
+        ],
+        audio: { file: "WIKITONGUES- Eva speaking Dutch.webm", start: 0.0 },
+      },
+      {
+        name: "Afrikaans", wojak: "sl2_isl", flag: "za", speakers: "~7 million", scene: "savanna", loc: null,
+        cards: [
+          "Afrikaans grew out of the Dutch of settlers who came to the Cape from 1652, so it is a daughter of Dutch.",
+          "It dropped almost all verb endings: 'ek is, jy is, hy is', where German says 'ich bin, du bist, er ist'.",
+          "He said: 'Hello, I'm Roussow. I'm here in Cape Town, at Wikimania in 2018. I was originally born and raised in Windhoek', in Namibia. 'Gebore' is German 'geboren'.",
+        ],
+        audio: { file: "WIKITONGUES- Roussow speaking Afrikaans.webm", start: 4.0 },
+      },
+      {
+        name: "West Frisian", wojak: "u_fry_f", flag: "nl", speakers: "~470,000", scene: "moorland", loc: null,
+        cards: [
+          "West Frisian is spoken in Friesland, in the north of the Netherlands, and it is one of English\u2019s closest relatives.",
+          "An old rhyme, 'b\u00fbter, brea en griene tsiis', sounds almost like English 'butter, bread and green cheese'.",
+          "She said: 'Hello, I'm Sjoukje, I live in Friesland, one of the northern provinces of the Netherlands. In Friesland we speak Frisian. I work at the Af\u00fbk in Leeuwarden.'",
+        ],
+        audio: { file: "WIKITONGUES- Sjoukje speaking West Frisian.webm", start: 0.2 },
+      },
+    ],
+  },
   slavic: {
     title: "Languages Russian Speakers Can Almost Understand", // viewer request (@arpetr3458); audio: build_slavic.py
     layout: "story",
