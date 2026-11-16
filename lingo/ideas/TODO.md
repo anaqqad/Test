@@ -257,4 +257,7 @@ One Word in 10 Languages, Languages That Count Differently.
 30. Reference channel saved by the owner (2026-11-16): Languages explained (@languagesexplained2), for ideas.
    Notes and status: `lingo/ideas/reference_languagesexplained.md` (needs screenshots of their popular videos).
 
+31. Reference channel saved by the owner (2026-11-16): Langfocus (@Langfocus), for ideas.
+   Notes: `lingo/ideas/reference_langfocus.md` (needs screenshots of their popular videos).
+
 - DROPPED (owner, 2026-11-13): "What English Sounded Like in the 1800s" (`oldvoices`): too close to an idea already done (how English sounded through time). Don't suggest it again. Its files stay in the repo unused.
