@@ -75,7 +75,8 @@ function clock(i) {
 function beatHTML(b) {
   let inner;
   if (b.panel) {
-    const rows = b.panel.rows.map((r) => { const c = spec.cast[r.who] || {}; return `<div class="prow"><div class="pav">${avatar(c)}<span class="dot"></span></div><b style="color:${c.color || "#f2f3f5"}">${esc(c.name || r.who)}</b></div>`; }).join("");
+    const off = (r) => r.status === "offline" || (r.status == null && /^OFFLINE/i.test(b.panel.header));
+    const rows = b.panel.rows.map((r) => { const c = spec.cast[r.who] || {}; return `<div class="prow${off(r) ? " off" : ""}"><div class="pav">${avatar(c)}<span class="dot"></span></div><b style="color:${c.color || "#f2f3f5"}">${esc(c.name || r.who)}</b></div>`; }).join("");
     inner = `<div class="msg"><div class="row panel"><div class="phead">${esc(b.panel.header)}</div>${rows}</div><div class="tyrow"><span class="dots"><i></i><i></i><i></i></span><span class="tyt"><b></b> is typing...</span></div></div>`;
   } else if (b.big) {
     inner = `<div class="msg"><div class="row bigm"><div class="bigt">${rich(b.lines[0])}</div></div><div class="tyrow"><span class="dots"><i></i><i></i><i></i></span><span class="tyt"><b></b> is typing...</span></div></div>`;
@@ -116,6 +117,7 @@ body{width:${W}px;height:${H}px;overflow:hidden;background:#0b0b0c;font-family:I
 .prow{display:flex;align-items:center;gap:16px}.prow b{font-size:30px;font-weight:600}
 .pav{position:relative}.pav .av{flex:0 0 56px;width:56px;height:56px}
 .dot{position:absolute;right:-4px;bottom:-2px;width:22px;height:22px;border-radius:50%;background:#23a55a;border:5px solid #36383e}
+.prow.off .av,.prow.off b{opacity:.4}.prow.off .dot{width:26px;height:26px;background:#36383e;box-shadow:inset 0 0 0 5px #80848e}
 .msg{z-index:1}
 #wm{position:absolute;right:${Math.round(W * 0.02)}px;bottom:${Math.round(H * 0.03)}px;font:700 ${Math.round(H * 0.022)}px Montserrat,Inter;color:rgba(255,255,255,.18)}
 </style>

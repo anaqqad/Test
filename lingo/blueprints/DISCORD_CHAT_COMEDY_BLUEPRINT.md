@@ -171,7 +171,7 @@ Write in this order. Each step is 1–3 messages. **Long-form: 55–75 beats in 
 | `who` | Who speaks. |
 | `lines` | One line appears per `lineGap`. Inline markup: `@name` (mention chip), `#channel` (channel chip), `[[Label\|#hex]]` (role pill), emojis. |
 | `big` | One phrase, full width. The reference's "against the rules" shot. |
-| `panel` | A member-list insert, e.g. "UNEMPLOYED — 1". |
+| `panel` | A member-list insert, e.g. "UNEMPLOYED — 1". A header starting with OFFLINE (or a row with `"status": "offline"`) shows the Discord offline look: a grey ring and a dimmed avatar and name. Online rows get the green dot. |
 | `ping` | Yellow highlight plus a ping sound. |
 | `typing` | Seconds of "X is typing…" shown before the beat, over the previous message. |
 | `pause` | Extra silence before the beat. |
