@@ -10,7 +10,7 @@ const SPECS = {
     time: "8:05 AM",
     msgs: [
       { name: "diego", color: "#f2f3f5", avatar: "wojaks/s_spa.png", bg: "#a83b3b", text: "i am so embarazada 😳" },
-      { name: "Ms. Parker", color: "#f0b232", avatar: "wojaks/sl2_gla.png", bg: "#6b4f2f", text: "<span class='men'>@diego</span> that's PREGNANT." },
+      { name: "Ms. Parker", color: "#f0b232", avatar: "wojaks/sl2_gla.png", bg: "#6b4f2f", text: "<span class='men'>@diego</span> ..." },
     ],
   },
 };

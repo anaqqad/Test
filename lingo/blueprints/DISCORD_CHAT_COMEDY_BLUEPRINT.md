@@ -387,4 +387,5 @@ commit and push, and send me the video.
   - the reply's key @mention highlighted in yellow;
   - no hook text, no photo, no flag.
 - **Tool:** `node thumb_chat.mjs <key>` → `out/brand/thumbC_<key>.png`. Add the two messages for each episode to `SPECS` in `thumb_chat.mjs`.
-- **Example:** `class`: diego "i am so embarazada 😳" / Ms. Parker "@diego that's PREGNANT."
+- **The thumbnail messages don't have to be in the video** (owner: Beluga's "Netflix: @FBI arrest this kid" never appears in his video). Write the funniest exchange for the click.
+- **Example:** `class`: diego "i am so embarazada 😳" / Ms. Parker "@diego ..." (the teacher has had enough; the reader fills in the rest).
