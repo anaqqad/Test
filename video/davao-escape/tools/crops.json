@@ -1,0 +1,62 @@
+{
+ "dapecol_train.jpg": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "bataan_prisoners.jpg": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "litters_1942.jpg": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "dyess_portrait.jpg": [
+  0.02,
+  0.02,
+  0.96,
+  0.8
+ ],
+ "mellnik_cadet.jpg": [
+  0,
+  0,
+  1,
+  0.85
+ ],
+ "shofner_1941.jpg": [
+  0,
+  0,
+  1,
+  0.85
+ ],
+ "uss_trout.jpg": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "grand_central_postcard.jpg": [
+  0,
+  0.03,
+  1,
+  0.94
+ ],
+ "davao_list_1945.jpg": [
+  0,
+  0,
+  1,
+  0.62
+ ],
+ "dapecol_marker.jpg": [
+  0.1,
+  0.05,
+  0.8,
+  0.9
+ ]
+}
