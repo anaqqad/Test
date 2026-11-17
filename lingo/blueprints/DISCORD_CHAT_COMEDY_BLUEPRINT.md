@@ -378,3 +378,13 @@ commit and push, and send me the video.
 ```
 
 **Command for the owner** (after an episode file exists): `cd lingo && node chat.mjs <key>`.
+
+## 10. Thumbnail (owner, 2026-11-17: "just like" Beluga's Netflix thumbnail)
+- **Layout:** two chat messages stacked in one grey band that fills most of the 1280×720 frame: the setup, then the punchline reply.
+- **Look:**
+  - big round avatars (172 px), names in their colours, small timestamps;
+  - text at 76 px on a single line each (keep each line to about 25 characters);
+  - the reply's key @mention highlighted in yellow;
+  - no hook text, no photo, no flag.
+- **Tool:** `node thumb_chat.mjs <key>` → `out/brand/thumbC_<key>.png`. Add the two messages for each episode to `SPECS` in `thumb_chat.mjs`.
+- **Example:** `class`: diego "i am so embarazada 😳" / Ms. Parker "@diego that's PREGNANT."
