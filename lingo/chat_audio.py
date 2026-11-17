@@ -15,17 +15,22 @@ def load(path):
 m = tl.get("music")
 tracks = {}
 if m:
-    tracks = {"default": m} if "file" in m else m      # one track, or {"default": {...}, "boss": {...}}
+    tracks = {"default": m} if "file" in m else m      # one track, or {"default": {...}, "sad": {...}, ...}
+MUSIC_DB = tl.get("musicDb", -21.0)                    # reference: music bed about -21 dB RMS (owner: "music so loud it hurts")
+def rmsdb0(x): return 20 * np.log10(np.sqrt(np.mean(x ** 2)) + 1e-12)
 loaded, cursors = {}, {}
 beats = tl["beats"]
 for k, b in enumerate(beats):
-    name = "default" if b["music"] is True else b["music"]
+    name = b["music"]
     if not name or name not in tracks:
         continue
     tr = tracks[name]
     if name not in loaded:
-        loaded[name] = load(os.path.join(HERE, tr["file"])) * 10 ** (tr.get("gain", -15) / 20)
-        cursors[name] = int(SR * tr.get("start", 0))
+        x = load(os.path.join(HERE, tr["file"]))
+        x = x[int(SR * tr.get("start", 0)):]
+        loud = x[np.abs(x) > 1e-4]
+        loaded[name] = x * 10 ** ((MUSIC_DB + tr.get("trim", 0) - rmsdb0(loud)) / 20)   # every track at the same level
+        cursors[name] = 0
     mus = loaded[name]
     a = b["start"]; e = beats[k + 1]["start"] if k + 1 < len(beats) else dur
     i0, i1 = int(SR * a), int(SR * e); n = i1 - i0
@@ -38,17 +43,21 @@ for k, b in enumerate(beats):
 # sound effects, balanced to the reference: the message pop's RMS sits about 3.5 dB above the music bed's RMS
 # (reference: pop -16.5 dB, music about -20 dB); other effects are set relative to that
 def rmsdb(x): return 20 * np.log10(np.sqrt(np.mean(x ** 2)) + 1e-12)
-mus_part = out[np.abs(out) > 1e-5]
-music_db = rmsdb(mus_part) if len(mus_part) > SR else -20.0
-REL = {"discord_pop": 3.5, "pop": 3.5, "ping": 3.5, "join": 3.0, "role": 3.0, "boom": 5.0, "scratch": 1.0, "typing": -14.0}
+# absolute levels taken from the reference (owner: "the music is so loud it hurts"): music bed about -21 dB RMS,
+# message pop about -16.5 dB RMS. The music is scaled to its target first; effects are set relative to it.
+music_db = MUSIC_DB
+REL = {"discord_pop": 4.5, "pop": 4.5, "ping": 3.5, "join": 3.0, "role": 3.0, "boom": 5.0, "scratch": 1.0, "typing": -14.0, "crickets": -2.0, "discord_call": 0.0, "sad_trombone": 1.0, "dun_dun_dun": 2.0}
 cache = {}
 for b in tl["beats"]:
     for s in b["sfx"]:
         name = s["name"]
         if name not in cache:
-            x = load(os.path.join(HERE, "chat", "assets", "sfx", name + ".wav"))
+            f = os.path.join(HERE, "chat", "assets", "sfx", name + ".wav")
+            if not os.path.exists(f):
+                f = os.path.join(HERE, "chat", "assets", "sfx", "meme", name + ".wav")
+            x = load(f)
             core = x[np.abs(x) > np.abs(x).max() * 0.05]
-            cache[name] = x * 10 ** ((music_db + REL.get(name, 0.0) - rmsdb(core[: int(SR * 0.16)])) / 20)
+            cache[name] = x * 10 ** ((music_db + REL.get(name, 3.0) - rmsdb(core[: int(SR * 0.16)])) / 20)
         x = cache[name]; i0 = int(SR * s["at"])
         out[i0:i0 + len(x)] += x[: len(out) - i0]
 out = out[: int(SR * dur)]

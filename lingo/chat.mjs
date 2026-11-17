@@ -28,9 +28,10 @@ const plain = (s) => String(s).replace(/\[\[([^|\]]+)\|[^\]]+\]\]/g, "@$1");
 
 // --- timeline -------------------------------------------------------------------------------------
 function buildTimeline() {
-  let t = T.lead;
+  let t = T.lead, mood = "default";
   const beats = [];
   spec.beats.forEach((b, i) => {
+    if (b.mood) mood = b.mood; // a beat can switch the scene's music, like Beluga's mood changes
     t += b.pause || 0;
     let typingFrom = null;
     if (b.typing) { typingFrom = t; t += b.typing; }
@@ -48,7 +49,7 @@ function buildTimeline() {
     if (typingFrom != null) sfx.push({ at: typingFrom, name: "typing" });
     (b.sfx ? [].concat(b.sfx) : []).forEach((s) => sfx.push(typeof s === "string" ? { at: start, name: s } : { at: start + (s.offset || 0), name: s.name }));
     beats.push({ i, who: b.who, lines, lineTimes, start: +start.toFixed(3), end: +end.toFixed(3), typingFrom,
-      music: b.music ?? cast.music ?? false, sfx, zoom: b.zoom ?? 1, ping: !!b.ping, big: !!b.big, shake: !!b.shake, panel: b.panel || null });
+      music: (() => { const m = b.music ?? cast.music ?? false; return m === true ? mood : m; })(), sfx, zoom: b.zoom ?? 1, ping: !!b.ping, big: !!b.big, shake: !!b.shake, panel: b.panel || null });
     t = end;
   });
   return { beats, dur: +(t + T.tail).toFixed(3) };
@@ -198,14 +199,14 @@ async function main() {
   ff.stdin.end(); await new Promise((r, j) => ff.on("close", (c) => (c ? j(new Error("ffmpeg " + c)) : r())));
   await browser.close();
   const tlFile = path.join(OUT, `chat_${key}_timeline.json`);
-  fs.writeFileSync(tlFile, JSON.stringify({ ...tl, music: spec.music || null }, null, 1));
+  fs.writeFileSync(tlFile, JSON.stringify({ ...tl, music: spec.music || null, musicDb: spec.musicDb ?? -21 }, null, 1));
   const wav = path.join(OUT, `chat_${key}.wav`);
   execFileSync("python3", [path.join(HERE, "chat_audio.py"), tlFile, wav], { stdio: "inherit" });
   const final = path.join(OUT, `chat_${key}.mp4`);
   // two-pass loudness: measure the mix, then apply one fixed gain to reach the reference's -14.8 LUFS
   const r = spawnSync("ffmpeg", ["-hide_banner", "-i", wav, "-af", "ebur128", "-f", "null", "-"], { encoding: "utf8" });
   const I = +((r.stderr.match(/I:\s+(-?[\d.]+) LUFS/g) || []).pop() || "I: -14").match(/-?[\d.]+/)[0];
-  const gain = Math.max(-12, Math.min(30, (spec.loudness ?? -14.8) - I)).toFixed(1);
+  const gain = Math.min(0, (spec.loudness ?? -14) - I).toFixed(1); // levels are set in chat_audio.py like the reference; only turn down, never up
   execFileSync("ffmpeg", ["-v", "error", "-y", "-i", silent, "-i", wav, "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-af", `volume=${gain}dB,alimiter=limit=0.89`, "-shortest", final]);
   console.log(`  loudness ${I} LUFS -> gain ${gain} dB`);
   fs.unlinkSync(silent); fs.unlinkSync(wav);

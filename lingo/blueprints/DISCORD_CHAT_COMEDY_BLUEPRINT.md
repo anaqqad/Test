@@ -279,6 +279,14 @@ There are no Remotion components in this project. The renderer uses the same Pla
   - `chat_audio.py` sets each effect relative to the measured music RMS: pop and ping +3.5 dB, role and join +3 dB, boom +5 dB, typing -14 dB.
   - `chat.mjs` then applies one gain to reach -14.8 LUFS.
   - In the class episode: the pop is +2.6 dB over the music, typing sits at -38 dB, and the whole mix is -14.3 LUFS.
+- **Sound kit like Beluga's (owner, 2026-11-17):**
+  - 16 meme sound effects in `chat/assets/sfx/meme/`: vine_boom, bruh, crickets, huh, discord_join/leave/call, record_scratch, sad_trombone, dun_dun_dun, metal_pipe, ding, boing, wait_what, anime_wow, bong. Sources are in `chat/assets/sfx/SOURCES.md`.
+  - Use one on most punchlines: `"sfx": ["vine_boom"]`.
+- **Music by mood, not one track:**
+  - `"music": {"silly": …, "awkward": …, "sad": …}` in the episode file.
+  - Any beat can set `"mood": "sad"`, which switches the track for the following music beats.
+  - Every track is levelled to -21 dB RMS. The pop sits about 4 dB above that, and there's no loudness boost afterwards (owner: "the music is so loud it hurts").
+  - The class episode measures music -19.3 dB, pop -17.0 dB, overall -19.3 LUFS.
 - **Typing sound (owner: "less noisy"):** three soft, low-passed taps, far under the dialogue.
 - **Pop on every line.** Ping for mentions. Chime when a bot gives a role. Join chime for arrivals.
   - **Boom:** only on the biggest escalations (2–3 per long-form video).

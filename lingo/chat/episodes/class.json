@@ -13,16 +13,32 @@
  },
  "music": {
   "default": {
-   "file": "chat/assets/music/fluffing_a_duck.ogg",
-   "gain": -17,
-   "start": 2.0,
-   "credit": "\"Fluffing a Duck\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Fluffing_a_Duck.ogg"
+   "file": "chat/assets/music/monkeys_spinning_monkeys.ogg",
+   "credit": "\"Monkeys Spinning Monkeys\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "silly": {
+   "file": "chat/assets/music/monkeys_spinning_monkeys.ogg",
+   "credit": "\"Monkeys Spinning Monkeys\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "awkward": {
+   "file": "chat/assets/music/scheming_weasel.oga",
+   "credit": "\"Scheming Weasel (faster version)\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "sad": {
+   "file": "chat/assets/music/sad_trio.mp3",
+   "credit": "\"Sad Trio\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "carefree": {
+   "file": "chat/assets/music/carefree.mp3",
+   "credit": "\"Carefree\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "suspense": {
+   "file": "chat/assets/music/investigations.mp3",
+   "credit": "\"Investigations\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
   },
   "boss": {
-   "file": "chat/assets/music/sneaky_snitch.ogg",
-   "gain": -18,
-   "start": 0.0,
-   "credit": "\"Sneaky Snitch\" by Kevin MacLeod (incompetech.com), CC BY 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Sneaky_Snitch_by_Kevin_MacLeod.ogg"
+   "file": "chat/assets/music/volatile_reaction.mp3",
+   "credit": "\"Volatile Reaction\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
   }
  },
  "cast": {
@@ -85,12 +101,16 @@
     "good morning",
     "when do i become my homework?"
    ],
-   "typing": 0.5
+   "typing": 0.5,
+   "mood": "silly"
   },
   {
    "who": "parker",
    "lines": [
     "...become?"
+   ],
+   "sfx": [
+    "huh"
    ]
   },
   {
@@ -120,6 +140,9 @@
    "who": "parker",
    "lines": [
     "No."
+   ],
+   "sfx": [
+    "bruh"
    ]
   },
   {
@@ -129,14 +152,18 @@
     "i cannot come today",
     "i am very constipated 🤧"
    ],
-   "typing": 0.6
+   "typing": 0.6,
+   "mood": "awkward"
   },
   {
    "who": "parker",
    "lines": [
     "Diego."
    ],
-   "pause": 0.35
+   "pause": 0.35,
+   "sfx": [
+    "vine_boom"
+   ]
   },
   {
    "who": "parker",
@@ -166,7 +193,10 @@
    "lines": [
     "..."
    ],
-   "hold": 1.0
+   "hold": 1.0,
+   "sfx": [
+    "crickets"
+   ]
   },
   {
    "who": "diego",
@@ -183,7 +213,7 @@
    ],
    "shake": true,
    "sfx": [
-    "boom"
+    "metal_pipe"
    ]
   },
   {
@@ -191,7 +221,11 @@
    "lines": [
     "I QUIT ENGLISH"
    ],
-   "shake": true
+   "shake": true,
+   "sfx": [
+    "sad_trombone"
+   ],
+   "mood": "sad"
   },
   {
    "who": "parker",
@@ -200,7 +234,8 @@
     "Presentations tomorrow.",
     "Topic: your home 🏠"
    ],
-   "typing": 0.6
+   "typing": 0.6,
+   "mood": "carefree"
   },
   {
    "who": "yuki",
@@ -225,12 +260,18 @@
    "who": "yuki",
    "lines": [
     "it has one room"
+   ],
+   "sfx": [
+    "record_scratch"
    ]
   },
   {
    "who": "parker",
    "lines": [
     "...that's an apartment."
+   ],
+   "sfx": [
+    "bong"
    ]
   },
   {
@@ -278,7 +319,8 @@
     "teacher",
     "i bring you a gift tomorrow 🎁"
    ],
-   "typing": 0.6
+   "typing": 0.6,
+   "mood": "suspense"
   },
   {
    "who": "parker",
@@ -291,6 +333,9 @@
    "lines": [
     "madame",
     "in german 'Gift' means poison"
+   ],
+   "sfx": [
+    "dun_dun_dun"
    ]
   },
   {
@@ -298,7 +343,7 @@
    "big": "HANS.",
    "shake": true,
    "sfx": [
-    "boom"
+    "vine_boom"
    ],
    "hold": 1.1
   },
@@ -323,7 +368,10 @@
     "@Ms.Parker"
    ],
    "typing": 1.0,
-   "ping": true
+   "ping": true,
+   "sfx": [
+    "discord_join"
+   ]
   },
   {
    "who": "weber",
@@ -374,7 +422,10 @@
    "lines": [
     "That is what I said."
    ],
-   "pause": 0.3
+   "pause": 0.3,
+   "sfx": [
+    "bruh"
+   ]
   },
   {
    "who": "parker",
@@ -415,7 +466,7 @@
    },
    "hold": 1.2,
    "sfx": [
-    "scratch"
+    "discord_leave"
    ],
    "music": false
   },
@@ -424,7 +475,9 @@
    "lines": [
     "she left"
    ],
-   "typing": 0.5
+   "typing": 0.5,
+   "mood": "sad",
+   "music": false
   },
   {
    "who": "diego",
@@ -433,7 +486,9 @@
     "she is very constipated"
    ],
    "lineGap": 0.7,
-   "hold": 2.0
+   "hold": 2.0,
+   "music": true
   }
- ]
+ ],
+ "musicDb": -21
 }
