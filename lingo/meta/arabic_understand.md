@@ -1,0 +1,44 @@
+# YouTube metadata: Languages Arabic Speakers Can Almost Understand
+
+## Title
+Languages Arabic Speakers Can Almost Understand
+
+## Description
+How much Arabic can you hear in these languages? Listen first, then see the translation. Eight real speakers, from Hausa and Swahili, full of Arabic words, to Persian, Urdu and Turkish, then Arabic's Semitic cousins Hebrew and Aramaic, and finally Maltese, which grew out of Arabic itself. Every voice is a real recording, no AI.
+
+Arabic speakers: how much did you understand? Tell us your score out of 8 in the comments 👇
+
+0:00 Intro
+0:03 Hausa (~80 million speakers)
+0:20 Swahili (~200 million speakers)
+0:40 Turkish (~85 million speakers)
+0:58 Persian (~80 million speakers)
+1:16 Urdu (~230 million speakers)
+1:34 Hebrew (~9 million speakers)
+1:55 Aramaic (~1 million speakers)
+2:19 Maltese (~520,000 speakers)
+
+Audio credits (all via Wikimedia Commons):
+Hausa: "WIKITONGUES- Abubakar speaking Hausa" by Wikitongues, Inc., CC BY-SA 4.0
+Swahili: "WIKITONGUES- Iddy speaking Swahili" by Bogreudell, CC BY-SA 4.0
+Turkish: "WIKITONGUES- Ela speaking Turkish" by Wikitongues, CC BY 3.0
+Persian: "WIKITONGUES- Daniel speaking Farsi" by Wikitongues, Tushar Rakheja, CC BY-SA 4.0
+Urdu: "WIKITONGUES- Scarlett speaking Urdu" by Wikitongues, CC BY 3.0
+Hebrew: "WIKITONGUES- Amir speaking Russian and Hebrew" by Bogreudell, CC BY-SA 4.0
+Aramaic: "Abundbshmayo" by PaddyMacConghaile, CC0
+Maltese: words "aħna", "ktieb", "gżira", "belt", "ħobża", "aħmar", "mill-ġdid", "llejla" by GħawdxiVeru (Lingua Libre) (Lingua Libre), CC0
+Licences: https://creativecommons.org/licenses/by-sa/4.0/ and https://creativecommons.org/licenses/by/3.0/
+Speaker counts are estimates and include second-language speakers; sources disagree. The Aramaic clip is the Lord's Prayer in Syriac.
+
+Thumbnail photo: Southern Bastion and Wall of Mdina, Malta: photo by Julian Lupyan, CC0, via Wikimedia Commons
+
+#languages #arabic #عربي
+
+## Tags
+languages arabic speakers can understand, arabic, Maltese, Hebrew, Aramaic, Persian, Farsi, Urdu, Turkish, Swahili, Hausa, Semitic languages, arabic loanwords, can you understand, mutual intelligibility, languages be like, linguistics, LingoDude
+
+## Settings
+- Category: Education
+- Made for kids: No
+- Altered or synthetic content: No (all real recordings)
+- Thumbnail: lingo/videos/thumbP_arabic_understand.png

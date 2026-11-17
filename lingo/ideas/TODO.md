@@ -267,7 +267,7 @@ One Word in 10 Languages, Languages That Count Differently.
    "speaking English" from New York (AfroCrowd); public-domain US government recordings of speakers with strong
    regional accents (ask the owner first: these are politicians). Check each regional category before building.
 
-33. Languages Arabic Speakers Can Almost Understand (owner, 2026-11-17). Same format as `german`/`slavic`/`turkic`
+33. DONE `arabic_understand` (2026-11-17). Languages Arabic Speakers Can Almost Understand (owner, 2026-11-17). Same format as `german`/`slavic`/`turkic`
    (listen, then a reveal card naming the Arabic words). Not Arabic dialects (that is `arabic`). Easiest to hardest:
    Swahili / Malay (recognisable loanwords: kitabu, selamat, waktu), Persian / Urdu / Turkish (many Arabic words:
    ketab, dunya, waqt, merhaba), Hebrew and Aramaic (Assyrian, Surayt: Semitic cousins, shalom/salam, malka/malik),

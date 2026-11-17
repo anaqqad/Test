@@ -505,6 +505,87 @@ export const VIDEOS = {
       },
     ],
   },
+  arabic_understand: {
+    title: "Languages Arabic Speakers Can Almost Understand", // same format as german/slavic/turkic; audio: build_arabic.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#007a3d",
+    items: [
+      {
+        name: "Hausa", wojak: "ar_hau", flag: "ng", speakers: "~80 million", scene: "savanna", loc: null,
+        cards: [
+          "Hausa is spoken across West Africa, mostly in Nigeria and Niger, and for centuries it was written in Arabic letters.",
+          "Many Hausa words came with Islam and trade across the Sahara.",
+          "He is talking about where the Hausa people come from: 'asali' is \u0623\u0635\u0644 (origin), 'kabila' is \u0642\u0628\u064a\u0644\u0629 (tribe), and 'bayani' is \u0628\u064a\u0627\u0646 (explanation).",
+        ],
+        audio: { file: "cache/audio/arabic_understand/hausa.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Swahili", wojak: "sc_swh", flag: "tz", speakers: "~200 million", scene: "savanna", loc: null,
+        cards: [
+          "Swahili\u2019s very name comes from Arabic \u0633\u0648\u0627\u062d\u0644, 'coasts': it was the language of the East African coast.",
+          "It is a Bantu language, but centuries of trade with Arab sailors filled it with Arabic words.",
+          "He said: 'I learned through education, at school. I love culture, I love to travel.' 'Elimu' is \u0639\u0644\u0645, 'utamaduni' is \u062a\u0645\u062f\u0651\u0646, and 'kusafiri' is \u0633\u0641\u0631.",
+        ],
+        audio: { file: "cache/audio/arabic_understand/swahili.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Turkish", wojak: "cs_tur_f", flag: "tr", speakers: "~85 million", scene: "istanbul", loc: null,
+        cards: [
+          "Turkish was written in Arabic letters until 1928, when it switched to the Latin alphabet.",
+          "It is not related to Arabic at all, but it borrowed thousands of Arabic words.",
+          "She said: 'Hello, I'm Ela Kasap, born in 1986 in Prishtina, Kosovo. I work here as a journalist.' 'Merhaba' is \u0645\u0631\u062d\u0628\u0627, and her surname 'Kasap' is \u0642\u0635\u0651\u0627\u0628, a butcher!",
+        ],
+        audio: { file: "cache/audio/arabic_understand/turkish.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Persian", wojak: "ar_fas", flag: "ir", speakers: "~80 million", scene: "zagros", loc: null,
+        cards: [
+          "Persian is a cousin of English, not of Arabic, but it is written in Arabic letters.",
+          "After the 7th century, Persian took in so many Arabic words that a large part of its vocabulary is Arabic.",
+          "He said: 'There are different languages and religions in Iran: Zoroastrianism, Judaism, Christianity, Islam and others.' 'Din' is \u062f\u064a\u0646, 'mokhtalef' is \u0645\u062e\u062a\u0644\u0641, 'nazar' is \u0646\u0638\u0631.",
+        ],
+        audio: { file: "cache/audio/arabic_understand/persian.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Urdu", wojak: "ar_urd_f", flag: "pk", speakers: "~230 million", scene: "village", loc: null,
+        cards: [
+          "Urdu is the national language of Pakistan, written in a Persian style of the Arabic script.",
+          "Spoken Urdu is almost the same as Hindi, but Urdu keeps more Arabic and Persian words.",
+          "She said: 'I left my old traditions behind. Not on purpose, but I think it was the effect of my environment.' 'Rivayat' is \u0631\u0648\u0627\u064a\u0629, 'zaroori' is \u0636\u0631\u0648\u0631\u064a, 'khayal' is \u062e\u064a\u0627\u0644, 'asar' is \u0623\u062b\u0631.",
+        ],
+        audio: { file: "cache/audio/arabic_understand/urdu.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Hebrew", wojak: "ar_heb", flag: "il", speakers: "~9 million", scene: "arabia", loc: null,
+        cards: [
+          "Hebrew is a Semitic language like Arabic, so many words share the same three-letter roots.",
+          "It stopped being spoken at home for centuries and was revived as a daily language about 150 years ago.",
+          "He said: 'Now I'll speak Hebrew. I started learning it when I was 10, and moved to Israel at 11.' 'Ani' is \u0623\u0646\u0627, and 'ben 10' (age 10) is like Arabic 'ibn 10'.",
+        ],
+        audio: { file: "cache/audio/arabic_understand/hebrew.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Aramaic", wojak: "ar_arc", flag: "sy", speakers: "~1 million", scene: "arabia", loc: null,
+        cards: [
+          "Aramaic was the everyday language of the Middle East for over 1,000 years, and the language Jesus spoke.",
+          "This is the Lord\u2019s Prayer in Syriac, a form of Aramaic still used in church today.",
+          "'Abun d-bashmayo, nethqadash shmokh, tithe malkuthokh' sounds like '\u0623\u0628\u0627\u0646\u0627 \u0627\u0644\u0630\u064a \u0641\u064a \u0627\u0644\u0633\u0645\u0627\u0648\u0627\u062a\u060c \u0644\u064a\u062a\u0642\u062f\u0651\u0633 \u0627\u0633\u0645\u0643\u060c \u0644\u064a\u0623\u062a\u0650 \u0645\u0644\u0643\u0648\u062a\u0643'.",
+        ],
+        audio: { file: "cache/audio/arabic_understand/aramaic.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Maltese", wojak: "ar_mlt", flag: "mt", speakers: "~520,000", scene: "adriatic", loc: null,
+        cards: [
+          "Maltese is the only Semitic language that is official in the European Union, and it is written in Latin letters.",
+          "It grew out of the Arabic of Sicily and North Africa, then took many Italian and English words.",
+          "These are everyday Maltese words: 'a\u0127na' is \u0646\u062d\u0646, 'ktieb' is \u0643\u062a\u0627\u0628, 'g\u017cira' is \u062c\u0632\u064a\u0631\u0629, 'belt' is \u0628\u0644\u062f, '\u0127ob\u017ca' is \u062e\u0628\u0632\u0629, 'a\u0127mar' is \u0623\u062d\u0645\u0631, 'mill-\u0121did' is \u0645\u0646 \u062c\u062f\u064a\u062f, 'llejla' is \u0627\u0644\u0644\u064a\u0644\u0629.",
+        ],
+        audio: { file: "cache/audio/arabic_understand/maltese.wav", start: 0, voice: "m" },
+      },
+    ],
+  },
   german: {
     title: "Languages German Speakers Can Almost Understand", // same format as slavic/turkic; audio: build_german.py
     layout: "story",
