@@ -286,4 +286,16 @@ One Word in 10 Languages, Languages That Count Differently.
    Africa, Singapore, Papua New Guinea). Fits the map-tour format (`maptour.mjs`, like `official`) with a real
    speaker per country. Check which surveys use the same question before ranking them together.
 
+36. Ranking the World's Most Useful Languages (owner, 2026-11-17): rank by a stated, sourced method, never by feel.
+   Options (pick one, or show several rounds):
+   - Power Language Index (Kai L. Chan, 2016): a published ranking that scores 5 areas: geography (travel),
+     economy (GDP of speakers), communication (people you can talk to), knowledge and media (internet,
+     research, films), diplomacy (official in the UN, IMF...). Ready-made and defensible; cite it.
+   - Research: share of scientific papers per language (Scopus / Web of Science counts).
+   - Reading: share of websites by content language (W3Techs; overlaps idea 21 "Presence Online") and number of
+     Wikipedia articles.
+   - Reach: total speakers (first + second language, Ethnologue) and number of countries where it is official.
+   Each language played by a real speaker (Commons / Lingua Libre). English will win; the interest is the order
+   after it (Mandarin, French, Spanish, Arabic, Russian, German...). High RPM: learners, English-speaking viewers.
+
 - DROPPED (owner, 2026-11-13): "What English Sounded Like in the 1800s" (`oldvoices`): too close to an idea already done (how English sounded through time). Don't suggest it again. Its files stay in the repo unused.
