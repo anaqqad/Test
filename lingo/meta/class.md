@@ -36,4 +36,4 @@ teaching english be like, foreign students, false friends, english teacher, lear
 - Category: Comedy
 - Made for kids: No
 - Altered or synthetic content: No (no AI voices; characters drawn and animated for LingoDude)
-- Thumbnail: (to do)
+- Thumbnail: lingo/videos/thumbC_class.png (node thumb_chat.mjs class)
