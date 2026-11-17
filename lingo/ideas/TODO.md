@@ -267,4 +267,23 @@ One Word in 10 Languages, Languages That Count Differently.
    "speaking English" from New York (AfroCrowd); public-domain US government recordings of speakers with strong
    regional accents (ask the owner first: these are politicians). Check each regional category before building.
 
+33. Languages Arabic Speakers Can Almost Understand (owner, 2026-11-17). Same format as `german`/`slavic`/`turkic`
+   (listen, then a reveal card naming the Arabic words). Not Arabic dialects (that is `arabic`). Easiest to hardest:
+   Swahili / Malay (recognisable loanwords: kitabu, selamat, waktu), Persian / Urdu / Turkish (many Arabic words:
+   ketab, dunya, waqt, merhaba), Hebrew and Aramaic (Assyrian, Surayt: Semitic cousins, shalom/salam, malka/malik),
+   then Maltese last (Arabic-derived, Latin letters). Maybe: Juba Arabic / Nubi (Arabic-based creoles), Cypriot
+   Maronite Arabic, Mehri / Soqotri, Amharic / Tigrinya. Wikitongues on Commons has Maltese, Hebrew, Assyrian
+   Neo-Aramaic, Surayt, Persian, Urdu, Swahili, Turkish; check Juba Arabic, Nubi, Mehri. RPM: Gulf viewers pay
+   well, North Africa / Egypt / Iraq less.
+
+34. The Least Spoken Languages in the World (owner, 2026-11-17): a countdown to languages with a handful of
+   speakers (or one last speaker), real recordings only. Overlaps `extinct`, `extinct2` and `niche`: pick languages
+   not used there, and state each speaker count with its source and year (Ethnologue / census / UNESCO).
+
+35. Countries With the Most Polyglots (owner, 2026-11-17): ranking of countries by the share of people who speak
+   2, 3 or more languages. Data must be exact and sourced: Eurobarometer (EU, % speaking at least one / two foreign
+   languages; Luxembourg tops), plus national censuses for multilingual countries (e.g. India, Switzerland, South
+   Africa, Singapore, Papua New Guinea). Fits the map-tour format (`maptour.mjs`, like `official`) with a real
+   speaker per country. Check which surveys use the same question before ranking them together.
+
 - DROPPED (owner, 2026-11-13): "What English Sounded Like in the 1800s" (`oldvoices`): too close to an idea already done (how English sounded through time). Don't suggest it again. Its files stay in the repo unused.
