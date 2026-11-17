@@ -5,7 +5,7 @@ The third LingoDude production blueprint:
 - **02 Map Videos:** `MASTER_VIDEO_BLUEPRINT.md`, with the language layer in `LANGUAGE_VIDEO_BLUEPRINT.md`.
 - **03 Discord Chat Comedy:** this file.
 
-It turns a one-sentence premise into a vertical chat-screen comedy (Shorts, 30–60 s) or a longer horizontal episode. The mechanics are reverse-engineered from a Beluga video. The characters, dialogue, jokes, avatars, sound effects and chat look are our own.
+It turns a one-sentence premise into a **long-form 16:9 chat-screen comedy (1920×1080, about 1:30–3:00)**. That's the owner's default, matching the reference. A vertical Short is possible with `"width": 1080, "height": 1920`. The mechanics are reverse-engineered from a Beluga video. The characters, dialogue, jokes, avatars, sound effects and chat look are our own.
 
 **Tools.** Renderer `lingo/chat.mjs`, mixer `lingo/chat_audio.py`, sound-effect generator `lingo/chat/make_sfx.py`. Episodes go in `lingo/chat/episodes/<key>.json`. The pilot episode is `roles`.
 
@@ -100,8 +100,8 @@ Columns: C = comedy, T = chat timing, E = editing, S = sound.
 |---|---|---|
 | Premise | (required) | One sentence. A character misunderstands something about the chat, or wants something they shouldn't get. |
 | Key | a short slug from the premise | Becomes `chat/episodes/<key>.json` and `out/chat_<key>.mp4` |
-| Target duration | **30–40 s** (Short) | Long version: 2–3 min, using §3 with 3–4 escalation loops |
-| Aspect ratio | **1080×1920** vertical, 30 fps | Horizontal: `"width": 1920, "height": 1080` in the episode file |
+| Target duration | **1:30–3:00** (long-form) | The reference story is 2:53.8 (3:04.8 with its ad). A Short is 30–40 s with one loop per act. |
+| Aspect ratio | **1920×1080** horizontal, 30 fps (owner, 2026-11-17: "long form size, not short size") | Vertical Short: `"width": 1080, "height": 1920` |
 | Cast | 3–4 | A chaos character (music), a straight man (silence), an authority who arrives late, an optional bot as narrator of consequences |
 | Avatars | Calm Wojaks from `lingo/wojaks/`, or our own SVGs (`chat/assets/avatars/`) | Never real people's photos, never brand logos |
 | Tone | Friendly absurd, PG-13 at most | Laugh at misunderstandings, never at nationalities or groups |
@@ -114,7 +114,7 @@ Columns: C = comedy, T = chat timing, E = editing, S = sound.
 
 ## 3. Script structure: premise to beats
 
-Write in this order. Each step is 1–3 messages. Target 18–22 beats for 30–40 s.
+Write in this order. Each step is 1–3 messages. **Long-form: 55–75 beats in 3 acts for 1:30–2:30.** Each act has its own escalation loop of three, its own deadpan foil and a new insert (panel, timeout, boost). Act 3 brings the authority with its own music bed and a trap question. Short: 18–22 beats for 30–40 s.
 
 | Step | Share of runtime | Purpose | Rule |
 |---|---|---|---|
@@ -187,32 +187,32 @@ Write in this order. Each step is 1–3 messages. Target 18–22 beats for 30–
 end = max(lastLineTime + max(minHold, holdBase + holdPerChar * len(lastLine)),
           start + 0.3 + readPerChar * len(allText))
 ```
-The defaults are a little faster than the reference's 0.5–1.0 s per line and 1.03 s median between events. That suits a 30–40 s Short.
+Long-form defaults (`lineGap` 0.6, `holdBase` 0.7) sit inside the reference's 0.5–1.0 s per line and 1.03 s median between events. For a Short, use `lineGap` 0.42 and `holdBase` 0.55.
 
 **Sample timeline: the pilot.** Output of `node chat.mjs roles --timeline`. ♪ means the music bed plays.
 
 ```
-0.10-1.20   bot       Welcome @trevor! 🎉 / Your role: Member              ping + join chime (hook at 1.2 s)
-  1.20-3.12   trevor  ♪ OMG I GOT THE JOB / when do i get paid            premise
-  3.12-3.91   maya      what job                                          deadpan, silence
-  3.91-5.65   trevor  ♪ it says MEMBER / do i get dental??                (revised beat, see §8)
-  5.65-6.99   bot       @trevor is now: / 🍳 Chef                          role chime, loop 1
-  6.99-8.99   trevor  ♪ WAIT / i can't cook / i burned cereal once        shake
-  9.35-10.41  maya      it's just a color                                 0.35 s pause, zoom 1.06
- 10.41-11.84  bot       @trevor is now: / 🩺 Doctor                        loop 2
- 11.84-14.07  trevor  ♪ someone in #general is dying / do i operate??   
- 14.07-15.27  maya      he lost a video game                            
- 15.27-16.37  trevor  ♪ [BIG] TIME OF DEATH: 12:04                        boom, shake
- 16.37-17.98  bot       @trevor is now: / 🛡️ Moderator                    loop 3
- 17.98-20.30  trevor  ♪ maya we're coworkers now 🤝 / what's OUR salary  
- 21.10-22.83  maya      trevor / nobody gets paid                         0.8 s typing indicator, reversal
- 23.13-24.10  trevor  ♪ so it's a cult                                  
- 24.10-25.30  greg      @trevor you're fired                              authority: ping + record scratch
- 25.30-26.59  trevor  ♪ I DON'T EVEN WORK HERE                            shake
- 26.59-28.06  bot       @trevor is now: / Unemployed                      callback to the "job"
- 28.06-29.16  trevor    [PANEL] UNEMPLOYED — 1                           tag insert
- 29.16-31.56  trevor  ♪ finally / a job i'm qualified for                 punchline, held 1.8 s
-duration 32.06 s, 20 beats
+0.10-1.30   bot       Welcome @trevor! 🎉 / Your role: @Member
+  1.30-3.22   trevor  ♪ OMG I GOT THE JOB / when do i get paid
+  3.82-4.76   maya      what job
+  4.76-6.57   trevor  ♪ it says MEMBER / do i get dental??
+  6.57-8.47   maya      trevor / this is a group chat
+  8.47-10.01  bot       @trevor is now: / @Chef 🍳
+ 10.01-12.51  trevor  ♪ WAIT / i can't cook / i burned cereal once
+ 12.86-14.07  maya      it's just a color
+ 14.07-16.27  trevor  ♪ so i'm a chef / who can't cook / in a color
+ 16.27-17.36  maya      basically yes
+ 17.36-18.96  bot       @trevor is now: / @Doctor 🩺
+ 18.96-21.20  trevor  ♪ someone in #general is dying / do i operate??
+ 21.80-23.09  maya      he lost a video game
+ 23.09-24.39  trevor  ♪ [BIG] TIME OF DEATH: 1:31
+   … (64 beats in total: act 2 = meeting, timeout, HR, boost; act 3 = Greg, trap question, firing)
+ 95.67-97.00  trevor  ♪ I DON'T EVEN GET PAID
+ 97.00-98.03  greg    ♪ Exactly. 😊
+ 98.03-99.66  bot       @trevor is now: / @Unemployed
+ 99.66-100.86 trevor    [PANEL] UNEMPLOYED — 1
+100.86-103.56 trevor  ♪ finally / a job i'm qualified for
+duration 104.16 s, 64 beats
 ```
 
 ---
@@ -233,17 +233,17 @@ There are no Remotion components in this project. The renderer uses the same Pla
    Check the total length, when the hook lands (2 s or less), and that ♪ alternates with silence.
 4. **Stills at phone size:**
    ```
-   node chat.mjs <key> --still 1.5,8,15,25,31
+   node chat.mjs <key> --still 1.5,10,30,60,90
    ```
    Then view them at 270–360 px wide.
 5. **Full render:**
    ```
    node chat.mjs <key>
    ```
-   - It renders 1080×1920 at 30 fps.
+   - It renders the episode size (default 1920×1080) at 30 fps. A 104 s episode takes about 3 minutes.
    - It writes `out/chat_<key>_timeline.json`.
    - `chat_audio.py` mixes music windows (with 25 ms fades; the music keeps its place between windows) and sound effects.
-   - ffmpeg muxes AAC 192k and applies `loudnorm` (target -14 LUFS; one pass measures about -16 LUFS).
+   - ffmpeg muxes AAC 192k. Loudness is two-pass: the mix is measured with `ebur128`, then one fixed gain and a limiter are applied (the pilot measures -15.4 LUFS).
    - A 32 s episode takes about 55 s to render.
 6. **How the effects work:**
    - **Line reveals:** CSS visibility per line.
@@ -252,6 +252,14 @@ There are no Remotion components in this project. The renderer uses the same Pla
    - **Vertical offset:** each beat sits up to ±70 px from centre (deterministic random).
    - **Shake:** ±11 px for 0.4 s.
    - **One message per shot**, like the reference.
+   - **Discord look (owner, 2026-11-17: "match the style"):**
+     - one grey message band (#36383e) across the full width on near-black;
+     - round avatar, bold name in the role colour, small grey timestamp ("1:28 PM"), no role pills in the header;
+     - a blue **BOT** tag for bots;
+     - mentions as blue-purple chips; roles as coloured `@Role` mentions (`[[Doctor|#e91e63]]`);
+     - a mentioned message gets a yellow tint and a gold left bar;
+     - **camera re-fit:** each message is scaled so it fills the frame (short replies up to 3.1×, panels and big text up to 4×). It eases to a new fit over 0.15 s whenever a line arrives, like the reference re-framing on every line;
+     - **typing bar:** bottom left, three pulsing dots plus "**Name** is typing...", shown over the previous message for 0.5–1 s before key replies.
 7. **Deliver:**
    - Copy to `lingo/videos/chat_<key>.mp4`.
    - The description credits the music, says "Characters drawn for LingoDude", and has no AI voice.
@@ -260,9 +268,9 @@ There are no Remotion components in this project. The renderer uses the same Pla
 ---
 
 ## 6. Sound rules
-- **Music** plays only under `music: true` beats, normally the chaos character. Deadpan beats get **silence**, the reference's main trick. Keep music about 15–17 dB below the sound effects.
+- **Music** plays only under music beats: `true` uses the default track, and a name such as `"boss"` uses that track. Normally the default plays under the chaos character, and the authority gets their own track when they take over (the reference switches the music bed when the CEO appears). Deadpan beats get **silence**, the reference's main trick. Keep music about 15–17 dB below the sound effects.
 - **Pop on every line.** Ping for mentions. Chime when a bot gives a role. Join chime for arrivals.
-  - **Boom:** only on the biggest escalation (once or twice per Short).
+  - **Boom:** only on the biggest escalations (2–3 per long-form video).
   - **Record scratch:** only on the authority's entrance or the reversal.
   - **Typing clicks:** only under a typing indicator.
 - No speech and no AI voices in this format. If a language episode needs a word pronounced, use a real credited recording (Blueprint 02 rules).
@@ -300,9 +308,18 @@ There are no Remotion components in this project. The renderer uses the same Pla
   3. "@trevor got a new role:" left "role:" alone on a line → changed to "@trevor is now:".
   4. The hook joke landed at 2.06 s → the welcome is faster, and the joke now lands at 1.2 s.
 - **Weakest beat:** "MEMBER / it says it right there". It repeated the premise and nothing changed. Rewritten as "it says MEMBER / do i get dental??", which escalates the job fantasy into benefits.
-- **Final:** 32.06 s, 20 beats, 1080×1920, -16.3 LUFS. The deadpan silences show in the spectrogram at each Maya line.
+- **Version 1 (vertical Short), final:** 32.06 s, 20 beats, 1080×1920, -16.3 LUFS. The deadpan silences show in the spectrogram at each Maya line.
+- **Version 2, long-form (owner, 2026-11-17):** the owner asked for long-form size and a closer Discord style.
+  - Re-rendered at 1920×1080 and expanded to 3 acts: 1:44, 64 beats, -15.4 LUFS.
+  - Added: camera re-fit, a Discord typing bar, role mentions, a "boss" music track under Greg, and the trap question "What is the name of this server?" → "Dental Plans Incorporated" (a callback).
+  - Fixes from the phone-size review:
+    - emoji moved out of role mentions;
+    - member-list panels shown big;
+    - a bigger typing bar;
+    - two-pass loudness (-22.4 → -15.4 LUFS).
+  - **Weakest beat:** "a group chat / with dental" → "no". It repeated the dental joke and delayed the first role gag, so it was cut.
 - **Files:**
-  - `lingo/videos/chat_roles_pilot.mp4`
+  - `lingo/videos/chat_roles.mp4` (long-form; replaces the vertical pilot)
   - episode `lingo/chat/episodes/roles.json`
   - credits `lingo/out/chat_roles_credits.txt`
 
@@ -312,16 +329,16 @@ There are no Remotion components in this project. The renderer uses the same Pla
 Make a new LingoDude chat comedy with Blueprint 03.
 Premise: "<one sentence>".
 Read lingo/blueprints/DISCORD_CHAT_COMEDY_BLUEPRINT.md (sections 2–7) and lingo/chat/episodes/roles.json as the example.
-Write lingo/chat/episodes/<key>.json in English: 18–22 beats, 30–40 s, hook by 2 s, three escalation loops,
+Write lingo/chat/episodes/<key>.json in English: long-form 1920x1080, 55–75 beats in 3 acts (1:30–2:30), hook by 2 s, three escalation loops,
 a reversal with a typing indicator, an authority entrance, and a callback punchline held 1.5–2 s.
 Use calm Wojaks from lingo/wojaks/ (or our own SVGs), our own chat look, no real people or logos,
 and a credited CC music track only under the chaos character.
 Then run, from lingo/:
   node chat.mjs <key> --timeline
-  node chat.mjs <key> --still 1.5,8,15,25,31
+  node chat.mjs <key> --still 1.5,10,30,60,90
   node chat.mjs <key>
 Do the section 7 quality check at phone size, name and rewrite the weakest beat, re-render,
-copy out/chat_<key>.mp4 to lingo/videos/, write out/chat_<key>_credits.txt,
+copy out/chat_<key>.mp4 to lingo/videos/chat_<key>.mp4, write out/chat_<key>_credits.txt,
 commit and push, and send me the video.
 ```
 

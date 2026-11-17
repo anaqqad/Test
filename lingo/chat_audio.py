@@ -1,5 +1,5 @@
 # Sound mix for chat.mjs (Blueprint 03): python3 chat_audio.py <timeline.json> <out.wav>
-# Music bed (real, credited CC track) plays only under beats with "music": true and cuts to silence on deadpan
+# Music beds (real, credited CC tracks) play only under beats with "music": true (or a track name) and cuts to silence on deadpan
 # beats; the music keeps its place between windows (it does not restart). Sound effects: chat/assets/sfx/*.wav.
 import json, os, subprocess, sys, wave, numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -13,20 +13,27 @@ def load(path):
     return np.frombuffer(raw, np.float32).copy()
 
 m = tl.get("music")
+tracks = {}
 if m:
-    mus = load(os.path.join(HERE, m["file"])) * 10 ** (m.get("gain", -15) / 20)
-    cursor = int(SR * m.get("start", 0))
-    beats = tl["beats"]
-    for k, b in enumerate(beats):
-        if not b["music"]:
-            continue
-        a = b["start"]; e = beats[k + 1]["start"] if k + 1 < len(beats) else dur
-        i0, i1 = int(SR * a), int(SR * e)
-        n = i1 - i0
-        seg = np.resize(mus[cursor % len(mus):], n) if cursor % len(mus) + n > len(mus) else mus[cursor % len(mus): cursor % len(mus) + n].copy()
-        f = min(int(SR * 0.025), n // 2)
-        seg[:f] *= np.linspace(0, 1, f); seg[n - f:] *= np.linspace(1, 0, f)
-        out[i0:i1] += seg; cursor += n
+    tracks = {"default": m} if "file" in m else m      # one track, or {"default": {...}, "boss": {...}}
+loaded, cursors = {}, {}
+beats = tl["beats"]
+for k, b in enumerate(beats):
+    name = "default" if b["music"] is True else b["music"]
+    if not name or name not in tracks:
+        continue
+    tr = tracks[name]
+    if name not in loaded:
+        loaded[name] = load(os.path.join(HERE, tr["file"])) * 10 ** (tr.get("gain", -15) / 20)
+        cursors[name] = int(SR * tr.get("start", 0))
+    mus = loaded[name]
+    a = b["start"]; e = beats[k + 1]["start"] if k + 1 < len(beats) else dur
+    i0, i1 = int(SR * a), int(SR * e); n = i1 - i0
+    c = cursors[name] % len(mus)
+    seg = np.resize(np.concatenate([mus[c:], mus[:c]]), n)
+    f = min(int(SR * 0.025), n // 2)
+    seg[:f] *= np.linspace(0, 1, f); seg[n - f:] *= np.linspace(1, 0, f)
+    out[i0:i1] += seg; cursors[name] += n
 
 cache = {}
 for b in tl["beats"]:

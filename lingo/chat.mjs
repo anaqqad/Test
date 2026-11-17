@@ -1,11 +1,13 @@
-// Chat-comedy renderer (Blueprint 03, lingo/blueprints/CHAT_COMEDY_BLUEPRINT.md).
-//   node chat.mjs <episode>                 -> out/chat_<episode>.mp4 (1080x1920, 30 fps, with sound)
+// Chat-comedy renderer (Blueprint 03, lingo/blueprints/DISCORD_CHAT_COMEDY_BLUEPRINT.md).
+//   node chat.mjs <episode>                 -> out/chat_<episode>.mp4 (default 1920x1080 long-form, 30 fps, with sound)
 //   node chat.mjs <episode> --still 1,5,9   -> out/chat_<episode>_<t>s.png (check frames first)
 //   node chat.mjs <episode> --timeline      -> prints the beat timeline only (no render)
-// Episode script: chat/episodes/<episode>.json. Our own chat look (no real app's logo or branding).
+// Episode script: chat/episodes/<episode>.json. A Discord-like dark chat look drawn by us (no logos, no real people).
+// Like the reference: one message per shot, lines appear one by one, and the camera re-fits the message so it
+// fills the frame (short messages are shown huge, long ones zoom out a little as lines arrive).
 import fs from "node:fs";
 import path from "node:path";
-import { spawn, execFileSync } from "node:child_process";
+import { spawn, spawnSync, execFileSync } from "node:child_process";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { chromium } from "playwright-core";
 
@@ -15,14 +17,14 @@ const key = args.find((a) => !a.startsWith("--") && !/^[\d.,]+$/.test(a));
 const opt = (n, d) => { const i = args.indexOf("--" + n); return i < 0 ? d : args[i + 1]; };
 if (!key) throw new Error("usage: node chat.mjs <episode> [--still 1,5] [--timeline]");
 const spec = JSON.parse(fs.readFileSync(path.join(HERE, "chat", "episodes", key + ".json"), "utf8"));
-const W = spec.width || 1080, H = spec.height || 1920, FPS = spec.fps || 30;
-const T = { lineGap: 0.42, holdBase: 0.55, holdPerChar: 0.03, readPerChar: 0.045, minHold: 0.7, lead: 0.1, tail: 0.5, ...(spec.timing || {}) };
+const W = spec.width || 1920, H = spec.height || 1080, FPS = spec.fps || 30;
+const T = { lineGap: 0.55, holdBase: 0.6, holdPerChar: 0.03, readPerChar: 0.045, minHold: 0.75, lead: 0.1, tail: 0.6, ...(spec.timing || {}) };
 const OUT = path.join(HERE, "out");
 const PAGES = path.join(HERE, "cache", "pages");
 fs.mkdirSync(OUT, { recursive: true }); fs.mkdirSync(PAGES, { recursive: true });
 const url = (p) => pathToFileURL(path.isAbsolute(p) ? p : path.join(HERE, p)).href;
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-const plain = (s) => String(s).replace(/\[\[([^|\]]+)\|[^\]]+\]\]/g, "$1");
+const plain = (s) => String(s).replace(/\[\[([^|\]]+)\|[^\]]+\]\]/g, "@$1");
 
 // --- timeline -------------------------------------------------------------------------------------
 function buildTimeline() {
@@ -49,94 +51,113 @@ function buildTimeline() {
       music: b.music ?? cast.music ?? false, sfx, zoom: b.zoom ?? 1, ping: !!b.ping, big: !!b.big, shake: !!b.shake, panel: b.panel || null });
     t = end;
   });
-  const dur = +(t + T.tail).toFixed(3);
-  return { beats, dur };
+  return { beats, dur: +(t + T.tail).toFixed(3) };
 }
 
 // --- page -----------------------------------------------------------------------------------------
+const hexA = (h, a) => { const n = parseInt(h.slice(1), 16); return `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},${a})`; };
 function rich(s) {
   return esc(s)
-    .replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, (_, l, c) => `<span class="pill" style="--c:${c}"><i></i>${l}</span>`)
+    .replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, (_, l, c) => `<span class="rmen" style="color:${c};background:${hexA(c, 0.16)}">@${l}</span>`)
     .replace(/(^|\s)@([\w.]+)/g, '$1<span class="men">@$2</span>')
     .replace(/(^|\s)#([\w-]+)/g, '$1<span class="men">#$2</span>');
 }
-function avatar(c) {
+function avatar(c, cls = "av") {
   const src = c.avatar ? url(c.avatar) : "";
-  return `<div class="av" style="background:${c.avatarBg || "#3a3d45"}">${src ? `<img src="${src}">` : ""}</div>`;
+  return `<div class="${cls}" style="background:${c.avatarBg || "#4e5058"}">${src ? `<img src="${src}">` : ""}</div>`;
 }
 function clock(i) {
-  const [h, m] = (spec.clock || "9:41").split(":").map(Number);
+  const [h, m] = (spec.clock || "1:27").split(":").map(Number);
   const mm = m + Math.floor(i / 4), hh = h + Math.floor(mm / 60);
   return `${((hh - 1) % 12) + 1}:${String(mm % 60).padStart(2, "0")} ${spec.ampm || "PM"}`;
 }
 function beatHTML(b) {
+  let inner;
   if (b.panel) {
-    const rows = b.panel.rows.map((r) => { const c = spec.cast[r.who] || {}; return `<div class="prow">${avatar(c)}<b style="color:${c.color || "#f2f3f5"}">${esc(c.name || r.who)}</b><span class="dot"></span></div>`; }).join("");
-    return `<div class="band panel" id="b${b.i}"><div class="phead">${esc(b.panel.header)}</div>${rows}</div>`;
+    const rows = b.panel.rows.map((r) => { const c = spec.cast[r.who] || {}; return `<div class="prow"><div class="pav">${avatar(c)}<span class="dot"></span></div><b style="color:${c.color || "#f2f3f5"}">${esc(c.name || r.who)}</b></div>`; }).join("");
+    inner = `<div class="msg panel"><div class="phead">${esc(b.panel.header)}</div>${rows}</div>`;
+  } else if (b.big) {
+    inner = `<div class="msg bigm"><div class="bigt">${rich(b.lines[0])}</div></div>`;
+  } else {
+    const c = spec.cast[b.who] || { name: b.who };
+    const tag = c.bot ? `<span class="bot">✓ BOT</span>` : "";
+    const lines = b.lines.map((l, k) => `<div class="ln" data-k="${k}">${rich(l)}</div>`).join("");
+    inner = `<div class="msg">${avatar(c)}<div class="body"><div class="hd"><b style="color:${c.color || "#f2f3f5"}">${esc(c.name || b.who)}</b>${tag}<span class="tm">${clock(b.i)}</span></div>${lines}</div></div>`;
   }
-  if (b.big) return `<div class="band big" id="b${b.i}"><div class="bigt">${rich(b.lines[0])}</div></div>`;
-  const c = spec.cast[b.who] || { name: b.who };
-  const tag = c.bot ? `<span class="bot">BOT</span>` : c.role ? `<span class="pill" style="--c:${c.roleColor || "#99aab5"}"><i></i>${esc(c.role)}</span>` : "";
-  const lines = b.lines.map((l, k) => `<div class="ln" data-k="${k}">${rich(l)}</div>`).join("");
-  return `<div class="band${b.ping ? " ping" : ""}" id="b${b.i}">${avatar(c)}<div class="body"><div class="hd"><b style="color:${c.color || "#f2f3f5"}">${esc(c.name || b.who)}</b>${tag}<span class="tm">${clock(b.i)}</span></div>${lines}</div></div>`;
+  return `<div class="band${b.ping ? " ping" : ""}${b.big ? " big" : ""}" id="b${b.i}">${inner}</div>`;
 }
 function page(tl) {
-  const typingNames = tl.beats.map((b) => (spec.cast[b.who] || {}).name || b.who);
+  const names = tl.beats.map((b) => (spec.cast[b.who] || {}).name || b.who);
   return `<!doctype html><meta charset="utf-8"><style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{width:${W}px;height:${H}px;overflow:hidden;background:#0d0d10;font-family:Inter,"Noto Color Emoji",sans-serif;-webkit-font-smoothing:antialiased}
-.band{position:absolute;left:0;width:${W}px;top:50%;display:none;gap:30px;padding:44px 40px 50px;background:#2b2d33;transform-origin:50% 50%}
-.band.ping{background:#3a3628;box-shadow:inset 10px 0 0 #f0b232}
-.av{flex:0 0 164px;height:164px;border-radius:50%;overflow:hidden;display:flex;align-items:flex-end;justify-content:center}
-.av img{width:135%;height:135%;object-fit:cover;object-position:50% 0%;transform:translateY(6%)}
-.body{flex:1;min-width:0}
-.hd{display:flex;align-items:center;gap:16px;margin-bottom:8px;flex-wrap:wrap}
-.hd b{font-size:66px;font-weight:700}
-.tm{font-size:40px;color:#949ba4;font-weight:500}
-.pill{display:inline-flex;align-items:center;gap:10px;font-size:40px;font-weight:600;color:#e8e9eb;background:#1e1f24;border-radius:12px;padding:4px 16px;vertical-align:middle}
-.pill i{width:20px;height:20px;border-radius:50%;background:var(--c)}
-.ln .pill{font-size:68px;padding:4px 20px;border:3px solid var(--c)}
-.ln .pill i{width:28px;height:28px}
-.bot{font-size:34px;font-weight:700;color:#fff;background:#5b6ee1;border-radius:8px;padding:2px 10px}
-.ln{font-size:76px;line-height:1.3;color:#dfe1e5;font-weight:500;word-wrap:break-word;visibility:hidden}
-.men{color:#c9d4ff;background:rgba(91,110,225,.35);border-radius:8px;padding:0 6px}
-.big{justify-content:center;padding:70px 70px}
-.bigt{font-size:124px;font-weight:800;color:#fff;text-align:center;line-height:1.1}
-.panel{flex-direction:column;gap:26px;padding:50px 60px;background:#24262b}
-.phead{font-size:64px;font-weight:800;color:#b5bac1;letter-spacing:2px}
-.prow{display:flex;align-items:center;gap:30px}.prow b{font-size:70px}
-.dot{width:40px;height:40px;border-radius:50%;background:#3ba55d;border:7px solid #24262b}
-#typing{position:absolute;left:60px;top:${Math.round(H * 0.5 + 420)}px;font-size:46px;color:#b5bac1;display:none}
-#typing b{color:#fff}
-#typing span{display:inline-block;width:14px;height:14px;border-radius:50%;background:#b5bac1;margin-left:8px}
-#wm{position:absolute;bottom:90px;width:100%;text-align:center;font:700 38px Montserrat,Inter;color:rgba(255,255,255,.22)}
+body{width:${W}px;height:${H}px;overflow:hidden;background:#0b0b0c;font-family:Inter,"Noto Color Emoji",sans-serif;-webkit-font-smoothing:antialiased}
+.band{position:absolute;left:0;width:${W}px;display:none;background:#36383e;overflow:visible}
+.band.ping{background:#45423a}
+.band.ping::before{content:"";position:absolute;left:0;top:0;bottom:0;width:${Math.round(W * 0.006)}px;background:#f0b232}
+.msg{position:absolute;left:0;top:0;display:inline-flex;align-items:flex-start;gap:18px;padding:14px 26px 16px 18px;transform-origin:0 0;white-space:nowrap}
+.av{flex:0 0 72px;width:72px;height:72px;border-radius:50%;overflow:hidden;margin-top:2px}
+.av img{width:100%;height:100%;object-fit:cover;object-position:50% 8%;transform:scale(1.35);transform-origin:50% 0}
+.hd{display:flex;align-items:baseline;gap:12px;line-height:1.25}
+.hd b{font-size:31px;font-weight:600}
+.tm{font-size:20px;color:#949ba4;font-weight:500}
+.bot{align-self:center;font-size:15px;font-weight:700;color:#fff;background:#5865f2;border-radius:5px;padding:1px 7px;letter-spacing:.3px}
+.ln{font-size:31px;line-height:1.42;color:#dbdee1;font-weight:400;display:none}
+.men{color:#c9cdfb;background:rgba(88,101,242,.3);border-radius:4px;padding:0 3px;font-weight:500}
+.rmen{border-radius:4px;padding:0 3px;font-weight:600}
+.bigm{padding:10px 30px}.bigt{font-size:34px;font-weight:500;color:#e6e7ea}
+.panel{flex-direction:column;gap:12px;padding:18px 28px}
+.phead{font-size:24px;font-weight:700;color:#949ba4;letter-spacing:.6px}
+.prow{display:flex;align-items:center;gap:16px}.prow b{font-size:30px;font-weight:600}
+.pav{position:relative}.pav .av{flex:0 0 56px;width:56px;height:56px}
+.dot{position:absolute;right:-4px;bottom:-2px;width:22px;height:22px;border-radius:50%;background:#23a55a;border:5px solid #36383e}
+#typing{position:absolute;left:${Math.round(W * 0.03)}px;bottom:${Math.round(H * 0.045)}px;font-size:${Math.round(H * 0.045)}px;color:#dbdee1;display:none;align-items:center;gap:${Math.round(H * 0.012)}px}
+#typing b{font-weight:700;color:#fff}
+#typing .dots{display:inline-flex;gap:${Math.round(H * 0.006)}px}
+#typing .dots i{width:${Math.round(H * 0.011)}px;height:${Math.round(H * 0.011)}px;border-radius:50%;background:#dbdee1}
+#wm{position:absolute;right:${Math.round(W * 0.02)}px;bottom:${Math.round(H * 0.03)}px;font:700 ${Math.round(H * 0.022)}px Montserrat,Inter;color:rgba(255,255,255,.18)}
 </style>
 <link rel="stylesheet" href="${url("node_modules/@fontsource/montserrat/700.css")}">
 ${tl.beats.map(beatHTML).join("\n")}
-<div id="typing"><b></b> is typing<span></span><span></span><span></span></div>
+<div id="typing"><span class="dots"><i></i><i></i><i></i></span><span><b></b> is typing...</span></div>
 <div id="wm">${esc(spec.watermark || "LingoDude")}</div>
 <script>
-const TL=${JSON.stringify(tl)}, NAMES=${JSON.stringify(typingNames)};
+const TL=${JSON.stringify(tl)}, NAMES=${JSON.stringify(names)}, W=${W}, H=${H};
 function rnd(i){const x=Math.sin(i*99.13)*43758.5;return x-Math.floor(x)}
+const ease=u=>u<0?0:u>1?1:1-Math.pow(1-u,3);
+const fitCache={};
+// natural size of the message with k lines visible -> scale that makes it fill the frame like the reference
+function fit(i,k){const id=i+'_'+k;if(fitCache[id])return fitCache[id];
+  const b=TL.beats[i],el=document.getElementById('b'+i),m=el.querySelector('.msg');
+  el.style.display='block';m.style.transform='none';
+  el.querySelectorAll('.ln').forEach((ln,j)=>ln.style.display=j<=k?'block':'none');
+  const w=m.offsetWidth,h=m.offsetHeight;
+  const maxS=b.big?4.2:b.panel?4.0:3.1;
+  let s=Math.min(maxS,(W*0.96)/w,(H*0.7)/h)*b.zoom;
+  return fitCache[id]={s,w,h};}
 window.setT=function(t){
   let cur=-1;for(let i=0;i<TL.beats.length;i++){if(TL.beats[i].start<=t)cur=i}
-  // while the next beat's typing indicator runs, keep showing the current card
-  TL.beats.forEach((b,i)=>{const el=document.getElementById('b'+i);el.style.display=(i===cur)?'flex':'none'});
+  TL.beats.forEach((b,i)=>{if(i!==cur)document.getElementById('b'+i).style.display='none'});
   const ty=document.getElementById('typing');ty.style.display='none';
   const nx=TL.beats[cur+1];
-  if(nx&&nx.typingFrom!=null&&t>=nx.typingFrom&&t<nx.start){ty.style.display='block';ty.querySelector('b').textContent=NAMES[cur+1];
-    ty.querySelectorAll('span').forEach((s,k)=>{s.style.transform='translateY('+(-10*Math.max(0,Math.sin((t*7)-k*0.9)))+'px)'})}
+  if(nx&&nx.typingFrom!=null&&t>=nx.typingFrom&&t<nx.start){ty.style.display='flex';ty.querySelector('b').textContent=NAMES[cur+1];
+    ty.querySelectorAll('.dots i').forEach((d,k)=>{d.style.opacity=0.35+0.65*Math.max(0,Math.sin(t*6.5-k*0.9))})}
   if(cur<0)return;
-  const b=TL.beats[cur],el=document.getElementById('b'+cur);
-  el.querySelectorAll('.ln').forEach((ln,k)=>{ln.style.visibility=t>=b.lineTimes[k]?'visible':'hidden'});
-  const u=t-b.start, pop=u<0.12?0.965+0.035*(u/0.12):1;
-  // a small re-pop on every new line, like a cut to a tighter frame
-  let lp=1;b.lineTimes.forEach((lt,k)=>{if(k>0&&t>=lt&&t-lt<0.1)lp=1+0.012*(1-(t-lt)/0.1)});
-  const push=1+0.03*Math.min(1,u/Math.max(0.5,b.end-b.start));
-  const s=b.zoom*pop*lp*push;
-  const y=(rnd(cur+1)-0.5)*140;
-  let sx=0,sy=0;if(b.shake&&u<0.4){sx=(rnd(Math.floor(t*60))-0.5)*22;sy=(rnd(Math.floor(t*60)+5)-0.5)*22}
-  el.style.transform='translate('+sx+'px,calc(-50% + '+(y+sy)+'px)) scale('+s+')';
+  const b=TL.beats[cur],el=document.getElementById('b'+cur),m=el.querySelector('.msg');
+  let k=0;b.lineTimes.forEach((lt,j)=>{if(t>=lt)k=j});
+  const f=fit(cur,k);
+  // the camera eases to the new fit for 0.15 s when a line arrives (the reference re-frames on every line)
+  let s=f.s, h=f.h;
+  if(k>0){const p=fit(cur,k-1),u=ease((t-b.lineTimes[k])/0.15);s=p.s+(f.s-p.s)*u;h=p.h+(f.h-p.h)*u}
+  const u0=t-b.start, pop=u0<0.1?0.97+0.03*(u0/0.1):1;
+  const push=1+0.02*Math.min(1,u0/Math.max(0.6,b.end-b.start));
+  s*=pop*push;
+  el.style.display='block';
+  el.querySelectorAll('.ln').forEach((ln,j)=>ln.style.display=j<=k?'block':'none');
+  const bandH=h*s, yc=H*(0.5+(rnd(cur+1)-0.5)*0.16);
+  let sx=0,sy=0;if(b.shake&&u0<0.4){sx=(rnd(Math.floor(t*60))-0.5)*W*0.012;sy=(rnd(Math.floor(t*60)+5)-0.5)*H*0.02}
+  el.style.top=(yc-bandH/2+sy)+'px';el.style.height=bandH+'px';
+  const x0=b.big?(W-f.w*s)/2:Math.max(0,Math.min(W*0.03,W-f.w*s));
+  m.style.transform='translate('+(x0+sx)+'px,0) scale('+s+')';
 };
 </script>`;
 }
@@ -145,7 +166,7 @@ window.setT=function(t){
 async function main() {
   const tl = buildTimeline();
   if (args.includes("--timeline")) {
-    for (const b of tl.beats) console.log(`${b.start.toFixed(2).padStart(6)}-${b.end.toFixed(2).padEnd(6)} ${String(b.who).padEnd(7)} ${b.music ? "♪" : " "} ${(b.big ? "[BIG] " : b.panel ? "[PANEL] " : "") + plain(b.lines.join(" / "))}`);
+    for (const b of tl.beats) console.log(`${b.start.toFixed(2).padStart(6)}-${b.end.toFixed(2).padEnd(6)} ${String(b.who).padEnd(7)} ${b.music ? "♪" : " "} ${(b.big ? "[BIG] " : b.panel ? "[PANEL] " + b.panel.header : "") + plain(b.lines.join(" / "))}`);
     console.log("duration", tl.dur, "s,", tl.beats.length, "beats");
     return;
   }
@@ -154,7 +175,7 @@ async function main() {
   const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
   const pg = await browser.newPage({ viewport: { width: W, height: H } });
   await pg.goto(pathToFileURL(pageFile).href);
-  await pg.evaluate(() => document.fonts.ready); await pg.waitForTimeout(300);
+  await pg.evaluate(() => document.fonts.ready); await pg.waitForTimeout(400);
   const stills = opt("still", null);
   if (stills) {
     for (const t of stills.split(",").map(Number)) { await pg.evaluate((t) => window.setT(t), t); await pg.screenshot({ path: path.join(OUT, `chat_${key}_${t}s.png`) }); }
@@ -175,8 +196,13 @@ async function main() {
   const wav = path.join(OUT, `chat_${key}.wav`);
   execFileSync("python3", [path.join(HERE, "chat_audio.py"), tlFile, wav], { stdio: "inherit" });
   const final = path.join(OUT, `chat_${key}.mp4`);
-  execFileSync("ffmpeg", ["-v", "error", "-y", "-i", silent, "-i", wav, "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-af", "loudnorm=I=-14:TP=-1.5", "-shortest", final]);
-  fs.unlinkSync(silent);
+  // two-pass loudness: measure the mix, then apply one fixed gain to reach about -14 LUFS (YouTube's reference)
+  const r = spawnSync("ffmpeg", ["-hide_banner", "-i", wav, "-af", "ebur128", "-f", "null", "-"], { encoding: "utf8" });
+  const I = +((r.stderr.match(/I:\s+(-?[\d.]+) LUFS/g) || []).pop() || "I: -14").match(/-?[\d.]+/)[0];
+  const gain = Math.max(-10, Math.min(10, -14 - I)).toFixed(1);
+  execFileSync("ffmpeg", ["-v", "error", "-y", "-i", silent, "-i", wav, "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-af", `volume=${gain}dB,alimiter=limit=0.89`, "-shortest", final]);
+  console.log(`  loudness ${I} LUFS -> gain ${gain} dB`);
+  fs.unlinkSync(silent); fs.unlinkSync(wav);
   console.log(`done: ${final} (${tl.dur}s, ${tl.beats.length} beats)`);
 }
 main().catch((e) => { console.error(e); process.exit(1); });
