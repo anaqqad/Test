@@ -35,13 +35,21 @@ for k, b in enumerate(beats):
     seg[:f] *= np.linspace(0, 1, f); seg[n - f:] *= np.linspace(1, 0, f)
     out[i0:i1] += seg; cursors[name] += n
 
+# sound effects, balanced to the reference: the message pop's RMS sits about 3.5 dB above the music bed's RMS
+# (reference: pop -16.5 dB, music about -20 dB); other effects are set relative to that
+def rmsdb(x): return 20 * np.log10(np.sqrt(np.mean(x ** 2)) + 1e-12)
+mus_part = out[np.abs(out) > 1e-5]
+music_db = rmsdb(mus_part) if len(mus_part) > SR else -20.0
+REL = {"discord_pop": 3.5, "pop": 3.5, "ping": 3.5, "join": 3.0, "role": 3.0, "boom": 5.0, "scratch": 1.0, "typing": -14.0}
 cache = {}
 for b in tl["beats"]:
     for s in b["sfx"]:
-        p = os.path.join(HERE, "chat", "assets", "sfx", s["name"] + ".wav")
-        if s["name"] not in cache:
-            cache[s["name"]] = load(p)
-        x = cache[s["name"]]; i0 = int(SR * s["at"])
+        name = s["name"]
+        if name not in cache:
+            x = load(os.path.join(HERE, "chat", "assets", "sfx", name + ".wav"))
+            core = x[np.abs(x) > np.abs(x).max() * 0.05]
+            cache[name] = x * 10 ** ((music_db + REL.get(name, 0.0) - rmsdb(core[: int(SR * 0.16)])) / 20)
+        x = cache[name]; i0 = int(SR * s["at"])
         out[i0:i0 + len(x)] += x[: len(out) - i0]
 out = out[: int(SR * dur)]
 out = out / max(1.0, np.abs(out).max() / 0.95)

@@ -39,9 +39,12 @@ x = t(0.7); sweep = np.sin(2 * np.pi * np.cumsum(110 * np.exp(-2.2 * x) + 38) / 
 save("boom", sweep * np.exp(-4.2 * x) + 0.4 * rng.standard_normal(len(x)) * np.exp(-30 * x), 0.9)  # impact
 x = t(0.32); n = rng.standard_normal(len(x)); f = np.cumsum(np.interp(x, [0, 0.16, 0.32], [400, 2600, 300])) / SR
 save("scratch", n * (0.5 + 0.5 * np.sin(2 * np.pi * f)) * np.exp(-3 * x), 0.5)           # record scratch (reversal)
+# soft typing: three muffled, quiet taps (owner: "less noisy")
 clicks = np.zeros(int(SR * 0.6))
-for k in range(5):
-    s = int(SR * (0.05 + k * 0.11 + rng.uniform(0, 0.03))); c = rng.standard_normal(300) * np.exp(-np.arange(300) / 40)
-    clicks[s:s + 300] += c
-save("typing", clicks, 0.25)                                                            # keyboard under a typing indicator
+for k, at in enumerate((0.06, 0.24, 0.41)):
+    n = int(SR * 0.025); x = np.arange(n) / SR
+    tap = (np.sin(2 * np.pi * 180 * x) * 0.6 + rng.standard_normal(n) * 0.15) * np.exp(-x / 0.006)
+    tap = np.convolve(tap, np.ones(12) / 12, mode="same")                     # low-pass: no hiss
+    s0 = int(SR * at); clicks[s0:s0 + n] += tap * (0.8 + 0.2 * k % 2)
+save("typing", clicks, 0.18)                                                            # keyboard under a typing indicator
 print("sfx ->", OUT, sorted(os.listdir(OUT)))

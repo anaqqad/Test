@@ -270,7 +270,16 @@ There are no Remotion components in this project. The renderer uses the same Pla
 
 ## 6. Sound rules
 - **Music** plays only under music beats: `true` uses the default track, and a name such as `"boss"` uses that track. Normally the default plays under the chaos character, and the authority gets their own track when they take over (the reference switches the music bed when the CEO appears). Deadpan beats get **silence**, the reference's main trick. Keep music about 15–17 dB below the sound effects.
-- **Message pop = the reference's sound, rebuilt (owner, 2026-11-17: "use the Beluga one").** Measured from isolated pops in the reference at 76.3, 77.1, 78.2, 99.0 and 99.5 s: about **160 ms**, a **G4 + D5 pair (393 + 587 Hz)** for the first 35–40 ms, then **G5 + C5 (786 + 522 Hz)**, peaking at -5.7 dBFS. `chat/make_sfx.py` synthesises those notes and that envelope; ours measures 155 ms with the same note pairs. The original file is not copied, because it's Discord's or Beluga's audio and could trigger a claim.
+- **Message pop = the Discord notification sound (owner, 2026-11-17: "use the Beluga one").**
+  - The owner supplied it from myinstants.com ("discord-notification.mp3"). It's the same sound the reference uses: 393/587 Hz, then 781/522 Hz, about 165 ms.
+  - Trimmed to start on the line (the file has 130 ms of silence before the sound) and saved as `chat/assets/sfx/discord_pop.wav`. It's the default line sound (`popSound` in the episode file; `"pop"` is our own synthesised look-alike).
+  - It's third-party audio (Discord's), used at the owner's request. If YouTube ever claims it, set `"popSound": "pop"`.
+- **Balance as in the reference:**
+  - The reference's pop RMS is -16.5 dB against music around -20 dB, so the pop is about 3.5 dB above the bed, and the story plays at -14.8 LUFS.
+  - `chat_audio.py` sets each effect relative to the measured music RMS: pop and ping +3.5 dB, role and join +3 dB, boom +5 dB, typing -14 dB.
+  - `chat.mjs` then applies one gain to reach -14.8 LUFS.
+  - In the class episode: the pop is +2.6 dB over the music, typing sits at -38 dB, and the whole mix is -14.3 LUFS.
+- **Typing sound (owner: "less noisy"):** three soft, low-passed taps, far under the dialogue.
 - **Pop on every line.** Ping for mentions. Chime when a bot gives a role. Join chime for arrivals.
   - **Boom:** only on the biggest escalations (2–3 per long-form video).
   - **Record scratch:** only on the authority's entrance or the reversal.

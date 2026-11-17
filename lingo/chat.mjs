@@ -43,7 +43,7 @@ function buildTimeline() {
       : Math.max(x + Math.max(T.minHold, T.holdBase + T.holdPerChar * last.length), start + 0.3 + T.readPerChar * all.length);
     const cast = spec.cast[b.who] || {};
     const sfx = [];
-    if (!b.big && !b.panel) lineTimes.forEach((lt, k) => sfx.push({ at: lt, name: k === 0 && b.firstSfx ? b.firstSfx : "pop" }));
+    if (!b.big && !b.panel) lineTimes.forEach((lt, k) => sfx.push({ at: lt, name: k === 0 && b.firstSfx ? b.firstSfx : (spec.popSound || "discord_pop") }));
     if (b.ping) sfx.push({ at: start, name: "ping" });
     if (typingFrom != null) sfx.push({ at: typingFrom, name: "typing" });
     (b.sfx ? [].concat(b.sfx) : []).forEach((s) => sfx.push(typeof s === "string" ? { at: start, name: s } : { at: start + (s.offset || 0), name: s.name }));
@@ -202,10 +202,10 @@ async function main() {
   const wav = path.join(OUT, `chat_${key}.wav`);
   execFileSync("python3", [path.join(HERE, "chat_audio.py"), tlFile, wav], { stdio: "inherit" });
   const final = path.join(OUT, `chat_${key}.mp4`);
-  // two-pass loudness: measure the mix, then apply one fixed gain to reach about -14 LUFS (YouTube's reference)
+  // two-pass loudness: measure the mix, then apply one fixed gain to reach the reference's -14.8 LUFS
   const r = spawnSync("ffmpeg", ["-hide_banner", "-i", wav, "-af", "ebur128", "-f", "null", "-"], { encoding: "utf8" });
   const I = +((r.stderr.match(/I:\s+(-?[\d.]+) LUFS/g) || []).pop() || "I: -14").match(/-?[\d.]+/)[0];
-  const gain = Math.max(-10, Math.min(16, -14 - I)).toFixed(1);
+  const gain = Math.max(-12, Math.min(30, (spec.loudness ?? -14.8) - I)).toFixed(1);
   execFileSync("ffmpeg", ["-v", "error", "-y", "-i", silent, "-i", wav, "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-af", `volume=${gain}dB,alimiter=limit=0.89`, "-shortest", final]);
   console.log(`  loudness ${I} LUFS -> gain ${gain} dB`);
   fs.unlinkSync(silent); fs.unlinkSync(wav);
