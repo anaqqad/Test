@@ -1,0 +1,35 @@
+{
+  "title": "New Member Thinks Server Roles Are Real Jobs",
+  "premise": "A new server member mistakes chat roles for real jobs.",
+  "clock": "12:01",
+  "music": { "file": "chat/assets/music/fluffing_a_duck.ogg", "gain": -17, "start": 2.0,
+             "credit": "\"Fluffing a Duck\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Fluffing_a_Duck.ogg" },
+  "cast": {
+    "bot":    { "name": "RoleBot", "bot": true, "color": "#8c9bff", "avatar": "chat/assets/avatars/rolebot.svg", "avatarBg": "#5b6ee1" },
+    "trevor": { "name": "trevor", "role": "New Member", "roleColor": "#99aab5", "color": "#f2f3f5", "avatar": "wojaks/s_eng_calm.png", "avatarBg": "#e0b04a", "music": true },
+    "maya":   { "name": "Maya", "role": "Moderator", "roleColor": "#3ba55d", "color": "#57d18a", "avatar": "wojaks/u_tpi_f.png", "avatarBg": "#2f6b48" },
+    "greg":   { "name": "Greg", "role": "Server Owner", "roleColor": "#ed4245", "color": "#ff6b6b", "avatar": "wojaks/s_jpn.png", "avatarBg": "#6b2f33" }
+  },
+  "beats": [
+    { "who": "bot", "lines": ["Welcome @trevor! 🎉", "Your role: [[Member|#99aab5]]"], "ping": true, "firstSfx": "join", "lineGap": 0.35, "hold": 0.75 },
+    { "who": "trevor", "lines": ["OMG I GOT THE JOB", "when do i get paid"] },
+    { "who": "maya", "lines": ["what job"] },
+    { "who": "trevor", "lines": ["it says MEMBER", "do i get dental??"] },
+    { "who": "bot", "lines": ["@trevor is now:", "[[🍳 Chef|#e67e22]]"], "firstSfx": "role" },
+    { "who": "trevor", "lines": ["WAIT", "i can't cook", "i burned cereal once"], "shake": true },
+    { "who": "maya", "lines": ["it's just a color"], "pause": 0.35, "zoom": 1.06 },
+    { "who": "bot", "lines": ["@trevor is now:", "[[🩺 Doctor|#e91e63]]"], "firstSfx": "role" },
+    { "who": "trevor", "lines": ["someone in #general is dying", "do i operate??"] },
+    { "who": "maya", "lines": ["he lost a video game"] },
+    { "who": "trevor", "big": "TIME OF DEATH: 12:04", "shake": true, "sfx": ["boom"], "hold": 1.1 },
+    { "who": "bot", "lines": ["@trevor is now:", "[[🛡️ Moderator|#3ba55d]]"], "firstSfx": "role" },
+    { "who": "trevor", "lines": ["maya we're coworkers now 🤝", "what's OUR salary"] },
+    { "who": "maya", "lines": ["trevor", "nobody gets paid"], "typing": 0.8, "lineGap": 0.7, "zoom": 1.06 },
+    { "who": "trevor", "lines": ["so it's a cult"], "pause": 0.3 },
+    { "who": "greg", "lines": ["@trevor you're fired"], "ping": true, "sfx": ["scratch"] },
+    { "who": "trevor", "lines": ["I DON'T EVEN WORK HERE"], "shake": true },
+    { "who": "bot", "lines": ["@trevor is now:", "[[Unemployed|#747f8d]]"], "firstSfx": "role" },
+    { "who": "trevor", "panel": { "header": "UNEMPLOYED — 1", "rows": [{ "who": "trevor" }] }, "hold": 1.1, "music": false },
+    { "who": "trevor", "lines": ["finally", "a job i'm qualified for"], "lineGap": 0.6, "hold": 1.8 }
+  ]
+}
