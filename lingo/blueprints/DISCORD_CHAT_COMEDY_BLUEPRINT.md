@@ -310,7 +310,7 @@ There are no Remotion components in this project. The renderer uses the same Pla
   - French "assister" = attend.
 - **Cast and sound:** the teacher is the straight man (silence). The students are chaos (default music). Principal Weber gets the "boss" track and makes the same "become" mistake (a twist callback).
 - **Ending:** "OFFLINE — 1" panel, then "she is very constipated" (callback).
-- **Final:** 1:31, 48 beats, 1920×1080, -16.5 LUFS. File: `lingo/videos/chat_class.mp4`.
+- **Final:** 1:31, 48 beats, 1920×1080, -16.5 LUFS. File: `lingo/videos/teaching_foreign_students_english_be_like.mp4` (title: "Teaching Foreign Students English be like…").
 - **Fixes from the review:**
   - long single lines were shrunk tiny, so they're now split into short lines, as in the reference;
   - a line ran off the frame during re-fit, so the zoom is now clamped to the frame width.
