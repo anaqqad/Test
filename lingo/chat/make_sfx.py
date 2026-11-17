@@ -23,7 +23,15 @@ def save(name, x, peak=0.7):
         w.writeframes((x * 32767).astype(np.int16).tobytes())
 
 rng = np.random.default_rng(7)
-save("pop", cat(tone(1046, 0.05, 60), tone(1397, 0.07, 50), gap=0.01), 0.45)          # every new line
+# message pop: matched to the reference's measured pop (about 160 ms; a G4+D5 pair, then G5+C5 from about 35 ms),
+# rebuilt from sine tones so it is our own sound, not a copy of anyone's file
+def chord(fs, d, decay, amps):
+    x = t(d); env = np.exp(-decay * x) * np.minimum(1, x / 0.003)
+    return env * sum(a * (np.sin(2 * np.pi * f * x) + 0.12 * np.sin(4 * np.pi * f * x)) for f, a in zip(fs, amps))
+pop = np.zeros(int(SR * 0.2))
+p1 = chord((392, 587), 0.07, 38, (1.0, 0.55)); pop[:len(p1)] += p1
+p2 = chord((784, 523), 0.16, 26, (1.0, 0.6)); o = int(SR * 0.035); pop[o:o + len(p2)] += p2[: len(pop) - o]
+save("pop", pop, 0.5)                                                                    # every new line
 save("ping", cat(tone(1568, 0.12, 22), tone(2093, 0.35, 9), gap=0.0), 0.55)             # @mention / highlight
 save("join", cat(tone(523, 0.09, 25), tone(784, 0.25, 10), gap=0.02), 0.5)              # someone joins
 save("role", cat(*[tone(f, 0.07, 30) for f in (784, 988, 1175)], tone(1568, 0.45, 7), gap=0.005), 0.55)  # role granted

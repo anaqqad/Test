@@ -69,20 +69,20 @@ function avatar(c, cls = "av") {
 function clock(i) {
   const [h, m] = (spec.clock || "1:27").split(":").map(Number);
   const mm = m + Math.floor(i / 4), hh = h + Math.floor(mm / 60);
-  return `${((hh - 1) % 12) + 1}:${String(mm % 60).padStart(2, "0")} ${spec.ampm || "PM"}`;
+  return `${spec.dayLabel ?? "Today at "}${((hh - 1) % 12) + 1}:${String(mm % 60).padStart(2, "0")} ${spec.ampm || "PM"}`;
 }
 function beatHTML(b) {
   let inner;
   if (b.panel) {
     const rows = b.panel.rows.map((r) => { const c = spec.cast[r.who] || {}; return `<div class="prow"><div class="pav">${avatar(c)}<span class="dot"></span></div><b style="color:${c.color || "#f2f3f5"}">${esc(c.name || r.who)}</b></div>`; }).join("");
-    inner = `<div class="msg panel"><div class="phead">${esc(b.panel.header)}</div>${rows}</div>`;
+    inner = `<div class="msg"><div class="row panel"><div class="phead">${esc(b.panel.header)}</div>${rows}</div><div class="tyrow"><span class="dots"><i></i><i></i><i></i></span><span class="tyt"><b></b> is typing...</span></div></div>`;
   } else if (b.big) {
-    inner = `<div class="msg bigm"><div class="bigt">${rich(b.lines[0])}</div></div>`;
+    inner = `<div class="msg"><div class="row bigm"><div class="bigt">${rich(b.lines[0])}</div></div><div class="tyrow"><span class="dots"><i></i><i></i><i></i></span><span class="tyt"><b></b> is typing...</span></div></div>`;
   } else {
     const c = spec.cast[b.who] || { name: b.who };
     const tag = c.bot ? `<span class="bot">✓ BOT</span>` : "";
     const lines = b.lines.map((l, k) => `<div class="ln" data-k="${k}">${rich(l)}</div>`).join("");
-    inner = `<div class="msg">${avatar(c)}<div class="body"><div class="hd"><b style="color:${c.color || "#f2f3f5"}">${esc(c.name || b.who)}</b>${tag}<span class="tm">${clock(b.i)}</span></div>${lines}</div></div>`;
+    inner = `<div class="msg"><div class="row">${avatar(c)}<div class="body"><div class="hd"><b style="color:${c.color || "#f2f3f5"}">${esc(c.name || b.who)}</b>${tag}<span class="tm">${clock(b.i)}</span></div>${lines}</div></div><div class="tyrow"><span class="dots"><i></i><i></i><i></i></span><span class="tyt"><b></b> is typing...</span></div></div>`;
   }
   return `<div class="band${b.ping ? " ping" : ""}${b.big ? " big" : ""}" id="b${b.i}">${inner}</div>`;
 }
@@ -94,7 +94,12 @@ body{width:${W}px;height:${H}px;overflow:hidden;background:#0b0b0c;font-family:I
 .band{position:absolute;left:0;width:${W}px;display:none;background:#36383e;overflow:visible}
 .band.ping{background:#45423a}
 .band.ping::before{content:"";position:absolute;left:0;top:0;bottom:0;width:${Math.round(W * 0.006)}px;background:#f0b232}
-.msg{position:absolute;left:0;top:0;display:inline-flex;align-items:flex-start;gap:18px;padding:14px 26px 16px 18px;transform-origin:0 0;white-space:nowrap}
+.msg{position:absolute;left:0;top:0;display:inline-block;transform-origin:0 0;white-space:nowrap}
+.row{display:flex;align-items:flex-start;gap:18px;padding:14px 26px 16px 18px}
+.tyrow{display:none;align-items:center;gap:10px;padding:4px 26px 9px 22px;font-size:21px;color:#b5bac1}
+.tyrow b{color:#f2f3f5;font-weight:700}
+.tyrow .dots{display:inline-flex;gap:5px;margin-right:4px}.tyrow .dots i{width:9px;height:9px;border-radius:50%;background:#7d828a}
+.band::after{content:"";position:absolute;left:0;right:0;bottom:0;height:var(--tyh,0px);background:#303237}
 .av{flex:0 0 72px;width:72px;height:72px;border-radius:50%;overflow:hidden;margin-top:2px}
 .av img{width:100%;height:100%;object-fit:cover;object-position:50% 8%;transform:scale(1.35);transform-origin:50% 0}
 .hd{display:flex;align-items:baseline;gap:12px;line-height:1.25}
@@ -104,21 +109,17 @@ body{width:${W}px;height:${H}px;overflow:hidden;background:#0b0b0c;font-family:I
 .ln{font-size:31px;line-height:1.42;color:#dbdee1;font-weight:400;display:none}
 .men{color:#c9cdfb;background:rgba(88,101,242,.3);border-radius:4px;padding:0 3px;font-weight:500}
 .rmen{border-radius:4px;padding:0 3px;font-weight:600}
-.bigm{padding:10px 30px}.bigt{font-size:34px;font-weight:500;color:#e6e7ea}
-.panel{flex-direction:column;gap:12px;padding:18px 28px}
+.row.bigm{padding:10px 30px}.bigt{font-size:34px;font-weight:500;color:#e6e7ea}
+.row.panel{flex-direction:column;align-items:flex-start;gap:12px;padding:18px 28px}
 .phead{font-size:24px;font-weight:700;color:#949ba4;letter-spacing:.6px}
 .prow{display:flex;align-items:center;gap:16px}.prow b{font-size:30px;font-weight:600}
 .pav{position:relative}.pav .av{flex:0 0 56px;width:56px;height:56px}
 .dot{position:absolute;right:-4px;bottom:-2px;width:22px;height:22px;border-radius:50%;background:#23a55a;border:5px solid #36383e}
-#typing{position:absolute;left:${Math.round(W * 0.03)}px;bottom:${Math.round(H * 0.045)}px;font-size:${Math.round(H * 0.045)}px;color:#dbdee1;display:none;align-items:center;gap:${Math.round(H * 0.012)}px}
-#typing b{font-weight:700;color:#fff}
-#typing .dots{display:inline-flex;gap:${Math.round(H * 0.006)}px}
-#typing .dots i{width:${Math.round(H * 0.011)}px;height:${Math.round(H * 0.011)}px;border-radius:50%;background:#dbdee1}
+.msg{z-index:1}
 #wm{position:absolute;right:${Math.round(W * 0.02)}px;bottom:${Math.round(H * 0.03)}px;font:700 ${Math.round(H * 0.022)}px Montserrat,Inter;color:rgba(255,255,255,.18)}
 </style>
 <link rel="stylesheet" href="${url("node_modules/@fontsource/montserrat/700.css")}">
 ${tl.beats.map(beatHTML).join("\n")}
-<div id="typing"><span class="dots"><i></i><i></i><i></i></span><span><b></b> is typing...</span></div>
 <div id="wm">${esc(spec.watermark || "LingoDude")}</div>
 <script>
 const TL=${JSON.stringify(tl)}, NAMES=${JSON.stringify(names)}, W=${W}, H=${H};
@@ -126,33 +127,38 @@ function rnd(i){const x=Math.sin(i*99.13)*43758.5;return x-Math.floor(x)}
 const ease=u=>u<0?0:u>1?1:1-Math.pow(1-u,3);
 const fitCache={};
 // natural size of the message with k lines visible -> scale that makes it fill the frame like the reference
-function fit(i,k){const id=i+'_'+k;if(fitCache[id])return fitCache[id];
+function fit(i,k,ty){const id=i+'_'+k+'_'+(ty?1:0);if(fitCache[id])return fitCache[id];
   const b=TL.beats[i],el=document.getElementById('b'+i),m=el.querySelector('.msg');
   el.style.display='block';m.style.transform='none';
   el.querySelectorAll('.ln').forEach((ln,j)=>ln.style.display=j<=k?'block':'none');
-  const w=m.offsetWidth,h=m.offsetHeight;
+  const tr=el.querySelector('.tyrow');tr.style.display=ty?'flex':'none';
+  const w=m.offsetWidth,h=m.offsetHeight,th=ty?tr.offsetHeight:0;
   const maxS=b.big?4.2:b.panel?4.0:3.1;
   let s=Math.min(maxS,(W*0.96)/w,(H*0.7)/h)*b.zoom;
-  return fitCache[id]={s,w,h};}
+  return fitCache[id]={s,w,h,th};}
 window.setT=function(t){
   let cur=-1;for(let i=0;i<TL.beats.length;i++){if(TL.beats[i].start<=t)cur=i}
   TL.beats.forEach((b,i)=>{if(i!==cur)document.getElementById('b'+i).style.display='none'});
-  const ty=document.getElementById('typing');ty.style.display='none';
   const nx=TL.beats[cur+1];
-  if(nx&&nx.typingFrom!=null&&t>=nx.typingFrom&&t<nx.start){ty.style.display='flex';ty.querySelector('b').textContent=NAMES[cur+1];
-    ty.querySelectorAll('.dots i').forEach((d,k)=>{d.style.opacity=0.35+0.65*Math.max(0,Math.sin(t*6.5-k*0.9))})}
+  const typing=!!(nx&&nx.typingFrom!=null&&t>=nx.typingFrom&&t<nx.start);
   if(cur<0)return;
   const b=TL.beats[cur],el=document.getElementById('b'+cur),m=el.querySelector('.msg');
   let k=0;b.lineTimes.forEach((lt,j)=>{if(t>=lt)k=j});
-  const f=fit(cur,k);
+  const f=fit(cur,k,typing);
   // the camera eases to the new fit for 0.15 s when a line arrives (the reference re-frames on every line)
   let s=f.s, h=f.h;
-  if(k>0){const p=fit(cur,k-1),u=ease((t-b.lineTimes[k])/0.15);s=p.s+(f.s-p.s)*u;h=p.h+(f.h-p.h)*u}
+  if(k>0&&!typing){const p=fit(cur,k-1,false),u=ease((t-b.lineTimes[k])/0.15);s=p.s+(f.s-p.s)*u;h=p.h+(f.h-p.h)*u}
+  if(typing){const p=fit(cur,k,false),u=ease((t-nx.typingFrom)/0.15);s=p.s+(f.s-p.s)*u;h=p.h+(f.h-p.h)*u}
+  s=Math.min(s,(W*0.96)/f.w); // never let a line run off the frame while the camera re-fits
   const u0=t-b.start, pop=u0<0.1?0.97+0.03*(u0/0.1):1;
   const push=1+0.02*Math.min(1,u0/Math.max(0.6,b.end-b.start));
   s*=pop*push;
   el.style.display='block';
   el.querySelectorAll('.ln').forEach((ln,j)=>ln.style.display=j<=k?'block':'none');
+  const tr=el.querySelector('.tyrow');tr.style.display=typing?'flex':'none';
+  if(typing){tr.querySelector('b').textContent=NAMES[cur+1];
+    const ph=Math.floor(t*3.2)%3;tr.querySelectorAll('.dots i').forEach((d,j)=>{d.style.background=j===ph?'#f2f3f5':'#7d828a'})}
+  el.style.setProperty('--tyh',(typing?f.th*s:0)+'px');
   const bandH=h*s, yc=H*(0.5+(rnd(cur+1)-0.5)*0.16);
   let sx=0,sy=0;if(b.shake&&u0<0.4){sx=(rnd(Math.floor(t*60))-0.5)*W*0.012;sy=(rnd(Math.floor(t*60)+5)-0.5)*H*0.02}
   el.style.top=(yc-bandH/2+sy)+'px';el.style.height=bandH+'px';
@@ -199,7 +205,7 @@ async function main() {
   // two-pass loudness: measure the mix, then apply one fixed gain to reach about -14 LUFS (YouTube's reference)
   const r = spawnSync("ffmpeg", ["-hide_banner", "-i", wav, "-af", "ebur128", "-f", "null", "-"], { encoding: "utf8" });
   const I = +((r.stderr.match(/I:\s+(-?[\d.]+) LUFS/g) || []).pop() || "I: -14").match(/-?[\d.]+/)[0];
-  const gain = Math.max(-10, Math.min(10, -14 - I)).toFixed(1);
+  const gain = Math.max(-10, Math.min(16, -14 - I)).toFixed(1);
   execFileSync("ffmpeg", ["-v", "error", "-y", "-i", silent, "-i", wav, "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-af", `volume=${gain}dB,alimiter=limit=0.89`, "-shortest", final]);
   console.log(`  loudness ${I} LUFS -> gain ${gain} dB`);
   fs.unlinkSync(silent); fs.unlinkSync(wav);

@@ -259,7 +259,8 @@ There are no Remotion components in this project. The renderer uses the same Pla
      - mentions as blue-purple chips; roles as coloured `@Role` mentions (`[[Doctor|#e91e63]]`);
      - a mentioned message gets a yellow tint and a gold left bar;
      - **camera re-fit:** each message is scaled so it fills the frame (short replies up to 3.1×, panels and big text up to 4×). It eases to a new fit over 0.15 s whenever a line arrives, like the reference re-framing on every line;
-     - **typing bar:** bottom left, three pulsing dots plus "**Name** is typing...", shown over the previous message for 0.5–1 s before key replies.
+     - **typing row (owner's screenshot, 2026-11-17):** a darker strip *inside the bottom of the current message box*, scaled with it. Three dots (grey, grey, white, with the white one cycling) and "**name** is typing...". It shows over the previous message for 0.5–1 s before key replies.
+     - **timestamps** read "Today at 8:02 AM" (`dayLabel`, `ampm` and `clock` in the episode file).
 7. **Deliver:**
    - Copy to `lingo/videos/chat_<key>.mp4`.
    - The description credits the music, says "Characters drawn for LingoDude", and has no AI voice.
@@ -269,6 +270,7 @@ There are no Remotion components in this project. The renderer uses the same Pla
 
 ## 6. Sound rules
 - **Music** plays only under music beats: `true` uses the default track, and a name such as `"boss"` uses that track. Normally the default plays under the chaos character, and the authority gets their own track when they take over (the reference switches the music bed when the CEO appears). Deadpan beats get **silence**, the reference's main trick. Keep music about 15–17 dB below the sound effects.
+- **Message pop = the reference's sound, rebuilt (owner, 2026-11-17: "use the Beluga one").** Measured from isolated pops in the reference at 76.3, 77.1, 78.2, 99.0 and 99.5 s: about **160 ms**, a **G4 + D5 pair (393 + 587 Hz)** for the first 35–40 ms, then **G5 + C5 (786 + 522 Hz)**, peaking at -5.7 dBFS. `chat/make_sfx.py` synthesises those notes and that envelope; ours measures 155 ms with the same note pairs. The original file is not copied, because it's Discord's or Beluga's audio and could trigger a claim.
 - **Pop on every line.** Ping for mentions. Chime when a bot gives a role. Join chime for arrivals.
   - **Boom:** only on the biggest escalations (2–3 per long-form video).
   - **Record scratch:** only on the authority's entrance or the reversal.
@@ -299,6 +301,21 @@ There are no Remotion components in this project. The renderer uses the same Pla
 - **Frames:** sample at 2 fps, scale to 270 px wide, and tile them into one image.
 - **Audio:** look at a spectrogram (`showspectrumpic`) to see the music and silence pattern, and run `ebur128` for loudness.
 - **On a real phone, the owner checks:** the timing of the jokes by ear.
+
+## 8a. Language episode: `class`, "English Teacher vs Her Foreign Students (Group Chat)" (owner, 2026-11-17)
+- **Topic (owner):** learning languages. A teacher and her foreign students; every joke is a real false friend:
+  - German "bekommen" = get (not "become"), German "Gift" = poison;
+  - Spanish "constipado" = having a cold, "embarazada" = pregnant;
+  - Japanese "manshon" = an apartment building;
+  - French "assister" = attend.
+- **Cast and sound:** the teacher is the straight man (silence). The students are chaos (default music). Principal Weber gets the "boss" track and makes the same "become" mistake (a twist callback).
+- **Ending:** "OFFLINE — 1" panel, then "she is very constipated" (callback).
+- **Final:** 1:31, 48 beats, 1920×1080, -16.5 LUFS. File: `lingo/videos/chat_class.mp4`.
+- **Fixes from the review:**
+  - long single lines were shrunk tiny, so they're now split into short lines, as in the reference;
+  - a line ran off the frame during re-fit, so the zoom is now clamped to the frame width.
+- **Weakest beat:** "Rude!" after Pierre's "i will not assist your presentation". It became "I didn't ASK for your help, Pierre." (the misunderstanding sets up his correction).
+- **Writing rule learned:** keep each line to about 28 characters or less. Longer lines force the camera to zoom out until the text is small.
 
 ## 8. Pilot record: `roles`, "New Member Thinks Server Roles Are Real Jobs"
 
