@@ -7,7 +7,7 @@ const key = process.argv[2];
 const SPECS = {
   class: { name: "English Class", photo: "class", pos: "50% 40%", flag: "es",
            left: { wojak: "wojaks/s_spa.png", say: "i am embarazada 😳" },
-           right: { wojak: "wojaks/sl2_gla_shock.png", hook: "DIEGO?!", flip: false } },
+           right: { wojak: "wojaks/sl2_gla_shock.png", hook: "DIEGO?!", flip: true } },
 };
 export const PHOTO_CREDITS = { class: "Classroom in the U.S.: photo by Marie from Malang, East Java, CC BY-SA 2.0, via Wikimedia Commons" };
 const T = SPECS[key]; if (!T) throw new Error("no spec for " + key);
