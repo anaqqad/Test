@@ -1,0 +1,763 @@
+{
+ "id": "reel-paul-robeson",
+ "title": "Then America Took His Passport",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Robeson": "Robe-son",
+  "Ol' Man River": "Old Man River"
+ },
+ "assets": {
+  "p1942": {
+   "commons": "File:Paul Robeson 1942 crop.jpg"
+  },
+  "senior": {
+   "commons": "File:Paul Robeson, senior photo from the Scarlet Letter yearbook.jpg"
+  },
+  "capskull": {
+   "commons": "File:Photograph of Paul Robeson with fellow Cap and Skull inductees.jpg"
+  },
+  "othello": {
+   "commons": "File:Scene from Othello with Paul Robeson as Othello 8e07912v.jpg"
+  },
+  "othello2": {
+   "commons": "File:Scene from Othello with Paul Robeson 8e07911v.jpg"
+  },
+  "shipyard": {
+   "commons": "File:\"Paul Robeson, world famous Negro baritone, leading Moore Shipyard (Oakland, CA) workers in singing the Star Spangled Ba - NARA - 535874.jpg"
+  },
+  "nara": {
+   "commons": "File:Paul Robeson - NARA - 559205.jpg"
+  },
+  "ejstill": {
+   "commons": "File:Paul Robeson in The Emperor Jones.jpg"
+  },
+  "p1930s": {
+   "commons": "File:Paul Robeson - 1930s.JPG"
+  },
+  "bham": {
+   "commons": "File:Paul Robeson - Birmingham Town Hall - 1939-03-07.jpg"
+  }
+ },
+ "clips": {
+  "pulpit": {
+   "file": "body_and_soul.webm",
+   "commons": "File:Body and Soul (1925).webm",
+   "start": 511.5,
+   "dur": 5.5
+  },
+  "pulpit2": {
+   "file": "body_and_soul.webm",
+   "commons": "File:Body and Soul (1925).webm",
+   "start": 482,
+   "dur": 5
+  },
+  "suit": {
+   "file": "body_and_soul.webm",
+   "commons": "File:Body and Soul (1925).webm",
+   "start": 846,
+   "dur": 4
+  },
+  "shoes": {
+   "file": "emperor_jones.webm",
+   "commons": "File:The Emperor Jones (1933) by Dudley Murphy and William Churchill de Mille.webm",
+   "start": 514,
+   "dur": 4
+  },
+  "sofa": {
+   "file": "emperor_jones.webm",
+   "commons": "File:The Emperor Jones (1933) by Dudley Murphy and William Churchill de Mille.webm",
+   "start": 914,
+   "dur": 10
+  },
+  "tux": {
+   "file": "emperor_jones.webm",
+   "commons": "File:The Emperor Jones (1933) by Dudley Murphy and William Churchill de Mille.webm",
+   "start": 980,
+   "dur": 8
+  },
+  "club": {
+   "file": "emperor_jones.webm",
+   "commons": "File:The Emperor Jones (1933) by Dudley Murphy and William Churchill de Mille.webm",
+   "start": 1054,
+   "dur": 8
+  },
+  "close": {
+   "file": "emperor_jones.webm",
+   "commons": "File:The Emperor Jones (1933) by Dudley Murphy and William Churchill de Mille.webm",
+   "start": 2632,
+   "dur": 10
+  },
+  "boss": {
+   "file": "emperor_jones.webm",
+   "commons": "File:The Emperor Jones (1933) by Dudley Murphy and William Churchill de Mille.webm",
+   "start": 2534,
+   "dur": 10
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "He was one of the most famous men in the world. Then America took away his passport.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1942",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.22
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "One of the most famous men alive. *Then America took his passport.*"
+   },
+   "captions": false,
+   "speed": 1.3
+  },
+  {
+   "id": "name",
+   "text": "His name was Paul Robeson.",
+   "visual": {
+    "kind": "title",
+    "title": "Paul Robeson",
+    "sub": "singer, actor, athlete, activist"
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "He was born in Princeton, New Jersey, in 1898. His father had escaped slavery and became a minister. When Paul was six, his mother died in a fire.",
+   "visual": {
+    "kind": "photo",
+    "image": "senior",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Princeton, New Jersey"
+    }
+   },
+   "section": "story"
+  },
+  {
+   "id": "rutgers",
+   "text": "He won a scholarship to Rutgers, where he was the only Black student at the time.",
+   "visual": {
+    "kind": "card",
+    "image": "capskull",
+    "caption": "Robeson with Cap and Skull inductees, Rutgers, 1919"
+   },
+   "overlays": {
+    "stamp": "1915"
+   }
+  },
+  {
+   "id": "tryouts",
+   "text": "At football tryouts, his own teammates broke his nose and dislocated his shoulder. He made the team anyway.",
+   "visual": {
+    "kind": "title",
+    "title": "A broken nose",
+    "sub": "and a dislocated shoulder"
+   }
+  },
+  {
+   "id": "star",
+   "text": "He became an All-American twice, joined Phi Beta Kappa, and graduated as class valedictorian.",
+   "visual": {
+    "kind": "photo",
+    "image": "senior",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.3,
+     1.45
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "law",
+   "text": "Then he earned a law degree from Columbia and joined a New York law firm.",
+   "visual": {
+    "kind": "video",
+    "clip": "suit",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "secretary",
+   "text": "But a white secretary refused to take dictation from him. So he quit. Not just the job, but the law.",
+   "visual": {
+    "kind": "title",
+    "title": "She refused",
+    "sub": "to take his dictation"
+   }
+  },
+  {
+   "id": "stage",
+   "text": "He turned to the stage, and to film.",
+   "visual": {
+    "kind": "video",
+    "clip": "pulpit",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "fame"
+  },
+  {
+   "id": "voice",
+   "text": "His deep voice made him a star. In Show Boat he sang Ol' Man River, and it became his song.",
+   "visual": {
+    "kind": "video",
+    "clip": "sofa",
+    "focus": [
+     0.33,
+     0.32
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   }
+  },
+  {
+   "id": "othello",
+   "text": "In 1943 he played Othello on Broadway. It ran 296 performances, a Broadway record for Shakespeare.",
+   "visual": {
+    "kind": "photo",
+    "image": "othello",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "stamp": "1943"
+   }
+  },
+  {
+   "id": "movies",
+   "text": "He starred in films in America and Britain, in leading roles.",
+   "visual": {
+    "kind": "video",
+    "clip": "tux",
+    "focus": [
+     0.7,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "fight",
+   "text": "And he used his fame. He sang for workers, and spoke out against lynching and segregation.",
+   "visual": {
+    "kind": "card",
+    "image": "shipyard",
+    "caption": "Robeson leads shipyard workers in song, Oakland, 1942"
+   }
+  },
+  {
+   "id": "soviet",
+   "text": "He also praised the Soviet Union. In Cold War America, that made him a target.",
+   "visual": {
+    "kind": "photo",
+    "image": "nara",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "target"
+  },
+  {
+   "id": "peekskill",
+   "text": "In 1949, rioters shut down his concert in Peekskill, New York.",
+   "visual": {
+    "kind": "title",
+    "title": "Peekskill, 1949",
+    "sub": "the concert was shut down"
+   }
+  },
+  {
+   "id": "passport",
+   "text": "In 1950, the State Department took his passport. He could no longer perform abroad.",
+   "visual": {
+    "kind": "title",
+    "title": "Passport cancelled",
+    "sub": "U.S. State Department, 1950"
+   },
+   "overlays": {
+    "stamp": "1950"
+   }
+  },
+  {
+   "id": "blacklist",
+   "text": "At home he was blacklisted. His records and films were pulled. His income fell from over a hundred thousand dollars a year to almost nothing.",
+   "visual": {
+    "kind": "video",
+    "clip": "close",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "border",
+   "text": "In 1952, he was even turned back at the Canadian border, though no passport was needed to enter Canada.",
+   "visual": {
+    "kind": "title",
+    "title": "Turned back",
+    "sub": "U.S.-Canada border, 1952"
+   }
+  },
+  {
+   "id": "peacearch",
+   "text": "So the union that invited him set up a concert at the Peace Arch. He stood on a flatbed truck on the American side and sang across the border to tens of thousands of people.",
+   "visual": {
+    "kind": "card",
+    "image": "bham",
+    "caption": "Paul Robeson in concert"
+   },
+   "overlays": {
+    "stamp": "May 18, 1952"
+   }
+  },
+  {
+   "id": "huac",
+   "text": "In 1956, Congress called him in. Asked why he didn't just stay in Russia, he answered:",
+   "visual": {
+    "kind": "photo",
+    "image": "p1930s",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "hearing",
+   "overlays": {
+    "stamp": "June 12, 1956"
+   }
+  },
+  {
+   "id": "father",
+   "text": "Because my father was a slave, and my people died to build this country, and I am going to stay here, and have a part of it, just like you.",
+   "visual": {
+    "kind": "title",
+    "title": "\"My father was a slave\"",
+    "sub": "Paul Robeson to Congress, 1956"
+   }
+  },
+  {
+   "id": "unamerican",
+   "text": "Then he told them: You are the un-Americans, and you ought to be ashamed of yourselves.",
+   "visual": {
+    "kind": "video",
+    "clip": "boss",
+    "focus": [
+     0.62,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "returned",
+   "text": "In 1958, after a Supreme Court ruling, he finally got his passport back.",
+   "visual": {
+    "kind": "card",
+    "image": "ejstill",
+    "caption": "Paul Robeson, The Emperor Jones, 1933"
+   },
+   "overlays": {
+    "stamp": "1958"
+   },
+   "section": "end"
+  },
+  {
+   "id": "decline",
+   "text": "But his health broke down, and his career never recovered. He died in Philadelphia in 1976. He was 77.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1942",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.3,
+     1.4
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "hof",
+   "text": "In 1995, he was finally named to the College Football Hall of Fame.",
+   "visual": {
+    "kind": "title",
+    "title": "1995",
+    "sub": "College Football Hall of Fame"
+   }
+  },
+  {
+   "id": "close",
+   "text": "That was Paul Robeson.",
+   "visual": {
+    "kind": "video",
+    "clip": "shoes",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Paul_Robeson"
+  },
+  "ENC": {
+   "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/robeson-paul"
+  },
+  "RU": {
+   "url": "https://www.rutgers.edu/news/paul-robeson-launched-career-singer-and-stage-actor-after-rutgers-graduation"
+  },
+  "COL": {
+   "url": "https://www.law.columbia.edu/news/archive/activist-global-stage-paul-robeson-1923"
+  },
+  "SWAN": {
+   "url": "https://collections.swansea.ac.uk/s/paul-robeson-wales/page/passport-withdrawal"
+  },
+  "PAN": {
+   "url": "https://www.peacearchnews.com/community/look-back-at-political-statement-at-peace-arch-border/"
+  },
+  "MNW": {
+   "url": "https://mynorthwest.com/local/washingtons-forgotten-woodstock-of-the-mccarthy-era/294843"
+  },
+  "HUAC": {
+   "url": "https://www.marxists.org/archive/robeson/1956/06/12.htm"
+  },
+  "GMU": {
+   "url": "https://historymatters.gmu.edu/d/6440"
+  },
+  "NARA": {
+   "url": "https://commons.wikimedia.org/wiki/File:%22Paul_Robeson,_world_famous_Negro_baritone,_leading_Moore_Shipyard_(Oakland,_CA)_workers_in_singing_the_Star_Spangled_Ba_-_NARA_-_535874.jpg"
+  },
+  "COMMONS_FILMS": {
+   "url": "https://commons.wikimedia.org/wiki/File:The_Emperor_Jones_(1933)_by_Dudley_Murphy_and_William_Churchill_de_Mille.webm"
+  },
+  "CFHOF": {
+   "url": "https://cfbhall.com/inductees/paul-robeson-1995"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ],
+   "note": "Wiki: house fire; ENC: stove-fire accident. Said as 'a fire'."
+  },
+  {
+   "beat": "rutgers",
+   "sources": [
+    "WIKI",
+    "RU"
+   ],
+   "note": "Wiki: third Black student ever, the only one at the time."
+  },
+  {
+   "beat": "tryouts",
+   "sources": [
+    "WIKI",
+    "RU"
+   ]
+  },
+  {
+   "beat": "star",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "law",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "COL"
+   ]
+  },
+  {
+   "beat": "secretary",
+   "sources": [
+    "ENC",
+    "RU",
+    "COL"
+   ],
+   "note": "exact words vary (Duberman); card says 'as reported'"
+  },
+  {
+   "beat": "voice",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "RU"
+   ]
+  },
+  {
+   "beat": "movies",
+   "sources": [
+    "WIKI",
+    "COMMONS_FILMS"
+   ],
+   "note": "Body and Soul 1925, The Emperor Jones 1933; British films 1930s per Wiki"
+  },
+  {
+   "beat": "othello",
+   "sources": [
+    "WIKI",
+    "RU"
+   ]
+  },
+  {
+   "beat": "fight",
+   "sources": [
+    "WIKI",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "soviet",
+   "sources": [
+    "ENC",
+    "RU"
+   ]
+  },
+  {
+   "beat": "peekskill",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "passport",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "SWAN",
+    "RU"
+   ]
+  },
+  {
+   "beat": "blacklist",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ],
+   "note": "Wiki: ~$150,000 to under $3,000; ENC: $104,000 (1947) to $2,000. Said as 'over a hundred thousand ... almost nothing'."
+  },
+  {
+   "beat": "border",
+   "sources": [
+    "PAN",
+    "MNW"
+   ]
+  },
+  {
+   "beat": "peacearch",
+   "sources": [
+    "WIKI",
+    "PAN",
+    "MNW"
+   ],
+   "note": "crowd 25,000-35,000 by source; said 'tens of thousands'"
+  },
+  {
+   "beat": "huac",
+   "sources": [
+    "WIKI",
+    "HUAC"
+   ]
+  },
+  {
+   "beat": "father",
+   "sources": [
+    "HUAC",
+    "GMU"
+   ]
+  },
+  {
+   "beat": "unamerican",
+   "sources": [
+    "HUAC",
+    "GMU"
+   ]
+  },
+  {
+   "beat": "returned",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "decline",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "RU"
+   ]
+  },
+  {
+   "beat": "hof",
+   "sources": [
+    "WIKI",
+    "CFHOF"
+   ]
+  }
+ ]
+}
