@@ -21,13 +21,13 @@ const msg = (m) => `<div class="m"><div class="av" style="background:${m.bg}"><i
   <div><div class="hd"><b style="color:${m.color}">${m.name}</b><span>${T.time}</span></div><div class="tx">${m.text}</div></div></div>`;
 const html = `<!doctype html><meta charset="utf-8"><style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{width:1280px;height:720px;overflow:hidden;background:#0b0b0c;font-family:Inter,"Noto Color Emoji",sans-serif;display:flex;align-items:center}
-.band{width:1280px;background:#36383e;padding:46px 30px 54px;display:flex;flex-direction:column;gap:52px}
+body{width:1280px;height:720px;overflow:hidden;background:#36383e;font-family:Inter,"Noto Color Emoji",sans-serif;display:flex;align-items:center}
+.band{width:1280px;height:720px;background:#36383e;padding:30px 36px;display:flex;flex-direction:column;justify-content:center;gap:70px}
 .m{display:flex;gap:30px;align-items:flex-start}
-.av{flex:0 0 172px;height:172px;border-radius:50%;overflow:hidden}
+.av{flex:0 0 196px;height:196px;border-radius:50%;overflow:hidden}
 .av img{width:100%;height:100%;object-fit:cover;object-position:50% 8%;transform:scale(1.35);transform-origin:50% 0}
-.hd{display:flex;align-items:baseline;gap:18px;margin-top:4px}.hd b{font-size:66px;font-weight:700}.hd span{font-size:42px;color:#949ba4;font-weight:500}
-.tx{font-size:76px;color:#e6e7ea;line-height:1.2;white-space:nowrap}
+.hd{display:flex;align-items:baseline;gap:18px;margin-top:4px}.hd b{font-size:74px;font-weight:700}.hd span{font-size:46px;color:#949ba4;font-weight:500}
+.tx{font-size:86px;color:#e6e7ea;line-height:1.2;white-space:nowrap}
 .men{color:#f6d36b;background:rgba(240,178,50,.25);border-radius:8px;padding:0 8px;font-weight:600}
 </style><div class="band">${T.msgs.map(msg).join("")}</div>`;
 const f = path.join(HERE, "cache", "pages", `thumbC_${key}.html`); fs.writeFileSync(f, html);

@@ -380,7 +380,7 @@ commit and push, and send me the video.
 **Command for the owner** (after an episode file exists): `cd lingo && node chat.mjs <key>`.
 
 ## 10. Thumbnail (owner, 2026-11-17: "just like" Beluga's Netflix thumbnail)
-- **Layout:** two chat messages stacked in one grey band that fills most of the 1280×720 frame: the setup, then the punchline reply.
+- **Layout:** two chat messages stacked on grey that fills the whole 1280×720 frame, top to bottom (owner): the setup, then the punchline reply.
 - **Look:**
   - big round avatars (172 px), names in their colours, small timestamps;
   - text at 76 px on a single line each (keep each line to about 25 characters);
