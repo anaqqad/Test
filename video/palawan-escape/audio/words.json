@@ -1,0 +1,9691 @@
+[
+[
+{
+"text": "Two",
+"start": 0.25,
+"end": 0.65
+},
+{
+"text": "o'clock",
+"start": 0.65,
+"end": 1.05
+},
+{
+"text": "in",
+"start": 1.05,
+"end": 1.27
+},
+{
+"text": "the",
+"start": 1.27,
+"end": 1.39
+},
+{
+"text": "afternoon,",
+"start": 1.39,
+"end": 1.87
+},
+{
+"text": "the",
+"start": 2.39,
+"end": 2.39
+},
+{
+"text": "fourteenth",
+"start": 2.39,
+"end": 2.87
+},
+{
+"text": "of",
+"start": 2.87,
+"end": 3.41
+},
+{
+"text": "December",
+"start": 3.41,
+"end": 3.41
+},
+{
+"text": "nineteen",
+"start": 3.41,
+"end": 4.325
+},
+{
+"text": "forty-four.",
+"start": 4.325,
+"end": 5.24
+},
+{
+"text": "Pwair-toh",
+"start": 5.24,
+"end": 6.155
+},
+{
+"text": "Prin-say-sah,",
+"start": 6.155,
+"end": 7.07
+},
+{
+"text": "on",
+"start": 7.07,
+"end": 7.49
+},
+{
+"text": "the",
+"start": 7.49,
+"end": 7.61
+},
+{
+"text": "Philippine",
+"start": 7.61,
+"end": 7.99
+},
+{
+"text": "island",
+"start": 7.99,
+"end": 8.39
+},
+{
+"text": "of",
+"start": 8.39,
+"end": 8.75
+},
+{
+"text": "Pa-lah-wan.",
+"start": 8.75,
+"end": 10.35
+},
+{
+"text": "An",
+"start": 10.35,
+"end": 10.53
+},
+{
+"text": "air",
+"start": 10.53,
+"end": 10.73
+},
+{
+"text": "raid",
+"start": 10.73,
+"end": 11.03
+},
+{
+"text": "alarm",
+"start": 11.03,
+"end": 11.43
+},
+{
+"text": "sounds",
+"start": 11.43,
+"end": 11.93
+},
+{
+"text": "over",
+"start": 11.93,
+"end": 12.27
+},
+{
+"text": "a",
+"start": 12.27,
+"end": 12.27
+},
+{
+"text": "prison",
+"start": 12.27,
+"end": 12.55
+},
+{
+"text": "camp",
+"start": 12.55,
+"end": 12.99
+},
+{
+"text": "holding",
+"start": 12.99,
+"end": 13.51
+},
+{
+"text": "one",
+"start": 13.51,
+"end": 13.71
+},
+{
+"text": "hundred",
+"start": 13.71,
+"end": 13.91
+},
+{
+"text": "and",
+"start": 13.91,
+"end": 14.11
+},
+{
+"text": "fifty",
+"start": 14.11,
+"end": 14.31
+},
+{
+"text": "American",
+"start": 14.31,
+"end": 15.31
+},
+{
+"text": "prisoners",
+"start": 15.31,
+"end": 15.75
+},
+{
+"text": "of",
+"start": 15.75,
+"end": 16.03
+},
+{
+"text": "war.",
+"start": 16.03,
+"end": 16.35
+},
+{
+"text": "The",
+"start": 17.39,
+"end": 17.55
+},
+{
+"text": "guards",
+"start": 17.55,
+"end": 17.79
+},
+{
+"text": "shout",
+"start": 17.79,
+"end": 18.11
+},
+{
+"text": "that",
+"start": 18.11,
+"end": 18.55
+},
+{
+"text": "hundreds",
+"start": 18.55,
+"end": 18.81
+},
+{
+"text": "of",
+"start": 18.81,
+"end": 19.07
+},
+{
+"text": "American",
+"start": 19.07,
+"end": 19.41
+},
+{
+"text": "planes",
+"start": 19.41,
+"end": 19.83
+},
+{
+"text": "are",
+"start": 19.83,
+"end": 20.07
+},
+{
+"text": "coming.",
+"start": 20.07,
+"end": 20.41
+},
+{
+"text": "And",
+"start": 21.35,
+"end": 21.57
+},
+{
+"text": "for",
+"start": 21.57,
+"end": 21.67
+},
+{
+"text": "the",
+"start": 21.67,
+"end": 21.79
+},
+{
+"text": "first",
+"start": 21.79,
+"end": 22.03
+},
+{
+"text": "time",
+"start": 22.03,
+"end": 22.31
+},
+{
+"text": "ever,",
+"start": 22.31,
+"end": 22.65
+},
+{
+"text": "the",
+"start": 23.03,
+"end": 23.09
+},
+{
+"text": "guards",
+"start": 23.09,
+"end": 23.35
+},
+{
+"text": "force",
+"start": 23.35,
+"end": 23.65
+},
+{
+"text": "every",
+"start": 23.65,
+"end": 24.07
+},
+{
+"text": "prisoner",
+"start": 24.07,
+"end": 24.39
+},
+{
+"text": "down",
+"start": 24.39,
+"end": 24.71
+},
+{
+"text": "into",
+"start": 24.71,
+"end": 25.03
+},
+{
+"text": "the",
+"start": 25.03,
+"end": 25.21
+},
+{
+"text": "shelters.",
+"start": 25.21,
+"end": 25.51
+}
+],
+[
+{
+"text": "The",
+"start": 26.925,
+"end": 27.245
+},
+{
+"text": "men",
+"start": 27.245,
+"end": 27.425
+},
+{
+"text": "in",
+"start": 27.425,
+"end": 27.625
+},
+{
+"text": "the",
+"start": 27.625,
+"end": 27.725
+},
+{
+"text": "trenches",
+"start": 27.725,
+"end": 28.085
+},
+{
+"text": "let",
+"start": 28.085,
+"end": 28.645
+},
+{
+"text": "themselves",
+"start": 28.645,
+"end": 29.065
+},
+{
+"text": "hope.",
+"start": 29.065,
+"end": 29.605
+},
+{
+"text": "American",
+"start": 30.665,
+"end": 30.905
+},
+{
+"text": "planes",
+"start": 30.905,
+"end": 31.365
+},
+{
+"text": "over",
+"start": 31.365,
+"end": 31.765
+},
+{
+"text": "Pa-lah-wan",
+"start": 31.765,
+"end": 32.285
+},
+{
+"text": "meant",
+"start": 32.285,
+"end": 32.865
+},
+{
+"text": "American",
+"start": 32.865,
+"end": 33.285
+},
+{
+"text": "ships",
+"start": 33.285,
+"end": 33.625
+},
+{
+"text": "close",
+"start": 33.625,
+"end": 33.985
+},
+{
+"text": "behind.",
+"start": 33.985,
+"end": 34.605
+},
+{
+"text": "Sergeant",
+"start": 35.825,
+"end": 35.945
+},
+{
+"text": "Douglas",
+"start": 35.945,
+"end": 36.385
+},
+{
+"text": "Bohg,",
+"start": 36.385,
+"end": 37.185
+},
+{
+"text": "a",
+"start": 37.185,
+"end": 37.225
+},
+{
+"text": "Marine,",
+"start": 37.225,
+"end": 37.505
+},
+{
+"text": "later",
+"start": 37.905,
+"end": 38.125
+},
+{
+"text": "swore",
+"start": 38.125,
+"end": 38.425
+},
+{
+"text": "that",
+"start": 38.425,
+"end": 38.605
+},
+{
+"text": "they",
+"start": 38.605,
+"end": 38.745
+},
+{
+"text": "thought",
+"start": 38.745,
+"end": 38.925
+},
+{
+"text": "it",
+"start": 38.925,
+"end": 39.065
+},
+{
+"text": "might",
+"start": 39.065,
+"end": 39.225
+},
+{
+"text": "be",
+"start": 39.225,
+"end": 39.405
+},
+{
+"text": "the",
+"start": 39.405,
+"end": 39.545
+},
+{
+"text": "real",
+"start": 39.545,
+"end": 39.725
+},
+{
+"text": "thing.",
+"start": 39.725,
+"end": 40.065
+},
+{
+"text": "Then,",
+"start": 41.105,
+"end": 41.385
+},
+{
+"text": "through",
+"start": 41.425,
+"end": 41.685
+},
+{
+"text": "the",
+"start": 41.685,
+"end": 41.825
+},
+{
+"text": "narrow",
+"start": 41.825,
+"end": 42.085
+},
+{
+"text": "openings",
+"start": 42.085,
+"end": 42.505
+},
+{
+"text": "of",
+"start": 42.505,
+"end": 42.685
+},
+{
+"text": "their",
+"start": 42.685,
+"end": 42.845
+},
+{
+"text": "shelters,",
+"start": 42.845,
+"end": 43.225
+},
+{
+"text": "they",
+"start": 43.645,
+"end": 43.825
+},
+{
+"text": "watched",
+"start": 43.825,
+"end": 44.065
+},
+{
+"text": "about",
+"start": 44.065,
+"end": 44.365
+},
+{
+"text": "sixty",
+"start": 44.365,
+"end": 44.825
+},
+{
+"text": "Japanese",
+"start": 44.825,
+"end": 45.245
+},
+{
+"text": "soldiers",
+"start": 45.245,
+"end": 45.705
+},
+{
+"text": "walk",
+"start": 45.705,
+"end": 46.105
+},
+{
+"text": "toward",
+"start": 46.105,
+"end": 46.425
+},
+{
+"text": "them.",
+"start": 46.425,
+"end": 46.805
+},
+{
+"text": "They",
+"start": 47.585,
+"end": 47.905
+},
+{
+"text": "carried",
+"start": 47.905,
+"end": 48.205
+},
+{
+"text": "machine",
+"start": 48.205,
+"end": 48.625
+},
+{
+"text": "guns",
+"start": 48.625,
+"end": 49.045
+},
+{
+"text": "and",
+"start": 49.045,
+"end": 49.465
+},
+{
+"text": "rifles.",
+"start": 49.465,
+"end": 49.845
+},
+{
+"text": "Some",
+"start": 51.005,
+"end": 51.185
+},
+{
+"text": "of",
+"start": 51.185,
+"end": 51.285
+},
+{
+"text": "them",
+"start": 51.285,
+"end": 51.485
+},
+{
+"text": "carried",
+"start": 51.485,
+"end": 51.905
+},
+{
+"text": "buckets.",
+"start": 51.905,
+"end": 52.245
+}
+],
+[
+{
+"text": "Out",
+"start": 53.675,
+"end": 54.015
+},
+{
+"text": "of",
+"start": 54.015,
+"end": 54.175
+},
+{
+"text": "one",
+"start": 54.175,
+"end": 54.325
+},
+{
+"text": "hundred",
+"start": 54.325,
+"end": 54.475
+},
+{
+"text": "and",
+"start": 54.475,
+"end": 54.625
+},
+{
+"text": "fifty",
+"start": 54.625,
+"end": 54.775
+},
+{
+"text": "men,",
+"start": 54.775,
+"end": 55.695
+},
+{
+"text": "eleven",
+"start": 55.695,
+"end": 56.215
+},
+{
+"text": "lived.",
+"start": 56.215,
+"end": 56.695
+},
+{
+"text": "This",
+"start": 57.695,
+"end": 57.915
+},
+{
+"text": "is",
+"start": 57.915,
+"end": 58.075
+},
+{
+"text": "the",
+"start": 58.075,
+"end": 58.255
+},
+{
+"text": "documented",
+"start": 58.255,
+"end": 58.655
+},
+{
+"text": "story",
+"start": 58.655,
+"end": 59.095
+},
+{
+"text": "of",
+"start": 59.095,
+"end": 59.375
+},
+{
+"text": "the",
+"start": 59.375,
+"end": 59.595
+},
+{
+"text": "Pa-lah-wan",
+"start": 59.595,
+"end": 59.955
+},
+{
+"text": "massacre:",
+"start": 59.955,
+"end": 60.375
+},
+{
+"text": "how",
+"start": 60.715,
+"end": 61.115
+},
+{
+"text": "eleven",
+"start": 61.115,
+"end": 61.415
+},
+{
+"text": "men",
+"start": 61.415,
+"end": 61.615
+},
+{
+"text": "got",
+"start": 61.615,
+"end": 61.835
+},
+{
+"text": "out,",
+"start": 61.835,
+"end": 62.095
+},
+{
+"text": "through",
+"start": 62.095,
+"end": 62.495
+},
+{
+"text": "a",
+"start": 62.495,
+"end": 62.675
+},
+{
+"text": "fence,",
+"start": 62.675,
+"end": 62.935
+},
+{
+"text": "down",
+"start": 63.355,
+"end": 63.515
+},
+{
+"text": "a",
+"start": 63.515,
+"end": 63.695
+},
+{
+"text": "cliff",
+"start": 63.695,
+"end": 63.895
+},
+{
+"text": "and",
+"start": 64.295,
+"end": 64.395
+},
+{
+"text": "across",
+"start": 64.395,
+"end": 64.635
+},
+{
+"text": "five",
+"start": 64.635,
+"end": 65.035
+},
+{
+"text": "miles",
+"start": 65.035,
+"end": 65.315
+},
+{
+"text": "of",
+"start": 65.315,
+"end": 65.495
+},
+{
+"text": "open",
+"start": 65.495,
+"end": 65.795
+},
+{
+"text": "water,",
+"start": 65.795,
+"end": 66.155
+},
+{
+"text": "and",
+"start": 66.535,
+"end": 66.695
+},
+{
+"text": "how",
+"start": 66.695,
+"end": 66.855
+},
+{
+"text": "what",
+"start": 66.855,
+"end": 67.015
+},
+{
+"text": "they",
+"start": 67.015,
+"end": 67.155
+},
+{
+"text": "told",
+"start": 67.155,
+"end": 67.355
+},
+{
+"text": "the",
+"start": 67.355,
+"end": 67.555
+},
+{
+"text": "Army",
+"start": 67.555,
+"end": 67.815
+},
+{
+"text": "may",
+"start": 67.815,
+"end": 68.095
+},
+{
+"text": "have",
+"start": 68.095,
+"end": 68.215
+},
+{
+"text": "helped",
+"start": 68.215,
+"end": 68.455
+},
+{
+"text": "save",
+"start": 68.455,
+"end": 68.815
+},
+{
+"text": "five",
+"start": 68.815,
+"end": 69.055
+},
+{
+"text": "hundred",
+"start": 69.055,
+"end": 69.295
+},
+{
+"text": "other",
+"start": 69.295,
+"end": 69.735
+},
+{
+"text": "prisoners",
+"start": 69.735,
+"end": 70.115
+},
+{
+"text": "a",
+"start": 70.115,
+"end": 70.595
+},
+{
+"text": "few",
+"start": 70.595,
+"end": 70.755
+},
+{
+"text": "weeks",
+"start": 70.755,
+"end": 70.995
+},
+{
+"text": "later.",
+"start": 70.995,
+"end": 71.335
+}
+],
+[
+{
+"text": "The",
+"start": 73.0,
+"end": 73.34
+},
+{
+"text": "story",
+"start": 73.34,
+"end": 73.58
+},
+{
+"text": "starts",
+"start": 73.58,
+"end": 73.96
+},
+{
+"text": "in",
+"start": 73.96,
+"end": 74.32
+},
+{
+"text": "August",
+"start": 74.32,
+"end": 74.58
+},
+{
+"text": "nineteen",
+"start": 74.58,
+"end": 75.76
+},
+{
+"text": "forty-two.",
+"start": 75.76,
+"end": 76.94
+},
+{
+"text": "Four",
+"start": 76.94,
+"end": 77.02
+},
+{
+"text": "months",
+"start": 77.02,
+"end": 77.26
+},
+{
+"text": "after",
+"start": 77.26,
+"end": 77.6
+},
+{
+"text": "the",
+"start": 77.6,
+"end": 77.72
+},
+{
+"text": "surrender",
+"start": 77.72,
+"end": 78.0
+},
+{
+"text": "of",
+"start": 78.0,
+"end": 78.28
+},
+{
+"text": "Bataan",
+"start": 78.28,
+"end": 78.72
+},
+{
+"text": "and",
+"start": 78.72,
+"end": 78.9
+},
+{
+"text": "Corregidor,",
+"start": 78.9,
+"end": 79.96
+},
+{
+"text": "about",
+"start": 79.96,
+"end": 80.06
+},
+{
+"text": "three",
+"start": 80.06,
+"end": 80.285
+},
+{
+"text": "hundred",
+"start": 80.285,
+"end": 80.51
+},
+{
+"text": "and",
+"start": 80.51,
+"end": 80.735
+},
+{
+"text": "fifty",
+"start": 80.735,
+"end": 80.96
+},
+{
+"text": "American",
+"start": 80.96,
+"end": 81.8
+},
+{
+"text": "prisoners",
+"start": 81.8,
+"end": 82.3
+},
+{
+"text": "were",
+"start": 82.3,
+"end": 82.7
+},
+{
+"text": "shipped",
+"start": 82.7,
+"end": 82.9
+},
+{
+"text": "from",
+"start": 82.9,
+"end": 83.14
+},
+{
+"text": "the",
+"start": 83.14,
+"end": 83.28
+},
+{
+"text": "camp",
+"start": 83.28,
+"end": 83.52
+},
+{
+"text": "at",
+"start": 83.52,
+"end": 83.88
+},
+{
+"text": "Kah-bah-nah-twahn",
+"start": 83.88,
+"end": 84.76
+},
+{
+"text": "to",
+"start": 84.76,
+"end": 85.06
+},
+{
+"text": "Pa-lah-wan,",
+"start": 85.06,
+"end": 86.12
+},
+{
+"text": "a",
+"start": 86.12,
+"end": 86.28
+},
+{
+"text": "long,",
+"start": 86.28,
+"end": 86.54
+},
+{
+"text": "narrow",
+"start": 86.86,
+"end": 87.0
+},
+{
+"text": "island",
+"start": 87.0,
+"end": 87.44
+},
+{
+"text": "at",
+"start": 87.44,
+"end": 87.86
+},
+{
+"text": "the",
+"start": 87.86,
+"end": 87.96
+},
+{
+"text": "western",
+"start": 87.96,
+"end": 88.18
+},
+{
+"text": "edge",
+"start": 88.18,
+"end": 88.52
+},
+{
+"text": "of",
+"start": 88.52,
+"end": 88.66
+},
+{
+"text": "the",
+"start": 88.66,
+"end": 88.78
+},
+{
+"text": "Philippines.",
+"start": 88.78,
+"end": 89.16
+},
+{
+"text": "Their",
+"start": 90.36,
+"end": 90.54
+},
+{
+"text": "job",
+"start": 90.54,
+"end": 90.8
+},
+{
+"text": "was",
+"start": 90.8,
+"end": 91.14
+},
+{
+"text": "to",
+"start": 91.14,
+"end": 91.34
+},
+{
+"text": "build",
+"start": 91.34,
+"end": 91.5
+},
+{
+"text": "an",
+"start": 91.5,
+"end": 91.66
+},
+{
+"text": "airfield",
+"start": 91.66,
+"end": 92.06
+},
+{
+"text": "for",
+"start": 92.06,
+"end": 92.3
+},
+{
+"text": "the",
+"start": 92.3,
+"end": 92.44
+},
+{
+"text": "Japanese,",
+"start": 92.44,
+"end": 92.82
+},
+{
+"text": "by",
+"start": 92.82,
+"end": 93.42
+},
+{
+"text": "hand.",
+"start": 93.42,
+"end": 93.78
+}
+],
+[
+{
+"text": "For",
+"start": 95.075,
+"end": 95.415
+},
+{
+"text": "two",
+"start": 95.415,
+"end": 95.575
+},
+{
+"text": "years",
+"start": 95.575,
+"end": 95.875
+},
+{
+"text": "they",
+"start": 95.875,
+"end": 96.215
+},
+{
+"text": "cut",
+"start": 96.215,
+"end": 96.415
+},
+{
+"text": "down",
+"start": 96.415,
+"end": 96.675
+},
+{
+"text": "jungle",
+"start": 96.675,
+"end": 96.975
+},
+{
+"text": "with",
+"start": 96.975,
+"end": 97.215
+},
+{
+"text": "axes,",
+"start": 97.215,
+"end": 97.635
+},
+{
+"text": "crushed",
+"start": 98.155,
+"end": 98.355
+},
+{
+"text": "coral",
+"start": 98.355,
+"end": 98.735
+},
+{
+"text": "and",
+"start": 99.035,
+"end": 99.155
+},
+{
+"text": "poured",
+"start": 99.155,
+"end": 99.395
+},
+{
+"text": "concrete",
+"start": 99.395,
+"end": 99.895
+},
+{
+"text": "under",
+"start": 99.895,
+"end": 100.255
+},
+{
+"text": "the",
+"start": 100.255,
+"end": 100.435
+},
+{
+"text": "tropical",
+"start": 100.435,
+"end": 100.695
+},
+{
+"text": "sun.",
+"start": 100.695,
+"end": 101.095
+},
+{
+"text": "They",
+"start": 102.115,
+"end": 102.295
+},
+{
+"text": "lived",
+"start": 102.295,
+"end": 102.535
+},
+{
+"text": "on",
+"start": 102.535,
+"end": 102.815
+},
+{
+"text": "wormy",
+"start": 102.815,
+"end": 103.175
+},
+{
+"text": "rice",
+"start": 103.175,
+"end": 103.475
+},
+{
+"text": "and",
+"start": 103.475,
+"end": 103.915
+},
+{
+"text": "soup",
+"start": 103.915,
+"end": 104.175
+},
+{
+"text": "made",
+"start": 104.175,
+"end": 104.375
+},
+{
+"text": "of",
+"start": 104.375,
+"end": 104.515
+},
+{
+"text": "vines.",
+"start": 104.515,
+"end": 104.855
+},
+{
+"text": "A",
+"start": 106.015,
+"end": 106.075
+},
+{
+"text": "camp",
+"start": 106.075,
+"end": 106.295
+},
+{
+"text": "cook",
+"start": 106.295,
+"end": 106.615
+},
+{
+"text": "broke",
+"start": 106.615,
+"end": 107.075
+},
+{
+"text": "two",
+"start": 107.075,
+"end": 107.375
+},
+{
+"text": "men's",
+"start": 107.375,
+"end": 107.735
+},
+{
+"text": "arms",
+"start": 107.735,
+"end": 107.935
+},
+{
+"text": "for",
+"start": 107.935,
+"end": 108.155
+},
+{
+"text": "picking",
+"start": 108.155,
+"end": 108.435
+},
+{
+"text": "papayas.",
+"start": 108.435,
+"end": 108.995
+},
+{
+"text": "One",
+"start": 109.955,
+"end": 110.215
+},
+{
+"text": "Marine,",
+"start": 110.215,
+"end": 110.615
+},
+{
+"text": "Glenn",
+"start": 111.095,
+"end": 111.155
+},
+{
+"text": "Mac-Dole,",
+"start": 111.155,
+"end": 111.675
+},
+{
+"text": "had",
+"start": 111.875,
+"end": 112.135
+},
+{
+"text": "his",
+"start": 112.135,
+"end": 112.275
+},
+{
+"text": "appendix",
+"start": 112.275,
+"end": 112.655
+},
+{
+"text": "taken",
+"start": 112.655,
+"end": 112.975
+},
+{
+"text": "out",
+"start": 112.975,
+"end": 113.295
+},
+{
+"text": "without",
+"start": 113.295,
+"end": 113.595
+},
+{
+"text": "anaesthetic.",
+"start": 113.595,
+"end": 115.115
+},
+{
+"text": "And",
+"start": 115.115,
+"end": 115.455
+},
+{
+"text": "the",
+"start": 115.455,
+"end": 115.555
+},
+{
+"text": "camp",
+"start": 115.555,
+"end": 115.775
+},
+{
+"text": "had",
+"start": 115.775,
+"end": 116.155
+},
+{
+"text": "one",
+"start": 116.155,
+"end": 116.415
+},
+{
+"text": "rule",
+"start": 116.415,
+"end": 116.775
+},
+{
+"text": "above",
+"start": 116.775,
+"end": 117.115
+},
+{
+"text": "all",
+"start": 117.115,
+"end": 117.355
+},
+{
+"text": "others.",
+"start": 117.355,
+"end": 117.675
+},
+{
+"text": "For",
+"start": 118.495,
+"end": 118.855
+},
+{
+"text": "every",
+"start": 118.855,
+"end": 119.135
+},
+{
+"text": "prisoner",
+"start": 119.135,
+"end": 119.435
+},
+{
+"text": "who",
+"start": 119.435,
+"end": 119.695
+},
+{
+"text": "escaped,",
+"start": 119.695,
+"end": 120.095
+},
+{
+"text": "ten",
+"start": 120.095,
+"end": 120.655
+},
+{
+"text": "would",
+"start": 120.655,
+"end": 120.955
+},
+{
+"text": "be",
+"start": 120.955,
+"end": 121.075
+},
+{
+"text": "executed.",
+"start": 121.075,
+"end": 121.555
+}
+],
+[
+{
+"text": "In",
+"start": 122.875,
+"end": 123.255
+},
+{
+"text": "September",
+"start": 123.255,
+"end": 123.615
+},
+{
+"text": "nineteen",
+"start": 123.615,
+"end": 124.002
+},
+{
+"text": "forty-four,",
+"start": 124.002,
+"end": 124.388
+},
+{
+"text": "one",
+"start": 124.388,
+"end": 124.775
+},
+{
+"text": "hundred",
+"start": 124.775,
+"end": 125.162
+},
+{
+"text": "and",
+"start": 125.162,
+"end": 125.548
+},
+{
+"text": "fifty-nine",
+"start": 125.548,
+"end": 125.935
+},
+{
+"text": "of",
+"start": 125.935,
+"end": 126.395
+},
+{
+"text": "the",
+"start": 126.395,
+"end": 126.495
+},
+{
+"text": "men",
+"start": 126.495,
+"end": 126.695
+},
+{
+"text": "were",
+"start": 126.695,
+"end": 127.155
+},
+{
+"text": "shipped",
+"start": 127.155,
+"end": 127.335
+},
+{
+"text": "back",
+"start": 127.335,
+"end": 127.635
+},
+{
+"text": "to",
+"start": 127.635,
+"end": 127.855
+},
+{
+"text": "Manila.",
+"start": 127.855,
+"end": 128.115
+},
+{
+"text": "One",
+"start": 128.115,
+"end": 128.66
+},
+{
+"text": "hundred",
+"start": 128.66,
+"end": 129.205
+},
+{
+"text": "and",
+"start": 129.205,
+"end": 129.75
+},
+{
+"text": "fifty",
+"start": 129.75,
+"end": 130.295
+},
+{
+"text": "stayed",
+"start": 130.295,
+"end": 130.935
+},
+{
+"text": "behind",
+"start": 130.935,
+"end": 131.375
+},
+{
+"text": "on",
+"start": 131.375,
+"end": 131.735
+},
+{
+"text": "Pa-lah-wan.",
+"start": 131.735,
+"end": 133.375
+},
+{
+"text": "Nobody",
+"start": 133.375,
+"end": 133.695
+},
+{
+"text": "knew",
+"start": 133.695,
+"end": 134.015
+},
+{
+"text": "it",
+"start": 134.015,
+"end": 134.215
+},
+{
+"text": "yet,",
+"start": 134.215,
+"end": 134.415
+},
+{
+"text": "but",
+"start": 134.735,
+"end": 134.835
+},
+{
+"text": "the",
+"start": 134.835,
+"end": 134.955
+},
+{
+"text": "ones",
+"start": 134.955,
+"end": 135.135
+},
+{
+"text": "who",
+"start": 135.135,
+"end": 135.355
+},
+{
+"text": "left",
+"start": 135.355,
+"end": 135.595
+},
+{
+"text": "were",
+"start": 135.595,
+"end": 135.895
+},
+{
+"text": "the",
+"start": 135.895,
+"end": 136.015
+},
+{
+"text": "lucky",
+"start": 136.015,
+"end": 136.215
+},
+{
+"text": "ones.",
+"start": 136.215,
+"end": 136.615
+}
+],
+[
+{
+"text": "On",
+"start": 138.25,
+"end": 138.61
+},
+{
+"text": "the",
+"start": 138.61,
+"end": 138.803
+},
+{
+"text": "nineteenth",
+"start": 138.803,
+"end": 138.997
+},
+{
+"text": "of",
+"start": 138.997,
+"end": 139.19
+},
+{
+"text": "October",
+"start": 139.19,
+"end": 139.55
+},
+{
+"text": "nineteen",
+"start": 139.55,
+"end": 140.33
+},
+{
+"text": "forty-four,",
+"start": 140.33,
+"end": 141.11
+},
+{
+"text": "American",
+"start": 141.11,
+"end": 141.39
+},
+{
+"text": "B",
+"start": 141.39,
+"end": 141.63
+},
+{
+"text": "twenty-four",
+"start": 141.63,
+"end": 142.17
+},
+{
+"text": "bombers",
+"start": 142.17,
+"end": 142.55
+},
+{
+"text": "appeared",
+"start": 142.55,
+"end": 143.17
+},
+{
+"text": "over",
+"start": 143.17,
+"end": 143.53
+},
+{
+"text": "Pa-lah-wan",
+"start": 143.53,
+"end": 144.01
+},
+{
+"text": "for",
+"start": 144.01,
+"end": 144.43
+},
+{
+"text": "the",
+"start": 144.43,
+"end": 144.57
+},
+{
+"text": "first",
+"start": 144.57,
+"end": 144.79
+},
+{
+"text": "time.",
+"start": 144.79,
+"end": 145.37
+},
+{
+"text": "One",
+"start": 146.19,
+"end": 146.45
+},
+{
+"text": "pilot",
+"start": 146.45,
+"end": 146.75
+},
+{
+"text": "flew",
+"start": 146.75,
+"end": 147.05
+},
+{
+"text": "low",
+"start": 147.05,
+"end": 147.35
+},
+{
+"text": "over",
+"start": 147.35,
+"end": 147.63
+},
+{
+"text": "the",
+"start": 147.63,
+"end": 147.79
+},
+{
+"text": "camp",
+"start": 147.79,
+"end": 148.01
+},
+{
+"text": "and",
+"start": 148.01,
+"end": 148.47
+},
+{
+"text": "waggled",
+"start": 148.47,
+"end": 148.81
+},
+{
+"text": "his",
+"start": 148.81,
+"end": 148.95
+},
+{
+"text": "wings",
+"start": 148.95,
+"end": 149.19
+},
+{
+"text": "at",
+"start": 149.19,
+"end": 149.39
+},
+{
+"text": "the",
+"start": 149.39,
+"end": 149.51
+},
+{
+"text": "prisoners,",
+"start": 149.51,
+"end": 149.87
+},
+{
+"text": "then",
+"start": 150.27,
+"end": 150.51
+},
+{
+"text": "went",
+"start": 150.51,
+"end": 150.67
+},
+{
+"text": "on",
+"start": 150.67,
+"end": 150.83
+},
+{
+"text": "to",
+"start": 150.83,
+"end": 151.01
+},
+{
+"text": "bomb",
+"start": 151.01,
+"end": 151.19
+},
+{
+"text": "the",
+"start": 151.19,
+"end": 151.39
+},
+{
+"text": "airfield",
+"start": 151.39,
+"end": 151.79
+},
+{
+"text": "they",
+"start": 151.79,
+"end": 152.07
+},
+{
+"text": "had",
+"start": 152.07,
+"end": 152.23
+},
+{
+"text": "built.",
+"start": 152.23,
+"end": 152.49
+},
+{
+"text": "On",
+"start": 153.39,
+"end": 153.67
+},
+{
+"text": "the",
+"start": 153.67,
+"end": 153.77
+},
+{
+"text": "twenty-eighth",
+"start": 153.77,
+"end": 154.65
+},
+{
+"text": "the",
+"start": 154.65,
+"end": 154.71
+},
+{
+"text": "bombers",
+"start": 154.71,
+"end": 154.95
+},
+{
+"text": "came",
+"start": 154.95,
+"end": 155.23
+},
+{
+"text": "back.",
+"start": 155.23,
+"end": 155.57
+},
+{
+"text": "The",
+"start": 156.51,
+"end": 156.69
+},
+{
+"text": "guards",
+"start": 156.69,
+"end": 156.91
+},
+{
+"text": "took",
+"start": 156.91,
+"end": 157.17
+},
+{
+"text": "it",
+"start": 157.17,
+"end": 157.31
+},
+{
+"text": "out",
+"start": 157.31,
+"end": 157.49
+},
+{
+"text": "on",
+"start": 157.49,
+"end": 157.83
+},
+{
+"text": "the",
+"start": 157.83,
+"end": 157.93
+},
+{
+"text": "prisoners.",
+"start": 157.93,
+"end": 158.31
+},
+{
+"text": "After",
+"start": 159.49,
+"end": 159.67
+},
+{
+"text": "every",
+"start": 159.67,
+"end": 160.01
+},
+{
+"text": "raid,",
+"start": 160.01,
+"end": 160.31
+},
+{
+"text": "an",
+"start": 160.59,
+"end": 160.71
+},
+{
+"text": "Army",
+"start": 160.71,
+"end": 160.91
+},
+{
+"text": "report",
+"start": 160.91,
+"end": 161.31
+},
+{
+"text": "said",
+"start": 161.31,
+"end": 161.59
+},
+{
+"text": "later,",
+"start": 161.59,
+"end": 161.97
+},
+{
+"text": "the",
+"start": 161.97,
+"end": 162.39
+},
+{
+"text": "treatment",
+"start": 162.39,
+"end": 162.67
+},
+{
+"text": "got",
+"start": 162.67,
+"end": 162.93
+},
+{
+"text": "worse.",
+"start": 162.93,
+"end": 163.23
+}
+],
+[
+{
+"text": "After",
+"start": 164.575,
+"end": 165.035
+},
+{
+"text": "the",
+"start": 165.035,
+"end": 165.195
+},
+{
+"text": "raids,",
+"start": 165.195,
+"end": 165.455
+},
+{
+"text": "the",
+"start": 165.855,
+"end": 165.935
+},
+{
+"text": "prisoners",
+"start": 165.935,
+"end": 166.175
+},
+{
+"text": "were",
+"start": 166.175,
+"end": 166.495
+},
+{
+"text": "ordered",
+"start": 166.495,
+"end": 166.755
+},
+{
+"text": "to",
+"start": 166.755,
+"end": 166.995
+},
+{
+"text": "dig",
+"start": 166.995,
+"end": 167.215
+},
+{
+"text": "air",
+"start": 167.215,
+"end": 167.555
+},
+{
+"text": "raid",
+"start": 167.555,
+"end": 167.815
+},
+{
+"text": "shelters.",
+"start": 167.815,
+"end": 168.295
+},
+{
+"text": "Three",
+"start": 169.335,
+"end": 169.615
+},
+{
+"text": "trenches,",
+"start": 169.615,
+"end": 169.995
+},
+{
+"text": "five",
+"start": 170.455,
+"end": 170.635
+},
+{
+"text": "feet",
+"start": 170.635,
+"end": 170.875
+},
+{
+"text": "deep",
+"start": 170.875,
+"end": 171.155
+},
+{
+"text": "and",
+"start": 171.155,
+"end": 171.375
+},
+{
+"text": "four",
+"start": 171.375,
+"end": 171.575
+},
+{
+"text": "feet",
+"start": 171.575,
+"end": 171.815
+},
+{
+"text": "wide,",
+"start": 171.815,
+"end": 172.215
+},
+{
+"text": "each",
+"start": 172.475,
+"end": 172.675
+},
+{
+"text": "long",
+"start": 172.675,
+"end": 172.875
+},
+{
+"text": "enough",
+"start": 172.875,
+"end": 173.115
+},
+{
+"text": "for",
+"start": 173.115,
+"end": 173.315
+},
+{
+"text": "fifty",
+"start": 173.315,
+"end": 173.555
+},
+{
+"text": "men,",
+"start": 173.555,
+"end": 173.855
+},
+{
+"text": "covered",
+"start": 174.155,
+"end": 174.355
+},
+{
+"text": "over",
+"start": 174.355,
+"end": 174.715
+},
+{
+"text": "with",
+"start": 174.715,
+"end": 174.895
+},
+{
+"text": "logs",
+"start": 174.895,
+"end": 175.195
+},
+{
+"text": "and",
+"start": 175.195,
+"end": 175.495
+},
+{
+"text": "earth.",
+"start": 175.495,
+"end": 175.755
+},
+{
+"text": "The",
+"start": 176.695,
+"end": 176.915
+},
+{
+"text": "Japanese",
+"start": 176.915,
+"end": 177.275
+},
+{
+"text": "wanted",
+"start": 177.275,
+"end": 177.975
+},
+{
+"text": "one",
+"start": 177.975,
+"end": 178.255
+},
+{
+"text": "entrance",
+"start": 178.255,
+"end": 178.575
+},
+{
+"text": "for",
+"start": 178.575,
+"end": 178.835
+},
+{
+"text": "each",
+"start": 178.835,
+"end": 179.095
+},
+{
+"text": "trench.",
+"start": 179.095,
+"end": 179.395
+},
+{
+"text": "The",
+"start": 180.435,
+"end": 180.635
+},
+{
+"text": "American",
+"start": 180.635,
+"end": 181.015
+},
+{
+"text": "officers",
+"start": 181.015,
+"end": 181.415
+},
+{
+"text": "argued",
+"start": 181.415,
+"end": 182.015
+},
+{
+"text": "until",
+"start": 182.015,
+"end": 182.715
+},
+{
+"text": "they",
+"start": 182.715,
+"end": 182.935
+},
+{
+"text": "were",
+"start": 182.935,
+"end": 183.075
+},
+{
+"text": "allowed",
+"start": 183.075,
+"end": 183.335
+},
+{
+"text": "two.",
+"start": 183.335,
+"end": 184.875
+},
+{
+"text": "Marine",
+"start": 184.875,
+"end": 185.135
+},
+{
+"text": "Rufus",
+"start": 185.135,
+"end": 185.535
+},
+{
+"text": "Smith",
+"start": 185.535,
+"end": 185.875
+},
+{
+"text": "noticed",
+"start": 185.875,
+"end": 186.435
+},
+{
+"text": "something",
+"start": 186.435,
+"end": 186.795
+},
+{
+"text": "else.",
+"start": 186.795,
+"end": 187.155
+},
+{
+"text": "Just",
+"start": 187.835,
+"end": 188.355
+},
+{
+"text": "over",
+"start": 188.355,
+"end": 188.595
+},
+{
+"text": "the",
+"start": 188.595,
+"end": 188.775
+},
+{
+"text": "fence,",
+"start": 188.775,
+"end": 189.035
+},
+{
+"text": "a",
+"start": 189.455,
+"end": 189.535
+},
+{
+"text": "little",
+"start": 189.535,
+"end": 189.655
+},
+{
+"text": "way",
+"start": 189.655,
+"end": 189.935
+},
+{
+"text": "from",
+"start": 189.935,
+"end": 190.115
+},
+{
+"text": "the",
+"start": 190.115,
+"end": 190.235
+},
+{
+"text": "trenches,",
+"start": 190.235,
+"end": 190.595
+},
+{
+"text": "stood",
+"start": 190.995,
+"end": 191.195
+},
+{
+"text": "drums",
+"start": 191.195,
+"end": 191.595
+},
+{
+"text": "of",
+"start": 191.595,
+"end": 191.835
+},
+{
+"text": "gasoline.",
+"start": 191.835,
+"end": 192.255
+}
+],
+[
+{
+"text": "The",
+"start": 193.675,
+"end": 193.995
+},
+{
+"text": "guards",
+"start": 193.995,
+"end": 194.275
+},
+{
+"text": "had",
+"start": 194.275,
+"end": 194.495
+},
+{
+"text": "been",
+"start": 194.495,
+"end": 194.655
+},
+{
+"text": "saying",
+"start": 194.655,
+"end": 194.935
+},
+{
+"text": "it",
+"start": 194.935,
+"end": 195.135
+},
+{
+"text": "for",
+"start": 195.135,
+"end": 195.315
+},
+{
+"text": "months.",
+"start": 195.315,
+"end": 195.775
+},
+{
+"text": "Smith",
+"start": 196.875,
+"end": 196.895
+},
+{
+"text": "later",
+"start": 196.895,
+"end": 197.175
+},
+{
+"text": "swore",
+"start": 197.175,
+"end": 197.535
+},
+{
+"text": "that",
+"start": 197.535,
+"end": 197.835
+},
+{
+"text": "one",
+"start": 197.835,
+"end": 198.035
+},
+{
+"text": "of",
+"start": 198.035,
+"end": 198.135
+},
+{
+"text": "them",
+"start": 198.135,
+"end": 198.295
+},
+{
+"text": "told",
+"start": 198.295,
+"end": 198.555
+},
+{
+"text": "the",
+"start": 198.555,
+"end": 198.735
+},
+{
+"text": "prisoners",
+"start": 198.735,
+"end": 199.075
+},
+{
+"text": "that",
+"start": 199.075,
+"end": 199.675
+},
+{
+"text": "if",
+"start": 199.675,
+"end": 199.795
+},
+{
+"text": "the",
+"start": 199.795,
+"end": 199.935
+},
+{
+"text": "Americans",
+"start": 199.935,
+"end": 200.335
+},
+{
+"text": "landed,",
+"start": 200.335,
+"end": 200.835
+},
+{
+"text": "they",
+"start": 201.295,
+"end": 201.395
+},
+{
+"text": "would",
+"start": 201.395,
+"end": 201.535
+},
+{
+"text": "never",
+"start": 201.535,
+"end": 201.795
+},
+{
+"text": "live",
+"start": 201.795,
+"end": 202.035
+},
+{
+"text": "to",
+"start": 202.035,
+"end": 202.295
+},
+{
+"text": "see",
+"start": 202.295,
+"end": 202.495
+},
+{
+"text": "the",
+"start": 202.495,
+"end": 202.655
+},
+{
+"text": "American",
+"start": 202.655,
+"end": 203.075
+},
+{
+"text": "Army.",
+"start": 203.075,
+"end": 203.455
+},
+{
+"text": "On",
+"start": 204.555,
+"end": 204.655
+},
+{
+"text": "the",
+"start": 204.655,
+"end": 204.755
+},
+{
+"text": "tenth",
+"start": 204.755,
+"end": 205.035
+},
+{
+"text": "of",
+"start": 205.035,
+"end": 205.095
+},
+{
+"text": "December,",
+"start": 205.095,
+"end": 205.535
+},
+{
+"text": "a",
+"start": 205.875,
+"end": 205.995
+},
+{
+"text": "Japanese",
+"start": 205.995,
+"end": 206.415
+},
+{
+"text": "lookout",
+"start": 206.415,
+"end": 206.835
+},
+{
+"text": "spotted",
+"start": 206.835,
+"end": 207.295
+},
+{
+"text": "a",
+"start": 207.295,
+"end": 207.515
+},
+{
+"text": "huge",
+"start": 207.515,
+"end": 207.755
+},
+{
+"text": "American",
+"start": 207.755,
+"end": 208.315
+},
+{
+"text": "convoy",
+"start": 208.315,
+"end": 208.675
+},
+{
+"text": "at",
+"start": 208.675,
+"end": 208.875
+},
+{
+"text": "sea.",
+"start": 208.875,
+"end": 209.155
+},
+{
+"text": "It",
+"start": 210.155,
+"end": 210.335
+},
+{
+"text": "was",
+"start": 210.335,
+"end": 210.415
+},
+{
+"text": "heading",
+"start": 210.415,
+"end": 210.675
+},
+{
+"text": "for",
+"start": 210.675,
+"end": 210.915
+},
+{
+"text": "another",
+"start": 210.915,
+"end": 211.175
+},
+{
+"text": "island,",
+"start": 211.175,
+"end": 211.655
+},
+{
+"text": "Min-door-oh.",
+"start": 211.655,
+"end": 213.415
+},
+{
+"text": "But",
+"start": 213.415,
+"end": 213.635
+},
+{
+"text": "on",
+"start": 213.635,
+"end": 213.775
+},
+{
+"text": "Pa-lah-wan,",
+"start": 213.775,
+"end": 214.735
+},
+{
+"text": "the",
+"start": 214.735,
+"end": 214.915
+},
+{
+"text": "Japanese",
+"start": 214.915,
+"end": 215.275
+},
+{
+"text": "expected",
+"start": 215.275,
+"end": 215.815
+},
+{
+"text": "a",
+"start": 215.815,
+"end": 216.075
+},
+{
+"text": "landing.",
+"start": 216.075,
+"end": 216.395
+},
+{
+"text": "According",
+"start": 217.535,
+"end": 217.795
+},
+{
+"text": "to",
+"start": 217.795,
+"end": 218.055
+},
+{
+"text": "the",
+"start": 218.055,
+"end": 218.155
+},
+{
+"text": "historian",
+"start": 218.155,
+"end": 218.575
+},
+{
+"text": "Stephen",
+"start": 218.575,
+"end": 218.975
+},
+{
+"text": "Moore,",
+"start": 218.975,
+"end": 219.295
+},
+{
+"text": "on",
+"start": 219.755,
+"end": 219.855
+},
+{
+"text": "the",
+"start": 219.855,
+"end": 219.955
+},
+{
+"text": "thirteenth",
+"start": 219.955,
+"end": 220.415
+},
+{
+"text": "of",
+"start": 220.415,
+"end": 220.935
+},
+{
+"text": "December",
+"start": 220.935,
+"end": 220.935
+},
+{
+"text": "an",
+"start": 221.315,
+"end": 221.415
+},
+{
+"text": "order",
+"start": 221.415,
+"end": 221.635
+},
+{
+"text": "came",
+"start": 221.635,
+"end": 221.915
+},
+{
+"text": "down",
+"start": 221.915,
+"end": 222.295
+},
+{
+"text": "from",
+"start": 222.295,
+"end": 222.675
+},
+{
+"text": "the",
+"start": 222.675,
+"end": 222.815
+},
+{
+"text": "Japanese",
+"start": 222.815,
+"end": 223.235
+},
+{
+"text": "air",
+"start": 223.235,
+"end": 223.815
+},
+{
+"text": "division",
+"start": 223.815,
+"end": 224.235
+},
+{
+"text": "commander.",
+"start": 224.235,
+"end": 224.635
+},
+{
+"text": "If",
+"start": 225.655,
+"end": 225.915
+},
+{
+"text": "the",
+"start": 225.915,
+"end": 226.075
+},
+{
+"text": "prisoners",
+"start": 226.075,
+"end": 226.375
+},
+{
+"text": "were",
+"start": 226.375,
+"end": 226.775
+},
+{
+"text": "harboring",
+"start": 226.775,
+"end": 227.295
+},
+{
+"text": "hostile",
+"start": 227.295,
+"end": 227.575
+},
+{
+"text": "feelings,",
+"start": 227.575,
+"end": 228.095
+},
+{
+"text": "they",
+"start": 228.455,
+"end": 228.635
+},
+{
+"text": "were",
+"start": 228.635,
+"end": 228.755
+},
+{
+"text": "to",
+"start": 228.755,
+"end": 228.875
+},
+{
+"text": "be",
+"start": 228.875,
+"end": 228.995
+},
+{
+"text": "disposed",
+"start": 228.995,
+"end": 229.355
+},
+{
+"text": "of",
+"start": 229.355,
+"end": 229.755
+},
+{
+"text": "at",
+"start": 229.755,
+"end": 230.055
+},
+{
+"text": "the",
+"start": 230.055,
+"end": 230.175
+},
+{
+"text": "appropriate",
+"start": 230.175,
+"end": 230.475
+},
+{
+"text": "time.",
+"start": 230.475,
+"end": 230.995
+}
+],
+[
+{
+"text": "At",
+"start": 232.65,
+"end": 232.99
+},
+{
+"text": "about",
+"start": 232.99,
+"end": 233.17
+},
+{
+"text": "two",
+"start": 233.17,
+"end": 233.47
+},
+{
+"text": "in",
+"start": 233.47,
+"end": 233.61
+},
+{
+"text": "the",
+"start": 233.61,
+"end": 233.69
+},
+{
+"text": "morning",
+"start": 233.69,
+"end": 233.95
+},
+{
+"text": "on",
+"start": 233.95,
+"end": 234.21
+},
+{
+"text": "the",
+"start": 234.21,
+"end": 234.35
+},
+{
+"text": "fourteenth,",
+"start": 234.35,
+"end": 235.29
+},
+{
+"text": "the",
+"start": 235.29,
+"end": 235.35
+},
+{
+"text": "prisoners",
+"start": 235.35,
+"end": 235.57
+},
+{
+"text": "heard",
+"start": 235.57,
+"end": 235.99
+},
+{
+"text": "Japanese",
+"start": 235.99,
+"end": 236.49
+},
+{
+"text": "soldiers",
+"start": 236.49,
+"end": 236.97
+},
+{
+"text": "moving",
+"start": 236.97,
+"end": 237.61
+},
+{
+"text": "around",
+"start": 237.61,
+"end": 237.99
+},
+{
+"text": "outside",
+"start": 237.99,
+"end": 238.47
+},
+{
+"text": "the",
+"start": 238.47,
+"end": 238.65
+},
+{
+"text": "compound.",
+"start": 238.65,
+"end": 239.01
+},
+{
+"text": "At",
+"start": 240.11,
+"end": 240.29
+},
+{
+"text": "dawn",
+"start": 240.29,
+"end": 240.53
+},
+{
+"text": "they",
+"start": 240.53,
+"end": 240.81
+},
+{
+"text": "went",
+"start": 240.81,
+"end": 240.95
+},
+{
+"text": "out",
+"start": 240.95,
+"end": 241.13
+},
+{
+"text": "to",
+"start": 241.13,
+"end": 241.27
+},
+{
+"text": "work",
+"start": 241.27,
+"end": 241.47
+},
+{
+"text": "as",
+"start": 241.47,
+"end": 241.63
+},
+{
+"text": "usual,",
+"start": 241.63,
+"end": 242.01
+},
+{
+"text": "but",
+"start": 242.13,
+"end": 242.47
+},
+{
+"text": "the",
+"start": 242.47,
+"end": 242.61
+},
+{
+"text": "soldiers",
+"start": 242.61,
+"end": 243.01
+},
+{
+"text": "were",
+"start": 243.01,
+"end": 243.35
+},
+{
+"text": "in",
+"start": 243.35,
+"end": 243.51
+},
+{
+"text": "full",
+"start": 243.51,
+"end": 243.77
+},
+{
+"text": "field",
+"start": 243.77,
+"end": 244.15
+},
+{
+"text": "gear.",
+"start": 244.15,
+"end": 244.53
+},
+{
+"text": "At",
+"start": 245.53,
+"end": 245.73
+},
+{
+"text": "noon,",
+"start": 245.73,
+"end": 246.01
+},
+{
+"text": "all",
+"start": 246.27,
+"end": 246.49
+},
+{
+"text": "the",
+"start": 246.49,
+"end": 246.63
+},
+{
+"text": "work",
+"start": 246.63,
+"end": 246.85
+},
+{
+"text": "parties",
+"start": 246.85,
+"end": 247.19
+},
+{
+"text": "were",
+"start": 247.19,
+"end": 247.45
+},
+{
+"text": "called",
+"start": 247.45,
+"end": 247.69
+},
+{
+"text": "back",
+"start": 247.69,
+"end": 247.99
+},
+{
+"text": "to",
+"start": 247.99,
+"end": 248.17
+},
+{
+"text": "the",
+"start": 248.17,
+"end": 248.27
+},
+{
+"text": "camp.",
+"start": 248.27,
+"end": 248.53
+},
+{
+"text": "The",
+"start": 249.53,
+"end": 249.69
+},
+{
+"text": "guards",
+"start": 249.69,
+"end": 249.89
+},
+{
+"text": "called",
+"start": 249.89,
+"end": 250.25
+},
+{
+"text": "one",
+"start": 250.25,
+"end": 250.63
+},
+{
+"text": "air",
+"start": 250.63,
+"end": 250.97
+},
+{
+"text": "raid",
+"start": 250.97,
+"end": 251.23
+},
+{
+"text": "alarm",
+"start": 251.23,
+"end": 251.55
+},
+{
+"text": "after",
+"start": 251.55,
+"end": 252.03
+},
+{
+"text": "another.",
+"start": 252.03,
+"end": 252.49
+},
+{
+"text": "Bohg",
+"start": 252.49,
+"end": 253.67
+},
+{
+"text": "saw",
+"start": 253.67,
+"end": 253.91
+},
+{
+"text": "two",
+"start": 253.91,
+"end": 254.17
+},
+{
+"text": "American",
+"start": 254.17,
+"end": 254.53
+},
+{
+"text": "fighters",
+"start": 254.53,
+"end": 255.11
+},
+{
+"text": "high",
+"start": 255.11,
+"end": 255.53
+},
+{
+"text": "overhead.",
+"start": 255.53,
+"end": 255.97
+},
+{
+"text": "Fern",
+"start": 257.33,
+"end": 257.35
+},
+{
+"text": "Barta,",
+"start": 257.35,
+"end": 257.81
+},
+{
+"text": "a",
+"start": 258.11,
+"end": 258.17
+},
+{
+"text": "Navy",
+"start": 258.17,
+"end": 258.39
+},
+{
+"text": "radioman,",
+"start": 258.39,
+"end": 259.37
+},
+{
+"text": "later",
+"start": 259.37,
+"end": 259.61
+},
+{
+"text": "swore",
+"start": 259.61,
+"end": 259.95
+},
+{
+"text": "that",
+"start": 259.95,
+"end": 260.13
+},
+{
+"text": "he",
+"start": 260.13,
+"end": 260.27
+},
+{
+"text": "never",
+"start": 260.27,
+"end": 260.45
+},
+{
+"text": "saw",
+"start": 260.45,
+"end": 260.73
+},
+{
+"text": "a",
+"start": 260.73,
+"end": 260.95
+},
+{
+"text": "single",
+"start": 260.95,
+"end": 261.23
+},
+{
+"text": "plane.",
+"start": 261.23,
+"end": 261.55
+}
+],
+[
+{
+"text": "At",
+"start": 262.9,
+"end": 263.24
+},
+{
+"text": "about",
+"start": 263.24,
+"end": 263.46
+},
+{
+"text": "two",
+"start": 263.46,
+"end": 263.74
+},
+{
+"text": "o'clock,",
+"start": 263.74,
+"end": 264.44
+},
+{
+"text": "the",
+"start": 264.44,
+"end": 264.52
+},
+{
+"text": "men",
+"start": 264.52,
+"end": 264.66
+},
+{
+"text": "were",
+"start": 264.66,
+"end": 264.86
+},
+{
+"text": "forced",
+"start": 264.86,
+"end": 265.16
+},
+{
+"text": "under",
+"start": 265.16,
+"end": 265.52
+},
+{
+"text": "cover.",
+"start": 265.52,
+"end": 265.9
+},
+{
+"text": "Bohg",
+"start": 265.9,
+"end": 267.12
+},
+{
+"text": "wrote",
+"start": 267.12,
+"end": 267.36
+},
+{
+"text": "that",
+"start": 267.36,
+"end": 267.54
+},
+{
+"text": "it",
+"start": 267.54,
+"end": 267.62
+},
+{
+"text": "was",
+"start": 267.62,
+"end": 267.74
+},
+{
+"text": "the",
+"start": 267.74,
+"end": 267.92
+},
+{
+"text": "first",
+"start": 267.92,
+"end": 268.2
+},
+{
+"text": "time",
+"start": 268.2,
+"end": 268.58
+},
+{
+"text": "the",
+"start": 268.58,
+"end": 269.0
+},
+{
+"text": "Japanese",
+"start": 269.0,
+"end": 269.4
+},
+{
+"text": "had",
+"start": 269.4,
+"end": 269.92
+},
+{
+"text": "ever",
+"start": 269.92,
+"end": 270.2
+},
+{
+"text": "made",
+"start": 270.2,
+"end": 270.38
+},
+{
+"text": "them",
+"start": 270.38,
+"end": 270.54
+},
+{
+"text": "do",
+"start": 270.54,
+"end": 270.76
+},
+{
+"text": "that.",
+"start": 270.76,
+"end": 271.16
+},
+{
+"text": "Then",
+"start": 272.0,
+"end": 272.3
+},
+{
+"text": "the",
+"start": 272.3,
+"end": 272.56
+},
+{
+"text": "soldiers",
+"start": 272.56,
+"end": 272.86
+},
+{
+"text": "came.",
+"start": 272.86,
+"end": 273.36
+},
+{
+"text": "They",
+"start": 274.36,
+"end": 274.62
+},
+{
+"text": "went",
+"start": 274.62,
+"end": 274.78
+},
+{
+"text": "to",
+"start": 274.78,
+"end": 274.94
+},
+{
+"text": "the",
+"start": 274.94,
+"end": 275.06
+},
+{
+"text": "shelter",
+"start": 275.06,
+"end": 275.32
+},
+{
+"text": "of",
+"start": 275.32,
+"end": 275.62
+},
+{
+"text": "A",
+"start": 275.62,
+"end": 275.72
+},
+{
+"text": "Company",
+"start": 275.72,
+"end": 276.0
+},
+{
+"text": "first,",
+"start": 276.0,
+"end": 276.46
+},
+{
+"text": "where",
+"start": 276.78,
+"end": 276.98
+},
+{
+"text": "about",
+"start": 276.98,
+"end": 277.2
+},
+{
+"text": "forty",
+"start": 277.2,
+"end": 277.62
+},
+{
+"text": "men",
+"start": 277.62,
+"end": 277.9
+},
+{
+"text": "were",
+"start": 277.9,
+"end": 278.2
+},
+{
+"text": "crowded",
+"start": 278.2,
+"end": 278.48
+},
+{
+"text": "together.",
+"start": 278.48,
+"end": 278.92
+},
+{
+"text": "They",
+"start": 279.88,
+"end": 280.1
+},
+{
+"text": "threw",
+"start": 280.1,
+"end": 280.3
+},
+{
+"text": "a",
+"start": 280.3,
+"end": 280.46
+},
+{
+"text": "lit",
+"start": 280.46,
+"end": 280.62
+},
+{
+"text": "torch",
+"start": 280.62,
+"end": 280.96
+},
+{
+"text": "into",
+"start": 280.96,
+"end": 281.28
+},
+{
+"text": "the",
+"start": 281.28,
+"end": 281.44
+},
+{
+"text": "entrance,",
+"start": 281.44,
+"end": 281.86
+},
+{
+"text": "followed",
+"start": 282.1,
+"end": 282.4
+},
+{
+"text": "by",
+"start": 282.4,
+"end": 282.66
+},
+{
+"text": "a",
+"start": 282.66,
+"end": 282.8
+},
+{
+"text": "bucket",
+"start": 282.8,
+"end": 283.06
+},
+{
+"text": "or",
+"start": 283.06,
+"end": 283.34
+},
+{
+"text": "two",
+"start": 283.34,
+"end": 283.62
+},
+{
+"text": "of",
+"start": 283.62,
+"end": 283.86
+},
+{
+"text": "gasoline.",
+"start": 283.86,
+"end": 284.16
+},
+{
+"text": "The",
+"start": 285.26,
+"end": 285.52
+},
+{
+"text": "gasoline",
+"start": 285.52,
+"end": 285.98
+},
+{
+"text": "exploded.",
+"start": 285.98,
+"end": 286.72
+}
+],
+[
+{
+"text": "Men",
+"start": 288.125,
+"end": 288.545
+},
+{
+"text": "ran",
+"start": 288.545,
+"end": 288.825
+},
+{
+"text": "out",
+"start": 288.825,
+"end": 289.025
+},
+{
+"text": "of",
+"start": 289.025,
+"end": 289.125
+},
+{
+"text": "the",
+"start": 289.125,
+"end": 289.265
+},
+{
+"text": "shelter",
+"start": 289.265,
+"end": 289.545
+},
+{
+"text": "on",
+"start": 289.545,
+"end": 289.885
+},
+{
+"text": "fire,",
+"start": 289.885,
+"end": 290.265
+},
+{
+"text": "straight",
+"start": 290.585,
+"end": 290.845
+},
+{
+"text": "into",
+"start": 290.845,
+"end": 291.125
+},
+{
+"text": "machine",
+"start": 291.125,
+"end": 291.485
+},
+{
+"text": "gun",
+"start": 291.485,
+"end": 291.725
+},
+{
+"text": "fire.",
+"start": 291.725,
+"end": 292.225
+},
+{
+"text": "Four",
+"start": 293.265,
+"end": 293.465
+},
+{
+"text": "American",
+"start": 293.465,
+"end": 293.905
+},
+{
+"text": "officers",
+"start": 293.905,
+"end": 294.285
+},
+{
+"text": "who",
+"start": 294.285,
+"end": 294.785
+},
+{
+"text": "shared",
+"start": 294.785,
+"end": 295.025
+},
+{
+"text": "a",
+"start": 295.025,
+"end": 295.225
+},
+{
+"text": "foxhole",
+"start": 295.225,
+"end": 295.625
+},
+{
+"text": "near",
+"start": 295.625,
+"end": 295.845
+},
+{
+"text": "A",
+"start": 295.845,
+"end": 296.045
+},
+{
+"text": "Company,",
+"start": 296.045,
+"end": 296.385
+},
+{
+"text": "among",
+"start": 296.785,
+"end": 296.985
+},
+{
+"text": "them",
+"start": 296.985,
+"end": 297.265
+},
+{
+"text": "the",
+"start": 297.265,
+"end": 297.465
+},
+{
+"text": "camp's",
+"start": 297.465,
+"end": 297.825
+},
+{
+"text": "doctor,",
+"start": 297.825,
+"end": 298.085
+},
+{
+"text": "never",
+"start": 298.405,
+"end": 298.565
+},
+{
+"text": "had",
+"start": 298.565,
+"end": 298.825
+},
+{
+"text": "a",
+"start": 298.825,
+"end": 298.945
+},
+{
+"text": "chance.",
+"start": 298.945,
+"end": 299.265
+},
+{
+"text": "In",
+"start": 300.265,
+"end": 300.485
+},
+{
+"text": "the",
+"start": 300.485,
+"end": 300.585
+},
+{
+"text": "other",
+"start": 300.585,
+"end": 300.825
+},
+{
+"text": "shelters,",
+"start": 300.825,
+"end": 301.265
+},
+{
+"text": "the",
+"start": 301.665,
+"end": 301.745
+},
+{
+"text": "prisoners",
+"start": 301.745,
+"end": 301.965
+},
+{
+"text": "heard",
+"start": 301.965,
+"end": 302.345
+},
+{
+"text": "the",
+"start": 302.345,
+"end": 302.545
+},
+{
+"text": "explosion",
+"start": 302.545,
+"end": 303.025
+},
+{
+"text": "and",
+"start": 303.025,
+"end": 303.465
+},
+{
+"text": "understood.",
+"start": 303.465,
+"end": 304.005
+},
+{
+"text": "Bohg",
+"start": 304.005,
+"end": 305.325
+},
+{
+"text": "turned",
+"start": 305.325,
+"end": 305.605
+},
+{
+"text": "to",
+"start": 305.605,
+"end": 305.825
+},
+{
+"text": "the",
+"start": 305.825,
+"end": 305.945
+},
+{
+"text": "two",
+"start": 305.945,
+"end": 306.145
+},
+{
+"text": "men",
+"start": 306.145,
+"end": 306.365
+},
+{
+"text": "in",
+"start": 306.365,
+"end": 306.545
+},
+{
+"text": "his",
+"start": 306.545,
+"end": 306.685
+},
+{
+"text": "foxhole,",
+"start": 306.685,
+"end": 307.165
+},
+{
+"text": "which",
+"start": 307.425,
+"end": 307.605
+},
+{
+"text": "was",
+"start": 307.605,
+"end": 307.785
+},
+{
+"text": "close",
+"start": 307.785,
+"end": 308.045
+},
+{
+"text": "to",
+"start": 308.045,
+"end": 308.305
+},
+{
+"text": "the",
+"start": 308.305,
+"end": 308.445
+},
+{
+"text": "fence.",
+"start": 308.445,
+"end": 308.705
+},
+{
+"text": "Our",
+"start": 309.505,
+"end": 309.905
+},
+{
+"text": "only",
+"start": 309.905,
+"end": 310.185
+},
+{
+"text": "chance,",
+"start": 310.185,
+"end": 310.545
+},
+{
+"text": "he",
+"start": 310.725,
+"end": 310.925
+},
+{
+"text": "told",
+"start": 310.925,
+"end": 311.125
+},
+{
+"text": "them,",
+"start": 311.125,
+"end": 311.385
+},
+{
+"text": "is",
+"start": 311.545,
+"end": 311.745
+},
+{
+"text": "to",
+"start": 311.745,
+"end": 311.905
+},
+{
+"text": "get",
+"start": 311.905,
+"end": 312.045
+},
+{
+"text": "through",
+"start": 312.045,
+"end": 312.305
+},
+{
+"text": "the",
+"start": 312.305,
+"end": 312.465
+},
+{
+"text": "fence.",
+"start": 312.465,
+"end": 312.705
+}
+],
+[
+{
+"text": "Some",
+"start": 314.05,
+"end": 314.45
+},
+{
+"text": "men",
+"start": 314.45,
+"end": 314.69
+},
+{
+"text": "clawed",
+"start": 314.69,
+"end": 315.11
+},
+{
+"text": "through",
+"start": 315.11,
+"end": 315.27
+},
+{
+"text": "the",
+"start": 315.27,
+"end": 315.45
+},
+{
+"text": "barbed",
+"start": 315.45,
+"end": 315.75
+},
+{
+"text": "wire",
+"start": 315.75,
+"end": 316.03
+},
+{
+"text": "with",
+"start": 316.03,
+"end": 316.43
+},
+{
+"text": "their",
+"start": 316.43,
+"end": 316.61
+},
+{
+"text": "bare",
+"start": 316.61,
+"end": 316.83
+},
+{
+"text": "hands.",
+"start": 316.83,
+"end": 317.31
+},
+{
+"text": "Others",
+"start": 318.31,
+"end": 318.55
+},
+{
+"text": "dug",
+"start": 318.55,
+"end": 318.85
+},
+{
+"text": "out",
+"start": 318.85,
+"end": 319.13
+},
+{
+"text": "through",
+"start": 319.13,
+"end": 319.49
+},
+{
+"text": "the",
+"start": 319.49,
+"end": 319.63
+},
+{
+"text": "far",
+"start": 319.63,
+"end": 319.89
+},
+{
+"text": "end",
+"start": 319.89,
+"end": 320.09
+},
+{
+"text": "of",
+"start": 320.09,
+"end": 320.25
+},
+{
+"text": "their",
+"start": 320.25,
+"end": 320.39
+},
+{
+"text": "trench.",
+"start": 320.39,
+"end": 320.75
+},
+{
+"text": "Barta",
+"start": 322.01,
+"end": 322.17
+},
+{
+"text": "crawled",
+"start": 322.17,
+"end": 322.39
+},
+{
+"text": "through",
+"start": 322.39,
+"end": 322.73
+},
+{
+"text": "a",
+"start": 322.73,
+"end": 322.89
+},
+{
+"text": "drain",
+"start": 322.89,
+"end": 323.17
+},
+{
+"text": "that",
+"start": 323.17,
+"end": 323.41
+},
+{
+"text": "ran",
+"start": 323.41,
+"end": 323.63
+},
+{
+"text": "under",
+"start": 323.63,
+"end": 323.85
+},
+{
+"text": "the",
+"start": 323.85,
+"end": 323.99
+},
+{
+"text": "fence",
+"start": 323.99,
+"end": 324.29
+},
+{
+"text": "and",
+"start": 324.29,
+"end": 324.77
+},
+{
+"text": "came",
+"start": 324.77,
+"end": 324.95
+},
+{
+"text": "out",
+"start": 324.95,
+"end": 325.17
+},
+{
+"text": "at",
+"start": 325.17,
+"end": 325.29
+},
+{
+"text": "the",
+"start": 325.29,
+"end": 325.41
+},
+{
+"text": "top",
+"start": 325.41,
+"end": 325.55
+},
+{
+"text": "of",
+"start": 325.55,
+"end": 325.67
+},
+{
+"text": "a",
+"start": 325.67,
+"end": 325.77
+},
+{
+"text": "cliff,",
+"start": 325.77,
+"end": 326.03
+},
+{
+"text": "forty",
+"start": 326.03,
+"end": 326.71
+},
+{
+"text": "or",
+"start": 326.71,
+"end": 326.89
+},
+{
+"text": "fifty",
+"start": 326.89,
+"end": 327.17
+},
+{
+"text": "feet",
+"start": 327.17,
+"end": 327.41
+},
+{
+"text": "above",
+"start": 327.41,
+"end": 327.81
+},
+{
+"text": "the",
+"start": 327.81,
+"end": 327.99
+},
+{
+"text": "beach.",
+"start": 327.99,
+"end": 328.33
+},
+{
+"text": "Thirty",
+"start": 328.33,
+"end": 329.67
+},
+{
+"text": "or",
+"start": 329.67,
+"end": 329.89
+},
+{
+"text": "forty",
+"start": 329.89,
+"end": 330.25
+},
+{
+"text": "men",
+"start": 330.25,
+"end": 330.51
+},
+{
+"text": "made",
+"start": 330.51,
+"end": 331.01
+},
+{
+"text": "it",
+"start": 331.01,
+"end": 331.13
+},
+{
+"text": "down",
+"start": 331.13,
+"end": 331.33
+},
+{
+"text": "to",
+"start": 331.33,
+"end": 331.47
+},
+{
+"text": "the",
+"start": 331.47,
+"end": 331.59
+},
+{
+"text": "rocks",
+"start": 331.59,
+"end": 331.87
+},
+{
+"text": "along",
+"start": 331.87,
+"end": 332.27
+},
+{
+"text": "the",
+"start": 332.27,
+"end": 332.49
+},
+{
+"text": "shore.",
+"start": 332.49,
+"end": 332.75
+},
+{
+"text": "For",
+"start": 333.73,
+"end": 333.95
+},
+{
+"text": "most",
+"start": 333.95,
+"end": 334.15
+},
+{
+"text": "of",
+"start": 334.15,
+"end": 334.33
+},
+{
+"text": "them,",
+"start": 334.33,
+"end": 334.55
+},
+{
+"text": "it",
+"start": 334.55,
+"end": 334.85
+},
+{
+"text": "was",
+"start": 334.85,
+"end": 334.95
+},
+{
+"text": "not",
+"start": 334.95,
+"end": 335.17
+},
+{
+"text": "far",
+"start": 335.17,
+"end": 335.47
+},
+{
+"text": "enough.",
+"start": 335.47,
+"end": 335.75
+}
+],
+[
+{
+"text": "The",
+"start": 337.45,
+"end": 337.79
+},
+{
+"text": "soldiers",
+"start": 337.79,
+"end": 338.13
+},
+{
+"text": "came",
+"start": 338.13,
+"end": 338.65
+},
+{
+"text": "down",
+"start": 338.65,
+"end": 338.95
+},
+{
+"text": "to",
+"start": 338.95,
+"end": 339.15
+},
+{
+"text": "the",
+"start": 339.15,
+"end": 339.27
+},
+{
+"text": "beach",
+"start": 339.27,
+"end": 339.51
+},
+{
+"text": "after",
+"start": 339.51,
+"end": 339.83
+},
+{
+"text": "them.",
+"start": 339.83,
+"end": 340.35
+},
+{
+"text": "They",
+"start": 341.13,
+"end": 341.37
+},
+{
+"text": "hunted",
+"start": 341.37,
+"end": 341.55
+},
+{
+"text": "through",
+"start": 341.55,
+"end": 341.89
+},
+{
+"text": "the",
+"start": 341.89,
+"end": 342.07
+},
+{
+"text": "rocks",
+"start": 342.07,
+"end": 342.29
+},
+{
+"text": "with",
+"start": 342.29,
+"end": 342.55
+},
+{
+"text": "rifles,",
+"start": 342.55,
+"end": 343.03
+},
+{
+"text": "bayonets",
+"start": 343.53,
+"end": 343.79
+},
+{
+"text": "and",
+"start": 344.07,
+"end": 344.11
+},
+{
+"text": "grenades.",
+"start": 344.11,
+"end": 344.43
+},
+{
+"text": "They",
+"start": 345.67,
+"end": 345.79
+},
+{
+"text": "blasted",
+"start": 345.79,
+"end": 346.13
+},
+{
+"text": "men",
+"start": 346.13,
+"end": 346.49
+},
+{
+"text": "out",
+"start": 346.49,
+"end": 346.85
+},
+{
+"text": "of",
+"start": 346.85,
+"end": 347.07
+},
+{
+"text": "crevices",
+"start": 347.07,
+"end": 347.37
+},
+{
+"text": "with",
+"start": 347.37,
+"end": 347.83
+},
+{
+"text": "dynamite.",
+"start": 347.83,
+"end": 348.43
+},
+{
+"text": "A",
+"start": 349.55,
+"end": 349.55
+},
+{
+"text": "barge",
+"start": 349.55,
+"end": 349.79
+},
+{
+"text": "moved",
+"start": 349.79,
+"end": 350.07
+},
+{
+"text": "slowly",
+"start": 350.07,
+"end": 350.49
+},
+{
+"text": "along",
+"start": 350.49,
+"end": 350.79
+},
+{
+"text": "the",
+"start": 350.79,
+"end": 350.95
+},
+{
+"text": "shore,",
+"start": 350.95,
+"end": 351.25
+},
+{
+"text": "firing",
+"start": 351.53,
+"end": 351.85
+},
+{
+"text": "at",
+"start": 351.85,
+"end": 352.05
+},
+{
+"text": "anyone",
+"start": 352.05,
+"end": 352.33
+},
+{
+"text": "who",
+"start": 352.33,
+"end": 352.73
+},
+{
+"text": "tried",
+"start": 352.73,
+"end": 352.95
+},
+{
+"text": "to",
+"start": 352.95,
+"end": 353.13
+},
+{
+"text": "swim.",
+"start": 353.13,
+"end": 353.43
+},
+{
+"text": "Bohg",
+"start": 353.43,
+"end": 354.75
+},
+{
+"text": "wedged",
+"start": 354.75,
+"end": 355.09
+},
+{
+"text": "himself",
+"start": 355.09,
+"end": 355.39
+},
+{
+"text": "into",
+"start": 355.39,
+"end": 355.63
+},
+{
+"text": "the",
+"start": 355.63,
+"end": 355.81
+},
+{
+"text": "rocks",
+"start": 355.81,
+"end": 356.09
+},
+{
+"text": "and",
+"start": 356.09,
+"end": 356.45
+},
+{
+"text": "lay",
+"start": 356.45,
+"end": 356.67
+},
+{
+"text": "still.",
+"start": 356.67,
+"end": 357.11
+},
+{
+"text": "He",
+"start": 358.05,
+"end": 358.27
+},
+{
+"text": "stayed",
+"start": 358.27,
+"end": 358.51
+},
+{
+"text": "there",
+"start": 358.51,
+"end": 358.75
+},
+{
+"text": "for",
+"start": 358.75,
+"end": 358.93
+},
+{
+"text": "seven",
+"start": 358.93,
+"end": 359.23
+},
+{
+"text": "hours,",
+"start": 359.23,
+"end": 359.65
+},
+{
+"text": "listening.",
+"start": 359.65,
+"end": 360.17
+}
+],
+[
+{
+"text": "Army",
+"start": 361.525,
+"end": 361.985
+},
+{
+"text": "private",
+"start": 361.985,
+"end": 362.325
+},
+{
+"text": "Eugene",
+"start": 362.325,
+"end": 362.745
+},
+{
+"text": "Nielsen",
+"start": 362.745,
+"end": 363.105
+},
+{
+"text": "covered",
+"start": 363.105,
+"end": 363.725
+},
+{
+"text": "himself",
+"start": 363.725,
+"end": 364.085
+},
+{
+"text": "with",
+"start": 364.085,
+"end": 364.505
+},
+{
+"text": "coconut",
+"start": 364.505,
+"end": 364.905
+},
+{
+"text": "husks.",
+"start": 364.905,
+"end": 365.525
+},
+{
+"text": "The",
+"start": 366.545,
+"end": 366.545
+},
+{
+"text": "soldiers",
+"start": 366.545,
+"end": 366.825
+},
+{
+"text": "found",
+"start": 366.825,
+"end": 367.225
+},
+{
+"text": "him,",
+"start": 367.225,
+"end": 367.505
+},
+{
+"text": "and",
+"start": 367.505,
+"end": 367.865
+},
+{
+"text": "he",
+"start": 367.865,
+"end": 367.965
+},
+{
+"text": "played",
+"start": 367.965,
+"end": 368.205
+},
+{
+"text": "dead",
+"start": 368.205,
+"end": 368.565
+},
+{
+"text": "until",
+"start": 368.565,
+"end": 368.965
+},
+{
+"text": "they",
+"start": 368.965,
+"end": 369.145
+},
+{
+"text": "moved",
+"start": 369.145,
+"end": 369.365
+},
+{
+"text": "on.",
+"start": 369.365,
+"end": 369.765
+},
+{
+"text": "He",
+"start": 370.645,
+"end": 370.805
+},
+{
+"text": "crawled",
+"start": 370.805,
+"end": 371.045
+},
+{
+"text": "into",
+"start": 371.045,
+"end": 371.285
+},
+{
+"text": "a",
+"start": 371.285,
+"end": 371.445
+},
+{
+"text": "cove",
+"start": 371.445,
+"end": 371.685
+},
+{
+"text": "where",
+"start": 371.685,
+"end": 372.205
+},
+{
+"text": "fifteen",
+"start": 372.205,
+"end": 372.605
+},
+{
+"text": "Americans",
+"start": 372.605,
+"end": 373.025
+},
+{
+"text": "were",
+"start": 373.025,
+"end": 373.365
+},
+{
+"text": "hiding.",
+"start": 373.365,
+"end": 373.725
+},
+{
+"text": "Eight",
+"start": 374.785,
+"end": 374.905
+},
+{
+"text": "of",
+"start": 374.905,
+"end": 375.005
+},
+{
+"text": "them",
+"start": 375.005,
+"end": 375.165
+},
+{
+"text": "were",
+"start": 375.165,
+"end": 375.445
+},
+{
+"text": "shot",
+"start": 375.445,
+"end": 375.705
+},
+{
+"text": "from",
+"start": 375.705,
+"end": 376.025
+},
+{
+"text": "the",
+"start": 376.025,
+"end": 376.165
+},
+{
+"text": "barge.",
+"start": 376.165,
+"end": 376.525
+},
+{
+"text": "When",
+"start": 377.505,
+"end": 377.665
+},
+{
+"text": "the",
+"start": 377.665,
+"end": 377.825
+},
+{
+"text": "soldiers",
+"start": 377.825,
+"end": 378.085
+},
+{
+"text": "came",
+"start": 378.085,
+"end": 378.425
+},
+{
+"text": "for",
+"start": 378.425,
+"end": 378.605
+},
+{
+"text": "the",
+"start": 378.605,
+"end": 378.725
+},
+{
+"text": "rest,",
+"start": 378.725,
+"end": 379.085
+},
+{
+"text": "Nielsen",
+"start": 379.485,
+"end": 379.645
+},
+{
+"text": "ran",
+"start": 379.645,
+"end": 380.045
+},
+{
+"text": "into",
+"start": 380.045,
+"end": 380.365
+},
+{
+"text": "the",
+"start": 380.365,
+"end": 380.525
+},
+{
+"text": "sea.",
+"start": 380.525,
+"end": 380.805
+},
+{
+"text": "Bullets",
+"start": 382.105,
+"end": 382.105
+},
+{
+"text": "hit",
+"start": 382.105,
+"end": 382.325
+},
+{
+"text": "him",
+"start": 382.325,
+"end": 382.485
+},
+{
+"text": "in",
+"start": 382.485,
+"end": 382.605
+},
+{
+"text": "the",
+"start": 382.605,
+"end": 382.705
+},
+{
+"text": "leg,",
+"start": 382.705,
+"end": 382.965
+},
+{
+"text": "in",
+"start": 383.185,
+"end": 383.305
+},
+{
+"text": "the",
+"start": 383.305,
+"end": 383.425
+},
+{
+"text": "head",
+"start": 383.425,
+"end": 383.665
+},
+{
+"text": "and",
+"start": 383.705,
+"end": 384.025
+},
+{
+"text": "in",
+"start": 384.025,
+"end": 384.125
+},
+{
+"text": "the",
+"start": 384.125,
+"end": 384.245
+},
+{
+"text": "ribs.",
+"start": 384.245,
+"end": 384.485
+},
+{
+"text": "He",
+"start": 385.525,
+"end": 385.745
+},
+{
+"text": "kept",
+"start": 385.745,
+"end": 385.985
+},
+{
+"text": "swimming.",
+"start": 385.985,
+"end": 386.385
+},
+{
+"text": "A",
+"start": 386.385,
+"end": 387.525
+},
+{
+"text": "strong",
+"start": 387.525,
+"end": 387.865
+},
+{
+"text": "current",
+"start": 387.865,
+"end": 388.185
+},
+{
+"text": "carried",
+"start": 388.185,
+"end": 388.525
+},
+{
+"text": "him",
+"start": 388.525,
+"end": 388.725
+},
+{
+"text": "out,",
+"start": 388.725,
+"end": 389.005
+},
+{
+"text": "and",
+"start": 389.005,
+"end": 389.385
+},
+{
+"text": "at",
+"start": 389.385,
+"end": 389.505
+},
+{
+"text": "three",
+"start": 389.505,
+"end": 389.725
+},
+{
+"text": "in",
+"start": 389.725,
+"end": 389.865
+},
+{
+"text": "the",
+"start": 389.865,
+"end": 389.945
+},
+{
+"text": "afternoon,",
+"start": 389.945,
+"end": 390.445
+},
+{
+"text": "the",
+"start": 390.805,
+"end": 390.905
+},
+{
+"text": "Army",
+"start": 390.905,
+"end": 391.145
+},
+{
+"text": "report",
+"start": 391.145,
+"end": 391.485
+},
+{
+"text": "says,",
+"start": 391.485,
+"end": 391.825
+},
+{
+"text": "he",
+"start": 391.825,
+"end": 392.345
+},
+{
+"text": "reached",
+"start": 392.345,
+"end": 392.545
+},
+{
+"text": "the",
+"start": 392.545,
+"end": 392.745
+},
+{
+"text": "far",
+"start": 392.745,
+"end": 393.005
+},
+{
+"text": "side",
+"start": 393.005,
+"end": 393.285
+},
+{
+"text": "of",
+"start": 393.285,
+"end": 393.425
+},
+{
+"text": "a",
+"start": 393.425,
+"end": 393.505
+},
+{
+"text": "bay",
+"start": 393.505,
+"end": 393.725
+},
+{
+"text": "five",
+"start": 393.725,
+"end": 394.105
+},
+{
+"text": "miles",
+"start": 394.105,
+"end": 394.445
+},
+{
+"text": "wide.",
+"start": 394.445,
+"end": 394.825
+}
+],
+[
+{
+"text": "On",
+"start": 396.1,
+"end": 396.44
+},
+{
+"text": "the",
+"start": 396.44,
+"end": 396.52
+},
+{
+"text": "cliff",
+"start": 396.52,
+"end": 396.68
+},
+{
+"text": "above,",
+"start": 396.68,
+"end": 397.04
+},
+{
+"text": "Army",
+"start": 397.48,
+"end": 397.64
+},
+{
+"text": "sergeant",
+"start": 397.64,
+"end": 397.96
+},
+{
+"text": "Willie",
+"start": 397.96,
+"end": 398.34
+},
+{
+"text": "Bal-kus",
+"start": 398.34,
+"end": 398.78
+},
+{
+"text": "and",
+"start": 398.78,
+"end": 399.24
+},
+{
+"text": "another",
+"start": 399.24,
+"end": 399.54
+},
+{
+"text": "prisoner,",
+"start": 399.54,
+"end": 399.96
+},
+{
+"text": "Elmo",
+"start": 400.26,
+"end": 400.5
+},
+{
+"text": "Deal,",
+"start": 400.5,
+"end": 401.06
+},
+{
+"text": "were",
+"start": 401.06,
+"end": 401.26
+},
+{
+"text": "cornered",
+"start": 401.26,
+"end": 401.56
+},
+{
+"text": "by",
+"start": 401.56,
+"end": 401.78
+},
+{
+"text": "three",
+"start": 401.78,
+"end": 402.02
+},
+{
+"text": "soldiers",
+"start": 402.02,
+"end": 402.46
+},
+{
+"text": "carrying",
+"start": 402.46,
+"end": 402.92
+},
+{
+"text": "torches.",
+"start": 402.92,
+"end": 403.4
+},
+{
+"text": "Bal-kus",
+"start": 403.4,
+"end": 404.94
+},
+{
+"text": "hit",
+"start": 404.94,
+"end": 405.16
+},
+{
+"text": "the",
+"start": 405.16,
+"end": 405.32
+},
+{
+"text": "first",
+"start": 405.32,
+"end": 405.54
+},
+{
+"text": "one",
+"start": 405.54,
+"end": 405.74
+},
+{
+"text": "on",
+"start": 405.74,
+"end": 405.88
+},
+{
+"text": "the",
+"start": 405.88,
+"end": 405.98
+},
+{
+"text": "head",
+"start": 405.98,
+"end": 406.16
+},
+{
+"text": "with",
+"start": 406.16,
+"end": 406.4
+},
+{
+"text": "a",
+"start": 406.4,
+"end": 406.52
+},
+{
+"text": "big",
+"start": 406.52,
+"end": 406.72
+},
+{
+"text": "piece",
+"start": 406.72,
+"end": 406.94
+},
+{
+"text": "of",
+"start": 406.94,
+"end": 407.14
+},
+{
+"text": "coral,",
+"start": 407.14,
+"end": 407.44
+},
+{
+"text": "and",
+"start": 407.44,
+"end": 407.94
+},
+{
+"text": "the",
+"start": 407.94,
+"end": 408.04
+},
+{
+"text": "two",
+"start": 408.04,
+"end": 408.22
+},
+{
+"text": "Americans",
+"start": 408.22,
+"end": 408.68
+},
+{
+"text": "jumped",
+"start": 408.68,
+"end": 409.26
+},
+{
+"text": "the",
+"start": 409.26,
+"end": 409.56
+},
+{
+"text": "others.",
+"start": 409.56,
+"end": 409.86
+},
+{
+"text": "More",
+"start": 410.96,
+"end": 411.16
+},
+{
+"text": "soldiers",
+"start": 411.16,
+"end": 411.6
+},
+{
+"text": "came",
+"start": 411.6,
+"end": 412.02
+},
+{
+"text": "running.",
+"start": 412.02,
+"end": 412.4
+},
+{
+"text": "Deal",
+"start": 412.4,
+"end": 413.74
+},
+{
+"text": "went",
+"start": 413.74,
+"end": 413.96
+},
+{
+"text": "over",
+"start": 413.96,
+"end": 414.22
+},
+{
+"text": "the",
+"start": 414.22,
+"end": 414.42
+},
+{
+"text": "cliff.",
+"start": 414.42,
+"end": 414.66
+},
+{
+"text": "Bal-kus",
+"start": 414.66,
+"end": 416.16
+},
+{
+"text": "ran",
+"start": 416.16,
+"end": 416.48
+},
+{
+"text": "down",
+"start": 416.48,
+"end": 416.76
+},
+{
+"text": "the",
+"start": 416.76,
+"end": 416.92
+},
+{
+"text": "beach",
+"start": 416.92,
+"end": 417.18
+},
+{
+"text": "and",
+"start": 417.18,
+"end": 417.62
+},
+{
+"text": "into",
+"start": 417.62,
+"end": 417.82
+},
+{
+"text": "the",
+"start": 417.82,
+"end": 417.96
+},
+{
+"text": "water.",
+"start": 417.96,
+"end": 418.22
+}
+],
+[
+{
+"text": "If",
+"start": 419.55,
+"end": 419.89
+},
+{
+"text": "you",
+"start": 419.89,
+"end": 420.05
+},
+{
+"text": "want",
+"start": 420.05,
+"end": 420.21
+},
+{
+"text": "more",
+"start": 420.21,
+"end": 420.49
+},
+{
+"text": "prisoner",
+"start": 420.49,
+"end": 420.97
+},
+{
+"text": "of",
+"start": 420.97,
+"end": 421.13
+},
+{
+"text": "war",
+"start": 421.13,
+"end": 421.35
+},
+{
+"text": "stories",
+"start": 421.35,
+"end": 421.75
+},
+{
+"text": "told",
+"start": 421.75,
+"end": 422.07
+},
+{
+"text": "from",
+"start": 422.07,
+"end": 422.31
+},
+{
+"text": "the",
+"start": 422.31,
+"end": 422.43
+},
+{
+"text": "documents,",
+"start": 422.43,
+"end": 422.85
+},
+{
+"text": "subscribe",
+"start": 423.35,
+"end": 423.73
+},
+{
+"text": "to",
+"start": 423.73,
+"end": 424.07
+},
+{
+"text": "World",
+"start": 424.07,
+"end": 424.29
+},
+{
+"text": "War",
+"start": 424.29,
+"end": 424.55
+},
+{
+"text": "Two",
+"start": 424.55,
+"end": 424.85
+},
+{
+"text": "Frontlines.",
+"start": 424.85,
+"end": 425.35
+},
+{
+"text": "It",
+"start": 426.41,
+"end": 426.61
+},
+{
+"text": "helps",
+"start": 426.61,
+"end": 426.83
+},
+{
+"text": "us",
+"start": 426.83,
+"end": 427.11
+},
+{
+"text": "keep",
+"start": 427.11,
+"end": 427.41
+},
+{
+"text": "finding",
+"start": 427.41,
+"end": 427.81
+},
+{
+"text": "them.",
+"start": 427.81,
+"end": 428.13
+}
+],
+[
+{
+"text": "At",
+"start": 429.75,
+"end": 430.09
+},
+{
+"text": "about",
+"start": 430.09,
+"end": 430.27
+},
+{
+"text": "nine",
+"start": 430.27,
+"end": 430.53
+},
+{
+"text": "that",
+"start": 430.53,
+"end": 430.75
+},
+{
+"text": "night,",
+"start": 430.75,
+"end": 431.09
+},
+{
+"text": "Bohg",
+"start": 431.09,
+"end": 431.49
+},
+{
+"text": "crept",
+"start": 431.49,
+"end": 431.71
+},
+{
+"text": "out",
+"start": 431.71,
+"end": 431.91
+},
+{
+"text": "of",
+"start": 431.91,
+"end": 431.99
+},
+{
+"text": "the",
+"start": 431.99,
+"end": 432.11
+},
+{
+"text": "rocks",
+"start": 432.11,
+"end": 432.31
+},
+{
+"text": "and",
+"start": 432.31,
+"end": 432.65
+},
+{
+"text": "found",
+"start": 432.65,
+"end": 432.87
+},
+{
+"text": "three",
+"start": 432.87,
+"end": 433.13
+},
+{
+"text": "more",
+"start": 433.13,
+"end": 433.39
+},
+{
+"text": "survivors:",
+"start": 433.39,
+"end": 433.81
+},
+{
+"text": "Barta,",
+"start": 433.81,
+"end": 435.03
+},
+{
+"text": "Edwin",
+"start": 435.03,
+"end": 435.27
+},
+{
+"text": "Pee-tree",
+"start": 435.27,
+"end": 435.99
+},
+{
+"text": "and",
+"start": 435.99,
+"end": 436.13
+},
+{
+"text": "Alberto",
+"start": 436.13,
+"end": 436.53
+},
+{
+"text": "Pa-chay-co.",
+"start": 436.53,
+"end": 438.31
+},
+{
+"text": "A",
+"start": 438.31,
+"end": 438.43
+},
+{
+"text": "fifth",
+"start": 438.43,
+"end": 438.61
+},
+{
+"text": "man,",
+"start": 438.61,
+"end": 438.93
+},
+{
+"text": "a",
+"start": 439.25,
+"end": 439.31
+},
+{
+"text": "Marine",
+"start": 439.31,
+"end": 439.57
+},
+{
+"text": "named",
+"start": 439.57,
+"end": 439.95
+},
+{
+"text": "Donald",
+"start": 439.95,
+"end": 440.25
+},
+{
+"text": "Martyn,",
+"start": 440.25,
+"end": 440.91
+},
+{
+"text": "joined",
+"start": 440.91,
+"end": 441.23
+},
+{
+"text": "them.",
+"start": 441.23,
+"end": 441.53
+},
+{
+"text": "There",
+"start": 442.55,
+"end": 442.67
+},
+{
+"text": "was",
+"start": 442.67,
+"end": 442.77
+},
+{
+"text": "only",
+"start": 442.77,
+"end": 443.09
+},
+{
+"text": "one",
+"start": 443.09,
+"end": 443.41
+},
+{
+"text": "way",
+"start": 443.41,
+"end": 443.63
+},
+{
+"text": "out.",
+"start": 443.63,
+"end": 443.91
+},
+{
+"text": "The",
+"start": 444.93,
+"end": 445.05
+},
+{
+"text": "five",
+"start": 445.05,
+"end": 445.29
+},
+{
+"text": "men",
+"start": 445.29,
+"end": 445.59
+},
+{
+"text": "waded",
+"start": 445.59,
+"end": 446.05
+},
+{
+"text": "into",
+"start": 446.05,
+"end": 446.29
+},
+{
+"text": "the",
+"start": 446.29,
+"end": 446.43
+},
+{
+"text": "black",
+"start": 446.43,
+"end": 446.61
+},
+{
+"text": "water",
+"start": 446.61,
+"end": 446.93
+},
+{
+"text": "and",
+"start": 446.93,
+"end": 447.39
+},
+{
+"text": "started",
+"start": 447.39,
+"end": 447.69
+},
+{
+"text": "to",
+"start": 447.69,
+"end": 447.95
+},
+{
+"text": "swim.",
+"start": 447.95,
+"end": 448.23
+},
+{
+"text": "Behind",
+"start": 449.59,
+"end": 449.63
+},
+{
+"text": "them,",
+"start": 449.63,
+"end": 449.87
+},
+{
+"text": "Bohg",
+"start": 449.87,
+"end": 450.23
+},
+{
+"text": "later",
+"start": 450.23,
+"end": 450.47
+},
+{
+"text": "swore,",
+"start": 450.47,
+"end": 450.83
+},
+{
+"text": "they",
+"start": 450.83,
+"end": 451.27
+},
+{
+"text": "could",
+"start": 451.27,
+"end": 451.43
+},
+{
+"text": "see",
+"start": 451.43,
+"end": 451.63
+},
+{
+"text": "fires",
+"start": 451.63,
+"end": 451.97
+},
+{
+"text": "on",
+"start": 451.97,
+"end": 452.17
+},
+{
+"text": "the",
+"start": 452.17,
+"end": 452.29
+},
+{
+"text": "shore.",
+"start": 452.29,
+"end": 452.51
+}
+],
+[
+{
+"text": "Halfway",
+"start": 453.8,
+"end": 454.38
+},
+{
+"text": "across,",
+"start": 454.38,
+"end": 454.84
+},
+{
+"text": "Barta",
+"start": 455.26,
+"end": 455.38
+},
+{
+"text": "passed",
+"start": 455.38,
+"end": 455.66
+},
+{
+"text": "out.",
+"start": 455.66,
+"end": 456.08
+},
+{
+"text": "When",
+"start": 456.92,
+"end": 457.12
+},
+{
+"text": "he",
+"start": 457.12,
+"end": 457.24
+},
+{
+"text": "came",
+"start": 457.24,
+"end": 457.44
+},
+{
+"text": "to,",
+"start": 457.44,
+"end": 457.7
+},
+{
+"text": "he",
+"start": 458.0,
+"end": 458.08
+},
+{
+"text": "was",
+"start": 458.08,
+"end": 458.18
+},
+{
+"text": "floating",
+"start": 458.18,
+"end": 458.44
+},
+{
+"text": "out",
+"start": 458.44,
+"end": 458.7
+},
+{
+"text": "of",
+"start": 458.7,
+"end": 458.82
+},
+{
+"text": "the",
+"start": 458.82,
+"end": 458.9
+},
+{
+"text": "mouth",
+"start": 458.9,
+"end": 459.08
+},
+{
+"text": "of",
+"start": 459.08,
+"end": 459.24
+},
+{
+"text": "the",
+"start": 459.24,
+"end": 459.34
+},
+{
+"text": "bay,",
+"start": 459.34,
+"end": 459.58
+},
+{
+"text": "about",
+"start": 459.98,
+"end": 460.18
+},
+{
+"text": "fifty",
+"start": 460.18,
+"end": 460.56
+},
+{
+"text": "yards",
+"start": 460.56,
+"end": 460.82
+},
+{
+"text": "from",
+"start": 460.82,
+"end": 461.1
+},
+{
+"text": "a",
+"start": 461.1,
+"end": 461.2
+},
+{
+"text": "beach.",
+"start": 461.2,
+"end": 461.44
+},
+{
+"text": "He",
+"start": 462.5,
+"end": 462.64
+},
+{
+"text": "reached",
+"start": 462.64,
+"end": 462.86
+},
+{
+"text": "it",
+"start": 462.86,
+"end": 463.1
+},
+{
+"text": "at",
+"start": 463.1,
+"end": 463.28
+},
+{
+"text": "sunrise.",
+"start": 463.28,
+"end": 463.66
+},
+{
+"text": "Martyn,",
+"start": 463.66,
+"end": 465.38
+},
+{
+"text": "who",
+"start": 465.38,
+"end": 465.58
+},
+{
+"text": "Barta",
+"start": 465.58,
+"end": 465.9
+},
+{
+"text": "said",
+"start": 465.9,
+"end": 466.12
+},
+{
+"text": "was",
+"start": 466.12,
+"end": 466.34
+},
+{
+"text": "a",
+"start": 466.34,
+"end": 466.5
+},
+{
+"text": "strong",
+"start": 466.5,
+"end": 466.82
+},
+{
+"text": "swimmer,",
+"start": 466.82,
+"end": 467.3
+},
+{
+"text": "was",
+"start": 467.54,
+"end": 467.66
+},
+{
+"text": "never",
+"start": 467.66,
+"end": 467.94
+},
+{
+"text": "seen",
+"start": 467.94,
+"end": 468.24
+},
+{
+"text": "again.",
+"start": 468.24,
+"end": 468.6
+},
+{
+"text": "Rufus",
+"start": 469.78,
+"end": 470.0
+},
+{
+"text": "Smith",
+"start": 470.0,
+"end": 470.26
+},
+{
+"text": "crossed",
+"start": 470.26,
+"end": 470.66
+},
+{
+"text": "too.",
+"start": 470.66,
+"end": 471.1
+},
+{
+"text": "He",
+"start": 472.12,
+"end": 472.28
+},
+{
+"text": "later",
+"start": 472.28,
+"end": 472.44
+},
+{
+"text": "said",
+"start": 472.44,
+"end": 472.76
+},
+{
+"text": "that",
+"start": 472.76,
+"end": 473.02
+},
+{
+"text": "a",
+"start": 473.02,
+"end": 473.16
+},
+{
+"text": "shark",
+"start": 473.16,
+"end": 473.38
+},
+{
+"text": "bit",
+"start": 473.38,
+"end": 473.6
+},
+{
+"text": "him",
+"start": 473.6,
+"end": 473.82
+},
+{
+"text": "on",
+"start": 473.82,
+"end": 473.96
+},
+{
+"text": "the",
+"start": 473.96,
+"end": 474.1
+},
+{
+"text": "arm",
+"start": 474.1,
+"end": 474.4
+},
+{
+"text": "and",
+"start": 474.4,
+"end": 474.76
+},
+{
+"text": "shoulder",
+"start": 474.76,
+"end": 475.02
+},
+{
+"text": "in",
+"start": 475.02,
+"end": 475.3
+},
+{
+"text": "the",
+"start": 475.3,
+"end": 475.38
+},
+{
+"text": "water,",
+"start": 475.38,
+"end": 475.7
+},
+{
+"text": "and",
+"start": 475.9,
+"end": 476.22
+},
+{
+"text": "that",
+"start": 476.22,
+"end": 476.32
+},
+{
+"text": "he",
+"start": 476.32,
+"end": 476.44
+},
+{
+"text": "made",
+"start": 476.44,
+"end": 476.58
+},
+{
+"text": "it",
+"start": 476.58,
+"end": 476.76
+},
+{
+"text": "anyway.",
+"start": 476.76,
+"end": 477.06
+}
+],
+[
+{
+"text": "Glenn",
+"start": 478.425,
+"end": 478.865
+},
+{
+"text": "Mac-Dole",
+"start": 478.865,
+"end": 479.325
+},
+{
+"text": "hid",
+"start": 479.325,
+"end": 479.585
+},
+{
+"text": "near",
+"start": 479.585,
+"end": 479.845
+},
+{
+"text": "the",
+"start": 479.845,
+"end": 480.005
+},
+{
+"text": "beach",
+"start": 480.005,
+"end": 480.245
+},
+{
+"text": "with",
+"start": 480.245,
+"end": 480.625
+},
+{
+"text": "a",
+"start": 480.625,
+"end": 480.745
+},
+{
+"text": "wounded",
+"start": 480.745,
+"end": 480.965
+},
+{
+"text": "man",
+"start": 480.965,
+"end": 481.365
+},
+{
+"text": "named",
+"start": 481.365,
+"end": 481.745
+},
+{
+"text": "Hamrick,",
+"start": 481.745,
+"end": 482.125
+},
+{
+"text": "the",
+"start": 482.605,
+"end": 482.705
+},
+{
+"text": "same",
+"start": 482.705,
+"end": 482.945
+},
+{
+"text": "man",
+"start": 482.945,
+"end": 483.225
+},
+{
+"text": "Barta",
+"start": 483.225,
+"end": 483.565
+},
+{
+"text": "had",
+"start": 483.565,
+"end": 483.745
+},
+{
+"text": "tied",
+"start": 483.745,
+"end": 483.985
+},
+{
+"text": "a",
+"start": 483.985,
+"end": 484.125
+},
+{
+"text": "tourniquet",
+"start": 484.125,
+"end": 484.625
+},
+{
+"text": "on",
+"start": 484.625,
+"end": 485.025
+},
+{
+"text": "during",
+"start": 485.025,
+"end": 485.285
+},
+{
+"text": "the",
+"start": 485.285,
+"end": 485.525
+},
+{
+"text": "attack.",
+"start": 485.525,
+"end": 485.925
+},
+{
+"text": "Mac-Dole",
+"start": 485.925,
+"end": 487.365
+},
+{
+"text": "stayed",
+"start": 487.365,
+"end": 487.665
+},
+{
+"text": "with",
+"start": 487.665,
+"end": 487.885
+},
+{
+"text": "him",
+"start": 487.885,
+"end": 488.025
+},
+{
+"text": "for",
+"start": 488.025,
+"end": 488.205
+},
+{
+"text": "four",
+"start": 488.205,
+"end": 488.465
+},
+{
+"text": "days,",
+"start": 488.465,
+"end": 488.845
+},
+{
+"text": "until",
+"start": 488.845,
+"end": 489.445
+},
+{
+"text": "Hamrick",
+"start": 489.445,
+"end": 489.825
+},
+{
+"text": "died",
+"start": 489.825,
+"end": 490.105
+},
+{
+"text": "of",
+"start": 490.105,
+"end": 490.265
+},
+{
+"text": "gangrene",
+"start": 490.265,
+"end": 490.685
+},
+{
+"text": "on",
+"start": 490.685,
+"end": 491.045
+},
+{
+"text": "the",
+"start": 491.045,
+"end": 491.145
+},
+{
+"text": "eighteenth",
+"start": 491.145,
+"end": 491.565
+},
+{
+"text": "of",
+"start": 491.565,
+"end": 491.645
+},
+{
+"text": "December.",
+"start": 491.645,
+"end": 491.965
+},
+{
+"text": "Then",
+"start": 493.045,
+"end": 493.245
+},
+{
+"text": "Mac-Dole",
+"start": 493.245,
+"end": 493.785
+},
+{
+"text": "swam",
+"start": 493.785,
+"end": 494.305
+},
+{
+"text": "the",
+"start": 494.305,
+"end": 494.485
+},
+{
+"text": "bay",
+"start": 494.485,
+"end": 494.685
+},
+{
+"text": "alone.",
+"start": 494.685,
+"end": 495.085
+},
+{
+"text": "Too",
+"start": 495.905,
+"end": 496.285
+},
+{
+"text": "exhausted",
+"start": 496.285,
+"end": 496.705
+},
+{
+"text": "to",
+"start": 496.705,
+"end": 496.945
+},
+{
+"text": "go",
+"start": 496.945,
+"end": 497.125
+},
+{
+"text": "on,",
+"start": 497.125,
+"end": 497.385
+},
+{
+"text": "he",
+"start": 497.645,
+"end": 497.805
+},
+{
+"text": "spent",
+"start": 497.805,
+"end": 497.945
+},
+{
+"text": "a",
+"start": 497.945,
+"end": 498.085
+},
+{
+"text": "whole",
+"start": 498.085,
+"end": 498.265
+},
+{
+"text": "night",
+"start": 498.265,
+"end": 498.525
+},
+{
+"text": "clinging",
+"start": 498.525,
+"end": 498.805
+},
+{
+"text": "to",
+"start": 498.805,
+"end": 499.085
+},
+{
+"text": "a",
+"start": 499.085,
+"end": 499.225
+},
+{
+"text": "fish",
+"start": 499.225,
+"end": 499.405
+},
+{
+"text": "trap",
+"start": 499.405,
+"end": 499.705
+},
+{
+"text": "in",
+"start": 499.705,
+"end": 500.065
+},
+{
+"text": "the",
+"start": 500.065,
+"end": 500.165
+},
+{
+"text": "water.",
+"start": 500.165,
+"end": 500.425
+}
+],
+[
+{
+"text": "The",
+"start": 502.125,
+"end": 502.445
+},
+{
+"text": "men",
+"start": 502.445,
+"end": 502.605
+},
+{
+"text": "who",
+"start": 502.605,
+"end": 502.805
+},
+{
+"text": "found",
+"start": 502.805,
+"end": 503.065
+},
+{
+"text": "Mac-Dole",
+"start": 503.065,
+"end": 503.525
+},
+{
+"text": "the",
+"start": 503.525,
+"end": 503.705
+},
+{
+"text": "next",
+"start": 503.705,
+"end": 503.945
+},
+{
+"text": "morning",
+"start": 503.945,
+"end": 504.245
+},
+{
+"text": "were",
+"start": 504.245,
+"end": 504.625
+},
+{
+"text": "prisoners",
+"start": 504.625,
+"end": 504.925
+},
+{
+"text": "themselves.",
+"start": 504.925,
+"end": 505.585
+},
+{
+"text": "Across",
+"start": 505.585,
+"end": 506.885
+},
+{
+"text": "the",
+"start": 506.885,
+"end": 507.105
+},
+{
+"text": "bay",
+"start": 507.105,
+"end": 507.325
+},
+{
+"text": "lay",
+"start": 507.325,
+"end": 507.625
+},
+{
+"text": "the",
+"start": 507.625,
+"end": 507.865
+},
+{
+"text": "Ee-wah-hig",
+"start": 507.865,
+"end": 508.405
+},
+{
+"text": "Penal",
+"start": 508.405,
+"end": 508.705
+},
+{
+"text": "Colony,",
+"start": 508.705,
+"end": 509.145
+},
+{
+"text": "a",
+"start": 509.565,
+"end": 509.665
+},
+{
+"text": "Philippine",
+"start": 509.665,
+"end": 510.025
+},
+{
+"text": "prison",
+"start": 510.025,
+"end": 510.405
+},
+{
+"text": "farm,",
+"start": 510.405,
+"end": 510.845
+},
+{
+"text": "and",
+"start": 511.105,
+"end": 511.345
+},
+{
+"text": "its",
+"start": 511.345,
+"end": 511.485
+},
+{
+"text": "convicts",
+"start": 511.485,
+"end": 511.965
+},
+{
+"text": "were",
+"start": 511.965,
+"end": 512.285
+},
+{
+"text": "out",
+"start": 512.285,
+"end": 512.485
+},
+{
+"text": "gathering",
+"start": 512.485,
+"end": 512.845
+},
+{
+"text": "the",
+"start": 512.845,
+"end": 513.125
+},
+{
+"text": "fish",
+"start": 513.125,
+"end": 513.345
+},
+{
+"text": "from",
+"start": 513.345,
+"end": 513.585
+},
+{
+"text": "their",
+"start": 513.585,
+"end": 513.765
+},
+{
+"text": "traps.",
+"start": 513.765,
+"end": 514.165
+},
+{
+"text": "Bohg,",
+"start": 514.165,
+"end": 515.625
+},
+{
+"text": "after",
+"start": 515.625,
+"end": 515.925
+},
+{
+"text": "five",
+"start": 515.925,
+"end": 516.225
+},
+{
+"text": "days",
+"start": 516.225,
+"end": 516.485
+},
+{
+"text": "and",
+"start": 516.485,
+"end": 516.665
+},
+{
+"text": "nights",
+"start": 516.665,
+"end": 516.865
+},
+{
+"text": "in",
+"start": 516.865,
+"end": 517.145
+},
+{
+"text": "the",
+"start": 517.145,
+"end": 517.245
+},
+{
+"text": "jungle",
+"start": 517.245,
+"end": 517.485
+},
+{
+"text": "with",
+"start": 517.485,
+"end": 517.745
+},
+{
+"text": "nothing",
+"start": 517.745,
+"end": 518.085
+},
+{
+"text": "but",
+"start": 518.085,
+"end": 518.325
+},
+{
+"text": "rainwater,",
+"start": 518.325,
+"end": 518.925
+},
+{
+"text": "was",
+"start": 519.245,
+"end": 519.465
+},
+{
+"text": "rescued",
+"start": 519.465,
+"end": 519.905
+},
+{
+"text": "by",
+"start": 519.905,
+"end": 520.245
+},
+{
+"text": "the",
+"start": 520.245,
+"end": 520.365
+},
+{
+"text": "same",
+"start": 520.365,
+"end": 520.625
+},
+{
+"text": "convicts.",
+"start": 520.625,
+"end": 521.185
+},
+{
+"text": "The",
+"start": 522.205,
+"end": 522.345
+},
+{
+"text": "prisoners",
+"start": 522.345,
+"end": 522.645
+},
+{
+"text": "of",
+"start": 522.645,
+"end": 522.945
+},
+{
+"text": "one",
+"start": 522.945,
+"end": 523.185
+},
+{
+"text": "camp",
+"start": 523.185,
+"end": 523.485
+},
+{
+"text": "had",
+"start": 523.485,
+"end": 523.885
+},
+{
+"text": "saved",
+"start": 523.885,
+"end": 524.185
+},
+{
+"text": "the",
+"start": 524.185,
+"end": 524.405
+},
+{
+"text": "prisoners",
+"start": 524.405,
+"end": 524.685
+},
+{
+"text": "of",
+"start": 524.685,
+"end": 525.125
+},
+{
+"text": "another.",
+"start": 525.125,
+"end": 525.385
+}
+],
+[
+{
+"text": "From",
+"start": 526.7,
+"end": 527.06
+},
+{
+"text": "there,",
+"start": 527.06,
+"end": 527.38
+},
+{
+"text": "Filipino",
+"start": 527.66,
+"end": 528.08
+},
+{
+"text": "guerrillas",
+"start": 528.08,
+"end": 528.54
+},
+{
+"text": "took",
+"start": 528.54,
+"end": 528.82
+},
+{
+"text": "over.",
+"start": 528.82,
+"end": 529.2
+},
+{
+"text": "They",
+"start": 530.12,
+"end": 530.34
+},
+{
+"text": "dressed",
+"start": 530.34,
+"end": 530.58
+},
+{
+"text": "the",
+"start": 530.58,
+"end": 530.78
+},
+{
+"text": "Americans",
+"start": 530.78,
+"end": 531.14
+},
+{
+"text": "in",
+"start": 531.14,
+"end": 531.5
+},
+{
+"text": "civilian",
+"start": 531.5,
+"end": 531.84
+},
+{
+"text": "clothes",
+"start": 531.84,
+"end": 532.34
+},
+{
+"text": "and",
+"start": 532.34,
+"end": 532.84
+},
+{
+"text": "moved",
+"start": 532.84,
+"end": 533.06
+},
+{
+"text": "them",
+"start": 533.06,
+"end": 533.4
+},
+{
+"text": "south",
+"start": 533.4,
+"end": 533.54
+},
+{
+"text": "along",
+"start": 533.54,
+"end": 533.9
+},
+{
+"text": "the",
+"start": 533.9,
+"end": 534.06
+},
+{
+"text": "island",
+"start": 534.06,
+"end": 534.36
+},
+{
+"text": "to",
+"start": 534.36,
+"end": 534.78
+},
+{
+"text": "the",
+"start": 534.78,
+"end": 534.9
+},
+{
+"text": "guerrilla",
+"start": 534.9,
+"end": 535.14
+},
+{
+"text": "base",
+"start": 535.14,
+"end": 535.54
+},
+{
+"text": "at",
+"start": 535.54,
+"end": 535.96
+},
+{
+"text": "Brooke's",
+"start": 535.96,
+"end": 536.16
+},
+{
+"text": "Point.",
+"start": 536.16,
+"end": 536.48
+},
+{
+"text": "On",
+"start": 537.62,
+"end": 537.74
+},
+{
+"text": "the",
+"start": 537.74,
+"end": 537.82
+},
+{
+"text": "sixth",
+"start": 537.82,
+"end": 538.18
+},
+{
+"text": "of",
+"start": 538.18,
+"end": 538.32
+},
+{
+"text": "January",
+"start": 538.32,
+"end": 538.6
+},
+{
+"text": "nineteen",
+"start": 538.6,
+"end": 539.37
+},
+{
+"text": "forty-five,",
+"start": 539.37,
+"end": 540.14
+},
+{
+"text": "a",
+"start": 540.14,
+"end": 540.24
+},
+{
+"text": "Catalina",
+"start": 540.24,
+"end": 540.72
+},
+{
+"text": "flying",
+"start": 540.72,
+"end": 540.98
+},
+{
+"text": "boat",
+"start": 540.98,
+"end": 541.4
+},
+{
+"text": "landed",
+"start": 541.4,
+"end": 541.86
+},
+{
+"text": "off",
+"start": 541.86,
+"end": 542.12
+},
+{
+"text": "Brooke's",
+"start": 542.12,
+"end": 542.4
+},
+{
+"text": "Point",
+"start": 542.4,
+"end": 542.7
+},
+{
+"text": "and",
+"start": 542.7,
+"end": 543.22
+},
+{
+"text": "took",
+"start": 543.22,
+"end": 543.36
+},
+{
+"text": "out",
+"start": 543.36,
+"end": 543.52
+},
+{
+"text": "the",
+"start": 543.52,
+"end": 543.68
+},
+{
+"text": "first",
+"start": 543.68,
+"end": 543.92
+},
+{
+"text": "six",
+"start": 543.92,
+"end": 544.26
+},
+{
+"text": "survivors.",
+"start": 544.26,
+"end": 544.72
+},
+{
+"text": "On",
+"start": 545.8,
+"end": 546.02
+},
+{
+"text": "the",
+"start": 546.02,
+"end": 546.12
+},
+{
+"text": "twenty-first,",
+"start": 546.12,
+"end": 547.02
+},
+{
+"text": "a",
+"start": 547.02,
+"end": 547.12
+},
+{
+"text": "second",
+"start": 547.12,
+"end": 547.4
+},
+{
+"text": "flying",
+"start": 547.4,
+"end": 547.76
+},
+{
+"text": "boat",
+"start": 547.76,
+"end": 548.08
+},
+{
+"text": "came",
+"start": 548.08,
+"end": 548.32
+},
+{
+"text": "for",
+"start": 548.32,
+"end": 548.58
+},
+{
+"text": "Bohg,",
+"start": 548.58,
+"end": 549.01
+},
+{
+"text": "Barta",
+"start": 549.01,
+"end": 549.44
+},
+{
+"text": "and",
+"start": 549.44,
+"end": 549.58
+},
+{
+"text": "Mac-Dole.",
+"start": 549.58,
+"end": 550.08
+}
+],
+[
+{
+"text": "Eleven",
+"start": 551.325,
+"end": 551.805
+},
+{
+"text": "men",
+"start": 551.805,
+"end": 552.105
+},
+{
+"text": "had",
+"start": 552.105,
+"end": 552.285
+},
+{
+"text": "made",
+"start": 552.285,
+"end": 552.505
+},
+{
+"text": "it",
+"start": 552.505,
+"end": 552.605
+},
+{
+"text": "out",
+"start": 552.605,
+"end": 552.745
+},
+{
+"text": "alive:",
+"start": 552.745,
+"end": 553.085
+},
+{
+"text": "five",
+"start": 553.745,
+"end": 553.805
+},
+{
+"text": "soldiers,",
+"start": 553.805,
+"end": 554.225
+},
+{
+"text": "three",
+"start": 554.625,
+"end": 554.745
+},
+{
+"text": "Marines,",
+"start": 554.745,
+"end": 555.125
+},
+{
+"text": "two",
+"start": 555.485,
+"end": 555.625
+},
+{
+"text": "airmen",
+"start": 555.625,
+"end": 555.965
+},
+{
+"text": "and",
+"start": 556.005,
+"end": 556.245
+},
+{
+"text": "one",
+"start": 556.245,
+"end": 556.405
+},
+{
+"text": "sailor.",
+"start": 556.405,
+"end": 556.765
+},
+{
+"text": "Nine",
+"start": 557.945,
+"end": 558.045
+},
+{
+"text": "of",
+"start": 558.045,
+"end": 558.185
+},
+{
+"text": "them",
+"start": 558.185,
+"end": 558.385
+},
+{
+"text": "were",
+"start": 558.385,
+"end": 558.625
+},
+{
+"text": "off",
+"start": 558.625,
+"end": 558.825
+},
+{
+"text": "the",
+"start": 558.825,
+"end": 559.005
+},
+{
+"text": "island",
+"start": 559.005,
+"end": 559.285
+},
+{
+"text": "by",
+"start": 559.285,
+"end": 559.765
+},
+{
+"text": "the",
+"start": 559.765,
+"end": 559.885
+},
+{
+"text": "end",
+"start": 559.885,
+"end": 560.065
+},
+{
+"text": "of",
+"start": 560.065,
+"end": 560.725
+},
+{
+"text": "January.",
+"start": 560.725,
+"end": 560.725
+},
+{
+"text": "Their",
+"start": 561.805,
+"end": 561.965
+},
+{
+"text": "sworn",
+"start": 561.965,
+"end": 562.285
+},
+{
+"text": "statements",
+"start": 562.285,
+"end": 562.845
+},
+{
+"text": "were",
+"start": 562.845,
+"end": 563.225
+},
+{
+"text": "classified",
+"start": 563.225,
+"end": 563.605
+},
+{
+"text": "secret.",
+"start": 563.605,
+"end": 564.125
+}
+],
+[
+{
+"text": "By",
+"start": 565.9,
+"end": 566.26
+},
+{
+"text": "the",
+"start": 566.26,
+"end": 566.36
+},
+{
+"text": "seventh",
+"start": 566.36,
+"end": 566.78
+},
+{
+"text": "of",
+"start": 566.78,
+"end": 566.86
+},
+{
+"text": "January,",
+"start": 566.86,
+"end": 567.28
+},
+{
+"text": "Army",
+"start": 567.68,
+"end": 567.88
+},
+{
+"text": "intelligence",
+"start": 567.88,
+"end": 568.44
+},
+{
+"text": "had",
+"start": 568.44,
+"end": 568.84
+},
+{
+"text": "heard",
+"start": 568.84,
+"end": 569.1
+},
+{
+"text": "Nielsen's",
+"start": 569.1,
+"end": 569.66
+},
+{
+"text": "story.",
+"start": 569.66,
+"end": 570.02
+},
+{
+"text": "Japanese",
+"start": 571.2,
+"end": 571.52
+},
+{
+"text": "guards,",
+"start": 571.52,
+"end": 571.96
+},
+{
+"text": "facing",
+"start": 571.96,
+"end": 572.46
+},
+{
+"text": "an",
+"start": 572.46,
+"end": 572.72
+},
+{
+"text": "American",
+"start": 572.72,
+"end": 573.14
+},
+{
+"text": "landing,",
+"start": 573.14,
+"end": 573.58
+},
+{
+"text": "had",
+"start": 573.58,
+"end": 574.1
+},
+{
+"text": "killed",
+"start": 574.1,
+"end": 574.38
+},
+{
+"text": "an",
+"start": 574.38,
+"end": 574.66
+},
+{
+"text": "entire",
+"start": 574.66,
+"end": 575.02
+},
+{
+"text": "camp",
+"start": 575.02,
+"end": 575.28
+},
+{
+"text": "of",
+"start": 575.28,
+"end": 575.52
+},
+{
+"text": "prisoners.",
+"start": 575.52,
+"end": 575.86
+},
+{
+"text": "And",
+"start": 576.92,
+"end": 577.12
+},
+{
+"text": "on",
+"start": 577.12,
+"end": 577.24
+},
+{
+"text": "Luzon,",
+"start": 577.24,
+"end": 577.62
+},
+{
+"text": "the",
+"start": 578.02,
+"end": 578.12
+},
+{
+"text": "American",
+"start": 578.12,
+"end": 578.54
+},
+{
+"text": "army",
+"start": 578.54,
+"end": 578.86
+},
+{
+"text": "was",
+"start": 578.86,
+"end": 579.12
+},
+{
+"text": "about",
+"start": 579.12,
+"end": 579.38
+},
+{
+"text": "to",
+"start": 579.38,
+"end": 579.56
+},
+{
+"text": "land",
+"start": 579.56,
+"end": 579.82
+},
+{
+"text": "and",
+"start": 579.82,
+"end": 580.1
+},
+{
+"text": "push",
+"start": 580.1,
+"end": 580.32
+},
+{
+"text": "past",
+"start": 580.32,
+"end": 580.66
+},
+{
+"text": "another",
+"start": 580.66,
+"end": 581.0
+},
+{
+"text": "camp,",
+"start": 581.0,
+"end": 581.38
+},
+{
+"text": "at",
+"start": 581.38,
+"end": 581.86
+},
+{
+"text": "Kah-bah-nah-twahn,",
+"start": 581.86,
+"end": 583.28
+},
+{
+"text": "where",
+"start": 583.28,
+"end": 583.32
+},
+{
+"text": "about",
+"start": 583.32,
+"end": 583.54
+},
+{
+"text": "five",
+"start": 583.54,
+"end": 583.8
+},
+{
+"text": "hundred",
+"start": 583.8,
+"end": 584.06
+},
+{
+"text": "prisoners",
+"start": 584.06,
+"end": 584.66
+},
+{
+"text": "were",
+"start": 584.66,
+"end": 585.06
+},
+{
+"text": "still",
+"start": 585.06,
+"end": 585.26
+},
+{
+"text": "being",
+"start": 585.26,
+"end": 585.52
+},
+{
+"text": "held.",
+"start": 585.52,
+"end": 585.84
+}
+],
+[
+{
+"text": "On",
+"start": 587.15,
+"end": 587.49
+},
+{
+"text": "the",
+"start": 587.49,
+"end": 587.55
+},
+{
+"text": "twenty-sixth",
+"start": 587.55,
+"end": 588.19
+},
+{
+"text": "of",
+"start": 588.19,
+"end": 588.27
+},
+{
+"text": "January,",
+"start": 588.27,
+"end": 588.69
+},
+{
+"text": "the",
+"start": 589.11,
+"end": 589.25
+},
+{
+"text": "guerrilla",
+"start": 589.25,
+"end": 589.47
+},
+{
+"text": "leader",
+"start": 589.47,
+"end": 589.85
+},
+{
+"text": "Major",
+"start": 589.85,
+"end": 590.17
+},
+{
+"text": "Robert",
+"start": 590.17,
+"end": 590.61
+},
+{
+"text": "Lap-um",
+"start": 590.61,
+"end": 590.99
+},
+{
+"text": "warned",
+"start": 590.99,
+"end": 591.35
+},
+{
+"text": "that",
+"start": 591.35,
+"end": 591.81
+},
+{
+"text": "the",
+"start": 591.81,
+"end": 591.93
+},
+{
+"text": "prisoners",
+"start": 591.93,
+"end": 592.21
+},
+{
+"text": "at",
+"start": 592.21,
+"end": 592.47
+},
+{
+"text": "Kah-bah-nah-twahn",
+"start": 592.47,
+"end": 593.35
+},
+{
+"text": "were",
+"start": 593.35,
+"end": 593.85
+},
+{
+"text": "in",
+"start": 593.85,
+"end": 594.01
+},
+{
+"text": "danger",
+"start": 594.01,
+"end": 594.37
+},
+{
+"text": "of",
+"start": 594.37,
+"end": 594.65
+},
+{
+"text": "being",
+"start": 594.65,
+"end": 594.85
+},
+{
+"text": "killed.",
+"start": 594.85,
+"end": 595.31
+},
+{
+"text": "Four",
+"start": 596.35,
+"end": 596.55
+},
+{
+"text": "days",
+"start": 596.55,
+"end": 596.73
+},
+{
+"text": "later,",
+"start": 596.73,
+"end": 597.11
+},
+{
+"text": "Army",
+"start": 597.45,
+"end": 597.63
+},
+{
+"text": "Rangers",
+"start": 597.63,
+"end": 597.97
+},
+{
+"text": "and",
+"start": 597.97,
+"end": 598.23
+},
+{
+"text": "Filipino",
+"start": 598.23,
+"end": 598.67
+},
+{
+"text": "guerrillas",
+"start": 598.67,
+"end": 599.15
+},
+{
+"text": "slipped",
+"start": 599.15,
+"end": 599.69
+},
+{
+"text": "behind",
+"start": 599.69,
+"end": 600.07
+},
+{
+"text": "the",
+"start": 600.07,
+"end": 600.25
+},
+{
+"text": "Japanese",
+"start": 600.25,
+"end": 600.63
+},
+{
+"text": "lines,",
+"start": 600.63,
+"end": 601.13
+},
+{
+"text": "attacked",
+"start": 601.55,
+"end": 601.79
+},
+{
+"text": "the",
+"start": 601.79,
+"end": 602.01
+},
+{
+"text": "camp",
+"start": 602.01,
+"end": 602.19
+},
+{
+"text": "at",
+"start": 602.19,
+"end": 602.33
+},
+{
+"text": "night",
+"start": 602.33,
+"end": 602.59
+},
+{
+"text": "and",
+"start": 602.97,
+"end": 603.11
+},
+{
+"text": "carried",
+"start": 603.11,
+"end": 603.33
+},
+{
+"text": "out",
+"start": 603.33,
+"end": 603.53
+},
+{
+"text": "five",
+"start": 603.53,
+"end": 603.87
+},
+{
+"text": "hundred",
+"start": 603.87,
+"end": 604.21
+},
+{
+"text": "and",
+"start": 604.21,
+"end": 604.55
+},
+{
+"text": "thirteen",
+"start": 604.55,
+"end": 604.89
+},
+{
+"text": "prisoners.",
+"start": 604.89,
+"end": 605.49
+},
+{
+"text": "Historians",
+"start": 606.71,
+"end": 607.11
+},
+{
+"text": "link",
+"start": 607.11,
+"end": 607.49
+},
+{
+"text": "the",
+"start": 607.49,
+"end": 607.73
+},
+{
+"text": "raid",
+"start": 607.73,
+"end": 607.97
+},
+{
+"text": "to",
+"start": 607.97,
+"end": 608.43
+},
+{
+"text": "what",
+"start": 608.43,
+"end": 608.55
+},
+{
+"text": "the",
+"start": 608.55,
+"end": 608.67
+},
+{
+"text": "Army",
+"start": 608.67,
+"end": 608.95
+},
+{
+"text": "had",
+"start": 608.95,
+"end": 609.17
+},
+{
+"text": "learned",
+"start": 609.17,
+"end": 609.39
+},
+{
+"text": "from",
+"start": 609.39,
+"end": 609.73
+},
+{
+"text": "Pa-lah-wan.",
+"start": 609.73,
+"end": 611.29
+},
+{
+"text": "The",
+"start": 611.29,
+"end": 611.53
+},
+{
+"text": "records",
+"start": 611.53,
+"end": 611.85
+},
+{
+"text": "do",
+"start": 611.85,
+"end": 612.29
+},
+{
+"text": "not",
+"start": 612.29,
+"end": 612.43
+},
+{
+"text": "spell",
+"start": 612.43,
+"end": 612.69
+},
+{
+"text": "out",
+"start": 612.69,
+"end": 612.97
+},
+{
+"text": "how",
+"start": 612.97,
+"end": 613.23
+},
+{
+"text": "much",
+"start": 613.23,
+"end": 613.43
+},
+{
+"text": "it",
+"start": 613.43,
+"end": 613.57
+},
+{
+"text": "weighed.",
+"start": 613.57,
+"end": 613.85
+},
+{
+"text": "But",
+"start": 614.57,
+"end": 615.09
+},
+{
+"text": "by",
+"start": 615.09,
+"end": 615.25
+},
+{
+"text": "then,",
+"start": 615.25,
+"end": 615.55
+},
+{
+"text": "the",
+"start": 615.85,
+"end": 615.93
+},
+{
+"text": "Army",
+"start": 615.93,
+"end": 616.15
+},
+{
+"text": "knew",
+"start": 616.15,
+"end": 616.35
+},
+{
+"text": "what",
+"start": 616.35,
+"end": 616.59
+},
+{
+"text": "guards",
+"start": 616.59,
+"end": 616.85
+},
+{
+"text": "on",
+"start": 616.85,
+"end": 617.07
+},
+{
+"text": "that",
+"start": 617.07,
+"end": 617.25
+},
+{
+"text": "island",
+"start": 617.25,
+"end": 617.53
+},
+{
+"text": "had",
+"start": 617.53,
+"end": 617.79
+},
+{
+"text": "done",
+"start": 617.79,
+"end": 618.11
+},
+{
+"text": "when",
+"start": 618.11,
+"end": 618.51
+},
+{
+"text": "they",
+"start": 618.51,
+"end": 618.65
+},
+{
+"text": "believed",
+"start": 618.65,
+"end": 619.01
+},
+{
+"text": "the",
+"start": 619.01,
+"end": 619.25
+},
+{
+"text": "Americans",
+"start": 619.25,
+"end": 619.63
+},
+{
+"text": "were",
+"start": 619.63,
+"end": 619.95
+},
+{
+"text": "coming.",
+"start": 619.95,
+"end": 620.21
+}
+],
+[
+{
+"text": "On",
+"start": 621.925,
+"end": 622.285
+},
+{
+"text": "the",
+"start": 622.285,
+"end": 622.325
+},
+{
+"text": "twenty-eighth",
+"start": 622.325,
+"end": 622.905
+},
+{
+"text": "of",
+"start": 622.905,
+"end": 623.265
+},
+{
+"text": "February",
+"start": 623.265,
+"end": 623.265
+},
+{
+"text": "nineteen",
+"start": 623.265,
+"end": 624.085
+},
+{
+"text": "forty-five,",
+"start": 624.085,
+"end": 624.905
+},
+{
+"text": "American",
+"start": 624.905,
+"end": 625.165
+},
+{
+"text": "troops",
+"start": 625.165,
+"end": 625.505
+},
+{
+"text": "of",
+"start": 625.505,
+"end": 625.905
+},
+{
+"text": "the",
+"start": 625.905,
+"end": 625.985
+},
+{
+"text": "Forty-first",
+"start": 625.985,
+"end": 627.085
+},
+{
+"text": "Infantry",
+"start": 627.085,
+"end": 627.085
+},
+{
+"text": "Division",
+"start": 627.085,
+"end": 627.565
+},
+{
+"text": "landed",
+"start": 627.565,
+"end": 628.225
+},
+{
+"text": "at",
+"start": 628.225,
+"end": 628.545
+},
+{
+"text": "Pwair-toh",
+"start": 628.545,
+"end": 629.555
+},
+{
+"text": "Prin-say-sah.",
+"start": 629.555,
+"end": 630.565
+},
+{
+"text": "In",
+"start": 630.565,
+"end": 631.205
+},
+{
+"text": "the",
+"start": 631.205,
+"end": 631.305
+},
+{
+"text": "empty",
+"start": 631.305,
+"end": 631.605
+},
+{
+"text": "prison",
+"start": 631.605,
+"end": 631.905
+},
+{
+"text": "camp",
+"start": 631.905,
+"end": 632.285
+},
+{
+"text": "they",
+"start": 632.565,
+"end": 632.665
+},
+{
+"text": "found",
+"start": 632.665,
+"end": 632.925
+},
+{
+"text": "identification",
+"start": 632.925,
+"end": 633.545
+},
+{
+"text": "tags,",
+"start": 633.545,
+"end": 634.125
+},
+{
+"text": "personal",
+"start": 634.565,
+"end": 634.905
+},
+{
+"text": "belongings",
+"start": 634.905,
+"end": 635.325
+},
+{
+"text": "and",
+"start": 635.705,
+"end": 635.765
+},
+{
+"text": "scraps",
+"start": 635.765,
+"end": 636.065
+},
+{
+"text": "of",
+"start": 636.065,
+"end": 636.265
+},
+{
+"text": "records.",
+"start": 636.265,
+"end": 636.665
+},
+{
+"text": "In",
+"start": 637.785,
+"end": 637.925
+},
+{
+"text": "March,",
+"start": 637.925,
+"end": 638.205
+},
+{
+"text": "an",
+"start": 638.485,
+"end": 638.585
+},
+{
+"text": "Army",
+"start": 638.585,
+"end": 638.845
+},
+{
+"text": "graves",
+"start": 638.845,
+"end": 639.105
+},
+{
+"text": "unit",
+"start": 639.105,
+"end": 639.425
+},
+{
+"text": "worked",
+"start": 639.425,
+"end": 639.745
+},
+{
+"text": "through",
+"start": 639.745,
+"end": 640.005
+},
+{
+"text": "the",
+"start": 640.005,
+"end": 640.125
+},
+{
+"text": "trenches",
+"start": 640.125,
+"end": 640.445
+},
+{
+"text": "and",
+"start": 640.445,
+"end": 641.065
+},
+{
+"text": "buried",
+"start": 641.065,
+"end": 641.265
+},
+{
+"text": "the",
+"start": 641.265,
+"end": 641.445
+},
+{
+"text": "remains",
+"start": 641.445,
+"end": 641.865
+},
+{
+"text": "of",
+"start": 641.865,
+"end": 642.325
+},
+{
+"text": "seventy-nine",
+"start": 642.325,
+"end": 642.845
+},
+{
+"text": "men",
+"start": 642.845,
+"end": 643.165
+},
+{
+"text": "one",
+"start": 643.165,
+"end": 643.545
+},
+{
+"text": "by",
+"start": 643.545,
+"end": 643.725
+},
+{
+"text": "one.",
+"start": 643.725,
+"end": 644.045
+}
+],
+[
+{
+"text": "In",
+"start": 645.3,
+"end": 645.64
+},
+{
+"text": "early",
+"start": 645.64,
+"end": 645.9
+},
+{
+"text": "June,",
+"start": 645.9,
+"end": 646.26
+},
+{
+"text": "through",
+"start": 646.5,
+"end": 646.7
+},
+{
+"text": "the",
+"start": 646.7,
+"end": 646.88
+},
+{
+"text": "Swiss",
+"start": 646.88,
+"end": 647.08
+},
+{
+"text": "government,",
+"start": 647.08,
+"end": 647.48
+},
+{
+"text": "the",
+"start": 647.98,
+"end": 648.06
+},
+{
+"text": "United",
+"start": 648.06,
+"end": 648.3
+},
+{
+"text": "States",
+"start": 648.3,
+"end": 648.8
+},
+{
+"text": "sent",
+"start": 648.8,
+"end": 649.18
+},
+{
+"text": "Tokyo",
+"start": 649.18,
+"end": 649.64
+},
+{
+"text": "a",
+"start": 649.64,
+"end": 649.82
+},
+{
+"text": "formal",
+"start": 649.82,
+"end": 650.14
+},
+{
+"text": "protest",
+"start": 650.14,
+"end": 650.58
+},
+{
+"text": "over",
+"start": 650.58,
+"end": 651.06
+},
+{
+"text": "the",
+"start": 651.06,
+"end": 651.18
+},
+{
+"text": "massacre",
+"start": 651.18,
+"end": 651.48
+},
+{
+"text": "of",
+"start": 651.48,
+"end": 651.98
+},
+{
+"text": "one",
+"start": 651.98,
+"end": 652.155
+},
+{
+"text": "hundred",
+"start": 652.155,
+"end": 652.33
+},
+{
+"text": "and",
+"start": 652.33,
+"end": 652.505
+},
+{
+"text": "fifty",
+"start": 652.505,
+"end": 652.68
+},
+{
+"text": "American",
+"start": 652.68,
+"end": 653.7
+},
+{
+"text": "prisoners",
+"start": 653.7,
+"end": 654.08
+},
+{
+"text": "of",
+"start": 654.08,
+"end": 654.38
+},
+{
+"text": "war.",
+"start": 654.38,
+"end": 654.72
+},
+{
+"text": "A",
+"start": 655.78,
+"end": 655.88
+},
+{
+"text": "few",
+"start": 655.88,
+"end": 656.02
+},
+{
+"text": "days",
+"start": 656.02,
+"end": 656.24
+},
+{
+"text": "later,",
+"start": 656.24,
+"end": 656.7
+},
+{
+"text": "General",
+"start": 657.06,
+"end": 657.32
+},
+{
+"text": "Douglas",
+"start": 657.32,
+"end": 657.78
+},
+{
+"text": "MacArthur",
+"start": 657.78,
+"end": 658.22
+},
+{
+"text": "came",
+"start": 658.22,
+"end": 658.74
+},
+{
+"text": "to",
+"start": 658.74,
+"end": 658.92
+},
+{
+"text": "see",
+"start": 658.92,
+"end": 659.08
+},
+{
+"text": "the",
+"start": 659.08,
+"end": 659.2
+},
+{
+"text": "camp",
+"start": 659.2,
+"end": 659.4
+},
+{
+"text": "for",
+"start": 659.4,
+"end": 659.6
+},
+{
+"text": "himself.",
+"start": 659.6,
+"end": 659.94
+}
+],
+[
+{
+"text": "In",
+"start": 661.675,
+"end": 662.035
+},
+{
+"text": "August",
+"start": 662.035,
+"end": 662.315
+},
+{
+"text": "nineteen",
+"start": 662.315,
+"end": 662.935
+},
+{
+"text": "forty-eight,",
+"start": 662.935,
+"end": 663.555
+},
+{
+"text": "sixteen",
+"start": 663.555,
+"end": 664.175
+},
+{
+"text": "Japanese",
+"start": 664.175,
+"end": 664.655
+},
+{
+"text": "soldiers",
+"start": 664.655,
+"end": 665.075
+},
+{
+"text": "went",
+"start": 665.075,
+"end": 665.475
+},
+{
+"text": "on",
+"start": 665.475,
+"end": 665.635
+},
+{
+"text": "trial",
+"start": 665.635,
+"end": 665.915
+},
+{
+"text": "at",
+"start": 665.915,
+"end": 666.115
+},
+{
+"text": "Yokohama",
+"start": 666.115,
+"end": 666.615
+},
+{
+"text": "for",
+"start": 666.615,
+"end": 667.075
+},
+{
+"text": "the",
+"start": 667.075,
+"end": 667.275
+},
+{
+"text": "Pa-lah-wan",
+"start": 667.275,
+"end": 667.695
+},
+{
+"text": "massacre.",
+"start": 667.695,
+"end": 668.075
+},
+{
+"text": "Six",
+"start": 669.215,
+"end": 669.415
+},
+{
+"text": "were",
+"start": 669.415,
+"end": 669.675
+},
+{
+"text": "acquitted.",
+"start": 669.675,
+"end": 670.075
+},
+{
+"text": "The",
+"start": 671.115,
+"end": 671.375
+},
+{
+"text": "air",
+"start": 671.375,
+"end": 671.575
+},
+{
+"text": "division",
+"start": 671.575,
+"end": 671.995
+},
+{
+"text": "commander",
+"start": 671.995,
+"end": 672.335
+},
+{
+"text": "who",
+"start": 672.335,
+"end": 672.775
+},
+{
+"text": "sent",
+"start": 672.775,
+"end": 672.995
+},
+{
+"text": "the",
+"start": 672.995,
+"end": 673.195
+},
+{
+"text": "order",
+"start": 673.195,
+"end": 673.535
+},
+{
+"text": "received",
+"start": 673.535,
+"end": 674.115
+},
+{
+"text": "life",
+"start": 674.115,
+"end": 674.455
+},
+{
+"text": "in",
+"start": 674.455,
+"end": 674.815
+},
+{
+"text": "prison.",
+"start": 674.815,
+"end": 675.135
+},
+{
+"text": "A",
+"start": 676.375,
+"end": 676.375
+},
+{
+"text": "sergeant",
+"start": 676.375,
+"end": 676.595
+},
+{
+"text": "of",
+"start": 676.595,
+"end": 676.855
+},
+{
+"text": "the",
+"start": 676.855,
+"end": 676.955
+},
+{
+"text": "military",
+"start": 676.955,
+"end": 677.275
+},
+{
+"text": "police",
+"start": 677.275,
+"end": 677.715
+},
+{
+"text": "was",
+"start": 677.715,
+"end": 678.015
+},
+{
+"text": "sentenced",
+"start": 678.015,
+"end": 678.315
+},
+{
+"text": "to",
+"start": 678.315,
+"end": 678.615
+},
+{
+"text": "death,",
+"start": 678.615,
+"end": 678.955
+},
+{
+"text": "but",
+"start": 679.055,
+"end": 679.395
+},
+{
+"text": "his",
+"start": 679.395,
+"end": 679.535
+},
+{
+"text": "sentence",
+"start": 679.535,
+"end": 679.935
+},
+{
+"text": "was",
+"start": 679.935,
+"end": 680.315
+},
+{
+"text": "cut",
+"start": 680.315,
+"end": 680.575
+},
+{
+"text": "to",
+"start": 680.575,
+"end": 680.795
+},
+{
+"text": "thirty",
+"start": 680.795,
+"end": 681.075
+},
+{
+"text": "years.",
+"start": 681.075,
+"end": 681.515
+},
+{
+"text": "The",
+"start": 682.575,
+"end": 682.695
+},
+{
+"text": "camp",
+"start": 682.695,
+"end": 682.915
+},
+{
+"text": "commander,",
+"start": 682.915,
+"end": 683.475
+},
+{
+"text": "known",
+"start": 683.775,
+"end": 683.955
+},
+{
+"text": "to",
+"start": 683.955,
+"end": 684.155
+},
+{
+"text": "the",
+"start": 684.155,
+"end": 684.275
+},
+{
+"text": "prisoners",
+"start": 684.275,
+"end": 684.555
+},
+{
+"text": "as",
+"start": 684.555,
+"end": 684.875
+},
+{
+"text": "the",
+"start": 684.875,
+"end": 685.075
+},
+{
+"text": "Weasel,",
+"start": 685.075,
+"end": 685.395
+},
+{
+"text": "and",
+"start": 685.395,
+"end": 685.875
+},
+{
+"text": "the",
+"start": 685.875,
+"end": 686.035
+},
+{
+"text": "lieutenant",
+"start": 686.035,
+"end": 686.355
+},
+{
+"text": "who",
+"start": 686.355,
+"end": 686.715
+},
+{
+"text": "led",
+"start": 686.715,
+"end": 686.875
+},
+{
+"text": "the",
+"start": 686.875,
+"end": 687.055
+},
+{
+"text": "soldiers",
+"start": 687.055,
+"end": 687.355
+},
+{
+"text": "to",
+"start": 687.355,
+"end": 687.595
+},
+{
+"text": "the",
+"start": 687.595,
+"end": 687.715
+},
+{
+"text": "trenches",
+"start": 687.715,
+"end": 688.035
+},
+{
+"text": "were",
+"start": 688.295,
+"end": 688.575
+},
+{
+"text": "never",
+"start": 688.575,
+"end": 688.815
+},
+{
+"text": "tried.",
+"start": 688.815,
+"end": 689.175
+}
+],
+[
+{
+"text": "On",
+"start": 690.5,
+"end": 690.84
+},
+{
+"text": "the",
+"start": 690.84,
+"end": 690.92
+},
+{
+"text": "thirty-first",
+"start": 690.92,
+"end": 691.62
+},
+{
+"text": "of",
+"start": 691.62,
+"end": 691.78
+},
+{
+"text": "December",
+"start": 691.78,
+"end": 692.1
+},
+{
+"text": "nineteen",
+"start": 692.1,
+"end": 692.84
+},
+{
+"text": "fifty-eight,",
+"start": 692.84,
+"end": 693.58
+},
+{
+"text": "the",
+"start": 693.58,
+"end": 693.62
+},
+{
+"text": "last",
+"start": 693.62,
+"end": 693.86
+},
+{
+"text": "of",
+"start": 693.86,
+"end": 694.02
+},
+{
+"text": "the",
+"start": 694.02,
+"end": 694.12
+},
+{
+"text": "men",
+"start": 694.12,
+"end": 694.32
+},
+{
+"text": "convicted",
+"start": 694.32,
+"end": 694.78
+},
+{
+"text": "for",
+"start": 694.78,
+"end": 695.08
+},
+{
+"text": "Pa-lah-wan",
+"start": 695.08,
+"end": 695.54
+},
+{
+"text": "walked",
+"start": 695.54,
+"end": 696.2
+},
+{
+"text": "out",
+"start": 696.2,
+"end": 696.44
+},
+{
+"text": "of",
+"start": 696.44,
+"end": 696.58
+},
+{
+"text": "Soo-gah-mo",
+"start": 696.58,
+"end": 697.06
+},
+{
+"text": "prison,",
+"start": 697.06,
+"end": 697.44
+},
+{
+"text": "free.",
+"start": 697.78,
+"end": 698.08
+},
+{
+"text": "Fourteen",
+"start": 698.08,
+"end": 699.48
+},
+{
+"text": "years",
+"start": 699.48,
+"end": 699.84
+},
+{
+"text": "after",
+"start": 699.84,
+"end": 700.34
+},
+{
+"text": "the",
+"start": 700.34,
+"end": 700.5
+},
+{
+"text": "fire,",
+"start": 700.5,
+"end": 700.84
+},
+{
+"text": "none",
+"start": 701.2,
+"end": 701.26
+},
+{
+"text": "of",
+"start": 701.26,
+"end": 701.42
+},
+{
+"text": "them",
+"start": 701.42,
+"end": 701.52
+},
+{
+"text": "was",
+"start": 701.52,
+"end": 701.68
+},
+{
+"text": "still",
+"start": 701.68,
+"end": 701.96
+},
+{
+"text": "behind",
+"start": 701.96,
+"end": 702.36
+},
+{
+"text": "bars.",
+"start": 702.36,
+"end": 702.76
+}
+],
+[
+{
+"text": "If",
+"start": 704.1,
+"end": 704.46
+},
+{
+"text": "someone",
+"start": 704.46,
+"end": 704.8
+},
+{
+"text": "in",
+"start": 704.8,
+"end": 704.98
+},
+{
+"text": "your",
+"start": 704.98,
+"end": 705.16
+},
+{
+"text": "family",
+"start": 705.16,
+"end": 705.48
+},
+{
+"text": "was",
+"start": 705.48,
+"end": 706.0
+},
+{
+"text": "a",
+"start": 706.0,
+"end": 706.14
+},
+{
+"text": "prisoner",
+"start": 706.14,
+"end": 706.42
+},
+{
+"text": "of",
+"start": 706.42,
+"end": 706.64
+},
+{
+"text": "the",
+"start": 706.64,
+"end": 706.76
+},
+{
+"text": "Japanese,",
+"start": 706.76,
+"end": 707.14
+},
+{
+"text": "or",
+"start": 707.14,
+"end": 707.8
+},
+{
+"text": "helped",
+"start": 707.8,
+"end": 708.06
+},
+{
+"text": "the",
+"start": 708.06,
+"end": 708.26
+},
+{
+"text": "men",
+"start": 708.26,
+"end": 708.38
+},
+{
+"text": "who",
+"start": 708.38,
+"end": 708.6
+},
+{
+"text": "escaped",
+"start": 708.6,
+"end": 708.96
+},
+{
+"text": "from",
+"start": 708.96,
+"end": 709.24
+},
+{
+"text": "Pa-lah-wan,",
+"start": 709.24,
+"end": 710.24
+},
+{
+"text": "tell",
+"start": 710.24,
+"end": 710.4
+},
+{
+"text": "us",
+"start": 710.4,
+"end": 710.62
+},
+{
+"text": "in",
+"start": 710.62,
+"end": 710.86
+},
+{
+"text": "the",
+"start": 710.86,
+"end": 711.0
+},
+{
+"text": "comments.",
+"start": 711.0,
+"end": 711.24
+}
+],
+[
+{
+"text": "In",
+"start": 713.0,
+"end": 713.36
+},
+{
+"text": "nineteen",
+"start": 713.36,
+"end": 714.03
+},
+{
+"text": "fifty-two,",
+"start": 714.03,
+"end": 714.7
+},
+{
+"text": "the",
+"start": 714.7,
+"end": 714.78
+},
+{
+"text": "remains",
+"start": 714.78,
+"end": 715.12
+},
+{
+"text": "from",
+"start": 715.12,
+"end": 715.36
+},
+{
+"text": "Pa-lah-wan",
+"start": 715.36,
+"end": 715.9
+},
+{
+"text": "were",
+"start": 715.9,
+"end": 716.24
+},
+{
+"text": "brought",
+"start": 716.24,
+"end": 716.46
+},
+{
+"text": "home",
+"start": 716.46,
+"end": 716.82
+},
+{
+"text": "and",
+"start": 716.82,
+"end": 717.04
+},
+{
+"text": "buried",
+"start": 717.04,
+"end": 717.26
+},
+{
+"text": "together",
+"start": 717.26,
+"end": 717.64
+},
+{
+"text": "in",
+"start": 717.64,
+"end": 718.14
+},
+{
+"text": "a",
+"start": 718.14,
+"end": 718.26
+},
+{
+"text": "single",
+"start": 718.26,
+"end": 718.58
+},
+{
+"text": "grave",
+"start": 718.58,
+"end": 718.9
+},
+{
+"text": "at",
+"start": 718.9,
+"end": 719.4
+},
+{
+"text": "Jefferson",
+"start": 719.4,
+"end": 719.7
+},
+{
+"text": "Barracks",
+"start": 719.7,
+"end": 720.18
+},
+{
+"text": "National",
+"start": 720.18,
+"end": 720.52
+},
+{
+"text": "Cemetery,",
+"start": 720.52,
+"end": 721.16
+},
+{
+"text": "in",
+"start": 721.16,
+"end": 721.7
+},
+{
+"text": "Saint",
+"start": 721.7,
+"end": 722.18
+},
+{
+"text": "Louis.",
+"start": 722.18,
+"end": 722.26
+},
+{
+"text": "One",
+"start": 723.44,
+"end": 723.56
+},
+{
+"text": "hundred",
+"start": 723.56,
+"end": 723.92
+},
+{
+"text": "and",
+"start": 723.92,
+"end": 724.14
+},
+{
+"text": "twenty-three",
+"start": 724.14,
+"end": 724.62
+},
+{
+"text": "men",
+"start": 724.62,
+"end": 724.84
+},
+{
+"text": "lie",
+"start": 724.84,
+"end": 725.18
+},
+{
+"text": "in",
+"start": 725.18,
+"end": 725.4
+},
+{
+"text": "that",
+"start": 725.4,
+"end": 725.54
+},
+{
+"text": "one",
+"start": 725.54,
+"end": 725.74
+},
+{
+"text": "grave,",
+"start": 725.74,
+"end": 726.16
+},
+{
+"text": "because",
+"start": 726.16,
+"end": 726.74
+},
+{
+"text": "their",
+"start": 726.74,
+"end": 726.98
+},
+{
+"text": "remains",
+"start": 726.98,
+"end": 727.48
+},
+{
+"text": "could",
+"start": 727.48,
+"end": 727.78
+},
+{
+"text": "not",
+"start": 727.78,
+"end": 727.94
+},
+{
+"text": "be",
+"start": 727.94,
+"end": 728.12
+},
+{
+"text": "told",
+"start": 728.12,
+"end": 728.34
+},
+{
+"text": "apart.",
+"start": 728.34,
+"end": 728.78
+},
+{
+"text": "In",
+"start": 729.9,
+"end": 730.02
+},
+{
+"text": "Pwair-toh",
+"start": 730.02,
+"end": 730.96
+},
+{
+"text": "Prin-say-sah,",
+"start": 730.96,
+"end": 731.9
+},
+{
+"text": "a",
+"start": 731.9,
+"end": 731.96
+},
+{
+"text": "marker",
+"start": 731.96,
+"end": 732.18
+},
+{
+"text": "now",
+"start": 732.18,
+"end": 732.48
+},
+{
+"text": "stands",
+"start": 732.48,
+"end": 732.82
+},
+{
+"text": "on",
+"start": 732.82,
+"end": 733.02
+},
+{
+"text": "the",
+"start": 733.02,
+"end": 733.12
+},
+{
+"text": "site",
+"start": 733.12,
+"end": 733.32
+},
+{
+"text": "of",
+"start": 733.32,
+"end": 733.44
+},
+{
+"text": "the",
+"start": 733.44,
+"end": 733.54
+},
+{
+"text": "camp.",
+"start": 733.54,
+"end": 733.82
+},
+{
+"text": "It",
+"start": 734.7,
+"end": 734.98
+},
+{
+"text": "says",
+"start": 734.98,
+"end": 735.2
+},
+{
+"text": "that",
+"start": 735.2,
+"end": 735.46
+},
+{
+"text": "some",
+"start": 735.46,
+"end": 735.7
+},
+{
+"text": "one",
+"start": 735.7,
+"end": 735.9
+},
+{
+"text": "hundred",
+"start": 735.9,
+"end": 736.28
+},
+{
+"text": "and",
+"start": 736.28,
+"end": 736.46
+},
+{
+"text": "fifty",
+"start": 736.46,
+"end": 736.82
+},
+{
+"text": "American",
+"start": 736.82,
+"end": 737.28
+},
+{
+"text": "prisoners",
+"start": 737.28,
+"end": 737.64
+},
+{
+"text": "of",
+"start": 737.64,
+"end": 737.9
+},
+{
+"text": "war",
+"start": 737.9,
+"end": 738.18
+},
+{
+"text": "were",
+"start": 738.18,
+"end": 738.62
+},
+{
+"text": "burned",
+"start": 738.62,
+"end": 738.96
+},
+{
+"text": "to",
+"start": 738.96,
+"end": 739.24
+},
+{
+"text": "death",
+"start": 739.24,
+"end": 739.44
+},
+{
+"text": "there.",
+"start": 739.44,
+"end": 739.74
+}
+],
+[
+{
+"text": "And",
+"start": 740.975,
+"end": 741.295
+},
+{
+"text": "in",
+"start": 741.295,
+"end": 741.375
+},
+{
+"text": "the",
+"start": 741.375,
+"end": 741.495
+},
+{
+"text": "files",
+"start": 741.495,
+"end": 741.755
+},
+{
+"text": "of",
+"start": 741.755,
+"end": 741.975
+},
+{
+"text": "the",
+"start": 741.975,
+"end": 742.075
+},
+{
+"text": "war",
+"start": 742.075,
+"end": 742.255
+},
+{
+"text": "crimes",
+"start": 742.255,
+"end": 742.575
+},
+{
+"text": "trials,",
+"start": 742.575,
+"end": 742.995
+},
+{
+"text": "there",
+"start": 742.995,
+"end": 743.575
+},
+{
+"text": "is",
+"start": 743.575,
+"end": 743.675
+},
+{
+"text": "still",
+"start": 743.675,
+"end": 743.935
+},
+{
+"text": "the",
+"start": 743.935,
+"end": 744.095
+},
+{
+"text": "map",
+"start": 744.095,
+"end": 744.335
+},
+{
+"text": "that",
+"start": 744.335,
+"end": 744.795
+},
+{
+"text": "Sergeant",
+"start": 744.795,
+"end": 745.175
+},
+{
+"text": "Bohg",
+"start": 745.175,
+"end": 745.555
+},
+{
+"text": "drew",
+"start": 745.555,
+"end": 745.835
+},
+{
+"text": "of",
+"start": 745.835,
+"end": 746.015
+},
+{
+"text": "the",
+"start": 746.015,
+"end": 746.055
+},
+{
+"text": "camp.",
+"start": 746.055,
+"end": 746.335
+},
+{
+"text": "The",
+"start": 747.195,
+"end": 747.475
+},
+{
+"text": "fence,",
+"start": 747.475,
+"end": 747.735
+},
+{
+"text": "the",
+"start": 748.075,
+"end": 748.115
+},
+{
+"text": "shelters,",
+"start": 748.115,
+"end": 748.495
+},
+{
+"text": "the",
+"start": 748.915,
+"end": 748.975
+},
+{
+"text": "cliff",
+"start": 748.975,
+"end": 749.155
+},
+{
+"text": "and",
+"start": 749.155,
+"end": 749.375
+},
+{
+"text": "the",
+"start": 749.375,
+"end": 749.495
+},
+{
+"text": "bay.",
+"start": 749.495,
+"end": 749.735
+},
+{
+"text": "And",
+"start": 750.775,
+"end": 750.915
+},
+{
+"text": "underneath,",
+"start": 750.915,
+"end": 751.315
+},
+{
+"text": "the",
+"start": 751.715,
+"end": 751.815
+},
+{
+"text": "date",
+"start": 751.815,
+"end": 752.015
+},
+{
+"text": "he",
+"start": 752.015,
+"end": 752.215
+},
+{
+"text": "never",
+"start": 752.215,
+"end": 752.435
+},
+{
+"text": "forgot.",
+"start": 752.435,
+"end": 752.835
+},
+{
+"text": "Fourteen",
+"start": 752.835,
+"end": 754.415
+},
+{
+"text": "December",
+"start": 754.415,
+"end": 755.015
+},
+{
+"text": "nineteen",
+"start": 755.015,
+"end": 755.983
+},
+{
+"text": "forty-four.",
+"start": 755.983,
+"end": 756.95
+}
+]
+]

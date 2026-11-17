@@ -1,0 +1,234 @@
+{
+ "doc_bogue": {
+  "image": "doc_bogue.jpg",
+  "pw": 1600,
+  "ph": 2400,
+  "phrase": "This was the first time that they ever forced us under cover so we thought it might be the real thing",
+  "rects": [
+   [
+    354,
+    1746,
+    894,
+    31
+   ],
+   [
+    356,
+    1776,
+    597,
+    31
+   ]
+  ]
+ },
+ "doc_torch": {
+  "image": "doc_report_p3.jpg",
+  "pw": 1600,
+  "ph": 2403,
+  "phrase": "They first threw a lighted torch into the entrance and followed it with a bucket or two of gasoline",
+  "rects": [
+   [
+    965,
+    300,
+    325,
+    45
+   ],
+   [
+    298,
+    332,
+    974,
+    37
+   ],
+   [
+    296,
+    359,
+    545,
+    46
+   ]
+  ]
+ },
+ "doc_smith": {
+  "image": "doc_smith.jpg",
+  "pw": 1600,
+  "ph": 2406,
+  "phrase": "drums of gasoline were just over the fence a little way from them",
+  "rects": [
+   [
+    590,
+    1326,
+    692,
+    35
+   ],
+   [
+    254,
+    1354,
+    324,
+    36
+   ]
+  ]
+ },
+ "doc_tenrule": {
+  "image": "doc_report_p2.jpg",
+  "pw": 1600,
+  "ph": 2412,
+  "phrase": "providing for the execution of ten prisoners for each one that escaped",
+  "rects": [
+   [
+    728,
+    1040,
+    640,
+    52
+   ],
+   [
+    308,
+    1076,
+    632,
+    49
+   ]
+  ]
+ },
+ "doc_nielsen": {
+  "image": "doc_report_p3.jpg",
+  "pw": 1600,
+  "ph": 2403,
+  "phrase": "struck in the leg, head, and ribs by bullets, but nevertheless kept on swimming",
+  "rects": [
+   [
+    302,
+    1662,
+    993,
+    41
+   ],
+   [
+    304,
+    1690,
+    441,
+    41
+   ]
+  ]
+ },
+ "doc_barta": {
+  "image": "doc_barta.jpg",
+  "pw": 1600,
+  "ph": 2400,
+  "phrase": "although I saw no planes either then or later",
+  "rects": [
+   [
+    1006,
+    934,
+    280,
+    33
+   ],
+   [
+    228,
+    960,
+    430,
+    43
+   ]
+  ]
+ },
+ "doc_fishtrap": {
+  "image": "doc_report_p4.jpg",
+  "pw": 1600,
+  "ph": 2403,
+  "phrase": "because of exhaustion had to remain on a fish trap all night",
+  "rects": [
+   [
+    303,
+    1585,
+    974,
+    45
+   ],
+   [
+    304,
+    1619,
+    98,
+    43
+   ]
+  ]
+ },
+ "doc_planes": {
+  "image": "doc_report_p2.jpg",
+  "pw": 1600,
+  "ph": 2412,
+  "phrase": "to remain under cover, the Japs saying that there were hundreds of American planes approaching",
+  "rects": [
+   [
+    334,
+    2090,
+    1140,
+    40
+   ],
+   [
+    334,
+    2128,
+    455,
+    38
+   ]
+  ]
+ },
+ "doc_bogue2": {
+  "image": "doc_bogue2.jpg",
+  "pw": 1600,
+  "ph": 2400,
+  "phrase": "I concealed myself in the rocks and was overlooked by the Japs looking for us. I lay there until nine p.m.",
+  "rects": [
+   [
+    1020,
+    798,
+    248,
+    33
+   ],
+   [
+    366,
+    828,
+    890,
+    40
+   ],
+   [
+    361,
+    856,
+    499,
+    43
+   ]
+  ]
+ },
+ "doc_barta2": {
+  "image": "doc_barta.jpg",
+  "pw": 1600,
+  "ph": 2400,
+  "phrase": "I passed out on the way and later came to and got ashore.",
+  "rects": [
+   [
+    745,
+    1564,
+    615,
+    34
+   ],
+   [
+    230,
+    1595,
+    220,
+    34
+   ]
+  ]
+ },
+ "doc_coral": {
+  "image": "doc_report_p4.jpg",
+  "pw": 1600,
+  "ph": 2403,
+  "phrase": "Balchus hit him on the head with a big piece of coral",
+  "rects": [
+   [
+    565,
+    293,
+    855,
+    36
+   ],
+   [
+    290,
+    328,
+    70,
+    36
+   ]
+  ]
+ }
+}

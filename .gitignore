@@ -16,3 +16,5 @@ video/*/thumbnail/*.png
 client_secret*.json
 token*.json
 .env
+video/*/research/docs/*/*.jpg
+video/*/research/nara/
