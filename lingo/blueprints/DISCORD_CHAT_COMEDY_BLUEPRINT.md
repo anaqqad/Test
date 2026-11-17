@@ -282,6 +282,7 @@ There are no Remotion components in this project. The renderer uses the same Pla
 - **Sound kit like Beluga's (owner, 2026-11-17):**
   - 16 meme sound effects in `chat/assets/sfx/meme/`: vine_boom, bruh, crickets, huh, discord_join/leave/call, record_scratch, sad_trombone, dun_dun_dun, metal_pipe, ding, boing, wait_what, anime_wow, bong. Sources are in `chat/assets/sfx/SOURCES.md`.
   - Use one on most punchlines: `"sfx": ["vine_boom"]`.
+  - **Owner's notes (2026-11-17):** don't use `bruh`, `metal_pipe` (the breaking sound) or `sad_trombone` (the Tom-and-Jerry wah-wah). Keep loud hits like `vine_boom` rare, never on a big full-screen card.
 - **Music by mood, not one track:**
   - `"music": {"silly": …, "awkward": …, "sad": …}` in the episode file.
   - Any beat can set `"mood": "sad"`, which switches the track for the following music beats.

@@ -140,9 +140,6 @@
    "who": "parker",
    "lines": [
     "No."
-   ],
-   "sfx": [
-    "bruh"
    ]
   },
   {
@@ -211,10 +208,7 @@
     "DIEGO",
     "that means PREGNANT"
    ],
-   "shake": true,
-   "sfx": [
-    "metal_pipe"
-   ]
+   "shake": true
   },
   {
    "who": "diego",
@@ -222,9 +216,6 @@
     "I QUIT ENGLISH"
    ],
    "shake": true,
-   "sfx": [
-    "sad_trombone"
-   ],
    "mood": "sad"
   },
   {
@@ -342,9 +333,6 @@
    "who": "parker",
    "big": "HANS.",
    "shake": true,
-   "sfx": [
-    "vine_boom"
-   ],
    "hold": 1.1
   },
   {
@@ -422,10 +410,7 @@
    "lines": [
     "That is what I said."
    ],
-   "pause": 0.3,
-   "sfx": [
-    "bruh"
-   ]
+   "pause": 0.3
   },
   {
    "who": "parker",
