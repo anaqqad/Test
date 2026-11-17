@@ -26,7 +26,7 @@ Persian: "WIKITONGUES- Daniel speaking Farsi" by Wikitongues, Tushar Rakheja, CC
 Urdu: "WIKITONGUES- Scarlett speaking Urdu" by Wikitongues, CC BY 3.0
 Hebrew: "WIKITONGUES- Amir speaking Russian and Hebrew" by Bogreudell, CC BY-SA 4.0
 Aramaic: "Abundbshmayo" by PaddyMacConghaile, CC0
-Maltese: words "aħna", "ktieb", "gżira", "belt", "ħobża", "aħmar", "mill-ġdid", "llejla" by GħawdxiVeru (Lingua Libre) (Lingua Libre), CC0
+Maltese: words "aħna", "ktieb", "gżira", "belt", "ħobża", "aħmar", "mill-ġdid", "llejla" by GħawdxiVeru (Lingua Libre), CC0
 Licences: https://creativecommons.org/licenses/by-sa/4.0/ and https://creativecommons.org/licenses/by/3.0/
 Speaker counts are estimates and include second-language speakers; sources disagree. The Aramaic clip is the Lord's Prayer in Syriac.
 
