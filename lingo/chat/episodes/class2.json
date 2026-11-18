@@ -1,0 +1,512 @@
+{
+ "title": "Teaching Foreign Students English be like… (Part 2)",
+ "part": "Part 2",
+ "premise": "School trip day: the foreign students' false friends get even worse.",
+ "width": 1920,
+ "height": 1080,
+ "clock": "7:45",
+ "ampm": "AM",
+ "timing": {
+  "lineGap": 0.6,
+  "holdBase": 0.7,
+  "holdPerChar": 0.03,
+  "minHold": 0.8
+ },
+ "music": {
+  "default": {
+   "file": "chat/assets/music/monkeys_spinning_monkeys.ogg",
+   "credit": "\"Monkeys Spinning Monkeys\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "silly": {
+   "file": "chat/assets/music/monkeys_spinning_monkeys.ogg",
+   "credit": "\"Monkeys Spinning Monkeys\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "awkward": {
+   "file": "chat/assets/music/scheming_weasel.oga",
+   "credit": "\"Scheming Weasel (faster version)\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "sad": {
+   "file": "chat/assets/music/sad_trio.mp3",
+   "credit": "\"Sad Trio\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "carefree": {
+   "file": "chat/assets/music/carefree.mp3",
+   "credit": "\"Carefree\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "suspense": {
+   "file": "chat/assets/music/investigations.mp3",
+   "credit": "\"Investigations\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "boss": {
+   "file": "chat/assets/music/volatile_reaction.mp3",
+   "credit": "\"Volatile Reaction\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  }
+ },
+ "musicDb": -21,
+ "cast": {
+  "parker": {
+   "name": "Ms. Parker",
+   "color": "#f0b232",
+   "avatar": "wojaks/sl2_gla.png",
+   "avatarBg": "#6b4f2f"
+  },
+  "hans": {
+   "name": "hans",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/r_pol_calm.png",
+   "avatarBg": "#4a5a6b",
+   "music": true
+  },
+  "diego": {
+   "name": "diego",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/s_spa.png",
+   "avatarBg": "#a83b3b",
+   "music": true
+  },
+  "yuki": {
+   "name": "yuki",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/s_jpn_f.png",
+   "avatarBg": "#d9a0b4",
+   "music": true
+  },
+  "pierre": {
+   "name": "pierre",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/s_fra_calm.png",
+   "avatarBg": "#3b5ba8",
+   "music": true
+  },
+  "weber": {
+   "name": "Principal Weber",
+   "color": "#ff5c5c",
+   "avatar": "wojaks/u_sco.png",
+   "avatarBg": "#5a2f2f",
+   "music": "boss"
+  },
+  "parkerS": {
+   "name": "Ms. Parker",
+   "color": "#f0b232",
+   "avatar": "wojaks/sl2_gla_shock.png",
+   "avatarBg": "#6b4f2f"
+  },
+  "lars": {
+   "name": "lars",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/s_swe.png",
+   "avatarBg": "#2f5fa8",
+   "music": true
+  },
+  "sanne": {
+   "name": "sanne",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/s_nld_f.png",
+   "avatarBg": "#e07b2a",
+   "music": true
+  },
+  "tiago": {
+   "name": "tiago",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/s_por.png",
+   "avatarBg": "#2f7a4a",
+   "music": true
+  }
+ },
+ "beats": [
+  {
+   "who": "parker",
+   "lines": [
+    "Good morning class! 🚌",
+    "@everyone school trip today.",
+    "Bus leaves at 8."
+   ],
+   "ping": true,
+   "lineGap": 0.45,
+   "hold": 0.9
+  },
+  {
+   "who": "lars",
+   "lines": [
+    "teacher",
+    "before the bus",
+    "i need to kiss"
+   ],
+   "typing": 0.5,
+   "mood": "silly"
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "...kiss WHO?"
+   ],
+   "sfx": [
+    "huh"
+   ]
+  },
+  {
+   "who": "lars",
+   "lines": [
+    "nobody",
+    "alone",
+    "in the toilet"
+   ]
+  },
+  {
+   "who": "parkerS",
+   "lines": [
+    "LARS."
+   ],
+   "sfx": [
+    "vine_boom"
+   ]
+  },
+  {
+   "who": "lars",
+   "lines": [
+    "'kissa' = to pee 🇸🇪",
+    "why are you shouting"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Just say BATHROOM."
+   ]
+  },
+  {
+   "who": "hans",
+   "lines": [
+    "teacher can i bring my handy?"
+   ],
+   "typing": 0.6
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Your... what?"
+   ]
+  },
+  {
+   "who": "hans",
+   "lines": [
+    "my handy",
+    "i always keep it in my pocket",
+    "i play with it all day"
+   ]
+  },
+  {
+   "who": "parkerS",
+   "lines": [
+    "HANS"
+   ],
+   "shake": true
+  },
+  {
+   "who": "pierre",
+   "lines": [
+    "madame",
+    "'Handy' = phone in german 📱"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Why do you all know this",
+    "except me"
+   ]
+  },
+  {
+   "who": "yuki",
+   "lines": [
+    "sumimasen 🙇‍♀️",
+    "teacher you look very smart today ✨"
+   ],
+   "typing": 0.6,
+   "mood": "carefree"
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Aww, thank you Yuki!"
+   ]
+  },
+  {
+   "who": "sanne",
+   "lines": [
+    "no",
+    "she is not smart"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Excuse me??"
+   ],
+   "sfx": [
+    "record_scratch"
+   ]
+  },
+  {
+   "who": "sanne",
+   "lines": [
+    "she is very slim"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "...oh. thank you?"
+   ]
+  },
+  {
+   "who": "sanne",
+   "lines": [
+    "in dutch 'slim' = smart 🇳🇱"
+   ]
+  },
+  {
+   "who": "yuki",
+   "lines": [
+    "in japan 'smart' = slim 🇯🇵"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "So Yuki called me slim,",
+    "and Sanne called me smart."
+   ],
+   "lineGap": 0.7
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "..."
+   ],
+   "hold": 1.2,
+   "sfx": [
+    "crickets"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "I'll take both 💅"
+   ]
+  },
+  {
+   "who": "yuki",
+   "lines": [
+    "for lunch",
+    "can we go to viking? 🍽️"
+   ],
+   "typing": 0.6,
+   "mood": "awkward"
+  },
+  {
+   "who": "lars",
+   "lines": [
+    "i AM a viking"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "We are not going to Scandinavia."
+   ]
+  },
+  {
+   "who": "yuki",
+   "lines": [
+    "'baikingu' = buffet in japan"
+   ]
+  },
+  {
+   "who": "pierre",
+   "lines": [
+    "i only want pain"
+   ]
+  },
+  {
+   "who": "parkerS",
+   "lines": [
+    "Pierre are you ok??"
+   ]
+  },
+  {
+   "who": "pierre",
+   "lines": [
+    "pain = bread 🥖"
+   ]
+  },
+  {
+   "who": "pierre",
+   "lines": [
+    "but also",
+    "i fell off the bus",
+    "and hurt my bras"
+   ]
+  },
+  {
+   "who": "parkerS",
+   "lines": [
+    "PIERRE"
+   ],
+   "shake": true,
+   "sfx": [
+    "vine_boom"
+   ]
+  },
+  {
+   "who": "pierre",
+   "lines": [
+    "my arm madame",
+    "'bras' = arm 💪"
+   ]
+  },
+  {
+   "who": "tiago",
+   "lines": [
+    "teacher",
+    "i am stuck in the museum"
+   ],
+   "typing": 0.8,
+   "mood": "suspense"
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "WHAT"
+   ]
+  },
+  {
+   "who": "tiago",
+   "lines": [
+    "i push the door",
+    "i push and push"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Try pulling it."
+   ]
+  },
+  {
+   "who": "tiago",
+   "lines": [
+    "but it says PUXE"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "'Puxe' means PULL, Tiago."
+   ],
+   "typing": 0.6
+  },
+  {
+   "who": "tiago",
+   "lines": [
+    "..."
+   ],
+   "hold": 1.0
+  },
+  {
+   "who": "tiago",
+   "lines": [
+    "i am free 🕊️"
+   ],
+   "sfx": [
+    "ding"
+   ]
+  },
+  {
+   "who": "weber",
+   "lines": [
+    "@Ms.Parker"
+   ],
+   "typing": 1.0,
+   "ping": true,
+   "sfx": [
+    "discord_join"
+   ]
+  },
+  {
+   "who": "weber",
+   "lines": [
+    "Why is a student kissing",
+    "in the museum toilet?"
+   ]
+  },
+  {
+   "who": "parkerS",
+   "lines": [
+    "He is NOT kissing,",
+    "he is PEEING."
+   ],
+   "lineGap": 0.7
+  },
+  {
+   "who": "weber",
+   "lines": [
+    "That is not better."
+   ],
+   "pause": 0.3
+  },
+  {
+   "who": "lars",
+   "lines": [
+    "@Weber",
+    "before we go back",
+    "can i kiss?"
+   ],
+   "sfx": [
+    "dun_dun_dun"
+   ]
+  },
+  {
+   "who": "weber",
+   "lines": [
+    "Ms. Parker.",
+    "My office.",
+    "Now."
+   ],
+   "lineGap": 0.8
+  },
+  {
+   "who": "parker",
+   "panel": {
+    "header": "OFFLINE — 1",
+    "rows": [
+     {
+      "who": "parker"
+     }
+    ]
+   },
+   "hold": 1.2,
+   "sfx": [
+    "discord_leave"
+   ],
+   "music": false
+  },
+  {
+   "who": "lars",
+   "lines": [
+    "so"
+   ],
+   "typing": 0.5,
+   "mood": "sad",
+   "music": false
+  },
+  {
+   "who": "lars",
+   "lines": [
+    "is that a yes?"
+   ],
+   "music": true,
+   "hold": 2.0
+  }
+ ]
+}

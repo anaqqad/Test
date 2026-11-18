@@ -1,0 +1,44 @@
+# YouTube metadata: Teaching Foreign Students English be like… (Part 2)
+
+## Title
+Teaching Foreign Students English be like… (Part 2)
+
+## Description
+School trip day, and the false friends get even worse. A Swedish student needs to "kiss" before the bus, a German student plays with his "Handy" all day, and somebody calls the teacher "slim" and "smart" at the same time. Can Ms. Parker survive one school trip?
+
+Part 1 is on the channel. Which false friend from YOUR language should be in Part 3? Tell us in the comments 👇
+
+0:00 Lars needs to "kiss"
+0:12 Hans brings his "Handy"
+0:24 "Smart" or "slim"?
+0:41 Lunch at the "Viking"
+0:57 Tiago is stuck
+1:09 The principal
+
+The false friends:
+Swedish "kissa" = to pee
+German "Handy" = mobile phone
+Dutch "slim" = smart, clever
+Japanese "sumāto" (smart) = slim
+Japanese "baikingu" (Viking) = all-you-can-eat buffet
+French "pain" = bread
+French "bras" = arm
+Portuguese "puxe" = pull
+
+Music by Kevin MacLeod (incompetech.com), via Wikimedia Commons: "Monkeys Spinning Monkeys", "Scheming Weasel", "Sad Trio", "Carefree", "Investigations", "Volatile Reaction", licensed CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+Sound effects: Discord message sound and meme sound effects (via myinstants.com).
+Characters and chat look made for LingoDude. No AI voices.
+
+Thumbnail photo: Classroom in the U.S.: photo by Marie from Malang, East Java, CC BY-SA 2.0, via Wikimedia Commons
+
+#languages #learnenglish #falsefriends
+
+## Tags
+teaching english be like, foreign students, false friends, english teacher, learn english, english mistakes, swedish false friends, german false friends, dutch, japanese english, french false friends, group chat, discord chat, languages be like, LingoDude
+
+## Settings
+- Category: Comedy
+- Made for kids: No
+- Altered or synthetic content: No (no AI voices)
+- Thumbnail: lingo/videos/thumbD_class2.png (node thumb_duo.mjs class2)

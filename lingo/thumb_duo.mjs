@@ -5,6 +5,9 @@ import { fileURLToPath, pathToFileURL } from "node:url"; import { chromium } fro
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const key = process.argv[2];
 const SPECS = {
+  class2: { part: "PART 2", name: "English Class", photo: "class", pos: "50% 40%", flag: "se",
+           left: { wojak: "wojaks/s_swe.png", say: "teacher i need to kiss 🙋" },
+           right: { wojak: "wojaks/sl2_gla_shock.png", hook: "LARS?!", flip: true } },
   class: { part: "PART 1", name: "English Class", photo: "class", pos: "50% 40%", flag: "es",
            left: { wojak: "wojaks/s_spa.png", say: "i am embarazada 😳" },
            right: { wojak: "wojaks/sl2_gla_shock.png", hook: "DIEGO?!", flip: true } },
