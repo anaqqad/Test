@@ -1,5 +1,5 @@
 {
- "title": "Teaching Foreign Students English be like…",
+ "title": "Teaching Foreign Students English be like… (Part 1)",
  "premise": "An English teacher's class group chat, where her foreign students keep falling for false friends.",
  "width": 1920,
  "height": 1080,
@@ -475,5 +475,6 @@
    "music": true
   }
  ],
- "musicDb": -21
+ "musicDb": -21,
+ "part": "Part 1"
 }

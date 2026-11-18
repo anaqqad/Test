@@ -1,12 +1,12 @@
-# YouTube metadata: Teaching Foreign Students English be like…
+# YouTube metadata: Teaching Foreign Students English be like… (Part 1)
 
 ## Title
-Teaching Foreign Students English be like…
+Teaching Foreign Students English be like… (Part 1)
 
 ## Description
 When your English class group chat is full of false friends: words that look English but mean something completely different. A German student wants to "become" his homework, a Spanish student is "constipated" (he has a cold), and a "gift" in German is poison. Can Ms. Parker survive one morning?
 
-Which false friend from YOUR language should be in the next one? Tell us in the comments 👇
+Which false friend from YOUR language should be in Part 2? Tell us in the comments 👇
 
 0:00 Hans wants to "become" his homework
 0:13 Diego is "constipated"

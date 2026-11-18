@@ -5,7 +5,7 @@ import { fileURLToPath, pathToFileURL } from "node:url"; import { chromium } fro
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const key = process.argv[2];
 const SPECS = {
-  class: { name: "English Class", photo: "class", pos: "50% 40%", flag: "es",
+  class: { part: "PART 1", name: "English Class", photo: "class", pos: "50% 40%", flag: "es",
            left: { wojak: "wojaks/s_spa.png", say: "i am embarazada 😳" },
            right: { wojak: "wojaks/sl2_gla_shock.png", hook: "DIEGO?!", flip: true } },
 };
@@ -20,12 +20,13 @@ const html = `<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="
 .photo{inset:0;background:url('${url("cache/photos/" + T.photo + ".jpg")}') ${T.pos}/cover;filter:brightness(.9)}
 .strip{left:0;top:0;width:1280px;height:78px;background:#fff;text-align:center;font-weight:700;font-size:50px;line-height:80px;color:#111}
 .flag{left:50%;top:104px;transform:translateX(-50%);width:170px;height:113px;background:url('${url("node_modules/flag-icons/flags/4x3/" + T.flag + ".svg")}') center/cover;box-shadow:0 6px 18px rgba(0,0,0,.45)}
+.part{right:40px;top:100px;width:260px;text-align:center;background:#e8262b;color:#fff;font-weight:800;font-size:50px;padding:2px 0 6px;border:5px solid #fff;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.45)}
 .wl{left:-10px;bottom:0;height:500px}.wr{right:-30px;bottom:0;height:560px;transform:scaleX(${T.right.flip ? -1 : 1})}
 .bubble{left:190px;top:112px;background:#fff;color:#111;font:700 46px Inter,"Noto Color Emoji";padding:18px 28px;border-radius:28px;box-shadow:0 8px 22px rgba(0,0,0,.45);white-space:nowrap}
 .bubble::after{content:"";position:absolute;left:40px;bottom:-26px;border:16px solid transparent;border-top:26px solid #fff;border-left:22px solid #fff}
 .hook{right:190px;top:520px;font-weight:800;font-size:104px;color:#e8262b;text-shadow:${stroke(7, "#fff")},0 10px 20px rgba(0,0,0,.45);white-space:nowrap}
 </style>
-<div class="a photo"></div><div class="a strip">${T.name}</div>
+<div class="a photo"></div><div class="a strip">${T.name}</div>${T.part ? `<div class="a part">${T.part}</div>` : ""}
 <img class="a wl" src="${trim(T.left.wojak, "l")}"><img class="a wr" src="${trim(T.right.wojak, "r")}">
 <div class="a bubble">${T.left.say}</div><div class="a hook">${T.right.hook}</div>`;
 const f = path.join(HERE, "cache", "pages", `thumbD_${key}.html`); fs.writeFileSync(f, html);
