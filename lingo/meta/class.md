@@ -25,7 +25,10 @@ French "assister" = to attend (not "to help")
 
 Music by Kevin MacLeod (incompetech.com), via Wikimedia Commons: "Monkeys Spinning Monkeys", "Scheming Weasel", "Sad Trio", "Carefree", "Investigations", "Volatile Reaction", licensed CC BY 3.0
 https://creativecommons.org/licenses/by/3.0/
-Characters, chat look and sound effects made for LingoDude. No AI voices.
+Sound effects: Discord message sound and meme sound effects (via myinstants.com).
+Characters and chat look made for LingoDude. No AI voices.
+
+Thumbnail photo: Classroom in the U.S.: photo by Marie from Malang, East Java, CC BY-SA 2.0, via Wikimedia Commons
 
 #languages #learnenglish #falsefriends
 
@@ -36,4 +39,4 @@ teaching english be like, foreign students, false friends, english teacher, lear
 - Category: Comedy
 - Made for kids: No
 - Altered or synthetic content: No (no AI voices; characters drawn and animated for LingoDude)
-- Thumbnail: lingo/videos/thumbC_class.png (node thumb_chat.mjs class)
+- Thumbnail: lingo/videos/thumbD_class.png (node thumb_duo.mjs class); alternative: thumbC_class.png
