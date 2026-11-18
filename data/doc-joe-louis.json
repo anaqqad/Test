@@ -1,0 +1,1725 @@
+{
+ "id": "doc-joe-louis",
+ "title": "He Beat the Nazis' Champion. Then America Taxed Him for Life: The Joe Louis Story",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Schmeling": "Shmelling",
+  "Ezzard": "Ezzerd",
+  "Caesars": "Seezers",
+  "Roxborough": "Rocks-burrow",
+  "Carnera": "Car-nair-ah"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "p1935": {
+   "commons": "File:Joe Louis 1935 headshot by ACME Newspictures.jpg"
+  },
+  "acme1935": {
+   "commons": "File:Joe Louis 1935 portrait by Acme.jpg"
+  },
+  "ap1935": {
+   "commons": "File:Joe Louis 1935 portrait by the Associated Press.jpg"
+  },
+  "ugood": {
+   "commons": "File:Joe Louis 1936 portrait by the Associated Press.jpg"
+  },
+  "vanvechten": {
+   "commons": "File:Joe Louis by van Vechten.jpg"
+  },
+  "fist1937": {
+   "commons": "File:International News Photos Portrait of Joe Louis with fist, 1937.jpg"
+  },
+  "smile1937": {
+   "commons": "File:Joe Louis smiling 1937 portrait by ACME Newspictures.jpg"
+  },
+  "shadow1937": {
+   "commons": "File:Joe Louis shadowed headshot 1937 by International News Photos.jpg"
+  },
+  "owens": {
+   "commons": "File:Joe Louis and Jesse Owens 1935.jpg"
+  },
+  "visit1935": {
+   "commons": "File:Max Schmeling visiting Joe Louis 1935 press photo.jpg"
+  },
+  "poster1936": {
+   "commons": "File:Joe Louis vs. Max Schmeling ad poster.jpg"
+  },
+  "loss1936": {
+   "commons": "File:Joe Louis counted out against Max Schmeling 1936.jpg"
+  },
+  "ring1936": {
+   "commons": "File:Joe Louis - Max Schmeling - 1936.jpg"
+  },
+  "medical": {
+   "commons": "File:Joe Louis medical for Braddock fight.jpg"
+  },
+  "braddock": {
+   "commons": "File:Hal Totten raising the hand of Joe Louis after his victory over Jim Braddock.jpg"
+  },
+  "farr": {
+   "commons": "File:Joe Louis and Tommy Farr square off.jpg"
+  },
+  "weighin": {
+   "commons": "File:Joe Louis vs. Max Schmeling II weigh in.jpg"
+  },
+  "standing": {
+   "commons": "File:Joe Louis standing over Max Schmeling 1938.jpg"
+  },
+  "kayo": {
+   "commons": "File:New York Daily News, June 23, 1938 - Joe Kayos Max in 1st.jpg"
+  },
+  "harlem": {
+   "commons": "File:Celebrations in Harlem after Joe Louis knocked out Max Schmeling (1).jpg"
+  },
+  "harlem2": {
+   "commons": "File:Celebrations in Harlem after Joe Louis knocked out Max Schmeling (2).jpg"
+  },
+  "reading": {
+   "commons": "File:Joe Louis reading about his victory over Max Schmeling in the New York Daily News.jpg"
+  },
+  "ringmedal": {
+   "commons": "File:Joe Louis admires a medal awarded to him by The Ring in 1939.jpg"
+  },
+  "conn": {
+   "commons": "File:Billy Conn and Joe Louis 1942.jpg"
+  },
+  "baer": {
+   "commons": "File:Joe Louis and Buddy Baer 1941.jpg"
+  },
+  "army": {
+   "commons": "File:Joe Louis army ACME 1942.jpg"
+  },
+  "ready": {
+   "commons": "File:Joe Louis is ready to crush Hitler, Hirochito and Mussolini.jpg"
+  },
+  "alston": {
+   "commons": "File:SGT. JOE LOUIS - CHAMPION OF CHAMPIONS - NARA - 535687.jpg"
+  },
+  "sewing": {
+   "commons": "File:Joe louis barrow.jpg"
+  },
+  "hospital": {
+   "commons": "File:Boxer Joe Louis at Christie St. hospital, signing autographs (I0002781).jpg"
+  },
+  "p1946": {
+   "commons": "File:Joe Louis 1946.jpg"
+  },
+  "charles": {
+   "commons": "File:Ezzard Charles vs Joe Louis 1950.jpg"
+  },
+  "after50": {
+   "commons": "File:Joe Louis after match with Ezzard Charles 1950.jpg"
+  },
+  "p1951": {
+   "commons": "File:Joe Louis June 1951 by International News Photos.jpg"
+  },
+  "liston": {
+   "commons": "File:Sonny Liston and Joe Louis in 1963.jpg"
+  },
+  "schmeling71": {
+   "commons": "File:Joe Louis and Max Schmeling 1971 Press Photo.jpg"
+  },
+  "medal": {
+   "commons": "File:1981 Joe Louis Congressional Gold Medal front.jpg"
+  }
+ },
+ "clips": {
+  "ring38a": {
+   "file": "negro_soldier.webm",
+   "commons": "File:\"The Negro Soldier\" 1944.webm",
+   "start": 177.6,
+   "dur": 5.4
+  },
+  "ring38b": {
+   "file": "negro_soldier.webm",
+   "commons": "File:\"The Negro Soldier\" 1944.webm",
+   "start": 184,
+   "dur": 6
+  },
+  "down38": {
+   "file": "negro_soldier.webm",
+   "commons": "File:\"The Negro Soldier\" 1944.webm",
+   "start": 194.2,
+   "dur": 2.6,
+   "speed": 0.5
+  },
+  "crowd37": {
+   "file": "joe_louis_story.ogv",
+   "commons": "File:The Joe Louis Story (1953).ogv",
+   "start": 2670,
+   "dur": 3,
+   "speed": 0.7
+  },
+  "braddock": {
+   "file": "joe_louis_story.ogv",
+   "commons": "File:The Joe Louis Story (1953).ogv",
+   "start": 2680,
+   "dur": 8
+  },
+  "braddock2": {
+   "file": "joe_louis_story.ogv",
+   "commons": "File:The Joe Louis Story (1953).ogv",
+   "start": 2722,
+   "dur": 10
+  },
+  "braddock3": {
+   "file": "joe_louis_story.ogv",
+   "commons": "File:The Joe Louis Story (1953).ogv",
+   "start": 2744,
+   "dur": 10
+  },
+  "braddock4": {
+   "file": "joe_louis_story.ogv",
+   "commons": "File:The Joe Louis Story (1953).ogv",
+   "start": 2764,
+   "dur": 10
+  },
+  "marciano0": {
+   "file": "joe_louis_story.ogv",
+   "commons": "File:The Joe Louis Story (1953).ogv",
+   "start": 4936,
+   "dur": 8
+  },
+  "marciano1": {
+   "file": "joe_louis_story.ogv",
+   "commons": "File:The Joe Louis Story (1953).ogv",
+   "start": 4960,
+   "dur": 8
+  },
+  "marciano": {
+   "file": "joe_louis_story.ogv",
+   "commons": "File:The Joe Louis Story (1953).ogv",
+   "start": 5054,
+   "dur": 10
+  },
+  "ropes": {
+   "file": "joe_louis_story.ogv",
+   "commons": "File:The Joe Louis Story (1953).ogv",
+   "start": 5068,
+   "dur": 10
+  }
+ },
+ "beats": [
+  {
+   "id": "o1",
+   "text": "He knocked out the Nazis' favorite boxer in two minutes and four seconds. Then his own government chased him for a debt he could never pay.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1935",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.18
+    ],
+    "anchor": [
+     0.5,
+     0.39999999999999997
+    ]
+   },
+   "overlays": {
+    "hook": "He beat the Nazis' champion in 124 seconds. *Then America came for everything.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "o2",
+   "text": "On a June night in 1938, seventy thousand people packed Yankee Stadium. Millions more were listening on the radio, in America and in Germany.",
+   "visual": {
+    "kind": "video",
+    "clip": "ring38a",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "22 June 1938"
+   }
+  },
+  {
+   "id": "o3",
+   "text": "It took him two minutes and four seconds to win.",
+   "visual": {
+    "kind": "video",
+    "clip": "down38",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "anchor": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "o4",
+   "text": "He held the heavyweight title for almost twelve years. He gave his prize money to the war effort. And then the government sent him the bill.",
+   "visual": {
+    "kind": "photo",
+    "image": "alston",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   }
+  },
+  {
+   "id": "o4b",
+   "text": "It is one of the strangest stories in American sport: the champion his country celebrated, and then would not let go of.",
+   "visual": {
+    "kind": "photo",
+    "image": "vanvechten",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "o5",
+   "text": "His name was Joe Louis. This is his story.",
+   "visual": {
+    "kind": "title",
+    "title": "Joe Louis",
+    "sub": "the Brown Bomber"
+   }
+  },
+  {
+   "id": "e1",
+   "text": "Joseph Louis Barrow was born on May 13th, 1914, in Chambers County, Alabama.",
+   "visual": {
+    "kind": "photo",
+    "image": "acme1935",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Chambers County, Alabama"
+    }
+   },
+   "section": "early"
+  },
+  {
+   "id": "e2",
+   "text": "He was the seventh of eight children. His parents were sharecroppers, and both were the children of people who had been enslaved.",
+   "visual": {
+    "kind": "title",
+    "title": "Sharecroppers' son",
+    "sub": "the seventh of eight children"
+   }
+  },
+  {
+   "id": "e3",
+   "text": "When Joe was two, his father was committed to a mental hospital. Joe would hardly know him.",
+   "visual": {
+    "kind": "card",
+    "image": "shadow1937",
+    "caption": "Joe Louis, 1937"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "In 1926, like millions of Black families in the Great Migration, they moved north, to Detroit.",
+   "visual": {
+    "kind": "title",
+    "title": "Detroit",
+    "sub": "1926"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Detroit, Michigan"
+    }
+   }
+  },
+  {
+   "id": "e5",
+   "text": "There, Joe found a boxing gym. As an amateur, he won fifty of his fifty-four fights, forty-three by knockout.",
+   "visual": {
+    "kind": "photo",
+    "image": "fist1937",
+    "focus": [
+     0.55,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.55,
+     0.45
+    ]
+   }
+  },
+  {
+   "id": "e6",
+   "text": "In 1934 he won the national amateur light heavyweight title. That summer, he turned professional.",
+   "visual": {
+    "kind": "card",
+    "image": "ap1935",
+    "caption": "Joe Louis, 1935"
+   }
+  },
+  {
+   "id": "r1",
+   "text": "His first pro fight was on July 4th, 1934. He won in the first round.",
+   "visual": {
+    "kind": "photo",
+    "image": "smile1937",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.39999999999999997
+    ]
+   },
+   "overlays": {
+    "stamp": "4 July 1934"
+   },
+   "section": "rules"
+  },
+  {
+   "id": "r2",
+   "text": "His managers were two Black businessmen, John Roxborough and Julian Black.",
+   "visual": {
+    "kind": "photo",
+    "image": "ugood",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "r2b",
+   "text": "They hired a trainer, the former fighter Jack Blackburn. He taught Joe to stay calm, set up his punches, and finish fights.",
+   "visual": {
+    "kind": "photo",
+    "image": "ap1935",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "r3",
+   "text": "They knew what had happened to the last Black heavyweight champion, Jack Johnson. He had enraged white America, and for years after him, Black fighters were kept away from the title.",
+   "visual": {
+    "kind": "title",
+    "title": "After Jack Johnson",
+    "sub": "the title was kept from Black fighters"
+   }
+  },
+  {
+   "id": "r3b",
+   "text": "When Johnson won the title in 1908, white promoters started hunting for a Great White Hope to take it back from him. Newspapers mocked him for years.",
+   "visual": {
+    "kind": "title",
+    "title": "A Great White Hope",
+    "sub": "the hunt began in 1908"
+   }
+  },
+  {
+   "id": "r4",
+   "text": "So they gave Joe rules. Never be photographed with a white woman. Never gloat over a beaten opponent. Keep a straight face.",
+   "visual": {
+    "kind": "title",
+    "title": "The rules",
+    "sub": "never gloat, keep a straight face"
+   }
+  },
+  {
+   "id": "r5",
+   "text": "He followed them. And he kept winning. In 1935, he beat the former champion Primo Carnera.",
+   "visual": {
+    "kind": "card",
+    "image": "owens",
+    "caption": "Joe Louis and Jesse Owens, 1935"
+   },
+   "overlays": {
+    "stamp": "1935"
+   }
+  },
+  {
+   "id": "r6",
+   "text": "The press called him the Brown Bomber.",
+   "visual": {
+    "kind": "card",
+    "image": "p1935",
+    "caption": "Joe Louis, 1935"
+   }
+  },
+  {
+   "id": "s1",
+   "text": "Then, in June 1936, he met the German former champion Max Schmeling at Yankee Stadium.",
+   "visual": {
+    "kind": "card",
+    "image": "poster1936",
+    "caption": "Louis vs. Schmeling, June 1936"
+   },
+   "overlays": {
+    "stamp": "19 June 1936"
+   },
+   "section": "schmeling1"
+  },
+  {
+   "id": "s2",
+   "text": "Louis was the favorite. But in the twelfth round, Schmeling knocked him out.",
+   "visual": {
+    "kind": "card",
+    "image": "loss1936",
+    "caption": "Louis counted out, 1936"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "It was the first loss of his professional career.",
+   "visual": {
+    "kind": "photo",
+    "image": "ring1936",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "id": "s4",
+   "text": "In Germany, the Nazi regime made Schmeling a national hero.",
+   "visual": {
+    "kind": "title",
+    "title": "A Nazi hero",
+    "sub": "Max Schmeling, 1936"
+   }
+  },
+  {
+   "id": "c1",
+   "text": "Louis went back to work. A year later, on June 22nd, 1937, he fought the champion, James Braddock, in Chicago.",
+   "visual": {
+    "kind": "video",
+    "clip": "crowd37",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "22 June 1937",
+    "pin": {
+     "label": "Chicago"
+    }
+   },
+   "section": "champion"
+  },
+  {
+   "id": "c2",
+   "text": "Braddock knocked him down in the first round.",
+   "visual": {
+    "kind": "video",
+    "clip": "braddock",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "text": "Louis got up, and wore him down.",
+   "visual": {
+    "kind": "video",
+    "clip": "braddock2",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "c4",
+   "text": "In the eighth round, he knocked Braddock out.",
+   "visual": {
+    "kind": "video",
+    "clip": "braddock3",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "c5",
+   "text": "He was the heavyweight champion of the world. The first Black heavyweight champion in twenty-two years.",
+   "visual": {
+    "kind": "card",
+    "image": "braddock",
+    "caption": "Louis declared the winner over Braddock, 1937"
+   }
+  },
+  {
+   "id": "c6",
+   "text": "But one loss still stood on his record.",
+   "visual": {
+    "kind": "video",
+    "clip": "braddock4",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "m1",
+   "text": "The rematch with Schmeling was set for June 22nd, 1938, at Yankee Stadium.",
+   "visual": {
+    "kind": "card",
+    "image": "weighin",
+    "caption": "The weigh-in, 22 June 1938"
+   },
+   "section": "rematch"
+  },
+  {
+   "id": "m2",
+   "text": "By then it was more than a boxing match. Many Americans saw it as a contest between their country and Nazi Germany.",
+   "visual": {
+    "kind": "title",
+    "title": "Two countries",
+    "sub": "June 1938"
+   }
+  },
+  {
+   "id": "m3",
+   "text": "President Roosevelt reportedly told Louis: Joe, we need muscles like yours to beat Germany.",
+   "visual": {
+    "kind": "quote",
+    "quote": "Joe, we need muscles like yours to beat Germany.",
+    "by": "President Roosevelt to Joe Louis, as reported"
+   }
+  },
+  {
+   "id": "m4",
+   "text": "Seventy thousand people came. Radio carried the fight around the world, including to Germany.",
+   "visual": {
+    "kind": "video",
+    "clip": "ring38a",
+    "focus": [
+     0.5,
+     0.42
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "22 June 1938"
+   }
+  },
+  {
+   "id": "m5",
+   "text": "Louis came out punching, and he never stopped.",
+   "visual": {
+    "kind": "video",
+    "clip": "ring38b",
+    "focus": [
+     0.5,
+     0.42
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "m6",
+   "text": "Schmeling went down. His corner threw in the towel.",
+   "visual": {
+    "kind": "video",
+    "clip": "down38",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "anchor": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "m7",
+   "text": "It was over in two minutes and four seconds.",
+   "visual": {
+    "kind": "title",
+    "title": "2 minutes, 4 seconds",
+    "sub": "round one"
+   }
+  },
+  {
+   "id": "m8",
+   "text": "In Harlem, people poured into the streets and celebrated through the night.",
+   "visual": {
+    "kind": "photo",
+    "image": "harlem",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "id": "m9",
+   "text": "Black Americans, and much of white America too, had a hero.",
+   "visual": {
+    "kind": "photo",
+    "image": "harlem2",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   }
+  },
+  {
+   "id": "m10",
+   "text": "The next morning, the champion read about himself in the paper.",
+   "visual": {
+    "kind": "card",
+    "image": "reading",
+    "caption": "Louis reading the New York Daily News, 23 June 1938"
+   }
+  },
+  {
+   "id": "l1",
+   "text": "Over the next years, he fought almost anyone who would get in the ring with him.",
+   "visual": {
+    "kind": "card",
+    "image": "ringmedal",
+    "caption": "Louis with a medal from The Ring, 1939"
+   },
+   "section": "reign"
+  },
+  {
+   "id": "l2",
+   "text": "Between 1939 and 1941, he defended the title thirteen times. Reporters called his opponents the Bum of the Month Club.",
+   "visual": {
+    "kind": "title",
+    "title": "Bum of the Month",
+    "sub": "13 defenses, 1939 to 1941"
+   }
+  },
+  {
+   "id": "l3",
+   "text": "In 1941, the young Billy Conn was ahead on the scorecards. Louis knocked him out in the thirteenth round.",
+   "visual": {
+    "kind": "card",
+    "image": "conn",
+    "caption": "Billy Conn and Joe Louis"
+   }
+  },
+  {
+   "id": "l3b",
+   "text": "He was now one of the most famous men in America, Black or white. Children in every city knew his name.",
+   "visual": {
+    "kind": "card",
+    "image": "ringmedal",
+    "caption": "Louis in 1939"
+   }
+  },
+  {
+   "id": "l4",
+   "text": "In all, he would defend the title twenty-five times, and hold it for almost twelve years. Both are still heavyweight records.",
+   "visual": {
+    "kind": "photo",
+    "image": "vanvechten",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "w1",
+   "text": "Then came Pearl Harbor.",
+   "visual": {
+    "kind": "title",
+    "title": "December 1941",
+    "sub": "America goes to war"
+   },
+   "section": "war"
+  },
+  {
+   "id": "w2",
+   "text": "In January 1942, Louis fought Buddy Baer, and gave his purse to the Navy Relief Society.",
+   "visual": {
+    "kind": "card",
+    "image": "baer",
+    "caption": "Joe Louis and Buddy Baer"
+   },
+   "overlays": {
+    "stamp": "January 1942"
+   }
+  },
+  {
+   "id": "w3",
+   "text": "Two months later, he fought Abe Simon, and gave that purse to the Army Relief Fund.",
+   "visual": {
+    "kind": "photo",
+    "image": "ready",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   }
+  },
+  {
+   "id": "w4",
+   "text": "That same year, he joined the Army, an army that still kept Black and white soldiers apart.",
+   "visual": {
+    "kind": "card",
+    "image": "army",
+    "caption": "Joe Louis in the Army, 1942"
+   }
+  },
+  {
+   "id": "w5",
+   "text": "He never saw combat. Instead he boxed in almost a hundred exhibitions for the troops, and toured camps and hospitals.",
+   "visual": {
+    "kind": "card",
+    "image": "hospital",
+    "caption": "Louis signing autographs at a military hospital, about 1945"
+   }
+  },
+  {
+   "id": "w6",
+   "text": "The government put him on its posters.",
+   "visual": {
+    "kind": "card",
+    "image": "alston",
+    "caption": "Office of War Information poster, 1943"
+   }
+  },
+  {
+   "id": "t1",
+   "text": "But there was a problem with the money he gave away.",
+   "visual": {
+    "kind": "photo",
+    "image": "hospital",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   },
+   "section": "debt"
+  },
+  {
+   "id": "t2",
+   "text": "The tax collectors counted those charity purses as his income. He owed tax on money he never kept.",
+   "visual": {
+    "kind": "title",
+    "title": "Taxed",
+    "sub": "on the money he gave away"
+   }
+  },
+  {
+   "id": "t2b",
+   "text": "He had given away the money. He still had to pay the tax on it, and the interest on the tax.",
+   "visual": {
+    "kind": "card",
+    "image": "sewing",
+    "caption": "Joe Louis receives his stripes, 1945"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "And in those years, the top income tax rates reached ninety percent. The more he earned, the more he owed.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1946",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "t4",
+   "text": "On March 1st, 1949, Joe Louis retired, still the champion.",
+   "visual": {
+    "kind": "photo",
+    "image": "vanvechten",
+    "focus": [
+     0.5,
+     0.28
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ],
+    "anchor": [
+     0.5,
+     0.33
+    ]
+   },
+   "overlays": {
+    "stamp": "1 March 1949"
+   }
+  },
+  {
+   "id": "t5",
+   "text": "By 1950, the government said he owed more than half a million dollars. With interest and penalties, it kept growing, past one million.",
+   "visual": {
+    "kind": "title",
+    "title": "Over $1,000,000",
+    "sub": "his tax debt, with interest"
+   }
+  },
+  {
+   "id": "k1",
+   "text": "So, at thirty-six, he came back.",
+   "visual": {
+    "kind": "video",
+    "clip": "marciano0",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "comeback"
+  },
+  {
+   "id": "k2",
+   "text": "On September 27th, 1950, he lost a fifteen-round decision to the new champion, Ezzard Charles.",
+   "visual": {
+    "kind": "card",
+    "image": "charles",
+    "caption": "Ezzard Charles vs. Joe Louis, 1950"
+   },
+   "overlays": {
+    "stamp": "27 September 1950"
+   }
+  },
+  {
+   "id": "k3",
+   "text": "He kept fighting.",
+   "visual": {
+    "kind": "card",
+    "image": "after50",
+    "caption": "Louis after the Charles fight, 1950"
+   }
+  },
+  {
+   "id": "k3b",
+   "text": "In January 1951, he beat Freddie Beshore. He won his next fights too. For a moment, it looked like the old champion was back.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1951",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "k4",
+   "text": "On October 26th, 1951, he met a young Rocky Marciano at Madison Square Garden.",
+   "visual": {
+    "kind": "video",
+    "clip": "marciano1",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "26 October 1951"
+   }
+  },
+  {
+   "id": "k5",
+   "text": "In the eighth round, Marciano knocked him through the ropes.",
+   "visual": {
+    "kind": "video",
+    "clip": "ropes",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "k6",
+   "text": "Joe Louis never boxed again.",
+   "visual": {
+    "kind": "video",
+    "clip": "marciano",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "a1",
+   "text": "The debt did not go away. He took whatever work he could find.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1951",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.39999999999999997
+    ]
+   },
+   "section": "after"
+  },
+  {
+   "id": "a2",
+   "text": "He became a professional wrestler, then a wrestling referee.",
+   "visual": {
+    "kind": "card",
+    "image": "liston",
+    "caption": "Joe Louis with Sonny Liston, 1963"
+   }
+  },
+  {
+   "id": "a3",
+   "text": "Later he worked in Las Vegas, as a greeter at Caesars Palace, shaking hands with tourists.",
+   "visual": {
+    "kind": "title",
+    "title": "Caesars Palace",
+    "sub": "Las Vegas"
+   }
+  },
+  {
+   "id": "a3b",
+   "text": "In 1954, he was voted into the boxing Hall of Fame. But a plaque could not pay the tax bill.",
+   "visual": {
+    "kind": "title",
+    "title": "Hall of Fame",
+    "sub": "1954"
+   }
+  },
+  {
+   "id": "a4",
+   "text": "He struggled with drugs and with his mental health.",
+   "visual": {
+    "kind": "card",
+    "image": "shadow1937",
+    "caption": "Joe Louis"
+   }
+  },
+  {
+   "id": "a5",
+   "text": "One old opponent helped him. Max Schmeling, the man he had beaten in 1938, became his friend.",
+   "visual": {
+    "kind": "card",
+    "image": "schmeling71",
+    "caption": "Joe Louis and Max Schmeling, 1971"
+   }
+  },
+  {
+   "id": "d1",
+   "text": "On April 12th, 1981, Joe Louis watched a heavyweight title fight in Las Vegas. Hours later, his heart failed. He was 66.",
+   "visual": {
+    "kind": "photo",
+    "image": "vanvechten",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   },
+   "overlays": {
+    "stamp": "12 April 1981"
+   },
+   "section": "end"
+  },
+  {
+   "id": "d2",
+   "text": "He had not served enough to be buried at Arlington National Cemetery by the usual rules. President Reagan waived them.",
+   "visual": {
+    "kind": "title",
+    "title": "Arlington",
+    "sub": "a waiver from the President"
+   }
+  },
+  {
+   "id": "d3",
+   "text": "He was buried there with full military honors. Max Schmeling helped pay for the funeral, and was a pallbearer.",
+   "visual": {
+    "kind": "photo",
+    "image": "alston",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ],
+    "anchor": [
+     0.5,
+     0.39999999999999997
+    ]
+   }
+  },
+  {
+   "id": "d4",
+   "text": "In 1982, Congress awarded him its Gold Medal.",
+   "visual": {
+    "kind": "card",
+    "image": "medal",
+    "caption": "Joe Louis Congressional Gold Medal"
+   }
+  },
+  {
+   "id": "d4b",
+   "text": "Detroit, the city where he learned to box, had already named its new hockey arena for him: the Joe Louis Arena, opened in 1979.",
+   "visual": {
+    "kind": "title",
+    "title": "Joe Louis Arena",
+    "sub": "Detroit, 1979"
+   }
+  },
+  {
+   "id": "z1",
+   "text": "He beat the Nazis' champion. He gave his purses to his country.",
+   "visual": {
+    "kind": "video",
+    "clip": "ring38b",
+    "focus": [
+     0.5,
+     0.42
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ],
+    "zoom": [
+     1.06,
+     1.12
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "z2",
+   "text": "And his country taxed him for it, for the rest of his life.",
+   "visual": {
+    "kind": "card",
+    "image": "p1935",
+    "caption": "Joe Louis, 1914-1981"
+   }
+  },
+  {
+   "id": "z3",
+   "text": "That was Joe Louis. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "o2": [
+   "WIKI",
+   "HIST",
+   "NPR"
+  ],
+  "o3": [
+   "WIKI",
+   "HIST",
+   "ESPN"
+  ],
+  "o4": [
+   "WIKI",
+   "HIST",
+   "LIB"
+  ],
+  "e1": [
+   "WIKI",
+   "HIST",
+   "ENC"
+  ],
+  "e2": [
+   "WIKI",
+   "ENC"
+  ],
+  "e3": [
+   "WIKI",
+   "ENC",
+   "HIST"
+  ],
+  "e4": [
+   "WIKI",
+   "ENC"
+  ],
+  "e5": [
+   "WIKI",
+   "HIST",
+   "ENC"
+  ],
+  "e6": [
+   "WIKI",
+   "ENC"
+  ],
+  "r1": [
+   "WIKI",
+   "ENC"
+  ],
+  "r2": [
+   "WIKI",
+   "PBS"
+  ],
+  "r3": [
+   "WIKI",
+   "PBS2"
+  ],
+  "r4": [
+   "WIKI",
+   "PBS"
+  ],
+  "r5": [
+   "WIKI",
+   "PBS3"
+  ],
+  "r6": [
+   "WIKI",
+   "HIST"
+  ],
+  "s1": [
+   "WIKI",
+   "HIST",
+   "PBS3"
+  ],
+  "s2": [
+   "WIKI",
+   "HIST",
+   "ENC"
+  ],
+  "s3": [
+   "WIKI",
+   "HIST"
+  ],
+  "s4": [
+   "WIKI",
+   "HNN"
+  ],
+  "c1": [
+   "WIKI",
+   "HIST",
+   "ENC"
+  ],
+  "c2": [
+   "WIKI",
+   "PBS3"
+  ],
+  "c3": [
+   "WIKI",
+   "PBS3"
+  ],
+  "c4": [
+   "WIKI",
+   "ENC"
+  ],
+  "c5": [
+   "HIST",
+   "WIKI"
+  ],
+  "c6": [
+   "WIKI",
+   "HIST"
+  ],
+  "m1": [
+   "WIKI",
+   "HIST"
+  ],
+  "m2": [
+   "WIKI",
+   "HNN",
+   "PBS3"
+  ],
+  "m3": [
+   "WIKI",
+   "HNN"
+  ],
+  "m4": [
+   "WIKI",
+   "HIST",
+   "NPR"
+  ],
+  "m5": [
+   "WIKI",
+   "ESPN"
+  ],
+  "m6": [
+   "WIKI",
+   "ESPN"
+  ],
+  "m7": [
+   "WIKI",
+   "HIST",
+   "ESPN"
+  ],
+  "m8": [
+   "COMMONS",
+   "HNN"
+  ],
+  "m9": [
+   "WIKI",
+   "HNN"
+  ],
+  "m10": [
+   "COMMONS",
+   "WIKI"
+  ],
+  "l1": [
+   "WIKI",
+   "HIST"
+  ],
+  "l2": [
+   "WIKI",
+   "HIST"
+  ],
+  "l3": [
+   "WIKI",
+   "ENC"
+  ],
+  "l4": [
+   "WIKI",
+   "ENC",
+   "HIST"
+  ],
+  "w1": [
+   "WIKI",
+   "HIST"
+  ],
+  "w2": [
+   "WIKI",
+   "LIB"
+  ],
+  "w3": [
+   "WIKI",
+   "LIB"
+  ],
+  "w4": [
+   "WIKI",
+   "HIST",
+   "ENC"
+  ],
+  "w5": [
+   "WIKI",
+   "ENC",
+   "HIST"
+  ],
+  "w6": [
+   "COMMONS",
+   "WIKI"
+  ],
+  "t1": [
+   "WIKI",
+   "LIB"
+  ],
+  "t2": [
+   "WIKI",
+   "LIB",
+   "CRB"
+  ],
+  "t3": [
+   "WIKI",
+   "LIB",
+   "CRB"
+  ],
+  "t4": [
+   "ENC",
+   "HIST"
+  ],
+  "t5": [
+   "WIKI",
+   "ENC",
+   "LIB"
+  ],
+  "k1": [
+   "WIKI",
+   "HIST"
+  ],
+  "k2": [
+   "WIKI",
+   "ENC"
+  ],
+  "k3": [
+   "WIKI",
+   "HIST"
+  ],
+  "k4": [
+   "WIKI",
+   "ENC",
+   "HIST"
+  ],
+  "k5": [
+   "WIKI",
+   "ENC"
+  ],
+  "k6": [
+   "WIKI",
+   "ENC",
+   "HIST"
+  ],
+  "a1": [
+   "WIKI",
+   "LIB"
+  ],
+  "a2": [
+   "WIKI",
+   "ENC"
+  ],
+  "a3": [
+   "WIKI",
+   "ENC",
+   "HIST"
+  ],
+  "a4": [
+   "WIKI",
+   "HIST"
+  ],
+  "a5": [
+   "WIKI",
+   "MOSAIC"
+  ],
+  "d1": [
+   "WIKI",
+   "ENC",
+   "HIST"
+  ],
+  "d2": [
+   "ANC",
+   "HIST",
+   "WIKI"
+  ],
+  "d3": [
+   "WIKI",
+   "ANC",
+   "MOSAIC"
+  ],
+  "d4": [
+   "WIKI",
+   "COMMONS"
+  ],
+  "z1": [
+   "WIKI",
+   "HIST"
+  ],
+  "z2": [
+   "WIKI",
+   "LIB"
+  ]
+ },
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Joe_Louis"
+  },
+  "ENC": {
+   "url": "https://www.encyclopedia.com/people/sports-and-games/sports-biographies/joe-louis"
+  },
+  "HIST": {
+   "url": "https://www.history.com/topics/boxing/joe-louis"
+  },
+  "PBS": {
+   "url": "https://www.pbs.org/wgbh/americanexperience/features/fight-john-roxborough-and-julian-black"
+  },
+  "PBS2": {
+   "url": "https://www.pbs.org/wgbh/americanexperience/features/fight-black-boxers-and-idea-great-white-hope/"
+  },
+  "PBS3": {
+   "url": "https://www.pbs.org/wgbh/americanexperience/features/fight-louis-and-schmeling-chronology/"
+  },
+  "NPR": {
+   "url": "https://www.npr.org/transcripts/6515548"
+  },
+  "ESPN": {
+   "url": "https://www.espn.in/boxing/story/_/id/9404398/more-just-fight"
+  },
+  "HNN": {
+   "url": "https://www.historynewsnetwork.org/article/on-this-day-in-1938-joe-louis-and-max-schmeling-we"
+  },
+  "LIB": {
+   "url": "https://libertarianinstitute.org/articles/joe-louis-vs-the-tax-man"
+  },
+  "CRB": {
+   "url": "https://claremontreviewofbooks.com/digital/terminator-irs-hounded-joe-louis-into-poverty"
+  },
+  "ANC": {
+   "url": "https://www.arlingtoncemetery.mil/Explore/Notable-Graves/Sports/Joe-Louis"
+  },
+  "MOSAIC": {
+   "url": "https://mosaicmagazine.com/picks/history-ideas/2023/07/although-made-into-an-avatar-of-nazi-germany-max-schmeling-was-among-the-righteous/"
+  },
+  "COMMONS": {
+   "url": "https://commons.wikimedia.org/wiki/Category:Joe_Louis"
+  },
+  "JLA": {
+   "url": "https://en.wikipedia.org/wiki/Joe_Louis_Arena"
+  }
+ },
+ "notUsed": [
+  "Tax debt resolution: special act of Congress (HIST) vs 1962 settlement (other accounts): not said.",
+  "Final record 66-3 (WIKI) vs 68-3 (HIST): not said.",
+  "Charity purse amounts differ by source ($47,000/$36,146 net vs $65,200/$45,882): not said.",
+  "Knockdowns in the 1938 rematch: three (WIKI) vs two (other accounts): not said.",
+  "The Joe Louis Story (1953) actor scenes (Coley Wallace) are not used; only its real fight newsreels."
+ ]
+}

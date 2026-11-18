@@ -1,0 +1,72 @@
+{
+ "ring38a": {
+  "width": 1920,
+  "height": 1080,
+  "seconds": 5.433,
+  "title": "File:\"The Negro Soldier\" 1944.webm",
+  "start": 177.6,
+  "dur": 5.4,
+  "source": "https://commons.wikimedia.org/wiki/File%3A%22The_Negro_Soldier%22_1944.webm",
+  "license": "Public domain"
+ },
+ "ring38b": {
+  "width": 1920,
+  "height": 1080,
+  "seconds": 6.0,
+  "title": "File:\"The Negro Soldier\" 1944.webm",
+  "start": 184,
+  "dur": 6,
+  "source": "https://commons.wikimedia.org/wiki/File%3A%22The_Negro_Soldier%22_1944.webm",
+  "license": "Public domain"
+ },
+ "down38": {
+  "width": 1920,
+  "height": 1080,
+  "seconds": 5.267,
+  "title": "File:\"The Negro Soldier\" 1944.webm",
+  "start": 194.2,
+  "dur": 2.6,
+  "source": "https://commons.wikimedia.org/wiki/File%3A%22The_Negro_Soldier%22_1944.webm",
+  "license": "Public domain"
+ },
+ "crowd37": {
+  "width": 400,
+  "height": 300,
+  "seconds": 4.266,
+  "title": "File:The Joe Louis Story (1953).ogv",
+  "start": 2670,
+  "dur": 3,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Joe_Louis_Story_%281953%29.ogv",
+  "license": "Public domain"
+ },
+ "braddock": {
+  "width": 400,
+  "height": 300,
+  "seconds": 8.0,
+  "title": "File:The Joe Louis Story (1953).ogv",
+  "start": 2680,
+  "dur": 8,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Joe_Louis_Story_%281953%29.ogv",
+  "license": "Public domain"
+ },
+ "marciano": {
+  "width": 400,
+  "height": 300,
+  "seconds": 10.0,
+  "title": "File:The Joe Louis Story (1953).ogv",
+  "start": 5054,
+  "dur": 10,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Joe_Louis_Story_%281953%29.ogv",
+  "license": "Public domain"
+ },
+ "ropes": {
+  "width": 400,
+  "height": 300,
+  "seconds": 10.0,
+  "title": "File:The Joe Louis Story (1953).ogv",
+  "start": 5068,
+  "dur": 10,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Joe_Louis_Story_%281953%29.ogv",
+  "license": "Public domain"
+ }
+}
