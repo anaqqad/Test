@@ -1,4 +1,4 @@
-# Wainwright Expected MacArthur to Disgrace Him. Then He Handed Him the Pen.
+# Japan Expected MacArthur to Court-Martial Wainwright. Then He Handed Him the Pen.
 
 ## 1. The pen
 

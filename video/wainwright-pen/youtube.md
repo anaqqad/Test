@@ -2,11 +2,12 @@
 
 ## Title
 ```
-Wainwright Expected MacArthur to Disgrace Him. Then He Handed Him the Pen.
+Japan Expected MacArthur to Court-Martial Wainwright. Then He Handed Him the Pen.
 ```
-(74 characters.) Same pattern as the reference channel's current "Japan Expected MacArthur to …" series. Alternatives:
-- MacArthur Said He Didn't Deserve the Medal. Then He Handed Him the First Pen. (77)
-- He Surrendered 11,000 Men and Expected to Be Court-Martialed. Then MacArthur Called His Name. (93)
+(81 characters.) The reference channel's "Japan Expected MacArthur to …" format, word for word (owner's request, 18 Nov 2026;
+first published as "Wainwright Expected MacArthur to Disgrace Him…", retitled the same day). Basis: at Karenko in 1942 a
+Japanese (Domei) correspondent asked Wainwright whether he would be court-martialed for surrendering (Wainwright's 1945
+serial). No alternative titles or A/B thumbnails: one title, one thumbnail.
 
 Why this topic: the reference channel WWII Box (@WWIIBox) is running a "Japan Expected MacArthur to X. Then He Y." series in
 November 2026 (Let Them Starve 135K views in 12 days, Hang Hirohito 80K, Women's Vote 65K, Jail Its Soldiers 49K in 3 days).
