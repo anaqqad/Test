@@ -1,4 +1,4 @@
-Published 2026-11-17: YouTube Short https://youtube.com/shorts/fRFrm6L9ONo (Public, Education, AI label No) and Facebook Reel on the page (Public, AI label off). No long video on Robeson yet.
+Published 2026-11-17: YouTube Short https://youtube.com/shorts/fRFrm6L9ONo (Public, Education, AI label No) and Facebook Reel on the page (Public, AI label off). Long video: https://youtu.be/pyTHP-fDgjs (linked 2026-11-18: Related video + "Watch the full video" first description line).
 
 # Reel: Paul Robeson, "Then America Took His Passport"
 
@@ -35,6 +35,8 @@ Title:
 Then America Took His Passport #shorts
 
 Description:
+Watch the full video: https://youtu.be/pyTHP-fDgjs
+
 Paul Robeson was an All-American, a Columbia law graduate, a Broadway star and one of the most famous singers in the world. In 1950 the U.S. government took his passport. In 1956 he told Congress: "You are the un-Americans, and you ought to be ashamed of yourselves."
 
 Sources: Wikipedia; Encyclopedia.com; Rutgers University; HUAC hearing transcript (June 12, 1956); Peace Arch News; College Football Hall of Fame.

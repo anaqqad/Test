@@ -4,7 +4,8 @@
 set -u
 comp=$1; id=$2; out=$3; shift 3
 mkdir -p _parked
-for d in public/generated/*/; do n=$(basename "$d"); [ "$n" != "$id" ] && mv "$d" _parked/; done
+# a folder touched in the last 3 hours may belong to another session working right now: leave it in place
+for d in public/generated/*/; do n=$(basename "$d"); [ "$n" != "$id" ] && [ -z "$(find "$d" -mmin -180 -print -quit)" ] && mv "$d" _parked/; done
 npx remotion render "$comp" "$out" --props="data/$id.json" "$@" 2>&1 | sed 's/\x1b\[[0-9;]*m//g' | grep -v "^    at" | grep -v "404\|Failed to load" | tail -3
 for d in _parked/*/; do mv "$d" public/generated/; done
 rmdir _parked 2>/dev/null
