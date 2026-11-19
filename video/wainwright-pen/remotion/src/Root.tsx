@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Composition } from "remotion";
 import { BigNumber, ContextTag, Slug, SubscribeButton } from "./overlays";
-import { PhotoCard } from "./photo";
+import { ArchivePrint, PhotoCard } from "./photo";
 import { Chart, IconCount, ObjectTurn, Section } from "./scenes";
 import { LedgerDocument } from "./document";
 import { LedgerBars, LedgerClipping, LedgerMap, LedgerQuote, LedgerTimeline } from "./ledger";
@@ -15,6 +15,7 @@ const Overlay: React.FC<{ card: Record<string, any>; frames: number }> = ({ card
     case "SubscribeButton": return <SubscribeButton channel={c.channel} tagline={c.tagline} />;
     case "BigNumber": return <BigNumber value={c.value} label={c.label} source={c.source} />;
     case "PhotoCard": return <PhotoCard {...(c as any)} />;
+    case "ArchivePrint": return <ArchivePrint {...(c as any)} />;
     case "LedgerDocument": return <LedgerDocument {...(c as any)} />;
     case "LedgerTimeline": return <LedgerTimeline file={c.file} head={c.head} rows={c.rows} source={c.source} />;
     case "LedgerBars": return <LedgerBars file={c.file} head={c.head} bars={c.bars} max={c.max} source={c.source} />;

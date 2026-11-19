@@ -103,3 +103,81 @@ export const PhotoCard: React.FC<PhotoProps> = ({ image, aspect, frameNo, title,
     </AbsoluteFill>
   );
 };
+
+// "Archive print": the photo as a white-bordered print on dark graph paper, with a blurred, darkened copy of the same
+// photo behind the grid. A black tab top right names it ("ARCHIVE · ..."). The print settles in, then slowly pushes in
+// and drifts. Learned from Sealed Orders (19 Nov 2026), drawn in our type and accent. Use it between film shots.
+export type PrintProps = {
+  image: string; // file in public/stills
+  aspect: number; // width / height of the part shown
+  label: string; // tab text after "ARCHIVE · ", 2-6 words
+  source?: string; // archive + call number, small, bottom left
+  focus?: [number, number];
+  crop?: [number, number, number, number];
+  circle?: [number, number, number, number]; // grease ring on one detail, fractions of the print
+  tag?: string; // "ARCHIVE" by default
+};
+
+export const ArchivePrint: React.FC<PrintProps> = ({ image, aspect, label, source, focus = [0.5, 0.5], crop = [0, 0, 1, 1], circle, tag = "ARCHIVE" }) => {
+  const f = useCurrentFrame();
+  const { durationInFrames: d } = useVideoConfig();
+  const ph = Math.min(860, 1240 / aspect), pw = ph * aspect;
+  const border = 16;
+  const on = interpolate(f, [0, 10, d - 10, d], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const settle = interpolate(f, [0, 18], [0.94, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const drift = interpolate(f, [0, d], [-10, 10]);
+  const push = interpolate(f, [0, d], [1, 1.06]);
+  const bgPush = interpolate(f, [0, d], [1.12, 1.2]);
+  const tabIn = interpolate(f, [8, 20], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const ring = useProg(30, 22);
+  const [cx, cy, cw, chh] = crop;
+  const imgStyle: React.CSSProperties = {
+    position: "absolute", width: `${100 / cw}%`, height: `${100 / chh}%`,
+    left: `${(-cx / cw) * 100}%`, top: `${(-cy / chh) * 100}%`, objectFit: "fill", filter: "grayscale(1) contrast(1.06)",
+  };
+  const grid = "#3a3a3a", gridMajor = "#4a4a4a";
+  return (
+    <AbsoluteFill style={{ opacity: on, background: "#1b1b1b", overflow: "hidden" }}>
+      {/* blurred copy of the photo behind the paper */}
+      <AbsoluteFill style={{ transform: `scale(${bgPush})`, filter: "blur(38px) grayscale(1) brightness(0.55)" }}>
+        <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}><Img src={staticFile(`stills/${image}`)} style={{ ...imgStyle, width: "100%", height: "100%", left: 0, top: 0, objectFit: "cover" }} /></div>
+      </AbsoluteFill>
+      {/* dark graph paper */}
+      <AbsoluteFill style={{
+        backgroundImage: `linear-gradient(${gridMajor} 1.5px, transparent 1.5px), linear-gradient(90deg, ${gridMajor} 1.5px, transparent 1.5px), linear-gradient(${grid} 1px, transparent 1px), linear-gradient(90deg, ${grid} 1px, transparent 1px)`,
+        backgroundSize: "180px 180px, 180px 180px, 36px 36px, 36px 36px", backgroundPosition: `${drift * 0.3}px 0`, opacity: 0.55, mixBlendMode: "screen",
+      }} />
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.55) 100%)" }} />
+      {/* the print */}
+      <div style={{
+        position: "absolute", left: (1920 - pw) / 2 - border, top: (1080 - ph) / 2 - border, width: pw + 2 * border, height: ph + 2 * border,
+        background: "#f3f1ec", boxShadow: "0 24px 60px rgba(0,0,0,0.6), 0 4px 10px rgba(0,0,0,0.5)",
+        transform: `translateX(${drift}px) scale(${settle})`,
+      }}>
+        <div style={{ position: "absolute", left: border, top: border, width: pw, height: ph, overflow: "hidden", background: "#000" }}>
+          <div style={{ position: "absolute", inset: 0, transform: `scale(${push})`, transformOrigin: `${focus[0] * 100}% ${focus[1] * 100}%` }}>
+            <Img src={staticFile(`stills/${image}`)} style={imgStyle} />
+          </div>
+          {circle ? (
+            <svg width={pw} height={ph} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
+              <Stroke d={roughEllipse(circle[0] * pw, circle[1] * ph, circle[2] * pw, circle[3] * ph, 11)} p={ring} w={6} />
+            </svg>
+          ) : null}
+        </div>
+      </div>
+      {/* tab, top right */}
+      <div style={{
+        position: "absolute", right: 96, top: 34, display: "flex", alignItems: "center", gap: 14, background: "#0b0b0b",
+        padding: "10px 20px 10px 16px", opacity: tabIn, transform: `translateX(${(1 - tabIn) * 40}px)`,
+      }}>
+        <div style={{ width: 14, height: 14, background: C.grease }} />
+        <div style={{ fontFamily: HEAD, fontWeight: 700, fontSize: 34, letterSpacing: 1.5, color: C.light, textTransform: "uppercase", whiteSpace: "nowrap" }}>
+          {tag} · {label}
+        </div>
+      </div>
+      {source ? (
+        <div style={{ position: "absolute", left: 96, bottom: 40, fontFamily: MONO, fontSize: 18, letterSpacing: 1, color: C.lightSoft, textTransform: "uppercase", opacity: tabIn }}>{source}</div>
+      ) : null}
+    </AbsoluteFill>
+  );
+};

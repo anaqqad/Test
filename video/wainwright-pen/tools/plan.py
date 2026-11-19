@@ -198,8 +198,13 @@ def photo_items():
         W, H = Image.open(ROOT / f"assets/stills/{img}").size
         extra = dict(extra)
         x, y, w, h = extra.pop("crop", None) or crops[img]
-        card = {"type": "PhotoCard", "image": img, "aspect": round(w * W / (h * H), 3), "crop": [x, y, w, h], "frameNo": no,
-                "title": title, "caption": cap, "source": src, "side": "left" if k % 2 == 0 else "right", **extra}
+        aspect = round(w * W / (h * H), 3)
+        if extra.pop("style", None) == "print":  # ArchivePrint: print on dark graph paper, tab "ARCHIVE · <label>"
+            card = {"type": "ArchivePrint", "image": img, "aspect": aspect, "crop": [x, y, w, h],
+                    "label": extra.pop("label", title), "source": src, **extra}
+        else:
+            card = {"type": "PhotoCard", "image": img, "aspect": aspect, "crop": [x, y, w, h], "frameNo": no,
+                    "title": title, "caption": cap, "source": src, "side": "left" if k % 2 == 0 else "right", **extra}
         P[pi].append(("#", a, b, card))
 
 
@@ -261,7 +266,7 @@ def main():
                     card["end"] = at(pi, it[2]) + 0.35
                 elif card["type"] == "Slug":
                     card["dur"] = 5.5
-                elif card["type"] == "PhotoCard":
+                elif card["type"] in ("PhotoCard", "ArchivePrint"):
                     card["dur"] = 6.5
                 elif card["type"] in SCENES:  # reconstruction scenes may run the whole paragraph (up to 30 s)
                     card["end"] = min(card["start"] + 30.0, max(card["start"] + 8.0, paras[pi]["end"] + 0.3))

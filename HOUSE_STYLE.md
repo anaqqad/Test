@@ -35,8 +35,22 @@ dark-wood desks (other channels' looks), emoji, stock icons, drop-shadowed gloss
   caption (where, when, what, in mono) and the source (photographer · archive · call number). The strip
   alternates sides (left/right) from one photo to the next.
 - It exits by advancing the film upward. Back-to-back photos read as advancing frames of one roll.
-- Hold 4–8 s. Use 8–12 photos per 8–9 minutes. Photos must be real archive images. If a photo stands
+- Hold 4–8 s. Use 8–12 photos per 8–9 minutes (in 25–30 min episodes, most photos are archive prints, below). Photos must be real archive images. If a photo stands
   in (a different place or date), the caption says exactly what it shows.
+
+## 1b. The archive print (`ArchivePrint` in `remotion/src/photo.tsx`)
+Added 19 Nov 2026 at the owner's request, after Sealed Orders (whose whole runtime is photos shown this way). We take
+the layout, not their exact look: our type, our red square, our grid.
+- Full-screen dark graph paper (36 px / 180 px squares, screen-blended at 55 %) over a heavily blurred, darkened copy
+  of the same photo, with a vignette.
+- The photo is a print with a 16 px off-white border (`#f3f1ec`) and a soft drop shadow, centred, at most 1240 x 860.
+  It settles in from 94 % in ~0.6 s, then pushes in slowly (1.00 to 1.06) toward `focus` and drifts 20 px sideways.
+- A black tab top right: red square + `ARCHIVE · <LABEL>` in Barlow Condensed caps (`tag` replaces "ARCHIVE", e.g.
+  "STAND-IN"). The source line sits bottom left in mono. Optional grease `circle` on one detail.
+- Leaves room at the bottom for burned-in captions.
+- Use: the default way to show a photo between film shots, 4–8 s, every 30–60 s. Keep the contact frame for a few
+  key photos per episode (a person's introduction, the one photo the story turns on), so the two alternate.
+  In `tools/plan.py` add `{"style": "print", "label": "..."}` to a `PHOTOS` entry. Demo: `remotion/print_demo.json`.
 
 ## 2. How we show data and documents: the field ledger (`remotion/src/ledger.tsx`)
 Full-frame graph paper with a red double margin rule. A paper plate in the top-left carries the file
