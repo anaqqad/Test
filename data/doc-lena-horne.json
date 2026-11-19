@@ -1,0 +1,1516 @@
+{
+ "id": "doc-lena-horne",
+ "title": "Filmed So the South Could Cut Her Out: The Lena Horne Story",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Sissle": "Sissel",
+  "Hayton": "Hay-ton",
+  "World War II": "World War Two",
+  "Urban League": "Ur-bun League",
+  "Ziegfeld": "Zig-feld",
+  "Eleanor": "Ella-nor",
+  "Glinda": "Glinn-da"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "p1941": {
+   "commons": "File:Lena Horne - 1941.jpg"
+  },
+  "vv1941": {
+   "commons": "File:Portrait of Lena Horne LCCN2004663037.jpg"
+  },
+  "p1946": {
+   "commons": "File:Lena Horne, 1946.jpg"
+  },
+  "p1947": {
+   "commons": "File:Lena Horne 1947.JPG"
+  },
+  "p1955": {
+   "commons": "File:Lena Horne 1955.JPG"
+  },
+  "p1961": {
+   "commons": "File:Lena Horne 1961.JPG"
+  },
+  "govprop": {
+   "commons": "File:Lena Horne govprop.jpg"
+  },
+  "gottlieb": {
+   "commons": "File:(Portrait of Lena Horne, New York, N.Y., between 1946 and 1948) (LOC) (4843132965).jpg"
+  },
+  "hayton": {
+   "commons": "File:(Portrait of Lena Horne and Lennie Hayton, New York, N.Y., between 1946 and 1948) (LOC) (5354168293).jpg"
+  },
+  "fuel": {
+   "commons": "File:\"Lena Horne conserves fuel (gas).\", ca. 1941 - ca. 1945 - NARA - 535820.jpg"
+  },
+  "bronze": {
+   "commons": "File:The Bronze Venus, 1943 film poster 01.jpg"
+  },
+  "cabin": {
+   "commons": "File:Cabin in the Sky (1943) 1.jpg"
+  },
+  "stormy": {
+   "commons": "File:Stormy Weather (1943 film poster).jpg"
+  },
+  "stormylc": {
+   "commons": "File:Stormy Weather (1943 lobby card - Horne & Robinson).jpg"
+  },
+  "stormy3": {
+   "commons": "File:Stormy Weather - Robinson, Horne, and Calloway.jpg"
+  },
+  "clouds": {
+   "commons": "File:Lena Horne in Till the Clouds Roll By 1.jpg"
+  },
+  "sailor": {
+   "commons": "File:Lena Horne in Two Girls and a Sailor (1944).png"
+  },
+  "carver": {
+   "commons": "File:Lena Horne launching SS George Washington Carver.jpg"
+  },
+  "tuskegee": {
+   "commons": "File:Lena Horne with Tuskegee airmen.png"
+  },
+  "march": {
+   "commons": "File:Civil Rights March on Washington, D.C. (Actor Lena Horne, a close-up view.) - NARA - 542057.tif"
+  },
+  "jfk": {
+   "commons": "File:President John F. Kennedy with Democratic Party Fundraisers JFKWHP-AR8252-B.jpg"
+  }
+ },
+ "clips": {
+  "stage": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 430,
+   "dur": 8
+  },
+  "stage2": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 438,
+   "dur": 7
+  },
+  "sing1": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 446,
+   "dur": 8
+  },
+  "sing2": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 467.5,
+   "dur": 6.5
+  },
+  "sing3": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 479,
+   "dur": 8
+  },
+  "sing4": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 488,
+   "dur": 4.5
+  },
+  "sing5": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 497,
+   "dur": 4.5
+  },
+  "cooper": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 864,
+   "dur": 10
+  },
+  "cooper2": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 886,
+   "dur": 9
+  },
+  "bwd1": {
+   "file": "Boogie_Woogie_Dream_(1944).webm",
+   "commons": "File:Boogie Woogie Dream (1944).webm",
+   "start": 249,
+   "dur": 3,
+   "speed": 0.6
+  },
+  "bwd2": {
+   "file": "Boogie_Woogie_Dream_(1944).webm",
+   "commons": "File:Boogie Woogie Dream (1944).webm",
+   "start": 262,
+   "dur": 4.8
+  },
+  "bwd3": {
+   "file": "Boogie_Woogie_Dream_(1944).webm",
+   "commons": "File:Boogie Woogie Dream (1944).webm",
+   "start": 243,
+   "dur": 5
+  }
+ },
+ "beats": [
+  {
+   "id": "o1",
+   "text": "Hollywood made her a star. Then it filmed her songs so that theaters in the South could cut her out of the movie.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1946",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.05
+    ],
+    "anchor": [
+     0.62,
+     0.4
+    ]
+   },
+   "overlays": {
+    "hook": "Hollywood made her a star. *Then filmed her so the South could cut her out.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "o2",
+   "text": "She was the first Black woman in decades to sign a long-term contract with a major Hollywood studio.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing1",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "o3",
+   "text": "She would not play maids. So the studio barely let her act at all.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing3",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "o3b",
+   "text": "This is the story of a woman Hollywood wanted to show off, and hide, at the same time. And of how she refused to stay hidden.",
+   "visual": {
+    "kind": "card",
+    "image": "p1955",
+    "caption": "Lena Horne"
+   }
+  },
+  {
+   "id": "o4",
+   "text": "Her name was Lena Horne. This is her story.",
+   "visual": {
+    "kind": "title",
+    "title": "Lena Horne",
+    "sub": "singer, actor, activist"
+   }
+  },
+  {
+   "id": "e1",
+   "text": "Lena Mary Calhoun Horne was born on June 30th, 1917, in Brooklyn, New York.",
+   "visual": {
+    "kind": "card",
+    "image": "p1947",
+    "caption": "Lena Horne"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Brooklyn, New York"
+    }
+   },
+   "section": "early"
+  },
+  {
+   "id": "e2",
+   "text": "Her family belonged to the educated Black middle class of New York. Relatives held posts in the NAACP and the Urban League.",
+   "visual": {
+    "kind": "title",
+    "title": "Brooklyn",
+    "sub": "the Black middle class"
+   }
+  },
+  {
+   "id": "e3",
+   "text": "Her father left when she was three. Her mother was an actress who toured with a Black theater company.",
+   "visual": {
+    "kind": "card",
+    "image": "p1941",
+    "caption": "Lena Horne, 1941"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "So Lena was raised mostly by her grandparents, Cora and Edwin Horne, with long stretches traveling with her mother, including years in Georgia.",
+   "visual": {
+    "kind": "title",
+    "title": "Georgia",
+    "sub": "part of her childhood"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Fort Valley, Georgia"
+    }
+   }
+  },
+  {
+   "id": "e5",
+   "text": "At sixteen, she left school.",
+   "visual": {
+    "kind": "card",
+    "image": "govprop",
+    "caption": "Lena Horne"
+   }
+  },
+  {
+   "id": "e5b",
+   "text": "By then she had already learned what it meant to be a Black girl moving between North and South, and between her mother's world and her grandmother's.",
+   "visual": {
+    "kind": "photo",
+    "image": "govprop",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "h1",
+   "text": "In 1933 she joined the chorus line at the Cotton Club in Harlem.",
+   "visual": {
+    "kind": "video",
+    "clip": "stage",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "1933"
+   },
+   "section": "harlem"
+  },
+  {
+   "id": "h2",
+   "text": "The performers were Black. The audience was white only.",
+   "visual": {
+    "kind": "title",
+    "title": "The Cotton Club",
+    "sub": "Black performers, white audience"
+   }
+  },
+  {
+   "id": "h3",
+   "text": "Then she sang with Noble Sissle's orchestra, and made her first records.",
+   "visual": {
+    "kind": "video",
+    "clip": "stage2",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "h4",
+   "text": "In 1937 she married Louis Jones. Their daughter Gail was born that December.",
+   "visual": {
+    "kind": "card",
+    "image": "p1946",
+    "caption": "Lena Horne, 1946"
+   },
+   "overlays": {
+    "stamp": "1937"
+   }
+  },
+  {
+   "id": "h5",
+   "text": "In 1938, she starred in her first feature film, The Duke Is Tops, made for Black audiences.",
+   "visual": {
+    "kind": "video",
+    "clip": "cooper",
+    "focus": [
+     0.62,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "The Duke Is Tops",
+     "sub": "1938"
+    }
+   }
+  },
+  {
+   "id": "h6",
+   "text": "It was a low-budget picture. She later said she was never paid for it.",
+   "visual": {
+    "kind": "video",
+    "clip": "cooper2",
+    "focus": [
+     0.62,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "h7",
+   "text": "Years later, when she was famous, it was sold again under a new name, with her on top of the poster.",
+   "visual": {
+    "kind": "card",
+    "image": "bronze",
+    "caption": "The Bronze Venus, the same film re-released"
+   }
+  },
+  {
+   "id": "h7b",
+   "text": "But in 1938, she was still a band singer, earning very little.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing5",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.06,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "b1",
+   "text": "In 1940 she joined the white bandleader Charlie Barnet on tour.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing2",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "1940"
+   },
+   "section": "band"
+  },
+  {
+   "id": "b2",
+   "text": "She was the only Black member of the band. On the road, she faced discrimination, and she quit.",
+   "visual": {
+    "kind": "title",
+    "title": "The only Black member",
+    "sub": "Charlie Barnet's band"
+   }
+  },
+  {
+   "id": "b3",
+   "text": "In 1941 she sang at Cafe Society in Greenwich Village, New York's first integrated nightclub.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing4",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "1941"
+   }
+  },
+  {
+   "id": "b4",
+   "text": "There she worked with Paul Robeson, the singer and activist.",
+   "visual": {
+    "kind": "card",
+    "image": "p1941",
+    "caption": "Lena Horne, 1941"
+   }
+  },
+  {
+   "id": "m1",
+   "text": "Then Hollywood came calling. In 1942, MGM signed her to a seven-year contract.",
+   "visual": {
+    "kind": "card",
+    "image": "vv1941",
+    "caption": "Lena Horne, photographed by Carl Van Vechten, 1941"
+   },
+   "overlays": {
+    "stamp": "1942"
+   },
+   "section": "mgm"
+  },
+  {
+   "id": "m2",
+   "text": "It was the first long-term contract a major studio had given a Black woman in decades.",
+   "visual": {
+    "kind": "title",
+    "title": "Seven years",
+    "sub": "MGM, 1942"
+   }
+  },
+  {
+   "id": "m3",
+   "text": "And it said she would not be cast as a maid or as comic relief.",
+   "visual": {
+    "kind": "card",
+    "image": "fuel",
+    "caption": "Lena Horne, World War II poster"
+   }
+  },
+  {
+   "id": "m3b",
+   "text": "Her first film for MGM was Panama Hattie, in 1942.",
+   "visual": {
+    "kind": "title",
+    "title": "Panama Hattie",
+    "sub": "MGM, 1942"
+   }
+  },
+  {
+   "id": "m4",
+   "text": "The NAACP's leader, Walter White, told her she was a test case for how Hollywood would treat Black women.",
+   "visual": {
+    "kind": "title",
+    "title": "A test case",
+    "sub": "Walter White, NAACP"
+   }
+  },
+  {
+   "id": "m5",
+   "text": "But MGM did not know what to do with her.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing5",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "m6",
+   "text": "In most of her films she simply sang, alone, in a scene of her own, with no white star beside her.",
+   "visual": {
+    "kind": "card",
+    "image": "clouds",
+    "caption": "Lena Horne in Till the Clouds Roll By, 1946"
+   }
+  },
+  {
+   "id": "m6b",
+   "text": "In Ziegfeld Follies and in Words and Music, it was the same: a song, a spotlight, and a scene that could be lifted out of the film without breaking the story.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1946",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "m7",
+   "text": "That was on purpose. Those scenes could be cut out easily, for theaters in the South that would not show Black performers.",
+   "visual": {
+    "kind": "title",
+    "title": "Made to be cut",
+    "sub": "for theaters in the South"
+   }
+  },
+  {
+   "id": "m8",
+   "text": "In some cities, including Memphis, they were.",
+   "visual": {
+    "kind": "card",
+    "image": "sailor",
+    "caption": "Lena Horne in Two Girls and a Sailor, 1944"
+   }
+  },
+  {
+   "id": "m8b",
+   "text": "She was one of the most photographed women in Hollywood. And in much of the country, audiences never saw her on screen at all.",
+   "visual": {
+    "kind": "card",
+    "image": "gottlieb",
+    "caption": "Lena Horne, 1940s"
+   }
+  },
+  {
+   "id": "s1",
+   "text": "In 1943 she got two real roles, both in films with all-Black casts.",
+   "visual": {
+    "kind": "card",
+    "image": "cabin",
+    "caption": "Cabin in the Sky, 1943"
+   },
+   "overlays": {
+    "stamp": "1943"
+   },
+   "section": "stormy"
+  },
+  {
+   "id": "s2",
+   "text": "In Cabin in the Sky, she played the temptress Georgia Brown.",
+   "visual": {
+    "kind": "photo",
+    "image": "cabin",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "s3",
+   "text": "Then MGM lent her to another studio for Stormy Weather.",
+   "visual": {
+    "kind": "card",
+    "image": "stormy",
+    "caption": "Stormy Weather, 1943"
+   }
+  },
+  {
+   "id": "s4",
+   "text": "She starred beside the great tap dancer Bill Robinson.",
+   "visual": {
+    "kind": "card",
+    "image": "stormylc",
+    "caption": "Lena Horne and Bill Robinson, Stormy Weather"
+   }
+  },
+  {
+   "id": "s5",
+   "text": "And the title song, Stormy Weather, became her song for the rest of her life.",
+   "visual": {
+    "kind": "card",
+    "image": "stormy3",
+    "caption": "Bill Robinson, Lena Horne and Cab Calloway"
+   }
+  },
+  {
+   "id": "w1",
+   "text": "During World War II, she was a favorite of Black soldiers. Her picture hung in barracks across the country.",
+   "visual": {
+    "kind": "card",
+    "image": "tuskegee",
+    "caption": "Lena Horne with Tuskegee airmen, 1945"
+   },
+   "section": "war"
+  },
+  {
+   "id": "w2",
+   "text": "She helped launch a Liberty ship named for George Washington Carver.",
+   "visual": {
+    "kind": "card",
+    "image": "carver",
+    "caption": "Launching the SS George Washington Carver, 1943"
+   }
+  },
+  {
+   "id": "w3",
+   "text": "And she sang for the troops. At one Army camp, she came on stage and saw the seating.",
+   "visual": {
+    "kind": "video",
+    "clip": "bwd3",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "w4",
+   "text": "German prisoners of war sat in the front rows. The Black American soldiers sat behind them.",
+   "visual": {
+    "kind": "title",
+    "title": "In the front rows",
+    "sub": "German prisoners of war"
+   }
+  },
+  {
+   "id": "w5",
+   "text": "She walked off the stage, past the prisoners, and sang to the Black soldiers at the back.",
+   "visual": {
+    "kind": "video",
+    "clip": "bwd2",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "w6",
+   "text": "She also complained to the NAACP. She refused to perform for segregated audiences.",
+   "visual": {
+    "kind": "photo",
+    "image": "govprop",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "w7",
+   "text": "She also worked with Eleanor Roosevelt to push for laws against lynching.",
+   "visual": {
+    "kind": "title",
+    "title": "Against lynching",
+    "sub": "with Eleanor Roosevelt"
+   }
+  },
+  {
+   "id": "l1",
+   "text": "After the war, she fell in love with Lennie Hayton, MGM's white musical director.",
+   "visual": {
+    "kind": "card",
+    "image": "hayton",
+    "caption": "Lena Horne and Lennie Hayton"
+   },
+   "section": "love"
+  },
+  {
+   "id": "l2",
+   "text": "In California, a marriage between them was against the law.",
+   "visual": {
+    "kind": "title",
+    "title": "Against the law",
+    "sub": "California, 1940s"
+   }
+  },
+  {
+   "id": "l3",
+   "text": "So in December 1947 they married in Paris. They stayed together until his death.",
+   "visual": {
+    "kind": "card",
+    "image": "gottlieb",
+    "caption": "Lena Horne, about 1947"
+   },
+   "overlays": {
+    "stamp": "December 1947",
+    "pin": {
+     "label": "Paris"
+    }
+   }
+  },
+  {
+   "id": "l4",
+   "text": "Then came the part she wanted most. MGM was remaking Show Boat, with a role she had already played on screen: Julie, a woman of mixed race.",
+   "visual": {
+    "kind": "card",
+    "image": "clouds",
+    "caption": "Lena Horne as Julie, Till the Clouds Roll By, 1946"
+   }
+  },
+  {
+   "id": "l5",
+   "text": "The role went to Ava Gardner, a white actress.",
+   "visual": {
+    "kind": "title",
+    "title": "Julie",
+    "sub": "Show Boat, 1951"
+   }
+  },
+  {
+   "id": "l6",
+   "text": "By 1950 she had left MGM. And in the early 1950s, she was blacklisted for her political ties, including her friendship with Paul Robeson.",
+   "visual": {
+    "kind": "card",
+    "image": "p1955",
+    "caption": "Lena Horne, 1955"
+   },
+   "overlays": {
+    "stamp": "1950s"
+   }
+  },
+  {
+   "id": "l6b",
+   "text": "For a few years, the television and radio work dried up. She was cleared by the mid-1950s, and she later spoke out against communism.",
+   "visual": {
+    "kind": "card",
+    "image": "p1947",
+    "caption": "Lena Horne"
+   }
+  },
+  {
+   "id": "n1",
+   "text": "Hollywood had shut its doors. So she went back to where she started: the nightclub stage.",
+   "visual": {
+    "kind": "video",
+    "clip": "bwd1",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "clubs"
+  },
+  {
+   "id": "n2",
+   "text": "She signed with RCA Victor and became one of the top nightclub stars in America.",
+   "visual": {
+    "kind": "title",
+    "title": "Nightclub star",
+    "sub": "RCA Victor, 1956"
+   }
+  },
+  {
+   "id": "n3",
+   "text": "In 1957 she starred on Broadway in the musical Jamaica.",
+   "visual": {
+    "kind": "card",
+    "image": "p1955",
+    "caption": "Lena Horne"
+   },
+   "overlays": {
+    "stamp": "1957"
+   }
+  },
+  {
+   "id": "n4",
+   "text": "The woman Hollywood had kept in separate scenes was now the star of the whole show.",
+   "visual": {
+    "kind": "video",
+    "clip": "bwd1",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.06,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "r1",
+   "text": "In the 1960s, she put her fame to work for civil rights.",
+   "visual": {
+    "kind": "card",
+    "image": "p1961",
+    "caption": "Lena Horne, 1961"
+   },
+   "section": "rights"
+  },
+  {
+   "id": "r2",
+   "text": "In 1963 she sang at a civil rights rally in Jackson, Mississippi, where Medgar Evers spoke. Days later, he was murdered.",
+   "visual": {
+    "kind": "title",
+    "title": "Jackson, Mississippi",
+    "sub": "1963"
+   }
+  },
+  {
+   "id": "r3",
+   "text": "That August, she joined the March on Washington.",
+   "visual": {
+    "kind": "card",
+    "image": "march",
+    "caption": "Lena Horne at the March on Washington, 1963"
+   },
+   "overlays": {
+    "stamp": "28 August 1963"
+   }
+  },
+  {
+   "id": "r4",
+   "text": "Three months later, she was at the White House with President Kennedy, two days before he was killed.",
+   "visual": {
+    "kind": "card",
+    "image": "jfk",
+    "caption": "At the White House, 20 November 1963"
+   }
+  },
+  {
+   "id": "r5",
+   "text": "She was no longer just a singer who happened to be Black. She was using her name to ask the country to change.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1961",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "x1",
+   "text": "Then came the hardest years of her life.",
+   "visual": {
+    "kind": "photo",
+    "image": "gottlieb",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   },
+   "section": "losses"
+  },
+  {
+   "id": "x2",
+   "text": "In 1970 her father died, and so did her son, Teddy.",
+   "visual": {
+    "kind": "title",
+    "title": "1970",
+    "sub": "her father, her son"
+   }
+  },
+  {
+   "id": "x3",
+   "text": "In 1971, Lennie Hayton died too.",
+   "visual": {
+    "kind": "title",
+    "title": "1971",
+    "sub": "Lennie Hayton"
+   }
+  },
+  {
+   "id": "x4",
+   "text": "She stopped performing for a time.",
+   "visual": {
+    "kind": "card",
+    "image": "p1947",
+    "caption": "Lena Horne, 1947"
+   }
+  },
+  {
+   "id": "x5",
+   "text": "In 1978 she came back to the screen, playing Glinda the Good Witch in the film The Wiz.",
+   "visual": {
+    "kind": "title",
+    "title": "The Wiz",
+    "sub": "Glinda, 1978"
+   }
+  },
+  {
+   "id": "c1",
+   "text": "Then, in May 1981, at sixty-three, she opened a one-woman show on Broadway: Lena Horne, The Lady and Her Music.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing2",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.06,
+     1.12
+    ]
+   },
+   "overlays": {
+    "stamp": "May 1981"
+   },
+   "section": "broadway"
+  },
+  {
+   "id": "c2",
+   "text": "It ran for 333 performances.",
+   "visual": {
+    "kind": "title",
+    "title": "333 performances",
+    "sub": "Broadway, 1981 to 1982"
+   }
+  },
+  {
+   "id": "c3",
+   "text": "It closed on her sixty-fifth birthday. It won her a special Tony Award, and the album won two Grammy Awards.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing3",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.06,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "c4",
+   "text": "In 1984 she received the Kennedy Center Honors.",
+   "visual": {
+    "kind": "title",
+    "title": "Kennedy Center Honors",
+    "sub": "1984"
+   }
+  },
+  {
+   "id": "c5",
+   "text": "In 2022, a Broadway theater was renamed the Lena Horne Theatre, the first Broadway house named for a Black woman.",
+   "visual": {
+    "kind": "title",
+    "title": "The Lena Horne Theatre",
+    "sub": "Broadway, 2022"
+   }
+  },
+  {
+   "id": "d1",
+   "text": "Lena Horne died on May 9th, 2010, in New York. She was 92.",
+   "visual": {
+    "kind": "card",
+    "image": "vv1941",
+    "caption": "Lena Horne, 1917-2010"
+   },
+   "overlays": {
+    "stamp": "9 May 2010"
+   },
+   "section": "end"
+  },
+  {
+   "id": "d2",
+   "text": "She had spent her life being told where she could sing, where she could sit, and whom she could marry.",
+   "visual": {
+    "kind": "card",
+    "image": "hayton",
+    "caption": "Lena Horne and Lennie Hayton"
+   }
+  },
+  {
+   "id": "z1",
+   "text": "Hollywood filmed her so she could be cut out. She made sure she never was.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing1",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.06,
+     1.12
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "z2",
+   "text": "That was Lena Horne. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "o2": [
+   "ENC",
+   "TCM"
+  ],
+  "o3": [
+   "TCM",
+   "SCPR",
+   "WIKI"
+  ],
+  "e1": [
+   "WIKI",
+   "ENC"
+  ],
+  "e2": [
+   "WIKI",
+   "ENC"
+  ],
+  "e3": [
+   "WIKI",
+   "ENC"
+  ],
+  "e4": [
+   "WIKI",
+   "ENC"
+  ],
+  "e5": [
+   "WIKI",
+   "ENC"
+  ],
+  "h1": [
+   "WIKI",
+   "ENC",
+   "TCM"
+  ],
+  "h2": [
+   "WIKI",
+   "ENC"
+  ],
+  "h3": [
+   "WIKI",
+   "ENC"
+  ],
+  "h4": [
+   "WIKI",
+   "ENC"
+  ],
+  "h5": [
+   "TCM",
+   "COMMONS"
+  ],
+  "h6": [
+   "TCM",
+   "WIKI"
+  ],
+  "h7": [
+   "TCM",
+   "COMMONS"
+  ],
+  "b1": [
+   "WIKI",
+   "ENC"
+  ],
+  "b2": [
+   "ENC",
+   "WIKI"
+  ],
+  "b3": [
+   "WIKI",
+   "ENC"
+  ],
+  "b4": [
+   "WIKI",
+   "ENC"
+  ],
+  "m1": [
+   "WIKI",
+   "ENC",
+   "TCM"
+  ],
+  "m2": [
+   "ENC",
+   "TCM"
+  ],
+  "m3": [
+   "TCM",
+   "SCPR"
+  ],
+  "m4": [
+   "THR",
+   "SCPR"
+  ],
+  "m5": [
+   "TCM",
+   "WIKI"
+  ],
+  "m6": [
+   "WIKI",
+   "TCM"
+  ],
+  "m7": [
+   "WIKI",
+   "TCM"
+  ],
+  "m8": [
+   "HEINZ",
+   "WIKI"
+  ],
+  "s1": [
+   "WIKI",
+   "ENC",
+   "TCM"
+  ],
+  "s2": [
+   "TCM",
+   "WIKI"
+  ],
+  "s3": [
+   "WIKI",
+   "TCM"
+  ],
+  "s4": [
+   "WIKI",
+   "COMMONS"
+  ],
+  "s5": [
+   "TCM",
+   "WIKI"
+  ],
+  "w1": [
+   "WIKI",
+   "ENC"
+  ],
+  "w2": [
+   "COMMONS",
+   "WIKI"
+  ],
+  "w3": [
+   "ARMY",
+   "NPS"
+  ],
+  "w4": [
+   "ARMY",
+   "NPS"
+  ],
+  "w5": [
+   "ARMY",
+   "NPS"
+  ],
+  "w6": [
+   "NPS",
+   "WIKI"
+  ],
+  "l1": [
+   "WIKI",
+   "ENC"
+  ],
+  "l2": [
+   "ENC",
+   "WIKI"
+  ],
+  "l3": [
+   "WIKI",
+   "ENC"
+  ],
+  "l4": [
+   "TCM",
+   "WIKI"
+  ],
+  "l5": [
+   "WIKI",
+   "TCM"
+  ],
+  "l6": [
+   "TCM",
+   "WIKI",
+   "ENC"
+  ],
+  "n1": [
+   "TCM",
+   "ENC"
+  ],
+  "n2": [
+   "WIKI",
+   "ENC"
+  ],
+  "n3": [
+   "WIKI",
+   "TCM",
+   "ENC"
+  ],
+  "r1": [
+   "WIKI",
+   "ENC"
+  ],
+  "r2": [
+   "WIKI",
+   "NATION"
+  ],
+  "r3": [
+   "WIKI",
+   "ENC",
+   "COMMONS"
+  ],
+  "r4": [
+   "WIKI",
+   "COMMONS"
+  ],
+  "x1": [
+   "ENC",
+   "WIKI"
+  ],
+  "x2": [
+   "ENC",
+   "WIKI"
+  ],
+  "x3": [
+   "ENC",
+   "WIKI"
+  ],
+  "x4": [
+   "ENC",
+   "WIKI"
+  ],
+  "c1": [
+   "WIKI",
+   "ENC"
+  ],
+  "c2": [
+   "WIKI",
+   "IBDB"
+  ],
+  "c3": [
+   "WIKI",
+   "ENC"
+  ],
+  "c4": [
+   "WIKI",
+   "ENC"
+  ],
+  "m3b": [
+   "WIKI",
+   "ENC"
+  ],
+  "m6b": [
+   "TCM",
+   "WIKI"
+  ],
+  "w7": [
+   "WIKI",
+   "ENC"
+  ],
+  "l6b": [
+   "ENC",
+   "WIKI"
+  ],
+  "x5": [
+   "ENC",
+   "WIKI"
+  ],
+  "c5": [
+   "BWD",
+   "YAHOO"
+  ],
+  "d1": [
+   "WIKI",
+   "TCM"
+  ],
+  "z1": [
+   "WIKI",
+   "TCM"
+  ]
+ },
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Lena_Horne"
+  },
+  "ENC": {
+   "url": "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/lena-horne"
+  },
+  "TCM": {
+   "url": "https://www.tcm.com/articles/featured-actors/021865/lena-horne-goddess-reclaimed"
+  },
+  "HEINZ": {
+   "url": "https://www.heinzhistorycenter.org/blog/western-pennsylvania-history-words-and-music-a-holiday-turning-point/"
+  },
+  "THR": {
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/lena-horne-book-excerpt-actress-singer-mgm-1235613032/"
+  },
+  "SCPR": {
+   "url": "https://www.southcarolinapublicradio.org/2023-10-31/a-new-book-tells-the-life-story-of-screen-and-song-legend-lena-horne"
+  },
+  "ARMY": {
+   "url": "https://www.army.mil/article/217981/fort_knox_general_club_director_host_black_entertainers_ease_tensions_in_pre_integrated_army"
+  },
+  "NPS": {
+   "url": "https://home.nps.gov/features/malu/feat0002/wof/Lena_Horne.htm"
+  },
+  "COMMONS": {
+   "url": "https://commons.wikimedia.org/wiki/Category:Lena_Horne"
+  },
+  "NATION": {
+   "url": "https://www.thenation.com/article/archive/lena-horne-tireless-campaigner-social-and-economic-justice/"
+  },
+  "IBDB": {
+   "url": "https://www.ibdb.com/broadway-production/lena-horne-the-lady-and-her-music-4120"
+  },
+  "BWD": {
+   "url": "https://broadwaydirect.com/the-lena-horne-theatre-becomes-a-part-of-broadway-history/"
+  },
+  "YAHOO": {
+   "url": "https://www.yahoo.com/entertainment/lena-horne-ultimate-lifetime-achievement-220042021.html"
+  }
+ },
+ "notUsed": [
+  "Army camp venue: Fort Riley (NPS) vs Camp Robinson (forum): not named.",
+  "The Duke Is Tops pay: TCM says Ralph Cooper never paid her; phrased as \"she later said she was never paid\".",
+  "Exact MGM contract clause wording: phrased as \"would not be cast as a maid or as comic relief\" (TCM)."
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "stage": {
+  "width": 1280,
+  "height": 720,
+  "seconds": 8.0,
+  "title": "File:The Duke is Tops (1938).webm",
+  "start": 430,
+  "dur": 8,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Duke_is_Tops_%281938%29.webm",
+  "license": "Public domain"
+ },
+ "stage2": {
+  "width": 1280,
+  "height": 720,
+  "seconds": 7.033,
+  "title": "File:The Duke is Tops (1938).webm",
+  "start": 438,
+  "dur": 7,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Duke_is_Tops_%281938%29.webm",
+  "license": "Public domain"
+ },
+ "sing1": {
+  "width": 1280,
+  "height": 720,
+  "seconds": 8.0,
+  "title": "File:The Duke is Tops (1938).webm",
+  "start": 446,
+  "dur": 8,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Duke_is_Tops_%281938%29.webm",
+  "license": "Public domain"
+ },
+ "sing2": {
+  "width": 1280,
+  "height": 720,
+  "seconds": 6.533,
+  "title": "File:The Duke is Tops (1938).webm",
+  "start": 467.5,
+  "dur": 6.5,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Duke_is_Tops_%281938%29.webm",
+  "license": "Public domain"
+ },
+ "sing3": {
+  "width": 1280,
+  "height": 720,
+  "seconds": 8.0,
+  "title": "File:The Duke is Tops (1938).webm",
+  "start": 479,
+  "dur": 8,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Duke_is_Tops_%281938%29.webm",
+  "license": "Public domain"
+ },
+ "sing4": {
+  "width": 1280,
+  "height": 720,
+  "seconds": 4.5,
+  "title": "File:The Duke is Tops (1938).webm",
+  "start": 488,
+  "dur": 4.5,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Duke_is_Tops_%281938%29.webm",
+  "license": "Public domain"
+ },
+ "sing5": {
+  "width": 1280,
+  "height": 720,
+  "seconds": 4.5,
+  "title": "File:The Duke is Tops (1938).webm",
+  "start": 497,
+  "dur": 4.5,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Duke_is_Tops_%281938%29.webm",
+  "license": "Public domain"
+ },
+ "cooper": {
+  "width": 1280,
+  "height": 720,
+  "seconds": 10.0,
+  "title": "File:The Duke is Tops (1938).webm",
+  "start": 864,
+  "dur": 10,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Duke_is_Tops_%281938%29.webm",
+  "license": "Public domain"
+ },
+ "cooper2": {
+  "width": 1280,
+  "height": 720,
+  "seconds": 9.0,
+  "title": "File:The Duke is Tops (1938).webm",
+  "start": 886,
+  "dur": 9,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Duke_is_Tops_%281938%29.webm",
+  "license": "Public domain"
+ },
+ "bwd1": {
+  "width": 352,
+  "height": 288,
+  "seconds": 5.0,
+  "title": "File:Boogie Woogie Dream (1944).webm",
+  "start": 249,
+  "dur": 3,
+  "source": "https://commons.wikimedia.org/wiki/File%3ABoogie_Woogie_Dream_%281944%29.webm",
+  "license": "Public domain"
+ },
+ "bwd2": {
+  "width": 352,
+  "height": 288,
+  "seconds": 4.833,
+  "title": "File:Boogie Woogie Dream (1944).webm",
+  "start": 262,
+  "dur": 4.8,
+  "source": "https://commons.wikimedia.org/wiki/File%3ABoogie_Woogie_Dream_%281944%29.webm",
+  "license": "Public domain"
+ },
+ "bwd3": {
+  "width": 352,
+  "height": 288,
+  "seconds": 5.0,
+  "title": "File:Boogie Woogie Dream (1944).webm",
+  "start": 243,
+  "dur": 5,
+  "source": "https://commons.wikimedia.org/wiki/File%3ABoogie_Woogie_Dream_%281944%29.webm",
+  "license": "Public domain"
+ }
+}

@@ -1,0 +1,819 @@
+{
+ "id": "reel-lena-horne",
+ "title": "Filmed So the South Could Cut Her Out",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Sissle": "Sissel",
+  "Hayton": "Hay-ton"
+ },
+ "assets": {
+  "p1941": {
+   "commons": "File:Lena Horne - 1941.jpg"
+  },
+  "vv1941": {
+   "commons": "File:Portrait of Lena Horne LCCN2004663037.jpg"
+  },
+  "p1946": {
+   "commons": "File:Lena Horne, 1946.jpg"
+  },
+  "gottlieb": {
+   "commons": "File:(Portrait of Lena Horne, New York, N.Y., between 1946 and 1948) (LOC) (4843132965).jpg"
+  },
+  "hayton": {
+   "commons": "File:(Portrait of Lena Horne and Lennie Hayton, New York, N.Y., between 1946 and 1948) (LOC) (5354168293).jpg"
+  },
+  "stormy": {
+   "commons": "File:Stormy Weather (1943 film poster).jpg"
+  },
+  "stormylc": {
+   "commons": "File:Stormy Weather (1943 lobby card - Horne & Robinson).jpg"
+  },
+  "cabin": {
+   "commons": "File:Cabin in the Sky (1943) 1.jpg"
+  },
+  "tuskegee": {
+   "commons": "File:Lena Horne with Tuskegee airmen.png"
+  },
+  "march": {
+   "commons": "File:Civil Rights March on Washington, D.C. (Actor Lena Horne, a close-up view.) - NARA - 542057.tif"
+  },
+  "p1955": {
+   "commons": "File:Lena Horne 1955.JPG"
+  },
+  "p1947": {
+   "commons": "File:Lena Horne 1947.JPG"
+  }
+ },
+ "clips": {
+  "stage": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 430,
+   "dur": 8
+  },
+  "sing1": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 446,
+   "dur": 8
+  },
+  "sing2": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 467.5,
+   "dur": 6.5
+  },
+  "sing3": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 479,
+   "dur": 8
+  },
+  "sing4": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 488,
+   "dur": 4.5
+  },
+  "sing5": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 497,
+   "dur": 4.5
+  },
+  "cooper": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 864,
+   "dur": 10
+  },
+  "cooper2": {
+   "file": "The_Duke_is_Tops_(1938).webm",
+   "commons": "File:The Duke is Tops (1938).webm",
+   "start": 886,
+   "dur": 9
+  },
+  "bwd1": {
+   "file": "Boogie_Woogie_Dream_(1944).webm",
+   "commons": "File:Boogie Woogie Dream (1944).webm",
+   "start": 249,
+   "dur": 3,
+   "speed": 0.6
+  },
+  "bwd2": {
+   "file": "Boogie_Woogie_Dream_(1944).webm",
+   "commons": "File:Boogie Woogie Dream (1944).webm",
+   "start": 262,
+   "dur": 4.8
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "Hollywood made her a star. Then it filmed her songs so that theaters in the South could cut her out of the movie.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1946",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "Hollywood made her a star. *Then filmed her so the South could cut her out.*"
+   },
+   "captions": false,
+   "speed": 1.3
+  },
+  {
+   "id": "name",
+   "text": "Her name was Lena Horne.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing1",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "She was born in Brooklyn in 1917. Her father left when she was three, and she was raised mostly by her grandparents.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1941",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Brooklyn, New York"
+    }
+   },
+   "section": "story"
+  },
+  {
+   "id": "family",
+   "text": "Her family were middle-class Black New Yorkers, active in the NAACP.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1947",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "cotton",
+   "text": "At sixteen she was dancing in the chorus at Harlem's Cotton Club. Black performers on stage, a whites-only audience.",
+   "visual": {
+    "kind": "video",
+    "clip": "stage",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "stamp": "1933"
+   }
+  },
+  {
+   "id": "band",
+   "text": "She sang with Noble Sissle's orchestra, then toured with Charlie Barnet's white band.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing2",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   }
+  },
+  {
+   "id": "cafe",
+   "text": "In 1941 she sang at Cafe Society, New York's first integrated nightclub.",
+   "visual": {
+    "kind": "video",
+    "clip": "cooper2",
+    "focus": [
+     0.62,
+     0.32
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   }
+  },
+  {
+   "id": "duke",
+   "text": "In 1938 she starred in her first feature film, The Duke Is Tops, made for Black audiences.",
+   "visual": {
+    "kind": "video",
+    "clip": "cooper",
+    "focus": [
+     0.62,
+     0.32
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   },
+   "overlays": {
+    "lowerThird": {
+     "name": "The Duke Is Tops",
+     "sub": "1938"
+    }
+   }
+  },
+  {
+   "id": "mgm",
+   "text": "In 1942, MGM signed her to a seven-year contract, almost unheard of for a Black performer at a major studio. The deal said she would not play maids.",
+   "visual": {
+    "kind": "card",
+    "image": "vv1941",
+    "caption": "Lena Horne, 1941"
+   },
+   "overlays": {
+    "stamp": "1942"
+   },
+   "section": "mgm"
+  },
+  {
+   "id": "naacp",
+   "text": "The NAACP saw her as a test case for how Hollywood would treat Black women.",
+   "visual": {
+    "kind": "title",
+    "title": "A test case",
+    "sub": "for Hollywood"
+   }
+  },
+  {
+   "id": "cut",
+   "text": "But MGM rarely put her in the story. She sang in her own scenes, apart from the white stars.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing3",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   }
+  },
+  {
+   "id": "south",
+   "text": "That way, theaters in the South could cut her out, and some did.",
+   "visual": {
+    "kind": "title",
+    "title": "Cut out",
+    "sub": "of films shown in the South"
+   }
+  },
+  {
+   "id": "stormy",
+   "text": "On loan to another studio, she starred in Stormy Weather in 1943. The title song became hers for life.",
+   "visual": {
+    "kind": "card",
+    "image": "stormy",
+    "caption": "Stormy Weather, 1943"
+   },
+   "overlays": {
+    "stamp": "1943"
+   }
+  },
+  {
+   "id": "war",
+   "text": "During the war, she sang for the troops. At one Army camp, German prisoners of war were seated in front of the Black soldiers.",
+   "visual": {
+    "kind": "card",
+    "image": "tuskegee",
+    "caption": "Lena Horne with Tuskegee airmen, 1945"
+   },
+   "section": "war"
+  },
+  {
+   "id": "walked",
+   "text": "So she walked off the stage, past the prisoners, and sang to the Black soldiers in the back.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing4",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   }
+  },
+  {
+   "id": "julie",
+   "text": "When MGM remade Show Boat, the mixed-race role of Julie went to Ava Gardner, a white actress.",
+   "visual": {
+    "kind": "photo",
+    "image": "gottlieb",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   },
+   "section": "after"
+  },
+  {
+   "id": "married",
+   "text": "In 1947 she married Lennie Hayton, a white music director. They wed in Paris, because their marriage was against the law in California.",
+   "visual": {
+    "kind": "card",
+    "image": "hayton",
+    "caption": "Lena Horne and Lennie Hayton, about 1947"
+   }
+  },
+  {
+   "id": "blacklist",
+   "text": "In the early 1950s, she was blacklisted for her political ties.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1955",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   },
+   "overlays": {
+    "stamp": "1950s"
+   }
+  },
+  {
+   "id": "nightclubs",
+   "text": "So she went back to nightclubs, and became one of the biggest singers in America.",
+   "visual": {
+    "kind": "video",
+    "clip": "bwd2",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "jamaica",
+   "text": "In 1957 she starred on Broadway, in the musical Jamaica.",
+   "visual": {
+    "kind": "photo",
+    "image": "p1955",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.2,
+     1.3
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   },
+   "overlays": {
+    "stamp": "1957"
+   }
+  },
+  {
+   "id": "march",
+   "text": "In 1963 she marched on Washington for civil rights.",
+   "visual": {
+    "kind": "card",
+    "image": "march",
+    "caption": "Lena Horne at the March on Washington, 1963"
+   },
+   "overlays": {
+    "stamp": "August 28, 1963"
+   },
+   "section": "rights"
+  },
+  {
+   "id": "losses",
+   "text": "Then, within two years, she lost her son, her father, and her husband.",
+   "visual": {
+    "kind": "title",
+    "title": "1970 to 1971",
+    "sub": "her son, her father, her husband"
+   }
+  },
+  {
+   "id": "broadway",
+   "text": "In 1981, at sixty-three, she opened her own show on Broadway, Lena Horne: The Lady and Her Music. It won her a special Tony and two Grammys.",
+   "visual": {
+    "kind": "video",
+    "clip": "sing5",
+    "focus": [
+     0.5,
+     0.32
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   },
+   "overlays": {
+    "stamp": "1981"
+   },
+   "section": "end"
+  },
+  {
+   "id": "kennedy",
+   "text": "In 1984 she received the Kennedy Center Honors.",
+   "visual": {
+    "kind": "title",
+    "title": "Kennedy Center Honors",
+    "sub": "1984"
+   }
+  },
+  {
+   "id": "death",
+   "text": "Lena Horne died on May 9th, 2010. She was 92.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv1941",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   },
+   "overlays": {
+    "stamp": "May 9, 2010"
+   }
+  },
+  {
+   "id": "close",
+   "text": "That was Lena Horne.",
+   "visual": {
+    "kind": "video",
+    "clip": "bwd1",
+    "focus": [
+     0.55,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Lena_Horne"
+  },
+  "ENC": {
+   "url": "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/lena-horne"
+  },
+  "TCM": {
+   "url": "https://www.tcm.com/articles/featured-actors/021865/lena-horne-goddess-reclaimed"
+  },
+  "HEINZ": {
+   "url": "https://www.heinzhistorycenter.org/blog/western-pennsylvania-history-words-and-music-a-holiday-turning-point/"
+  },
+  "THR": {
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/lena-horne-book-excerpt-actress-singer-mgm-1235613032/"
+  },
+  "SCPR": {
+   "url": "https://www.southcarolinapublicradio.org/2023-10-31/a-new-book-tells-the-life-story-of-screen-and-song-legend-lena-horne"
+  },
+  "ARMY": {
+   "url": "https://www.army.mil/article/217981/fort_knox_general_club_director_host_black_entertainers_ease_tensions_in_pre_integrated_army"
+  },
+  "NPS": {
+   "url": "https://home.nps.gov/features/malu/feat0002/wof/Lena_Horne.htm"
+  },
+  "DUKE": {
+   "url": "https://commons.wikimedia.org/wiki/File:The_Duke_is_Tops_(1938).webm"
+  },
+  "NARA": {
+   "url": "https://commons.wikimedia.org/wiki/File:Civil_Rights_March_on_Washington,_D.C._(Actor_Lena_Horne,_a_close-up_view.)_-_NARA_-_542057.tif"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "cotton",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "TCM"
+   ]
+  },
+  {
+   "beat": "band",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "duke",
+   "sources": [
+    "TCM",
+    "DUKE"
+   ]
+  },
+  {
+   "beat": "mgm",
+   "sources": [
+    "ENC",
+    "TCM",
+    "SCPR"
+   ],
+   "note": "Seven-year contract (ENC, TCM); no maid/servant roles (TCM, SCPR)."
+  },
+  {
+   "beat": "naacp",
+   "sources": [
+    "THR",
+    "SCPR"
+   ]
+  },
+  {
+   "beat": "cut",
+   "sources": [
+    "WIKI",
+    "TCM"
+   ]
+  },
+  {
+   "beat": "south",
+   "sources": [
+    "WIKI",
+    "TCM",
+    "HEINZ"
+   ]
+  },
+  {
+   "beat": "stormy",
+   "sources": [
+    "WIKI",
+    "TCM",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "war",
+   "sources": [
+    "ARMY",
+    "NPS",
+    "WIKI"
+   ],
+   "note": "Venue disputed (Fort Riley vs Camp Robinson): said as 'one Army camp'."
+  },
+  {
+   "beat": "walked",
+   "sources": [
+    "ARMY",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "julie",
+   "sources": [
+    "WIKI",
+    "TCM"
+   ]
+  },
+  {
+   "beat": "married",
+   "sources": [
+    "ENC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "blacklist",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "nightclubs",
+   "sources": [
+    "TCM",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "march",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "losses",
+   "sources": [
+    "ENC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "broadway",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "death",
+   "sources": [
+    "WIKI",
+    "TCM"
+   ]
+  },
+  {
+   "beat": "family",
+   "sources": [
+    "ENC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "cafe",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "jamaica",
+   "sources": [
+    "TCM",
+    "ENC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "kennedy",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  }
+ ]
+}
