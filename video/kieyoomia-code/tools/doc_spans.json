@@ -1,0 +1,22 @@
+{
+ "doc_vogel": {
+  "image": "vogel_letter_p1.jpg",
+  "pw": 960,
+  "ph": 1232,
+  "phrase": "This dialect is thus equivalent to a secret code to the enemy",
+  "rects": [
+   [
+    284,
+    1099,
+    582,
+    27
+   ],
+   [
+    98,
+    1122,
+    220,
+    26
+   ]
+  ]
+ }
+}
