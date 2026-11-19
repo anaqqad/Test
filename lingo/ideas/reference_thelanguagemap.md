@@ -21,3 +21,12 @@ Saved by the owner on 2026-11-19 as **the first inspiration for long-form videos
 - Pairs with idea 37 (languages in unexpected places): e.g. Spanish in the Philippines, French in Vietnam/Lebanon,
   Portuguese in Macau/East Timor, each told as a paradox question, with real recordings of local speakers.
 - Rules stay: real recordings only, every source credited, our own maps/art, our own title wording (no copying titles).
+
+## To do later (owner, 2026-11-19)
+1. Analyse a TheLanguageMap video into a long-form blueprint (Blueprint 04), like the Beluga audit in
+   `blueprints/DISCORD_CHAT_COMEDY_BLUEPRINT.md`. Needs the video file (owner uploads it to chat or `lingo/incoming/`),
+   since YouTube can't be played from the cloud session.
+2. Find their best-performing titles: owner sends screenshots of the channel's Videos tab sorted by Popular
+   (titles + views). Rank them by views, then pick the topics to make our own versions of.
+   Keep the topic and the hook structure (paradox question, "Why did X... but...?"), but write our own wording and
+   use our own research and real recordings; don't reuse a title word for word.
