@@ -298,4 +298,16 @@ One Word in 10 Languages, Languages That Count Differently.
    Each language played by a real speaker (Commons / Lingua Libre). English will win; the interest is the order
    after it (Mandarin, French, Spanish, Arabic, Russian, German...). High RPM: learners, English-speaking viewers.
 
+37. Viewer request (saved by the owner, 2026-11-19): world languages in places people rarely think about, as a series:
+   - Spanish where you don't expect it: Equatorial Guinea, Western Sahara, the Philippines (and Chavacano), northern
+     Morocco, Belize, Trinidad.
+   - French in Asia and the Middle East: Vietnam, Laos, Cambodia, Lebanon, Syria, Pondicherry; also Louisiana, Haiti.
+   - Portuguese beyond Portugal and Brazil: São Tomé and Príncipe, Macau, Guinea-Bissau, East Timor, Cape Verde,
+     Angola, Mozambique, Goa.
+   - English: Singapore, Nigeria, India, Falklands, Tristan da Cunha, Liberia.
+   Format: one speaker per place saying the same kind of thing, local accent and words explained on cards (like
+   `understand` / `slavic`). Real recordings only: Wikitongues/Commons, Lingua Libre, CC YouTube or permission
+   (e.g. RFI/VOA-style public-domain broadcasts where licensed). Check recordings per place before promising a part;
+   drop places without a real clip. Good fit with the 'Can Almost Understand' audience (Spanish/French/Portuguese).
+
 - DROPPED (owner, 2026-11-13): "What English Sounded Like in the 1800s" (`oldvoices`): too close to an idea already done (how English sounded through time). Don't suggest it again. Its files stay in the repo unused.
