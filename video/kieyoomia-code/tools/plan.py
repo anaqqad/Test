@@ -74,8 +74,8 @@ def SLUG(title, sub):
 
 P = [
     # 0 a winter day
-    [("A winter day", "JAP", T(9, 45.0)), ("@", "A winter day", JAP_TAG), ("A guard opens a cell", "JAP", T(9, 22.0)),
-     ("He walks him onto", "JAP", T(9, 52.0)), ("The prisoner is told", "REL", T(4, 6.0)), ("@", "The prisoner is told", RELS_TAG)],
+    [("A winter day", "JAP", T(7, 13.0)), ("@", "A winter day", JAP_TAG), ("A guard opens a cell", "JAP", T(7, 45.0)),
+     ("He walks him onto", "JAP", T(8, 18.0)), ("The prisoner is told", "REL", T(4, 6.0)), ("@", "The prisoner is told", RELS_TAG)],
     # 1 twenty-seven degrees (reconstruction)
     [("He later said", "JAP", T(12, 34.0)),
      ("#", "He later said", None, {"type": "Section", "world": "ground", "W": 3000, "H": 1500, "surface": 820,
@@ -117,11 +117,15 @@ P = [
     [(f"{K} was sent to fill out", "IWO", T(2, 38.0)), ("@", f"{K} was sent to fill out", "Stand-in · an anti-aircraft gun crew, 1945 · To the Shores of Iwo Jima"),
      ("At Fort Bliss", "SAI", T(0, 40.0)), ("@", "At Fort Bliss", "Stand-in · Army trucks, 1944 · U.S. Army Signal Corps film"),
      ("Almost all of its men", "SAI", T(6, 39.5)), ("@", "Almost all of its men", "Stand-in · an American soldier, Saipan 1944 · U.S. Army Signal Corps film")],
-    # 9 Clark Field
-    [("They landed there", "CR", T(0, 52.0)), ("@", "They landed there", CR_TAG), ("set up their guns", "GUA", T(0, 47.0)),
-     ("@", "set up their guns", "Stand-in · an American airfield in the Pacific, 1942 · United News"),
-     ("On the eighth of December", "IWO", T(8, 8.0)), ("@", "On the eighth of December", "Stand-in · a Japanese plane over the fleet, 1945 · To the Shores of Iwo Jima"),
-     ("The New Mexico gunners", "IWO", T(2, 39.0)), ("State records", "IWO", T(2, 46.0))],
+    # 9 Clark Field (map)
+    [("They landed there", "CR", T(0, 52.0)),
+     ("#", "They landed there", "On the eighth of December", {"type": "GlobeMap", "theme": "history",
+        "cam": [{"t": 0, "center": [-150, 25], "scale": 1.0}, {"t": "and set up their guns", "center": [121, 15.5], "scale": 5.5}],
+        "fills": [{"ids": ["840"], "color": "ally", "stroke": "allyStroke", "at": 0.2, "out": "and set up their guns", "label": "United States", "labelAt": [-100, 40]},
+                  {"ids": ["608"], "color": "ally", "stroke": "allyStroke", "at": 1.0, "label": "Philippines", "labelAt": [122.5, 12.5]}],
+        "arcs": [{"from": [-106.4, 31.8], "to": [120.98, 14.6], "at": 0.6, "out": "and set up their guns", "style": "dashed", "color": "amber", "fromLabel": "Fort Bliss", "toLabel": "Manila", "loft": 0.25, "draw": 40}],
+        "pins": [{"ll": [120.56, 15.18], "label": "Clark Field", "at": "around Clark Field"}, {"ll": [120.98, 14.6], "label": "Manila", "at": "north of Manila", "color": "west"}],
+        "year": {"at": 0.1, "year": "1941", "sub": "The 200th Coast Artillery goes west"}})],
     # 10 the 515th
     [("In the weeks after", "IWO", T(2, 22.0)), ("@", "In the weeks after", "Stand-in · anti-aircraft fire, 1945 · To the Shores of Iwo Jima"),
      ("#", "By the state's count", None, {"type": "LedgerBars", "file": "FILE 02 — NEW MEXICO", "head": "The New Mexico gunners, 1941–42",
@@ -132,11 +136,24 @@ P = [
     [("For four months", "CR", T(1, 13.0)), ("@", "For four months", CR42_TAG), ("On the ninth of April", "CR", T(1, 34.0)),
      ("#", "On the ninth of April", None, SLUG("April 9, 1942", "Bataan · the surrender")),
      ("The two hundredth Coast Artillery", "CR", T(1, 55.0)), ("@", "The two hundredth Coast Artillery", "The Japanese flag over Corregidor, 1942 · Japanese film in a United News newsreel")],
-    # 12 King
-    [("#", "General King", None, LQ("FILE 03 — BATAAN", "Maj. Gen. Edward P. King, 9 April 1942", "You men remember this. You did not surrender…",
-        "General King to his men, as quoted", "Bataan Death March (Wikipedia, citing Knox, Death March)", after=" you had no alternative but to obey my order."))],
-    # 13 the Death March
-    [("What followed", "CR", T(1, 20.0)), ("@", "What followed", CR42_TAG),
+    # 12 King (quote card)
+    [("#", "General King", None, {"type": "QuoteCard", "bg": "stills/litters_1942.jpg",
+        "lines": [{"text": "You men remember this.", "at": "to remember"}, {"text": "You did not surrender…", "at": "they had not surrendered"},
+                  {"text": "you had no alternative", "at": "They had no choice"}, {"text": "but to obey my order.", "at": "to obey his order"}],
+        "by": "Maj. Gen. Edward P. King, 9 April 1942 (as quoted)", "byAt": "It put the"})],
+    # 13 the Death March (map)
+    [("What followed", "CR", T(1, 20.0)),
+     ("#", "What followed", "Estimates of the dead", {"type": "GlobeMap", "theme": "history",
+        "cam": [{"t": 0, "center": [121, 15], "scale": 4.0}, {"t": "were marched north", "center": [120.6, 14.95], "scale": 22}],
+        "fills": [{"ids": ["608"], "color": "rival", "at": 0.2}],
+        "pins": [{"ll": [120.49, 14.43], "label": "Mariveles", "at": "were marched north"}, {"ll": [120.69, 15.03], "label": "San Fernando", "at": "toward a camp"},
+                 {"ll": [120.55, 15.37], "label": "Camp O'Donnell", "at": "called O'Donnell"}],
+        "arcs": [{"from": [120.49, 14.43], "to": [120.69, 15.03], "at": "were marched north", "style": "solid", "color": "red", "loft": 0.02, "draw": 40},
+                 {"from": [120.69, 15.03], "to": [120.59, 15.33], "at": "toward a camp", "style": "dashed", "color": "red", "loft": 0.02, "draw": 20}],
+        "cards": [{"at": "Around seventy-five thousand", "kicker": "April 1942 · Bataan", "body": "About 66,000 Filipino and 12,000 American prisoners", "accent": "red"},
+                  {"at": "toward a camp", "kicker": "On foot, then by rail", "body": "About 105 km to Camp O'Donnell", "accent": "amber"}],
+        "footer": "Route generalised",
+        "year": {"at": 0.1, "year": "1942", "sub": "The Bataan Death March"}}),
      ("Estimates of the dead", "RP", T(0, 30.0)), ("@", "Estimates of the dead", RP_TAG)],
     # 14 eighteen hundred
     [(f"{K} survived the march", "RP", T(5, 30.0)), ("@", f"{K} survived the march", RP_TAG),
@@ -159,11 +176,14 @@ P = [
      ("#", "In a later test", None, {"type": "LedgerBars", "file": "FILE 04 — THE TEST", "head": "A three-line message",
         "bars": [{"label": "Coding machine", "value": 1800, "figure": "30 MIN", "note": "machines of the time"},
                  {"label": "Navajo talkers", "value": 20, "figure": "20 SEC", "note": "encode, send, decode"}], "max": 1800, "source": FACT})],
-    # 19 Vogel's letter
-    [("#", "On the sixth of March", None, {"type": "LedgerDocument", "file": "FILE 05 — THE LETTER", "head": "Gen. Vogel to the Commandant, 6 March 1942",
-        "spans": [{"doc": "doc_vogel", "say": "This dialect is thus equivalent to a secret code to the enemy"}],
-        "source": "Vogel to Commandant, 6 Mar 1942 · NARA RG 127 · Wikimedia Commons"}),
-     ("Vogel asked for", "GUA", T(2, 43.7)), ("@", "Vogel asked for", MAR_TAG)],
+    # 19 Vogel's letter (document on the desk)
+    [("#", "On the sixth of March", "Vogel asked for", {"type": "DocDesk", "page": "stills/vogel_p1_paper.png", "aspect": 1.2833, "desk": "stills/desk.jpg",
+        "credit": "Gen. Clayton Vogel to the Commandant, 6 March 1942 · National Archives (RG 127)",
+        "shots": [{"t": 0, "kind": "wide", "args": [0.5, 0.42]}, {"t": "It passes on", "kind": "grazing", "args": [0.62]},
+                  {"t": "It says Navajo", "kind": "glide", "args": [0.86, 0.25, 0.8]}, {"t": "And then", "kind": "glide", "args": [0.9, 0.3, 0.85]}]}),
+     ("#", "Vogel asked for", None, {"type": "DocDesk", "page": "stills/vogel_p2_paper.png", "aspect": 0.6302, "desk": "stills/desk.jpg",
+        "credit": "Gen. Clayton Vogel to the Commandant, 6 March 1942, page 2 · National Archives (RG 127)",
+        "shots": [{"t": 0, "kind": "glide", "args": [0.3, 0.2, 0.75]}]})],
     # 20 the bus
     [("On the morning of the fourth", "NAV", T(7, 50.0)), ("@", "On the morning of the fourth", NAV_TAG),
      ("#", "At Fort Wingate", None, SLUG("May 4, 1942", "Fort Wingate, New Mexico")), ("One had dropped out", "NAV", T(8, 15.0))],
@@ -202,19 +222,20 @@ P = [
     [("#", "For words that had no code term", None, {"type": "CodeWord", "file": "FILE 08 — THE CODE", "head": "Spelling", "colHeads": ["Navajo", "Literally", "Letter"],
         "rows": [{"word": "wol-la-chee", "lit": "ant", "mil": "A", "at": "wol-lah-chee"}, {"word": "be-la-sana", "lit": "apple", "mil": "A", "at": "beh-lah-sahnah"},
                  {"word": "tse-nill", "lit": "axe", "mil": "A", "at": "tseh-nill"},
-                 {"word": "tsah · wol-la-chee · ah-keh-di-glini · tsah-ah-dzoh", "lit": "needle, ant, victor, yucca", "mil": "NAVY", "at": "The word Navy"}], "source": FACT})],
+                 {"word": "four words", "lit": "needle, ant, victor, yucca", "mil": "NAVY", "at": "The word Navy"}], "source": FACT})],
     # 29 double lock
     [("#", "That was the double lock", None, HL("THE DOUBLE LOCK", "Even to a Navajo,", "words with no meaning", "with no meaning",
         "Lin Poyer, War at the Margins (2022); Ed Gilbert, Native American Code Talker (2008)")),
-     ("Remember that", "JAP", T(9, 54.0)), ("@", "Remember that", JAP_TAG)],
+     ("Remember that", "IWO", T(7, 40.0)), ("@", "Remember that", "Stand-in · Marines at a command post, 1945 · To the Shores of Iwo Jima")],
     # 30 the code grew
     [("The code grew", "IWO", T(7, 38.3)), ("@", "The code grew", "Stand-in · a Marine command post, Iwo Jima 1945 · To the Shores of Iwo Jima"),
      ("The code talkers learned it", "OKI", T(5, 17.0)), ("@", "The code talkers learned it", OKI_TAG), ("A Navy dictionary", "OKI", T(5, 2.0))],
-    # 31 Hawaii, Gorman
+    # 31 Hawaii, Gorman (quote card)
     [("The spelling alphabet grew", "SAN", T(0, 5.0)), ("@", "The spelling alphabet grew", SAN_TAG),
-     ("#", "One of the original twenty-nine", None, LQ("FILE 09 — VOICES", "Carl Gorman, one of the original 29", "Everybody was shooting at each other,",
-        "Carl Gorman", "Ron McCoy, The American West, Nov/Dec 1981", before="You had to be able to use English and Navajo pretty fast. ",
-        after=" and you really had to be on the ball."))],
+     ("#", "One of the original twenty-nine", None, {"type": "QuoteCard", "bg": "stills/blake_kirk_1943.jpg",
+        "lines": [{"text": "You had to be able to use English", "at": "You had to be able"}, {"text": "and Navajo pretty fast.", "at": "and Navajo pretty fast"},
+                  {"text": "Everybody was shooting at each other,", "at": "Everybody was shooting"}, {"text": "and you really had to be on the ball.", "at": "and you really had"}],
+        "by": "Carl Gorman, one of the original 29", "byAt": "on the ball"})],
     # 32 the later test
     [("In one later test", "IWO", T(7, 40.0)), ("@", "In one later test", "Stand-in · Marines at a command post, 1945 · To the Shores of Iwo Jima"),
      ("Without the code", "OKI", T(5, 22.0))],
@@ -244,25 +265,33 @@ P = [
     [("Back in the Philippines", "RP", T(0, 30.0)), ("@", "Back in the Philippines", RP_TAG),
      ("#", "In", None, LQ("FILE 12 — THE PRISONER", "Joe Kieyoomia, 1995", "rice laced with weevils", "Kieyoomia's account (AP paraphrase)", AP95,
         before="He said he lived on ", after=", and watched weakened Americans ordered to dig their graves, then shot."))],
-    # 40 put on a ship
+    # 40 put on a ship (map)
     [("He said that at the end", "RP", T(6, 41.0)), ("@", "He said that at the end", RP_TAG),
-     ("A few days later", "IWO", T(1, 30.0)), ("@", "A few days later", "Stand-in · ships at sea, 1945 · To the Shores of Iwo Jima"),
-     ("No record we have found", "IWO", T(1, 48.0))],
-    # 41 the wrong face
-    [("Why him", "JAP", T(9, 52.0)), ("@", "Why him", JAP_TAG),
-     ("#", "In his words", None, LQ("FILE 12 — THE PRISONER", "Joe Kieyoomia, 1995", "I told them I was Navajo. They didn't believe me.",
-        "Joe Kieyoomia", AP95, after=" … I guess they didn't know about Indians."))],
+     ("#", "A few days later", None, {"type": "GlobeMap", "theme": "history",
+        "cam": [{"t": 0, "center": [126, 24], "scale": 2.6}],
+        "fills": [{"ids": ["392"], "color": "hot", "stroke": "hotStroke", "at": 0.3, "label": "Japan", "labelAt": [138, 37.5]}, {"ids": ["608"], "color": "rival", "at": 0.3}],
+        "arcs": [{"from": [120.98, 14.6], "to": [131.0, 33.9], "at": "he was put on a ship", "style": "dashed", "color": "red", "fromLabel": "Manila", "toLabel": "Japan", "loft": 0.08, "draw": 36}],
+        "captions": [{"at": "No record we have found", "text": "Ship and date unknown", "color": "amber"}],
+        "footer": "Route illustrative"})],
+    # 41 the wrong face (quote card)
+    [("Why him", "JAP", T(7, 14.0)), ("@", "Why him", JAP_TAG),
+     ("#", "In his words", None, {"type": "QuoteCard", "bg": "stills/odonnell_burial.jpg",
+        "lines": [{"text": "I told them I was Navajo.", "at": "I told them"}, {"text": "They didn't believe me.", "at": "They didn't believe me"},
+                  {"text": "The only thing they understood", "at": "The only thing"}, {"text": "about Americans was black and white.", "at": "about Americans"},
+                  {"text": "I guess they didn't know about Indians.", "at": "I guess they"}],
+        "by": "Joe Kieyoomia, 1995", "byAt": "about Indians"})],
     # 42 things got worse
-    [("In time", "JAP", T(9, 25.0)), ("He said that was when", "JAP", T(4, 2.0))],
+    [("In time", "JAP", T(7, 46.0)), ("@", "In time", JAP_TAG), ("He said that was when", "JAP", T(12, 2.0)), ("@", "He said that was when", JPN_TAG)],
     # 43 radio monitors
     [("By then", "IWO", T(7, 38.3)), ("@", "By then", "Stand-in · Marines with radios and headsets, Iwo Jima 1945 · To the Shores of Iwo Jima"),
      ("Marines were talking", "OKI", T(5, 22.0)), ("@", "Marines were talking", OKI_TAG),
      ("A", "JAP", T(2, 56.0)), ("@", "A", JPN_TAG)],
-    # 44 the recordings
+    # 44 the recordings (quote card)
     [("In Japan they had", "JAP", T(2, 56.0)), ("@", "In Japan they had", JPN_TAG),
-     ("#", "He said he could not believe", None, LQ("FILE 12 — THE PRISONER", "Kieyoomia on the broadcasts", "It sounded like Navajo…", "Joe Kieyoomia",
-        "Samuel Holiday and Robert McPherson, Under the Eagle (2013), citing Doris Duke oral history #664",
-        before="When they first made me listen to the broadcasts, I couldn't believe what I was hearing. "))],
+     ("#", "He said he could not believe", None, {"type": "QuoteCard", "bg": "stills/saipan_navajo_1944.jpg",
+        "lines": [{"text": "When they first made me listen", "at": 0}, {"text": "to the broadcasts, I couldn't believe", "at": "what he was hearing"},
+                  {"text": "what I was hearing.", "at": "what he was hearing"}, {"text": "It sounded like Navajo…", "at": "It sounded like Navajo"}],
+        "by": "Joe Kieyoomia, Doris Duke oral history, via Under the Eagle (2013)", "byAt": "like Navajo"})],
     # 45 random jumble
     [("It was Navajo", "IWO", T(7, 42.0)),
      ("#", "He heard words he knew", None, {"type": "CodeWord", "file": "FILE 13 — WHAT HE HEARD", "head": "What a Navajo heard",
@@ -270,18 +299,20 @@ P = [
         "rows": [{"word": "tsah", "lit": "needle", "mil": "N"}, {"word": "wol-la-chee", "lit": "ant", "mil": "A"},
                  {"word": "ah-keh-di-glini", "lit": "victor", "mil": "V"}, {"word": "tsah-ah-dzoh", "lit": "yucca", "mil": "Y"}], "source": FACT})],
     # 46 bird, turtle, water
-    [("In the", "JAP", T(4, 2.0)), ("@", "In the", JPN_TAG),
+    [("In the", "JAP", T(6, 41.0)), ("@", "In the", JPN_TAG),
      ("#", "So he told them", None, HL("JOE KIEYOOMIA, 1995", "This means bird, this means turtle,", "this means water", "this means water", AP95))],
     # 47 the truth
-    [("He told them the truth", "JAP", T(9, 23.0)), ("@", "He told them the truth", JAP_TAG), ("They did not believe", "JAP", T(9, 52.0))],
+    [("He told them the truth", "JAP", T(12, 34.0)), ("@", "He told them the truth", JPN_TAG), ("They did not believe", "JAP", T(7, 15.0)), ("@", "They did not believe", JAP_TAG)],
     # 48 broken ribs
     [("What followed", "JAP", T(12, 35.0)), ("@", "What followed", JPN_TAG),
-     ("#", "an interrogator hit him", None, LQ("FILE 12 — THE PRISONER", "Kieyoomia to Sally McClain", "hit me with a club, broke my ribs and then my wrist.",
-        "Joe Kieyoomia", MCC, before="He "))],
-    # 49 the parade ground (quote)
+     ("#", "an interrogator hit him", None, LQ("FILE 12 — THE PRISONER", "Kieyoomia to Sally McClain", "He hit me with a club, broke my ribs and then my wrist.",
+        "Joe Kieyoomia, on his interrogator", MCC))],
+    # 49 the parade ground (quote card)
     [("Then came the winter day", "JAP", T(12, 36.0)),
-     ("#", "When he was finally moved", None, LQ("FILE 12 — THE PRISONER", "Joe Kieyoomia, 1995", "I left my soles on that parade ground.",
-        "Joe Kieyoomia · his widow later: He left his soles overseas.", AP95))],
+     ("#", "Then came the winter day", None, {"type": "QuoteCard", "bg": "stills/odonnell_burial.jpg",
+        "lines": [{"text": "It was 27 degrees outside.", "at": "It was twenty-seven degrees"}, {"text": "They made me stand one hour", "at": "One hour in the snow"},
+                  {"text": "in snow this deep.", "at": "naked"}, {"text": "I left my soles on that parade ground.", "at": "When he was finally moved"}],
+        "by": "Joe Kieyoomia, 1995", "byAt": "His widow"})],
     # 50 I wanted to die
     [("He said the beatings", "RP", T(1, 5.0)), ("@", "He said the beatings", RP_TAG), ("He said he tried", "RP", T(3, 15.0)),
      ("I wanted to die", "RP", T(5, 26.0))],
@@ -293,9 +324,17 @@ P = [
      ("#", "If you want more", None, {"type": "SubscribeButton", "channel": "WWII Frontlines", "tagline": "Prisoner of war stories, documented", "dur": 6.5})],
     # 53 Saipan (photo)
     [("In June", "SAN", T(0, 38.0)), ("@", "In June", SAN_TAG), ("A Marine Corps photograph", "SAN", T(0, 49.0))],
-    # 54 every division
-    [("By then there were code talkers", "SAI", T(4, 54.0)), ("@", "By then there were code talkers", SAI_TAG),
-     ("A Navy history says", "SAN", T(1, 21.5)), ("@", "A Navy history says", SAN_TAG), ("At Bougainville", "SAI", T(5, 39.0))],
+    # 54 every division (map)
+    [("By then there were code talkers", "SAI", T(4, 54.0)),
+     ("#", "By then there were code talkers", None, {"type": "GlobeMap", "theme": "history",
+        "cam": [{"t": 0, "center": [150, 5], "scale": 1.6}, {"t": "At Bougainville", "center": [150, 3], "scale": 2.4}],
+        "fills": [{"ids": ["392"], "color": "hot", "stroke": "hotStroke", "at": 0.3, "label": "Japan", "labelAt": [138, 37.5]}],
+        "pins": [{"ll": [160.0, -9.5], "label": "Guadalcanal", "at": 0.6}, {"ll": [145.75, 15.2], "label": "Saipan", "at": 1.0},
+                 {"ll": [141.3, 24.8], "label": "Iwo Jima", "at": 1.4},
+                 {"ll": [155.5, -6.2], "label": "Bougainville", "at": "At Bougainville"}, {"ll": [173.0, 1.4], "label": "Tarawa", "at": "at Tarawa"},
+                 {"ll": [144.8, 13.4], "label": "Guam", "at": "at Guam"}, {"ll": [134.2, 7.0], "label": "Peleliu", "at": "at Peleliu"}],
+        "cards": [{"at": "A Navy history says", "kicker": "1942–1945 · U.S. Marine Corps", "body": "Code talkers in every assault in the Pacific", "accent": "amber"}],
+        "year": {"at": 0.1, "year": "1942–45", "sub": "The Marines' war in the Pacific"}})],
     # 55 friendly fire
     [("Being mistaken", "IWO", T(6, 15.0)), ("@", "Being mistaken", IWO_TAG), ("A", "IWO", T(6, 31.5)), ("To the men on the other end", "IWO", T(9, 3.0))],
     # 56 Iwo Jima
@@ -304,9 +343,11 @@ P = [
     # 57 800 messages
     [("According to Connor", "IWO", T(7, 38.3)), ("@", "According to Connor", "Marines at a command post, Iwo Jima 1945 · To the Shores of Iwo Jima"),
      ("#", "They sent and received", None, HL("IWO JIMA · THE FIRST TWO DAYS", "Six code talkers.", "800 messages", "more than eight hundred", FACT, after="No errors."))],
-    # 58 Connor's verdict
-    [("#", "Connor's verdict", None, LQ("FILE 14 — IWO JIMA", "Maj. Howard Connor, 5th Marine Division",
-        "Were it not for the Navajos, the Marines would never have taken Iwo Jima.", "Signal officer, 5th Marine Division", FACT)),
+    # 58 Connor's verdict (quote card)
+    [("#", "Connor's verdict", "A captain's report", {"type": "QuoteCard", "bg": "stills/iwo_first_flag.jpg",
+        "lines": [{"text": "Were it not for the Navajos,", "at": "Were it not for"}, {"text": "the Marines would never", "at": "the Marines would never"},
+                  {"text": "have taken Iwo Jima.", "at": "have taken Iwo Jima"}],
+        "by": "Maj. Howard Connor, 5th Marine Division", "byAt": "have taken Iwo Jima"}),
      ("A captain's report", "IWO", T(10, 7.0)), ("@", "A captain's report", IWO_TAG)],
     # 59 400 code talkers, 13 killed
     [("By the end of the war", "IWO", T(16, 57.0)), ("@", "By the end of the war", IWO_TAG),
@@ -327,25 +368,33 @@ P = [
      ("#", "In his", None, TL("FILE 15 — WHERE WAS HE?", "9 August 1945: three versions",
         [("AP, 1995", "In a concrete cell in Nagasaki"), ("McClain, 1994", "Moved 60 miles south the day before"), ("Army card", "Liberated · Tokyo-area camp code")],
         "AP 28 Sep 1995; McClain, Navajo Weapon (1994); NARA RG 389"))],
-    # 64 McClain version
-    [("But in an earlier interview", "TTC", T(2, 10.5)), ("@", "But in an earlier interview", TTC_TAG), ("He said he had been moved", "TTC", T(11, 12.0))],
+    # 64 McClain version (map)
+    [("But in an earlier interview", "TTC", T(2, 10.5)),
+     ("#", "But in an earlier interview", None, {"type": "GlobeMap", "theme": "history",
+        "cam": [{"t": 0, "center": [135, 34], "scale": 4.5}, {"t": "He said he had been moved", "center": [130.2, 32.4], "scale": 14}],
+        "fills": [{"ids": ["392"], "color": "rival", "at": 0.2}],
+        "pins": [{"ll": [129.87, 32.75], "label": "Nagasaki", "at": 0.5}],
+        "zones": [{"ring": [[129.55, 31.95], [129.9, 31.75], [130.3, 31.95], [130.3, 32.25], [129.9, 32.4], [129.55, 32.25]], "at": "about sixty miles south",
+                   "label": "About 60 miles south · not identified"}],
+        "captions": [{"at": "the day before the bomb", "text": "McClain, 1994: moved the day before", "color": "amber"}],
+        "footer": "Area illustrative"})],
     # 65 Tokyo-area
     [("The American records", "REL", T(5, 4.0)), ("@", "The American records", REL_TAG), ("That may only be where", "REL", T(2, 5.5))],
     # 66 he lived through the war
     [("So we cannot tell you", "TTC", T(1, 50.0)), ("@", "So we cannot tell you", TTC_TAG),
      ("What we can tell you", "REL", T(0, 30.0)), ("@", "What we can tell you", REL_TAG), ("By the calendar", "REL", T(4, 5.0))],
     # 67 Yokohama
-    [("All across Japan", "YOK", T(2, 37.0)), ("@", "All across Japan", YOK_TAG), ("In Yokohama", "YOK", T(0, 18.0)),
+    [("All across Japan", "YOK", T(3, 27.0)), ("@", "All across Japan", YOK_TAG), ("In Yokohama", "YOK", T(0, 18.0)),
      ("thin grinning men", "YOK", T(1, 34.0)), ("eating smoking", "YOK", T(1, 59.0)), ("climbing into the planes", "YOK", T(5, 50.0))],
     # 68 four years in hospitals
-    [("According to the book", "YOK", T(4, 55.0)), ("@", "According to the book", YOK_TAG), ("His leg recovered", "NAV", T(4, 37.7)),
+    [("According to the book", "YOK", T(4, 49.0)), ("@", "According to the book", YOK_TAG), ("His leg recovered", "NAV", T(4, 37.7)),
      ("@", "His leg recovered", NAV_TAG), ("He went back to the reservation", "NAV", T(4, 13.6))],
     # 69 buses without parades
     [("The code talkers came home too", "IWO", T(18, 13.8)), ("@", "The code talkers came home too", IWO_TAG),
      ("#", "Bill Toledo said", None, LQ("FILE 16 — THE SECRET", "Bill Toledo, code talker", "keep my mouth shut", "Bill Toledo", "CBS News, 29 May 2002",
         before="They just told me to ", after=" about what I did."))],
     # 70 nine hundred came back
-    [("Of the New Mexico gunners", "REL", T(4, 54.0)), ("@", "Of the New Mexico gunners", RELS_TAG), ("A state history says", "REL", T(5, 30.0))],
+    [("Of the New Mexico gunners", "REL", T(4, 54.0)), ("@", "Of the New Mexico gunners", RELS_TAG), ("A state history says", "REL", T(1, 29.0))],
     # 71 declassified
     [("#", "The Navajo code stayed classified", None, TL("FILE 16 — THE SECRET", "After the war",
         [("1945–68", "The code stays classified"), ("1968", "Declassified"), ("1971", "Nixon's letter of thanks"), ("14 Aug 1982", "National Navajo Code Talkers Day")],
@@ -355,15 +404,19 @@ P = [
      ("#", "It called theirs", None, HL("PROCLAMATION 4954 · 1982", "The only foolproof,", "unbreakable code", "unbreakable code",
         "Ronald Reagan, Proclamation 4954, 28 July 1982", after="in the history of warfare")),
      ("In nineteen seventy-six", "NAV", T(2, 12.8))],
-    # 73 the unnamed prisoner
-    [(f"{K} said he only learned", "NAV", T(11, 28.2)), ("@", f"{K} said he only learned", NAV_TAG),
-     ("#", "But what he said fits", None, LQ("FILE 17 — AFTER THE WAR", "A Navajo prisoner from Bataan, to a code talker",
-        "I never figured out what you guys who got me into all that trouble were saying.", "Unnamed in the sources; almost certainly Kieyoomia",
-        "Ron McCoy, The American West, 1981; Navy and Marine Corps fact sheet, 1992"))],
-    # 74 I salute the code talkers
+    # 73 the unnamed prisoner (quote card)
+    [(f"{K} said he only learned", "NAV", T(11, 24.0)), ("@", f"{K} said he only learned", NAV_TAG), ("And there is a story", "NAV", T(10, 16.0)),
+     ("After the war he met", "NAV", T(2, 12.8)),
+     ("#", "But what he said fits", None, {"type": "QuoteCard", "bg": "stills/first29_1942.jpg",
+        "lines": [{"text": "I never figured out", "at": "I never figured out"}, {"text": "what you guys who got me", "at": "what you guys"},
+                  {"text": "into all that trouble were saying.", "at": "into all that trouble"}],
+        "by": "A Navajo prisoner from Bataan, to a code talker (unnamed in the sources)", "byAt": "were saying"})],
+    # 74 I salute the code talkers (quote card)
     [("He never blamed them", "NAV", T(4, 13.6)), ("@", "He never blamed them", NAV_TAG),
-     ("#", "he told the reporter", None, LQ("FILE 17 — AFTER THE WAR", "Joe Kieyoomia, 1995", "And even if I knew about their code, I wouldn't tell the Japanese.",
-        "Joe Kieyoomia", AP95, before="I salute the Code Talkers. "))],
+     ("#", "he told the reporter", None, {"type": "QuoteCard", "bg": "stills/saipan_navajo_1944.jpg",
+        "lines": [{"text": "I salute the Code Talkers.", "at": "I salute the"}, {"text": "And even if I knew about their code,", "at": "And even if I knew"},
+                  {"text": "I wouldn't tell the Japanese.", "at": "I wouldn't tell"}],
+        "by": "Joe Kieyoomia, 1995", "byAt": "tell the Japanese"})],
     # 75 silversmith
     [("For the rest of his life", "NAV", T(6, 38.5)), ("@", "For the rest of his life", NAV_TAG), ("In nineteen eighty-three", "NAV", T(4, 30.0)),
      ("He was listed for years", "NAV", T(7, 2.6))],
@@ -374,26 +427,31 @@ P = [
         [("1941", "Drafted at Santa Fe"), ("1942–45", "Prisoner of the Japanese"), ("Married", "42 years to Lita · 8 children"),
          ("17 Feb 1997", "Dies at Shiprock · buried at Farmington")],
         "Farmington Daily News, 20–21 Feb 1997, via Bataan-Corregidor Memorial Foundation of New Mexico"))],
-    # 78 he left his soles overseas
-    [("In", "NAV", T(11, 28.2)), ("@", "In", NAV_TAG),
-     ("#", "Lita", None, HL("LITA KIEYOOMIA, BATAAN MEMORIAL, 7 APRIL 2002", "He left his", "soles overseas", "He left his soles",
-        "Bataan-Corregidor Memorial Foundation of New Mexico"))],
+    # 78 he left his soles overseas (quote card)
+    [("In", "NAV", T(11, 24.0)), ("@", "In", NAV_TAG),
+     ("#", "Lita", None, {"type": "QuoteCard", "bg": "stills/shiprock.jpg",
+        "lines": [{"text": "He left his soles overseas.", "at": "He left his soles"}],
+        "by": "Lita Kieyoomia, Bataan Memorial, Albuquerque, 7 April 2002", "byAt": "she said"})],
     # 79 the law
     [("In December", "IWO", T(10, 7.6)), ("@", "In December", IWO_TAG),
      ("#", "The original twenty-nine would receive", None, {"type": "LedgerClipping", "file": "FILE 19 — THE MEDALS", "head": "Public Law 106-554",
         "kicker": "SEC. 1101 · HONORING THE NAVAJO CODE TALKERS", "headline": "A gold medal for each of the original 29", "dateline": "Approved 21 December 2000",
         "body": "A silver medal to each person who qualified as a Navajo Code Talker.", "source": "Public Law 106-554, 114 Stat. 2763A-311"})],
     # 80 the Rotunda (photo)
-    [("On the twenty-sixth of July", "IWO", T(18, 44.0)), ("@", "On the twenty-sixth of July", IWO_TAG)],
-    # 81 our mother
-    [("#", "The President told the room", None, LQ("FILE 19 — THE MEDALS", "President George W. Bush, 26 July 2001",
-        "At home, they carried for decades the secret of their own heroism.", "Capitol Rotunda", "Remarks by the President, 26 July 2001 (White House archive)"))],
+    [("On the twenty-sixth of July", "NAV", T(0, 55.0)), ("@", "On the twenty-sixth of July", NAV_TAG), ("Joe Palmer was represented", "NAV", T(2, 12.8))],
+    # 81 our mother (quote card with portrait)
+    [("#", "The President told the room", None, {"type": "QuoteCard", "bg": "stills/medal_2001.jpg", "portrait": "stills/bush_cut.png", "portraitH": 960,
+        "lines": [{"text": "…a service only they could give.", "at": "a service only"}, {"text": "At home, they carried for decades", "at": "that at home"},
+                  {"text": "the secret of their own heroism.", "at": "the secret of their"}],
+        "by": "President George W. Bush, 26 July 2001", "byAt": "own heroism"})],
     # 82 Maybe Japan is listening
     [("#", "When John Brown spoke", None, HL("JOHN BROWN JR., ONE OF THE 29 · 2001", "", "Maybe Japan is listening", "Maybe Japan is listening", PRO))],
-    # 83 Chester Nez
-    [("Chester Nez", "NAV", T(11, 28.2)), ("@", "Chester Nez", NAV_TAG),
-     ("#", "The Japanese pulled out", None, LQ("FILE 20 — THE LAST WORD", "Chester Nez, 2002", "but they never could break it.", "Chester Nez", "CBS News, 29 May 2002",
-        before="The Japanese pull up all their hair and they got baldy, "))],
+    # 83 Chester Nez (quote card with portrait)
+    [("Chester Nez", "NAV", T(11, 24.0)), ("@", "Chester Nez", NAV_TAG),
+     ("#", "In an interview in", None, {"type": "QuoteCard", "bg": "stills/first29_1942.jpg", "portrait": "stills/nez_cut.png", "portraitH": 980,
+        "lines": [{"text": "The Japanese pull up all their hair", "at": "The Japanese pulled out"}, {"text": "and they got baldy,", "at": "he said"},
+                  {"text": "but they never could break it.", "at": "but they never could"}],
+        "by": "Chester Nez, CBS News, 2002", "byAt": "break it"})],
     # 84 two left (photo Begay)
     [("As of August", "NAV", T(1, 0.4)), ("@", "As of August", NAV_TAG)],
     # 85 2025 / museum
@@ -408,19 +466,20 @@ P = [
 ]
 
 PHOTOS = [
-    (13, f"{K} survived", None, "death_march_hands_tied.jpg", "13", "Bataan, April 1942", "Prisoners on the march from Bataan to the prison camp", f"NARA 127-N-114541 · public domain · {WC}", {"style": "print", "label": "On the march from Bataan, April 1942"}),
-    (13, "Around seventy-five thousand", None, "litters_1942.jpg", "13", "The Death March", "Prisoners carry comrades on improvised litters", f"NARA 535564 · captured Japanese photo · public domain · {WC}", {"style": "print", "label": "Prisoners carrying comrades, April 1942"}),
+    (14, f"{K} survived the march", None, "death_march_hands_tied.jpg", "14", "Bataan, April 1942", "Prisoners on the march from Bataan to the prison camp", f"NARA 127-N-114541 · public domain · {WC}", {"style": "print", "label": "On the march from Bataan, April 1942"}),
+    # (13, "Estimates of the dead", None, "litters_1942.jpg", "13", "The Death March", "Prisoners carry comrades on improvised litters", f"NARA 535564 · captured Japanese photo · public domain · {WC}", {"style": "print", "label": "Prisoners carrying comrades, April 1942"}),
     (20, "they were sworn", None, "first29_1942.jpg", "20", "Fort Wingate", "", f"NARA 295175 · public domain · {WC}", {"style": "print", "label": "The first 29 · Fort Wingate, 1942"}),
     (21, "The youngest", None, "first29_1942.jpg", "21", "Fort Wingate, May 1942", "The first 29 Navajo Marine recruits are sworn in", f"NARA 295175 · public domain · {WC}", {"focus": [0.6, 0.5]}),
     (35, "After that", None, "blake_kirk_1943.jpg", "35", "Bougainville, December 1943", "", f"U.S. Marine Corps · public domain · {WC}", {"style": "print", "label": "Navajo Marines with a radio, 1943"}),
     (53, "and its caption says", None, "saipan_navajo_1944.jpg", "53", "Saipan, June 1944", "Navajo communication men with the Marines, landed with the first assault waves", f"NARA 532526 · public domain · {WC}", {"focus": [0.5, 0.45]}),
-    (54, "the radio traffic", None, "saipan_codetalkers_small.jpg", "54", "Saipan, 1944", "", f"public domain · {WC}", {"style": "print", "label": "Navajo code talkers, Saipan 1944"}),
+    (55, "To the men on the other end", None, "saipan_codetalkers_small.jpg", "55", "Saipan, 1944", "", f"public domain · {WC}", {"style": "print", "label": "Navajo code talkers, Saipan 1944"}),
     (58, "A captain's report", None, "iwo_first_flag.jpg", "58", "Iwo Jima", "", f"SSgt. Louis R. Lowery, USMC · public domain · {WC}", {"style": "print", "label": "Mount Suribachi, 23 February 1945"}),
     (62, "An American bomber", None, "nagasaki_cloud.jpg", "62", "Nagasaki", "", f"Charles Levy, U.S. Army Air Forces · public domain · {WC}", {"style": "print", "label": "Nagasaki, 9 August 1945"}),
     (63, "He said the concrete walls", None, "nagasaki_temple_1945.jpg", "63", "Nagasaki", "", f"Cpl. Lynn P. Walker Jr., USMC · public domain · {WC}", {"style": "print", "label": "Nagasaki, 24 September 1945"}),
-    (64, "about sixty miles south", None, "nagasaki_before_after.jpg", "64", "Nagasaki", "", f"public domain · {WC}", {"style": "print", "label": "Nagasaki before and after"}),
+    # (64, "about sixty miles south", None, "nagasaki_before_after.jpg", "64", "Nagasaki", "", f"public domain · {WC}", {"style": "print", "label": "Nagasaki before and after"}),
     (66, "His card says", None, "nagasaki_pows_1945.jpg", "66", "Nagasaki", "", f"U.S. Navy · public domain · {WC}", {"style": "print", "label": "Freed prisoners, Fukuoka 2-B, Nagasaki Bay, Sept 1945"}),
-    (80, "By then only five", None, "medal_2001.jpg", "80", "Capitol Rotunda, 26 July 2001", "President George W. Bush salutes the Navajo Code Talkers", f"White House Photo Office · public domain · {WC}", {"focus": [0.6, 0.4]}),
+    (80, "in the Rotunda of the Capitol", None, "medal_2001.jpg", "80", "Capitol Rotunda, 26 July 2001", "President George W. Bush salutes the Navajo Code Talkers", f"White House Photo Office · public domain · {WC}", {"focus": [0.6, 0.4]}),
+    (35, "Code talker Bill Toledo", None, "codetalkers_usmc_b.jpg", "35", "", "", f"U.S. Marine Corps · public domain · {WC}", {"style": "print", "label": "Code talkers Bill Toledo, Frank Willetto, Keith Little · 2010"}),
     (83, "died in", None, "nez_funeral_2014.jpg", "83", "", "", f"U.S. Marine Corps · public domain · {WC}", {"style": "print", "label": "Chester Nez at Quantico, April 2014"}),
     (84, "Thomas Begay", None, "thomas_begay.jpg", "84", "Thomas Begay", "", f"U.S. Department of Veterans Affairs · public domain · {WC}", {"style": "print", "label": "Thomas Begay, code talker"}),
     (87, "In English it is called", None, "shiprock.jpg", "87", "Shiprock", "", f"Christian David · CC BY-SA 4.0 · {WC}", {"style": "print", "label": "Shiprock, New Mexico"}),
@@ -469,9 +528,9 @@ def main():
                 return max(0.0, ws[i]["start"] - CUT_LEAD)
         raise SystemExit(f"anchor not found in paragraph {pi}: {phrase!r}\n{' '.join(toks)}")
 
-    SCENES = {"Section", "Chart", "IconCount", "ObjectTurn", "CodeWord"}
-    SYNCED = SCENES | {"Headline"}  # time fields may be spoken phrases (scenes.tsx, cards.tsx)
-    TIMEKEYS = {"t", "t0", "t1", "at", "labelAt", "labelTo", "beamAt"}
+    SCENES = {"Section", "Chart", "IconCount", "ObjectTurn", "CodeWord", "GlobeMap"}
+    SYNCED = SCENES | {"Headline", "QuoteCard", "DocDesk"}  # time fields may be spoken phrases (scenes.tsx, cards.tsx)
+    TIMEKEYS = {"t", "t0", "t1", "at", "labelAt", "labelTo", "beamAt", "byAt", "out", "show", "cardsOut"}
 
     def sync_times(o, when, key=None):
         if isinstance(o, dict):

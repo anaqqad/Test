@@ -29,10 +29,12 @@ for (const card of sb.overlays) {
     console.log("still", out);
     continue;
   }
+  // full-screen cards need no alpha: JPEG frames take ~1/6 of the temp space of PNG
+  const OPAQUE = new Set(["QuoteCard", "DocDesk", "GlobeMap"]);  // these never fade to transparent
   const out = path.join(outDir, `${card.id}.webm`);
   const t = Date.now();
   await renderMedia({
-    composition, serveUrl, codec: "vp9", pixelFormat: "yuva420p", imageFormat: "png", crf: 18,
+    composition, serveUrl, codec: "vp9", ...(OPAQUE.has(card.type) ? { pixelFormat: "yuv420p", imageFormat: "jpeg", jpegQuality: 92 } : { pixelFormat: "yuva420p", imageFormat: "png" }), crf: 18,
     outputLocation: out, inputProps, browserExecutable, concurrency: 3, muted: true,
     // HEIGHT=720 renders 1280x720 (the published size): frames are written to temp as PNGs first, ~2 MB each at 1080p
     scale: Number(process.env.HEIGHT || 1080) / 1080,

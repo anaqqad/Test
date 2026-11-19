@@ -49,6 +49,9 @@ for k in range(N):
     fc.append(f"{last}format=yuv420p[vout]")
     out = ROOT / f"build/part{k}.mp4"
     print(f"part {k}: {t0:.2f}-{t1:.2f} s, {b - a} shots, {len(mine)} cards", flush=True)
+    import shutil, time
+    while shutil.disk_usage(ROOT).free < 1.0e9:
+        print("waiting for disk space", flush=True); time.sleep(60)
     run(cmd + ["-filter_complex", ";".join(fc), "-map", "[vout]", "-t", f"{t1 - t0:.3f}", "-c:v", "libx264", "-preset", "slow", "-crf", "17",
                "-r", str(FPS), "-an", str(out)])
     parts.append(out)

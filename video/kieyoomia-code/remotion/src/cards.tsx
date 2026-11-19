@@ -117,8 +117,8 @@ export const CodeWord: React.FC<{ file: string; head: string; rows: { word: stri
                 <Stroke d={wobble([[x1 - 90, rowH / 2 - 6], [x1 - 30, rowH / 2 - 6]], 40 + i, 1.2)} p={b} w={5} color={C.inkSoft} />
                 <Stroke d={wobble([[x2 - 90, rowH / 2 - 6], [x2 - 30, rowH / 2 - 6]], 60 + i, 1.2)} p={c} w={5} />
               </svg>
-              <div style={{ position: "absolute", left: x0, top: y + rowH / 2 - 44, width: x1 - x0 - 110, opacity: a, fontFamily: QUOTE, fontSize: Math.min(64, rowH * 0.5), color: C.ink }}>{r.word}</div>
-              <div style={{ position: "absolute", left: x1, top: y + rowH / 2 - 40, width: x2 - x1 - 110, opacity: b, fontFamily: QUOTE, fontStyle: "italic", fontSize: Math.min(54, rowH * 0.42), color: C.inkSoft }}>“{r.lit}”</div>
+              <div style={{ position: "absolute", left: x0, top: y + rowH / 2 - 44, width: x1 - x0 - 110, opacity: a, fontFamily: QUOTE, fontSize: Math.min(64, rowH * 0.5, 820 / Math.max(1, r.word.length)), whiteSpace: "nowrap", color: C.ink }}>{r.word}</div>
+              <div style={{ position: "absolute", left: x1, top: y + rowH / 2 - 40, width: x2 - x1 - 110, opacity: b, fontFamily: QUOTE, fontStyle: "italic", fontSize: Math.min(54, rowH * 0.42, 760 / Math.max(1, r.lit.length + 2)), whiteSpace: "nowrap", color: C.inkSoft }}>“{r.lit}”</div>
               <div style={{ position: "absolute", left: x2, top: y + rowH / 2 - 46, width: 1760 - x2, opacity: c, transform: `translateX(${(1 - c) * 14}px)`, fontFamily: HEAD, fontWeight: 700, fontSize: Math.min(70, rowH * 0.56), color: C.grease, textTransform: "uppercase" }}>{r.mil}</div>
             </React.Fragment>
           );

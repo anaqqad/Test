@@ -38,6 +38,9 @@ for i, s in enumerate(sb["shots"]):
     key = f"{s['file']}|{s['in']}|{n}|{s['keep']}|{GRADE.get(s['file'], '')}|{H}|{CLEAN}"
     tag = out.with_suffix(".key")
     if not (out.exists() and tag.exists() and tag.read_text(encoding="utf-8") == key):
+        import shutil, time
+        while shutil.disk_usage(ROOT).free < 0.8e9:  # the drive is shared with other renders: wait, don't fail
+            print(f"waiting for disk space ({shutil.disk_usage(ROOT).free / 1e9:.2f} GB)", flush=True); time.sleep(60)
         vf = (f"{CLEAN[0]}scale=iw*sar:ih,setsar=1,crop=iw:ih*{s['keep']}:0:0,hue=s=0,{GRADE.get(s['file'], '')}scale={W}:{H}:force_original_aspect_ratio=decrease:flags=lanczos,"
               f"{CLEAN[1]}pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:black,eq=contrast=1.06:brightness=-0.01,fps={FPS},format=yuv420p")
         run(["ffmpeg", "-v", "error", "-y", "-ss", f"{s['in']:.3f}", "-i", str(ROOT / f"assets/footage/{s['file']}.mp4"),
@@ -52,6 +55,8 @@ for i, s in enumerate(sb["shots"]):
 print()
 (ROOT / "build/clips.txt").write_text("\n".join(lst) + "\n")
 base = ROOT / "build/base.mp4"
+if "--clips-only" in sys.argv:  # disk is tight: build/clips only, no base.mp4 copy
+    raise SystemExit(0)
 if "--only-base" in sys.argv:
     run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(ROOT / "build/clips.txt"), "-c", "copy", str(base)])
     raise SystemExit(0)

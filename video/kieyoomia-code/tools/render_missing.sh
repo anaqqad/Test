@@ -2,7 +2,7 @@
 # Renders overlay cards that are missing or unreadable, retrying while the drive is nearly full
 # (on this PC free space swings by gigabytes as Windows grows the page file).
 cd "$(dirname "$0")/../remotion"
-for attempt in $(seq 1 200); do
+for attempt in $(seq 1 30); do
   ids=$(python -c "
 import json, subprocess, os
 o = json.load(open('../build/storyboard.json', encoding='utf-8'))['overlays']
@@ -20,8 +20,8 @@ print(' '.join(bad) or 'NONE')")
   [ "$ids" = NONE ] && { echo ALLDONE; exit 0; }
   [ -z "$ids" ] && { echo "check failed, retrying"; sleep 20; continue; }
   free=$(df -m /c | awk 'NR==2{print $4}')
-  if [ "$free" -lt 300 ]; then echo "attempt $attempt: only ${free} MB free, waiting"; sleep 60; continue; fi
+  if [ "$free" -lt 1200 ]; then echo "attempt $attempt: only ${free} MB free, waiting"; sleep 60; continue; fi
   echo "attempt $attempt: $(echo $ids | wc -w) cards to render (${free} MB free)"
-  HEIGHT=${HEIGHT:-720} node render.mjs $ids 2>&1 | grep -E "frames [0-9]+s$|No space" | tail -3
+  HEIGHT=${HEIGHT:-720} node render.mjs $ids 2>&1 | grep -E "frames [0-9]+s$|No space|Error:" | head -60
 done
 echo GAVEUP

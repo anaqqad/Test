@@ -4,6 +4,7 @@ import { BigNumber, ContextTag, Slug, SubscribeButton } from "./overlays";
 import { ArchivePrint, PhotoCard } from "./photo";
 import { Chart, IconCount, ObjectTurn, Section } from "./scenes";
 import { CastCard, CodeWord, Headline } from "./cards";
+import { DocDesk, GlobeMap, QuoteCardJ } from "./devices";
 import { LedgerDocument } from "./document";
 import { LedgerBars, LedgerClipping, LedgerMap, LedgerQuote, LedgerTimeline } from "./ledger";
 
@@ -30,6 +31,9 @@ const Overlay: React.FC<{ card: Record<string, any>; frames: number }> = ({ card
     case "CastCard": return <CastCard {...(c as any)} />;
     case "Headline": return <Headline {...(c as any)} />;
     case "CodeWord": return <CodeWord {...(c as any)} />;
+    case "QuoteCard": return <QuoteCardJ {...(c as any)} />;
+    case "DocDesk": return <DocDesk {...(c as any)} />;
+    case "GlobeMap": return <GlobeMap {...(c as any)} />;
     default: return <AbsoluteFill />;
   }
 };
