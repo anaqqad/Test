@@ -505,6 +505,87 @@ export const VIDEOS = {
       },
     ],
   },
+  spanish_understand: {
+    title: "Languages Spanish Speakers Can Almost Understand", // same format as german/arabic_understand; audio: build_spanish.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#c60b1e",
+    items: [
+      {
+        name: "Romanian", wojak: "es_ron_f", flag: "ro", speakers: "~24 million", scene: "alps", loc: null,
+        cards: [
+          "Romanian is the only big Romance language in Eastern Europe, surrounded by Slavic and Hungarian neighbours.",
+          "It puts 'the' at the end of the word: 'lup' is a wolf, 'lupul' is the wolf.",
+          "She said: 'My home town is Cluj-Napoca, in the heart of Transylvania. You probably know Transylvania for its Count Dracula. But I'm not a vampire, so relax.' 'Conte' is 'conde', 'probabil' is 'probablemente'.",
+        ],
+        audio: { file: "cache/audio/spanish_understand/romanian.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Sardinian", wojak: "es_srd", flag: "it", speakers: "~1 million", scene: "beach", loc: null,
+        cards: [
+          "Sardinian is spoken on the island of Sardinia, and it is often called the living language closest to Latin.",
+          "'Domo' means house, straight from Latin 'domus', where Spanish says 'casa'.",
+          "Fun fact: our AI speech tool listened to this clip and guessed it was Latin!",
+        ],
+        audio: { file: "cache/audio/spanish_understand/sardinian.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Catalan", wojak: "es_cat_f", flag: "es", speakers: "~10 million", scene: "adriatic", loc: null,
+        cards: [
+          "Catalan is spoken in Catalonia, Valencia, the Balearic Islands and Andorra, where it is the only official language.",
+          "It sits between Spanish and French: 'bon dia' is 'buenos d\u00edas', 'molt' is 'muy'.",
+          "She said: 'Well, I'm Ona, I'm from Mallorca, and for me it's very hard to explain where I'm from.' 'S\u00f3c' is 'soy', 'molt dif\u00edcil explicar' is 'muy dif\u00edcil explicar'.",
+        ],
+        audio: { file: "cache/audio/spanish_understand/catalan.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Italian", wojak: "es_ita_f", flag: "it", speakers: "~65 million", scene: "tuscany", loc: null,
+        cards: [
+          "Italian and Spanish share about 82% of their vocabulary, so many sentences are easy to follow.",
+          "But beware: Italian 'burro' is butter, and Spanish 'burro' is a donkey!",
+          "She is explaining a Sicilian word in Italian: it describes someone who stands still and doesn't move, like a little nativity statue. 'Non si muove' is 'no se mueve'.",
+        ],
+        audio: { file: "cache/audio/spanish_understand/italian.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Portuguese", wojak: "es_por_f", flag: "pt", speakers: "~260 million", scene: "beach", loc: null,
+        cards: [
+          "Portuguese has over 260 million speakers, and most of them live in Brazil, not Portugal.",
+          "Spanish speakers read it easily, but European Portuguese swallows its vowels, so it is harder to hear.",
+          "She said: 'Hello, my name is Sara, I'm 23, I'm from Lisbon, the capital of Portugal, but right now I'm studying in the Netherlands.' 'Tenho' is 'tengo', 'estou a estudar' is 'estoy estudiando'.",
+        ],
+        audio: { file: "cache/audio/spanish_understand/portuguese.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Galician", wojak: "es_glg", flag: "es", speakers: "~2.4 million", scene: "hills", loc: null,
+        cards: [
+          "Galician is spoken in Galicia, in northwest Spain, and in the Middle Ages it was the same language as Portuguese.",
+          "Galician is co-official with Spanish in Galicia, and most Galicians switch between them every day.",
+          "He said: 'We're going to Galicia, to Fonsagrada, to talk to a man who, without wanting or knowing it, became the star of a film.' 'Home' is 'hombre', 'sen' is 'sin', 'chegou' is 'lleg\u00f3'.",
+        ],
+        audio: { file: "cache/audio/spanish_understand/galician.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Extremaduran", wojak: "es_ext", flag: "es", speakers: "~200,000", scene: "sierra", loc: null,
+        cards: [
+          "Extremaduran is spoken in the north of Extremadura, in western Spain, and it is not officially recognised.",
+          "It comes from the same old roots as Asturian and Leonese, not from Spanish.",
+          "He said: 'We're in a conference room at the University of... no, of Amsterdam, which today closes the International Congress of Minority Languages of Europe.' 'Arremata' is 'termina'.",
+        ],
+        audio: { file: "cache/audio/spanish_understand/extremaduran.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Asturian", wojak: "es_ast", flag: "es", speakers: "~100,000", scene: "hills", loc: null,
+        cards: [
+          "Asturian is spoken in Asturias, on Spain\u2019s north coast, by about 100,000 native speakers and many more learners.",
+          "It is protected by law but still not an official language of Spain.",
+          "He said: 'My name's V\u00edctor, I come from Oviedo, I speak Asturian, a minority language in the north of Spain.' 'Uvi\u00e9u' is 'Oviedo', 'falante' is 'hablante', 'ye' is 'es'.",
+        ],
+        audio: { file: "cache/audio/spanish_understand/asturian.wav", start: 0, voice: "m" },
+      },
+    ],
+  },
   arabic_understand: {
     title: "Languages Arabic Speakers Can Almost Understand", // same format as german/slavic/turkic; audio: build_arabic.py
     layout: "story",
