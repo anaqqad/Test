@@ -227,6 +227,20 @@ def main():
                 return max(0.0, ws[i]["start"] - CUT_LEAD)
         raise SystemExit(f"anchor not found in paragraph {pi}: {phrase!r}\n{' '.join(toks)}")
 
+    SCENES = {"Section", "Chart", "IconCount", "ObjectTurn"}  # remotion/src/scenes.tsx
+    TIMEKEYS = {"t", "t0", "t1", "at", "labelAt", "labelTo", "beamAt"}
+
+    def sync_times(o, when, key=None):
+        if isinstance(o, dict):
+            return {k: sync_times(v, when, k) for k, v in o.items()}
+        if isinstance(o, list):
+            if key == "dig":
+                return [when(v) if isinstance(v, str) else v for v in o]
+            return [sync_times(v, when) for v in o]
+        if key in TIMEKEYS and isinstance(o, str):
+            return when(o)
+        return o
+
     def said(pi, phrase):  # first and last word times of a phrase in the spoken text
         ws, target = words[pi], [norm(x) for x in phrase.split()]
         toks = [norm(w["text"]) for w in ws]
@@ -249,8 +263,12 @@ def main():
                     card["dur"] = 5.5
                 elif card["type"] == "PhotoCard":
                     card["dur"] = 6.5
+                elif card["type"] in SCENES:  # reconstruction scenes may run the whole paragraph (up to 30 s)
+                    card["end"] = min(card["start"] + 30.0, max(card["start"] + 8.0, paras[pi]["end"] + 0.3))
                 else:  # full card runs to the end of its paragraph (7-12 s)
                     card["end"] = min(card["start"] + 12.0, max(card["start"] + 7.0, paras[pi]["end"] + 0.3))
+                if card["type"] in SCENES:  # any time field given as a phrase = when that phrase is spoken (s from card start)
+                    card = sync_times(card, lambda ph, pi=pi, c0=card["start"]: round(said(pi, ph)[0] - c0, 3))
                 if card["type"] == "LedgerDocument":  # spans: [{"doc": key in tools/doc_spans.json, "say": spoken words}]
                     spans = []
                     for sp in card["spans"]:

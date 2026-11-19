@@ -68,3 +68,32 @@ is always typed at the bottom.
 ## Rhythm (unchanged from the blueprint's measurements)
 Footage cut on narration words every 3–5 s. A photo or ledger card every ~25–35 s. Cards and photos
 are the only dissolves.
+
+## 4. Reconstruction scenes (`remotion/src/scenes.tsx`)
+Flat 2D drawings that act out a moment no camera filmed. The scene *types* were learned from Immersive Past
+(@ImmersivePast, Nov 2026: side cross-sections, top-down plots, icon counters, a turning object), redrawn in our
+tokens: graphite/slate water, warm paper sky, earth strata in the edge-print browns, black silhouettes, grease red
+only for marks. Never their teal sea, navy panels or fonts. Everything is drawn in code (no AI images); people are
+silhouettes. Test reel: `remotion/scenes_demo.json` (`SB=scenes_demo.json OUT=<dir> node render.mjs`), QC stills with
+`node stills.mjs <storyboard> <dir> [ids]`.
+- **Section**: side cross-section, `world: "sea"` (sky, water, sea bed, light shafts, drifting particles) or
+  `"ground"` (sky, soil strata, pebbles). Items: `uboat` (with `wreck`, `hole`), `boat`, `escort`, `diver` (kicking,
+  bubbles, `beam` torch relative to the body), `man` (`pose`: stand/walk/crawl), `hut`, `fence`, `tower`, `mound`,
+  `rope`, `tunnel` (`pts`, dug over `dig: [t0, t1]`, timber frames); `follow: <item index>` makes a figure ride a
+  tunnel's dig front. Movement by keyframes `move: [{t, x, y, rot}]`; camera by `cam: [{t, x, y, z}]` (slow trucks
+  and push-ins). Furniture: date/place stamp top left, `ruler` (depth in FT/M, follows the camera), `pills`
+  (one fact the narration just said), `ring` (countdown, e.g. "20 minutes of air"), name tags with leader lines.
+- **Chart**: top-down plot on a dark chart with a graticule: `tracks` (escort / sub / cargo / column) with wakes
+  and dotted future courses, `sonar` cones, `contacts` (grease crosshair circle), `booms` (depth-charge rings),
+  `stamps` (clock times where things happened), a running `clock` in the stamp, optional `coast` polygon.
+  Header names whose version it is ("The official account" / "The survivors' account").
+- **IconCount**: up to a few hundred small icons (man / sub / plane / ship) fill in while the number counts up;
+  then `highlight` turns the few that matter red and dims the rest ("150 … 11 came out alive").
+- **ObjectTurn**: one object under a spotlight, turning slowly in 3D: a stamped `tag` (lines of text) or a real
+  artifact photo cut-out (`shape: "image"`, `src` in stills). Caption bottom left.
+- In `tools/plan.py` these are ordinary `#` cards; any time field (`t`, `t0`, `t1`, `at`, `labelAt`, `labelTo`,
+  `beamAt`, `dig` items) may be a **spoken phrase** instead of seconds and is synced to when it is said. They run
+  to the end of the paragraph (up to 30 s). Use them for the 2–4 key moments of an episode that have no footage
+  (an escape route, a shelter, a sinking, a count of the dead); archive film and photos stay the backbone.
+  Every drawn detail still needs a source (depths, distances, times, who was where); label stand-in shapes
+  ("Type IX U-boat, drawn") when the exact type is not known.

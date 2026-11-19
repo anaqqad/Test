@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, Composition } from "remotion";
 import { BigNumber, ContextTag, Slug, SubscribeButton } from "./overlays";
 import { PhotoCard } from "./photo";
+import { Chart, IconCount, ObjectTurn, Section } from "./scenes";
 import { LedgerDocument } from "./document";
 import { LedgerBars, LedgerClipping, LedgerMap, LedgerQuote, LedgerTimeline } from "./ledger";
 
@@ -20,6 +21,10 @@ const Overlay: React.FC<{ card: Record<string, any>; frames: number }> = ({ card
     case "LedgerQuote": return <LedgerQuote file={c.file} head={c.head} before={c.before} key_={c.key} after={c.after} who={c.who} source={c.source} />;
     case "LedgerClipping": return <LedgerClipping file={c.file} head={c.head} kicker={c.kicker} headline={c.headline} dateline={c.dateline} body={c.body} source={c.source} />;
     case "LedgerMap": return <LedgerMap file={c.file} head={c.head} stops={c.stops} legs={c.legs} extra={c.extra} source={c.source} />;
+    case "Section": return <Section {...(c as any)} />;
+    case "Chart": return <Chart {...(c as any)} />;
+    case "IconCount": return <IconCount {...(c as any)} />;
+    case "ObjectTurn": return <ObjectTurn {...(c as any)} />;
     default: return <AbsoluteFill />;
   }
 };
