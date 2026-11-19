@@ -145,6 +145,87 @@ def shifted_base(src, out, dx=200):
     Image.fromarray(np.clip(canvas * ramp + 18 * (1 - ramp), 0, 255).astype(np.uint8)).save(out, quality=95)
 
 
+# ---- "True Story" layout (owner, 19 Nov 2026), after reference channel Sealed Orders, in our colours ----
+# One full-bleed archive photo (B&W, warm split tone), a huge keyword at the top in grease red with a black outline,
+# the year small in white under it, and one white caps number line at the bottom ("2,147 FREED AT DAWN").
+# Their images are AI-made; ours are real archive photos (copy the layout only).
+
+def _fit(d, s, font, max_w, size):
+    while size > 40:
+        f = ImageFont.truetype(str(T / f"BarlowCondensed-{font}.ttf"), size)
+        if d.textlength(s, font=f) <= max_w:
+            return size
+        size -= 4
+    return size
+
+def _cover(im, focus, zoom):
+    r = max(W / im.width, H / im.height) * zoom
+    im = im.convert("RGB").resize((round(im.width * r), round(im.height * r)), Image.LANCZOS)
+    x = min(max(0, round(focus[0] * im.width - W / 2)), im.width - W)
+    y = min(max(0, round(focus[1] * im.height - H / 2)), im.height - H)
+    return im.crop((x, y, x + W, y + H))
+
+def _side(im, px, focus, zoom):
+    """Tall photo: shown at full height centred on px, edges fading into a blurred, darkened copy of itself."""
+    bg = _cover(im, focus, 1.0).filter(ImageFilter.GaussianBlur(28))
+    bg = Image.fromarray((np.asarray(bg).astype(np.float32) * 0.45).astype(np.uint8))
+    r = H / im.height * zoom
+    ph = im.convert("RGB").resize((round(im.width * r), round(im.height * r)), Image.LANCZOS)
+    y = min(max(0, round(focus[1] * ph.height - H / 2)), ph.height - H)
+    ph = ph.crop((0, y, ph.width, y + H))
+    x0 = round(px - ph.width / 2)
+    m = np.ones((H, ph.width), np.float32)
+    ramp = np.clip(np.minimum(np.arange(ph.width), ph.width - 1 - np.arange(ph.width)) / 140, 0, 1)
+    m *= ramp[None, :]
+    mask = Image.fromarray((m * 255).astype(np.uint8))
+    bg.paste(ph, (x0, 0), mask)
+    return bg
+
+def _grade(im, focus=(0.5, 0.4), zoom=1.0, warm=0.55, contrast=1.15, px=None):
+    im = _side(im, px, focus, zoom) if px is not None else _cover(im, focus, zoom)
+    lum = np.asarray(im).astype(np.float32) @ np.array([0.299, 0.587, 0.114]) / 255
+    lo, hi = np.percentile(lum, 1), np.percentile(lum, 99.5)  # stretch faded prints
+    lum = np.clip((lum - lo) / max(hi - lo, 1e-3), 0, 1)
+    lum = np.clip(0.5 + (lum - 0.5) * contrast, 0, 1)
+    # split tone: cool-neutral shadows, warm paper highlights
+    sh = np.array([0.93, 0.96, 1.0]); hl = np.array([1.06, 0.98, 0.84])
+    tone = sh[None, None] * (1 - lum[..., None]) + hl[None, None] * lum[..., None]
+    out = lum[..., None] * (1 - warm + warm * tone)
+    yy, xx = np.mgrid[0:H, 0:W]
+    v = 1 - 0.5 * (((xx - W / 2) / W) ** 2 + ((yy - H / 2) / H) ** 2) * 1.6
+    top = np.clip(1 - (yy - 0) / 260, 0, 1) * 0.45  # darker bands behind the text
+    bot = np.clip((yy - (H - 230)) / 230, 0, 1) * 0.5
+    out = out * (np.clip(v, 0.4, 1) * (1 - top) * (1 - bot))[..., None]
+    return Image.fromarray((np.clip(out, 0, 1) * 255).astype(np.uint8))
+
+def _say(d, cx, y, s, size, fill, font="Black", stroke=None):
+    f = ImageFont.truetype(str(T / f"BarlowCondensed-{font}.ttf"), size)
+    st = stroke if stroke is not None else max(4, size // 18)
+    d.text((cx + size // 28, y + size // 22), s, font=f, fill=(0, 0, 0), stroke_width=st, stroke_fill=(0, 0, 0), anchor="mt")
+    d.text((cx, y), s, font=f, fill=fill, stroke_width=st, stroke_fill=(0, 0, 0), anchor="mt")
+
+def true_story(src, name, keyword, year, line, cx=0.62, focus=(0.5, 0.4), zoom=1.0, kw_w=760, out_dir=None, side=None):
+    """Sealed Orders-style thumbnail: keyword top (red), year under it (white), number line at the bottom (white).
+    cx = centre of the text block as a fraction of the width (put the face on the other side).
+    side = centre of a tall photo as a fraction of the width (portraits: full height, blurred fill); default for
+    photos taller than 4:3 is the side opposite the text."""
+    im = Image.open(src)
+    if side is None and im.width / im.height < 1.2:
+        side = 0.3 if cx > 0.5 else 0.7
+    img = _grade(im, focus, zoom, px=None if side is None else round(W * side))
+    d = ImageDraw.Draw(img)
+    x = round(W * cx)
+    ks = _fit(d, keyword.upper(), "Black", kw_w, 200)
+    _say(d, x, 18, keyword.upper(), ks, RED)
+    _say(d, x, 18 + round(ks * 0.9), str(year), 50, (236, 233, 225), "Bold", 5)
+    ls = _fit(d, line.upper(), "Black", W - 80 - 2 * abs(x - W / 2), 118)
+    _say(d, x, H - 30 - round(ls * 1.0), line.upper(), ls, (245, 243, 238))
+    out = Path(out_dir) if out_dir else T
+    img.save(out / f"{name}.jpg", quality=92)
+    print("wrote", out / f"{name}.jpg")
+    return img
+
+
 if __name__ == "__main__":
     from PIL import ImageFilter, ImageEnhance
     # A: Olivotto's gravestone at Fort Lawton (Joe Mabel, CC BY-SA 3.0): "SOLD. ITAL. OLIVOTTO GUGLIELMO"
