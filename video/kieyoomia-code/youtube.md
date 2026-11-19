@@ -73,4 +73,4 @@ Not posted unless asked.
 - Captions: `out/kieyoomia-code.srt`.
 - End screen: the Wainwright episode (uMCYnVyPoLE) plus a subscribe button, last 20 s.
 
-**Published** 19 Nov 2026, public: https://youtu.be/VJt7ApciV_Q (1080p, 28:42; thumbnail A in the Sealed Orders "true story" layout; Education, English; not made for kids; altered content No; 17 tags; English captions from `out/kieyoomia-code.srt`; YouTube's copyright checks were still running at publish time, "Publish anyway").
+**Published** 19 Nov 2026, public: https://youtu.be/VJt7ApciV_Q (1080p, 28:42; thumbnail A in the Sealed Orders "true story" layout; Education, English; not made for kids; altered content No; 17 tags; English captions from `out/kieyoomia-code.srt`; YouTube's copyright checks were still running at publish time, "Publish anyway"; Claims page later: no copyrighted content found; end screen: the Wainwright episode + subscribe).
