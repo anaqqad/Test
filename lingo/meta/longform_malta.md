@@ -39,4 +39,4 @@ Maltese language, Malta, why is Maltese Arabic, Maltese and Arabic, Siculo-Arabi
 - Made for kids: No
 - Altered or synthetic content: Yes (AI narration voice; all Maltese speech is real) — owner's call, see note
 - Thumbnail: lingo/videos/thumbL_malta.png
-- Video: lingo/videos/malta_longform_voice_fenrir.mp4 (chapters above match this version)
+- Video: lingo/out/longform_malta_am_fenrir.mp4 (gitignored; re-render with `node longform.mjs malta --voice am_fenrir`; chapters above match this version)
