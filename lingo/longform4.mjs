@@ -319,7 +319,7 @@ if (EP.board) {
   for (const l of BOARD.links) if (l.a < 0 || l.b < 0) throw new Error("bad board link");
 }
 // ───────── desk documents (v4) ─────────
-const DOCS = Object.fromEntries(Object.entries(EP.docs || {}).map(([k, src]) => { const ph = photo(src); return [k, { url: ph.url, iw: ph.w, ih: ph.h, credit: ph.credit, tex: furl(path.join(INC, EP.deskTex || EP.table?.tex)) }]; }));
+const DOCS = Object.fromEntries(Object.entries(EP.docs || {}).map(([k, src]) => { const ph0 = photo(src), ph = { ...thumb(src, 2400), credit: ph0.credit }; return [k, { url: ph.url, iw: ph.w, ih: ph.h, credit: ph.credit, tex: furl(path.join(INC, EP.deskTex || EP.table?.tex)) }]; }));
 // ───────── loudness envelopes of every heard recording (typography follows the real voice) ─────────
 const CLIPS = clipsAll.map((c) => {
   const raw = spawnSync("ffmpeg", ["-v", "error", "-i", c.file, "-ac", "1", "-ar", "16000", "-f", "f32le", "-"], { maxBuffer: 1 << 28 }).stdout;
@@ -634,24 +634,39 @@ fs.writeFileSync(path.join(CACHE, `mix_${TAG}.json`), JSON.stringify(spec));
 const mx = spawnSync("python3", [path.join(HERE, "longform_mix3.py"), path.join(CACHE, `mix_${TAG}.json`), mixFile], { stdio: "inherit" });
 if (mx.status) throw new Error("mix failed");
 const workers = +opt("workers", 3), nF = Math.ceil(END * FPS), per = Math.ceil(nF / workers), parts = [];
-// every worker has its own browser; a crashed page is relaunched and the frame redone (up to 8 times per worker)
+// Segmented, resumable render: 8-second segments, each its own MP4, kept across runs (the folder name carries a hash
+// of the page, so any edit invalidates them). Every worker has its own browser; a crashed page is relaunched and the
+// frame redone, and a failed relaunch is retried, so a crash costs seconds, not the render.
+const crypto = await import("node:crypto");
+const SEGF = 240, segDir = path.join(CACHE, `seg_${TAG}_${crypto.createHash("md5").update(html).digest("hex").slice(0, 10)}`); fs.mkdirSync(segDir, { recursive: true });
 const launchW = () => chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none", "--disable-lcd-text", "--allow-file-access-from-files", "--disable-gpu-watchdog", "--disable-dev-shm-usage", "--disable-gpu"] });
 const pageOn = async (br) => { const p = await br.newPage({ viewport: { width: W, height: H } }); await p.goto(furl(pageFile)); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(300); return p; };
 await b.close();
+const nSeg = Math.ceil(nF / SEGF), segFile = (k) => path.join(segDir, `s${String(k).padStart(4, "0")}.mp4`);
+let relaunchCount = 0;
 await Promise.all(Array.from({ length: workers }, async (_, w) => {
-  let br = await launchW(), p = await pageOn(br), relaunches = 0; const f0 = w * per, f1 = Math.min(nF, f0 + per), out = path.join(CACHE, `part${w}_${TAG}.mp4`); parts[w] = out;
-  const ff = spawn("ffmpeg", ["-v", "error", "-y", "-f", "image2pipe", "-c:v", "mjpeg", "-r", String(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", out], { stdio: ["pipe", "inherit", "inherit"] });
-  for (let f = f0; f < f1; f++) {
-    let buf;
-    for (;;) {
-      try { await p.evaluate((x) => window.setT(x), f / FPS); buf = await p.screenshot({ type: "jpeg", quality: 90, timeout: 180000 }); break; }
-      catch (e) { if (++relaunches > 120) throw e; console.log(`  relaunch worker ${w} at frame ${f}: ${e.message.split("\n")[0]}`); await br.close().catch(() => {}); await new Promise((r) => setTimeout(r, 1500 + 1500 * w)); br = await launchW(); p = await pageOn(br); }
+  let br = null, p = null;
+  const fresh = async () => { for (let k = 0; ; k++) { try { if (br) await br.close().catch(() => {}); br = await launchW(); p = await pageOn(br); return; } catch (e) { if (k > 20) throw e; await new Promise((r) => setTimeout(r, 3000)); } } };
+  await fresh();
+  for (let k = w; k < nSeg; k += workers) {
+    if (fs.existsSync(segFile(k) + ".done")) continue;
+    const f0 = k * SEGF, f1 = Math.min(nF, f0 + SEGF), tmp = segFile(k) + ".tmp.mp4";
+    const ff = spawn("ffmpeg", ["-v", "error", "-y", "-f", "image2pipe", "-c:v", "mjpeg", "-r", String(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", tmp], { stdio: ["pipe", "inherit", "inherit"] });
+    for (let f = f0; f < f1; f++) {
+      let buf;
+      for (let tries = 0; ; tries++) {
+        try { await p.evaluate((x) => window.setT(x), f / FPS); buf = await p.screenshot({ type: "jpeg", quality: 90, timeout: 180000 }); break; }
+        catch (e) { if (tries > 40) throw e; relaunchCount++; console.log(`  relaunch worker ${w} at frame ${f}: ${e.message.split("\n")[0]}`); await new Promise((r) => setTimeout(r, 1500 + 1500 * w)); await fresh(); }
+      }
+      if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once("drain", r));
     }
-    if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once("drain", r));
-    if (w === 0 && f % 300 === 0) console.log(`  frame ${f}/${f1} (worker 0)`);
+    ff.stdin.end(); await new Promise((r) => ff.on("close", r)); fs.renameSync(tmp, segFile(k)); fs.writeFileSync(segFile(k) + ".done", "");
+    console.log(`  segment ${k + 1}/${nSeg} (worker ${w})`);
   }
-  ff.stdin.end(); await new Promise((r) => ff.on("close", r)); await br.close();
+  if (br) await br.close();
 }));
+console.log(`  ${relaunchCount} relaunches`);
+parts.push(...[...Array(nSeg)].map((_, k) => segFile(k)));
 fs.writeFileSync(path.join(CACHE, `parts_${TAG}.txt`), parts.map((p) => `file '${p}'`).join("\n"));
 const final = path.join(OUT, `${TAG}.mp4`);
 run("ffmpeg", ["-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", path.join(CACHE, `parts_${TAG}.txt`), "-i", mixFile, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", String(END), "-movflags", "+faststart", final]);
