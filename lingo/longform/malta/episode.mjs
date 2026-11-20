@@ -123,6 +123,8 @@ export default {
     { id: "c12", say: "Those are the people who saved Maltese: ordinary families who never stopped talking the way their grandparents did.", gap: 0.7,
       show: [{ type: "card", text: "Malta changed its religion, not its language" }] },
     { id: "c13", say: "So why didn't the same thing happen in Sicily?", cam: CMED },
+    { id: "c13b", say: "The answer is surprisingly simple, and it's coming right up.", gap: 1.3, midroll: true,
+      show: [{ type: "caption", text: "Why did Arabic die in Sicily? Coming up" }] },
     { id: "c14", say: "In Sicily, the Muslims were expelled too, and settlers from the Italian mainland poured in, bringing Latin dialects with them.",
       fill: { sicily: C.latin }, route: { id: "rsic", from: "rome", to: "palermo", color: C.latin } },
     { id: "c14b", say: "For a while, even the Norman kings of Sicily used Arabic at their court. But the people who spoke it were pushed out, and the language went with them.", show: [{ type: "photo", src: "trilingual", kind: "INSCRIPTION", caption: "Palermo, 1142: a royal inscription in Latin, Greek and Arabic", from: 1.0, to: 1.7, focus: [0.5, 0.5] }] },
@@ -170,6 +172,7 @@ export default {
     { id: "e6", say: "And it stuck around for a very long time." },
     { id: "e7", say: "But when linguists looked at the evidence, almost nothing pointed to Punic, and almost everything pointed to the Arabic of Sicily and North Africa.",
       show: [{ type: "stamp", text: "MYTH" }], gap: 0.7 },
+    { id: "e7b", say: "But the real fight over Maltese was still to come, and it wasn't about Arabic at all.", gap: 1.3, midroll: true },
 
     // ───────── 6. THE LANGUAGE QUESTION ─────────
     { id: "f1", kicker: "THE LANGUAGE QUESTION", say: "In eighteen hundred, the British arrived, and Malta soon became a British colony.", year: "1800",

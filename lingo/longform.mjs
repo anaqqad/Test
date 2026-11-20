@@ -69,6 +69,7 @@ for (const L of EP.lines) {
   T.push(row);
 }
 const TOTAL = t + 0.4;
+fs.writeFileSync(path.join(CACHE, `midrolls_${VOICE}.json`), JSON.stringify(T.filter((r) => r.midroll).map((r) => ({ id: r.id, t: +(r.t1 - (r.gap ?? 0.38) + 0.5).toFixed(1) }))));
 fs.writeFileSync(path.join(CACHE, `chapters_${VOICE}.json`), JSON.stringify([{ t: 0, title: "Intro" }, ...T.filter((r) => r.kicker).map((r) => ({ t: r.t0, title: r.kicker }))].concat([{ t: T.find((r) => r.id === "z1")?.t0 ?? TOTAL, title: "RECAP" }]), null, 1));
 if (estimated) console.log(`  ${estimated}/${T.length} lines have no narration yet: timing estimated at 165 wpm`);
 console.log(`  total ${TOTAL.toFixed(1)} s (${(TOTAL / 60).toFixed(2)} min)`);
