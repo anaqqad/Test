@@ -9,20 +9,20 @@ Sicily, Spain, Crete and the Balearic Islands all lost Arabic after Arab rule en
 Every Maltese word you hear is a real recording by a Maltese speaker. No AI voices for the language.
 
 0:00 Intro
-1:05 An island between two worlds
-2:05 The Normans arrive
-2:53 The religion left, the language stayed
-4:23 Italian on top
-5:52 The Phoenician myth
-6:32 The Language Question
-7:21 Maltese today
-8:14 It's still there
-8:33 Recap
+0:58 An island between two worlds
+1:50 The Normans arrive
+2:33 The religion left, the language stayed
+3:59 Italian on top
+5:18 The Phoenician myth
+6:04 The Language Question
+6:48 Maltese today
+7:42 It's still there
+8:11 Recap
 
 Maltese speakers: what's an everyday word you use that comes from Arabic? Tell us in the comments 👇
 
 Audio credits (all via Wikimedia Commons):
-Maltese words (gżira, ħobża, ktieb, aħmar, llejla, familja, bonasira, professur, kittieb, tnejn u tletin, ħamsa u sittin, trejn, fajl, Alla, Alla jbierek): recorded by GħawdxiVeru for Lingua Libre, CC0
+Maltese words and a proverb (gżira, ħobża, ktieb, aħmar, llejla, familja, bonasira, professur, kittieb, tnejn u tletin, ħamsa u sittin, trejn, fajl, Alla, Alla jbierek, aħjar għasfur f'idejk minn mija fl-ajru): recorded by GħawdxiVeru for Lingua Libre, CC0
 Maltese speech: "WIKITONGUES- Keith speaking Maltese" by Wikitongues and Irena Dahl, CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/
 Narration: AI voice (Kokoro). Script, maps and research by LingoDude.
 Map data: Natural Earth (public domain) via world-atlas.
@@ -39,3 +39,4 @@ Maltese language, Malta, why is Maltese Arabic, Maltese and Arabic, Siculo-Arabi
 - Made for kids: No
 - Altered or synthetic content: Yes (AI narration voice; all Maltese speech is real) — owner's call, see note
 - Thumbnail: lingo/videos/thumbL_malta.png
+- Video: lingo/videos/malta_longform_voice_fenrir.mp4 (chapters above match this version)
