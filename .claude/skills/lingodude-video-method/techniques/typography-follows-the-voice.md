@@ -9,4 +9,4 @@
 
 **Pitfalls:** Keep it to 1–2 words per row; long phrases read better as an `aside`.
 
-**Used in Malta v4:** {{TS4:h1,h2,w3a,s5,s5b}}
+**Used in Malta v4:** 0:00 (h1), 0:02 (h2), 4:57 (w3a), 7:15 (s5), 7:23 (s5b) in `out/malta4_v4.mp4`

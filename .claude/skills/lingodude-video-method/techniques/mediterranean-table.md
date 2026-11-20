@@ -13,4 +13,4 @@
 
 **Pitfalls:** Labels are in the chart, so very low angles foreshorten them: keep tilt ≤ 65. The title can be printed onto the chart between the places it names.
 
-**Used in Malta v4:** {{TS4:h5,h7,h8,g2,t2,t7,t8,t9,t11,p4}}
+**Used in Malta v4:** 0:11 (h5), 0:23 (h7), 0:28 (h8), 0:45 (g2), 1:04 (t2), 2:02 (t7), 2:09 (t8), 2:18 (t9), 2:37 (t11), 3:12 (p4) in `out/malta4_v4.mp4`

@@ -1,0 +1,21 @@
+QA malta4_v4
+1. Headphones: -16.25 LUFS integrated, true peak -1.58 dBTP, LRA 2.70 LU (target -16 / -1.5)
+   stem vo    RMS over active parts  -18.8 dBFS
+   stem words RMS over active parts  -16.2 dBFS
+   stem amb   RMS over active parts  -45.8 dBFS
+   stem sfx   RMS over active parts  -34.3 dBFS
+   stem score RMS over active parts  -30.7 dBFS
+2. Phone speaker: Whisper recovers 1201/1297 narration words (93 %)
+   native words at least 6 dB over the bed: all
+3. Muted watch: contact sheet out/qa_malta4_v4_muted.jpg (one frame every 10 s)
+4. Audio only: lines with no narration (meaning carried by the recording or the picture): h1, h2, m10, w5, s3k, r5
+5. Five-second rule: 179 planned shots (longest 4.46 s); 204 cuts detected in the MP4; longest stretch between cuts 4.50 s at 6:14.3; over 5 s: none
+   planned cuts not seen by the detector (similar compositions, check by eye): 8
+     0:02.5 h2 video the page turns over
+     0:16.9 h6 table low angle across Malta to Sicily
+     0:20.1 h6 table overhead with the 90 km line
+     0:23.2 h7 table coin placed beside Malta
+     0:37.7 b0 board board: the first card
+     5:06.1 w5 lock kittieb / kātib lock
+     6:18.8 l2 map map: Malta, its own alphabet
+     7:29.9 s6 plate 40% gauge

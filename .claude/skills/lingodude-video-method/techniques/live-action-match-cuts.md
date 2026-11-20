@@ -9,4 +9,4 @@ Cut on action every 1.5–2.5 s: hands working the dough → a real Maltese phot
 
 **Pitfalls:** Never imply stand-in footage is Malta. Use real local photos for the claim itself.
 
-**Used in Malta v4:** {{TS4:w3a,w3b,w4}}
+**Used in Malta v4:** 4:57 (w3a), 5:00 (w3b), 5:02 (w4) in `out/malta4_v4.mp4`

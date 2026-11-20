@@ -12,4 +12,4 @@
 
 **Pitfalls:** Fewer than ~1000 px of scan width blurs at zoom > 3; use the macro on high-resolution scans only.
 
-**Used in Malta v4:** {{TS4:p7,m1,m2,m3,m4,m5,r3,r4}}
+**Used in Malta v4:** 3:40 (p7), 3:47 (m1), 3:52 (m2), 3:58 (m3), 4:01 (m4), 4:05 (m5), 8:00 (r3), 8:09 (r4) in `out/malta4_v4.mp4`

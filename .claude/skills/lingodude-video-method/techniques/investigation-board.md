@@ -13,4 +13,4 @@
 
 **Pitfalls:** Keep card text under ~10 words. A string must be defensible from the source; list them in the episode's sources file.
 
-**Used in Malta v4:** {{TS4:b0,t3b,t3c,t9,p1,p3,m6,w10,r2}}
+**Used in Malta v4:** 0:35 (b0), 1:14 (t3b), 1:25 (t3c), 2:18 (t9), 2:51 (p1), 3:05 (p3), 4:12 (m6), 5:57 (w10), 7:53 (r2) in `out/malta4_v4.mp4`
