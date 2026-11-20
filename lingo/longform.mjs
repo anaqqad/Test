@@ -48,7 +48,8 @@ function keithFile(a, b) {
 }
 
 // ───────── timeline ─────────
-const VO = path.join(CACHE, "vo");
+const VOICE = opt("voice", "am_michael"); // narration set: cache/longform/<key>/vo_<voice>/
+const VO = path.join(CACHE, "vo_" + VOICE);
 let t = 0.6; const T = [];
 let estimated = 0;
 for (const L of EP.lines) {
@@ -68,7 +69,7 @@ for (const L of EP.lines) {
   T.push(row);
 }
 const TOTAL = t + 0.4;
-fs.writeFileSync(path.join(CACHE, "chapters.json"), JSON.stringify([{ t: 0, title: "Intro" }, ...T.filter((r) => r.kicker).map((r) => ({ t: r.t0, title: r.kicker }))].concat([{ t: T.find((r) => r.id === "z1")?.t0 ?? TOTAL, title: "RECAP" }]), null, 1));
+fs.writeFileSync(path.join(CACHE, `chapters_${VOICE}.json`), JSON.stringify([{ t: 0, title: "Intro" }, ...T.filter((r) => r.kicker).map((r) => ({ t: r.t0, title: r.kicker }))].concat([{ t: T.find((r) => r.id === "z1")?.t0 ?? TOTAL, title: "RECAP" }]), null, 1));
 if (estimated) console.log(`  ${estimated}/${T.length} lines have no narration yet: timing estimated at 165 wpm`);
 console.log(`  total ${TOTAL.toFixed(1)} s (${(TOTAL / 60).toFixed(2)} min)`);
 
@@ -85,7 +86,11 @@ const P = (k) => { const ll = Array.isArray(k) ? k : EP.places[k]; if (!ll) thro
 const inBox = (f) => { const [[a, b], [c, d]] = d3.geoBounds(f); return c > -32 && a < 57 && d > 16 && b < 65; };
 const boxA = (bx1 - bx0) * (by1 - by0);
 const sane = (f) => gp.area(f) < boxA * 0.5; // a mis-wound tiny polygon (e.g. Maldives) would otherwise fill the whole box
-const landD = feats.filter(inBox).filter(sane).map((f) => gp(f) || "").join("");
+const world50 = JSON.parse(fs.readFileSync(nm("world-atlas/countries-50m.json")));
+const feats50 = topo.feature(world50, world50.objects.countries).features;
+const gp50 = d3.geoPath(proj).digits(0); // the base land layer is drawn every frame: 50m detail keeps frames fast; highlights stay 10m
+const detail = new Set(EP.landDetail || []); // small countries drawn from 10m in the base layer too (no 50m edge peeking out at close zoom)
+const landD = feats50.filter(inBox).filter(sane).filter((f) => !detail.has(f.id)).map((f) => gp50(f) || "").join("") + feats.filter((f) => detail.has(f.id)).map((f) => gp(f) || "").join("");
 function regionD(spec) {
   const f = feats.find((x) => x.id === spec.id);
   if (!f) throw new Error("no country " + spec.id);
@@ -104,7 +109,11 @@ const fillK = {}; for (const k of Object.keys(REG)) fillK[k] = [];
 const setFill = (tt, obj) => { for (const [k, v] of Object.entries(obj)) { if (!fillK[k]) throw new Error("no region " + k); fillK[k].push({ t: tt, c: v }); } };
 for (const r of T) { if (r.fill) setFill(r.t0, r.fill); if (r.then) setFill(r.t0 + r.sayDur * r.then.at, r.then.fill); }
 // labels, routes, year, kicker
-const labelK = T.filter((r) => r.labels).map((r) => ({ t: r.t0, items: r.labels.map(([txt, at]) => ({ txt, p: P(at) })) }));
+const labelK = []; // a label set lasts until the next camera move after the line that set it
+T.forEach((r, i) => {
+  if (r.labels) labelK.push({ t: r.t0, items: r.labels.map(([txt, at]) => ({ txt, p: P(at) })) });
+  else if (r.cam && labelK.length && labelK[labelK.length - 1].items.length) labelK.push({ t: r.t0, items: [] });
+});
 const routes = T.filter((r) => r.route).map((r, i) => {
   const idx = T.indexOf(r), a = P(r.route.from), b = P(r.route.to), mx = (a[0] + b[0]) / 2, my = (a[1] + b[1]) / 2;
   const dx = b[0] - a[0], dy = b[1] - a[1], k = 0.18;
@@ -298,7 +307,7 @@ if (opt("thumb")) {
 }
 
 // ───────── render ─────────
-const pageFile = path.join(CACHE, "page.html");
+const pageFile = path.join(CACHE, `page_${VOICE}.html`);
 fs.writeFileSync(pageFile, html);
 console.log(`  page ${(html.length / 1e6).toFixed(1)} MB`);
 const browserArgs = ["--font-render-hinting=none", "--disable-lcd-text"];
@@ -318,14 +327,14 @@ if (stills) {
   process.exit(0);
 }
 // narration + Hear-It mix (numpy), then frames in parallel chunks
-const mixFile = path.join(CACHE, "mix.wav");
-fs.writeFileSync(path.join(CACHE, "mix.json"), JSON.stringify({ total: TOTAL, items: T.flatMap((r) => [...(r.vo ? [{ f: r.vo, t: r.say0, kind: "vo" }] : []), ...r.clips.map((c) => ({ f: c.file, t: c.t, kind: "hear" }))]) }));
-const mix = spawnSync("python3", [path.join(HERE, "longform_mix.py"), path.join(CACHE, "mix.json"), mixFile], { stdio: "inherit" });
+const mixFile = path.join(CACHE, `mix_${VOICE}.wav`);
+fs.writeFileSync(path.join(CACHE, `mix_${VOICE}.json`), JSON.stringify({ total: TOTAL, items: T.flatMap((r) => [...(r.vo ? [{ f: r.vo, t: r.say0, kind: "vo" }] : []), ...r.clips.map((c) => ({ f: c.file, t: c.t, kind: "hear" }))]) }));
+const mix = spawnSync("python3", [path.join(HERE, "longform_mix.py"), path.join(CACHE, `mix_${VOICE}.json`), mixFile], { stdio: "inherit" });
 if (mix.status) throw new Error("mix failed");
 const workers = +opt("workers", 3), nF = Math.ceil(TOTAL * FPS), per = Math.ceil(nF / workers);
 const parts = [];
 await Promise.all(Array.from({ length: workers }, async (_, w) => {
-  const p = await openPage(b), f0 = w * per, f1 = Math.min(nF, f0 + per), out = path.join(CACHE, `part${w}.mp4`); parts[w] = out;
+  const p = await openPage(b), f0 = w * per, f1 = Math.min(nF, f0 + per), out = path.join(CACHE, `part${w}_${VOICE}.mp4`); parts[w] = out;
   const ff = spawn("ffmpeg", ["-v", "error", "-y", "-f", "image2pipe", "-c:v", "mjpeg", "-r", String(FPS), "-i", "-", "-c:v", "libx264", "-preset", opt("preview") ? "veryfast" : "medium", "-crf", "18", "-pix_fmt", "yuv420p", out], { stdio: ["pipe", "inherit", "inherit"] });
   for (let f = f0; f < f1; f++) {
     await p.evaluate((x) => window.setT(x), f / FPS);
@@ -336,7 +345,7 @@ await Promise.all(Array.from({ length: workers }, async (_, w) => {
   ff.stdin.end(); await new Promise((r) => ff.on("close", r)); await p.close();
 }));
 await b.close();
-fs.writeFileSync(path.join(CACHE, "parts.txt"), parts.map((p) => `file '${p}'`).join("\n"));
-const final = path.join(OUT, `longform_${key}.mp4`);
-spawnSync("ffmpeg", ["-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", path.join(CACHE, "parts.txt"), "-i", mixFile, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", final], { stdio: "inherit" });
+fs.writeFileSync(path.join(CACHE, `parts_${VOICE}.txt`), parts.map((p) => `file '${p}'`).join("\n"));
+const final = path.join(OUT, `longform_${key}_${VOICE}.mp4`);
+spawnSync("ffmpeg", ["-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", path.join(CACHE, `parts_${VOICE}.txt`), "-i", mixFile, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", final], { stdio: "inherit" });
 console.log(final);

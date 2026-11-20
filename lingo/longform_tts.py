@@ -19,7 +19,8 @@ ap.add_argument("--only", default=""); ap.add_argument("--force", action="store_
 a = ap.parse_args()
 ep = json.loads(subprocess.run(["node", "-e", f"import('./longform/{a.key}/episode.mjs').then(m=>console.log(JSON.stringify(m.default.lines.map(l=>({{id:l.id,say:l.say}})))))"],
                                cwd=HERE, capture_output=True, text=True, check=True).stdout)
-out = os.path.join(HERE, "cache", "longform", a.key, "vo"); os.makedirs(out, exist_ok=True)
+vname = os.path.splitext(os.path.basename(a.voice))[0]
+out = os.path.join(HERE, "cache", "longform", a.key, "vo_" + vname); os.makedirs(out, exist_ok=True)  # one folder per voice
 only = set(filter(None, a.only.split(",")))
 
 from kokoro import KPipeline
