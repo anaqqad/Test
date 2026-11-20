@@ -58,5 +58,23 @@ rep.append(f"3. Muted watch: contact sheet {os.path.relpath(sheet, HERE)} (one f
 # 4. audio only
 silent = [r["id"] for r in proj["timeline"] if not r.get("say") and r["t0"] < proj["mix"]["end"]]
 rep.append("4. Audio only: lines with no narration (meaning carried by the recording or the picture): " + ", ".join(silent))
+# 5. shot lengths, measured on the actual render: scene-cut detection (cuts) + the renderer's shot list (planned cuts)
+sh = os.path.join(C, f"shots_{tag}.json")
+if os.path.exists(sh):
+    import re as _re
+    plan = json.load(open(sh))
+    det = subprocess.run(["ffmpeg", "-v", "info", "-i", mp4, "-an", "-vf", "scale=320:-2,select='gt(scene,0.12)',showinfo", "-f", "null", "-"], capture_output=True, text=True).stderr
+    cuts = sorted(float(x) for x in _re.findall(r"pts_time:([0-9.]+)", det))
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp4], capture_output=True, text=True).stdout)
+    edges = [0.0] + cuts + [dur]; gaps = [(edges[i], edges[i + 1] - edges[i]) for i in range(len(edges) - 1)]
+    # a planned cut the detector missed (two similar compositions) still counts as a cut: merge both lists
+    allc = sorted(set([round(c, 1) for c in cuts] + [round(x["t0"], 1) for x in plan if x["t0"] > 0.2]))
+    e2 = [0.0] + allc + [dur]; g2 = [(e2[i], e2[i + 1] - e2[i]) for i in range(len(e2) - 1)]
+    longd = max(g2, key=lambda x: x[1])
+    over = [f"{int(a // 60)}:{a % 60:04.1f} ({d:.1f} s)" for a, d in g2 if d > 5.05]
+    rep.append(f"5. Five-second rule: {len(plan)} planned shots (longest {max(x['d'] for x in plan):.2f} s); {len(cuts)} cuts detected in the MP4; "
+               f"longest stretch between cuts {longd[1]:.2f} s at {int(longd[0] // 60)}:{longd[0] % 60:04.1f}; over 5 s: {', '.join(over) if over else 'none'}")
+    missed = [x for x in plan if x["t0"] > 0.2 and not any(abs(c - x["t0"]) < 0.25 for c in cuts)]
+    rep.append(f"   planned cuts not seen by the detector (similar compositions, check by eye): {len(missed)}" + ("".join(f"\n     {int(x['t0'] // 60)}:{x['t0'] % 60:04.1f} {x['line']} {x['kind']} {x['what']}" for x in missed[:40])))
 open(os.path.join(HERE, "out", f"qa_{tag}.txt"), "w").write("\n".join(rep) + "\n")
 print("\n".join(rep))

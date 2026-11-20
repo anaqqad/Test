@@ -43,6 +43,13 @@ for it in spec["items"]:
     if k == "amb":
         a = load(it["f"], it.get("from", 0), it["d"])
         if len(a) == 0: continue
+        need = int(it["d"] * SR)
+        if it.get("loop") and len(a) < need:                      # beds longer than their recording: loop with a short crossfade
+            src = load(it["f"], 0, None); xf = int(0.5 * SR); out = a.copy()
+            while len(out) < need:
+                seg = src.copy(); n = min(xf, len(out), len(seg))
+                out[-n:] = out[-n:] * np.linspace(1, 0, n) + seg[:n] * np.linspace(0, 1, n); out = np.concatenate([out, seg[n:]])
+            a = out[:need]
         a *= 10 ** ((-38 - rms_db(a) + it.get("gain", 0)) / 20)   # quiet bed: ~22 dB under the voice
         place(tr[k], fades(a, it.get("fade", 0.5), it.get("fade", 0.5)), it["t"])
     elif k == "sfx":

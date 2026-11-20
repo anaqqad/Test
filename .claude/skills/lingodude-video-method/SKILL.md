@@ -104,3 +104,11 @@ Reusable scene techniques for long-form map explainers (`lingo/longform3.mjs`), 
 and where it appears in Malta v3: `.claude/skills/lingodude-video-method/techniques/`
 (The Word Arrives Before the Place, The Consonants Lock In, Two Islands One Clock, The Cut Starts in the Soundtrack,
 Read the Ink, The Claim Revises Itself, Footage With Its Own Air). QA: `python3 lingo/longform_qa.py <key> <tag>`.
+
+## Long-form v4: shot-based edit (Malta v4)
+`lingo/longform4.mjs` cuts every line into `shots` and refuses shots over 5 s (The Five-Second Rule). New shot types:
+`table` (3D Mediterranean Table), `board` (Investigation Board, with The Claim Rewrites Itself on cards), `desk`
+(Document Pullback), `plate` (cards on a clean background, never over the map), `words` (Typography Follows the Voice),
+and pillarboxed vertical footage. Location beds per sequence (`EP.beds`) and Foley on every event. Techniques:
+`.claude/skills/lingodude-video-method/techniques/` (investigation-board, mediterranean-table, document-pullback,
+live-action-match-cuts, typography-follows-the-voice, five-second-rule). QA adds a scene-cut check on the MP4.
