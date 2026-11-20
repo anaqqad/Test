@@ -12,12 +12,12 @@ Every Maltese word you hear is a real recording by a Maltese speaker. No AI voic
 0:58 An island between two worlds
 1:50 The Normans arrive
 2:33 The religion left, the language stayed
-3:59 Italian on top
-5:18 The Phoenician myth
-6:04 The Language Question
-6:48 Maltese today
-7:42 It's still there
-8:11 Recap
+4:03 Italian on top
+5:22 The Phoenician myth
+6:14 The Language Question
+6:57 Maltese today
+7:51 It's still there
+8:21 Recap
 
 Maltese speakers: what's an everyday word you use that comes from Arabic? Tell us in the comments 👇
 
@@ -64,4 +64,5 @@ Maltese language, Malta, why is Maltese Arabic, Maltese and Arabic, Siculo-Arabi
 - Made for kids: No
 - Altered or synthetic content: Yes (AI narration voice; all Maltese speech is real) — owner's call, see note
 - Thumbnail: lingo/videos/thumbL_malta.png
+- Mid-roll ad break: 3:31 (after the Sicily cliffhanger). Optional second: 6:13 (before The Language Question)
 - Video: lingo/out/longform_malta_am_fenrir.mp4 (gitignored; re-render with `node longform.mjs malta --voice am_fenrir`; chapters above match this version)
