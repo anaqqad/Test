@@ -505,6 +505,87 @@ export const VIDEOS = {
       },
     ],
   },
+  french_understand: {
+    title: "Languages French Speakers Can Almost Understand", // same format as spanish/arabic_understand; audio: build_french.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#0055a4",
+    items: [
+      {
+        name: "J\u00e8rriais", wojak: "fr_jer", flag: "je", speakers: "~2,000", scene: "beach", loc: null,
+        cards: [
+          "J\u00e8rriais is the Norman language of Jersey, a British Crown island only about 22 km from the French coast.",
+          "Like French, it is a 'langue d’o\u00efl': a sister of French that grew from the same Latin, not a broken French.",
+          "He said: 'But what is Jersey? Jersey is an island. And where is Jersey? In the Channel, between France and England. Jersey is not part of the United Kingdom: it is an island that governs itself.' 'J\u00e8rri est une \u00eele'.",
+        ],
+        audio: { file: "cache/audio/french_understand/jèrriais.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Norman", wojak: "fr_nrm", flag: "fr", speakers: "~20,000", scene: "village", loc: null,
+        cards: [
+          "Norman is spoken in Normandy, in northern France. It is the same language family as J\u00e8rriais across the water.",
+          "After 1066 it gave English many words: 'garden' and 'catch' come from Norman forms, where French says 'jardin' and 'chasser'.",
+          "He is reading a funny village story: the priest went off for a stroll, and the churchgoing ladies knew why, because it wasn’t the first time Hector, the 'garde champ\u00eatre', had brought him home 'in the town car'.",
+        ],
+        audio: { file: "cache/audio/french_understand/norman.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Picard", wojak: "fr_pcd", flag: "fr", speakers: "~700,000", scene: "grassland", loc: null,
+        cards: [
+          "Picard is spoken in northern France and in part of Belgium. Around Lille it is called Ch’ti, as in the comedy 'Bienvenue chez les Ch’tis'.",
+          "Picard says 'cat' where French says 'chat', and 'ichi' where French says 'ici'.",
+          "He said: 'Hello everyone! In this video I’d like to talk about the Picard language, spoken in the north of France and in part of Belgium. It has lots of names: Ch’ti, Rouchi, or simply patois.'",
+        ],
+        audio: { file: "cache/audio/french_understand/picard.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Louisiana Creole", wojak: "fr_lou", flag: "us", speakers: "<10,000", scene: "forest", loc: null,
+        cards: [
+          "Louisiana Creole, or Kouri-Vini, is spoken in southern Louisiana, USA. Most of its words come from French.",
+          "It grew in French colonial Louisiana, and today fewer than 10,000 people speak it.",
+          "He said: 'That’s because French and Creole sit on a continuum in Louisiana. I can be right in the middle, so I can start a sentence in French and finish it in Creole.'",
+        ],
+        audio: { file: "cache/audio/french_understand/louisiana_creole.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Haitian Creole", wojak: "fr_hat_f", flag: "ht", speakers: "~13 million", scene: "tropical", loc: null,
+        cards: [
+          "Haitian Creole is the most spoken French-based creole, with about 13 million speakers in Haiti and abroad.",
+          "Its words are mostly French, but the grammar is its own: 'mwen te kontan' is 'j'\u00e9tais content'.",
+          "She said: 'I thought it was just a two-week trip. I said: OK Dad, I agree. I packed my suitcase, I was so happy... Dad, let’s go, let’s go!' 'Mwen dak\u00f2' is 'je suis d’accord'.",
+        ],
+        audio: { file: "cache/audio/french_understand/haitian_creole.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "R\u00e9union Creole", wojak: "fr_reu_f", flag: "re", speakers: "~600,000", scene: "tropical", loc: null,
+        cards: [
+          "R\u00e9union Creole is spoken on R\u00e9union, an island in the Indian Ocean that is part of France.",
+          "'Mi koz kr\u00e9ol' means 'je parle cr\u00e9ole': 'koz' comes from the French verb 'causer', to chat.",
+          "She said: 'Yes, Judith Profil, that’s my name. I’m from R\u00e9union, of course I speak Creole, and French too. I’ve spoken Creole since I was little: with my mum, my dad, my grandmother, my whole family... and my sweetheart too.'",
+        ],
+        audio: { file: "cache/audio/french_understand/r\u00e9union_creole.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Occitan", wojak: "fr_gsc_f", flag: "fr", speakers: "~600,000", scene: "hills", loc: null,
+        cards: [
+          "Occitan is the old language of southern France. She speaks Gascon, the Occitan of the Pyrenees.",
+          "Its name comes from 'oc', its word for yes, while northern French said 'o\u00efl', today 'oui'.",
+          "She said: 'Hello everyone, today I’m going to talk to you about the language of the Rib\u00e8ra Baisha: the language of the heart, the language of my family, spoken in the plains next to the Pyrenees.' 'Lenga' is 'langue', 'familha' is 'famille'.",
+        ],
+        audio: { file: "cache/audio/french_understand/occitan.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Catalan", wojak: "fr_cat", flag: "es-ct", speakers: "~10 million", scene: "adriatic", loc: null,
+        cards: [
+          "Catalan is spoken in Catalonia, Valencia, the Balearic Islands and Andorra, and in France too, around Perpignan.",
+          "Many words are close to French: 'nit' is 'nuit', 'llet' is 'lait', 'finestra' is 'fen\u00eatre'.",
+          "He said: 'Hello, good morning. My name is Guillem and I come from Catalonia, from Girona actually, in the north. But now I’m studying a master’s here in Holland, at the University of Groningen.' 'Bon dia' is 'bonjour'.",
+        ],
+        audio: { file: "cache/audio/french_understand/catalan.wav", start: 0, voice: "m" },
+      },
+    ],
+  },
   spanish_understand: {
     title: "Languages Spanish Speakers Can Almost Understand", // same format as german/arabic_understand; audio: build_spanish.py
     layout: "story",
