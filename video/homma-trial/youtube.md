@@ -57,7 +57,7 @@ This is the documented story of the trial of General Homma for the Bataan Death 
 - U.S. Army, White Sands Missile Range: Bataan Memorial Death March (2026) and the 200th Coast Artillery
 
 🎞️ Archive
-Film: U.S. Army Signal Corps films of the Homma trial (NARA 111-ADC-3516, 111-ADC-5637, 111-ADC-5678, 111-ADC-5680); Fox newsreel outtakes of the trial (NARA UN-UN-5196, UN-UN-5240); United Newsreel, January 1946; Signal Corps interviews with freed POWs at Sendai Camp No. 3 (ADC-5281, original sound); freed prisoners at Yokohama (111-ADC-5327) and in Japan (CS-4554); Army nurses of Bataan and Corregidor (111-ADC-3381); MacArthur in the Philippines (111-ADC-9825, 111-ADC-5186); Wainwright's homecoming newsreel (1945); a captured Japanese newsreel of the fall of Corregidor (NARA NPC-323). Photographs: Signal Corps album 111-SCA-2919, NARA, U.S. Army, captured Japanese photographs and the Library of Congress via Wikimedia Commons (public domain); execution site at Los Baños by Bootkinero (CC BY-SA 4.0). Trial pages from the UNWCC microfilm. Stand-ins are marked on screen. Reconstructions are labelled as reconstructions.
+Film: U.S. Army Signal Corps films of the Homma trial (NARA 111-ADC-3516, 111-ADC-5637, 111-ADC-5678, 111-ADC-5680); Fox newsreel outtakes of the trial (NARA UN-UN-5196, UN-UN-5240); United Newsreel, January 1946; Signal Corps interviews with freed POWs at Sendai Camp No. 3 (ADC-5281, original sound); freed prisoners at Yokohama (111-ADC-5327) and in Japan (CS-4554); Army nurses of Bataan and Corregidor (111-ADC-3381); MacArthur in the Philippines (111-ADC-9825, 111-ADC-5186); Wainwright's homecoming newsreel (1945). Photographs: Signal Corps album 111-SCA-2919, NARA, U.S. Army, captured Japanese photographs and the Library of Congress via Wikimedia Commons (public domain); execution site at Los Baños by Bootkinero (CC BY-SA 4.0). Trial pages from the UNWCC microfilm. Stand-ins are marked on screen. Reconstructions are labelled as reconstructions.
 
 If your father, grandfather or uncle was on Bataan or Corregidor, walked that road, or came home from O'Donnell or Cabanatuan, tell us his name and his story in the comments.
 
@@ -76,3 +76,15 @@ Not posted unless asked.
 - Altered or synthetic content: **No**, always (owner's rule).
 - Captions: `out/homma-trial.srt`.
 - End screen: the Los Baños raid episode (WuF8XAqnDFg) plus a subscribe button, last 20 s.
+
+**Published** 20 Nov 2026, public: https://youtu.be/82KSGGr1kzs (28:00, 1080p; title above, description, thumbnail A,
+17 tags, Education, not made for kids, altered content No). Uploaded through Claude in Chrome (106 parts, size and ftyp verified).
+Studio opened on The Black History Room; switched to WWII Frontlines first. "We're still checking your content" dialog at
+Publish: chose "Publish anyway" (owner's always-publish rule); the video goes public when SD processing ends.
+QC before publishing: Fox newsreel timecode cropped (keep 0.80/0.86) and the reels brightened; the washed-out 1943 Japanese
+newsreel (with a French title card) replaced by trial, nurse and Wainwright footage; slates, a splice flash and ship-gun shots
+moved off; final file -16.0 LUFS, no black frames, 0 risky shots.
+After processing: English captions uploaded (toast "English subtitles uploaded"); end screen "1 video, 1 subscribe" ->
+Los Baños raid episode (WuF8XAqnDFg), last 20 s, saved. The custom thumbnail did not stick from the upload dialog or the
+hidden file input on the details page; it took when dropped onto ytcp-thumbnail-uploader with a synthetic DragEvent, then Save.
+The NPC-323 credit was removed from the live description (that newsreel was cut in QC).
