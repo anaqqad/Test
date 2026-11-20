@@ -407,6 +407,17 @@ renderer contract in §7).
   - `t` comes from the Whisper timing.
 - Check stills with `--still` at each section start before the full render.
 
+### Built tools (2026-11-20, first used for `malta`)
+
+The tools are:
+- **`longform/<key>/episode.mjs`:** the script plus the visuals for each line. Overlays: number, chip, pair, chips, caption, card, stamp, title, portrait, doc, quote, def, dots, bar, gauge, split, versus, root, speaker, dist, bubble, plus `hear` and `keith` clips.
+- **`python3 longform_tts.py <key> --voice <kokoro voice or .pt>`:** narration, one WAV per line (Kokoro, Python 3.11). The `SAY` respellings fix name pronunciation.
+- **`node longform.mjs <key>`:**
+  - `--still o1,a5,120`: check frames first;
+  - `--workers 3`: render the video to `out/longform_<key>.mp4`;
+  - `--thumb`: render the thumbnail to `out/brand/thumbL_<key>.png`.
+  - It mixes the audio with `longform_mix.py` (−16 LUFS) and writes chapter times to `cache/longform/<key>/chapters.json`.
+
 ### 6. Review (quality checklist)
 - [ ] Every number on screen has a source in `research.md`; ranges are shown as ranges.
 - [ ] The title lands before 9 % of the runtime; the hook states the paradox number in the first 20 s.
