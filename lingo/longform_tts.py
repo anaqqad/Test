@@ -1,6 +1,6 @@
 # Narration for long-form episodes with Kokoro (local, free; voice chosen by the owner).
-#   python3.13 longform_tts.py <key> --voice <name or path/to/voice.pt> [--speed 1.0] [--only id1,id2] [--force]
-# Reads longform/<key>/episode.mjs (via node), writes cache/longform/<key>/vo/<id>.wav (48 kHz mono, trimmed).
+#   python3 longform_tts.py <key> --voice <name or path/to/voice.pt> [--speed 1.0] [--only id1,id2] [--force]
+# Reads longform/<key>/episode.mjs (via node), writes cache/longform/<key>/vo_<voice>/<id>.wav (openings included) (48 kHz mono, trimmed).
 # Pronunciation fixes for names/foreign words live in SAY below (respellings, applied only to what Kokoro reads).
 import argparse, json, os, re, subprocess, sys
 import numpy as np
@@ -11,13 +11,18 @@ SAY = {  # what Kokoro reads instead (the on-screen text is unchanged)
     "Agius de Soldanis": "Ah-joos deh Sol-dah-nis", "Mifsud": "Mif-sood", "Micallef": "Mika-lef", "Zammit": "Zam-mit",
     "Lucera": "Loo-chair-a", "Siculo-Arabic": "Sickulo-Arabic", "Ktieb": "K-teeb", "Kittieb": "Kit-teeb",
     "kitaab": "kitahb", "kaatib": "kah-tib", "jazeera": "ja-zeera", "Alla jbierek": "Alla yibb-ee-rek", "Alla": "Alla",
+    # v3 (malta3)
+    "ktieb": "k-teeb", "tariiq": "ta-reek", "bi'r": "beer", "Triq": "Treek", "Bir": "Beer", "ljun": "l-yoon", "khubz": "khoobz",
+    "ħobża": "hob-za", "ġirieni": "jee-ree-ay-nee", "jiiraan": "jee-raan", "Ktieb il-Kliem Malti": "K-teeb il-Kleem Maltee",
+    "Mikiel Anton Vassalli": "Mee-keel Anton Vas-salli", "Pietru": "Pee-etru", "Mazara": "Ma-tsara", "Marsaxlokk": "Marsa-shlock",
+    "Mdina": "Im-deena",
 }
 
 ap = argparse.ArgumentParser()
 ap.add_argument("key"); ap.add_argument("--voice", required=True); ap.add_argument("--speed", type=float, default=1.0)
 ap.add_argument("--only", default=""); ap.add_argument("--force", action="store_true")
 a = ap.parse_args()
-ep = json.loads(subprocess.run(["node", "-e", f"import('./longform/{a.key}/episode.mjs').then(m=>console.log(JSON.stringify(m.default.lines.map(l=>({{id:l.id,say:l.say}})))))"],
+ep = json.loads(subprocess.run(["node", "-e", f"import('./longform/{a.key}/episode.mjs').then(m=>console.log(JSON.stringify([...Object.values(m.default.openings||{{}}).flat(),...m.default.lines].filter(l=>l.say).map(l=>({{id:l.id,say:l.say}})))))"],
                                cwd=HERE, capture_output=True, text=True, check=True).stdout)
 vname = os.path.splitext(os.path.basename(a.voice))[0]
 out = os.path.join(HERE, "cache", "longform", a.key, "vo_" + vname); os.makedirs(out, exist_ok=True)  # one folder per voice
