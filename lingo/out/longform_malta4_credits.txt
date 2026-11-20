@@ -33,7 +33,7 @@ The Lindisfarne Gospels- Medieval Multiculturalism - Collection in Focus - Briti
 Bringing books back to life - In the conservation studio - British Library (stand-in footage): British Library, CC BY 3.0
 Baking the Best Persian Bread in a Traditional Oven - Iranian Bakeries (stand-in footage): Street Food Tourists, CC BY 3.0
 WIKITONGUES-_Keith_speaking_Maltese: Wikitongues and Irena Dahl, CC BY-SA 4.0
-Table texture: "Wood table large diff 8k (JPG)" (Poly Haven), CC0
+Table and desk texture: "Wood table large diff 8k (JPG)" by Rico Cilliers, Charlotte Baglioni et al. (Poly Haven), CC0
 
 Photos, paintings and documents (all via Wikimedia Commons):
 Lexicon - Vassalli - 1796: Hamelin de Guettelet, CC BY-SA 3.0
