@@ -1,0 +1,1558 @@
+{
+ "id": "doc-bessie-smith",
+ "title": "33 Years in an Unmarked Grave: The Bessie Smith Story",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "St. Louis": "Saint Lewis",
+  "Janis": "Jan-iss",
+  "W. C. Handy": "W. C. Handee",
+  "G. T. Thomas": "G. T. Tomas",
+  "Viola": "Vy-ola",
+  "Mamie": "May-me",
+  "Juanita": "Wah-neeta",
+  "Concord": "Conkerd"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "vv1936": {
+   "commons": "File:Bessie Smith (1936) by Carl Van Vechten.jpg"
+  },
+  "vv72": {
+   "commons": "File:Portrait of Bessie Smith LCCN2004663572.jpg"
+  },
+  "vv74": {
+   "commons": "File:Portrait of Bessie Smith LCCN2004663574.jpg"
+  },
+  "vv75": {
+   "commons": "File:Bessie Smith, three-quarter length portrait, standing, facing front, with left hand raised LCCN2004663575.jpg"
+  },
+  "feathers": {
+   "commons": "File:Portrait of Bessie Smith holding feathers LCCN2004663573.jpg"
+  },
+  "young": {
+   "commons": "File:Bessiesmith3.jpg"
+  },
+  "bs": {
+   "commons": "File:Bessiesmith.jpg"
+  },
+  "rainey": {
+   "commons": "File:Ma Rainey, 1923.jpg"
+  },
+  "ad1923": {
+   "commons": "File:Columbia Records ad, Chicago Tribune, May 19, 1923.jpg"
+  },
+  "ad2": {
+   "commons": "File:Popular Songs, June 20, 1923 Columbia Records ad.png"
+  },
+  "label": {
+   "commons": "File:ColumbiaLabelBSmith.jpg"
+  },
+  "fho": {
+   "commons": "File:FletcherHendersonOrchestra1925.jpg"
+  },
+  "handy": {
+   "commons": "File:WCHandy.jpg"
+  },
+  "poster": {
+   "commons": "File:St. Louis Blues (poster for 1929 film).jpg"
+  },
+  "death": {
+   "commons": "File:Death certificate (1).jpg"
+  },
+  "grave": {
+   "commons": "File:Bessie Smith grave.jpg"
+  },
+  "joplin": {
+   "commons": "File:Janis Joplin seated 1970.JPG"
+  }
+ },
+ "clips": {
+  "titlecard": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 21,
+   "dur": 6
+  },
+  "hall": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 52,
+   "dur": 7
+  },
+  "hall2": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 65,
+   "dur": 8
+  },
+  "dance": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 122,
+   "dur": 7
+  },
+  "enter": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 273,
+   "dur": 7
+  },
+  "withman": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 292,
+   "dur": 7
+  },
+  "argue": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 336,
+   "dur": 8
+  },
+  "floor": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 410,
+   "dur": 8
+  },
+  "close1": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 423,
+   "dur": 6
+  },
+  "close2": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 429,
+   "dur": 5
+  },
+  "close3": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 435.5,
+   "dur": 4
+  },
+  "band": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 488,
+   "dur": 7
+  },
+  "band2": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 495,
+   "dur": 6
+  },
+  "bar3": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 512.5,
+   "dur": 7.5
+  },
+  "crowd": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 541,
+   "dur": 8
+  },
+  "bar8": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 608,
+   "dur": 8
+  },
+  "bar8b": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 622,
+   "dur": 8
+  },
+  "bar12": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 885,
+   "dur": 10
+  },
+  "bar13": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 900,
+   "dur": 9
+  },
+  "bar14": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 929.5,
+   "dur": 6.5
+  },
+  "swing": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 728,
+   "dur": 8
+  },
+  "embrace": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 781,
+   "dur": 7
+  }
+ },
+ "beats": [
+  {
+   "id": "o1",
+   "text": "In the 1920s, she was the biggest blues star in America. Then she lay in an unmarked grave for thirty-three years.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv1936",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.05
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   },
+   "overlays": {
+    "hook": "The biggest blues star in America. *Then 33 years in an unmarked grave.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "o2",
+   "text": "She sold records by the hundreds of thousands, at a time when record companies had barely noticed Black buyers.",
+   "visual": {
+    "kind": "video",
+    "clip": "close1",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "o3",
+   "text": "She faced down the Ku Klux Klan alone. And she made one film. This is it.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar8",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "o4",
+   "text": "Her name was Bessie Smith. They called her the Empress of the Blues. This is her story.",
+   "visual": {
+    "kind": "title",
+    "title": "Bessie Smith",
+    "sub": "the Empress of the Blues"
+   }
+  },
+  {
+   "id": "e1",
+   "text": "Bessie Smith was born in Chattanooga, Tennessee, in the early 1890s. Even the year is uncertain.",
+   "visual": {
+    "kind": "card",
+    "image": "young",
+    "caption": "Bessie Smith"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Chattanooga, Tennessee"
+    }
+   },
+   "section": "early"
+  },
+  {
+   "id": "e2",
+   "text": "Her father, William, was a laborer and a part-time Baptist preacher. He died when she was too young to remember him.",
+   "visual": {
+    "kind": "title",
+    "title": "Chattanooga",
+    "sub": "a poor family"
+   }
+  },
+  {
+   "id": "e3",
+   "text": "By the time she was nine, her mother and a brother had died too. Her older sister Viola raised the children.",
+   "visual": {
+    "kind": "card",
+    "image": "bs",
+    "caption": "Bessie Smith"
+   }
+  },
+  {
+   "id": "e4",
+   "text": "There was no money for school. So Bessie and her brother Andrew went out to the streets.",
+   "visual": {
+    "kind": "card",
+    "image": "vv72",
+    "caption": "Bessie Smith"
+   }
+  },
+  {
+   "id": "e5",
+   "text": "He played the guitar. She sang and danced, for pennies, on a corner in front of the White Elephant Saloon.",
+   "visual": {
+    "kind": "title",
+    "title": "Street corners",
+    "sub": "singing for pennies"
+   }
+  },
+  {
+   "id": "r1",
+   "text": "In 1904, her oldest brother, Clarence, left home to join a traveling show. He left without telling her, because she would have followed him.",
+   "visual": {
+    "kind": "card",
+    "image": "vv74",
+    "caption": "Bessie Smith, photographed by Carl Van Vechten"
+   },
+   "overlays": {
+    "stamp": "1904"
+   },
+   "section": "road"
+  },
+  {
+   "id": "r2",
+   "text": "In 1912 he came back with the show, and got her an audition.",
+   "visual": {
+    "kind": "title",
+    "title": "1912",
+    "sub": "the Moses Stokes show"
+   }
+  },
+  {
+   "id": "r3",
+   "text": "They hired her as a dancer, because the company already had a star singer: Ma Rainey, the Mother of the Blues.",
+   "visual": {
+    "kind": "card",
+    "image": "rainey",
+    "caption": "Ma Rainey, 1923"
+   }
+  },
+  {
+   "id": "r4",
+   "text": "People later said Ma Rainey taught Bessie to sing. That is probably a myth. But she likely helped her learn to own a stage, and they stayed friends for life.",
+   "visual": {
+    "kind": "photo",
+    "image": "rainey",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "r5",
+   "text": "By 1913 she had her own act in Atlanta, at the 81 Theater, for about ten dollars a week.",
+   "visual": {
+    "kind": "video",
+    "clip": "dance",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "1913"
+   }
+  },
+  {
+   "id": "r6",
+   "text": "For the next ten years she toured the South, in tent shows and Black theaters, until her name was known all along the East Coast.",
+   "visual": {
+    "kind": "video",
+    "clip": "hall",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "c1",
+   "text": "Then in 1920, another singer, Mamie Smith, no relation, sold a huge number of copies of a record called Crazy Blues.",
+   "visual": {
+    "kind": "title",
+    "title": "Crazy Blues",
+    "sub": "Mamie Smith, 1920"
+   },
+   "section": "columbia"
+  },
+  {
+   "id": "c2",
+   "text": "The record companies suddenly realized Black Americans would buy records. They went looking for blues women.",
+   "visual": {
+    "kind": "video",
+    "clip": "band",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "text": "One small Black-owned label, Black Swan, auditioned Bessie, and turned her down. They found her too rough.",
+   "visual": {
+    "kind": "title",
+    "title": "Black Swan Records",
+    "sub": "too rough"
+   }
+  },
+  {
+   "id": "c4",
+   "text": "In February 1923, Columbia Records signed her.",
+   "visual": {
+    "kind": "card",
+    "image": "ad1923",
+    "caption": "Columbia Records advertisement, May 1923"
+   },
+   "overlays": {
+    "stamp": "February 1923"
+   }
+  },
+  {
+   "id": "c5",
+   "text": "Her very first record was Downhearted Blues. It sold about 780,000 copies in six months.",
+   "visual": {
+    "kind": "card",
+    "image": "label",
+    "caption": "A Bessie Smith record on Columbia"
+   }
+  },
+  {
+   "id": "c6",
+   "text": "That June, she married Jack Gee, a security guard from Philadelphia.",
+   "visual": {
+    "kind": "card",
+    "image": "ad2",
+    "caption": "Columbia Records advertisement, June 1923"
+   }
+  },
+  {
+   "id": "m1",
+   "text": "Over the next ten years, she made about 160 records for Columbia.",
+   "visual": {
+    "kind": "video",
+    "clip": "band2",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "empress"
+  },
+  {
+   "id": "m2",
+   "text": "She recorded with the best musicians alive, among them Louis Armstrong and Fletcher Henderson. With Armstrong, in 1925, she recorded St. Louis Blues.",
+   "visual": {
+    "kind": "card",
+    "image": "fho",
+    "caption": "The Fletcher Henderson Orchestra, 1925, with Louis Armstrong"
+   }
+  },
+  {
+   "id": "m3",
+   "text": "Columbia called her the Queen of the Blues. The newspapers promoted her to Empress.",
+   "visual": {
+    "kind": "card",
+    "image": "feathers",
+    "caption": "Bessie Smith"
+   }
+  },
+  {
+   "id": "m4",
+   "text": "She became the highest-paid Black entertainer of her day, earning up to two thousand dollars a week.",
+   "visual": {
+    "kind": "video",
+    "clip": "crowd",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "m5",
+   "text": "She toured with a show of up to forty performers, and they traveled in her own private railroad car, seventy-two feet long.",
+   "visual": {
+    "kind": "title",
+    "title": "Her own railroad car",
+    "sub": "72 feet long"
+   }
+  },
+  {
+   "id": "m6",
+   "text": "Her songs were about poor women, prison, drinking, love and freedom. She sang them in a voice that needed no microphone.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar8b",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "k1",
+   "text": "In July 1927, her tent show was playing in Concord, North Carolina.",
+   "visual": {
+    "kind": "title",
+    "title": "July 1927",
+    "sub": "Concord, North Carolina"
+   },
+   "section": "klan"
+  },
+  {
+   "id": "k2",
+   "text": "During the show, members of her band saw hooded Klansmen outside, pulling up the tent stakes.",
+   "visual": {
+    "kind": "video",
+    "clip": "hall2",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "k3",
+   "text": "The musicians ran. Bessie did not.",
+   "visual": {
+    "kind": "video",
+    "clip": "enter",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "k4",
+   "text": "She walked straight out to the hooded men, alone. She cursed them, and told them to leave.",
+   "visual": {
+    "kind": "video",
+    "clip": "argue",
+    "focus": [
+     0.3,
+     0.3
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "k5",
+   "text": "And they did. Then she went back inside and finished the show.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar3",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "f1",
+   "text": "In 1929, the composer W. C. Handy wanted her for a short film built around his most famous song, St. Louis Blues.",
+   "visual": {
+    "kind": "card",
+    "image": "handy",
+    "caption": "W. C. Handy"
+   },
+   "overlays": {
+    "stamp": "1929"
+   },
+   "section": "film"
+  },
+  {
+   "id": "f2",
+   "text": "It was filmed in Astoria, in Queens, New York, by the director Dudley Murphy. It was one of the early sound films.",
+   "visual": {
+    "kind": "video",
+    "clip": "titlecard",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "f3",
+   "text": "Bessie played a woman whose man is cheating on her.",
+   "visual": {
+    "kind": "video",
+    "clip": "withman",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "f4",
+   "text": "He knocks her to the floor and walks out with another woman.",
+   "visual": {
+    "kind": "video",
+    "clip": "floor",
+    "focus": [
+     0.35,
+     0.45
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "f5",
+   "text": "So she goes to a bar, and sings her heart out.",
+   "visual": {
+    "kind": "video",
+    "clip": "close2",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "f6",
+   "text": "It is the only film she ever made, the only time we can see and hear her at once. In 2006, it was added to the National Film Registry.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar12",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "f7",
+   "text": "This is Bessie Smith, singing, in 1929.",
+   "visual": {
+    "kind": "video",
+    "clip": "close3",
+    "focus": [
+     0.5,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "d1",
+   "text": "But 1929 was also the year everything turned. She starred in a Broadway musical called Pansy. It flopped, though critics said she was the only good thing in it.",
+   "visual": {
+    "kind": "card",
+    "image": "poster",
+    "caption": "St. Louis Blues, 1929"
+   },
+   "section": "fall"
+  },
+  {
+   "id": "d2",
+   "text": "She also left Jack Gee, after his affair with another singer.",
+   "visual": {
+    "kind": "photo",
+    "image": "young",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "d3",
+   "text": "Then the Great Depression hit. People stopped buying records. In 1931, Columbia dropped her.",
+   "visual": {
+    "kind": "title",
+    "title": "1931",
+    "sub": "Columbia drops her"
+   }
+  },
+  {
+   "id": "d4",
+   "text": "She had to sell her railroad car.",
+   "visual": {
+    "kind": "video",
+    "clip": "swing",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "d5",
+   "text": "In 1933 she made her last records, for a flat fee of thirty-seven dollars and fifty cents a song.",
+   "visual": {
+    "kind": "title",
+    "title": "Her last records",
+    "sub": "1933"
+   }
+  },
+  {
+   "id": "d6",
+   "text": "But she kept singing. With a new partner, an old friend named Richard Morgan, she toured again, and changed her style to fit the new swing music.",
+   "visual": {
+    "kind": "video",
+    "clip": "embrace",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "d7",
+   "text": "By 1937, people were talking about a comeback.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar13",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "x1",
+   "text": "On September 26th, 1937, Richard Morgan was driving her down Highway 61 in Mississippi.",
+   "visual": {
+    "kind": "title",
+    "title": "September 26, 1937",
+    "sub": "Highway 61, Mississippi"
+   },
+   "section": "crash"
+  },
+  {
+   "id": "x2",
+   "text": "He misjudged the speed of a slow truck ahead of them. Their car hit it side-on, and the roof was torn away.",
+   "visual": {
+    "kind": "title",
+    "title": "The crash",
+    "sub": "between Memphis and Clarksdale"
+   }
+  },
+  {
+   "id": "x3",
+   "text": "Bessie, in the passenger seat, took the full impact. Her right arm was almost torn off.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv75",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "x4",
+   "text": "A Memphis doctor, Hugh Smith, was first on the scene. He bandaged her arm and sent for an ambulance.",
+   "visual": {
+    "kind": "title",
+    "title": "Dr. Hugh Smith",
+    "sub": "first on the scene"
+   }
+  },
+  {
+   "id": "x5",
+   "text": "She was taken to the G. T. Thomas Afro-American Hospital in Clarksdale. Doctors amputated her arm. She died that morning without waking.",
+   "visual": {
+    "kind": "card",
+    "image": "death",
+    "caption": "Bessie Smith's death certificate"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Clarksdale, Mississippi"
+    }
+   }
+  },
+  {
+   "id": "x6",
+   "text": "Within weeks, a different story spread: that a white hospital had refused to treat her, and she bled to death at its door.",
+   "visual": {
+    "kind": "title",
+    "title": "A story",
+    "sub": "that was not true"
+   }
+  },
+  {
+   "id": "x7",
+   "text": "It was not true. The doctor who was there said later that no ambulance in the Deep South would even have tried to take her to a white hospital.",
+   "visual": {
+    "kind": "card",
+    "image": "vv72",
+    "caption": "Bessie Smith, 1936"
+   }
+  },
+  {
+   "id": "g1",
+   "text": "In Philadelphia, about ten thousand people filed past her coffin. The funeral home was too small, so her body was moved to a larger hall.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv1936",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   },
+   "overlays": {
+    "stamp": "October 1937"
+   },
+   "section": "grave"
+  },
+  {
+   "id": "g2",
+   "text": "About seven thousand people came to the funeral.",
+   "visual": {
+    "kind": "video",
+    "clip": "close1",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.06,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "g3",
+   "text": "She was buried at Mount Lawn Cemetery, outside Philadelphia. But her grave got no headstone.",
+   "visual": {
+    "kind": "title",
+    "title": "No headstone",
+    "sub": "Mount Lawn Cemetery, Pennsylvania"
+   }
+  },
+  {
+   "id": "g4",
+   "text": "Her husband, Jack Gee, blocked every attempt to buy one, and reportedly pocketed the money raised for it.",
+   "visual": {
+    "kind": "card",
+    "image": "feathers",
+    "caption": "Bessie Smith, 1936"
+   }
+  },
+  {
+   "id": "g5",
+   "text": "Year after year, the Empress of the Blues lay in an unmarked grave.",
+   "visual": {
+    "kind": "video",
+    "clip": "close3",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.06,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "j1",
+   "text": "Then, in 1970, a young white rock singer heard the story.",
+   "visual": {
+    "kind": "card",
+    "image": "joplin",
+    "caption": "Janis Joplin, 1970"
+   },
+   "section": "joplin"
+  },
+  {
+   "id": "j2",
+   "text": "Janis Joplin idolized Bessie Smith. She called her one of the biggest influences on her own singing.",
+   "visual": {
+    "kind": "video",
+    "clip": "close2",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.06,
+     1.12
+    ]
+   }
+  },
+  {
+   "id": "j3",
+   "text": "Janis split the cost of a headstone with Juanita Green, who had done housework for Bessie as a girl.",
+   "visual": {
+    "kind": "title",
+    "title": "Two women",
+    "sub": "Janis Joplin and Juanita Green"
+   }
+  },
+  {
+   "id": "j4",
+   "text": "On August 7th, 1970, the stone went up, thirty-three years after the funeral.",
+   "visual": {
+    "kind": "card",
+    "image": "grave",
+    "caption": "Bessie Smith's headstone, Mount Lawn Cemetery"
+   },
+   "overlays": {
+    "stamp": "August 7, 1970"
+   }
+  },
+  {
+   "id": "j5",
+   "text": "It reads: The greatest blues singer in the world will never stop singing.",
+   "visual": {
+    "kind": "photo",
+    "image": "grave",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "j6",
+   "text": "Two months later, Janis Joplin was dead. She was twenty-seven.",
+   "visual": {
+    "kind": "title",
+    "title": "October 1970",
+    "sub": "Janis Joplin dies at 27"
+   }
+  },
+  {
+   "id": "l1",
+   "text": "In 1989, Bessie Smith was inducted into the Rock and Roll Hall of Fame.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv75",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "l2",
+   "text": "In 2002, Downhearted Blues, her first record, was added to the National Recording Registry.",
+   "visual": {
+    "kind": "card",
+    "image": "label",
+    "caption": "Bessie Smith on Columbia"
+   }
+  },
+  {
+   "id": "l3",
+   "text": "And the hospital where she died is now the Riverside Hotel, on the Mississippi Blues Trail.",
+   "visual": {
+    "kind": "title",
+    "title": "The Riverside Hotel",
+    "sub": "Clarksdale, Mississippi"
+   }
+  },
+  {
+   "id": "z1",
+   "text": "She came from a street corner in Chattanooga. She became the Empress of the Blues. And for thirty-three years, nobody marked where she lay.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar14",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "z2",
+   "text": "That was Bessie Smith. Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "o2": [
+   "ENC",
+   "WIKI"
+  ],
+  "o3": [
+   "AH",
+   "WIKI",
+   "FILM"
+  ],
+  "e1": [
+   "WIKI",
+   "ENC",
+   "NPS"
+  ],
+  "e2": [
+   "WIKI",
+   "ENC"
+  ],
+  "e3": [
+   "WIKI",
+   "ENC"
+  ],
+  "e4": [
+   "WIKI",
+   "ENC"
+  ],
+  "e5": [
+   "WIKI",
+   "ENC"
+  ],
+  "r1": [
+   "WIKI",
+   "ENC"
+  ],
+  "r2": [
+   "WIKI",
+   "ENC"
+  ],
+  "r3": [
+   "WIKI",
+   "ENC",
+   "NPS"
+  ],
+  "r4": [
+   "WIKI",
+   "ENC"
+  ],
+  "r5": [
+   "WIKI",
+   "ENC"
+  ],
+  "r6": [
+   "WIKI",
+   "ENC"
+  ],
+  "c1": [
+   "WIKI",
+   "ENC"
+  ],
+  "c2": [
+   "WIKI",
+   "ENC"
+  ],
+  "c3": [
+   "WIKI",
+   "ENC"
+  ],
+  "c4": [
+   "WIKI",
+   "ENC",
+   "DHB"
+  ],
+  "c5": [
+   "ENC",
+   "NPS",
+   "DHB"
+  ],
+  "c6": [
+   "WIKI",
+   "ENC"
+  ],
+  "m1": [
+   "WIKI",
+   "ENC"
+  ],
+  "m2": [
+   "WIKI",
+   "ENC"
+  ],
+  "m3": [
+   "WIKI",
+   "ENC"
+  ],
+  "m4": [
+   "WIKI",
+   "NPS",
+   "ENC"
+  ],
+  "m5": [
+   "WIKI",
+   "ENC"
+  ],
+  "m6": [
+   "WIKI",
+   "ENC"
+  ],
+  "k1": [
+   "AH",
+   "CHARLOTTE",
+   "ENC"
+  ],
+  "k2": [
+   "AH",
+   "CHARLOTTE"
+  ],
+  "k3": [
+   "AH",
+   "CHARLOTTE"
+  ],
+  "k4": [
+   "AH",
+   "CHARLOTTE"
+  ],
+  "k5": [
+   "AH",
+   "CHARLOTTE"
+  ],
+  "f1": [
+   "FILMW",
+   "ENC"
+  ],
+  "f2": [
+   "WIKI",
+   "FILMW"
+  ],
+  "f3": [
+   "FILMW",
+   "FILM"
+  ],
+  "f4": [
+   "FILMW",
+   "FILM"
+  ],
+  "f5": [
+   "FILMW",
+   "FILM"
+  ],
+  "f6": [
+   "FILMW",
+   "WIKI"
+  ],
+  "d1": [
+   "WIKI",
+   "ENC"
+  ],
+  "d2": [
+   "WIKI",
+   "ENC"
+  ],
+  "d3": [
+   "ENC",
+   "PSAUDIO",
+   "ROCKHALL"
+  ],
+  "d4": [
+   "ENC",
+   "PSAUDIO",
+   "ROCKHALL"
+  ],
+  "d5": [
+   "WIKI",
+   "ENC"
+  ],
+  "d6": [
+   "WIKI",
+   "ENC"
+  ],
+  "d7": [
+   "ENC",
+   "WIKI"
+  ],
+  "x1": [
+   "WIKI",
+   "NPS",
+   "ENC"
+  ],
+  "x2": [
+   "WIKI",
+   "ENC"
+  ],
+  "x3": [
+   "WIKI",
+   "NPS"
+  ],
+  "x4": [
+   "WIKI",
+   "ENC"
+  ],
+  "x5": [
+   "WIKI",
+   "NPS",
+   "RIVERSIDE"
+  ],
+  "x6": [
+   "WIKI",
+   "ENC"
+  ],
+  "x7": [
+   "WIKI",
+   "ENC"
+  ],
+  "g1": [
+   "WIKI",
+   "ENC"
+  ],
+  "g2": [
+   "WIKI",
+   "ENC"
+  ],
+  "g3": [
+   "WIKI",
+   "UDISC"
+  ],
+  "g4": [
+   "WIKI",
+   "UDISC"
+  ],
+  "j1": [
+   "UDISC",
+   "CURRENT"
+  ],
+  "j2": [
+   "UDISC",
+   "CURRENT",
+   "JOPLIN"
+  ],
+  "j3": [
+   "WIKI",
+   "UDISC",
+   "CURRENT"
+  ],
+  "j4": [
+   "WIKI",
+   "UDISC"
+  ],
+  "j5": [
+   "ENC",
+   "UDISC"
+  ],
+  "j6": [
+   "UDISC",
+   "JOPLIN"
+  ],
+  "l1": [
+   "WIKI",
+   "ROCKHALL"
+  ],
+  "l2": [
+   "WIKI",
+   "DHB"
+  ],
+  "l3": [
+   "WIKI",
+   "RIVERSIDE"
+  ]
+ },
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Bessie_Smith"
+  },
+  "ENC": {
+   "url": "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/bessie-smith"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/locations/lowermsdeltaregion/bessie-smith.htm"
+  },
+  "AH": {
+   "url": "https://www.americanheritage.com/untitled-230"
+  },
+  "CHARLOTTE": {
+   "url": "https://www.aol.com/news/push-commemorate-night-bessie-smith-095600223.html"
+  },
+  "UDISC": {
+   "url": "https://www.udiscovermusic.com/stories/janis-joplin-bessie-smith-headstone/"
+  },
+  "CURRENT": {
+   "url": "https://thecurrent.org/feature/2017/08/04/today-in-music-history-janis-joplin-bought-a-headstone-for-bessie-smith"
+  },
+  "DHB": {
+   "url": "https://en.wikipedia.org/wiki/Downhearted_Blues"
+  },
+  "FILMW": {
+   "url": "https://en.wikipedia.org/wiki/St._Louis_Blues_(1929_film)"
+  },
+  "FILM": {
+   "url": "https://commons.wikimedia.org/wiki/File:St._Louis_Blues.webm"
+  },
+  "JOPLIN": {
+   "url": "https://en.wikipedia.org/wiki/Janis_Joplin"
+  },
+  "PSAUDIO": {
+   "url": "https://psaudio.com/article/bessie-smith-part-2/"
+  },
+  "ROCKHALL": {
+   "url": "https://rockhall.com/wp-content/uploads/2024/03/Bessie_Smith_1989.pdf"
+  },
+  "RIVERSIDE": {
+   "url": "https://en.wikipedia.org/wiki/Riverside_Hotel_(Clarksdale,_Mississippi)"
+  }
+ },
+ "notUsed": [
+  "Birth year disputed (1892 / 1894): said \"early 1890s\".",
+  "Film shooting month (June vs November 1929) differs between sources: no month said.",
+  "Klan story comes from Chris Albertson's biography (via American Heritage and the Charlotte Observer); Encyclopedia.com says \"reportedly\"."
+ ]
+}

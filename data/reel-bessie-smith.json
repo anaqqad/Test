@@ -1,0 +1,758 @@
+{
+ "id": "reel-bessie-smith",
+ "title": "33 Years in an Unmarked Grave",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "St. Louis": "Saint Lewis",
+  "Janis": "Jan-iss",
+  "Concord": "Conkerd"
+ },
+ "assets": {
+  "vv1936": {
+   "commons": "File:Bessie Smith (1936) by Carl Van Vechten.jpg"
+  },
+  "vv72": {
+   "commons": "File:Portrait of Bessie Smith LCCN2004663572.jpg"
+  },
+  "vv75": {
+   "commons": "File:Bessie Smith, three-quarter length portrait, standing, facing front, with left hand raised LCCN2004663575.jpg"
+  },
+  "feathers": {
+   "commons": "File:Portrait of Bessie Smith holding feathers LCCN2004663573.jpg"
+  },
+  "young": {
+   "commons": "File:Bessiesmith3.jpg"
+  },
+  "rainey": {
+   "commons": "File:Ma Rainey, 1923.jpg"
+  },
+  "ad1923": {
+   "commons": "File:Columbia Records ad, Chicago Tribune, May 19, 1923.jpg"
+  },
+  "poster": {
+   "commons": "File:St. Louis Blues (poster for 1929 film).jpg"
+  },
+  "grave": {
+   "commons": "File:Bessie Smith grave.jpg"
+  },
+  "joplin": {
+   "commons": "File:Janis Joplin seated 1970.JPG"
+  }
+ },
+ "clips": {
+  "close1": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 423,
+   "dur": 6
+  },
+  "close2": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 429,
+   "dur": 5
+  },
+  "close3": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 435.5,
+   "dur": 4
+  },
+  "argue": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 336,
+   "dur": 8
+  },
+  "floor": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 410,
+   "dur": 8
+  },
+  "bar3": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 512.5,
+   "dur": 7.5
+  },
+  "bar8": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 608,
+   "dur": 8
+  },
+  "bar8b": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 622,
+   "dur": 8
+  },
+  "bar12": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 885,
+   "dur": 10
+  },
+  "bar13": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 900,
+   "dur": 9
+  },
+  "bar14": {
+   "file": "St._Louis_Blues.webm",
+   "commons": "File:St. Louis Blues.webm",
+   "start": 929.5,
+   "dur": 6.5
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "She was the biggest blues star in America. Then she lay in an unmarked grave for thirty-three years.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv1936",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "The biggest blues star in America. *Then 33 years in an unmarked grave.*"
+   },
+   "captions": false,
+   "speed": 1.3
+  },
+  {
+   "id": "name",
+   "text": "Her name was Bessie Smith. They called her the Empress of the Blues.",
+   "visual": {
+    "kind": "video",
+    "clip": "close1",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "She was born in Chattanooga, Tennessee. Before she was nine, both of her parents were dead.",
+   "visual": {
+    "kind": "photo",
+    "image": "young",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Chattanooga, Tennessee"
+    }
+   },
+   "section": "story"
+  },
+  {
+   "id": "busk",
+   "text": "So she sang on the street corners for coins, while her brother Andrew played the guitar.",
+   "visual": {
+    "kind": "card",
+    "image": "vv72",
+    "caption": "Bessie Smith, 1936"
+   }
+  },
+  {
+   "id": "rainey",
+   "text": "In 1912 she joined a traveling show as a dancer. The star singer in that company was Ma Rainey, the Mother of the Blues.",
+   "visual": {
+    "kind": "card",
+    "image": "rainey",
+    "caption": "Ma Rainey, 1923"
+   },
+   "overlays": {
+    "stamp": "1912"
+   }
+  },
+  {
+   "id": "columbia",
+   "text": "In 1923, Columbia Records signed her. Her first record, Downhearted Blues, sold about 780,000 copies in six months.",
+   "visual": {
+    "kind": "card",
+    "image": "ad1923",
+    "caption": "Columbia Records advertisement, 1923"
+   },
+   "overlays": {
+    "stamp": "1923"
+   },
+   "section": "fame"
+  },
+  {
+   "id": "paid",
+   "text": "She became the highest-paid Black entertainer of her day, earning up to two thousand dollars a week.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar8",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "car",
+   "text": "She toured the South in her own private railroad car.",
+   "visual": {
+    "kind": "photo",
+    "image": "feathers",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "tent",
+   "text": "In July 1927, she was singing in a tent in Concord, North Carolina. Hooded Klansmen came to pull the tent down.",
+   "visual": {
+    "kind": "title",
+    "title": "July 1927",
+    "sub": "Concord, North Carolina"
+   },
+   "section": "klan"
+  },
+  {
+   "id": "faced",
+   "text": "Bessie walked out to them alone. She cursed them and told them to leave. They ran.",
+   "visual": {
+    "kind": "video",
+    "clip": "argue",
+    "focus": [
+     0.3,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "finished",
+   "text": "Then she went back inside and finished the show.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar3",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "film",
+   "text": "In 1929 she made her only film, St. Louis Blues. This is it.",
+   "visual": {
+    "kind": "card",
+    "image": "poster",
+    "caption": "St. Louis Blues, 1929"
+   },
+   "overlays": {
+    "stamp": "1929"
+   },
+   "section": "film"
+  },
+  {
+   "id": "film2",
+   "text": "She played a woman left by the man she loved, singing her heart out at a bar.",
+   "visual": {
+    "kind": "video",
+    "clip": "close2",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "crash1",
+   "text": "Then the Depression hit. Record sales collapsed, and in 1931 Columbia let her go. She had to sell her railroad car.",
+   "visual": {
+    "kind": "video",
+    "clip": "floor",
+    "focus": [
+     0.35,
+     0.45
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.5
+    ]
+   },
+   "section": "fall"
+  },
+  {
+   "id": "comeback",
+   "text": "By the mid-1930s she was fighting her way back, singing swing in New York.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar12",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "crash",
+   "text": "On September 26th, 1937, she was riding down Highway 61 in Mississippi. Her car slammed into the back of a truck.",
+   "visual": {
+    "kind": "title",
+    "title": "September 26, 1937",
+    "sub": "Highway 61, Mississippi"
+   },
+   "section": "crash"
+  },
+  {
+   "id": "arm",
+   "text": "Her right arm was almost torn off. She was taken to the Black hospital in Clarksdale, and died that morning.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv75",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "myth",
+   "text": "For years, people said a white hospital had turned her away. That story was false. But what came next was true.",
+   "visual": {
+    "kind": "title",
+    "title": "A myth",
+    "sub": "a white hospital did not turn her away"
+   }
+  },
+  {
+   "id": "funeral",
+   "text": "In Philadelphia, ten thousand people filed past her coffin.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv1936",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.15,
+     1.25
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   },
+   "overlays": {
+    "stamp": "October 1937"
+   },
+   "section": "grave"
+  },
+  {
+   "id": "nostone",
+   "text": "But her grave got no headstone. Her estranged husband, Jack Gee, reportedly pocketed money raised to buy one.",
+   "visual": {
+    "kind": "title",
+    "title": "No headstone",
+    "sub": "Mount Lawn Cemetery, Pennsylvania"
+   }
+  },
+  {
+   "id": "years",
+   "text": "For thirty-three years, the Empress of the Blues lay in an unmarked grave.",
+   "visual": {
+    "kind": "video",
+    "clip": "close3",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "joplin",
+   "text": "Then in 1970, the rock star Janis Joplin, who idolized her, split the cost of a stone with Juanita Green, who had done housework for Bessie as a girl.",
+   "visual": {
+    "kind": "card",
+    "image": "joplin",
+    "caption": "Janis Joplin, 1970"
+   },
+   "overlays": {
+    "stamp": "August 1970"
+   }
+  },
+  {
+   "id": "stone",
+   "text": "It reads: The greatest blues singer in the world will never stop singing.",
+   "visual": {
+    "kind": "card",
+    "image": "grave",
+    "caption": "Bessie Smith's headstone, Mount Lawn Cemetery"
+   }
+  },
+  {
+   "id": "janis",
+   "text": "Two months later, Janis Joplin was dead too.",
+   "visual": {
+    "kind": "title",
+    "title": "October 1970",
+    "sub": "Janis Joplin dies at 27"
+   }
+  },
+  {
+   "id": "close",
+   "text": "That was Bessie Smith.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar14",
+    "focus": [
+     0.62,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Bessie_Smith"
+  },
+  "ENC": {
+   "url": "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/bessie-smith"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/locations/lowermsdeltaregion/bessie-smith.htm"
+  },
+  "AH": {
+   "url": "https://www.americanheritage.com/untitled-230"
+  },
+  "CHARLOTTE": {
+   "url": "https://www.aol.com/news/push-commemorate-night-bessie-smith-095600223.html"
+  },
+  "UDISC": {
+   "url": "https://www.udiscovermusic.com/stories/janis-joplin-bessie-smith-headstone/"
+  },
+  "CURRENT": {
+   "url": "https://thecurrent.org/feature/2017/08/04/today-in-music-history-janis-joplin-bought-a-headstone-for-bessie-smith"
+  },
+  "DHB": {
+   "url": "https://en.wikipedia.org/wiki/Downhearted_Blues"
+  },
+  "FILM": {
+   "url": "https://commons.wikimedia.org/wiki/File:St._Louis_Blues.webm"
+  },
+  "JOPLIN": {
+   "url": "https://en.wikipedia.org/wiki/Janis_Joplin"
+  },
+  "PSAUDIO": {
+   "url": "https://psaudio.com/article/bessie-smith-part-2/"
+  },
+  "ROCKHALL": {
+   "url": "https://rockhall.com/wp-content/uploads/2024/03/Bessie_Smith_1989.pdf"
+  }
+ },
+ "facts": [
+  {
+   "beat": "born",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "NPS"
+   ],
+   "note": "Birth year disputed (1892/1894): not said."
+  },
+  {
+   "beat": "busk",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "rainey",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "columbia",
+   "sources": [
+    "ENC",
+    "NPS",
+    "DHB"
+   ],
+   "note": "Some sources say 750,000; 'about 780,000' per ENC/NPS/DHB."
+  },
+  {
+   "beat": "paid",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "car",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "tent",
+   "sources": [
+    "AH",
+    "CHARLOTTE",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "faced",
+   "sources": [
+    "AH",
+    "CHARLOTTE"
+   ],
+   "note": "From Chris Albertson's biography; ENC says 'reportedly'."
+  },
+  {
+   "beat": "finished",
+   "sources": [
+    "AH",
+    "CHARLOTTE"
+   ]
+  },
+  {
+   "beat": "film",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "FILM"
+   ]
+  },
+  {
+   "beat": "crash1",
+   "sources": [
+    "ENC",
+    "PSAUDIO",
+    "ROCKHALL"
+   ]
+  },
+  {
+   "beat": "comeback",
+   "sources": [
+    "ENC",
+    "WIKI"
+   ]
+  },
+  {
+   "beat": "crash",
+   "sources": [
+    "WIKI",
+    "NPS",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "arm",
+   "sources": [
+    "WIKI",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "myth",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "funeral",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "nostone",
+   "sources": [
+    "WIKI",
+    "UDISC"
+   ]
+  },
+  {
+   "beat": "years",
+   "sources": [
+    "ENC",
+    "UDISC"
+   ]
+  },
+  {
+   "beat": "joplin",
+   "sources": [
+    "WIKI",
+    "UDISC",
+    "CURRENT"
+   ]
+  },
+  {
+   "beat": "stone",
+   "sources": [
+    "ENC",
+    "UDISC"
+   ]
+  },
+  {
+   "beat": "janis",
+   "sources": [
+    "UDISC",
+    "JOPLIN"
+   ]
+  }
+ ]
+}
