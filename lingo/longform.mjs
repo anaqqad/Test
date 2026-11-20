@@ -102,8 +102,15 @@ function regionD(spec) {
 const REG = Object.fromEntries(Object.entries(EP.regions).sort((x, y) => !!x[1].near - !!y[1].near).map(([k, v]) => [k, regionD(v)])); // parts (near) drawn above whole countries
 
 // camera keyframes (world px + zoom)
-const camK = []; let lastCam = null;
-for (const r of T) if (r.cam) { const [x, y] = proj(r.cam.c); const z = W / (r.cam.span * pxPerDeg); camK.push({ t: r.t0 - 0.2, x, y, z }); lastCam = r.cam; }
+const camK = []; let lastTilt = { tilt: 0, rot: 0 };
+for (const r of T) {
+  if (r.route) { // frame both ends of a route (owner: always show source and destination)
+    const a = P(r.route.from), b = P(r.route.to), dx = Math.abs(b[0] - a[0]) + 1, dy = Math.abs(b[1] - a[1]) + 1;
+    const z = Math.min(W * 0.62 / dx, H * 0.56 / dy, W / (1.2 * pxPerDeg));
+    camK.push({ t: r.t0 - 0.2, x: (a[0] + b[0]) / 2, y: (a[1] + b[1]) / 2 + H * 0.03 / z, z, tilt: r.cam?.tilt ?? 0, rot: r.cam?.rot ?? 0 });
+  } else if (r.cam) { const [x, y] = proj(r.cam.c); const z = W / (r.cam.span * pxPerDeg); camK.push({ t: r.t0 - 0.2, x, y, z, tilt: r.cam.tilt ?? 0, rot: r.cam.rot ?? 0 }); }
+}
+camK.forEach((k, i) => { k.dir = i % 2 ? 1 : -1; });
 // fills: per region keyframes
 const fillK = {}; for (const k of Object.keys(REG)) fillK[k] = [];
 const setFill = (tt, obj) => { for (const [k, v] of Object.entries(obj)) { if (!fillK[k]) throw new Error("no region " + k); fillK[k].push({ t: tt, c: v }); } };
@@ -117,10 +124,21 @@ T.forEach((r, i) => {
 const routes = T.filter((r) => r.route).map((r, i) => {
   const idx = T.indexOf(r), a = P(r.route.from), b = P(r.route.to), mx = (a[0] + b[0]) / 2, my = (a[1] + b[1]) / 2;
   const dx = b[0] - a[0], dy = b[1] - a[1], k = 0.18;
-  return { t: r.t0 + 0.2, tOut: (T[idx + 2] || T[T.length - 1]).t1, color: r.route.color, a, b, d: `M${r1(a[0])},${r1(a[1])} Q${r1(mx - dy * k)},${r1(my + dx * k)} ${r1(b[0])},${r1(b[1])}` };
+  const lab = (k, l) => l ?? (typeof k === "string" ? k.toUpperCase() : "");
+  return { t: r.t0 + 0.2, tOut: (T[idx + 2] || T[T.length - 1]).t1, color: r.route.color, a, b, la: lab(r.route.from, r.route.fromLabel), lb: lab(r.route.to, r.route.toLabel), d: `M${r1(a[0])},${r1(a[1])} Q${r1(mx - dy * k)},${r1(my + dx * k)} ${r1(b[0])},${r1(b[1])}` };
 });
 const yearK = T.filter((r) => "year" in r).map((r) => ({ t: r.t0, v: r.year }));
 const kickK = T.filter((r) => r.kicker).map((r) => ({ t: r.t0, v: r.kicker }));
+// photos (Wikimedia Commons, credits in longform/<key>/photos.json)
+const PH = fs.existsSync(path.join(HERE, "longform", key, "photos.json")) ? JSON.parse(fs.readFileSync(path.join(HERE, "longform", key, "photos.json"))) : {};
+const phInfo = {};
+function photo(k) {
+  if (phInfo[k]) return phInfo[k];
+  const f = path.join(HERE, "incoming", key, "photos", k + ".jpg");
+  if (!fs.existsSync(f) || !PH[k]) throw new Error("missing photo " + k);
+  const [w, h] = spawnSync("identify", ["-format", "%w %h", f + "[0]"], { encoding: "utf8" }).stdout.trim().split(" ").map(Number);
+  return (phInfo[k] = { url: furl(f), w, h, credit: `${PH[k][2] === "Public domain" ? "Public domain" : PH[k][2]} · ${PH[k][1]} · Wikimedia Commons` });
+}
 // overlays
 const OV = [];
 T.forEach((r, i) => {
@@ -130,11 +148,14 @@ T.forEach((r, i) => {
     if (s.type === "title") { o.tIn = r.titleAt; o.tOut = r.titleAt + 3.0; }
     if (s.from && typeof s.from === "string") { o.a = P(s.from); o.b = P(s.to); }
     if (s.at) o.p = P(s.at);
+    if (s.src && (s.type === "photo" || s.type === "frame")) { const ph = photo(s.src); Object.assign(o, { url: ph.url, iw: ph.w, ih: ph.h, credit: ph.credit }); }
     OV.push(o);
   }
   for (const c of r.clips) OV.push({ type: "hear", word: c.word, tIn: c.t - 0.15, tOut: c.t + c.d + 0.25, d: c.d });
   if (r.endAt) OV.push({ type: "end", tIn: r.endAt, tOut: TOTAL + 1 });
 });
+OV.push({ type: "fadeout", tIn: TOTAL - 1.8, tOut: TOTAL + 2 });
+OV.sort((a, b) => (["photo"].includes(b.type) ? 1 : 0) - (["photo"].includes(a.type) ? 1 : 0)); // full-screen photos below cards
 const DATA = { W, H, TOTAL, camK, fillK, labelK, routes, yearK, kickK, OV, title: EP.cardTitle, next: EP.next, colors: EP.colors };
 
 // ───────── paper texture (generated once) ─────────
@@ -164,7 +185,8 @@ for (const o of OV) if (o.img) o.img = fs.existsSync(path.join(HERE, o.img)) ? i
 const html = `<!doctype html><html><head><meta charset="utf-8">${fontCss}<style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{width:${W}px;height:${H}px;overflow:hidden;background:#174a63;font-family:Inter,sans-serif}
-#sea{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,#2a6d8c 0%,#21607e 45%,#163f55 100%)}
+#world{position:absolute;inset:0;transform-origin:50% 62%}
+#sea{position:absolute;inset:-70%;background:radial-gradient(ellipse at 50% 45%,#2a6d8c 0%,#21607e 30%,#163f55 60%)}
 svg{position:absolute;inset:0}
 #map{filter:drop-shadow(0 3px 0 rgba(70,50,20,.28)) drop-shadow(0 10px 16px rgba(0,0,0,.28))}
 #hi{filter:drop-shadow(2px 6px 0 rgba(40,20,10,.42)) drop-shadow(4px 14px 16px rgba(0,0,0,.4))}
@@ -183,17 +205,18 @@ svg{position:absolute;inset:0}
 .gloss{font:500 22px Inter;color:#6d6358}
 .ar{font:700 42px "Noto Naskh Arabic";direction:rtl}
 .cap{position:absolute;left:50%;bottom:64px;transform:translateX(-50%);background:#fbf7ee;border-radius:10px;padding:14px 26px;font:800 30px Inter;color:#1c1712;box-shadow:0 8px 20px rgba(0,0,0,.35);white-space:nowrap}
-.stamp{position:absolute;left:50%;top:44%;font:900 92px Inter;letter-spacing:.06em;color:#d9533f;border:9px solid #d9533f;border-radius:14px;padding:6px 30px;background:rgba(251,247,238,.85)}
+.stamp{position:absolute;left:50%;top:44%;white-space:nowrap;width:max-content;line-height:1.1;font:900 92px Inter;letter-spacing:.06em;color:#d9533f;border:9px solid #d9533f;border-radius:14px;padding:6px 30px;background:rgba(251,247,238,.85)}
 .dot{display:inline-block;width:13px;height:13px;border-radius:50%;margin:0 4px 4px 0}
 .on{outline:5px solid #d9533f;outline-offset:4px}
 #ov>div{will-change:transform,opacity}
 </style></head><body>
-<div id="sea"></div>
+<div id="world"><div id="sea"></div>
 <svg id="map" viewBox="0 0 ${W} ${H}"><g id="cam"><path id="land" d="${landD}" fill="#e9dcbf" stroke="#c9b48e" stroke-width="1.2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></g></svg>
 <svg id="hi" viewBox="0 0 ${W} ${H}"><g id="cam2">${Object.entries(REG).map(([k, d]) => `<path id="r_${k}" d="${d}" fill="transparent" stroke="rgba(60,30,20,.35)" stroke-width="1" vector-effect="non-scaling-stroke"/>`).join("")}</g></svg>
 <svg id="rt" viewBox="0 0 ${W} ${H}"><g id="cam3"></g></svg>
+<div id="labs"></div><div id="pins"></div></div>
 <div id="tex"></div><div id="vig"></div>
-<div id="labs"></div><div id="ov"></div>
+<div id="ov"></div>
 <div id="kick" style="opacity:0"></div><div id="year" style="opacity:0"></div>
 <script>
 const D=${JSON.stringify(DATA)};
@@ -203,11 +226,14 @@ const eo=(x)=>x<0?0:x>1?1:1-Math.pow(1-x,3);
 const back=(x)=>{x=Math.max(0,Math.min(1,x));const c=1.6;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
 const hex=(c)=>c?[parseInt(c.slice(1,3),16),parseInt(c.slice(3,5),16),parseInt(c.slice(5,7),16),1]:[233,220,191,0];
 const mix=(a,b,k)=>a.map((v,i)=>v+(b[i]-v)*k);
-function cam(t){const K=D.camK;let i=K.findIndex(k=>k.t>t);if(i<0)i=K.length;const b=K[Math.max(0,i-1)],a=K[Math.max(0,i-2)]||b;
-  const drift=1+0.05*Math.min(1,Math.max(0,(t-b.t-1.7)/14));if(i<=1)return {...K[0],z:K[0].z*drift};const k=ease((t-b.t)/1.7);return {x:a.x+(b.x-a.x)*k,y:a.y+(b.y-a.y)*k,z:Math.exp(Math.log(a.z*(1+0.05*Math.min(1,Math.max(0,(b.t-a.t-1.7)/14))))+(Math.log(b.z*drift)-Math.log(a.z*(1+0.05*Math.min(1,Math.max(0,(b.t-a.t-1.7)/14)))))*k)}}
+// camera: eased moves between keyframes + a constant slow push-in and sideways drift after each move (never fully still)
+function held(k,t){const u=Math.max(0,t-k.t-1.6);const q=1-Math.exp(-u/9);return {x:k.x+k.dir*q*${W}*0.05/k.z,y:k.y-q*${H}*0.02/k.z,z:k.z*(1+0.12*q),tilt:k.tilt,rot:k.rot+k.dir*q*1.2}}
+function cam(t){const K=D.camK;let i=K.findIndex(k=>k.t>t);if(i<0)i=K.length;if(i<=1)return held(K[0],t);const b=K[i-1],a=held(K[i-2],b.t);const bb=held(b,t);
+  const k=ease((t-b.t)/1.6);return {x:a.x+(bb.x-a.x)*k,y:a.y+(bb.y-a.y)*k,z:Math.exp(Math.log(a.z)+(Math.log(bb.z)-Math.log(a.z))*k),tilt:a.tilt+(bb.tilt-a.tilt)*k,rot:a.rot+(bb.rot-a.rot)*k}}
 // build static route + overlay nodes once
 const R=$("#cam3");D.routes.forEach((r,i)=>{R.insertAdjacentHTML("beforeend",'<path id="rt'+i+'" d="'+r.d+'" fill="none" stroke="'+r.color+'" stroke-width="5" stroke-linecap="round" vector-effect="non-scaling-stroke" stroke-dasharray="1 14" /><circle id="rh'+i+'" r="9" fill="'+r.color+'" stroke="#fbf7ee" stroke-width="3" vector-effect="non-scaling-stroke"/>');const el=document.getElementById("rt"+i),len=el.getTotalLength();r.pts=Array.from({length:61},(_,j)=>{const q=el.getPointAtLength(len*j/60);return [q.x,q.y]})});
-const ov=$("#ov");
+const ov=$("#ov");const pins=$("#pins");
+D.routes.forEach((r,i)=>{pins.insertAdjacentHTML("beforeend",[["a",r.la],["b",r.lb]].map(([e,l])=>'<div id="pin'+i+e+'" style="position:absolute;opacity:0;transform:translate(-50%,-100%)"><div class="card" style="position:relative;padding:5px 12px;font:800 20px Inter;letter-spacing:.12em;white-space:nowrap;margin-bottom:8px">'+l+'</div><div style="width:18px;height:18px;margin:0 auto -9px;border-radius:50%;background:'+r.color+';border:4px solid #fbf7ee;box-shadow:0 3px 8px rgba(0,0,0,.4)"></div></div>').join(""))});
 function chipHTML(it,lang,col){const [w,g,src]=it;return '<div class="card chip" data-w="'+w+'" style="position:relative;display:inline-block;padding:14px 22px 14px;margin:0 9px;text-align:center">'+(lang?'<div class="pill" style="background:'+(col||"#d9533f")+'">'+lang+'</div>':'')+'<div class="word" style="font-size:'+(g?44:40)+'px;margin-top:4px">'+w+'</div>'+(g?'<div class="gloss">“'+g+'”</div>':'')+(src?'<div class="gloss" style="font-size:19px;color:#a2463a;margin-top:2px">← '+src+'</div>':'')+'</div>'}
 const BUILD={
  number:o=>'<div class="card" style="left:50%;top:70px;padding:14px 34px 16px;text-align:center"><div class="big"><span class="n"></span></div><div class="k" style="margin-top:6px;color:#3a2c1e">'+o.caption+'</div></div>',
@@ -231,6 +257,9 @@ const BUILD={
  speaker:o=>'<div class="card" style="left:50%;top:50%;transform:translate(-50%,-50%);width:640px;padding:28px 34px;text-align:center"><div class="pill">REAL RECORDING · MALTESE</div><div style="font:900 64px Fraunces;margin-top:10px">'+o.name+'</div><div class="k" style="color:#6d6358">'+o.place+' · '+o.src+'</div><div class="wave" style="height:90px;margin-top:16px;display:flex;gap:6px;align-items:center;justify-content:center">'+Array.from({length:30},()=>'<i style="display:block;width:9px;border-radius:5px;background:#d9533f;height:10px"></i>').join("")+'</div></div>',
  hear:o=>o.word==="keith"?'':'<div class="card" style="left:50%;top:76px;transform:translateX(-50%);padding:10px 22px;display:flex;gap:14px;align-items:center;white-space:nowrap"><span class="pill">▶ HEAR IT</span><span style="font:italic 800 34px Fraunces">'+o.word+'</span></div>',
  end:o=>'<div style="position:absolute;inset:0;background:rgba(8,24,34,.62)"></div><div style="position:absolute;left:0;right:0;top:40%;text-align:center"><div style="font:900 110px Fraunces;color:#fbf7ee">LingoDude</div><div style="display:inline-block;margin-top:18px;background:#fbf7ee;border-radius:8px;padding:10px 22px;font:800 24px Inter;letter-spacing:.08em;color:#1c1712">NEXT: '+D.next.toUpperCase()+'</div></div>',
+ photo:o=>{const sc=Math.max(${W}/o.iw,${H}/o.ih),w=o.iw*sc,h=o.ih*sc,f=o.focus||[.5,.5];o._L=(${W}-w)/2;o._T=(${H}-h)/2;o._w=w;o._h=h;o._ox=o._L+f[0]*w;o._oy=o._T+f[1]*h;o._dx=${W}/2-o._ox;o._dy=${H}/2-o._oy;return '<div class="phw" style="position:absolute;inset:0;overflow:hidden;background:#0d0d0d"><div class="phi" style="position:absolute;left:'+(${W}-w)/2+'px;top:'+(${H}-h)/2+'px;width:'+w+'px;height:'+h+'px;transform-origin:'+f[0]*100+'% '+f[1]*100+'%"><img src="'+o.url+'" style="width:100%;height:100%;display:block">'+(o.hl?'<div class="hl" style="position:absolute;left:'+o.hl[0]*100+'%;top:'+o.hl[1]*100+'%;width:'+(o.hl[2]-o.hl[0])*100+'%;height:'+(o.hl[3]-o.hl[1])*100+'%;border:solid #d9533f;border-radius:8px;box-shadow:0 0 0 9999px rgba(0,0,0,.45);opacity:0"></div>':'')+'</div><div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 60%,rgba(0,0,0,.45) 100%)"></div></div>'+(o.caption?'<div class="card" style="left:56px;bottom:56px;padding:12px 20px;max-width:1000px"><div class="k">'+(o.kind||"PHOTO")+'</div><div style="font:800 28px/1.25 Inter;margin-top:4px">'+o.caption+'</div></div>':'')+'<div style="position:absolute;right:20px;bottom:14px;font:500 15px Inter;color:rgba(255,255,255,.85);text-shadow:0 1px 3px #000">'+o.credit+'</div>'},
+ frame:o=>{const fw=o.w||560,fh=Math.round(fw*(o.ih/o.iw));const f=o.focus||[.5,.5];return '<div class="card frm" style="'+(o.side==="left"?"left:90px":"right:90px")+';top:'+(o.top||150)+'px;padding:14px 14px 16px;width:'+(fw+28)+'px"><div style="overflow:hidden;width:'+fw+'px;height:'+fh+'px;border-radius:4px"><img class="fi" src="'+o.url+'" style="width:100%;height:100%;display:block;transform-origin:'+f[0]*100+'% '+f[1]*100+'%"></div>'+(o.caption?'<div style="font:800 22px/1.3 Inter;margin-top:10px">'+o.caption+'</div>':'')+'<div style="font:500 13px Inter;color:#6d6358;margin-top:4px">'+o.credit+'</div></div>'},
+ fadeout:o=>'<div style="position:absolute;inset:0;background:#000"></div>',
  dist:o=>'', bubble:o=>'<div class="card bub" style="padding:10px 18px;font:italic 800 32px Fraunces;white-space:nowrap">'+o.text+'</div>',
 };
 D.OV.forEach((o,i)=>{const el=document.createElement("div");el.style.cssText="position:absolute;inset:0;opacity:0";el.innerHTML=BUILD[o.type](o);ov.appendChild(el);o.el=el;
@@ -240,6 +269,7 @@ function setT(t){
   const c=cam(t),z=c.z,tr='translate('+(${W}/2)+' '+(${H}/2)+') scale('+z+') translate('+(-c.x)+' '+(-c.y)+')';
   ["cam","cam2","cam3"].forEach(id=>document.getElementById(id).setAttribute("transform",tr));
   const sp=(p)=>[(p[0]-c.x)*z+${W}/2,(p[1]-c.y)*z+${H}/2];
+  $("#world").style.transform="perspective(1500px) rotateX("+c.tilt+"deg) rotateZ("+c.rot+"deg) scale("+(1+c.tilt/80)+")";
   for(const k in D.fillK){const K=D.fillK[k];let col=[233,220,191,0];let prev=col;
     for(const f of K){if(f.t>t)break;const target=hex(f.c);const kk=eo((t-f.t)/0.8);col=mix(prev,target,kk);prev=kk>=1?target:col}
     document.getElementById("r_"+k).setAttribute("fill",'rgba('+col[0]+','+col[1]+','+col[2]+','+col[3]+')');
@@ -252,6 +282,7 @@ function setT(t){
     const vis=(t>=r.t&&out>0)?out:0;p.style.opacity=vis;h.style.opacity=vis;if(!vis)return;
     const m=Math.max(1,Math.round(k*(r.pts.length-1)));p.setAttribute("d","M"+r.pts.slice(0,m+1).map(q=>q[0]+","+q[1]).join(" L"));
     const q=r.pts[m];h.setAttribute("cx",q[0]);h.setAttribute("cy",q[1]);h.setAttribute("r",9/z);});
+  D.routes.forEach((r,i)=>{const out=1-Math.min(1,Math.max(0,(t-r.tOut)/0.5));[["a",r.a,0],["b",r.b,1.3]].forEach(([e,p,dl])=>{const el=document.getElementById("pin"+i+e);const v=t>=r.t+dl?Math.min(1,(t-r.t-dl)/0.3)*out:0;const s2=sp(p);el.style.opacity=v;el.style.left=s2[0]+"px";el.style.top=s2[1]+"px";el.style.transform="translate(-50%,-100%) scale("+(0.7+0.3*back((t-r.t-dl)/0.35))+")"})});
   // year + kicker
   let y=null;for(const k of D.yearK)if(k.t<=t)y=k;const ye=$("#year");if(y&&y.v){ye.textContent=y.v;ye.style.opacity=Math.min(1,(t-y.t)/0.3)}else ye.style.opacity=0;
   let kk=null;for(const k of D.kickK)if(k.t<=t)kk=k;const ke=$("#kick");if(kk&&t-kk.t<6){ke.innerHTML="<b></b>"+kk.v;const a=Math.min(1,(t-kk.t)/0.35)*Math.min(1,(kk.t+6-t)/0.5);ke.style.opacity=a;ke.style.transform="translateX("+(-30*(1-eo((t-kk.t)/0.4)))+"px)"}else ke.style.opacity=0;
@@ -259,7 +290,13 @@ function setT(t){
   let hearWord=null;for(const o of D.OV)if(o.type==="hear"&&t>=o.tIn&&t<=o.tOut)hearWord=o.word;
   D.OV.forEach((o,i)=>{const el=o.el;const a=Math.min(eo((t-o.tIn)/0.3),1-eo((t-o.tOut)/0.3)); if(t<o.tIn-0.01||t>o.tOut+0.3){el.style.opacity=0;if(o.type==="dist"){document.getElementById("ds"+i).setAttribute("opacity",0)}return}
     el.style.opacity=Math.max(0,a);const p=eo((t-o.tIn)/0.35);
-    if(!["title","end","stamp","dist","bubble"].includes(o.type))el.style.transform="scale("+(0.94+0.06*back((t-o.tIn)/0.35))+")",el.style.transformOrigin="50% 60%";
+    if(o.type==="photo"){const d=o.tOut-o.tIn,q=Math.max(0,Math.min(1,(t-o.tIn)/d));const s0=o.from??1.04,s1=o.to??1.16;const sc=s0+(s1-s0)*ease(q);const m=ease(q)*((o.hl||s1>=1.5)?1:0.3);const cl=(v,lo,hi)=>Math.max(lo,Math.min(hi,v));const tx=cl(o._dx*m,${W}-(o._ox+(o._L+o._w-o._ox)*sc),-(o._ox+(o._L-o._ox)*sc)),ty=cl(o._dy*m,${H}-(o._oy+(o._T+o._h-o._oy)*sc),-(o._oy+(o._T-o._oy)*sc));
+      el.querySelector(".phi").style.transform="translate("+tx+"px,"+ty+"px) scale("+sc+")";
+      const w=eo((t-o.tIn)/0.55);el.style.clipPath=i%2?"inset(0 0 0 "+(100*(1-w))+"%)":"inset(0 "+(100*(1-w))+"% 0 0)";el.style.opacity=Math.min(1,1-eo((t-o.tOut)/0.3));
+      const hl=el.querySelector(".hl");if(hl){hl.style.opacity=eo((q-0.55)/0.12);hl.style.borderWidth=(6/sc)+"px"}return}
+    if(o.type==="frame"){const d=o.tOut-o.tIn,q=Math.max(0,Math.min(1,(t-o.tIn)/d));const fr=el.querySelector(".frm");fr.style.transform="translateX("+((o.side==="left"?-1:1)*160*(1-eo((t-o.tIn)/0.45)))+"px) rotate("+(o.side==="left"?2.5:-2.5)+"deg)";el.querySelector(".fi").style.transform="scale("+(1.02+(o.zoom||0.12)*ease(q))+")";el.style.transform="";}
+    if(o.type==="fadeout"){el.style.opacity=eo((t-o.tIn)/1.6);return}
+    if(!["title","end","stamp","dist","bubble","frame"].includes(o.type))el.style.transform="scale("+(0.94+0.06*back((t-o.tIn)/0.35))+")",el.style.transformOrigin="50% 60%";
     if(o.type==="stamp"){const s=el.firstChild;const q=Math.min(1,(t-o.tIn)/0.14);s.style.transform="translate(-50%,-50%) rotate(-8deg) scale("+(1.5-0.5*q)+")"}
     if(o.type==="number"){const q=eo((t-o.tIn)/1.1);const v=o.from+(o.to-o.from)*q;el.querySelector(".n").textContent=(o.prefix||"")+(o.decimals?v.toFixed(o.decimals):Math.round(v).toLocaleString("en-US"))+(o.suffix||"")}
     if(o.type==="gauge"){const q=eo((t-o.tIn-0.2)/1.1);el.querySelector(".n").textContent=(o.prefix||"")+Math.round(o.value*q);el.querySelector(".g").style.width=(o.value*q)+"%"}
@@ -268,7 +305,7 @@ function setT(t){
     if(o.type==="speaker"){const on=D.OV.find(h=>h.type==="hear"&&h.word==="keith"&&t>=h.tIn&&t<=h.tOut);el.querySelectorAll(".wave i").forEach((b,j)=>{b.style.height=(on?10+70*Math.abs(Math.sin(t*9+j*1.7)*Math.sin(t*3.1+j*.6)):10)+"px"})}
     if(o.type==="dist"){const a2=sp(o.a),b2=sp(o.b);document.getElementById("ds"+i).setAttribute("opacity",Math.max(0,a));const d=el.firstChild;d.style.position="absolute";d.style.left=((a2[0]+b2[0])/2)+"px";d.style.top=((a2[1]+b2[1])/2)+"px";d.style.transform="translate(-50%,-50%)"}
     if(o.type==="bubble"){const p2=sp(o.p);const d=el.firstChild;d.style.position="absolute";d.style.left=p2[0]+"px";d.style.top=(p2[1]-70)+"px";d.style.transform="translate(-50%,-50%) scale("+(0.8+0.2*back((t-o.tIn)/0.35))+")"}
-    el.querySelectorAll(".chip").forEach(ch=>ch.classList.toggle("on",ch.dataset.w===hearWord));
+    el.querySelectorAll(".chip").forEach((ch,j)=>{ch.classList.toggle("on",ch.dataset.w===hearWord);const q=(t-o.tIn-0.05-j*0.13)/0.35;ch.style.opacity=Math.max(0,Math.min(1,q*1.5));ch.style.transform="translateY("+(30*(1-back(q)))+"px)"});
   });
 }
 window.setT=setT;
@@ -321,7 +358,7 @@ async function openPage(b) {
 const b = await chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium", args: browserArgs });
 if (stills) {
   const p = await openPage(b);
-  const list = String(stills).split(",").map((s) => (/^[a-z]/.test(s) ? T.find((r) => r.id === s).t0 + 1.2 : +s));
+  const list = String(stills).split(",").map((s) => { if (!/^[a-z]/.test(s)) return +s; const [id, off] = s.split("@"); const r = T.find((x) => x.id === id); return off === "end" ? r.t1 - 0.4 : r.t0 + (off ? +off : 1.2); });
   for (const s of list) { await p.evaluate((x) => window.setT(x), s); const f = path.join(OUT, `longform_${key}_${s.toFixed(1)}s.png`); await p.screenshot({ path: f }); console.log(f); }
   await b.close();
   process.exit(0);
