@@ -271,6 +271,13 @@ for (const x of SHOTS) {
 }
 OV.push({ type: "fadeout", tIn: TOTAL - 1.6, tOut: TOTAL + 2 });
 OV.sort((a, b) => ((b.shot || ["photo", "video"].includes(b.type)) ? 1 : 0) - ((a.shot || ["photo", "video"].includes(a.type)) ? 1 : 0));
+// small copies of photos for table prints and board cards (full-size scans inside 3D layers crash the renderer)
+function thumb(k, mw = 800) {
+  const ph = photo(k), d = path.join(CACHE, "thumbs"); fs.mkdirSync(d, { recursive: true });
+  const out = path.join(d, `${k}_${mw}.jpg`);
+  if (!fs.existsSync(out)) run("convert", [path.join(INC, "photos", k + ".jpg") + "[0]", "-resize", `${mw}x${mw}>`, "-quality", "88", out]);
+  return { url: furl(out), w: ph.w, h: ph.h };
+}
 // ───────── 3D Mediterranean table (v4) ─────────
 let TABLE = null;
 if (EP.table) {
@@ -281,7 +288,7 @@ if (EP.table) {
   const near = feats.filter((f) => { const [[x0, y0], [x1, y1]] = d3.geoBounds(f); return x1 - x0 < 60 && x1 > box[0][0] - 1 && x0 < box[1][0] + 1 && y1 > box[0][1] - 1 && y0 < box[1][1] + 1; });
   const objs = Object.entries(tb.objects || {}).map(([id, ob]) => {
     const [x, y] = tp(Array.isArray(ob.at) ? ob.at : EP.places[ob.at]); const o2 = { id, ...ob, x: x + (ob.dx || 0), y: y + (ob.dy || 0), t: 1e9 };
-    if (ob.src) { const ph = photo(ob.src); o2.url = ph.url; o2.iw = ph.w; o2.ih = ph.h; }
+    if (ob.src) { const ph = thumb(ob.src, ob.kind === "coin" ? 1200 : 700); o2.url = ph.url; o2.iw = ph.w; o2.ih = ph.h; }
     o2.h = ob.kind === "coin" ? ob.w : ob.kind === "print" ? Math.round(ob.w * (o2.ih / o2.iw) + 58) : (ob.h || 220);
     return o2;
   });
@@ -303,7 +310,7 @@ let BOARD = null;
 if (EP.board) {
   const bd = EP.board;
   BOARD = { w: bd.w, h: bd.h, paper: furl(path.join(HERE, "cache", "longform", "paper.png")), links: [], rewrites: [],
-    cards: Object.entries(bd.cards).map(([id, c]) => ({ id, ...c, ...(c.src ? (({ url, w, h }) => ({ url, iw: w, ih: h }))(photo(c.src)) : {}), t: 1e9 })) };
+    cards: Object.entries(bd.cards).map(([id, c]) => ({ id, ...c, ...(c.src ? (({ url, w, h }) => ({ url, iw: w, ih: h }))(thumb(c.src, 800)) : {}), t: 1e9 })) };
   for (const x of SHOTS) if (x.kind === "board") {
     (x.add || []).forEach((id, k) => { const c = BOARD.cards.find((q) => q.id === id); if (!c) throw new Error("no board card " + id); if (c.t > 1e8) c.t = x.t0 + (x.addAt ?? 0.35) + k * 0.6; });
     (x.link || []).forEach(([a, b], k) => BOARD.links.push({ a: BOARD.cards.findIndex((q) => q.id === a), b: BOARD.cards.findIndex((q) => q.id === b), t: x.t0 + (x.linkAt ?? 0.9) + k * 0.6 }));
@@ -461,7 +468,7 @@ if(BD){brd=document.createElement('div');brd.style.cssText='position:absolute;in
     else b='<div style="background:#f3ead4;padding:22px 28px 26px"><div class="btag" style="display:inline-block;font:800 19px Inter;letter-spacing:.14em;color:#fff;background:'+(c.tagColor||'#6d5f4c')+';border-radius:5px;padding:5px 11px">'+(c.tag||'NOTE')+'</div><div class="bold" style="position:relative;font:800 40px/1.16 Fraunces;color:#1f1a14;margin-top:12px">'+c.text+'<div class="bstrike" style="position:absolute;left:-6px;top:50%;height:7px;width:0;background:#b8332a;border-radius:4px"></div></div><div class="bnew" style="font:800 40px/1.16 Fraunces;color:#b8332a;margin-top:10px;min-height:0"></div>'+(c.cite?'<div style="font:600 21px/1.3 Inter;color:#6d5f4c;margin-top:10px">'+c.cite+'</div>':'')+'</div>';
     return '<div class="bc" data-i="'+c._i+'" style="position:absolute;left:'+(c.x-BD.w/2-c.w/2)+'px;top:'+(c.y-BD.h/2)+'px;width:'+c.w+'px;opacity:0;transform-origin:50% 0"><div style="transform:rotate('+(c.rot||0)+'deg);box-shadow:6px 12px 18px rgba(0,0,0,.5)">'+pin+b+'</div></div>'};
   BD.cards.forEach((c,i)=>c._i=i);
-  let h='<div style="position:absolute;inset:0;perspective:1800px;perspective-origin:50% 45%"><div class="bw" style="position:absolute;left:960px;top:540px;width:0;height:0;transform-style:preserve-3d">';
+  let h='<div style="position:absolute;inset:0;perspective:1800px;perspective-origin:50% 45%"><div class="bw" style="position:absolute;left:960px;top:540px;width:0;height:0">';
   h+='<div style="position:absolute;left:'+(-BD.w/2-40)+'px;top:'+(-BD.h/2-40)+'px;width:'+(BD.w+80)+'px;height:'+(BD.h+80)+'px;background:#3a2a1c;box-shadow:0 20px 40px rgba(0,0,0,.6)"></div>';
   h+='<div style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;width:'+BD.w+'px;height:'+BD.h+'px;background:radial-gradient(ellipse at 50% 40%,#29445a 0%,#16283a 62%,#0d1a26 100%)"></div>';
   h+=BD.cards.map(card).join('');
@@ -628,7 +635,7 @@ const mx = spawnSync("python3", [path.join(HERE, "longform_mix3.py"), path.join(
 if (mx.status) throw new Error("mix failed");
 const workers = +opt("workers", 3), nF = Math.ceil(END * FPS), per = Math.ceil(nF / workers), parts = [];
 // every worker has its own browser; a crashed page is relaunched and the frame redone (up to 8 times per worker)
-const launchW = () => chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none", "--disable-lcd-text", "--allow-file-access-from-files", "--disable-gpu-watchdog", "--disable-dev-shm-usage"] });
+const launchW = () => chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none", "--disable-lcd-text", "--allow-file-access-from-files", "--disable-gpu-watchdog", "--disable-dev-shm-usage", "--disable-gpu"] });
 const pageOn = async (br) => { const p = await br.newPage({ viewport: { width: W, height: H } }); await p.goto(furl(pageFile)); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(300); return p; };
 await b.close();
 await Promise.all(Array.from({ length: workers }, async (_, w) => {
@@ -638,7 +645,7 @@ await Promise.all(Array.from({ length: workers }, async (_, w) => {
     let buf;
     for (;;) {
       try { await p.evaluate((x) => window.setT(x), f / FPS); buf = await p.screenshot({ type: "jpeg", quality: 90, timeout: 180000 }); break; }
-      catch (e) { if (++relaunches > 8) throw e; console.log(`  relaunch worker ${w} at frame ${f}: ${e.message.split("\n")[0]}`); await br.close().catch(() => {}); br = await launchW(); p = await pageOn(br); }
+      catch (e) { if (++relaunches > 120) throw e; console.log(`  relaunch worker ${w} at frame ${f}: ${e.message.split("\n")[0]}`); await br.close().catch(() => {}); await new Promise((r) => setTimeout(r, 1500 + 1500 * w)); br = await launchW(); p = await pageOn(br); }
     }
     if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once("drain", r));
     if (w === 0 && f % 300 === 0) console.log(`  frame ${f}/${f1} (worker 0)`);
