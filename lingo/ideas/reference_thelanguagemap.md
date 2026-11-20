@@ -30,3 +30,11 @@ Saved by the owner on 2026-11-19 as **the first inspiration for long-form videos
    (titles + views). Rank them by views, then pick the topics to make our own versions of.
    Keep the topic and the hook structure (paradox question, "Why did X... but...?"), but write our own wording and
    use our own research and real recordings; don't reuse a title word for word.
+
+## Done (2026-11-20)
+- Blueprint 04: `blueprints/long-form-thelanguagemap.md` (shot-by-shot study of the Philippines MP4, catalog of all 11
+  uploads with views and lengths, technique library, 8–12 min structure, worked Malta opening).
+- Ideas: `blueprints/long-form-video-ideas.md` (12 ranked titles, top 3 outlined).
+- Transcript of the reference: `ideas/ref/thelanguagemap_6aRVKEfEjN4_transcript.txt`; stills in `blueprints/img/tlm/`.
+- Their best titles by views (2026-11-20): Philippines 1.02M, Indonesia 217K, India 209K, America German 107K,
+  Louisiana 90K, Brazil 88K, Basque 63K, Paraguay 40K, Irish 37K.

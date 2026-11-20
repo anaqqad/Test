@@ -60,6 +60,7 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
 - Babies video: `lingo/babycry.mjs` (cries from public YouTube videos the owner is asking permission for; pitch traced with `baby_analyze.py`), Wojak crying babies `wojaks/baby_*.png`.
 
 - Easiest languages (done): `lingo/easy.json` rendered with `node vulgar.mjs --set easy` (explicit `rank` field). Rank = FSI weeks, ties broken by Swadesh look-alike % (`easy_score.py`, Wiktionary appendices in `easy_data/`).
+- Long-form (8–12 min) map explainers in the TheLanguageMap style: Blueprint 04 `lingo/blueprints/long-form-thelanguagemap.md`, ranked ideas `lingo/blueprints/long-form-video-ideas.md` (first pick Malta; narrator still to be decided by the owner).
 - Next-videos to-do list from the owner: `lingo/ideas/TODO.md` (polite ranking, Arabic variants, masculine ranking, hardest and easiest rankings).
 
 ## Uploading to YouTube (local session on the owner's PC)

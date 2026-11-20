@@ -313,7 +313,9 @@ One Word in 10 Languages, Languages That Count Differently.
 38. LONG-FORM inspiration saved by the owner (2026-11-19): TheLanguageMap (@TheLanguageMap), e.g. "Why Did Spain Rule
    the Philippines for 300 Years but Leave Almost No Spanish Behind?". Notes: `lingo/ideas/reference_thelanguagemap.md`.
    Our own long-form "paradox question" explainers on maps (pairs with idea 37).
-   TO DO LATER: analyse one of their videos into Blueprint 04, and rank their best titles (needs the video file + a
-   screenshot of their Popular tab).
+   DONE (2026-11-20): Blueprint 04 `lingo/blueprints/long-form-thelanguagemap.md` (Philippines MP4 analysed shot by shot,
+   full catalog of their 11 uploads with views) and 12 ranked ideas in `lingo/blueprints/long-form-video-ideas.md`
+   (first pick: Malta). Still open: upload the Dutch/Indonesia and Paraguay MP4s to finish the 3-video study; owner
+   decides the narrator (own voice / Piper / paid TTS).
 
 - DROPPED (owner, 2026-11-13): "What English Sounded Like in the 1800s" (`oldvoices`): too close to an idea already done (how English sounded through time). Don't suggest it again. Its files stay in the repo unused.
