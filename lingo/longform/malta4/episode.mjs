@@ -114,7 +114,7 @@ export default {
 
   // ── 3D Mediterranean table: one paper sea chart on a wooden table; north up, one scale, the same labels throughout ──
   table: {
-    tex: "v4/tex_table.jpg", w: 2600, box: [[9.4, 34.3], [18.6, 42.0]], regions: ["sicily", "malta", "tunisia"],
+    tex: "v4/tex_table_dark.jpg", w: 2600, box: [[9.4, 34.3], [18.6, 42.0]], regions: ["sicily", "malta", "tunisia"],
     labels: [["SICILY", "sicily", 64, 0, 10], ["MALTA", "malta", 40, 0, 74], ["GOZO", "gozo", 24, -36, -34], ["TUNISIA", [9.95, 35.3], 54], ["ITALY", [16.3, 40.25], 64],
       ["PALERMO", "palermo", 26, 0, -24], ["LUCERA", "lucera", 30, 0, -26], ["MEDITERRANEAN SEA", [12.2, 34.75], 34]],
     objects: {

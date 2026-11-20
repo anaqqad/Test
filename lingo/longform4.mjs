@@ -438,9 +438,8 @@ function objHTML(ob){
 let tbl=null,brd=null;const desks={};
 if(TB){tbl=document.createElement('div');tbl.style.cssText='position:absolute;inset:0;opacity:0;display:none;background:#0b0806;overflow:hidden';
   let h='<div style="position:absolute;inset:0;perspective:1500px;perspective-origin:50% 40%"><div class="tbw" style="position:absolute;left:960px;top:540px;width:0;height:0;transform-style:preserve-3d">';
-  h+='<div style="position:absolute;left:'+(-TB.w/2-2600)+'px;top:'+(-TB.h/2-3200)+'px;width:'+(TB.w+5200)+'px;height:'+(TB.h+5200)+'px;background:url('+TB.tex+') 0 0/1500px 1500px;filter:brightness(.52) saturate(.85)"></div>';
-  h+='<div style="position:absolute;left:'+(-TB.w/2+26)+'px;top:'+(-TB.h/2+36)+'px;width:'+TB.w+'px;height:'+TB.h+'px;background:rgba(0,0,0,.6);filter:blur(28px)"></div>';
-  h+='<div style="position:absolute;left:'+(-TB.w/2)+'px;top:'+(-TB.h/2)+'px;width:'+TB.w+'px;height:'+TB.h+'px;background:#efe4c9;overflow:hidden"><svg width="'+TB.w+'" height="'+TB.h+'" style="position:absolute;inset:0"><rect width="'+TB.w+'" height="'+TB.h+'" fill="#a3bec7"/>';
+  h+='<div style="position:absolute;left:'+(-TB.w/2-2600)+'px;top:'+(-TB.h/2-3200)+'px;width:'+(TB.w+5200)+'px;height:'+(TB.h+5200)+'px;background:url('+TB.tex+') 0 0/1500px 1500px"></div>';
+  h+='<div style="position:absolute;left:'+(-TB.w/2)+'px;top:'+(-TB.h/2)+'px;width:'+TB.w+'px;height:'+TB.h+'px;background:#efe4c9;overflow:hidden;box-shadow:24px 34px 60px rgba(0,0,0,.6)"><svg width="'+TB.w+'" height="'+TB.h+'" style="position:absolute;inset:0"><rect width="'+TB.w+'" height="'+TB.h+'" fill="#a3bec7"/>';
   h+=TB.grat.map(d=>'<path d="'+d+'" fill="none" stroke="rgba(40,70,90,.18)" stroke-width="2"/>').join('');
   h+='<path d="'+TB.land+'" fill="#efe3c6" stroke="#8f7a58" stroke-width="2.4" stroke-linejoin="round"/>';
   h+=Object.entries(TB.regs).map(([k,d])=>'<path class="trg" data-k="'+k+'" d="'+d+'" fill="transparent" stroke="#4a3826" stroke-width="3" stroke-opacity="0"/>').join('');
@@ -449,7 +448,7 @@ if(TB){tbl=document.createElement('div');tbl.style.cssText='position:absolute;in
   h+='<g transform="translate('+(TB.w-150)+',150)"><circle r="62" fill="none" stroke="#33281c" stroke-width="3"/><path d="M0,-52 L16,10 L0,0 L-16,10 Z" fill="#b8332a"/><text y="-70" text-anchor="middle" font-family="Inter" font-weight="800" font-size="34" fill="#33281c">N</text></g>';
   h+='<g transform="translate(90,'+(TB.h-90)+')"><rect width="'+TB.km100+'" height="14" fill="#33281c"/><rect width="'+(TB.km100/2)+'" height="14" fill="#efe4c9" stroke="#33281c" stroke-width="2"/><text y="-14" font-family="Inter" font-weight="800" font-size="30" fill="#33281c">100 KM</text></g>';
   if(TB.title){const T2=TB.title;h+='<g class="tttl" opacity="0" transform="translate('+T2.xy[0]+','+T2.xy[1]+') rotate('+(T2.rot||-4)+')">'+T2.lines.map((ln,i)=>'<text y="'+(i*T2.size*1.12)+'" text-anchor="middle" font-family="Fraunces" font-weight="900" font-size="'+T2.size+'" fill="#b8332a" stroke="#efe4c9" stroke-width="'+(T2.size*0.12)+'" paint-order="stroke">'+ln+'</text>').join('')+'</g>'}
-  h+='</svg><div style="position:absolute;inset:0;background:url('+TB.paper+') 0 0/900px;mix-blend-mode:multiply;opacity:.55"></div><div style="position:absolute;inset:0;box-shadow:inset 0 0 110px rgba(80,50,20,.5)"></div></div>';
+  h+='</svg><div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(80,50,20,0) 62%,rgba(80,50,20,.35) 100%)"></div></div>';
   TB.objs.forEach((ob,i)=>{h+='<div class="tob" data-i="'+i+'" style="position:absolute;left:'+(ob.x-TB.w/2)+'px;top:'+(ob.y-TB.h/2)+'px;width:0;height:0;transform-style:preserve-3d;opacity:0"><div class="tsh" style="position:absolute;left:'+(-ob.w/2+10)+'px;top:'+(-ob.h/2+16)+'px;width:'+ob.w+'px;height:'+ob.h+'px;border-radius:'+(ob.kind==='coin'?'50%':'6px')+';background:rgba(0,0,0,.6);filter:blur(12px);transform:rotate('+(ob.rot||0)+'deg)"></div><div class="tod" style="position:absolute;left:'+(-ob.w/2)+'px;top:'+(-ob.h/2)+'px;width:'+ob.w+'px;transform-origin:50% 50%">'+objHTML(ob)+'</div></div>'});
   h+='</div></div><div class="tdof" style="position:absolute;inset:0;pointer-events:none"></div>'+light;
   tbl.innerHTML=h;ov.prepend(tbl)}
@@ -460,17 +459,17 @@ if(BD){brd=document.createElement('div');brd.style.cssText='position:absolute;in
     else if(c.kind==='word')b='<div style="background:#f6efdc;padding:24px 32px 28px;text-align:center"><div style="font:800 20px Inter;letter-spacing:.14em;color:#b8332a">'+(c.tag||'')+'</div><div style="font:italic 900 70px/1.1 Fraunces;color:#1f1a14;margin-top:6px">'+c.text+'</div>'+(c.sub?'<div style="font:600 24px Inter;color:#6d5f4c;margin-top:6px">'+c.sub+'</div>':'')+'</div>';
     else if(c.kind==='conclusion')b='<div style="background:#f2c46b;padding:24px 30px 30px"><div style="font:800 19px Inter;letter-spacing:.14em;color:#7a1f18">'+(c.tag||'WHAT THE EVIDENCE SUPPORTS')+'</div><div style="font:900 44px/1.12 Fraunces;color:#1f1a14;margin-top:10px">'+c.text+'</div></div>';
     else b='<div style="background:#f3ead4;padding:22px 28px 26px"><div class="btag" style="display:inline-block;font:800 19px Inter;letter-spacing:.14em;color:#fff;background:'+(c.tagColor||'#6d5f4c')+';border-radius:5px;padding:5px 11px">'+(c.tag||'NOTE')+'</div><div class="bold" style="position:relative;font:800 40px/1.16 Fraunces;color:#1f1a14;margin-top:12px">'+c.text+'<div class="bstrike" style="position:absolute;left:-6px;top:50%;height:7px;width:0;background:#b8332a;border-radius:4px"></div></div><div class="bnew" style="font:800 40px/1.16 Fraunces;color:#b8332a;margin-top:10px;min-height:0"></div>'+(c.cite?'<div style="font:600 21px/1.3 Inter;color:#6d5f4c;margin-top:10px">'+c.cite+'</div>':'')+'</div>';
-    return '<div class="bc" data-i="'+c._i+'" style="position:absolute;left:'+(c.x-BD.w/2-c.w/2)+'px;top:'+(c.y-BD.h/2)+'px;width:'+c.w+'px;opacity:0;transform-origin:50% 0"><div style="transform:rotate('+(c.rot||0)+'deg);filter:drop-shadow(6px 12px 10px rgba(0,0,0,.55))">'+pin+b+'</div></div>'};
+    return '<div class="bc" data-i="'+c._i+'" style="position:absolute;left:'+(c.x-BD.w/2-c.w/2)+'px;top:'+(c.y-BD.h/2)+'px;width:'+c.w+'px;opacity:0;transform-origin:50% 0"><div style="transform:rotate('+(c.rot||0)+'deg);box-shadow:6px 12px 18px rgba(0,0,0,.5)">'+pin+b+'</div></div>'};
   BD.cards.forEach((c,i)=>c._i=i);
   let h='<div style="position:absolute;inset:0;perspective:1800px;perspective-origin:50% 45%"><div class="bw" style="position:absolute;left:960px;top:540px;width:0;height:0;transform-style:preserve-3d">';
-  h+='<div style="position:absolute;left:'+(-BD.w/2-40)+'px;top:'+(-BD.h/2-40)+'px;width:'+(BD.w+80)+'px;height:'+(BD.h+80)+'px;background:#3a2a1c;box-shadow:0 30px 80px rgba(0,0,0,.6)"></div>';
-  h+='<div style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;width:'+BD.w+'px;height:'+BD.h+'px;background:radial-gradient(ellipse at 50% 40%,#29445a,#16283a 70%);box-shadow:inset 0 0 140px rgba(0,0,0,.6)"><div style="position:absolute;inset:0;background:url('+BD.paper+') 0 0/700px;mix-blend-mode:multiply;opacity:.75"></div></div>';
+  h+='<div style="position:absolute;left:'+(-BD.w/2-40)+'px;top:'+(-BD.h/2-40)+'px;width:'+(BD.w+80)+'px;height:'+(BD.h+80)+'px;background:#3a2a1c;box-shadow:0 20px 40px rgba(0,0,0,.6)"></div>';
+  h+='<div style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;width:'+BD.w+'px;height:'+BD.h+'px;background:radial-gradient(ellipse at 50% 40%,#29445a 0%,#16283a 62%,#0d1a26 100%)"></div>';
   h+=BD.cards.map(card).join('');
-  h+='<svg class="bstr" width="'+BD.w+'" height="'+BD.h+'" style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;overflow:visible">'+BD.links.map((l,i)=>'<path class="bl" data-i="'+i+'" fill="none" stroke="#c4372c" stroke-width="5" stroke-linecap="round" opacity="0" style="filter:drop-shadow(3px 6px 3px rgba(0,0,0,.5))"/>').join('')+'</svg>';
+  h+='<svg class="bstr" width="'+BD.w+'" height="'+BD.h+'" style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;overflow:visible">'+BD.links.map((l,i)=>'<path class="bl" data-i="'+i+'" fill="none" stroke="#c4372c" stroke-width="5" stroke-linecap="round" opacity="0"/>').join('')+'</svg>';
   h+='</div></div><div class="bdof" style="position:absolute;inset:0;pointer-events:none"></div>'+light;
   brd.innerHTML=h;ov.prepend(brd)}
 for(const k in DK){const d=DK[k],PW=1000,PH=Math.round(PW*d.ih/d.iw);d.PW=PW;d.PH=PH;const el=document.createElement('div');el.style.cssText='position:absolute;inset:0;opacity:0;display:none;background:#0b0705;overflow:hidden';
-  el.innerHTML='<div style="position:absolute;inset:0;perspective:1500px;perspective-origin:50% 42%"><div class="dw" style="position:absolute;left:960px;top:540px;width:0;height:0;transform-style:preserve-3d"><div style="position:absolute;left:-3000px;top:-2200px;width:6000px;height:4400px;background:url('+d.tex+') 0 0/1400px 1400px"></div><div style="position:absolute;left:'+(-PW/2+12)+'px;top:'+(-PH/2+16)+'px;width:'+PW+'px;height:'+PH+'px;background:rgba(0,0,0,.6);filter:blur(16px)"></div><div class="pg" style="position:absolute;left:'+(-PW/2)+'px;top:'+(-PH/2)+'px;width:'+PW+'px;height:'+PH+'px"><img src="'+d.url+'" style="width:100%;height:100%;display:block"><div style="position:absolute;inset:0;background:linear-gradient(225deg,rgba(255,214,160,.10) 0%,rgba(0,0,0,0) 40%,rgba(20,12,6,.30) 100%)"></div><div class="dsw" style="position:absolute;width:0;background:rgba(242,196,107,.42);border-bottom:3px solid #b8332a;opacity:0"></div><div class="dln" style="position:absolute;border:4px solid #b8332a;border-radius:6px;opacity:0"></div><div class="dmk" style="position:absolute;border:4px solid #b8332a;border-radius:50%;opacity:0"></div></div></div></div><div class="ddof" style="position:absolute;inset:0;pointer-events:none"></div>'+light+'<div style="position:absolute;left:22px;bottom:16px;font:500 16px Inter;color:rgba(225,225,225,.75)">'+d.credit+'</div>';
+  el.innerHTML='<div style="position:absolute;inset:0;perspective:1500px;perspective-origin:50% 42%"><div class="dw" style="position:absolute;left:960px;top:540px;width:0;height:0;transform-style:preserve-3d"><div style="position:absolute;left:-3000px;top:-2200px;width:6000px;height:4400px;background:url('+d.tex+') 0 0/1400px 1400px"></div><div class="pg" style="position:absolute;left:'+(-PW/2)+'px;top:'+(-PH/2)+'px;width:'+PW+'px;height:'+PH+'px;box-shadow:12px 18px 34px rgba(0,0,0,.6)"><img src="'+d.url+'" style="width:100%;height:100%;display:block"><div style="position:absolute;inset:0;background:linear-gradient(225deg,rgba(255,214,160,.10) 0%,rgba(0,0,0,0) 40%,rgba(20,12,6,.30) 100%)"></div><div class="dsw" style="position:absolute;width:0;background:rgba(242,196,107,.42);border-bottom:3px solid #b8332a;opacity:0"></div><div class="dln" style="position:absolute;border:4px solid #b8332a;border-radius:6px;opacity:0"></div><div class="dmk" style="position:absolute;border:4px solid #b8332a;border-radius:50%;opacity:0"></div></div></div></div><div class="ddof" style="position:absolute;inset:0;pointer-events:none"></div>'+light+'<div style="position:absolute;left:22px;bottom:16px;font:500 16px Inter;color:rgba(225,225,225,.75)">'+d.credit+'</div>';
   ov.prepend(el);desks[k]=el}
 let bdMeasured=false;
 function boardMeasure(){bdMeasured=true;BD.cards.forEach(c=>{const e=brd.querySelector('.bc[data-i="'+c._i+'"]');c._h=e.offsetHeight})}
@@ -585,7 +584,7 @@ window.setT=setT;
 // ───────── render ─────────
 const pageFile = path.join(CACHE, `page_${TAG}.html`); fs.writeFileSync(pageFile, html);
 const OUT = path.join(HERE, "out");
-const b = await chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none", "--disable-lcd-text", "--allow-file-access-from-files"] });
+const b = await chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none", "--disable-lcd-text", "--allow-file-access-from-files", "--disable-gpu-watchdog", "--disable-dev-shm-usage"] });
 const openPage = async () => { const p = await b.newPage({ viewport: { width: W, height: H } }); await p.goto(furl(pageFile)); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(300); return p; };
 const stills = opt("still", null);
 if (stills) {
@@ -628,18 +627,24 @@ fs.writeFileSync(path.join(CACHE, `mix_${TAG}.json`), JSON.stringify(spec));
 const mx = spawnSync("python3", [path.join(HERE, "longform_mix3.py"), path.join(CACHE, `mix_${TAG}.json`), mixFile], { stdio: "inherit" });
 if (mx.status) throw new Error("mix failed");
 const workers = +opt("workers", 3), nF = Math.ceil(END * FPS), per = Math.ceil(nF / workers), parts = [];
+// every worker has its own browser; a crashed page is relaunched and the frame redone (up to 8 times per worker)
+const launchW = () => chromium.launch({ executablePath: process.env.CHROMIUM || "/opt/pw-browsers/chromium", args: ["--font-render-hinting=none", "--disable-lcd-text", "--allow-file-access-from-files", "--disable-gpu-watchdog", "--disable-dev-shm-usage"] });
+const pageOn = async (br) => { const p = await br.newPage({ viewport: { width: W, height: H } }); await p.goto(furl(pageFile)); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(300); return p; };
+await b.close();
 await Promise.all(Array.from({ length: workers }, async (_, w) => {
-  const p = await openPage(), f0 = w * per, f1 = Math.min(nF, f0 + per), out = path.join(CACHE, `part${w}_${TAG}.mp4`); parts[w] = out;
+  let br = await launchW(), p = await pageOn(br), relaunches = 0; const f0 = w * per, f1 = Math.min(nF, f0 + per), out = path.join(CACHE, `part${w}_${TAG}.mp4`); parts[w] = out;
   const ff = spawn("ffmpeg", ["-v", "error", "-y", "-f", "image2pipe", "-c:v", "mjpeg", "-r", String(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", out], { stdio: ["pipe", "inherit", "inherit"] });
   for (let f = f0; f < f1; f++) {
-    await p.evaluate((x) => window.setT(x), f / FPS);
-    let buf; for (let k = 0; ; k++) { try { buf = await p.screenshot({ type: "jpeg", quality: 90, timeout: 180000 }); break; } catch (e) { if (k >= 2) throw e; console.log(`  retry frame ${f}: ${e.message.split("\n")[0]}`); await p.waitForTimeout(2000); } }
+    let buf;
+    for (;;) {
+      try { await p.evaluate((x) => window.setT(x), f / FPS); buf = await p.screenshot({ type: "jpeg", quality: 90, timeout: 180000 }); break; }
+      catch (e) { if (++relaunches > 8) throw e; console.log(`  relaunch worker ${w} at frame ${f}: ${e.message.split("\n")[0]}`); await br.close().catch(() => {}); br = await launchW(); p = await pageOn(br); }
+    }
     if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once("drain", r));
     if (w === 0 && f % 300 === 0) console.log(`  frame ${f}/${f1} (worker 0)`);
   }
-  ff.stdin.end(); await new Promise((r) => ff.on("close", r)); await p.close();
+  ff.stdin.end(); await new Promise((r) => ff.on("close", r)); await br.close();
 }));
-await b.close();
 fs.writeFileSync(path.join(CACHE, `parts_${TAG}.txt`), parts.map((p) => `file '${p}'`).join("\n"));
 const final = path.join(OUT, `${TAG}.mp4`);
 run("ffmpeg", ["-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", path.join(CACHE, `parts_${TAG}.txt`), "-i", mixFile, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", String(END), "-movflags", "+faststart", final]);
