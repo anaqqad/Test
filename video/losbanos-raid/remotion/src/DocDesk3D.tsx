@@ -18,6 +18,8 @@ export type Shot = {
 export const SHOTS = {
   // A: overhead wide, slow push + slight turn (Hoog 5:39-5:48)
   wide: (fx = 0.5, fy = 0.5): Shot => ({ from: { tilt: 26, rz: -6, zoom: 0.62, fx, fy }, to: { tilt: 30, rz: -2, zoom: 0.72, fx, fy }, focus: { y: 0.5, band: 0.7, blur: 2.5 } }),
+  // E: wide caption slip (landscape strip): overhead, filling the frame width, slow push
+  strip: (fy = 0.5): Shot => ({ from: { tilt: 22, rz: -4, zoom: 1.4, fx: 0.5, fy }, to: { tilt: 26, rz: -1.5, zoom: 1.55, fx: 0.5, fy }, focus: { y: 0.5, band: 0.75, blur: 2 } }),
   // C: macro glide along a line of text, narrow focus band (Hoog 11:16-11:41)
   glide: (fy: number, x0 = 0.25, x1 = 0.7): Shot => ({ from: { tilt: 34, rz: -2, zoom: 2.5, fx: x0, fy }, to: { tilt: 36, rz: -1, zoom: 2.6, fx: x1, fy }, focus: { y: 0.5, band: 0.22, blur: 8 } }),
   // D: grazing angle that rises and pulls back (Hoog 11:44-11:53)

@@ -205,7 +205,7 @@ P = [
     [("Hungry men kept slipping", "TRV", T(11, 25.0)), ("@", "Hungry men kept slipping", TRVS_TAG)],
     # 24 George Louis (print + caption on the desk)
     [("Eight days later", "LBC", T(4, 19.0)), ("@", "Eight days later", LBC_TAG),
-     ("#", "The caption calls him", None, DESK("stills/caption_louis_1945_paper.png", 2.6481, [(0, "wide", [0.5, 0.4]), ("an American civilian", "glide", [0.3, 0.12, 0.6])],
+     ("#", "The caption calls him", None, DESK("stills/caption_louis_1945_paper.png", 0.3776, [(0, "strip", [0.5]), ("an American civilian", "glide", [0.21, 0.1, 0.72])],
         "Signal Corps caption SC 269119-R, 18 May 1945 · National Archives 111-SCA album 2895"))],
     # 25 trenches
     [("Around that time", "LBC", T(5, 7.0)), ("@", "Around that time", LBC_TAG), ("But a rumor spread", "LBC", T(4, 9.0))],
@@ -294,7 +294,7 @@ P = [
     [("At seven o'clock", "JMP", T(4, 40.0)), ("@", "At seven o'clock", JMP_TAG), ("It belonged to", "JMP", T(4, 48.0)), ("In less than a minute", "JMP", T(8, 21.0))],
     # 50 amtracs land; the report page on the desk
     [("At the same moment", "LBR", T(0, 18.0)), ("@", "At the same moment", LBR_TAG), ("and the first American", "LBR", T(2, 11.0)),
-     ("#", "On the exercise field", None, DESK("stills/report_p1_1945_paper.png", 0.7268,
+     ("#", "On the exercise field", None, DESK("stills/report_p1_1945_paper.png", 1.3759,
         [(0, "wide", [0.5, 0.45]), ("the guards ran", "glide", [0.475, 0.2, 0.75])],
         "188th Glider Infantry narrative history, 1945 · NARA 111-SCA album 2895"))],
     # 51 paratrooper boots (quote)
@@ -316,7 +316,7 @@ P = [
     # 56 across the lake; the after-action report on the desk
     [("The battalion commander", "LBC", T(7, 24.0)), ("@", "The battalion commander", LBC_TAG), ("The first lift", "LBR", T(1, 59.0)), ("@", "The first lift", LBR_TAG),
      ("The others waited", "LBC", T(7, 34.0)), ("And at five o'clock", "LBR", T(3, 7.0)),
-     ("#", "And at five o'clock", None, DESK("stills/report_p2_1945_paper.png", 0.7463,
+     ("#", "And at five o'clock", None, DESK("stills/report_p2_1945_paper.png", 1.34,
         [(0, "wide", [0.5, 0.42]), ("were safe behind", "glide", [0.37, 0.2, 0.75]), ("with one internee", "glide", [0.5, 0.2, 0.75])],
         "11th Airborne Division report after action, Luzon 1945 · NARA 111-SCA album 2895"))],
     # 57 the dead
@@ -362,7 +362,7 @@ P = [
     [("On the sixth of March", "TRV", T(10, 56.0)), ("@", "On the sixth of March", TRVS_TAG),
      ("#", "At the trial he said", "His grandparents", QC("stills/grave_hell_1945.jpg", [("I heard my sister whining,", "I heard my sister"), ("and I crawled out from under the dead bodies", "and I crawled out"), ("and dug her out.", "and dug her out")],
         "Ang Kim Ling, testimony at the Konishi trial, 1946", "and dug her out")),
-     ("#", "In May, an Army photographer", None, DESK("stills/caption_ang_1945_paper.png", 3.6508, [(0, "wide", [0.5, 0.45]), ("he and his sister", "glide", [0.45, 0.12, 0.75])],
+     ("#", "In May, an Army photographer", None, DESK("stills/caption_ang_1945_paper.png", 0.2739, [(0, "strip", [0.5]), ("he and his sister", "glide", [0.38, 0.1, 0.72])],
         "Signal Corps caption SC 210419, 19 May 1945 · National Archives 111-SCA album 2895"))],
     # 68 how many (bars)
     [("#", "How many people were killed", None, BARS("FILE 10 — THE DEAD AROUND LOS BAÑOS", "Estimates, 21 February – 6 March 1945",

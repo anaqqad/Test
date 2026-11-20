@@ -21,7 +21,7 @@ export const QuoteCardJ: React.FC<{ bg?: string; portrait?: string; lines: { tex
   );
 };
 
-type ShotSpec = { t: number; kind: "wide" | "glide" | "grazing" | "heading"; args: number[] };
+type ShotSpec = { t: number; kind: "wide" | "glide" | "grazing" | "heading" | "strip"; args: number[] };
 export const DocDesk: React.FC<{ page: string; aspect: number; desk: string; shots: ShotSpec[]; credit: string }> = ({ page, aspect, desk, shots, credit }) => {
   const { durationInFrames: d } = useVideoConfig();
   return (
