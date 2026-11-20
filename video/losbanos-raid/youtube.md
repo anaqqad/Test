@@ -78,4 +78,7 @@ Not posted unless asked.
 - Captions: `out/losbanos-raid.srt`.
 - End screen: the Navajo code episode (VJt7ApciV_Q) plus a subscribe button, last 20 s.
 
-**Status 19 Nov 2026:** prepared, not rendered (owner: "do not render until I tell u").
+**Published** 20 Nov 2026, public: https://youtu.be/ZMoU6MrZwRY (30:01, 1080p, -16 LUFS; WWII Frontlines; Education; not made for kids;
+altered content No; 17 tags; thumbnail A; English captions from out/losbanos-raid.srt published; "Publish anyway" while checks ran).
+Rendered after the owner said "Render it". QC fixes before publishing: travelogue watermark cropped and its title card avoided,
+black second at 26:06 removed, Santo Tomas newsreel graded down, escape reconstruction men made visible, verdict card cut to 5 rows.

@@ -19,7 +19,7 @@ name = sys.argv[sys.argv.index("--name") + 1] if "--name" in sys.argv else "losb
 clips = ROOT / "build/clips"; clips.mkdir(parents=True, exist_ok=True)
 W, H = (1920, 1080) if "--hd" in sys.argv else (1280, 720)
 # per-film corrections (washed-out prints)
-GRADE = {}  # per-film ffmpeg filters (eq / crop) for faded prints
+GRADE = {"philippines_travelogue_1940s": "crop=iw*0.75:ih:iw*0.125:0,", "santo_tomas_newsreel_1945": "eq=contrast=0.8:brightness=-0.07:gamma=1.08,"}  # per-film ffmpeg filters (eq / crop) for faded prints
 # no-AI clean-up of the best archive copies (owner's choice, 5 Nov 2026): deinterlace only frames flagged interlaced and
 # light denoise before scaling, mild sharpening after
 CLEAN = ("bwdif=mode=send_frame:deint=interlaced,", "unsharp=3:3:0.35,")  # HD masters: no denoise (it smeared detail), light sharpen

@@ -22,7 +22,9 @@ for (const card of sb.overlays) {
   if (only.length && !only.includes(card.id)) continue;
   const frames = Math.round((card.end - card.start) * sb.fps);
   const inputProps = { card, frames };
-  const composition = await selectComposition({ serveUrl, id: "Overlay", inputProps, browserExecutable });
+  let composition;
+  try { composition = await selectComposition({ serveUrl, id: "Overlay", inputProps, browserExecutable, timeoutInMilliseconds: 180000 }); }
+  catch (e) { console.log(card.id, "Error:", String(e).slice(0, 160)); continue; }
   if (stills) {
     const out = path.join(outDir, `${card.id}.png`);
     await renderStill({ composition, serveUrl, output: out, frame: Math.max(0, frames - 22), inputProps, browserExecutable });
@@ -33,11 +35,11 @@ for (const card of sb.overlays) {
   const OPAQUE = new Set(["QuoteCard", "DocDesk", "GlobeMap"]);  // these never fade to transparent
   const out = path.join(outDir, `${card.id}.webm`);
   const t = Date.now();
-  await renderMedia({
+  try { await renderMedia({
     composition, serveUrl, codec: "vp9", ...(OPAQUE.has(card.type) ? { pixelFormat: "yuv420p", imageFormat: "jpeg", jpegQuality: 92 } : { pixelFormat: "yuva420p", imageFormat: "png" }), crf: 18,
     outputLocation: out, inputProps, browserExecutable, concurrency: 3, muted: true,
     // HEIGHT=720 renders 1280x720 (the published size): frames are written to temp as PNGs first, ~2 MB each at 1080p
-    scale: Number(process.env.HEIGHT || 1080) / 1080,
-  });
+    scale: Number(process.env.HEIGHT || 1080) / 1080, timeoutInMilliseconds: 180000,
+  }); } catch (e) { console.log(card.id, "Error:", String(e).slice(0, 160)); try { fs.unlinkSync(out); } catch {} continue; }
   console.log(card.id, frames, "frames", ((Date.now() - t) / 1000).toFixed(0) + "s");
 }

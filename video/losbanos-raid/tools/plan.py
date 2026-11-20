@@ -19,7 +19,7 @@ CUT_LEAD = 0.1
 F = {  # film key -> (file in assets/footage, fraction of height kept)
     "LBR": ("losbanos_rescue_1945", 1), "LBC": ("losbanos_camp_feb1945", 1), "BIL": ("losbanos_bilibid_1945", 1),
     "JMP": ("airborne_jump_lipa_1945", 1), "COR": ("paratroop_corregidor_1945", 1), "STI": ("santo_tomas_internees_1945", 1),
-    "STN": ("santo_tomas_newsreel_1945", 1), "TRV": ("philippines_travelogue_1940s", 0.85), "INT": ("internee_interviews_1945", 1),
+    "STN": ("santo_tomas_newsreel_1945", 1), "TRV": ("philippines_travelogue_1940s", 0.81), "INT": ("internee_cut_1945", 1),
 }
 
 
@@ -89,10 +89,10 @@ PAR = [121.019, 14.479]  # Parañaque (11th Airborne HQ)
 FIELD = {"type": "Section", "world": "ground", "W": 3000, "H": 1500, "surface": 820,
          "date": "Los Baños · 23 February 1945, 6:45 a.m.", "place": "Reconstruction · from Army reports and internee accounts",
          "cam": [{"t": 0, "x": 1500, "y": 760, "z": 0.75}, {"t": 7, "x": 1450, "y": 760, "z": 0.95}, {"t": 16, "x": 1400, "y": 780, "z": 1.1}],
-         "items": [{"kind": "hut", "x": 420, "y": 820, "w": 460, "label": "Arms room", "labelAt": "Their rifles are locked", "labelTo": 16},
+         "items": [{"kind": "hut", "x": 420, "y": 820, "w": 460, "label": "Arms room", "labelAt": "Their rifles are locked", "labelTo": 30},
                    {"kind": "hut", "x": 2450, "y": 820, "w": 520, "label": "Hospital", "labelAt": 0.6, "labelTo": 5},
                    {"kind": "fence", "x": 2900, "y": 820, "w": 300}, {"kind": "tower", "x": 120, "y": 820},
-                   {"kind": "man", "x": 1050, "y": 820}, {"kind": "man", "x": 1200, "y": 820}, {"kind": "man", "x": 1350, "y": 820, "label": "Off-duty guards", "labelAt": "the off-duty Japanese guards", "labelTo": 16},
+                   {"kind": "man", "x": 1050, "y": 820}, {"kind": "man", "x": 1200, "y": 820}, {"kind": "man", "x": 1350, "y": 820, "label": "Off-duty guards", "labelAt": "the off-duty Japanese guards", "labelTo": 30},
                    {"kind": "man", "x": 1500, "y": 820}, {"kind": "man", "x": 1650, "y": 820}, {"kind": "man", "x": 1800, "y": 820}],
          "pills": [{"t0": "loincloths and sandals", "t1": "Their rifles are locked", "text": "Loincloths and sandals"},
                    {"t0": "Their rifles are locked", "t1": 30, "text": "Rifles locked in the arms room", "y": 230}],
@@ -104,10 +104,10 @@ ESCAPE = {"type": "Section", "world": "ground", "W": 3000, "H": 1500, "surface":
           "items": [{"kind": "hut", "x": 450, "y": 820, "w": 480, "label": "Barracks", "labelAt": 0.5, "labelTo": "They walked toward"},
                     {"kind": "hut", "x": 1650, "y": 820, "w": 460, "label": "Hospital", "labelAt": "toward the hospital", "labelTo": "then crawled under"},
                     {"kind": "fence", "x": 2250, "y": 820, "w": 500}, {"kind": "tower", "x": 2700, "y": 820, "label": "Guard post · about 40 ft", "labelAt": "A manned guard post", "labelTo": 30},
-                    {"kind": "man", "x": 600, "y": 820, "pose": "walk", "move": [{"t": "At nine at night", "x": 600}, {"t": "toward the hospital", "x": 1450}, {"t": "then crawled under", "x": 1950}]},
+                    {"kind": "man", "x": 600, "y": 820, "pose": "walk", "move": [{"t": "At nine at night", "x": 600, "y": 820}, {"t": "toward the hospital", "x": 1450, "y": 820}, {"t": "then crawled under", "x": 1950, "y": 820}]},
                     {"kind": "man", "x": 680, "y": 820, "pose": "walk", "label": "Miles, 'ill'", "labelAt": "Miles limped", "labelTo": "then crawled under",
-                     "move": [{"t": "At nine at night", "x": 680}, {"t": "toward the hospital", "x": 1530}, {"t": "then crawled under", "x": 2030}]},
-                    {"kind": "man", "x": 760, "y": 820, "pose": "walk", "move": [{"t": "At nine at night", "x": 760}, {"t": "toward the hospital", "x": 1610}, {"t": "then crawled under", "x": 2110}]}],
+                     "move": [{"t": "At nine at night", "x": 680, "y": 820}, {"t": "toward the hospital", "x": 1530, "y": 820}, {"t": "then crawled under", "x": 2030, "y": 820}]},
+                    {"kind": "man", "x": 760, "y": 820, "pose": "walk", "move": [{"t": "At nine at night", "x": 760, "y": 820}, {"t": "toward the hospital", "x": 1610, "y": 820}, {"t": "then crawled under", "x": 2110, "y": 820}]}],
           "pills": [{"t0": "carrying a lantern", "t1": "then crawled under", "text": "Out the door with a lantern"},
                     {"t0": "then crawled under", "t1": 30, "text": "Under the wire behind the hospital", "y": 230}],
           "source": HEN}
@@ -141,10 +141,9 @@ P = [
     [("The story starts", "TRV", T(1, 13.0)), ("@", "The story starts", TRV_TAG), ("#", "The story starts", None, SLUG("January 1942 · Manila", "The Japanese occupation begins")),
      ("and thousands of American", "STN", T(0, 4.0)), ("@", "and thousands of American", STN_TAG)],
     # 8 to Los Baños (map)
-    [("By nineteen forty-three", "STN", T(0, 56.0)),
+    [("By nineteen forty-three", "STN", T(0, 56.0)), ("In May, the Japanese", "LBR", T(0, 6.0)),
      ("#", "In May, the Japanese", None, {"type": "GlobeMap", "theme": "history",
         "cam": [{"t": 0, "center": [122, 13], "scale": 7}, {"t": "south to build", "center": [121.1, 14.4], "scale": 110}],
-        "fills": [{"ids": ["608"], "color": "ally", "stroke": "allyStroke", "at": 0.2, "label": "Luzon", "labelAt": [121.0, 16.2]}],
         "pins": [{"ll": MNL, "label": "Manila · Santo Tomas", "at": 0.8}, {"ll": LB, "label": "Los Baños", "at": "The site was the College"},
                  {"ll": [121.2, 14.13], "label": "Mount Makiling", "at": "green slopes", "color": "amber"},
                  {"ll": [121.25, 14.38], "label": "Laguna de Bay", "at": "a wide lake", "color": "west"}],
@@ -174,7 +173,7 @@ P = [
     [("Internees told the historian", "LBR", T(14, 48.0)), ("@", "Internees told the historian", "Stand-in · supplies unloaded, New Bilibid, 1945 · AAF film (CS-3274)"),
      ("Then he ordered them", "LBR", T(14, 59.0)), ("What is documented", "LBR", T(26, 6.0))],
     # 16 Nance's count (bars)
-    [("The camp doctor", "INT", T(36, 36.0)), ("@", "The camp doctor", INT_TAG),
+    [("The camp doctor", "INT", T(4, 36.0)), ("@", "The camp doctor", INT_TAG),
      ("#", "In October", None, BARS("FILE 03 — THE CAMP DOCTOR", "Calories a day, October 1944",
         [("Internee ration (Dr. Nance)", 881, "881", "a fall of almost two thirds in a month"), ("Guards (internees' estimate)", 3500, "3,000–4,000", "")], 4000, HEN))],
     # 17 THE CAMP URGENTLY NEEDS MORE FOOD + grams
@@ -182,7 +181,7 @@ P = [
      ("#", "After the war", None, BARS("FILE 03 — ARMY WAR CRIMES FINDINGS", "Food per person, per day",
         [("September 1944", 400, "400 g", "about 14 oz"), ("February 1945", 150, "150 g or less", "about 5 oz")], 400, TRIAL))],
     # 18 eating dirt / keep off the grass
-    [("At Thanksgiving", "INT", T(37, 18.0)), ("@", "At Thanksgiving", INT_TAG),
+    [("At Thanksgiving", "INT", T(5, 18.0)), ("@", "At Thanksgiving", INT_TAG),
      ("#", "They remembered", "Someone put up a sign", QC("stills/grave_hell_1945.jpg", [("Before I'm done,", "Before I'm done"), ("you'll be eating dirt.", "eating dirt")],
         "W.O. Sadaaki Konishi, Thanksgiving 1944 · as internees recalled it", "eating dirt")),
      ("#", "Someone put up a sign", None, HL("A SIGN IN THE CAMP · 1944", "KEEP OFF THE GRASS.", "WE EAT IT.", "We eat it", HEN))],
@@ -195,7 +194,7 @@ P = [
      ("Others collected recipes", "LBR", T(17, 49.0)),
      ("#", "said many years later", None, HL("SALLY BATEMAN MORGAN, INTERNEE · ORAL HISTORY, 2008", "Some people died", "with food under their beds", "with food under their beds", "National Museum of the Pacific War oral history (2008)"))],
     # 21 Freedom Week
-    [("Then, in January", "STN", T(1, 2.0)), ("@", "Then, in January", "Stand-in · Santo Tomas internees, Manila, February 1945 · newsreel"),
+    [("Then, in January", "STN", T(0, 55.0)), ("@", "Then, in January", "Stand-in · Santo Tomas internees, Manila, February 1945 · newsreel"), ("On the sixth of January", "LBC", T(5, 7.0)), ("The next morning", "LBC", T(4, 9.0)),
      ("#", "The next morning", None, SLUG("January 7, 1945 · Los Baños", "The guards march away"))],
     # 22 flags, guards back, shoot on sight
     [("For one week", "STN", T(1, 32.0)), ("@", "For one week", "Stand-in · internees with an American flag, Santo Tomas, 1945 · newsreel"),
@@ -216,15 +215,15 @@ P = [
         [("Hunters ROTC", "Founded 1942 by cadets and students"), ("PQOG", "President Quezon's Own Guerrillas"), ("Marking's", "Marking's Guerrillas"),
          ("Huks", "Hukbalahap · 48th Chinese Squadron")], "NHI marker, Los Baños (2005); Hunters ROTC (Wikipedia)"))],
     # 27 Ingles
-    [("One of the leaders", "TRV", T(3, 10.0)), ("@", "One of the leaders", "Intramuros, Manila, before the war · Peoples of the Philippines (Canadian Pacific)"),
+    [("One of the leaders", "TRV", T(3, 1.0)), ("@", "One of the leaders", "Intramuros, Manila, before the war · Peoples of the Philippines (Canadian Pacific)"),
      ("In June", "LBR", T(3, 7.0)), ("@", "In June", BIB_TAG),
      ("#", "In June", None, SLUG("June 1944 · New Bilibid Prison", "The Hunters ROTC free Gustavo Ingles and fifty others"))],
     # 28 Freddy slips out
     [("On the twelfth", "LBC", T(4, 19.0)), ("@", "On the twelfth", LBC_TAG), ("The guerrillas wanted", "TRV", T(11, 54.0)), ("@", "The guerrillas wanted", TRVS_TAG)],
     # 29 the committee says no
-    [("The answer was no", "INT", T(36, 40.0)), ("@", "The answer was no", INT_TAG),
-     ("#", "And he asked", None, LQ("FILE 05 — THE COMMITTEE", "George Gray to Gustavo Ingles, February 1945", "Do you have any way to transport more than two thousand people",
-        "George Gray, internee committee (as quoted by Henderson)", HEN, after=", some sick and feeble, out of enemy territory to U.S. lines?"))],
+    [("The answer was no", "INT", T(4, 40.0)), ("@", "The answer was no", INT_TAG),
+     ("#", "And he asked", None, LQ("FILE 05 — THE COMMITTEE", "George Gray to Gustavo Ingles, February 1945", "Do you have any way to transport more than two thousand people,",
+        "George Gray, internee committee (as quoted by Henderson)", HEN, after=" some sick and feeble, out of enemy territory to U.S. lines?"))],
     # 30 twenty-five miles away
     [("They did not", "LBR", T(9, 43.0)), ("@", "They did not", MNL_TAG), ("Somebody would have", "LBR", T(10, 39.0))],
     # 31 three men
@@ -240,17 +239,16 @@ P = [
     [("On the nineteenth", "JMP", T(0, 50.0)),
      ("#", "On the nineteenth", None, {"type": "GlobeMap", "theme": "history",
         "cam": [{"t": 0, "center": [121.1, 14.38], "scale": 160}],
-        "fills": [{"ids": ["608"], "color": "ally", "stroke": "allyStroke", "at": 0.1}],
         "pins": [{"ll": PAR, "label": "11th Airborne HQ · Parañaque", "at": 0.6}, {"ll": LB, "label": "Los Baños camp", "at": 1.2, "color": "red"},
                  {"ll": MNL, "label": "Manila", "at": 0.8, "color": "west"}],
-        "arcs": [{"from": [121.22, 14.2], "to": PAR, "at": 1.6, "style": "dashed", "color": "amber", "fromLabel": "Miles, by banca", "loft": 0.05, "draw": 40}],
+        "arcs": [{"from": [121.22, 14.2], "to": PAR, "at": 1.6, "style": "dashed", "color": "amber", "toLabel": "", "loft": 0.05, "draw": 40}],
         "cards": [{"at": "He marked the quarters", "kicker": "Pete Miles' map", "body": "Barracks, guard houses, sentries, pillboxes", "accent": "amber"},
                   {"at": "He even estimated", "kicker": "And", "body": "How many would need stretchers", "accent": "red"}],
         "footer": "Route generalised", "year": {"at": 0.1, "year": "19 FEB", "sub": "Pete Miles reaches the Americans"}})],
     # 35 quarter to seven (quote card)
-    [("#", "Then Muller asked", None, QC("stills/co511_cp_1945.jpg",
-        [("“Every morning?”", "Every morning"), ("“Yes, and always at the same time.”", "always at the same time"), ("“What time?”", "What time"),
-         ("“They start exercising at a quarter to seven.”", "They start exercising")],
+    [("Then Muller asked", "JMP", T(0, 58.0)), ("@", "Then Muller asked", JMP_TAG), ("#", "Muller later told Henderson", None, QC("stills/co511_cp_1945.jpg",
+        [("Every morning?", "Every morning"), ("Yes, and always at the same time.", "always at the same time"), ("What time?", "What time"),
+         ("They start exercising at a quarter to seven.", "They start exercising")],
         "Lt. Col. Henry Muller and Pete Miles, 19 Feb 1945 · Muller's account (Henderson 2015)", "a quarter to seven"))],
     # 36 H-hour moved
     [("#", "Muller moved the attack", "The division's history said", HL("H-HOUR MOVED · 19 FEB 1945", "8:00 a.m.  →", "7:00 a.m.", "to seven", HEN)),
@@ -380,20 +378,20 @@ P = [
         "Sadaaki Konishi to Army war crimes investigators", HEN, after=" and then I heard that paratroops had landed."))],
     # 72 "Yes, actually it caused deaths" (quote)
     [("In September", "LBR", T(10, 16.0)), ("@", "In September", MNL_TAG), ("In November", "LBR", T(10, 50.0)),
-     ("#", "Then they asked him", None, QC("stills/grave_louis_1945.jpg", [("“Did the order cause starvation?”", "Then they asked him"), ("“Yes, actually it caused deaths.”", "Yes, actually")],
+     ("#", "Then they asked him", None, QC("stills/grave_louis_1945.jpg", [("Did the order cause starvation?", "Then they asked him"), ("Yes, actually it caused deaths.", "Yes, actually")],
         "Sadaaki Konishi, sworn statement, 28 November 1945", "caused deaths"))],
     # 73 the trial
     [("His trial opened", "LBR", T(10, 39.0)), ("@", "His trial opened", MNL_TAG),
      ("#", "His trial opened", None, SLUG("November 1946 · Manila", "U.S. Military Commission: United States v. Sadaaki Konishi")),
      ("The witnesses came", "TRV", T(10, 56.0)), ("@", "The witnesses came", TRVS_TAG)],
     # 74 the verdict
-    [("#", "On the fifteenth of January", None, TL("FILE 11 — VERDICT, 15 JANUARY 1947", "U.S. v. Sadaaki Konishi",
+    [("#", "On the fifteenth of January", None, TL("FILE 11 — VERDICT, 15 JANUARY 1947", "U.S. v. Konishi · sentence: death by hanging",
         [("Guilty", "Killing of George Louis"), ("Guilty", "Killing of a child tied to his mother"), ("Guilty", "Attack on the Ang children"),
-         ("Guilty", "61 civilians killed, 6 March 1945"), ("Guilty", "Aiding a policy of starvation"), ("Sentence", "Death by hanging")], TRIAL))],
+         ("Guilty", "61 civilians killed, 6 March 1945"), ("Guilty", "Aiding a policy of starvation")], TRIAL))],
     # 75 Iwanaka, Fujishige
     [("The commandant, Major", "LBR", T(11, 30.0)), ("@", "The commandant, Major", MNL_TAG), ("Colonel Foo-jee-shee-geh was", "LBR", T(11, 2.0))],
     # 76 the wrong date
-    [("For more than thirty years", "LBR", T(9, 20.0)), ("#", "For more than thirty years", None, HL("REPEATED FOR DECADES", "Konishi hanged:", "17 June 1947", "seventeenth of June", "Chaplain's letter (1983); Flanagan (1986); Rottman (2010)"))],
+    [("For more than thirty years", "LBR", T(10, 16.0)), ("#", "For more than thirty years", None, HL("REPEATED FOR DECADES", "Konishi hanged:", "17 June 1947", "seventeenth of June", "Chaplain's letter (1983); Flanagan (1986); Rottman (2010)"))],
     # 77 what the records show
     [("It was not true", "LBR", T(10, 5.0)), ("#", "It was not true", None, TL("FILE 12 — WHAT THE ARMY RECORDS SHOW", "Sadaaki Konishi",
         [("15 Jan 1947", "Sentenced to hang"), ("17 Jun 1947", "Baptized — not hanged"), ("14 Aug 1947", "MacArthur stays the execution"),
@@ -405,8 +403,8 @@ P = [
     [("Today, the camp grounds", "TRV", T(10, 56.0)), ("@", "Today, the camp grounds", TRVS_TAG)],
     # 80 the U.S. citation
     [("#", "The American record", None, LQ("FILE 13 — WAR DEPARTMENT GENERAL ORDERS NO. 71, 22 AUG 1945", "Distinguished Unit Citation",
-        "a coordinated thrust 25 miles behind enemy lines", "Recon Platoon, 11th Airborne Division · Company B, 511th PIR", FL48,
-        after=", which made possible the liberation of 2,147 Allied civilians and prisoners of war"))],
+        "a coordinated thrust 25 miles behind enemy lines,", "Recon Platoon, 11th Airborne Division · Company B, 511th PIR", FL48,
+        after=" which made possible the liberation of 2,147 Allied civilians and prisoners of war"))],
     # 81 the Filipino markers (print + quote)
     [("#", "It says the camp", None, LQ("FILE 14 — NATIONAL HISTORICAL INSTITUTE MARKER, 2005", "Baker Hall, UP Los Baños",
         "The initial raid was led by Lt. Col. Honorio Guerrero and the ROTC Hunters.", "NHI marker (English text)", "HMdb.org marker 63618",
@@ -532,7 +530,7 @@ def main():
                 elif card["type"] in SCENES:  # reconstruction scenes may run the whole paragraph (up to 30 s)
                     card["end"] = min(card["start"] + 30.0, max(card["start"] + 8.0, paras[pi]["end"] + 0.3))
                 else:  # full card runs to the end of its paragraph (7-12 s)
-                    card["end"] = min(card["start"] + 12.0, max(card["start"] + 7.0, paras[pi]["end"] + 0.3))
+                    card["end"] = min(card["start"] + (15.0 if card["type"] == "QuoteCard" else 12.0), max(card["start"] + 7.0, paras[pi]["end"] + 0.3))
                 if card["type"] in SYNCED:  # any time field given as a phrase = when that phrase is spoken (s from card start)
                     card = sync_times(card, lambda ph, pi=pi, c0=card["start"]: round(said(pi, ph)[0] - c0, 3))
                 if card["type"] == "LedgerDocument":  # spans: [{"doc": key in tools/doc_spans.json, "say": spoken words}]

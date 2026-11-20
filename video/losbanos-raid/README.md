@@ -12,6 +12,6 @@ and the U.S. and Filipino plaques. Topic and title format from reference channel
   reconstructions (the exercise field; the escape), ArchivePrints, ledger cards, IconCount (2,147).
 - Music bed is 8 minutes and loops in assembly (`-stream_loop -1`), to save disk.
 
-Build (when the owner says render):
+Build:
 `HEIGHT=1080 bash tools/render_missing.sh`, `python tools/assemble.py --clips-only --hd`, `python tools/assemble_parts.py 8`.
 Then QC (contact sheets, blackdetect, ebur128), thumbnail `thumbnail/thumbnail_A.jpg`, metadata in `youtube.md`.
