@@ -1,0 +1,34 @@
+# Research: "Arab Rule in Malta Ended in 1091. So Why Is Maltese Still Arabic at Its Core?"
+
+Every number or claim in the script, with its source. Where sources disagree, the script gives a range or names the
+claim as a claim.
+
+## Facts used in the script
+
+| # | Claim in script | Source(s) | Notes |
+|---|---|---|---|
+| 1 | Aghlabid conquest of Malta in 870 | [Siege of Melite (870)](https://en.wikipedia.org/wiki/Siege_of_Melite_(870)) (Kitab al-'Uyun: 28–29 Aug 870) | Ibn Khaldun gives 868. Script says 870. |
+| 2 | Al-Himyari says the island was an empty ruin, resettled about 1048–49 | Same; [Was Malta Inhabited in Arab Times (UM)](https://www.um.edu.mt/library/oar/bitstream/123456789/25609/1/Was_Malta_Inhabited_in_Arab_Times.pdf) | Disputed: told as "a claim, not every historian believes him". |
+| 3 | Norman Count Roger lands in 1091; tribute; full Norman rule 1127 | [Arabs in Malta](https://en.wikipedia.org/wiki/Arabs_in_Malta), [Norman invasion of Malta](https://en.wikipedia.org/wiki/Norman_invasion_of_Malta) | The Arab administration stayed; Muslims kept their religion until the 13th century. |
+| 4 | Abbate report about 1240/41: 836 Muslim families, 250 Christian | [Islam in Malta](https://en.wikipedia.org/wiki/Islam_in_Malta), [Orient XXI](https://orientxxi.info/maltese-a-language-so-unique-in-europe,5590) | The date varies (1240 or 1241); the script says "around 1241". |
+| 5 | Muslims expelled between 1224 and 1249; some sent to Lucera; none openly Muslim by about 1250 | [Muslim expulsion to Lucera](https://en.wikipedia.org/wiki/Muslim_expulsion_to_Lucera); Cassar (core.ac.uk/download/46603639.pdf); Wettinger via [Islam in Malta](https://en.wikipedia.org/wiki/Islam_in_Malta) | The script gives the range. |
+| 6 | Christians and converted Muslims kept the dialect | [Siculo-Arabic](https://en.wikipedia.org/wiki/Siculo-Arabic) ("Muslims continued to dominate for 150 years… dialect kept evolving"); Wettinger on conversions | Worded as "some historians think many converted and stayed". |
+| 7 | 15th-century surname lists: 42.5 % Arabic-origin | Geoffrey Hull 2015, via [UM surnames paper](https://um.edu.mt/library/oar/bitstream/123456789/112094/1/Vestiges_of_Arabic_nomenclature_in_Maltese_surnames.pdf) | Script: "almost half". |
+| 8 | Sicily: Arabic marginalised after the Normans; Muslims expelled; Sicilian kept about 300 Arabic words | [Siculo-Arabic](https://en.wikipedia.org/wiki/Siculo-Arabic) | "Settlers from the mainland" is the usual explanation and is worded as such. |
+| 9 | Il-Kantilena by Pietru Caxaro; he died in 1485; found in 1966 in a notarial register (nephew Brandano) | [Il-Kantilena](https://en.wikipedia.org/wiki/Il-Kantilena), [Pietru Caxaro](https://en.wikipedia.org/wiki/Pietru_Caxaro); UNESCO Memory of the World 2025 ([MaltaToday](https://www.maltatoday.com.mt/news/national/37162/landmark_maltese_document_recognized_by_unesco)) | Some sources say 1966/68; the script says 1966. |
+| 10 | Knights of St John 1530–1798 (268 years); Italian the language of government, courts, church, schools; Maltese spoken by the common people | [Hospitaller Malta](https://en.wikipedia.org/wiki/Hospitaller_Malta), [foreignlanguages.gov.mt](https://foreignlanguages.gov.mt/en/?p=13529), Friggieri ([UM](https://www.um.edu.mt/library/oar/bitstream/123456789/60165/1/Maltese_literature_under_the_Knights_of_St_John.pdf)) | |
+| 11 | About half the dictionary is Italian/Sicilian; a Semitic share of about a third (32–41 %) | [Maltese language](https://en.wikipedia.org/wiki/Maltese_language) citing Brincat; [MaltaToday](https://www.maltatoday.com.mt/news/national/109963/at_over_20000_italian_words_rich_maltese_language_was_built_from_mass_migration); Brincat ([UM](https://um.edu.mt/library/oar/handle/123456789/111564)) | Shares depend on the counting method; the script says "around half" and "about a third". |
+| 12 | Agius de Soldanis, *Della lingua punica*, Rome 1750: Maltese from Punic | [Agius de Soldanis](https://en.wikipedia.org/wiki/Giovanni_Pietro_Francesco_Agius_de_Soldanis); P. Grech, JMS 1 (1961) ([UM](https://um.edu.mt/library/oar/bitstream/123456789/20922/1/Are%20there%20any%20Traces%20of%20Punic%20in%20Maltese%20by%20P.%20Grech.%20JMS.1%281961%29%28130-138%29.pdf)) | |
+| 13 | British from 1800; the Language Question; the 1921 constitution made Italian and English official; 1934: Italian dropped, Maltese and English official | [Language Question (Malta)](https://en.wikipedia.org/wiki/Language_Question_(Malta)), [Languages of Malta](https://en.wikipedia.org/wiki/Languages_of_Malta), [Italian irredentism in Malta](https://en.wikipedia.org/wiki/Italian_irredentism_in_Malta) | |
+| 14 | Għaqda tal-Kittieba tal-Malti (1920/21); alphabet approved Nov 1921; *Tagħrif fuq il-Kitba Maltija* 1924 | [Maltese Herald](https://themalteseherald.com/2024/12/01/celebrating-a-century-of-maltese-language-standardisation-the-legacy-of-taghrif-fuq-il-kitba-maltija/), [UM: Question of the Alphabet](https://www.um.edu.mt/library/oar/bitstream/123456789/23526/1/Question%20of%20the%20Alphabet.pdf) | Script: "in the 1920s". |
+| 15 | Independence 1964; EU 2004; the only Semitic official EU language; written in Latin script | [Maltese language](https://en.wikipedia.org/wiki/Maltese_language), UM paper (EU since 2004) | |
+| 16 | Census 2021: nearly a quarter of under-10s (Maltese nationals) say English is their primary language | [NSO Census 2021 vol. 3](https://nso.gov.mt/themes_publications/census-of-population-and-housing-2021-final-report-health-education-employment-and-other-characteristics/), [MaltaToday](https://www.maltatoday.com.mt/news/national/127101/malta_by_the_numbers_heres_what_the_latest_data_from_census_2021_tells_us) | |
+| 17 | God is "Alla" in Maltese Catholic prayer | [Aramco World 2004](https://archive.aramcoworld.com/issue/200406/europe.s.new.arabic.connection.htm), Trimble, JMS 9 (1973) ([UM](https://www.um.edu.mt/library/oar/bitstream/123456789/26510/1/Some%20Linguistic%20Comments%20on%20Religious%20Terms%20in%20Maltese%20by%20L.P.%20Trimble.%20Journal%20of%20Maltese%20Studies.%209%281973%29%2859-67%29.pdf)) | |
+| 18 | Tunisian speakers understood about 40 % of spoken Maltese (pilot study, 24 people) | Čéplö et al. 2016, *Folia Linguistica* ([De Gruyter](https://www.degruyterbrill.com/document/doi/10.1515/flin-2016-0021/html)) | Script: "in one small study". |
+| 19 | Distances: about 90 km to Sicily, about 290 km to Tunisia | Standard geography (Malta–Sicily 93 km; Malta–Cape Bon about 290 km) | Rounded. |
+
+## Recordings (all real, from Wikimedia Commons)
+
+- **Words:** Lingua Libre, speaker GħawdxiVeru, **CC0**, files `LL-Q9166 (mlt)-GħawdxiVeru-<word>.wav`, in `lingo/incoming/malta/`.
+- **Speech:** "WIKITONGUES- Keith speaking Maltese.webm", by Wikitongues and Irena Dahl, **CC BY-SA 4.0**, recorded in Valletta (2020).
+- **Arabic comparisons:** shown as text only (no Arabic recordings used).
