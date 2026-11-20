@@ -10,4 +10,4 @@ Order: tight on line 1 → track across the ink as it is read → hold on the ke
 
 **Pitfalls:** Coordinates are fractions of the image. Leave a music gap (`musicGap`) on the line that is read out.
 
-**Used in Malta v3:** {{TS:m1,m3,r3}}
+**Used in Malta v3:** 3:43 (m1), 3:54 (m3), 7:58 (r3) in `out/malta3_v3.mp4`

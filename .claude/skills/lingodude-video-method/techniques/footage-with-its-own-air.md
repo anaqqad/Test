@@ -9,4 +9,4 @@
 
 **Pitfalls:** Use Commons footage with clear licences; prefer clips with natural sound and no music.
 
-**Used in Malta v3:** {{TS:oA3,p1,w1,s1,r5}}
+**Used in Malta v3:** 0:07 (oA3), 2:48 (p1), 4:40 (w1), 6:32 (s1), 8:11 (r5) in `out/malta3_v3.mp4`

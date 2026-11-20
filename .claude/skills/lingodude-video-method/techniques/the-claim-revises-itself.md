@@ -9,4 +9,4 @@
 
 **Pitfalls:** Show uncertainty in the revised line itself ('Rarely written', 'roughly', 'counts vary').
 
-**Used in Malta v3:** {{TS:m6,w9}}
+**Used in Malta v3:** 4:09 (m6), 5:40 (w9) in `out/malta3_v3.mp4`

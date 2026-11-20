@@ -13,4 +13,4 @@
 
 **Pitfalls:** Keep notes under ~45 characters. Re-use the twin at the end to deliver the answer in its final state.
 
-**Used in Malta v3:** {{TS:t1,t8,t12,r1}}
+**Used in Malta v3:** 0:54 (t1), 2:05 (t8), 2:42 (t12), 7:39 (r1) in `out/malta3_v3.mp4`

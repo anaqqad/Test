@@ -98,3 +98,9 @@ Keep the pipeline and swap these:
 - the character style;
 - the thumbnail template (name strip, photo, character, flag, part label, red hook);
 - the brand logo.
+
+## Long-form techniques (Malta v3)
+Reusable scene techniques for long-form map explainers (`lingo/longform3.mjs`), each with origin, when to use, how to build
+and where it appears in Malta v3: `.claude/skills/lingodude-video-method/techniques/`
+(The Word Arrives Before the Place, The Consonants Lock In, Two Islands One Clock, The Cut Starts in the Soundtrack,
+Read the Ink, The Claim Revises Itself, Footage With Its Own Air). QA: `python3 lingo/longform_qa.py <key> <tag>`.

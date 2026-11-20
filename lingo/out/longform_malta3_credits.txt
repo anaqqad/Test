@@ -18,13 +18,11 @@ Music: "Heartwarming" by Kevin MacLeod (incompetech.com), CC BY 3.0
 
 Footage (all via Wikimedia Commons):
 Malta - Grand Harbour (Lower Barrakka Gardens) 01 (1) ies: Frank Vincentz, CC BY-SA 3.0
-Malta - Valletta - Triq il-Lanca - Ferry harbour 01 (1) ies: Frank Vincentz, CC BY-SA 3.0
 Tritons' Fountain, Valletta: GrimsbyT, CC BY-SA 4.0
 Malta - Marsaxlokk - Xatt is-Sajjieda - Harbour 01 (0) ies: Frank Vincentz, CC BY-SA 3.0
 Malta - Mdina - Triq Villegaignon 01 (1) ies: Frank Vincentz, CC BY-SA 3.0
 Malta - Mdina - Pjazza San Pawl+Bishop's Palace+St. Paul's Cathedral 01 (0) ies: Frank Vincentz, CC BY-SA 3.0
 Malta - Mdina - Pjazza San Pawl - St. Paul's Cathedral in 01 (0) ies: Frank Vincentz, CC BY-SA 3.0
-Malta - Valletta - Pjazza Kastilja+election celebration 01 (0) ies: Frank Vincentz, CC BY-SA 3.0
 
 Photos, paintings and documents (all via Wikimedia Commons):
 Lexicon - Vassalli - 1796: Hamelin de Guettelet, CC BY-SA 3.0
@@ -39,5 +37,7 @@ Triq Bir Il-Ljun street sign in Rabat (Malta): Pacopac, CC BY-SA 4.0
 Cippe de Melqart - Musée du Louvre Antiquités orientales AO 4818: Shonagon, CC0
 Grand Harbour Malta circ1890: Unknown author, Public domain
 Streets of Mdina 2: Joseolgon, CC BY 4.0
+The National Library of Malta, Valletta: Jaakko.kulta, CC BY 4.0
+Monument of Giovanni Pietro Francesco Agius de Soldanis: Continentaleurope, CC BY-SA 4.0
 Licences: https://creativecommons.org/licenses/by-sa/4.0/ , https://creativecommons.org/licenses/by-sa/3.0/ , https://creativecommons.org/licenses/by/4.0/ , https://creativecommons.org/licenses/by/3.0/
 Narration: AI voice (Kokoro). Script, maps and research by LingoDude. Map data: Natural Earth (public domain) via world-atlas.

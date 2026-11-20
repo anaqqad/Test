@@ -12,4 +12,4 @@
 
 **Pitfalls:** Vowels must be marked `0` or they also lock. Arabic script row needs the `script` field (Noto Naskh).
 
-**Used in Malta v3:** {{TS:oA2,w4,w5}}
+**Used in Malta v3:** 0:03 (oA2), 4:59 (w4), 5:03 (w5) in `out/malta3_v3.mp4`

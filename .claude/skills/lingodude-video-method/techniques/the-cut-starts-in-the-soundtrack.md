@@ -11,4 +11,4 @@
 
 **Pitfalls:** Foley is peaked at −12 dBFS in the stem; keep `gain` negative for doors.
 
-**Used in Malta v3:** {{TS:m7,w3,s5}}
+**Used in Malta v3:** 4:18 (m7), 4:53 (w3), 7:13 (s5) in `out/malta3_v3.mp4`

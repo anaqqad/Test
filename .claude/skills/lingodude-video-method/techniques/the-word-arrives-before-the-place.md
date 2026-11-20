@@ -13,4 +13,4 @@
 
 **Pitfalls:** Keep the word under 1 s and loud (words are pre-levelled to −17 LUFS). Never put narration over it.
 
-**Used in Malta v3:** {{TS:oA1}}
+**Used in Malta v3:** 0:00 (oA1) in `out/malta3_v3.mp4`
