@@ -319,3 +319,9 @@ One Word in 10 Languages, Languages That Count Differently.
    decides the narrator (own voice / Piper / paid TTS).
 
 - DROPPED (owner, 2026-11-13): "What English Sounded Like in the 1800s" (`oldvoices`): too close to an idea already done (how English sounded through time). Don't suggest it again. Its files stay in the repo unused.
+
+39. Malta long-form (`longform/malta`, v2 rendered 2026-11-20, KEEP this version; owner will improve it later).
+   Owner feedback to fix in the next pass: some shots hold the same picture too long (e.g. 6:36, the Malta
+   close-up), so viewers may leave. Fix: no single visual for more than ~4–5 s; cut to a photo, a new framing or a
+   card change inside long lines; use more ISL alternatives (Valletta, Gozo, Mdina close-ups), and split long
+   narration lines into two shots. Mid-roll ad break at 3:31 (Sicily cliffhanger), optional 6:13.
