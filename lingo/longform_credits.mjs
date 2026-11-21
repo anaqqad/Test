@@ -19,7 +19,7 @@ const lines = [...Object.values(EP.openings || {}).flat(), ...EP.lines];
 const heard = new Set(), shown = new Set();
 for (const L of lines) {
   (L.hear || []).forEach((w) => heard.add(w)); (L.show || []).forEach((s) => s.src && shown.add(s.src));
-  for (const x of L.shots || []) { // v4 shots: base layer + its own overlays
+  for (const x of (L.shots && L.keep ? L.keep.map((i) => L.shots[i]) : L.shots) || []) { // v4 shots: base layer + its own overlays
     for (const k of ["video", "photo"]) if (typeof x[k] === "string") shown.add(x[k]);
     if (x.plate?.src || typeof x.plate === "string") shown.add(x.plate.src || x.plate);
     (x.over || []).forEach((s) => s.src && shown.add(s.src));

@@ -97,12 +97,14 @@ fs.writeFileSync(path.join(CACHE, `midrolls_${TAG}.json`), JSON.stringify(T.filt
 
 // ───────── shots (v4) ─────────
 // A line's `shots` share its time (fixed `d` seconds, or weights `w`); a line without shots extends the previous shot.
-// No shot may run longer than 5 s: the list is checked here and written to shots_<tag>.json.
+// v4 kept every shot under 5 s; v5 (owner: too fast) aims at 4–7 s. The list is checked here and written to shots_<tag>.json.
 const SHOTS = [];
 const shotKind = (s) => ["map", "video", "photo", "table", "board", "desk", "lock", "words", "plate"].find((k) => k in s) || "?";
 for (const r of T) {
-  if (!r.shots) { if (SHOTS.length) SHOTS[SHOTS.length - 1].t1 = r.t1; continue; }
-  const list = r.shots, D = r.t1 - r.t0, fixed = list.reduce((a, x) => a + (x.d || 0), 0), wsum = list.reduce((a, x) => a + (x.d ? 0 : (x.w ?? 1)), 0);
+  // `keep: [i, …]` picks which of the line's shots stay (v5 pacing: shots of 4–7 s); `keep: []` continues the previous shot
+  const list = r.shots && r.keep ? r.keep.map((i) => r.shots[i]) : r.shots;
+  if (!list || !list.length) { if (SHOTS.length) SHOTS[SHOTS.length - 1].t1 = r.t1; continue; }
+  const D = r.t1 - r.t0, fixed = list.reduce((a, x) => a + (x.d || 0), 0), wsum = list.reduce((a, x) => a + (x.d ? 0 : (x.w ?? 1)), 0);
   let tt = r.t0;
   list.forEach((x, k) => { const d = x.d ?? (D - fixed) * (x.w ?? 1) / wsum; const sh = { ...x, kind: shotKind(x), line: r.id, t0: tt, t1: k === list.length - 1 ? r.t1 : tt + d }; tt = sh.t1; SHOTS.push(sh); });
 }
@@ -111,9 +113,10 @@ if (SHOTS.length) SHOTS[0].t0 = 0; // the first shot covers the lead-in (v5: the
 {
   const rows = SHOTS.map((x, i) => ({ n: i + 1, t0: +x.t0.toFixed(2), t1: +x.t1.toFixed(2), d: +(x.t1 - x.t0).toFixed(2), kind: x.kind, line: x.line, what: x.what || String(x[x.kind] && typeof x[x.kind] !== "object" ? x[x.kind] : x.kind) }));
   fs.writeFileSync(path.join(CACHE, `shots_${TAG}.json`), JSON.stringify(rows, null, 0).replace(/},{/g, "},\n{"));
-  const long = rows.filter((x) => x.d > 5.0 && x.t0 < END);
+  const long = rows.filter((x) => x.d > 7.5 && x.t0 < END), short = rows.filter((x) => x.d < 3.5 && x.t0 < END); // v5 pacing (owner): shots of about 4–7 s
   if (SHOTS.length) console.log(`  ${rows.length} shots, longest ${Math.max(...rows.map((x) => x.d)).toFixed(2)} s, average ${(rows.reduce((a, x) => a + x.d, 0) / rows.length).toFixed(2)} s`);
-  if (long.length) console.log("  WARNING shots over 5 s: " + long.map((x) => `#${x.n} ${x.line}/${x.kind} ${x.d}s`).join("; "));
+  if (long.length) console.log("  WARNING shots over 7.5 s: " + long.map((x) => `#${x.n} ${x.line}/${x.kind} ${x.d}s`).join("; "));
+  if (short.length) console.log("  note: shots under 3.5 s: " + short.map((x) => `${x.line}/${x.kind} ${x.d}s`).join("; "));
 }
 
 // ───────── map geometry ─────────
@@ -247,7 +250,7 @@ for (const x of SHOTS) {
     delete o.over; o.tIn = x.t0; o.tOut = x.t1; o.shot = true;
     OV.push(prep(o, r));
   }
-  for (const s2 of x.over || []) OV.push(prep({ ...s2, tIn: x.t0 + (s2.delay ?? 0.05), tOut: s2.until ? byId(s2.until).t1 - 0.12 : x.t1 }, r));
+  for (const s2 of x.over || []) OV.push(prep({ ...s2, tIn: x.t0 + (s2.delay ?? 0.05), tOut: s2.until ? byId(s2.until).t1 - 0.12 : s2.dur ? x.t0 + (s2.delay ?? 0.05) + s2.dur : x.t1 }, r));
   if (x.tag) OV.push({ type: "tagline", text: x.tag, tIn: x.t0, tOut: x.t1 });
 }
 // Full-screen layers (photo, video, twin): between two of them it is always a hard cut and the map never shows through;
@@ -327,6 +330,7 @@ if (EP.board) {
   for (const x of SHOTS) if (x.kind === "board") {
     const cutIn = !(prev && Math.abs(prev.t1 - x.t0) < 0.06); // cutting in from another layer: a card due in the first 0.5 s is already landing on the cut (no empty board)
     (x.add || []).forEach((id, k) => { const c = BOARD.cards[card(id)]; if (c.t > 1e8) c.t = cutIn && (x.addAt ?? 0.35) + k * 0.6 < 0.5 ? x.t0 - 0.1 : x.t0 + (x.addAt ?? 0.35) + k * 0.6; });
+    if (x.add2) x.add2.ids.forEach((id, k) => { const c = BOARD.cards[card(id)]; if (c.t > 1e8) c.t = x.t0 + x.add2.at + k * 0.4; }); // cards pinned once the camera has gone wide
     (x.link || []).forEach((L, k) => { const t = x.t0 + (x.linkAt ?? 0.9) + k * 0.7;
       if (Array.isArray(L)) BOARD.links.push({ id: L.join("-"), a: card(L[0]), b: card(L[1]), label: L[2] || "", style: L[3] || LSTYLE[L[2]] || "solid", t });
       else { if (!LK[L]) throw new Error("no board link " + L); if (!BOARD.links.includes(LK[L])) BOARD.links.push(Object.assign(LK[L], { t })); } });
@@ -494,7 +498,7 @@ if(BD){brd=document.createElement('div');brd.style.cssText='position:absolute;in
     return '<div class="bc" data-i="'+c._i+'" style="position:absolute;left:'+(c.x-BD.w/2-c.w/2)+'px;top:'+(c.y-BD.h/2)+'px;width:'+c.w+'px;opacity:0;transform-origin:50% 0"><div style="position:relative;transform:rotate('+(c.rot||0)+'deg);box-shadow:6px 12px 18px rgba(0,0,0,.5)">'+pin+b+'<div class="bv" style="position:absolute;inset:-2px;background:#0a1117;opacity:0;z-index:3"></div></div></div>'};
   BD.cards.forEach((c,i)=>c._i=i);
   const LC={solid:'#c4372c',dash:'#c4372c',blue:'#3f74b8',honey:'#d9a03c',open:'#9a9384'};
-  let h='<style>.hl{background:linear-gradient(rgba(242,196,107,.85),rgba(242,196,107,.85)) no-repeat 0 88%;background-size:0% 46%;-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 2px}</style><div style="position:absolute;inset:0;perspective:1800px;perspective-origin:50% 45%"><div class="bw" style="position:absolute;left:960px;top:540px;width:0;height:0">';
+  let h='<style>.hl{background:linear-gradient(rgba(242,196,107,.85),rgba(242,196,107,.85)) no-repeat 0 74%;background-size:0% 60%;-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 2px}</style><div style="position:absolute;inset:0;perspective:1800px;perspective-origin:50% 45%"><div class="bw" style="position:absolute;left:960px;top:540px;width:0;height:0">';
   h+='<div style="position:absolute;left:'+(-BD.w/2-40)+'px;top:'+(-BD.h/2-40)+'px;width:'+(BD.w+80)+'px;height:'+(BD.h+80)+'px;background:#3a2a1c;box-shadow:0 20px 40px rgba(0,0,0,.6)"></div>';
   h+='<div style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;width:'+BD.w+'px;height:'+BD.h+'px;background:radial-gradient(ellipse at 50% 40%,#29445a 0%,#16283a 62%,#0d1a26 100%)"></div>';
   h+='<svg width="'+BD.w+'" height="'+BD.h+'" style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;overflow:visible">'+BD.lines.map(l=>'<line x1="'+l[0]+'" y1="'+l[1]+'" x2="'+l[2]+'" y2="'+l[3]+'" stroke="rgba(243,230,204,.35)" stroke-width="5" stroke-dasharray="'+(l[4]?'18 16':'none')+'" stroke-linecap="round"/>').join('')+'</svg>';
@@ -526,17 +530,18 @@ const bshot=(id)=>D.OV.find(o=>o.type==='board'&&o.bid===id);
 function bend(o){const v=bview(o.spec);return {x:v.x,y:v.y,k:v.k*(1+(o.spec.push??0.04))}}
 function bcam(o,t){const sp=o.spec,v1=bview(sp),dur=o.tOut-o.tIn,push=sp.push??0.04;let v0=null;
   if(sp.from)v0=bview({view:sp.from});else if(o.pbid!=null&&!o.cut){const p=bshot(o.pbid);if(p)v0=bend(p)}
-  const tg=v0?Math.min(sp.glideT??1.3,dur*0.5):0;
-  if(v0&&t-o.tIn<tg){const e=ease((t-o.tIn)/tg),dist=Math.hypot(v1.x-v0.x,v1.y-v0.y),dip=Math.min(0.4,dist*Math.min(v0.k,v1.k)/3200);
+  const g0=sp.from?(sp.glideAt??0):0,tg=v0?Math.min(sp.glideT??1.3,dur*0.5):0;
+  if(v0&&t-o.tIn<g0)return {x:v0.x,y:v0.y,k:v0.k*(1+0.02*(t-o.tIn)/Math.max(0.1,g0))};
+  if(v0&&t-o.tIn<g0+tg){const e=ease((t-o.tIn-g0)/tg),dist=Math.hypot(v1.x-v0.x,v1.y-v0.y),dip=Math.min(0.4,dist*Math.min(v0.k,v1.k)/3200);
     return {x:v0.x+(v1.x-v0.x)*e,y:v0.y+(v1.y-v0.y)*e,k:Math.exp(Math.log(v0.k)*(1-e)+Math.log(v1.k)*e)*(1-dip*Math.sin(Math.PI*e))}}
-  const q=cl((t-o.tIn-tg)/Math.max(0.1,dur-tg),0,1);return {x:v1.x,y:v1.y,k:v1.k*(1+push*Math.sin(q*Math.PI/2))}}
+  const q=cl((t-o.tIn-g0-tg)/Math.max(0.1,dur-g0-tg),0,1);return {x:v1.x,y:v1.y,k:v1.k*(1+push*Math.sin(q*Math.PI/2))}}
 function blit(o,id){return !o.lit||o.lit.includes(id)?0:0.62}
 function scenes(t){
   // table
   if(tbl){const a=D.OV.find(o=>o.type==='table'&&t>=o.tIn&&t<o.tOut);tbl.style.opacity=a?1:0;tbl.style.display=a?'block':'none';if(a){const q=ease(cl((t-a.tIn)/(a.tOut-a.tIn),0,1));const c=lerpCam(a.c0,a.c1,q);
     tbl.querySelector('.tbw').style.transform='rotateX('+c.tilt+'deg) rotateZ('+c.rz+'deg) scale('+c.zoom+') translate('+(-c.x)+'px,'+(-c.y)+'px)';
     tbl.querySelectorAll('.trg').forEach(e=>{const col=colAt(e.dataset.k,t);e.setAttribute('fill',rgba(col));e.setAttribute('stroke-opacity',col[3])});
-    TB.objs.forEach((ob,i)=>{const e=tbl.querySelector('.tob[data-i="'+i+'"]');if(t<ob.t){e.style.opacity=0;return}const k=cl((t-ob.t)/0.42,0,1),z=(1-eo(k))*460;e.style.opacity=1;e.querySelector('.tod').style.transform='translateZ('+(z+2)+'px) rotate('+(ob.rot||0)+'deg)';const sh=e.querySelector('.tsh');sh.style.opacity=0.6*(1-z/700);sh.style.filter='blur('+(12+z/18)+'px)'});
+    TB.objs.forEach((ob,i)=>{const e=tbl.querySelector('.tob[data-i="'+i+'"]');if(t<ob.t){e.style.opacity=0;return}const k=cl((t-ob.t)/0.42,0,1),z=(1-k*k)*460;e.style.opacity=1;e.querySelector('.tod').style.transform='translateZ('+(z+2)+'px) rotate('+(ob.rot||0)+'deg)';const sh=e.querySelector('.tsh');sh.style.opacity=0.6*(1-z/700);sh.style.filter='blur('+(12+z/18)+'px)'});
     TB.arrows.forEach((ar,i)=>{const e=tbl.querySelector('.tar[data-i="'+i+'"]');if(t<ar.t){e.setAttribute('opacity',0);return}const L=e.getTotalLength();e.setAttribute('opacity',1);const pr=eo((t-ar.t)/1.2);if(e.dataset.dash){e.style.strokeDasharray='4 22';e.style.strokeDashoffset=0;e.style.clipPath='none';e.setAttribute('opacity',pr)}else{e.style.strokeDasharray=L;e.style.strokeDashoffset=L*(1-pr)}const tl=tbl.querySelector('.tal[data-i="'+i+'"]');if(tl)tl.setAttribute('opacity',eo((t-ar.t-0.6)/0.3))});
     if(TB.title){const g=tbl.querySelector('.tttl');g.setAttribute('opacity',cl((t-TB.title.t0)/0.35,0,1)*cl((TB.title.t1-t)/0.3,0,1))}
     const f=a.focus||{y:.5,band:.55,blur:Math.max(0,(c.tilt-24)/5)};const dv=tbl.querySelector('.tdof');if(f.blur>0.4){dv.style.backdropFilter='blur('+f.blur+'px)';dv.style.webkitMaskImage=dofMask(f.y,f.band)}else dv.style.backdropFilter='none'}}
@@ -546,7 +551,7 @@ function scenes(t){
     brd.querySelector('.bw').style.transform='rotateX(6deg) rotateY(-2deg) scale('+cm.k+') translate('+(-cm.x)+'px,'+(-cm.y)+'px)';
     const veil=(id)=>pa?blit(pa,id)*(1-mix)+blit(a,id)*mix:blit(a,id);
     BD.cards.forEach(c=>{const e=brd.querySelector('.bc[data-i="'+c._i+'"]');const vv=e.querySelector('.bv');if(vv)vv.style.opacity=veil(c.id);if(c.fixed){e.style.opacity=1-veil(c.id)*0.9;return}if(t<c.t){e.style.opacity=0;return}const kk=eo((t-c.t)/0.3);e.style.opacity=kk;e.style.transform='scale('+(1.18-0.18*kk)+')';
-      if(c.hlT<1e8){const p=eo((t-c.hlT)/0.7);e.querySelectorAll('.hl').forEach(m=>m.style.backgroundSize=(p*100)+'% 46%')}});
+      if(c.hlT<1e8){const p=eo((t-c.hlT)/0.7);e.querySelectorAll('.hl').forEach(m=>m.style.backgroundSize=(p*100)+'% 60%')}});
     BD.rewrites.forEach(rw=>{const e=brd.querySelector('.bc[data-i="'+rw.i+'"]');const st=e.querySelector('.bstrike'),nw=e.querySelector('.bnew'),tg=e.querySelector('.btag'),old=e.querySelector('.bold');if(!st)return;
       if(t<rw.t){st.style.width='0';nw.textContent='';return}const k1=eo((t-rw.t)/0.45);st.style.width='calc('+(k1*100)+'% + 12px)';old.style.color=k1>0.6?'rgba(31,26,20,.42)':'#1f1a14';
       const n=Math.max(0,Math.floor((t-rw.t-0.5)*42));nw.textContent=rw.text.slice(0,n);if(t>rw.t+0.45&&rw.tag&&tg){tg.textContent=rw.tag;tg.style.background=rw.tagColor||'#b8332a'}});
@@ -560,7 +565,7 @@ function scenes(t){
   const da=D.OV.find(o=>o.type==='desk'&&t>=o.tIn&&t<o.tOut);
   for(const k in desks){const el=desks[k];if(!da||da.spec.doc!==k){el.style.opacity=0;el.style.display='none';continue}el.style.opacity=1;el.style.display='block';const d=DK[k],sp=da.spec,q=ease(cl((t-da.tIn)/(da.tOut-da.tIn),0,1));const c=lerpCam(sp.from,sp.to||sp.from,q);
     el.querySelector('.dw').style.transform='rotateX('+c.tilt+'deg) rotateZ('+c.rz+'deg) scale('+c.zoom+') translate('+(-(c.fx-0.5)*d.PW)+'px,'+(-(c.fy-0.5)*d.PH)+'px)';
-    const sw=el.querySelector('.dsw');if(sp.sweep){const b=sp.sweep.box,p=sp.sweep.full?1:cl((q-(sp.sweep.q0??0.1))/((sp.sweep.q1??0.9)-(sp.sweep.q0??0.1)),0,1);sw.style.left=b[0]*100+'%';sw.style.top=b[1]*100+'%';sw.style.height=(b[3]-b[1])*100+'%';sw.style.width=(b[2]-b[0])*100*p+'%';sw.style.opacity=1}else sw.style.opacity=0;
+    const sw=el.querySelector('.dsw');if(sp.sweep){const b=sp.sweep.box,p=sp.sweep.full?1:cl((q-(sp.sweep.q0??0.1))/((sp.sweep.q1??0.9)-(sp.sweep.q0??0.1)),0,1);sw.style.left=b[0]*100+'%';sw.style.top=b[1]*100+'%';sw.style.height=(b[3]-b[1])*100+'%';sw.style.width=(b[2]-b[0])*100*p+'%';sw.style.opacity=1;sw.style.transformOrigin='0 50%';sw.style.transform='rotate('+(sp.sweep.rot||0)+'deg)'}else sw.style.opacity=0;
     const ln=el.querySelector('.dln');if(sp.line){const b=sp.line;ln.style.left=b[0]*100+'%';ln.style.top=b[1]*100+'%';ln.style.width=(b[2]-b[0])*100+'%';ln.style.height=(b[3]-b[1])*100+'%';ln.style.opacity=eo((q-0.15)/0.15)}else ln.style.opacity=0;
     const mk=el.querySelector('.dmk');if(sp.mark){const b=sp.mark.box;mk.style.left=b[0]*100+'%';mk.style.top=b[1]*100+'%';mk.style.width=(b[2]-b[0])*100+'%';mk.style.height=(b[3]-b[1])*100+'%';mk.style.opacity=eo((q-(sp.mark.at??0.3))/0.1)}else mk.style.opacity=0;
     const f=sp.focus||{y:.5,band:.4,blur:Math.max(0,(c.tilt-18)/4)};const dv=el.querySelector('.ddof');if(f.blur>0.4){dv.style.backdropFilter='blur('+f.blur+'px)';dv.style.webkitMaskImage=dofMask(f.y,f.band)}else dv.style.backdropFilter='none'}
@@ -680,8 +685,8 @@ for (const kind of Object.keys(BEDS)) {
   if (b.sfxIn) runs.forEach((ru) => items.push({ track: "sfx", f: sfxFile(b.sfxIn), t: ru.t0 - 0.35, gain: b.sfxGain ?? -4 }));
 }
 const ev = (name, tt, gain) => { if (EP.sfx?.[name] && tt < END) items.push({ track: "sfx", f: sfxFile(name), t: tt, gain: gain ?? 0 }); };
-if (TABLE) for (const ob of TABLE.objs) if (ob.t < 1e8) ev(ob.kind === "coin" ? "coin" : "paper", ob.t + 0.38, ob.kind === "coin" ? -3 : -8);
-if (BOARD) { for (const c of BOARD.cards) if (c.t < 1e8 && !c.fixed) ev("tack", c.t + 0.25, -4); for (const rw of BOARD.rewrites) ev("pencil", rw.t + 0.45, -6); }
+if (TABLE) for (const ob of TABLE.objs) if (ob.t < 1e8 && ob.kind === "coin") ev("coin", ob.t + 0.31, -3); // impact at 0.42 s, the clip's hit is 0.11 s in
+if (BOARD) { for (const c of BOARD.cards) if (c.t < 1e8 && !c.fixed) ev("tack", c.t + 0.25, -4); }
 for (const x of SHOTS) for (const f of x.sfx || []) items.push({ track: "sfx", f: sfxFile(f.s), t: x.t0 + (f.at || 0), gain: f.gain ?? 0 });
 const cues = (EP.score || []).filter((c) => T.some((x) => x.id === c.at)).map((c) => ({ ...c, t: byId(c.at).t0 + (c.off || 0) }));
 const duckWords = T.flatMap((r) => r.clips.map((c) => [c.t - 0.25, c.t + c.d + 0.2])).concat(T.filter((r) => r.musicGap).map((r) => [r.t0, r.t1]));
