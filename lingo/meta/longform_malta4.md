@@ -72,6 +72,6 @@ Maltese language, Malta, Sicily, Sicily Arabic, why does Maltese sound like Arab
 - Category: Education
 - Made for kids: No
 - Altered or synthetic content: Yes (AI narration voice; all Maltese and Arabic speech is real)
-- Thumbnail: lingo/out/brand/thumbL_malta3_B.png (title above); thumbL_malta3_A.png for the alternative title
+- Thumbnail: lingo/out/brand/thumbL_malta4_C.png (title above); thumbL_malta4_D.png for the alternative title (simpler reference-channel style; the older malta3_A/B are busier)
 - Mid-roll ad break: 4:21 (after "…turned up in a notary's register.")
 - Video: lingo/out/malta4_v5.mp4 (gitignored; re-render with `node longform4.mjs malta4 --out malta4_v5 --workers 3`)

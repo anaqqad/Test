@@ -34,6 +34,14 @@ export default {
   title: "Sicily Lost Its Arabic. Why Didn't Malta?",
   cardTitle: "Sicily Lost Its Arabic. Why Didn't Malta?",
   palette: C,
+  // simpler thumbnails in the reference-channel template (one raised island, one speech bubble, 2-word hook; no tags or labels):
+  // node longform_thumb.mjs malta4  ->  out/brand/thumbL_malta4_C.png / _D.png
+  thumbs: {
+    C: { name: "Maltese", flag: "mt", wojak: "wojaks/ar_mlt.png", hook: ["Why", "Malta?!"], hookSize: 118, bubble: "Ktieb!", bubbleAt: ["malta", 40, -120],
+      cam: { c: [14.45, 35.86], span: 1.9 }, fill: { malta: "#d9533f" } },
+    D: { name: "Maltese", flag: "mt", wojak: "wojaks/ar_mlt.png", hook: ["Still", "Arabic?!"], hookSize: 112, bubble: "Ktieb!", bubbleAt: ["malta", 40, -120],
+      cam: { c: [14.45, 35.86], span: 1.9 }, fill: { malta: "#d9533f" } },
+  },
   landDetail: ["470"],
   regions: { malta: { id: "470" }, sicily: { id: "380", near: [14.2, 37.5], r: 2.3 }, tunisia: { id: "788" }, spain: { id: "724", near: [-3.7, 40.2], r: 9 } },
   places: {

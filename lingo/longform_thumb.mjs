@@ -45,7 +45,7 @@ for (const v of process.argv.slice(3).length ? process.argv.slice(3) : Object.ke
 <div id="tex"></div>${marks}
 ${IS ? `<div class="a" style="left:${IS.x - IS.r}px;top:${IS.y - IS.r}px;width:${IS.r * 2}px;height:${IS.r * 2}px;border-radius:50%;overflow:hidden;border:8px solid #fbf7ee;box-shadow:0 12px 30px rgba(0,0,0,.5);background:radial-gradient(#2a6d8c,#1c5672)">
  <svg class="a h" style="inset:0" viewBox="0 0 ${IS.r * 2} ${IS.r * 2}"><g transform="${camT(IS.cam, IS.r * 2, IS.r * 2).tr}">${fills({ malta: th.fill.malta })}</g></svg></div>` : ""}
-${th.bubble ? `<div class="a" style="left:${IS.x + IS.bx}px;top:${IS.y + IS.by}px;background:#fbf7ee;border-radius:12px;padding:8px 18px;font:italic 800 46px Fraunces;color:#1c1712;box-shadow:0 8px 18px rgba(0,0,0,.45);white-space:nowrap">${th.bubble}</div>` : ""}
+${th.bubble ? `<div class="a" style="${th.bubbleAt ? (([x, y]) => `left:${x + (th.bubbleAt[1] || 0)}px;top:${y + (th.bubbleAt[2] || 0)}px;transform:translate(-50%,-100%)`)(M.sp(EP.places[th.bubbleAt[0]])) : `left:${IS.x + IS.bx}px;top:${IS.y + IS.by}px`};background:#fbf7ee;border-radius:12px;padding:8px 18px;font:italic 800 46px Fraunces;color:#1c1712;box-shadow:0 8px 18px rgba(0,0,0,.45);white-space:nowrap">${th.bubble}</div>` : ""}
 <div class="a" style="left:0;top:0;width:${tw}px;height:78px;background:#fff;text-align:center;font:800 50px/80px Montserrat;color:#111">${th.name}</div>
 <div class="a" style="right:40px;top:112px;width:240px;height:160px;background:url('${furl(nm("flag-icons/flags/4x3/" + th.flag + ".svg"))}') center/cover;box-shadow:0 6px 18px rgba(0,0,0,.45)"></div>
 <img class="a" src="${furl(wj)}" style="left:-30px;bottom:0;height:470px">
