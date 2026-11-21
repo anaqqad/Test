@@ -7,7 +7,7 @@ Long video: `publish/docs/bert-williams.md`.
 
 ## Published
 
-- YouTube Short (2026-11-21, Public): https://youtube.com/shorts/GXHYkHNLfQE (Related video and first-line link to be added when the long video is up)
+- YouTube Short (2026-11-21, Public): https://youtube.com/shorts/GXHYkHNLfQE (Related video and first-line link set to the long video https://youtu.be/U4i3ZXiqK-A)
 - Facebook Reel on The Black History Room (2026-11-21).
 
 ## Facebook
@@ -38,7 +38,7 @@ Title:
 He Had to Black Up Every Night #shorts
 
 Description:
-Watch the full video: (link of the long video)
+Watch the full video: https://youtu.be/U4i3ZXiqK-A
 
 Bert Williams was the highest-paid Black entertainer in America, the only Black star of the Ziegfeld Follies, and he had to wear blackface every night. With real 1916 footage of his famous silent poker routine.
 

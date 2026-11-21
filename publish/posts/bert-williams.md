@@ -2,7 +2,7 @@
 
 Image: `publish/posts/bert-williams.jpg` (Bert Williams in blackface, 1921; Bert Williams without makeup, 1921; In Dahomey cast photo, 1903; all public domain).
 Reel: `publish/reels/bert-williams.md`. Facts and sources: `data/reel-bert-williams.json`, `data/doc-bert-williams.json`.
-Link post (after the long video is up): "Watch the full video about Bert Williams on YouTube: (link)".
+Link post (after the long video is up): "Watch the full video about Bert Williams on YouTube: https://youtu.be/U4i3ZXiqK-A".
 
 ## Published
 
