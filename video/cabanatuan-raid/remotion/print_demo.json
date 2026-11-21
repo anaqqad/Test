@@ -1,0 +1,10 @@
+{
+ "fps": 30,
+ "note": "Test storyboard for ArchivePrint (photo print on dark graph paper). Stills: AT=... node stills.mjs print_demo.json <dir>. Render: SB=print_demo.json OUT=<dir> node render.mjs (copies assets/stills first).",
+ "overlays": [
+  {"id": "print_wide", "type": "ArchivePrint", "start": 0, "end": 6, "image": "bataan_surrender_1942.jpg", "aspect": 1.589,
+   "label": "Surrender on Bataan, April 1942", "source": "Demo · test render", "focus": [0.5, 0.45]},
+  {"id": "print_tall", "type": "ArchivePrint", "start": 6, "end": 12, "image": "reunion_1945.jpg", "aspect": 0.689,
+   "label": "Reunion, Yokohama 1945", "source": "Demo · test render", "focus": [0.5, 0.35], "circle": [0.5, 0.3, 0.2, 0.12]}
+ ]
+}

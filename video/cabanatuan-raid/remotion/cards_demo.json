@@ -1,0 +1,5 @@
+{"fps": 30, "note": "Demo of src/cards.tsx (CastCard, Headline, CodeWord). Content is a layout test.", "overlays": [
+ {"id": "demo_cast", "type": "CastCard", "start": 0, "end": 8, "image": "dyess_portrait.jpg", "aspect": 0.78, "name": "Ed Dyess", "role": "Pilot, 21st Pursuit Squadron", "lines": ["Escaped Davao, April 1943", "Told the world about Bataan"], "source": "Demo · test render"},
+ {"id": "demo_head", "type": "Headline", "start": 8, "end": 15, "kicker": "THE CODE", "before": "Japan never", "accent": "broke it", "after": "", "at": 1.5, "source": "Demo · test render"},
+ {"id": "demo_code", "type": "CodeWord", "start": 15, "end": 25, "file": "DEMO · CODE BOOK", "head": "How the code worked", "rows": [{"word": "chay-da-gahi", "lit": "tortoise", "mil": "Tank"}, {"word": "besh-lo", "lit": "iron fish", "mil": "Submarine"}, {"word": "gini", "lit": "chicken hawk", "mil": "Dive bomber"}], "source": "Demo · test render"}
+]}

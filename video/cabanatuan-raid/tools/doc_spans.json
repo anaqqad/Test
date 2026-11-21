@@ -1,0 +1,30 @@
+{
+ "prm_fed": {
+  "image": "prm_p1.png",
+  "pw": 2210,
+  "ph": 3250,
+  "phrase": "they fed us, fought with us and died for us",
+  "rects": [
+   [
+    161,
+    2606,
+    482,
+    44
+   ]
+  ]
+ },
+ "prm_28": {
+  "image": "prm_p1.png",
+  "pw": 2210,
+  "ph": 3250,
+  "phrase": "in just 28 minutes carried out one of the most perfectly executed",
+  "rects": [
+   [
+    1628,
+    630,
+    242,
+    49
+   ]
+  ]
+ }
+}
