@@ -16,8 +16,8 @@ export const QuoteCardJ: React.FC<{ bg?: string; portrait?: string; lines: { tex
   const lines = p.lines.map((l) => ({ text: l.text, at: fr(l.at)! }));
   const noPortrait = !p.portrait;
   return (
-    <QuoteCard bg={p.bg} portrait={p.portrait} lines={lines} by={p.by} byAt={fr(p.byAt)!} dur={d} size={p.size ?? (noPortrait ? 46 : 38)}
-      portraitH={p.portraitH ?? 900} textX={noPortrait ? 360 : 820} textW={noPortrait ? 1200 : 860} />
+    <QuoteCard bg={p.bg} portrait={p.portrait} lines={lines} by={p.by} byAt={fr(p.byAt)!} dur={d} size={p.size ?? (noPortrait ? 76 : 38)}
+      portraitH={p.portraitH ?? 900} textX={noPortrait ? 210 : 820} textW={noPortrait ? 1500 : 860} />
   );
 };
 
