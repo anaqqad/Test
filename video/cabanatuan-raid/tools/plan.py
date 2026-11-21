@@ -160,7 +160,7 @@ P = [
     # 5 Bataan to Cabanatuan
     [("To understand that night", "FRE", 312.0), ("@", "To understand that night", FRE_TAG), ("In April", "FRE", 327.0), ("The men who survived", "FRE", 335.0), ("From there", "H", 30.0), ("@", "From there", STAND + H_TAG)],
     # 6 grim place
-    [("It was a grim place", "CEB", 40.0), ("@", "It was a grim place", CEB_TAG), ("#", "It records one date", None, LQ("FILE 01 — CABANATUAN", "U.S. MARINE CORPS OFFICIAL HISTORY", "the first day in the history of the camp without a death.", "On 16 January 1943", USMC, before="…until 16 January 1943, which was "))],
+    [("It was a grim place", "CEB", 40.0), ("@", "It was a grim place", CEB_TAG), ("#", "It records one date", None, LQ("FILE 01 — CABANATUAN", "U.S. MARINE CORPS OFFICIAL HISTORY", "the first day in the history of the camp without a death.", "Henry I. Shaw, U.S. Marine Corps history, 1968", USMC, before="…until 16 January 1943, which was "))],
     # 7 rice
     [("The men lived on rice", "LB", 380.0), ("@", "The men lived on rice", STAND + LB_TAG), ("#", "One of them", None, QC("stills/camp_sick_drink.jpg", [("We were down to as low as", "down to about eight hundred"), ("800 calories a day", "calories a day"), ("and you had to work on it.", "and still had to work")],
         "Dr. Herbert Ott, former Cabanatuan prisoner · interview, 1993 (McRaven, NPS thesis)", "It took twelve hundred"))],
@@ -247,7 +247,7 @@ P = [
     [("The plan said", "TNK", 572.0), ("The moon was up", "AIT", 2057.0), ("@", "The moon was up", AIT_TAG)],
     # 45 the shot
     [("At a quarter to eight", "TNK", 395.0), ("#", "At a quarter to eight", None, LQ("FILE 04 — 7:45 P.M.", "THE ARMY'S STUDY OF THE RAID", "His shot was the signal.", "Michael J. King, U.S. Army Combat Studies Institute, 1985", KING,
-        before="At 1945, Murphy aimed his M-1 rifle at an open window in the nearest barrack and fired. "))],
+        before="At 1945 [7:45 p.m.], Murphy aimed his M-1 rifle at an open window in the nearest barrack and fired. "))],
     # 46 thirty seconds, the lock
     [("Every Ranger opened fire", "FRE", 365.0), ("@", "Every Ranger opened fire", STAND + FRE_TAG), ("At the main gate", "AIT", 2060.8), ("@", "At the main gate", AIT_TAG),
      ("#", "He said a Japanese soldier", None, QC("stills/sc396864_rangers.jpg", [("What's going on here?", "what was going on")], "A Japanese soldier at the gate, as recalled by S/Sgt. Theodore Richardson · " + WD, "what was going on"))],

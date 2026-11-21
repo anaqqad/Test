@@ -49,6 +49,13 @@ for k in range(N):
     fc.append(f"{last}format=yuv420p[vout]")
     out = ROOT / f"build/part{k}.mp4"
     print(f"part {k}: {t0:.2f}-{t1:.2f} s, {b - a} shots, {len(mine)} cards", flush=True)
+    # reuse a finished part when it is complete and newer than every clip and card in it (after a single card fix)
+    inputs = list(clips[a:b]) + [ROOT / f"build/overlays/{o['id']}.webm" for o in mine] + [ROOT / "build/storyboard.json"]
+    if out.exists() and out.stat().st_mtime > max(p.stat().st_mtime for p in inputs):
+        got = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(out)],
+                             capture_output=True, text=True).stdout.strip()
+        if got not in ("", "N/A") and abs(float(got) - (t1 - t0)) < 0.2:
+            print("  reused", flush=True); parts.append(out); continue
     import shutil, time
     while shutil.disk_usage(ROOT).free < 1.0e9:
         print("waiting for disk space", flush=True); time.sleep(60)
