@@ -54,8 +54,6 @@ export default {
     door: { file: "v3/Open and close squeaky door (Gravity Sound).wav", start: 0.0, end: 2.0 },
     coin: { file: "v4/Coin dropped on wooden floor.ogg", start: 0.45, end: 2.0 },
     tack: { file: "v4/Mechanical tack.ogg" },
-    paper: { file: "v4/Book paper pages assorted.ogg", start: 4.25, end: 5.1 },
-    pencil: { file: "v4/Pencil scratchings.ogg", start: 1.2, end: 2.5 },
   },
   // v5: no location beds (owner: the page-flipping/scratching bed under every scene was unwanted)
   scoreFiles: {
