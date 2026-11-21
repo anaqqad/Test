@@ -1,0 +1,841 @@
+{
+ "id": "reel-bert-williams",
+ "title": "He Had to Black Up Every Night",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Nassau": "Nassaw",
+  "Ziegfeld": "Zigfeld",
+  "Florenz": "Florents",
+  "Dahomey": "Da-homey"
+ },
+ "assets": {
+  "suit1921": {
+   "commons": "File:BertWilliamsPhotoPortraitWithCigarette.jpg"
+  },
+  "suit1921b": {
+   "commons": "File:Bert Williams -31 LCCN2004674530.jpg"
+  },
+  "cork": {
+   "commons": "File:Bert Williams blackface 2.jpg"
+  },
+  "young1896": {
+   "commons": "File:BertWilliams1896.jpg"
+  },
+  "young1902": {
+   "commons": "File:Bert Williams, stage actor (SAYRE 11054).jpg"
+  },
+  "ww": {
+   "commons": "File:Maud Cuney Hare-williams and walker-159.jpg"
+  },
+  "coons": {
+   "commons": "File:Williams and Walker poster 1903.jpg"
+  },
+  "dahomey": {
+   "commons": "File:In Dahomey 1903.jpg"
+  },
+  "jonah": {
+   "commons": "File:WilliamsWalkerJohnahMan.jpg"
+  },
+  "palace": {
+   "commons": "File:Charles B. Falls - Bert Williams Palace Theatre poster.jpg"
+  },
+  "follies1919": {
+   "commons": "File:Johnny Dooley, Eddie Cantor, Gus Van, Bert Williams, Joe Schenck, Eddie Dowling, & Ray Dooley, Follies of 1919.jpg"
+  },
+  "uniform": {
+   "commons": "File:1916 United States Army Captain Bert Williams, portrait, facing right, singing a psalm at the first regimental open air service for the 15th Regiment of the New York National Guard - LCCN96521643 (cropped).jpg"
+  },
+  "tophat": {
+   "commons": "File:BertWilliamsBlackfaceTophatSmile.jpg"
+  }
+ },
+ "clips": {
+  "bar1": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 68,
+   "dur": 8
+  },
+  "bar2": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 78,
+   "dur": 12
+  },
+  "bar3": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 96,
+   "dur": 8
+  },
+  "court1": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1110,
+   "dur": 12
+  },
+  "court3": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1164,
+   "dur": 5
+  },
+  "cell": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1205,
+   "dur": 13
+  },
+  "pk1": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1223,
+   "dur": 13
+  },
+  "pk2": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1239,
+   "dur": 11
+  },
+  "pk3": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1251,
+   "dur": 7
+  },
+  "pk4": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1257,
+   "dur": 11
+  },
+  "pk5": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1269,
+   "dur": 17
+  },
+  "pk6": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1287,
+   "dur": 13
+  },
+  "pk7": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1303,
+   "dur": 13
+  },
+  "pk8": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1317,
+   "dur": 18
+  },
+  "pk9": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1337,
+   "dur": 13
+  },
+  "pk10": {
+   "file": "gambler.webm",
+   "commons": "File:A Natural Born Gambler (1916).webm",
+   "start": 1350,
+   "dur": 6
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "He was the highest-paid Black entertainer in America. And every night, he had to paint his face black to go on stage.",
+   "visual": {
+    "kind": "photo",
+    "image": "suit1921",
+    "focus": [
+     0.5,
+     0.22
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.36
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "America's highest-paid Black star. *Every night, he had to black up.*"
+   },
+   "captions": false,
+   "speed": 1.3
+  },
+  {
+   "id": "name",
+   "text": "His name was Bert Williams. W. C. Fields called him the funniest man he ever saw, and the saddest man he ever knew.",
+   "visual": {
+    "kind": "video",
+    "clip": "pk4",
+    "focus": [
+     0.7,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "He was born in Nassau, in the Bahamas, in 1874, and grew up in California.",
+   "visual": {
+    "kind": "photo",
+    "image": "young1896",
+    "focus": [
+     0.5,
+     0.22
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "Nassau, Bahamas"
+    }
+   },
+   "section": "story"
+  },
+  {
+   "id": "walker",
+   "text": "In 1893, in a minstrel show in San Francisco, he met George Walker. Together they became the most famous Black performers in the world.",
+   "visual": {
+    "kind": "card",
+    "image": "ww",
+    "caption": "Bert Williams and George Walker"
+   },
+   "overlays": {
+    "stamp": "1893"
+   }
+  },
+  {
+   "id": "cork",
+   "text": "But on stage, they had to wear blackface. Bert was light-skinned. Before every show, he blackened his face with burnt cork.",
+   "visual": {
+    "kind": "photo",
+    "image": "cork",
+    "focus": [
+     0.4,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.45,
+     0.5
+    ]
+   },
+   "section": "mask"
+  },
+  {
+   "id": "billing",
+   "text": "They even called themselves Two Real Coons, to set themselves apart from the white men in blackface.",
+   "visual": {
+    "kind": "card",
+    "image": "coons",
+    "caption": "Williams and Walker poster, 1903"
+   }
+  },
+  {
+   "id": "dahomey",
+   "text": "In 1903, their show In Dahomey became the first all-Black musical at a major Broadway theater. They even played Buckingham Palace.",
+   "visual": {
+    "kind": "card",
+    "image": "dahomey",
+    "caption": "In Dahomey, 1903"
+   },
+   "overlays": {
+    "stamp": "1903"
+   },
+   "section": "fame"
+  },
+  {
+   "id": "seats",
+   "text": "Yet inside that theater, Black fans had to sit in a separate section.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar3",
+    "focus": [
+     0.65,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "walkerdies",
+   "text": "Then George Walker fell ill. He died in 1911, and Bert was on his own.",
+   "visual": {
+    "kind": "card",
+    "image": "jonah",
+    "caption": "Williams and Walker"
+   }
+  },
+  {
+   "id": "ziegfeld",
+   "text": "In 1910, Florenz Ziegfeld hired him for the Follies, the biggest show on Broadway. Bert was the only Black star in an all-white cast.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar1",
+    "focus": [
+     0.65,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "stamp": "1910"
+   },
+   "section": "follies"
+  },
+  {
+   "id": "ultimatum",
+   "text": "Cast members demanded that he be fired. Ziegfeld refused. He reportedly told them, I can replace every one of you, except him.",
+   "visual": {
+    "kind": "video",
+    "clip": "court1",
+    "focus": [
+     0.25,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.4,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "star",
+   "text": "Bert became the star of the show. His sad song Nobody became his signature.",
+   "visual": {
+    "kind": "video",
+    "clip": "pk1",
+    "focus": [
+     0.7,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "paid",
+   "text": "He was the highest-paid Black entertainer in America.",
+   "visual": {
+    "kind": "card",
+    "image": "palace",
+    "caption": "Palace Theatre poster, about 1918"
+   }
+  },
+  {
+   "id": "elevator",
+   "text": "But when he walked into a hotel, he had to ride the freight elevator.",
+   "visual": {
+    "kind": "photo",
+    "image": "suit1921b",
+    "focus": [
+     0.5,
+     0.2
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.36
+    ]
+   },
+   "section": "insult"
+  },
+  {
+   "id": "applause",
+   "text": "He told his friend Eddie Cantor: It wouldn't be so bad, if I didn't still hear the applause ringing in my ears.",
+   "visual": {
+    "kind": "card",
+    "image": "follies1919",
+    "caption": "Ziegfeld Follies of 1919, with Eddie Cantor"
+   }
+  },
+  {
+   "id": "bar",
+   "text": "Once, a bartender told him a drink would cost fifty dollars. Bert laid a pile of big bills on the bar, and kept ordering.",
+   "visual": {
+    "kind": "video",
+    "clip": "bar2",
+    "focus": [
+     0.65,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "gambler",
+   "text": "In 1916 he filmed his famous poker routine. This is it. One man, no words, a whole card game in his face.",
+   "visual": {
+    "kind": "video",
+    "clip": "pk2",
+    "focus": [
+     0.7,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "overlays": {
+    "stamp": "1916"
+   },
+   "section": "film"
+  },
+  {
+   "id": "strike",
+   "text": "In 1919, Broadway's actors went on strike, and the whole cast walked out. Nobody told Bert. He walked into an empty theater.",
+   "visual": {
+    "kind": "video",
+    "clip": "court3",
+    "focus": [
+     0.25,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.3,
+     0.4
+    ]
+   },
+   "section": "alone"
+  },
+  {
+   "id": "collapse",
+   "text": "In February 1922, sick with pneumonia, he collapsed on stage in Detroit. At first, the audience thought it was part of the act.",
+   "visual": {
+    "kind": "title",
+    "title": "February 1922",
+    "sub": "Detroit, Michigan"
+   },
+   "section": "end"
+  },
+  {
+   "id": "last",
+   "text": "Backstage, he reportedly said: That's a nice way to die. They was laughing when I made my last exit.",
+   "visual": {
+    "kind": "video",
+    "clip": "pk6",
+    "focus": [
+     0.7,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "died",
+   "text": "On March 4th, 1922, Bert Williams died in New York.",
+   "visual": {
+    "kind": "photo",
+    "image": "uniform",
+    "focus": [
+     0.45,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.45,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "funeral",
+   "text": "Thousands came to see his coffin. He was the first Black man buried with Masonic honors in New York.",
+   "visual": {
+    "kind": "photo",
+    "image": "young1902",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "essay",
+   "text": "He once wrote: I have never been able to discover that there was anything disgraceful in being a colored man. But I have often found it inconvenient, in America.",
+   "visual": {
+    "kind": "video",
+    "clip": "pk9",
+    "focus": [
+     0.7,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "close",
+   "text": "That was Bert Williams.",
+   "visual": {
+    "kind": "photo",
+    "image": "suit1921",
+    "focus": [
+     0.5,
+     0.22
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.36
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "WIKI": {
+   "url": "https://en.wikipedia.org/wiki/Bert_Williams"
+  },
+  "ENC": {
+   "url": "https://www.encyclopedia.com/people/literature-and-arts/theater-biographies/bert-williams"
+  },
+  "PBS": {
+   "url": "https://www.pbs.org/wnet/broadway/stars/bert-williams/"
+  },
+  "UA": {
+   "url": "https://sites.arizona.edu/vaudeville/bert-williams-vaudevilles-biggest-black-superstar-by-david-soren"
+  },
+  "FASSLER": {
+   "url": "https://ronfassler.org/post/2418/A-COMEDIAN-S-TRAGEDY-THE-STORY-OF-BERT-WILLIAMS"
+  },
+  "TMANIA": {
+   "url": "https://www.theatermania.com/news/bert-williams-americas-first-black-star-part-ii_70442"
+  },
+  "FIELDS": {
+   "url": "https://rd.springer.com/chapter/10.1057/978-1-349-94986-1_9"
+  },
+  "NORMAN": {
+   "url": "https://normanstudios.org/blog/2017/01/26/the-iconic-mr-nobody-an-analysis-of-silent-film-legend-bert-williams/"
+  },
+  "WHIP": {
+   "url": "https://cablecarguy.blogspot.com/2022/03/bert-williams-100-years-march-4-2022.html"
+  },
+  "FILM": {
+   "url": "https://commons.wikimedia.org/wiki/File:A_Natural_Born_Gambler_(1916).webm"
+  }
+ },
+ "facts": [
+  {
+   "beat": "hook",
+   "sources": [
+    "WIKI",
+    "UA",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "name",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "PBS",
+    "TMANIA"
+   ]
+  },
+  {
+   "beat": "born",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "PBS"
+   ],
+   "note": "ENC notes Antigua as an unconfirmed alternative birthplace."
+  },
+  {
+   "beat": "walker",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "PBS"
+   ]
+  },
+  {
+   "beat": "cork",
+   "sources": [
+    "WIKI",
+    "UA",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "billing",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "dahomey",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "PBS"
+   ],
+   "note": "Palace year differs (1903 vs 1904): no year said."
+  },
+  {
+   "beat": "seats",
+   "sources": [
+    "WIKI",
+    "UA"
+   ]
+  },
+  {
+   "beat": "walkerdies",
+   "sources": [
+    "WIKI",
+    "PBS",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "ziegfeld",
+   "sources": [
+    "WIKI",
+    "UA",
+    "FASSLER",
+    "ENC"
+   ]
+  },
+  {
+   "beat": "ultimatum",
+   "sources": [
+    "WIKI",
+    "FASSLER"
+   ]
+  },
+  {
+   "beat": "star",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "TMANIA"
+   ]
+  },
+  {
+   "beat": "paid",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ],
+   "note": "ENC: salary reportedly exceeded the President's."
+  },
+  {
+   "beat": "elevator",
+   "sources": [
+    "ENC",
+    "PBS"
+   ]
+  },
+  {
+   "beat": "applause",
+   "sources": [
+    "ENC",
+    "PBS"
+   ]
+  },
+  {
+   "beat": "bar",
+   "sources": [
+    "WIKI",
+    "TMANIA"
+   ],
+   "note": "Details differ (roll of hundreds / a $500 bill): kept general."
+  },
+  {
+   "beat": "gambler",
+   "sources": [
+    "WIKI",
+    "UA",
+    "FASSLER",
+    "FILM"
+   ]
+  },
+  {
+   "beat": "strike",
+   "sources": [
+    "WIKI",
+    "FIELDS",
+    "NORMAN"
+   ]
+  },
+  {
+   "beat": "collapse",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "FASSLER"
+   ],
+   "note": "Exact date differs (Feb 21/25/27): month only."
+  },
+  {
+   "beat": "last",
+   "sources": [
+    "WIKI",
+    "FASSLER"
+   ]
+  },
+  {
+   "beat": "died",
+   "sources": [
+    "WIKI",
+    "ENC",
+    "PBS"
+   ],
+   "note": "Age 46 or 47 differs: not said."
+  },
+  {
+   "beat": "funeral",
+   "sources": [
+    "WIKI",
+    "UA",
+    "WHIP"
+   ],
+   "note": "Crowd 5,000 (WIKI) vs 7,000 (WHIP): 'thousands'."
+  },
+  {
+   "beat": "essay",
+   "sources": [
+    "WIKI",
+    "ENC"
+   ]
+  }
+ ]
+}
