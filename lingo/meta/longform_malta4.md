@@ -1,22 +1,22 @@
-# YouTube metadata: Malta v4
+# YouTube metadata: Malta v5
 
 ## Title
 Sicily Lost Its Arabic. Why Didn't Malta?
 (alternative for Test & compare: Why Does Maltese Sound Like Arabic?)
 
 ## Description
-Malta and Sicily sit 90 km apart. Both were ruled by Arabs for more than two centuries, and both were taken by the same Norman count in 1091. Today Sicily speaks a Latin language, and Malta still says ktieb, the Arabic word for book. We put both islands on one table, build the case on an evidence board, read the oldest known text in Maltese, and listen to the roots that are still there today.
+Malta and Sicily sit 90 km apart. Both were ruled by Arabs for more than two centuries, and both were taken by the same Norman count in 1091. Today Sicily speaks a Latin language, and Malta still says ktieb, the Arabic word for book. We put both islands on one table, build the case on an evidence board one source at a time (and mark what the sources can't tell us), read the oldest known text in Maltese, and listen to the roots that are still there today.
 
 Every Maltese and Arabic word you hear is a real recording by a native speaker. No AI voices for the languages. Footage marked STAND-IN on screen is not from Malta.
 
 0:00 Intro: two words, one root
-0:39 Two islands, one clock
-2:51 The people who stayed
-3:47 A poem in a notary's register
-4:44 Listen for the root
-6:05 The Language Question
-6:35 Still spoken today
-7:42 The answer
+0:54 Two islands, one clock
+3:11 The people who stayed
+4:21 A poem in a notary's register
+5:26 Listen for the root
+6:48 The Language Question
+7:18 Still spoken today
+8:25 The answer
 
 Maltese speakers: which everyday word would you show an Arabic speaker first? Tell us in the comments 👇
 
@@ -99,5 +99,5 @@ Maltese language, Malta, Sicily, Sicily Arabic, why does Maltese sound like Arab
 - Made for kids: No
 - Altered or synthetic content: Yes (AI narration voice; all Maltese and Arabic speech is real)
 - Thumbnail: lingo/out/brand/thumbL_malta3_B.png (title above); thumbL_malta3_A.png for the alternative title
-- Mid-roll ad break: 3:46 (after "…turned up in a notary's register.")
-- Video: lingo/out/malta4_v4.mp4 (gitignored; re-render with `node longform4.mjs malta4 --out malta4_v4 --workers 2`)
+- Mid-roll ad break: 4:20 (after "…turned up in a notary's register.")
+- Video: lingo/out/malta4_v5.mp4 (gitignored; re-render with `node longform4.mjs malta4 --out malta4_v5 --workers 3`)

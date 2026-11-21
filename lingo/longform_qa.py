@@ -76,5 +76,8 @@ if os.path.exists(sh):
                f"longest stretch between cuts {longd[1]:.2f} s at {int(longd[0] // 60)}:{longd[0] % 60:04.1f}; over 5 s: {', '.join(over) if over else 'none'}")
     missed = [x for x in plan if x["t0"] > 0.2 and not any(abs(c - x["t0"]) < 0.25 for c in cuts)]
     rep.append(f"   planned cuts not seen by the detector (similar compositions, check by eye): {len(missed)}" + ("".join(f"\n     {int(x['t0'] // 60)}:{x['t0'] % 60:04.1f} {x['line']} {x['kind']} {x['what']}" for x in missed[:40])))
+    # 6. flashes: a picture on screen for under 0.5 s between two detected cuts (the v4 flash at 6:27 was 0.3 s of a stale map)
+    fl = [f"{int(a // 60)}:{a % 60:04.1f} ({d:.2f} s)" for a, d in gaps if d < 0.5 and a > 0.2]
+    rep.append("6. Flashes (under 0.5 s between detected cuts): " + (", ".join(fl) if fl else "none"))
 open(os.path.join(HERE, "out", f"qa_{tag}.txt"), "w").write("\n".join(rep) + "\n")
 print("\n".join(rep))

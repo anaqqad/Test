@@ -259,6 +259,9 @@ for (const x of SHOTS) {
     if (FULLS.some((q) => q !== o && q.tIn <= o.tIn && q.tOut > o.tIn + 0.05)) o.cutIn = true;          // starts over another full layer
     if (FULLS.some((q) => q !== o && q.tIn <= o.tIn && q.tOut > o.tOut + 0.2)) o.cutOut = true;         // returns to it
   }
+  // a layer that ends where a map shot begins cuts to it: a fade would show the map at its previous framing for a few frames (v4 flash at 6:27)
+  const mapStarts = SHOTS.filter((x) => x.kind === "map").map((x) => x.t0);
+  for (const o of FULLS) if (mapStarts.some((m) => Math.abs(m - o.tOut) < 0.1)) o.cutOut = true;
   // cards and lock graphics that end just before a hard cut stay up and cut with it (no fade back to the layer below)
   const cutTimes = FULLS.filter((o) => o.cutOut).map((o) => o.tOut);
   for (const o of OV) if (!o.shot && !["photo", "video", "twin", "hear", "fadeout", "title"].includes(o.type)) {
@@ -305,18 +308,31 @@ if (EP.table) {
   const camOf = (c) => { const [x, y] = at(c.at); return { tilt: c.tilt ?? 0, rz: c.rz ?? 0, zoom: c.zoom ?? 0.6, x: x - SW / 2 + (c.dx || 0), y: y - SH / 2 + (c.dy || 0) }; };
   for (const o of OV) if (o.type === "table") { const sp = o.spec; o.c0 = camOf(sp.from || sp); o.c1 = camOf(sp.to || { ...(sp.from || sp), zoom: (sp.from || sp).zoom * 1.06 }); o.focus = sp.focus || null; }
 }
-// ───────── investigation board (v4) ─────────
+// ───────── investigation board (v4, v5) ─────────
+// v5: a laid-out board (heads, divider lines), labelled strings (records / shows / suggests / challenges / open),
+// [[highlighted]] phrases inside cards, `lit` = cards kept bright while the rest dims, `cap` = a caption strip carried
+// across consecutive board shots, and a camera that glides from the previous board shot's framing to the next one.
 let BOARD = null;
 if (EP.board) {
-  const bd = EP.board;
-  BOARD = { w: bd.w, h: bd.h, paper: furl(path.join(HERE, "cache", "longform", "paper.png")), links: [], rewrites: [],
-    cards: Object.entries(bd.cards).map(([id, c]) => ({ id, ...c, ...(c.src ? (({ url, w, h }) => ({ url, iw: w, ih: h }))(thumb(c.src, 800)) : {}), t: 1e9 })) };
+  const bd = EP.board, mk = (s) => (s == null ? s : String(s).replace(/\[\[(.+?)\]\]/g, '<span class="hl">$1</span>'));
+  const LSTYLE = { records: "solid", shows: "solid", supports: "solid", suggests: "dash", challenges: "blue", raises: "honey", open: "open", tests: "blue" };
+  BOARD = { w: bd.w, h: bd.h, lines: bd.lines || [], links: [], rewrites: [],
+    cards: Object.entries(bd.cards).map(([id, c]) => ({ id, ...c, text: mk(c.text), sub: mk(c.sub), cite: mk(c.cite), ...(c.src ? (({ url, w, h }) => ({ url, iw: w, ih: h }))(thumb(c.src, 800)) : {}), t: c.kind === "head" ? 0 : 1e9, fixed: c.kind === "head", hlT: 1e9 })) };
+  const card = (id) => { const i = BOARD.cards.findIndex((q) => q.id === id); if (i < 0) throw new Error("no board card " + id); return i; };
+  const LK = Object.fromEntries(Object.entries(bd.links || {}).map(([id, L]) => { const [a, b, label, style, opt] = Array.isArray(L) ? L : [L.a, L.b, L.label, L.style, L]; return [id, { id, a: card(a), b: card(b), label: label || "", style: style || LSTYLE[label] || "solid", ax: opt?.ax || 0, bx: opt?.bx || 0, route: opt?.route || null, at: opt?.at ?? 0.5, sag: opt?.sag ?? 130 }]; }));
+  let bid = 0, prev = null;
   for (const x of SHOTS) if (x.kind === "board") {
-    (x.add || []).forEach((id, k) => { const c = BOARD.cards.find((q) => q.id === id); if (!c) throw new Error("no board card " + id); if (c.t > 1e8) c.t = x.t0 + (x.addAt ?? 0.35) + k * 0.6; });
-    (x.link || []).forEach(([a, b], k) => BOARD.links.push({ a: BOARD.cards.findIndex((q) => q.id === a), b: BOARD.cards.findIndex((q) => q.id === b), t: x.t0 + (x.linkAt ?? 0.9) + k * 0.6 }));
-    if (x.rewrite) BOARD.rewrites.push({ ...x.rewrite, i: BOARD.cards.findIndex((q) => q.id === x.rewrite.card), t: x.t0 + (x.rewrite.at ?? 0.6) });
+    (x.add || []).forEach((id, k) => { const c = BOARD.cards[card(id)]; if (c.t > 1e8) c.t = x.t0 + (x.addAt ?? 0.35) + k * 0.6; });
+    (x.link || []).forEach((L, k) => { const t = x.t0 + (x.linkAt ?? 0.9) + k * 0.7;
+      if (Array.isArray(L)) BOARD.links.push({ id: L.join("-"), a: card(L[0]), b: card(L[1]), label: L[2] || "", style: L[3] || LSTYLE[L[2]] || "solid", t });
+      else { if (!LK[L]) throw new Error("no board link " + L); if (!BOARD.links.includes(LK[L])) BOARD.links.push(Object.assign(LK[L], { t })); } });
+    (x.hl || []).forEach((id) => { const c = BOARD.cards[card(id)]; c.hlT = Math.min(c.hlT, x.t0 + (x.hlAt ?? 0.6)); });
+    if (x.rewrite) BOARD.rewrites.push({ ...x.rewrite, i: card(x.rewrite.card), t: x.t0 + (x.rewrite.at ?? 0.6) });
+    x.bid = bid++; x.pbid = prev && Math.abs(prev.t1 - x.t0) < 0.06 ? prev.bid : null; prev = x;
   }
-  for (const l of BOARD.links) if (l.a < 0 || l.b < 0) throw new Error("bad board link");
+  for (const x of SHOTS) if (x.kind === "board" && x.lit) x.lit.forEach((id) => card(id));
+  for (const o of OV) if (o.type === "board") { const x = SHOTS.find((q) => q.kind === "board" && Math.abs(q.t0 - o.tIn) < 1e-6); o.bid = x.bid; o.pbid = x.pbid; }
+  const unused = Object.keys(LK).filter((k) => !BOARD.links.includes(LK[k])); if (unused.length) console.log("  board links never shown: " + unused.join(", "));
 }
 // ───────── desk documents (v4) ─────────
 const DOCS = Object.fromEntries(Object.entries(EP.docs || {}).map(([k, src]) => { const ph0 = photo(src), ph = { ...thumb(src, 2400), credit: ph0.credit }; return [k, { url: ph.url, iw: ph.w, ih: ph.h, credit: ph.credit, tex: furl(path.join(INC, EP.deskTex || EP.table?.tex)) }]; }));
@@ -332,7 +348,7 @@ const DATA = { W, H, TOTAL, camK, fillK, labelK, routes, yearK, kickK, OV, title
 
 // ───────── page ─────────
 const TEX = path.join(HERE, "cache", "longform", "paper.png");
-const fontCss = [...["700", "800", "900", "700-italic", "800-italic"].map((w) => nm(`@fontsource/fraunces/${w}.css`)), ...["500", "700", "800"].map((w) => nm(`@fontsource/inter/${w}.css`)), nm("@fontsource/noto-naskh-arabic/700.css")]
+const fontCss = [...["700", "800", "900", "700-italic", "800-italic", "900-italic"].map((w) => nm(`@fontsource/fraunces/${w}.css`)), ...["500", "700", "800"].map((w) => nm(`@fontsource/inter/${w}.css`)), nm("@fontsource/noto-naskh-arabic/700.css")]
   .map((f) => `<link rel="stylesheet" href="${furl(f)}">`).join("");
 for (const o of OV) if (o.img) o.img = fs.existsSync(path.join(HERE, o.img)) ? furl(path.join(HERE, o.img)) : null;
 const html = `<!doctype html><html><head><meta charset="utf-8">${fontCss}<style>
@@ -460,26 +476,57 @@ if(TB){tbl=document.createElement('div');tbl.style.cssText='position:absolute;in
   h+='</div></div><div class="tdof" style="position:absolute;inset:0;pointer-events:none"></div>'+light;
   tbl.innerHTML=h;ov.prepend(tbl)}
 if(BD){brd=document.createElement('div');brd.style.cssText='position:absolute;inset:0;opacity:0;display:none;background:#0a1117;overflow:hidden';
+  const tagH=(c,def,col)=>'<div class="btag" style="display:inline-block;font:800 19px Inter;letter-spacing:.14em;color:#fff;background:'+(c.tagColor||col||'#6d5f4c')+';border-radius:5px;padding:5px 11px">'+(c.tag||def)+'</div>';
+  const citeH=(c)=>c.cite?'<div style="font:600 21px/1.3 Inter;color:#6d5f4c;margin-top:10px">'+c.cite+'</div>':'';
   const card=(c)=>{const pin='<div style="position:absolute;left:50%;top:-14px;width:32px;height:32px;margin-left:-16px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ee7a6b,#a3241b 60%,#5e120c);box-shadow:3px 7px 7px rgba(0,0,0,.55);z-index:2"></div>';let b;
-    if(c.kind==='q')b='<div style="background:#f6efdc;padding:30px 38px 36px;border-top:16px solid #b8332a"><div style="font:800 22px Inter;letter-spacing:.16em;color:#b8332a">THE QUESTION</div><div style="font:900 60px/1.08 Fraunces;color:#1f1a14;margin-top:12px">'+c.text+'</div></div>';
-    else if(c.kind==='photo')b='<div style="background:#f4f0e6;padding:16px 16px 20px"><img src="'+c.url+'" style="width:100%;display:block;'+(c.crop?'height:'+c.crop+'px;object-fit:cover;object-position:'+(c.pos||'50% 50%'):'')+'"><div style="font:800 27px/1.2 Inter;color:#2a2018;margin-top:12px">'+(c.title||'')+'</div>'+(c.text?'<div style="font:600 22px/1.3 Inter;color:#6d5f4c;margin-top:4px">'+c.text+'</div>':'')+'</div>';
-    else if(c.kind==='word')b='<div style="background:#f6efdc;padding:24px 32px 28px;text-align:center"><div style="font:800 20px Inter;letter-spacing:.14em;color:#b8332a">'+(c.tag||'')+'</div><div style="font:italic 900 70px/1.1 Fraunces;color:#1f1a14;margin-top:6px">'+c.text+'</div>'+(c.sub?'<div style="font:600 24px Inter;color:#6d5f4c;margin-top:6px">'+c.sub+'</div>':'')+'</div>';
-    else if(c.kind==='conclusion')b='<div style="background:#f2c46b;padding:24px 30px 30px"><div style="font:800 19px Inter;letter-spacing:.14em;color:#7a1f18">'+(c.tag||'WHAT THE EVIDENCE SUPPORTS')+'</div><div style="font:900 44px/1.12 Fraunces;color:#1f1a14;margin-top:10px">'+c.text+'</div></div>';
-    else b='<div style="background:#f3ead4;padding:22px 28px 26px"><div class="btag" style="display:inline-block;font:800 19px Inter;letter-spacing:.14em;color:#fff;background:'+(c.tagColor||'#6d5f4c')+';border-radius:5px;padding:5px 11px">'+(c.tag||'NOTE')+'</div><div class="bold" style="position:relative;font:800 40px/1.16 Fraunces;color:#1f1a14;margin-top:12px">'+c.text+'<div class="bstrike" style="position:absolute;left:-6px;top:50%;height:7px;width:0;background:#b8332a;border-radius:4px"></div></div><div class="bnew" style="font:800 40px/1.16 Fraunces;color:#b8332a;margin-top:10px;min-height:0"></div>'+(c.cite?'<div style="font:600 21px/1.3 Inter;color:#6d5f4c;margin-top:10px">'+c.cite+'</div>':'')+'</div>';
-    return '<div class="bc" data-i="'+c._i+'" style="position:absolute;left:'+(c.x-BD.w/2-c.w/2)+'px;top:'+(c.y-BD.h/2)+'px;width:'+c.w+'px;opacity:0;transform-origin:50% 0"><div style="transform:rotate('+(c.rot||0)+'deg);box-shadow:6px 12px 18px rgba(0,0,0,.5)">'+pin+b+'</div></div>'};
+    if(c.kind==='head')return '<div class="bc" data-i="'+c._i+'" style="position:absolute;left:'+(c.x-BD.w/2-c.w/2)+'px;top:'+(c.y-BD.h/2)+'px;width:'+c.w+'px;text-align:'+(c.align||'center')+'"><div style="font:900 '+(c.size||78)+'px/1 Fraunces;letter-spacing:.08em;color:'+(c.color||'#f3e6cc')+'">'+c.text+'</div>'+(c.sub?'<div style="font:700 24px Inter;letter-spacing:.16em;color:rgba(243,230,204,.62);margin-top:10px">'+c.sub+'</div>':'')+'</div>';
+    if(c.kind==='q')b='<div style="background:#f6efdc;padding:28px 38px 32px;border-top:16px solid #b8332a"><div style="font:800 22px Inter;letter-spacing:.16em;color:#b8332a">'+(c.tag||'THE QUESTION')+'</div><div style="font:900 54px/1.08 Fraunces;color:#1f1a14;margin-top:12px">'+c.text+'</div></div>';
+    else if(c.kind==='photo')b='<div style="background:#f4f0e6;padding:16px;display:flex;gap:20px;align-items:flex-start"><img src="'+c.url+'" style="width:'+(c.iw2||220)+'px;height:'+(c.crop||200)+'px;object-fit:cover;object-position:'+(c.pos||'50% 50%')+';display:block;flex:none"><div style="flex:1;min-width:0;padding-top:4px">'+(c.tag?tagH(c,'',c.tagColor||'#3d5f9a'):'')+'<div style="font:800 28px/1.2 Inter;color:#2a2018;margin-top:'+(c.tag?10:0)+'px">'+(c.title||'')+'</div>'+(c.text?'<div class="bold" style="position:relative;font:800 30px/1.18 Fraunces;color:#1f1a14;margin-top:6px">'+c.text+'</div>':'')+citeH(c)+'</div></div>';
+    else if(c.kind==='word')b='<div style="background:#f6efdc;padding:24px 32px 28px;text-align:center"><div style="font:800 20px Inter;letter-spacing:.14em;color:#b8332a">'+(c.tag||'')+'</div><div style="font:italic 900 70px/1.1 Fraunces;color:#1f1a14;margin-top:6px">'+c.text+'</div>'+(c.sub?'<div style="font:600 26px/1.3 Inter;color:#6d5f4c;margin-top:8px">'+c.sub+'</div>':'')+'</div>';
+    else if(c.kind==='conclusion')b='<div style="background:#f2c46b;padding:24px 30px 30px"><div style="font:800 19px Inter;letter-spacing:.14em;color:#7a1f18">'+(c.tag||'WHAT THE EVIDENCE SUPPORTS')+'</div><div style="font:900 40px/1.14 Fraunces;color:#1f1a14;margin-top:10px">'+c.text+'</div>'+(c.sub?'<div style="font:700 24px/1.35 Inter;color:#5a3a14;margin-top:12px">'+c.sub+'</div>':'')+'</div>';
+    else if(c.kind==='find')b='<div style="background:#fbf3df;padding:20px 26px 24px;border-left:14px solid '+(c.edge||'#d39a3c')+'"><div style="font:800 18px Inter;letter-spacing:.14em;color:#8a5a14">'+(c.tag||'FINDING')+'</div><div class="bold" style="position:relative;font:800 34px/1.16 Fraunces;color:#1f1a14;margin-top:8px">'+c.text+'<div class="bstrike" style="position:absolute;left:-6px;top:50%;height:7px;width:0;background:#b8332a;border-radius:4px"></div></div><div class="bnew" style="font:800 34px/1.16 Fraunces;color:#b8332a;margin-top:8px"></div>'+citeH(c)+'</div>';
+    else if(c.kind==='open')b='<div style="background:#ece6d6;padding:20px 26px 24px;outline:5px dashed #8c8577;outline-offset:-5px"><div style="font:800 18px Inter;letter-spacing:.14em;color:#5f594d">'+(c.tag||'OPEN QUESTION')+'</div><div style="font:italic 800 34px/1.16 Fraunces;color:#1f1a14;margin-top:8px">'+c.text+'</div>'+citeH(c)+'</div>';
+    else b='<div style="background:#f3ead4;padding:22px 28px 26px">'+tagH(c,'NOTE')+'<div class="bold" style="position:relative;font:800 36px/1.16 Fraunces;color:#1f1a14;margin-top:12px">'+c.text+'<div class="bstrike" style="position:absolute;left:-6px;top:50%;height:7px;width:0;background:#b8332a;border-radius:4px"></div></div><div class="bnew" style="font:800 36px/1.16 Fraunces;color:#b8332a;margin-top:10px"></div>'+citeH(c)+'</div>';
+    return '<div class="bc" data-i="'+c._i+'" style="position:absolute;left:'+(c.x-BD.w/2-c.w/2)+'px;top:'+(c.y-BD.h/2)+'px;width:'+c.w+'px;opacity:0;transform-origin:50% 0"><div style="position:relative;transform:rotate('+(c.rot||0)+'deg);box-shadow:6px 12px 18px rgba(0,0,0,.5)">'+pin+b+'<div class="bv" style="position:absolute;inset:-2px;background:#0a1117;opacity:0;z-index:3"></div></div></div>'};
   BD.cards.forEach((c,i)=>c._i=i);
-  let h='<div style="position:absolute;inset:0;perspective:1800px;perspective-origin:50% 45%"><div class="bw" style="position:absolute;left:960px;top:540px;width:0;height:0">';
+  const LC={solid:'#c4372c',dash:'#c4372c',blue:'#3f74b8',honey:'#d9a03c',open:'#9a9384'};
+  let h='<style>.hl{background:linear-gradient(rgba(242,196,107,.85),rgba(242,196,107,.85)) no-repeat 0 88%;background-size:0% 46%;-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 2px}</style><div style="position:absolute;inset:0;perspective:1800px;perspective-origin:50% 45%"><div class="bw" style="position:absolute;left:960px;top:540px;width:0;height:0">';
   h+='<div style="position:absolute;left:'+(-BD.w/2-40)+'px;top:'+(-BD.h/2-40)+'px;width:'+(BD.w+80)+'px;height:'+(BD.h+80)+'px;background:#3a2a1c;box-shadow:0 20px 40px rgba(0,0,0,.6)"></div>';
   h+='<div style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;width:'+BD.w+'px;height:'+BD.h+'px;background:radial-gradient(ellipse at 50% 40%,#29445a 0%,#16283a 62%,#0d1a26 100%)"></div>';
+  h+='<svg width="'+BD.w+'" height="'+BD.h+'" style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;overflow:visible">'+BD.lines.map(l=>'<line x1="'+l[0]+'" y1="'+l[1]+'" x2="'+l[2]+'" y2="'+l[3]+'" stroke="rgba(243,230,204,.35)" stroke-width="5" stroke-dasharray="'+(l[4]?'18 16':'none')+'" stroke-linecap="round"/>').join('')+'</svg>';
   h+=BD.cards.map(card).join('');
-  h+='<svg class="bstr" width="'+BD.w+'" height="'+BD.h+'" style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;overflow:visible">'+BD.links.map((l,i)=>'<path class="bl" data-i="'+i+'" fill="none" stroke="#c4372c" stroke-width="5" stroke-linecap="round" opacity="0"/>').join('')+'</svg>';
+  h+='<svg class="bstr" width="'+BD.w+'" height="'+BD.h+'" style="position:absolute;left:'+(-BD.w/2)+'px;top:'+(-BD.h/2)+'px;overflow:visible">'+BD.links.map((l,i)=>'<g class="blg" data-i="'+i+'" opacity="0"><path class="bl" fill="none" stroke="'+LC[l.style]+'" stroke-width="6" stroke-linecap="round"'+(l.style==='dash'||l.style==='open'?' stroke-dasharray="20 14"':'')+'/><circle class="bp0" r="11" fill="'+LC[l.style]+'"/><circle class="bp1" r="11" fill="'+LC[l.style]+'"/></g>').join('')+'</svg>';
+  h+=BD.links.map((l,i)=>l.label?'<div class="blab" data-i="'+i+'" style="position:absolute;opacity:0;transform:translate(-50%,-50%);font:800 24px Inter;letter-spacing:.14em;color:#fff;background:'+LC[l.style]+';border:3px solid #f3e6cc;border-radius:8px;padding:6px 14px;white-space:nowrap;box-shadow:3px 6px 10px rgba(0,0,0,.45)">'+(l.style==='open'?'? ':'')+l.label.toUpperCase()+'</div>':'').join('');
   h+='</div></div><div class="bdof" style="position:absolute;inset:0;pointer-events:none"></div>'+light;
+  h+='<div class="bcap" style="position:absolute;left:50%;bottom:58px;transform:translateX(-50%);max-width:1560px;opacity:0;background:rgba(246,239,220,.96);border-left:12px solid #b8332a;padding:16px 28px 18px;box-shadow:0 10px 26px rgba(0,0,0,.5)"><div class="bck" style="font:800 20px Inter;letter-spacing:.16em;color:#b8332a"></div><div class="bct" style="font:800 40px/1.2 Fraunces;color:#1f1a14;margin-top:4px"></div></div>';
   brd.innerHTML=h;ov.prepend(brd)}
 for(const k in DK){const d=DK[k],PW=1000,PH=Math.round(PW*d.ih/d.iw);d.PW=PW;d.PH=PH;const el=document.createElement('div');el.style.cssText='position:absolute;inset:0;opacity:0;display:none;background:#0b0705;overflow:hidden';
   el.innerHTML='<div style="position:absolute;inset:0;perspective:1500px;perspective-origin:50% 42%"><div class="dw" style="position:absolute;left:960px;top:540px;width:0;height:0;transform-style:preserve-3d"><div style="position:absolute;left:-3000px;top:-2200px;width:6000px;height:4400px;background:url('+d.tex+') 0 0/1400px 1400px"></div><div class="pg" style="position:absolute;left:'+(-PW/2)+'px;top:'+(-PH/2)+'px;width:'+PW+'px;height:'+PH+'px;box-shadow:12px 18px 34px rgba(0,0,0,.6)"><img src="'+d.url+'" style="width:100%;height:100%;display:block"><div style="position:absolute;inset:0;background:linear-gradient(225deg,rgba(255,214,160,.10) 0%,rgba(0,0,0,0) 40%,rgba(20,12,6,.30) 100%)"></div><div class="dsw" style="position:absolute;width:0;background:rgba(242,196,107,.42);border-bottom:3px solid #b8332a;opacity:0"></div><div class="dln" style="position:absolute;border:4px solid #b8332a;border-radius:6px;opacity:0"></div><div class="dmk" style="position:absolute;border:4px solid #b8332a;border-radius:50%;opacity:0"></div></div></div></div><div class="ddof" style="position:absolute;inset:0;pointer-events:none"></div>'+light+'<div style="position:absolute;left:22px;bottom:16px;font:500 16px Inter;color:rgba(225,225,225,.75)">'+d.credit+'</div>';
   ov.prepend(el);desks[k]=el}
 let bdMeasured=false;
-function boardMeasure(){bdMeasured=true;BD.cards.forEach(c=>{const e=brd.querySelector('.bc[data-i="'+c._i+'"]');c._h=e.offsetHeight})}
+function boardMeasure(){bdMeasured=true;BD.cards.forEach(c=>{const e=brd.querySelector('.bc[data-i="'+c._i+'"]');c._h=e.offsetHeight});
+  BD.links.forEach((l,i)=>{const A=BD.cards[l.a],B=BD.cards[l.b];const acx=A.x+(l.ax||0),acy=A.y+A._h/2,bcx=B.x+(l.bx||0),bcy=B.y+B._h/2,dx=bcx-acx,dy=bcy-acy;let p0,p2,c;
+    if(l.route==='below'){p0=[acx,A.y+A._h];p2=[bcx,B.y+B._h];c=[(p0[0]+p2[0])/2,Math.max(p0[1],p2[1])+(l.sag||130)]}
+    else if(Math.abs(dx)>Math.abs(dy)*1.1){const s=dx>0?1:-1;p0=[acx+s*A.w/2,acy];p2=[bcx-s*B.w/2,bcy];c=[(p0[0]+p2[0])/2,(p0[1]+p2[1])/2+46]}
+    else{const s=dy>0?1:-1;p0=[acx,s>0?A.y+A._h:A.y];p2=[bcx,s>0?B.y:B.y+B._h];c=[(p0[0]+p2[0])/2+40,(p0[1]+p2[1])/2]}
+    const g=brd.querySelector('.blg[data-i="'+i+'"]'),e=g.querySelector('.bl');e.setAttribute('d','M'+p0[0]+','+p0[1]+' Q'+c[0]+','+c[1]+' '+p2[0]+','+p2[1]);l._L=e.getTotalLength();
+    g.querySelector('.bp0').setAttribute('cx',p0[0]);g.querySelector('.bp0').setAttribute('cy',p0[1]);g.querySelector('.bp1').setAttribute('cx',p2[0]);g.querySelector('.bp1').setAttribute('cy',p2[1]);
+    const lb=brd.querySelector('.blab[data-i="'+i+'"]');if(lb){const u=l.at??0.5,w0=(1-u)*(1-u),w1=2*u*(1-u),w2=u*u;lb.style.left=(w0*p0[0]+w1*c[0]+w2*p2[0]-BD.w/2)+'px';lb.style.top=(w0*p0[1]+w1*c[1]+w2*p2[1]-BD.h/2)+'px'}})}
+const BKF=()=>Math.min(1920*0.96/(BD.w+80),1080*0.94/(BD.h+80));
+function bview(sp){let v=sp.view,x=0,y=0,k=BKF();
+  if(sp.x!=null){x=sp.x-BD.w/2;y=sp.y-BD.h/2;k=sp.k||k}
+  else if(v&&v!=='full'){const ids=Array.isArray(v)?v:[v];const cs=ids.map(id=>BD.cards.find(c=>c.id===id)).filter(Boolean);if(cs.length){const x0=Math.min(...cs.map(c=>c.x-c.w/2)),x1=Math.max(...cs.map(c=>c.x+c.w/2)),y0=Math.min(...cs.map(c=>c.y)),y1=Math.max(...cs.map(c=>c.y+c._h));x=(x0+x1)/2-BD.w/2;y=(y0+y1)/2-BD.h/2;
+    k=sp.k||(cs.length===1?Math.min(0.6*1080/(y1-y0),0.6*1920/(x1-x0),2.1):Math.min(0.84*1920/(x1-x0+120),0.72*1080/(y1-y0+120),1.5))}}
+  return {x:x+(sp.dx||0),y:y+(sp.dy||0),k}}
+const bshot=(id)=>D.OV.find(o=>o.type==='board'&&o.bid===id);
+function bend(o){const v=bview(o.spec);return {x:v.x,y:v.y,k:v.k*(1+(o.spec.push??0.04))}}
+function bcam(o,t){const sp=o.spec,v1=bview(sp),dur=o.tOut-o.tIn,push=sp.push??0.04;let v0=null;
+  if(sp.from)v0=bview({view:sp.from});else if(o.pbid!=null&&!o.cut){const p=bshot(o.pbid);if(p)v0=bend(p)}
+  const tg=v0?Math.min(sp.glideT??1.3,dur*0.5):0;
+  if(v0&&t-o.tIn<tg){const e=ease((t-o.tIn)/tg),dist=Math.hypot(v1.x-v0.x,v1.y-v0.y),dip=Math.min(0.4,dist*Math.min(v0.k,v1.k)/3200);
+    return {x:v0.x+(v1.x-v0.x)*e,y:v0.y+(v1.y-v0.y)*e,k:Math.exp(Math.log(v0.k)*(1-e)+Math.log(v1.k)*e)*(1-dip*Math.sin(Math.PI*e))}}
+  const q=cl((t-o.tIn-tg)/Math.max(0.1,dur-tg),0,1);return {x:v1.x,y:v1.y,k:v1.k*(1+push*Math.sin(q*Math.PI/2))}}
+function blit(o,id){return !o.lit||o.lit.includes(id)?0:0.62}
 function scenes(t){
   // table
   if(tbl){const a=D.OV.find(o=>o.type==='table'&&t>=o.tIn&&t<o.tOut);tbl.style.opacity=a?1:0;tbl.style.display=a?'block':'none';if(a){const q=ease(cl((t-a.tIn)/(a.tOut-a.tIn),0,1));const c=lerpCam(a.c0,a.c1,q);
@@ -490,18 +537,21 @@ function scenes(t){
     if(TB.title){const g=tbl.querySelector('.tttl');g.setAttribute('opacity',cl((t-TB.title.t0)/0.35,0,1)*cl((TB.title.t1-t)/0.3,0,1))}
     const f=a.focus||{y:.5,band:.55,blur:Math.max(0,(c.tilt-24)/5)};const dv=tbl.querySelector('.tdof');if(f.blur>0.4){dv.style.backdropFilter='blur('+f.blur+'px)';dv.style.webkitMaskImage=dofMask(f.y,f.band)}else dv.style.backdropFilter='none'}}
   // board
-  if(brd){const a=D.OV.find(o=>o.type==='board'&&t>=o.tIn&&t<o.tOut);brd.style.opacity=a?1:0;brd.style.display=a?'block':'none';if(a){if(!bdMeasured)boardMeasure();const sp=a.spec,q=ease(cl((t-a.tIn)/(a.tOut-a.tIn),0,1));
-    let x=0,y=0,k=Math.min(1920*0.96/(BD.w+80),1080*0.94/(BD.h+80)),tilt=sp.tilt??7;
-    if(sp.view&&sp.view!=='full'){const c=BD.cards.find(c=>c.id===sp.view);if(c){x=c.x-BD.w/2;y=c.y-BD.h/2+c._h/2;k=sp.k||Math.min(0.66*1080/c._h,0.62*1920/c.w,2.4);tilt=sp.tilt??12}}
-    if(sp.x!=null){x=sp.x-BD.w/2;y=sp.y-BD.h/2;k=sp.k||k}
-    const push=sp.push??0.06;k*=1+push*q;x+=(sp.panX||0)*q;y+=(sp.panY||0)*q;
-    brd.querySelector('.bw').style.transform='rotateX('+tilt+'deg) rotateY('+(sp.ry??-3)+'deg) scale('+k+') translate('+(-x)+'px,'+(-y)+'px)';
-    BD.cards.forEach(c=>{const e=brd.querySelector('.bc[data-i="'+c._i+'"]');if(t<c.t){e.style.opacity=0;return}const kk=eo((t-c.t)/0.3);e.style.opacity=kk;e.style.transform='scale('+(1.18-0.18*kk)+')'});
+  if(brd){const a=D.OV.find(o=>o.type==='board'&&t>=o.tIn&&t<o.tOut);brd.style.opacity=a?1:0;brd.style.display=a?'block':'none';if(a){if(!bdMeasured)boardMeasure();
+    const cm=bcam(a,t),pa=a.pbid!=null&&!a.cut?bshot(a.pbid):null,mix=pa?eo((t-a.tIn)/0.6):1;
+    brd.querySelector('.bw').style.transform='rotateX(6deg) rotateY(-2deg) scale('+cm.k+') translate('+(-cm.x)+'px,'+(-cm.y)+'px)';
+    const veil=(id)=>pa?blit(pa,id)*(1-mix)+blit(a,id)*mix:blit(a,id);
+    BD.cards.forEach(c=>{const e=brd.querySelector('.bc[data-i="'+c._i+'"]');const vv=e.querySelector('.bv');if(vv)vv.style.opacity=veil(c.id);if(c.fixed){e.style.opacity=1-veil(c.id)*0.9;return}if(t<c.t){e.style.opacity=0;return}const kk=eo((t-c.t)/0.3);e.style.opacity=kk;e.style.transform='scale('+(1.18-0.18*kk)+')';
+      if(c.hlT<1e8){const p=eo((t-c.hlT)/0.7);e.querySelectorAll('.hl').forEach(m=>m.style.backgroundSize=(p*100)+'% 46%')}});
     BD.rewrites.forEach(rw=>{const e=brd.querySelector('.bc[data-i="'+rw.i+'"]');const st=e.querySelector('.bstrike'),nw=e.querySelector('.bnew'),tg=e.querySelector('.btag'),old=e.querySelector('.bold');if(!st)return;
       if(t<rw.t){st.style.width='0';nw.textContent='';return}const k1=eo((t-rw.t)/0.45);st.style.width='calc('+(k1*100)+'% + 12px)';old.style.color=k1>0.6?'rgba(31,26,20,.42)':'#1f1a14';
-      const n=Math.max(0,Math.floor((t-rw.t-0.5)*30));nw.textContent=rw.text.slice(0,n);if(t>rw.t+0.45&&rw.tag){tg.textContent=rw.tag;tg.style.background=rw.tagColor||'#b8332a'}});
-    BD.links.forEach((l,i)=>{const e=brd.querySelector('.bl[data-i="'+i+'"]');if(t<l.t){e.setAttribute('opacity',0);return}const A=BD.cards[l.a],B=BD.cards[l.b];const ax=A.x,ay=A.y+2,bx=B.x,by=B.y+2;e.setAttribute('d','M'+ax+','+ay+' Q'+((ax+bx)/2)+','+((ay+by)/2+70)+' '+bx+','+by);const L=e.getTotalLength();e.setAttribute('opacity',1);e.style.strokeDasharray=L;e.style.strokeDashoffset=L*(1-eo((t-l.t)/0.7))});
-    const dv=brd.querySelector('.bdof');if(k>1.15){dv.style.backdropFilter='blur(5px)';dv.style.webkitMaskImage='radial-gradient(ellipse 46% 54% at 50% 50%, transparent 60%, black 100%)'}else dv.style.backdropFilter='none'}}
+      const n=Math.max(0,Math.floor((t-rw.t-0.5)*42));nw.textContent=rw.text.slice(0,n);if(t>rw.t+0.45&&rw.tag&&tg){tg.textContent=rw.tag;tg.style.background=rw.tagColor||'#b8332a'}});
+    BD.links.forEach((l,i)=>{const g=brd.querySelector('.blg[data-i="'+i+'"]'),lb=brd.querySelector('.blab[data-i="'+i+'"]');if(t<l.t){g.setAttribute('opacity',0);if(lb)lb.style.opacity=0;return}
+      const A=BD.cards[l.a],B=BD.cards[l.b],dim=Math.max(veil(A.id),veil(B.id)),op=1-dim*0.75,e=g.querySelector('.bl'),pr=eo((t-l.t)/0.8);g.setAttribute('opacity',(l.style==='dash'||l.style==='open'?pr:1)*op);
+      if(!(l.style==='dash'||l.style==='open')){e.style.strokeDasharray=l._L;e.style.strokeDashoffset=l._L*(1-pr)}
+      if(lb){const lk=eo((t-l.t-0.55)/0.3);lb.style.opacity=lk*op;lb.style.transform='translate(-50%,-50%) scale('+(1.25-0.25*lk)+')'}});
+    const cap=brd.querySelector('.bcap');if(a.cap){const cp=Array.isArray(a.cap)?a.cap:['',a.cap];cap.querySelector('.bck').textContent=cp[0];const ct=cap.querySelector('.bct');if(ct.dataset.s!==cp[1]){ct.dataset.s=cp[1];ct.innerHTML=cp[1].replace(/\u0101/g,'<span class="mac">a</span>')}const same=pa&&JSON.stringify(pa.cap)===JSON.stringify(a.cap);cap.style.opacity=same?1:eo((t-a.tIn-0.15)/0.3)}else cap.style.opacity=0;
+    const dv=brd.querySelector('.bdof');if(cm.k>1.3){dv.style.backdropFilter='blur(3px)';dv.style.webkitMaskImage='radial-gradient(ellipse 52% 60% at 50% 50%, transparent 70%, black 100%)'}else dv.style.backdropFilter='none'}}
   // desks
   const da=D.OV.find(o=>o.type==='desk'&&t>=o.tIn&&t<o.tOut);
   for(const k in desks){const el=desks[k];if(!da||da.spec.doc!==k){el.style.opacity=0;el.style.display='none';continue}el.style.opacity=1;el.style.display='block';const d=DK[k],sp=da.spec,q=ease(cl((t-da.tIn)/(da.tOut-da.tIn),0,1));const c=lerpCam(sp.from,sp.to||sp.from,q);
@@ -585,6 +635,10 @@ async function setT(t){
   });
   await Promise.all(waits);
 }
+// Fraunces (this build) draws the macron of ā on the next letter: draw it with CSS over a plain a instead
+(function(){const st=document.createElement('style');st.textContent='.mac{position:relative;display:inline-block;line-height:1}.mac::after{content:"";position:absolute;left:12%;right:6%;top:.17em;height:.075em;background:currentColor;border-radius:.04em}.mac.it::after{left:24%;right:-4%}';document.head.appendChild(st);
+  const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT),ns=[];while(w.nextNode()){const n=w.currentNode;if(/[āĀ]/.test(n.nodeValue)&&/Fraunces/.test(getComputedStyle(n.parentNode).fontFamily))ns.push(n)}
+  ns.forEach(n=>{const it=getComputedStyle(n.parentNode).fontStyle==='italic',f=document.createDocumentFragment();n.nodeValue.split(/([āĀ])/).forEach(q=>{if(q==='ā'||q==='Ā'){const sp=document.createElement('span');sp.className='mac'+(it?' it':'');sp.textContent=q==='ā'?'a':'A';f.appendChild(sp)}else if(q)f.appendChild(document.createTextNode(q))});n.parentNode.replaceChild(f,n)})})();
 window.setT=setT;
 </script></body></html>`;
 
@@ -623,7 +677,7 @@ for (const kind of Object.keys(BEDS)) {
 }
 const ev = (name, tt, gain) => { if (EP.sfx?.[name] && tt < END) items.push({ track: "sfx", f: sfxFile(name), t: tt, gain: gain ?? 0 }); };
 if (TABLE) for (const ob of TABLE.objs) if (ob.t < 1e8) ev(ob.kind === "coin" ? "coin" : "paper", ob.t + 0.38, ob.kind === "coin" ? -3 : -8);
-if (BOARD) { for (const c of BOARD.cards) if (c.t < 1e8) ev("tack", c.t + 0.25, -4); for (const rw of BOARD.rewrites) ev("pencil", rw.t + 0.45, -6); }
+if (BOARD) { for (const c of BOARD.cards) if (c.t < 1e8 && !c.fixed) ev("tack", c.t + 0.25, -4); for (const rw of BOARD.rewrites) ev("pencil", rw.t + 0.45, -6); }
 for (const x of SHOTS) for (const f of x.sfx || []) items.push({ track: "sfx", f: sfxFile(f.s), t: x.t0 + (f.at || 0), gain: f.gain ?? 0 });
 const cues = (EP.score || []).filter((c) => T.some((x) => x.id === c.at)).map((c) => ({ ...c, t: byId(c.at).t0 + (c.off || 0) }));
 const duckWords = T.flatMap((r) => r.clips.map((c) => [c.t - 0.25, c.t + c.d + 0.2])).concat(T.filter((r) => r.musicGap).map((r) => [r.t0, r.t1]));

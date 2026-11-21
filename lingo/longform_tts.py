@@ -16,6 +16,9 @@ SAY = {  # what Kokoro reads instead (the on-screen text is unchanged)
     "ħobża": "hob-za", "ġirieni": "jee-ree-ay-nee", "jiiraan": "jee-raan", "Ktieb il-Kliem Malti": "K-teeb il-Kleem Maltee",
     "Mikiel Anton Vassalli": "Mee-keel Anton Vas-salli", "Pietru": "Pee-etru", "Mazara": "Ma-tsara", "Marsaxlokk": "Marsa-shlock",
     "Mdina": "Im-deena",
+    # v5 (malta4 board rebuild)
+    "kitāb": "kitahb", "zàgara": "zah-gara", "zahra": "zah-ra", "Nicosia": "Nee-ko-zee-a", "San Fratello": "San Fra-tello",
+    "Brandano de Caxaro": "Brandahno, deh Kasharo",
 }
 
 ap = argparse.ArgumentParser()
