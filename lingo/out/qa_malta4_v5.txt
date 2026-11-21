@@ -1,0 +1,39 @@
+QA malta4_v5
+1. Headphones: -16.23 LUFS integrated, true peak -1.47 dBTP, LRA 2.90 LU (target -16 / -1.5)
+   stem vo    RMS over active parts  -18.9 dBFS
+   stem words RMS over active parts  -16.2 dBFS
+   stem amb   RMS over active parts  -46.5 dBFS
+   stem sfx   RMS over active parts  -34.4 dBFS
+   stem score RMS over active parts  -29.5 dBFS
+2. Phone speaker: Whisper recovers 1359/1480 narration words (92 %)
+   native words at least 6 dB over the bed: all
+3. Muted watch: contact sheet out/qa_malta4_v5_muted.jpg (one frame every 10 s)
+4. Audio only: lines with no narration (meaning carried by the recording or the picture): h1, h2, m10, w5, s3k, r5
+5. Five-second rule: 203 planned shots (longest 4.46 s); 216 cuts detected in the MP4; longest stretch between cuts 4.50 s at 6:57.4; over 5 s: none
+   planned cuts not seen by the detector (similar compositions, check by eye): 25
+     0:16.9 h6 table close on the measured 90 km line
+     0:39.0 b0 board board: glide to clue card 2
+     0:42.1 b0b board board: wide, the link + 2 labelled strings
+     0:46.2 b1 board board: the question
+     0:49.0 b1 board board: the empty columns
+     0:51.7 b1 board board: glide to the answer row
+     1:33.3 t3b board board: glide out, top of the Malta column
+     1:46.3 t3c board board: the claim rewrites itself
+     2:11.5 t6 board board: the coin pinned as an anchor, no string
+     3:17.7 p1 board board: glide to the open card, dashed NOT SHOWN string
+     3:47.5 p4b board board: loanword card, close
+     3:58.0 p4c board board: glide down, the Sicily answer + 3 strings
+     4:60.0 m6 board board: the claim rewrites itself
+     5:47.4 w5 lock kittieb / kātib lock
+     6:31.4 w9b board board: the claim beside the link it competes with
+     6:46.2 w10 board board: claim revised, SUPPORTS string to the link
+     8:13.0 s6 plate 40% gauge
+     8:28.5 r1 board board: glide to the top of the Sicily column
+     8:31.8 r1 board board: down the Sicily column
+     8:35.1 r1 board board: to the Sicily answer
+     8:38.4 r2 board board: glide across to the Malta column
+     8:41.8 r2 board board: down the Malta column
+     8:48.5 r2b board board: both answers
+     8:54.5 r2b board board: Malta's answer
+     9:00.6 r2b board board: the full board, last look
+6. Flashes (under 0.5 s between detected cuts): 0:00.3 (0.13 s), 0:35.9 (0.07 s), 1:21.7 (0.30 s), 2:06.5 (0.20 s), 2:22.7 (0.27 s), 2:38.3 (0.30 s), 2:40.3 (0.17 s), 2:51.6 (0.03 s), 3:30.9 (0.17 s), 3:39.6 (0.17 s), 4:53.3 (0.17 s), 5:06.0 (0.03 s), 5:06.0 (0.10 s), 5:06.1 (0.20 s), 5:06.3 (0.20 s), 5:06.5 (0.20 s), 5:06.7 (0.20 s), 5:08.1 (0.20 s), 5:08.3 (0.20 s), 5:08.5 (0.17 s), 5:43.5 (0.30 s), 6:10.8 (0.03 s), 6:27.6 (0.20 s), 7:27.6 (0.20 s), 7:27.8 (0.20 s), 7:28.0 (0.20 s), 7:28.2 (0.20 s), 7:28.4 (0.07 s), 7:40.4 (0.07 s), 7:40.5 (0.10 s), 7:41.6 (0.20 s), 7:41.8 (0.20 s), 7:42.6 (0.17 s), 7:45.1 (0.03 s), 7:50.7 (0.03 s)
