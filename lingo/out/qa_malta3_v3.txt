@@ -1,0 +1,11 @@
+QA malta3_v3
+1. Headphones: -16.24 LUFS integrated, true peak -1.44 dBTP, LRA 3.00 LU (target -16 / -1.5)
+   stem vo    RMS over active parts  -18.9 dBFS
+   stem words RMS over active parts  -16.2 dBFS
+   stem amb   RMS over active parts  -42.4 dBFS
+   stem sfx   RMS over active parts  -31.1 dBFS
+   stem score RMS over active parts  -27.7 dBFS
+2. Phone speaker: Whisper recovers 1175/1281 narration words (92 %)
+   native words at least 6 dB over the bed: all
+3. Muted watch: contact sheet out/qa_malta3_v3_muted.jpg (one frame every 10 s)
+4. Audio only: lines with no narration (meaning carried by the recording or the picture): oA1, oA2, m10, w5, r5

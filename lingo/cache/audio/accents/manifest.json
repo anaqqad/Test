@@ -1,0 +1,122 @@
+{
+ "vie": {
+  "d": 0.97,
+  "f0": 97,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q9199 (vie)-Penn Zero MSSJ-Việt Nam.wav",
+   "artist": "Penn Zero MSSJ (Lingua Libre)",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9199_%28vie%29-Penn_Zero_MSSJ-Vi%E1%BB%87t_Nam.wav"
+  }
+ },
+ "slk": {
+  "d": 1.03,
+  "f0": 113,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q9058 (slk)-TomášPolonec-kľúč.wav",
+   "artist": "TomášPolonec (Lingua Libre)",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9058_%28slk%29-Tom%C3%A1%C5%A1Polonec-k%C4%BE%C3%BA%C4%8D.wav"
+  }
+ },
+ "ces": {
+  "d": 1.05,
+  "f0": 207,
+  "voice": "female",
+  "ai": false,
+  "credit": {
+   "title": "File:Cs-tři.ogg",
+   "artist": "Veronika Daňková, Vion Nicolas",
+   "license": "CC BY 2.0 fr",
+   "page": "https://commons.wikimedia.org/wiki/File%3ACs-t%C5%99i.ogg"
+  }
+ },
+ "fra": {
+  "d": 1.31,
+  "f0": 121,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q150 (fra)-0x010C-élèves.wav",
+   "artist": "0x010C (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q150_%28fra%29-0x010C-%C3%A9l%C3%A8ves.wav"
+  }
+ },
+ "por": {
+  "d": 1.06,
+  "f0": 131,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:Pt-pt-maçã.ogg",
+   "artist": "Malafaya",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3APt-pt-ma%C3%A7%C3%A3.ogg"
+  }
+ },
+ "lav": {
+  "d": 1.22,
+  "f0": 85,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q9078 (lvs)-Archtheodus-vārdnīca.wav",
+   "artist": "Archtheodus (Lingua Libre)",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9078_%28lvs%29-Archtheodus-v%C4%81rdn%C4%ABca.wav"
+  }
+ },
+ "pol": {
+  "d": 1.14,
+  "f0": 166,
+  "voice": "female",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q809 (pol)-Gower-żółw.wav",
+   "artist": "Gower (Lingua Libre)",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q809_%28pol%29-Gower-%C5%BC%C3%B3%C5%82w.wav"
+  }
+ },
+ "lit": {
+  "d": 1.09,
+  "f0": 93,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q9083 (lit)-Trimkev-dešinė.wav",
+   "artist": "Trimkev (Lingua Libre)",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9083_%28lit%29-Trimkev-de%C5%A1in%C4%97.wav"
+  }
+ },
+ "hun": {
+  "d": 1.65,
+  "f0": 84,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q9067 (hun)-Beaudine Wilson-repülőtér.wav",
+   "artist": "Beaudine Wilson (Lingua Libre)",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9067_%28hun%29-Beaudine_Wilson-rep%C3%BCl%C5%91t%C3%A9r.wav"
+  }
+ },
+ "spa": {
+  "d": 1.41,
+  "f0": 190,
+  "voice": "female",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q1321 (spa)-Eavqwiki-mañana.wav",
+   "artist": "Eavqwiki (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q1321_%28spa%29-Eavqwiki-ma%C3%B1ana.wav"
+  }
+ }
+}

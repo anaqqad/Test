@@ -1,0 +1,92 @@
+{
+ "Navajo": {
+  "sig": "{\"file\": \"US Department of Labor - A message in Navajo about workers' compensation benefits (2023).opus\", \"start\": 7.5, \"voice\": \"f\"}|12.6",
+  "credits": [
+   {
+    "title": "File:US Department of Labor - A message in Navajo about workers' compensation benefits (2023).opus",
+    "url": "https://upload.wikimedia.org/x/US_Department_of_Labor_-_A_message_in_Navajo_about_workers%27_compensation_benefits_%282023%29.opus",
+    "size": null,
+    "artist": "US Department of Labor",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Department_of_Labor_-_A_message_in_Navajo_about_workers%27_compensation_benefits_%282023%29.opus"
+   }
+  ],
+  "captions": [],
+  "start": 7.5
+ },
+ "Cherokee": {
+  "sig": "{\"file\": \"WIKITONGUES- Hassan speaking Cherokee.webm\", \"start\": \"auto\", \"voice\": \"m\"}|12.6",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Hassan speaking Cherokee.webm",
+    "url": "https://upload.wikimedia.org/x/WIKITONGUES-_Hassan_speaking_Cherokee.webm",
+    "size": null,
+    "artist": "Wikitongues, Hassan Kiehne",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Hassan_speaking_Cherokee.webm"
+   }
+  ],
+  "captions": [],
+  "start": 70
+ },
+ "Ojibwe": {
+  "sig": "{\"file\": \"Casey speaking Ojibwe.webm\", \"start\": 18, \"voice\": \"m\"}|12.6",
+  "credits": [
+   {
+    "title": "File:Casey speaking Ojibwe.webm",
+    "url": "https://upload.wikimedia.org/x/Casey_speaking_Ojibwe.webm",
+    "size": null,
+    "artist": "Wikitongues, Inc.",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casey_speaking_Ojibwe.webm"
+   }
+  ],
+  "captions": [],
+  "start": 18.0
+ },
+ "Lakota": {
+  "sig": "{\"file\": \"Kimberly speaking Lakota.webm\", \"start\": \"auto\", \"voice\": \"f\"}|12.6",
+  "credits": [
+   {
+    "title": "File:Kimberly speaking Lakota.webm",
+    "url": "https://upload.wikimedia.org/x/Kimberly_speaking_Lakota.webm",
+    "size": null,
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kimberly_speaking_Lakota.webm"
+   }
+  ],
+  "captions": [],
+  "start": 40
+ },
+ "Crow": {
+  "sig": "{\"file\": \"WIKITONGUES- Roanne speaking Crow.webm\", \"start\": \"auto\", \"voice\": \"f\"}|12.6",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Roanne speaking Crow.webm",
+    "url": "https://upload.wikimedia.org/x/WIKITONGUES-_Roanne_speaking_Crow.webm",
+    "size": null,
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Roanne_speaking_Crow.webm"
+   }
+  ],
+  "captions": [],
+  "start": 5
+ },
+ "Gwich’in": {
+  "sig": "{\"file\": \"WIKITONGUES- Allan speaking Gwich'in.webm\", \"start\": \"auto\", \"voice\": \"m\"}|12.6",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Allan speaking Gwich'in.webm",
+    "url": "https://upload.wikimedia.org/x/WIKITONGUES-_Allan_speaking_Gwich%27in.webm",
+    "size": null,
+    "artist": "Wikitongues, Allan Hayton, Sam Osborn",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Allan_speaking_Gwich%27in.webm"
+   }
+  ],
+  "captions": [],
+  "start": 80
+ }
+}

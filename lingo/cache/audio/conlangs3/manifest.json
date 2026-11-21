@@ -1,0 +1,151 @@
+{
+ "Kunyotóri'an": {
+  "sig": "conlangs3|Kunyotóri'an",
+  "credits": [
+   {
+    "title": "Song about eight cats in Modern Latin Kunyotóri'an",
+    "artist": "catlover82 (@orion_cat823)",
+    "license": "used with permission",
+    "page": ""
+   }
+  ],
+  "captions": [],
+  "start": 0.8
+ },
+ "Occidental": {
+  "sig": "conlangs3|Occidental",
+  "credits": [
+   {
+    "title": "Dorlota parla Interlingue-Occidental - Dorlota speaks Interlingue-Occidental",
+    "artist": "Pauline Auster",
+    "license": "CC BY",
+    "page": "https://www.youtube.com/watch?v=0IdbAmu4Mek"
+   }
+  ],
+  "captions": [],
+  "start": 1.6
+ },
+ "Interslavic": {
+  "sig": "conlangs3|Interslavic",
+  "credits": [
+   {
+    "title": "Interslavic language",
+    "artist": "The candle",
+    "license": "CC BY",
+    "page": "https://www.youtube.com/watch?v=topy2bN0Um8"
+   }
+  ],
+  "captions": [],
+  "start": 87.0
+ },
+ "Kotava": {
+  "sig": "conlangs3|Kotava",
+  "credits": [
+   {
+    "title": "Inde Va Kotava Al Ravé",
+    "artist": "Luce kotavusik",
+    "license": "CC BY",
+    "page": "https://www.youtube.com/watch?v=8PZOHH6YHPA"
+   }
+  ],
+  "captions": [],
+  "start": 8.0
+ },
+ "Pandunia": {
+  "sig": "conlangs3|Pandunia",
+  "credits": [
+   {
+    "title": "mi salama dunia",
+    "artist": "Risto Kupsala",
+    "license": "CC BY",
+    "page": "https://www.youtube.com/watch?v=TgO8AwX4OCU"
+   }
+  ],
+  "captions": [],
+  "start": 2.3
+ },
+ "Solresol": {
+  "sig": "conlangs3|Solresol",
+  "credits": [
+   {
+    "title": "File:Solresol (solresol).wav",
+    "artist": "Luce Vergneaux (Kotavusik)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASolresol_%28solresol%29.wav"
+   },
+   {
+    "title": "File:Siredore.wav",
+    "artist": "Luce Vergneaux (Kotavusik)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASiredore.wav"
+   },
+   {
+    "title": "File:Solsol.wav",
+    "artist": "Luce Vergneaux (Kotavusik)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASolsol.wav"
+   },
+   {
+    "title": "File:Sisidore.wav",
+    "artist": "Luce Vergneaux (Kotavusik)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASisidore.wav"
+   },
+   {
+    "title": "File:Solsi.wav",
+    "artist": "Luce Vergneaux (Kotavusik)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASolsi.wav"
+   },
+   {
+    "title": "File:Sollasila.wav",
+    "artist": "Luce Vergneaux (Kotavusik)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASollasila.wav"
+   },
+   {
+    "title": "File:Sol (so).wav",
+    "artist": "Luce Vergneaux (Kotavusik)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASol_%28so%29.wav"
+   }
+  ],
+  "captions": [
+   {
+    "t": 0.6,
+    "d": 0.62,
+    "text": "solresol"
+   },
+   {
+    "t": 2.12,
+    "d": 1.4,
+    "text": "siredore"
+   },
+   {
+    "t": 4.42,
+    "d": 1.33,
+    "text": "solsol"
+   },
+   {
+    "t": 6.65,
+    "d": 1.48,
+    "text": "sisidore"
+   },
+   {
+    "t": 9.03,
+    "d": 1.27,
+    "text": "solsi"
+   },
+   {
+    "t": 11.2,
+    "d": 1.63,
+    "text": "sollasila"
+   },
+   {
+    "t": 13.73,
+    "d": 1.33,
+    "text": "sol"
+   }
+  ]
+ }
+}

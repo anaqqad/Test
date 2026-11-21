@@ -1,0 +1,1830 @@
+[
+ {
+  "start": 0.0,
+  "end": 5.54,
+  "text": " Io sono l'utente Gianfranco in Wikipedia, sono arrivato parecchio presto in Wikipedia, infatti",
+  "words": [
+   [
+    0.0,
+    0.12,
+    " Io"
+   ],
+   [
+    0.12,
+    0.3,
+    " sono"
+   ],
+   [
+    0.3,
+    0.5,
+    " l"
+   ],
+   [
+    0.5,
+    0.62,
+    "'utente"
+   ],
+   [
+    0.62,
+    1.26,
+    " Gianfranco"
+   ],
+   [
+    1.26,
+    1.34,
+    " in"
+   ],
+   [
+    1.34,
+    1.7,
+    " Wikipedia,"
+   ],
+   [
+    2.32,
+    2.58,
+    " sono"
+   ],
+   [
+    2.58,
+    3.24,
+    " arrivato"
+   ],
+   [
+    3.24,
+    3.86,
+    " parecchio"
+   ],
+   [
+    3.86,
+    4.46,
+    " presto"
+   ],
+   [
+    4.46,
+    4.6,
+    " in"
+   ],
+   [
+    4.6,
+    5.04,
+    " Wikipedia,"
+   ],
+   [
+    5.28,
+    5.54,
+    " infatti"
+   ]
+  ]
+ },
+ {
+  "start": 5.54,
+  "end": 11.44,
+  "text": " seguivo il progetto precedente Nukidia che era un figlio diretto, un'emmanazione diretta",
+  "words": [
+   [
+    5.54,
+    5.94,
+    " seguivo"
+   ],
+   [
+    5.94,
+    6.06,
+    " il"
+   ],
+   [
+    6.06,
+    6.44,
+    " progetto"
+   ],
+   [
+    6.44,
+    7.08,
+    " precedente"
+   ],
+   [
+    7.08,
+    7.8,
+    " Nukidia"
+   ],
+   [
+    7.8,
+    8.06,
+    " che"
+   ],
+   [
+    8.06,
+    8.64,
+    " era"
+   ],
+   [
+    8.64,
+    9.06,
+    " un"
+   ],
+   [
+    9.06,
+    9.74,
+    " figlio"
+   ],
+   [
+    9.74,
+    10.4,
+    " diretto,"
+   ],
+   [
+    10.46,
+    10.58,
+    " un"
+   ],
+   [
+    10.58,
+    10.9,
+    "'emmanazione"
+   ],
+   [
+    10.9,
+    11.44,
+    " diretta"
+   ]
+  ]
+ },
+ {
+  "start": 11.44,
+  "end": 17.9,
+  "text": " del manifesto per un enciclo pedia libera di Richard Stallman che è del 1998, Nukidia",
+  "words": [
+   [
+    11.44,
+    11.7,
+    " del"
+   ],
+   [
+    11.7,
+    12.6,
+    " manifesto"
+   ],
+   [
+    12.6,
+    12.72,
+    " per"
+   ],
+   [
+    12.72,
+    12.86,
+    " un"
+   ],
+   [
+    12.86,
+    13.18,
+    " enciclo"
+   ],
+   [
+    13.18,
+    13.52,
+    " pedia"
+   ],
+   [
+    13.52,
+    13.94,
+    " libera"
+   ],
+   [
+    13.94,
+    14.08,
+    " di"
+   ],
+   [
+    14.08,
+    14.32,
+    " Richard"
+   ],
+   [
+    14.32,
+    14.9,
+    " Stallman"
+   ],
+   [
+    14.9,
+    15.08,
+    " che"
+   ],
+   [
+    15.08,
+    15.16,
+    " è"
+   ],
+   [
+    15.16,
+    15.3,
+    " del"
+   ],
+   [
+    15.3,
+    16.1,
+    " 1998,"
+   ],
+   [
+    17.28,
+    17.9,
+    " Nukidia"
+   ]
+  ]
+ },
+ {
+  "start": 17.9,
+  "end": 24.24,
+  "text": " fu un progetto che ne prendeva molte caratteristiche e molti principi, non aveva un grande",
+  "words": [
+   [
+    17.9,
+    18.08,
+    " fu"
+   ],
+   [
+    18.08,
+    18.22,
+    " un"
+   ],
+   [
+    18.22,
+    18.82,
+    " progetto"
+   ],
+   [
+    18.82,
+    19.08,
+    " che"
+   ],
+   [
+    19.08,
+    19.3,
+    " ne"
+   ],
+   [
+    19.3,
+    20.08,
+    " prendeva"
+   ],
+   [
+    20.08,
+    20.74,
+    " molte"
+   ],
+   [
+    20.74,
+    22.1,
+    " caratteristiche"
+   ],
+   [
+    22.1,
+    22.36,
+    " e"
+   ],
+   [
+    22.36,
+    22.7,
+    " molti"
+   ],
+   [
+    22.7,
+    23.42,
+    " principi,"
+   ],
+   [
+    23.56,
+    23.7,
+    " non"
+   ],
+   [
+    23.7,
+    23.92,
+    " aveva"
+   ],
+   [
+    23.92,
+    24.04,
+    " un"
+   ],
+   [
+    24.04,
+    24.24,
+    " grande"
+   ]
+  ]
+ },
+ {
+  "start": 24.24,
+  "end": 28.54,
+  "text": " successo soprattutto probabilmente perché non era un progetto aperto, era un progetto",
+  "words": [
+   [
+    24.24,
+    25.04,
+    " successo"
+   ],
+   [
+    25.04,
+    25.54,
+    " soprattutto"
+   ],
+   [
+    25.54,
+    26.32,
+    " probabilmente"
+   ],
+   [
+    26.32,
+    26.58,
+    " perché"
+   ],
+   [
+    26.58,
+    26.8,
+    " non"
+   ],
+   [
+    26.8,
+    26.94,
+    " era"
+   ],
+   [
+    26.94,
+    27.02,
+    " un"
+   ],
+   [
+    27.02,
+    27.44,
+    " progetto"
+   ],
+   [
+    27.44,
+    27.9,
+    " aperto,"
+   ],
+   [
+    27.94,
+    28.0,
+    " era"
+   ],
+   [
+    28.0,
+    28.06,
+    " un"
+   ],
+   [
+    28.06,
+    28.54,
+    " progetto"
+   ]
+  ]
+ },
+ {
+  "start": 28.54,
+  "end": 34.1,
+  "text": " che aveva una costruzione dei contenuti inmediata e soprattutto selezionata all'ingresso per",
+  "words": [
+   [
+    28.54,
+    28.8,
+    " che"
+   ],
+   [
+    28.8,
+    29.34,
+    " aveva"
+   ],
+   [
+    29.34,
+    29.6,
+    " una"
+   ],
+   [
+    29.6,
+    30.18,
+    " costruzione"
+   ],
+   [
+    30.18,
+    30.4,
+    " dei"
+   ],
+   [
+    30.4,
+    30.92,
+    " contenuti"
+   ],
+   [
+    30.92,
+    31.56,
+    " inmediata"
+   ],
+   [
+    31.56,
+    31.72,
+    " e"
+   ],
+   [
+    31.72,
+    32.0,
+    " soprattutto"
+   ],
+   [
+    32.0,
+    32.86,
+    " selezionata"
+   ],
+   [
+    32.86,
+    33.04,
+    " all"
+   ],
+   [
+    33.04,
+    33.54,
+    "'ingresso"
+   ],
+   [
+    33.54,
+    34.1,
+    " per"
+   ]
+  ]
+ },
+ {
+  "start": 34.7,
+  "end": 39.84,
+  "text": " titoli dei contributori, quindi diciamo ancora in una formula molto vicina a quella dell'enciclopedia",
+  "words": [
+   [
+    34.7,
+    35.18,
+    " titoli"
+   ],
+   [
+    35.18,
+    35.52,
+    " dei"
+   ],
+   [
+    35.52,
+    36.3,
+    " contributori,"
+   ],
+   [
+    36.46,
+    36.6,
+    " quindi"
+   ],
+   [
+    36.6,
+    37.0,
+    " diciamo"
+   ],
+   [
+    37.0,
+    37.26,
+    " ancora"
+   ],
+   [
+    37.26,
+    37.48,
+    " in"
+   ],
+   [
+    37.48,
+    37.64,
+    " una"
+   ],
+   [
+    37.64,
+    38.06,
+    " formula"
+   ],
+   [
+    38.06,
+    38.46,
+    " molto"
+   ],
+   [
+    38.46,
+    39.02,
+    " vicina"
+   ],
+   [
+    39.02,
+    39.16,
+    " a"
+   ],
+   [
+    39.16,
+    39.24,
+    " quella"
+   ],
+   [
+    39.24,
+    39.42,
+    " dell"
+   ],
+   [
+    39.42,
+    39.84,
+    "'enciclopedia"
+   ]
+  ]
+ },
+ {
+  "start": 39.84,
+  "end": 45.92,
+  "text": " tradizionale, traveltolette commerciale, perché la enciclopedia anche negli Stati Uniti della",
+  "words": [
+   [
+    39.84,
+    40.88,
+    " tradizionale,"
+   ],
+   [
+    41.02,
+    41.7,
+    " traveltolette"
+   ],
+   [
+    41.7,
+    42.5,
+    " commerciale,"
+   ],
+   [
+    42.72,
+    42.72,
+    " perché"
+   ],
+   [
+    42.72,
+    43.0,
+    " la"
+   ],
+   [
+    43.0,
+    43.44,
+    " enciclopedia"
+   ],
+   [
+    43.44,
+    44.26,
+    " anche"
+   ],
+   [
+    44.26,
+    44.66,
+    " negli"
+   ],
+   [
+    44.66,
+    44.92,
+    " Stati"
+   ],
+   [
+    44.92,
+    45.36,
+    " Uniti"
+   ],
+   [
+    45.36,
+    45.92,
+    " della"
+   ]
+  ]
+ },
+ {
+  "start": 45.92,
+  "end": 51.28,
+  "text": " realtà dove è nato tutto questo era la norma. Nukidia è appunto stato un progetto",
+  "words": [
+   [
+    45.92,
+    46.22,
+    " realtà"
+   ],
+   [
+    46.22,
+    46.46,
+    " dove"
+   ],
+   [
+    46.46,
+    46.56,
+    " è"
+   ],
+   [
+    46.56,
+    46.74,
+    " nato"
+   ],
+   [
+    46.74,
+    46.9,
+    " tutto"
+   ],
+   [
+    46.9,
+    47.36,
+    " questo"
+   ],
+   [
+    47.36,
+    47.9,
+    " era"
+   ],
+   [
+    47.9,
+    48.2,
+    " la"
+   ],
+   [
+    48.2,
+    48.68,
+    " norma."
+   ],
+   [
+    48.76,
+    49.32,
+    " Nukidia"
+   ],
+   [
+    49.32,
+    49.54,
+    " è"
+   ],
+   [
+    49.54,
+    50.1,
+    " appunto"
+   ],
+   [
+    50.1,
+    50.7,
+    " stato"
+   ],
+   [
+    50.7,
+    50.9,
+    " un"
+   ],
+   [
+    50.9,
+    51.28,
+    " progetto"
+   ]
+  ]
+ },
+ {
+  "start": 51.28,
+  "end": 55.16,
+  "text": " che per un paio d'anni ha tenuto su, poi a un certo momento qualcuno ha avuto l'idea",
+  "words": [
+   [
+    51.28,
+    51.4,
+    " che"
+   ],
+   [
+    51.4,
+    51.58,
+    " per"
+   ],
+   [
+    51.58,
+    51.72,
+    " un"
+   ],
+   [
+    51.72,
+    51.88,
+    " paio"
+   ],
+   [
+    51.88,
+    52.02,
+    " d"
+   ],
+   [
+    52.02,
+    52.16,
+    "'anni"
+   ],
+   [
+    52.16,
+    52.36,
+    " ha"
+   ],
+   [
+    52.36,
+    52.64,
+    " tenuto"
+   ],
+   [
+    52.64,
+    52.92,
+    " su,"
+   ],
+   [
+    53.14,
+    53.42,
+    " poi"
+   ],
+   [
+    53.42,
+    53.54,
+    " a"
+   ],
+   [
+    53.54,
+    53.64,
+    " un"
+   ],
+   [
+    53.64,
+    53.76,
+    " certo"
+   ],
+   [
+    53.76,
+    54.08,
+    " momento"
+   ],
+   [
+    54.08,
+    54.62,
+    " qualcuno"
+   ],
+   [
+    54.62,
+    54.72,
+    " ha"
+   ],
+   [
+    54.72,
+    54.84,
+    " avuto"
+   ],
+   [
+    54.84,
+    55.0,
+    " l"
+   ],
+   [
+    55.0,
+    55.16,
+    "'idea"
+   ]
+  ]
+ },
+ {
+  "start": 55.16,
+  "end": 60.34,
+  "text": " meravigliosa, ma perché non apriamo la contribuzione a tutti gli utenti, fidandoci del fatto che",
+  "words": [
+   [
+    55.16,
+    55.76,
+    " meravigliosa,"
+   ],
+   [
+    55.86,
+    55.88,
+    " ma"
+   ],
+   [
+    55.88,
+    56.16,
+    " perché"
+   ],
+   [
+    56.16,
+    56.34,
+    " non"
+   ],
+   [
+    56.34,
+    56.82,
+    " apriamo"
+   ],
+   [
+    56.82,
+    56.96,
+    " la"
+   ],
+   [
+    56.96,
+    57.78,
+    " contribuzione"
+   ],
+   [
+    57.78,
+    57.98,
+    " a"
+   ],
+   [
+    57.98,
+    58.14,
+    " tutti"
+   ],
+   [
+    58.14,
+    58.32,
+    " gli"
+   ],
+   [
+    58.32,
+    58.78,
+    " utenti,"
+   ],
+   [
+    59.0,
+    59.64,
+    " fidandoci"
+   ],
+   [
+    59.64,
+    59.84,
+    " del"
+   ],
+   [
+    59.84,
+    60.12,
+    " fatto"
+   ],
+   [
+    60.12,
+    60.34,
+    " che"
+   ]
+  ]
+ },
+ {
+  "start": 60.34,
+  "end": 66.38,
+  "text": " comunque sia la maggioranza delle persone in realtà non è dannosa. Può darsi che ci siano",
+  "words": [
+   [
+    60.34,
+    60.68,
+    " comunque"
+   ],
+   [
+    60.68,
+    61.06,
+    " sia"
+   ],
+   [
+    61.06,
+    61.46,
+    " la"
+   ],
+   [
+    61.46,
+    62.18,
+    " maggioranza"
+   ],
+   [
+    62.18,
+    62.56,
+    " delle"
+   ],
+   [
+    62.56,
+    63.02,
+    " persone"
+   ],
+   [
+    63.02,
+    63.3,
+    " in"
+   ],
+   [
+    63.3,
+    63.68,
+    " realtà"
+   ],
+   [
+    63.68,
+    64.06,
+    " non"
+   ],
+   [
+    64.06,
+    64.24,
+    " è"
+   ],
+   [
+    64.24,
+    64.76,
+    " dannosa."
+   ],
+   [
+    65.42,
+    65.52,
+    " Può"
+   ],
+   [
+    65.52,
+    65.76,
+    " darsi"
+   ],
+   [
+    65.76,
+    65.96,
+    " che"
+   ],
+   [
+    65.96,
+    66.1,
+    " ci"
+   ],
+   [
+    66.1,
+    66.38,
+    " siano"
+   ]
+  ]
+ },
+ {
+  "start": 66.38,
+  "end": 71.68,
+  "text": " percentuali, che si possono fare, però si può isolare che la maggioranza delle persone",
+  "words": [
+   [
+    66.38,
+    67.26,
+    " percentuali,"
+   ],
+   [
+    67.36,
+    67.38,
+    " che"
+   ],
+   [
+    67.38,
+    67.5,
+    " si"
+   ],
+   [
+    67.5,
+    67.72,
+    " possono"
+   ],
+   [
+    67.72,
+    68.18,
+    " fare,"
+   ],
+   [
+    68.44,
+    69.52,
+    " però"
+   ],
+   [
+    69.52,
+    69.72,
+    " si"
+   ],
+   [
+    69.72,
+    69.88,
+    " può"
+   ],
+   [
+    69.88,
+    70.3,
+    " isolare"
+   ],
+   [
+    70.3,
+    70.44,
+    " che"
+   ],
+   [
+    70.44,
+    70.56,
+    " la"
+   ],
+   [
+    70.56,
+    71.04,
+    " maggioranza"
+   ],
+   [
+    71.04,
+    71.22,
+    " delle"
+   ],
+   [
+    71.22,
+    71.68,
+    " persone"
+   ]
+  ]
+ },
+ {
+  "start": 71.68,
+  "end": 76.22,
+  "text": " di solito è costruttiva e positiva. E in effetti così è stato, sì, dall'inizio.",
+  "words": [
+   [
+    71.68,
+    71.88,
+    " di"
+   ],
+   [
+    71.88,
+    72.22,
+    " solito"
+   ],
+   [
+    72.22,
+    72.4,
+    " è"
+   ],
+   [
+    72.4,
+    73.2,
+    " costruttiva"
+   ],
+   [
+    73.2,
+    73.42,
+    " e"
+   ],
+   [
+    73.42,
+    74.1,
+    " positiva."
+   ],
+   [
+    74.26,
+    74.3,
+    " E"
+   ],
+   [
+    74.3,
+    74.4,
+    " in"
+   ],
+   [
+    74.4,
+    74.62,
+    " effetti"
+   ],
+   [
+    74.62,
+    74.86,
+    " così"
+   ],
+   [
+    74.86,
+    75.04,
+    " è"
+   ],
+   [
+    75.04,
+    75.34,
+    " stato,"
+   ],
+   [
+    75.42,
+    75.54,
+    " sì,"
+   ],
+   [
+    75.64,
+    75.74,
+    " dall"
+   ],
+   [
+    75.74,
+    76.22,
+    "'inizio."
+   ]
+  ]
+ },
+ {
+  "start": 76.42,
+  "end": 80.82,
+  "text": " Wikipedia è partita con tanta buona volontà, allora si chiamavano articoli e non",
+  "words": [
+   [
+    76.42,
+    76.74,
+    " Wikipedia"
+   ],
+   [
+    76.74,
+    77.18,
+    " è"
+   ],
+   [
+    77.18,
+    77.76,
+    " partita"
+   ],
+   [
+    77.76,
+    78.04,
+    " con"
+   ],
+   [
+    78.04,
+    78.22,
+    " tanta"
+   ],
+   [
+    78.22,
+    78.6,
+    " buona"
+   ],
+   [
+    78.6,
+    79.14,
+    " volontà,"
+   ],
+   [
+    79.4,
+    79.62,
+    " allora"
+   ],
+   [
+    79.62,
+    79.76,
+    " si"
+   ],
+   [
+    79.76,
+    80.08,
+    " chiamavano"
+   ],
+   [
+    80.08,
+    80.58,
+    " articoli"
+   ],
+   [
+    80.58,
+    80.72,
+    " e"
+   ],
+   [
+    80.72,
+    80.82,
+    " non"
+   ]
+  ]
+ },
+ {
+  "start": 80.82,
+  "end": 86.28,
+  "text": " voci, ma comunque, tanto per dare l'idea, le prime voci contenevano per la voce Roma,",
+  "words": [
+   [
+    80.82,
+    81.16,
+    " voci,"
+   ],
+   [
+    81.3,
+    81.32,
+    " ma"
+   ],
+   [
+    81.32,
+    81.78,
+    " comunque,"
+   ],
+   [
+    81.88,
+    82.12,
+    " tanto"
+   ],
+   [
+    82.12,
+    82.34,
+    " per"
+   ],
+   [
+    82.34,
+    82.52,
+    " dare"
+   ],
+   [
+    82.52,
+    82.68,
+    " l"
+   ],
+   [
+    82.68,
+    82.96,
+    "'idea,"
+   ],
+   [
+    83.14,
+    83.14,
+    " le"
+   ],
+   [
+    83.14,
+    83.46,
+    " prime"
+   ],
+   [
+    83.46,
+    84.62,
+    " voci"
+   ],
+   [
+    84.62,
+    85.52,
+    " contenevano"
+   ],
+   [
+    85.52,
+    85.68,
+    " per"
+   ],
+   [
+    85.68,
+    85.82,
+    " la"
+   ],
+   [
+    85.82,
+    86.04,
+    " voce"
+   ],
+   [
+    86.04,
+    86.28,
+    " Roma,"
+   ]
+  ]
+ },
+ {
+  "start": 86.38,
+  "end": 91.4,
+  "text": " conteneva Roma e la capitale d'Italia, dell'azio punto, la voce era finita e deserita in quello,",
+  "words": [
+   [
+    86.38,
+    86.96,
+    " conteneva"
+   ],
+   [
+    86.96,
+    87.26,
+    " Roma"
+   ],
+   [
+    87.26,
+    87.54,
+    " e"
+   ],
+   [
+    87.54,
+    87.64,
+    " la"
+   ],
+   [
+    87.64,
+    88.08,
+    " capitale"
+   ],
+   [
+    88.08,
+    88.26,
+    " d"
+   ],
+   [
+    88.26,
+    88.62,
+    "'Italia,"
+   ],
+   [
+    88.8,
+    88.96,
+    " dell"
+   ],
+   [
+    88.96,
+    89.34,
+    "'azio"
+   ],
+   [
+    89.34,
+    89.58,
+    " punto,"
+   ],
+   [
+    89.8,
+    89.88,
+    " la"
+   ],
+   [
+    89.88,
+    90.08,
+    " voce"
+   ],
+   [
+    90.08,
+    90.22,
+    " era"
+   ],
+   [
+    90.22,
+    90.6,
+    " finita"
+   ],
+   [
+    90.6,
+    90.66,
+    " e"
+   ],
+   [
+    90.66,
+    91.02,
+    " deserita"
+   ],
+   [
+    91.02,
+    91.2,
+    " in"
+   ],
+   [
+    91.2,
+    91.4,
+    " quello,"
+   ]
+  ]
+ },
+ {
+  "start": 91.7,
+  "end": 96.08,
+  "text": " perché? Perché si chiedeva l'agliuto di altri contributori che, con la mentalitatifica",
+  "words": [
+   [
+    91.7,
+    91.9,
+    " perché?"
+   ],
+   [
+    92.04,
+    92.2,
+    " Perché"
+   ],
+   [
+    92.2,
+    92.42,
+    " si"
+   ],
+   [
+    92.42,
+    92.88,
+    " chiedeva"
+   ],
+   [
+    92.88,
+    93.0,
+    " l"
+   ],
+   [
+    93.0,
+    93.36,
+    "'agliuto"
+   ],
+   [
+    93.36,
+    93.56,
+    " di"
+   ],
+   [
+    93.56,
+    93.76,
+    " altri"
+   ],
+   [
+    93.76,
+    94.58,
+    " contributori"
+   ],
+   [
+    94.58,
+    94.8,
+    " che,"
+   ],
+   [
+    94.9,
+    95.1,
+    " con"
+   ],
+   [
+    95.1,
+    95.26,
+    " la"
+   ],
+   [
+    95.26,
+    96.08,
+    " mentalitatifica"
+   ]
+  ]
+ },
+ {
+  "start": 96.08,
+  "end": 100.7,
+  "text": " dell'open source, venissero sopra ad arricchire di contenuti e di altre idee.",
+  "words": [
+   [
+    96.08,
+    96.26,
+    " dell"
+   ],
+   [
+    96.26,
+    96.44,
+    "'open"
+   ],
+   [
+    96.44,
+    96.84,
+    " source,"
+   ],
+   [
+    97.16,
+    97.6,
+    " venissero"
+   ],
+   [
+    97.6,
+    98.14,
+    " sopra"
+   ],
+   [
+    98.14,
+    98.48,
+    " ad"
+   ],
+   [
+    98.48,
+    98.9,
+    " arricchire"
+   ],
+   [
+    98.9,
+    99.08,
+    " di"
+   ],
+   [
+    99.08,
+    99.74,
+    " contenuti"
+   ],
+   [
+    99.74,
+    99.98,
+    " e"
+   ],
+   [
+    99.98,
+    100.12,
+    " di"
+   ],
+   [
+    100.12,
+    100.34,
+    " altre"
+   ],
+   [
+    100.34,
+    100.7,
+    " idee."
+   ]
+  ]
+ },
+ {
+  "start": 101.02,
+  "end": 105.92,
+  "text": " Dopo un po' questo contenuto ha cominciato a gli evitare, a gli evitare in inglese",
+  "words": [
+   [
+    101.02,
+    101.38,
+    " Dopo"
+   ],
+   [
+    101.38,
+    101.5,
+    " un"
+   ],
+   [
+    101.5,
+    101.62,
+    " po'"
+   ],
+   [
+    102.14,
+    102.28,
+    " questo"
+   ],
+   [
+    102.28,
+    103.1,
+    " contenuto"
+   ],
+   [
+    103.1,
+    103.26,
+    " ha"
+   ],
+   [
+    103.26,
+    103.74,
+    " cominciato"
+   ],
+   [
+    103.74,
+    103.92,
+    " a"
+   ],
+   [
+    103.92,
+    104.02,
+    " gli"
+   ],
+   [
+    104.02,
+    104.52,
+    " evitare,"
+   ],
+   [
+    104.64,
+    104.72,
+    " a"
+   ],
+   [
+    104.72,
+    104.82,
+    " gli"
+   ],
+   [
+    104.82,
+    105.14,
+    " evitare"
+   ],
+   [
+    105.14,
+    105.32,
+    " in"
+   ],
+   [
+    105.32,
+    105.92,
+    " inglese"
+   ]
+  ]
+ },
+ {
+  "start": 105.92,
+  "end": 109.62,
+  "text": " e poi lo spinoff di tutti i progetti nelle lingue diverse.",
+  "words": [
+   [
+    105.92,
+    106.16,
+    " e"
+   ],
+   [
+    106.16,
+    106.42,
+    " poi"
+   ],
+   [
+    106.42,
+    106.92,
+    " lo"
+   ],
+   [
+    106.92,
+    107.56,
+    " spinoff"
+   ],
+   [
+    107.56,
+    107.78,
+    " di"
+   ],
+   [
+    107.78,
+    107.94,
+    " tutti"
+   ],
+   [
+    107.94,
+    108.1,
+    " i"
+   ],
+   [
+    108.1,
+    108.58,
+    " progetti"
+   ],
+   [
+    108.58,
+    108.8,
+    " nelle"
+   ],
+   [
+    108.8,
+    109.2,
+    " lingue"
+   ],
+   [
+    109.2,
+    109.62,
+    " diverse."
+   ]
+  ]
+ },
+ {
+  "start": 109.78,
+  "end": 114.6,
+  "text": " Tutti sapete che l'Utipedia non è nazionale, quindi la Utipedia che leggiate in italiano",
+  "words": [
+   [
+    109.78,
+    110.0,
+    " Tutti"
+   ],
+   [
+    110.0,
+    110.42,
+    " sapete"
+   ],
+   [
+    110.42,
+    110.66,
+    " che"
+   ],
+   [
+    110.66,
+    111.06,
+    " l"
+   ],
+   [
+    111.06,
+    111.62,
+    "'Utipedia"
+   ],
+   [
+    111.62,
+    111.82,
+    " non"
+   ],
+   [
+    111.82,
+    111.96,
+    " è"
+   ],
+   [
+    111.96,
+    112.82,
+    " nazionale,"
+   ],
+   [
+    113.02,
+    113.04,
+    " quindi"
+   ],
+   [
+    113.04,
+    113.22,
+    " la"
+   ],
+   [
+    113.22,
+    113.68,
+    " Utipedia"
+   ],
+   [
+    113.68,
+    113.82,
+    " che"
+   ],
+   [
+    113.82,
+    114.14,
+    " leggiate"
+   ],
+   [
+    114.14,
+    114.26,
+    " in"
+   ],
+   [
+    114.26,
+    114.6,
+    " italiano"
+   ]
+  ]
+ },
+ {
+  "start": 114.6,
+  "end": 118.96,
+  "text": " non è dell'Italia, ha quella francese, non è della Francia, ma sono delle comunità",
+  "words": [
+   [
+    114.6,
+    114.9,
+    " non"
+   ],
+   [
+    114.9,
+    115.08,
+    " è"
+   ],
+   [
+    115.08,
+    115.2,
+    " dell"
+   ],
+   [
+    115.2,
+    115.68,
+    "'Italia,"
+   ],
+   [
+    115.68,
+    115.88,
+    " ha"
+   ],
+   [
+    115.88,
+    116.08,
+    " quella"
+   ],
+   [
+    116.08,
+    117.12,
+    " francese,"
+   ],
+   [
+    117.2,
+    117.28,
+    " non"
+   ],
+   [
+    117.28,
+    117.4,
+    " è"
+   ],
+   [
+    117.4,
+    117.52,
+    " della"
+   ],
+   [
+    117.52,
+    117.98,
+    " Francia,"
+   ],
+   [
+    118.02,
+    118.1,
+    " ma"
+   ],
+   [
+    118.1,
+    118.3,
+    " sono"
+   ],
+   [
+    118.3,
+    118.5,
+    " delle"
+   ],
+   [
+    118.5,
+    118.96,
+    " comunità"
+   ]
+  ]
+ },
+ {
+  "start": 118.96,
+  "end": 119.82,
+  "text": " linguistiche.",
+  "words": [
+   [
+    118.96,
+    119.82,
+    " linguistiche."
+   ]
+  ]
+ }
+]

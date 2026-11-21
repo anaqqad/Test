@@ -1,0 +1,142 @@
+{
+ "nld": {
+  "d": 0.43,
+  "f0": 114,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q7411 (nld)-Robin van der Vliet-appel.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/LL-Q7411_%28nld%29-Robin_van_der_Vliet-appel.wav/LL-Q7411_%28nld%29-Robin_van_der_Vliet-appel.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/1/10/LL-Q7411_%28nld%29-Robin_van_der_Vliet-appel.wav",
+   "artist": "Robin van der Vliet (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q7411_%28nld%29-Robin_van_der_Vliet-appel.wav"
+  }
+ },
+ "nor": {
+  "d": 0.38,
+  "f0": 145,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q9043 (nor)-Telaneo-melk.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0f/LL-Q9043_%28nor%29-Telaneo-melk.wav/LL-Q9043_%28nor%29-Telaneo-melk.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/0/0f/LL-Q9043_%28nor%29-Telaneo-melk.wav",
+   "artist": "Telaneo (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9043_%28nor%29-Telaneo-melk.wav"
+  }
+ },
+ "swe": {
+  "d": 0.71,
+  "f0": 110,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q9027 (swe)-Punsisil-vatten.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/LL-Q9027_%28swe%29-Punsisil-vatten.wav/LL-Q9027_%28swe%29-Punsisil-vatten.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/0/06/LL-Q9027_%28swe%29-Punsisil-vatten.wav",
+   "artist": "Punsisil (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9027_%28swe%29-Punsisil-vatten.wav"
+  }
+ },
+ "dan": {
+  "d": 0.4,
+  "f0": 113,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q9035 (dan)-EskildDood-fisk.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/LL-Q9035_%28dan%29-EskildDood-fisk.wav/LL-Q9035_%28dan%29-EskildDood-fisk.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/8/8e/LL-Q9035_%28dan%29-EskildDood-fisk.wav",
+   "artist": "EskildDood (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q9035_%28dan%29-EskildDood-fisk.wav"
+  }
+ },
+ "ita": {
+  "d": 0.53,
+  "f0": 101,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q652 (ita)-LangPao-famiglia.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/LL-Q652_%28ita%29-LangPao-famiglia.wav/LL-Q652_%28ita%29-LangPao-famiglia.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/3/3b/LL-Q652_%28ita%29-LangPao-famiglia.wav",
+   "artist": "LangPao (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q652_%28ita%29-LangPao-famiglia.wav"
+  }
+ },
+ "spa": {
+  "d": 0.81,
+  "f0": 92,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q1321 (spa)-AdrianAbdulBaha-chocolate.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/LL-Q1321_%28spa%29-AdrianAbdulBaha-chocolate.wav/LL-Q1321_%28spa%29-AdrianAbdulBaha-chocolate.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/f/f0/LL-Q1321_%28spa%29-AdrianAbdulBaha-chocolate.wav",
+   "artist": "AdrianAbdulBaha (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q1321_%28spa%29-AdrianAbdulBaha-chocolate.wav"
+  }
+ },
+ "ron": {
+  "d": 0.45,
+  "f0": 209,
+  "voice": "female",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q7913 (ron)-Andreea Teodoraa-lună.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/LL-Q7913_%28ron%29-Andreea_Teodoraa-lun%C4%83.wav/LL-Q7913_%28ron%29-Andreea_Teodoraa-lun%C4%83.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/4/4e/LL-Q7913_%28ron%29-Andreea_Teodoraa-lun%C4%83.wav",
+   "artist": "Andreea Teodoraa (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q7913_%28ron%29-Andreea_Teodoraa-lun%C4%83.wav"
+  }
+ },
+ "por": {
+  "d": 0.58,
+  "f0": 119,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q5146 (por)-Nelson Ricardo 2500-animal.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/LL-Q5146_%28por%29-Nelson_Ricardo_2500-animal.wav/LL-Q5146_%28por%29-Nelson_Ricardo_2500-animal.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/7/78/LL-Q5146_%28por%29-Nelson_Ricardo_2500-animal.wav",
+   "artist": "Nelson Ricardo 2500 (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q5146_%28por%29-Nelson_Ricardo_2500-animal.wav"
+  }
+ },
+ "fra": {
+  "d": 0.34,
+  "f0": 86,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q150 (fra)-Roptat-table.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/LL-Q150_%28fra%29-Roptat-table.wav/LL-Q150_%28fra%29-Roptat-table.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/9/99/LL-Q150_%28fra%29-Roptat-table.wav",
+   "artist": "Roptat (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q150_%28fra%29-Roptat-table.wav"
+  }
+ },
+ "deu": {
+  "d": 0.44,
+  "f0": 97,
+  "voice": "male",
+  "ai": false,
+  "credit": {
+   "title": "File:LL-Q188 (deu)-Lucas Werkmeister-Hand.wav",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/LL-Q188_%28deu%29-Lucas_Werkmeister-Hand.wav/LL-Q188_%28deu%29-Lucas_Werkmeister-Hand.wav.mp3",
+   "url_orig": "https://upload.wikimedia.org/wikipedia/commons/c/c3/LL-Q188_%28deu%29-Lucas_Werkmeister-Hand.wav",
+   "artist": "Lucas Werkmeister (Lingua Libre)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q188_%28deu%29-Lucas_Werkmeister-Hand.wav"
+  }
+ }
+}

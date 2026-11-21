@@ -1,0 +1,181 @@
+{
+ "_note": "Words That Don't Exist in English be like. Native word = real recording (Lingua Libre / Wiktionary pronunciation files on Commons); the English translation is read by a Piper AI voice, labelled on screen. Ranked 10 -> 1 by the number of English words in the shortest honest translation (counted by fetch_untrans.py).",
+ "title": "Words That Don't Exist in English be like",
+ "english_voice": "en_GB-alan-medium",
+ "english_wojak": "s_eng_dep",
+ "items": [
+  {
+   "key": "schadenfreude",
+   "name": "German",
+   "flag": "de",
+   "wojak": "s_deu",
+   "scene": "village",
+   "word": "Schadenfreude",
+   "literal": "harm-joy",
+   "rec": "File:De-Schadenfreude.ogg",
+   "credit": {
+    "artist": "Jeuwre",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "Joy at others' misfortune.",
+   "fact": "English tried for centuries and gave up: since the 1890s it simply borrows the German word. The French have it too, but need a sentence.",
+   "voice": "male"
+  },
+  {
+   "key": "lagom",
+   "name": "Swedish",
+   "flag": "se",
+   "wojak": "s_swe",
+   "scene": "dalarna",
+   "word": "lagom",
+   "literal": "according to the law (of the group)",
+   "rec": "File:Sv-lagom.ogg",
+   "credit": {
+    "artist": "uploader not named on the file page",
+    "license": "CC BY-SA 3.0"
+   },
+   "translation": "Just the right amount.",
+   "fact": "Swedes call it their national philosophy: the right amount of coffee, of work, of showing off. Legend says it comes from Vikings passing a horn of mead around the team: 'laget om', enough for everyone.",
+   "voice": "male"
+  },
+  {
+   "key": "ikigai",
+   "name": "Japanese",
+   "flag": "jp",
+   "wojak": "s_jpn",
+   "scene": "hongkong",
+   "word": "生き甲斐",
+   "roman": "ikigai",
+   "literal": "life-worth",
+   "rec": "File:LL-Q5287 (jpn)-葵心-生き甲斐.wav",
+   "credit": {
+    "artist": "葵心 (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "Your reason for living.",
+   "fact": "In Japan it is an everyday word: your ikigai can be your grandchildren, your garden or your job. The Venn diagram with four circles that went viral is a Western invention from 2014.",
+   "voice": "male"
+  },
+  {
+   "key": "toska",
+   "name": "Russian",
+   "flag": "ru",
+   "wojak": "s_rus",
+   "scene": "steppe",
+   "word": "тоска",
+   "roman": "toska",
+   "literal": "ache",
+   "rec": "File:Ru-тоска.ogg",
+   "credit": {
+    "artist": "uploader not named on the file page",
+    "license": "CC BY 2.0"
+   },
+   "translation": "Aching sadness without cause.",
+   "fact": "Nabokov said no English word renders it: at its deepest it is a great spiritual anguish, at its lightest, boredom. Russian novels run on it.",
+   "voice": "male"
+  },
+  {
+   "key": "gezellig",
+   "name": "Dutch",
+   "flag": "nl",
+   "wojak": "s_nld",
+   "scene": "savanna",
+   "word": "gezellig",
+   "literal": "companion-like",
+   "rec": "File:Nl-gezellig.ogg",
+   "credit": {
+    "artist": "Marcel coenders",
+    "license": "CC BY-SA 3.0"
+   },
+   "translation": "Cosy togetherness.",
+   "fact": "A café can be gezellig, an evening, a person, even a chair. The Dutch rank it among the most important words in their language, and swear hygge is just the Danish copy.",
+   "voice": "male"
+  },
+  {
+   "key": "saudade",
+   "name": "Portuguese",
+   "flag": "pt",
+   "wojak": "s_por",
+   "scene": "adriatic",
+   "word": "saudade",
+   "literal": "from Latin 'solitude'",
+   "rec": "File:LL-Q5146 (por)-MedK1-saudade.wav",
+   "credit": {
+    "artist": "MedK1 (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "Bittersweet longing for what's gone.",
+   "fact": "Portugal has a whole music genre built on it, fado, and Brazil celebrates a Day of Saudade on 30 January. You can feel saudade for a person, a city, or a time that never existed.",
+   "voice": "male"
+  },
+  {
+   "key": "kummerspeck",
+   "name": "German",
+   "flag": "de",
+   "wojak": "s_deu",
+   "scene": "village",
+   "word": "Kummerspeck",
+   "literal": "grief bacon",
+   "rec": "File:De-Kummerspeck.ogg",
+   "credit": {
+    "artist": "Jeuwre",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "Weight gained from grief eating.",
+   "fact": "German just glues two words together: Kummer, grief, plus Speck, bacon. The same trick gives Backpfeifengesicht, a face that is asking for a slap.",
+   "voice": "male"
+  },
+  {
+   "key": "depaysement",
+   "name": "French",
+   "flag": "fr",
+   "wojak": "s_fra_calm",
+   "scene": "tuscany",
+   "word": "dépaysement",
+   "literal": "un-country-ing",
+   "rec": "File:LL-Q150 (fra)-LoquaxFR-dépaysement.wav",
+   "credit": {
+    "artist": "LoquaxFR (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "Disorientation of being abroad.",
+   "fact": "It can be the thrill of a new city or the unease of a strange one. The French use it for both, which is why travel agencies sell it and homesick students complain about it.",
+   "voice": "male"
+  },
+  {
+   "key": "guanxi",
+   "name": "Chinese",
+   "flag": "cn",
+   "wojak": "s_zho_calm",
+   "scene": "hongkong",
+   "word": "关系",
+   "roman": "guānxi",
+   "literal": "connections",
+   "rec": "File:LL-Q9192 (cmn)-Jouketou-关系.wav",
+   "credit": {
+    "artist": "Jouketou (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "Favour-trading connections.",
+   "fact": "In China you build guanxi for years, with dinners, gifts and favours, before you need it. Business schools in the West now teach it under its Chinese name.",
+   "voice": "male"
+  },
+  {
+   "key": "litost",
+   "name": "Czech",
+   "flag": "cz",
+   "wojak": "s_ces",
+   "scene": "prague",
+   "word": "lítost",
+   "literal": "pity, regret",
+   "rec": "File:LL-Q9056 (ces)-Ghost4Man-lítost.wav",
+   "credit": {
+    "artist": "Ghost4Man (Lingua Libre)",
+    "license": "CC BY-SA 4.0"
+   },
+   "translation": "Torment at seeing your own misery.",
+   "fact": "That definition is Milan Kundera's. He said he looked in vain for the word in other languages, and could not imagine understanding the human soul without it.",
+   "voice": "male"
+  }
+ ]
+}

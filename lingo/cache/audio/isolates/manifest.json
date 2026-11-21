@@ -1,0 +1,67 @@
+{
+ "Burushaski": {
+  "sig": "isolates|Burushaski",
+  "credits": [
+   {
+    "title": "A COVID-19 survivor's story in Burushaski - Izhar Hunzai",
+    "artist": "virallanguages",
+    "license": "CC BY",
+    "page": "https://www.youtube.com/watch?v=U_-cSan4r_E"
+   }
+  ],
+  "captions": [],
+  "start": 112.0
+ },
+ "Mapudungun": {
+  "sig": "isolates|Mapudungun",
+  "credits": [
+   {
+    "title": "WIKITONGUES: Victor speaking Mapudungun",
+    "artist": "Wikitongues",
+    "license": "CC BY",
+    "page": "https://www.youtube.com/watch?v=DcPu6zLpZoQ"
+   }
+  ],
+  "captions": [],
+  "start": 12.0
+ },
+ "Sandawe": {
+  "sig": "isolates|Sandawe",
+  "credits": [
+   {
+    "title": "Sandawe audio: sad_word-list_1991_01",
+    "artist": "UCLA Phonetics Lab",
+    "license": "CC BY",
+    "page": "https://www.youtube.com/watch?v=MP4ps6_32y4"
+   }
+  ],
+  "captions": [],
+  "start": 194.0
+ },
+ "Warao": {
+  "sig": "isolates|Warao",
+  "credits": [
+   {
+    "title": "Warao - Genesis 33.1-16",
+    "artist": "ScriptureEarth",
+    "license": "CC BY",
+    "page": "https://www.youtube.com/watch?v=Re2Td8BHgaI"
+   }
+  ],
+  "captions": [],
+  "start": 36.0
+ },
+ "Tiwi": {
+  "sig": "isolates|Tiwi",
+  "credits": [
+   {
+    "title": "Tiwi audio: tiw_word-list_1976_01",
+    "artist": "UCLA Phonetics Lab",
+    "license": "CC BY",
+    "page": "https://www.youtube.com/watch?v=FceqHZa8X3E"
+   }
+  ],
+  "captions": [],
+  "start": 29.0
+ }
+}

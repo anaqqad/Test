@@ -1,0 +1,121 @@
+{
+ "zsm_ind": {
+  "a": "zsm",
+  "b": "ind",
+  "na": "Malay",
+  "nb": "Indonesian",
+  "fa": "my",
+  "fb": "id",
+  "scene": "bougainville",
+  "ll": {
+   "zsm": "Q49",
+   "ind": "Q305"
+  },
+  "cards": [
+   "Indonesian is a standardised form of Malay, so the core words are identical. Only the everyday words drifted apart over the last century.",
+   "Careful with 'budak': in Malaysia it means child. In Indonesia it means slave."
+  ]
+ },
+ "tur_aze": {
+  "a": "tur",
+  "b": "aze",
+  "na": "Turkish",
+  "nb": "Azerbaijani",
+  "fa": "tr",
+  "fb": "az",
+  "scene": "caucasus",
+  "ll": {
+   "tur": "Q297",
+   "aze": "Q138"
+  },
+  "cards": [
+   "Identical grammar, but a fifth of the core words differ: Azerbaijani kept old Turkic words (ürək, qara) and Persian loans where Turkish picked Arabic ones (kalp).",
+   "Turks and Azerbaijanis still chat without a translator. Azerbaijani was simply called Turkish until the Soviets renamed it in the 1930s."
+  ]
+ },
+ "spa_por": {
+  "a": "spa",
+  "b": "por",
+  "na": "Spanish",
+  "nb": "Portuguese",
+  "fa": "es",
+  "fb": "pt",
+  "scene": "tuscany",
+  "ll": {
+   "spa": "Q386",
+   "por": "Q126"
+  },
+  "cards": [
+   "Nearly all core words are the same root, but Portuguese has more vowel sounds and swallows syllables, so Spanish ears get lost. Portuguese speakers understand Spanish much better than the other way round.",
+   "Watch out for 'perro' and 'preto': dog and black are two of the few core words they do not share."
+  ]
+ },
+ "cat_oci": {
+  "a": "cat",
+  "b": "oci",
+  "na": "Catalan",
+  "nb": "Occitan",
+  "fa": "es-ct",
+  "fb": "fr",
+  "scene": "alps",
+  "ll": {
+   "cat": "Q203",
+   "oci": "Q311"
+  },
+  "cards": [
+   "Catalan and Occitan, the language of southern France, were once considered one language. Medieval poets wrote in both without noticing a border.",
+   "Catalan has 10 million speakers and its own TV channels. Occitan is down to a few hundred thousand, mostly older people."
+  ]
+ },
+ "bul_mkd": {
+  "a": "bul",
+  "b": "mkd",
+  "na": "Bulgarian",
+  "nb": "Macedonian",
+  "fa": "bg",
+  "fb": "mk",
+  "scene": "hills",
+  "ll": {
+   "bul": "Q204",
+   "mkd": "Q306"
+  },
+  "cards": [
+   "Bulgaria officially considers Macedonian a dialect of Bulgarian. North Macedonia strongly disagrees.",
+   "Both dropped the noun cases that every other Slavic language still has, and both put 'the' at the end of the word."
+  ]
+ },
+ "hin_urd": {
+  "a": "hin",
+  "b": "urd",
+  "na": "Hindi",
+  "nb": "Urdu",
+  "fa": "in",
+  "fb": "pk",
+  "scene": "himalaya",
+  "ll": {
+   "hin": "Q123",
+   "urd": "Q124"
+  },
+  "cards": [
+   "Spoken on the street, Hindi and Urdu are the same language: Bollywood films are understood in Pakistan word for word.",
+   "The one point they lose is the script: Hindi uses Devanagari and Sanskrit words for formal speech, Urdu the Arabic script and Persian words."
+  ]
+ },
+ "nld_afr": {
+  "a": "nld",
+  "b": "afr",
+  "na": "Dutch",
+  "nb": "Afrikaans",
+  "fa": "nl",
+  "fb": "za",
+  "scene": "savanna",
+  "ll": {
+   "nld": "Q35",
+   "afr": "Q150"
+  },
+  "cards": [
+   "Afrikaans grew out of the Dutch spoken at the Cape in the 1600s. The words are Dutch, almost one for one.",
+   "The grammar is what changed: Afrikaans threw away genders and verb endings. Dutch 'ik ben, jij bent, hij is' becomes 'ek is, jy is, hy is'."
+  ]
+ }
+}

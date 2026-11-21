@@ -1,0 +1,12 @@
+Audio credits (Ranking Languages by How Many Accent Marks They Have)
+
+Vietnamese: "LL-Q9199 (vie)-Penn Zero MSSJ-Việt Nam.wav" by Penn Zero MSSJ (Lingua Libre), CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9199_%28vie%29-Penn_Zero_MSSJ-Vi%E1%BB%87t_Nam.wav
+Slovak: "LL-Q9058 (slk)-TomášPolonec-kľúč.wav" by TomášPolonec (Lingua Libre), CC BY 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9058_%28slk%29-Tom%C3%A1%C5%A1Polonec-k%C4%BE%C3%BA%C4%8D.wav
+Czech: "Cs-tři.ogg" by Veronika Daňková, Vion Nicolas, CC BY 2.0 fr, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ACs-t%C5%99i.ogg
+French: "LL-Q150 (fra)-0x010C-élèves.wav" by 0x010C (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q150_%28fra%29-0x010C-%C3%A9l%C3%A8ves.wav
+Portuguese: "Pt-pt-maçã.ogg" by Malafaya, CC BY-SA 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3APt-pt-ma%C3%A7%C3%A3.ogg
+Latvian: "LL-Q9078 (lvs)-Archtheodus-vārdnīca.wav" by Archtheodus (Lingua Libre), CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9078_%28lvs%29-Archtheodus-v%C4%81rdn%C4%ABca.wav
+Polish: "LL-Q809 (pol)-Gower-żółw.wav" by Gower (Lingua Libre), CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q809_%28pol%29-Gower-%C5%BC%C3%B3%C5%82w.wav
+Lithuanian: "LL-Q9083 (lit)-Trimkev-dešinė.wav" by Trimkev (Lingua Libre), CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9083_%28lit%29-Trimkev-de%C5%A1in%C4%97.wav
+Hungarian: "LL-Q9067 (hun)-Beaudine Wilson-repülőtér.wav" by Beaudine Wilson (Lingua Libre), CC0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q9067_%28hun%29-Beaudine_Wilson-rep%C3%BCl%C5%91t%C3%A9r.wav
+Spanish: "LL-Q1321 (spa)-Eavqwiki-mañana.wav" by Eavqwiki (Lingua Libre), CC BY-SA 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File%3ALL-Q1321_%28spa%29-Eavqwiki-ma%C3%B1ana.wav

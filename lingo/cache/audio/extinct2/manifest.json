@@ -1,0 +1,106 @@
+{
+ "Ainu": {
+  "sig": "extinct2|Ainu",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Teruyo speaking Ainu.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Teruyo_speaking_Ainu.webm"
+   }
+  ],
+  "captions": [],
+  "start": 2.0
+ },
+ "Miyako": {
+  "sig": "extinct2|Miyako",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Hiroyuki speaking Miyako.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Hiroyuki_speaking_Miyako.webm"
+   }
+  ],
+  "captions": [],
+  "start": 2.0
+ },
+ "Mendriq": {
+  "sig": "extinct2|Mendriq",
+  "credits": [
+   {
+    "title": "File:Ida Mendriq (subtitled).webm",
+    "artist": "Ultron90",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIda_Mendriq_%28subtitled%29.webm"
+   }
+  ],
+  "captions": [],
+  "start": 1.0
+ },
+ "Lehali": {
+  "sig": "extinct2|Lehali",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Anna speaking Tehali.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Anna_speaking_Tehali.webm"
+   }
+  ],
+  "captions": [],
+  "start": 2.0
+ },
+ "Kensiu": {
+  "sig": "extinct2|Kensiu",
+  "credits": [
+   {
+    "title": "File:Iskandar cakap Kensiu.webm",
+    "artist": "Farouk Azim",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIskandar_cakap_Kensiu.webm"
+   }
+  ],
+  "captions": [],
+  "start": 1.0
+ },
+ "Laz": {
+  "sig": "extinct2|Laz",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Soner speaking Laz.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Soner_speaking_Laz.webm"
+   }
+  ],
+  "captions": [],
+  "start": 2.0
+ },
+ "Northern Sami": {
+  "sig": "extinct2|Northern Sami",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Irena speaking Northern Sami.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Irena_speaking_Northern_Sami.webm"
+   }
+  ],
+  "captions": [],
+  "start": 2.0
+ },
+ "Bildts": {
+  "sig": "extinct2|Bildts",
+  "credits": [
+   {
+    "title": "File:WIKITONGUES- Gerard speaking Bildts.webm",
+    "artist": "Wikitongues",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWIKITONGUES-_Gerard_speaking_Bildts.webm"
+   }
+  ],
+  "captions": [],
+  "start": 2.0
+ }
+}

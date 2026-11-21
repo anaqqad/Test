@@ -1,0 +1,147 @@
+{
+ "note": "Commons sources for incoming/malta/v3/ and incoming/malta/score/ (gitignored). Download each url into that folder to rebuild.",
+ "v3": {
+  "Lexicon - Vassalli - 1796.jpg": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Lexicon_-_Vassalli_-_1796.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Hamelin de Guettelet"
+  },
+  "Bookshop in Straight Street - panoramio.jpg": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bookshop_in_Straight_Street_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Tim Tregenza"
+  },
+  "The National Library of Malta, Valletta.jpg": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/The_National_Library_of_Malta%2C_Valletta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 4.0",
+   "artist": "Jaakko.kulta"
+  },
+  "Turning a page.ogg": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Turning_a_page.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "Public domain",
+   "artist": "planish"
+  },
+  "LL-Q13955 (ara)-Al-jahbaḏ-كِتَاب.wav": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/LL-Q13955_%28ara%29-Al-jahba%E1%B8%8F-%D9%83%D9%90%D8%AA%D9%8E%D8%A7%D8%A8.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 4.0",
+   "artist": "Speaker: Al-jahbaḏ\nRecorder: Al-jahbaḏ"
+  },
+  "LL-Q13955 (ara)-Zinou2go-كتاب.wav": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/LL-Q13955_%28ara%29-Zinou2go-%D9%83%D8%AA%D8%A7%D8%A8.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Speaker: Zinou2go\nRecorder: Zinou2go"
+  },
+  "LL-Q13955 (ara)-Rashed Aljahdali-كاتب.wav": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/LL-Q13955_%28ara%29-Rashed_Aljahdali-%D9%83%D8%A7%D8%AA%D8%A8.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 4.0",
+   "artist": "Speaker: Rashed Aljahdali\nRecorder: Rashed Aljahdali"
+  },
+  "LL-Q13955 (ara)-Spotless Mind1988-كَاتِب.wav": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/LL-Q13955_%28ara%29-Spotless_Mind1988-%D9%83%D9%8E%D8%A7%D8%AA%D9%90%D8%A8.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 4.0",
+   "artist": "Speaker: Spotless Mind1988\nRecorder: Spotless Mind1988"
+  },
+  "LL-Q13955 (ara)-Zinou2go-كاتب.wav": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/LL-Q13955_%28ara%29-Zinou2go-%D9%83%D8%A7%D8%AA%D8%A8.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Speaker: Zinou2go\nRecorder: Zinou2go"
+  },
+  "Open and close squeaky door (Gravity Sound).wav": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Open_and_close_squeaky_door_%28Gravity_Sound%29.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 4.0",
+   "artist": "Gravity Sound"
+  },
+  "Malta - Grand Harbour (Lower Barrakka Gardens) 01 (1) ies.webm": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Malta_-_Grand_Harbour_%28Lower_Barrakka_Gardens%29_01_%281%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Frank Vincentz"
+  },
+  "Malta - Valletta - Triq il-Lanca - Ferry harbour 01 (1) ies.webm": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Malta_-_Valletta_-_Triq_il-Lanca_-_Ferry_harbour_01_%281%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Frank Vincentz"
+  },
+  "Tritons' Fountain, Valletta.webm": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Tritons%27_Fountain%2C_Valletta.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 4.0",
+   "artist": "GrimsbyT"
+  },
+  "Malta - Valletta - Pjazza Kastilja+election celebration 01 (0) ies.webm": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Malta_-_Valletta_-_Pjazza_Kastilja%2Belection_celebration_01_%280%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Frank Vincentz"
+  },
+  "Malta - Marsaxlokk - Xatt is-Sajjieda - Harbour 01 (0) ies.webm": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Malta_-_Marsaxlokk_-_Xatt_is-Sajjieda_-_Harbour_01_%280%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Frank Vincentz"
+  },
+  "Malta - Mdina - Triq Villegaignon 01 (1) ies.webm": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Malta_-_Mdina_-_Triq_Villegaignon_01_%281%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Frank Vincentz"
+  },
+  "Malta - Mdina - Pjazza San Pawl+Bishop's Palace+St. Paul's Cathedral 01 (0) ies.webm": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Malta_-_Mdina_-_Pjazza_San_Pawl%2BBishop%27s_Palace%2BSt._Paul%27s_Cathedral_01_%280%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Frank Vincentz"
+  },
+  "Malta - Mdina - Pjazza San Pawl - St. Paul's Cathedral in 01 (0) ies.webm": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Malta_-_Mdina_-_Pjazza_San_Pawl_-_St._Paul%27s_Cathedral_in_01_%280%29_ies.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY-SA 3.0",
+   "artist": "Frank Vincentz"
+  }
+ },
+ "score": {
+  "Long Note Two (ISRC USUAN1100420).mp3": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Long_Note_Two_%28ISRC_USUAN1100420%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 3.0",
+   "artist": "Kevin MacLeod"
+  },
+  "Desert City (ISRC USUAN1100564).mp3": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Desert_City_%28ISRC_USUAN1100564%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 3.0",
+   "artist": "Kevin MacLeod"
+  },
+  "Teller of the Tales (ISRC USUAN1400020).mp3": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Teller_of_the_Tales_%28ISRC_USUAN1400020%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 3.0",
+   "artist": "Kevin MacLeod"
+  },
+  "Ossuary 6 - Air (ISRC USUAN1500048).mp3": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ossuary_6_-_Air_%28ISRC_USUAN1500048%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 3.0",
+   "artist": "Kevin MacLeod"
+  },
+  "Mesmerize (ISRC USUAN1500005).mp3": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Mesmerize_%28ISRC_USUAN1500005%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 3.0",
+   "artist": "Kevin MacLeod"
+  },
+  "Crusade (ISRC USUAN1100884).mp3": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Crusade_%28ISRC_USUAN1100884%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 3.0",
+   "artist": "Kevin MacLeod"
+  },
+  "Echoes of Time (ISRC USUAN1300029).mp3": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Echoes_of_Time_%28ISRC_USUAN1300029%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 3.0",
+   "artist": "Kevin MacLeod"
+  },
+  "Heartwarming (ISRC USUAN1100207).mp3": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Heartwarming_%28ISRC_USUAN1100207%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 3.0",
+   "artist": "Kevin MacLeod"
+  },
+  "Lightless Dawn (ISRC USUAN1100655).mp3": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Lightless_Dawn_%28ISRC_USUAN1100655%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 3.0",
+   "artist": "Kevin MacLeod"
+  },
+  "Dark Times (ISRC USUAN1100747).mp3": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Dark_Times_%28ISRC_USUAN1100747%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC BY 3.0",
+   "artist": "Kevin MacLeod"
+  }
+ }
+}
