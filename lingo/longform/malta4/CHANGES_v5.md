@@ -1,4 +1,4 @@
-# Malta v5: what changed from v4 (`out/malta4_v5.mp4`, 9:23)
+# Malta v5: what changed from v4 (`out/malta4_v5.mp4`, 9:24)
 
 Render: `node longform4.mjs malta4 --voice am_fenrir --out malta4_v5`. Sources for every board string: `sources_v5.md`.
 
@@ -61,6 +61,21 @@ PROVISIONAL ANSWER band at the bottom.
 - The film opened on 0.3 s of map before the first shot, then a few frames of the woman's shirt (the source cut is at about 12.45 s). The first shot now covers the lead-in and starts at 12.52 s.
 - When the board cut in from footage, it showed empty for 0.15–0.3 s before the card popped in (2:06, 2:40, 3:30, 3:39, 4:53, 6:27). On a cut-in, a card due in the first half second is already landing on the first frame. Same for objects dropped on the table (2:22).
 - QA's flash check also lists motion inside a shot (candle flicker, boats, fire); each candidate was checked by eye on a frame sheet.
+
+## Second round of owner notes (pacing, sound), applied in the final v5 render
+| Note | Fix |
+|---|---|
+| "You switch too quickly between map and images… keep a shot 4 to 5 seconds… revert to the speed of the first video" (malta3_v3, but without its long map holds) | 203 shots → 115, average 4.9 s; most shots 4–7 s, map/table shots 6 s or less. Each line keeps its strongest picture (`keep: [...]` in episode.mjs); short lines continue the previous shot. |
+| Board steps too fast (2:30) | One board shot per piece of evidence: close on the card (highlight), hold, then a glide wide as the labelled string draws and the finding is pinned (`from`, `glideAt`, `add2`). |
+| Document: "4 hard cuts on document zooms, it should just zoom in once and then show the sentence; the highlight should go sideways" | p7 one slow push; m1 ONE zoom from the page into the first line; m2–m3 a 10 s reading hold while the highlight runs left to right along the line, tilted to the handwriting's slope (−1.1°); m4 a slow push to ġirieni; m5 one pull back to the page. |
+| "Background sound of book flipping / scratching by error in all the video, delete it" | The table/board/desk beds (page and pencil recordings) are removed, with the pencil sound on rewrites and the paper sound on prints. Only Foley tied to a visible event stays: the page turn in the opening shot, card pins, the coin. |
+| "The coin sound is delayed" | Objects now fall with gravity and hit the table at 0.42 s; the coin sound is placed on the hit (the clip's impact is 0.11 s in). |
+| "First scene is a map at 0:00, start with the video directly" | The first shot covers the lead-in; the opening page turn plays slowly (0.45×) as one 4.6 s shot. |
+| "0:38: he jumps quickly… should mark a stop" | "Start with the clue." is its own line with a 0.9 s pause, the camera held on the clue card. |
+| "The highlight is not high enough on K·T·B" | Highlighter band raised and taller (60 % of the line height). |
+| 8:24: the proverb card overwrote the Arabic-roots cards | The proverb card now ends with its own line. |
+
+QA of the final render: −16.23 LUFS, phone speaker 91 %, no flashes (the 9 one-frame candidates are double detections of a single cut, checked by eye), longest shot 10.3 s (the reading hold on the first line of the poem).
 
 ## Could not do
 - No specific counterevidence to the empty-island claim met the bar: the archaeology claim on Wikipedia (Blouet 2007 p. 41) carries a "verify source" tag. The board challenges the claim on its sourcing instead and says the gap is uncertain.
