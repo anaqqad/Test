@@ -58,6 +58,7 @@ Valletta harbour: TerryDOtt, CC BY 4.0
 EU and Malta flags: Masterdeis, CC BY-SA 4.0
 Kantilena, 1597 map, St Elmo, Roger I painting, harbour c. 1890: public domain
 
+Licences: https://creativecommons.org/licenses/by-sa/4.0/ , https://creativecommons.org/licenses/by-sa/3.0/ , https://creativecommons.org/licenses/by/4.0/ , https://creativecommons.org/licenses/by/3.0/
 Narration: AI voice (Kokoro). Script, maps and research by LingoDude. Map data: Natural Earth.
 
 Sources: Brincat on Maltese; Malaterra (c. 1100); Wettinger on medieval Malta; the Abbate report (c. 1241); Il-Kantilena, copied 1533-1536; Hull (2015) on surnames; De Angelis (2018); Taylor (2003); Caracausi (1983); Grech (1961); NSO Malta, Census 2021; Čéplö et al. (2016).
