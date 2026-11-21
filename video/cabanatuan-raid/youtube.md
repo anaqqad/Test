@@ -1,5 +1,8 @@
 # YouTube upload: WWII Frontlines
 
+**Published 21 Nov 2026, public: https://youtu.be/lV0NgfQNU_M** (30:17; checks "No issues found" before publishing;
+English SRT published as manual captions; end screen = Homma episode + subscribe, last 20 s).
+
 ## Title
 ```
 The True Story of the Raid at Cabanatuan — the 121 Rangers Who Freed the Survivors of Bataan

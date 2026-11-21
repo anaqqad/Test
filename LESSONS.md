@@ -34,6 +34,7 @@ learn from former generations to excel at each new one".) Method: skill `wwii-fr
 | 23 | 19 Nov | 28:42 | 89 | 2 d | The True Story of the Navajo Code — the Prisoner Japan Tortured to Break It | kieyoomia-code |
 | 24 | 20 Nov | 30:01 | 23 | 1 d | The True Story of the Los Baños Raid — the 2,147 Prisoners Japan Was Starving | losbanos-raid |
 | 25 | 20 Nov | 28:01 | 30 | 15 h | Homma Expected MacArthur's Revenge. Then the Bataan Survivors Took the Stand. | homma-trial |
+| 26 | 21 Nov | 30:17 | – | new | The True Story of the Raid at Cabanatuan — the 121 Rangers Who Freed the Survivors of Bataan ([link](https://youtu.be/lV0NgfQNU_M)) | cabanatuan-raid |
 
 What the numbers say so far (re-check as the 30-min episodes age; views at 1–2 days mean little):
 - The two hits are contrasts about **enemy POWs inside America**, with an expectation the country upended: "were told to
@@ -66,6 +67,12 @@ What the numbers say so far (re-check as the 30-min episodes age; views at 1–2
   slates and flashes. Studio: thumbnail only stuck via synthetic drag-and-drop; captions stayed a draft until published.
   Mistake: clicked "Publish anyway" before YouTube's checks finished — wait next time. Owner feedback: quote cards too
   small and off-centre → now 76 px, dead centre.
+- **Cabanatuan (26):** four original voices (Leyte prisoner twice, Cpl. Hay, Sgt. Goldie), the first in minute 1; 8 time
+  segments. Disk dips (page file + other renders) froze one card render and **truncated** a webm that still opened
+  (3.2 s of 7.8 s): compare every overlay's duration with end − start before assembling. `tools/plan.py` is built from
+  `build/plan_*.py` — editing plan_body.py alone changes nothing. `make_music.py` ran out of memory at 1,828 s: make 960 s
+  and loop it with ffmpeg. Card text "At 1945" read as a year → "At 1945 [7:45 p.m.]". Studio: the upload dialog's
+  thumbnail input worked this time; end screen = "1 video, 1 subscribe" template → Choose specific video.
 
 ## Ideas to test next (pick one per episode, write the result here)
 - Bring the hit shape into the 30-min format: an enemy-POW-in-America contrast story told long (e.g. the "Texas farmer
