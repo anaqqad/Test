@@ -107,6 +107,7 @@ for (const r of T) {
   list.forEach((x, k) => { const d = x.d ?? (D - fixed) * (x.w ?? 1) / wsum; const sh = { ...x, kind: shotKind(x), line: r.id, t0: tt, t1: k === list.length - 1 ? r.t1 : tt + d }; tt = sh.t1; SHOTS.push(sh); });
 }
 if (SHOTS.length) SHOTS[SHOTS.length - 1].t1 = Math.max(SHOTS[SHOTS.length - 1].t1, TOTAL);
+if (SHOTS.length) SHOTS[0].t0 = 0; // the first shot covers the lead-in (v5: the map showed for 0.3 s before it)
 {
   const rows = SHOTS.map((x, i) => ({ n: i + 1, t0: +x.t0.toFixed(2), t1: +x.t1.toFixed(2), d: +(x.t1 - x.t0).toFixed(2), kind: x.kind, line: x.line, what: x.what || String(x[x.kind] && typeof x[x.kind] !== "object" ? x[x.kind] : x.kind) }));
   fs.writeFileSync(path.join(CACHE, `shots_${TAG}.json`), JSON.stringify(rows, null, 0).replace(/},{/g, "},\n{"));
@@ -304,7 +305,9 @@ if (EP.table) {
     km100: pxDeg * 100 / (111.32 * Math.cos(36.5 * Math.PI / 180)), objs,
     arrows: (tb.arrows || []).map((ar) => { const [x0, y0] = at(ar.from), [x1, y1] = at(ar.to); const mx = (x0 + x1) / 2, my = (y0 + y1) / 2, dx = x1 - x0, dy = y1 - y0; const bend = ar.dash ? 0 : 0.15; return { ...ar, d: `M${r1(x0)},${r1(y0)} Q${r1(mx - dy * bend)},${r1(my + dx * bend)} ${r1(x1)},${r1(y1)}`, lx: mx + (ar.ldx || 0), ly: my + (ar.ldy || 0), t: byId(ar.at).t0 + (ar.off ?? 0.5) }; }),
     title: tb.title ? { ...tb.title, xy: at(tb.title.at), t0: byId(tb.title.from).t0 + (tb.title.off ?? 0), t1: byId(tb.title.to).t1 } : null };
-  for (const x of SHOTS) (x.place || []).forEach((id, k) => { const ob = objs.find((q) => q.id === id); if (!ob) throw new Error("no table object " + id); if (ob.t > 1e8) ob.t = x.t0 + (x.placeAt ?? 0.45) + k * 0.6; });
+  SHOTS.forEach((x, i) => (x.place || []).forEach((id, k) => { const ob = objs.find((q) => q.id === id); if (!ob) throw new Error("no table object " + id);
+    const cutIn = true, at = (x.placeAt ?? 0.45) + k * 0.6; // every table shot starts on a cut: an object due in the first 0.5 s is already falling on the first frame
+    if (ob.t > 1e8) ob.t = cutIn && at < 0.5 ? x.t0 - 0.05 : x.t0 + at; }));
   const camOf = (c) => { const [x, y] = at(c.at); return { tilt: c.tilt ?? 0, rz: c.rz ?? 0, zoom: c.zoom ?? 0.6, x: x - SW / 2 + (c.dx || 0), y: y - SH / 2 + (c.dy || 0) }; };
   for (const o of OV) if (o.type === "table") { const sp = o.spec; o.c0 = camOf(sp.from || sp); o.c1 = camOf(sp.to || { ...(sp.from || sp), zoom: (sp.from || sp).zoom * 1.06 }); o.focus = sp.focus || null; }
 }
@@ -322,7 +325,8 @@ if (EP.board) {
   const LK = Object.fromEntries(Object.entries(bd.links || {}).map(([id, L]) => { const [a, b, label, style, opt] = Array.isArray(L) ? L : [L.a, L.b, L.label, L.style, L]; return [id, { id, a: card(a), b: card(b), label: label || "", style: style || LSTYLE[label] || "solid", ax: opt?.ax || 0, bx: opt?.bx || 0, route: opt?.route || null, at: opt?.at ?? 0.5, sag: opt?.sag ?? 130 }]; }));
   let bid = 0, prev = null;
   for (const x of SHOTS) if (x.kind === "board") {
-    (x.add || []).forEach((id, k) => { const c = BOARD.cards[card(id)]; if (c.t > 1e8) c.t = x.t0 + (x.addAt ?? 0.35) + k * 0.6; });
+    const cutIn = !(prev && Math.abs(prev.t1 - x.t0) < 0.06); // cutting in from another layer: a card due in the first 0.5 s is already landing on the cut (no empty board)
+    (x.add || []).forEach((id, k) => { const c = BOARD.cards[card(id)]; if (c.t > 1e8) c.t = cutIn && (x.addAt ?? 0.35) + k * 0.6 < 0.5 ? x.t0 - 0.1 : x.t0 + (x.addAt ?? 0.35) + k * 0.6; });
     (x.link || []).forEach((L, k) => { const t = x.t0 + (x.linkAt ?? 0.9) + k * 0.7;
       if (Array.isArray(L)) BOARD.links.push({ id: L.join("-"), a: card(L[0]), b: card(L[1]), label: L[2] || "", style: L[3] || LSTYLE[L[2]] || "solid", t });
       else { if (!LK[L]) throw new Error("no board link " + L); if (!BOARD.links.includes(LK[L])) BOARD.links.push(Object.assign(LK[L], { t })); } });

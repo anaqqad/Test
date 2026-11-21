@@ -57,5 +57,10 @@ PROVISIONAL ANSWER band at the bottom.
 - Fraunces draws the macron of ā on the next letter, so "kitāb" read as "kitab" (in v4 too). The page now draws the macron itself.
 - Head cards dim by fading the text (no dark box).
 
+## Found by "check everything" on the first v5 render, then fixed
+- The film opened on 0.3 s of map before the first shot, then a few frames of the woman's shirt (the source cut is at about 12.45 s). The first shot now covers the lead-in and starts at 12.52 s.
+- When the board cut in from footage, it showed empty for 0.15–0.3 s before the card popped in (2:06, 2:40, 3:30, 3:39, 4:53, 6:27). On a cut-in, a card due in the first half second is already landing on the first frame. Same for objects dropped on the table (2:22).
+- QA's flash check also lists motion inside a shot (candle flicker, boats, fire); each candidate was checked by eye on a frame sheet.
+
 ## Could not do
 - No specific counterevidence to the empty-island claim met the bar: the archaeology claim on Wikipedia (Blouet 2007 p. 41) carries a "verify source" tag. The board challenges the claim on its sourcing instead and says the gap is uncertain.

@@ -195,7 +195,7 @@ export default {
   lines: [
     // ───────── HOOK: two words over a physical action, then the reveal, Malta and the question by ~0:12 ─────────
     { id: "h1", lead: 0.35, hear: ["ktieb"], hearFirst: true, quietHear: true, dur: 2.2, gap: 0.05,
-      shots: [{ ...V("lind", 12.42, { rate: 0.85, s0: 1.45, s1: 1.5, focus: [0.62, 0.13], sfx: [{ s: "page", at: 0.1, gain: -2 }] }), what: "a hand turns a page (no face)", tag: STAND_BOOK }],
+      shots: [{ ...V("lind", 12.52, { rate: 0.85, s0: 1.45, s1: 1.5, focus: [0.62, 0.13], sfx: [{ s: "page", at: 0.1, gain: -2 }] }), what: "a hand turns a page (no face)", tag: STAND_BOOK }],
       show: [{ type: "words", until: "h2", top: 330, gap: 250, items: [{ hear: "ktieb", text: "ktieb" }, { hear: "kitab", text: "kitāb", script: "كِتاب" }] }] },
     { id: "h2", hear: ["kitab"], hearFirst: true, quietHear: true, dur: 2.1, gap: 0.05, hearPad: 0.15,
       shots: [{ ...V("lind", 14.6, { s0: 1.35, s1: 1.42, focus: [0.5, 0.15] }), what: "the decorated page", tag: STAND_BOOK }] },
@@ -471,7 +471,7 @@ export default {
         { ...DK("vassalli", { tilt: 30, rz: -2, zoom: 1.7, fx: 0.3, fy: 0.1 }, { tilt: 30, rz: -1.5, zoom: 1.75, fx: 0.32, fy: 0.1 }, { sweep: { box: [0.1, 0.06, 0.92, 0.14], q0: 0.1, q1: 0.85 } }), what: "highlight on KTŶB YL KLŶM" }] },
     { id: "r4", say: "Its first word is the one you heard at the start.", hear: ["ktieb"], gap: 0.6,
       shots: [{ ...DK("vassalli", { tilt: 40, rz: -6, zoom: 3.2, fx: 0.25, fy: 0.1 }, { tilt: 40, rz: -5, zoom: 3.4, fx: 0.25, fy: 0.1 }, { sweep: { box: [0.1, 0.06, 0.92, 0.14], full: true } }), what: "KTŶB, close" },
-        { ...V("lind", 12.5, { rate: 0.85, s0: 1.45, s1: 1.5, focus: [0.62, 0.13] }), tag: STAND_BOOK, over: [{ type: "pair", bottom: 300, zoom: 1.5, a: { lang: "MALTESE", word: "ktieb", gloss: "book" }, b: { lang: "ARABIC", word: "kitāb", script: "كِتاب", gloss: "book", hear: "kitab" } }], what: "the page again + the pair" }] },
+        { ...V("lind", 12.56, { rate: 0.85, s0: 1.45, s1: 1.5, focus: [0.62, 0.13] }), tag: STAND_BOOK, over: [{ type: "pair", bottom: 300, zoom: 1.5, a: { lang: "MALTESE", word: "ktieb", gloss: "book" }, b: { lang: "ARABIC", word: "kitāb", script: "كِتاب", gloss: "book", hear: "kitab" } }], what: "the page again + the pair" }] },
     { id: "r5", dur: 4.6, shots: [{ ...Ph("valletta", { from: 1.08, to: 1.0, focus: [0.5, 0.5] }), what: "Valletta from the water" }, { ...V("harbour", 12, { s0: 1.0, s1: 1.05 }), what: "harbour, fade out" }] },
   ],
 };
