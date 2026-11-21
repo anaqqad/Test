@@ -66,7 +66,7 @@ Sources: Brincat on Maltese; Malaterra (c. 1100); Wettinger on medieval Malta; t
 #Maltese #Malta #languages
 
 ## Tags
-Maltese language, Malta, Sicily, Sicily Arabic, why does Maltese sound like Arabic, Maltese and Arabic, Siculo-Arabic, history of Maltese, Semitic languages, Arabic in Europe, Kantilena, Knights of Malta, Language Question Malta, Maltese words, language map, linguistics, LingoDude
+Maltese language, Malta, Sicily, Sicily Arabic, why does Maltese sound like Arabic, Maltese and Arabic, Siculo-Arabic, history of Maltese, Maltese history, Norman Sicily, Semitic languages, Arabic in Europe, is Maltese Phoenician, Maltese surnames, Kantilena, Knights of Malta, Language Question Malta, Maltese words, language map, linguistics, LingoDude
 
 ## Settings
 - Category: Education
