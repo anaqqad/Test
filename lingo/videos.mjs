@@ -630,13 +630,13 @@ export const VIDEOS = {
         audio: { file: "cache/audio/portuguese_understand/spanish.wav", start: 0, voice: "f" },
       },
       {
-        name: "Papiamento", wojak: "pt_pap_f", flag: "aw", speakers: "~340,000", scene: "beach", loc: null,
+        name: "Papiamento", wojak: "pt_pap", flag: "aw", speakers: "~340,000", scene: "beach", loc: null,
         cards: [
           "Papiamento is spoken on Aruba, Curaçao and Bonaire, in the Caribbean. Its name comes from 'papia', to talk.",
           "Many of its words come from Portuguese and Spanish, with Dutch too. 'Bon dia' is 'bom dia', and 'riba' (on) comes from 'arriba'.",
-          "She said: 'Welcome to the first video of the Wikipedia Riba Aruba channel. This channel is a space to learn how to use Wikipedia, contribute to Wikimedia and take part in the Wikipedia Riba Aruba project: a movement to make knowledge about our islands more visible and accessible.'",
+          "He said: 'Welcome to the first video of the Wikipedia Riba Aruba channel. This channel is a space to learn how to use Wikipedia, contribute to Wikimedia and take part in the Wikipedia Riba Aruba project: a movement to make knowledge about our islands more visible and accessible.'",
         ],
-        audio: { file: "cache/audio/portuguese_understand/papiamento.wav", start: 0, voice: "f" },
+        audio: { file: "cache/audio/portuguese_understand/papiamento.wav", start: 0, voice: "m" },
       },
       {
         name: "Galician", wojak: "es_glg", flag: "es-ga", speakers: "~2.4 million", scene: "hills", loc: null,
