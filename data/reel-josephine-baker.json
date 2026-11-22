@@ -1,0 +1,758 @@
+{
+ "id": "reel-josephine-baker",
+ "title": "She Spied on the Nazis. New York Refused to Serve Her.",
+ "format": "reel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 2
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Follow The Black History Room for more.",
+  "theme": "bhr"
+ },
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "St. Louis": "Saint Lewis",
+  "Folies Bergère": "Folly Bair-zhair",
+  "Panthéon": "Pahn-tay-ohn"
+ },
+ "assets": {
+  "npg1926": {
+   "commons": "File:Josephine Baker by Stanislaus Julian Walery, 1926, gelatin silver print, from the National Portrait Gallery - NPG-NPG 95 105Baker-000001.jpg"
+  },
+  "walery30": {
+   "commons": "File:A portrait of Josephine Baker.jpg"
+  },
+  "manuel": {
+   "commons": "File:Joséphine Baker - photo Henri Manuel.jpg"
+  },
+  "poster30": {
+   "commons": "File:Louis Gaudin - Casino de Paris - Josephine Baker 1930.jpg"
+  },
+  "alger44": {
+   "commons": "File:JBaker Alger 1944.jpg"
+  },
+  "troops43": {
+   "commons": "File:\"Miss Josephine Baker, popular stage performer, sings the National Anthem as the finale to the show held in the Municipa - NARA - 531160.jpg"
+  },
+  "vv49": {
+   "commons": "File:Portrait of Josephine Baker, Paris LCCN2004662545.jpg"
+  },
+  "vv51": {
+   "commons": "File:Portrait of Josephine Baker LCCN2004662546.jpg"
+  },
+  "vv44": {
+   "commons": "File:Portrait of Josephine Baker LCCN2004662544.jpg"
+  },
+  "moise": {
+   "commons": "File:Josephine Baker in Kasteel Les Milandes J B met zoonje Moise, Bestanddeelnr 912-6517.jpg"
+  },
+  "tribe64": {
+   "commons": "File:JosephineBaker1964NL.jpg"
+  },
+  "rotterdam59": {
+   "commons": "File:Josephine Baker met haar 10 kinderen bezoekt Rotterdam, Bestanddeelnr 910-5757.jpg"
+  },
+  "milandes61": {
+   "commons": "File:Josephine Baker in Kasteel Les Milandes Groepskiek in tuin, Bestanddeelnr 912-6516.jpg"
+  },
+  "garden61": {
+   "commons": "File:Afhalen van Josephine Baker in Frankrijk Josephine in haar tuin Les Milandes, Bestanddeelnr 912-6479.jpg"
+  }
+ },
+ "clips": {
+  "walk": {
+   "file": "onsland.webm",
+   "commons": "File:Josephine Baker in ons land.webm",
+   "start": 2,
+   "dur": 6
+  },
+  "med": {
+   "file": "onsland.webm",
+   "commons": "File:Josephine Baker in ons land.webm",
+   "start": 20,
+   "dur": 4
+  },
+  "talk1": {
+   "file": "onsland.webm",
+   "commons": "File:Josephine Baker in ons land.webm",
+   "start": 25,
+   "dur": 6
+  },
+  "talk2": {
+   "file": "onsland.webm",
+   "commons": "File:Josephine Baker in ons land.webm",
+   "start": 31,
+   "dur": 4
+  },
+  "close": {
+   "file": "onsland.webm",
+   "commons": "File:Josephine Baker in ons land.webm",
+   "start": 37.5,
+   "dur": 2.5
+  },
+  "dance_coat": {
+   "file": "pompier.webm",
+   "commons": "File:Le Pompier des Folies Bergère (1928).webm",
+   "start": 173.9,
+   "dur": 1.6,
+   "speed": 0.6
+  },
+  "dance": {
+   "file": "pompier.webm",
+   "commons": "File:Le Pompier des Folies Bergère (1928).webm",
+   "start": 180.8,
+   "dur": 4.0
+  }
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "text": "She spied on the Nazis for France, with secrets hidden in her sheet music. Then a New York nightclub refused to serve her.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv49",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.36
+    ]
+   },
+   "section": "hook",
+   "overlays": {
+    "hook": "She spied on the Nazis for France. *Then New York refused to serve her.*"
+   },
+   "captions": false,
+   "speed": 1.3
+  },
+  {
+   "id": "name",
+   "text": "Her name was Josephine Baker. This is her on film, in 1932.",
+   "visual": {
+    "kind": "video",
+    "clip": "talk1",
+    "focus": [
+     0.5,
+     0.2
+    ],
+    "zoom": [
+     1.25,
+     1.32
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   },
+   "section": "who"
+  },
+  {
+   "id": "born",
+   "text": "She was born Freda Josephine McDonald, in St. Louis, Missouri, in 1906. As a child, she cleaned houses for white families.",
+   "visual": {
+    "kind": "photo",
+    "image": "manuel",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   },
+   "overlays": {
+    "pin": {
+     "label": "St. Louis, Missouri"
+    }
+   },
+   "section": "story"
+  },
+  {
+   "id": "riot",
+   "text": "In 1917, at eleven years old, she watched East St. Louis burn, as white mobs attacked Black families.",
+   "visual": {
+    "kind": "title",
+    "title": "1917",
+    "sub": "East St. Louis"
+   }
+  },
+  {
+   "id": "married",
+   "text": "She was married at thirteen. By fifteen she had married again, and she kept her husband's name: Baker.",
+   "visual": {
+    "kind": "photo",
+    "image": "walery30",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.32
+    ]
+   }
+  },
+  {
+   "id": "shuffle",
+   "text": "She tried out for Shuffle Along, a hit Black musical on Broadway. Producers turned her down, reportedly as too young, too skinny and too dark. She got in as a dresser, and danced her way into the chorus.",
+   "visual": {
+    "kind": "photo",
+    "image": "npg1926",
+    "focus": [
+     0.5,
+     0.42
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "anchor": [
+     0.5,
+     0.45
+    ]
+   },
+   "section": "break"
+  },
+  {
+   "id": "paris",
+   "text": "In 1925, at nineteen, she sailed for Paris. On October 2nd she opened in a new all-Black revue, and Paris went wild.",
+   "visual": {
+    "kind": "card",
+    "image": "poster30",
+    "caption": "Casino de Paris poster, 1930"
+   },
+   "overlays": {
+    "stamp": "1925"
+   },
+   "section": "paris"
+  },
+  {
+   "id": "folies",
+   "text": "In 1926 she danced at the Folies Bergère, in a skirt made of bananas.",
+   "visual": {
+    "kind": "video",
+    "clip": "dance_coat",
+    "focus": [
+     0.36,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "anchor": [
+     0.5,
+     0.36
+    ]
+   }
+  },
+  {
+   "id": "dance",
+   "text": "Ernest Hemingway called her the most sensational woman anyone ever saw.",
+   "visual": {
+    "kind": "video",
+    "clip": "dance",
+    "focus": [
+     0.36,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.36
+    ]
+   }
+  },
+  {
+   "id": "star",
+   "text": "She became the most successful American entertainer in France. In 1937 she became a French citizen.",
+   "visual": {
+    "kind": "video",
+    "clip": "walk",
+    "focus": [
+     0.58,
+     0.35
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   },
+   "overlays": {
+    "stamp": "1937"
+   }
+  },
+  {
+   "id": "war",
+   "text": "Then, in 1939, war came. French military intelligence recruited her as a spy.",
+   "visual": {
+    "kind": "video",
+    "clip": "med",
+    "focus": [
+     0.65,
+     0.3
+    ],
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "anchor": [
+     0.5,
+     0.38
+    ]
+   },
+   "overlays": {
+    "stamp": "1939"
+   },
+   "section": "war"
+  },
+  {
+   "id": "ink",
+   "text": "She wrote secret notes in invisible ink on her sheet music. Others she pinned inside her underwear.",
+   "visual": {
+    "kind": "video",
+    "clip": "talk2",
+    "focus": [
+     0.5,
+     0.2
+    ],
+    "zoom": [
+     1.25,
+     1.32
+    ],
+    "anchor": [
+     0.5,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "uniform",
+   "text": "She joined the Free French Air Force as an officer, and sang for Allied troops in North Africa.",
+   "visual": {
+    "kind": "card",
+    "image": "alger44",
+    "caption": "Algiers, 1944: Josephine Baker in uniform"
+   }
+  },
+  {
+   "id": "medals",
+   "text": "France later gave her the Resistance Medal, the War Cross, and the Legion of Honour.",
+   "visual": {
+    "kind": "card",
+    "image": "troops43",
+    "caption": "Singing for the troops, 1943"
+   }
+  },
+  {
+   "id": "stork",
+   "text": "But at home, it was different. In 1951, at New York's Stork Club, she said the staff refused to serve her. Protesters picketed the club.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv51",
+    "focus": [
+     0.5,
+     0.28
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   },
+   "overlays": {
+    "stamp": "1951"
+   },
+   "section": "insult"
+  },
+  {
+   "id": "miami",
+   "text": "That same year in Miami Beach, she refused to perform unless Black and white fans could sit together. The club gave in.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv44",
+    "focus": [
+     0.5,
+     0.28
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ],
+    "anchor": [
+     0.5,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "march",
+   "text": "In 1963, at the March on Washington, she stood at the microphone in her French uniform and medals. She was the only woman on the official speaker list.",
+   "visual": {
+    "kind": "title",
+    "title": "1963",
+    "sub": "March on Washington"
+   },
+   "section": "march"
+  },
+  {
+   "id": "coretta",
+   "text": "After Martin Luther King was killed, Coretta Scott King reportedly asked her to lead the movement. She said no. Her children were too young to lose their mother.",
+   "visual": {
+    "kind": "card",
+    "image": "rotterdam59",
+    "caption": "With her children, Rotterdam, 1959"
+   }
+  },
+  {
+   "id": "tribe",
+   "text": "She had adopted twelve children. She called them her Rainbow Tribe, and raised them in a castle in France.",
+   "visual": {
+    "kind": "card",
+    "image": "tribe64",
+    "caption": "The Rainbow Tribe, Amsterdam, 1964"
+   },
+   "section": "fall"
+  },
+  {
+   "id": "evicted",
+   "text": "But she went broke. In 1969 she was thrown out of her own castle.",
+   "visual": {
+    "kind": "card",
+    "image": "milandes61",
+    "caption": "Les Milandes, 1961"
+   }
+  },
+  {
+   "id": "bobino",
+   "text": "In 1975, with help from Princess Grace of Monaco, she opened a comeback show in Paris. Four days later, she died.",
+   "visual": {
+    "kind": "card",
+    "image": "garden61",
+    "caption": "In her garden at Les Milandes, 1961"
+   },
+   "section": "end"
+  },
+  {
+   "id": "funeral",
+   "text": "More than twenty thousand people came to her funeral, and France gave her full military honors.",
+   "visual": {
+    "kind": "card",
+    "image": "moise",
+    "caption": "With her son at Les Milandes, 1961"
+   }
+  },
+  {
+   "id": "pantheon",
+   "text": "In 2021, France placed her in the Panthéon, the first Black woman ever honored there.",
+   "visual": {
+    "kind": "title",
+    "title": "2021",
+    "sub": "The Panthéon, Paris"
+   },
+   "section": "legacy"
+  },
+  {
+   "id": "close",
+   "text": "That was Josephine Baker.",
+   "visual": {
+    "kind": "photo",
+    "image": "vv49",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.12,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.36
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "text": "Follow The Black History Room for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "section": "cta",
+   "captions": false
+  }
+ ],
+ "sources": {
+  "WP": {
+   "url": "https://en.wikipedia.org/wiki/Josephine_Baker"
+  },
+  "NPS": {
+   "url": "https://www.nps.gov/mamc/learn/historyculture/josephine-baker.htm"
+  },
+  "NWHM": {
+   "url": "https://www.womenshistory.org/education-resources/biographies/josephine-baker"
+  },
+  "MINDEF": {
+   "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/personnalites/personnalites-lettre-lettre/josephine-baker"
+  },
+  "NARA": {
+   "url": "https://rediscovering-black-history.blogs.archives.gov/2021/12/02/josephine-baker-pantheon"
+  },
+  "WW2M": {
+   "url": "https://www.nationalww2museum.org/war/articles/siren-resistance-artistry-and-espionage-josephine-baker"
+  },
+  "BRIT": {
+   "url": "https://kids.britannica.com/students/article/Josephine-Baker/312995"
+  },
+  "NPR": {
+   "url": "https://www.npr.org/2021/05/23/998962830/shuffle-along-changed-musical-theater-100-years-ago"
+  },
+  "NYPL": {
+   "url": "https://www.nypl.org/blog/2018/08/07/joy-out-fire-josephine-baker"
+  },
+  "LOC": {
+   "url": "https://blogs.loc.gov/loc/2025/03/josephine-baker-at-the-stork-club-a-night-gone-wrong/"
+  },
+  "WLRN": {
+   "url": "https://www.wlrn.org/news/2021-11-23/tribute-to-josephine-baker-coming-to-miami-beach-70-years-after-her-stand-for-civil-rights"
+  },
+  "NBC": {
+   "url": "https://www.nbcnews.com/news/nbcblk/josephine-baker-becomes-first-black-woman-honored-paris-panthe-rcna6343"
+  },
+  "LACROIX": {
+   "url": "https://www.milandes.com/wp-content/uploads/2021/11/dossier-la-croix-lhebdo-1.pdf"
+  },
+  "FILM1": {
+   "url": "https://commons.wikimedia.org/wiki/File:Josephine_Baker_in_ons_land.webm"
+  },
+  "FILM2": {
+   "url": "https://commons.wikimedia.org/wiki/File:Le_Pompier_des_Folies_Berg%C3%A8re_(1928).webm"
+  }
+ },
+ "facts": [
+  {
+   "beat": "hook",
+   "sources": [
+    "MINDEF",
+    "WW2M",
+    "WP",
+    "LOC"
+   ]
+  },
+  {
+   "beat": "name",
+   "sources": [
+    "FILM1"
+   ]
+  },
+  {
+   "beat": "born",
+   "sources": [
+    "WP",
+    "NPS",
+    "NWHM",
+    "MINDEF"
+   ],
+   "note": "Age she started working differs (8 vs 12): no age said."
+  },
+  {
+   "beat": "riot",
+   "sources": [
+    "WP",
+    "BRIT"
+   ]
+  },
+  {
+   "beat": "married",
+   "sources": [
+    "WP",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "shuffle",
+   "sources": [
+    "WP",
+    "NPR",
+    "NYPL"
+   ],
+   "note": "Reasons for rejection are a repeated story: 'reportedly'."
+  },
+  {
+   "beat": "paris",
+   "sources": [
+    "WP",
+    "MINDEF"
+   ]
+  },
+  {
+   "beat": "folies",
+   "sources": [
+    "WP",
+    "MINDEF"
+   ],
+   "note": "Revue name disputed (La Folie du jour 1926 / Un vent de folie 1927): not said."
+  },
+  {
+   "beat": "dance",
+   "sources": [
+    "WP",
+    "FILM2"
+   ]
+  },
+  {
+   "beat": "star",
+   "sources": [
+    "WP",
+    "MINDEF"
+   ],
+   "note": "NPS gives 1936 for citizenship; WP and MinDef give 1937."
+  },
+  {
+   "beat": "war",
+   "sources": [
+    "WP",
+    "WW2M",
+    "MINDEF"
+   ]
+  },
+  {
+   "beat": "ink",
+   "sources": [
+    "MINDEF",
+    "WW2M",
+    "WP"
+   ],
+   "note": "Underwear (WP, HNN), not bra (weak sources)."
+  },
+  {
+   "beat": "uniform",
+   "sources": [
+    "MINDEF",
+    "WP"
+   ],
+   "note": "Enlistment date disputed (1943 vs 1944): not said."
+  },
+  {
+   "beat": "medals",
+   "sources": [
+    "MINDEF",
+    "WP"
+   ],
+   "note": "Resistance Medal 1946; Legion of Honour and Croix de Guerre 1961: no years said."
+  },
+  {
+   "beat": "stork",
+   "sources": [
+    "WP",
+    "LOC"
+   ],
+   "note": "Grace Kelly walk-out only in listicles: dropped."
+  },
+  {
+   "beat": "miami",
+   "sources": [
+    "WP",
+    "WLRN",
+    "NWHM"
+   ]
+  },
+  {
+   "beat": "march",
+   "sources": [
+    "WP",
+    "NARA"
+   ]
+  },
+  {
+   "beat": "coretta",
+   "sources": [
+    "WP",
+    "NPS"
+   ],
+   "note": "Secondhand (Jo Bouillon's memoir): 'reportedly'."
+  },
+  {
+   "beat": "tribe",
+   "sources": [
+    "WP",
+    "NWHM"
+   ],
+   "note": "NWHM counts 13."
+  },
+  {
+   "beat": "evicted",
+   "sources": [
+    "WP",
+    "LACROIX"
+   ],
+   "note": "WP: lost in 1968; physical eviction March 1969."
+  },
+  {
+   "beat": "bobino",
+   "sources": [
+    "WP",
+    "MINDEF",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "funeral",
+   "sources": [
+    "WP",
+    "NPS"
+   ]
+  },
+  {
+   "beat": "pantheon",
+   "sources": [
+    "WP",
+    "NARA",
+    "NBC",
+    "MINDEF"
+   ]
+  }
+ ]
+}

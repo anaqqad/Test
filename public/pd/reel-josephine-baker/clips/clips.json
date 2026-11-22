@@ -1,0 +1,72 @@
+{
+ "walk": {
+  "width": 768,
+  "height": 576,
+  "seconds": 6.0,
+  "title": "File:Josephine Baker in ons land.webm",
+  "start": 2,
+  "dur": 6,
+  "source": "https://commons.wikimedia.org/wiki/File%3AJosephine_Baker_in_ons_land.webm",
+  "license": "Public domain"
+ },
+ "med": {
+  "width": 768,
+  "height": 576,
+  "seconds": 4.0,
+  "title": "File:Josephine Baker in ons land.webm",
+  "start": 20,
+  "dur": 4,
+  "source": "https://commons.wikimedia.org/wiki/File%3AJosephine_Baker_in_ons_land.webm",
+  "license": "Public domain"
+ },
+ "talk1": {
+  "width": 768,
+  "height": 576,
+  "seconds": 6.0,
+  "title": "File:Josephine Baker in ons land.webm",
+  "start": 25,
+  "dur": 6,
+  "source": "https://commons.wikimedia.org/wiki/File%3AJosephine_Baker_in_ons_land.webm",
+  "license": "Public domain"
+ },
+ "talk2": {
+  "width": 768,
+  "height": 576,
+  "seconds": 4.0,
+  "title": "File:Josephine Baker in ons land.webm",
+  "start": 31,
+  "dur": 4,
+  "source": "https://commons.wikimedia.org/wiki/File%3AJosephine_Baker_in_ons_land.webm",
+  "license": "Public domain"
+ },
+ "close": {
+  "width": 768,
+  "height": 576,
+  "seconds": 2.5,
+  "title": "File:Josephine Baker in ons land.webm",
+  "start": 37.5,
+  "dur": 2.5,
+  "source": "https://commons.wikimedia.org/wiki/File%3AJosephine_Baker_in_ons_land.webm",
+  "license": "Public domain"
+ },
+ "dance_coat": {
+  "width": 1920,
+  "height": 1080,
+  "seconds": 2.667,
+  "title": "File:Le Pompier des Folies Bergère (1928).webm",
+  "start": 173.9,
+  "dur": 1.6,
+  "source": "https://commons.wikimedia.org/wiki/File%3ALe_Pompier_des_Folies_Berg%C3%A8re_%281928%29.webm",
+  "license": "Public domain"
+ },
+ "dance": {
+  "width": 1920,
+  "height": 1080,
+  "seconds": 4.033,
+  "title": "File:Le Pompier des Folies Bergère (1928).webm",
+  "start": 180.8,
+  "dur": 4.0,
+  "source": "https://commons.wikimedia.org/wiki/File%3ALe_Pompier_des_Folies_Berg%C3%A8re_%281928%29.webm",
+  "license": "Public domain"
+ }
+}
