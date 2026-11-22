@@ -7,6 +7,7 @@ Link post (after the long video is up): "Watch the full video about Bert William
 ## Published
 
 - Facebook photo post on The Black History Room (2026-11-21).
+- Facebook link post to the long video (2026-11-22).
 
 ## Post text
 

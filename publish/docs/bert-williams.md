@@ -9,6 +9,7 @@ Footage: A Natural Born Gambler (Biograph, 1916), public domain on Wikimedia Com
 
 - YouTube (2026-11-21, Public, 4K, 8:05): https://youtu.be/U4i3ZXiqK-A
 - End screen: 1 video + subscribe (saved).
+- Facebook link post on The Black History Room (2026-11-22).
 - Short GXHYkHNLfQE: Related video set to this video, first description line "Watch the full video: https://youtu.be/U4i3ZXiqK-A".
 
 ## Title
