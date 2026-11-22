@@ -22,7 +22,13 @@ Code lives in `lingo/` (repo anaqqad/Test). Commit and push every finished step 
   - Whisper language ID in windows (avoid English intros);
   - listen for music-only intros (skip to where the voice starts);
   - the clip must be speech, not instruments (e.g. Solresol must be spoken).
+- **Let the recording run (owner, 2026-11-22).** In "can you understand" and listen-style videos, the first seconds
+  often sound like any ordinary language (a greeting, a name, a place). Keep each clip playing for about 30–40 s where the
+  source allows (the Portuguese video used 13–22 s, too short), and pick the stretch with the most characteristic speech,
+  not only the self-introduction.
 - Run `python3 analyze_audio.py <key>` to get the voice gender. **The Wojak or avatar gender must match the voice.**
+  Pitch alone is not enough between about 160 and 210 Hz: a high male voice read as female in the Portuguese video
+  (Papiamento, 198 Hz, the speaker is Ricardo). Confirm the speaker from the transcript, the video or the file page first.
 - Credit every recording (title, author, licence, link) in `out/<key>_credits.txt`, which goes into the description. Credit subscribers who send voices by name.
 
 ## 3. Finding recordings

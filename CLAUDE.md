@@ -52,6 +52,7 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
   and in the description. Tick YouTube's altered/synthetic content box for it.
 - Exception (owner, 2026-10-30): the whistled-language song series (`lingo/song/`) may use a computer-made beat; the whistles stay real recordings (tuned/cut). Say so in the description.
 - Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).
+- Let each recording play longer (owner, 2026-11-22): about 30–40 s per language where the source allows, not 13–22 s. The first seconds often sound like an ordinary language; viewers need time to hear it. Check the speaker's gender from the transcript or video, not pitch alone (a 198 Hz male voice was misread in the Portuguese video).
 - Map-tour videos: `lingo/maptour.mjs` + `lingo/maptour_episodes.mjs` (done: `official`, Countries With the Most Official Languages).
   Saved idea the owner liked, **option 2**: `lingo/ideas/same_language_different_countries.md` (the original country says it first, then each other country's version, then the next language).
 - Thumbnails (`thumb_photo.mjs`): always the channel look: white name strip, photo, Wojak, flag, PART label for series, and the hook in **red** text with a white outline (owner: "keep it"). Never another hook colour.
