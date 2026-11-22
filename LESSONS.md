@@ -35,6 +35,7 @@ learn from former generations to excel at each new one".) Method: skill `wwii-fr
 | 24 | 20 Nov | 30:01 | 23 | 1 d | The True Story of the Los Baños Raid — the 2,147 Prisoners Japan Was Starving | losbanos-raid |
 | 25 | 20 Nov | 28:01 | 30 | 15 h | Homma Expected MacArthur's Revenge. Then the Bataan Survivors Took the Stand. | homma-trial |
 | 26 | 21 Nov | 30:17 | – | new | The True Story of the Raid at Cabanatuan — the 121 Rangers Who Freed the Survivors of Bataan ([link](https://youtu.be/lV0NgfQNU_M)) | cabanatuan-raid |
+| 27 | 22 Nov | 33:11 | – | new | Navy File Shows What George H.W. Bush Really Did in WW2 ([link](https://youtu.be/8oOy8vqR4Lg)) | bush-chichijima |
 
 What the numbers say so far (re-check as the 30-min episodes age; views at 1–2 days mean little):
 - The two hits are contrasts about **enemy POWs inside America**, with an expectation the country upended: "were told to
@@ -74,8 +75,21 @@ What the numbers say so far (re-check as the 30-min episodes age; views at 1–2
   and loop it with ffmpeg. Card text "At 1945" read as a year → "At 1945 [7:45 p.m.]". Studio: the upload dialog's
   thumbnail input worked this time; end screen = "1 video, 1 subscribe" template → Choose specific video.
 
+- **Bush / Chichi Jima (27):** first famous-name episode (Nobody To Legend's "<Branch> File Shows What <name> Really Did"
+  title, Restricted Files devices on our blueprint: three-claim myth loop paid off by a `Verdict` stamp card, FROM THE FILE /
+  AS HE TOLD IT / Stand-in tag prefixes, `thumb_declassified.py` thumbnail). Bush's own voice five times, the first at 1:57.
+  Wikimedia originals answer 429 to curl: serve a localhost receiver, open it in the built-in browser, `fetch` the Commons
+  file in the page and POST it back. Microfilm scans the OCR can't read: `tools/line_bands.py` measures the typed lines.
+  Plan anchors must avoid words the TTS respells (PRON names, years): they never match `words.json`. A QuoteCard whose
+  attribution phrase is the same as its line crashes Remotion (`inputRange [28,24]`): put `byAt` on a later phrase.
+  Tags that overlap any card are dropped silently, so a stand-in tag right after a print vanished: put it on the next
+  shot. Overlay ids shift when a card is added: rename the old webms by content instead of re-rendering 100 cards.
+  Studio: youtube.com/upload jumped to another channel; open `studio.youtube.com/channel/<id>/videos/upload` and switch
+  accounts at youtube.com/channel_switcher.
+
 ## Ideas to test next (pick one per episode, write the result here)
 - Bring the hit shape into the 30-min format: an enemy-POW-in-America contrast story told long (e.g. the "Texas farmer
   answered in German" or Wisconsin donuts trend from competitors), against the Pacific run.
 - Chapters titled with names and places veterans search for.
-- A real voice in the first 2 minutes (the Zimmerman clip came at minute 8).
+- A real voice in the first 2 minutes (the Zimmerman clip came at minute 8). Done in Bush (1:57); check retention there.
+- Famous name + official file (Bush, 22 Nov): compare its views at 1 week with the Pacific run (26–123).
