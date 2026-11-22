@@ -1,5 +1,7 @@
 # YouTube: Navy File Shows What George H.W. Bush Really Did in WW2
 
+**Published publicly 22 Nov 2026: https://youtu.be/8oOy8vqR4Lg** (33:11; checks: no issues found; English captions published; end screen → Cabanatuan raid + subscribe)
+
 ## Title (Nobody To Legend's format, owner's choice, 22 Nov 2026)
 ```
 Navy File Shows What George H.W. Bush Really Did in WW2
