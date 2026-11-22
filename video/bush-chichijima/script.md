@@ -12,6 +12,8 @@ Two young men had been in that plane with him. They never came home. And on the 
 
 This is the documented story of what George Herbert Walker Bush really did in the Second World War, told from his Navy file: the squadron's secret action report, the submarine's patrol report, the pilot's own logbook in his own hand, and the record of a war crimes trial held by the United States Navy on Guam. Where the papers agree, you will see it. Where they disagree, you will see that too.
 
+You will often read three things about that morning: that his plane was on fire, that he sat in the raft for four hours, and that his crew bailed out with him. The file backs one of those. It quietly corrects another. And on the third, the file argues with itself. By the end, you will see which is which.
+
 ## 2. The file
 
 A man who later became President has a long paper trail. But the papers that matter here were written in 1944, by men who had no idea who he would become. To them he was one pilot among thousands, file number one seven three, four six four.
@@ -100,6 +102,10 @@ At about twenty-five minutes past eight by the squadron's clock, the four Avenge
 
 Melvin and the second pilot put all eight of their bombs on the station. Then the report turns to Bush, and this is the line his whole Navy legend rests on. The report says: Lieutenant junior grade Bush was piloting the third plane over the target. Bush's plane was hit in the engine shortly after final push over at eight thousand feet. In spite of this hit which caused his engine to smoke and catch on fire, Lieutenant junior grade Bush continued in his dive, releasing his bombs on the radio station to score damaging hits.
 
+Forty-eight years later, in a White House interview filmed for a history of the war, Bush described that dive himself.
+
+[CLIP bush_stinnett_1992.mp4 553.7 571.95] About halfway down the run, I was hit, and you could feel the plane go push forward like that, up and forward, and then suddenly it was all engulfed in flames, and I finished my bombing run, but by the time I pulled out over the ocean, the plane was really burning.
+
 In other words, with his engine burning, he did not pull out. He held a diving plane steady, through the flak, all the way down to the release point, and dropped his four bombs on the target before he tried to save himself. That is what his Distinguished Flying Cross was for. Its citation, signed that December, says the same: in spite of smoke and flames from the fire in his plane, he continued in his dive.
 
 ## 12. Bail out
@@ -109,6 +115,10 @@ After the bombs fell, the report says, Bush turned sharply to the east to clear 
 Then the report says something that would be argued over for the rest of his life. At a point about nine miles north-east of the small island of Minami Jima, Bush and one other person were seen to bail out, from about three thousand feet. Bush's chute opened. The chute of the other person, either Lieutenant junior grade White or J. L. Delaney, who bailed out, did not open.
 
 The report adds a careful note in brackets. Bush had not yet been returned to the squadron by the rescue submarine, so this information is incomplete. And it closes with the words every family dreaded: while White and Delaney are reported missing in action, it is believed that both were killed.
+
+In the same 1992 interview, Bush told the bailout this way.
+
+[CLIP bush_stinnett_1992.mp4 609.7 622.95] Told them to bail out. And from there on, a little unclear as to what happened, but it turns out that one of them got out, and his chute streamed, his chute were up, and the other did not.
 
 Bush himself had hit the tail of his plane as he jumped. He later said he pulled the ripcord too early. He came down in the sea with a cut forehead, swallowed salt water, found the raft, and climbed in.
 
@@ -120,7 +130,9 @@ Her patrol report gives the times in its own time zone. At nine thirty-three, th
 
 At four minutes to noon, the boat came up beside the raft. A sailor named Donnet Kohler helped pull the pilot aboard, and someone on the conning tower filmed it. This is that film. It runs less than a minute, and it is the only moving picture of the moment.
 
-How long was Bush in the water? Popular accounts say about four hours. The two reports, read together, suggest it was closer to two and a half. Either way, he was alone, and he was close enough to the island to see it.
+How long was Bush in the water? Popular accounts say about four hours. The two reports, read together, suggest it was closer to two and a half. Either way, he was alone, and he was close enough to the island to see it. That is the second claim from the beginning. The four hours is the story. The papers point to a shorter wait.
+
+[CLIP bush_stinnett_1992.mp4 748.95 760.98] I remember being sick. I remember being scared, and I remember wondering what happened to the crewmen that were with me. That preoccupied a lot of my thinking.
 
 The submarine did not leave. Her report says that once Bush was aboard, she commenced a search of the area, on the chance his crew had jumped over water. She found nothing.
 
@@ -204,7 +216,7 @@ Of the fourteen defendants in the first case, thirteen were found guilty. Genera
 
 On the twenty-fourth of September, 1947, Yoshio Tachibana was hanged on Guam and buried in an unmarked grave. Matoba was hanged too. The Navy's own newspaper reported that five Japanese had been executed. The sources differ on the other names, so we leave them out.
 
-Two years before, on the third of September, 1945, Tachibana had climbed aboard the American destroyer Dunlap off Chichi Jima and surrendered the Bonin Islands. A Navy cameraman filmed him saluting at the top of the ladder. It was one day after the first anniversary of the morning Bush was shot down.
+Two years before, on the third of September, 1945, Tachibana had climbed aboard the American destroyer Dunlap off Chichi Jima and surrendered the Bonin Islands. A Navy cameraman filmed the Japanese officers climbing aboard and signing. It was one day after the first anniversary of the morning Bush was shot down.
 
 ## 22. The gunner
 
@@ -212,9 +224,11 @@ In 1988, when Bush was running for President, the story of the second of Septemb
 
 Bush's campaign called the claim absurd. Bush himself always said the plane was burning and that he had done what he had to do. In 2003 he told an interviewer that the plane was burning, and that he knew he had done the right thing.
 
-So what does the file show? The two documents written in September 1944 both say the engine was hit and smoking or burning. The action report, written from the other pilots' reports, says smoke and flames. The medal citation says fire. Mierzejewski's account comes from one man, forty-four years later. On the fire, the documents are on Bush's side.
+So what does the file show? The two Navy documents of 1944, the action report and the medal citation, both say the engine was hit and burning. The action report, written from the other pilots' reports, says smoke and flames. The medal citation says fire. Mierzejewski's account comes from one man, forty-four years later. On the fire, the documents are on Bush's side.
 
 On the parachutes, the file cannot settle it, because its own pages disagree: one other man jumped, no parachutes seen, only one man jumped. Whether Ted White or Del Delaney ever left the plane, no record can say. That is the honest edge of the evidence.
+
+So here are the three claims from the beginning, as the file reads them. The fire: confirmed, by the action report and the medal citation of 1944. The four hours in the raft: shortened, by the submarine's own clock. The crew bailing out: the papers disagree, and they always will.
 
 ## 23. What became of them
 
@@ -230,7 +244,7 @@ George Herbert Walker Bush died on the thirtieth of November, 2018, at ninety-fo
 
 ## 24. Your family
 
-Torpedo Squadron Fifty-One, the San Jacinto, the Finback, the carriers that struck the Bonins: thousands of American families have a man in this story. If your father, grandfather or uncle flew from those carriers, served on a lifeguard submarine, or was one of the airmen lost over Chichi Jima, tell us his name in the comments. We read every one.
+Torpedo Squadron Fifty-One, the San Jacinto, the Finback, the carriers that struck the Bonins: thousands of American families have a man in this story. If your father, grandfather or uncle flew from those carriers, served on a lifeguard submarine, or was one of the airmen lost over Chichi Jima, tell us his name in the comments. And if you read these documents differently than we do, tell us that too. They are public records, and anyone can check them.
 
 ## 25. The harbor today
 

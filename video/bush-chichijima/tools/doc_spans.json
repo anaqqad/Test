@@ -1,1 +1,140 @@
-{}
+{
+ "fin_rescue": {
+  "image": "doc_finback_rescue.jpg",
+  "pw": 4008,
+  "ph": 5430,
+  "phrase": "he failed to see his crew's parachutes and believed they had jumped when plane was still over CHICHI JIMA, or they had gone down with plane.",
+  "rects": [
+   [
+    2592,
+    1437,
+    975,
+    84
+   ],
+   [
+    1198,
+    1521,
+    2224,
+    86
+   ],
+   [
+    1188,
+    1605,
+    2236,
+    84
+   ],
+   [
+    1192,
+    1691,
+    1208,
+    81
+   ]
+  ]
+ },
+ "aar_chute": {
+  "image": "doc_aar_s4.jpg",
+  "pw": 4376,
+  "ph": 5791,
+  "phrase": "The chute of the other person (either Lt.(jg) White or J. L. Delaney, ARM 2/c) who bailed out did not open.",
+  "rects": [
+   [
+    2250,
+    3020,
+    2079,
+    100
+   ],
+   [
+    1281,
+    3108,
+    2467,
+    96
+   ]
+  ]
+ },
+ "trial_revolting": {
+  "image": "doc_trial_opening.jpg",
+  "pw": 3332,
+  "ph": 5690,
+  "phrase": "so revolting to the human mind that man long ago decided it unnecessary to legislate directly against their commission.",
+  "rects": [
+   [
+    713,
+    2803,
+    1969,
+    61
+   ],
+   [
+    713,
+    2856,
+    1175,
+    61
+   ]
+  ]
+ },
+ "trial_shelter": {
+  "image": "doc_trial_p3.jpg",
+  "pw": 3348,
+  "ph": 5698,
+  "phrase": "ordered not to give the prisoners shelter, food nor water.",
+  "rects": [
+   [
+    2361,
+    3147,
+    309,
+    64
+   ],
+   [
+    707,
+    3200,
+    1216,
+    64
+   ]
+  ]
+ },
+ "aar_fire": {
+  "image": "doc_aar_s4.jpg",
+  "pw": 4376,
+  "ph": 5791,
+  "phrase": "In spite of this hit which caused his engine to smoke and catch on fire, Lt.(jg) Bush continued in his dive, releasing his bombs on the radio station",
+  "rects": [
+   [
+    3932,
+    1929,
+    397,
+    101
+   ],
+   [
+    1290,
+    2010,
+    3039,
+    101
+   ],
+   [
+    1282,
+    2099,
+    2753,
+    100
+   ]
+  ]
+ },
+ "aar_bail": {
+  "image": "doc_aar_s4.jpg",
+  "pw": 4376,
+  "ph": 5791,
+  "phrase": "Bush and one other person were seen to bail out",
+  "rects": [
+   [
+    3450,
+    2767,
+    879,
+    99
+   ],
+   [
+    1285,
+    2855,
+    1184,
+    96
+   ]
+  ]
+ }
+}

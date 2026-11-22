@@ -543,3 +543,11 @@ Compiled 22 Nov 2026. Primary documents (government records) are marked **[PRIMA
 | P7 | NARA IWG essays (2006), pp. 101–104 | Summary of RG 125/RG 331 Chichi Jima files and the Aug 1946 trial | PDF | https://www.archives.gov/files/iwg/japanese-war-crimes/introductory-essays.pdf |
 
 Not found online: the Guam trial transcripts (RG 331, box 1654), the Rixey board proceedings (RG 125), the DFC and Air Medal citation originals (the NHHC pages were unreachable), and the 1944 letter scan (published in *All the Best*).
+
+
+## Recordings of Bush used in the episode (added 22 Nov 2026, all federal works, public domain)
+- **R1** Remarks to WWII veterans, Kilo 8 Pier, Pearl Harbor, 7 Dec 1991, White House Communications Agency audio, George Bush Library (NARA 499916568, file 19911207-03). Clip 108.5-126.2 s: "Like all American kids back then, I was swept up in it. I decided that very day to go into the Navy, to become a Navy pilot. And so on my 18th birthday, June 12, 1942, I was sworn into the Navy as a seaman second class." Also 93.5 s: "that walk across the campus marked an end of innocence for me."
+- **R2** Remarks to Pearl Harbor survivors, National Memorial Cemetery of the Pacific, 7 Dec 1991, WHCA audio (19911207-05). Clip 760.1-776.1 s: Jim Wykes and his crew "sent out on a search mission from which they never returned."
+- **R3** MT3897, President Bush interviewed by Robert Stinnett about his WWII service, White House, 2 June 1992, White House Television, George Bush Library (Wikimedia Commons). Clips 553.7-571.95 s (the dive: "suddenly it was all engulfed in flames, and I finished my bombing run"), 609.7-622.95 s (bail-out: "one of them got out, and his chute streamed ... and the other did not"), 748.95-760.98 s (the raft: "I remember being sick. I remember being scared ... wondering what happened to the crewmen").
+- **R4** Vice President Bush interview on his naval career, 19 June 1986, White House Television, Reagan Library (NARA 77443006): picture only.
+- **R5** Real 8 mm film of the rescue, 2 Sept 1944, George Bush Library (Wikimedia Commons, "George Bush Rescued at Sea by the USS Finback").
