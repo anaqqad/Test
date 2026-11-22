@@ -1,6 +1,6 @@
 # Short / Reel: Wainwright and the pen (test of the 3-minute reel format, 22 Nov 2026)
 
-Status: test render, not published yet.
+**Published 22 Nov 2026, public: https://youtube.com/shorts/8ZrOgDZ_tIY** (2:48; checks "No issues found" before publishing; Related video = the Wainwright episode; Education; altered content No; 11 tags). Owner afterwards: future Shorts only ~1 min.
 Video: `C:\Users\anass\Desktop\The Black History Room\Test\out\reel-wwf-wainwright.mp4` (1080x1920, 30 fps, 2:47, Kokoro bm_george 1.2).
 Engine: the Black History Room reel engine (skill `film-clip-reel-method`), theme `wwf` (light-table black, ledger cream,
 grease-pencil red, neutral B&W grade). Spec builder: `shorts/build_reel_wwf_wainwright.py` (copy of
