@@ -586,6 +586,69 @@ export const VIDEOS = {
       },
     ],
   },
+  portuguese_understand: {
+    title: "Languages Portuguese Speakers Can Almost Understand", // same format as french/spanish_understand; audio: build_portuguese.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#046a38",
+    items: [
+      {
+        name: "Fala", wojak: "pt_fax_f", flag: "es", speakers: "~10,000", scene: "sierra", loc: null,
+        cards: [
+          "Fala is spoken in just three villages of western Spain, in the Xálima valley right next to the Portuguese border.",
+          "It is Galician-Portuguese, not Spanish: it says 'coisa' and 'muita', like Portuguese, where Spanish says 'cosa' and 'mucha'.",
+          "She said: 'It is only here in the Xálima valley: only Valverde, San Martín and Eljas, only in those three places. Fala is one name for all of them, but in reality there are three varieties: lagarteiro, valverdeiro and mañego, with tiny differences between them.'",
+        ],
+        audio: { file: "cache/audio/portuguese_understand/fala.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Mirandese", wojak: "pt_mwl", flag: "pt", speakers: "~3,500", scene: "hills", loc: null,
+        cards: [
+          "Mirandese is spoken around Miranda do Douro, in north-east Portugal. In 1999 Portugal officially recognised it: the only language of Portugal besides Portuguese.",
+          "It is not a Portuguese dialect: it belongs to the Astur-Leonese family of Spain. 'Lhiçon' is Portuguese 'lição', a lesson.",
+          "He is reading a poem, 'Geography Lesson' by Amadeu Ferreira: 'Sometimes I get such a longing for bells that I have to close my eyes and let them come, with their deep, long sound, to lull me at night... before the evening prayer bells.' Portuguese says 'sinos' for bells; Mirandese says 'campanas'.",
+        ],
+        audio: { file: "cache/audio/portuguese_understand/mirandese.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Leonese", wojak: "pt_lnd", flag: "es", speakers: "up to ~50,000", scene: "village", loc: null,
+        cards: [
+          "Leonese is spoken in the old Kingdom of León, in north-west Spain. Mirandese, across the border, is its sister.",
+          "The Kingdom of León once ruled the lands that became Portugal, before Portugal became independent in the 1100s.",
+          "He said: 'Hello, I'm José Benito Mateos Pascual. I come from Peñaparda, in the Rebollal area of Salamanca, and there we have a way of speaking, the palra of Rebollal, one of the Leonese ones.' 'Palra' is speech, like Portuguese 'palrar', to chatter.",
+        ],
+        audio: { file: "cache/audio/portuguese_understand/leonese.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Spanish", wojak: "pt_spa_f", flag: "hn", speakers: "~500 million", scene: "tropical", loc: null,
+        cards: [
+          "Spanish is Portuguese's biggest neighbour: about 500 million native speakers, from Spain to the Americas. She is from Honduras.",
+          "Many words are almost the same: 'gente' is 'gente', 'mucho' is 'muito'. Portuguese speakers usually understand Spanish better than Spanish speakers understand Portuguese.",
+          "She said: 'Hello, nice to meet you. My name is Azariah Amador, my first name is Azariah, and I'm speaking Spanish. I'm from Honduras, for those who don't know Honduras, because I travel a lot and people ask me: where are you from? And I say: I'm from Honduras.'",
+        ],
+        audio: { file: "cache/audio/portuguese_understand/spanish.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Papiamento", wojak: "pt_pap_f", flag: "aw", speakers: "~340,000", scene: "beach", loc: null,
+        cards: [
+          "Papiamento is spoken on Aruba, Curaçao and Bonaire, in the Caribbean. Its name comes from 'papia', to talk.",
+          "Many of its words come from Portuguese and Spanish, with Dutch too. 'Bon dia' is 'bom dia', and 'riba' (on) comes from 'arriba'.",
+          "She said: 'Welcome to the first video of the Wikipedia Riba Aruba channel. This channel is a space to learn how to use Wikipedia, contribute to Wikimedia and take part in the Wikipedia Riba Aruba project: a movement to make knowledge about our islands more visible and accessible.'",
+        ],
+        audio: { file: "cache/audio/portuguese_understand/papiamento.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Galician", wojak: "es_glg", flag: "es-ga", speakers: "~2.4 million", scene: "hills", loc: null,
+        cards: [
+          "Galician is spoken in Galicia, in north-west Spain, just north of Portugal. It is Portuguese's closest relative.",
+          "In the Middle Ages they were one language, Galician-Portuguese: King Alfonso X of Castile wrote his famous songs in it.",
+          "He played the lead in the Galician film 'O que arde' and says: 'Since it came out... I knew it would change, and it does: everything changes, your life changes. Now it's all hugs, greetings and affection, isn't it?' 'A vida', life, is the same word in both languages.",
+        ],
+        audio: { file: "cache/audio/portuguese_understand/galician.wav", start: 0, voice: "m" },
+      },
+    ],
+  },
   spanish_understand: {
     title: "Languages Spanish Speakers Can Almost Understand", // same format as german/arabic_understand; audio: build_spanish.py
     layout: "story",
