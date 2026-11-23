@@ -639,9 +639,9 @@ export const VIDEOS = {
         audio: { file: "cache/audio/chinese_dialects/shanghainese.wav", start: 0, voice: "f" },
       },
       {
-        name: "Linhai Dialect", wojak: "zh_lin", flag: "cn", speakers: "~80 million (all Wu)", scene: "village", loc: null,
+        name: "Linhai Dialect", wojak: "zh_lin", flag: "cn", speakers: "~80 million", scene: "village", loc: null,
         cards: [
-          "Linhai is a city in Zhejiang, south of Shanghai. Its speech belongs to the southern branch of Wu, quite different from Shanghainese.",
+          "Linhai is a city in Zhejiang, south of Shanghai. Its speech belongs to the southern branch of Wu (about 80 million speakers in all), quite different from Shanghainese.",
           "His subtitles write 'my name' as 我个名字, with the Wu word 个 where Mandarin says 的.",
           "He said: 'Hello everyone, my name is Cai… I come from Linhai, in Zhejiang. Linhai is a place…', and he goes on to talk about his hometown.",
         ],
@@ -657,9 +657,9 @@ export const VIDEOS = {
         audio: { file: "cache/audio/chinese_dialects/siyi_yue.wav", start: 0, voice: "m" },
       },
       {
-        name: "Penang Hokkien", wojak: "zh_hok", flag: "my", speakers: "~28 million (all Hokkien)", scene: "beach", loc: null,
+        name: "Penang Hokkien", wojak: "zh_hok", flag: "my", speakers: "~28 million", scene: "beach", loc: null,
         cards: [
-          "Hokkien is a Min language from Fujian, in south-east China. Emigrants carried it to Taiwan, Singapore and Malaysia.",
+          "Hokkien is a Min language from Fujian, in south-east China, with about 28 million speakers. Emigrants carried it to Taiwan, Singapore and Malaysia.",
           "Timothy says Penang Hokkien is over 300 years old: older than the city of Penang itself, and full of Malay words.",
           "He said: 'Hello and greetings. My name is Timothy. I live in Penang, in Malaysia. My father is Sinning Chinese. My mother is Hokkien Chinese. As we live in Penang, we speak Penang Hokkien.'",
         ],
