@@ -13,8 +13,8 @@ Swedish speakers: how much did you understand? Tell us your score out of 7 in th
 0:35 Åland Swedish (~26,000 speakers)
 1:03 Danish (~6 million speakers)
 1:33 Närpes dialect (~7,000 speakers)
-2:00 Icelandic (~330,000 speakers)
-2:31 Runic Swedish (reconstructed, about 1,000 years ago)
+2:01 Icelandic (~330,000 speakers)
+2:32 Runic Swedish (reconstructed, about 1,000 years ago)
 2:56 Old Norse (reconstructed, early 1200s)
 
 Audio credits (all via Wikimedia Commons):

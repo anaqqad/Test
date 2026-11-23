@@ -59,7 +59,7 @@ function flagHtml(code, h) {
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
 // bold numbers and quoted words so cards scan quickly
-const rich = (s) => esc(s).replace(/('[^']{2,60}'|\b\d[\d,.]*\b(?:\s?(?:million|years|consonants|vowels|letters|sounds|tones|speakers|cases|words))?)/g, "<b>$1</b>");
+const rich = (s) => esc(s.replace(/(\p{L})'(\p{L})/gu, "$1\u2019$2")).replace(/('[^']{2,60}'|\b\d[\d,.]*\b(?:\s?(?:million|years|consonants|vowels|letters|sounds|tones|speakers|cases|words))?)/g, "<b>$1</b>");
 
 export const BASE_CSS = `
 *{box-sizing:border-box;margin:0;padding:0}
