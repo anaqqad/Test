@@ -730,6 +730,78 @@ export const VIDEOS = {
       },
     ],
   },
+  swedish_understand: {
+    title: "Languages Swedish Speakers Can Almost Understand", // same format as portuguese_understand; audio: build_swedish.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#006aa7",
+    items: [
+      {
+        name: "Norwegian", wojak: "sv_nor", flag: "no", speakers: "~5 million", scene: "alaska", loc: null,
+        cards: [
+          "Norway and Sweden shared one king from 1814 to 1905. Of all their neighbours, Swedes understand Norwegians best.",
+          "Norway has no official spoken standard: people speak their local dialect, even on TV. He is from Kristiansund, on the west coast.",
+          "He said: 'I've chosen to talk a little about being a grandfather. I'm grandfather to three grandchildren, and I'm lucky that they live near me, so I see them quite often. I've decided that my role is to be the world's best grandfather.' He says 'farfar', father's father, exactly like Swedish.",
+        ],
+        audio: { file: "cache/audio/swedish_understand/norwegian.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Åland Swedish", wojak: "sv_ala", flag: "ax", speakers: "~26,000", scene: "baltic", loc: null,
+        cards: [
+          "Åland is a group of islands between Sweden and Finland. It belongs to Finland, but Swedish is its only official language.",
+          "He was born in 1896 in Eckerö, at Åland's western tip, and was recorded in 1971 by the Society of Swedish Literature in Finland.",
+          "He said: 'Yes, here in this village there were ten farmers. And each farmer had his crofter, who lived a little way off, up on the hill there, and they had a potato field from the farm.' A crofter, 'torpare', rented a small plot and paid with days of work.",
+        ],
+        audio: { file: "cache/audio/swedish_understand/åland_swedish.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Danish", wojak: "sv_dan_f", flag: "dk", speakers: "~6 million", scene: "copenhagen", loc: null,
+        cards: [
+          "Written Danish is easy for Swedes, but spoken Danish is not: Danish swallows many of its consonants.",
+          "Denmark ruled southern Sweden, Skåne, until 1658. Swedes near Copenhagen still understand Danish better than other Swedes.",
+          "She is reading the Danish Wikipedia article on the Sun: 'The Sun, in Latin Sol, in Greek Helios, is the star that, with its planets, makes up the Solar System. The Earth and other matter, including other planets, asteroids, meteoroids, comets and dust, orbit the Sun, which holds about 99.8% of the Solar System's mass.'",
+        ],
+        audio: { file: "cache/audio/swedish_understand/danish.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Närpes Dialect", wojak: "sv_nar", flag: "fi", speakers: "~7,000", scene: "forest", loc: null,
+        cards: [
+          "Närpes is a town on Finland's west coast where most people speak Swedish. Other Swedish speakers find its dialect hard to follow.",
+          "It keeps very old forms: 'he' means 'det' (it), and 'he va ju' is 'det var ju'.",
+          "Asked where they used to go swimming, he said: 'We were out here at Sundfjärden, down at Sundet as we call it, and Österfjärden. But mostly we were down at Sundet. It used to be a fishing spot down there, but it's dead now: it has become too shallow, and the water is bad.'",
+        ],
+        audio: { file: "cache/audio/swedish_understand/närpes_dialect.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Icelandic", wojak: "sv_isl", flag: "is", speakers: "~330,000", scene: "greenland", loc: null,
+        cards: [
+          "Icelandic has changed so little that Icelanders can still read the sagas written about 800 years ago.",
+          "Swedish lost most of its noun cases centuries ago. Icelandic kept all four: one word for fjord, 'fjörður', has 16 forms.",
+          "He said: 'Good morning. Today I'm going to speak Icelandic, and about Icelandic. Icelandic is hard and complicated, and a lot in it confuses Icelanders and foreigners. There are difficult words like tálkn (gills): it's quite hard to say if you're not born and raised in Iceland.'",
+        ],
+        audio: { file: "cache/audio/swedish_understand/icelandic.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Runic Swedish", wojak: "sv_run_f", flag: "se", speakers: "none today", scene: "dalarna", loc: null,
+        cards: [
+          "This is how Swedish may have sounded about 1,000 years ago: a runologist reads a Gotland runestone (G 134, Sjonhem) in reconstructed Runic Swedish.",
+          "Two parents raised stones for their three sons. One was killed on a journey by 'Blakumen', most likely Vlachs, in south-eastern Europe.",
+          "She read: 'Hróðvísl and Hróðelfr had the stones raised after their three sons. This one after Hróðfoss: the Vlachs betrayed him on a journey. God help Hróðfoss's soul. God betray those who betrayed him.' 'Gud hjälp' is still Swedish.",
+        ],
+        audio: { file: "cache/audio/swedish_understand/runic_swedish.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Old Norse", wojak: "sv_non", flag: "is", speakers: "none today", scene: "moorland", loc: null,
+        cards: [
+          "Old Norse was the language of the Vikings. Swedish, Norwegian, Danish, Icelandic and Faroese all come from it.",
+          "He is linguist Jackson Crawford, reading the Edda poem Reginsmál with a reconstructed pronunciation of the early 1200s.",
+          "He read: Loki: 'What is this fish that runs in the flood and cannot guard itself from harm? Ransom your head from Hel: find me the flame of the water (gold).' Andvari: 'Andvari is my name, Óinn was my father; many a waterfall have I passed.' 'Ek heiti' is 'jag heter'.",
+        ],
+        audio: { file: "cache/audio/swedish_understand/old_norse.wav", start: 0, voice: "m" },
+      },
+    ],
+  },
   spanish_understand: {
     title: "Languages Spanish Speakers Can Almost Understand", // same format as german/arabic_understand; audio: build_spanish.py
     layout: "story",
