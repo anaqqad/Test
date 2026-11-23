@@ -594,13 +594,13 @@ export const VIDEOS = {
     accent: "#de2910",
     items: [
       {
-        name: "Standard Mandarin", wojak: "zh_cmn_f", flag: "cn", speakers: "~1 billion", scene: "abstract", loc: null,
+        name: "Standard Mandarin", wojak: "zh_cmn", flag: "cn", speakers: "~1 billion", scene: "abstract", loc: null,
         cards: [
           "Standard Mandarin, or Putonghua, is based on the speech of Beijing. Every school in China teaches it.",
-          "All of China runs on one clock, Beijing time, even though the country is as wide as five time zones.",
-          "This is a speaking clock: 'At the last tone, Beijing time is…', and then it reads out the date and the time.",
+          "It has four tones: 'mā' is mother, 'má' is hemp, 'mǎ' is horse and 'mà' is to scold.",
+          "He is reading the Chinese Wikipedia article on the Taz language: 'The Taz language. From Wikipedia, the free encyclopedia. Taz is a language of the Russian Far East that is dying out. Its speakers, the Taz people, formed from a mix of Han Chinese, Manchu, Nanai and Udege people.'",
         ],
-        audio: { file: "cache/audio/chinese_dialects/standard_mandarin.wav", start: 0, voice: "f" },
+        audio: { file: "cache/audio/chinese_dialects/standard_mandarin.wav", start: 0, voice: "m" },
       },
       {
         name: "Henan Dialect", wojak: "zh_hen_f", flag: "cn", speakers: "~170 million", scene: "grassland", loc: null,

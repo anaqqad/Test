@@ -2,7 +2,8 @@
 # Real recordings from Wikimedia Commons (Wikitongues interviews and a public-domain Mandarin speaking clock), downloaded
 # with the browser into incoming/chinese/ and kept as audio only (<name>.audio.ogg) to save disk space.
 # Meanings: Commons subtitles (Shanghainese, Henan, Guiyang: English; Linhai: Chinese, first lines), Timothy's own English
-# transcript on the file page (Penang Hokkien), Whisper transcripts checked for coherence (Yunnan, Siyi Yue, clock).
+# transcript on the file page (Penang Hokkien), Whisper transcripts checked for coherence (Yunnan, Siyi Yue); Standard Mandarin is a Spoken Wikipedia reading (the
+# article text is the transcript). The Chinese speaking clock was dropped: it alternates Mandarin and English.
 # Dropped: Hakka, Gan (Hukou), Wenling Wu, Medan Hokkien (no reliable meaning); "Menlu/Ramzy/Tricia ... Min" are Minangkabau.
 # Writes cache/audio/chinese_dialects/<slug>.wav, manifest.json and out/chinese_dialects_credits.txt.
 import json, os, urllib.parse
@@ -14,7 +15,7 @@ SRC = os.path.join(HERE, "incoming", "chinese")
 OUT = os.path.join(HERE, "cache", "audio", KEY)
 os.makedirs(OUT, exist_ok=True)
 CLIPS = {  # name: (Commons file, start, end); local copy is <file minus extension>.audio.ogg for videos
-    "Standard Mandarin": ("Chinese speaking clock female.oga", 0.8, 17.0),
+    "Standard Mandarin": ("Zh-塔兹语.ogg", 1.0, 25.7),  # Spoken Wikipedia (the clock alternated Mandarin and English: dropped)
     "Henan Dialect": ("WIKITONGUES- Ying speaking Henan Chinese.webm", 61.0, 85.2),
     "Guiyang Dialect": ("WIKITONGUES- Changjiu and Chaofen speaking Guiyangese.webm", 0.0, 23.7),
     "Yunnan Dialect": ("WIKITONGUES- Tao speaking Yunnan Mandarin with Thai and Taiwanese accent.webm", 0.0, 25.5),
