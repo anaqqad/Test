@@ -21,7 +21,7 @@ SURA = "U.S. Navy film 428-NPC-17059, surrender of Chichi Jima aboard USS Dunlap
 SURB = "U.S. Navy film 428-NPC-17060, USS Dunlap off Chichi Jima, Sept 1945 (NARA)"
 
 # Kokoro respellings, from the episode's tools/tts_kokoro.py PRON table (checked there with whisper)
-PRON = {"Chichi Jima": "Chee-chee Jee-mah", "Iwo Jima": "Ee-woh Jee-mah", "Tachibana": "Tah-chee-bah-nah",
+PRON = {"WWII": "World War Two", "Chichi Jima": "Chee-chee Jee-mah", "Iwo Jima": "Ee-woh Jee-mah", "Tachibana": "Tah-chee-bah-nah",
         "Matoba": "Mah-toh-bah", "Delaney": "Deh-lay-nee", "Yoshio": "Yo-shee-oh"}
 
 

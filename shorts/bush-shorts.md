@@ -52,3 +52,8 @@ Tags: Chichi Jima, Chichi Jima incident, Flyboys, Yoshio Tachibana, Guam war cri
 
 ## Both
 Category Education · Not made for kids · Altered or synthetic content: **No** · Related video: the Bush episode.
+
+**Trimmed 23 Nov 2026 (owner):** the end line "Follow WWII Frontlines for more" was spoken as "double-u double-u eye eye
+Frontlines". Cut in the Studio editor while live: Short 1 from 0:57:06 to the end (new length 0:57), Short 2 from 1:03:00
+to the end (new length 1:03). The builder now respells `"WWII": "World War Two"`; the local mp4s in `Test/out/` still
+have the old line.
