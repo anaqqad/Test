@@ -364,7 +364,10 @@ async function main() {
       const j = jobs[next++];
       j.file = path.join(dir, `${j.name}.mp4`);
       const sig = path.join(dir, `${j.name}.sig`);
-      const hash = String(j.html.length) + ":" + [...j.html].reduce((a, c) => (a * 33 + c.charCodeAt(0)) >>> 0, 5381) + ":" + FPS + PREVIEW;
+      // the key also covers the modification time of every local file the page loads: a regenerated Wojak under the same
+      // name changed nothing in the HTML, so the old clip was reused (Chinese dialects video, 2026-11-23)
+      const files = [...new Set(j.html.match(/file:\/\/[^"')\s]+/g) || [])].map((u) => { try { return fs.statSync(fileURLToPath(u)).mtimeMs; } catch { return 0; } }).join(",");
+      const hash = String(j.html.length) + ":" + [...j.html].reduce((a, c) => (a * 33 + c.charCodeAt(0)) >>> 0, 5381) + ":" + FPS + PREVIEW + ":" + [...files].reduce((a, c) => (a * 33 + c.charCodeAt(0)) >>> 0, 5381);
       if (fs.existsSync(j.file) && fs.existsSync(sig) && fs.readFileSync(sig, "utf8") === hash) continue;
       await renderClip(browser, j.html, j.dur, j.file);
       fs.writeFileSync(sig, hash);
