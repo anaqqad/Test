@@ -1,0 +1,82 @@
+{
+ "film_close": {
+  "width": 640,
+  "height": 480,
+  "seconds": 5.0,
+  "title": "File:The Jackie Robinson Story (1950).ogv",
+  "start": 1008,
+  "dur": 5,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Jackie_Robinson_Story_%281950%29.ogv",
+  "license": "Public domain"
+ },
+ "army_film": {
+  "width": 640,
+  "height": 480,
+  "seconds": 6.0,
+  "title": "File:The Jackie Robinson Story (1950).ogv",
+  "start": 736,
+  "dur": 6,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Jackie_Robinson_Story_%281950%29.ogv",
+  "license": "Public domain"
+ },
+ "field": {
+  "width": 640,
+  "height": 480,
+  "seconds": 4.033,
+  "title": "File:The Jackie Robinson Story (1950).ogv",
+  "start": 816,
+  "dur": 4,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Jackie_Robinson_Story_%281950%29.ogv",
+  "license": "Public domain"
+ },
+ "rickey": {
+  "width": 640,
+  "height": 480,
+  "seconds": 7.0,
+  "title": "File:The Jackie Robinson Story (1950).ogv",
+  "start": 1357,
+  "dur": 7,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Jackie_Robinson_Story_%281950%29.ogv",
+  "license": "Public domain"
+ },
+ "dodgers": {
+  "width": 640,
+  "height": 480,
+  "seconds": 4.0,
+  "title": "File:The Jackie Robinson Story (1950).ogv",
+  "start": 4506,
+  "dur": 4,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Jackie_Robinson_Story_%281950%29.ogv",
+  "license": "Public domain"
+ },
+ "abuse": {
+  "width": 640,
+  "height": 480,
+  "seconds": 7.033,
+  "title": "File:The Jackie Robinson Story (1950).ogv",
+  "start": 3150,
+  "dur": 7,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Jackie_Robinson_Story_%281950%29.ogv",
+  "license": "Public domain"
+ },
+ "play": {
+  "width": 640,
+  "height": 480,
+  "seconds": 6.0,
+  "title": "File:The Jackie Robinson Story (1950).ogv",
+  "start": 2869,
+  "dur": 6,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Jackie_Robinson_Story_%281950%29.ogv",
+  "license": "Public domain"
+ },
+ "dodgers2": {
+  "width": 640,
+  "height": 480,
+  "seconds": 5.0,
+  "title": "File:The Jackie Robinson Story (1950).ogv",
+  "start": 3871,
+  "dur": 5,
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Jackie_Robinson_Story_%281950%29.ogv",
+  "license": "Public domain"
+ }
+}

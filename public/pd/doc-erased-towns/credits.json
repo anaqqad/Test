@@ -1,0 +1,290 @@
+{
+ "smoke": {
+  "title": "[Smoke billowing over Tulsa, Oklahoma during 1921 race massacre]",
+  "artist": "Alvin C. Krupnick Co., photographer; Library of Congress",
+  "date": "[1921]",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "source": "https://www.loc.gov/item/95517018/",
+  "width": 1471,
+  "height": 1076
+ },
+ "panorama": {
+  "title": "Panoramic view of Greenwood ruins from the roof of Booker T. Washington High School",
+  "artist": "Mary E. Jones Parrish, Events of the Tulsa Disaster",
+  "date": "1921 (published 1922)",
+  "license": "Public domain (published in the United States before 1930)",
+  "source": "https://commons.wikimedia.org/wiki/Category:Tulsa_race_massacre",
+  "width": 1920,
+  "height": 323
+ },
+ "ruins": {
+  "title": "Ruins after the race riots, Tulsa, Okla.",
+  "artist": "American National Red Cross collection; Library of Congress",
+  "date": "June 1921.",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "source": "https://www.loc.gov/item/2017679760/",
+  "width": 2565,
+  "height": 1871
+ },
+ "rebuild": {
+  "title": "Showing reconstruction in Tulsa, Okla. This part of town was demolished by fire in the race riots of June 1921",
+  "artist": "American National Red Cross collection; Library of Congress",
+  "date": "1921.",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "source": "https://www.loc.gov/item/2017679763/",
+  "width": 2589,
+  "height": 1871
+ },
+ "atlfront": {
+  "title": "File:Front Page of Atlanta Georgian Newspaper Sep 10 1912.jpg",
+  "artist": "",
+  "date": "1912-10-09",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Front_Page_of_Atlanta_Georgian_Newspaper_Sep_10_1912.jpg",
+  "width": 1280,
+  "height": 2108
+ },
+ "jaildoor": {
+  "title": "File:Mob batters down jail door at Cumming, Atlanta Georgian Newspaper Sep 10 1912.jpg",
+  "artist": "",
+  "date": "1912-10-09",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Mob_batters_down_jail_door_at_Cumming,_Atlanta_Georgian_Newspaper_Sep_10_1912.jpg",
+  "width": 330,
+  "height": 651
+ },
+ "defendants": {
+  "title": "File:Defendants in 1912 Forsyth County Trials.jpg",
+  "artist": "John Corrigan Jr.",
+  "date": "2012-11-27 17:27:48",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Defendants_in_1912_Forsyth_County_Trials.jpg",
+  "width": 1280,
+  "height": 1336
+ },
+ "lanier": {
+  "title": "File:Island in Lake Lanier, July 2018.jpg",
+  "artist": "Thomson200",
+  "date": "2018-07-06 16:00:52",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Island_in_Lake_Lanier,_July_2018.jpg",
+  "width": 1920,
+  "height": 1281
+ },
+ "buford": {
+  "title": "File:Buford Dam March 2017 1.jpg",
+  "artist": "Thomson200",
+  "date": "2017-03-26 17:43:40",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Buford_Dam_March_2017_1.jpg",
+  "width": 1920,
+  "height": 1280
+ },
+ "jjbenson": {
+  "title": "File:John Jackson Benson.png",
+  "artist": "Green Polonius Hamilton",
+  "date": "1911",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:John_Jackson_Benson.png",
+  "width": 960,
+  "height": 1288
+ },
+ "wbenson": {
+  "title": "File:William E. Benson of Kowaliga, Alabama.png",
+  "artist": "Unknown authorUnknown author",
+  "date": "circa 1913",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:William_E._Benson_of_Kowaliga,_Alabama.png",
+  "width": 500,
+  "height": 739
+ },
+ "kinst": {
+  "title": "File:General View of Kowaliga Academic and Industrial Institute.png",
+  "artist": "Kowaliga Academic and Industrial Institute",
+  "date": "circa 1913",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:General_View_of_Kowaliga_Academic_and_Industrial_Institute.png",
+  "width": 1280,
+  "height": 618
+ },
+ "kcampus": {
+  "title": "File:Kowaliga Academic and Industrial Institute campus view east.png",
+  "artist": "Kowaliga Academic and Industrial Institute",
+  "date": "circa 1913",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Kowaliga_Academic_and_Industrial_Institute_campus_view_east.png",
+  "width": 1280,
+  "height": 533
+ },
+ "vanport": {
+  "title": "File:1948 Vanport flood.jpg",
+  "artist": "Unknown photographer; published by Camera Art Studio (Portland, Or.)",
+  "date": "1948-06",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:1948_Vanport_flood.jpg",
+  "width": 1920,
+  "height": 1077
+ },
+ "deltapark": {
+  "title": "File:AT DELTA PARK ON THE COLUMBIA RIVER - NARA - 548116.jpg",
+  "artist": "David Falconer",
+  "date": "May 1973",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:AT_DELTA_PARK_ON_THE_COLUMBIA_RIVER_-_NARA_-_548116.jpg",
+  "width": 1920,
+  "height": 2863
+ },
+ "julyperry": {
+  "title": "File:July Perry Ocoee Massacre victim.jpg",
+  "artist": "Unknown authorUnknown author",
+  "date": "before 1921",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:July_Perry_Ocoee_Massacre_victim.jpg",
+  "width": 960,
+  "height": 1306
+ },
+ "ocoeefront": {
+  "title": "File:Front-page-Evening-Reporter-Star-November-3-1920-Ocoee-Massacre-Florida.jpg",
+  "artist": "The Evening Reporter-Star",
+  "date": "1920-11-03",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Front-page-Evening-Reporter-Star-November-3-1920-Ocoee-Massacre-Florida.jpg",
+  "width": 960,
+  "height": 1360
+ },
+ "ros2": {
+  "title": "File:Rosewood Florida rc12409.jpg",
+  "artist": "The Literary Digest Magazine",
+  "date": "between 4 January 1923 and 6 January 1923",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Rosewood_Florida_rc12409.jpg",
+  "width": 500,
+  "height": 357
+ },
+ "rosmap": {
+  "title": "File:Rosewood 1923 map from Tropic Magazine.jpg",
+  "artist": "w:User:Moni3",
+  "date": "2009",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Rosewood_1923_map_from_Tropic_Magazine.jpg",
+  "width": 500,
+  "height": 339
+ },
+ "sarah": {
+  "title": "File:Sara Carrier.jpg",
+  "artist": "Unknown authorUnknown author",
+  "date": "circa 1910",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Sara_Carrier.jpg",
+  "width": 330,
+  "height": 501
+ },
+ "roshead": {
+  "title": "File:Rosewood Florida Headline.jpg",
+  "artist": "New York Times",
+  "date": "2011-01-12 14:18:27",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Rosewood_Florida_Headline.jpg",
+  "width": 500,
+  "height": 400
+ },
+ "hattie": {
+  "title": "File:Studio publicity Hattie McDaniel.jpg",
+  "artist": "Unknown authorUnknown author",
+  "date": "Unknown date",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Studio_publicity_Hattie_McDaniel.jpg",
+  "width": 500,
+  "height": 640
+ },
+ "hattie41": {
+  "title": "File:1941hattie.jpg",
+  "artist": "",
+  "date": "1941",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:1941hattie.jpg",
+  "width": 500,
+  "height": 517
+ },
+ "wilkins": {
+  "title": "File:Portrait of Roy Wilkins LCCN2004663739.jpg",
+  "artist": "Carl Van Vechten",
+  "date": "1958",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Roy_Wilkins_LCCN2004663739.jpg",
+  "width": 500,
+  "height": 629
+ },
+ "wilkins68": {
+  "title": "File:Roy Wilkins at the White House, 30 April, 1968.jpg",
+  "artist": "Yoichi Okamoto",
+  "date": "1968-04-30",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Roy_Wilkins_at_the_White_House,_30_April,_1968.jpg",
+  "width": 1920,
+  "height": 1778
+ },
+ "joelouis": {
+  "title": "File:Joe Louis, Underwood & Underwood, active 1880 - c. 1950, from the National Portrait Gallery, Smithsonian Institution.tif",
+  "artist": "Underwood & Underwood, active 1880 - c. 1950",
+  "date": "circa 1935",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Joe_Louis,_Underwood_%26_Underwood,_active_1880_-_c._1950,_from_the_National_Portrait_Gallery,_Smithsonian_Institution.tif",
+  "width": 1920,
+  "height": 2437
+ },
+ "holiday": {
+  "title": "File:Billie Holiday, Downbeat, New York, N.Y., ca. Feb. 1947 (William P. Gottlieb 04251).jpg",
+  "artist": "William P. Gottlieb",
+  "date": "circa February 1947",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Billie_Holiday,_Downbeat,_New_York,_N.Y.,_ca._Feb._1947_(William_P._Gottlieb_04251).jpg",
+  "width": 1920,
+  "height": 2004
+ },
+ "ella": {
+  "title": "File:Ella Fitzgerald (Gottlieb 02871) (cropped).jpg",
+  "artist": "William P. Gottlieb",
+  "date": "1946-11",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Ella_Fitzgerald_(Gottlieb_02871)_(cropped).jpg",
+  "width": 1920,
+  "height": 2351
+ },
+ "claiborne": {
+  "title": "File:ClaiborneFrenchmen1938B.jpg",
+  "artist": "Uncredited WPA photographer",
+  "date": "1938-09-15",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:ClaiborneFrenchmen1938B.jpg",
+  "width": 500,
+  "height": 391
+ },
+ "merrick": {
+  "title": "File:John Merrick at the Age of 40.jpg",
+  "artist": "R. McCants Andrews (Robert McCants)",
+  "date": "2014-03-30 15:13:51",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:John_Merrick_at_the_Age_of_40.jpg",
+  "width": 264,
+  "height": 563
+ },
+ "armstrong": {
+  "title": "File:Louis Armstrong restored.jpg",
+  "artist": "World-Telegram staff photographer",
+  "date": "1953",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_restored.jpg",
+  "width": 1920,
+  "height": 1496
+ },
+ "waters": {
+  "title": "File:Maxine Waters Official.jpg",
+  "artist": "House of Represenatatives",
+  "date": "",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Maxine_Waters_Official.jpg",
+  "width": 1920,
+  "height": 2436
+ }
+}

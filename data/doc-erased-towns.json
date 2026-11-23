@@ -1,0 +1,1406 @@
+{
+ "id": "doc-erased-towns",
+ "title": "15 Forgotten Black Towns America Erased",
+ "format": "doc",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "voice": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "leadInSeconds": 0.4,
+  "sectionGapSeconds": 1
+ },
+ "pronounce": {
+  "Oscarville": "Oscar-ville",
+  "Kowaliga": "Koh-wah-LIE-guh",
+  "Ocoee": "Oh-KOH-ee",
+  "Vanport": "Van-port",
+  "Hayti": "Hay-tie",
+  "Claiborne": "Clay-born",
+  "Kinloch": "Kin-lock",
+  "Rondo": "Ron-doh",
+  "Overtown": "Over-town",
+  "Greenwood": "Green-wood",
+  "Mose Norman": "Mohz Norman"
+ },
+ "music": {
+  "volume": 0.06
+ },
+ "mix": {
+  "targetLufs": -14,
+  "ceilingDbtp": -1.5,
+  "musicUnderVoiceDb": 21,
+  "duckDb": 3,
+  "hookBoostDb": 0
+ },
+ "brand": {
+  "page": "The Black History Room",
+  "cta": "Subscribe",
+  "ctaLine": "",
+  "theme": "bhr"
+ },
+ "assets": {
+  "atlfront": {
+   "commons": "File:Front Page of Atlanta Georgian Newspaper Sep 10 1912.jpg"
+  },
+  "jaildoor": {
+   "commons": "File:Mob batters down jail door at Cumming, Atlanta Georgian Newspaper Sep 10 1912.jpg"
+  },
+  "defendants": {
+   "commons": "File:Defendants in 1912 Forsyth County Trials.jpg"
+  },
+  "lanier": {
+   "commons": "File:Island in Lake Lanier, July 2018.jpg"
+  },
+  "buford": {
+   "commons": "File:Buford Dam March 2017 1.jpg"
+  },
+  "jjbenson": {
+   "commons": "File:John Jackson Benson.png"
+  },
+  "wbenson": {
+   "commons": "File:William E. Benson of Kowaliga, Alabama.png"
+  },
+  "kinst": {
+   "commons": "File:General View of Kowaliga Academic and Industrial Institute.png"
+  },
+  "kcampus": {
+   "commons": "File:Kowaliga Academic and Industrial Institute campus view east.png"
+  },
+  "vanport": {
+   "commons": "File:1948 Vanport flood.jpg"
+  },
+  "deltapark": {
+   "commons": "File:AT DELTA PARK ON THE COLUMBIA RIVER - NARA - 548116.jpg"
+  },
+  "julyperry": {
+   "commons": "File:July Perry Ocoee Massacre victim.jpg"
+  },
+  "ocoeefront": {
+   "commons": "File:Front-page-Evening-Reporter-Star-November-3-1920-Ocoee-Massacre-Florida.jpg"
+  },
+  "ros2": {
+   "commons": "File:Rosewood Florida rc12409.jpg"
+  },
+  "rosmap": {
+   "commons": "File:Rosewood 1923 map from Tropic Magazine.jpg"
+  },
+  "sarah": {
+   "commons": "File:Sara Carrier.jpg"
+  },
+  "roshead": {
+   "commons": "File:Rosewood Florida Headline.jpg"
+  },
+  "hattie": {
+   "commons": "File:Studio publicity Hattie McDaniel.jpg"
+  },
+  "hattie41": {
+   "commons": "File:1941hattie.jpg"
+  },
+  "wilkins": {
+   "commons": "File:Portrait of Roy Wilkins LCCN2004663739.jpg"
+  },
+  "wilkins68": {
+   "commons": "File:Roy Wilkins at the White House, 30 April, 1968.jpg"
+  },
+  "joelouis": {
+   "commons": "File:Joe Louis, Underwood & Underwood, active 1880 - c. 1950, from the National Portrait Gallery, Smithsonian Institution.tif"
+  },
+  "holiday": {
+   "commons": "File:Billie Holiday, Downbeat, New York, N.Y., ca. Feb. 1947 (William P. Gottlieb 04251).jpg"
+  },
+  "ella": {
+   "commons": "File:Ella Fitzgerald (Gottlieb 02871) (cropped).jpg"
+  },
+  "claiborne": {
+   "commons": "File:ClaiborneFrenchmen1938B.jpg"
+  },
+  "merrick": {
+   "commons": "File:John Merrick at the Age of 40.jpg"
+  },
+  "armstrong": {
+   "commons": "File:Louis Armstrong restored.jpg"
+  },
+  "waters": {
+   "commons": "File:Maxine Waters Official.jpg"
+  }
+ },
+ "keywords": [
+  "Oscarville",
+  "Kowaliga",
+  "Vanport",
+  "Bruce",
+  "Ocoee",
+  "Rosewood",
+  "Sugar Hill",
+  "Rondo",
+  "Black Bottom",
+  "Paradise Valley",
+  "Overtown",
+  "Claiborne",
+  "Hayti",
+  "Fillmore",
+  "Kinloch",
+  "Greenwood",
+  "Black Wall Street",
+  "Interstate",
+  "freeway",
+  "destroyed twice"
+ ],
+ "chapters": {
+  "oscarville": "Oscarville, Georgia",
+  "kowaliga": "Kowaliga, Alabama",
+  "vanport": "Vanport, Oregon",
+  "bruces": "Bruce's Beach, California",
+  "ocoee": "Ocoee, Florida",
+  "rosewood": "Rosewood, Florida",
+  "sugarhill": "Sugar Hill, Los Angeles",
+  "rondo": "Rondo, St. Paul",
+  "blackbottom": "Black Bottom, Detroit",
+  "overtown": "Overtown, Miami",
+  "claiborne": "Claiborne Avenue, New Orleans",
+  "hayti": "Hayti, Durham",
+  "fillmore": "The Fillmore, San Francisco",
+  "kinloch": "Kinloch, Missouri",
+  "greenwood": "Greenwood, Tulsa"
+ },
+ "chapterLabel": "No.",
+ "chapterCountdown": true,
+ "grain": true,
+ "beats": [
+  {
+   "id": "o1",
+   "text": "They didn't fade away. They were burned, flooded, bulldozed, and paved over.",
+   "visual": {
+    "kind": "photo",
+    "image": "smoke",
+    "focus": [
+     0.45,
+     0.4
+    ],
+    "zoom": [
+     1,
+     1.1
+    ]
+   },
+   "overlays": {
+    "hook": "They didn't fade away. *They were erased.*"
+   },
+   "captions": false
+  },
+  {
+   "id": "o2",
+   "text": "Today, people swim, drive and park on top of them, and most have never heard their names.",
+   "visual": {
+    "kind": "photo",
+    "image": "lanier",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.05
+    ]
+   }
+  },
+  {
+   "id": "o3",
+   "text": "These are fifteen Black towns and neighborhoods that America erased. We'll count down to the one you think you know.",
+   "visual": {
+    "kind": "title",
+    "title": "15 Towns",
+    "sub": "that America erased"
+   }
+  },
+  {
+   "id": "a0",
+   "text": "Number fifteen. Oscarville, Georgia.",
+   "visual": {
+    "kind": "chapter",
+    "num": 15,
+    "title": "Oscarville, Georgia"
+   },
+   "section": "oscarville",
+   "captions": false
+  },
+  {
+   "id": "a1",
+   "text": "In 1912, Forsyth County, Georgia, had about eleven hundred Black residents. Many of them farmed around a small place called Oscarville.",
+   "visual": {
+    "kind": "card",
+    "image": "atlfront",
+    "caption": "Atlanta Georgian, September 10, 1912"
+   },
+   "overlays": {
+    "pin": {
+     "label": "Oscarville",
+     "sub": "Forsyth County, Georgia"
+    }
+   }
+  },
+  {
+   "id": "a2",
+   "text": "That fall, after a young white woman was killed, a mob lynched one Black man. Two Black teenagers were hanged after rushed trials.",
+   "visual": {
+    "kind": "card",
+    "image": "jaildoor",
+    "caption": "The mob at the Cumming jail, 1912"
+   }
+  },
+  {
+   "id": "a3",
+   "text": "Night riders burned homes and churches, and ordered every Black person out of the county. Within weeks, almost all of them were gone. Their land passed into white hands.",
+   "visual": {
+    "kind": "card",
+    "image": "defendants",
+    "caption": "Defendants in the 1912 trials"
+   }
+  },
+  {
+   "id": "a4",
+   "text": "Forty years later, the government built Buford Dam, and the water rose. Today, Oscarville lies under Lake Lanier, where people boat and swim every summer.",
+   "visual": {
+    "kind": "photo",
+    "image": "buford",
+    "motion": "panLeft",
+    "zoom": [
+     1,
+     1.05
+    ]
+   },
+   "overlays": {
+    "stamp": "Lake Lanier"
+   }
+  },
+  {
+   "id": "b0",
+   "text": "Number fourteen. Kowaliga, Alabama.",
+   "visual": {
+    "kind": "chapter",
+    "num": 14,
+    "title": "Kowaliga, Alabama"
+   },
+   "section": "kowaliga",
+   "captions": false
+  },
+  {
+   "id": "b1",
+   "text": "John Jackson Benson was born enslaved. After freedom, he bought land in Alabama, and a Black community grew around it, called Kowaliga.",
+   "visual": {
+    "kind": "card",
+    "image": "jjbenson",
+    "caption": "John Jackson Benson, 1911"
+   }
+  },
+  {
+   "id": "b2",
+   "text": "His son William opened a school there. Then the family's company built its own railroad, sixteen miles long, to Alexander City.",
+   "visual": {
+    "kind": "card",
+    "image": "kinst",
+    "caption": "Kowaliga Academic and Industrial Institute"
+   }
+  },
+  {
+   "id": "b3",
+   "text": "But William died in 1915, and the town began to decline. Then Alabama Power built Martin Dam.",
+   "visual": {
+    "kind": "card",
+    "image": "wbenson",
+    "caption": "William E. Benson"
+   }
+  },
+  {
+   "id": "b4",
+   "text": "When the new lake filled, Kowaliga went under. Today, lake houses line the water above it.",
+   "visual": {
+    "kind": "photo",
+    "image": "kcampus",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.06
+    ]
+   },
+   "overlays": {
+    "stamp": "Lake Martin"
+   }
+  },
+  {
+   "id": "c0",
+   "text": "Number thirteen. Vanport, Oregon.",
+   "visual": {
+    "kind": "chapter",
+    "num": 13,
+    "title": "Vanport, Oregon"
+   },
+   "section": "vanport",
+   "captions": false
+  },
+  {
+   "id": "c1",
+   "text": "In 1942, to house shipyard workers, the Kaiser company built a whole city outside Portland. Vanport became the second largest city in Oregon.",
+   "visual": {
+    "kind": "title",
+    "title": "Vanport",
+    "sub": "Oregon, 1942"
+   }
+  },
+  {
+   "id": "c2",
+   "text": "Thousands of Black workers came for the war jobs. By 1948, about a third of the people still living there were Black.",
+   "visual": {
+    "kind": "photo",
+    "image": "vanport",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1,
+     1.06
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "text": "On May 30th, 1948, residents were told the dikes were safe. That afternoon, a railroad embankment gave way.",
+   "visual": {
+    "kind": "title",
+    "title": "May 30, 1948",
+    "sub": "Memorial Day"
+   }
+  },
+  {
+   "id": "c4",
+   "text": "By nightfall, the city was gone. Fifteen people died, and about eighteen thousand lost their homes. Vanport was never rebuilt. Today the land holds a park, a racetrack and a golf course.",
+   "visual": {
+    "kind": "card",
+    "image": "deltapark",
+    "caption": "Delta Park, on the site of Vanport"
+   }
+  },
+  {
+   "id": "d0",
+   "text": "Number twelve. Bruce's Beach, California.",
+   "visual": {
+    "kind": "chapter",
+    "num": 12,
+    "title": "Bruce's Beach, California"
+   },
+   "section": "bruces",
+   "captions": false
+  },
+  {
+   "id": "d1",
+   "text": "In 1912, Willa and Charles Bruce bought beachfront land in Manhattan Beach, and opened a resort for Black families, who were shut out of other beaches.",
+   "visual": {
+    "kind": "title",
+    "title": "Bruce's Beach",
+    "sub": "Manhattan Beach, California"
+   }
+  },
+  {
+   "id": "d2",
+   "text": "They were harassed for years. In 1924, the city took their land by eminent domain, saying it needed a park.",
+   "visual": {
+    "kind": "title",
+    "title": "1924",
+    "sub": "the city takes the land"
+   }
+  },
+  {
+   "id": "d3",
+   "text": "The Bruces asked for a hundred and twenty thousand dollars. They got fourteen thousand five hundred.",
+   "visual": {
+    "kind": "stat",
+    "stat": {
+     "to": 14500,
+     "label": "paid to the Bruces, 1929",
+     "prefix": "$"
+    }
+   }
+  },
+  {
+   "id": "d4",
+   "text": "In 2022, Los Angeles County gave the land back to their great-grandsons. The family then sold it to the county, for twenty million dollars.",
+   "visual": {
+    "kind": "stat",
+    "stat": {
+     "to": 20,
+     "label": "paid to the Bruce family, 2023",
+     "prefix": "$",
+     "suffix": " million"
+    }
+   }
+  },
+  {
+   "id": "e0",
+   "text": "Number eleven. Ocoee, Florida.",
+   "visual": {
+    "kind": "chapter",
+    "num": 11,
+    "title": "Ocoee, Florida"
+   },
+   "section": "ocoee",
+   "captions": false
+  },
+  {
+   "id": "e1",
+   "text": "On Election Day, 1920, a Black landowner in Ocoee named Mose Norman went to vote, and was turned away.",
+   "visual": {
+    "kind": "card",
+    "image": "ocoeefront",
+    "caption": "Evening Reporter-Star, November 3, 1920"
+   }
+  },
+  {
+   "id": "e2",
+   "text": "That night, a white mob went to the home of another Black landowner, July Perry, who had helped register Black voters. Perry was lynched.",
+   "visual": {
+    "kind": "card",
+    "image": "julyperry",
+    "caption": "July Perry"
+   }
+  },
+  {
+   "id": "e3",
+   "text": "The mob burned Black homes, two churches and a lodge. Nobody knows how many people died. Estimates run from about thirty to more than fifty.",
+   "visual": {
+    "kind": "photo",
+    "image": "ocoeefront",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "anchor": [
+     0.5,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "e4",
+   "text": "Every Black family was driven out. In 1930, the census counted two Black residents in Ocoee.",
+   "visual": {
+    "kind": "stat",
+    "image": "julyperry",
+    "stat": {
+     "to": 2,
+     "label": "Black residents in Ocoee, 1930 census"
+    }
+   }
+  },
+  {
+   "id": "f0",
+   "text": "Number ten. Rosewood, Florida.",
+   "visual": {
+    "kind": "chapter",
+    "num": 10,
+    "title": "Rosewood, Florida"
+   },
+   "section": "rosewood",
+   "captions": false
+  },
+  {
+   "id": "f1",
+   "text": "Rosewood was a small town in the Florida woods. Most of its families were Black, and worked in timber and turpentine.",
+   "visual": {
+    "kind": "card",
+    "image": "rosmap",
+    "caption": "Rosewood, Florida, January 1923"
+   }
+  },
+  {
+   "id": "f2",
+   "text": "On New Year's Day, 1923, a white woman in a nearby town said a Black man had attacked her. White mobs poured into Rosewood.",
+   "visual": {
+    "kind": "card",
+    "image": "roshead",
+    "caption": "The news, January 1923"
+   }
+  },
+  {
+   "id": "f3",
+   "text": "Sarah Carrier was killed in her home. Over the next week, the mobs burned almost every building in town.",
+   "visual": {
+    "kind": "card",
+    "image": "sarah",
+    "caption": "Sarah Carrier"
+   }
+  },
+  {
+   "id": "f4",
+   "text": "The official count was eight dead. Survivors said there were many more. No one was ever charged, and Rosewood was never rebuilt.",
+   "visual": {
+    "kind": "card",
+    "image": "ros2",
+    "caption": "A house burns in Rosewood, 1923"
+   }
+  },
+  {
+   "id": "f5",
+   "text": "Seventy years later, in 1994, Florida became the first state to pay compensation for racial violence, to the survivors of Rosewood.",
+   "visual": {
+    "kind": "title",
+    "title": "1994",
+    "sub": "Florida pays the survivors"
+   }
+  },
+  {
+   "id": "g0",
+   "text": "Number nine. Sugar Hill, Los Angeles.",
+   "visual": {
+    "kind": "chapter",
+    "num": 9,
+    "title": "Sugar Hill, Los Angeles"
+   },
+   "section": "sugarhill",
+   "captions": false
+  },
+  {
+   "id": "g1",
+   "text": "In the 1940s, Black stars bought mansions on a hill in Los Angeles that came to be called Sugar Hill. Hattie McDaniel, the first Black Oscar winner, was one of them.",
+   "visual": {
+    "kind": "card",
+    "image": "hattie",
+    "caption": "Hattie McDaniel"
+   }
+  },
+  {
+   "id": "g2",
+   "text": "White neighbors sued to force them out, using racial covenants in the deeds. In December 1945, a judge threw the case out.",
+   "visual": {
+    "kind": "photo",
+    "image": "hattie41",
+    "focus": [
+     0.5,
+     0.25
+    ],
+    "zoom": [
+     1.04,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "g3",
+   "text": "They had won in court. Then the state built the Santa Monica Freeway, right through the neighborhood.",
+   "visual": {
+    "kind": "title",
+    "title": "Interstate 10",
+    "sub": "through Sugar Hill"
+   }
+  },
+  {
+   "id": "h0",
+   "text": "Number eight. Rondo, St. Paul.",
+   "visual": {
+    "kind": "chapter",
+    "num": 8,
+    "title": "Rondo, St. Paul"
+   },
+   "section": "rondo",
+   "captions": false
+  },
+  {
+   "id": "h1",
+   "text": "Rondo was the heart of Black St. Paul, Minnesota. By the 1930s, about half of the city's Black residents lived there. Roy Wilkins, later the head of the NAACP, grew up there.",
+   "visual": {
+    "kind": "card",
+    "image": "wilkins",
+    "caption": "Roy Wilkins"
+   }
+  },
+  {
+   "id": "h2",
+   "text": "Then planners sent Interstate 94 straight through it. Hundreds of homes and businesses were torn down.",
+   "visual": {
+    "kind": "title",
+    "title": "Interstate 94",
+    "sub": "St. Paul, Minnesota"
+   }
+  },
+  {
+   "id": "h3",
+   "text": "In 2015, the mayor of St. Paul apologized.",
+   "visual": {
+    "kind": "photo",
+    "image": "wilkins68",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "zoom": [
+     1.04,
+     1.12
+    ],
+    "anchor": [
+     0.5,
+     0.42
+    ]
+   }
+  },
+  {
+   "id": "i0",
+   "text": "Number seven. Black Bottom, Detroit.",
+   "visual": {
+    "kind": "chapter",
+    "num": 7,
+    "title": "Black Bottom, Detroit"
+   },
+   "section": "blackbottom",
+   "captions": false
+  },
+  {
+   "id": "i1",
+   "text": "In Detroit, Black Bottom and Paradise Valley were full of homes, churches, clubs and Black-owned businesses. Joe Louis grew up there.",
+   "visual": {
+    "kind": "card",
+    "image": "joelouis",
+    "caption": "Joe Louis"
+   }
+  },
+  {
+   "id": "i2",
+   "text": "Duke Ellington and Billie Holiday played its clubs.",
+   "visual": {
+    "kind": "card",
+    "image": "holiday",
+    "caption": "Billie Holiday, 1947"
+   }
+  },
+  {
+   "id": "i3",
+   "text": "From the 1950s, the city cleared it for urban renewal, and laid a freeway, Interstate 375, over Hastings Street.",
+   "visual": {
+    "kind": "title",
+    "title": "Interstate 375",
+    "sub": "over Hastings Street"
+   }
+  },
+  {
+   "id": "i4",
+   "text": "Today that freeway is being torn out, with a hundred and four million dollars in federal money. The neighborhood is not coming back.",
+   "visual": {
+    "kind": "stat",
+    "image": "joelouis",
+    "stat": {
+     "to": 104,
+     "label": "federal grant to remove I-375, 2022",
+     "prefix": "$",
+     "suffix": " million"
+    }
+   }
+  },
+  {
+   "id": "j0",
+   "text": "Number six. Overtown, Miami.",
+   "visual": {
+    "kind": "chapter",
+    "num": 6,
+    "title": "Overtown, Miami"
+   },
+   "section": "overtown",
+   "captions": false
+  },
+  {
+   "id": "j1",
+   "text": "Overtown was the Black heart of Miami. Its main street was called the Little Broadway.",
+   "visual": {
+    "kind": "title",
+    "title": "Overtown",
+    "sub": "Miami, Florida"
+   }
+  },
+  {
+   "id": "j2",
+   "text": "When stars like Ella Fitzgerald and Billie Holiday played Miami Beach, they could not stay there. They stayed in Overtown.",
+   "visual": {
+    "kind": "card",
+    "image": "ella",
+    "caption": "Ella Fitzgerald, 1946"
+   }
+  },
+  {
+   "id": "j3",
+   "text": "In the 1960s, Interstate 95 and its interchange were driven through its center. Most of its people were pushed out.",
+   "visual": {
+    "kind": "title",
+    "title": "Interstate 95",
+    "sub": "through Overtown"
+   }
+  },
+  {
+   "id": "k0",
+   "text": "Number five. Claiborne Avenue, New Orleans.",
+   "visual": {
+    "kind": "chapter",
+    "num": 5,
+    "title": "Claiborne Avenue, New Orleans"
+   },
+   "section": "claiborne",
+   "captions": false
+  },
+  {
+   "id": "k1",
+   "text": "Claiborne Avenue was the main street of Black business in New Orleans, with a wide row of oak trees down the middle, where families gathered at Mardi Gras.",
+   "visual": {
+    "kind": "card",
+    "image": "claiborne",
+    "caption": "Claiborne Avenue, 1938"
+   }
+  },
+  {
+   "id": "k2",
+   "text": "In 1966, the oaks were bulldozed. An elevated interstate was built right on top of the avenue.",
+   "visual": {
+    "kind": "photo",
+    "image": "claiborne",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   },
+   "overlays": {
+    "stamp": "1966"
+   }
+  },
+  {
+   "id": "k3",
+   "text": "Today, artists have painted oak trees on the concrete pillars.",
+   "visual": {
+    "kind": "title",
+    "title": "Interstate 10",
+    "sub": "over Claiborne Avenue"
+   }
+  },
+  {
+   "id": "l0",
+   "text": "Number four. Hayti, Durham.",
+   "visual": {
+    "kind": "chapter",
+    "num": 4,
+    "title": "Hayti, Durham"
+   },
+   "section": "hayti",
+   "captions": false
+  },
+  {
+   "id": "l1",
+   "text": "Freed people built Hayti, in Durham, North Carolina, right after the Civil War. Its businessmen, like John Merrick, helped make Durham famous as a Black Wall Street.",
+   "visual": {
+    "kind": "card",
+    "image": "merrick",
+    "caption": "John Merrick"
+   }
+  },
+  {
+   "id": "l2",
+   "text": "In 1958, urban renewal began. Then came the Durham Freeway. About four thousand families and five hundred businesses were displaced.",
+   "visual": {
+    "kind": "stat",
+    "image": "merrick",
+    "stat": {
+     "to": 4000,
+     "label": "families displaced"
+    }
+   }
+  },
+  {
+   "id": "l3",
+   "text": "Out of the whole neighborhood, one church was left standing.",
+   "visual": {
+    "kind": "title",
+    "title": "One church",
+    "sub": "left standing"
+   }
+  },
+  {
+   "id": "m0",
+   "text": "Number three. The Fillmore, San Francisco.",
+   "visual": {
+    "kind": "chapter",
+    "num": 3,
+    "title": "The Fillmore, San Francisco"
+   },
+   "section": "fillmore",
+   "captions": false
+  },
+  {
+   "id": "m1",
+   "text": "San Francisco's Fillmore district was called the Harlem of the West. Jazz played all night, and Louis Armstrong played there.",
+   "visual": {
+    "kind": "card",
+    "image": "armstrong",
+    "caption": "Louis Armstrong"
+   }
+  },
+  {
+   "id": "m2",
+   "text": "From 1956, the city's redevelopment agency cleared it, block by block. Residents had a name for it: Negro removal.",
+   "visual": {
+    "kind": "title",
+    "title": "Redevelopment",
+    "sub": "block by block"
+   }
+  },
+  {
+   "id": "m3",
+   "text": "Thousands of families were given certificates, promising them a way back. Only four percent were ever used.",
+   "visual": {
+    "kind": "stat",
+    "image": "armstrong",
+    "stat": {
+     "to": 4,
+     "label": "of the promises to return were ever used",
+     "suffix": "%"
+    }
+   }
+  },
+  {
+   "id": "n0",
+   "text": "Number two. Kinloch, Missouri.",
+   "visual": {
+    "kind": "chapter",
+    "num": 2,
+    "title": "Kinloch, Missouri"
+   },
+   "section": "kinloch",
+   "captions": false
+  },
+  {
+   "id": "n1",
+   "text": "Kinloch was founded in 1890, and became the oldest Black city in Missouri. Congresswoman Maxine Waters grew up there.",
+   "visual": {
+    "kind": "card",
+    "image": "waters",
+    "caption": "Maxine Waters"
+   }
+  },
+  {
+   "id": "n2",
+   "text": "From the 1980s, the airport next door bought out its homes, to clear land for noise. In 1960, Kinloch had about sixty-five hundred people. In 2020, it had two hundred and sixty-three.",
+   "visual": {
+    "kind": "stat",
+    "image": "waters",
+    "stat": {
+     "to": 263,
+     "label": "people left in Kinloch, 2020",
+     "from": 6501
+    }
+   }
+  },
+  {
+   "id": "p0",
+   "text": "Number one. Greenwood, Tulsa.",
+   "visual": {
+    "kind": "chapter",
+    "num": 1,
+    "title": "Greenwood, Tulsa"
+   },
+   "section": "greenwood",
+   "captions": false
+  },
+  {
+   "id": "p1",
+   "text": "Greenwood was the Black district of Tulsa, Oklahoma. It was so prosperous, people called it Black Wall Street.",
+   "visual": {
+    "kind": "photo",
+    "image": "panorama",
+    "motion": "panRight",
+    "zoom": [
+     1,
+     1.05
+    ]
+   }
+  },
+  {
+   "id": "p2",
+   "text": "On May 31st and June 1st, 1921, a white mob burned more than thirty-five blocks. The Red Cross counted twelve hundred and fifty-six homes burned.",
+   "visual": {
+    "kind": "photo",
+    "image": "smoke",
+    "focus": [
+     0.45,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.15
+    ]
+   },
+   "overlays": {
+    "stamp": "1921"
+   }
+  },
+  {
+   "id": "p3",
+   "text": "About ten thousand people were left homeless. The official death toll was thirty-six. Historians now believe it may have been as high as three hundred.",
+   "visual": {
+    "kind": "photo",
+    "image": "ruins",
+    "zoom": [
+     1,
+     1.08
+    ]
+   }
+  },
+  {
+   "id": "p4",
+   "text": "And then Greenwood did something remarkable. It rebuilt.",
+   "visual": {
+    "kind": "card",
+    "image": "rebuild",
+    "caption": "Greenwood rebuilding"
+   }
+  },
+  {
+   "id": "p5",
+   "text": "Decades later, urban renewal and a new interstate, I-244, cut straight through it. Greenwood was destroyed twice.",
+   "visual": {
+    "kind": "title",
+    "title": "Destroyed twice",
+    "sub": "1921 and the 1960s"
+   }
+  },
+  {
+   "id": "x1",
+   "text": "Fifteen places. Some burned, some flooded, some paved over. You can still drive across most of them today, without ever knowing their names.",
+   "visual": {
+    "kind": "photo",
+    "image": "lanier",
+    "motion": "panLeft",
+    "zoom": [
+     1.05,
+     1.1
+    ]
+   },
+   "section": "close"
+  },
+  {
+   "id": "x2",
+   "text": "Subscribe for more.",
+   "visual": {
+    "kind": "endcard"
+   },
+   "captions": false
+  }
+ ],
+ "sourcesByClaim": {
+  "o1": [
+   "WPTULSA",
+   "NPRSUGAR",
+   "WPOSCAR"
+  ],
+  "o2": [
+   "WPOSCAR",
+   "WPVAN"
+  ],
+  "o3": [
+   "WPOSCAR",
+   "WPTULSA"
+  ],
+  "a1": [
+   "NPRFORSYTH",
+   "AHC",
+   "WPOSCAR"
+  ],
+  "a2": [
+   "NPRFORSYTH",
+   "AHC"
+  ],
+  "a3": [
+   "NPRFORSYTH",
+   "AHC",
+   "WPOSCAR"
+  ],
+  "a4": [
+   "AHC",
+   "WPOSCAR"
+  ],
+  "b1": [
+   "WPKOW",
+   "ACO"
+  ],
+  "b2": [
+   "WPKOW",
+   "ACO"
+  ],
+  "b3": [
+   "WPKOW",
+   "EOA"
+  ],
+  "b4": [
+   "WPKOW",
+   "ACO",
+   "EOA"
+  ],
+  "c1": [
+   "WPVAN",
+   "OREENC"
+  ],
+  "c2": [
+   "WPVAN",
+   "OREENC",
+   "NPRVAN"
+  ],
+  "c3": [
+   "NPRVAN",
+   "WPVAN"
+  ],
+  "c4": [
+   "WPVAN",
+   "OREENC",
+   "NPRVAN"
+  ],
+  "d1": [
+   "WPBRUCE",
+   "DB"
+  ],
+  "d2": [
+   "WPBRUCE",
+   "DB"
+  ],
+  "d3": [
+   "WPBRUCE",
+   "DB"
+  ],
+  "d4": [
+   "WPBRUCE",
+   "ABC7",
+   "DB"
+  ],
+  "e1": [
+   "WPOCOEE",
+   "OPPAGA",
+   "WAPO"
+  ],
+  "e2": [
+   "WPOCOEE",
+   "OPPAGA",
+   "WAPO"
+  ],
+  "e3": [
+   "WPOCOEE",
+   "OPPAGA"
+  ],
+  "e4": [
+   "WPOCOEE",
+   "OPPAGA"
+  ],
+  "f1": [
+   "WPROSE",
+   "BRITROSE"
+  ],
+  "f2": [
+   "WPROSE",
+   "BRITROSE"
+  ],
+  "f3": [
+   "WPROSE",
+   "SCROSE"
+  ],
+  "f4": [
+   "WPROSE",
+   "BRITROSE"
+  ],
+  "f5": [
+   "WPROSE",
+   "BRITROSE",
+   "SCROSE"
+  ],
+  "g1": [
+   "NPRSUGAR",
+   "WPSUGAR",
+   "FOX11"
+  ],
+  "g2": [
+   "NPRSUGAR",
+   "WPSUGAR"
+  ],
+  "g3": [
+   "NPRSUGAR",
+   "WPSUGAR",
+   "FOX11"
+  ],
+  "h1": [
+   "MNOPEDIA",
+   "PBSRONDO"
+  ],
+  "h2": [
+   "MNOPEDIA",
+   "KARE",
+   "PBSRONDO"
+  ],
+  "h3": [
+   "KARE",
+   "PBSRONDO"
+  ],
+  "i1": [
+   "DHS",
+   "WPBB"
+  ],
+  "i2": [
+   "DHS",
+   "WPBB"
+  ],
+  "i3": [
+   "DHS",
+   "WPBB"
+  ],
+  "i4": [
+   "DET375",
+   "WPBB"
+  ],
+  "j1": [
+   "UMOVER",
+   "WPOVER"
+  ],
+  "j2": [
+   "UMOVER",
+   "WPOVER"
+  ],
+  "j3": [
+   "UMOVER",
+   "NPROVER",
+   "WPOVER"
+  ],
+  "k1": [
+   "TRIPOD",
+   "SMITHCLAI",
+   "WPCLAI"
+  ],
+  "k2": [
+   "TRIPOD",
+   "WPCLAI"
+  ],
+  "k3": [
+   "TRIPOD",
+   "SMITHCLAI"
+  ],
+  "l1": [
+   "BC150",
+   "WPHAYTI"
+  ],
+  "l2": [
+   "BC150",
+   "ABC11",
+   "WPHAYTI"
+  ],
+  "l3": [
+   "ABC11",
+   "WPHAYTI"
+  ],
+  "m1": [
+   "KQED",
+   "PBSFILL",
+   "WPFILL"
+  ],
+  "m2": [
+   "KQED",
+   "WPFILL"
+  ],
+  "m3": [
+   "KQED",
+   "WPFILL"
+  ],
+  "n1": [
+   "WPKIN",
+   "RFT"
+  ],
+  "n2": [
+   "WPKIN",
+   "RFT",
+   "STLPR"
+  ],
+  "p1": [
+   "OHS",
+   "WPTULSA"
+  ],
+  "p2": [
+   "OHS",
+   "WPTULSA"
+  ],
+  "p3": [
+   "OHS",
+   "WPTULSA"
+  ],
+  "p4": [
+   "SMITHTULSA",
+   "OHS"
+  ],
+  "p5": [
+   "SMITHTULSA",
+   "WPTULSA"
+  ],
+  "x1": [
+   "WPOSCAR",
+   "WPTULSA"
+  ]
+ },
+ "sources": {
+  "NPRFORSYTH": {
+   "url": "https://www.npr.org/2016/09/15/494063372/the-racial-cleansing-that-drove-1-100-black-residents-out-of-forsyth-county-ga"
+  },
+  "AHC": {
+   "url": "https://www.atlantahistorycenter.com/blog/forsyth-1912-examining-the-displacement-of-the-countys-black-residents/"
+  },
+  "WPOSCAR": {
+   "url": "https://en.wikipedia.org/wiki/Oscarville,_Georgia"
+  },
+  "WPKOW": {
+   "url": "https://en.wikipedia.org/wiki/Kowaliga,_Alabama"
+  },
+  "ACO": {
+   "url": "https://www.alexcityoutlook.com/news/two-amateur-historians-are-putting-the-drowned-town-of-benson-back-on-the-map/article_3afaeb42-a820-11eb-a63e-5b09d47736a2.html"
+  },
+  "EOA": {
+   "url": "https://encyclopediaofalabama.org/?p=14926"
+  },
+  "WPVAN": {
+   "url": "https://en.wikipedia.org/wiki/Vanport,_Oregon"
+  },
+  "OREENC": {
+   "url": "https://www.oregonencyclopedia.org/articles/vanport/"
+  },
+  "NPRVAN": {
+   "url": "https://www.npr.org/sections/codeswitch/2015/03/02/389482158/the-time-nature-and-racism-teamed-up-to-wipe-out-a-whole-town"
+  },
+  "WPBRUCE": {
+   "url": "https://en.wikipedia.org/wiki/Bruce%27s_Beach"
+  },
+  "ABC7": {
+   "url": "https://abc7.com/bruces-beach-manhattan-la-county-coastal-property/12647127/"
+  },
+  "DB": {
+   "url": "https://www.dailybreeze.com/2022/06/28/la-county-returns-land-to-black-family-90-plus-years-after-manhattan-beach-took-it"
+  },
+  "WPOCOEE": {
+   "url": "https://en.wikipedia.org/wiki/Ocoee_massacre"
+  },
+  "OPPAGA": {
+   "url": "https://oppaga.fl.gov/Documents/Reports/19-15.pdf"
+  },
+  "WAPO": {
+   "url": "https://www.washingtonpost.com/history/2020/11/02/ocoee-florida-election-day-massacre/"
+  },
+  "WPROSE": {
+   "url": "https://en.wikipedia.org/wiki/Rosewood_massacre"
+  },
+  "BRITROSE": {
+   "url": "https://www.britannica.com/topic/Rosewood-riot-of-1923"
+  },
+  "SCROSE": {
+   "url": "https://southernchanges.digitalscholarship.emory.edu/sc16-1_001/sc16-1_005"
+  },
+  "NPRSUGAR": {
+   "url": "https://www.npr.org/2021/05/04/993605428/beneath-the-santa-monica-freeway-lies-the-erasure-of-sugar-hill"
+  },
+  "WPSUGAR": {
+   "url": "https://en.wikipedia.org/wiki/West_Adams_Heights,_Los_Angeles"
+  },
+  "FOX11": {
+   "url": "https://www.foxla.com/news/sugar-hill-the-dark-history-the-10-freeway-has-to-a-historic-black-community"
+  },
+  "MNOPEDIA": {
+   "url": "https://www.mnhs.org/mnopedia/search/index/place/rondo-neighborhood-st-paul"
+  },
+  "KARE": {
+   "url": "https://kare11.com/article/news/local/rondo-neighborhood-gets-apologies-for-i-94/105454642"
+  },
+  "PBSRONDO": {
+   "url": "https://www.pbs.org/newshour/show/could-a-land-bridge-project-help-minority-communities-recover-from-displacement"
+  },
+  "DHS": {
+   "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/black-bottom-neighborhood"
+  },
+  "WPBB": {
+   "url": "https://en.wikipedia.org/wiki/Black_Bottom,_Detroit"
+  },
+  "DET375": {
+   "url": "https://detroitmi.gov/departments/planning-and-development-department/neighborhood-plans/central-design-region/i-375-reconnecting-communities-project"
+  },
+  "UMOVER": {
+   "url": "https://library.miami.edu/ohp-communities-overtown.html"
+  },
+  "NPROVER": {
+   "url": "https://www.npr.org/2010/08/28/129475747/paying-a-local-price-for-i-95s-global-promise"
+  },
+  "WPOVER": {
+   "url": "https://en.wikipedia.org/wiki/Overtown_(Miami)"
+  },
+  "TRIPOD": {
+   "url": "https://tripodnola.hnoc.org/episodes/the-monster-claiborne-avenue-before-and-after-the-interstate/"
+  },
+  "SMITHCLAI": {
+   "url": "https://www.smithsonianmag.com/smart-news/documenting-history-iconic-new-orleans-street-and-looking-its-future-180977854/"
+  },
+  "WPCLAI": {
+   "url": "https://en.wikipedia.org/wiki/Claiborne_Avenue"
+  },
+  "BC150": {
+   "url": "https://www.bullcity150.org/uneven_ground/dismantling_hayti/"
+  },
+  "ABC11": {
+   "url": "https://abc11.com/post/durham-hayti-community-freeway-history-black/10362504/"
+  },
+  "WPHAYTI": {
+   "url": "https://en.wikipedia.org/wiki/Hayti,_Durham,_North_Carolina"
+  },
+  "KQED": {
+   "url": "https://www.kqed.org/news/11825401/how-urban-renewal-decimated-the-fillmore-district-and-took-jazz-with-it"
+  },
+  "PBSFILL": {
+   "url": "https://www.pbs.org/kqed/fillmore/"
+  },
+  "WPFILL": {
+   "url": "https://en.wikipedia.org/wiki/Fillmore_District,_San_Francisco"
+  },
+  "WPKIN": {
+   "url": "https://en.wikipedia.org/wiki/Kinloch,_Missouri"
+  },
+  "RFT": {
+   "url": "https://www.riverfronttimes.com/?p=42185"
+  },
+  "STLPR": {
+   "url": "https://www.stlpr.org/other/2006-06-07/lambert-considers-selling-back-land-to-kinloch"
+  },
+  "OHS": {
+   "url": "https://www.okhistory.org/publications/enc/entry?entry=TU013"
+  },
+  "WPTULSA": {
+   "url": "https://en.wikipedia.org/wiki/Tulsa_race_massacre"
+  },
+  "SMITHTULSA": {
+   "url": "https://www.smithsonianmag.com/history/black-wall-streets-second-destruction-180977871/"
+  }
+ },
+ "notUsed": [
+  "Oscarville \"flooded on purpose to erase a Black town\": called mostly myth by the Atlanta History Center. Told as expelled in 1912, under the lake decades later.",
+  "Forsyth crowd sizes (2,000 / 8,000): one source: not said.",
+  "Kowaliga's \"first Black-owned railroad\": one source: not said.",
+  "Vanport peak population (40,000 / 42,000) and peak Black share: disputed: not said.",
+  "Ocoee buildings burned (25+ vs 20) and deaths (30-56): given as a range.",
+  "Rosewood deaths beyond the official 8 (27 / 150): \"many more\". Compensation amount ($2M / $2.1M): not said.",
+  "Rondo homes (600 / 700): \"hundreds\".",
+  "Overtown population drop (40,000 to 10,000 / 50% / 40%): \"most of its people\".",
+  "Claiborne oaks (200 / 400) and homes (155 / 500): not said.",
+  "Hayti 5,000+ families / 1,000+ businesses (one paper): the 4,000 / 500 figures used.",
+  "Kinloch buyout cost and \"meant to dissolve the town\": one source / disputed: not said.",
+  "Tulsa deaths: official 36; historians up to about 300 (OHS \"fifty to three hundred\").",
+  "I-244 construction years disputed: \"decades later\"."
+ ]
+}

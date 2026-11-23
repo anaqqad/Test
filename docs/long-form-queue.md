@@ -5,7 +5,7 @@ Why: see `docs/long-form-research-2026-11-22.md`.
 
 | # | Title | Status |
 |---|---|---|
-| 1 | 15 Forgotten Black Towns America Erased | in progress |
+| 1 | 15 Forgotten Black Towns America Erased | published 2026-11-23: https://youtu.be/7g9YakbFc5s |
 | 2 | The Black Millionaires America Forgot | todo |
 | 3 | 10 Black Families Who Disappeared Into White America | todo |
 | 4 | The Black Men Who Fought the Klan | todo |
