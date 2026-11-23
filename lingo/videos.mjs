@@ -586,6 +586,87 @@ export const VIDEOS = {
       },
     ],
   },
+  chinese_dialects: {
+    title: "How Different Do Chinese Dialects Sound", // reference @elchuro (Chinese cities); audio: build_chinese.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#de2910",
+    items: [
+      {
+        name: "Standard Mandarin", wojak: "zh_cmn_f", flag: "cn", speakers: "~1 billion", scene: "abstract", loc: null,
+        cards: [
+          "Standard Mandarin, or Putonghua, is based on the speech of Beijing. Every school in China teaches it.",
+          "All of China runs on one clock, Beijing time, even though the country is as wide as five time zones.",
+          "This is a speaking clock: 'At the last tone, Beijing time is…', and then it reads out the date and the time.",
+        ],
+        audio: { file: "cache/audio/chinese_dialects/standard_mandarin.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Henan Dialect", wojak: "zh_hen_f", flag: "cn", speakers: "~170 million", scene: "grassland", loc: null,
+        cards: [
+          "Henan, in central China, speaks Central Plains Mandarin. It sounds close to standard Mandarin, but many words are different.",
+          "Its most famous word is 'zhōng': it means 'OK'. A Henan person asks 'Zhōng bù zhōng?', 'OK or not?'",
+          "She said: 'The most typical word in Henan dialect is \"zhong\": \"zhong\" means OK, \"bu zhong\" means not OK. Another one: on a hot day, sitting in an air-conditioned room is so \"dai jin\": \"dai jin\" means comfy. And \"What are you doing?\" in Henan dialect is…'",
+        ],
+        audio: { file: "cache/audio/chinese_dialects/henan_dialect.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Guiyang Dialect", wojak: "zh_gui_f", flag: "cn", speakers: "~260 million", scene: "hills", loc: null,
+        cards: [
+          "Guiyang is the capital of Guizhou, in the mountains of south-west China. It speaks Southwestern Mandarin, the biggest branch of Mandarin.",
+          "Some everyday words differ: in Guiyang, a daughter is called 'guniang', which means 'girl' in standard Chinese.",
+          "She said: 'We're from Guiyang, Guizhou Province, China. My name is Huang Chaofen. His name is Wang Changjiu. We came to Canada with our daughter's family. In Guiyangese, we call our daughter \"guniang\".'",
+        ],
+        audio: { file: "cache/audio/chinese_dialects/guiyang_dialect.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Yunnan Dialect", wojak: "zh_yun", flag: "cn", speakers: "~260 million", scene: "forest", loc: null,
+        cards: [
+          "Yunnan, on China's borders with Myanmar, Laos and Vietnam, also speaks Southwestern Mandarin.",
+          "Many Yunnan families moved south into Myanmar and Thailand. He was born in Chiang Mai, Thailand, and now lives in Taiwan.",
+          "He said: 'Hello everyone, now I'm going to speak Yunnan dialect for you. I was born in Chiang Mai, Thailand, so I'm ethnically Chinese. My parents both came from Yunnan, through Burma, and later to Thailand…'",
+        ],
+        audio: { file: "cache/audio/chinese_dialects/yunnan_dialect.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Shanghainese", wojak: "zh_sha_f", flag: "cn", speakers: "~14 million", scene: "hongkong", loc: null,
+        cards: [
+          "Shanghainese is a Wu dialect, spoken in and around Shanghai. A Mandarin speaker cannot understand it.",
+          "'We' is 'ala' (阿拉) in Shanghainese, but 'wǒmen' in Mandarin.",
+          "She said: 'Hello everyone, I'm a Shanghai native. I grew up here and have lots of childhood memories here. At home I spoke Shanghainese with my parents, but at school and at work we speak Putonghua, because from childhood our schools required us to speak Putonghua.'",
+        ],
+        audio: { file: "cache/audio/chinese_dialects/shanghainese.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Linhai Dialect", wojak: "zh_lin", flag: "cn", speakers: "~80 million (all Wu)", scene: "village", loc: null,
+        cards: [
+          "Linhai is a city in Zhejiang, south of Shanghai. Its speech belongs to the southern branch of Wu, quite different from Shanghainese.",
+          "His subtitles write 'my name' as 我个名字, with the Wu word 个 where Mandarin says 的.",
+          "He said: 'Hello everyone, my name is Cai… I come from Linhai, in Zhejiang. Linhai is a place…', and he goes on to talk about his hometown.",
+        ],
+        audio: { file: "cache/audio/chinese_dialects/linhai_dialect.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Siyi Yue", wojak: "zh_yue", flag: "cn", speakers: "~4 million", scene: "tropical", loc: null,
+        cards: [
+          "Siyi Yue is spoken in four counties of Guangdong, south-west of Guangzhou. It is a cousin of Cantonese with different tones.",
+          "Many of the first Chinese in America, from the 1850s gold rush on, came from these four counties, so this was their Cantonese.",
+          "He said: 'Hello everyone, I'm Joseph Ho. I'm about 25 this year. I'm recording this in my hometown, Sunwui, and what I'm speaking now is Sunwui speech: it's actually a kind of Cantonese.'",
+        ],
+        audio: { file: "cache/audio/chinese_dialects/siyi_yue.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Penang Hokkien", wojak: "zh_hok", flag: "my", speakers: "~28 million (all Hokkien)", scene: "beach", loc: null,
+        cards: [
+          "Hokkien is a Min language from Fujian, in south-east China. Emigrants carried it to Taiwan, Singapore and Malaysia.",
+          "Timothy says Penang Hokkien is over 300 years old: older than the city of Penang itself, and full of Malay words.",
+          "He said: 'Hello and greetings. My name is Timothy. I live in Penang, in Malaysia. My father is Sinning Chinese. My mother is Hokkien Chinese. As we live in Penang, we speak Penang Hokkien.'",
+        ],
+        audio: { file: "cache/audio/chinese_dialects/penang_hokkien.wav", start: 0, voice: "m" },
+      },
+    ],
+  },
   portuguese_understand: {
     title: "Languages Portuguese Speakers Can Almost Understand", // same format as french/spanish_understand; audio: build_portuguese.py
     layout: "story",
