@@ -1,0 +1,80 @@
+{
+ "rgm_fears": {
+  "image": "doc_rgm24.jpg",
+  "pw": 2415,
+  "ph": 3452,
+  "phrase": "American soldiers would loot Japan. Americans would rob Japan of all the food. Women and girls would be violated. All men would be killed. What was left of Tokyo would be devastated.",
+  "rects": [
+   [
+    425,
+    542,
+    631,
+    48
+   ],
+   [
+    425,
+    596,
+    766,
+    50
+   ],
+   [
+    426,
+    653,
+    633,
+    48
+   ],
+   [
+    423,
+    709,
+    441,
+    40
+   ],
+   [
+    426,
+    765,
+    819,
+    47
+   ]
+  ]
+ },
+ "rgm_road": {
+  "image": "doc_rgm31.jpg",
+  "pw": 2416,
+  "ph": 3452,
+  "phrase": "They stood at attention but faced away from the road",
+  "rects": [
+   [
+    372,
+    818,
+    668,
+    56
+   ],
+   [
+    90,
+    876,
+    446,
+    62
+   ]
+  ]
+ },
+ "rgm_hellhole": {
+  "image": "doc_rgm100.jpg",
+  "pw": 2416,
+  "ph": 3452,
+  "phrase": "There has never been a blacker hellhole than the POW hospital we are now evacuating",
+  "rects": [
+   [
+    1403,
+    912,
+    910,
+    54
+   ],
+   [
+    1403,
+    970,
+    672,
+    55
+   ]
+  ]
+ }
+}

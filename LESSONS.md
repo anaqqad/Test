@@ -36,6 +36,7 @@ learn from former generations to excel at each new one".) Method: skill `wwii-fr
 | 25 | 20 Nov | 28:01 | 30 | 15 h | Homma Expected MacArthur's Revenge. Then the Bataan Survivors Took the Stand. | homma-trial |
 | 26 | 21 Nov | 30:17 | – | new | The True Story of the Raid at Cabanatuan — the 121 Rangers Who Freed the Survivors of Bataan ([link](https://youtu.be/lV0NgfQNU_M)) | cabanatuan-raid |
 | 27 | 22 Nov | 33:11 | – | new | Navy File Shows What George H.W. Bush Really Did in WW2 ([link](https://youtu.be/8oOy8vqR4Lg)) | bush-chichijima |
+| 28 | 23 Nov | 34:34 | – | new | Japan Expected MacArthur to Humiliate Them on the Missouri. Then He Called Two Prisoners Forward. https://youtu.be/ilp_rV0J8-A | missouri-surrender |
 
 What the numbers say so far (re-check as the 30-min episodes age; views at 1–2 days mean little):
 - The two hits are contrasts about **enemy POWs inside America**, with an expectation the country upended: "were told to
@@ -86,6 +87,18 @@ What the numbers say so far (re-check as the 30-min episodes age; views at 1–2
   shot. Overlay ids shift when a card is added: rename the old webms by content instead of re-rendering 100 cards.
   Studio: youtube.com/upload jumped to another channel; open `studio.youtube.com/channel/<id>/videos/upload` and switch
   accounts at youtube.com/channel_switcher.
+
+- **Missouri surrender (28):** WWII Box's MacArthur format on a trending topic (other channels' Missouri videos 165K-420K
+  that week), thumbnail copied exactly (straight red arrow). First episode with **3D reconstructions** (owner, 23 Nov:
+  Immersive Past's 1.4M video is about half simple 3D): 8 Blender EEVEE shots, faceless clay figures. Lessons: EEVEE
+  motion blur cost ~10 s/frame (off: ~2 s); PNG frames filled the disk (JPEG); a killed Blender let the loop encode a
+  short clip that the next run skipped (encode only after a clean exit); `TaskStop` leaves bash render loops alive and
+  editing the script under them mixes versions (kill by command line, write a new file). Four real MacArthur clips from
+  government reels (Navy Combat Bulletin No. 7, United News 208-UN-171B); his best lines are on no reel, so quote cards.
+  Kokoro read "Shigemitsu" as "Shijemitsu": "Shee-gay-meet-soo" (whisper-checked). Cards: three parallel `render.mjs`
+  processes. **Any plan change after cards render shifts overlay ids**: copy storyboard.json first and rename webms by
+  content (did it twice). QC found NARA 80-G "photos" that are index cards, United News eagle end cards, white flashes,
+  and two Screen Magazine shots not from Japan: QC every clip at start/mid/end before assembling.
 
 ## Ideas to test next (pick one per episode, write the result here)
 - Bring the hit shape into the 30-min format: an enemy-POW-in-America contrast story told long (e.g. the "Texas farmer
