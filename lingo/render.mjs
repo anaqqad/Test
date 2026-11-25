@@ -103,6 +103,7 @@ function storyPage(video, item, idx, dur, audio) {
   .pill{left:50%;bottom:44px;transform:translateX(-50%);background:rgba(15,18,28,.85);color:#fff;font-weight:700;font-size:28px;padding:12px 26px;border-radius:40px;display:flex;align-items:center;gap:14px;box-shadow:0 8px 24px rgba(0,0,0,.3);white-space:nowrap}
   .pill.muted{color:#cfd3dc;font-size:24px}
   #listen{left:1135px}
+  #place{right:28px;bottom:28px;background:rgba(15,18,28,.72);color:#fff;font-weight:700;font-size:22px;padding:8px 18px;border-radius:30px;white-space:nowrap}
   .eq{display:flex;gap:4px;align-items:flex-end;height:26px}.eq i{display:block;width:6px;background:${accent};border-radius:3px;height:10px}
   #cap{left:1135px;font-size:40px;padding:14px 34px;opacity:0}
   #cap .w{font-weight:800}
@@ -116,12 +117,13 @@ function storyPage(video, item, idx, dur, audio) {
   #pitch small{position:absolute;left:24px;top:14px;color:#cfd6e6;font-weight:800;font-size:22px;letter-spacing:2px}
   #pitch svg{position:absolute;left:0;top:0;width:1180px;height:230px}
   </style></head><body>
-  <div id="bg" class="abs">${scene(item.scene, item.name)}</div>
+  <div id="bg" class="abs">${item.photo ? `<img src="${fileUrl(path.join(HERE, "cache", "photos", item.photo + ".jpg"))}" style="width:100%;height:100%;object-fit:cover;object-position:${item.photoPos || "50% 50%"};filter:brightness(.95)">` : scene(item.scene, item.name)}</div>
   <div id="char" class="abs">${item.wojak && fs.existsSync(path.join(HERE, "wojaks", item.wojak + ".png")) ? `<img src="${fileUrl(path.join(HERE, "wojaks", item.wojak + ".png"))}" style="position:absolute;left:0;bottom:60px;width:720px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.35))">` : character(withGender(item.char, audio && audio.voice), "c" + idx)}</div>
   ${video.sim ? `<div id="sim" class="abs">🤖 AI SIMULATION · reconstructed pronunciation</div>` : ""}
   <div id="cards" class="abs">${item.script ? `<div id="script"><small>${item.scriptLabel || "ORIGINAL TEXT"}</small><span style="font-family:'${item.scriptFont || "Noto Serif"}',serif;${item.scriptSize ? `font-size:${item.scriptSize}px` : ""}">${esc(item.script)}</span></div>` : ""}${item.like ? `<div id="likerow"><div id="like"><small>🤔 Sounds like…</small>${esc(item.like)}</div>${item.verdict ? `<div id="verdict" style="--v:${item.verdict[1]}">${esc(item.verdict[0])}</div>` : ""}</div>` : ""}${item.cards.map((c) => `<div class="card">${rich(c)}</div>`).join("")}</div>
   ${item.loc ? `<div id="globe" class="abs">${globe(item.loc)}<br><span class="lab">📍 ${esc(item.loc[2])}</span></div>` : ""}
   ${listen}
+  ${item.place ? `<div id="place" class="abs">📍 ${esc(item.place)}</div>` : ""}
   <div id="cap" class="abs pill"><span>🔊</span><span class="w"></span></div>
   ${video.pitchLine && audio?.pitch ? `<div id="pitch" class="abs"><small>🎵 PITCH OF THE VOICE (THE TONES)</small><svg viewBox="0 0 1180 230"><text x="1160" y="70" text-anchor="end" fill="#8b93a7" font-size="20" font-weight="700">HIGH</text><text x="1160" y="205" text-anchor="end" fill="#8b93a7" font-size="20" font-weight="700">LOW</text><path id="pl" fill="none" stroke="#ffd23f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle id="pd" r="11" fill="#fff"/></svg></div>` : ""}
   <div id="bar" class="abs">${flagHtml(item.flag, 66)}<h1>${esc(item.name)}</h1></div>

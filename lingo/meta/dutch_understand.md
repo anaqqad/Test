@@ -26,6 +26,8 @@ Sranan Tongo: "WIKITONGUES- Hans speaking Sranan" by Wikitongues, CC BY 3.0
 Licences: https://creativecommons.org/licenses/by-sa/4.0/ , https://creativecommons.org/licenses/by/3.0/
 Speaker counts are estimates; sources disagree for many regional languages.
 
+Background photos (all via Wikimedia Commons): Helmond Castle by Kasteelbeer, CC BY-SA 3.0 NL; Sint Annaparochie by RomkeHoekstra, CC BY-SA 4.0; Afrikaans Language Monument by Schavda, CC BY-SA 3.0; Grote Markt and Martini Tower, Groningen by Wutsje, CC BY-SA 3.0; Leeuwarden by L-BBE, CC BY 3.0; Waterkant, Paramaribo by Maarten van der Bent, CC BY-SA 2.0
+
 Thumbnail photo: Bo-Kaap, Cape Town: photo by South African Tourism, CC BY 2.0, via Wikimedia Commons
 
 #languages #dutch #nederlands

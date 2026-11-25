@@ -51,6 +51,7 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
   reading scholarly IPA reconstructions (`lingo/sim_audio.py`, `lingo/ipa_say.py`), labelled "AI SIMULATION" on screen
   and in the description. Tick YouTube's altered/synthetic content box for it.
 - Exception (owner, 2026-10-30): the whistled-language song series (`lingo/song/`) may use a computer-made beat; the whistles stay real recordings (tuned/cut). Say so in the description.
+- Backgrounds: real photos of the place where each language is spoken (owner, 2026-11-25: the drawn scenes looked bad, "house over tree, tree under road"). In videos.mjs set `photo: "<name>"` (file `lingo/cache/photos/<name>.jpg`, free licence from Commons), `photoPos` and `place` (caption). Credit the photos in the description.
 - Credit every recording (`lingo/out/<video>_credits.txt` → YouTube description).
 - Let each recording play a few seconds longer than before (owner, 2026-11-22: "I don't want recordings to be long, just add more seconds to what we used to do"): about 20–25 s per language instead of 14–22 s. The first seconds often sound like an ordinary language; viewers need a bit more time to hear it. Check the speaker's gender from the transcript or video, not pitch alone (a 198 Hz male voice was misread in the Portuguese video).
 - Map-tour videos: `lingo/maptour.mjs` + `lingo/maptour_episodes.mjs` (done: `official`, Countries With the Most Official Languages).

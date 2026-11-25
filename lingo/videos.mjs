@@ -738,7 +738,7 @@ export const VIDEOS = {
     accent: "#ae1c28",
     items: [
       {
-        name: "Brabantian", wojak: "nl_bra", flag: "nl", speakers: "~5 million", scene: "village", loc: null,
+        name: "Brabantian", wojak: "nl_bra", flag: "nl", speakers: "~5 million", scene: "village", loc: null, photo: "bg_nl_helmond", place: "Helmond Castle, North Brabant", photoPos: "50% 55%",
         cards: [
           "Over 5 million people live where Brabantian is the everyday speech: the southern Netherlands and northern Belgium.",
           "Every town has its own version. He speaks Helmonds, from Helmond, in North Brabant.",
@@ -747,7 +747,7 @@ export const VIDEOS = {
         audio: { file: "cache/audio/dutch_understand/brabantian.wav", start: 0, voice: "m" },
       },
       {
-        name: "Bildts", wojak: "nl_bil_f", flag: "nl", speakers: "~6,000", scene: "grassland", loc: null,
+        name: "Bildts", wojak: "nl_bil_f", flag: "nl", speakers: "~6,000", scene: "grassland", loc: null, photo: "bg_nl_bildt", place: "Sint Annaparochie, Het Bildt", photoPos: "60% 50%",
         cards: [
           "Het Bildt is land won from the sea in Friesland in 1505. Workers from Holland settled there and mixed their Dutch with the local Frisian.",
           "About 6,000 people speak Bildts as their mother tongue. They call themselves 'Bilkerts'.",
@@ -756,7 +756,7 @@ export const VIDEOS = {
         audio: { file: "cache/audio/dutch_understand/bildts.wav", start: 0, voice: "f" },
       },
       {
-        name: "Afrikaans", wojak: "nl_afr", flag: "za", speakers: "~7 million", scene: "savanna", loc: null,
+        name: "Afrikaans", wojak: "nl_afr", flag: "za", speakers: "~7 million", scene: "savanna", loc: null, photo: "bg_nl_afrikaans", place: "Afrikaans Language Monument, Paarl", photoPos: "60% 50%",
         cards: [
           "Afrikaans grew from the Dutch of 17th-century settlers at the Cape, in South Africa. About 7 million people speak it as their first language.",
           "It dropped most verb endings: 'ek is' for 'ik ben', 'jy is' for 'jij bent', 'hulle is' for 'zij zijn'.",
@@ -765,7 +765,7 @@ export const VIDEOS = {
         audio: { file: "cache/audio/dutch_understand/afrikaans.wav", start: 0, voice: "m" },
       },
       {
-        name: "Gronings", wojak: "nl_gro", flag: "nl", speakers: "~590,000", scene: "moorland", loc: null,
+        name: "Gronings", wojak: "nl_gro", flag: "nl", speakers: "~590,000", scene: "moorland", loc: null, photo: "bg_nl_groningen", place: "Martini Tower, Groningen", photoPos: "40% 50%",
         cards: [
           "Gronings is spoken in Groningen, in the north-east of the Netherlands. Linguists count it as Low Saxon, the Low German family, not Dutch.",
           "Some of its speakers call it a language of its own: 'Grunnegs'.",
@@ -774,7 +774,7 @@ export const VIDEOS = {
         audio: { file: "cache/audio/dutch_understand/gronings.wav", start: 0, voice: "m" },
       },
       {
-        name: "West Frisian", wojak: "u_fry_f", flag: "nl", speakers: "~470,000", scene: "baltic", loc: null,
+        name: "West Frisian", wojak: "u_fry_f", flag: "nl", speakers: "~470,000", scene: "baltic", loc: null, photo: "bg_nl_leeuwarden", place: "Leeuwarden, Friesland", photoPos: "55% 50%",
         cards: [
           "Frisian is spoken in Friesland, in the north of the Netherlands, where it is an official language next to Dutch.",
           "It sounds close, but many words are not: cheese is 'tsiis', not 'kaas', and church is 'tsjerke', not 'kerk'.",
@@ -783,7 +783,7 @@ export const VIDEOS = {
         audio: { file: "cache/audio/dutch_understand/west_frisian.wav", start: 0, voice: "f" },
       },
       {
-        name: "Sranan Tongo", wojak: "nl_srn", flag: "sr", speakers: "~500,000", scene: "amazon", loc: null,
+        name: "Sranan Tongo", wojak: "nl_srn", flag: "sr", speakers: "~500,000", scene: "amazon", loc: null, photo: "bg_nl_paramaribo", place: "Waterkant, Paramaribo", photoPos: "50% 50%",
         cards: [
           "Sranan Tongo is the common language of Suriname, a Dutch colony until 1975. It is based on English, with many Dutch words.",
           "Dutch street slang took words from it: 'mattie' (friend) comes from Sranan 'mati'. He is Dutch and learned Sranan in Amsterdam.",
