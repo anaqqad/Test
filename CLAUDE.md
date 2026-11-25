@@ -64,6 +64,7 @@ Owner's channel name: **LingoDude**. Six scripted 1080p videos in the "Nearly Ex
 - Swedish "understand" video (done, `swedish_understand`, `build_swedish.py`): Norwegian, Åland Swedish, Danish, Närpes dialect, Icelandic, Runic Swedish, Old Norse. Faroese and Elfdalian have no free speech recording on Commons/Lingua Libre. Dutch done too (`dutch_understand`, `build_dutch.py`). Next "understand" idea from the owner: Italian (Italian is one country: confirm first).
 - Easiest languages (done): `lingo/easy.json` rendered with `node vulgar.mjs --set easy` (explicit `rank` field). Rank = FSI weeks, ties broken by Swadesh look-alike % (`easy_score.py`, Wiktionary appendices in `easy_data/`).
 - Long-form (8–12 min) map explainers in the TheLanguageMap style: Blueprint 04 `lingo/blueprints/long-form-thelanguagemap.md`, ranked ideas `lingo/blueprints/long-form-video-ideas.md` (first pick Malta; narrator still to be decided by the owner).
+- **Next project (owner, 2026-11-25): Infinite Language Generator** + AI deciphering video. Brief and blockers: `lingo/ideas/infinite_language_generator.md`. Code goes in a separate GitHub repo the owner is creating. Finnish "understand" video paused (nothing downloaded yet).
 - Next-videos to-do list from the owner: `lingo/ideas/TODO.md` (polite ranking, Arabic variants, masculine ranking, hardest and easiest rankings).
 
 ## Uploading to YouTube (local session on the owner's PC)

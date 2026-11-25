@@ -325,3 +325,7 @@ One Word in 10 Languages, Languages That Count Differently.
    close-up), so viewers may leave. Fix: no single visual for more than ~4–5 s; cut to a photo, a new framing or a
    card change inside long lines; use more ISL alternatives (Valletta, Gozo, Mdina close-ups), and split long
    narration lines into two shots. Mid-roll ad break at 3:31 (Sicily cliffhanger), optional 6:13.
+
+NEXT PROJECT (owner, 2026-11-25): Infinite Language Generator + "AI deciphering championship" video.
+   Full brief and known blockers: ideas/infinite_language_generator.md. Code goes in a new GitHub repo the owner is
+   creating (not anaqqad/Test). Paid AI APIs and public hosting need the owner's approval first.
