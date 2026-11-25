@@ -1,0 +1,74 @@
+{
+ "yank_287": {
+  "image": "yank_democracy.jpg",
+  "pw": 800,
+  "ph": 1830,
+  "phrase": "To date I've received 287 letters, and, strange as it may seem, 183 are from white men and women in the armed service",
+  "rects": [
+   [
+    87,
+    1158,
+    692,
+    29
+   ],
+   [
+    86,
+    1178,
+    692,
+    34
+   ],
+   [
+    86,
+    1202,
+    190,
+    29
+   ]
+  ]
+ },
+ "yank_burma": {
+  "image": "yank_democracy.jpg",
+  "pw": 800,
+  "ph": 1830,
+  "phrase": "we the white soldiers will begin to wonder: What are we fighting for?",
+  "rects": [
+   [
+    542,
+    842,
+    224,
+    33
+   ],
+   [
+    84,
+    867,
+    679,
+    30
+   ]
+  ]
+ },
+ "eo_equal": {
+  "image": "eo9981_p1.jpg",
+  "pw": 1920,
+  "ph": 3070,
+  "phrase": "there shall be equality of treatment and opportunity for all persons in the armed services without regard to race, color, religion or national origin",
+  "rects": [
+   [
+    488,
+    1388,
+    1140,
+    42
+   ],
+   [
+    403,
+    1466,
+    1195,
+    42
+   ],
+   [
+    403,
+    1544,
+    520,
+    42
+   ]
+  ]
+ }
+}

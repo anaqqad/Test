@@ -38,6 +38,7 @@ learn from former generations to excel at each new one".) Method: skill `wwii-fr
 | 27 | 22 Nov | 33:11 | – | new | Navy File Shows What George H.W. Bush Really Did in WW2 ([link](https://youtu.be/8oOy8vqR4Lg)) | bush-chichijima |
 | 28 | 23 Nov | 34:34 | – | new | Japan Expected MacArthur to Humiliate Them on the Missouri. Then He Called Two Prisoners Forward. https://youtu.be/ilp_rV0J8-A | missouri-surrender |
 | 29 | 25 Nov | 30:53 | – | new | Japanese POWs Were Given Baseball Bats. At 2 A.M., They Charged the Guns. https://youtu.be/pPmkm7kpTX8 | cowra-breakout |
+| 30 | 25 Nov | 14:30 | – | new | German POWs Ate at the Tables. The Black Soldiers Were Sent to the Kitchen. https://youtu.be/lXUmPLFeHX4 | lunchroom-pows |
 
 What the numbers say so far (re-check as the 30-min episodes age; views at 1–2 days mean little):
 - The two hits are contrasts about **enemy POWs inside America**, with an expectation the country upended: "were told to
@@ -120,6 +121,15 @@ What the numbers say so far (re-check as the 30-min episodes age; views at 1–2
   frame with the sound off before assembly: if you cannot name the place, re-render.
   Then the owner: "i said before don't use 3D rendering anymore": **no Blender/3D reconstruction scenes from now on**;
   unfilmed moments get photos, tagged film stand-ins, maps, documents and quote cards.
+
+- **Lunchroom POWs (30):** owner switched to **15-min episodes** and **Captive Witness's titles and thumbnails** (25 Nov
+  2026) after the 30-min run got 20-466 views; topic = the documented version of the niche's "German POWs were treated
+  better than..." trend (Trimmingham's Yank letter, Lena Horne at Camp Robinson, Lloyd Brown in Salina). Thumbnail: B&W split
+  on real images + 2-word yellow question ("THE KITCHEN?"). No 3D. QC found: Film Bulletin 164 is too faded to use even
+  graded (white blobs) and 'The Negro Soldier' mixes in Pearl Harbor ruins, Chinese refugees and combat under unrelated
+  lines: **check every shot's content against its sentence, not just symbols** (sheet each film's used ranges first).
+  Kokoro and Whisper here run on the CPU (no GPU slot needed). PC queue: Restricted Files coordinates; ask it before every
+  heavy job and report "done". Never delete published episodes' out/*.mp4 (skill rule; Cowra's was deleted by mistake).
 
 ## Ideas to test next (pick one per episode, write the result here)
 - Bring the hit shape into the 30-min format: an enemy-POW-in-America contrast story told long (e.g. the "Texas farmer
