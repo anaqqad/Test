@@ -37,6 +37,7 @@ learn from former generations to excel at each new one".) Method: skill `wwii-fr
 | 26 | 21 Nov | 30:17 | – | new | The True Story of the Raid at Cabanatuan — the 121 Rangers Who Freed the Survivors of Bataan ([link](https://youtu.be/lV0NgfQNU_M)) | cabanatuan-raid |
 | 27 | 22 Nov | 33:11 | – | new | Navy File Shows What George H.W. Bush Really Did in WW2 ([link](https://youtu.be/8oOy8vqR4Lg)) | bush-chichijima |
 | 28 | 23 Nov | 34:34 | – | new | Japan Expected MacArthur to Humiliate Them on the Missouri. Then He Called Two Prisoners Forward. https://youtu.be/ilp_rV0J8-A | missouri-surrender |
+| 29 | 25 Nov | 30:53 | – | new | Japanese POWs Were Given Baseball Bats. At 2 A.M., They Charged the Guns. https://youtu.be/pPmkm7kpTX8 | cowra-breakout |
 
 What the numbers say so far (re-check as the 30-min episodes age; views at 1–2 days mean little):
 - The two hits are contrasts about **enemy POWs inside America**, with an expectation the country upended: "were told to
@@ -99,6 +100,18 @@ What the numbers say so far (re-check as the 30-min episodes age; views at 1–2
   processes. **Any plan change after cards render shifts overlay ids**: copy storyboard.json first and rename webms by
   content (did it twice). QC found NARA 80-G "photos" that are index cards, United News eagle end cards, white flashes,
   and two Screen Magazine shots not from Japan: QC every clip at start/mid/end before assembling.
+
+- **Cowra breakout (29):** back to our winning "Japanese POWs…" title shape after the MacArthur / Pacific run flopped
+  (12-50 views each). Owner feedback on Missouri became rules: **no 3D second on screen more than twice** (14 shots, five
+  of them second angles; `tools/reuse_check.py`) and **documents full frame on their own** (`LedgerDocument plain: true`,
+  no card template). QC found the same rule broken by **archive film**: the last 4 minutes looped 36 s of one Noumea
+  reel (up to 6x) and the night inserts reused NB 386-392; `reuse_check.py` now counts every film, visible time only, and
+  the fix used free ranges from a contact sheet of unused seconds. The card sheet also caught photos repeated 3-4 times
+  (Toyoshima's ID photo 4x, the same Sunday Telegraph front page 3x, one Hardy print twice back to back): count
+  ArchivePrint images before rendering. BigNumber labels over ~55 characters wrap into the source line; GlobeMap pins
+  that sit close need `"below": true` (new) on one label. Episode data lives in tools/ (Missouri's build/ scripts were
+  lost). Blender: night needs exposure ~1.1 and moon 0.25; paths must be absolute (`$(pwd -W)`) or frames land in C:uild.
+  AWM gives 640 px downloads only. Shared PC: cards and assembly ran on the queue (#7); small CPU jobs of others alongside.
 
 ## Ideas to test next (pick one per episode, write the result here)
 - Bring the hit shape into the 30-min format: an enemy-POW-in-America contrast story told long (e.g. the "Texas farmer

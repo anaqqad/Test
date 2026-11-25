@@ -1,0 +1,82 @@
+{
+ "long_baseball": {
+  "image": "long_baseball.png",
+  "pw": 1139,
+  "ph": 1984,
+  "phrase": "constant wrestling and baseball",
+  "rects": [
+   [
+    356,
+    1213,
+    393,
+    41
+   ]
+  ]
+ },
+ "long_weapons": {
+  "image": "long_weapons.png",
+  "pw": 1139,
+  "ph": 1984,
+  "phrase": "knives, baseball bats, clubs studded with nails and hooks, wire stilettos and garotting cords",
+  "rects": [
+   [
+    349,
+    513,
+    679,
+    41
+   ],
+   [
+    143,
+    544,
+    393,
+    41
+   ]
+  ]
+ },
+ "gazette_gc": {
+  "image": "gazette_gc.png",
+  "pw": 1434,
+  "ph": 2306,
+  "phrase": "stood their ground and continued to work the gun until bashed to death",
+  "rects": [
+   [
+    589,
+    1391,
+    126,
+    38
+   ],
+   [
+    143,
+    1413,
+    572,
+    38
+   ],
+   [
+    141,
+    1436,
+    69,
+    38
+   ]
+  ]
+ },
+ "long_jammed": {
+  "image": "long_jammed.png",
+  "pw": 1139,
+  "ph": 1984,
+  "phrase": "swung the gun round to fire on the Australians' huts but it jammed",
+  "rects": [
+   [
+    685,
+    791,
+    358,
+    41
+   ],
+   [
+    146,
+    822,
+    481,
+    41
+   ]
+  ]
+ }
+}
