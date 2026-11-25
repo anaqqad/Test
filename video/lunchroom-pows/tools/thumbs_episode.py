@@ -41,22 +41,22 @@ def arrow(d, p0, p1, width=20, head=58):
 
 
 def main():
-    pows = Image.open(ROOT / "assets/stills/pows_debarking_b.jpg").convert("RGB").crop((330, 330, 1420, 1300))
+    pows = Image.open(ROOT / "assets/stills/pows_debarking_b.jpg").convert("RGB").crop((360, 300, 1340, 1310))
     vet_png = ROOT / "build/vet.png"
     if not vet_png.exists():
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(ROOT / "assets/footage/negro_soldier_1944.mp4"), "-ss", "744",
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(ROOT / "assets/footage/negro_soldier_1944.mp4"), "-ss", "746",
                         "-frames:v", "1", str(vet_png)], check=True)
     vet = Image.open(vet_png).convert("RGB")
     img = Image.new("RGB", (W, H))
-    img.paste(bw(cover(pows, 700, H, (0.5, 0.25))), (0, 0))
-    img.paste(bw(cover(vet, 576, H, (0.5, 0.2)), 1.15), (704, 0))
+    img.paste(bw(cover(pows, 700, H, (0.5, 0.0))), (0, 0))
+    img.paste(bw(cover(vet.crop((160, 0, 1120, 720)), 576, H, (0.45, 0.0)), 1.15), (704, 0))
     d = ImageDraw.Draw(img)
     d.rectangle([700, 0, 704, H], fill=(0, 0, 0))
-    f = font("Black", 172)
+    f = font("Black", 150)
     for i, line in enumerate(["THE", "KITCHEN?"]):
-        x, y = 34, 18 + i * 150
+        x, y = 30, 400 + i * 130
         d.text((x, y), line, font=f, fill=YELLOW, stroke_width=10, stroke_fill=(0, 0, 0))
-    arrow(d, (560, 470), (690, 560))
+    arrow(d, (590, 460), (760, 330))
     img.save(T / "thumbnail_A.jpg", quality=92)
     print("thumbnail/thumbnail_A.jpg")
 
