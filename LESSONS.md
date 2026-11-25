@@ -112,6 +112,12 @@ What the numbers say so far (re-check as the 30-min episodes age; views at 1–2
   that sit close need `"below": true` (new) on one label. Episode data lives in tools/ (Missouri's build/ scripts were
   lost). Blender: night needs exposure ~1.1 and moon 0.25; paths must be absolute (`$(pwd -W)`) or frames land in C:uild.
   AWM gives 640 px downloads only. Shared PC: cards and assembly ran on the queue (#7); small CPU jobs of others alongside.
+  Owner after publishing ("what does this place mean", 18:20): the `ash_walk` shot (burnt hut floors at dawn) read as
+  dark slabs on a grey void: flat grey sky, grass rendered grey, smoke too thin to see, no hut or fence for scale, and it
+  ran over "the shooting went on" while the words that explain it ("almost every hut was ash") came 6 s later over film.
+  Rule: **every 3D shot must say what it is without the tag**: one recognisable object (a half-burnt hut, a fence, a
+  person), colour and sky that are not grey, and it sits on the sentence that names it. Check each 3D shot's middle
+  frame with the sound off before assembly: if you cannot name the place, re-render.
 
 ## Ideas to test next (pick one per episode, write the result here)
 - Bring the hit shape into the 30-min format: an enemy-POW-in-America contrast story told long (e.g. the "Texas farmer
