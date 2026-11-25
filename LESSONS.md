@@ -118,6 +118,8 @@ What the numbers say so far (re-check as the 30-min episodes age; views at 1–2
   Rule: **every 3D shot must say what it is without the tag**: one recognisable object (a half-burnt hut, a fence, a
   person), colour and sky that are not grey, and it sits on the sentence that names it. Check each 3D shot's middle
   frame with the sound off before assembly: if you cannot name the place, re-render.
+  Then the owner: "i said before don't use 3D rendering anymore": **no Blender/3D reconstruction scenes from now on**;
+  unfilmed moments get photos, tagged film stand-ins, maps, documents and quote cards.
 
 ## Ideas to test next (pick one per episode, write the result here)
 - Bring the hit shape into the 30-min format: an enemy-POW-in-America contrast story told long (e.g. the "Texas farmer
