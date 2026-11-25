@@ -730,6 +730,69 @@ export const VIDEOS = {
       },
     ],
   },
+  dutch_understand: {
+    title: "Languages Dutch Speakers Can Almost Understand", // same format as swedish_understand; audio: build_dutch.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#ae1c28",
+    items: [
+      {
+        name: "Brabantian", wojak: "nl_bra", flag: "nl", speakers: "~5 million", scene: "village", loc: null,
+        cards: [
+          "Over 5 million people live where Brabantian is the everyday speech: the southern Netherlands and northern Belgium.",
+          "Every town has its own version. He speaks Helmonds, from Helmond, in North Brabant.",
+          "He said: 'Helmonds: are there still many people in Helmond who speak Helmonds? Not really. I still have a few friends I can talk Helmonds with now and then, but it's changing. Most parents don't speak Helmonds to their kids anymore.'",
+        ],
+        audio: { file: "cache/audio/dutch_understand/brabantian.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Bildts", wojak: "nl_bil_f", flag: "nl", speakers: "~6,000", scene: "grassland", loc: null,
+        cards: [
+          "Het Bildt is land won from the sea in Friesland in 1505. Workers from Holland settled there and mixed their Dutch with the local Frisian.",
+          "About 6,000 people speak Bildts as their mother tongue. They call themselves 'Bilkerts'.",
+          "She said: 'I'm Anna Leijstra. I'm here today in the language pavilion Mem to give a Bildts lesson. I do that in winter: I teach Bildts to learners. I'm from Ouwe Dyk, I'm a real Bilkert. It's a beautiful language, and I'll read a little piece in that beautiful language.'",
+        ],
+        audio: { file: "cache/audio/dutch_understand/bildts.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Afrikaans", wojak: "nl_afr", flag: "za", speakers: "~7 million", scene: "savanna", loc: null,
+        cards: [
+          "Afrikaans grew from the Dutch of 17th-century settlers at the Cape, in South Africa. About 7 million people speak it as their first language.",
+          "It dropped most verb endings: 'ek is' for 'ik ben', 'jy is' for 'jij bent', 'hulle is' for 'zij zijn'.",
+          "He said: 'Pleased to meet you. My name is Alaric Naudé, and I'm a professor of linguistics at the University of Suwon, in South Korea. Today I'm going to talk about Afrikaans and the difference between Afrikaans and Dutch: the kinds of words that are used, and where the words come from.'",
+        ],
+        audio: { file: "cache/audio/dutch_understand/afrikaans.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Gronings", wojak: "nl_gro", flag: "nl", speakers: "~590,000", scene: "moorland", loc: null,
+        cards: [
+          "Gronings is spoken in Groningen, in the north-east of the Netherlands. Linguists count it as Low Saxon, the Low German family, not Dutch.",
+          "Some of its speakers call it a language of its own: 'Grunnegs'.",
+          "He said: 'Yes, nice. I'm Theo de Groot. I'm a theatre maker: I'm a director, a writer, and I also act. And besides that, I'm a teacher of Gronings language and literature.'",
+        ],
+        audio: { file: "cache/audio/dutch_understand/gronings.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "West Frisian", wojak: "u_fry_f", flag: "nl", speakers: "~470,000", scene: "baltic", loc: null,
+        cards: [
+          "Frisian is spoken in Friesland, in the north of the Netherlands, where it is an official language next to Dutch.",
+          "It sounds close, but many words are not: cheese is 'tsiis', not 'kaas', and church is 'tsjerke', not 'kerk'.",
+          "She said: 'I work for Afûk in Leeuwarden, and Afûk works to promote the Frisian language and culture in the broadest sense of the word. We have a specialised language bookshop, or gift shop, in Leeuwarden, and we are a publisher. We run promotional campaigns about the Frisian language.'",
+        ],
+        audio: { file: "cache/audio/dutch_understand/west_frisian.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Sranan Tongo", wojak: "nl_srn", flag: "sr", speakers: "~500,000", scene: "amazon", loc: null,
+        cards: [
+          "Sranan Tongo is the common language of Suriname, a Dutch colony until 1975. It is based on English, with many Dutch words.",
+          "Dutch street slang took words from it: 'mattie' (friend) comes from Sranan 'mati'. He is Dutch and learned Sranan in Amsterdam.",
+          "He said: 'Good evening, brothers and sisters. My name is Hans. For five years now I've been speaking Sranan Tongo here in Amsterdam, in the Netherlands. The reason I learned this language: if you grow up in Amsterdam, you hear people speaking Sranan Tongo everywhere.'",
+        ],
+        audio: { file: "cache/audio/dutch_understand/sranan_tongo.wav", start: 0, voice: "m" },
+      },
+    ],
+  },
   swedish_understand: {
     title: "Languages Swedish Speakers Can Almost Understand", // same format as portuguese_understand; audio: build_swedish.py
     layout: "story",
