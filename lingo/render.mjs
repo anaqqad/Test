@@ -45,6 +45,7 @@ function globe([lat, lon], size = 250) {
 const FLAGS = {
   eo: `<svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#009933"/><rect width="1" height="1" fill="#fff"/><path transform="translate(.5 .5) scale(.4)" d="M0 -1 L.29 -.4 L.95 -.31 L.48 .15 L.59 .81 L0 .5 L-.59 .81 L-.48 .15 L-.95 -.31 L-.29 -.4Z" fill="#009933"/></svg>`,
   kernow: `<svg viewBox="0 0 5 3"><rect width="5" height="3" fill="#111"/><rect x="2.1" width=".8" height="3" fill="#fff"/><rect y="1.1" width="5" height=".8" fill="#fff"/></svg>`,
+  karelia: `<svg viewBox="0 0 5 3"><rect width="5" height="3" fill="#d22630"/><rect y="1" width="5" height="1" fill="#3a6fb7"/><rect y="2" width="5" height="1" fill="#2e8b3c"/></svg>`,
   liv: `<svg viewBox="0 0 5 3"><rect width="5" height="3" fill="#2f7d3a"/><rect y="1.2" width="5" height=".6" fill="#fff"/><rect y="1.8" width="5" height="1.2" fill="#2f5fa8"/></svg>`,
   nfris: `<svg viewBox="0 0 5 3"><rect width="5" height="1" fill="#f2c200"/><rect y="1" width="5" height="1" fill="#c8102e"/><rect y="2" width="5" height="1" fill="#1f4fa0"/></svg>`,
   gag: `<svg viewBox="0 0 5 3"><rect width="5" height="1.8" fill="#1f5fbf"/><rect y="1.8" width="5" height=".6" fill="#fff"/><rect y="2.4" width="5" height=".6" fill="#d52b1e"/>${[1.4, 2.5, 3.6].map((x) => `<path transform="translate(${x} ${x === 2.5 ? 0.7 : 0.95}) scale(.28)" d="M0 -1 L.29 -.4 L.95 -.31 L.48 .15 L.59 .81 L0 .5 L-.59 .81 L-.48 .15 L-.95 -.31 L-.29 -.4Z" fill="#f2c200"/>`).join("")}</svg>`,

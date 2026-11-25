@@ -730,6 +730,78 @@ export const VIDEOS = {
       },
     ],
   },
+  finnish_understand: {
+    title: "Languages Finnish Speakers Can Almost Understand", // same format as dutch_understand; audio: build_finnish.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#002f6c",
+    items: [
+      {
+        name: "Estonian", wojak: "fi_est_f", flag: "ee", speakers: "~1.2 million", scene: "baltic", loc: null, photo: "bg_fi_tallinn", place: "Old Town, Tallinn", photoPos: "50% 60%",
+        cards: [
+          "Estonian is Finnish's closest big cousin: about 1.2 million speakers, just 80 km across the sea from Helsinki.",
+          "Watch out for false friends: 'hallitus' means the government in Finnish, but mould in Estonian.",
+          "She said: 'Hi, I'm Liisi, I'm from Estonia. We're in Kosovo right now, in front of the National Library, which, it turns out, is one of the ugliest buildings in the world. But we don't think so: we think it's at least memorable, and that's pretty great in itself. We're on our second day here, looking around the Balkans.'",
+        ],
+        audio: { file: "cache/audio/finnish_understand/estonian.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Siberian Ingrian Finnish", wojak: "fi_ing_f", flag: "ru", speakers: "~15 native", scene: "village", loc: null, photo: "bg_fi_ryzhkovo", place: "Ryzhkovo, Omsk Oblast, Siberia", photoPos: "50% 55%",
+        cards: [
+          "In 1802, villagers near St Petersburg disobeyed their landowners and were exiled to Siberia, more than 2,000 km east. Their Finnish went with them.",
+          "In the village of Ryzhkovo it became a mixed language of its own, from Ingrian Finnish and Izhorian. At least 15 people still speak it natively.",
+          "She was born in 1949. She said: 'And in the book there was a page from an ABC book. On the page there was a picture: a girl and a dog. [...] The dog stole the bread and brought it to the girl. They called the dog Veikko.'",
+        ],
+        audio: { file: "cache/audio/finnish_understand/siberian_ingrian_finnish.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Livvi Karelian", wojak: "fi_liv_f", flag: "karelia", speakers: "~14,000-25,000", scene: "baltic", loc: null, photo: "bg_fi_olonets", place: "Smolensk Cathedral, Olonets", photoPos: "50% 55%",
+        cards: [
+          "Livvi, or Olonets Karelian, is spoken just across the border, in Russian Karelia, around the town of Olonets: 'Anuksenlinnu' in Livvi.",
+          "She opens with 'Hyvää päiviä!', Finnish 'Hyvää päivää!' (good day). Livvi is written in Latin letters, with extra ones like č, š and ž.",
+          "She said: 'Good afternoon! I'm Tatiana Boiko, a researcher of the Karelian language. I work at the Institute of Language, Literature and History. Karelian has three main dialects: Livvi, Karelian Proper and Ludic. In this short talk I'll speak about Livvi.'",
+        ],
+        audio: { file: "cache/audio/finnish_understand/livvi_karelian.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Võro", wojak: "fi_vro", flag: "ee", speakers: "~75,000", scene: "baltic", loc: null, photo: "bg_fi_voru", place: "Lake Kavadi, Võru County", photoPos: "50% 50%",
+        cards: [
+          "Võro is spoken in south-east Estonia, in old Võru County, by about 75,000 people. It grew from the old South Estonian language, not from the Estonian of Tallinn.",
+          "Like Finnish, and unlike standard Estonian, it kept vowel harmony. In 2004 Estonia sent a song in Võro to Eurovision.",
+          "He said: 'My name is Toomas Kaun; around here they call me Kauna-Toomas. I'll tell my story, then. As far back as I can remember, I've spoken Võro. I'm from the countryside, from Võrumaa: I was born in Antsla. We have a big family.'",
+        ],
+        audio: { file: "cache/audio/finnish_understand/võro.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Ludic", wojak: "fi_lud_f", flag: "karelia", speakers: "~300", scene: "baltic", loc: null, photo: "bg_fi_svyatozero", place: "Svyatozero village, Karelia", photoPos: "50% 55%",
+        cards: [
+          "Ludic sits between Karelian and Veps, near the western shore of Lake Onega. About 300 people speak it, a few children among them.",
+          "Some call it a dialect of Karelian, some a language of its own. 'Head' is 'piä' (Finnish 'pää') and 'swamp' is 'suo', just like Finnish.",
+          "She said: 'Hello! Ludic speakers live in the Olonets, Pryazha and Kondopoga districts of the Republic of Karelia, in places like Svyatozero, Pryazha, Konchezero, Lahte, Tivdiya and Kujärvi. Now Ludic is dying out. It's hard to say how many Ludians are left.'",
+        ],
+        audio: { file: "cache/audio/finnish_understand/ludic.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Veps", wojak: "fi_vep", flag: "ru", speakers: "~1,300", scene: "baltic", loc: null, photo: "bg_fi_ladva", place: "Ladva, a Veps village", photoPos: "50% 55%",
+        cards: [
+          "Veps is the easternmost Finnic language still spoken, between lakes Ladoga and Onega in Russia. The 2020 census counted about 1,300 speakers.",
+          "Cut off for centuries, it lost things Finnish kept: no consonant gradation, so no 'katu, kadun' switching. He is a learner, not a native speaker.",
+          "He said: 'Hello everyone! My name is Eniisi. I live in Petrozavodsk, and I'm learning Veps. [...] I'm learning many languages, German among them. But Veps is the hardest of them all.'",
+        ],
+        audio: { file: "cache/audio/finnish_understand/veps.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Hungarian", wojak: "fi_hun_f", flag: "hu", speakers: "~13 million", scene: "village", loc: null, photo: "bg_fi_budapest", place: "Parliament, Budapest", photoPos: "50% 50%",
+        cards: [
+          "The final boss: Hungarian is Finnish's distant relative. Both are Uralic languages, but they split thousands of years ago.",
+          "A few old words survived: Finnish 'käsi' and Hungarian 'kéz' (hand), 'veri' and 'vér' (blood), 'kala' and 'hal' (fish).",
+          "She said: 'I'm Orsi, I'm 23, I came from Hungary, from Budapest, and right now I live in Pristina, the capital of Kosovo. I've been living and working here for three months: I'm an intern at an international organisation.'",
+        ],
+        audio: { file: "cache/audio/finnish_understand/hungarian.wav", start: 0, voice: "f" },
+      },
+    ],
+  },
   dutch_understand: {
     title: "Languages Dutch Speakers Can Almost Understand", // same format as swedish_understand; audio: build_dutch.py
     layout: "story",
