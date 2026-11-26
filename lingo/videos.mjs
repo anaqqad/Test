@@ -901,6 +901,60 @@ export const VIDEOS = {
       },
     ],
   },
+  french_part2: {
+    title: "Languages French Speakers Can Almost Understand (Part 2)", // facts only, no translations; audio: build_french_part2.py
+    layout: "story",
+    reveal: true, // the cards appear after each clip ends; facts only, no translations
+    counterLabel: "speakers",
+    accent: "#0055a4",
+    items: [
+      {
+        name: "Breton", wojak: "p2_breton", flag: "fr", speakers: "~107,000", scene: "beach", loc: null, photo: "p2_breton", place: "Brittany, France", photoPos: "50% 50%",
+        cards: [
+          "Breton is a Celtic language, closest to Welsh and Cornish, spoken in Brittany in western France.",
+          "About 107,000 people speak Breton, all of them in Brittany.",
+          "Breton has three main dialects: Léon, Trégor and Vannetais.",
+        ],
+        audio: { file: "cache/audio/french_part2/breton.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Corsican", wojak: "p2_corsican", flag: "fr", speakers: "~105,000", scene: "hills", loc: null, photo: "p2_corsican", place: "Calvi, Corsica", photoPos: "50% 50%",
+        cards: [
+          "Corsican is a Romance language, closest to Tuscan Italian, spoken on the island of Corsica.",
+          "About 105,000 people speak Corsican, mostly on the island.",
+          "Corsican has several dialects, and it is taught in some schools on the island.",
+        ],
+        audio: { file: "cache/audio/french_part2/corsican.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Walloon", wojak: "p2_walloon", flag: "be", speakers: "~600,000", scene: "hills", loc: null, photo: "p2_walloon", place: "Liège, Wallonia", photoPos: "50% 50%",
+        cards: [
+          "Walloon is a langue d'oïl, a Romance language close to French, spoken in Wallonia in southern Belgium.",
+          "About 600,000 people have some knowledge of Walloon, and perhaps 300,000 use it actively, mostly in rural areas.",
+          "Walloon is taught at university level, at the Haute École in Liège.",
+        ],
+        audio: { file: "cache/audio/french_part2/walloon.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Alsatian", wojak: "p2_alsatian", flag: "fr", speakers: "~548,000", scene: "village", loc: null, photo: "p2_alsatian", place: "Colmar, Alsace", photoPos: "50% 50%",
+        cards: [
+          "Alsatian is an Alemannic and Franconian dialect group, closer to German than to French, spoken in Alsace in eastern France.",
+          "A 1999 survey counted about 548,000 adult speakers in France, the second most spoken regional language after Occitan.",
+          "In 2023, French public schools began offering Alsatian immersion for the first time.",
+        ],
+        audio: { file: "cache/audio/french_part2/alsatian.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Franco-Provençal", wojak: "p2_cornetta_f", flag: "fr", speakers: "endangered", scene: "alps", loc: null, photo: "p2_franco", place: "Nus, Aosta Valley", photoPos: "50% 50%",
+        cards: [
+          "Franco-Provençal is a Gallo-Romance language, spoken in eastern France, western Switzerland and north-west Italy.",
+          "Ethnologue classifies it as nearly extinct, and UNESCO lists it as endangered in France and Switzerland.",
+          "Today it is mainly spoken as a native language in the Aosta Valley in Italy.",
+        ],
+        audio: { file: "cache/audio/french_part2/franco_provençal.wav", start: 0, voice: "f" },
+      },
+    ],
+  },
   finnish_understand: {
     title: "Languages Finnish Speakers Can Almost Understand", // same format as dutch_understand; audio: build_finnish.py
     layout: "story",
