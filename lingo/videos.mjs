@@ -760,7 +760,7 @@ export const VIDEOS = {
         cards: [
           "Sicilian is spoken on the island of Sicily and parts of southern Italy, by about 4.7 million people. It has been a literary language since the 12th century, when Emperor Frederick II encouraged poets to write in it.",
           "The Italian state does not recognise Sicilian as a language, so it is not taught in schools. Its speakers still use it every day at home.",
-          "This speaker, Steven, was recorded in Independence, Louisiana, a town with a large Sicilian community. We have no translation of this recording, so these cards give facts instead.",
+          "This speaker, Steven, was recorded in Independence, Louisiana, a town with a large Sicilian community.",
         ],
         audio: { file: "cache/audio/italian_understand/sicilian.wav", start: 0, voice: "m" },
       },
@@ -783,7 +783,7 @@ export const VIDEOS = {
         audio: { file: "cache/audio/italian_understand/lombard.wav", start: 2.3, voice: "m" },
       },
       {
-        name: "French", wojak: "s_fra_calm", flag: "fr", speakers: "~312 million", scene: "tuscany", loc: null, photo: "it_french", place: "Paris, France", photoPos: "50% 50%",
+        name: "French", wojak: "it_fra_f", flag: "fr", speakers: "~312 million", scene: "tuscany", loc: null, photo: "it_french", place: "Paris, France", photoPos: "50% 50%",
         cards: [
           "French has about 312 million speakers in total, and about 74 million native speakers.",
           "Italian and French share many words, and many are close: 'amore' is 'amour'.",
@@ -814,7 +814,7 @@ export const VIDEOS = {
         cards: [
           "Friulian is spoken in Friuli, in north-east Italy, by about 600,000 people in total, and about 420,000 regular speakers.",
           "Italy protects Friulian as a minority language by law.",
-          "This speaker, Moroldo, was recorded by Wikitongues for its language documentation project. We have no translation of this recording, so these cards give facts instead.",
+          "This speaker, Moroldo, was recorded by Wikitongues for its language documentation project.",
         ],
         audio: { file: "cache/audio/italian_understand/friulian.wav", start: 0, voice: "m" },
       },
@@ -832,7 +832,7 @@ export const VIDEOS = {
         cards: [
           "Romansh has about 40,000 main-language speakers, mostly in Graubünden, eastern Switzerland, where it is co-official with German.",
           "It is one of Switzerland's four national languages, alongside German, French and Italian, and it is the smallest of the four.",
-          "This speaker was recorded by Wikitongues. We have no translation of this recording, so these cards give facts instead.",
+          "This speaker was recorded by Wikitongues.",
         ],
         audio: { file: "cache/audio/italian_understand/romansh.wav", start: 0, voice: "f" },
       },

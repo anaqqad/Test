@@ -22,7 +22,7 @@ Italian speakers: how much did you understand? Tell us your score out of 12 in t
 4:44 Romansh (~40,000 speakers)
 5:16 Occitan (~200,000 speakers, estimates vary widely)
 
-Translations: Neapolitan and Lombard use the English subtitles on Wikimedia Commons. Sardinian is translated by us from the Italian subtitles on Commons. French is translated by us from a transcript. Spanish, Catalan, Portuguese, Romanian and Occitan are translated by us. Sicilian, Friulian and Romansh have no translation of their recordings, so their cards give facts about the language and the speaker instead.
+Translations: Neapolitan and Lombard use the English subtitles on Wikimedia Commons. Sardinian is translated by us from the Italian subtitles on Commons. French is translated by us from a transcript. Spanish, Catalan, Portuguese, Romanian and Occitan are translated by us. Sicilian, Friulian and Romansh have no translation of their recordings; their cards give facts about the language and the speaker.
 
 Audio credits (all via Wikimedia Commons):
 Neapolitan: "WIKITONGUES- Foffo speaking Neapolitan" by Wikitongues, Nick Panzarella, CC BY-SA 4.0
@@ -40,7 +40,7 @@ Occitan: "Paulina speaking Gascon" by Wikitongues, public domain
 Licences: https://creativecommons.org/licenses/by-sa/4.0/ , https://creativecommons.org/licenses/by/3.0/ , https://creativecommons.org/licenses/by-sa/3.0/ , https://creativecommons.org/licenses/by/2.0/
 Speaker counts are estimates from Wikipedia and vary by source. Friulian is shown as about 600,000 in total (about 420,000 regular speakers). Romansh is shown as the main-language count.
 
-Background photos (all via Wikimedia Commons): Naples from the Vomero by Luca Aless, CC BY-SA 4.0; Palermo by Cezary p, CC BY-SA 4.0; Milan Duomo by Daniel Case, CC BY-SA 3.0; countryside near Nuoro by claire rowland, CC BY 2.0; Udine by Sandro Schachner, CC BY-SA 2.5; Madrid by Asqueladd, CC BY-SA 3.0; Sagrada Família, Barcelona by Alvesgaspar, CC BY-SA 4.0; Paris by Jebulon, CC0; Belém Tower, Lisbon by Diego Delso, CC BY-SA 3.0; Bucharest by Antony Stanley, CC BY-SA 2.0; Tarasp, Engadin by Agnes Monkelbaan, CC BY-SA 4.0; Gavarnie by Benh LIEU SONG, CC BY-SA 3.0
+Background photos (all via Wikimedia Commons): Naples from the Vomero by Luca Aless, CC BY-SA 4.0; Palermo by Cezary p, CC BY-SA 4.0; Milan Duomo by Daniel Case, CC BY-SA 3.0; countryside near Nuoro by claire rowland, CC BY 2.0; Udine by Sandro Schachner, CC BY-SA 2.5; Madrid by Asqueladd, CC BY-SA 3.0; Barcelona from Guinardó Park by Benlet26, CC BY-SA 3.0; Paris skyline by JM Suarez, CC BY 2.0; Belém Tower, Lisbon by Diego Delso, CC BY-SA 3.0; Bucharest by Antony Stanley, CC BY-SA 2.0; Tarasp, Engadin by Agnes Monkelbaan, CC BY-SA 4.0; Gavarnie by Benh LIEU SONG, CC BY-SA 3.0
 
 Thumbnail photo: Naples from the Vomero: photo by Luca Aless, CC BY-SA 4.0, via Wikimedia Commons
 
