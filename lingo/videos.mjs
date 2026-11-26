@@ -730,6 +730,123 @@ export const VIDEOS = {
       },
     ],
   },
+  italian_understand: {
+    title: "Languages Italian Speakers Can Almost Understand", // same format as finnish/dutch_understand; audio: build_italian.py
+    layout: "story",
+    reveal: true, // translation card only after the clip ends
+    counterLabel: "speakers",
+    accent: "#008c45",
+    items: [
+      {
+        name: "Neapolitan", wojak: "sl2_nap", flag: "it", speakers: "~5.7 million", scene: "hills", loc: null, photo: "it_neapolitan", place: "Vomero, Naples", photoPos: "50% 50%",
+        cards: [
+          "Neapolitan is spoken in Naples and across southern Italy. It has about 5.7 million speakers.",
+          "Many Italians from the north find it hard to follow, because its vowels and words differ from standard Italian.",
+          "He said: 'I'm from Naples, I'm from the Spanish Quarters. I live in the Quarters, one of the most beautiful neighbourhoods in the city. You can see Mount Vesuvius from there, and you feel great in Naples. My friends, come and visit!'",
+        ],
+        audio: { file: "cache/audio/italian_understand/neapolitan.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Spanish", wojak: "pt_spa_f", flag: "es", speakers: "~520 million", scene: "tropical", loc: null, photo: "it_spanish", place: "Madrid, Spain", photoPos: "50% 50%",
+        cards: [
+          "Spanish has about 520 million native speakers. Italians can read it easily, because so many words are close.",
+          "'Amico' is 'amigo', 'bocca' is 'boca', and 'chiave' is 'llave'.",
+          "She said: 'Hello, nice to meet you. My name is Azariah Amador, and I'm speaking Spanish. I'm from Honduras, because I travel a lot, and people ask me where I'm from. And I say: I'm from Honduras.'",
+        ],
+        audio: { file: "cache/audio/italian_understand/spanish.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Sicilian", wojak: "it_sic_m", flag: "it", speakers: "~4.7 million", scene: "beach", loc: null, photo: "it_sicilian", place: "Palermo, Sicily", photoPos: "50% 50%",
+        cards: [
+          "Sicilian is spoken on the island of Sicily and parts of southern Italy, by about 4.7 million people. It has been a literary language since the 12th century, when Emperor Frederick II encouraged poets to write in it.",
+          "The Italian state does not recognise Sicilian as a language, so it is not taught in schools. Its speakers still use it every day at home.",
+          "This speaker, Steven, was recorded in Independence, Louisiana, a town with a large Sicilian community. We have no translation of this recording, so these cards give facts instead.",
+        ],
+        audio: { file: "cache/audio/italian_understand/sicilian.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Catalan", wojak: "es_cat_f", flag: "es-ct", speakers: "~9 million", scene: "adriatic", loc: null, photo: "it_catalan", place: "Barcelona, Catalonia", photoPos: "50% 50%",
+        cards: [
+          "Catalan is spoken in Catalonia, Valencia, the Balearic Islands and Andorra, by about 9 million people in total.",
+          "Italians catch some of it: 'bon dia' is 'buongiorno', 'molt' is 'molto'.",
+          "She said: 'Well, I'm Ona, I'm from Mallorca, and for me it's very hard to explain where I'm from.' 'Sóc' is 'sono', 'molt difícil explicar' is 'molto difficile da spiegare'.",
+        ],
+        audio: { file: "cache/audio/italian_understand/catalan.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Lombard", wojak: "it_lom_young", flag: "it", speakers: "~3.8 million", scene: "alps", loc: null, photo: "it_lombard", place: "Duomo, Milan", photoPos: "50% 50%",
+        cards: [
+          "Lombard is spoken across Lombardy, eastern Piedmont, Trentino and Italian-speaking Switzerland, by about 3.8 million people.",
+          "The speaker says it is a language, not a dialect, and that it is disappearing because parents no longer teach it to their children.",
+          "He said: 'Hello everyone. My name is Peder, Pietro in Italian, and I am speaking in Lombard. Lombard is a Western Neo-Latin language, similar to French, Spanish, Portuguese, Catalan, which is spoken in a big part of Northern Italy.'",
+        ],
+        audio: { file: "cache/audio/italian_understand/lombard.wav", start: 2.3, voice: "m" },
+      },
+      {
+        name: "French", wojak: "s_fra_calm", flag: "fr", speakers: "~312 million", scene: "tuscany", loc: null, photo: "it_french", place: "Paris, France", photoPos: "50% 50%",
+        cards: [
+          "French has about 312 million speakers in total, and about 74 million native speakers.",
+          "Italian and French share many words, and many are close: 'amore' is 'amour'.",
+          "She said: 'Hello, my name is Clara. I am 19 years old, and I am originally from Zaragoza in Spain, but now I live in Switzerland, in Neuchâtel, which is a small town in the French-speaking part of Switzerland.' At home her family speaks both Spanish and French.",
+        ],
+        audio: { file: "cache/audio/italian_understand/french.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Sardinian", wojak: "es_srd", flag: "it", speakers: "~1 million", scene: "beach", loc: null, photo: "it_sardinian", place: "Near Nuoro, Sardinia", photoPos: "50% 50%",
+        cards: [
+          "Sardinian has about 1 million speakers, and many linguists see it as the Romance language that kept the most of Latin.",
+          "There is no single Sardinian: this speaker uses a dialect from Siniscola, and he also learned the one from Nuoro.",
+          "He said: 'Hi everyone, my name is Riccardo, and today I'll speak Sardinian. I'll make this video very short, because honestly I don't have much to say. But I can still talk a bit about the language, and about the dialect I'm speaking.' (Our translation of the Italian subtitles.)",
+        ],
+        audio: { file: "cache/audio/italian_understand/sardinian.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Portuguese", wojak: "es_por_f", flag: "pt", speakers: "~265 million", scene: "beach", loc: null, photo: "it_portuguese", place: "Belém Tower, Lisbon", photoPos: "50% 50%",
+        cards: [
+          "Portuguese has about 265 million speakers in total, and most of them live in Brazil, not Portugal.",
+          "Italians read it easily, but European Portuguese swallows its vowels, so it is harder to hear: 'amore' is 'amor', 'lingua' is 'língua'.",
+          "She said: 'Hello, my name is Sara, I'm 23, I'm from Lisbon, the capital of Portugal, but right now I'm studying in the Netherlands.' 'Tenho' is 'tengo', 'estou a estudar' is 'estoy estudiando'.",
+        ],
+        audio: { file: "cache/audio/italian_understand/portuguese.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Friulian", wojak: "it_fri_m", flag: "it", speakers: "~600,000", scene: "hills", loc: null, photo: "it_friulian", place: "Udine, Friuli", photoPos: "50% 50%",
+        cards: [
+          "Friulian is spoken in Friuli, in north-east Italy, by about 600,000 people in total, and about 420,000 regular speakers.",
+          "Italy protects Friulian as a minority language by law.",
+          "This speaker, Moroldo, was recorded by Wikitongues for its language documentation project. We have no translation of this recording, so these cards give facts instead.",
+        ],
+        audio: { file: "cache/audio/italian_understand/friulian.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Romanian", wojak: "es_ron_f", flag: "ro", speakers: "~22 million", scene: "alps", loc: null, photo: "it_romanian", place: "Palace of the Parliament, Bucharest", photoPos: "50% 50%",
+        cards: [
+          "Romanian has about 22 million speakers, and it is the only big Romance language in Eastern Europe, surrounded by Slavic and Hungarian neighbours.",
+          "Its word order is a surprise: it puts 'the' at the end of the word. 'Lup' is Italian 'lupo', and 'lupul' is 'il lupo'.",
+          "She said: 'My home town is Cluj-Napoca, in the heart of Transylvania. You probably know Transylvania for its Count Dracula. But I'm not a vampire, so relax.' 'Conte' is 'conde', 'probabil' is 'probablemente'.",
+        ],
+        audio: { file: "cache/audio/italian_understand/romanian.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Romansh", wojak: "rm_roman_m", flag: "ch", speakers: "~40,000", scene: "alps", loc: null, photo: "it_romansh", place: "Tarasp, Engadin, Switzerland", photoPos: "50% 50%",
+        cards: [
+          "Romansh has about 40,000 main-language speakers, mostly in Graubünden, eastern Switzerland, where it is co-official with German.",
+          "It is one of Switzerland's four national languages, alongside German, French and Italian, and it is the smallest of the four.",
+          "This speaker was recorded by Wikitongues. We have no translation of this recording, so these cards give facts instead.",
+        ],
+        audio: { file: "cache/audio/italian_understand/romansh.wav", start: 0, voice: "f" },
+      },
+      {
+        name: "Occitan", wojak: "fr_gsc_f", flag: "fr", speakers: "~200,000", scene: "hills", loc: null, photo: "it_occitan", place: "Gavarnie, Hautes-Pyrénées", photoPos: "50% 50%",
+        cards: [
+          "Occitan is the old language of southern France and parts of Italy and Spain. Estimates of its speakers vary widely, from about 200,000 to nearly 800,000.",
+          "Its name comes from 'oc', its word for yes, while northern French said 'oïl', today 'oui'. In Italian, 'oc' is 'sì'.",
+          "She said: 'Hello everyone, today I'm going to talk to you about the language of the Ribèra Baisha: the language of the heart, the language of my family, spoken in the plains next to the Pyrenees.' 'Lenga' is 'langue', 'familha' is 'famille'.",
+        ],
+        audio: { file: "cache/audio/italian_understand/occitan.wav", start: 0, voice: "f" },
+      },
+    ],
+  },
   finnish_understand: {
     title: "Languages Finnish Speakers Can Almost Understand", // same format as dutch_understand; audio: build_finnish.py
     layout: "story",
