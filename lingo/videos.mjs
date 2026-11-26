@@ -847,6 +847,60 @@ export const VIDEOS = {
       },
     ],
   },
+  us_accents: {
+    title: "American Accents be like (Part 1)", // real speeches; audio: build_us_accents.py
+    layout: "story",
+    reveal: true, // the quote card appears after the speech
+    counterLabel: "accent",
+    accent: "#3c3b6e",
+    items: [
+      {
+        name: "New York", wojak: "us_trump", flag: "us", speakers: "New York", scene: "alps", loc: null, photo: "us_newyork", place: "Queens, New York", photoPos: "50% 50%",
+        cards: [
+          "New York City English drops the 'r' in words like 'car' and 'floor', unless a vowel follows it.",
+          "The vowel in 'talk' and 'coffee' is often long and open in New York English.",
+          "He said: 'To every family across our nation, the First Lady and I want to wish you all a very, very Merry Christmas.'",
+        ],
+        audio: { file: "cache/audio/us_accents/new_york.wav", start: 0.5, voice: "m" },
+      },
+      {
+        name: "Georgia", wojak: "us_warnock", flag: "us", speakers: "Georgia", scene: "tropical", loc: null, photo: "us_georgia", place: "Savannah, Georgia", photoPos: "50% 50%",
+        cards: [
+          "Southern American English often makes the 'i' in 'time' into one long vowel, closer to 'tahm'.",
+          "Southern speech often stretches vowels and slows down, a pattern many people call a drawl.",
+          "He said: 'Mr. President, I rise today to express my joy in voting to confirm Judge Ketanji Brown Jackson to the United States Supreme Court.'",
+        ],
+        audio: { file: "cache/audio/us_accents/georgia.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Illinois", wojak: "us_obama", flag: "us", speakers: "Illinois", scene: "village", loc: null, photo: "us_illinois", place: "Chicago, Illinois", photoPos: "50% 50%",
+        cards: [
+          "Chicago is part of the Northern Cities Vowel Shift: the vowel in 'cat' and 'bad' moves upward and forward.",
+          "The shift affects much of the Great Lakes region, from Chicago to Detroit and Buffalo.",
+          "He said: 'Mr. Speaker, Mr. Vice President, members of Congress, distinguished guests, and fellow Americans. Tonight, I want to begin by congratulating the men and women of the 112th Congress.'",
+        ],
+        audio: { file: "cache/audio/us_accents/illinois.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "Pennsylvania", wojak: "us_biden", flag: "us", speakers: "Pennsylvania", scene: "hills", loc: null, photo: "us_pennsylvania", place: "Scranton, Pennsylvania", photoPos: "50% 50%",
+        cards: [
+          "Most of Pennsylvania pronounces the 'r' after vowels, so 'car' and 'floor' keep their 'r'.",
+          "Scranton is in northeastern Pennsylvania, where speech blends features from New York and the Midwest.",
+          "He said: 'Simply put, the bill will lower health care costs for millions of Americans, and it will be the most important investment we have ever made in our energy security.'",
+        ],
+        audio: { file: "cache/audio/us_accents/pennsylvania.wav", start: 0, voice: "m" },
+      },
+      {
+        name: "California", wojak: "us_harris", flag: "us", speakers: "California", scene: "beach", loc: null, photo: "us_california", place: "Oakland, California", photoPos: "50% 50%",
+        cards: [
+          "In the Bay Area around Oakland, vowels in words like 'goose' and 'food' move forward in the mouth.",
+          "The Bay Area is one of the most mixed accent areas in the United States, with speakers from many backgrounds.",
+          "She said: 'Three years ago, I spoke from your pulpit. I was there in the pews last year when I joined Congressman John Lewis on his annual civil rights pilgrimage.'",
+        ],
+        audio: { file: "cache/audio/us_accents/california.wav", start: 1.0, voice: "f" },
+      },
+    ],
+  },
   finnish_understand: {
     title: "Languages Finnish Speakers Can Almost Understand", // same format as dutch_understand; audio: build_finnish.py
     layout: "story",
