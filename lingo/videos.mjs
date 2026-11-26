@@ -760,7 +760,7 @@ export const VIDEOS = {
         cards: [
           "Sicilian is spoken on the island of Sicily and parts of southern Italy, by about 4.7 million people. It has been a literary language since the 12th century, when Emperor Frederick II encouraged poets to write in it.",
           "The Italian state does not recognise Sicilian as a language, so it is not taught in schools. Its speakers still use it every day at home.",
-          "This speaker, Steven, was recorded in Independence, Louisiana, a town with a large Sicilian community.",
+          "Sicilian is also spoken by emigrant communities, including in Louisiana in the United States.",
         ],
         audio: { file: "cache/audio/italian_understand/sicilian.wav", start: 0, voice: "m" },
       },
@@ -774,7 +774,7 @@ export const VIDEOS = {
         audio: { file: "cache/audio/italian_understand/catalan.wav", start: 0, voice: "f" },
       },
       {
-        name: "Lombard", wojak: "it_lom_young", flag: "it", speakers: "~3.8 million", scene: "alps", loc: null, photo: "it_lombard", place: "Duomo, Milan", photoPos: "50% 50%",
+        name: "Lombard", wojak: "it_lom_young", flag: "it", speakers: "~3.8 million", scene: "alps", loc: null, photo: "it_lombard", place: "Lake Como, Lombardy", photoPos: "50% 50%",
         cards: [
           "Lombard is spoken across Lombardy, eastern Piedmont, Trentino and Italian-speaking Switzerland, by about 3.8 million people.",
           "The speaker says it is a language, not a dialect, and that it is disappearing because parents no longer teach it to their children.",
@@ -796,12 +796,12 @@ export const VIDEOS = {
         cards: [
           "Sardinian has about 1 million speakers, and many linguists see it as the Romance language that kept the most of Latin.",
           "There is no single Sardinian: this speaker uses a dialect from Siniscola, and he also learned the one from Nuoro.",
-          "He said: 'Hi everyone, my name is Riccardo, and today I'll speak Sardinian. I'll make this video very short, because honestly I don't have much to say. But I can still talk a bit about the language, and about the dialect I'm speaking.' (Our translation of the Italian subtitles.)",
+          "He said: 'Hi everyone, my name is Riccardo, and today I'll speak Sardinian. I'll make this video very short, because honestly I don't have much to say. But I can still talk a bit about the language, and about the dialect I'm speaking.'",
         ],
         audio: { file: "cache/audio/italian_understand/sardinian.wav", start: 0, voice: "m" },
       },
       {
-        name: "Portuguese", wojak: "es_por_f", flag: "pt", speakers: "~265 million", scene: "beach", loc: null, photo: "it_portuguese", place: "Belém Tower, Lisbon", photoPos: "50% 50%",
+        name: "Portuguese", wojak: "es_por_f", flag: "pt", speakers: "~265 million", scene: "beach", loc: null, photo: "it_portuguese", place: "Alfama, Lisbon", photoPos: "50% 50%",
         cards: [
           "Portuguese has about 265 million speakers in total, and most of them live in Brazil, not Portugal.",
           "Italians read it easily, but European Portuguese swallows its vowels, so it is harder to hear: 'amore' is 'amor', 'lingua' is 'língua'.",
@@ -810,11 +810,11 @@ export const VIDEOS = {
         audio: { file: "cache/audio/italian_understand/portuguese.wav", start: 0, voice: "f" },
       },
       {
-        name: "Friulian", wojak: "it_fri_m", flag: "it", speakers: "~600,000", scene: "hills", loc: null, photo: "it_friulian", place: "Udine, Friuli", photoPos: "50% 50%",
+        name: "Friulian", wojak: "it_fri_m", flag: "it", speakers: "~600,000", scene: "hills", loc: null, photo: "it_friulian", place: "Fella valley, Friuli", photoPos: "50% 50%",
         cards: [
           "Friulian is spoken in Friuli, in north-east Italy, by about 600,000 people in total, and about 420,000 regular speakers.",
           "Italy protects Friulian as a minority language by law.",
-          "This speaker, Moroldo, was recorded by Wikitongues for its language documentation project.",
+          "Friulian belongs to the Rhaeto-Romance family, together with Romansh and Ladin, which are spoken in the Alps.",
         ],
         audio: { file: "cache/audio/italian_understand/friulian.wav", start: 0, voice: "m" },
       },
@@ -828,11 +828,11 @@ export const VIDEOS = {
         audio: { file: "cache/audio/italian_understand/romanian.wav", start: 0, voice: "f" },
       },
       {
-        name: "Romansh", wojak: "rm_roman_m", flag: "ch", speakers: "~40,000", scene: "alps", loc: null, photo: "it_romansh", place: "Tarasp, Engadin, Switzerland", photoPos: "50% 50%",
+        name: "Romansh", wojak: "rm_roman_m", flag: "ch", speakers: "~40,000", scene: "alps", loc: null, photo: "it_romansh", place: "Upper Engadin, Switzerland", photoPos: "50% 50%",
         cards: [
           "Romansh has about 40,000 main-language speakers, mostly in Graubünden, eastern Switzerland, where it is co-official with German.",
           "It is one of Switzerland's four national languages, alongside German, French and Italian, and it is the smallest of the four.",
-          "This speaker was recorded by Wikitongues.",
+          "Romansh has five main regional varieties. Rumantsch Grischun is the standard written form, used across Graubünden.",
         ],
         audio: { file: "cache/audio/italian_understand/romansh.wav", start: 0, voice: "f" },
       },
