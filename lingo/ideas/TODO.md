@@ -329,3 +329,7 @@ One Word in 10 Languages, Languages That Count Differently.
 NEXT PROJECT (owner, 2026-11-25): Infinite Language Generator + "AI deciphering championship" video.
    Full brief and known blockers: ideas/infinite_language_generator.md. Code goes in a new GitHub repo the owner is
    creating (not anaqqad/Test). Paid AI APIs and public hosting need the owner's approval first.
+
+SAVED CONCEPT (owner, 2026-11-26, do not start production yet): "What If You Could Learn a Language Without
+   Studying It?" (Linguistic DNA Transfer: a text that turns from English into Spanish as you read).
+   Full concept, references, experiment design and visuals: ideas/linguistic_dna_transfer.md.
