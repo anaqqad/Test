@@ -1,0 +1,532 @@
+{
+ "title": "New Member Thinks Server Roles Are Real Jobs",
+ "premise": "A new server member mistakes chat roles for real jobs.",
+ "width": 1920,
+ "height": 1080,
+ "clock": "1:27",
+ "music": {
+  "default": {
+   "file": "chat/assets/music/fluffing_a_duck.ogg",
+   "gain": -17,
+   "start": 2.0,
+   "credit": "\"Fluffing a Duck\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Fluffing_a_Duck.ogg"
+  },
+  "boss": {
+   "file": "chat/assets/music/sneaky_snitch.ogg",
+   "gain": -18,
+   "start": 0.0,
+   "credit": "\"Sneaky Snitch\" by Kevin MacLeod (incompetech.com), CC BY 4.0, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Sneaky_Snitch_by_Kevin_MacLeod.ogg"
+  }
+ },
+ "cast": {
+  "bot": {
+   "name": "RoleBot",
+   "bot": true,
+   "color": "#8c9bff",
+   "avatar": "chat/assets/avatars/rolebot.svg",
+   "avatarBg": "#5b6ee1"
+  },
+  "trevor": {
+   "name": "trevor",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/s_eng_calm.png",
+   "avatarBg": "#e0b04a",
+   "music": true
+  },
+  "maya": {
+   "name": "Maya",
+   "color": "#57d18a",
+   "avatar": "wojaks/u_tpi_f.png",
+   "avatarBg": "#2f6b48"
+  },
+  "kevin": {
+   "name": "kevin",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/sl2_tgl.png",
+   "avatarBg": "#6a5acd"
+  },
+  "greg": {
+   "name": "Greg",
+   "color": "#ff5c5c",
+   "avatar": "wojaks/s_jpn.png",
+   "avatarBg": "#6b2f33",
+   "music": "boss"
+  }
+ },
+ "beats": [
+  {
+   "who": "bot",
+   "lines": [
+    "Welcome @trevor! 🎉",
+    "Your role: [[Member|#99aab5]]"
+   ],
+   "ping": true,
+   "firstSfx": "join",
+   "lineGap": 0.4,
+   "hold": 0.8
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "OMG I GOT THE JOB",
+    "when do i get paid"
+   ]
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "what job"
+   ],
+   "typing": 0.6
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "it says MEMBER",
+    "do i get dental??"
+   ]
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "trevor",
+    "this is a group chat"
+   ]
+  },
+  {
+   "who": "bot",
+   "lines": [
+    "@trevor is now:",
+    "[[Chef|#e67e22]] 🍳"
+   ],
+   "firstSfx": "role"
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "WAIT",
+    "i can't cook",
+    "i burned cereal once"
+   ],
+   "shake": true
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "it's just a color"
+   ],
+   "pause": 0.35
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "so i'm a chef",
+    "who can't cook",
+    "in a color"
+   ]
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "basically yes"
+   ]
+  },
+  {
+   "who": "bot",
+   "lines": [
+    "@trevor is now:",
+    "[[Doctor|#e91e63]] 🩺"
+   ],
+   "firstSfx": "role"
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "someone in #general is dying",
+    "do i operate??"
+   ]
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "he lost a video game"
+   ],
+   "typing": 0.6
+  },
+  {
+   "who": "trevor",
+   "big": "TIME OF DEATH: 1:31",
+   "shake": true,
+   "sfx": [
+    "boom"
+   ],
+   "hold": 1.3
+  },
+  {
+   "who": "bot",
+   "lines": [
+    "@trevor is now:",
+    "[[Moderator|#3ba55d]] 🛡️"
+   ],
+   "firstSfx": "role"
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "maya",
+    "we're coworkers now 🤝",
+    "what's OUR salary"
+   ]
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "trevor",
+    "nobody gets paid"
+   ],
+   "typing": 1.0,
+   "lineGap": 0.8
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "so we're volunteers",
+    "like firefighters 🚒"
+   ]
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "no"
+   ]
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "ok TEAM",
+    "@everyone MANDATORY MEETING",
+    "dress code: business casual"
+   ],
+   "ping": true
+  },
+  {
+   "who": "kevin",
+   "lines": [
+    "who is this guy"
+   ],
+   "typing": 0.6
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "your new manager",
+    "kevin you're late"
+   ]
+  },
+  {
+   "who": "kevin",
+   "lines": [
+    "late for what"
+   ]
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "the meeting",
+    "it started 4 seconds ago"
+   ]
+  },
+  {
+   "who": "kevin",
+   "lines": [
+    "bro it's 3am"
+   ]
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "then why are you awake",
+    "unprofessional"
+   ]
+  },
+  {
+   "who": "bot",
+   "lines": [
+    "@kevin was timed out for 1 hour ⏱️"
+   ],
+   "firstSfx": "boom",
+   "zoom": 0.95
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "TREVOR",
+    "what did you do"
+   ],
+   "typing": 0.5
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "unpaid leave"
+   ]
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "you can't just do that"
+   ]
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "HR said i can"
+   ]
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "who is HR"
+   ]
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "also me"
+   ],
+   "pause": 0.3
+  },
+  {
+   "who": "trevor",
+   "panel": {
+    "header": "HUMAN RESOURCES — 1",
+    "rows": [
+     {
+      "who": "trevor"
+     }
+    ]
+   },
+   "hold": 1.2,
+   "music": false
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "ok next item",
+    "quarterly earnings 📈"
+   ]
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "we have 0 dollars"
+   ]
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "so we're a startup"
+   ]
+  },
+  {
+   "who": "bot",
+   "lines": [
+    "@trevor just boosted the server! 🚀"
+   ],
+   "firstSfx": "role"
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "why did my bank",
+    "just send $9.99"
+   ],
+   "shake": true
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "you pay THEM"
+   ],
+   "typing": 0.6
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "i'm paying",
+    "to WORK here??"
+   ]
+  },
+  {
+   "who": "maya",
+   "lines": [
+    "welcome to moderating"
+   ]
+  },
+  {
+   "who": "greg",
+   "lines": [
+    "@trevor"
+   ],
+   "typing": 1.0,
+   "ping": true
+  },
+  {
+   "who": "greg",
+   "lines": [
+    "Why is Kevin crying in my DMs."
+   ]
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "performance review"
+   ]
+  },
+  {
+   "who": "greg",
+   "lines": [
+    "He is my nephew."
+   ],
+   "pause": 0.3
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "..."
+   ],
+   "hold": 1.0
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "nepotism",
+    "in MY workplace??"
+   ]
+  },
+  {
+   "who": "greg",
+   "lines": [
+    "Come to my office."
+   ]
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "WE HAVE OFFICES??"
+   ],
+   "shake": true
+  },
+  {
+   "who": "greg",
+   "lines": [
+    "It's a voice channel."
+   ]
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "best day of my life"
+   ]
+  },
+  {
+   "who": "greg",
+   "lines": [
+    "Quick question."
+   ]
+  },
+  {
+   "who": "greg",
+   "lines": [
+    "What is the name of this server?"
+   ]
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "..."
+   ],
+   "hold": 1.1
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "Dental Plans Incorporated"
+   ]
+  },
+  {
+   "who": "greg",
+   "lines": [
+    "It's Cozy Gardening Club."
+   ],
+   "pause": 0.3
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "i work at a GARDEN??"
+   ],
+   "shake": true
+  },
+  {
+   "who": "greg",
+   "lines": [
+    "@trevor you're fired"
+   ],
+   "ping": true,
+   "sfx": [
+    "scratch"
+   ],
+   "typing": 0.8
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "I DON'T EVEN GET PAID"
+   ],
+   "shake": true
+  },
+  {
+   "who": "greg",
+   "lines": [
+    "Exactly. 😊"
+   ]
+  },
+  {
+   "who": "bot",
+   "lines": [
+    "@trevor is now:",
+    "[[Unemployed|#747f8d]]"
+   ],
+   "firstSfx": "role"
+  },
+  {
+   "who": "trevor",
+   "panel": {
+    "header": "UNEMPLOYED — 1",
+    "rows": [
+     {
+      "who": "trevor"
+     }
+    ]
+   },
+   "hold": 1.2,
+   "music": false
+  },
+  {
+   "who": "trevor",
+   "lines": [
+    "finally",
+    "a job i'm qualified for"
+   ],
+   "lineGap": 0.7,
+   "hold": 2.0
+  }
+ ],
+ "timing": {
+  "lineGap": 0.6,
+  "holdBase": 0.7,
+  "holdPerChar": 0.03,
+  "minHold": 0.8
+ }
+}

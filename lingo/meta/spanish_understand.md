@@ -1,0 +1,44 @@
+# YouTube metadata: Languages Spanish Speakers Can Almost Understand
+
+## Title
+Languages Spanish Speakers Can Almost Understand
+
+## Description
+How much Spanish can you hear in these languages? Listen first, then see the translation. Eight real speakers, from Romanian and Sardinian (the language closest to Latin) to Catalan, Italian and Portuguese, and finally the languages of Spain itself: Galician, Extremaduran and Asturian. Every voice is a real recording, no AI.
+
+Spanish speakers: how much did you understand? Tell us your score out of 8 in the comments 👇
+
+0:00 Intro
+0:03 Romanian (~24 million speakers)
+0:27 Sardinian (~1 million speakers)
+0:46 Catalan (~10 million speakers)
+1:08 Italian (~65 million speakers)
+1:26 Portuguese (~260 million speakers)
+1:45 Galician (~2.4 million speakers)
+2:12 Extremaduran (~200,000 speakers)
+2:35 Asturian (~100,000 speakers)
+
+Audio credits (all via Wikimedia Commons):
+Romanian: "WIKITONGUES- Raluca speaking Romanian" by Wikitongues, Nick Panzarella, CC BY-SA 4.0
+Sardinian: "WIKITONGUES- Ricardo speaking Sardinian" by Wikitongues, Ricardo Germán, CC BY-SA 4.0
+Catalan: "WIKITONGUES- Ona speaking Catalan" by Wikitongues, CC BY 3.0
+Italian: "WIKITONGUES- Paola speaking Italian and Sicilian" by Wikitongues, David Paleino, CC BY-SA 4.0
+Portuguese: "WIKITONGUES- Sara speaking Portuguese" by Wikitongues, Guillem Belmar, CC BY-SA 4.0
+Galician: "Galegos no baix -Ràdio Sant Boi -Amador Arias (29-05-2019)" by Ràdio Cornellà, CC0
+Extremaduran: "WIKITONGUES- Daniel speaking Extremaduran" by Wikitongues, Guillem Belmar, CC BY-SA 4.0
+Asturian: "WIKITONGUES- Victor speaking Asturian" by Wikitongues, Daniel Bögre Udell, CC BY-SA 4.0
+Licences: https://creativecommons.org/licenses/by-sa/4.0/ and https://creativecommons.org/licenses/by/3.0/
+Speaker counts are estimates; sources disagree for many small languages.
+
+Thumbnail photo: Tram line 28 in Alfama, Lisbon: photo by Sonse, CC BY 2.0, via Wikimedia Commons
+
+#languages #spanish #español
+
+## Tags
+languages spanish speakers can understand, spanish, español, Portuguese, Italian, Catalan, Galician, Asturian, Extremaduran, Romanian, Sardinian, Romance languages, can you understand, mutual intelligibility, false friends, languages be like, linguistics, LingoDude
+
+## Settings
+- Category: Education
+- Made for kids: No
+- Altered or synthetic content: No (all real recordings)
+- Thumbnail: lingo/videos/thumbP_spanish_understand.png

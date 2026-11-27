@@ -1,0 +1,480 @@
+{
+ "title": "Teaching Foreign Students English be like… (Part 1)",
+ "premise": "An English teacher's class group chat, where her foreign students keep falling for false friends.",
+ "width": 1920,
+ "height": 1080,
+ "clock": "8:02",
+ "ampm": "AM",
+ "timing": {
+  "lineGap": 0.6,
+  "holdBase": 0.7,
+  "holdPerChar": 0.03,
+  "minHold": 0.8
+ },
+ "music": {
+  "default": {
+   "file": "chat/assets/music/monkeys_spinning_monkeys.ogg",
+   "credit": "\"Monkeys Spinning Monkeys\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "silly": {
+   "file": "chat/assets/music/monkeys_spinning_monkeys.ogg",
+   "credit": "\"Monkeys Spinning Monkeys\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "awkward": {
+   "file": "chat/assets/music/scheming_weasel.oga",
+   "credit": "\"Scheming Weasel (faster version)\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "sad": {
+   "file": "chat/assets/music/sad_trio.mp3",
+   "credit": "\"Sad Trio\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "carefree": {
+   "file": "chat/assets/music/carefree.mp3",
+   "credit": "\"Carefree\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "suspense": {
+   "file": "chat/assets/music/investigations.mp3",
+   "credit": "\"Investigations\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  },
+  "boss": {
+   "file": "chat/assets/music/volatile_reaction.mp3",
+   "credit": "\"Volatile Reaction\" by Kevin MacLeod (incompetech.com), CC BY 3.0, via Wikimedia Commons"
+  }
+ },
+ "cast": {
+  "parker": {
+   "name": "Ms. Parker",
+   "color": "#f0b232",
+   "avatar": "wojaks/sl2_gla.png",
+   "avatarBg": "#6b4f2f"
+  },
+  "hans": {
+   "name": "hans",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/r_pol_calm.png",
+   "avatarBg": "#4a5a6b",
+   "music": true
+  },
+  "diego": {
+   "name": "diego",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/s_spa.png",
+   "avatarBg": "#a83b3b",
+   "music": true
+  },
+  "yuki": {
+   "name": "yuki",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/s_jpn_f.png",
+   "avatarBg": "#d9a0b4",
+   "music": true
+  },
+  "pierre": {
+   "name": "pierre",
+   "color": "#f2f3f5",
+   "avatar": "wojaks/s_fra_calm.png",
+   "avatarBg": "#3b5ba8",
+   "music": true
+  },
+  "weber": {
+   "name": "Principal Weber",
+   "color": "#ff5c5c",
+   "avatar": "wojaks/u_sco.png",
+   "avatarBg": "#5a2f2f",
+   "music": "boss"
+  }
+ },
+ "beats": [
+  {
+   "who": "parker",
+   "lines": [
+    "Good morning class! 🍎",
+    "@everyone homework is due TODAY."
+   ],
+   "ping": true,
+   "lineGap": 0.45,
+   "hold": 0.9
+  },
+  {
+   "who": "hans",
+   "lines": [
+    "good morning",
+    "when do i become my homework?"
+   ],
+   "typing": 0.5,
+   "mood": "silly"
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "...become?"
+   ],
+   "sfx": [
+    "huh"
+   ]
+  },
+  {
+   "who": "hans",
+   "lines": [
+    "yes",
+    "i want to become it",
+    "today"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "You mean GET it, Hans.",
+    "German 'bekommen' means 'get'."
+   ],
+   "typing": 0.7
+  },
+  {
+   "who": "hans",
+   "lines": [
+    "ok",
+    "i become it"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "No."
+   ]
+  },
+  {
+   "who": "diego",
+   "lines": [
+    "sorry teacher",
+    "i cannot come today",
+    "i am very constipated 🤧"
+   ],
+   "typing": 0.6,
+   "mood": "awkward"
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Diego."
+   ],
+   "pause": 0.35,
+   "sfx": [
+    "vine_boom"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "That does NOT mean",
+    "what you think."
+   ]
+  },
+  {
+   "who": "diego",
+   "lines": [
+    "i have fever",
+    "i sneeze",
+    "constipado = a cold, no?"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "In English it means",
+    "you can't go",
+    "to the bathroom."
+   ]
+  },
+  {
+   "who": "diego",
+   "lines": [
+    "..."
+   ],
+   "hold": 1.0,
+   "sfx": [
+    "crickets"
+   ]
+  },
+  {
+   "who": "diego",
+   "lines": [
+    "now everyone knows",
+    "i am so embarazada 😳"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "DIEGO",
+    "that means PREGNANT"
+   ],
+   "shake": true
+  },
+  {
+   "who": "diego",
+   "lines": [
+    "I QUIT ENGLISH"
+   ],
+   "shake": true,
+   "mood": "sad"
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Moving on.",
+    "Presentations tomorrow.",
+    "Topic: your home 🏠"
+   ],
+   "typing": 0.6,
+   "mood": "carefree"
+  },
+  {
+   "who": "yuki",
+   "lines": [
+    "sumimasen 🙇‍♀️",
+    "i live in a mansion"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Wow, Yuki!"
+   ]
+  },
+  {
+   "who": "hans",
+   "lines": [
+    "rich"
+   ]
+  },
+  {
+   "who": "yuki",
+   "lines": [
+    "it has one room"
+   ],
+   "sfx": [
+    "record_scratch"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "...that's an apartment."
+   ],
+   "sfx": [
+    "bong"
+   ]
+  },
+  {
+   "who": "yuki",
+   "lines": [
+    "in japan",
+    "an apartment is a 'manshon' 🏢"
+   ]
+  },
+  {
+   "who": "pierre",
+   "lines": [
+    "madame",
+    "i will not assist",
+    "your presentation"
+   ],
+   "typing": 0.7
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "I didn't ASK for your help,",
+    "Pierre."
+   ]
+  },
+  {
+   "who": "pierre",
+   "lines": [
+    "no",
+    "i will not BE THERE",
+    "'assister' = attend 🇫🇷"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Why does nobody",
+    "speak English",
+    "in my ENGLISH class"
+   ]
+  },
+  {
+   "who": "hans",
+   "lines": [
+    "teacher",
+    "i bring you a gift tomorrow 🎁"
+   ],
+   "typing": 0.6,
+   "mood": "suspense"
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Aww, thank you Hans!"
+   ]
+  },
+  {
+   "who": "pierre",
+   "lines": [
+    "madame",
+    "in german 'Gift' means poison"
+   ],
+   "sfx": [
+    "dun_dun_dun"
+   ]
+  },
+  {
+   "who": "parker",
+   "big": "HANS.",
+   "shake": true,
+   "hold": 1.1
+  },
+  {
+   "who": "hans",
+   "lines": [
+    "relax",
+    "it is a cake",
+    "with only a little gift"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "HANS NO"
+   ],
+   "shake": true
+  },
+  {
+   "who": "weber",
+   "lines": [
+    "@Ms.Parker"
+   ],
+   "typing": 1.0,
+   "ping": true,
+   "sfx": [
+    "discord_join"
+   ]
+  },
+  {
+   "who": "weber",
+   "lines": [
+    "Why are students",
+    "sending POISON",
+    "to teachers?"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "It's a false friend.",
+    "Same word,",
+    "different meaning."
+   ]
+  },
+  {
+   "who": "weber",
+   "lines": [
+    "I see."
+   ]
+  },
+  {
+   "who": "weber",
+   "lines": [
+    "Hans,",
+    "you will become detention."
+   ]
+  },
+  {
+   "who": "hans",
+   "lines": [
+    "thank you",
+    "i always wanted",
+    "to become something"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "Sir.",
+    "You mean GET detention."
+   ]
+  },
+  {
+   "who": "weber",
+   "lines": [
+    "That is what I said."
+   ],
+   "pause": 0.3
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "..."
+   ],
+   "hold": 1.0
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "I need a vacation."
+   ]
+  },
+  {
+   "who": "yuki",
+   "lines": [
+    "sumimasen 🙇‍♀️",
+    "you can stay in my mansion"
+   ]
+  },
+  {
+   "who": "parker",
+   "lines": [
+    "IT HAS ONE ROOM, YUKI"
+   ],
+   "shake": true
+  },
+  {
+   "who": "parker",
+   "panel": {
+    "header": "OFFLINE — 1",
+    "rows": [
+     {
+      "who": "parker"
+     }
+    ]
+   },
+   "hold": 1.2,
+   "sfx": [
+    "discord_leave"
+   ],
+   "music": false
+  },
+  {
+   "who": "hans",
+   "lines": [
+    "she left"
+   ],
+   "typing": 0.5,
+   "mood": "sad",
+   "music": false
+  },
+  {
+   "who": "diego",
+   "lines": [
+    "poor teacher",
+    "she is very constipated"
+   ],
+   "lineGap": 0.7,
+   "hold": 2.0,
+   "music": true
+  }
+ ],
+ "musicDb": -21,
+ "part": "Part 1"
+}
