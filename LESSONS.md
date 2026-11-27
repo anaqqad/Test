@@ -39,6 +39,7 @@ learn from former generations to excel at each new one".) Method: skill `wwii-fr
 | 28 | 23 Nov | 34:34 | – | new | Japan Expected MacArthur to Humiliate Them on the Missouri. Then He Called Two Prisoners Forward. https://youtu.be/ilp_rV0J8-A | missouri-surrender |
 | 29 | 25 Nov | 30:53 | – | new | Japanese POWs Were Given Baseball Bats. At 2 A.M., They Charged the Guns. https://youtu.be/pPmkm7kpTX8 | cowra-breakout |
 | 30 | 25 Nov | 14:30 | – | new | German POWs Ate at the Tables. The Black Soldiers Were Sent to the Kitchen. https://youtu.be/lXUmPLFeHX4 | lunchroom-pows |
+| 31 | 27 Nov | 7:44 | – | new | A 15-Year-Old German POW Was Handed a Shovel in Maine. He Thought It Was His Grave. https://youtu.be/jttVuKOV93g | boy-pows |
 
 What the numbers say so far (re-check as the 30-min episodes age; views at 1–2 days mean little):
 - The two hits are contrasts about **enemy POWs inside America**, with an expectation the country upended: "were told to
@@ -130,6 +131,13 @@ What the numbers say so far (re-check as the 30-min episodes age; views at 1–2
   lines: **check every shot's content against its sentence, not just symbols** (sheet each film's used ranges first).
   Kokoro and Whisper here run on the CPU (no GPU slot needed). PC queue: Restricted Files coordinates; ask it before every
   heavy job and report "done". Never delete published episodes' out/*.mp4 (skill rule; Cowra's was deleted by mistake).
+
+- **Boy POWs (31):** owner: "10 mins max". Cost-saving split worked: research and the Chrome upload ran on Sonnet
+  subagents (upload left private; the main session checked notices, set Public, added captions). Lessons: two cards anchored
+  at the same moment give a zero-length card and crash the render (Remotion "durationInFrames 0") - one card per moment;
+  'Troop Train' hides band shots inside long takes, so check every cut's frames, not only the in-point; Cherbourg ADC-1395
+  close-ups show cap eagles (risk 13-41, 92-107). Changing a shot's film changes its tag text with the same overlay id:
+  delete that tag's webm before render_missing.
 
 ## Ideas to test next (pick one per episode, write the result here)
 - Bring the hit shape into the 30-min format: an enemy-POW-in-America contrast story told long (e.g. the "Texas farmer

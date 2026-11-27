@@ -1,0 +1,488 @@
+{
+ "fps": 30,
+ "note": "Test storyboard for src/scenes.tsx (reconstruction scenes). Render: SB=scenes_demo.json OUT=<dir> node render.mjs. Content is a demo, not sourced.",
+ "overlays": [
+  {
+   "id": "demo_dive",
+   "type": "Section",
+   "start": 0,
+   "end": 13,
+   "world": "sea",
+   "W": 4000,
+   "H": 1600,
+   "surface": 420,
+   "floor": 1250,
+   "date": "Demo \u00b7 Dive to a wreck",
+   "place": "Section scene \u00b7 sea",
+   "ruler": {
+    "unit": "FT",
+    "per": 3.6,
+    "step": 50,
+    "max": 250
+   },
+   "cam": [
+    {
+     "t": 0,
+     "x": 1250,
+     "y": 470,
+     "z": 0.9
+    },
+    {
+     "t": 4,
+     "x": 1650,
+     "y": 820,
+     "z": 1.0
+    },
+    {
+     "t": 8,
+     "x": 2150,
+     "y": 1080,
+     "z": 1.2
+    },
+    {
+     "t": 13,
+     "x": 2350,
+     "y": 1110,
+     "z": 1.45
+    }
+   ],
+   "items": [
+    {
+     "kind": "rope",
+     "pts": [
+      [
+       1330,
+       430
+      ],
+      [
+       1700,
+       820
+      ],
+      [
+       2010,
+       1150
+      ]
+     ]
+    },
+    {
+     "kind": "uboat",
+     "x": 2350,
+     "y": 1188,
+     "rot": -3,
+     "wreck": true,
+     "hole": 160,
+     "label": "Unknown U-boat",
+     "labelAt": 8.6,
+     "labelUp": 110
+    },
+    {
+     "kind": "mound",
+     "x": 2060,
+     "y": 1252,
+     "w": 560
+    },
+    {
+     "kind": "mound",
+     "x": 2780,
+     "y": 1252,
+     "w": 420
+    },
+    {
+     "kind": "boat",
+     "x": 1200,
+     "y": 420,
+     "label": "Dive boat",
+     "labelAt": 0.6,
+     "labelTo": 3.6
+    },
+    {
+     "kind": "diver",
+     "s": 1.1,
+     "move": [
+      {
+       "t": 0,
+       "x": 1350,
+       "y": 470,
+       "rot": 46
+      },
+      {
+       "t": 7,
+       "x": 1960,
+       "y": 1060,
+       "rot": 40
+      },
+      {
+       "t": 9,
+       "x": 2060,
+       "y": 1070,
+       "rot": 8
+      },
+      {
+       "t": 13,
+       "x": 2150,
+       "y": 1060,
+       "rot": 4
+      }
+     ],
+     "beam": 14,
+     "beamAt": 4,
+     "label": "The diver",
+     "labelAt": 1.5,
+     "labelTo": 6
+    }
+   ],
+   "pills": [
+    {
+     "t0": 3.2,
+     "t1": 6,
+     "text": "230 feet"
+    },
+    {
+     "t0": 9.6,
+     "t1": 12.4,
+     "text": "No record",
+     "y": 170
+    }
+   ],
+   "ring": {
+    "t0": 5,
+    "t1": 13,
+    "label": "20 minutes of air"
+   },
+   "source": "Demo \u00b7 test render"
+  },
+  {
+   "id": "demo_tunnel",
+   "type": "Section",
+   "start": 13,
+   "end": 25,
+   "world": "ground",
+   "W": 3200,
+   "H": 1600,
+   "surface": 600,
+   "date": "Demo \u00b7 Tunnel under the wire",
+   "place": "Section scene \u00b7 ground",
+   "ruler": {
+    "unit": "FT",
+    "per": 10,
+    "step": 10,
+    "max": 40
+   },
+   "cam": [
+    {
+     "t": 0,
+     "x": 900,
+     "y": 640,
+     "z": 0.85
+    },
+    {
+     "t": 5,
+     "x": 1500,
+     "y": 760,
+     "z": 1.0
+    },
+    {
+     "t": 12,
+     "x": 2150,
+     "y": 700,
+     "z": 0.95
+    }
+   ],
+   "items": [
+    {
+     "kind": "hut",
+     "x": 700,
+     "y": 600,
+     "w": 460,
+     "label": "Hut 104",
+     "labelAt": 0.6,
+     "labelTo": 4
+    },
+    {
+     "kind": "fence",
+     "x": 1750,
+     "y": 600,
+     "w": 360
+    },
+    {
+     "kind": "tower",
+     "x": 2000,
+     "y": 600
+    },
+    {
+     "kind": "man",
+     "pose": "walk",
+     "move": [
+      {
+       "t": 0,
+       "x": 1480,
+       "y": 600
+      },
+      {
+       "t": 12,
+       "x": 1640,
+       "y": 600
+      }
+     ],
+     "linear": true,
+     "label": "Guard",
+     "labelAt": 5,
+     "labelTo": 8
+    },
+    {
+     "kind": "tunnel",
+     "pts": [
+      [
+       700,
+       600
+      ],
+      [
+       700,
+       880
+      ],
+      [
+       760,
+       925
+      ],
+      [
+       2300,
+       925
+      ],
+      [
+       2360,
+       880
+      ],
+      [
+       2360,
+       600
+      ]
+     ],
+     "dig": [
+      1,
+      9.5
+     ],
+     "w": 54
+    },
+    {
+     "kind": "man",
+     "pose": "crawl",
+     "label": "Escaper",
+     "labelAt": 2.2,
+     "labelTo": 7,
+     "labelUp": 120,
+     "follow": 4,
+     "lag": 70
+    },
+    {
+     "kind": "man",
+     "x": 2420,
+     "y": 600,
+     "t0": 9.8,
+     "label": "Outside the wire",
+     "labelAt": 10
+    }
+   ],
+   "pills": [
+    {
+     "t0": 2.5,
+     "t1": 5,
+     "text": "30 feet down",
+     "y": 230
+    },
+    {
+     "t0": 7,
+     "t1": 9.5,
+     "text": "Under the wire",
+     "y": 230
+    }
+   ],
+   "source": "Demo \u00b7 test render"
+  },
+  {
+   "id": "demo_chart",
+   "type": "Chart",
+   "start": 25,
+   "end": 37,
+   "head": "The official account",
+   "date": "Demo plot",
+   "clock": {
+    "t0": 0.5,
+    "t1": 11,
+    "from": "16:53",
+    "to": "18:00"
+   },
+   "zoom": [
+    1.0,
+    1.1
+   ],
+   "tracks": [
+    {
+     "kind": "cargo",
+     "pts": [
+      [
+       -100,
+       260
+      ],
+      [
+       2100,
+       140
+      ]
+     ],
+     "t0": 0,
+     "t1": 14
+    },
+    {
+     "kind": "cargo",
+     "pts": [
+      [
+       -260,
+       360
+      ],
+      [
+       1940,
+       240
+      ]
+     ],
+     "t0": 0,
+     "t1": 14
+    },
+    {
+     "kind": "escort",
+     "label": "Escort A",
+     "pts": [
+      [
+       260,
+       760
+      ],
+      [
+       700,
+       690
+      ],
+      [
+       1060,
+       600
+      ],
+      [
+       1150,
+       575
+      ]
+     ],
+     "t0": 0.5,
+     "t1": 8,
+     "sonar": [
+      2.2,
+      6.5
+     ],
+     "labelAt": 1
+    },
+    {
+     "kind": "escort",
+     "label": "Escort B",
+     "pts": [
+      [
+       1700,
+       980
+      ],
+      [
+       1520,
+       780
+      ],
+      [
+       1400,
+       680
+      ]
+     ],
+     "t0": 3,
+     "t1": 9,
+     "labelAt": 3.5
+    },
+    {
+     "kind": "sub",
+     "pts": [
+      [
+       1240,
+       500
+      ],
+      [
+       1262,
+       512
+      ]
+     ],
+     "t0": 4.2,
+     "t1": 12
+    }
+   ],
+   "contacts": [
+    {
+     "t": 4.4,
+     "x": 1250,
+     "y": 505,
+     "label": "Sound contact"
+    }
+   ],
+   "booms": [
+    {
+     "t": 8.2,
+     "x": 1250,
+     "y": 505,
+     "n": 6
+    }
+   ],
+   "stamps": [
+    {
+     "t": 0.8,
+     "x": 250,
+     "y": 800,
+     "text": "16:53"
+    },
+    {
+     "t": 4.6,
+     "x": 1050,
+     "y": 640,
+     "text": "17:17"
+    },
+    {
+     "t": 8.4,
+     "x": 1360,
+     "y": 420,
+     "text": "17:44"
+    }
+   ],
+   "source": "Demo \u00b7 test render"
+  },
+  {
+   "id": "demo_count",
+   "type": "IconCount",
+   "start": 37,
+   "end": 46,
+   "icon": "man",
+   "total": 150,
+   "label": "Prisoners in the shelters",
+   "accent": "shelters",
+   "highlight": {
+    "n": 11,
+    "label": "Came out alive",
+    "accent": "alive",
+    "at": 4.6
+   },
+   "file": "DEMO \u00b7 ICON COUNT",
+   "source": "Demo \u00b7 test render"
+  },
+  {
+   "id": "demo_object",
+   "type": "ObjectTurn",
+   "start": 46,
+   "end": 53,
+   "shape": "tag",
+   "lines": [
+    "117",
+    "Demo tag"
+   ],
+   "w": 640,
+   "h": 380,
+   "title": "A stamped tag",
+   "caption": "Demo of the turning-object shot",
+   "source": "Demo \u00b7 test render"
+  }
+ ]
+}
