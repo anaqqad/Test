@@ -11,7 +11,7 @@ Five more regional languages of France and its neighbours, each with real record
 0:35 Corsican (~105,000 speakers)
 1:07 Walloon (~600,000 people with some knowledge)
 1:39 Alsatian (~548,000 adult speakers in France)
-2:12 Franco-Provençal (endangered)
+2:11 Franco-Provençal (endangered)
 
 Audio credits:
 Breton: "WIKITONGUES: Jean Luc speaking Breton" by Wikitongues, CC BY 3.0 (YouTube), https://www.youtube.com/watch?v=29euYj0k1Kk
