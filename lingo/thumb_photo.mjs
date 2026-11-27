@@ -111,7 +111,7 @@ const T = {
   swedish_understand: { name: "Danish", photo: "swedish_understand", pos: "75% 50%", flag: "dk", hook: ["Can You", "Understand?!"], hookSize: 90 },
   chinese_dialects: { name: "Shanghainese", photo: "chinese_dialects", pos: "50% 50%", flag: "cn", hook: ["Not", "Mandarin?!"] },
   portuguese_understand: { name: "Galician", photo: "portuguese_understand", pos: "50% 50%", flag: "es-ga", hook: ["Can You", "Understand?!"], hookSize: 90 },
-  french_part2: { part: "PART 2", name: "Breton", photo: "p2_breton", pos: "50% 50%", flag: "fr", hook: ["Five More", "Hidden Tongues"], hookSize: 86 },
+  french_part2: { part: "PART 2", name: "Breton", photo: "p2_breton", pos: "50% 50%", flag: "fr", hook: ["Can You", "Understand?!"], hookSize: 90 },
   french_understand: { part: "PART 1", name: "Haitian Creole", photo: "french_understand", pos: "50% 50%", flag: "ht", hook: ["Can You", "Understand?!"], hookSize: 90 },
   spanish_understand: { name: "Portuguese", photo: "spanish_understand", pos: "50% 50%", flag: "pt", hook: ["Can You", "Understand?!"], hookSize: 90 },
   arabic_understand: { name: "Maltese", photo: "arabic_understand", pos: "50% 50%", flag: "mt", hook: ["Can You", "Understand?!"], hookSize: 90 },
