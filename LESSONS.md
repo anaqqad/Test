@@ -138,6 +138,7 @@ What the numbers say so far (re-check as the 30-min episodes age; views at 1–2
   'Troop Train' hides band shots inside long takes, so check every cut's frames, not only the in-point; Cherbourg ADC-1395
   close-ups show cap eagles (risk 13-41, 92-107). Changing a shot's film changes its tag text with the same overlay id:
   delete that tag's webm before render_missing.
+  **Mistake: 7:44 is under the 8:00 mid-roll floor** (owner, 27 Nov 2026). Rule: never under 8:00; check right after TTS.
 
 ## Ideas to test next (pick one per episode, write the result here)
 - Bring the hit shape into the 30-min format: an enemy-POW-in-America contrast story told long (e.g. the "Texas farmer
